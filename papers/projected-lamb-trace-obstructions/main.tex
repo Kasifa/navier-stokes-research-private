@@ -70,7 +70,9 @@ uniform bare payment of such internal entries is possible.  An outgoing
 coarea identity gives an exact scale-matched representation of every
 finite-order entry, but its zero-level occupation density is not controlled
 here.  None of the results proves global regularity or constructs a
-singularity.
+singularity.  Computer-assisted finite Fourier, spectral-reconstruction, and
+Galerkin calculations are used as audits and corroboration; no analytic
+theorem is inferred from floating-point output.
 \end{abstract}
 
 \medskip
@@ -975,7 +977,16 @@ it is whether the exact Navier--Stokes coupling supplies a scale-zero
 occupation, jet, or amplitude-thresholded charge that can be summed from an
 a priori budget.
 
-\section*{Reproducibility statement}
+\section*{Computer-assisted verification and reproducibility}
+
+Computer assistance was used in four bounded roles: finite Fourier algebra
+checks, independent spectral and real-space reconstructions, quadrature and
+scaling-table audits, and figure generation.  These calculations test the
+finite-frame identities and the numerical points reported in the figures.
+The continuum arguments remain analytic: they use the projected-Lamb identity,
+heat-semigroup estimates, the local solution map, the implicit-function
+theorem, and the Leray energy inequality.  No theorem in this paper depends on
+a floating-point output being treated as a proof.
 
 The exact Fourier identities, independent reconstructions, figure data,
 commands, environments, and checksums are archived in the public repository
@@ -983,10 +994,7 @@ commands, environments, and checksums are archived in the public repository
 \url{https://github.com/Kasifa/Kasifa.github.io}.
 \end{center}
 The corresponding certificate directories are linked from the repository's
-research index.  Their scripts check finite Fourier
-algebra, quadrature identities, and scaling tables.  They do not replace the
-continuum proofs based on the local solution map, the implicit-function
-theorem, or the Leray inequality.  The time-stepping experiment shown in
+research index.  The time-stepping experiment shown in
 Figure~\ref{fig:internal-entry} is a finite Fourier--Galerkin corroboration,
 not DNS and not a continuum error certificate.
 

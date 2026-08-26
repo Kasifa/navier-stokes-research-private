@@ -9,8 +9,9 @@ This directory is a self-contained arXiv-style LaTeX manuscript.
 - `figures/local-trace.pdf`: archived vector figure for the localized heat-trace obstruction;
 - `figures/internal-entry.pdf`: archived vector figure for the positive-time internal-entry construction.
 
-The two figures are copied without modification from the certified figure
-packages in `figures/r071f-local-trace/` and `figures/r071t-internal-entry/`.
+The two figures are regenerated from the certified data and plotting routines
+in `figures/r071f-local-trace/` and `figures/r071t-internal-entry/`; only the
+internal release labels are omitted in the manuscript versions.
 
 ## Build
 
