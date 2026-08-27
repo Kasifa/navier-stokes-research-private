@@ -36,10 +36,17 @@
 \newcommand{\pos}[1]{\left(#1\right)_{+}}
 \newcommand{\dd}{\,\mathrm d}
 
+\hypersetup{
+ pdftitle={Projected-Lamb Heat Packing and Sharp Trace Obstructions for Three-Dimensional Navier-Stokes Flow},
+ pdfauthor={C. K. Zeng},
+ pdfsubject={Three-dimensional incompressible Navier-Stokes equations},
+ pdfkeywords={Navier-Stokes equations, Lamb vector, vorticity stretching, heat extension, trace obstruction}
+}
+
 \title{Projected-Lamb Heat Packing and Sharp Trace Obstructions\\
 for Three-Dimensional Navier--Stokes Flow}
-\author{C. K. Zeng}
-\date{26 August 2026}
+\author{C. K. Zeng\\[-1mm]\small Independent Researcher}
+\date{27 August 2026}
 
 \begin{document}
 \maketitle
@@ -57,8 +64,9 @@ persists under bounded-overlap spatial localization and yields a conditional
 local continuation criterion.
 
 The bulk estimate does not recover the bottom trace.  A fixed smooth radial
-tight frame and an explicit global smooth 2D3C Navier--Stokes family give an
-exact bottom-to-bulk factor \(2K^2\).  The same family shows that matched
+tight frame and an explicit global smooth 2D3C Navier--Stokes family along
+dyadic frequencies \(K=2^j\) give an exact bottom-to-bulk factor \(2K^2\).
+The same family shows that matched
 partitions do not hide the loss, while a covariant interior-cylinder
 construction rules out every geometry-only factor \(o(r^{-2})\).  A second
 construction uses the finite-dimensional implicit-function theorem for the
@@ -153,7 +161,8 @@ The bottom value
  A_{\mathrm{sb},+}(t)=\Theta_0(t)^2/Y(t)
 \]
 is different.  Section~\ref{sec:trace} constructs one fixed dyadically
-covariant radial frame and a global smooth 2D3C family for which
+covariant radial frame and a global smooth 2D3C family for which, at every
+dyadic frequency \(K=2^j\),
 \begin{equation}\label{eq:intro-trace}
  A_{\mathrm{sb},+}(0)=2K^2\mathcal V(0).
 \end{equation}
@@ -239,6 +248,14 @@ Fourier multipliers \((T_j)_j\), with symbols \(m_j(k)\), such that
 For finite frames all sums are literal.  Infinite sums are interpreted by
 finite truncation followed by monotone or Fatou convergence whenever the
 summands are nonnegative.
+
+At energy regularity, expressions containing \(e^{s\Delta}L\) as an
+\(L^2\) field are understood for \(s>0\).  Their heat-height integrals are
+defined by finite shell and positive-height truncation followed by Tonelli
+and Fatou.  At \(s=0\), the shell coefficients are used only when
+\(L\in L^2\); this holds, in particular, at almost every \(H^2\) time of a
+periodic \(H^1\) strong solution.  Changing a coefficient on the remaining
+null set does not affect any continuation hypothesis below.
 
 The rotational form of \eqref{eq:nse} gives
 \begin{equation}\label{eq:lamb}
@@ -345,12 +362,13 @@ For \(s\ge0\), set
 \begin{theorem}[Global heat-bulk estimate]\label{thm:global-bulk}
 At every time at which \(u\in H^1(\Torus)\),
 \begin{equation}\label{eq:bulk-main}
- \Theta_s^2\le\norm{e^{s\Delta}L}_2^2,
+ \Theta_s^2\le\norm{e^{s\Delta}L}_2^2\quad(s>0),
  \qquad
  \int_0^\infty\Theta_s^2\dd s
  \le\frac12\norm{L}_{\dot H^{-1}}^2
  \le\frac12\norm{u}_4^4.
 \end{equation}
+If \(L\in L^2\), the pointwise inequality also holds at \(s=0\).
 For a periodic Leray--Hopf solution and every finite \(T\), the normalized
 bulk
 \begin{equation}\label{eq:Vdef}
@@ -503,7 +521,8 @@ The estimates above integrate in the heat-height variable.  This section
 shows that the missing boundary trace costs two frequency powers even for
 global smooth solutions.
 
-For \(\sigma\in\{-1,1\}\), \(a>0\), and integer \(K\ge1\), define
+For \(\sigma\in\{-1,1\}\), \(a>0\), and dyadic integer
+\(K=2^j\), \(j\ge0\), define
 \begin{equation}\label{eq:2d3c}
  u_{\sigma,a,K}(x)=aK
  \left(0,-2\cos(Kx_1),
@@ -615,10 +634,35 @@ bottom remains between positive constants, while its heat bulk is
 The exact family above is evaluated at an initial trace.  The same critical
 power occurs on strictly interior cylinders, with a narrower conclusion.
 
+For this subsection only, take the covariant one-block tight frame
+\(T_0=I\).  At the center time \(t_Q\) of a skewed cylinder \(Q\), let
+\(\chi_Q\) be its covariantly transported nonnegative spatial cutoff and set
+\[
+ W_s=e^{s\Delta}\omega(t_Q),\qquad
+ F_s=e^{s\Delta}L(t_Q).
+\]
+Define
+\begin{equation}\label{eq:interior-defs}
+ B_Q(s)=\ip{F_s}{\curl(\chi_QW_s)},\qquad
+ d_Q(s)=\norm{\curl(\chi_QW_s)}_2^2,
+\end{equation}
+\[
+ q_Q(s)=
+ \begin{cases}
+  \pos{B_Q(s)}^2/d_Q(s),&d_Q(s)>0,\\
+  0,&d_Q(s)=0.
+ \end{cases}
+\]
+With \(Y_Q=\norm{\omega(t_Q)}_2^2\), put
+\begin{equation}\label{eq:interior-normalized}
+ A_Q=\frac{q_Q(0)}{Y_Q},\qquad
+ \mathcal V_{Q,h}=\frac1{Y_Q}\int_0^h q_Q(s)\dd s.
+\end{equation}
+
 \begin{theorem}[Geometry-only subcritical trace no-go]\label{thm:interior}
-There is a scale-covariant family of smooth whole-space Navier--Stokes
-solutions and strictly interior admissible skewed cylinders \(Q_r\) for
-which
+There is a scale-covariant family of local-in-time smooth whole-space
+Navier--Stokes solutions, each defined on an interval containing a strictly
+interior admissible skewed cylinder \(Q_r\), for which
 \begin{equation}\label{eq:interior-scaling}
  \frac{A_{Q_r}}{\mathcal V_{Q_r,\theta r^2}}=c_*r^{-2},
  \qquad c_*>0.
@@ -633,30 +677,52 @@ geometry and admissibility parameters, cannot have \(c(r)=o(r^{-2})\).
 \end{theorem}
 
 \begin{proof}
-Choose a compactly supported smooth divergence-free datum that agrees in a
-ball with
+Let
 \[
  u_{\mathrm{aff}}=(x_1,-x_2-x_3,0),
  \qquad \omega_{\mathrm{aff}}=(1,0,0).
 \]
+Put \(A_0=-\frac13x\times u_{\mathrm{aff}}\), and choose
+\(\eta\in C_c^\infty(\mathbb R^3)\) equal to one on a ball.  Then
+\(u_0=\curl(\eta A_0)\) is smooth, compactly supported, and divergence free.
+Because \(u_{\mathrm{aff}}\) is linear, homogeneous, and divergence free,
+\(\curl A_0=u_{\mathrm{aff}}\), so \(u_0=u_{\mathrm{aff}}\) on the smaller
+affine core.
+
 In the affine core,
 \(\curl L=(\omega\cdot\nabla)u-(u\cdot\nabla)\omega=(1,0,0)\).
-For a suitable nonnegative cutoff \(\chi\) in the core,
-\(B_\chi^L>0\) and the localized denominator is positive.  Smooth local
-existence and continuity preserve this at a small positive center time.
+Choose a nonnegative cutoff \(\chi\) supported in the core with
+\(\nabla\chi\times\omega_{\mathrm{aff}}\not\equiv0\).  At the initial trace,
+\[
+ \int\chi\,\omega_{\mathrm{aff}}\cdot\curl L\dd x>0,
+ \qquad \norm{\curl(\chi\omega_{\mathrm{aff}})}_2>0.
+\]
+Multiplying the datum by a sufficiently small fixed positive amplitude
+preserves both inequalities.  Smooth local existence and continuity preserve
+them at a small positive center time.
 Sufficiently small skewed cylinders are admissible in the sense of
 \citet{Yang2020}, because their admissibility quantity is bounded by
 \(r^2\sup\norm{\nabla u}_\infty\).
 
-Fix one such base cylinder with radius \(r_0\) and heat height
-\(h_0=\theta r_0^2\).  Under the exact scaling
+Fix one such base cylinder with radius \(r_0\).  Continuity in \(s\) gives
+\(q_Q(s)>0\) on some interval \([0,h_0]\); set
+\(\theta=h_0/r_0^2\).  Under the exact scaling
 \[
  u_\lambda(t,x)=\lambda u(\lambda^2t,\lambda x),
  \quad r_\lambda=\lambda^{-1}r_0,
  \quad h_\lambda=\lambda^{-2}h_0,
 \]
-the normalized bottom scales as \(\lambda^2A_Q\), while the normalized heat
-bulk is invariant.  This is exactly \eqref{eq:interior-scaling}.
+and covariant scaling of the cutoff, mollifier, trajectory, and heat height,
+\[
+ B_{Q_\lambda}=\lambda^3B_Q,\quad
+ d_{Q_\lambda}=\lambda^3d_Q,\quad
+ q_{Q_\lambda}=\lambda^3q_Q,\quad
+ Y_{Q_\lambda}=\lambda Y_Q.
+\]
+Consequently \(A_{Q_\lambda}=\lambda^2A_Q\), while
+\(\mathcal V_{Q_\lambda,h_\lambda}=\mathcal V_{Q,h_0}\).  Since both base
+quantities are positive, this is exactly \eqref{eq:interior-scaling}, with
+\(c_*=r_0^2A_Q/\mathcal V_{Q,h_0}>0\).
 \end{proof}
 
 Theorem~\ref{thm:interior} does not reject a critical \(Cr^{-2}\) trace
@@ -691,9 +757,11 @@ averages give
 \end{equation}
 
 Let \(E_*\) be the finite-dimensional real divergence-free velocity space
-on the target modes and let \(P_*\) be the corresponding projection.  For
-smooth data near zero, standard local theory gives a smooth fixed-time map
-\(S_t\) on a common interval, with
+on the target modes and let \(P_*\) be the corresponding projection.  Fix
+an integer \(m\ge3\).  Standard periodic local theory gives a smooth
+fixed-time solution map \(S_t\) from a neighborhood of zero in the
+divergence-free, mean-zero \(H^m\) space to \(H^m\), on a common interval;
+see \citet{FujitaKato1964,Temam2001}.  Its derivative is
 \begin{equation}\label{eq:flow-derivative}
  DS_\tau(0)h=e^{\nu\tau\Delta}h.
 \end{equation}
@@ -790,8 +858,12 @@ and define
  \qquad
  a_\beta=\kappa_{j(\beta)}^{-2}A_{\beta,+}.
 \end{equation}
-Here \(\kappa_j\) is the nominal shell frequency.  The atom \(a_\beta\) is
-scale invariant.
+Here \(\kappa_j\) is the nominal shell frequency.  In the base construction
+of Theorem~\ref{thm:entry}, the target modes have Fourier radius
+\(\abs{k}=\sqrt2\), and the shell convention is \(\kappa_*=1\); after the
+integer dilation \(\lambda\), the corresponding nominal frequency is
+\(\kappa_{*,\lambda}=\lambda\).  With this convention the atom
+\(a_\beta\) is scale invariant.
 
 For the family in Theorem~\ref{thm:entry},
 \begin{equation}\label{eq:bare-base}
@@ -989,12 +1061,16 @@ theorem, and the Leray energy inequality.  No theorem in this paper depends on
 a floating-point output being treated as a proof.
 
 The exact Fourier identities, independent reconstructions, figure data,
-commands, environments, and checksums are archived in the public repository
-\begin{center}
-\url{https://github.com/Kasifa/Kasifa.github.io}.
-\end{center}
-The corresponding certificate directories are linked from the repository's
-research index.  The time-stepping experiment shown in
+commands, environments, and checksums used here are archived in the
+immutable public snapshot at commit
+\href{https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0}
+{\texttt{89b2ba3cc808}}.  The
+\href{https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0/research/certificates/r071f}
+{localized-trace certificate} and the
+\href{https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0/research/certificates/r071t}
+{internal-entry certificate} contain the exact producers, independent
+programs, environments, outputs, and checksum manifests.
+The time-stepping experiment shown in
 Figure~\ref{fig:internal-entry} is a finite Fourier--Galerkin corroboration,
 not DNS and not a continuum error certificate.
 
