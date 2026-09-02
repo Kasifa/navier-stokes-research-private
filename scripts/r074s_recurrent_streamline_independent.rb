@@ -23,7 +23,8 @@ require "rbconfig"
 
 REPO = File.expand_path("..", __dir__)
 SCHEMA = "r074s-recurrent-streamline-independent-audit-v1"
-FROZEN_HEAD = "159ea3c548e51b918512855cf79959460e882b48"
+STEP16_PARENT_COMMIT = "159ea3c548e51b918512855cf79959460e882b48"
+STEP17_CORE_COMMIT = "7355c01dead23c3524242006318b02a8324447e6"
 
 MUTATION_ENV = "R074S_RECURRENT_INDEPENDENT_MUTATION"
 INTERNAL_MUTATION = "R074S_RECURRENT_INDEPENDENT_INTERNAL_MUTATION"
@@ -693,13 +694,27 @@ def artifact_checks
       "pass" => actual == spec.fetch("sha256")
     }
   end
-  stdout, stderr, status = Open3.capture3("git", "-C", REPO, "rev-parse", "HEAD")
-  actual_head = status.success? && stderr.empty? ? stdout.strip : nil
+  core_stdout, core_stderr, core_status = Open3.capture3(
+    "git", "-C", REPO, "rev-parse", "#{STEP17_CORE_COMMIT}^{commit}"
+  )
+  parent_stdout, parent_stderr, parent_status = Open3.capture3(
+    "git", "-C", REPO, "rev-parse", "#{STEP17_CORE_COMMIT}^"
+  )
+  _ancestor_stdout, ancestor_stderr, ancestor_status = Open3.capture3(
+    "git", "-C", REPO, "merge-base", "--is-ancestor", STEP17_CORE_COMMIT, "HEAD"
+  )
+  actual_core = core_status.success? && core_stderr.empty? ? core_stdout.strip : nil
+  actual_parent = parent_status.success? && parent_stderr.empty? ? parent_stdout.strip : nil
+  is_ancestor = ancestor_status.success? && ancestor_stderr.empty?
   rows << {
-    "id" => "frozen_Step16_git_head",
-    "expected_sha256" => FROZEN_HEAD,
-    "actual_sha256" => actual_head,
-    "pass" => actual_head == FROZEN_HEAD
+    "id" => "step17_core_commit_and_parent",
+    "expected_commit" => STEP17_CORE_COMMIT,
+    "actual_commit" => actual_core,
+    "expected_parent" => STEP16_PARENT_COMMIT,
+    "actual_parent" => actual_parent,
+    "core_is_ancestor_of_HEAD" => is_ancestor,
+    "pass" => actual_core == STEP17_CORE_COMMIT &&
+              actual_parent == STEP16_PARENT_COMMIT && is_ancestor
   }
   rows
 end

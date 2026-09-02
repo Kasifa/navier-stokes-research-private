@@ -8,10 +8,11 @@ The independent executable is
 `scripts/r074s_recurrent_streamline_independent.rb`.  It is locked to:
 
 ```text
-frozen git HEAD  159ea3c548e51b918512855cf79959460e882b48
-Step 15          2e41f89e2ed13c09f64f09ace1b7884303e9add0b874e934ba210519b8a8ba5d
-Step 16          de2365c38201996276c280441ab17c6c065e74a4301106484dd1cdc88a341fb0
-Step 17          7d204b326be45a82bc0d8531ea2f2d894c0c125b76e3ccbf02fdc1978a6011c5
+Step-16 parent   159ea3c548e51b918512855cf79959460e882b48
+Step-17 core     7355c01dead23c3524242006318b02a8324447e6
+Step-15 note     2e41f89e2ed13c09f64f09ace1b7884303e9add0b874e934ba210519b8a8ba5d
+Step-16 note     de2365c38201996276c280441ab17c6c065e74a4301106484dd1cdc88a341fb0
+Step-17 note     7d204b326be45a82bc0d8531ea2f2d894c0c125b76e3ccbf02fdc1978a6011c5
 ```
 
 The primary Python producer represents the Taylor field by Gaussian-rational
@@ -45,7 +46,7 @@ overall verdict                    PASS
 
 Three additional full executions from the repository and `/`, under distinct
 hash seeds, were byte-identical.  Their common stdout digest was
-`66e04c5a8b9374183d26bcc922eccd4e86e1af9e3dd5fd55db342c69b24d0baf`.
+`b7e1d4bfa23214246c12c412f4fd767cc89330ba3b727622c7da1122ed645b6b`.
 
 ## 1. Exact algebra and topology screen
 
