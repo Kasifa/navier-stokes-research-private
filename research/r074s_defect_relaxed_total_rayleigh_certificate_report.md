@@ -2,10 +2,10 @@
 
 ## Result
 
-**PASS** — 14/14 exact algebra rows,
-16/16 finite checks,
-63/63 structural checks,
-and 16/16
+**PASS** — 16/16 exact algebra rows,
+19/19 finite checks,
+75/75 structural checks,
+and 20/20
 negative mutations passed.
 
 ## Exact algebra
@@ -26,6 +26,8 @@ negative mutations passed.
 | cross_shell_coefficient_cube_gamma | 1/1 | 1/1 | 0/1 |
 | cross_shell_coefficient_cube_dyadic | 3/1 | 3/1 | 0/1 |
 | selected_flux_sharp_coefficient | 1/1 | 1/1 | 0/1 |
+| direct_clock_to_full_flux_one_BQ | 1/1 | 1/1 | 0/1 |
+| exact_family_ratio_identity_at_K_4096 | 4096/1 | 4096/1 | 0/1 |
 
 ## Finite rational checks
 
@@ -68,6 +70,15 @@ negative mutations passed.
   120 exact proxies.  Existence of the common
   good zero-start and the inherited stopped-work framework remain explicitly
   analytic inputs.
+- The no-exception clock/flux comparison passes
+  5184 exact aggregate fixtures,
+  including 7 sharp
+  `C_full-W_up=B_Q` cases and
+  224 sharp reverse cases.
+  The inherited exact-family scaling proxy reaches ratio
+  `4096/1` after 12 rows,
+  while 48 fixtures independently
+  preserve the conditional arithmetic of (S.38).
 
 ## Negative mutations
 
@@ -81,6 +92,10 @@ negative mutations passed.
 - `mutation_close_hard_terminal_endpoint`: rejected.
 - `mutation_promote_fixed_scale_X_finiteness_to_quadratic_bound`: rejected.
 - `mutation_promote_linear_scalar_flux_bound_to_quadratic`: rejected.
+- `mutation_change_universal_gate_REFUTED_back_to_OPEN`: rejected.
+- `mutation_delete_common_zero_start_from_lower_comparison`: rejected.
+- `mutation_weaken_sharp_BQ_flux_comparison_to_2BQ`: rejected.
+- `mutation_delete_BQ_error_from_flux_comparison`: rejected.
 - `mutation_promote_liminf_to_hard_mass_convergence`: rejected.
 - `mutation_assert_smooth_density_existence`: rejected.
 - `mutation_assert_selected_sum_lsc`: rejected.
@@ -90,9 +105,9 @@ negative mutations passed.
 
 ## Reproducibility
 
-- Source note SHA-256: `0324950c7d9e1500e02f9f17ae1cb6551f4a8acb44acdce12533abc7f50153a5`
-- Generator SHA-256: `a60f2e0662b8a0a8489a7fdcd1a9fd1aafe5f3b622b7842f9f33d428dd748ea5`
-- JSON payload SHA-256: `5b65775343d09b8d2bcd975fc7e8eb59728411728151adb7e9ee94ff1c4ca030`
+- Source note SHA-256: `0a79f2c5bb59644eca710b3d9341776853ceb4d1f65a36869c2465073f8c08ab`
+- Generator SHA-256: `18735df5a8eff96167ef6314dad04150636c800c276e2fcffc7cbd8177fce9cf`
+- JSON payload SHA-256: `3639edbccfddd97781805ed121fc91407771b9bf051ffefae5a17ad80087c69c`
 - There is no timestamp, random seed, floating-point calculation, network
   input, or non-standard Python dependency.
 - Set `R074S_DEFECT_RELAXED_NOTE`, `R074S_DEFECT_RELAXED_JSON`, and
@@ -104,7 +119,9 @@ This is a finite/algebraic certificate.  It checks exact rational threshold
 arithmetic, finite atomic or step-function proxies, exponent bookkeeping, and
 statement integrity.  It does **not** machine-prove Jordan/Radon regularity,
 Portmanteau or measure topology, the inherited R0.74P/R0.74R estimates, their
-analytic hypotheses, existence of smooth approximants, any Navier--Stokes PDE
-claim, regularity, or the Millennium problem.
+analytic hypotheses, the inherited R0.74O/P smooth exact PDE family, existence
+of smooth approximants, any new Navier--Stokes PDE claim, regularity, or the
+Millennium problem.  The finite scaling rows audit the arithmetic of the
+stated refutation; the smooth family itself remains inherited analysis.
 
 **FINITE/ALGEBRAIC ONLY.  MEASURE TOPOLOGY AND PDE NOT MACHINE-PROVED.  NOT CLAY.**

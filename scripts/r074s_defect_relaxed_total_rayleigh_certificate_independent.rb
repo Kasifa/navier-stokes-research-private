@@ -58,6 +58,8 @@ EXPECTED_PRIMARY_IDS = {
     cross_shell_coefficient_cube_gamma
     cross_shell_coefficient_cube_dyadic
     selected_flux_sharp_coefficient
+    direct_clock_to_full_flux_one_BQ
+    exact_family_ratio_identity_at_K_4096
   ],
   "finite_checks" => %w[
     finite_signed_measure_scalar_x_below_Jordan_X
@@ -76,6 +78,9 @@ EXPECTED_PRIMARY_IDS = {
     finite_global_scalar_excess_to_flux_variation_ledger
     exact_selected_flux_six_fifths_coefficient
     finite_selected_excess_to_common_terminal_stopped_work_proxy
+    finite_no_exception_clock_and_flux_comparison
+    finite_inherited_exact_family_universal_quadratic_refutation_proxy
+    finite_S38_conditional_implication_arithmetic
   ],
   "negative_mutations" => %w[
     mutation_reorder_priority_sigma_before_beta
@@ -88,6 +93,10 @@ EXPECTED_PRIMARY_IDS = {
     mutation_close_hard_terminal_endpoint
     mutation_promote_fixed_scale_X_finiteness_to_quadratic_bound
     mutation_promote_linear_scalar_flux_bound_to_quadratic
+    mutation_change_universal_gate_REFUTED_back_to_OPEN
+    mutation_delete_common_zero_start_from_lower_comparison
+    mutation_weaken_sharp_BQ_flux_comparison_to_2BQ
+    mutation_delete_BQ_error_from_flux_comparison
     mutation_promote_liminf_to_hard_mass_convergence
     mutation_assert_smooth_density_existence
     mutation_assert_selected_sum_lsc
@@ -103,13 +112,14 @@ EXPECTED_PRIMARY_SCOPE = {
   "machine_proves_Navier_Stokes_PDE" => false,
   "machine_proves_Portmanteau_or_measure_topology" => false,
   "machine_proves_good_stop_selection_or_primitive_continuity" => false,
+  "machine_proves_inherited_R074O_R074P_exact_PDE_family" => false,
   "machine_proves_inherited_R074P_R074R_analysis" => false,
   "machine_proves_regularity_or_Clay" => false,
   "machine_proves_smooth_approximation_existence" => false
 }.freeze
 
 REQUIRED_PRIMARY_STRUCTURAL_IDS = %w[
-  tags_consecutive_S163_through_S196
+  tags_consecutive_S163_through_S199
   tags_unique
   priority_order_beta_sigma_x
   selected_index_is_I_x
@@ -119,7 +129,19 @@ REQUIRED_PRIMARY_STRUCTURAL_IDS = %w[
   sharp_five_sixths_six_fifths
   fixed_scale_Jordan_finiteness
   global_scalar_linear_flux_ledger
+  no_exception_clock_comparison
+  no_exception_common_zero_start
+  universal_gate_refuted_not_open
 ].freeze
+
+EXPECTED_PRIMARY_EXACT_VALUES = {
+  "direct_clock_to_full_flux_one_BQ" => {
+    "left" => "1/1", "right" => "1/1", "margin" => "0/1"
+  },
+  "exact_family_ratio_identity_at_K_4096" => {
+    "left" => "4096/1", "right" => "4096/1", "margin" => "0/1"
+  }
+}.freeze
 
 def fraction_string(value)
   "#{value.numerator}/#{value.denominator}"
@@ -267,6 +289,24 @@ def independent_exact_bookkeeping
       Rational(6, 5) * Rational(5, 6),
       Rational(1),
       "the direct selected terminal-flux coefficient is six fifths"
+    ),
+    exact_row(
+      "full_flux_equivalence_coefficient",
+      Rational(1),
+      Rational(1),
+      "the shell partition spends each Q-variation row once, not twice"
+    ),
+    exact_row(
+      "zero_clock_negative_Q_sharp_margin",
+      (Rational(0) - Rational(1)).abs,
+      Rational(1),
+      "K=0, Q=-1, F=1 makes |W-C_full|=B_Q"
+    ),
+    exact_row(
+      "exact_family_ratio_lower_bound",
+      (Rational(8) - Rational(1)) / Rational(1),
+      Rational(7),
+      "C_full/A=K_star and B_Q/A<=1 give W_up/A>=K_star-1"
     )
   ]
 
@@ -715,6 +755,146 @@ def independent_shear_boundary
   }
 end
 
+def discrete_terminal_observables(k_rows, q_rows)
+  shell_count = k_rows.length
+  time_count = k_rows.fetch(0).length
+  raise ArgumentError, "shape mismatch" unless q_rows.length == shell_count
+  raise ArgumentError, "empty time grid" unless time_count >= 2
+  raise ArgumentError, "shape mismatch" unless (k_rows + q_rows).all? { |row| row.length == time_count }
+  raise ArgumentError, "nonzero initial clock" unless (k_rows + q_rows).all? { |row| row.fetch(0).zero? }
+  raise ArgumentError, "negative completed clock" unless k_rows.flatten.all? { |value| value >= 0 }
+
+  flux_rows = shell_count.times.map do |shell|
+    time_count.times.map { |time| k_rows[shell][time] - q_rows[shell][time] }
+  end
+  b_q = q_rows.sum do |row|
+    (1...time_count).sum { |time| (row[time] - row[time - 1]).abs }
+  end
+  k_sup = (1...time_count).map do |time|
+    k_rows.sum { |row| row[time] }
+  end.max
+  c_full = (1...time_count).map do |time|
+    positive_part(flux_rows.sum { |row| row[time] })
+  end.max
+
+  w_up = (1...time_count).map do |terminal|
+    shell_contributions = shell_count.times.map do |shell|
+      valid = (0...terminal).select do |stop|
+        k_rows[shell][terminal] - k_rows[shell][stop] > k_rows[shell][terminal] / 4
+      end
+      next Rational(0) if valid.empty?
+
+      best = valid.map do |stop|
+        flux_rows[shell][terminal] - flux_rows[shell][stop]
+      end.max
+      positive_part(best)
+    end
+    shell_contributions.sum
+  end.max
+
+  {
+    "B_Q" => b_q,
+    "K_sup" => k_sup,
+    "C_full" => c_full,
+    "W_up" => w_up
+  }
+end
+
+def independent_no_exception_equivalence
+  k_values = [Rational(0), Rational(1), Rational(2)]
+  q_values = [Rational(-1), Rational(0), Rational(1)]
+  configurations = 0
+  equality_c_minus_w = 0
+  equality_w_minus_c = 0
+  failures = []
+
+  # Two shells and two post-initial times.  Piecewise-linear interpolation
+  # realizes every row with nonnegative K and absolutely continuous Q.
+  k_values.repeated_permutation(4) do |k_flat|
+    q_values.repeated_permutation(4) do |q_flat|
+      k_rows = [[Rational(0), k_flat[0], k_flat[1]],
+                [Rational(0), k_flat[2], k_flat[3]]]
+      q_rows = [[Rational(0), q_flat[0], q_flat[1]],
+                [Rational(0), q_flat[2], q_flat[3]]]
+      observed = discrete_terminal_observables(k_rows, q_rows)
+      b_q = observed.fetch("B_Q")
+      k_sup = observed.fetch("K_sup")
+      c_full = observed.fetch("C_full")
+      w_up = observed.fetch("W_up")
+      configurations += 1
+      equality_c_minus_w += 1 if c_full - w_up == b_q && b_q.positive?
+      equality_w_minus_c += 1 if w_up - c_full == b_q && b_q.positive?
+      conditions = [
+        k_sup - b_q <= w_up,
+        w_up <= k_sup + b_q,
+        (w_up - c_full).abs <= b_q
+      ]
+      next if conditions.all?
+
+      failures << {
+        "K" => k_rows.map { |row| row.map { |value| fraction_string(value) } },
+        "Q" => q_rows.map { |row| row.map { |value| fraction_string(value) } },
+        "observed" => observed.transform_values { |value| fraction_string(value) }
+      } if failures.length < 12
+    end
+  end
+
+  sharp = discrete_terminal_observables(
+    [[Rational(0), Rational(0)]],
+    [[Rational(0), Rational(-1)]]
+  )
+  sharp_conditions = [
+    sharp.fetch("B_Q") == 1,
+    sharp.fetch("K_sup") == 0,
+    sharp.fetch("C_full") == 1,
+    sharp.fetch("W_up") == 0,
+    (sharp.fetch("W_up") - sharp.fetch("C_full")).abs == sharp.fetch("B_Q")
+  ]
+
+  {
+    "id" => "independent_no_exception_gate_equivalence",
+    "configurations_checked" => configurations,
+    "C_minus_W_sharp_cases" => equality_c_minus_w,
+    "W_minus_C_sharp_cases" => equality_w_minus_c,
+    "zero_clock_negative_Q_stress" => sharp.transform_values { |value| fraction_string(value) },
+    "failures" => failures,
+    "pass" => failures.empty? && sharp_conditions.all? && equality_c_minus_w.positive?
+  }
+end
+
+def independent_exact_family_refutation
+  k_stars = [2, 4, 8, 16, 32].map { |value| Rational(value) }
+  rows = k_stars.map do |k_star|
+    terminal_scale = k_star
+    quadratic_scale = terminal_scale / k_star
+    q_error = quadratic_scale
+    stopped_lower = terminal_scale - q_error
+    ratio_lower = stopped_lower / quadratic_scale
+    {
+      "K_star" => fraction_string(k_star),
+      "terminal_scale" => fraction_string(terminal_scale),
+      "quadratic_scale" => fraction_string(quadratic_scale),
+      "stopped_ratio_lower" => fraction_string(ratio_lower),
+      "expected_ratio_lower" => fraction_string(k_star - 1),
+      "pass" => ratio_lower == k_star - 1
+    }
+  end
+
+  {
+    "id" => "independent_exact_family_universal_gate_refutation",
+    "rows" => rows,
+    "ratios_strictly_increase" => rows.each_cons(2).all? do |left, right|
+      Rational(*left.fetch("stopped_ratio_lower").split("/").map(&:to_i)) <
+        Rational(*right.fetch("stopped_ratio_lower").split("/").map(&:to_i))
+    end,
+    "pass" => rows.all? { |row| row.fetch("pass") } &&
+      rows.each_cons(2).all? do |left, right|
+        Rational(*left.fetch("stopped_ratio_lower").split("/").map(&:to_i)) <
+          Rational(*right.fetch("stopped_ratio_lower").split("/").map(&:to_i))
+      end
+  }
+end
+
 def structural_results(note_body)
   compact = compact_source(note_body)
   tags = note_body.scan(/\\tag\{S\.(\d+)\}/).flatten.map(&:to_i)
@@ -727,7 +907,7 @@ def structural_results(note_body)
     "starts_at_S163" => tags.min == 163,
     "tags_contiguous" => tags == expected_tags,
     "tags_unique" => tag_counts.values.all? { |count| count == 1 },
-    "contains_S191_or_later" => tags.max >= 191,
+    "contains_S199" => tags.max == 199,
     "open_terminal_interval" => compact.include?("J_\\tau:=(s_R,\\tau)"),
     "sigma_definition" => compact.include?("\\sigma_{k,R}(A):={1\\overR^2}\\int_Ae_{k,R}(t)dt"),
     "nu_definition" => compact.include?("\\nu_{k,R}(A):={\\gamma_k\\overR}"),
@@ -764,6 +944,20 @@ def structural_results(note_body)
     "X_finiteness_bound" => compact.include?("\\mathcalX_{1,R}^{\\boldsymbol\\lambda}(\\tau)\\le\\sum_{k\\ge1}\\nu_{k,R}(J_\\tau)"),
     "scalar_flux_pointwise" => compact.include?("x_{k,R}^{\\boldsymbol\\lambda}(\\tau)\\le[F_{k,R}(\\tau)]_+"),
     "scalar_linear_payment" => compact.include?("\\le\\mathfrakL_{{\\rmabs},R}^M\\leCP_R^M"),
+    "quadratic_Q_definition" => compact.include?("B_{Q,R}^M:=\\sum_{k\\ge1}\\operatorname{TV}_{[s_R,t_0)}Q_{k,R}\\leC_Q(P_R^M)^{2/3}"),
+    "full_terminal_clock_definition" => compact.include?("\\mathcalK_R^M:=\\sup_{\\tau\\in\\mathcalG_R}\\sum_{k\\ge1}K_{k,R}(\\tau)"),
+    "full_flux_definition" => compact.include?("\\mathfrakC_{{\\rmfull},R}^M:=\\sup_{s_R<\\tau<t_0}\\left[\\sum_{k\\ge1}F_{k,R}(\\tau)\\right]_+"),
+    "terminal_clock_two_sided" => compact.include?("\\mathcalK_R^M-B_{Q,R}^M\\le\\mathfrakW_{{\\rmup},R}^M\\le\\mathcalK_R^M+B_{Q,R}^M"),
+    "sharp_full_flux_equivalence" => compact.include?("\\bigl|\\mathfrakW_{{\\rmup},R}^M-\\mathfrakC_{{\\rmfull},R}^M\\bigr|\\leB_{Q,R}^M"),
+    "zero_clock_negative_Q_stress" => compact.include?("K=0\\),\\(Q=-B\\),\\(F=B") && compact.include?("\\mathfrakC_{\\rmfull}=B") && compact.include?("\\mathfrakW_{\\rmup}=0"),
+    "plateau_only_below_full" => compact.include?("\\mathfrakC_R^M\\le\\mathfrakC_{{\\rmfull},R}^M") && note_body.include?("equality is neither") && note_body.include?("needed nor claimed"),
+    "exact_family_scale_separation" => compact.include?("(P_{R_j}^{M,*})^{2/3}\\asymp{T_*\\overK_*}") && compact.include?("K_*\\longrightarrow\\infty"),
+    "stopped_ratio_diverges" => compact.include?("{\\mathfrakW_{{\\rmup},R_j}^{M,*}\\over(P_{R_j}^{M,*})^{2/3}}\\longrightarrow\\infty"),
+    "universal_gate_refuted" => note_body.include?("The following are **REFUTED**") && note_body.include?("universal all-solution estimate"),
+    "conditional_S38_preserved" => note_body.include?("The conditional implication (S.38) itself") && note_body.include?("remains correct"),
+    "best_N_route_preserved" => note_body.include?("fixed best-\\(N_0\\)") || note_body.include?("fixed best-\\(N\\)"),
+    "forbid_false_C_below_W" => !compact.include?("\\mathfrakC_{{\\rmfull},R}^M\\le\\mathfrakW_{{\\rmup},R}^M"),
+    "forbid_old_two_B_coefficient" => !compact.include?("\\le2B_{Q,R}^M"),
     "no_false_infinite_global_claim" => !note_body.include?("global excess sums can be infinite"),
     "no_selected_lsc_claim" => note_body.include?("selected excess sum is lower semicontinuous") && note_body.include?("NOT CLAIMED"),
     "not_clay" => note_body.scan("NOT CLAY").length >= 2,
@@ -799,6 +993,27 @@ def independent_source_mutations(note_body)
     "promote_functional_family_to_PDE" => note_body.sub(/not asserted to\s+solve Navier--Stokes/i, "asserted to solve Navier--Stokes"),
     "remove_not_clay" => note_body.gsub("NOT CLAY", "CLAY")
   }
+
+  mutations["weaken_sharp_B_to_two_B"] = note_body.gsub(
+    "\\le B_{Q,R}^M.}\n\\tag{S.198}",
+    "\\le 2B_{Q,R}^M.}\n\\tag{S.198}"
+  )
+  mutations["promote_false_C_below_W"] = note_body.sub(
+    "\\bigl|\\mathfrak W_{{\\rm up},R}^M-",
+    "\\mathfrak C_{{\\rm full},R}^M\\le\\mathfrak W_{{\\rm up},R}^M,\\qquad\\bigl|\\mathfrak W_{{\\rm up},R}^M-"
+  )
+  mutations["erase_zero_clock_stress"] = note_body.sub(
+    "\\(K=0\\), \\(Q=-B\\), \\(F=B\\)",
+    "\\(K=B\\), \\(Q=0\\), \\(F=B\\)"
+  )
+  mutations["promote_refuted_universal_gate"] = note_body.sub(
+    "The following are **REFUTED**:",
+    "The following are **PROVED**:"
+  )
+  mutations["refute_conditional_S38"] = note_body.sub(
+    "The conditional implication (S.38) itself\n  remains correct.",
+    "The conditional implication (S.38) itself\n  is refuted."
+  )
 
   rows = mutations.map do |identifier, mutated|
     changed = mutated != note_body
@@ -861,8 +1076,14 @@ def producer_validation(certificate, note_hash, generator_hash)
     errors << "#{group} has missing or duplicate ids" unless identifiers.length == rows.length && identifiers.uniq.length == identifiers.length
     if EXPECTED_PRIMARY_IDS.key?(group)
       errors << "#{group} id set mismatch" unless identifiers.to_set == EXPECTED_PRIMARY_IDS.fetch(group).to_set
+      if group == "exact_checks"
+        EXPECTED_PRIMARY_EXACT_VALUES.each do |identifier, expected|
+          row = rows.find { |candidate| candidate["id"] == identifier }
+          errors << "#{identifier} exact payload mismatch" unless row && expected.all? { |key, value| row[key] == value }
+        end
+      end
     elsif group == "structural_checks"
-      errors << "structural check count mismatch" unless rows.length == 63
+      errors << "structural check count mismatch" unless rows.length == 75
       errors << "required structural ids absent" unless REQUIRED_PRIMARY_STRUCTURAL_IDS.to_set.subset?(identifiers.to_set)
     end
   end
@@ -926,6 +1147,13 @@ def independent_artifact_mutations(certificate, note_hash, generator_hash)
     key = copy.fetch("summary").keys.find { |candidate| candidate.end_with?("_total") }
     copy.fetch("summary")[key] += 1
   end
+  mutations["tamper_sharp_one_BQ_exact_row"] = lambda do |copy|
+    row = copy.fetch("exact_checks").find do |candidate|
+      candidate["id"] == "direct_clock_to_full_flux_one_BQ"
+    end
+    row["left"] = "2/1"
+    row["margin"] = "1/1"
+  end
 
   rows = mutations.map do |identifier, mutate|
     copy = deep_copy(certificate)
@@ -984,7 +1212,9 @@ independent_checks = [
   independent_smooth_density_formula,
   independent_endpoint_lsc,
   independent_flux_bridge,
-  independent_shear_boundary
+  independent_shear_boundary,
+  independent_no_exception_equivalence,
+  independent_exact_family_refutation
 ]
 structure = structural_results(note_body)
 source_mutations = independent_source_mutations(note_body)

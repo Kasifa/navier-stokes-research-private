@@ -152,6 +152,18 @@ def exact_ledger() -> list[dict]:
             Fraction(1),
             "Failure of beta gives F>5T/6, hence T<(6/5)F.",
         ),
+        exact(
+            "direct_clock_to_full_flux_one_BQ",
+            Fraction(1),
+            Fraction(1),
+            "The direct shell-partition identity costs exactly one B_Q.",
+        ),
+        exact(
+            "exact_family_ratio_identity_at_K_4096",
+            Fraction(1) / Fraction(1, 4096),
+            Fraction(4096),
+            "T divided by T/K equals K in the exact-family scaling proxy.",
+        ),
     ]
 
 
@@ -1132,6 +1144,251 @@ def stopped_work_bridge_proxy_check() -> dict:
     }
 
 
+def no_exception_clock_comparison_check() -> dict:
+    """Finite shell-partition proxy for both comparisons in S.198."""
+    failures: list[dict] = []
+    configurations = 0
+    sharp_C_minus_W = 0
+    sharp_W_minus_C = 0
+    sharp_K_lower = 0
+    sharp_K_upper = 0
+    length = 2
+    clock_values = [Fraction(0), Fraction(1), Fraction(2)]
+    Q_values = [Fraction(-1), Fraction(0), Fraction(1)]
+    stop_ratios = [Fraction(0), Fraction(1, 2)]
+
+    for terminal_K, terminal_Q in itertools.product(
+        itertools.product(clock_values, repeat=length),
+        itertools.product(Q_values, repeat=length),
+    ):
+        terminal_F = tuple(
+            K - Q for K, Q in zip(terminal_K, terminal_Q)
+        )
+        terminal_clock_sum = sum(terminal_K, Fraction(0))
+        terminal_flux_positive = max(sum(terminal_F, Fraction(0)), Fraction(0))
+        terminal_B = sum((abs(Q) for Q in terminal_Q), Fraction(0))
+
+        # Lower comparisons use the common zero start.  K=0 shells are not
+        # admissible in the stopped family and create the sharp B_Q loss.
+        zero_flux_selected = sum(
+            (
+                F
+                for K, F in zip(terminal_K, terminal_F)
+                if K > 0 and F > 0
+            ),
+            Fraction(0),
+        )
+        zero_all_positive_clocks = sum(
+            (F for K, F in zip(terminal_K, terminal_F) if K > 0),
+            Fraction(0),
+        )
+        zero_all_positive_part = max(zero_all_positive_clocks, Fraction(0))
+        lower_conditions = {
+            "C_minus_zero_selected_below_terminal_B": terminal_flux_positive
+            - zero_flux_selected
+            <= terminal_B,
+            "K_minus_B_below_zero_all_positive_part": terminal_clock_sum
+            - terminal_B
+            <= zero_all_positive_part,
+        }
+        if terminal_flux_positive - zero_flux_selected == terminal_B and terminal_B > 0:
+            sharp_C_minus_W += 1
+        if terminal_clock_sum - terminal_B == zero_all_positive_part and terminal_clock_sum > 0:
+            sharp_K_lower += 1
+        if not all(lower_conditions.values()) and len(failures) < 20:
+            failures.append(
+                {
+                    "case": "common_zero_lower",
+                    "terminal_K": [fs(item) for item in terminal_K],
+                    "terminal_Q": [fs(item) for item in terminal_Q],
+                    "terminal_F": [fs(item) for item in terminal_F],
+                    "B_Q_proxy": fs(terminal_B),
+                    "C_full_proxy": fs(terminal_flux_positive),
+                    "zero_selected_work": fs(zero_flux_selected),
+                    "zero_all_work_positive_part": fs(zero_all_positive_part),
+                    "conditions": lower_conditions,
+                }
+            )
+
+        # Upper comparisons use the exact partition identity displayed before
+        # S.198.  The selected Q(sigma) and unselected Q(tau) rows are disjoint
+        # pieces of the global Q-variation ledger.
+        for mask in range(1, 1 << length):
+            for ratios, stop_Q in itertools.product(
+                itertools.product(stop_ratios, repeat=length),
+                itertools.product(Q_values, repeat=length),
+            ):
+                selected = [bool(mask & (1 << index)) for index in range(length)]
+                if any(
+                    selected[index]
+                    and (
+                        terminal_K[index] <= 0
+                        or terminal_K[index]
+                        - terminal_K[index] * ratios[index]
+                        <= terminal_K[index] / 4
+                    )
+                    for index in range(length)
+                ):
+                    continue
+                stop_K = tuple(
+                    terminal_K[index] * ratios[index]
+                    for index in range(length)
+                )
+                stopped_work = sum(
+                    (
+                        terminal_F[index]
+                        - (stop_K[index] - stop_Q[index])
+                        for index in range(length)
+                        if selected[index]
+                    ),
+                    Fraction(0),
+                )
+                stopped_positive = max(stopped_work, Fraction(0))
+                flux_partition_B = sum(
+                    (
+                        abs(stop_Q[index])
+                        if selected[index]
+                        else abs(terminal_Q[index])
+                        for index in range(length)
+                    ),
+                    Fraction(0),
+                )
+                clock_increment_B = sum(
+                    (
+                        abs(terminal_Q[index] - stop_Q[index])
+                        for index in range(length)
+                        if selected[index]
+                    ),
+                    Fraction(0),
+                )
+                partition_B = max(flux_partition_B, clock_increment_B)
+                conditions = {
+                    "work_minus_terminal_flux_below_partition_B": stopped_work
+                    - sum(terminal_F, Fraction(0))
+                    <= partition_B,
+                    "positive_work_below_C_plus_partition_B": stopped_positive
+                    <= terminal_flux_positive + partition_B,
+                    "positive_work_below_K_plus_partition_B": stopped_positive
+                    <= terminal_clock_sum + partition_B,
+                }
+                configurations += 1
+                if stopped_positive - terminal_flux_positive == partition_B and partition_B > 0:
+                    sharp_W_minus_C += 1
+                if stopped_positive == terminal_clock_sum + partition_B and partition_B > 0:
+                    sharp_K_upper += 1
+                if not all(conditions.values()) and len(failures) < 20:
+                    failures.append(
+                        {
+                            "case": "admissible_stopped_upper",
+                            "terminal_K": [fs(item) for item in terminal_K],
+                            "terminal_Q": [fs(item) for item in terminal_Q],
+                            "terminal_F": [fs(item) for item in terminal_F],
+                            "selected": selected,
+                            "stop_K": [fs(item) for item in stop_K],
+                            "stop_Q": [fs(item) for item in stop_Q],
+                            "partition_B": fs(partition_B),
+                            "flux_partition_B": fs(flux_partition_B),
+                            "clock_increment_B": fs(clock_increment_B),
+                            "C_full_proxy": fs(terminal_flux_positive),
+                            "stopped_work": fs(stopped_work),
+                            "conditions": conditions,
+                        }
+                    )
+    return {
+        "id": "finite_no_exception_clock_and_flux_comparison",
+        "configurations_checked": configurations,
+        "sharp_C_minus_W_equals_B_cases": sharp_C_minus_W,
+        "sharp_W_minus_C_equals_B_cases": sharp_W_minus_C,
+        "sharp_K_lower_cases": sharp_K_lower,
+        "sharp_K_upper_cases": sharp_K_upper,
+        "failures": failures,
+        "pass": (
+            not failures
+            and sharp_C_minus_W > 0
+            and sharp_W_minus_C > 0
+            and sharp_K_lower > 0
+            and sharp_K_upper > 0
+        ),
+    }
+
+
+def exact_family_refutation_check() -> dict:
+    """Finite scaling proxy for the inherited smooth exact-family refutation."""
+    rows = []
+    failures = []
+    previous_ratio: Fraction | None = None
+    for exponent in range(1, 13):
+        K_star = Fraction(2**exponent)
+        T_star = Fraction(1)
+        cumulative_flux = T_star
+        payment_two_thirds = T_star / K_star
+        stopped_work_lower = cumulative_flux
+        ratio = stopped_work_lower / payment_two_thirds
+        conditions = {
+            "C_comparable_proxy": cumulative_flux == T_star,
+            "payment_proxy": payment_two_thirds == T_star / K_star,
+            "ratio_equals_K_star": ratio == K_star,
+            "ratio_strictly_increases": previous_ratio is None
+            or ratio > previous_ratio,
+        }
+        row = {
+            "K_star": fs(K_star),
+            "T_star": fs(T_star),
+            "C": fs(cumulative_flux),
+            "P_to_two_thirds": fs(payment_two_thirds),
+            "W_up_lower": fs(stopped_work_lower),
+            "ratio": fs(ratio),
+            "conditions": conditions,
+            "pass": all(conditions.values()),
+        }
+        rows.append(row)
+        if not row["pass"]:
+            failures.append(row)
+        previous_ratio = ratio
+    return {
+        "id": "finite_inherited_exact_family_universal_quadratic_refutation_proxy",
+        "rows_checked": len(rows),
+        "last_ratio": rows[-1]["ratio"],
+        "inherited_smooth_PDE_family_machine_proved": False,
+        "rows": rows,
+        "failures": failures,
+        "pass": not failures and previous_ratio == Fraction(4096),
+    }
+
+
+def conditional_S38_arithmetic_check() -> dict:
+    """Check that refuting the antecedent does not alter the implication."""
+    failures = []
+    rows = []
+    values = [Fraction(0), Fraction(1, 4), Fraction(1), Fraction(2)]
+    for A, C_Q, C_W in itertools.product(
+        [Fraction(1, 4), Fraction(1), Fraction(2)], values, values
+    ):
+        Q_payment = C_Q * A
+        W_bound = C_W * A
+        inherited_rhs = 4 * Q_payment + 4 * W_bound
+        conditional_rhs = 4 * (C_Q + C_W) * A
+        row = {
+            "A": fs(A),
+            "C_Q": fs(C_Q),
+            "C_W": fs(C_W),
+            "inherited_rhs": fs(inherited_rhs),
+            "conditional_rhs": fs(conditional_rhs),
+            "pass": inherited_rhs == conditional_rhs,
+        }
+        rows.append(row)
+        if not row["pass"]:
+            failures.append(row)
+    return {
+        "id": "finite_S38_conditional_implication_arithmetic",
+        "configurations_checked": len(rows),
+        "universal_antecedent_machine_assumed": False,
+        "rows": rows,
+        "failures": failures,
+        "pass": not failures,
+    }
+
+
 def compact(body: str) -> str:
     result = re.sub(r"\s+", "", body)
     result = result.replace("&", "")
@@ -1239,14 +1496,54 @@ def global_linear_flux_guard(body: str) -> bool:
     return compact(needle) in block
 
 
+def no_exception_clock_guard(body: str) -> bool:
+    definitions = compact(section(body, r"\tag{S.196}", r"\tag{S.197}"))
+    comparison = compact(section(body, r"\tag{S.197}", r"\tag{S.198}"))
+    definition_needles = (
+        r"B_{Q,R}^M:=\sum_{k\ge1}\operatorname {TV}_{[s_R,t_0)}Q_{k,R}",
+        r"\mathcal K_R^M:=\sup_{\tau\in\mathcal G_R}\sum_{k\ge1}K_{k,R}(\tau)",
+        r"\mathfrak C_{{\rm full},R}^M:=\sup_{s_R<\tau<t_0}\left[\sum_{k\ge1}F_{k,R}(\tau)\right]_+",
+    )
+    comparison_needles = (
+        r"\mathcal K_R^M-B_{Q,R}^M\le\mathfrak W_{{\rm up},R}^M\le\mathcal K_R^M+B_{Q,R}^M",
+        r"\bigl|\mathfrak W_{{\rm up},R}^M-\mathfrak C_{{\rm full},R}^M\bigr|\le B_{Q,R}^M",
+    )
+    return all(compact(item) in definitions for item in definition_needles) and all(
+        compact(item) in comparison for item in comparison_needles
+    )
+
+
+def no_exception_zero_start_guard(body: str) -> bool:
+    block = section(body, r"\tag{S.196}", r"\tag{S.199}")
+    return (
+        "The same zero-start observation" in block
+        and "use the common zero stop on arbitrary finite subsets" in block
+        and "common zero stop makes its stopped work" in body
+    )
+
+
+def universal_refutation_guard(body: str) -> bool:
+    prose = re.sub(r"\s+", " ", body)
+    return all(
+        item in prose
+        for item in (
+            "The following are **REFUTED**:",
+            "the universal all-solution estimate",
+            "The conditional implication (S.38) itself remains correct.",
+            "This refutes the *universal antecedent*",
+            "it does not refute the conditional algebra in (S.38), (S.196)",
+        )
+    )
+
+
 def structural_checks(body: str) -> list[dict]:
     tags = re.findall(r"\\tag\{S\.(\d+)\}", body)
-    expected = [str(number) for number in range(163, 197)]
+    expected = [str(number) for number in range(163, 200)]
     compressed = compact(body)
     prose = re.sub(r"\s+", " ", body)
     checks: list[dict] = [
         {
-            "id": "tags_consecutive_S163_through_S196",
+            "id": "tags_consecutive_S163_through_S199",
             "actual": tags,
             "expected": expected,
             "pass": tags == expected,
@@ -1265,10 +1562,13 @@ def structural_checks(body: str) -> list[dict]:
         {"id": "sharp_five_sixths_six_fifths", "pass": sharp_six_fifths_guard(body)},
         {"id": "fixed_scale_Jordan_finiteness", "pass": fixed_X_finiteness_guard(body)},
         {"id": "global_scalar_linear_flux_ledger", "pass": global_linear_flux_guard(body)},
+        {"id": "no_exception_clock_comparison", "pass": no_exception_clock_guard(body)},
+        {"id": "no_exception_common_zero_start", "pass": no_exception_zero_start_guard(body)},
+        {"id": "universal_gate_refuted_not_open", "pass": universal_refutation_guard(body)},
     ]
 
     required_text = (
-        "This is an exact unification and a weak-stability interface, not a proof of the stopped-work depletion estimate.",
+        "This is an exact unification and a weak-stability interface, not a quadratic payment theorem.",
         "The selected residual is not claimed to be lower semicontinuous",
         "No smooth approximation of an arbitrary suitable weak solution is asserted to exist.",
         "all three measures in (S.164) vanish on one common neighborhood of the left endpoint",
@@ -1283,6 +1583,11 @@ def structural_checks(body: str) -> list[dict]:
         r"both extended sums in (S.179) are in fact finite at every fixed \(R\) and good \(\tau\)",
         "the scalar residual is not a new open channel but a subledger of the existing signed stopped work",
         "This does not itself improve that gate.",
+        "up to an already-paid quadratic row, the full-cutoff positive cumulative flux itself",
+        "The conditional implication (S.38) itself remains correct.",
+        "The following are **REFUTED**:",
+        "The coefficient one in the second comparison is sharp already for the scalar single-shell stress",
+        r"\(K=0\), \(Q=-B\), \(F=B\)",
         "The following are **PROVED**:",
         "The following are **CONDITIONAL**:",
         "The following are **INHERITED**:",
@@ -1315,6 +1620,10 @@ def structural_checks(body: str) -> list[dict]:
         r"F_{k,R}(\tau)=T_k-Q_{k,R}(\tau)\ge T_k-|Q_{k,R}(\tau)|>{5T_k\over6}",
         r"T_k<{6\over5}F_{k,R}(\tau)",
         r"\sum_{k\in\mathcal I_x(\tau)}K_{k,R}(\tau)\le{6\over5}\mathfrak W_{{\rm up},R}^M",
+        r"B_{Q,R}^M:=\sum_{k\ge1}\operatorname {TV}_{[s_R,t_0)}Q_{k,R}\le C_Q(P_R^M)^{2/3}",
+        r"\mathcal K_R^M-B_{Q,R}^M\le\mathfrak W_{{\rm up},R}^M\le\mathcal K_R^M+B_{Q,R}^M",
+        r"\bigl|\mathfrak W_{{\rm up},R}^M-\mathfrak C_{{\rm full},R}^M\bigr|\le B_{Q,R}^M",
+        r"{\mathfrak W_{{\rm up},R_j}^{M,*}\over(P_{R_j}^{M,*})^{2/3}}\longrightarrow\infty",
     )
     for sentinel in required_text:
         checks.append(
@@ -1519,6 +1828,103 @@ def negative_mutation_checks(body: str) -> list[dict]:
         }
     )
 
+    refuted_to_open = body.replace(
+        "The following are **REFUTED**:",
+        "The following remain **OPEN**:",
+        1,
+    )
+    rows.append(
+        {
+            "id": "mutation_change_universal_gate_REFUTED_back_to_OPEN",
+            "original_guard": universal_refutation_guard(body),
+            "mutated_guard": universal_refutation_guard(refuted_to_open),
+            "pass": universal_refutation_guard(body)
+            and not universal_refutation_guard(refuted_to_open),
+        }
+    )
+
+    deleted_zero_start = body.replace(
+        "use the common zero stop on arbitrary finite subsets",
+        "use an unspecified stop on arbitrary finite subsets",
+        1,
+    )
+    rows.append(
+        {
+            "id": "mutation_delete_common_zero_start_from_lower_comparison",
+            "original_guard": no_exception_zero_start_guard(body),
+            "mutated_guard": no_exception_zero_start_guard(deleted_zero_start),
+            "fixture_K_terminal": "1/1",
+            "fixture_B_Q": "0/1",
+            "zero_start_work": "1/1",
+            "nonzero_stop_work": "1/3",
+            "zero_start_meets_K_minus_B": Fraction(1) >= Fraction(1),
+            "nonzero_stop_fails_K_minus_B": Fraction(1, 3) < Fraction(1),
+            "pass": no_exception_zero_start_guard(body)
+            and not no_exception_zero_start_guard(deleted_zero_start)
+            and Fraction(1) >= Fraction(1)
+            and Fraction(1, 3) < Fraction(1),
+        }
+    )
+
+    comparison_block = section(body, r"\tag{S.197}", r"\tag{S.198}")
+    last_B_position = comparison_block.rfind(r"\le B_{Q,R}^M")
+    inflated_block = (
+        comparison_block[:last_B_position]
+        + r"\le2B_{Q,R}^M"
+        + comparison_block[last_B_position + len(r"\le B_{Q,R}^M") :]
+        if last_B_position >= 0
+        else comparison_block
+    )
+    inflated_B = body.replace(comparison_block, inflated_block, 1)
+    B = Fraction(1)
+    C_full = Fraction(1)
+    Ksup = Fraction(0)
+    Wup = Fraction(0)
+    rows.append(
+        {
+            "id": "mutation_weaken_sharp_BQ_flux_comparison_to_2BQ",
+            "original_guard": no_exception_clock_guard(body),
+            "mutated_guard": no_exception_clock_guard(inflated_B),
+            "fixture_B_Q": fs(B),
+            "fixture_C_full": fs(C_full),
+            "fixture_K_sup": fs(Ksup),
+            "fixture_W_up": fs(Wup),
+            "sharp_B_bound_is_attained": abs(Wup - C_full) == B,
+            "weaker_2B_bound_has_slack": abs(Wup - C_full) < 2 * B,
+            "pass": (
+                no_exception_clock_guard(body)
+                and not no_exception_clock_guard(inflated_B)
+                and abs(Wup - C_full) == B
+                and abs(Wup - C_full) < 2 * B
+            ),
+        }
+    )
+
+    deleted_block = (
+        comparison_block[:last_B_position]
+        + r"\le0"
+        + comparison_block[last_B_position + len(r"\le B_{Q,R}^M") :]
+        if last_B_position >= 0
+        else comparison_block
+    )
+    deleted_B = body.replace(comparison_block, deleted_block, 1)
+    rows.append(
+        {
+            "id": "mutation_delete_BQ_error_from_flux_comparison",
+            "original_guard": no_exception_clock_guard(body),
+            "mutated_guard": no_exception_clock_guard(deleted_B),
+            "sharp_single_shell_fixture": "K=0, Q=-B, F=B, C_full=B, W_up=0",
+            "correct_B_bound": abs(Wup - C_full) <= B,
+            "mutated_zero_error_bound": abs(Wup - C_full) <= 0,
+            "pass": (
+                no_exception_clock_guard(body)
+                and not no_exception_clock_guard(deleted_B)
+                and abs(Wup - C_full) == B
+                and not abs(Wup - C_full) <= 0
+            ),
+        }
+    )
+
     claim_injections = (
         (
             "mutation_promote_liminf_to_hard_mass_convergence",
@@ -1622,6 +2028,11 @@ def render_report(data: dict, json_hash: str) -> str:
     stopped = finite[
         "finite_selected_excess_to_common_terminal_stopped_work_proxy"
     ]
+    clock_comparison = finite["finite_no_exception_clock_and_flux_comparison"]
+    exact_family = finite[
+        "finite_inherited_exact_family_universal_quadratic_refutation_proxy"
+    ]
+    conditional_S38 = finite["finite_S38_conditional_implication_arithmetic"]
 
     exact_rows = "\n".join(
         f"| {row['id']} | {row['left']} | {row['right']} | {row['margin']} |"
@@ -1688,6 +2099,15 @@ negative mutations passed.
   {stopped['configurations_checked']} exact proxies.  Existence of the common
   good zero-start and the inherited stopped-work framework remain explicitly
   analytic inputs.
+- The no-exception clock/flux comparison passes
+  {clock_comparison['configurations_checked']} exact aggregate fixtures,
+  including {clock_comparison['sharp_C_minus_W_equals_B_cases']} sharp
+  `C_full-W_up=B_Q` cases and
+  {clock_comparison['sharp_W_minus_C_equals_B_cases']} sharp reverse cases.
+  The inherited exact-family scaling proxy reaches ratio
+  `{exact_family['last_ratio']}` after {exact_family['rows_checked']} rows,
+  while {conditional_S38['configurations_checked']} fixtures independently
+  preserve the conditional arithmetic of (S.38).
 
 ## Negative mutations
 
@@ -1709,8 +2129,10 @@ This is a finite/algebraic certificate.  It checks exact rational threshold
 arithmetic, finite atomic or step-function proxies, exponent bookkeeping, and
 statement integrity.  It does **not** machine-prove Jordan/Radon regularity,
 Portmanteau or measure topology, the inherited R0.74P/R0.74R estimates, their
-analytic hypotheses, existence of smooth approximants, any Navier--Stokes PDE
-claim, regularity, or the Millennium problem.
+analytic hypotheses, the inherited R0.74O/P smooth exact PDE family, existence
+of smooth approximants, any new Navier--Stokes PDE claim, regularity, or the
+Millennium problem.  The finite scaling rows audit the arithmetic of the
+stated refutation; the smooth family itself remains inherited analysis.
 
 **FINITE/ALGEBRAIC ONLY.  MEASURE TOPOLOGY AND PDE NOT MACHINE-PROVED.  NOT CLAY.**
 """
@@ -1736,6 +2158,9 @@ def main() -> None:
         global_flux_variation_ledger_check(),
         selected_flux_coefficient_check(),
         stopped_work_bridge_proxy_check(),
+        no_exception_clock_comparison_check(),
+        exact_family_refutation_check(),
+        conditional_S38_arithmetic_check(),
     ]
     structural = structural_checks(body)
     mutations = negative_mutation_checks(body)
@@ -1771,6 +2196,7 @@ def main() -> None:
             "machine_proves_Jordan_or_Radon_regularity": False,
             "machine_proves_Portmanteau_or_measure_topology": False,
             "machine_proves_inherited_R074P_R074R_analysis": False,
+            "machine_proves_inherited_R074O_R074P_exact_PDE_family": False,
             "machine_proves_good_stop_selection_or_primitive_continuity": False,
             "machine_proves_smooth_approximation_existence": False,
             "machine_proves_Navier_Stokes_PDE": False,

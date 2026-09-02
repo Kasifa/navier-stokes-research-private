@@ -5,7 +5,7 @@
 **UNCONDITIONAL PASS ON THE LOCKED SOURCE.**  After the in-source repairs
 described below, the final source is analytically
 consistent with the frozen R0.74P, R0.74R, R0.74S Step 2, and R0.74S Step 7
-inputs.  All equations (S.163)--(S.196) pass.  In particular:
+inputs.  All equations (S.163)--(S.199) pass.  In particular:
 
 - the one-sixth priority thresholds are exhaustive with the stated strict
   remainder;
@@ -23,11 +23,17 @@ inputs.  All equations (S.163)--(S.196) pass.  In particular:
   inherited stopped-work gate; and
 - on the priority-selected excess class,
   \(F_k(\tau)>5K_k(\tau)/6\), giving the sharp displayed coefficient
-  \(6/5\) in the stopped-work reduction.
+  \(6/5\) in the stopped-work reduction;
+- the no-exception stopped-work supremum is equivalent, modulo the already
+  paid \(Q\)-variation, to both the full terminal clock supremum and the
+  full-cutoff positive cumulative flux, with the sharp coefficient one in
+  the latter comparison; and
+- the inherited smooth exact family refutes a universal quadratic bound for
+  that no-exception supremum.
 
 The final audited source is
 research/r074s_defect_relaxed_total_rayleigh_excess.md, SHA-256
-0324950c7d9e1500e02f9f17ae1cb6551f4a8acb44acdce12533abc7f50153a5.
+0a79f2c5bb59644eca710b3d9341776853ceb4d1f65a36869c2465073f8c08ab.
 
 The audit initially found two material omissions in source SHA-256
 58e9d7856402e639528fd9c2c166b590d293ce68c891d397d9c1de47d2c05766:
@@ -36,10 +42,20 @@ prose incorrectly allowed the fixed-scale global excess sums to be infinite.
 The final source repairs both points in (S.192)--(S.196), updates the
 claim/source ledgers, and states the exact remaining boundary.
 
+A second audit pass separated the inherited plateau supremum
+\(\mathfrak C_R^M\) from the full-cutoff supremum required by (S.37).
+The locked source defines \(\mathfrak C_{{\rm full},R}^M\), proves the
+direct coefficient-one comparison in (S.198), includes its sharp scalar
+stress test, and uses only
+\(\mathfrak C_R^M\le\mathfrak C_{{\rm full},R}^M\) in (S.199).
+
 This is a primary mathematical audit, not an independent proof of all
 inherited suitable-weak theory and not a novelty or priority certificate.
-The stopped-work depletion estimate remains open.  The note does not prove
-(Q.1), regularity, or the Millennium problem.  **NOT CLAY.**
+The universal no-exception stopped-work antecedent is refuted, not open.
+The conditional implications (S.38) and (S.196) remain correct, and a
+fixed best-\(N\), terminal-dependent-exception estimate remains open.  The
+note does not prove (Q.1), regularity, or the Millennium problem.
+**NOT CLAY.**
 
 ## 2. Frozen-source backtracking
 
@@ -53,11 +69,14 @@ The stopped-work depletion estimate remains open.  The note does not prove
 | Functional dissipation witness | R0.74R, Proposition 5.3, supplies the high-frequency divergence-free fields but explicitly does not supply Navier--Stokes trajectories | **PASS** |
 | Stopped-work gate | R0.74S Step 2, (S.25)--(S.38), permits every finite shell family satisfying the strict terminal upcrossing inequality and retains the sign only after summation | **PASS** |
 | Rayleigh split and old residual | R0.74S Step 7, (S.142)--(S.162), supplies \(e,g,L,H\), the coefficient ledger, the raw defect/high-Rayleigh residual, and the exact-shear audit | **PASS** |
+| Smooth exact-family separation | R0.74O, (4.1)--(4.6), (6.1), (6.5)--(6.9), and R0.74P, (0.1)--(0.2), (4.1)--(4.4), give \(\mathfrak C_*^M\asymp T_*\), \((P_*^M)^{2/3}\asymp T_*/K_*\), \(K_*\to\infty\), a target clock \(\gtrsim T_*\), and target \(Q\)-variation \(O(T_*/K_*)\) | **PASS** |
 
 The checked frozen sources have SHA-256 values
 
 - R0.74P:
   a3cb872735b92b32ddfa7b96bc4184d70b0287ff2ce7d3da8cadbbcc494d0867;
+- R0.74O:
+  471158de1db718ac96f38adc729464d8717006f47c8c6bb57834cc4e159bd9bb;
 - R0.74R Step 2:
   ac959f30b254001910e5b445264ea7c0d8714afc2f96dcf74505f5e1f794b6b7;
 - R0.74S Step 2:
@@ -104,8 +123,11 @@ The checked frozen sources have SHA-256 values
 | (S.194) | The inherited common full-measure good set meets the initial interval where \(\eta_R=\eta_R'=0\).  At such a common stop, \(K_k=Q_k=F_k=0\) for every shell.  Any nonempty finite positive-\(x\) family then satisfies strict (S.25), and its stopped work is \(\sum_G F_k(\tau)\ge\sum_Gx_k>0\).  Supremum over finite \(G\) proves \(\mathfrak x_1\le\mathfrak W_{\rm up}\). | **PASS** |
 | (S.195) | Failure of the \(\beta\)-test gives \(|Q_k(\tau)|\le\beta_k(J_\tau)<T_k/6\).  Since \(F_k=T_k-Q_k\ge T_k-|Q_k|>5T_k/6\), one gets \(T_k<(6/5)F_k\). | **PASS** |
 | (S.196) | The common zero stop makes \(\sum_G F_k(\tau)\) an admissible positive stopped work for every finite \(G\subset\mathcal I_x\).  Apply (S.195), take increasing finite subsets, and combine with (S.176)--(S.177). | **PASS** |
+| (S.197) | \(B_{Q,R}^M\) is finite and quadratically paid by (3.5).  Uniform convergence of the absolutely summable \(Q\)- and \(F\)-series makes \(\sum_kK_k\) continuous and finite; density of the common good set identifies its good-time supremum with the full-time supremum.  The newly named \(\mathfrak C_{{\rm full},R}^M\) uses the same full cutoff interval as (S.37). | **PASS** |
+| (S.198) | Every admissible work obeys \(W-\sum_kF_k(\tau)=\sum_{k\in I}(Q_k(\sigma_k)-K_k(\sigma_k))+\sum_{k\notin I}(Q_k(\tau)-K_k(\tau))\le B_Q\), because the two shell sets partition the \(Q\)-ledger and \(K_k\ge0\).  Conversely, common zero stops on the \(K_k>0,F_k>0\) shells capture every positive terminal-flux shell except possible \(K_k=0<F_k=-Q_k\), whose total is at most \(B_Q\).  Thus \(|W_{\rm up}-\mathfrak C_{\rm full}|\le B_Q\).  The analogous positive-clock argument gives \(\mathcal K-B_Q\le W_{\rm up}\le\mathcal K+B_Q\). | **PASS / COEFFICIENT ONE** |
+| (S.199) | R0.74O/P gives the inherited plateau flux \(\mathfrak C_R^{M,*}\asymp T_*\), payment \((P_R^{M,*})^{2/3}\asymp T_*/K_*\), and \(K_*\to\infty\).  Since \(\mathfrak C_{\rm full}\ge\mathfrak C_R\) and \(B_Q=O(T_*/K_*)\), (S.198) gives \(W_{\rm up}\gtrsim T_*\), hence the displayed ratio diverges. | **PASS / UNIVERSAL ANTECEDENT REFUTED** |
 
-All thirty-four tags (S.163)--(S.196) occur once and in order.  No
+All thirty-seven tags (S.163)--(S.199) occur once and in order.  No
 displayed constant, strict inequality, sign, normalization, or exponent in
 the final source requires repair.
 
@@ -249,11 +271,13 @@ The passage to countably many shells is valid: apply the inequality to
 arbitrary finite subsets, note that every selected \(F_k(\tau)\) is
 positive, and use monotone convergence.
 
-This is an exact unification, not a depletion estimate.  The definition of
-\(\mathfrak W_{\rm up}\) already admits the same zero-start competitors for
-every finite positive-clock family.  Step 8 identifies the selected
-dissipation residual with that existing gate and improves its branch
-coefficient; it does not narrow or solve the ultimate stopped-work gate.
+This is an exact unification, but not a successful depletion estimate.  The
+definition of \(\mathfrak W_{\rm up}\) already admits the same zero-start
+competitors for every finite positive-clock family.  Step 8 identifies the
+selected dissipation residual with that existing gate and improves its
+branch coefficient.  Equations (S.197)--(S.199) then show that the universal
+quadratic antecedent for this no-exception gate is false; the viable route
+must restore terminal-dependent exceptions.
 
 ## 7. Fixed-scale finiteness and weak stability
 
@@ -312,7 +336,138 @@ For the inherited exact heat shear, \(F_k=0\), \(K_k=Q_k\), and
 \(D_k\le K_k\le\beta_k(J_\tau)\).  Thus \(x_k=0\) exactly.  The note
 correctly makes no claim that \(X_k=0\).
 
-## 9. Claim boundary
+## 9. No-exception equivalence and exact-family refutation
+
+Write
+
+\[
+ S_K(\tau)=\sum_kK_k(\tau),\qquad
+ S_Q(\tau)=\sum_kQ_k(\tau),\qquad
+ S_F(\tau)=\sum_kF_k(\tau).
+\]
+
+The inherited total-variation ledgers imply uniform absolute convergence of
+the \(Q\)- and \(F\)-series, hence uniform convergence and continuity of
+\(S_K=S_Q+S_F\).  Since the common good set is dense,
+
+\[
+ \mathcal K_R^M=\sup_{s_R<\tau<t_0}S_K(\tau).
+\]
+
+For an admissible stopped family,
+
+\[
+\begin{aligned}
+ W(\tau;I,\boldsymbol\sigma)
+ &=\sum_{k\in I}\bigl(K_k(\tau)-K_k(\sigma_k)\bigr)
+   -\sum_{k\in I}\bigl(Q_k(\tau)-Q_k(\sigma_k)\bigr)\\
+ &\le \mathcal K_R^M+B_{Q,R}^M.
+\end{aligned}
+\]
+
+Conversely, common zero stops and increasing finite subsets of the positive
+terminal clocks give
+
+\[
+ \mathfrak W_{{\rm up},R}^M
+ \ge \mathcal K_R^M-B_{Q,R}^M.
+\]
+
+The comparison with the full terminal flux can be made directly, without a
+triangle inequality.  For every admissible finite stopped family,
+
+\[
+\begin{aligned}
+ W_R^M(\tau;I,\boldsymbol\sigma)-S_F(\tau)
+ &=
+ \sum_{k\in I}\bigl(Q_k(\sigma_k)-K_k(\sigma_k)\bigr)\\
+ &\quad+\sum_{k\notin I}\bigl(Q_k(\tau)-K_k(\tau)\bigr)
+ \le B_{Q,R}^M.
+\end{aligned}
+\]
+
+The two index sets partition the shell ledger, every \(K_k\ge0\), and one
+value of \(Q_k\) per shell is bounded by that shell's total variation.
+Therefore
+
+\[
+ \mathfrak W_{{\rm up},R}^M
+ \le\mathfrak C_{{\rm full},R}^M+B_{Q,R}^M.
+\]
+
+Conversely, at a good terminal time take common zero stops on finite subsets
+of
+
+\[
+ A_\tau=\{k:K_k(\tau)>0,\ F_k(\tau)>0\}.
+\]
+
+These are strict (S.25) competitors and their stopped work increases to
+\(\sum_{A_\tau}F_k(\tau)\).  Positive terminal flux omitted from
+\(A_\tau\) can only occur on shells with \(K_k(\tau)=0<F_k(\tau)\); there
+\(F_k(\tau)=-Q_k(\tau)\), so its total is at most \(B_Q\).  Shells with
+\(F_k\le0\) do not increase the positive full sum.  Hence
+
+\[
+ \mathfrak C_{{\rm full},R}^M
+ \le\mathfrak W_{{\rm up},R}^M+B_{Q,R}^M.
+\]
+
+Uniform convergence of the shell series and density of the common good set
+extend this good-time inequality to the full-time supremum.  This proves the
+coefficient-one estimate
+
+\[
+ \left|\mathfrak W_{{\rm up},R}^M
+ -\mathfrak C_{{\rm full},R}^M\right|
+ \le B_{Q,R}^M.
+\]
+
+The coefficient is sharp at the scalar algebraic level: take one shell with
+\(K\equiv0\), \(Q(s_R)=0\), \(Q(\tau)=-B\), and \(F=-Q\).  Then no
+nonempty family satisfies strict (S.25), so
+\(\mathfrak W_{\rm up}=0\), whereas
+\(\mathfrak C_{\rm full}=B=B_Q\).
+
+Introducing the full-cutoff quantity is essential: the inherited
+\(\mathfrak C_R^M\) takes its supremum only on the plateau \(I_R\).
+The source correctly states only
+\(\mathfrak C_R^M\le\mathfrak C_{{\rm full},R}^M\), not equality.
+
+For the inherited R0.74O/P exact family,
+
+\[
+ \mathfrak C_{R_j}^{M,*}\asymp T_*,
+ \qquad
+ (P_{R_j}^{M,*})^{2/3}\asymp\frac{T_*}{K_*},
+ \qquad
+ K_*\to\infty.
+\]
+
+Since the full-cutoff supremum dominates the plateau one and
+\(B_{Q,R_j}^M=O(T_*/K_*)\), (S.198) yields
+
+\[
+ \mathfrak W_{{\rm up},R_j}^{M,*}
+ \ge cT_*-O(T_*/K_*),
+\]
+
+and therefore
+
+\[
+ \frac{\mathfrak W_{{\rm up},R_j}^{M,*}}
+ {(P_{R_j}^{M,*})^{2/3}}\longrightarrow\infty.
+\]
+
+The family is a smooth, periodic, mean-zero, unforced, pressure-free
+Navier--Stokes family.  It therefore refutes the universal antecedent
+\(\mathfrak W_{\rm up}\lesssim(P_R^M)^{2/3}\).  It does not refute the
+logical conditional implication (S.38), the algebraic inequality (S.196),
+an estimate with terminal exceptions paid by \(Y_{2,R}^{\rm sf}\), or
+(Q.1).  On the same exact family \(Y_{2,R}^{\rm sf}\gtrsim T_*\), so the
+exception/square-function route is not contradicted.
+
+## 10. Claim boundary
 
 | Claim | Audit status |
 |---|---|
@@ -326,11 +481,15 @@ correctly makes no claim that \(X_k=0\).
 | Full dissipation branch | **REDUCED TO QUADRATIC PAID TERMS PLUS \((6/5)\mathfrak W_{\rm up}\)** |
 | Fixed-scale lower semicontinuity | **PROVED UNDER (S.183)** |
 | Smooth approximation formula | **CONDITIONAL ON A SUPPLIED CONVERGENT SMOOTH NAVIER--STOKES SEQUENCE** |
-| Quadratic stopped-work depletion | **OPEN** |
+| Universal no-exception quadratic stopped-work antecedent in (S.37)--(S.38) | **REFUTED BY THE SMOOTH R0.74O/P EXACT FAMILY** |
+| Conditional implication (S.38) and algebraic reduction (S.196) | **PROVED AND UNAFFECTED BY THE REFUTATION OF THEIR UNIVERSAL ANTECEDENT** |
+| Fixed best-\(N\), terminal-dependent-exception route | **OPEN** |
 | Selected-index-set lower semicontinuity | **NOT PROVED / NOT CLAIMED** |
 | Cross-scale compactness, (Q.1), regularity, or Millennium conclusion | **OPEN / NOT CLAIMED / NOT CLAY** |
 
-The exact research meaning is now correctly bounded: Step 8 does not solve
-the stopped-work obstruction, but it proves that the defect/high-Rayleigh
-scalar remainder feeds the same common-terminal signed-flux gate rather than
-creating another independent obstruction.
+The exact research meaning is now correctly bounded: Step 8 proves that the
+defect/high-Rayleigh scalar remainder feeds the same common-terminal
+signed-flux gate rather than creating another obstruction, and then proves
+that a universal no-exception quadratic estimate for that gate is impossible.
+The next viable quantifier is a fixed best-\(N\), terminal-dependent
+exception estimate.

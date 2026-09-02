@@ -48,18 +48,21 @@ coefficient \(6/5\).  Both global excess sums are finite at every fixed
 localized dissipation, whereas the scalar ledger also has a linear flux
 bound.
 
-This is an exact unification and a weak-stability interface, not a proof of
-the stopped-work depletion estimate.  In particular, the stopped-work
-supremum from Step 2 already permits the common zero-start stops used here,
-so the argument identifies the dissipation residual with the existing open
-gate rather than narrowing that ultimate gate.  No quadratic,
+This is an exact unification and a weak-stability interface, not a quadratic
+payment theorem.  In particular, the stopped-work supremum from Step 2
+already permits the common zero-start stops used here.  The terminal
+comparison therefore identifies the dissipation residual with that existing
+gate rather than narrowing it.  The zero-start audit below goes further: the
+universal quadratic bound proposed for this no-exception gate is false on the
+inherited R0.74O/P smooth exact family.  The conditional implication (S.38)
+remains valid, but its antecedent cannot be a universal theorem.  No quadratic,
 square-function, or finite-exception estimate for the Jordan envelope is
 proved.  The selected residual is not claimed to be lower semicontinuous,
 because its index set depends on strict terminal inequalities.  No smooth
 approximation of an arbitrary suitable weak solution is asserted to exist.
-The note does not prove the R0.74R extraction hypotheses, the stopped-work
-depletion estimate, the fixed-scale inequality (Q.1), regularity, or the
-Millennium problem.  **NOT CLAY.**
+The note does not prove the repaired best-\(N\) terminal-tail estimate, the
+R0.74R extraction hypotheses, the fixed-scale inequality (Q.1), regularity,
+or the Millennium problem.  **NOT CLAY.**
 
 No novelty or priority claim is made.
 
@@ -809,9 +812,100 @@ all good stops satisfying (S.25), the same common zero start is already
 admissible for any finite family with positive terminal clocks; (S.27)
 therefore supplied an all-shell conditional estimate before Step 8.  The new
 content is the exact residual identification, the sharper selected
-coefficient, and the lower-semicontinuous scalar/Jordan interfaces.  The
-unresolved PDE target remains the sign-sensitive estimate
-\(\mathfrak W_{{\rm up},R}^M\lesssim(P_R^M)^{2/3}\).
+coefficient, and the lower-semicontinuous scalar/Jordan interfaces.
+
+The same zero-start observation also decides whether the no-exception gate
+can be the next target.  Define the already-paid quadratic variation and the
+full terminal clock supremum by
+
+\[
+ \boxed{
+ B_{Q,R}^M:=\sum_{k\ge1}
+    \operatorname {TV}_{[s_R,t_0)}Q_{k,R}
+    \le C_Q(P_R^M)^{2/3},
+ \qquad
+ \mathcal K_R^M:=\sup_{\tau\in\mathcal G_R}
+    \sum_{k\ge1}K_{k,R}(\tau),
+ \qquad
+ \mathfrak C_{{\rm full},R}^M
+ :=\sup_{s_R<\tau<t_0}
+    \left[\sum_{k\ge1}F_{k,R}(\tau)\right]_+.}
+\tag{S.197}
+\]
+
+where \(\mathcal G_R\) is the inherited common full-measure good-time set.
+All three quantities are finite: \(K_k=Q_k+F_k\), \(K_k\ge0\), and the two
+absolute variation ledgers are summable.  For any family admissible in
+(S.37), compare its work directly with the full terminal flux:
+
+\[
+ W_R^M-\sum_kF_{k,R}(\tau)
+ =\sum_{k\in I}\bigl[Q_{k,R}(\sigma_k)-K_{k,R}(\sigma_k)\bigr]
+  +\sum_{k\notin I}\bigl[Q_{k,R}(\tau)-K_{k,R}(\tau)\bigr]
+ \le B_{Q,R}^M.
+\]
+
+Here the two shell sets partition the ledger and \(K_k\ge0\).  Conversely,
+at a good \(\tau\), use the common zero stop on arbitrary finite subsets of
+the shells with \(K_k(\tau)>0\) and \(F_k(\tau)>0\), then pass monotonically.
+Any omitted shell with \(K_k(\tau)=0<F_k(\tau)\) obeys
+\(F_k(\tau)=-Q_k(\tau)\), and their total is at most \(B_{Q,R}^M\).
+Uniform convergence and density of the common good-time set then give the
+full-time comparison.  Hence
+
+\[
+ \boxed{
+ \mathcal K_R^M-B_{Q,R}^M
+ \le\mathfrak W_{{\rm up},R}^M
+ \le\mathcal K_R^M+B_{Q,R}^M,
+ \qquad
+ \bigl|\mathfrak W_{{\rm up},R}^M-
+             \mathfrak C_{{\rm full},R}^M\bigr|
+ \le B_{Q,R}^M.}
+\tag{S.198}
+\]
+
+The first comparison follows in the same way from the common zero stop and
+the identity \(\sum_kF_k=\sum_kK_k-\sum_kQ_k\).  The coefficient one in the
+second comparison is sharp already for the scalar single-shell stress
+\(K=0\), \(Q=-B\), \(F=B\): then
+\(\mathfrak C_{\rm full}=B\) while \(\mathfrak W_{\rm up}=0\).  Thus the
+Step 2 observable is, up to an already-paid quadratic row, the full-cutoff
+positive cumulative flux itself; it is not a smaller signed-depletion
+quantity.  The inherited plateau quantity obeys
+\(\mathfrak C_R^M\le\mathfrak C_{{\rm full},R}^M\); equality is neither
+needed nor claimed.
+
+Finally apply the inherited R0.74O/P smooth periodic exact family.  In its
+notation,
+
+\[
+ \boxed{
+ \mathfrak C_{R_j}^{M,*}\asymp T_*,
+ \qquad
+ \mathfrak C_{{\rm full},R_j}^{M,*}\ge\mathfrak C_{R_j}^{M,*},
+ \qquad
+ (P_{R_j}^{M,*})^{2/3}\asymp{T_*\over K_*},
+ \qquad K_*\longrightarrow\infty,
+ \qquad
+ {\mathfrak W_{{\rm up},R_j}^{M,*}
+   \over(P_{R_j}^{M,*})^{2/3}}\longrightarrow\infty.}
+\tag{S.199}
+\]
+
+The last conclusion follows from (S.198) and the first two exact-family
+comparisons, since the additive \(Q\)-error is only
+\(O((P_{R_j}^{M,*})^{2/3})\).  Equivalently, one may select the
+exact-family target shell alone: its terminal clock is
+\(\gtrsim T_*\), its full \(Q\)-variation is
+\(O(T_*/K_*)\), and the common zero stop makes its stopped work
+\(\gtrsim T_*\).  The solution is smooth, periodic, mean zero, unforced,
+and pressure free.  This refutes the *universal antecedent*
+\(\mathfrak W_{{\rm up},R}^M\lesssim(P_R^M)^{2/3}\); it does not refute the
+conditional algebra in (S.38), (S.196), an estimate with terminal
+exceptions paid by \(Y_{2,R}^{\rm sf}\), or (Q.1).  The viable next target
+must therefore return to the fixed best-\(N\), terminal-dependent exception
+quantifier of R0.74Q (Q.7)--(Q.12), not the no-exception supremum (S.37).
 
 ## 11. Scalar and functional stress tests
 
@@ -938,7 +1032,12 @@ The following are **PROVED**:
   (S.193)--(S.194); and
 - the \(5/6\) positive-flux relation on the selected class and the exact
   reduction of the full dissipation branch to the existing stopped-work gate
-  in (S.195)--(S.196).
+  in (S.195)--(S.196);
+- the two-sided equivalence of the no-exception stopped-work supremum with
+  the full terminal clock and positive cumulative flux, modulo the paid
+  \(Q\)-variation, in (S.197)--(S.198); and
+- the smooth exact-family refutation of a universal quadratic bound for that
+  no-exception gate in (S.199).
 
 The following are **CONDITIONAL**:
 
@@ -953,13 +1052,20 @@ The following are **INHERITED**:
 - the padded-shell cubic estimate and shell-dependent payment bound from
   R0.74R;
 - the Step 7 dissipation branch, Rayleigh split, coefficient profiles, and
-  exact-shear audit.
+  exact-shear audit;
+- the R0.74O/P smooth exact-family scale separation used in (S.199).
+
+The following are **REFUTED**:
+
+- the universal all-solution estimate
+  \(\mathfrak W_{{\rm up},R}^M\lesssim(P_R^M)^{2/3}\) for the
+  no-exception supremum (S.37).  The conditional implication (S.38) itself
+  remains correct.
 
 The following remain **OPEN**:
 
-- the sign-sensitive quadratic depletion estimate
-  \(\mathfrak W_{{\rm up},R}^M\lesssim(P_R^M)^{2/3}\), and hence a
-  quadratic closure of the selected scalar excess branch;
+- a fixed best-\(N_0\), terminal-dependent-exception estimate compatible
+  with the \(\sqrt{N_0}Y_{2,R}^{\rm sf}\) payment in R0.74Q;
 - any quadratic, square-function, or finite-exception bound for
   \(\mathcal X_{1,R}\); fixed-scale finiteness alone is not such a bound;
 - a quadratic or finite-exception bound for \(\mathfrak x_{1,R}\) beyond
@@ -992,15 +1098,17 @@ The following are **NOT CLAIMED**:
 | Absolute \(Q\)-variation bound \(\sum_k\operatorname{TV}Q_k\le C(P_R^M)^{2/3}\) | R0.74P, (3.4)--(3.5) | **INHERITED / PROVED** |
 | \(C^2\)-convergent shell weight \(\Theta_R\) and absolute \(F\)-variation bound | R0.74P, (1.4)--(1.5), (3.4a)--(3.6) | **INHERITED / PROVED** |
 | Fixed-scale Version-M path, field, total-measure, and canonical-density convergence | R0.74P, Lemmas 5.1--5.3 | **INHERITED / PROVED UNDER (S.183)** |
-| Terminal upcrossing condition, stopped work, absolute bound, and minimal gate | R0.74S Step 2, (S.25)--(S.38) | **INHERITED / PROVED; QUADRATIC GATE OPEN** |
+| Terminal upcrossing condition, stopped work, absolute bound, and conditional gate | R0.74S Step 2, (S.25)--(S.38) | **INHERITED / CONDITIONAL IMPLICATION PROVED; UNIVERSAL ANTECEDENT REFUTED HERE** |
 | Padded-shell spatial Hölder estimate and shell-dependent cubic payment | R0.74R, (R.209)--(R.215) | **INHERITED / PROVED** |
 | Dissipation-dominated branch, low/high-Rayleigh split, old residual ledger, and shear audit | R0.74S Step 7, (S.142)--(S.162) | **INHERITED / PROVED** |
 | Exact heat shear and shellwise \(F_k=0\) audit | R0.73Y; R0.74B; R0.74S Step 7, Section 9 | **INHERITED / PROVED IN THEIR STATED SCOPE** |
+| Smooth pressure-free amplitude family and scale separation \(\mathfrak C_*\asymp T_*\), \((P_*^M)^{2/3}\asymp T_*/K_*\) | R0.74O, (1.7)--(1.12), (4.1)--(4.6), (6.1), (6.5)--(6.9); R0.74P, (0.1)--(0.2), (4.1)--(4.4) | **INHERITED / PROVED** |
 | High-frequency divergence-free functional stress family | R0.74R, Proposition 5.3 | **INHERITED / NOT A PDE SOLUTION** |
 
 The new content is the measure residual, one-sixth trichotomy, selected and
 global excess ledgers, exact endpoint-safe lower-semicontinuity proof,
 conditional smooth formula, fixed-scale finiteness, and the physical-flux /
-stopped-work bridge (S.163)--(S.196).  No novelty or priority claim is made.
+stopped-work bridge, followed by the zero-start equivalence and exact-family
+refutation (S.163)--(S.199).  No novelty or priority claim is made.
 
 **NOT CLAY.**

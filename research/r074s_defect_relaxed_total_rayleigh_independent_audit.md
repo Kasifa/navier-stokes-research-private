@@ -9,8 +9,8 @@ their stated fixed-scale Version-M scope.
 
 The independently audited source is
 research/r074s_defect_relaxed_total_rayleigh_excess.md, SHA-256
-0324950c7d9e1500e02f9f17ae1cb6551f4a8acb44acdce12533abc7f50153a5.
-All tags (S.163)--(S.196) occur exactly once and in order. The strict and
+0a79f2c5bb59644eca710b3d9341776853ceb4d1f65a36869c2465073f8c08ab.
+All tags (S.163)--(S.199) occur exactly once and in order. The strict and
 weak threshold choices, the distinction \(x\le X\), the powers of \(R\),
 \(\gamma_k\), and \(\lambda_k\), and the open-terminal convention all pass.
 
@@ -23,14 +23,17 @@ stopped-work gate. On the priority residual class the stronger estimate is
 envelope \(X\) has fixed-scale finiteness but does not inherit this terminal
 flux bound.
 
-This closes an accounting question, not the analytic bottleneck. The Step 2
-supremum already permits the common initial zero stops used here, so the
-bridge does not narrow the ultimate stopped-work gate. No quadratic bound
-for that gate or for the Jordan envelope is proved. This audit does not
+This closes an accounting question and also eliminates one proposed target.
+The Step 2 supremum already permits the common initial zero stops used here,
+so it differs from the full terminal ℓ1 clock, and from the full-cutoff
+positive cumulative flux, only by the already-paid (Q)-variation. The
+R0.74O/P exact family therefore refutes a universal no-exception quadratic
+bound for that supremum. The conditional implication (S.38) remains valid;
+its antecedent is not universally true. This audit does not
 re-prove the inherited suitable-weak local-energy theory, R0.74P compactness,
 (R.211), or (R.214), and it is not a novelty or priority opinion. The
-fixed-scale inequality (Q.1), regularity, and the Millennium problem remain
-open. **NOT CLAY.**
+fixed best-(N) exception gate, (Q.1), regularity, and the Millennium
+problem remain open. **NOT CLAY.**
 
 ## 2. Independent analytic reconstruction
 
@@ -298,23 +301,102 @@ Because \(T_k=Q_k(\tau)+F_k(\tau)\),
 \]
 
 The same finite-first stopped-work argument proves (S.196). This is an exact
-bridge to Step 2, but not a stronger ultimate gate: (S.37) already ranges
-over all good stops satisfying (S.25), including the common zero-start
-family. The unsolved question remains the quadratic depletion estimate for
-\(\mathfrak W_{{\rm up},R}^M\).
+bridge to Step 2, but not a smaller gate: (S.37) already ranges over all good
+stops satisfying (S.25), including the common zero-start family.
+
+### 2.9 The no-exception gate is equivalent to the full terminal ledger
+
+Set
+
+\[
+ B_Q=\sum_k\operatorname {TV}Q_k,\qquad
+ \mathcal K=\sup_{\tau\in\mathcal G_R}\sum_kK_k(\tau),\qquad
+ \mathfrak C_{\rm full}
+ =\sup_{s_R<\tau<t_0}\left[\sum_kF_k(\tau)\right]_+.
+\]
+
+For any stopped family \((\tau,I,\boldsymbol\sigma)\),
+
+\[
+ \begin{aligned}
+ W-\sum_kF_k(\tau)
+ &=-\sum_{k\in I}F_k(\sigma_k)
+   -\sum_{k\notin I}F_k(\tau)\\
+ &=\sum_{k\in I}\bigl(Q_k(\sigma_k)-K_k(\sigma_k)\bigr)
+   +\sum_{k\notin I}\bigl(Q_k(\tau)-K_k(\tau)\bigr)\\
+ &\le\sum_{k\in I}\operatorname {TV}Q_k
+   +\sum_{k\notin I}\operatorname {TV}Q_k=B_Q.
+ \end{aligned}
+\]
+
+The partition of shells is essential: it spends every \(Q\)-variation row
+at most once. Therefore \(W_{\rm up}\le\mathfrak C_{\rm full}+B_Q\), not
+merely the weaker bound with \(2B_Q\).
+
+Conversely, at a good terminal time use the common zero stop on finite
+subsets of shells with \(K_k(\tau)>0\) and \(F_k(\tau)>0\). Positive flux
+on an omitted zero-clock shell satisfies \(F_k=-Q_k\le\operatorname {TV}Q_k\).
+Finite approximation, followed by uniform convergence and density of the
+common good-time set, gives
+
+\[
+ \mathfrak C_{\rm full}\le W_{\rm up}+B_Q.
+\]
+
+The same zero-start calculation compared with \(\sum_kK_k(\tau)\) gives
+
+\[
+ \mathcal K-B_Q\le W_{\rm up}\le\mathcal K+B_Q.
+\]
+
+Hence
+
+\[
+ \left|W_{\rm up}-\mathfrak C_{\rm full}\right|\le B_Q.
+\]
+
+The coefficient one is sharp. In the single-shell scalar stress row
+\(K=0,\ Q=-B,\ F=B\), the full positive flux is \(B\), while no strict
+positive terminal upcrossing is admissible and \(W_{\rm up}=0\). This row
+also disproves the tempting stronger assertion
+\(\mathfrak C_{\rm full}\le W_{\rm up}\).
+
+For the inherited exact family,
+
+\[
+ \mathfrak C_R^{M,*}\asymp T_*,
+ \qquad
+ \mathfrak C_{{\rm full},R}^{M,*}\ge\mathfrak C_R^{M,*},
+ \qquad
+ (P_R^{M,*})^{2/3}\asymp {T_*\over K_*},
+ \qquad K_*\to\infty.
+\]
+
+Since \(B_Q\lesssim(P_R^{M,*})^{2/3}\), the sharp comparison yields
+
+\[
+ {\mathfrak W_{{\rm up},R}^{M,*}\over(P_R^{M,*})^{2/3}}\to\infty.
+\]
+
+Thus the universal all-solution antecedent
+\(\mathfrak W_{{\rm up},R}^M\lesssim(P_R^M)^{2/3}\) is **REFUTED** by a
+smooth periodic exact solution. The conditional implication (S.38) is
+preserved: if its antecedent holds for a particular family or restricted
+class, its conclusion still follows. The viable route returns to the fixed
+best-\(N\), terminal-dependent exception quantifier of R0.74Q.
 
 ## 3. Independent executable audit
 
 The independent verifier is
 scripts/r074s_defect_relaxed_total_rayleigh_certificate_independent.rb,
-SHA-256 4260bdb8564fba76cdd47418588f73ec82334278ba1a044c1baac54ae27fc68d. It uses only the Ruby standard library
+SHA-256 b18b0a0b9937b106c5879a9e28996dd6892ab53f19decb7bca4db38c70a11343. It uses only the Ruby standard library
 and exact Rational arithmetic. The note, primary certificate, primary
 generator, and primary report paths are independently overridable by
 environment variables.
 
 The verifier returned **PASS** with:
 
-- 19/19 independent exact threshold and exponent rows;
+- 22/22 independent exact threshold, exponent, and gate-equivalence rows;
 - 5,780/5,780 eligible priority cases among 19,652 rational configurations;
 - a 325-allocation maximin search, whose unique grid maximizer is
   \((1/6,1/6,1/6)\);
@@ -328,22 +410,30 @@ The verifier returned **PASS** with:
 - 432/432 terminal-flux fixtures, including 252 selected residual cases with
   the strict \(5/6\) and \(6/5\) conclusions;
 - 9/9 exact-shear terminal fixtures plus an \(x=0<X\) logical witness;
-- 47/47 independent source and claim-boundary checks;
-- 9/9 adversarial source mutations rejected; and
-- 9/9 adversarial primary-artifact mutations rejected.
+- 6,561/6,561 two-shell discrete-clock gate fixtures, including 46 sharp
+  \(\mathfrak C_{\rm full}-\mathfrak W_{\rm up}=B_Q\) cases and the
+  \(K=0,Q=-B,F=B\) zero-clock stress row;
+- five exact-family scale rows with lower stopped-work ratios
+  \(1,3,7,15,31\);
+- 61/61 independent source and claim-boundary checks;
+- 14/14 adversarial source mutations rejected; and
+- 10/10 adversarial primary-artifact mutations rejected.
 
 The rejected source mutations reverse the \(x\le X\) order, alter either
 one-sixth threshold, alter \(C_4\), reverse the open-set Portmanteau
 inequality, erase the shear boundary, remove the stopped-work bridge,
-promote a functional field to a PDE solution, and remove the NOT-CLAY
-boundary. The rejected producer mutations include stale source hashes,
+replace the sharp \(B_Q\) error by \(2B_Q\), assert the false
+\(\mathfrak C_{\rm full}\le\mathfrak W_{\rm up}\) ordering, erase the
+zero-clock stress row, promote the refuted universal gate, refute the still
+valid conditional implication, promote a functional field to a PDE
+solution, or remove the NOT-CLAY boundary. The rejected producer mutations include stale source hashes,
 wrong schema, a false producer status, a missing exact row even after its
 summary is forged consistently, duplicate identifiers, a failed structural
 row, an analytic-scope promotion, and a stale summary.
 
 Two clean executions and one execution through all four environment path
 overrides produced byte-identical stdout, SHA-256
-03ffb38086fbad82574bd371bbfd248fe4d2c821366067db16e6eb66d31d1329. The output contains no time, randomness,
+e73fda5e966253567ecfce564564dc8854b3c6f17d3fd0fcf1398f49df40bc11. The output contains no time, randomness,
 floating-point arithmetic, network access, or non-standard dependency.
 
 ## 4. Primary-producer cross-check
@@ -354,13 +444,13 @@ is **PASS**:
 
 | Frozen artifact | SHA-256 |
 |---|---|
-| Primary Python generator | a60f2e0662b8a0a8489a7fdcd1a9fd1aafe5f3b622b7842f9f33d428dd748ea5 |
-| Primary JSON certificate | 5b65775343d09b8d2bcd975fc7e8eb59728411728151adb7e9ee94ff1c4ca030 |
-| Primary certificate report | a16c178dc2a9ec498373449cefb8599060f312110407a1ff8be23a19ae798fa8 |
+| Primary Python generator | 18735df5a8eff96167ef6314dad04150636c800c276e2fcffc7cbd8177fce9cf |
+| Primary JSON certificate | 3639edbccfddd97781805ed121fc91407771b9bf051ffefae5a17ad80087c69c |
+| Primary certificate report | 3a6d1e263daa7041edc4083a76c38af44f4fbcd7d2efc8f57592eecbd19ec55a |
 
 The JSON binds the final note and generator hashes, has the expected schema
-and finite-only scope, and reports 14/14 exact rows, 16/16 finite checks,
-63/63 structural checks, and 16/16 negative mutations. Every row is marked
+and finite-only scope, and reports 16/16 exact rows, 19/19 finite checks,
+75/75 structural checks, and 20/20 negative mutations. Every row is marked
 passing, every failure list is empty, identifiers are unique and complete,
 the summary agrees with the four row collections, and the Markdown report
 reproduces the same hashes and scope boundary.
@@ -376,10 +466,17 @@ The independent audit supports:
 - \(x_k=0\), but not necessarily \(X_k=0\), for the inherited exact shear;
 - fixed-scale finiteness of \(X\) and linear flux control of \(x\); and
 - containment of the scalar excess in the already-open stopped signed-work
-  gate, with selected-shell coefficient \(6/5\).
+  gate, with selected-shell coefficient \(6/5\);
+- the sharp comparison
+  \(|\mathfrak W_{\rm up}-\mathfrak C_{\rm full}|\le B_Q\) and the
+  analogous two-sided full-clock comparison; and
+- exact-family refutation of the universal no-exception quadratic
+  stopped-work antecedent, while preserving (S.38) as a conditional
+  implication.
 
-The audit does not support a quadratic estimate for the stopped-work gate or
-the Jordan envelope, a new independent residual closure, cross-scale
+The audit does not support a no-exception quadratic estimate for the
+stopped-work gate (that estimate is refuted), a quadratic estimate for the
+Jordan envelope, a fixed best-\(N\) exception theorem, cross-scale
 compactness, a Version-F theorem, (Q.1), regularity, or a Clay claim.
 
 **INDEPENDENT FINITE/ALGEBRAIC AND SOURCE AUDIT: PASS. NOT CLAY.**

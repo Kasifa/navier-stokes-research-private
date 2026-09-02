@@ -111,6 +111,22 @@
       "note": "Failure of beta gives F>5T/6, hence T<(6/5)F.",
       "pass": true,
       "right": "1/1"
+    },
+    {
+      "id": "direct_clock_to_full_flux_one_BQ",
+      "left": "1/1",
+      "margin": "0/1",
+      "note": "The direct shell-partition identity costs exactly one B_Q.",
+      "pass": true,
+      "right": "1/1"
+    },
+    {
+      "id": "exact_family_ratio_identity_at_K_4096",
+      "left": "4096/1",
+      "margin": "0/1",
+      "note": "T divided by T/K equals K in the exact-family scaling proxy.",
+      "pass": true,
+      "right": "4096/1"
     }
   ],
   "finite_checks": [
@@ -15124,6 +15140,599 @@
           "sum_x": "1/2"
         }
       ]
+    },
+    {
+      "configurations_checked": 5184,
+      "failures": [],
+      "id": "finite_no_exception_clock_and_flux_comparison",
+      "pass": true,
+      "sharp_C_minus_W_equals_B_cases": 7,
+      "sharp_K_lower_cases": 24,
+      "sharp_K_upper_cases": 260,
+      "sharp_W_minus_C_equals_B_cases": 224
+    },
+    {
+      "failures": [],
+      "id": "finite_inherited_exact_family_universal_quadratic_refutation_proxy",
+      "inherited_smooth_PDE_family_machine_proved": false,
+      "last_ratio": "4096/1",
+      "pass": true,
+      "rows": [
+        {
+          "C": "1/1",
+          "K_star": "2/1",
+          "P_to_two_thirds": "1/2",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "2/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "4/1",
+          "P_to_two_thirds": "1/4",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "4/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "8/1",
+          "P_to_two_thirds": "1/8",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "8/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "16/1",
+          "P_to_two_thirds": "1/16",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "16/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "32/1",
+          "P_to_two_thirds": "1/32",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "32/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "64/1",
+          "P_to_two_thirds": "1/64",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "64/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "128/1",
+          "P_to_two_thirds": "1/128",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "128/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "256/1",
+          "P_to_two_thirds": "1/256",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "256/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "512/1",
+          "P_to_two_thirds": "1/512",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "512/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "1024/1",
+          "P_to_two_thirds": "1/1024",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "1024/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "2048/1",
+          "P_to_two_thirds": "1/2048",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "2048/1"
+        },
+        {
+          "C": "1/1",
+          "K_star": "4096/1",
+          "P_to_two_thirds": "1/4096",
+          "T_star": "1/1",
+          "W_up_lower": "1/1",
+          "conditions": {
+            "C_comparable_proxy": true,
+            "payment_proxy": true,
+            "ratio_equals_K_star": true,
+            "ratio_strictly_increases": true
+          },
+          "pass": true,
+          "ratio": "4096/1"
+        }
+      ],
+      "rows_checked": 12
+    },
+    {
+      "configurations_checked": 48,
+      "failures": [],
+      "id": "finite_S38_conditional_implication_arithmetic",
+      "pass": true,
+      "rows": [
+        {
+          "A": "1/4",
+          "C_Q": "0/1",
+          "C_W": "0/1",
+          "conditional_rhs": "0/1",
+          "inherited_rhs": "0/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "0/1",
+          "C_W": "1/4",
+          "conditional_rhs": "1/4",
+          "inherited_rhs": "1/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "0/1",
+          "C_W": "1/1",
+          "conditional_rhs": "1/1",
+          "inherited_rhs": "1/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "0/1",
+          "C_W": "2/1",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/4",
+          "C_W": "0/1",
+          "conditional_rhs": "1/4",
+          "inherited_rhs": "1/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/4",
+          "C_W": "1/4",
+          "conditional_rhs": "1/2",
+          "inherited_rhs": "1/2",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/4",
+          "C_W": "1/1",
+          "conditional_rhs": "5/4",
+          "inherited_rhs": "5/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/4",
+          "C_W": "2/1",
+          "conditional_rhs": "9/4",
+          "inherited_rhs": "9/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/1",
+          "C_W": "0/1",
+          "conditional_rhs": "1/1",
+          "inherited_rhs": "1/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/1",
+          "C_W": "1/4",
+          "conditional_rhs": "5/4",
+          "inherited_rhs": "5/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/1",
+          "C_W": "1/1",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "1/1",
+          "C_W": "2/1",
+          "conditional_rhs": "3/1",
+          "inherited_rhs": "3/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "2/1",
+          "C_W": "0/1",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "2/1",
+          "C_W": "1/4",
+          "conditional_rhs": "9/4",
+          "inherited_rhs": "9/4",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "2/1",
+          "C_W": "1/1",
+          "conditional_rhs": "3/1",
+          "inherited_rhs": "3/1",
+          "pass": true
+        },
+        {
+          "A": "1/4",
+          "C_Q": "2/1",
+          "C_W": "2/1",
+          "conditional_rhs": "4/1",
+          "inherited_rhs": "4/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "0/1",
+          "C_W": "0/1",
+          "conditional_rhs": "0/1",
+          "inherited_rhs": "0/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "0/1",
+          "C_W": "1/4",
+          "conditional_rhs": "1/1",
+          "inherited_rhs": "1/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "0/1",
+          "C_W": "1/1",
+          "conditional_rhs": "4/1",
+          "inherited_rhs": "4/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "0/1",
+          "C_W": "2/1",
+          "conditional_rhs": "8/1",
+          "inherited_rhs": "8/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/4",
+          "C_W": "0/1",
+          "conditional_rhs": "1/1",
+          "inherited_rhs": "1/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/4",
+          "C_W": "1/4",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/4",
+          "C_W": "1/1",
+          "conditional_rhs": "5/1",
+          "inherited_rhs": "5/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/4",
+          "C_W": "2/1",
+          "conditional_rhs": "9/1",
+          "inherited_rhs": "9/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/1",
+          "C_W": "0/1",
+          "conditional_rhs": "4/1",
+          "inherited_rhs": "4/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/1",
+          "C_W": "1/4",
+          "conditional_rhs": "5/1",
+          "inherited_rhs": "5/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/1",
+          "C_W": "1/1",
+          "conditional_rhs": "8/1",
+          "inherited_rhs": "8/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "1/1",
+          "C_W": "2/1",
+          "conditional_rhs": "12/1",
+          "inherited_rhs": "12/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "2/1",
+          "C_W": "0/1",
+          "conditional_rhs": "8/1",
+          "inherited_rhs": "8/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "2/1",
+          "C_W": "1/4",
+          "conditional_rhs": "9/1",
+          "inherited_rhs": "9/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "2/1",
+          "C_W": "1/1",
+          "conditional_rhs": "12/1",
+          "inherited_rhs": "12/1",
+          "pass": true
+        },
+        {
+          "A": "1/1",
+          "C_Q": "2/1",
+          "C_W": "2/1",
+          "conditional_rhs": "16/1",
+          "inherited_rhs": "16/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "0/1",
+          "C_W": "0/1",
+          "conditional_rhs": "0/1",
+          "inherited_rhs": "0/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "0/1",
+          "C_W": "1/4",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "0/1",
+          "C_W": "1/1",
+          "conditional_rhs": "8/1",
+          "inherited_rhs": "8/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "0/1",
+          "C_W": "2/1",
+          "conditional_rhs": "16/1",
+          "inherited_rhs": "16/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/4",
+          "C_W": "0/1",
+          "conditional_rhs": "2/1",
+          "inherited_rhs": "2/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/4",
+          "C_W": "1/4",
+          "conditional_rhs": "4/1",
+          "inherited_rhs": "4/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/4",
+          "C_W": "1/1",
+          "conditional_rhs": "10/1",
+          "inherited_rhs": "10/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/4",
+          "C_W": "2/1",
+          "conditional_rhs": "18/1",
+          "inherited_rhs": "18/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/1",
+          "C_W": "0/1",
+          "conditional_rhs": "8/1",
+          "inherited_rhs": "8/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/1",
+          "C_W": "1/4",
+          "conditional_rhs": "10/1",
+          "inherited_rhs": "10/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/1",
+          "C_W": "1/1",
+          "conditional_rhs": "16/1",
+          "inherited_rhs": "16/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "1/1",
+          "C_W": "2/1",
+          "conditional_rhs": "24/1",
+          "inherited_rhs": "24/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "2/1",
+          "C_W": "0/1",
+          "conditional_rhs": "16/1",
+          "inherited_rhs": "16/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "2/1",
+          "C_W": "1/4",
+          "conditional_rhs": "18/1",
+          "inherited_rhs": "18/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "2/1",
+          "C_W": "1/1",
+          "conditional_rhs": "24/1",
+          "inherited_rhs": "24/1",
+          "pass": true
+        },
+        {
+          "A": "2/1",
+          "C_Q": "2/1",
+          "C_W": "2/1",
+          "conditional_rhs": "32/1",
+          "inherited_rhs": "32/1",
+          "pass": true
+        }
+      ],
+      "universal_antecedent_machine_assumed": false
     }
   ],
   "negative_mutations": [
@@ -15194,6 +15803,45 @@
       "pass": true
     },
     {
+      "id": "mutation_change_universal_gate_REFUTED_back_to_OPEN",
+      "mutated_guard": false,
+      "original_guard": true,
+      "pass": true
+    },
+    {
+      "fixture_B_Q": "0/1",
+      "fixture_K_terminal": "1/1",
+      "id": "mutation_delete_common_zero_start_from_lower_comparison",
+      "mutated_guard": false,
+      "nonzero_stop_fails_K_minus_B": true,
+      "nonzero_stop_work": "1/3",
+      "original_guard": true,
+      "pass": true,
+      "zero_start_meets_K_minus_B": true,
+      "zero_start_work": "1/1"
+    },
+    {
+      "fixture_B_Q": "1/1",
+      "fixture_C_full": "1/1",
+      "fixture_K_sup": "0/1",
+      "fixture_W_up": "0/1",
+      "id": "mutation_weaken_sharp_BQ_flux_comparison_to_2BQ",
+      "mutated_guard": false,
+      "original_guard": true,
+      "pass": true,
+      "sharp_B_bound_is_attained": true,
+      "weaker_2B_bound_has_slack": true
+    },
+    {
+      "correct_B_bound": true,
+      "id": "mutation_delete_BQ_error_from_flux_comparison",
+      "mutated_guard": false,
+      "mutated_zero_error_bound": false,
+      "original_guard": true,
+      "pass": true,
+      "sharp_single_shell_fixture": "K=0, Q=-B, F=B, C_full=B, W_up=0"
+    },
+    {
       "forbidden_claims_detected": [
         "We prove that weak-* convergence implies convergence of the hard-interval masses"
       ],
@@ -15257,15 +15905,16 @@
     "machine_proves_Navier_Stokes_PDE": false,
     "machine_proves_Portmanteau_or_measure_topology": false,
     "machine_proves_good_stop_selection_or_primitive_continuity": false,
+    "machine_proves_inherited_R074O_R074P_exact_PDE_family": false,
     "machine_proves_inherited_R074P_R074R_analysis": false,
     "machine_proves_regularity_or_Clay": false,
     "machine_proves_smooth_approximation_existence": false
   },
   "source": {
     "generator": "scripts/r074s_defect_relaxed_total_rayleigh_certificate.py",
-    "generator_sha256": "a60f2e0662b8a0a8489a7fdcd1a9fd1aafe5f3b622b7842f9f33d428dd748ea5",
+    "generator_sha256": "18735df5a8eff96167ef6314dad04150636c800c276e2fcffc7cbd8177fce9cf",
     "note": "research/r074s_defect_relaxed_total_rayleigh_excess.md",
-    "note_sha256": "0324950c7d9e1500e02f9f17ae1cb6551f4a8acb44acdce12533abc7f50153a5"
+    "note_sha256": "0a79f2c5bb59644eca710b3d9341776853ceb4d1f65a36869c2465073f8c08ab"
   },
   "structural_checks": [
     {
@@ -15303,7 +15952,10 @@
         "193",
         "194",
         "195",
-        "196"
+        "196",
+        "197",
+        "198",
+        "199"
       ],
       "expected": [
         "163",
@@ -15339,16 +15991,19 @@
         "193",
         "194",
         "195",
-        "196"
+        "196",
+        "197",
+        "198",
+        "199"
       ],
-      "id": "tags_consecutive_S163_through_S196",
+      "id": "tags_consecutive_S163_through_S199",
       "pass": true
     },
     {
-      "actual_count": 34,
+      "actual_count": 37,
       "id": "tags_unique",
       "pass": true,
-      "unique_count": 34
+      "unique_count": 37
     },
     {
       "id": "priority_order_beta_sigma_x",
@@ -15383,9 +16038,21 @@
       "pass": true
     },
     {
-      "id": "required_text_b67232d29ab9",
+      "id": "no_exception_clock_comparison",
+      "pass": true
+    },
+    {
+      "id": "no_exception_common_zero_start",
+      "pass": true
+    },
+    {
+      "id": "universal_gate_refuted_not_open",
+      "pass": true
+    },
+    {
+      "id": "required_text_a59c272ee849",
       "pass": true,
-      "sentinel": "This is an exact unification and a weak-stability interface, not a proof of the stopped-work depletion estimate."
+      "sentinel": "This is an exact unification and a weak-stability interface, not a quadratic payment theorem."
     },
     {
       "id": "required_text_86b41d9678d0",
@@ -15456,6 +16123,31 @@
       "id": "required_text_a9537bfa42f3",
       "pass": true,
       "sentinel": "This does not itself improve that gate."
+    },
+    {
+      "id": "required_text_6d906d1768bd",
+      "pass": true,
+      "sentinel": "up to an already-paid quadratic row, the full-cutoff positive cumulative flux itself"
+    },
+    {
+      "id": "required_text_8596532678c9",
+      "pass": true,
+      "sentinel": "The conditional implication (S.38) itself remains correct."
+    },
+    {
+      "id": "required_text_88bda8ce5c81",
+      "pass": true,
+      "sentinel": "The following are **REFUTED**:"
+    },
+    {
+      "id": "required_text_634dae61e7b9",
+      "pass": true,
+      "sentinel": "The coefficient one in the second comparison is sharp already for the scalar single-shell stress"
+    },
+    {
+      "id": "required_text_db3fcee5f78b",
+      "pass": true,
+      "sentinel": "\\(K=0\\), \\(Q=-B\\), \\(F=B\\)"
     },
     {
       "id": "required_text_a89d7e4da1f4",
@@ -15608,6 +16300,26 @@
       "sentinel": "\\sum_{k\\in\\mathcal I_x(\\tau)}K_{k,R}(\\tau)\\le{6\\over5}\\mathfrak W_{{\\rm up},R}^M"
     },
     {
+      "id": "required_formula_0b10efad9f01",
+      "pass": true,
+      "sentinel": "B_{Q,R}^M:=\\sum_{k\\ge1}\\operatorname {TV}_{[s_R,t_0)}Q_{k,R}\\le C_Q(P_R^M)^{2/3}"
+    },
+    {
+      "id": "required_formula_1c9e5aa0d5b2",
+      "pass": true,
+      "sentinel": "\\mathcal K_R^M-B_{Q,R}^M\\le\\mathfrak W_{{\\rm up},R}^M\\le\\mathcal K_R^M+B_{Q,R}^M"
+    },
+    {
+      "id": "required_formula_6eb08348a33b",
+      "pass": true,
+      "sentinel": "\\bigl|\\mathfrak W_{{\\rm up},R}^M-\\mathfrak C_{{\\rm full},R}^M\\bigr|\\le B_{Q,R}^M"
+    },
+    {
+      "id": "required_formula_273124af03f6",
+      "pass": true,
+      "sentinel": "{\\mathfrak W_{{\\rm up},R_j}^{M,*}\\over(P_{R_j}^{M,*})^{2/3}}\\longrightarrow\\infty"
+    },
+    {
       "id": "forbidden_c33e6c1f4a06",
       "pass": true,
       "sentinel": "We prove that the selected excess sum is lower semicontinuous"
@@ -15649,13 +16361,13 @@
     }
   ],
   "summary": {
-    "exact_passed": 14,
-    "exact_total": 14,
-    "finite_passed": 16,
-    "finite_total": 16,
-    "negative_mutations_passed": 16,
-    "negative_mutations_total": 16,
-    "structural_passed": 63,
-    "structural_total": 63
+    "exact_passed": 16,
+    "exact_total": 16,
+    "finite_passed": 19,
+    "finite_total": 19,
+    "negative_mutations_passed": 20,
+    "negative_mutations_total": 20,
+    "structural_passed": 75,
+    "structural_total": 75
   }
 }
