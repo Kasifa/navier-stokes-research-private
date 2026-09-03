@@ -106,7 +106,7 @@ then `alpha=beta/3` and the exact residence threshold is
 
 \[
  \boxed{
- \beta>\beta_*=rac{27163}{35721}
+ \beta>\beta_*=\frac{27163}{35721}
  \approx0.7604210408.}
 \]
 

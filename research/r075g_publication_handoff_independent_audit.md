@@ -4,7 +4,7 @@
 
 - Handoff: `research/r075g_publication_handoff.md`
 - Audited SHA-256:
-  `b5b0e5a235df429e23dce474c9fa6b981babee56b8f2fa949dff4fed0a844a80`
+  `a38bf8abab31c4ddc7c37cca1ddf1a90435da704a6671b61aec570b33f2311c0`
 - Verdict: **PASS**
 - Blocking issues: **0**
 
@@ -12,6 +12,8 @@
 
 - All 10 path/hash rows resolve, and every file SHA-256 equals the value
   frozen in the handoff.
+- The corrected handoff contains no disallowed control byte; in particular,
+  the residence threshold is encoded as `\frac{27163}{35721}`.
 - Core commit `b4ec164eeae4ec79be3c517da98321b62294d991` resolves as a
   commit.
 - The sole publication-task id is
