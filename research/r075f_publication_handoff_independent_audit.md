@@ -4,14 +4,21 @@
 
 - Handoff: `research/r075f_publication_handoff.md`
 - Audited SHA-256:
-  `c50cd4a71d1576392a2128c64b49240d11ffd9241e5c67b40ef70df8c2d4d797`
+  `1c150c22663850a3b21f47e1df3e1606796aa1a8edabad362d619fa81acf4afc`
 - Verdict: **PASS**
 - Blocking issues: **0**
 
 ## Reproducibility and queue audit
 
-- All 10 path/hash rows resolve, and every file SHA-256 equals the value
+- All 12 path/hash rows resolve, and every file SHA-256 equals the value
   frozen in the handoff.
+- The fixture and expected JSON are direct runtime dependencies of both
+  certificate implementations and are now explicitly included in the
+  frozen ledger.
+- This audit supersedes the earlier 10-row handoff audit. The sole
+  publication task detected the omitted runtime dependencies before any
+  page, PDF, commit, push, or Pages run was created; the repaired 12-row
+  ledger is the only release-authorizing version.
 - Core commit `be9a79a1d2b1fd2b7ee0e33f1f6e18f23b63958c` resolves as a
   commit.
 - The sole publication-task id is
