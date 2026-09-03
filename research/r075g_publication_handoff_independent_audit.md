@@ -4,14 +4,17 @@
 
 - Handoff: `research/r075g_publication_handoff.md`
 - Audited SHA-256:
-  `a38bf8abab31c4ddc7c37cca1ddf1a90435da704a6671b61aec570b33f2311c0`
+  `628dbe1a1e0d53d87bcf782edba1425b130269722ecded882207549c232c9d1c`
 - Verdict: **PASS**
 - Blocking issues: **0**
 
 ## Reproducibility and queue audit
 
-- All 10 path/hash rows resolve, and every file SHA-256 equals the value
+- All 12 path/hash rows resolve, and every file SHA-256 equals the value
   frozen in the handoff.
+- The complete runtime closure includes the fixtures and expected JSON
+  files read directly by both certificate implementations and the QA
+  wrapper; their frozen hashes match.
 - The corrected handoff contains no disallowed control byte; in particular,
   the residence threshold is encoded as `\frac{27163}{35721}`.
 - Core commit `b4ec164eeae4ec79be3c517da98321b62294d991` resolves as a
