@@ -882,8 +882,8 @@ whose theoretical limits are respectively
 
 The archived data and vector figure are consistent with the three limits
 and show convergence in most displayed sequences.  The `p=0.75` unit-tilt
-sequence is still nonmonotone at these finite scales, as is explicitly
-recorded in the caption.  The computation checks the selected scaling and
+sequence moves slightly away from its analytic limit over the displayed
+range, as is explicitly recorded in the caption.  The computation checks the selected scaling and
 catches constant/sign regressions.  It is not evidence for the continuum
 proof, the exact PDE transfer, or the complete-clock sign argument.
 
