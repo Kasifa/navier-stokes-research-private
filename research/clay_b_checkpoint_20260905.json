@@ -1,0 +1,62 @@
+{
+  "checkpoint_id": "Clay-B-Bridge-Contract-2026-09-05",
+  "status": "internal-reviewed-checkpoint",
+  "is_research_release": false,
+  "is_clay_result": false,
+  "base_research_commit": "6ce48305b05e76410f749ed94081a7076c62db08",
+  "inherited_L_handoff": "a5edefb014ebc6dd13ce052aad196ff5115b9629",
+  "manuscript_checkpoint_commit": "fe77466d5ec8cde66f08d95734d77e9374417c73",
+  "manuscript_repository": "/Users/kasifa/Documents/Math/navier-stokes-arxiv-paper",
+  "publication": {
+    "handoff_sent": false,
+    "reason": "internal problem contract and preflight, not a completed new research release",
+    "public_paper_authorized": false
+  },
+  "scientific_status": {
+    "good_scale_contract": "OPEN",
+    "cross_scale_contraction": "OPEN",
+    "arbitrary_clock_PDE_inputs": "OPEN",
+    "normalization_and_path_baseline": "independently analytically reviewed",
+    "localisation_force_product_identity": "independently recalculated",
+    "manuscript": "incomplete; complete auxiliary lemma saved"
+  },
+  "next_problem": "Derive and audit the exact two-scale mollified-velocity difference energy identity with moving cutoff; separate stretching, stress-difference and pressure-boundary terms, and test whether any absorption is available without assuming the good-scale gate or a critical norm bound.",
+  "qa": {
+    "display_pairs_balanced": true,
+    "equation_tags_unique": true,
+    "analytic_audit": "clay_b_independent_audit_20260905.md",
+    "numerical_simulation_used": false,
+    "finite_certificate_not_applicable": true,
+    "manuscript_pdf_compiled": false
+  },
+  "excluded_user_paths": [
+    "AGENTS.md"
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_cross_scale_path_preflight_20260905.md",
+      "sha256": "5e0d3535286413432181ff369d5328af9d3794e921c567808bfa92f381ddeab6"
+    },
+    {
+      "path": "research/clay_b_independent_audit_20260905.md",
+      "sha256": "b191e0f25f89acbc24bfef2197c59a0673441107b9584bdaabd80e55238874b3"
+    },
+    {
+      "path": "research/clay_b_localisation_force_ledger_20260905.md",
+      "sha256": "1ec3130bca9f519d73488820295e2cc8f1a069b7b8969ab5d7155ca9aee7110b"
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c"
+    },
+    {
+      "path": "research/clay_b_report-source_20260905.md",
+      "sha256": "5bbe9e994c2e5344ff139e9a632ad3908d31341e555ca1ff9e255ed1fc9b8250"
+    },
+    {
+      "path": "research/clay_b_work_plan_20260905.md",
+      "sha256": "f53d1a05efc6801a4feb795c19dbc5f3220f9980f10c1e11dbe6d451820a043a"
+    }
+  ],
+  "integrity_note": "This inventory hashes source files only, not itself or its future containing commit. The containing git commit binds the inventory. Hashes certify bytes, not mathematical correctness."
+}
