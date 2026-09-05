@@ -1,0 +1,25 @@
+{
+  "checkpoint_id": "ClayB-after-PhysicalAdjoint-20260906",
+  "status": "active-research-internal",
+  "is_research_release": false,
+  "last_scientific_release": "ClayB-PhysicalAdjoint-20260906",
+  "source_commit": "ed51a0e43c9de159c0388218b0b45cf3b83c6578",
+  "freeze_commit": "7cb9b74effa96fa4c9a4c04abcfa48e16fa40461",
+  "handoff_sent_once": true,
+  "publication_monitoring_owned_by_research": false,
+  "current_working_source": "research/clay_b_signed_upcrossing_preflight_20260906.md",
+  "current_question": "Can true NS signed flux constrain jointly weighted narrow persistence windows and the dissipation-dominated clock branch?",
+  "working_source_review": "candidate algebra independently checked; actual-file review and new freeze not completed",
+  "G": "OPEN",
+  "R216_R217_actual_NS_input": "OPEN",
+  "next_step": "Test the exact F prime budget without replacing it by the already known absolute cubic ledger",
+  "paper": {
+    "status": "owner reported complete, not pending in this task",
+    "owner_source_commit": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd",
+    "full_paper_independently_reaudited_here": false,
+    "public_submission_authorized": false
+  },
+  "DGX_required": false,
+  "excluded_user_paths": ["AGENTS.md"],
+  "historical_checkpoint_note": "The older clay_b_checkpoint_20260905.json is a historical freeze, not current progress or current paper status."
+}
