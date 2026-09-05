@@ -1,0 +1,471 @@
+\section{A uniform bound for the complete collar flux}
+\label{sec:upper-bound}
+
+The spatial estimate in this section holds for arbitrary real frequencies.
+The passage to a heat-flow estimate uses the additional assumption that
+the frequencies lie in one dyadic band.  The proof of the spatial estimate
+follows the half-plane and Laguerre-polynomial approach of
+Zhang~\cite{Zhang2026}.  The details, including the finite-range step, are
+given below.  The constants are chosen for a short proof.
+
+\subsection{A finite-dimensional half-plane basis}
+
+For distinct complex numbers $\zeta_1,\ldots,\zeta_N$ with
+$b_j=\operatorname{Re}\zeta_j>0$, consider the space spanned by
+$e^{-\zeta_jt}$ in $L^2(0,\infty)$.  The Laplace transform, with boundary
+norm $(2\pi)^{-1}\int_{\mathbb R}|\widehat h(i\xi)|^2\,d\xi$, is an
+isometry on this space by Fourier Plancherel.  A useful orthonormal basis
+has transforms
+\begin{equation}\label{eq:ub-basis}
+ \widehat\varphi_j(s)=\frac{\sqrt{2b_j}}{s+\zeta_j}
+       \prod_{r<j}\frac{s-\overline{\zeta_r}}{s+\zeta_r},
+ \qquad 1\le j\le N.
+\end{equation}
+Here and below inner products are linear in the first argument.
+To verify this assertion, note that each factor in the product has
+modulus one on the imaginary axis.  The kernel
+$k_w(s)=(s+\overline w)^{-1}$ satisfies
+\[
+ \langle H,k_w\rangle=H(w),\qquad
+ \|k_w\|^2=(2\operatorname{Re}w)^{-1}.
+\]
+These identities follow by applying Plancherel to
+$e^{-\overline w t}$.  The norm of every vector in
+\eqref{eq:ub-basis} is therefore one.  In the inner product of the $j$th
+and $\ell$th vectors, $\ell<j$, cancel their common initial factors.
+The remaining $j$th factor vanishes at $\overline{\zeta_\ell}$, so the
+reproducing identity gives orthogonality.  Partial fractions show that
+the first $j$ vectors lie in the span of the first $j$ kernels.  The
+coefficient at $(s+\zeta_j)^{-1}$ is nonzero, since
+$\zeta_r-\zeta_j\ne0$ and $\operatorname{Re}(\zeta_j+
+\overline{\zeta_r})>0$.  This proves spanning as well.
+
+Let
+\[
+ (V_\zeta h)(t)=\int_0^t e^{-\zeta(t-u)}h(u)\,du.
+\]
+Inverting the factors in \eqref{eq:ub-basis} gives
+\begin{equation}\label{eq:ub-volterra}
+ \varphi_j=
+ \prod_{r<j}(I-2b_rV_{\zeta_r})
+       \bigl(\sqrt{2b_j}e^{-\zeta_jt}\bigr).
+\end{equation}
+These are identities between entire exponential sums, so the same formula
+holds at negative real times, with each integral oriented from $0$ to $t$.
+
+Write
+\[
+ L_m(-y)=\sum_{\ell=0}^m\binom m\ell\frac{y^\ell}{\ell!},
+ \qquad y\ge0.
+\]
+The elementary bound
+\begin{equation}\label{eq:ub-laguerre}
+ 0\le L_m(-y)
+ \le\sum_{\ell\ge0}\frac{(my)^\ell}{(\ell!)^2}
+ \le\cosh(2\sqrt{my})\le e^{2\sqrt{my}}
+\end{equation}
+follows from $\binom{2\ell}{\ell}\le4^\ell$.  In particular, if all
+$b_j=\beta/2$, expansion of \eqref{eq:ub-volterra} over subsets gives
+\begin{equation}\label{eq:ub-basis-majorants}
+ \begin{split}
+ |\varphi_j(t)|&\le\sqrt\beta e^{-\beta t/2}
+                         L_{j-1}(-\beta t),\quad t\ge0,\\
+ |\varphi_j(-x)|&\le\sqrt\beta e^{\beta x/2}
+                         L_{j-1}(-\beta x),\quad x\ge0.
+ \end{split}
+\end{equation}
+For each subset with $\ell$ factors, the convolution simplex has volume
+$t^\ell/\ell!$ or $x^\ell/\ell!$.  Equality of the real parts supplies
+the common exponential factor; taking absolute values removes the signs
+of the Volterra factors.  There are $\binom{j-1}{\ell}$ such subsets.
+
+\subsection{Bilateral near-edge extrapolation}
+
+\begin{theorem}[Near-edge estimate]\label{thm:ub-edge}
+Let $N\ge1$ and
+$g(x)=\sum_{j=1}^N c_je^{i\mu_jx}$, with $c_j\in\mathbb C$ and
+$\mu_j\in\mathbb R$.  For every $d\ge0$,
+\begin{equation}\label{eq:ub-edge}
+ \max\{|g(1+d)|,|g(-1-d)|\}
+ \le \sqrt{\frac{250}{19}}\,N
+       e^{5\sqrt2N\sqrt d}\|g\|_{L^2(-1,1)}.
+\end{equation}
+The bound has no frequency-separation hypothesis.
+\end{theorem}
+
+\begin{proof}
+Zero coefficients can be removed and repeated frequencies merged.  The
+result with the resulting number of terms implies the stated bound, so
+assume that all $N$ frequencies are distinct.  The zero function is
+immediate.  For any $N$-term real-frequency exponential sum $F$ and
+$\beta>0$, put
+\[
+ I_\beta(F)=\int_0^\infty|F(t)|^2e^{-\beta t}\,dt,
+ \qquad H(t)=e^{-\beta t/2}F(t).
+\]
+Expand $H$ in \eqref{eq:ub-basis}, with
+$\zeta_j=\beta/2-i\mu_j$.  Cauchy--Schwarz and
+\eqref{eq:ub-basis-majorants} yield
+\[
+ |F(t)|^2e^{-\beta t}
+ \le I_\beta(F)\,\beta e^{-\beta t}
+              \sum_{j=1}^N L_{j-1}(-\beta t)^2.
+\]
+Consequently, by \eqref{eq:ub-laguerre},
+\begin{align*}
+ I_\beta(F)^{-1}\int_{25N/\beta}^\infty
+             |F(t)|^2e^{-\beta t}\,dt
+ &\le N\int_{25N}^\infty e^{-y+4\sqrt{Ny}}\,dy\\
+ &\le N\int_{25N}^\infty e^{-y/5}\,dy
+   =5Ne^{-5N}<\frac1{20}.
+\end{align*}
+The second inequality uses $4\sqrt{Ny}\le4y/5$ for $y\ge25N$.
+It follows that
+\begin{equation}\label{eq:ub-finite-range}
+ I_\beta(F)\le\frac{20}{19}
+       \int_0^{25N/\beta}|F(t)|^2e^{-\beta t}\,dt.
+\end{equation}
+At a negative time, the second bound in
+\eqref{eq:ub-basis-majorants} instead gives
+\[
+ |F(-x)|^2\le\beta\sum_{j=1}^N L_{j-1}(-\beta x)^2 I_\beta(F).
+\]
+The factor $e^{\beta x}$ cancels because
+$H(-x)=e^{\beta x/2}F(-x)$.
+
+Take $F(t)=g(1-t)$, $x=d$, and $\beta=25N/2$.  The truncation point
+in \eqref{eq:ub-finite-range} is $2$, and
+\[
+ |g(1+d)|^2
+ \le\frac{20}{19}\frac{25N}{2}
+       N e^{10\sqrt2N\sqrt d}\int_{-1}^1|g(x)|^2\,dx.
+\]
+Taking square roots proves the right endpoint bound.  Apply the same
+argument to $g(-x)$ for the left endpoint.
+\end{proof}
+
+An affine consequence will be useful.  If $J=[-e,e]$, $e>0$, and
+$I=[-e(1+d),e(1+d)]$, then
+\begin{equation}\label{eq:ub-affine-edge}
+ \|g\|_{L^\infty(I)}^2
+ \le\frac{250}{19e}N^2e^{10\sqrt2N\sqrt d}
+                  \int_J|g|^2.
+\end{equation}
+The theorem proves this outside $J$ and at its endpoints.  For an interior
+point $z$, apply the $d=0$ assertion to $[-e,z]$ and $[z,e]$.  If the
+two lengths are $\ell_-$ and $\ell_+$, the resulting inequalities are
+$\ell_\pm|g(z)|^2\le(500/19)N^2\int_{J_\pm}|g|^2$.
+Adding them and using $\ell_-+\ell_+=2e$ proves
+\eqref{eq:ub-affine-edge} there as well.
+
+\subsection{A time-weighted estimate}
+
+\begin{lemma}[Time-weighted decay]\label{lem:ub-delay}
+Let $(E,\mu)$ be a measure space, and let
+$\zeta_1,\ldots,\zeta_N\in\mathbb C$ satisfy
+$1\le\operatorname{Re}\zeta_j\le4$.  For measurable finite
+coefficients $c_j(z)$, define
+\[
+ f(t,z)=\sum_{j=1}^N c_j(z)e^{-\zeta_jt},\qquad
+ k(t)=\int_E|f(t,z)|^3\,d\mu(z),\qquad
+ K_T=\int_0^T k(t)\,dt.
+\]
+For every $T>0$ with $K_T<\infty$,
+\begin{equation}\label{eq:ub-delay}
+ \int_0^T t\,k(t)^{2/3}\,dt\le C N^{4/3}K_T^{2/3},
+\end{equation}
+where $C$ is absolute.
+\end{lemma}
+
+\begin{proof}
+Merge coincident exponents, retaining the notation $N$ for their number.
+In \eqref{eq:ub-volterra}, $1\le b_j\le4$.  Every convolution over
+$\ell$ factors is bounded by $e^{-t}t^\ell/\ell!$, while $2b_j\le8$.
+Therefore
+\[
+ |\varphi_j(t)|\le\sqrt8 e^{-t}L_{j-1}(-8t)
+              \le\sqrt8 e^{-t+2\sqrt{8Nt}}.
+\]
+For almost every $z$, set $I_b(z)=\int_0^b|f(t,z)|^2\,dt$.
+The coefficients are finite, so $I_\infty(z)<\infty$.
+Expansion in the orthonormal basis gives
+\[
+ |f(t,z)|^2\le8N e^{-2t+4\sqrt{8Nt}}I_\infty(z).
+\]
+Take $S=128N$.  For $t\ge S$ the exponent is at most $-t$, so
+\[
+ \int_S^\infty|f(t,z)|^2\,dt
+ \le8Ne^{-S}I_\infty(z)<\tfrac12 I_\infty(z).
+\]
+Thus $I_\infty\le2I_S$ and
+$|f(t,z)|^2\le16Ne^{-t}I_S(z)$ for $t\ge S$.
+
+Suppose $T\ge S$.  Minkowski's integral inequality in $L^{3/2}(E)$
+and H\"older's inequality in time imply
+\[
+ \|I_S\|_{L^{3/2}(E)}
+ \le\int_0^S k(u)^{2/3}\,du\le S^{1/3}K_T^{2/3}.
+\]
+Hence $k(t)^{2/3}\le16NS^{1/3}e^{-t}K_T^{2/3}$ for $t\ge S$,
+and the tail contributes at most
+$16NS^{1/3}(S+1)e^{-S}K_T^{2/3}\le C N^{4/3}K_T^{2/3}$.
+On the initial interval, H\"older gives
+\[
+ \int_0^{\min(T,S)}t\,k(t)^{2/3}\,dt
+ \le\left(\int_0^{\min(T,S)}t^3\,dt\right)^{1/3}K_T^{2/3}
+ \le4^{-1/3}S^{4/3}K_T^{2/3}.
+\]
+If $T<S$ this is already the whole integral.  These two cases prove the
+lemma.  Reinstating the original number of exponents only increases its
+right-hand side.
+\end{proof}
+
+The use of $I_S$ with $S=128N$ is essential to this argument.  Replacing
+it by $I_T$ would introduce $T^{1/3}$ through H\"older's inequality and
+would not establish the stated uniform bound.
+
+For later use, suppose the temporal decay rates of $G(s,z)$ have real
+parts in $[\lambda,4\lambda]$, and let
+$h(s)=\int_E|G(s,z)|^3\,d\mu$ and $H=\int_0^4h(s)\,ds$.
+If $0\le\eta(s)\le C_\eta s$, rescale $t=\lambda s$ in
+\eqref{eq:ub-delay}.  Since $K_{4\lambda}=\lambda H$, this gives
+\begin{equation}\label{eq:ub-cutoff-time}
+ \lambda\int_0^4\eta(s)h(s)^{2/3}\,ds
+ \le C C_\eta N^{4/3}\lambda^{-1/3}H^{2/3}.
+\end{equation}
+
+\subsection{The physical model and the uniform theorem}
+
+Write $\mathbb T=\mathbb R/(2\pi\mathbb Z)$.  Fix
+$0<\delta_0<\delta$ and a function
+$\vartheta\in C_c^\infty((-\delta,\delta))$ such that
+$0\le\vartheta\le1$ and $\vartheta=1$ on $[-\delta_0,\delta_0]$.
+Fix also $\eta\in C^1([0,4])$ with
+$0\le\eta\le1$ and $\eta(0)=0$.
+For $R>0$, $a\ge\max(1,\delta+2\delta_0)$ and $(a+\delta)R<\pi/2$, set
+\begin{align}
+ \xi_{a,R}(x)&=\vartheta(|x|/R-a),&
+ \mathcal S^{\rm plat}_{a,R}
+ &=\{x\in\mathbb T^3:\,||x|/R-a|\le\delta_0\},
+ \label{eq:ub-geometry}\\
+ F(t,x_2)&=\sum_{j=1}^q A_je^{-n_j^2t}
+                   \cos(n_jx_2-\phi_j-n_jBt),
+ \label{eq:ub-F}
+\end{align}
+where $q\ge1$, $1\le n_1<\cdots<n_q\le2n_1$ are integers,
+$A_j\ge0$, and $\phi_j,B\in\mathbb R$.
+The support of the cutoff lies in a Euclidean chart of the torus, and it
+is extended by zero outside that chart.  The field $u=(0,B,F)$ is an exact
+smooth Navier--Stokes solution with viscosity one and pressure zero:
+its only nonzero evolution equation is
+$F_t+BF_{x_2}-F_{x_2x_2}=0$.
+
+Define the complete flux and the full plateau observation by
+\begin{align}
+ \mathcal T_{\boldsymbol n,R}
+ &=\frac12\int_0^{4R^2}\!\int_{\mathbb T^3}
+       \eta(t/R^2)B\,\partial_2\xi_{a,R}(x)F(t,x_2)^2\,dx\,dt,
+ \label{eq:ub-T}\\
+ M^{\rm plat}_{\boldsymbol n,R}
+ &=\int_0^{4R^2}\!\int_{\mathcal S^{\rm plat}_{a,R}}
+                         |F(t,x_2)|^3\,dx\,dt.
+ \label{eq:ub-M}
+\end{align}
+The time cutoff occurs in the flux; the plateau observation uses the
+entire unweighted clock.
+
+\begin{theorem}[Complete-clock upper bound]\label{thm:ub-flux}
+For the data above, put
+\[
+ \Delta_a=\frac{\delta+\delta_0}{a-\delta_0},\qquad
+ \Phi_a=20\sqrt2q\sqrt{\Delta_a}.
+\]
+There is a constant $C$, depending only on
+$\vartheta,\delta_0,\delta$ and $\|\eta'\|_\infty$, such that
+\begin{equation}\label{eq:ub-main-refined}
+ |\mathcal T_{\boldsymbol n,R}|
+ \le C a^{2/3}R^{-1/3}
+       \left(q^4+\frac{q^7}{a^2}+q^{13/3}\right)e^{\Phi_a}
+       \bigl(M^{\rm plat}_{\boldsymbol n,R}\bigr)^{2/3}.
+\end{equation}
+In particular,
+\begin{equation}\label{eq:ub-main}
+ |\mathcal T_{\boldsymbol n,R}|
+ \le C a^{2/3}R^{-1/3}q^7e^{\Phi_a}
+       \bigl(M^{\rm plat}_{\boldsymbol n,R}\bigr)^{2/3}.
+\end{equation}
+The constant is independent of $q,R$, all frequencies, amplitudes,
+phases, and $B$.
+\end{theorem}
+
+\begin{proof}
+Use the scaled variables
+\[
+ \begin{gathered}
+ s=t/R^2,\quad z=x_2/(aR),\quad G(s,z)=F(R^2s,aRz),\\
+ \kappa_j=n_jaR,\quad \alpha=\kappa_1,\quad
+ v=BR/a,\quad\lambda=(\alpha/a)^2.
+ \end{gathered}
+\]
+Then $G_s+vG_z-a^{-2}G_{zz}=0$, and its $2q$ complex spatial
+frequencies are $\pm\kappa_j$, with $\alpha\le\kappa_j\le2\alpha$.
+Let
+\[
+ \begin{gathered}
+ e_a=1-\delta_0/a,\quad E_a=[-e_a,e_a],\quad
+ I_a=[-1-\delta/a,1+\delta/a],\\
+ h(s)=\int_{E_a}|G(s,z)|^3\,dz,\quad H=\int_0^4h(s)\,ds.
+ \end{gathered}
+\]
+The assumptions imply $e_a\ge1/2$, $\Delta_a\le1$, and uniformly
+bounded upper and lower lengths for these intervals.
+Equation \eqref{eq:ub-affine-edge} with $N=2q$, followed by H\"older,
+gives
+\begin{equation}\label{eq:ub-observation}
+ \|G(s)\|_{L^\infty(I_a)}^2
+ \le\frac{1000}{19e_a}q^2e^{\Phi_a}\int_{E_a}|G|^2
+ \le Cq^2e^{\Phi_a}h(s)^{2/3}.
+\end{equation}
+
+The following two estimates from the literature are used in the remaining
+argument.  Erd\'elyi's Markov inequality~\cite{Erdelyi2017} states, for
+$f(x)=\sum_{r=1}^N c_re^{i\mu_rx}$ on $[0,1]$, that
+\begin{equation}\label{eq:ub-markov-input}
+ \|f'\|_\infty\le C
+       \left(N^5+\sum_{r=1}^N\mu_r^2\right)^{1/2}\|f\|_\infty.
+\end{equation}
+The more precise expression in that paper is
+$(1+\varepsilon_N)(108N^5+\sum_r\mu_r^2)^{1/2}$, with a uniformly
+bounded factor $1+\varepsilon_N$.
+K\'os's endpoint inequality~\cite{Kos2008}, recorded in
+Erd\'elyi's paper as (1.2), is
+\begin{equation}\label{eq:ub-kos-input}
+ |f(0)|\le2N\|f\|_{L^2(0,1)},\qquad
+ f(r)=\sum_{j=1}^N c_je^{\gamma_jr},\quad
+ \operatorname{Re}\gamma_j\ge0.
+\end{equation}
+
+Map $I_a$ affinely onto $[0,1]$ in
+\eqref{eq:ub-markov-input}.  Its length is bounded above and below,
+and $\sum_j(\kappa_j^2+(-\kappa_j)^2)\le8q\alpha^2$.
+Together with \eqref{eq:ub-observation}, this proves
+\begin{equation}\label{eq:ub-derivative}
+ \|G_z(s)\|_{L^\infty(I_a)}^2
+ \le C(q^7+q^3\alpha^2)e^{\Phi_a}h(s)^{2/3}.
+\end{equation}
+For fixed $z$, the function $r\mapsto G(4-r,z)$, $0\le r\le1$,
+has at most $2q$ exponential terms with exponents
+$(\kappa_j/a)^2\pm iv\kappa_j$.  Applying
+\eqref{eq:ub-kos-input}, cubing, and using H\"older on the unit
+interval yields
+\begin{equation}\label{eq:ub-endpoint}
+ h(4)\le64q^3\int_3^4h(s)\,ds\le64q^3H,
+ \qquad h(4)^{2/3}\le16q^2H^{2/3}.
+\end{equation}
+
+The radial geometry can be computed exactly.  At $y=x_2$, the
+cross-sectional integral of the cutoff is
+$2\pi\int_{|y|}^\infty r\vartheta(r/R-a)\,dr$.
+Differentiating with respect to $y$ gives
+\[
+ \int_{\mathbb T^2}\partial_2\xi_{a,R}(x_1,y,x_3)\,dx_1\,dx_3
+ =-2\pi y\vartheta(|y|/R-a).
+\]
+Thus, with
+\[
+ W_a(z)=-2\pi az\vartheta(a(|z|-1)),\qquad
+ \Xi_a(z)=\int_{-\infty}^zW_a(r)\,dr,
+\]
+the exact flux conversion is
+\begin{equation}\label{eq:ub-flux-conversion}
+ \mathcal T_{\boldsymbol n,R}
+ =\frac{a^2R^3}{2}\,v\int_0^4\eta(s)
+                         \int_{\mathbb R}W_a(z)G(s,z)^2\,dz\,ds.
+\end{equation}
+The function $W_a$ is odd and has zero integral.  Its two support
+intervals have length $O(a^{-1})$, and $|W_a|\le Ca$ there.  Consequently
+\begin{equation}\label{eq:ub-kernel-bounds}
+ \operatorname{supp}\Xi_a\subset I_a,\qquad
+ \|\Xi_a\|_1+\|\Xi_a\|_\infty\le C,\qquad
+ \|\Xi_a''\|_1=\|W_a'\|_1\le Ca.
+\end{equation}
+These bounds follow directly by differentiating $W_a$ on its support;
+that support stays away from $z=0$.
+
+Put $\mathcal E(s)=\int_{\mathbb R}\Xi_a(z)G(s,z)^2\,dz$.
+Multiplying
+$(G^2)_s+v(G^2)_z-a^{-2}(G^2)_{zz}=-2a^{-2}|G_z|^2$
+by $\Xi_a$, and then integrating in space and time, gives
+\begin{align}
+ v\int_0^4\eta\int W_aG^2
+ &=\eta(4)\mathcal E(4)-\int_0^4\eta'\mathcal E\,ds
+ \nonumber\\
+ &\quad-a^{-2}\int_0^4\eta\int\Xi_a''G^2
+       +2a^{-2}\int_0^4\eta\int\Xi_a|G_z|^2.
+ \label{eq:ub-energy}
+\end{align}
+There is no initial-face term because $\eta(0)=0$.
+Using \eqref{eq:ub-observation}, \eqref{eq:ub-endpoint}, and
+\eqref{eq:ub-kernel-bounds}, the first three terms on the right have
+absolute sum at most
+\begin{equation}\label{eq:ub-first-rows}
+ C(q^4+q^2+a^{-1}q^2)e^{\Phi_a}H^{2/3}.
+\end{equation}
+Here $\int_0^4h^{2/3}\le4^{1/3}H^{2/3}$.
+The last term, by \eqref{eq:ub-derivative}, is bounded by
+\[
+ Ce^{\Phi_a}\left[
+       \frac{q^7}{a^2}\int_0^4\eta h^{2/3}\,ds
+       +q^3\lambda\int_0^4\eta h^{2/3}\,ds\right].
+\]
+The first summand is at most $Cq^7a^{-2}H^{2/3}$.
+If $\lambda\le1$, H\"older bounds the second by $Cq^3H^{2/3}$.
+If $\lambda>1$, the temporal exponents of $G$ have real parts in
+$[\lambda,4\lambda]$ and $\eta(s)\le\|\eta'\|_\infty s$.
+Equation \eqref{eq:ub-cutoff-time}, with $N\le2q$, bounds that summand
+by $Cq^{13/3}\lambda^{-1/3}H^{2/3}\le Cq^{13/3}H^{2/3}$.
+Combining these estimates with \eqref{eq:ub-energy} gives
+\begin{equation}\label{eq:ub-scaled-bound}
+ \left|v\int_0^4\eta\int W_aG^2\right|
+ \le C\left(q^4+\frac{q^7}{a^2}+q^{13/3}\right)
+                  e^{\Phi_a}H^{2/3}.
+\end{equation}
+
+Finally, the plateau cross-sectional area at $x_2=aRz$, divided by
+$R^2$, equals
+\[
+ \pi\left(
+ [(a+\delta_0)^2-a^2z^2]_+
+ -[(a-\delta_0)^2-a^2z^2]_+\right).
+\]
+For $z\in E_a$ it is exactly $4\pi a\delta_0$.  As
+$dt\,dx_2=aR^3\,ds\,dz$, this proves
+\begin{equation}\label{eq:ub-mass-conversion}
+ M^{\rm plat}_{\boldsymbol n,R}\ge4\pi\delta_0a^2R^5H.
+\end{equation}
+Equations \eqref{eq:ub-flux-conversion}, \eqref{eq:ub-scaled-bound},
+and \eqref{eq:ub-mass-conversion} prove
+\eqref{eq:ub-main-refined}.  Since $a,q\ge1$,
+$q^4+q^7/a^2+q^{13/3}\le3q^7$, proving \eqref{eq:ub-main}.
+\end{proof}
+
+\begin{remark}[A shrinking-gap regime]\label{rem:ub-window}
+Let $a=pL$ with fixed $p>0$, and let
+$\omega=\exp(-\gamma L^2)$ with fixed $\gamma>0$.  Set
+$P=R^{-2}\omega M^{\rm plat}_{\boldsymbol n,R}$ and
+$X=(\omega/R)[\mathcal T_{\boldsymbol n,R}]_+$.
+Equation \eqref{eq:ub-main} becomes
+\[
+ X\le C a^{2/3}q^7\omega^{1/3}e^{20\sqrt2q\sqrt{\Delta_a}}P^{2/3}.
+\]
+If $q=q(L)=o(L^{5/2})$, then $\Delta_a=O(L^{-1})$ and
+\[
+ \lim_{L\to\infty}\frac1{L^2}
+   \log\left(Ca^{2/3}q(L)^7\omega^{1/3}
+                   e^{20\sqrt2q(L)\sqrt{\Delta_a}}\right)
+ =-\frac\gamma3.
+\]
+This is the rate of the proved upper-bound coefficient.  It does not
+assert that a particular flux attains that rate.  For the normalization
+$\gamma=2/3969$ used in the research notes, the rate is $-2/11907$.
+\end{remark}

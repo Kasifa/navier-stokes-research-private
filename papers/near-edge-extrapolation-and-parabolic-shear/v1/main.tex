@@ -1,148 +1,181 @@
 \documentclass[11pt]{article}
-\usepackage[margin=29mm]{geometry}
+\usepackage[a4paper,margin=26mm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern,microtype,amsmath,amssymb,amsthm,mathtools}
-\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx,booktabs,array,xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\allowdisplaybreaks
+\setlist{itemsep=2pt,topsep=4pt}
 \newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
 \newtheorem{remark}[theorem]{Remark}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\T}{\mathbb T}
 \newcommand{\Rea}{\operatorname{Re}}
+\newcommand{\Ree}{\operatorname{Re}}
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\pos}[1]{\left(#1\right)_+}
+\newcommand{\dd}{\,\mathrm d}
+\hypersetup{
+ pdftitle={Near-edge extrapolation and parabolic smoothing in exact Navier-Stokes shear flows},
+ pdfauthor={C. K. Zeng},
+ pdfsubject={Localized signed fluxes of finite-mode periodic shear flows},
+ pdfkeywords={Navier-Stokes, exponential sums, extrapolation, Chebyshev polynomials, heat flow}
+}
 \title{Near-edge extrapolation and parabolic smoothing\\
-for finite-mode Navier--Stokes shear flows}
-\author{C. K. Zeng\\
-\small ORCID: \href{https://orcid.org/0009-0002-5402-3374}{0009-0002-5402-3374}}
-\date{Scientific working draft: 5 September 2026}
+in exact Navier--Stokes shear flows}
+\author{C. K. Zeng\thanks{Independent Researcher.
+ORCID: \href{https://orcid.org/0009-0002-5402-3374}{0009-0002-5402-3374}.}}
+\date{5 September 2026}
 \begin{document}
 \maketitle
 
-\noindent\textbf{Draft status.}
-This is an incomplete, resumable scientific manuscript. The section below
-records a complete supplementary lemma, independently checked at the
-source-proof level. The main shear-flow results, their full proofs,
-literature discussion, and bibliography have not yet been assembled here.
-This file is not a frozen paper and is not approved for public release.
+\begin{abstract}
+I study the signed transport flux through a thin radial collar for exact
+periodic Navier--Stokes shears whose nonconstant component has \(q\)
+positive Fourier frequencies in one dyadic band. A local reconstruction
+of a near-edge estimate for exponential sums gives a bound by the
+two-thirds power of the space--time cubic mass of that component on the
+full central plateau. The coefficient has the form
+\(C a^{2/3}R^{-1/3}q^7
+\exp(20\sqrt2\,q\sqrt{(\delta+\delta_0)/(a-\delta_0)})\);
+it is uniform in the carrier frequency, amplitudes, phases, and constant
+transport speed. A time-weighted estimate for decaying exponential sums
+supplies the high-frequency part of the argument.
 
-\section{A time-weighted estimate for decaying exponential sums}
+Real dyadic packets retain both linear endpoint growth and the
+\(\exp(cq\sqrt d)\) spatial extrapolation scale. They can be realized by
+integer-mode heat shears at a prescribed time. I then analyze one
+start-prepaid Chebyshev family over the complete time interval. In the
+joint regime \(m/\sqrt A\to\infty\), \(m/A^2\to0\), the quotient of its
+positive integrated collar flux by the two-thirds power of the full-plateau
+mass, multiplied by \(R^{1/3}\), has an edge-dependent factor of order
+\(\exp(\Theta((m^2/A)^{1/3}))\), up to explicit algebraic factors.
+The static edge scale is \(\exp(\Theta(m/\sqrt A))\).
+The general extrapolation scale is established in prior work; the focus
+here is its realization and interaction with this local observable.
+The results concern smooth exact shears and do not give a regularity
+criterion for general weak solutions.
+\end{abstract}
 
-The following elementary finite-dimensional estimate controls the onset
-of a time cutoff without any separation assumption on the frequencies.
-Its proof is included because a bound on the whole interval, in place of
-the fixed initial interval used below, would introduce a spurious dependence
-on its length. No claim of originality is made for this auxiliary lemma.
+\medskip
+\noindent\textbf{2020 Mathematics Subject Classification.}
+35Q30, 41A17, 35K05, 76D05.
 
-\begin{lemma}\label{lem:delay}
-Let $(E,\mu)$ be a measure space, let $N\ge1$, and let
-$\zeta_1,\ldots,\zeta_N\in\mathbb C$ be fixed with
-$1\le\Rea\zeta_j\le4$. For measurable finite coefficients $c_j:E\to\mathbb C$,
-set
-\[
- f(t,z)=\sum_{j=1}^N c_j(z)e^{-\zeta_jt},\qquad
- k(t)=\int_E|f(t,z)|^3\,d\mu(z),\qquad
- K_T=\int_0^T k(t)\,dt.
-\]
-For every $T>0$ with $K_T<\infty$,
-\[
- \int_0^T t\,k(t)^{2/3}\,dt\le C N^{4/3}K_T^{2/3},
-\]
-where $C$ is absolute. Coincident exponents are merged before the proof;
-the displayed bound remains valid with the original $N$.
-\end{lemma}
+\noindent\textbf{Keywords.}
+Navier--Stokes shear flow; localized signed flux; exponential sum;
+near-edge extrapolation; Chebyshev polynomial; heat equation.
 
-\begin{proof}
-Write $a_j=\Rea\zeta_j$ and suppose first that the exponents are distinct.
-The Laplace transform is an isometry from $L^2(0,\infty)$ onto the
-right-half-plane Hardy space, with boundary norm
-$(2\pi)^{-1}\int_{\mathbb R}|F(i\xi)|^2d\xi$.
-In the span of $(s+\zeta_j)^{-1}$ an orthonormal basis is
-\[
- \widehat\phi_j(s)=\frac{\sqrt{2a_j}}{s+\zeta_j}
-       \prod_{r<j}\frac{s-\overline{\zeta_r}}{s+\zeta_r},
- \qquad 1\le j\le N.
-\]
-Here is the orthogonality argument. Each factor in the product has modulus
-one on the imaginary axis and so is an isometric multiplier. After
-cancelling the common initial factors in the inner product of the
-$j$th and $\ell$th vectors, $\ell<j$, the remaining $j$th factor vanishes
-at $\overline{\zeta_\ell}$. The reproducing identity for
-$(s+\zeta_\ell)^{-1}$ makes the inner product zero. The last unmultiplied
-kernel has squared norm $(2a_j)^{-1}$, giving unit normalization.
-Partial fractions show that the first $j$ vectors lie in the first $j$
-kernel span and that the coefficient of $(s+\zeta_j)^{-1}$ is nonzero:
-the differences $\zeta_r-\zeta_j$ are nonzero, as are
-$\zeta_j+\overline{\zeta_r}$ because their real parts are positive.
-This also proves spanning.
+\section{Introduction}
+\label{sec:introduction}
 
-For $V_\zeta h(t)=\int_0^t e^{-\zeta(t-u)}h(u)\,du$, inversion gives
-\[
- \phi_j=\prod_{r<j}(I-2a_rV_{\zeta_r})
-       \bigl(\sqrt{2a_j}e^{-\zeta_jt}\bigr).
-\]
-Expansion over subsets, $a_r\ge1$, and $2a_r\le8$ imply
-\[
- |\phi_j(t)|\le\sqrt8 e^{-t}
-       \sum_{\ell=0}^{j-1}\binom{j-1}{\ell}\frac{(8t)^\ell}{\ell!}
-       =\sqrt8 e^{-t}L_{j-1}(-8t).
-\]
-Every $\ell$-fold convolution is bounded by
-$e^{-t}t^\ell/\ell!$, which justifies the subset expansion even when the
-$\zeta_r$ have different imaginary parts. For $x\ge0$,
-\[
- L_j(-x)\le\sum_{\ell\ge0}\frac{(jx)^\ell}{(\ell!)^2}
- \le \cosh(2\sqrt{jx})\le e^{2\sqrt{jx}}.
-\]
-The middle inequality follows coefficientwise from
-$\binom{2\ell}{\ell}\le4^\ell$.
-For almost every $z$, let
-$I_b(z)=\int_0^b|f(t,z)|^2dt$. Expansion in the orthonormal basis and
-Cauchy--Schwarz give
-\[
- |f(t,z)|^2
- \le8N e^{-2t+4\sqrt{8Nt}}I_\infty(z).
-\]
-Each $I_\infty(z)$ is finite because the coefficients are finite and all
-real parts are positive.
+Spatial concentration and diffusion affect a local observation in
+different ways. An oscillatory profile can be small on an observed
+interval and large just outside it. During its heat evolution, the
+size and location of this contrast change. For a signed transport flux,
+the signs on the two sides of the observation region matter as well.
+This paper separates these effects in a class for which the velocity
+field and its evolution are explicit.
 
-Take $S=128N$. For $t\ge S$ the exponent is at most $-t$, whence
+On \(\T^3=(\R/2\pi\mathbb Z)^3\), consider
 \[
- \int_S^\infty|f(t,z)|^2dt\le8Ne^{-S}I_\infty(z)
-       <\tfrac12 I_\infty(z).
+ u(t,x)=(0,B,F(t,x_2)),\qquad
+ \partial_tF+B\partial_{x_2}F-\partial_{x_2}^2F=0 .
 \]
-Consequently $I_\infty\le2I_S$ and
-$|f(t,z)|^2\le16Ne^{-t}I_S(z)$ for $t\ge S$.
-If $T\ge S$, Minkowski in $L^{3/2}(E)$ and H\"older in time yield
-\[
- \norm{I_S}_{L^{3/2}(E)}
- \le\int_0^S k(u)^{2/3}\,du
- \le S^{1/3}K_T^{2/3}.
-\]
-Thus
-\[
- k(t)^{2/3}\le16NS^{1/3}e^{-t}K_T^{2/3}\quad(t\ge S).
-\]
-The contribution after $S$ is at most
-$16NS^{1/3}(S+1)e^{-S}K_T^{2/3}\le C N^{4/3}K_T^{2/3}$.
-Before $S$, H\"older directly gives
-\[
- \int_0^{\min(T,S)} t\,k(t)^{2/3}dt
- \le \left(\int_0^{\min(T,S)}t^3dt\right)^{1/3}K_T^{2/3}
- \le4^{-1/3}S^{4/3}K_T^{2/3}.
-\]
-If $T<S$, this is already the entire assertion. Merging coincident
-exponents only decreases the effective dimension.
-\end{proof}
+With constant pressure this solves the unforced incompressible
+Navier--Stokes equations with unit viscosity. Each finite trigonometric
+initial profile gives a smooth periodic solution for all positive time.
+Exact plane shears and more general shearing waves are classical;
+see Singh and Sridhar~\cite{SinghSridhar2017}. The question here is how
+much signed quadratic transport can cross a thin spherical collar,
+compared with the cubic mass of \(F\) on its central plateau, over the
+same complete time interval.
 
-\begin{remark}[The cutoff application]
-If the decay rates of $g(s,z)$ have real parts in $[\lambda,4\lambda]$,
-$h(s)=\int_E|g(s,z)|^3d\mu$, $H=\int_0^4h(s)ds$, and
-$0\le\chi(s)\le C_\chi s$, put $f(t,z)=g(t/\lambda,z)$.
-Then $K_{4\lambda}=\lambda H$, and the lemma gives
-\[
- \lambda\int_0^4\chi(s)h(s)^{2/3}ds
- \le C C_\chi N^{4/3}\lambda^{-1/3}H^{2/3}.
-\]
-This is a one-band temporal estimate, not a bound for arbitrary
-Navier--Stokes solutions. It will be used in the full-plateau shear proof.
-\end{remark}
+Three statements are useful, but have different quantifiers.
+A uniform upper estimate applies to every finite packet in the dyadic
+class. A sharp spatial witness may be chosen to fit one prescribed
+observation time. A lower bound for a time-integrated signed flux must
+instead use one initial datum throughout the interval and control the
+full plateau, including its caps. A spatial witness by itself does not
+settle the last question.
 
+\paragraph{The spatial input.}
+Near-edge extrapolation for sparse Fourier sums has recently been
+studied by Zhang~\cite{Zhang2026}. The scale
+\(N\exp(CN\sqrt d)\) near an interval endpoint and its exponential
+sharpness belong to that work. The local proof below follows its
+orthogonal-basis and half-line comparison architecture, with
+attribution. I include the finite-range argument and explicit constants
+to make the analytic dependence of the collar estimate transparent.
+Two other inputs are the endpoint and derivative inequalities recorded
+by Erd\'elyi~\cite{Erdelyi2017}. They are stated with their hypotheses
+where they enter the proof.
+
+\paragraph{The shear-flow estimates.}
+The first result controls the complete signed flux by the full-plateau
+mass, uniformly in the transport speed and frequency positions.
+The proof combines spatial extrapolation with a four-term energy
+identity. A time-weighted exponential-sum lemma handles the onset of
+the time cutoff at high carrier frequency. Its proof uses a
+frequency-uniform decaying basis and an initial interval of length
+proportional to the number of terms.
+
+The next result realizes polynomial endpoint witnesses in the real
+dyadic Fourier class. A real-rooted polynomial has no vanishing
+coefficient in the confluent Fourier representation at any positive
+confluence parameter. This strengthens the small-parameter
+nonvanishing argument. Approximation errors remain a separate issue
+when the degree increases.
+
+A joint degree--scale heat asymptotic then describes one Chebyshev
+witness over the entire interval. The common heat amplitude has
+logarithmic size \((m^2/A)^{2/3}\), while the relative edge tilt has size
+\((m^2/A)^{1/3}\). The proof keeps this relative tilt, the terminal time
+layer, signed pairing, and full-plateau cross-section weights.
+
+Heat evolution on polynomial spaces is a classical finite algebraic
+operation. Recent work of Hall and Ho~\cite{HallHo2025} studies its
+large-degree root distributions and random-matrix connections.
+The observable considered here is different: a relative endpoint
+amplitude and its contribution to a signed local shear flux.
+Neither the heat operator on polynomials nor its finite series
+representation is claimed as new.
+
+\paragraph{Scope and organization.}
+The Navier--Stokes statements are for exact periodic shears with
+constant transport and finitely many integer modes. Constants can be
+uniform across this family even though its initial energy is not
+uniform across a sequence of witnesses. The cubic mass is the mass of
+the third component \(F\), with the constant drift \(B\) excluded.
+\emph{Full plateau} specifies the spatial integration region, not all
+three velocity components. The planar extension on \(\R^3\) generally
+has infinite total energy.
+
+The next sections give the complete upper-bound proof, spatial
+sharpness, and parabolic calculation. Quantitative consequences, a
+finite diagnostic, and limitations follow. The accompanying audit
+files record the research-note provenance and supplementary work.
+
+\input{sections/upper-bound}
+\input{sections/sharpness}
+\input{sections/parabolic}
+\input{sections/consequences}
+\input{sections/diagnostic}
+\input{sections/discussion}
+
+\begingroup
+\small
+\setlength{\bibsep}{4pt}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
 \end{document}

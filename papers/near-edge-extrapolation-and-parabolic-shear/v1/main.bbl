@@ -1,0 +1,41 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Erd\'elyi(2017)]{Erdelyi2017}
+Tam\'as Erd\'elyi.
+\newblock Inequalities for exponential sums.
+\newblock \emph{Sbornik: Mathematics}, 208\penalty0 (3):\penalty0 433--464,
+  2017.
+\newblock \doi{10.1070/SM8670}.
+
+\bibitem[Hall and Ho(2025)]{HallHo2025}
+Brian~C. Hall and Ching-Wei Ho.
+\newblock The heat flow conjecture for polynomials and random matrices.
+\newblock \emph{Letters in Mathematical Physics}, 115:\penalty0 60, 2025.
+\newblock \doi{10.1007/s11005-025-01946-9}.
+
+\bibitem[K\'os(2008)]{Kos2008}
+G\'eza K\'os.
+\newblock Two {Tur\'an} type inequalities.
+\newblock \emph{Acta Mathematica Hungarica}, 119:\penalty0 219--226, 2008.
+\newblock \doi{10.1007/s10474-007-6176-5}.
+
+\bibitem[Singh and Sridhar(2017)]{SinghSridhar2017}
+Nishant~K. Singh and S.~Sridhar.
+\newblock Plane shearing waves of arbitrary form: exact solutions of the
+  {Navier--Stokes} equations.
+\newblock \emph{The European Physical Journal Plus}, 132\penalty0 (9):\penalty0
+  403, 2017.
+\newblock \doi{10.1140/epjp/i2017-11659-5}.
+
+\bibitem[Zhang(2026)]{Zhang2026}
+Ruizhe Zhang.
+\newblock Optimal extrapolation bounds for sparse {Fourier} sums, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.10501v1}.
+\newblock Version 1, 11 July 2026; preprint.
+
+\end{thebibliography}

@@ -1,0 +1,568 @@
+\section{Heat evolution of a Chebyshev edge profile}\label{sec:parabolic}
+
+The lower bounds at a prescribed time do not determine what happens over
+a time interval.  This section treats one explicit family with its
+coefficients specified at time zero.  The heat operator has a positive
+time parameter throughout.
+
+Let $T_m$ be the Chebyshev polynomial of the first kind, defined by
+$T_m(\cos\theta)=\cos(m\theta)$.  For $A>0$ set
+\begin{equation}\label{eq:heat-edge-definition}
+ Q_{m,A}(s,c)=
+ \left(e^{sA^{-2}D^2}T_m\right)(1+c/A),
+ \qquad \mu=(m^2/A)^{1/3}.
+\end{equation}
+The exponential is a finite sum when applied to a polynomial.
+All limits in this section are joint limits satisfying
+\begin{equation}\label{eq:edge-degree-regime}
+ A\longrightarrow\infty,\qquad
+ m/\sqrt A\longrightarrow\infty,\qquad m/A^2\longrightarrow0.
+\end{equation}
+Equivalently, $\mu\to\infty$ and $\mu/A\to0$.
+No convergence rate in these two conditions is imposed.
+
+\begin{theorem}[Two scales in the heat-evolved edge]\label{thm:heat-edge}
+Under \eqref{eq:edge-degree-regime}, for every compact interval
+$S\subset(0,\infty)$ and every $C_0<\infty$, $Q_{m,A}(s,c)$ is positive
+for all sufficiently large parameters, uniformly for $s\in S$ and
+$|c|\le C_0$.  Moreover,
+\begin{align}
+ \mu^{-2}\log Q_{m,A}(s,0)&\longrightarrow
+ F_s:=3\,2^{-4/3}s^{1/3},\label{eq:heat-leading-limit}\\
+ \mu^{-1}\log\frac{Q_{m,A}(s,c_2)}{Q_{m,A}(s,c_1)}
+ &\longrightarrow G_s(c_2-c_1),
+ \qquad G_s:=2^{-2/3}s^{-1/3}.
+ \label{eq:heat-tilt-limit}
+\end{align}
+Both convergences are uniform for $s\in S$ and $|c_1|,|c_2|\le C_0$.
+In particular $F_4=3\,2^{-2/3}$ and $G_4=2^{-4/3}$.
+\end{theorem}
+
+\begin{proof}
+Gaussian convolution, which also follows by taking the Gaussian moments
+of each monomial, gives
+\[
+ Q_{m,A}(s,c)=\frac1{\sqrt{4\pi s}}
+ \int_{\mathbb R}T_m(1+y/A)e^{-(y-c)^2/(4s)}\,dy.
+\]
+First retain the positive exterior:
+\[
+ I_{m,A}(s,c)=\frac1{\sqrt{4\pi s}}\int_0^\infty
+ \cosh\!\left(m\operatorname{arcosh}(1+y/A)\right)
+ e^{-(y-c)^2/(4s)}\,dy.
+\]
+Write $S=[s_0,s_1]$.  On setting $y=\mu z$, the logarithm of the
+integrand at $c=0$, divided by $\mu^2$, converges locally uniformly on
+$[0,\infty)\times S$ to
+\[
+ \Phi_s(z)=\sqrt{2z}-\frac{z^2}{4s}.
+\]
+Indeed, $m\sqrt{\mu/A}=\mu^2$,
+$\operatorname{arcosh}(1+u)=\sqrt{2u}(1+O(u))$ near zero, and
+$|\log\cosh v-v|\le\log2$ for $v\ge0$.
+The function $\Phi_s$ has its unique maximum at
+\[
+ z_s=2^{1/3}s^{2/3},\qquad \Phi_s(z_s)=F_s.
+\]
+The estimate $\operatorname{arcosh}(1+u)\le\sqrt{2u}$ for $u\ge0$
+controls the remaining tail.  For every sufficiently large fixed $K$,
+the integrand on $z\ge K$ is bounded, uniformly in $s\in S$, by
+$\exp(-\mu^2z^2/(8s_1))$.  A fixed neighborhood of $z_s$ gives a
+matching lower bound, and a compact upper bound followed by the tail
+bound gives
+\begin{equation}\label{eq:positive-laplace}
+ \mu^{-2}\log I_{m,A}(s,0)\longrightarrow F_s
+ \quad\hbox{uniformly on }S.
+\end{equation}
+The factor $\mu/\sqrt{4\pi s}$ in the changed measure contributes
+$o(\mu^2)$.
+
+To retain the smaller displacement scale, normalize the integrand at
+$c=0$ to a probability measure $\nu_{m,A,s}$ on $y\ge0$.  The preceding
+compact and tail estimates imply that $Y/\mu$ concentrates at $z_s$ at
+speed $\mu^2$, uniformly for $s\in S$.  The exact identity
+\begin{equation}\label{eq:exact-gaussian-tilt}
+ \frac{I_{m,A}(s,c)}{I_{m,A}(s,0)}
+ =e^{-c^2/(4s)}\int e^{cy/(2s)}\,d\nu_{m,A,s}(y)
+\end{equation}
+also requires control of the unbounded tilt.  Here are the relevant
+bounds.  For every $\epsilon>0$, compactness and uniqueness of $z_s$
+give a uniform loss $\kappa_\epsilon>0$ in $\Phi_s$ outside
+$|z-z_s|<\epsilon$ on a fixed sufficiently large compact interval.
+The added exponent is at most $C_0\mu z/(2s_0)$, of order $\mu$ there.
+Beyond that interval, increasing its endpoint if needed, the sum of the
+rate exponent and the tilt is at most $-\mu^2z^2/(8s_1)$.
+After normalization by \eqref{eq:positive-laplace}, these estimates give
+\[
+ \int_{|y/\mu-z_s|\ge\epsilon}e^{cy/(2s)}\,d\nu_{m,A,s}(y)
+ \le \exp\!\left(\frac{cz_s}{2s}\mu
+                 -\tfrac12\kappa_\epsilon\mu^2+C\mu\right)
+\]
+for sufficiently large parameters, uniformly for $s\in S$, $|c|\le C_0$.
+On the complementary event, the tilt lies between
+$\exp(cz_s\mu/(2s)\pm C\epsilon\mu)$.  That event has probability
+$1-o(1)$.  Taking logarithms, dividing by $\mu$, and then letting
+$\epsilon\downarrow0$ proves
+\[
+ \mu^{-1}\log\frac{I_{m,A}(s,c)}{I_{m,A}(s,0)}
+ \longrightarrow \frac{cz_s}{2s}=cG_s
+\]
+uniformly, including negative $c$.  Subtraction gives the two-coordinate
+version of \eqref{eq:heat-tilt-limit} for $I$.
+
+It remains to control the part of the Gaussian convolution outside
+$y\ge0$.  The portion $-2A\le y\le0$ has absolute value at most one.
+For $y=-2A-u$, $u\ge0$, the absolute value of the Chebyshev factor is
+$\cosh(m\operatorname{arcosh}(1+u/A))$.  For bounded $c$ and large $A$,
+\[
+ m\operatorname{arcosh}(1+u/A)-\frac{(2A+u+c)^2}{4s}
+ \le -\frac{A^2}{4s_1}-\frac{u^2}{8s_1}+C\mu^2.
+\]
+This follows from $(2A+u+c)^2\ge(A+u)^2$ and Young's inequality
+$\sqrt2\mu^{3/2}\sqrt u\le u^2/(8s_1)+C\mu^2$.
+Consequently that entire exterior integral is
+$O(\exp(-A^2/(4s_1)+C\mu^2))$.
+Since $\mu=o(A)$ and the positive integral grows like
+$\exp(F_s\mu^2+o(\mu^2))$, both omitted parts are negligible relative
+to $I$, uniformly on the stated sets.  Thus $Q/I=1+o(1)$ uniformly;
+in fact the relative error is exponentially small on the $\mu^2$ scale.
+This proves positivity and both limits.
+\end{proof}
+
+\begin{lemma}[A majorant and a terminal time interval]\label{lem:heat-terminal}
+Put $D_k=T_m^{(k)}(1)$.  Then
+\begin{equation}\label{eq:heat-positive-series}
+ Q_{m,A}(s,c)=\sum_{\ell+2j\le m}
+ \frac{D_{\ell+2j}}{A^{\ell+2j}\ell!j!}c^\ell s^j,
+ \qquad
+ \frac{D_{k+1}}{D_k}=\frac{m^2-k^2}{2k+1}\quad(0\le k<m).
+\end{equation}
+All $D_k$ in this range are positive.  For $s$ in a fixed compact
+subinterval of $(0,\infty)$ and $0<c_0\le c\le C_0$,
+\begin{equation}\label{eq:heat-log-derivatives}
+ 0\le\partial_s\log Q\le C(1+\mu^2),\qquad
+ 0\le\partial_c\log Q\le C(1+\mu).
+\end{equation}
+Thus changes of size at most $h_\mu=(1+\mu^2)^{-1}$ in $s$ and $c$
+change $Q$ by at most a fixed factor on these compact sets.
+If $d\ge0$, $0\le s\le S_1$, and $|x|\le1+d/A$, then
+\begin{equation}\label{eq:heat-global-majorant}
+ \left|\left(e^{sA^{-2}D^2}T_m\right)(x)\right|
+ \le Q_{m,A}(S_1,d).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Differentiate $(1-x^2)T_m''-xT_m'+m^2T_m=0$ $k$ times and evaluate
+at $x=1$.  This gives the displayed recurrence, starting from $D_0=1$.
+The finite Taylor expansion followed by the finite heat expansion gives
+\eqref{eq:heat-positive-series}.  At fixed $\ell$, the ratio of the
+$(j+1)$st and $j$th nonzero summands is at most
+\[
+ \frac{s m^4}{A^2(j+1)(4j+1)(4j+3)}
+ \le\frac{C\mu^6}{(j+1)^3}.
+\]
+For $j\ge J=\lceil C_1(1+\mu^2)\rceil$ this is at most $1/2$.
+Under the normalized weights in that row, the tail above $J$ is bounded
+by a geometric sequence, so its mean index is at most $J+2$.
+Rows ending before $J$ satisfy the same bound, and zero rows are ignored.
+Averaging over rows gives
+$\partial_s\log Q=\mathbb E(j)/s\le C(1+\mu^2)$.
+The identity $\partial_c^2Q=\partial_sQ$ yields
+$\mathbb E[\ell(\ell-1)]=c^2\partial_sQ/Q$.
+Since $\ell\le1+\sqrt{\ell(\ell-1)}$, Cauchy--Schwarz gives
+$\partial_c\log Q\le c^{-1}+\sqrt{\partial_sQ/Q}$.
+Integrating these derivative estimates proves the assertion about
+$h_\mu$.
+
+For completeness, $|T_m^{(k)}(x)|\le D_k$ for $|x|\le1$.
+For $k\ge1$ this follows from
+$T_m^{(k)}=m2^{k-1}(k-1)!C_{m-k}^{k}$: the generating function
+\[
+ \sum_{n\ge0}C_n^k(\cos\theta)t^n
+ =(1-te^{i\theta})^{-k}(1-te^{-i\theta})^{-k}
+\]
+has nonnegative absolute coefficient majorants given by its value at
+$\theta=0$.  The case $k=0$ is the defining Chebyshev bound.
+For $1\le|x|\le1+d/A$, parity and the positive Taylor coefficients at
+one instead give
+$|T_m^{(k)}(x)|\le T_m^{(k)}(1+d/A)$.
+The heat series has nonnegative coefficients in $s$, so termwise use of
+these derivative majorants proves \eqref{eq:heat-global-majorant}.
+\end{proof}
+
+\subsection{Uniform transfer to consecutive integer modes}
+
+The following estimate keeps the polynomial degree in the error bound.
+This is necessary because pointwise convergence at fixed degree would
+not justify the subsequent limit.
+
+\begin{proposition}[Dynamic confluence]\label{prop:dynamic-confluence}
+Fix $\delta_0,\beta>0$ and let
+\begin{equation}\label{eq:parabolic-frozen-parameters}
+ a=\frac{32}{63}L,\quad A=a-\delta_0,\quad
+ R=e^{-9L^2/40000},\quad e_a=A/a,\quad
+ v=-\beta/A,\quad B=av/R.
+\end{equation}
+Suppose $m$ is a positive even integer satisfying
+\eqref{eq:edge-degree-regime}.  Set $\eta=AR$ and
+\begin{equation}\label{eq:parabolic-fourier-coefficients}
+ w_\eta(x)=\frac{e^{i\eta x}-1}{i\eta},\qquad
+ T_m(w_\eta(x))=\sum_{j=0}^m b_j(\eta)e^{ij\eta x},\qquad
+ b_j(\eta)=\frac{T_m^{(j)}(i/\eta)}{j!(i\eta)^j}.
+\end{equation}
+Every $b_j$ is nonzero.  Define the real periodic solution
+\begin{equation}\label{eq:parabolic-exact-shear}
+ F(t,y)=2\Rea\sum_{j=0}^m b_j(\eta)
+ e^{-(m+j)^2t+i(m+j)(y-Bt)},\qquad
+ u(t,x)=(0,B,F(t,x_2)).
+\end{equation}
+Then $u$ is a smooth unforced unit-viscosity Navier--Stokes solution with constant
+pressure on $(\mathbb R/2\pi\mathbb Z)^3$ and exactly $m+1$ positive
+frequencies $m,\ldots,2m$ in its third component.
+Writing $G(s,z)=F(R^2s,aRz)$ and
+$P_s(x)=(e^{sA^{-2}D^2}T_m)(x)$, one has
+\begin{equation}\label{eq:parabolic-uniform-transfer}
+ \sup_{0\le s\le4,\ |x|\le2}
+ \left|G(s,e_ax)-2P_s(x-vs/e_a)\right|
+ \le \exp\!\left(-\frac9{40000}L^2+o(L^2)\right).
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The coefficient identity is the Taylor formula for $T_m$ at $i/\eta$.
+Every derivative of a real-rooted polynomial is real-rooted, by Rolle's
+theorem, and $T_m$ has only real roots.  Thus $T_m^{(j)}(i/\eta)\ne0$
+for $j<m$; the derivative of order $m$ is a nonzero constant.
+The equation $(\partial_t+B\partial_y-\partial_y^2)F=0$ follows directly
+from the finite sum.  It gives the claimed divergence-free shear solution.
+
+Put $M=m\eta$ and $t_s=s/A^2$.  The complex half of $G(s,e_ax)$ is
+exactly
+\begin{equation}\label{eq:parabolic-conjugation}
+ H(s,x)=e^{-M^2t_s+iM(x-vs/e_a)}
+ \left(e^{t_sD^2}T_m(w_\eta(\cdot))\right)
+ (x-vs/e_a+2iMt_s).
+\end{equation}
+This identity can be checked on every exponential in
+\eqref{eq:parabolic-fourier-coefficients}; in particular the imaginary
+shift has a positive sign.  Under the change of variable $w=w_\eta(x)$,
+the exact polynomial generator is
+\[
+ \mathcal L_\eta=(1+i\eta w)^2D_w^2
+                  +i\eta(1+i\eta w)D_w.
+\]
+It maps polynomials of degree at most $m$ to the same space.
+The chain rule gives, for every polynomial $p$,
+\[
+ D_x^2(p\circ w_\eta)=(\mathcal L_\eta p)\circ w_\eta,
+ \qquad
+ e^{tD_x^2}(p\circ w_\eta)
+       =(e^{t\mathcal L_\eta}p)\circ w_\eta .
+\]
+The second identity follows from the first by the exponential series:
+both operators act on the same finite-dimensional invariant space,
+and the matrix series converge at every finite time.
+In the norm $\|p\|_4=\sum_{k=0}^m|p_k|4^k$ on that space,
+\[
+ \|\mathcal L_\eta-D_w^2\|\le C\eta m^2,
+ \qquad \|\mathcal L_\eta\|+\|D_w^2\|\le Cm^2
+\]
+for $0<\eta\le1$.  These bounds follow termwise from
+$\|D_w\|\le m/4$ and $\|D_w^2\|\le m^2/16$.
+The recurrence $T_{m+1}=2wT_m-T_{m-1}$ gives
+$\|T_m\|_4\le C_4^m$.  Duhamel's formula therefore gives
+\[
+ \|e^{t_s\mathcal L_\eta}T_m-e^{t_sD_w^2}T_m\|_4
+ \le C t_s\eta m^2 C_4^m e^{Ct_sm^2}.
+\]
+For $|x|\le2$, all the complex arguments in
+\eqref{eq:parabolic-conjugation} have modulus less than $5/2$ for large
+$L$, and their $w_\eta$ images have modulus less than $3$.
+Thus they remain inside the coefficient disk of radius four.
+On these smaller disks $|w_\eta(z)-z|\le C\eta$, while one derivative
+of a polynomial costs at most $m/4$ in the coefficient norm.
+Replacing the generator, replacing $w_\eta(z)$ by $z$, removing the
+imaginary shift $2iMt_s$, and removing the carrier and scalar factor
+in \eqref{eq:parabolic-conjugation} consequently give a total error at
+most
+\[
+ \eta\,\operatorname{poly}(m,A)
+       \exp(Cm+Cm^2/A^2).
+\]
+The real drift $vs/e_a$ has been retained in the comparison function.
+Now $\log\eta=-9L^2/40000+O(\log L)$,
+$m=o(A^2)=o(L^2)$, and $m^2/A^2=o(L^2)$.
+Taking twice the real part proves \eqref{eq:parabolic-uniform-transfer}.
+\end{proof}
+
+\begin{remark}
+Every fixed member of \eqref{eq:parabolic-exact-shear} has finite energy
+on the torus.  The coefficients and the constant drift need not remain
+bounded as $L\to\infty$.  The periodic extension to $\mathbb R^3$ has
+infinite total energy and is used only in local coordinates.  No uniform
+energy class or limiting weak solution is asserted here.
+\end{remark}
+
+\subsection{The signed flux and the whole spatial plateau}
+
+Fix $0<\delta_0<\delta$ and a nonnegative smooth function $\vartheta$
+supported in $(-\delta,\delta)$ that equals one on
+$[-\delta_0,\delta_0]$.  Suppose there are $r_c,h,\vartheta_*>0$ such that
+\begin{equation}\label{eq:parabolic-outer-cap}
+ \delta_0<r_c-2h<r_c+2h<\delta,
+ \qquad \vartheta(r)\ge\vartheta_*
+ \quad\hbox{for }|r-r_c|\le2h.
+\end{equation}
+Let $\chi\in C^1([0,4])$ satisfy $0\le\chi\le1$, $\chi(0)=0$, and $\chi=1$ on a
+fixed neighborhood of four.  Define the annular cutoff and its plateau by
+\[
+ \phi_L(x)=\vartheta(|x|/R-a),\qquad
+ \mathcal P_L=\{x:(a-\delta_0)R\le|x|\le(a+\delta_0)R\}.
+\]
+For large $L$ these sets lie inside a Euclidean coordinate neighborhood
+of the torus.  For the shear of Proposition~\ref{prop:dynamic-confluence}
+put
+\begin{align}
+ \mathcal T_L&=\frac12\int_0^{4R^2}\chi(t/R^2)
+  \int_{\mathbb T^3}|u(t,x)|^2u(t,x)\cdot\nabla\phi_L(x)\,dx\,dt,
+ \label{eq:parabolic-physical-flux}\\
+ M_L^{\mathrm{plat}}&=\int_0^{4R^2}\int_{\mathcal P_L}
+              |F(t,x_2)|^3\,dx\,dt.
+ \label{eq:parabolic-physical-payment}
+\end{align}
+The denominator integrates the oscillatory velocity component over the
+entire spatial plateau and the entire time interval.  It is not the
+$L^3$ mass of the full velocity: the constant drift $B$ is not included
+in \eqref{eq:parabolic-physical-payment}.
+
+\begin{theorem}[A full-interval residual for one exact shear family]
+\label{thm:parabolic-shear}
+Use the parameters and shear of Proposition~\ref{prop:dynamic-confluence}
+and the fixed cutoffs above.  Write
+\[
+ c_-=r_c-h+\delta_0,\qquad c_p=2\delta_0,\qquad
+ \Delta_c=c_--c_p=r_c-h-\delta_0>0.
+\]
+There are constants $c,C>0$ depending only on the fixed cutoffs and
+$\beta$ such that, along every degree sequence
+\eqref{eq:edge-degree-regime}, eventually $\mathcal T_L>0$ and
+\begin{align}
+ \frac{c\beta a^{2/3}}{A(1+\mu^2)}
+  \exp\!\left((2^{-1/3}\Delta_c+o(1))\mu\right)
+ &\le R^{1/3}\frac{\mathcal T_L}{(M_L^{\mathrm{plat}})^{2/3}}
+ \label{eq:parabolic-residual-lower}\\
+ &\le\frac{C\beta a^{4/3}}A(1+\mu^2)^{2/3}e^{C\mu}.
+ \label{eq:parabolic-residual-upper}
+\end{align}
+The eventual threshold may depend on the chosen degree sequence.
+If in addition $\mu/\log A\to\infty$, the middle quotient diverges.
+With
+\[
+ \omega=e^{-2L^2/3969},\qquad
+ p_L=R^{-2}\omega M_L^{\mathrm{plat}},\qquad
+ X_L=(\omega/R)\max\{\mathcal T_L,0\},
+\]
+one nevertheless has
+\begin{equation}\label{eq:parabolic-normalized-rate}
+ \lim_{L\to\infty}\frac1{L^2}\log\frac{X_L}{p_L^{2/3}}
+ =-\frac2{11907}.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The argument retains both opposed caps in the numerator and the full
+plateau in the denominator.
+
+\emph{Exact cross sections.}
+For $G(s,z)=F(R^2s,aRz)$ define
+\[
+ W_a(z)=-2\pi az\vartheta(a(|z|-1)),
+\]
+\[
+ \mathcal A_a(z)=\pi\left(
+  [(a+\delta_0)^2-a^2z^2]_+
+  -[(a-\delta_0)^2-a^2z^2]_+\right),
+\]
+where $[r]_+=\max(r,0)$, and set
+\[
+ \mathcal S=v\int_0^4\chi(s)\int_{\mathbb R}
+                  W_a(z)|G(s,z)|^2\,dz\,ds,
+ \qquad
+ \mathcal K=\int_0^4\int_{\mathbb R}
+                  \mathcal A_a(z)|G(s,z)|^3\,dz\,ds.
+\]
+Integrating $\partial_2\phi_L$ on the transverse plane gives
+\[
+ \int_{\mathbb R^2}\partial_2\phi_L(x_1,y,x_3)\,dx_1dx_3
+   =-2\pi y\vartheta(|y|/R-a).
+\]
+Indeed polar integration of the radial derivative reduces this integral
+to $2\pi y\int_{|y|}^\infty\partial_r
+\vartheta(r/R-a)\,dr$.  The term involving $F\partial_3\phi_L$ in
+\eqref{eq:parabolic-physical-flux} integrates to zero, and so does the
+$B^3\partial_2\phi_L$ term.  The remaining changes of variables
+$t=R^2s$, $y=aRz$, together with $B=av/R$, give the exact relations
+\begin{equation}\label{eq:parabolic-dimensional-identities}
+ \mathcal T_L=\frac{a^2R^3}{2}\mathcal S,
+ \qquad M_L^{\mathrm{plat}}=aR^5\mathcal K.
+\end{equation}
+The second relation uses the full difference of disks represented by
+$\mathcal A_a$, including its outer caps.
+
+\emph{Paired cap sign.}
+Let $\gamma_L=\beta a/A$, so $\gamma_L\to\beta$.  At
+$z=\pm(1+r/a)$ the evenness of $P_s$ in
+Proposition~\ref{prop:dynamic-confluence} gives the ideal values
+\[
+ 2Q_{m,A}(s,r+\delta_0+\gamma_Ls),\qquad
+ 2Q_{m,A}(s,r+\delta_0-\gamma_Ls),
+\]
+respectively.  Theorem~\ref{thm:heat-edge}, uniformly for
+$3\le s\le4$ and $r$ in the fixed support of $\vartheta$, implies
+\[
+ \frac1\mu\log
+ \frac{Q_{m,A}(s,r+\delta_0+\gamma_Ls)}
+      {Q_{m,A}(s,r+\delta_0-\gamma_Ls)}
+   =2G_s\gamma_Ls+o(1).
+\]
+The right side has a fixed positive lower bound.  Both ideal values
+are positive and grow at the $\exp(F_s\mu^2)$ scale, so the absolute
+error in \eqref{eq:parabolic-uniform-transfer} is negligible relative
+to them.  Hence the squared exact value at the negative cap is at most
+$e^{-c_1\beta\mu}$ times the squared value at the positive cap, for
+some $c_1>0$ and all sufficiently large parameters.
+Since $W_a$ is odd, $W_a(z)\le0$ for $z\ge0$, and $v<0$, the sum of
+each paired contribution is nonnegative throughout $3\le s\le4$.
+
+\emph{The terminal contribution and earlier times.}
+Let $h_\mu=(1+\mu^2)^{-1}$.  On
+\[
+ 4-h_\mu\le s\le4,\qquad r_c-h\le r\le r_c+h,
+\]
+the time cutoff is one for sufficiently large parameters and
+$-W_a(1+r/a)\ge c_2 a$.  The positive ideal coordinate is at least
+$c_-+4\gamma_L-C h_\mu$.  The derivative estimates in
+Lemma~\ref{lem:heat-terminal} give
+\[
+ |G(s,1+r/a)|\ge c_3 Q_{m,A}(4,c_-+4\gamma_L).
+\]
+The loss from its paired cap tends to zero.  Using $dz=dr/a$ therefore
+gives a contribution at least
+$c_4(\beta/A)h_\mu Q_{m,A}(4,c_-+4\gamma_L)^2$.
+
+All real arguments arising from the fixed collar on $0\le s\le3$
+have absolute value at most $1+C_1/A$ for a fixed $C_1>0$.
+The global majorant \eqref{eq:heat-global-majorant} and the transfer
+bound thus bound the absolute contribution of this whole earlier
+interval by
+$C_2(\beta/A)Q_{m,A}(3,C_1)^2$.
+Theorem~\ref{thm:heat-edge} gives
+\[
+ \log\frac{Q_{m,A}(4,c_-+4\gamma_L)}{Q_{m,A}(3,C_1)}
+   =(F_4-F_3)\mu^2+o(\mu^2),\qquad F_4>F_3.
+\]
+Thus the ratio of the early absolute bound to the terminal lower bound
+is at most
+\[
+ C h_\mu^{-1}\exp(-2(F_4-F_3)\mu^2+o(\mu^2)),
+\]
+which tends to zero.
+The same global majorant on the full interval gives an upper bound.
+Consequently, for one fixed $C_+>0$,
+\begin{equation}\label{eq:parabolic-S-bounds}
+ 0<c\frac\beta A h_\mu Q_{m,A}(4,c_-+4\gamma_L)^2
+ \le\mathcal S
+ \le C\frac\beta A Q_{m,A}(4,C_+)^2.
+\end{equation}
+The constants here use
+$\int|W_a(z)|\,dz\le C$, as follows by setting
+$z=\pm(1+r/a)$ on its fixed-width radial support.
+
+\emph{Upper and lower payment on the full plateau.}
+In the coordinate $z=e_ax$ the plateau projects to
+$|x|\le1+2\delta_0/A$.  Transport changes the ideal real coordinate
+by at most $4\gamma_L/A$.  Therefore
+\eqref{eq:heat-global-majorant} and the transfer estimate give
+\[
+ \sup_{0\le s\le4,\ \mathcal A_a(z)>0}|G(s,z)|
+ \le C Q_{m,A}(4,c_p+4\gamma_L).
+\]
+Since $\mathcal A_a\le4\pi a\delta_0$ and its support has bounded
+length in $z$,
+\begin{equation}\label{eq:parabolic-K-upper}
+ \mathcal K\le Ca Q_{m,A}(4,c_p+4\gamma_L)^3.
+\end{equation}
+For a lower bound, restrict only the integration to the outer strip
+\[
+ z=1+(c-\delta_0)/a,
+ \qquad \delta_0\le c\le\tfrac32\delta_0,
+ \qquad 4-h_\mu\le s\le4.
+\]
+Here $\mathcal A_a(z)\ge c_5a$ and $dz=dc/a$.
+The positive real field, the transfer estimate, and
+Lemma~\ref{lem:heat-terminal} yield
+\begin{equation}\label{eq:parabolic-K-lower}
+ \mathcal K\ge c h_\mu
+       Q_{m,A}(4,\delta_0+4\gamma_L)^3.
+\end{equation}
+Only this lower bound restricts to a strip; the denominator itself in
+\eqref{eq:parabolic-physical-payment} remains the full plateau integral.
+
+By \eqref{eq:heat-tilt-limit}, uniformly for the varying but bounded
+arguments here,
+\[
+ \log\frac{Q_{m,A}(4,c_-+4\gamma_L)}
+              {Q_{m,A}(4,c_p+4\gamma_L)}
+     =(2^{-4/3}\Delta_c+o(1))\mu,
+ \qquad
+ \log\frac{Q_{m,A}(4,C_+)}{Q_{m,A}(4,\delta_0+4\gamma_L)}
+     \le C\mu.
+\]
+Now \eqref{eq:parabolic-dimensional-identities} gives
+\[
+ R^{1/3}\frac{\mathcal T_L}{(M_L^{\mathrm{plat}})^{2/3}}
+     =\frac{a^{4/3}}2\frac{\mathcal S}{\mathcal K^{2/3}}.
+\]
+Combining the lower bound for $\mathcal S$ with
+\eqref{eq:parabolic-K-upper} proves
+\eqref{eq:parabolic-residual-lower}; combining the upper bound with
+\eqref{eq:parabolic-K-lower} proves
+\eqref{eq:parabolic-residual-upper}.  Their polynomial factors have
+logarithms $O(\log A)$ because $\mu=o(A)$, so the stated divergence
+under $\mu/\log A\to\infty$ follows.
+
+Finally the exact normalization is
+\[
+ \frac{X_L}{p_L^{2/3}}
+  =\omega^{1/3}R^{1/3}
+       \frac{\mathcal T_L}{(M_L^{\mathrm{plat}})^{2/3}}.
+\]
+Both logarithmic bounds for the second factor are
+$O(\mu+\log A)=o(L^2)$, whereas
+$L^{-2}\log\omega^{1/3}=-2/11907$.
+This proves \eqref{eq:parabolic-normalized-rate}.
+\end{proof}
+
+\begin{remark}[Scope of the exponent]
+At a fixed slice the Chebyshev edge exponent is of size
+$m/\sqrt A=\mu^{3/2}$.  Theorem~\ref{thm:parabolic-shear} gives a
+residual exponential factor of size $\exp(\Theta(\mu))$ after time
+integration and division by the full plateau payment, with the explicit
+polynomial factors displayed in the theorem.  Describing the logarithm
+of the entire quotient as $\Theta(\mu)$ additionally requires
+$\log A=o(\mu)$.  The negative normalized rate applies to this one
+family, with its specified coefficients, drift, and degree range.
+It is not a uniform estimate over all packets and gives no regularity or
+singularity conclusion for general Navier--Stokes solutions.
+\end{remark}
+
+\begin{remark}[Degrees outside the proof]
+When $m$ is comparable to or larger than $A^2$, the relation
+$\mu/A\to0$ fails and the edge saddle used above is no longer the
+relevant expansion.  In addition, the error estimate in
+Proposition~\ref{prop:dynamic-confluence} contains
+$\exp(Cm+Cm^2/A^2)$.  It does not tend to zero from the argument given
+here in such a range.  In particular a formal calculation at
+$m\asymp A^4$ is not a consequence of any theorem in this paper.
+\end{remark}

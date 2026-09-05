@@ -1,0 +1,326 @@
+\section{Real dyadic packets at a prescribed time}
+\label{sec:sharpness}
+
+The exponential dependence on the number of terms cannot be removed by
+requiring a real-valued packet whose positive frequencies lie in one
+dyadic band. This section gives the precise spatial statement and embeds
+its witnesses into integer-mode shear solutions at one prescribed time.
+The polynomial-to-exponential limit is classical in this setting; it
+appears in Erd\'elyi's endpoint lower bounds \cite{Erdelyi2017} and in
+Zhang's Chebyshev construction \cite[Proposition 7.1]{Zhang2026}.
+The additional steps here enforce reality, dyadic placement, and integer
+heat evolution. The resulting lower bounds concern spatial observation
+at one time.
+
+For $q\ge2$, write
+\begin{equation}\label{eq:real-dyadic-class}
+ \mathcal R_q^{\mathrm{dyad}}
+ =\left\{\sum_{j=0}^{q-1} A_j\cos(\nu_jx-\phi_j):
+ A_j>0,\quad 0<\nu_0<\cdots<\nu_{q-1}\le2\nu_0,\quad
+ \phi_j\in\mathbb R\right\}.
+\end{equation}
+There are $q$ positive frequencies and $2q$ complex exponential branches.
+All norms without a displayed interval in this section are on $[-1,1]$.
+
+\begin{theorem}[Spatial lower bounds in a real dyadic band]
+\label{thm:real-dyadic-lower}
+For every integer $q\ge2$ and every $0<d\le1$,
+\begin{align}
+ \sup_{g\in\mathcal R_q^{\mathrm{dyad}}}
+ \frac{|g(1+d)|}{\|g\|_2}
+ &\ge \frac{1}{2\sqrt2}
+ e^{(q-1)\operatorname{arcosh}(1+d)}
+ \ge \frac{1}{2\sqrt2}e^{(q-1)\sqrt d},
+ \label{eq:dyadic-point-lower}\\
+ \sup_{g\in\mathcal R_q^{\mathrm{dyad}}}
+ \frac{\int_1^{1+d}|g(x)|^2\,dx}{\|g\|_2^2}
+ &\ge \frac{d}{128}
+ e^{2(q-1)\sqrt{7d/8}},\label{eq:dyadic-transfer-lower}\\
+ \sup_{g\in\mathcal R_q^{\mathrm{dyad}}}
+ \frac{\int_1^{1+d}|g(x)|^2\,dx}{\|g\|_3^2}
+ &\ge \frac{d}{128}
+ e^{2(q-1)\sqrt{7d/8}}.\label{eq:dyadic-l3-transfer}
+\end{align}
+At the endpoint,
+\begin{align}
+ \sup_{g\in\mathcal R_q^{\mathrm{dyad}}}
+ \frac{|g(1)|}{\|g\|_2}&\ge\frac{q}{\sqrt2},
+ \label{eq:dyadic-endpoint-l2}\\
+ \sup_{g\in\mathcal R_q^{\mathrm{dyad}}}
+ \frac{|g(1)|}{\|g\|_3}&\ge2^{-1/3}q^{2/3}.
+ \label{eq:dyadic-endpoint-l3}
+\end{align}
+These are suprema obtained along confluent sequences; attainment is not
+asserted. For each fixed $d$, one sequence proves both exterior-integral
+bounds.
+\end{theorem}
+
+The construction uses the following elementary coefficient fact.
+For a real-rooted polynomial it removes the small-spacing restriction
+in the earlier argument.
+
+\begin{lemma}[Confluence and coefficient nonvanishing]
+\label{lem:confluent-real-rooted}
+Let $p(x)=\sum_{r=0}^n a_rx^r$ be a real polynomial of exact degree $n$.
+For $\eta>0$, define
+\begin{equation}\label{eq:confluent-map}
+ w_\eta(x)=\frac{e^{i\eta x}-1}{i\eta},\qquad
+ h_\eta(x)=p(w_\eta(x))=\sum_{j=0}^n b_j(\eta)e^{ij\eta x}.
+\end{equation}
+Then
+\begin{equation}\label{eq:confluent-coefficient}
+ b_j(\eta)=\sum_{r=j}^n a_r(i\eta)^{-r}
+ (-1)^{r-j}\binom rj
+ =\frac{p^{(j)}(i/\eta)}{j!(i\eta)^j}.
+\end{equation}
+All $b_j(\eta)$ are nonzero for sufficiently small $\eta>0$.
+If $p$ has only real roots, they are nonzero for every $\eta>0$.
+For fixed $M>0$ and $\theta\in\mathbb R$, if $n\eta\le M$ and the
+coefficients are nonzero, then
+\begin{equation}\label{eq:realification}
+ g_{\eta,M,\theta}(x)
+ =2\operatorname{Re}\{e^{i\theta+iMx}p(w_\eta(x))\}
+ \in\mathcal R_{n+1}^{\mathrm{dyad}}.
+\end{equation}
+For fixed $p,M,\theta$, it converges uniformly on compact real intervals
+to $2p(x)\cos(Mx+\theta)$ as $\eta\downarrow0$.
+\end{lemma}
+
+\begin{proof}
+Expanding each power of $e^{i\eta x}-1$ proves the sum in
+\eqref{eq:confluent-coefficient}. Expanding $p$ about $i/\eta$ proves
+the derivative formula, since $w_\eta(x)=i/\eta+e^{i\eta x}/(i\eta)$.
+Moreover,
+\[
+ (i\eta)^n b_j(\eta)\longrightarrow
+ a_n(-1)^{n-j}\binom nj\ne0.
+\]
+If $p$ is real-rooted, Rolle's theorem implies that every nonconstant
+$p^{(j)}$ has only real roots. Its value at $i/\eta$ is therefore nonzero;
+the last derivative is a nonzero constant. This proves the stronger
+claim without a limiting argument.
+
+The right side of \eqref{eq:realification} equals
+\[
+ \sum_{j=0}^n2|b_j(\eta)|
+ \cos\big((M+j\eta)x+\theta+\arg b_j(\eta)\big).
+\]
+Its positive frequencies are distinct and lie in $[M,2M]$.
+For real $x$, the integral Taylor remainder gives
+\begin{equation}\label{eq:confluence-error-elementary}
+ |w_\eta(x)-x|\le\tfrac12\eta x^2.
+\end{equation}
+The final assertion follows by continuity of a fixed polynomial on a
+compact set and then by taking real parts.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:real-dyadic-lower}]
+Put $n=q-1$. For the first three assertions use $p=T_n$, where
+$T_n(\cos t)=\cos(nt)$, take $M=1$ and $\theta=-(1+d)$, and let
+$\eta\downarrow0$ with $n\eta\le1$. The limiting real profile is
+\[
+ g_0(x)=2T_n(x)\cos(x-(1+d)).
+\]
+It is nonzero, has $|g_0(1+d)|=2T_n(1+d)$, and satisfies
+$\|g_0\|_2\le2\sqrt2$ and $\|g_0\|_3^3\le16$.
+The identity
+\[
+ T_n(1+d)=\cosh\big(n\operatorname{arcosh}(1+d)\big)
+ \ge\tfrac12 e^{n\operatorname{arcosh}(1+d)}
+\]
+proves the first lower bound after passage to the limit.
+For $0\le d\le1$, the power series gives
+$\cosh\sqrt d-1\le d\sum_{k\ge1}1/(2k)!<d$, so
+$\operatorname{arcosh}(1+d)\ge\sqrt d$.
+
+On $J_d=[1+7d/8,1+d]$, the carrier satisfies
+$\cos^2(x-(1+d))\ge1/2$. Monotonicity of $T_n$ on $[1,\infty)$
+therefore gives
+\[
+ \int_1^{1+d}|g_0(x)|^2\,dx
+ \ge\frac d{16}e^{2n\sqrt{7d/8}}.
+\]
+Dividing by $\|g_0\|_2^2\le8$ proves
+\eqref{eq:dyadic-transfer-lower}. The same constant works in
+\eqref{eq:dyadic-l3-transfer}, since $16^{2/3}<8$.
+Uniform convergence on $[-1,1+d]$ justifies all three limits.
+
+For the endpoint assertions, let $P_r$ denote the Legendre polynomials,
+normalized by $P_r(1)=1$, and put
+\begin{equation}\label{eq:legendre-endpoint-kernel}
+ K_n(x)=\sum_{r=0}^n\frac{2r+1}{2}P_r(x).
+\end{equation}
+Orthogonality and $|P_r(x)|\le1$ on $[-1,1]$ yield
+\[
+ K_n(1)=\|K_n\|_2^2=\frac{q^2}{2},\qquad
+ \|K_n\|_\infty\le\frac{q^2}{2},\qquad
+ \|K_n\|_3^3\le\frac{q^4}{4}.
+\]
+Apply Lemma~\ref{lem:confluent-real-rooted} with $p=K_n$, $M=1$,
+and $\theta=-1$. The limiting carrier equals one at the observed
+endpoint, and multiplying by a cosine cannot increase either denominator.
+The two ratios are consequently at least
+$K_n(1)/\|K_n\|_2=q/\sqrt2$ and
+$K_n(1)/\|K_n\|_3\ge2^{-1/3}q^{2/3}$.
+\end{proof}
+
+\begin{remark}[Endpoint powers]
+Squaring \eqref{eq:dyadic-endpoint-l3} forces a $q^{4/3}$ lower loss
+for an $L^3$-to-pointwise-squared inequality. It does not establish the
+optimal $L^3$ power. Erd\'elyi's $L^p$ estimate for $p>2$
+\cite[Theorem 2.10 in the arXiv version]{Erdelyi2017}, applied with
+$p=3$ and $N=2q$, gives the upper power $q^{5/3}$ after squaring.
+Thus even at $d=0$, an $L^2$ upper bound converted by H\"older is not an
+optimality statement for the $L^3$ pairing.
+\end{remark}
+
+\begin{lemma}[The endpoint kernel is real-rooted]
+\label{lem:kernel-real-rooted}
+The degree-$n$ polynomial $K_n$ in
+\eqref{eq:legendre-endpoint-kernel} has $n$ simple zeros in $(-1,1)$.
+Consequently all coefficients of $K_n(w_\eta)$ and $T_n(w_\eta)$ in
+\eqref{eq:confluent-map} are nonzero for every $\eta>0$.
+\end{lemma}
+
+\begin{proof}
+Legendre orthogonality gives the reproducing identity
+$\int_{-1}^1K_n(x)r(x)\,dx=r(1)$ for every polynomial $r$ of degree
+at most $n$. For $\deg r<n$ it follows that
+\[
+ \int_{-1}^1(1-x)K_n(x)r(x)\,dx=r(1)-(xr)(1)=0.
+\]
+If $K_n$ had fewer than $n$ sign-changing zeros in $(-1,1)$, take $r$
+to be the product of the distinct linear factors at those zeros. Then
+$\deg r<n$ and $(1-x)K_n(x)r(x)$ has constant sign on $(-1,1)$ and
+is not identically zero, contradicting its zero integral. Hence all $n$
+zeros lie there and are simple. The Chebyshev roots are
+$\cos((2j-1)\pi/(2n))$, $1\le j\le n$; the coefficient assertion
+now follows from Lemma~\ref{lem:confluent-real-rooted}.
+\end{proof}
+
+\begin{theorem}[Integer heat-shear realization at one prescribed time]
+\label{thm:integer-slice}
+Fix $R>0$, $A>0$, real numbers $B,\theta$, and one scaled time $s_*\ge0$.
+Put $\eta=AR$. Let $p$ be a real-rooted polynomial of degree $q-1$,
+$q\ge2$, and choose an integer $n_0\ge q-1$. Define
+$n_j=n_0+j$ and $M_\eta=n_0\eta$.
+There are positive amplitudes $a_j$ and real phases $\phi_j$ such that
+\begin{equation}\label{eq:integer-shear-packet}
+ F(t,y)=\sum_{j=0}^{q-1}a_je^{-n_j^2t}
+ \cos(n_jy-\phi_j-n_jBt)
+\end{equation}
+satisfies
+\begin{equation}\label{eq:integer-slice-identity}
+ F(R^2s_*,ARx)
+ =2\operatorname{Re}\{e^{i\theta+iM_\eta x}p(w_\eta(x))\}.
+\end{equation}
+The velocity $u=(0,B,F(t,x_2))$ with constant pressure is a smooth,
+periodic solution of the viscosity-one incompressible Navier--Stokes
+equations. Its nonzero integer frequencies obey
+$n_0\le n_j\le2n_0$. For fixed $p$ and every fixed $M>0$, choosing
+$n_0=\lceil M/\eta\rceil$ and letting $\eta\downarrow0$ gives the
+limiting profile $2p(x)\cos(Mx+\theta)$ uniformly on compact sets.
+\end{theorem}
+
+\begin{proof}
+Use the nonzero coefficients $b_j(\eta)$ from
+\eqref{eq:confluent-coefficient} and set
+\[
+ a_j=2|b_j(\eta)|e^{n_j^2R^2s_*},\qquad
+ \phi_j=-\theta-\arg b_j(\eta)-n_jBR^2s_*
+ \pmod{2\pi}.
+\]
+Substitution proves \eqref{eq:integer-slice-identity}, including the
+transport phase. Each summand solves
+$\partial_tF+B\partial_yF=\partial_y^2F$. For the displayed velocity,
+$\nabla\cdot u=0$ and $(u\cdot\nabla)u=(0,0,B\partial_2F)$,
+so this scalar identity proves the vector equations. Periodicity follows
+from the integer modes. Also $n_0+q-1\le2n_0$.
+For fixed degree, the chosen $n_0$ is eventually at least $q-1$ and
+$M_\eta\to M$; confluence gives the last assertion.
+\end{proof}
+
+The preceding theorem permits the amplitudes and phases to depend on
+$s_*$ and $B$. It asserts ``for each prescribed time there exists a
+packet''. It does not assert that a single packet has the same
+Chebyshev profile at all times. On $\mathbb R^3$ these periodic shears
+also have infinite total kinetic energy; their use here is as exact
+local-observation models.
+
+\begin{lemma}[A quantitative growing-degree slice approximation]
+\label{lem:growing-degree-slice}
+Let $q\ge2$, $0<\eta\le1/8$, and let
+\[
+ p=T_{q-1}\quad\hbox{or}\quad p=q^{-1}K_{q-1}.
+\]
+For $n_0=\lceil1/\eta\rceil$ and $M_\eta=n_0\eta$,
+\begin{equation}\label{eq:uniform-slice-error}
+ \sup_{|x|\le2}
+ \left|2\operatorname{Re}
+ \{e^{i\theta_\eta+iM_\eta x}p(w_\eta(x))\}
+ -2p(x)\cos(x-x_*)\right|
+ \le C\eta q^2 6^q,
+\end{equation}
+where $|x_*|\le2$ and $\theta_\eta=-M_\eta x_*$.
+Thus $\eta q^2 6^q\to0$ is sufficient for uniform slice approximation
+and eventual dyadic placement. In the scaling
+\[
+ A=p_0L-\delta_0,\qquad
+ R=e^{-\rho L^2/4},\qquad p_0,\rho,\delta_0>0,
+\]
+the condition holds for every $q=o(L^2)$; it also holds if
+$\limsup q/L^2<\rho/(4\log6)$.
+\end{lemma}
+
+\begin{proof}
+For the sum $S(p)$ of absolute monomial coefficients, the Chebyshev and
+Legendre recurrences imply
+$S(T_m),S(P_m)\le(1+\sqrt2)^m$: each recurrence is bounded
+coefficientwise by $S_{m+1}\le2S_m+S_{m-1}$, and
+$(1+\sqrt2)^2=2(1+\sqrt2)+1$. Hence
+\[
+ S(q^{-1}K_{q-1})\le\frac q2(1+\sqrt2)^{q-1}.
+\]
+For $|x|\le2$, \eqref{eq:confluence-error-elementary} gives
+$|w_\eta(x)-x|\le2\eta\le1/4$. The segment between the two arguments
+lies in $|z|\le9/4$. Since $(9/4)(1+\sqrt2)<6$, differentiating the
+monomial expansions bounds the derivative there by $Cq^2 6^q$ for
+both choices of $p$. The integral along the segment gives an error
+$C\eta q^2 6^q$.
+Furthermore $|M_\eta-1|\le\eta$ and $|x-x_*|\le4$. The change in
+the carrier is bounded by $4\eta$; the same coefficient estimates bound
+$|p(x)|$ by $Cq6^q$. This proves \eqref{eq:uniform-slice-error}.
+The assumed smallness implies $q\eta\to0$, so $n_0\ge q-1$ eventually.
+Nonvanishing needs no additional condition by
+Lemma~\ref{lem:kernel-real-rooted}.
+Finally,
+$\log(\eta q^26^q)=-\rho L^2/4+q\log6+O(\log L+\log q)$,
+which proves the two stated sufficient ranges.
+\end{proof}
+
+For $q=o(L^2)$, applying the lemma to the proof of
+Theorem~\ref{thm:real-dyadic-lower} transfers its exponential orders and
+endpoint orders to the integer shear slices, with fixed constants
+slightly reduced if necessary. This statement concerns the slice
+normalization $x=y/(AR)$. If the observation variable is $z=y/(aR)$
+and $e_a=A/a$, then $x\in[-1,1]$ corresponds to
+$z\in[-e_a,e_a]$. Keeping the same physical window and mapping
+an observed point $x_*$ to $z_*=e_ax_*$, the $L^2$ pointwise ratio
+acquires exactly the Jacobian factor $e_a^{-1/2}$.
+
+\begin{remark}[Evolution away from the selected time]
+Set $\tau=s-s_*$, $D=\partial_x$, and $c=BR/A$. The complex half of
+\eqref{eq:integer-slice-identity} evolves exactly as
+\[
+ e^{i\theta-M_\eta^2\tau/A^2+iM_\eta(x-c\tau)}
+ \left(e^{\tau A^{-2}D^2}h_\eta\right)
+ \left(x-c\tau+\frac{2iM_\eta\tau}{A^2}\right).
+\]
+This follows by conjugating $A^{-2}D^2-cD$ by $e^{iM_\eta x}$;
+the finite exponential sum makes the identity valid at every finite
+time. Even in the confluent polynomial limit, the profile contains
+$e^{\tau A^{-2}D^2}p$, whose derivatives may grow with its degree.
+Accordingly, the spatial lower bounds above establish neither a
+signed spacetime lower bound nor a matching lower bound for full
+plateau observation.
+\end{remark}
