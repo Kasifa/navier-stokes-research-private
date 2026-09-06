@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "record_id": "ClayB-FrequencyComponentScreen-20260907",
+  "date": "2026-09-07",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "2971a8d943ccd6282b72aedc1cf74bcb397cfdb7",
+  "is_research_release": false,
+  "review_status": "complete_scoped_nonauthor_review",
+  "selection": "NO-CANDIDATE within the two-source screen; not an exhaustive impossibility result",
+  "scientific_scope": "Elementary positive-weight obstruction and true unforced R3 short-time functional counterexample; one-component source admission boundaries. No G/R input reduction, no singularity construction, no regularity or novelty claim.",
+  "claims": [
+    {
+      "id": "FS.1",
+      "kind": "local_analytic_lemma",
+      "statement": "For fixed a_j>=1, M/4<=sup_n A(n)/n<=M including low indices and extended infinities."
+    },
+    {
+      "id": "FS.2",
+      "kind": "primary_source_countercheck",
+      "statement": "Ri J_m=2^(2^m) gives A(2^(J_m-2))/2^(J_m-2)>=2^(m-2); all fixed integer-prefix constants fail."
+    },
+    {
+      "id": "FS.3",
+      "kind": "local_analytic_consequence",
+      "statement": "In this fixed positive diagonal family a uniform prefix bound prevents arbitrary critical-norm smallness by NS rescaling."
+    },
+    {
+      "id": "FS.4",
+      "kind": "local_functional_counterexample",
+      "statement": "Real divergence-free Schwartz fields in one integer annulus violate any fixed-c,n0 version of Ri (3.13)."
+    },
+    {
+      "id": "FS.5",
+      "kind": "local_true_NS_realization",
+      "statement": "H2 quadratic-form continuity and an explicit H4 mild local-existence argument preserve strict violation on a positive-time interval of a true unforced R3 solution; no uniform lifespan."
+    },
+    {
+      "id": "FS.6",
+      "kind": "existing_theorem_substitution",
+      "statement": "The suitable branch of Kang-Nguyen Thm1.3 at p=q=3, with time-gauged pressure and constant rotation, already implies Yu's bare finite-scale regularity outlet."
+    },
+    {
+      "id": "FS.7",
+      "kind": "elementary_identities_and_source_scope",
+      "statement": "Spherical averaging yields only C/4; a spatial harmonic correction need not have zero local pressure work. Weak compatibility does not supply localized stability."
+    }
+  ],
+  "sources": [
+    {
+      "candidate": true,
+      "arxiv": "2508.19590",
+      "version": "v1",
+      "date": "2025-08-27",
+      "author": "Myong-Hwan Ri",
+      "title": "Global regularity of Leray-Hopf weak solutions to 3D Navier-Stokes equations",
+      "url": "https://arxiv.org/html/2508.19590v1",
+      "pdf_url": "https://arxiv.org/pdf/2508.19590v1",
+      "root_read_scope": "Complete HTML mathematical body Sections1-3 and references; actual original PDF visual checks printed pages5,8,12,13. The whole text was read, not every estimate or cited dependency independently reproved.",
+      "participant_A_scope": "Independently read exact definitions and Step2; verified the missing integer multiplicity.",
+      "decisive_locator": "Definitions(1.4),(2.2),(2.3),(3.1),(3.8); (3.12) followed by the unnumbered |S|*max chain on printed page13, then(3.13).",
+      "admission": "REJECT displayed uniform prefix and functional estimates by FS.1-5. Does not refute global regularity or all weighted methods; compact-trajectory rescaling is not rejected merely as circular.",
+      "preprint_claim_not_adopted": true
+    },
+    {
+      "candidate": true,
+      "arxiv": "2606.08352",
+      "version": "v1",
+      "date": "2026-06-06",
+      "author": "Runlong Yu",
+      "title": "Finite-Scale One-Component Regularity via Harmonic Pressure for the 3D Navier-Stokes Equations",
+      "url": "https://arxiv.org/html/2606.08352v1",
+      "root_read_scope": "Metadata and selected main statements; Section3 definitions/pressure facts, Section4 including Lemma4.3, full Theorem5.1 proof; Assumption7.3 and its algebraic consequence; Section8.1 Lemmas8.1-8.2 with full proof, Assumptions8.3/8.5 and pressure reconstruction consequences.",
+      "participant_B_scope": "Abstract, Sections1-2, definitions and Lemmas3.3-3.6, complete Sections4-9 main proof chain; necessary Kang-Nguyen dependency.",
+      "admission": "No paid new G or first-singularity bridge. Bare regularity follows the cited older theorem. Harmonic quotient and weak compatibility retained only as scoped tools; rates remain conditional."
+    },
+    {
+      "candidate": false,
+      "dependency_of": "2606.08352v1",
+      "arxiv": "2206.02490",
+      "version": "v1",
+      "date": "2022-06-06",
+      "authors": [
+        "Kyungkeun Kang",
+        "Dinh Duong Nguyen"
+      ],
+      "title": "Local regularity criteria in terms of one velocity component for the Navier-Stokes equations",
+      "url": "https://arxiv.org/html/2206.02490v1",
+      "related_doi_from_arxiv_metadata": "10.1007/s00021-022-00754-8",
+      "root_and_B_read_scope": "Theorem1.3 suitable-solution branch, Remark1.1(5) local bounded-domain scope, full Section5 proof interface; not every external limiting-system or epsilon-regularity proof.",
+      "admission": "Adopt suitable local branch with C+D bound and component critical smallness; pressure representative is changed only by a function of time. No free whole-space local-energy far-field constant."
+    }
+  ],
+  "roles": {
+    "root": "Author of actual FS.1-7 note; independent primary reading, general sequence lemma, Fourier/short-time witness and exact source-scope synthesis.",
+    "A": "Independent FS.1-5 arithmetic/function participant. Actual initial main84126c5c... (204lines12462B) passed; one nonblocking j>=1 qualifier adopted. Not full-note reviewer.",
+    "B": "Independent Yu/KN primary-source participant; actual FS.6-7 and next-step scope passed at4a000d4e... (204lines12478B). Suggested explicitly retaining averaged horizontal pressure and p_rem in the next test. Not full-note reviewer.",
+    "C": "Sole full actual-artifact nonauthor reviewer. Complete FS.1-7 accepted at4a000d4e5de6400cff0bf4e6427108caebb20c42c93b259f781f193184a0f00a (204lines12478B). Read adopted Ri/Yu/KN HTML statements/proof interfaces and local G quantifiers; no personal PDF visual claim or all-external-dependencies certification. Final narrow next-step addition and records reviewed separately in audit."
+  },
+  "local_provenance": [
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_20260907.md",
+      "bytes": 8747,
+      "lines": 178,
+      "sha256": "179e6e91ecd2af97a23d397de22628f06fbdd61105b478322eb39e05359a563b"
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "bytes": 14379,
+      "lines": 311,
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "bytes": 41497,
+      "lines": 910,
+      "sha256": "9f90254f6dcbcce7c6066b4f90d6fae63d797502901ef35014531700f63eae58"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "bytes": 5236,
+      "lines": 93,
+      "sha256": "19c7b704e0fa94477785878aef48b67c6591ef9adcce9f66c6219c4a03e42425"
+    }
+  ],
+  "source_cache": {
+    "tracked": false,
+    "purpose": "Unmodified original source PDF and exact local rendered pages used for read-only cross-format verification. Not reader PDF or scientific figure generation.",
+    "artifacts": [
+      {
+        "path": ".release/source-checks/clay_b_frequency_component_20260907/page-05.png",
+        "bytes": 162365,
+        "sha256": "ffaa02928934f3ab6faa45a86f264aa966201135e7aa054e9e2499a592361afa"
+      },
+      {
+        "path": ".release/source-checks/clay_b_frequency_component_20260907/page-08.png",
+        "bytes": 154885,
+        "sha256": "7eb7f0ec98f08684ed6d0edbef8e95f5526c50ed69f4b61dfcefb0b47fe28262"
+      },
+      {
+        "path": ".release/source-checks/clay_b_frequency_component_20260907/page-12.png",
+        "bytes": 168465,
+        "sha256": "041fd64695717b7a50f455be80758d508172b66ba471eb94fd6527767026f8f4"
+      },
+      {
+        "path": ".release/source-checks/clay_b_frequency_component_20260907/page-13.png",
+        "bytes": 191500,
+        "sha256": "4afdb8346efe96225f22eaf11b1622a349a4c0ffe95a9d1e62eb7032dc1e437a"
+      },
+      {
+        "path": ".release/source-checks/clay_b_frequency_component_20260907/ri-2508.19590v1.pdf",
+        "bytes": 186441,
+        "sha256": "59eae548e2c85dc215dd4912fde4aa902ab0547ba97693d817b4aad7a5261a51"
+      }
+    ],
+    "root_visually_checked_printed_pages": [
+      5,
+      8,
+      12,
+      13
+    ],
+    "recovery": "Retrieve exact versioned PDF URL and compare SHA256; render with pdftoppm. PNGs are local audit evidence, not theorem certificates."
+  },
+  "outputs": {
+    "new_reader_html": false,
+    "new_reader_pdf": false,
+    "simulation": false,
+    "DGX": false,
+    "scientific_figures": [],
+    "publication_handoff": false,
+    "recap": false
+  },
+  "state_guards": {
+    "preserve_all_25_existing_review_values": true,
+    "preserve_private_paper": true,
+    "preserve_16_release_identities_and_one_time_receipts": true,
+    "user_AGENTS_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+  },
+  "next_action": "One bounded compatibility test for Yu Lemma8.2 against actual localized energy-difference tests, after historical weak-trace/dual-test dedup. Explicitly account for temporal/second spatial derivatives, bottom terms, scaling, the uncontrolled horizontal gradient of vertically averaged P, and p_rem. Stop if only smooth fixed tests are controlled or critical smallness/strong comparison/Assumption8.5 remains assumed. Do not reopen shadowing or launch simulations without a genuine dynamic input reduction."
+}

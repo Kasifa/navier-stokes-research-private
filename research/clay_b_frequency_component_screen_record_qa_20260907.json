@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "scope": "Structural labels, protected state and raw source provenance only; not mathematical proof, PDE simulation/certificate, dual implementation, novelty or independent visual QA.",
+  "base_commit": "2971a8d943ccd6282b72aedc1cf74bcb397cfdb7",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "UTF8_LF_single_final_newline",
+      "passed": true
+    },
+    {
+      "name": "seven_ordered_FS_labels_and_paired_displays",
+      "passed": true
+    },
+    {
+      "name": "plain_style_and_scoped_open_claims",
+      "passed": true
+    },
+    {
+      "name": "three_exact_versions_two_candidates_and_review_status",
+      "passed": true
+    },
+    {
+      "name": "all_old_state_and_25_review_values_preserved",
+      "passed": true
+    },
+    {
+      "name": "private_paper_and_16_release_identities",
+      "passed": true
+    },
+    {
+      "name": "four_historical_raw_bindings",
+      "passed": true
+    },
+    {
+      "name": "original_source_PDF_and_four_rendered_pages_hash_bound",
+      "passed": true
+    },
+    {
+      "name": "internal_record_no_new_release_or_simulation",
+      "passed": true
+    },
+    {
+      "name": "user_AGENTS_and_existing_tracked_scope",
+      "passed": true
+    },
+    {
+      "name": "two_in_memory_record_negative_controls",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_FS5_rejected",
+      "passed": true
+    },
+    {
+      "name": "changed_private_paper_rejected",
+      "passed": true
+    }
+  ],
+  "historical_bindings": [
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    }
+  ],
+  "local_source_cache": [
+    {
+      "path": ".release/source-checks/clay_b_frequency_component_20260907/page-05.png",
+      "metadata_matches": true
+    },
+    {
+      "path": ".release/source-checks/clay_b_frequency_component_20260907/page-08.png",
+      "metadata_matches": true
+    },
+    {
+      "path": ".release/source-checks/clay_b_frequency_component_20260907/page-12.png",
+      "metadata_matches": true
+    },
+    {
+      "path": ".release/source-checks/clay_b_frequency_component_20260907/page-13.png",
+      "metadata_matches": true
+    },
+    {
+      "path": ".release/source-checks/clay_b_frequency_component_20260907/ri-2508.19590v1.pdf",
+      "metadata_matches": true
+    }
+  ],
+  "paper_serialization": "Python json.dumps(paper, sort_keys=True), default ensure_ascii=True and separators; UTF8, no appended newline",
+  "paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "artifacts": [
+    {
+      "path": "research/clay_b_frequency_component_screen_20260907.md",
+      "bytes": 12640,
+      "lines": 204,
+      "sha256": "87dd245252935e94bacb5e1c1fcfbee7057f444687bee8fb5d334e54697bcc14"
+    },
+    {
+      "path": "research/clay_b_frequency_component_screen_ledger_20260907.json",
+      "bytes": 9736,
+      "lines": 179,
+      "sha256": "c1f1cdebd6801ef81fde7243ca741dfa9ab9cf01730915aa5a0e4dd981c53b63"
+    },
+    {
+      "path": "research/clay_b_active_checkpoint_20260906.json",
+      "bytes": 58200,
+      "lines": 173,
+      "sha256": "58ceab1836a788f586f0eab56eaf767d0d291ed2c1c51c398e115047c6c6e8bd"
+    },
+    {
+      "path": "scripts/clay_b_frequency_component_screen_record_qa.py",
+      "bytes": 6509,
+      "lines": 123,
+      "sha256": "046b04bea4e74f88618b0ae191559247fdee400c30035ac515598df2d5d1e27f"
+    }
+  ]
+}
