@@ -1,10 +1,10 @@
 {
-  "checkpoint_id": "ClayB-after-PressureWorkWindow-20260906",
-  "status": "active-research-internal",
+  "checkpoint_id": "ClayB-after-BadTimeNetWork-20260906",
+  "status": "active-research-after-freeze",
   "is_research_release": false,
-  "last_scientific_release": "ClayB-PressureWorkWindow-20260906",
-  "source_commit": "fd6fa4b2bcebb702ddc2e8c03884496dca139101",
-  "freeze_commit": "4c52c02026ce0191a121e03241d88fa6573d5536",
+  "last_scientific_release": "ClayB-BadTimeNetWork-20260906",
+  "source_commit": "22c0064338dbad20a6cc37cf054c24850cd2dc2e",
+  "freeze_commit": "ca1bf2ecad5716ef9a4a653806e4a27fbfb2957f",
   "handoff_sent_once": true,
   "publication_monitoring_owned_by_research": false,
   "current_working_source": "research/clay_b_bad_time_net_work_necessity_20260906.md",
@@ -12,7 +12,7 @@
   "working_source_review": "AN.1-AN.28 full global small-tail prototype passed root and independent actual-file review at 60dfbbe9b1819a6c64aa80617b56b529c228a1cc88b03ce93f77e02fd4d42fc3. AO.1-AO.22 localized complete pressure, commutator, annulus energy cost and integrating factor passed both independent mathematical reviews, with final byte check at 722914dc879394363ef75805eb819d1a48591bf8a6f908ce264318950e49f61f. AP.1-AP.6 fixed-annulus interface passed both reviewers at 0e1c46f74dce78421be5f227055667915f3967077930c6155f97f2c96a4b0351; CKN input and actual source-access limitations are recorded. Fixed annulus existence is now supplied under the same suitable continuation, not OPEN. AQ.1-AQ.8 necessary positive and weighted signed bad-time net-work lower bounds passed both reviewers, final measure-notation byte check at 687bc6cf9e19a0036e22e5fdfe4a77afa15e78641312355fe034fe7aed8c54e8. These 64 new formulas combine with audited AK/AL/AM into one 131-formula subsection; historical preflight status text is preserved. No upper bad-time budget, singularity existence or exclusion, shrinking uniformity, novelty or Clay claim.",
   "G": "OPEN",
   "R216_R217_actual_NS_input": "OPEN",
-  "next_step": "Complete the combined ClayB-BadTimeNetWork-20260906 research freeze and hand it to the fixed publisher once. Then follow research/clay_b_bad_net_work_work_plan_20260906.md: derive the precise dyadic input/output pairing ledger for AQ.8 at the original fixed K, window, cutoff, bad-time set and time weight; test divergence-free gains without replacing |u|u by |h|h or dropping high-high low outputs. Retain signed sums and cutoff commutators. A small bad-time measure is not a work budget; the existing energy bound still contains A_J*Lambda_A^(13/4). AN, AP and AO local good-time/nonpressure-ring steps are complete and need not be repeated. No free deletion of the AQ time weight, no unproved decay rate, no moving-shrinking conclusion. Never resend or monitor publication; private paper scope remains unchanged.",
+  "next_step": "Follow research/clay_b_bad_net_work_work_plan_20260906.md. Derive a dyadic input/output pairing ledger for AQ.8 with the original fixed K, window, cutoff, bad-time set, time weight and |u|u test. Test divergence-free gains while retaining comparable-high and separated-high interactions, high-high low outputs, spatial commutators and signed sums. Prove rearrangements first on strict pre-singularity smooth compact intervals; no free exchange of positive part with an infinite sum. Evaluate every proposed payment using only fixed energy, A_J=o(1) and already audited AM/AO costs. Do not repeat completed AN/AP/AO good-time and annulus work, assume a missing bad-time upper budget, rename known critical criteria, or delete near-one time weights without total-variation control. G and moving-shrinking bridges remain OPEN. ClayB-BadTimeNetWork is handed off once; do not resend or inspect publication.",
   "paper": {
     "status": "v2 owner-complete freeze received and integrity registered; not scientifically reaudited here; no public release or submission authorized",
     "owner_source_commit": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd",
@@ -30,5 +30,12 @@
   "excluded_user_paths": [
     "AGENTS.md"
   ],
-  "historical_checkpoint_note": "The older clay_b_checkpoint_20260905.json is a historical freeze, not current progress or current paper status."
+  "historical_checkpoint_note": "The older clay_b_checkpoint_20260905.json is a historical freeze, not current progress or current paper status.",
+  "previous_scientific_release": {
+    "release_id": "ClayB-PressureWorkWindow-20260906",
+    "source_commit": "fd6fa4b2bcebb702ddc2e8c03884496dca139101",
+    "freeze_commit": "4c52c02026ce0191a121e03241d88fa6573d5536",
+    "handoff_sent_once": true
+  },
+  "last_handoff_receipt": "research/clay_b_bad_net_work_dispatch_receipt_20260906.md"
 }
