@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "record_id": "ClayB-InverseCascadeStrategy-20260907",
+  "is_research_release": false,
+  "base_commit": "ea68cfdd4d29c60aef4ebe052f160c7461bbd1b6",
+  "date": "2026-09-07",
+  "method": "Bounded original-source screening and local analytic dedup; ordinary browsing, not a new cloud Deep Research run.",
+  "selection": "NO-CANDIDATE in this bounded screen; not exhaustive, not impossibility, not novelty certification.",
+  "research_goal_status": "OPEN",
+  "review_status": "complete_scoped_nonauthor_review",
+  "sources": [
+    {
+      "id": "Palasek2509.18595v1",
+      "title": "Arbitrary norm growth in the 3D Navier-Stokes equations",
+      "authors": [
+        "Stan Palasek"
+      ],
+      "url": "https://arxiv.org/html/2509.18595v1",
+      "metadata_url": "https://arxiv.org/abs/2509.18595",
+      "version": "v1",
+      "date": "2025-09-23",
+      "status": "preprint; current arXiv history checked 2026-09-07 local; no journal publication asserted",
+      "used_for": "IS7 and initial-norm-only scope filter, not a singularity construction",
+      "root_read_scope": "Theorem1.1, Cor1.5, remarks, construction overview1.2, norm definitions1.3; selected bootstrap/final proof near lines690-747 and corollary proof772-796. Use only t=|eta|^-2, shared by displayed theorem and final proof estimate. Not full construction or all external references.",
+      "confidence": "Imported theorem statement with checked applicable endpoint and local energy consequence; not independently certified whole-paper proof."
+    },
+    {
+      "id": "CDP2511.09556v2",
+      "title": "Instantaneous Type I blow-up and non-uniqueness of smooth solutions of the Navier-Stokes equations",
+      "authors": [
+        "Alexey Cheskidov",
+        "Mimi Dai",
+        "Stan Palasek"
+      ],
+      "url": "https://arxiv.org/html/2511.09556v2",
+      "metadata_url": "https://arxiv.org/abs/2511.09556",
+      "version": "v2",
+      "date": "2026-01-12",
+      "status": "preprint; current arXiv history checked 2026-09-07 local; no journal publication asserted",
+      "used_for": "Right-side Type I and nonenergy solution-class boundary; no Clay counterexample imported",
+      "root_read_scope": "Initially v1 main statements, then switched to v2 after metadata check. Actual v2 Introduction/Main results through Remark1.5, sections2.3.3-2.5 selected passages, full Theorem2.4 and its displayed proof via Theorem2.3 interface. Full cascade construction and cited energy-equality theorem not independently reproved.",
+      "confidence": "Statement/scope verified in latest listed version; theorem2.4 remains imported LITERATURE, not a new local theorem."
+    }
+  ],
+  "discovery": {
+    "scope": "Initial broad 2025-2026 primary-source search, then targeted inverse-cascade/Palasek/CDP searches.",
+    "primary_discovery_page": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4371/",
+    "screened_not_adopted": [
+      "Grujic-Xu hyperdissipation beta>1 source: not used as ordinary beta=1 theorem.",
+      "Old Coiculescu-Palasek2503.14699: already in local R073Q.",
+      "Unverified claimed solutions from low-quality search results: not evidence."
+    ],
+    "failed_access": [
+      "IAS author page timeout; papers located directly on arXiv."
+    ],
+    "exact_identifier_search": "rg -n '2509\\.18595|2511\\.09556' research before new files: no matches. This tests only exact identifiers, not conceptual novelty."
+  },
+  "local_provenance": [
+    {
+      "path": "research/clay_b_leray_paid_budget_20260907.md",
+      "bytes": 12346,
+      "lines": 304,
+      "sha256": "788d06c56c61a4e68d609118cb50e114f5328c0c8e6c588463cac6bfd88a51fb",
+      "raw_equals_base": true,
+      "read_scope": "Root: full LP1-14; C requested full. Used for IS1-6."
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "bytes": 14379,
+      "lines": 311,
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c",
+      "raw_equals_base": true,
+      "read_scope": "Root: sections 3-7 current-turn, earlier full contract retained; A selected contract interfaces."
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "bytes": 6817,
+      "lines": 117,
+      "sha256": "addf4d96077852d5ac9733fd04b33488978e99cc71fd9ee5c8c188aa6f338dfd",
+      "raw_equals_base": true,
+      "read_scope": "Root: previously read full, current dependency retained; A bounded strategy dedup, especially section 2. Not a new full proof audit."
+    },
+    {
+      "path": "research/clay_b_dynamic_strategy_review_20260906.md",
+      "bytes": 6324,
+      "lines": 127,
+      "sha256": "acfb4d8587a7942784df344b060a72fd20faf18ac013c3f0ed4a20f48f293255",
+      "raw_equals_base": true,
+      "read_scope": "Root: previously read full, current dependency retained; A sections 1-2 dedup. Later fixed-history work is not superseded by old next-action text."
+    },
+    {
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "bytes": 12014,
+      "lines": 260,
+      "sha256": "ed8d6ee53e35d5097fd96858832542925b0d8fbf3454841ad2ff047f5b7f8f46",
+      "raw_equals_base": true,
+      "read_scope": "Root: authored/read previously, current dependency retained; A selected clock-gap interfaces. Not a new full audit."
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_20260907.md",
+      "bytes": 10366,
+      "lines": 257,
+      "sha256": "0008aef30fe1bf6364e924b17d2830e0ed42b47da4cb5d2445feac980c8de3a4",
+      "raw_equals_base": true,
+      "read_scope": "Root: completed previous release retained; A sections 2-6 for paid/unpaid boundaries. No rerelease."
+    },
+    {
+      "path": "research/r071e_report-source.md",
+      "bytes": 24989,
+      "lines": 874,
+      "sha256": "b71b02304fea96aca8d1c95a4945aa7f5d631cfbb88acd28378b4a85a5c4d8dd",
+      "raw_equals_base": true,
+      "read_scope": "Root: section 7 current-turn; A sections 7,10,14. Historical proofs not fully re-reviewed."
+    },
+    {
+      "path": "research/r071m_gap_matrix.md",
+      "bytes": 8696,
+      "lines": 228,
+      "sha256": "3e140dd5d390b6df37f5ba8a958214f3f239c48845e11fbe4fb2709d3aaced35",
+      "raw_equals_base": true,
+      "read_scope": "Root: section 8 current-turn; A section 8. No adoption of stale next step."
+    },
+    {
+      "path": "research/r071n_report-source.md",
+      "bytes": 19482,
+      "lines": 753,
+      "sha256": "487f0235a3a1321e8d4037bd8d4074ad49a23abea0715a63255afdf51f044acf",
+      "raw_equals_base": true,
+      "read_scope": "Root: section 12 current-turn; A section 12. Historical finite proof not fully re-reviewed."
+    },
+    {
+      "path": "research/r073q_primary_literature_audit.md",
+      "bytes": 13344,
+      "lines": 302,
+      "sha256": "02c862e4658394da76ee7f89181ca29b47518185c71f5a2c547234574d51c4f9",
+      "raw_equals_base": true,
+      "read_scope": "Root: 2503.14699 source entry from line 243 onward. Historical rough-data result used only for dedup."
+    }
+  ],
+  "roles": {
+    "root": "Author, source-scope verification and IS1-7 derivations.",
+    "A": "Local-history dedup participant; no complete nonauthor claim.",
+    "B": "PN/commutator/source calculation participant; no complete nonauthor claim.",
+    "C": "Sole full nonauthor reviewer: actual complete main IS1-7 and LP1-14, selected G/history interfaces, both adopted external theorem/solution-class interfaces, full ledger and record script; 10 historical binary/raw/base bindings independently verified. Full external cascade constructions and all references not recertified."
+  },
+  "claim_boundary": {
+    "local": "Direct algebra, paid-background bounds, interpolation limitation and elementary energy filter; no novelty claim.",
+    "literature": "Two version-specific scope constraints only.",
+    "open": [
+      "G",
+      "R216-R217 actual NS input",
+      "whole residual q critical control",
+      "general 3D global regularity"
+    ],
+    "not_claimed": [
+      "all routes impossible",
+      "finite-energy left blow-up ruled out",
+      "new theorem-level regularity advance",
+      "exhaustive literature search",
+      "external peer review"
+    ]
+  },
+  "outputs": {
+    "main": "research/clay_b_inverse_cascade_strategy_20260907.md",
+    "audit": "research/clay_b_inverse_cascade_strategy_audit_20260907.md",
+    "record_qa": "research/clay_b_inverse_cascade_strategy_record_qa_20260907.json",
+    "scientific_figures": [],
+    "simulation": false,
+    "DGX_required": false,
+    "reader_outputs": [],
+    "publication_handoff": false
+  }
+}

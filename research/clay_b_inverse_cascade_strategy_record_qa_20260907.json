@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "scope": "Structural labels, protected state and raw Git provenance only; not PDE proof, dual implementation, novelty, source-theorem certification or visual QA.",
+  "base_commit": "ea68cfdd4d29c60aef4ebe052f160c7461bbd1b6",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "UTF8_LF_single_final_newline",
+      "passed": true
+    },
+    {
+      "name": "seven_ordered_IS_labels_and_display_pairs",
+      "passed": true
+    },
+    {
+      "name": "plain_style_and_open_claims",
+      "passed": true
+    },
+    {
+      "name": "versioned_sources_and_review_status",
+      "passed": true
+    },
+    {
+      "name": "all_old_checkpoint_values_except_current_state_preserved",
+      "passed": true
+    },
+    {
+      "name": "24_old_review_values_and_one_new_review",
+      "passed": true
+    },
+    {
+      "name": "private_paper_and_16_release_identities",
+      "passed": true
+    },
+    {
+      "name": "ten_historical_raw_bindings",
+      "passed": true
+    },
+    {
+      "name": "internal_record_no_new_release",
+      "passed": true
+    },
+    {
+      "name": "user_AGENTS_and_existing_tracked_scope",
+      "passed": true
+    },
+    {
+      "name": "two_in_memory_record_negative_controls",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_IS7_rejected",
+      "passed": true
+    },
+    {
+      "name": "changed_private_paper_rejected",
+      "passed": true
+    }
+  ],
+  "historical_bindings": [
+    {
+      "path": "research/clay_b_leray_paid_budget_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_dynamic_strategy_review_20260906.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/r071e_report-source.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/r071m_gap_matrix.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/r071n_report-source.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/r073q_primary_literature_audit.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    }
+  ],
+  "paper_serialization": "Python json.dumps(paper, sort_keys=True), default ensure_ascii=True and separators; UTF8, no appended newline",
+  "paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "artifacts": [
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_20260907.md",
+      "bytes": 8747,
+      "lines": 178,
+      "sha256": "179e6e91ecd2af97a23d397de22628f06fbdd61105b478322eb39e05359a563b"
+    },
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_ledger_20260907.json",
+      "bytes": 8573,
+      "lines": 173,
+      "sha256": "156f0e2ac109bd44d444b977683ba2ba48e5bb8a986db649bde3d5722dd2f09d"
+    },
+    {
+      "path": "research/clay_b_active_checkpoint_20260906.json",
+      "bytes": 56989,
+      "lines": 172,
+      "sha256": "acb74c167a562d31d9851ee1d840814d09abdd135a25285495747f6bd8a8c6a3"
+    },
+    {
+      "path": "scripts/clay_b_inverse_cascade_strategy_record_qa.py",
+      "bytes": 5450,
+      "lines": 106,
+      "sha256": "207559b5f42667df487cbf502e1d470a6e3bb80f40bd1fbc7ae16fcd3a933382"
+    }
+  ]
+}
