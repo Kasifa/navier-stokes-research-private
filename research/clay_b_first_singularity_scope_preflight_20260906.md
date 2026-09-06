@@ -1,7 +1,12 @@
 # 首次奇点的集中信息：适用范围预检
 
-2026-09-06。**WORKING / 文献接口与候选推导 / 非发布包 / G OPEN。**
+2026-09-06。**HISTORICAL PREFLIGHT / 文献接口与候选推导记录 / G OPEN。**
 接续已冻结 PlateauHistory。这里不再优化 A+P 绝对账本的常数。
+
+本预检已由 clay_b_concentration_path_limits_20260906.md 和
+clay_b_local_persistence_obstruction_20260906.md 收束。
+以下保留当时的候选状态和来源核查过程；当前完成范围与下一步见
+clay_b_concentration_limits_work_plan_20260906.md，不把下文旧待办当作新待办。
 
 ## 1. 本轮已读取的来源及层级
 
