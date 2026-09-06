@@ -1,6 +1,8 @@
 # 真实压力功：内部检查记录
 
-2026-09-06。**INTERNAL / NOT A RELEASE / NOT CLAY。**
+2026-09-06。**INTERNAL AUDIT / NOT CLAY。**
+这是内部审查的历史记录，不独立构成 release。
+整包最终核验另见 research/clay_b_pressure_work_freeze_audit_20260906.md。
 
 ## AI 的实际文件审查
 
@@ -91,15 +93,18 @@ ac9576a17189d93648d5a79d0c1b497f9f440a36b48ecd077ddd1b479d6ca32e。
 对 AI、AJ 和 signed-work 工作计划的无异常控制字节、行间/行内定界符、
 公式标签唯一性、约定叙述风格分别检查；再核对 AJ.1--AJ.30 顺序，
 共 16 项均通过。AI 与 AJ 各 30 个公式标签。git diff --check 通过。
-AJ 源中没有回写本审查记录，因此上面的受审 SHA 仍是实际源哈希。
+该检查点的 AJ 源中没有回写本审查记录，上面的受审 SHA 对应当时实际源。
+后续进入冻结包时只更新预检状态和文献指针，不回写此历史哈希；
+最终源哈希由 manifest 和整包核验记录绑定。
 
 ## 冻结边界
 
 AI/AJ 的有限原始文献碰撞核查记录于
 research/clay_b_pressure_work_literature-boundary_20260906.md。
 根任务实际核对三个主来源的指定位置；没有新颖性或穷尽检索结论。
-本项仍没有研究 release manifest、report-source 或冻结清单。
-上述 PASS 不代表新颖性、外部同行审稿、研究冻结或网页发布完成。
-统一早时窗的解析检查已通过；下一步完成合并研究冻结包。
+在检查点 9771fa5b，本项尚无 research release manifest、report-source
+或冻结清单。其后准备整包冻结，须另行核对报告与全部源码/依赖哈希。
+上述 PASS 不代表新颖性、外部同行审稿或网页发布完成。
+统一早时窗的解析检查已通过；冻结状态以整包 manifest 为准。
 早时窗没有给出成熟时间支付。
 不把这一内部源补入已经冻结并单次移交的 PressureQuotient 包。

@@ -1,6 +1,8 @@
 # 正压力功的统一非线性短窗：扩张环面预检
 
-2026-09-06。**WORKING / INTERNAL / NOT FROZEN / NOT CLAY。**
+2026-09-06。**PROVED LOCALLY / NOT CLAY。**
+本稿由内部预检转入 PressureWorkWindow 合并研究包；
+冻结提交与文件哈希以该包 manifest 为准。
 
 本稿接续 AI，但不修改 AI。固定其中已经得到的
 \(V\in C_c^\infty(\mathbb R^3;\mathbb R^3)\)，满足
@@ -409,5 +411,6 @@ AJ.27--AJ.28 排除的是下述无前置系数、无加性预算的精确统一�
    加性预算也可能吸收该增量。本稿不声称排除这些形式。
 4. 这是随 \(\epsilon\) 改变初值的光滑解族，不是一条固定解的成熟历史，
    也不是首次奇点、反向持留、压力几何闭合或原合同 G。
-5. 本稿没有新文献检索，不作新颖性声明；没有仿真或科学图。
-   当前仅为 **WORKING / INTERNAL / NOT FROZEN / NOT CLAY** 预检。
+5. 有限原始文献碰撞记录见
+   research/clay_b_pressure_work_literature-boundary_20260906.md。
+   不作新颖性声明；没有仿真或科学图，也没有外部同行审稿结论。
