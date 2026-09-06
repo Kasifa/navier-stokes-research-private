@@ -1,0 +1,118 @@
+{
+  "main.tex": [
+    {
+      "old": "One explicit sequence of consecutive-integer-frequency shears transfers\nthe first-kind profile from a single initial datum over the full time\ninterval. Its signed collar-flux quotient retains an",
+      "new": "An explicit sequence of consecutive-integer-frequency shears transfers\nthe first-kind profile over the full time interval, using one initial\ndatum for each member of the sequence. Its signed collar-flux quotient retains an"
+    },
+    {
+      "old": "\\paragraph{What is being added.}",
+      "new": "\\paragraph{Main results.}"
+    },
+    {
+      "old": "\\setlength{\\bibsep}{4pt}",
+      "new": "\\setlength{\\bibsep}{4pt}\n\\interlinepenalty=10000"
+    },
+    {
+      "old": "\\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}",
+      "new": "\\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}\n\\providecommand{\\doi}[1]{\\href{https://doi.org/#1}{doi:\\nolinkurl{#1}}}"
+    },
+    {
+      "old": "In the regime $A\\to\\infty$, $\\mu\\to\\infty$, $\\epsilon\\to0$, the",
+      "new": "Here $D=d/dx$. In the regime $A\\to\\infty$, $\\mu\\to\\infty$,\n$\\epsilon\\to0$, the"
+    }
+  ],
+  "sections/upper-bound.tex": [
+    {
+      "old": "The theorem cited here is a preprint result. The longer reconstruction\nin the frozen first version followed the same half-line basis argument\nwith exponent $5\\sqrt2$; it is not an additional contribution and is\nomitted here. The required range in this section is only $d\\le1$.",
+      "new": "The theorem cited here is a preprint result and is used as an\nattributed input. The required range in this section is only $d\\le1$."
+    },
+    {
+      "old": "$\\gamma=2/3969$ used in the research notes, the rate is $-2/11907$.",
+      "new": "$\\gamma=2/3969$, the rate is $-2/11907$."
+    }
+  ],
+  "sections/consequences.tex": [
+    {
+      "old": "The estimates above can be read without the particular exponential\nnormalization used in the original scale experiment. This section states\nthe dependence on that normalization explicitly.",
+      "new": "This appendix records the dependence of the estimates on an external\nexponential normalization and compares the static and parabolic scales."
+    },
+    {
+      "old": "a change in the actual flux. The numerical constants come from the cited extrapolation input;\nreplacing the older $5\\sqrt2$ input by $3\\sqrt2$ enlarges this\nsufficient $\\kappa$ threshold by $5/3$. This is a literature substitution,\nnot a new dynamical conclusion. The spatial witnesses in",
+      "new": "a change in the actual flux. The numerical constants come from the cited\nextrapolation input. The spatial witnesses in"
+    }
+  ],
+  "sections/sharpness.tex": [
+    {
+      "old": "The longer growing-degree slice estimates of the first version are\nnot needed for the separate dynamic confluence proof used here.\n",
+      "new": ""
+    }
+  ],
+  "sections/literature-context.tex": [
+    {
+      "old": "are verified directly. The source audit records a normalization\ninconsistency in Khan's printed operational identity.",
+      "new": "are verified directly."
+    }
+  ],
+  "sections/discussion.tex": [
+    {
+      "old": "more general terminating hypergeometric results may exist. Independent\nreview by a human specialist in asymptotic analysis or approximation\ntheory remains a sensible step before submission. No such review or\njournal endorsement is claimed here.",
+      "new": "more general terminating hypergeometric results may exist. No priority\nclaim is made beyond the explicit comparisons in\nSection~\\ref{sec:literature}."
+    },
+    {
+      "old": "\\paragraph{Version and reproducibility.}\nThis independent second version retains the historical first version.\nThe source package contains a Chinese research summary, a response to\nthe novelty assessment, proof and literature ledgers, reproducible\nchecks, a scientific-figure inventory, and file hashes. No new reader\nPDF is generated. The retained vector scientific figure and its data\nare identified as historical assets. This local research revision is\nnot a journal or arXiv submission and has not been publicly deployed.",
+      "new": "\\paragraph{Data and code availability.}\nThe ancillary files contain exact finite-algebra checks and the code,\nparameters, data, and reference SVG for Figure~\\ref{fig:edge-diagnostic}.\nThe file \\texttt{anc/README.md} gives the commands and dependencies.\nThese reproducibility materials complement the proofs; finite checks\nand quadrature diagnostics do not certify continuum limits."
+    }
+  ],
+  "sections/diagnostic.tex": [
+    {
+      "old": "Figure~\\ref{fig:edge-diagnostic}, retained unchanged from the first version, checks the three constants in the",
+      "new": "Figure~\\ref{fig:edge-diagnostic} illustrates the three constants in the"
+    },
+    {
+      "old": "../v1/figures/heat-edge/figure.pdf",
+      "new": "figures/heat-edge.pdf"
+    },
+    {
+      "old": "The letter \\(p\\) in the archived legend",
+      "new": "The letter \\(p\\) in the figure legend"
+    },
+    {
+      "old": "The archived calculation uses deterministic IEEE-754 binary64",
+      "new": "The calculation uses deterministic IEEE-754 binary64"
+    },
+    {
+      "old": "integration interval. The plotting source, parameters, all 16 data\nrows, and the numerical comparison report accompany the source\ndelivery.",
+      "new": "integration interval. The ancillary directory \\texttt{anc/heat-edge/}\ncontains the plotting source, parameters, and all 16 data rows;\n\\texttt{plot.py --check} reproduces the numerical comparison report."
+    },
+    {
+      "old": "This retained figure illustrates the qualitative limits, not the new",
+      "new": "This figure illustrates the qualitative limits, not the"
+    },
+    {
+      "old": "New exact algebra\nchecks are supplied separately; neither is a continuum certificate.",
+      "new": "Exact algebra\nchecks are included in \\texttt{anc/checks/}; neither is a continuum certificate."
+    }
+  ],
+  "references.bib": [
+    {
+      "old": "% Metadata and statement audit: literature/source-audit.md, 2026-09-05.\n% Only entries cited in the completed manuscript are included.\n",
+      "new": "% References used in the manuscript.\n"
+    },
+    {
+      "old": "% Primary-source metadata checked 2026-09-06.\n% These are candidate additions, not a mandate to cite every entry.\n",
+      "new": ""
+    },
+    {
+      "old": "  doi = {10.1070/SM8670},\n  eprint",
+      "new": "  doi = {10.1070/SM8670},\n  url = {https://arxiv.org/abs/1602.02315v1},\n  note = {Theorem numbers refer to arXiv version 1},\n  eprint"
+    },
+    {
+      "old": "  doi = {10.1007/s11005-025-01946-9}\n",
+      "new": "  doi = {10.1007/s11005-025-01946-9},\n  note = {Article 60}\n"
+    },
+    {
+      "old": "  pages = {60},\n",
+      "new": ""
+    }
+  ]
+}

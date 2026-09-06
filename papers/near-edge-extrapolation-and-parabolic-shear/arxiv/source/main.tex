@@ -1,0 +1,196 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,booktabs,array,xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{doi:\nolinkurl{#1}}}
+\allowdisplaybreaks
+\setlength{\emergencystretch}{1em}
+\setlist{itemsep=2pt,topsep=4pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\T}{\mathbb T}
+\newcommand{\Rea}{\operatorname{Re}}
+\newcommand{\Ree}{\operatorname{Re}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\pos}[1]{\left(#1\right)_+}
+\newcommand{\dd}{\,\mathrm d}
+\hypersetup{
+ pdftitle={Heat-evolved Chebyshev edges and localized fluxes of sparse Fourier shears},
+ pdfauthor={C. K. Zeng},
+ pdfsubject={Uniform edge asymptotics and a fixed-initial-data shear realization},
+ pdfkeywords={Chebyshev polynomial, heat equation, asymptotic analysis, exponential sum, shear flow}
+}
+\title{Heat-evolved Chebyshev edges and localized fluxes\\
+of sparse Fourier shears}
+\author{C. K. Zeng\thanks{Independent Researcher.
+ORCID: \href{https://orcid.org/0009-0002-5402-3374}{0009-0002-5402-3374}.}}
+\date{6 September 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Heat evolution of a high-degree Chebyshev polynomial near an endpoint
+has two logarithmic scales. For
+$Q_{m,A}(s,c)=(e^{sA^{-2}D^2}T_m)(1+c/A)$ and
+$\mu=(m^2/A)^{1/3}$, the common amplitude has scale $\mu^2$,
+while a bounded endpoint displacement has scale $\mu$.
+I give uniform, nonoptimal error bounds on compact positive time
+intervals throughout $\mu\to\infty$, $\mu/A\to0$.
+The relative-displacement estimate follows from a direct Gaussian tilt,
+so its error is not obtained by subtracting two coarse amplitude estimates.
+An edge-profile proposition applies also to the endpoint-normalized
+Chebyshev polynomials of the second kind.
+
+An explicit sequence of consecutive-integer-frequency shears transfers
+the first-kind profile over the full time interval, using one initial
+datum for each member of the sequence. Its signed collar-flux quotient retains an
+$\exp(\Theta(\mu))$ edge factor with algebraic factors stated separately.
+The denominator is the cubic mass of the nonconstant component on the
+whole spatial plateau. For the stated amplitude normalization, inclusion
+of the constant drift in the denominator instead makes this quotient
+decay; amplitude rescaling and changes of observation frame are treated
+explicitly. A supporting time-weighted inequality is a corollary of
+Erd\'elyi's results, and an elementary $N$-term construction shows its
+$N^{4/3}$ order cannot be reduced in the abstract temporal class.
+The spatial extrapolation scale and polynomial heat operation are
+established inputs. The shear application concerns smooth exact solutions
+and gives no general Navier--Stokes regularity conclusion.
+\end{abstract}
+
+\medskip
+\noindent\textbf{2020 Mathematics Subject Classification.}
+41A60, 41A17, 35K05, 35Q30.
+
+\noindent\textbf{Keywords.}
+Chebyshev polynomial; heat equation; uniform asymptotic estimate;
+Gaussian convolution; localized signed flux; sparse Fourier shear.
+
+\section{Introduction}\label{sec:introduction}
+
+A polynomial that is bounded on an interval can grow rapidly just
+beyond an endpoint. Heat evolution changes both its overall size and
+the contrast between nearby points. The question studied here is a
+joint degree--scale limit in which these effects occur at different
+logarithmic orders. This distinction matters when a common large
+amplitude cancels from an observation quotient.
+
+For the first Chebyshev family, write
+\[
+ Q_{m,A}(s,c)=(e^{sA^{-2}D^2}T_m)(1+c/A),\qquad
+ \mu=(m^2/A)^{1/3},\qquad \epsilon=\mu/A.
+\]
+Here $D=d/dx$. In the regime $A\to\infty$, $\mu\to\infty$,
+$\epsilon\to0$, the
+limiting normalized amplitude and displacement slope are
+\[
+ F_s=3\,2^{-4/3}s^{1/3},\qquad G_s=2^{-2/3}s^{-1/3}.
+\]
+The quantitative theorem below controls the amplitude error by
+$C(\epsilon+\log(2+\mu)/\mu^2)$ and the relative-displacement
+error by a modulus tending to zero with
+$\sqrt\epsilon+\sqrt{\log(2+\mu)}/\mu$.
+The constants and a sufficient parameter test are given in the proof.
+No best error order is claimed, and no relation between the rates
+$\mu\to\infty$ and $\epsilon\to0$ is added.
+An $o(\mu^2)$ amplitude remainder alone would not preserve a
+$\mu$-order displacement effect. The proof instead controls the
+mean of the Gaussian-tilted edge distribution at each displacement.
+
+\paragraph{Main results.}
+The main result is the quantitative two-scale estimate and its
+edge-profile formulation, verified for $T_m$ and $U_m/(m+1)$.
+For the second family the effective degree is $n=m+1$.
+The normalization at one removes an otherwise uncontrolled degree
+factor; at the saddle the remaining prefactor has logarithmic size
+$O(\log\mu)$. The two families therefore test a substantive hypothesis
+of the proposition, rather than merely a change of polynomial notation.
+
+The application uses one fixed initial profile for each member of a
+sequence, throughout $0\le t\le4R^2$. An exact finite Fourier shear
+approximates the polynomial heat evolution uniformly on this interval.
+The flux proof keeps the opposed-cap signs, the early time contribution,
+a terminal interval of polynomial width, and the full three-dimensional
+plateau, including its tapering ends. A profile selected afresh at each
+time would not give this statement.
+
+\paragraph{Relation to prior work.}
+The finite heat operation on polynomial spaces is classical;
+Hile and Stanoyevitch's heat-polynomial framework and Hermite--Chebyshev
+operational formulas are relevant precedents. Their precise relation to
+the present positive heat time, varying degree, and displaced edge is
+recorded in Section~\ref{sec:literature}.
+The terminating hypergeometric representation also explains the origin
+of the leading constant through a classical ${}_0F_2$ model. A fixed
+parameter large-argument expansion does not by itself control the
+terminating degree-dependent series or its smaller displacement scale.
+I do not claim a new special-function object or a new Laplace method.
+The literature comparison is bounded and does not establish priority.
+
+The sparse-Fourier scale $N\exp(CN\sqrt d)$ and the basic Chebyshev
+and endpoint witnesses are due to established work, particularly
+Zhang's preprint~\cite{Zhang2026} and the inequalities collected by
+Erd\'elyi~\cite{Erdelyi2017}. They are compressed into an attributed
+input and a short appendix. The auxiliary time-weighted upper estimate
+is likewise a direct literature corollary. Its explicit order witness
+completes the abstract temporal comparison; it does not make the
+spatially constrained flux upper bound optimal.
+
+\paragraph{Observation frame and normalization.}
+The exact shear $u=(0,B,F(t,x_2))$ satisfies
+$F_t+BF_{x_2}=F_{x_2x_2}$. A Galilean change
+$y=x_2-Bt$ and subtraction of the constant velocity yield a pure heat
+shear $(0,0,H(t,y))$. For a radial window fixed in this new frame,
+the remaining cubic transport term integrates to zero by symmetry.
+The original fixed-window flux is therefore frame dependent: it
+measures constant transport through that window, without introducing
+vortex stretching or a new nonlinear singularity mechanism.
+
+The mass in the main application is $\int|F|^3$ over the full spatial
+plateau and clock. The word ``full'' describes the region, not all
+velocity components. In the original-amplitude family, replacing it by
+$\int(B^2+F^2)^{3/2}$ yields a vanishing quotient with quadratic
+logarithmic rate $-9/20000$. This conclusion depends on normalization:
+rescaling the nonconstant initial profile sufficiently restores the
+component quotient, while retaining large drift and unbounded energy
+across the sequence. Section~\ref{sec:frame-mass} states both facts
+precisely. The application is an explicit model of observation and
+normalization, not an obstruction for general finite-energy solutions.
+
+The quantitative edge theorem comes first, followed by its fixed-data
+shear realization and frame analysis. The auxiliary uniform flux upper
+bound follows. Appendices give the temporal order comparison, classical
+spatial witnesses, normalization consequences, and a finite diagnostic.
+
+\input{sections/quantitative-edge}
+\input{sections/literature-context}
+\input{sections/parabolic}
+\input{sections/frame-and-mass}
+\input{sections/upper-bound}
+\input{sections/discussion}
+\appendix
+\input{sections/time-weighted}
+\input{sections/sharpness}
+\input{sections/consequences}
+\input{sections/diagnostic}
+
+\begingroup
+\small
+\setlength{\bibsep}{4pt}
+\interlinepenalty=10000
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

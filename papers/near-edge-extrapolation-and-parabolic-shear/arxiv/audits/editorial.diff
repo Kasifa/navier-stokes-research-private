@@ -1,0 +1,129 @@
+--- frozen-v2/main.tex
++++ arxiv/main.tex
+@@ -8,0 +9 @@
++\providecommand{\doi}[1]{\href{https://doi.org/#1}{doi:\nolinkurl{#1}}}
+@@ -56,3 +57,3 @@
+-One explicit sequence of consecutive-integer-frequency shears transfers
+-the first-kind profile from a single initial datum over the full time
+-interval. Its signed collar-flux quotient retains an
++An explicit sequence of consecutive-integer-frequency shears transfers
++the first-kind profile over the full time interval, using one initial
++datum for each member of the sequence. Its signed collar-flux quotient retains an
+@@ -94 +95,2 @@
+-In the regime $A\to\infty$, $\mu\to\infty$, $\epsilon\to0$, the
++Here $D=d/dx$. In the regime $A\to\infty$, $\mu\to\infty$,
++$\epsilon\to0$, the
+@@ -110 +112 @@
+-\paragraph{What is being added.}
++\paragraph{Main results.}
+@@ -189,0 +192 @@
++\interlinepenalty=10000
+--- frozen-v2/references.bib
++++ arxiv/references.bib
+@@ -1,2 +1 @@
+-% Metadata and statement audit: literature/source-audit.md, 2026-09-05.
+-% Only entries cited in the completed manuscript are included.
++% References used in the manuscript.
+@@ -11,0 +11,2 @@
++  url = {https://arxiv.org/abs/1602.02315v1},
++  note = {Theorem numbers refer to arXiv version 1},
+@@ -45 +45,0 @@
+-  pages = {60},
+@@ -47 +47,2 @@
+-  doi = {10.1007/s11005-025-01946-9}
++  doi = {10.1007/s11005-025-01946-9},
++  note = {Article 60}
+@@ -50,2 +50,0 @@
+-% Primary-source metadata checked 2026-09-06.
+-% These are candidate additions, not a mandate to cite every entry.
+--- frozen-v2/sections/consequences.tex
++++ arxiv/sections/consequences.tex
+@@ -4,3 +4,2 @@
+-The estimates above can be read without the particular exponential
+-normalization used in the original scale experiment. This section states
+-the dependence on that normalization explicitly.
++This appendix records the dependence of the estimates on an external
++exponential normalization and compares the static and parabolic scales.
+@@ -65,4 +64,2 @@
+-a change in the actual flux. The numerical constants come from the cited extrapolation input;
+-replacing the older $5\sqrt2$ input by $3\sqrt2$ enlarges this
+-sufficient $\kappa$ threshold by $5/3$. This is a literature substitution,
+-not a new dynamical conclusion. The spatial witnesses in
++a change in the actual flux. The numerical constants come from the cited
++extrapolation input. The spatial witnesses in
+--- frozen-v2/sections/diagnostic.tex
++++ arxiv/sections/diagnostic.tex
+@@ -4 +4 @@
+-Figure~\ref{fig:edge-diagnostic}, retained unchanged from the first version, checks the three constants in the
++Figure~\ref{fig:edge-diagnostic} illustrates the three constants in the
+@@ -21 +21 @@
+- \includegraphics[width=\textwidth]{../v1/figures/heat-edge/figure.pdf}
++ \includegraphics[width=\textwidth]{figures/heat-edge.pdf}
+@@ -34 +34 @@
+- values. The letter \(p\) in the archived legend denotes \(\sigma\)
++ values. The letter \(p\) in the figure legend denotes \(\sigma\)
+@@ -39 +39 @@
+-The archived calculation uses deterministic IEEE-754 binary64
++The calculation uses deterministic IEEE-754 binary64
+@@ -42,3 +42,3 @@
+-integration interval. The plotting source, parameters, all 16 data
+-rows, and the numerical comparison report accompany the source
+-delivery. The two-resolution and tail-truncation comparisons measure
++integration interval. The ancillary directory \texttt{anc/heat-edge/}
++contains the plotting source, parameters, and all 16 data rows;
++\texttt{plot.py --check} reproduces the numerical comparison report. The two-resolution and tail-truncation comparisons measure
+@@ -49,3 +49,3 @@
+-This retained figure illustrates the qualitative limits, not the new
+-quantitative bounds or the second-kind extension. New exact algebra
+-checks are supplied separately; neither is a continuum certificate.
++This figure illustrates the qualitative limits, not the
++quantitative bounds or the second-kind extension. Exact algebra
++checks are included in \texttt{anc/checks/}; neither is a continuum certificate.
+--- frozen-v2/sections/discussion.tex
++++ arxiv/sections/discussion.tex
+@@ -32,4 +32,3 @@
+-more general terminating hypergeometric results may exist. Independent
+-review by a human specialist in asymptotic analysis or approximation
+-theory remains a sensible step before submission. No such review or
+-journal endorsement is claimed here.
++more general terminating hypergeometric results may exist. No priority
++claim is made beyond the explicit comparisons in
++Section~\ref{sec:literature}.
+@@ -48,8 +47,6 @@
+-\paragraph{Version and reproducibility.}
+-This independent second version retains the historical first version.
+-The source package contains a Chinese research summary, a response to
+-the novelty assessment, proof and literature ledgers, reproducible
+-checks, a scientific-figure inventory, and file hashes. No new reader
+-PDF is generated. The retained vector scientific figure and its data
+-are identified as historical assets. This local research revision is
+-not a journal or arXiv submission and has not been publicly deployed.
++\paragraph{Data and code availability.}
++The ancillary files contain exact finite-algebra checks and the code,
++parameters, data, and reference SVG for Figure~\ref{fig:edge-diagnostic}.
++The file \texttt{anc/README.md} gives the commands and dependencies.
++These reproducibility materials complement the proofs; finite checks
++and quadrature diagnostics do not certify continuum limits.
+--- frozen-v2/sections/literature-context.tex
++++ arxiv/sections/literature-context.tex
+@@ -14,2 +14 @@
+-are verified directly. The source audit records a normalization
+-inconsistency in Khan's printed operational identity.
++are verified directly.
+--- frozen-v2/sections/sharpness.tex
++++ arxiv/sections/sharpness.tex
+@@ -114,2 +113,0 @@
+-The longer growing-degree slice estimates of the first version are
+-not needed for the separate dynamic confluence proof used here.
+--- frozen-v2/sections/upper-bound.tex
++++ arxiv/sections/upper-bound.tex
+@@ -36,4 +36,2 @@
+-The theorem cited here is a preprint result. The longer reconstruction
+-in the frozen first version followed the same half-line basis argument
+-with exponent $5\sqrt2$; it is not an additional contribution and is
+-omitted here. The required range in this section is only $d\le1$.
++The theorem cited here is a preprint result and is used as an
++attributed input. The required range in this section is only $d\le1$.
+@@ -276 +274 @@
+-$\gamma=2/3969$ used in the research notes, the rate is $-2/11907$.
++$\gamma=2/3969$, the rate is $-2/11907$.

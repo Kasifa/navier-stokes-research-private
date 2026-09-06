@@ -1,0 +1,113 @@
+\section{Classical spatial witnesses and elementary realization}
+\label{sec:sharpness}
+
+This appendix records the supporting spatial facts with their provenance.
+The near-edge scale and Chebyshev confluence construction are prior work
+\cite[Propositions 7.1 and 8.4]{Zhang2026}; polynomial endpoint witnesses
+also occur in Erd\'elyi~\cite{Erdelyi2017}. The elementary modifications
+below impose real values and a dyadic band. They are not separate
+new extrapolation theorems. All norms here use Lebesgue measure on
+$[-1,1]$.
+
+\begin{lemma}[Coefficient identity]\label{lem:confluent-real-rooted}
+For a real polynomial $p$ of degree $n$ and $\eta>0$,
+\begin{equation}\label{eq:confluent-map}
+ p\left(\frac{e^{i\eta x}-1}{i\eta}\right)
+ =\sum_{j=0}^n b_j(\eta)e^{ij\eta x},\qquad
+ b_j(\eta)=\frac{p^{(j)}(i/\eta)}{j!(i\eta)^j}.
+\end{equation}
+If $p$ is real-rooted, every $b_j$ is nonzero for every $\eta>0$.
+For a fixed real-rooted $p$, $M>0$, and real $\theta$, taking twice
+the real part after multiplication
+by $e^{i(Mx+\theta)}$ yields exactly $n+1$ positive frequencies in
+$[M,2M]$ when $n\eta\le M$, and tends locally uniformly to
+$2p(x)\cos(Mx+\theta)$ as $\eta\downarrow0$.
+\end{lemma}
+
+\begin{proof}
+Expand $p$ about $i/\eta$, using
+$w_\eta(x)=i/\eta+e^{i\eta x}/(i\eta)$. Rolle's theorem makes the zeros
+of each nonconstant derivative real, so it cannot vanish at $i/\eta$.
+The top derivative is a nonzero constant.
+The positive frequencies after realification are $M+j\eta$, with
+amplitudes $2|b_j|$. Finally
+$|w_\eta(x)-x|\le\eta x^2/2$ proves the compact convergence.
+Allowing arbitrary phases means that positive amplitudes do not
+prevent cancellation: signs can be absorbed into the phases.
+\end{proof}
+
+\begin{proposition}[Known spatial orders retained in the real band]
+\label{thm:real-dyadic-lower}
+Let $\mathcal R_q^{\rm dyad}$ consist of real cosine sums with exactly
+$q\ge2$ positive frequencies in one dyadic band, nonzero amplitudes,
+and arbitrary phases. For $0<d\le1$,
+\begin{align*}
+ \sup_{g\in\mathcal R_q^{\rm dyad}}
+ \frac{|g(1+d)|}{\|g\|_2}
+ &\ge\frac{e^{(q-1)\operatorname{arcosh}(1+d)}}{2\sqrt2},\\
+ \sup_{g\in\mathcal R_q^{\rm dyad}}
+ \frac{\int_1^{1+d}|g|^2}{\|g\|_r^2}
+ &\ge\frac d{128}e^{2(q-1)\sqrt{7d/8}},\qquad r=2,3,\\
+ \sup_{g\in\mathcal R_q^{\rm dyad}}\frac{|g(1)|}{\|g\|_2}
+ &\ge q/\sqrt2,\qquad
+ \sup_{g\in\mathcal R_q^{\rm dyad}}\frac{|g(1)|}{\|g\|_3}
+ \ge2^{-1/3}q^{2/3}.
+\end{align*}
+These are supremum statements along confluent sequences.
+\end{proposition}
+
+\begin{proof}
+For the exterior statements take $p=T_{q-1}$, $M=1$,
+$\theta=-(1+d)$ in Lemma~\ref{lem:confluent-real-rooted}.
+The limit is $g_0=2T_{q-1}(x)\cos(x-1-d)$, with
+$\|g_0\|_2^2\le8$ and $\|g_0\|_3^3\le16$.
+At $1+d$ the carrier is one and
+$T_{q-1}(1+d)\ge\tfrac12e^{(q-1)\operatorname{arcosh}(1+d)}$.
+On $[1+7d/8,1+d]$ the squared carrier is at least $1/2$ and
+$T_{q-1}$ is increasing. The exterior squared integral is thus at least
+$(d/16)e^{2(q-1)\sqrt{7d/8}}$, using
+$\operatorname{arcosh}(1+x)\ge\sqrt x$ for $0\le x\le1$.
+Compact convergence transfers both ratios.
+
+For the endpoint take the classical Legendre kernel
+$K_{q-1}(x)=\sum_{r=0}^{q-1}(2r+1)P_r(x)/2$.
+Orthogonality gives $K_{q-1}(1)=\|K_{q-1}\|_2^2=q^2/2$;
+$|P_r|\le1$ gives $\|K_{q-1}\|_3^3\le q^4/4$.
+This kernel has only simple roots in $(-1,1)$: it is orthogonal to
+all lower degree polynomials for the positive weight $1-x$, since
+$\int K_{q-1}r=r(1)$. Multiplying its sign-changing factors gives
+the usual contradiction if fewer than $q-1$ such roots occur.
+Apply the coefficient lemma with $M=1$, $\theta=-1$.
+The carrier is one at the observed endpoint and cannot increase either
+norm, which proves the last two inequalities.
+\end{proof}
+
+The squared $L^3$ endpoint lower power here is $q^{4/3}$.
+It does not prove the optimal endpoint power: Erd\'elyi's
+$L^p$ estimate \cite[Theorem 2.10, arXiv v1]{Erdelyi2017}
+gives a squared upper power $q^{5/3}$ at $p=3$, counting $2q$
+complex branches.
+
+\begin{proposition}[A prescribed-time integer realization]
+\label{thm:integer-slice}
+For a real-rooted $p$ of degree $q-1$, $R,A>0$, $\eta=AR$,
+an integer $n_0\ge q-1\ge1$, and fixed $s_*\ge0,B,\theta$, put
+$n_j=n_0+j$, $a_j=2|b_j(\eta)|e^{n_j^2R^2s_*}$ and
+$\phi_j=-\theta-\arg b_j(\eta)-n_jBR^2s_*$.
+Then the exact shear
+$F(t,y)=\sum_j a_je^{-n_j^2t}\cos(n_jy-\phi_j-n_jBt)$ satisfies
+\[
+ F(R^2s_*,ARx)=2\operatorname{Re}
+       \{e^{i\theta+in_0\eta x}p(w_\eta(x))\}.
+\]
+\end{proposition}
+
+\begin{proof}
+Substitute the displayed amplitudes and phases. Each Fourier term
+satisfies $F_t+BF_y=F_{yy}$, and $n_0+q-1\le2n_0$.
+\end{proof}
+
+The coefficients in this last statement may depend on $s_*$.
+It therefore cannot replace the fixed-initial-data, full-interval
+argument of Section~\ref{sec:parabolic}. Nonvanishing for all
+$\eta>0$ also says nothing about coefficient size or numerical stability.

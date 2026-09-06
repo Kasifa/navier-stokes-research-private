@@ -1,0 +1,94 @@
+{
+  "research_source_commit": "ee014e3d8d332282b6e708aaa73dec23ed275b69",
+  "submission_main": "main.tex",
+  "files": {
+    "anc/README.md": {
+      "bytes": 1779,
+      "sha256": "5b28d8fd0ea4c0c4e20ed3a1f1e644e4055321c90ca5f6c550512b568efbaf90"
+    },
+    "anc/checks/verify_algebra.py": {
+      "bytes": 13620,
+      "sha256": "d8c33940c53334d1726823511aff27cc8c2b722db0150dde35e37e802db44fb6"
+    },
+    "anc/checks/verify_revision.py": {
+      "bytes": 6618,
+      "sha256": "7738d1f11b8690552aac32f637030f45c116bdbf380a7b8ab6dadf5db3084ff1"
+    },
+    "anc/heat-edge/config.json": {
+      "bytes": 466,
+      "sha256": "ec613babd5ff988c732bbd9881962e93dc6e5ef2821832eb22a069b843fece28"
+    },
+    "anc/heat-edge/data.csv": {
+      "bytes": 4679,
+      "sha256": "bbc7139237a9120d91284c0ddb80c0c73aa93708bb4a8f778f38e1d24d18c96d"
+    },
+    "anc/heat-edge/figure.svg": {
+      "bytes": 12650,
+      "sha256": "5e9061d5b76b03c60d58cac98320513dc442b7a595604ee9c59697b2e4190662"
+    },
+    "anc/heat-edge/plot.py": {
+      "bytes": 19614,
+      "sha256": "39bad4881a428293b86f11dd5c71d6a2da0f3b150768ecfce60d362266650787"
+    },
+    "anc/requirements.txt": {
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    "figures/heat-edge.pdf": {
+      "bytes": 71783,
+      "sha256": "6de47c8df62ae35fc85e5b1ca2010038dd505d2e15b39caaa1f765b30cf4e7ea"
+    },
+    "main.bbl": {
+      "bytes": 3312,
+      "sha256": "c0776ff4cee9ba192d3a0105f55a69f1fa0e104c35923f81a3b17da9cecfce7b"
+    },
+    "main.tex": {
+      "bytes": 9207,
+      "sha256": "2851cebf1a72779f071611d0239a799cb7434788df1a9c747649e48c754659ed"
+    },
+    "references.bib": {
+      "bytes": 3470,
+      "sha256": "e9380bdd99b67171bd98e2d6719ec7ed4deff1141bba75cae0bb844bef2dd7cd"
+    },
+    "sections/consequences.tex": {
+      "bytes": 4103,
+      "sha256": "ff434448c7fc3a7c93aa3850d8f1a8d381d409e4ede08825e105df7943777618"
+    },
+    "sections/diagnostic.tex": {
+      "bytes": 2482,
+      "sha256": "73c40bfbe180c874870325bd39709b9a6e9876c6bec72910c6a640fec4a34ed9"
+    },
+    "sections/discussion.tex": {
+      "bytes": 2964,
+      "sha256": "0a4c9619c6ea711c7267743ecbe70e8a15ed3ea887372c2f96e6bda35b7f0f51"
+    },
+    "sections/frame-and-mass.tex": {
+      "bytes": 9890,
+      "sha256": "a430ec1536cf92b9f50759bb847b005dd3c3bd569d2db50bcbf2bde07e3c35bb"
+    },
+    "sections/literature-context.tex": {
+      "bytes": 3594,
+      "sha256": "30176b76b7bba7d052ba81ea9383f12c0eec5dae4157a8aa8bc2f9420fe0992f"
+    },
+    "sections/parabolic.tex": {
+      "bytes": 19246,
+      "sha256": "f9aa54130790581ab37e2d4060ed5ad9accb80a341275f73084db0e5e2e523b4"
+    },
+    "sections/quantitative-edge.tex": {
+      "bytes": 12202,
+      "sha256": "fd091c50680d13c762da81ef4f388914293f11156c4c25f944f3b04a2b02dddb"
+    },
+    "sections/sharpness.tex": {
+      "bytes": 4882,
+      "sha256": "567e8c763982e5351a47b8c7b41068abfce3b27f738426ef8abd9af530c1a279"
+    },
+    "sections/time-weighted.tex": {
+      "bytes": 4814,
+      "sha256": "8b59ed97145ac07a710b87dbc6c964f9b974009ea97d6e5d4d6d43bf11bcb7ae"
+    },
+    "sections/upper-bound.tex": {
+      "bytes": 10293,
+      "sha256": "ac53834ed60887625e8874a17c023c0aa62ae3695722efb1d6e789da870bfa01"
+    }
+  }
+}

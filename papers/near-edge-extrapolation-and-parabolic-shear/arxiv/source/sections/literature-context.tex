@@ -1,0 +1,73 @@
+\section{Special-function context and the contribution boundary}
+\label{sec:literature}
+
+Polynomial heat evolution and its finite operational expansion are
+classical. Hile and Stanoyevitch's framework
+\cite[Theorem 1 and (2.18)]{HileStanoyevitch2001} includes polynomial
+initial data for constant-coefficient evolution equations.
+Batahan and Shehata~\cite[Theorem 3.1]{BatahanShehata2014} give a
+Hermite--Chebyshev operational representation with a fixed negative
+heat parameter and the second-kind polynomial. Related two-variable
+formulas appear in Khan~\cite{Khan2019}. These formulas are cited as
+historical context, not as inputs to the positive-time estimates above;
+the finite Gaussian representation and the two normalizations used here
+are verified directly.
+
+The standard trigonometric definitions of the two Chebyshev families
+are recorded in \cite[\S18.5]{DLMF}. At zero displacement there is also
+an exact terminating identity:
+\begin{equation}\label{eq:terminating-hypergeometric}
+ Q_{m,A}(s,0)={}_4F_2\left(\begin{matrix}
+ -m/2,(1-m)/2,m/2,(m+1)/2\\1/4,3/4
+ \end{matrix};\frac{s}{A^2}\right).
+\end{equation}
+Here the notation means the finite sum through $j=\lfloor m/2\rfloor$.
+To verify it, let $D_k=T_m^{(k)}(1)$ and differentiate the Chebyshev
+ODE at one. The recurrence
+$D_{k+1}/D_k=(m^2-k^2)/(2k+1)$, $D_0=1$, shows that the ratio of
+successive terms $D_{2j}(s/A^2)^j/j!$ is exactly the hypergeometric
+term ratio in \eqref{eq:terminating-hypergeometric}.
+The constant terms also agree. This is an algebraic representation,
+not an additional asymptotic theorem.
+
+Its leading coefficient model is
+\[
+ {}_0F_2(;1/4,3/4;s\mu^6/16).
+\]
+The classical exponential factor $\exp(3z^{1/3})$ of this function
+explains $F_s\mu^2$; see \cite[\S16.11]{DLMF}.
+It does not imply that the two functions have ratio tending to one.
+Indeed the exact $j$th coefficient relative to that model contains
+\[
+ \prod_{k=0}^{2j-1}(1-k^2/m^2).
+\]
+For $j\asymp\mu^2$ in the original regime, $j/m\to0$, and the
+logarithmic correction has order $j^3/m^2\asymp\mu^3/A$.
+This follows by summing
+$-2x\le\log(1-x)\le-x$ once $(2j/m)^2\le1/2$.
+That correction is $o(\mu^2)$ but need not be $o(1)$.
+
+The large-variable expansions in DLMF \S16.11(ii) explicitly exclude
+nonpositive integer upper parameters and treat $p\le q+1$.
+They therefore do not directly apply to this terminating $p=q+2$
+family. The large-parameter formulas in \S16.11(iii) use other
+parameter paths. The uniform Gauss hypergeometric expansions of
+Paris~\cite{Paris2018,Paris2021} concern ${}_2F_1$ with specified
+large-parameter paths and transition regions. They do not state the
+terminating four-upper-parameter heat-edge estimate and its bounded
+spatial-displacement quotient used here. This comparison does not
+rule out other covering results.
+
+Large-degree polynomial heat flow also appears in work on zeros and
+random matrices, for example Hall and Ho~\cite{HallHo2025}.
+A macroscopic zero distribution differs from the function values and
+relative amplitudes at shrinking endpoint distances considered here.
+The bounded primary-source search found no theorem with the same
+joint regime, explicit uniform errors, and displacement quantifiers.
+It is not an exhaustive search of all terminating hypergeometric
+literature and establishes no first-result or priority claim.
+
+The claimed addition is the quantitative statement with these
+hypotheses, its checked second-family instance, and the fixed-data
+full-interval realization below. The Laplace principle, Gaussian
+tilting, and polynomial heat operation remain established methods.

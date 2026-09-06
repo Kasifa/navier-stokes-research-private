@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "source_archive": "heat-edge-arxiv-source.zip",
+  "source_archive_sha256": "74fe125fadd686e83edea32098dc56c6034081f8700ca1414ff8867bd9bd9714",
+  "source_files": 22,
+  "source_manifest_sha256": "824ec4b1e3a07a27af2b63308b2130bd0d40565b472934fd81129ab91ceca547",
+  "pdf": "Heat-evolved-Chebyshev-edges-arxiv.pdf",
+  "pdf_sha256": "c216bc828f7b51f6368f0fadeef7d0fb9502943ddebf25fc48c4cd36d0e6f2fe",
+  "pdf_bytes": 621096,
+  "pages": 25,
+  "fonts_embedded": 23,
+  "no_blank_pages": true,
+  "no_unresolved_reference_markers": true,
+  "off_page_characters": [],
+  "javascript_absent": true,
+  "only_standard_tex_and_extracted_inputs": true,
+  "used_supplied_bbl_without_bibtex": true,
+  "page_text_identical": true,
+  "all_25_page_renders_byte_identical": true,
+  "allowed_engine_notice": [
+    "Package epstopdf Warning: Shell escape feature is not enabled."
+  ],
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.28 (TeX Live 2025)",
+  "texlive_scope": "Local TeX Live 2025 final repository; not arXiv 2025-08-03 exact snapshot",
+  "clean_build_directory": "/Users/kasifa/Documents/Math/paper-edge-v2/papers/near-edge-extrapolation-and-parabolic-shear/arxiv/tmp/arxiv-extracted-mfd7a773",
+  "arxiv_upload_or_server_verification": false
+}

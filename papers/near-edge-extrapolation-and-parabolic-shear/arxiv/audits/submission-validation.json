@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "tex_files": 11,
+  "labels": 100,
+  "references": 108,
+  "cited_keys": [
+    "BatahanShehata2014",
+    "DLMF",
+    "Erdelyi2017",
+    "HallHo2025",
+    "HileStanoyevitch2001",
+    "Khan2019",
+    "Kos2008",
+    "Paris2018",
+    "Paris2021",
+    "Zhang2026"
+  ],
+  "core_statement_and_proof_blocks_unchanged": 36,
+  "display_math_blocks_unchanged": 139,
+  "core_block_sha256": {
+    "main.tex": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sections/consequences.tex": "8d4f1816887024e4f2b575401de2d364c8dda453d5aa80bde0151272a876528e",
+    "sections/diagnostic.tex": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sections/discussion.tex": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sections/frame-and-mass.tex": "05614c23842488636b1582dbf37813c00f21e31a92cbe9da26fe115f18752ea4",
+    "sections/literature-context.tex": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sections/parabolic.tex": "46a5d59659c12680026ef9982bdd41f5c13ab0c982d7f95c7cac0870d3d8a1e2",
+    "sections/quantitative-edge.tex": "b897a1d596eb9ddd5caed8060de5aecce9595373fee115b2cf87398e9c64701c",
+    "sections/sharpness.tex": "e77d9bd3647be98c62368310b74ed5743c1bd12b0671033864899b603a453b4b",
+    "sections/time-weighted.tex": "2467a094a22601a8d974b7ed1a69cd19d7fe469e3684ce9845d72566e9073181",
+    "sections/upper-bound.tex": "5f1c7f3d4f292d7b5fa5c630e25ba3535f0e862868929b570fd5eea454dca8d4"
+  },
+  "abstract_characters": 1619,
+  "metadata_matches_manuscript": true,
+  "source_files": 22
+}

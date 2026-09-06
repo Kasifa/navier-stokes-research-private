@@ -1,0 +1,96 @@
+{
+  "arithmetic": "Fraction, exact integers",
+  "classification": "FINITE COMPUTATION",
+  "elapsed_seconds": 0.248,
+  "fixture_sha256": "d8c33940c53334d1726823511aff27cc8c2b722db0150dde35e37e802db44fb6",
+  "groups": {
+    "N1_witness": {
+      "negative": 0,
+      "positive": 1
+    },
+    "U_endpoint_recurrence": {
+      "negative": 0,
+      "positive": 325
+    },
+    "U_heat_two_representations": {
+      "negative": 0,
+      "positive": 450
+    },
+    "amplitude_lambda_R_error": {
+      "negative": 0,
+      "positive": 1
+    },
+    "bounded_drift_R_power": {
+      "negative": 0,
+      "positive": 1
+    },
+    "full_velocity_R_power": {
+      "negative": 0,
+      "positive": 1
+    },
+    "full_velocity_rate": {
+      "negative": 0,
+      "positive": 1
+    },
+    "full_volume": {
+      "negative": 0,
+      "positive": 6
+    },
+    "mutated_U_normalization": {
+      "negative": 24,
+      "positive": 0
+    },
+    "mutated_coefficient_sign": {
+      "negative": 23,
+      "positive": 0
+    },
+    "mutated_hypergeometric_lower_parameter": {
+      "negative": 184,
+      "positive": 0
+    },
+    "mutated_old_threshold": {
+      "negative": 8,
+      "positive": 0
+    },
+    "new_flux_exponent": {
+      "negative": 0,
+      "positive": 1
+    },
+    "new_sufficient_threshold": {
+      "negative": 0,
+      "positive": 8
+    },
+    "terminating_hypergeometric": {
+      "negative": 0,
+      "positive": 300
+    },
+    "time_all_nonzero": {
+      "negative": 0,
+      "positive": 24
+    },
+    "time_binomial_identity": {
+      "negative": 0,
+      "positive": 24
+    },
+    "time_decay_interval": {
+      "negative": 0,
+      "positive": 24
+    },
+    "time_initial_value": {
+      "negative": 0,
+      "positive": 24
+    },
+    "time_lower_constant": {
+      "negative": 0,
+      "positive": 1
+    }
+  },
+  "hardware": "arm64",
+  "negative_checks": 239,
+  "positive_checks": 1192,
+  "python": "3.12.14",
+  "random_seed": null,
+  "scope": "Exact finite identities and targeted mutations; not asymptotic proofs",
+  "status": "PASS",
+  "workers": 1
+}

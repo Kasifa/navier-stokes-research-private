@@ -1,0 +1,79 @@
+{
+  "arithmetic": "exact Fraction and rational complex",
+  "elapsed_seconds": 0.263,
+  "groups": {
+    "carrier_conjugation": {
+      "negative": 0,
+      "positive": 18
+    },
+    "constants_and_powers": {
+      "negative": 0,
+      "positive": 17
+    },
+    "critical_threshold": {
+      "negative": 0,
+      "positive": 27
+    },
+    "critical_threshold_sides": {
+      "negative": 0,
+      "positive": 54
+    },
+    "endpoint_derivative_boundary": {
+      "negative": 0,
+      "positive": 66
+    },
+    "endpoint_derivative_recurrence": {
+      "negative": 0,
+      "positive": 561
+    },
+    "explicit_heat_polynomials": {
+      "negative": 0,
+      "positive": 72
+    },
+    "finite_eta_coefficients": {
+      "negative": 0,
+      "positive": 68
+    },
+    "finite_eta_nonzero": {
+      "negative": 0,
+      "positive": 68
+    },
+    "heat_gaussian_moments": {
+      "negative": 0,
+      "positive": 306
+    },
+    "invalid_input_boundaries": {
+      "negative": 4,
+      "positive": 0
+    },
+    "mutated_center": {
+      "negative": 64,
+      "positive": 0
+    },
+    "mutated_endpoint_recurrence": {
+      "negative": 31,
+      "positive": 0
+    },
+    "mutated_gaussian_variance": {
+      "negative": 3,
+      "positive": 0
+    },
+    "mutated_imaginary_shift": {
+      "negative": 12,
+      "positive": 0
+    },
+    "mutated_threshold_sqrt2": {
+      "negative": 27,
+      "positive": 0
+    },
+    "scaled_endpoint_heat_series": {
+      "negative": 0,
+      "positive": 468
+    }
+  },
+  "negative_checks": 141,
+  "positive_checks": 1725,
+  "scope": "finite algebra checks, not continuum or asymptotic proofs",
+  "status": "PASS",
+  "total_checks": 1866
+}
