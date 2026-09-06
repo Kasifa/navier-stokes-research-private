@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "classification": "internal source hygiene and bookkeeping; not a proof certificate or release manifest",
+  "date": "2026-09-06",
+  "base_commit": "a6eb3a56976eebd7565d10955ca0def994a305f5",
+  "files": [
+    {
+      "path": "research/clay_b_periodic_dissipation_wavenumber_preflight_20260906.md",
+      "sha256": "bbff0bafc4b4f3f3713e95ad7091a11a412764a9f8b4219d081679a00a9d2041",
+      "ordered_formula_tags": 22
+    },
+    {
+      "path": "research/clay_b_separated_pressure_pair_preflight_20260906.md",
+      "sha256": "e7cb2c5e8f989a149685e81f8c6ebdd8401401b4b9f5b58a8074083c12b9e4d6",
+      "ordered_formula_tags": 20
+    },
+    {
+      "path": "research/clay_b_frequency_interaction_internal_audit_20260906.md",
+      "sha256": "7fbc48c47404661398e0dfa8e9fa434216e4eb66164744a4e0ab510e8b5c0af2"
+    },
+    {
+      "path": "research/clay_b_high_high_pressure_continuation_plan_20260906.md",
+      "sha256": "f472653977eec25258f7bbcab330659d11e88c075b3c5506627568dd3743cb1e"
+    }
+  ],
+  "checks_per_markdown_file": [
+    "UTF-8 and no unexpected control characters",
+    "paired display-math delimiters",
+    "paired inline-math delimiters",
+    "no trailing whitespace",
+    "discouraged writing phrases absent",
+    "formula tags unique and, where present, consecutive"
+  ],
+  "exact_rational_exponent_check": {
+    "alpha": "3/4",
+    "4alpha_minus_3": "0",
+    "2alpha_minus_5": "-7/2",
+    "4alpha_minus_7": "-4",
+    "4_minus_alpha": "13/4",
+    "status": "PASS"
+  },
+  "private_paper_state_preserved": true,
+  "last_release_and_single_handoff_state_preserved": true,
+  "excluded_user_file": "AGENTS.md",
+  "mathematical_audit": "research/clay_b_frequency_interaction_internal_audit_20260906.md",
+  "G": "OPEN",
+  "new_release": false,
+  "simulation_or_figures": false
+}
