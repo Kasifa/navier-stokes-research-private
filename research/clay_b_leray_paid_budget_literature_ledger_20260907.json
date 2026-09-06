@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-07",
+  "record_id": "ClayB-LerayPaidBudget-internal-20260907",
+  "is_research_release": false,
+  "base_commit": "8aa141cac7027101f1bfc3301d18e1011e5040bb",
+  "scope": "Original same-noise projection and unconditional low-order budgets on a smooth fixed periodic NS parent before a finite candidate endpoint. No arbitrary weak/terminal representation, actual NS blowup, novelty or G closure claimed.",
+  "canonical_report": "research/clay_b_leray_paid_budget_report-source_20260907.md",
+  "research_source": "research/clay_b_leray_paid_budget_20260907.md",
+  "plan": {
+    "scope": "Audit the original same-noise Weber mean after the complete periodic Leray projection. Determine whether projected covariance supplies a genuinely weaker input for prescribed-centre G, or only rewrites Navier-Stokes.",
+    "audience": "Research task; rigorous PDE derivation and applicability decisions",
+    "assumptions": "Fixed positive viscosity, periodic unforced smooth parent on compact intervals before its first candidate singularity. No atom assumption at arbitrary singularities. No weak/terminal representation imported.",
+    "source_classes": [
+      "Original Eulerian-Lagrangian/magnetization papers",
+      "Constantin-Iyer original author version",
+      "Current frozen project sources"
+    ],
+    "steps": [
+      {
+        "id": "discovery",
+        "status": "complete"
+      },
+      {
+        "id": "targeted_primary_followup",
+        "status": "complete"
+      },
+      {
+        "id": "synthesis",
+        "status": "complete"
+      },
+      {
+        "id": "verification",
+        "status": "complete"
+      }
+    ],
+    "previous_goal_turn": "progress: authoritative record8aa141ca committed, branch dedup and uniform-rho preflight changes next action; not merely a status restatement.",
+    "planning_tool": "update_plan unavailable in enabled tool metadata; fallback plan persisted in this ledger",
+    "output_scope": "Research Markdown/provenance only. No new release unless a genuinely completed section warrants a freeze; fixed publisher alone handles reader pages.",
+    "gaps": [
+      {
+        "claim": "Complete projection",
+        "status": "resolved: PLu f=PLuPf; split source cancels to original NS, no new closure"
+      },
+      {
+        "claim": "Prior overlap and invalid inverse assumption",
+        "status": "resolved within scope: CI/Constantin/Pooley originals; MSP2002 smooth prescribed R3 drift counterexample blocks automatic mean-map invertibility, not unforced periodic NS counterexample"
+      },
+      {
+        "claim": "Paid input strength",
+        "status": "resolved as bounded negative outcome: LP7-11 pays mean derivative, T and Pm classes but no G-sufficient critical rate; no theorem of impossibility for further NS structure"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "CI2006v4",
+      "title": "A stochastic Lagrangian representation of the three-dimensional incompressible Navier-Stokes equations",
+      "authors": [
+        "Peter Constantin",
+        "Gautam Iyer"
+      ],
+      "publisher": "arXiv author version",
+      "version": "math/0511067v4",
+      "date": "2006-08-31",
+      "url": "https://arxiv.org/html/math/0511067v4",
+      "native_refs": [
+        "turn6718view0",
+        "turn6734view0"
+      ],
+      "root_read": "Section 3, Section 4 proof including equation (4.5), Section 4.1 deterministic comparison; original CG derivation also independently reviewed at previous checkpoint",
+      "supports": [
+        "LP1 original same-noise output requires Leray projection",
+        "LP2 full cotangent/gauge cancellation",
+        "virtual velocity in deterministic comparison is not passive N"
+      ],
+      "limitations": "Smooth-interval representation only. Experimental HTML has displayed inconsistencies; root does not certify their presence in the underlying paper/PDF. Current formulas rederived independently."
+    },
+    {
+      "id": "Constantin2000v1",
+      "title": "An Eulerian-Lagrangian Approach to the Navier-Stokes equations",
+      "authors": [
+        "Peter Constantin"
+      ],
+      "publisher": "arXiv author version",
+      "version": "math/0005116v1",
+      "date": "2000-05-11",
+      "url": "https://arxiv.org/html/math/0005116",
+      "native_refs": [
+        "turn6734view2",
+        "turn6735view0",
+        "turn6735view1",
+        "turn6735view2",
+        "turn6741view0",
+        "turn6741view1",
+        "turn6741view2",
+        "turn6743view0",
+        "turn6743view1",
+        "turn6743view2"
+      ],
+      "root_read": "Definitions and inverse/cotangent discussion in Sections 2-6; Section 7 K-bounds, Section 8 conditional higher derivatives, Section 9 commutator smallness; Appendix A complete. Appendix B opening commutator proof visible, no full external dependency import.",
+      "supports": [
+        "LP5-7 known velocity L1 Linfinity and displacement bounds, directly rederived here",
+        "LP13 conditional virtual velocity coupling"
+      ],
+      "limitations": "Do not adopt v1 global smooth-inverse assertion. Second derivative K-bound is time-integrated L2, not pointwise H2; source Section 8 uses additional quartic-time gradient control. Current LP8-11 explicitly direct calculations rather than a new source theorem."
+    },
+    {
+      "id": "Constantin2000author",
+      "title": "An Eulerian-Lagrangian Approach to the Navier-Stokes equations",
+      "authors": [
+        "Peter Constantin"
+      ],
+      "publisher": "Author Princeton webpage",
+      "version": "author revision dated 2000-09-26; distinct from arXiv v1",
+      "date": "2000-09-26",
+      "url": "https://web.math.princeton.edu/~const/xlnsF.pdf",
+      "native_refs": [],
+      "root_read": "No direct root PDF read. A inspected physical pages 1-2, 4-12 and 15-30 of 33-page author PDF for definitions, Q/commutator, projection/gauge, K/epsilon/v bounds. Root independently checked adopted mathematics against v1, direct derivation and MSP correction.",
+      "supports": [
+        "Version comparison only; material inverse restriction corroborated by MSP original",
+        "A found correct partial_j commutator index in PDF and a separate m=1 smallness condition"
+      ],
+      "limitations": "Not root full-PDF review or journal-version identity verification. No PDF redistributed or generated. Exact m=1 constants not imported into current proof."
+    },
+    {
+      "id": "Pooley2018v3",
+      "title": "On a model for the Navier-Stokes equations using magnetization variables",
+      "authors": [
+        "Benjamin C. Pooley"
+      ],
+      "publisher": "arXiv author version",
+      "version": "1601.04968v3",
+      "date": "2018-01-09",
+      "url": "https://arxiv.org/html/1601.04968v3",
+      "doi": "10.1016/j.jde.2017.12.036",
+      "native_refs": [
+        "turn6738view0",
+        "turn6738view1",
+        "turn6744view1",
+        "turn6746view0",
+        "turn6746view1"
+      ],
+      "root_read": "Introduction; Section 2.1 Props 2-3 and proofs; Section 2.2 Props 4/Cor 5 with test-function restriction; Section 2.3 Props 6-7 and supplied proof; Section 3 equation (11), Lemma 8 and proof; Section 4 equations (22)-(24). B separately checked these interfaces and use of model estimates.",
+      "supports": [
+        "LP2 known full projection identity",
+        "LP14 modified-model maximum principle is not true NS maximum principle",
+        "Weak energy reverse statement uses divergence-free tests only; full reverse has added critical Sobolev hypotheses"
+      ],
+      "limitations": "Full Prop6 proof is omitted in paper and referred to thesis, which was not read/imported. Full global modified-model proof and its external dependencies not audited. Prop3 displayed proof uses zero initial gauge; current fixed initial F=u0 fits that scope."
+    },
+    {
+      "id": "MSP2002v2",
+      "title": "A counterexample to the smoothness of the solution to an equation arising in fluid mechanics",
+      "authors": [
+        "Stephen Montgomery-Smith",
+        "Milan Pokorny"
+      ],
+      "publisher": "arXiv author version",
+      "version": "math/0106113v2",
+      "date": "2002-01-08",
+      "url": "https://arxiv.org/html/math/0106113",
+      "native_refs": [
+        "turn6744view0",
+        "turn6745view0",
+        "turn6745view1",
+        "turn6749view0",
+        "turn6749view1"
+      ],
+      "root_read": "Sections 1-5: theorem, topology outline, local Q identity, drift construction, heat-relaxation and thin-annulus proof. Section6 visible but explicitly not adopted. A independently checked theorem and Sections2-5 proof interfaces.",
+      "supports": [
+        "Smooth prescribed divergence-free compact R3 drift can have singular mean-label Jacobian",
+        "Q smooth existence is only local; smooth drift alone does not provide global inverse"
+      ],
+      "limitations": "Literature result, not a newly constructed counterexample; can be viewed as forced NS, not unforced periodic NS. Imported standard parabolic and topology lemmas not independently reproved. No conclusion that every mean map loses invertibility."
+    }
+  ],
+  "claims": [
+    {
+      "id": "LP1-3",
+      "class": "known_structure_and_direct_derivation",
+      "evidence": [
+        "CI2006v4",
+        "Pooley2018v3",
+        "research/clay_b_clock_stochastic_screen_20260907.md"
+      ],
+      "confidence": "high; current complete nonauthor LP1-14 actual-artifact review passed",
+      "result": "Complete projection returns NS; split sources opposite signs; no new closed estimate."
+    },
+    {
+      "id": "LP4",
+      "class": "direct_derivation",
+      "evidence": [
+        "original smooth NS equation"
+      ],
+      "result": "Cutoff transport, diffusion and pressure forces retained; cutoff field not divergence free."
+    },
+    {
+      "id": "LP5-7",
+      "class": "literature_bound_rederived",
+      "evidence": [
+        "Constantin2000v1"
+      ],
+      "result": "Quotient enstrophy argument pays L1time Linfinity velocity; bounded displacement pays H1 sup and H2 time integral."
+    },
+    {
+      "id": "LP8-11",
+      "class": "direct_analytic_budget_no_novelty_claim",
+      "evidence": [
+        "bounded passive N equation",
+        "LP5-7"
+      ],
+      "result": "N gradient budget and bounded-vector GN give both gradients L4tx, T and PT L4/3tx, Pm energy class plus L4, Pc energy class only."
+    },
+    {
+      "id": "LP12",
+      "class": "direct_scaling_and_norm_scope_test",
+      "evidence": [
+        "NS parabolic scaling",
+        "explicit abstract scalar function"
+      ],
+      "result": "Force4/3 is supercritical. Norm alone lacks normalized prescribed-point smallness. Scalar example is not actual NS/T."
+    },
+    {
+      "id": "LP13",
+      "class": "conditional_identity_and_source_scope_correction",
+      "evidence": [
+        "Constantin2000v1",
+        "Constantin2000author",
+        "MSP2002v2"
+      ],
+      "result": "Virtual velocity requires mean M inverse and differs from N; do not infer inverse from smooth drift."
+    },
+    {
+      "id": "LP14",
+      "class": "known_model_distinction_and_direct_identity",
+      "evidence": [
+        "Pooley2018v3"
+      ],
+      "result": "Changing stretching creates model maximum principle; true NS has additional unpaid force."
+    },
+    {
+      "id": "route_decision",
+      "class": "bounded_research_assessment",
+      "evidence": [
+        "LP1-14",
+        "G contract",
+        "historical strategy"
+      ],
+      "result": "No G/R input reduced; stop projection-only closure. Strategy re-evaluation precedes any new candidate, not preapproval."
+    }
+  ],
+  "search_log": [
+    {
+      "actor": "root",
+      "query": "Peter Constantin Eulerian Lagrangian approach Navier Stokes equations magnetization 2001 original",
+      "stage": "bounded discovery"
+    },
+    {
+      "actor": "root",
+      "query": "Navier Stokes magnetization variables Leray projection covariance equation",
+      "stage": "bounded discovery"
+    },
+    {
+      "actor": "A",
+      "query_scope": "One bounded disconfirming follow-up for mean-label invertibility; compare author final and MSP primary counterexample",
+      "stage": "targeted contradiction resolution"
+    },
+    {
+      "actor": "root",
+      "local_search": "magnetiz|Eulerian.Lagrangian|Weber|M^TN",
+      "result_scope": "Four local paths returned; discovery only, not a repository proof audit"
+    },
+    {
+      "actor": "root",
+      "local_search": "Constantin-Fefferman / vorticity direction / geometric depletion",
+      "result_scope": "Many existing sources found; full dynamic strategy and direction-diffusion note then read to avoid selecting an old route as new"
+    }
+  ],
+  "stop_reason": "Original identities, the paid norms and the consequential inverse/model/weak-scope restrictions have primary support or explicit limits. Further broad retrieval would not change this bounded projection-screen answer. No exhaustive novelty or literature completeness claim.",
+  "local_provenance": [
+    {
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "bytes": 12014,
+      "lines": 260,
+      "sha256": "ed8d6ee53e35d5097fd96858832542925b0d8fbf3454841ad2ff047f5b7f8f46",
+      "base_bytes_identical": true,
+      "read_scope": "Root full source read; C review scope recorded separately"
+    },
+    {
+      "path": "research/clay_b_clock_stochastic_literature_ledger_20260907.json",
+      "bytes": 18502,
+      "lines": 422,
+      "sha256": "1a8909992e369e1f081628d2e66dd54282a7e75448ce5ccdea60a2215439013d",
+      "base_bytes_identical": true,
+      "read_scope": "Provenance/dedup context, not a new full literature re-audit"
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "bytes": 14379,
+      "lines": 311,
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c",
+      "base_bytes_identical": true,
+      "read_scope": "Required C1-C12 definitions/quantifiers and route gates; no external theorem reproof"
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "bytes": 6817,
+      "lines": 117,
+      "sha256": "addf4d96077852d5ac9733fd04b33488978e99cc71fd9ee5c8c188aa6f338dfd",
+      "base_bytes_identical": true,
+      "read_scope": "Root full source read; C review scope recorded separately"
+    },
+    {
+      "path": "research/clay_b_dynamic_strategy_review_20260906.md",
+      "bytes": 6324,
+      "lines": 127,
+      "sha256": "acfb4d8587a7942784df344b060a72fd20faf18ac013c3f0ed4a20f48f293255",
+      "base_bytes_identical": true,
+      "read_scope": "Root full source read; C review scope recorded separately"
+    },
+    {
+      "path": "research/vorticity_direction_diffusion_obstruction_note.md",
+      "bytes": 11036,
+      "lines": 349,
+      "sha256": "ddfe001a3d3a7ac66a74102852ae7fbdda1b16c42aaadff9a401330e83ed8961",
+      "base_bytes_identical": true,
+      "read_scope": "Root full source read; C review scope recorded separately"
+    }
+  ],
+  "review_roles": {
+    "root": "construction, critical original-source checks, synthesis, artifact author",
+    "A": "Constantin version and inverse-source investigation participant, not nonauthor reviewer",
+    "B": "Pooley source investigation and independent construction check of mean budgets, not nonauthor reviewer",
+    "C": "Sole complete nonauthor actual-artifact reviewer: independently rederived LP1-14; complete main/report/ledger read; key original-source proof interfaces checked. Six historical raw/base identities independently confirmed, with only needed historical passages read. No full six-history or external dependency re-audit."
+  },
+  "verification": {
+    "status": "complete",
+    "math": "PASS by C on main788d06c56c61a4e68d609118cb50e114f5328c0c8e6c588463cac6bfd88a51fb, reportcb0f2c12b0adba5cb2c9b833cd08782cae60629249b180672c95ec61c0f32553, ledger9ff8c9c12fd05cd485803997b572b934baa72b23bdf7590d3c48086239434f13; no blocking mathematical errors. A/B are source/construction participants.",
+    "structural": "The initial record run passed all15 non-plan checks; only the deliberately pending plan flag failed. Final deterministic rerun and artifact binding are retained in the record-QA JSON and audit. These are not PDE or visual certificates.",
+    "visual": "not performed; research Markdown/JSON only",
+    "numeric_PDE_or_finite_certificate": false
+  },
+  "nonauthor_source_scope": {
+    "CI": "Representation and required complete Section4 Ito proof, including4.5 and4.1",
+    "Constantin": "v1 inverse/virtual-velocity passages, K-bound proofs, full AppendixA and higher-derivative extra cost; no author-revision PDF read by C",
+    "Pooley": "Props2-3 proofs, Props4-7 test quantifiers and supplied proof, model11/Lemma8 proof,22-24; omitted external Prop6 proof not read",
+    "MSP": "Theorem1.1 and Sections2-5 topology/local inverse/rotating drift/heat relaxation proof interfaces; no Section6 plausibility import",
+    "history": "Needed CG/G/strategy/direction-diffusion passages only;6/6raw/base byte identities and strictJSON no duplicate keys independently verified"
+  }
+}

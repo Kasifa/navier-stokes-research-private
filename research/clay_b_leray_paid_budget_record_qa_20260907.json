@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "scope": "Structural, preservation and raw Git provenance only; not mathematical proof, numerical PDE certificate, dual implementation, novelty or visual QA.",
+  "base_commit": "8aa141cac7027101f1bfc3301d18e1011e5040bb",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "UTF8_LF_single_final_newline",
+      "passed": true
+    },
+    {
+      "name": "fourteen_unique_ordered_LP_labels",
+      "passed": true
+    },
+    {
+      "name": "fourteen_display_math_pairs",
+      "passed": true
+    },
+    {
+      "name": "plain_first_person_and_claim_boundary",
+      "passed": true
+    },
+    {
+      "name": "five_unique_versioned_sources",
+      "passed": true
+    },
+    {
+      "name": "all_research_plan_steps_complete",
+      "passed": true
+    },
+    {
+      "name": "internal_record_not_release",
+      "passed": true
+    },
+    {
+      "name": "all_23_old_review_values_preserved",
+      "passed": true
+    },
+    {
+      "name": "one_new_review_only",
+      "passed": true
+    },
+    {
+      "name": "private_paper_parsed_value_and_exact_serialization",
+      "passed": true
+    },
+    {
+      "name": "every_other_old_checkpoint_value_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_16_release_ids_and_order_preserved",
+      "passed": true
+    },
+    {
+      "name": "six_historical_raw_base_bindings",
+      "passed": true
+    },
+    {
+      "name": "user_AGENTS_unchanged",
+      "passed": true
+    },
+    {
+      "name": "existing_tracked_changes_scoped",
+      "passed": true
+    },
+    {
+      "name": "three_record_negative_controls",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_LP14_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_LP7_rejected",
+      "passed": true
+    },
+    {
+      "name": "changed_old_review_rejected",
+      "passed": true
+    }
+  ],
+  "historical_bindings": [
+    {
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_clock_stochastic_literature_ledger_20260907.json",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_dynamic_strategy_review_20260906.md",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/vorticity_direction_diffusion_obstruction_note.md",
+      "raw_and_base_identical": true,
+      "metadata_matches": true
+    }
+  ],
+  "paper_serialization": "Python json.dumps(paper, sort_keys=True); ensure_ascii=True, separators=(', ', ': '); UTF-8; no appended newline",
+  "paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "artifacts": [
+    {
+      "path": "research/clay_b_leray_paid_budget_20260907.md",
+      "bytes": 12346,
+      "lines": 304,
+      "sha256": "788d06c56c61a4e68d609118cb50e114f5328c0c8e6c588463cac6bfd88a51fb"
+    },
+    {
+      "path": "research/clay_b_leray_paid_budget_report-source_20260907.md",
+      "bytes": 2570,
+      "lines": 40,
+      "sha256": "cb0f2c12b0adba5cb2c9b833cd08782cae60629249b180672c95ec61c0f32553"
+    },
+    {
+      "path": "research/clay_b_leray_paid_budget_literature_ledger_20260907.json",
+      "bytes": 17158,
+      "lines": 351,
+      "sha256": "f8f9a8786fe2ad36fc82db96c99a78f5b556e3c75e600a2625da6eebcc658f8b"
+    },
+    {
+      "path": "research/clay_b_active_checkpoint_20260906.json",
+      "bytes": 56006,
+      "lines": 173,
+      "sha256": "012912d1be15b3a07e36801ded4276dd91001482449c8a9cc59e77ea639684ed"
+    },
+    {
+      "path": "scripts/clay_b_leray_paid_budget_record_qa.py",
+      "bytes": 6127,
+      "lines": 128,
+      "sha256": "ee0857d1b39b80748acf169cf495548ed80bd369101da7cbbaea5b620bdbf4a5"
+    }
+  ]
+}
