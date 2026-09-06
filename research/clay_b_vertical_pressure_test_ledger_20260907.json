@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "record_id": "ClayB-VerticalPressureTest-20260907",
+  "date": "2026-09-07",
+  "base_commit": "910e60d0c3e595331cdb4c2dd8e2a8d184f96b9a",
+  "is_research_release": false,
+  "review_status": "complete_scoped_nonauthor_review",
+  "interface_status": "STOP direct Y_zeta energy-test import; no shadowing proof candidate",
+  "scope": "One fixed internal product chart with explicit parent-cylinder assumptions; smooth identities before a candidate singularity, and a separate suitable-energy good-time construction. No general-data component smallness or uniform parent M generated.",
+  "claims": [
+    {
+      "id": "YT.1",
+      "kind": "exact_kinematic_identity",
+      "paid": "B=T_zeta(grad chi dot W)-chi u3; vertical endpoints retained through compact support."
+    },
+    {
+      "id": "YT.2",
+      "kind": "spatial_derivative_reduction",
+      "unpaid": "First derivatives remain in L3, not supplied by the basic L2 gradient budget."
+    },
+    {
+      "id": "YT.3",
+      "kind": "exact_commutator",
+      "paid": "[partial_t+Delta,T_zeta]F=-zeta' integral F for vertically compact F."
+    },
+    {
+      "id": "YT.4",
+      "kind": "true_NS_substitution",
+      "unpaid": "Second derivatives, original/comparison pressure and comparison flow remain in the test cost."
+    },
+    {
+      "id": "YT.5",
+      "kind": "scaling_audit",
+      "paid": "R^(1/3) and R^(-1/3) test components; normalized dual work carries R^(-1). Component delta uses the full parent cylinder. The no-endpoint source inequality is restricted to time-compact tests; otherwise include scaled YT.7 traces."
+    },
+    {
+      "id": "YT.6",
+      "kind": "full_pressure_identity",
+      "unpaid": "Recombining oscillatory, averaged, remainder and comparison pressures recovers the usual cutoff pressure work, not a new coercive term."
+    },
+    {
+      "id": "YT.7",
+      "kind": "endpoint_identity",
+      "unpaid": "Nonzero endpoint term and epsilon^(-1/3) time-cutoff cost; no free passage from compact time tests."
+    },
+    {
+      "id": "YT.8",
+      "kind": "conditional_good_time",
+      "paid": "A common fixed interior time has H1 control and O(delta^(1/3)) component L3 by joint Chebyshev selection."
+    },
+    {
+      "id": "YT.9",
+      "kind": "local_rectangular_projection",
+      "paid": "Dirichlet scalar Poisson construction has full H1 bound and a horizontal error bounded in H^-1 by component L2; no zero-normal velocity condition."
+    },
+    {
+      "id": "YT.10",
+      "kind": "conditional_local_bottom_preparation",
+      "paid": "Fixed interior cutoff gives full bottom L2 difference O(delta^(1/6)); no patch/global comparison construction."
+    },
+    {
+      "id": "YT.11",
+      "kind": "true_NS_relative_energy_identity",
+      "unpaid": "Comparison strain/residual, main pressure and full-window stability remain explicit."
+    },
+    {
+      "id": "YT.12",
+      "kind": "conditional_remainder_payment",
+      "paid": "Full-vector remainder cutoff flux is bounded using delta^(1/3) and explicitly retained V L3 size; no gradient-W L3 requirement after full recombination."
+    }
+  ],
+  "sources": [
+    {
+      "arxiv": "2606.08352",
+      "version": "v1",
+      "author": "Runlong Yu",
+      "date": "2026-06-06",
+      "url": "https://arxiv.org/html/2606.08352v1#S8.SS1",
+      "root_read_scope": "Full Section8.1 definitions and Lemmas8.1-8.2 proof; Section8.2 assumptions, preparation and Section8.3 pressure reconstruction as returned in the actual primary HTML. Earlier exact-version metadata is retained from the previous source screen.",
+      "admission": "Adopt only fixed smooth compact-test weak compatibility and the local CZ remainder estimate under full-parent M,delta. Do not import conditional Assumptions8.3/8.5 or call them proved.",
+      "all_external_dependencies_reproved": false
+    }
+  ],
+  "historical_dedup": [
+    {
+      "path": "research/clay_b_adjoint_weak_trace_20260906.md",
+      "scope": "Root and B read complete source. BS.5-7 energy self-test mismatch; BS.8-14 conditional initial flux/nonuniform-integrability. Do not transplant its atom/reversed-time assumptions to the present comparison."
+    },
+    {
+      "path": "research/clay_b_pressure_test_coupling_report_20260906.md",
+      "scope": "Root and B read complete report. Pressure must retain actual test, time weight and whole legitimate interval; finite pressure-side bounds do not alone pay pressure work."
+    },
+    {
+      "path": "research/clay_b_convex_pressure_trace_20260906.md",
+      "scope": "Root and B read complete source. Fixed regularized tests may be legitimate; removing cutoff requires uniform cost and trace control. No blanket ban on testing."
+    },
+    {
+      "path": "research/clay_b_signed_mixed_pressure_20260907.md",
+      "scope": "Root and B read complete source. Joint pressure cancellation is not individual work control; retain explicit weighted dynamic costs."
+    }
+  ],
+  "roles": {
+    "root": "Author: primary reading, complete G and four-history reads, operator/scaling/pressure and single-chart preparation derivations; record/provenance.",
+    "A": "Independent operator/scaling/endpoint/relative-energy participant. Actual initial YT.1-7 and YT.11-12 passed at766a952f...; parent-cylinder clarification passed at5d4e956e.... Not full-note reviewer.",
+    "B": "Historical-dedup and independent bottom-preparation participant; actual YT.8-12/scope review PASS at c696fce62d2b0f7964e040dd701fc4bc2af7cdbb1b7d07ee3dcd221e47780a11,257lines13670B. Not full-note reviewer.",
+    "C": "Sole full nonauthor reviewer. Initial connection/compaction failure produced no review. Retried full actual-file review PASS at96ed373d746c31cd09cadb1d2bfcb9658374fd8c2b58850929870c1da4b6ef5c,258lines13824B. Independently rederived YT.1-12; identified missing time-compact qualification in Section4, accepted its correction and inverse-byte restoration of predecessor. Source and history read scopes are recorded in the audit; no whole-history or all-external-dependency certification."
+  },
+  "local_provenance": [
+    {
+      "path": "research/clay_b_frequency_component_screen_20260907.md",
+      "bytes": 12640,
+      "lines": 204,
+      "sha256": "87dd245252935e94bacb5e1c1fcfbee7057f444687bee8fb5d334e54697bcc14"
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "bytes": 14379,
+      "lines": 311,
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c"
+    },
+    {
+      "path": "research/clay_b_adjoint_weak_trace_20260906.md",
+      "bytes": 8804,
+      "lines": 220,
+      "sha256": "1487c0fa39a1ee63fc3c421ebfd23028164b27c35a7f5225bdeebd60b0c2c449"
+    },
+    {
+      "path": "research/clay_b_pressure_test_coupling_report_20260906.md",
+      "bytes": 7414,
+      "lines": 166,
+      "sha256": "96cb69b1d3644d7955002c601bdc9499abd963c87eb26049a8c9a062cccfeb71"
+    },
+    {
+      "path": "research/clay_b_convex_pressure_trace_20260906.md",
+      "bytes": 12482,
+      "lines": 308,
+      "sha256": "5fdcfff02462775d0fd7bef22be16c75436da07a54299afc2cdbb8d36e06ffa6"
+    },
+    {
+      "path": "research/clay_b_signed_mixed_pressure_20260907.md",
+      "bytes": 12854,
+      "lines": 325,
+      "sha256": "2d793018ad1de5d9c4bdb56edda46f591dbce8df9a0ec2a3fd9dcf66942c4199"
+    }
+  ],
+  "state_guards": {
+    "preserve_all_26_existing_review_values": true,
+    "preserve_private_paper": true,
+    "preserve_16_release_identities_and_once_only_handoffs": true,
+    "user_AGENTS_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+  },
+  "outputs": {
+    "simulation": false,
+    "DGX": false,
+    "scientific_figures": [],
+    "new_reader_html": false,
+    "new_reader_pdf": false,
+    "new_source_PDF": false,
+    "publication_handoff": false,
+    "recap": false
+  },
+  "novelty": "No independent novelty or submission-value claim. Elementary preparation and exact bookkeeping do not establish first-singularity exclusion.",
+  "next_action": "Close this direct Y_zeta test and do a single strategy reappraisal using exact G and the independently verified conditional atom chain. Distinguish target, sufficient criteria, identities and unpaid dynamic inputs. Check whether a cost labeled sufficient was mistakenly treated as necessary; remove no actual requirement without proof. Propose at most one genuine new true-NS inequality with a structural distinction from stopped routes and a concrete verification gate, or retain NO-CANDIDATE. Do not continue adjacent norms, shadowing or regularization scans merely by relabeling.",
+  "review_failure_log": [
+    {
+      "stage": "initial_full_nonauthor_review",
+      "error": "remote compaction/connection failed",
+      "result": "no_review_output",
+      "resolution": "Same bounded full-review task retried. Final actual-file acceptance recorded separately; failure never counted as a review."
+    }
+  ],
+  "review_findings": [
+    {
+      "section": "4",
+      "finding": "The no-endpoint scaled Lemma8.2 inequality initially retained a chi W test that could be nonzero at time endpoints.",
+      "resolution": "Restricted the no-endpoint inequality to time-compact tests and explicitly required scaled YT.7 endpoint terms otherwise.",
+      "status": "fixed_and_accepted",
+      "accepted_sha256": "96ed373d746c31cd09cadb1d2bfcb9658374fd8c2b58850929870c1da4b6ef5c"
+    }
+  ]
+}

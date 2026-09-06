@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "scope": "Structural labels, protected state and raw Git provenance only; not mathematical proof, PDE simulation/certificate, dual implementation or novelty certification.",
+  "base_commit": "910e60d0c3e595331cdb4c2dd8e2a8d184f96b9a",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "UTF8_LF_single_final_newline",
+      "passed": true
+    },
+    {
+      "name": "twelve_ordered_YT_labels_and_paired_displays",
+      "passed": true
+    },
+    {
+      "name": "plain_style_and_scope_guards",
+      "passed": true
+    },
+    {
+      "name": "source_version_and_actual_review_status",
+      "passed": true
+    },
+    {
+      "name": "all_old_state_and_26_review_values_preserved",
+      "passed": true
+    },
+    {
+      "name": "private_paper_and_16_release_identities",
+      "passed": true
+    },
+    {
+      "name": "six_historical_raw_bindings",
+      "passed": true
+    },
+    {
+      "name": "internal_record_no_new_release_or_simulation",
+      "passed": true
+    },
+    {
+      "name": "user_AGENTS_and_existing_tracked_scope",
+      "passed": true
+    },
+    {
+      "name": "two_in_memory_record_negative_controls",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_YT10_rejected",
+      "passed": true
+    },
+    {
+      "name": "changed_private_paper_rejected",
+      "passed": true
+    }
+  ],
+  "historical_bindings": [
+    {
+      "path": "research/clay_b_frequency_component_screen_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_adjoint_weak_trace_20260906.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_pressure_test_coupling_report_20260906.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_convex_pressure_trace_20260906.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    },
+    {
+      "path": "research/clay_b_signed_mixed_pressure_20260907.md",
+      "raw_equals_base": true,
+      "metadata_matches": true
+    }
+  ],
+  "paper_serialization": "Python json.dumps(paper, sort_keys=True), default ensure_ascii=True and separators; UTF8, no appended newline",
+  "paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "artifacts": [
+    {
+      "path": "research/clay_b_vertical_pressure_test_20260907.md",
+      "bytes": 13824,
+      "lines": 258,
+      "sha256": "96ed373d746c31cd09cadb1d2bfcb9658374fd8c2b58850929870c1da4b6ef5c"
+    },
+    {
+      "path": "research/clay_b_vertical_pressure_test_ledger_20260907.json",
+      "bytes": 9390,
+      "lines": 181,
+      "sha256": "2d53e4447198597a2a48003fddbdf58ece443b31f1f3684f1ef7621f485f832a"
+    },
+    {
+      "path": "research/clay_b_active_checkpoint_20260906.json",
+      "bytes": 59544,
+      "lines": 175,
+      "sha256": "8b59eac4146c2e9274c769ef42e46c16285d957645ad4dd2ef0544ee395fc6f5"
+    },
+    {
+      "path": "scripts/clay_b_vertical_pressure_test_record_qa.py",
+      "bytes": 5741,
+      "lines": 111,
+      "sha256": "642438058bf6f6dc37971bc185c16c5147ed900c382282fc16d138058d26a151"
+    }
+  ]
+}
