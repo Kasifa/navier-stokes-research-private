@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "scope": "Finite algebra and source provenance only; the PDE inequalities and infinite limits require separate analytic review. No novelty or publication verification.",
+  "base_commit": "55bd2d28163d255e49adaae5ae89204d3375d9b6",
+  "main": {
+    "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+    "bytes": 13572,
+    "lines": 314,
+    "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15"
+  },
+  "ordered_formula_tags": 19,
+  "display_pairs": 19,
+  "exact_checks": {
+    "target_band_dyadic_disjoint": true,
+    "strict_low_low_output_gap": true,
+    "tail_dyadic_constant": true,
+    "dyadic_square_partial_sum": true,
+    "half_derivative_weight": true,
+    "time_cost_exponent": true,
+    "orthonormal_rotation": true,
+    "mode_radius_and_transverse": true,
+    "radial_output_inside_band": true,
+    "energy_ODE_exact": true,
+    "two_component_residual_factorization": true,
+    "force_nonzero_zero_global_work": true
+  },
+  "negative_controls": {
+    "wrong_heat_sign_rejected": true,
+    "wrong_R_ODE_sign_rejected": true,
+    "parabolic_clock_dissipation_not_geometrically_decreasing": true,
+    "removing_weight_breaks_energy_Cauchy_exponent": true
+  },
+  "finite_sample_inputs": {
+    "sin": "3/5",
+    "cos": "4/5",
+    "rho_squared": "9/2",
+    "N": "2",
+    "R": "3",
+    "nu": "2",
+    "theta_prime": "7"
+  },
+  "finite_sample_outputs": {
+    "lambda_value": "936/25",
+    "R_prime": "-5616/25",
+    "force": [
+      "-13239/125",
+      "17652/125"
+    ],
+    "factorized_force": [
+      "-13239/125",
+      "17652/125"
+    ],
+    "global_work": "0"
+  },
+  "dyadic_partial_sum_sample_m_range": [
+    0,
+    20
+  ],
+  "protected_historical_sources": [
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "bytes": 12364,
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r071g_report-source.md",
+      "bytes": 28584,
+      "sha256": "8a9c526e3b73d6484710ef5794d9426a92c32cb302c1a879113f0852cdfa16d1",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_concentration_path_limits_20260906.md",
+      "bytes": 14002,
+      "sha256": "18107e469330f34cf230660d7d8becb7030afca9ee38526237f5287b7c238fcf",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_global_tail_persistence_preflight_20260906.md",
+      "bytes": 10594,
+      "sha256": "a44ab23edcae5728eaeb917e26cc860370bb6d5c821a233ac97c61b30012b099",
+      "base_bytes_equal": true
+    }
+  ],
+  "source_baseline_checkpoint_sha256": "8c39f604bf560006363a40061fd37df6c97d3d7ce59eab0f07f47b677a9c6ddb",
+  "baseline_review_count": 33,
+  "baseline_scientific_identity_count": 17,
+  "baseline_private_paper": {
+    "status": "v2 owner-complete freeze received and integrity registered; not scientifically reaudited here; no public release or submission authorized",
+    "owner_source_commit": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd",
+    "full_paper_independently_reaudited_here": false,
+    "public_submission_authorized": false,
+    "separate_revision_task": "01a0747d-db37-7063-b9e0-06466ca89cbf",
+    "revision_owned_by_this_research_task": false,
+    "revision_freeze_received": true,
+    "revision_source_commit": "ee014e3d8d332282b6e708aaa73dec23ed275b69",
+    "revision_registration": "research/paper_heat_edge_v2_registration_20260906.json",
+    "revision_manifest_source_rows_integrity_checked": 63,
+    "revision_sent_to_publication": false
+  },
+  "no_standalone_QA_program": true,
+  "current_record": {
+    "checkpoint_sha256": "205efa530bc0c32cf8794a6161744080841baa2b877ccc291363bb020fdc5bf8",
+    "audit_path": "research/clay_b_frequency_cascade_budget_audit_20260907.md",
+    "audit_sha256": "007329f05787cca1911bf967c68816e96459fe5d78fa05b028b52c31a4132db9",
+    "old_review_values_preserved": 33,
+    "current_review_count": 34,
+    "scientific_identities_unchanged": 17,
+    "private_paper_unchanged": true,
+    "new_scientific_release": false,
+    "new_handoff": false,
+    "latest_scientific_release": "ClayB-FrequencyActivation-20260907",
+    "previous_manifest_and_receipt_base_bytes_unchanged": true,
+    "user_agents_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab",
+    "user_agents_not_staged": true,
+    "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566"
+  },
+  "independent_review_scope": "Full nonauthor actual-file mathematical acceptance is separately recorded in audit. B Ruby recomputed one designated rotation sample and a wrong-heat-sign control; not all12checks/4controls or PDE dual certification."
+}
