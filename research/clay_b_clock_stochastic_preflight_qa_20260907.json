@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "record_id": "ClayB-ClockStochasticScreen-20260907",
+  "classification": "Internal preflight QA, not research release or PDE certificate",
+  "base_commit": "d85b480d8cecec7a781bc3581eea3816c23d689b",
+  "arithmetic": {
+    "language": "Ruby",
+    "version": "2.6.10",
+    "type": "Rational",
+    "script": "scripts/clay_b_clock_stochastic_preflight_qa.rb",
+    "script_sha256": "aa7d661894c2087668f2882b995456ddc4e4c030c551dbdc392743617cc1d6f2",
+    "command": "ruby scripts/clay_b_clock_stochastic_preflight_qa.rb",
+    "implementation_author": "participant B",
+    "root_execution": "Exact supplied implementation materialized and rerun; output identical. This is reproducibility, not a second independent implementation.",
+    "passed": 16,
+    "named_checks": [
+      "CG5_center_(1+rho)/2",
+      "CG5_relative_2(1-rho)",
+      "CG5_no_cr_term",
+      "CG6_rho0_negative_-2nu",
+      "CG6_rho1_zero",
+      "CG6_positive_sign_negative_control_rejected",
+      "CG9_square_expansion",
+      "CG9_common_coercivity_rho_[0,1]",
+      "CG9_cross_sign_negative_control_rejected",
+      "Young_conjugacy",
+      "Young_gradient_power_2",
+      "Young_g_power_4",
+      "Young_H_power_2",
+      "Young_nu_absorbed_power_1",
+      "Young_nu_remainder_power_-3",
+      "Young_wrong_q_negative_control_rejected"
+    ],
+    "negative_controls": 3,
+    "negative_scope": "Three coefficient/exponent reversals rejected; not mutations of mathematical source documents.",
+    "stdout": "language=ruby 2.6.10; arithmetic=Rational\npassed=16\nPASS CG5_center_(1+rho)/2\nPASS CG5_relative_2(1-rho)\nPASS CG5_no_cr_term\nPASS CG6_rho0_negative_-2nu\nPASS CG6_rho1_zero\nPASS CG6_positive_sign_negative_control_rejected\nPASS CG9_square_expansion\nPASS CG9_common_coercivity_rho_[0,1]\nPASS CG9_cross_sign_negative_control_rejected\nPASS Young_conjugacy\nPASS Young_gradient_power_2\nPASS Young_g_power_4\nPASS Young_H_power_2\nPASS Young_nu_absorbed_power_1\nPASS Young_nu_remainder_power_-3\nPASS Young_wrong_q_negative_control_rejected\n"
+  },
+  "structural_capture": {
+    "status": "pass",
+    "checks": [
+      "UTF8_LF",
+      "11_unique_CG_tags",
+      "11_display_pairs",
+      "style_and_source_URLs",
+      "3_source_13_history_rows",
+      "13_raw_and_base_bytes",
+      "checkpoint_baseline_unchanged",
+      "user_AGENTS_SHA_unchanged"
+    ],
+    "files": [
+      {
+        "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+        "sha256": "ed8d6ee53e35d5097fd96858832542925b0d8fbf3454841ad2ff047f5b7f8f46",
+        "bytes": 12014,
+        "lines": 260
+      },
+      {
+        "path": "research/clay_b_clock_stochastic_report-source_20260907.md",
+        "sha256": "0bc14ab22af8030b96752a285beb68daf26bfa18caaa7ccc3d7bc5d5d177502c",
+        "bytes": 2477,
+        "lines": 44
+      },
+      {
+        "path": "research/clay_b_clock_stochastic_literature_ledger_20260907.json",
+        "sha256": "1a8909992e369e1f081628d2e66dd54282a7e75448ce5ccdea60a2215439013d",
+        "bytes": 18502,
+        "lines": 422
+      }
+    ],
+    "scope": "Structural and provenance checks only; no rendering, PDE proof or publication verification.",
+    "capture_stage": "After final mathematical/prose versions and ledger plan-state update, before active-checkpoint replacement."
+  },
+  "history_bindings": [
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c",
+      "bytes": 14379,
+      "lines": 311,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074r_arbitrary_clock_extraction_gate.md",
+      "sha256": "ac959f30b254001910e5b445264ea7c0d8714afc2f96dcf74505f5e1f794b6b7",
+      "bytes": 14978,
+      "lines": 478,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_actual_collar_signed_decomposition.md",
+      "sha256": "9ea1f193814de863fd5e62baf477635b52c391309578b3dde12ecb6c94f34c9d",
+      "bytes": 11549,
+      "lines": 396,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_boundary_mismatch_clock.md",
+      "sha256": "0bcb1e871ee00747e74b7a938dcebed9a70a1ed0a79a8dc7fc31739086cd749a",
+      "bytes": 13240,
+      "lines": 483,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_weighted_abel_no_gain.md",
+      "sha256": "cfc949386d448d69f33699c6d223865b4ad5ec92591ea1e675c0daad8f168a69",
+      "bytes": 9028,
+      "lines": 321,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_one_sided_ball_clock_no_gain.md",
+      "sha256": "178c3431f808fa0bb7c8bbf116bd2fdf8c7335eea75e93ba11f51d7eeba7f1af",
+      "bytes": 14519,
+      "lines": 539,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_cross_channel_recombination_no_gain.md",
+      "sha256": "c24d3673a5e3315777b47fa9751f8546a7df99538b6b22df7566ceb8fdce2e03",
+      "bytes": 18186,
+      "lines": 648,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_local_budget_20260905.md",
+      "sha256": "2cb5c98182d42b3b68ef6ce74087009ee41ea6c3ac492e27413bf682c77fcf03",
+      "bytes": 7842,
+      "lines": 226,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_telescope_preflight_20260905.md",
+      "sha256": "039a5825af6fc2d67c8b37d642adfc24c414553ecdf87048a5874f72dc4d4066",
+      "bytes": 2681,
+      "lines": 74,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_cross_scale_path_preflight_20260905.md",
+      "sha256": "5e0d3535286413432181ff369d5328af9d3794e921c567808bfa92f381ddeab6",
+      "bytes": 7652,
+      "lines": 226,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "sha256": "addf4d96077852d5ac9733fd04b33488978e99cc71fd9ee5c8c188aa6f338dfd",
+      "bytes": 6817,
+      "lines": 117,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_report-source_20260905.md",
+      "sha256": "4ae45cd3ddabe9f784cc4b1c8b27c1aac6a785681b8df044dfca44a5d4c68cd2",
+      "bytes": 4105,
+      "lines": 68,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_two_scale_report-source_20260905.md",
+      "sha256": "0d554d41488f4187d36d1c369c0eda172af5d71ac1a665caa7e981073a0d3f90",
+      "bytes": 4747,
+      "lines": 76,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    }
+  ],
+  "protected_baseline": {
+    "checkpoint_sha256": "7ad10b8ad560d622fcf72a95f045b2aad3aef2723839b6a2d6e56bee799c72a8",
+    "prior_review_field_count": 22,
+    "private_paper_canonical_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "user_AGENTS_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab",
+    "old_release_and_receipt_unchanged": true,
+    "post_checkpoint_validation": "Recorded separately in internal audit after replacement; not inferred from this earlier capture.",
+    "private_paper_serialization": "Python json.dumps(paper, sort_keys=True): ensure_ascii=True, separators=(', ', ': '), encoded UTF-8, no appended newline. This is not compact JSON."
+  },
+  "review_scope": "C is the sole complete nonauthor mathematical reviewer of CG1-11; A/B are participants. See separate audit. No external peer review or novelty review certification.",
+  "exclusions": [
+    "No PDE claim proved by arithmetic",
+    "No global regularity or atom exclusion",
+    "No simulation/DGX/figures",
+    "No rendered HTML/PDF or visual QA; source Markdown/JSON structural checks only",
+    "No publication action/status inspection",
+    "No new scientific release, no repeat handoff"
+  ]
+}

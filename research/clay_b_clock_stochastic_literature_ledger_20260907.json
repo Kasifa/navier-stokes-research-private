@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "record_id": "ClayB-ClockStochasticScreen-20260907",
+  "date_local": "2026-09-07",
+  "access_date_utc": "2026-09-06",
+  "classification": "internal candidate preflight and historical dedup; not a research release; NOT CLAY",
+  "owner_role": "research",
+  "base_commit": "d85b480d8cecec7a781bc3581eea3816c23d689b",
+  "canonical_internal_report": "research/clay_b_clock_stochastic_report-source_20260907.md",
+  "mathematical_record": "research/clay_b_clock_stochastic_screen_20260907.md",
+  "plan": {
+    "scope": "After authoritative local dedup of same-clock/physical-scale telescoping, inspect original stochastic Lagrangian representations and NS fluctuation-dissipation relations to identify whether a genuinely different untested same-parent dynamic input exists. No global regularity, novelty or unproved representation theorem import.",
+    "audience": "Research task, rigorous PDE planning",
+    "assumptions": "Current periodic unforced positive-viscosity smooth-parent NS and eventual G/first singularity goal. Work in this conversation; research produces sources only, publisher owns readerHTML. No newreaderPDF,simulation,DGX orpublication action.",
+    "source_classes": [
+      "Original author/arXiv research papers"
+    ],
+    "steps": [
+      {
+        "id": "discovery",
+        "status": "complete"
+      },
+      {
+        "id": "targeted_primary_followup",
+        "status": "complete"
+      },
+      {
+        "id": "synthesis_and_gap_ledger",
+        "status": "complete"
+      },
+      {
+        "id": "artifact_verification",
+        "status": "complete"
+      }
+    ],
+    "planning_tool": "update_plan unavailable in tool inventory; persistent local plan fallback",
+    "gaps": [
+      {
+        "question": "Does a primary stochastic representation itself pay a new local/terminal G estimate?",
+        "status": "bounded_negative_screen",
+        "finding": "CI retains inverse deformation; Drivas-Eyink keeps pressure impulse; new covariance preprint closes moments but has no energy-level regularity bound."
+      },
+      {
+        "question": "Does common-noise degeneracy prevent diagonal smoothing?",
+        "status": "resolved_distinction",
+        "finding": "No: only relative diffusion vanishes. Physical diagonal retains nu Delta; endpoint estimates still require strain/source/projection control."
+      },
+      {
+        "question": "Can correlated-noise auxiliary fields give a genuinely weaker critical bound?",
+        "status": "open_not_release",
+        "finding": "Closed interpolation and diagonal defect derived for smooth fixed parent. Common-coordinate energy estimate appears uniform in rho but still uses unprovided L4_time L2_space strain; no G input reduced."
+      }
+    ]
+  },
+  "queries": [
+    {
+      "stage": "bounded discovery",
+      "query": "Constantin Iyer stochastic Lagrangian representation incompressible Navier Stokes equations 2008 Weber formula",
+      "native_family": "turn6687"
+    },
+    {
+      "stage": "bounded discovery",
+      "query": "Drivas Eyink fluctuation dissipation relation Navier Stokes pressure stochastic Lagrangian viscosity",
+      "native_family": "turn6687"
+    },
+    {
+      "stage": "targeted candidate overlap",
+      "query": "\"stochastic Lagrangian\" \"correlated\" \"covariance\" Navier Stokes",
+      "native_family": "turn6702",
+      "outcome": "No relevant direct correlated-Weber interpolation primary result adopted."
+    },
+    {
+      "stage": "targeted candidate overlap",
+      "query": "\"Weber\" \"correlation\" \"Brownian\" Navier Stokes covariance",
+      "native_family": "turn6702",
+      "outcome": "Mostly unrelated discovery returns; no source used as theorem authority."
+    }
+  ],
+  "stop_reason": "Three original sources answer the bounded applicability question. The extra two exact-term queries did not establish novelty or a new prior theorem. Further broad searching is stopped; only a future precise projected-identity gap warrants a new targeted source read.",
+  "planning_tool_availability": "update_plan absent in ALL_TOOLS; persistent plan fallback used in current conversation, now materialized here. No separate cloud Deep Research job was invoked.",
+  "source_hierarchy": "Original author/arXiv HTML and official metadata. Third-party discovery of the recent preprint is not mathematical authority.",
+  "sources": [
+    {
+      "id": "CI",
+      "title": "A stochastic Lagrangian representation of the 3-dimensional incompressible Navier-Stokes equations",
+      "authors": [
+        "Peter Constantin",
+        "Gautam Iyer"
+      ],
+      "publisher": "arXiv author version; journal metadata verified on arXiv",
+      "url": "https://arxiv.org/html/math/0511067v4",
+      "metadata_url": "https://arxiv.org/abs/math/0511067v4",
+      "version": "v4",
+      "version_date": "2006-08-31",
+      "first_submitted": "2005-11-03",
+      "journal": "Communications on Pure and Applied Mathematics 61(3), 330-345 (2008)",
+      "doi": "10.1002/cpa.20192",
+      "root_actual_read": "Metadata; Theorem 2.2 and remarks; Section4 Lemma4.1, Proposition4.2, Corollary4.3 and full Itô proof of Theorem2.2; Proposition2.7 proof. Partial Section3 context only, not entire-paper re-audit.",
+      "participant_A_read": "Substantive Sections1-4, not bibliography.",
+      "native_refs": [
+        "turn6688view1",
+        "turn6688view4",
+        "turn6697view0",
+        "turn6697view2",
+        "turn6700view0",
+        "turn6700view1",
+        "turn6700view2",
+        "turn6700view3",
+        "turn6706view1"
+      ],
+      "applicability": "Fixed positive viscosity, periodic smooth-parent interval only.",
+      "not_imported": [
+        "Weak/suitable endpoint representation",
+        "Global existence beyond the smooth interval",
+        "Novelty of stochastic representation"
+      ]
+    },
+    {
+      "id": "DE",
+      "title": "A Lagrangian fluctuation-dissipation relation for scalar turbulence, I. Flows with no bounding walls",
+      "authors": [
+        "Theodore D. Drivas",
+        "Gregory L. Eyink"
+      ],
+      "publisher": "arXiv author version; journal metadata verified on arXiv",
+      "url": "https://arxiv.org/html/1606.00729v3",
+      "metadata_url": "https://arxiv.org/abs/1606.00729v3",
+      "version": "v3",
+      "version_date": "2017-07-13",
+      "first_submitted": "2016-06-02",
+      "journal": "Journal of Fluid Mechanics 829, 153-189 (2017)",
+      "doi": "10.1017/jfm.2017.567",
+      "root_actual_read": "Section2 periodic setup, formulas1-13 and19-21; Section5 formulas49-54 and following limitations; some scalar source covariance context39-48. No full appendix proof audit.",
+      "participant_B_read": "Section2 opening, full equations1-13 and19-21 local discussion; Section5 S5.p2-p4, equations49-54 and high-Re limitation. No full-paper re-audit.",
+      "native_refs": [
+        "turn6688view2",
+        "turn6688view5",
+        "turn6697view1",
+        "turn6701view2",
+        "turn6701view3",
+        "turn6704view0",
+        "turn6704view1",
+        "turn6706view2"
+      ],
+      "applicability": "Fixed positive viscosity, smooth unforced periodic interval. The displayed NS identity uses volume averaging and cumulative time integration.",
+      "not_imported": [
+        "Suitable defect identity at first singularity",
+        "Localized moving-ball budget",
+        "Scalar maximum principle for NS",
+        "Equivalence of NS anomalous dissipation and spontaneous stochasticity"
+      ],
+      "worker_local_cache": {
+        "path": "/tmp/drivas-eyink-1606.00729v3.html",
+        "sha256_reported_by_B": "c295e02eebe9e33994c05269742502d266851de466920bf28dedf9cb6ebf6477",
+        "bytes_reported_by_B": 819958,
+        "in_research_release": false,
+        "redistributed": false,
+        "root_raw_cache_hash_verified": false
+      }
+    },
+    {
+      "id": "MC",
+      "title": "Exact mean-covariance dynamics of the Weber field in the stochastic Lagrangian representation of the 3D Navier-Stokes equations",
+      "authors": [
+        "Triphop Mahithitarmmatorn"
+      ],
+      "publisher": "arXiv preprint",
+      "url": "https://arxiv.org/html/2608.16915v1",
+      "metadata_url": "https://arxiv.org/abs/2608.16915",
+      "version": "v1",
+      "version_date": null,
+      "journal_acceptance_claimed": false,
+      "date_discrepancy": {
+        "official_abs_submission_history": "2026-07-24 17:41:32 UTC",
+        "official_html_document_date": "August 24, 2026",
+        "identifier_month": "2608",
+        "resolution": "Unresolved metadata discrepancy; cite identifier/version/access date rather than silently choosing a publication date."
+      },
+      "root_actual_read": "Core Sections2-4; Theorem5.1 proof and Proposition5.2 statement/proof; Section7.1 quotient proof and Section8 open problems. Section6 and Section7.2 inspected selectively with gaps; their external dependencies were not imported or fully checked.",
+      "native_refs": [
+        "turn6688view0",
+        "turn6688view3",
+        "turn6690view0",
+        "turn6693view0",
+        "turn6696view0",
+        "turn6701view0",
+        "turn6701view1",
+        "turn6705view0",
+        "turn6705view1",
+        "turn6706view0"
+      ],
+      "applicability": "Smooth periodic fixed-parent identities. Section4 common-noise covariance is an overlap source, not a new result of this project.",
+      "not_imported": [
+        "Full Section6 or7.2 proof certification",
+        "External one-component regularity or ancient rigidity theorem",
+        "Energy-to-Hölder bound",
+        "Global regularity",
+        "Novelty or exhaustive literature absence"
+      ]
+    }
+  ],
+  "claim_to_source": [
+    {
+      "id": "L1",
+      "claim": "CI smooth-parent representation retains inverse deformation.",
+      "source": "CI",
+      "anchors": [
+        "Theorem2.2",
+        "Section4"
+      ],
+      "confidence": "primary supported",
+      "boundary": "Not an endpoint/weak solution theorem."
+    },
+    {
+      "id": "L2",
+      "claim": "The NS FDR retains the pressure impulse and yields a global volume/time averaged dissipation identity.",
+      "source": "DE",
+      "anchors": [
+        "Section5 equations53-54"
+      ],
+      "confidence": "primary supported",
+      "boundary": "No local G budget follows by dropping pressure or importing a passive scalar maximum principle."
+    },
+    {
+      "id": "L3",
+      "claim": "Common-noise covariance closure and relative diffusion degeneracy already occur in a recent preprint.",
+      "source": "MC",
+      "anchors": [
+        "Theorem3.1",
+        "Theorem4.1",
+        "Proposition4.2"
+      ],
+      "confidence": "identities checked from the displayed proof and root's direct calculation",
+      "boundary": "Closure not a priori bound; relative degeneracy not diagonal non-smoothing."
+    },
+    {
+      "id": "L4",
+      "claim": "The preprint's mean-displacement energy estimate does not supply the deformation regularity needed here.",
+      "source": "MC",
+      "anchors": [
+        "Theorem5.1",
+        "Section8"
+      ],
+      "confidence": "bounded primary applicability check",
+      "boundary": "No positive-time impossibility theorem adopted; exact shear behavior near t=0 does not decide finite positive-time blowup."
+    },
+    {
+      "id": "D1",
+      "claim": "CG1-7 correlated auxiliary closure, endpoint identity and diagonal defect.",
+      "source": "local derivation using CI inverse SPDE",
+      "anchors": [
+        "CG.1-CG.7"
+      ],
+      "confidence": "root construction plus A participation; final nonauthor review tracked separately",
+      "boundary": "No novelty claim, no uniform singular endpoint passage."
+    },
+    {
+      "id": "D2",
+      "claim": "CG8-11 energy estimate can be uniform in rho while retaining the unprovided critical L4_time L2_space strain cost.",
+      "source": "local energy, GN, Holder, Young derivation",
+      "anchors": [
+        "CG.8-CG.11"
+      ],
+      "confidence": "root derivation and A independent recomputation as participant; final nonauthor review tracked separately",
+      "boundary": "Finite-dimensional coefficient QA cannot prove the PDE bound; unprovided g4 is not paid by g2."
+    },
+    {
+      "id": "D3",
+      "claim": "The joint L2 and common-coordinate derivative norm alone do not bound a diagonal trace.",
+      "source": "local smooth bump scaling example",
+      "anchors": [
+        "Section6 after CG.11"
+      ],
+      "confidence": "explicit function-space calculation",
+      "boundary": "Not an actual-NS covariance counterexample; direct diagonal estimates are not ruled out."
+    },
+    {
+      "id": "D4",
+      "claim": "Old R/S clock and actual physical-scale telescoping routes cover the generic candidate.",
+      "source": "13 current raw historical files bound below",
+      "anchors": [
+        "main record Section2"
+      ],
+      "confidence": "root full reading, A/B dedup participants",
+      "boundary": "Historical map only; not full repository recertification, nor impossibility for genuine NS signed dynamics."
+    }
+  ],
+  "history_sources": [
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c",
+      "bytes": 14379,
+      "lines": 311,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074r_arbitrary_clock_extraction_gate.md",
+      "sha256": "ac959f30b254001910e5b445264ea7c0d8714afc2f96dcf74505f5e1f794b6b7",
+      "bytes": 14978,
+      "lines": 478,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_actual_collar_signed_decomposition.md",
+      "sha256": "9ea1f193814de863fd5e62baf477635b52c391309578b3dde12ecb6c94f34c9d",
+      "bytes": 11549,
+      "lines": 396,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_boundary_mismatch_clock.md",
+      "sha256": "0bcb1e871ee00747e74b7a938dcebed9a70a1ed0a79a8dc7fc31739086cd749a",
+      "bytes": 13240,
+      "lines": 483,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_weighted_abel_no_gain.md",
+      "sha256": "cfc949386d448d69f33699c6d223865b4ad5ec92591ea1e675c0daad8f168a69",
+      "bytes": 9028,
+      "lines": 321,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_one_sided_ball_clock_no_gain.md",
+      "sha256": "178c3431f808fa0bb7c8bbf116bd2fdf8c7335eea75e93ba11f51d7eeba7f1af",
+      "bytes": 14519,
+      "lines": 539,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r074s_cross_channel_recombination_no_gain.md",
+      "sha256": "c24d3673a5e3315777b47fa9751f8546a7df99538b6b22df7566ceb8fdce2e03",
+      "bytes": 18186,
+      "lines": 648,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_local_budget_20260905.md",
+      "sha256": "2cb5c98182d42b3b68ef6ce74087009ee41ea6c3ac492e27413bf682c77fcf03",
+      "bytes": 7842,
+      "lines": 226,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_telescope_preflight_20260905.md",
+      "sha256": "039a5825af6fc2d67c8b37d642adfc24c414553ecdf87048a5874f72dc4d4066",
+      "bytes": 2681,
+      "lines": 74,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_cross_scale_path_preflight_20260905.md",
+      "sha256": "5e0d3535286413432181ff369d5328af9d3794e921c567808bfa92f381ddeab6",
+      "bytes": 7652,
+      "lines": 226,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "sha256": "addf4d96077852d5ac9733fd04b33488978e99cc71fd9ee5c8c188aa6f338dfd",
+      "bytes": 6817,
+      "lines": 117,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_signed_scale_report-source_20260905.md",
+      "sha256": "4ae45cd3ddabe9f784cc4b1c8b27c1aac6a785681b8df044dfca44a5d4c68cd2",
+      "bytes": 4105,
+      "lines": 68,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_two_scale_report-source_20260905.md",
+      "sha256": "0d554d41488f4187d36d1c369c0eda172af5d71ac1a665caa7e981073a0d3f90",
+      "bytes": 4747,
+      "lines": 76,
+      "root_read_scope": "full_file",
+      "base_bytes_equal": true
+    }
+  ],
+  "not_full_root_reads": [
+    "research/vorticity_direction_diffusion_obstruction_note.md: only lines1-160 used for discovery, not mathematical dependency",
+    "research/clay_b_two_scale_energy_working_20260905.md: only located/count metadata, not a current full reading",
+    "research/clay_b_two_scale_paid_budget_20260905.md: only located/count metadata, not a current full reading",
+    "Earlier heat-dual and periodic dissipation-wavenumber source paths were located, not imported as newly audited proofs."
+  ],
+  "reviewer_roles": {
+    "root": "Primary-source verification, construction, synthesis and artifact owner",
+    "A": "Local dedup, CI source lane and correlated-noise mathematical participant; not sole nonauthor reviewer",
+    "B": "Local dedup and FDR source lane participant; not sole nonauthor reviewer",
+    "C": "Reserved full nonauthor review of actual new records; results recorded in separate audit, not assumed here"
+  },
+  "open_items": [
+    "Contract G and R.216-R.217 remain open.",
+    "No general singularity-to-energy-atom implication is assumed.",
+    "No current bound reduces unprovided critical strain, deformation or pressure inputs.",
+    "The future projected-identity question is a screening candidate; source reading/derivation not completed here.",
+    "No simulation, DGX, figures, new reader PDF, cumulative recap, publication action or status inspection."
+  ],
+  "record_integrity": {
+    "previous_release": "ClayB-SourceEnstrophy-20260907",
+    "previous_source_commit": "53f167438c058c77aa218216a014c3e504300300",
+    "previous_freeze_commit": "6c6186d86d22c925eb2f7e7d03ad39f291f4dfac",
+    "handoff_already_sent_once": true,
+    "resend": false,
+    "new_release": false,
+    "paper_publication_authorization_changed": false
+  }
+}
