@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-VorticityDirectionBudget-20260907",
+  "baseline_source_commit": "f5cf9196fbab0b5b6974a9c45b158f141012a8e9",
+  "status": "PASS",
+  "scope": "Read-only structure, source-byte and state-preservation checks. Not a PDE proof, numerical or dual-implementation certificate, novelty audit or publication acceptance.",
+  "main": {
+    "path": "research/clay_b_vorticity_direction_budget_20260907.md",
+    "lines": 163,
+    "bytes": 8270,
+    "sha256": "05d84b2efc720c136d10b0c34b933b984f32270137617066b54eea847c0aa647"
+  },
+  "checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "lines": 179,
+    "bytes": 64819,
+    "sha256": "26fc7a7d4c9eaffeb46e86ee6bd974d2cf57fb5371b8da59909fbd3bbb662903"
+  },
+  "ordered_tags": [
+    "VB.1",
+    "VB.2",
+    "VB.3",
+    "VB.4",
+    "VB.5",
+    "VB.6",
+    "VB.7",
+    "VB.8",
+    "VB.9",
+    "VB.10",
+    "VB.11",
+    "VB.12",
+    "VB.13"
+  ],
+  "display_pairs": 13,
+  "source_bindings": [
+    {
+      "path": "research/clay_b_geometric_sparseness_screen_20260907.md",
+      "lines": 85,
+      "bytes": 6396,
+      "sha256": "4caebe8af8683e28d59329a96c81ebe67fb8992596f6aa91743126a19cf60dc2"
+    },
+    {
+      "path": "research/vorticity_direction_diffusion_obstruction_note.md",
+      "lines": 349,
+      "bytes": 11036,
+      "sha256": "ddfe001a3d3a7ac66a74102852ae7fbdda1b16c42aaadff9a401330e83ed8961"
+    },
+    {
+      "path": "research/r071h_literature_audit.md",
+      "lines": 257,
+      "bytes": 13427,
+      "sha256": "975a42a7e67407742616a8deee537eb518aaec512f4c068cb132e241033a1684"
+    },
+    {
+      "path": "research/r071x_literature_audit.md",
+      "lines": 782,
+      "bytes": 25379,
+      "sha256": "014e7e06eaa778ec3178901956e08fc65542ed56cb0a46f855aac2cd2d7625c7"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "lines": 910,
+      "bytes": 41497,
+      "sha256": "9f90254f6dcbcce7c6066b4f90d6fae63d797502901ef35014531700f63eae58"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "lines": 93,
+      "bytes": 5236,
+      "sha256": "19c7b704e0fa94477785878aef48b67c6591ef9adcce9f66c6219c4a03e42425"
+    }
+  ],
+  "external_source_bindings": [
+    {
+      "path": "/Users/kasifa/Documents/Math/.workflow/source-cache/bfg-1704.05546v4.pdf",
+      "bytes": 1548783,
+      "sha256": "c263fc6e6dfa88663fb475ccd27b5c3365316fbaa048154f25d4f02e7ccf693c",
+      "url": "https://arxiv.org/pdf/1704.05546v4",
+      "root_visual_scope": "PDF index 3 / printed 4"
+    },
+    {
+      "path": "/Users/kasifa/Documents/Math/.workflow/source-cache/beirao-berselli-2002.pdf",
+      "bytes": 438906,
+      "sha256": "02f13f757c6eb36d8b43411e22d1e40ca4e85d2f069b3f6d522292f89c591626",
+      "url": "https://people.dm.unipi.it/beiraodaveiga/pdf/hbv-79.pdf",
+      "root_visual_scope": "PDF index 5 / printed 350, full Section 3"
+    }
+  ],
+  "state_protection": {
+    "changed_old_fields": [
+      "checkpoint_id",
+      "current_internal_work",
+      "current_question",
+      "current_working_source",
+      "current_working_sources",
+      "next_step",
+      "status"
+    ],
+    "added_fields": [
+      "vorticity_direction_budget_review"
+    ],
+    "old_reviews_preserved": 29,
+    "current_review_count": 30,
+    "scientific_release_identities_preserved": 16,
+    "private_paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "private_paper_serialization": "Python json.dumps(paper, sort_keys=True), defaults; UTF8; no appended LF",
+    "user_AGENTS": {
+      "path": "AGENTS.md",
+      "lines": 29,
+      "bytes": 4589,
+      "sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+    },
+    "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566"
+  },
+  "publication": {
+    "new_freeze": false,
+    "new_handoff": false,
+    "publication_side_inspected": false
+  },
+  "exclusions": [
+    "No new dynamic control of ordinary enstrophy production or G",
+    "No NS singularity or general regularity theorem",
+    "No refutation of the R3 BFG theorem or attribution to unread Constantin1990 fulltext",
+    "No novelty or optimal-constant claim",
+    "No simulation/DGX/scientific figures/reader outputs"
+  ]
+}
