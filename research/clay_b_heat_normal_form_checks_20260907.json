@@ -1,0 +1,214 @@
+{
+  "coefficient_sample_inputs": {
+    "A": "2",
+    "C": "5",
+    "D": "3",
+    "K": "2",
+    "Q": "7",
+    "nu": "3"
+  },
+  "coefficient_sample_is_actual_NS_Q": false,
+  "coefficient_sample_output": {
+    "2": "-9",
+    "4": "-1",
+    "5": "40/9"
+  },
+  "exact_checks": {
+    "A_exact": true,
+    "B_exact_after_nu_factor": true,
+    "C_exact": true,
+    "C_strict_positive": true,
+    "D_exact": true,
+    "L2_nonlinear_cancellation": true,
+    "N_p": true,
+    "N_q": true,
+    "N_r": true,
+    "common_heat_sum": true,
+    "completion_derivative_degrees_sample": true,
+    "completion_minimum_sample": true,
+    "odd_cubic_under_all_mode_sign_flip": true,
+    "planar_enstrophy_cancellation": true,
+    "real_conjugacy": true,
+    "zero_mean_and_divergence_free": true
+  },
+  "exact_mode_output": {
+    "(0, 2, 0)": [
+      [
+        "-4",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "(1, 0, 0)": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "(1, 2, 0)": [
+      [
+        "0",
+        "6/5"
+      ],
+      [
+        "0",
+        "-3/5"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "heat_sum_values": [
+    10
+  ],
+  "negative_controls": {
+    "heat_difference_is_not_energy_denominator": true,
+    "omit_completion_AC_loses_nonzero_degree_five": true,
+    "omit_negative_modes_fails_factor_two": true,
+    "reverse_phase_cannot_retain_positive_C": true,
+    "wrong_B_sign_fails_cubic_cancellation": true
+  },
+  "normalized_radical_outputs": {
+    "A_over_V": [
+      "3",
+      "5"
+    ],
+    "C_over_V": [
+      "14",
+      "-6"
+    ],
+    "D_over_V": [
+      "18",
+      "50"
+    ],
+    "nu_B_over_V": [
+      "7/5",
+      "-3/5"
+    ]
+  },
+  "radical_basis": [
+    "1",
+    "sqrt(5)"
+  ],
+  "scope": "Exact finite Fourier convolution and designated algebra only; analytic proof, all-amplitude dominance and PDE existence reviewed separately.",
+  "status": "PASS",
+  "base_commit": "17aa028b482a21b5191d12d8a75ed51ad93c94ad",
+  "main": {
+    "path": "research/clay_b_heat_normal_form_20260907.md",
+    "bytes": 10312,
+    "lines": 201,
+    "sha256": "bf5eb773c1003202febdc0a7a1280c6ed7925017ddd5d8a23411e837f8313e64"
+  },
+  "audit": {
+    "path": "research/clay_b_heat_normal_form_audit_20260907.md",
+    "bytes": 8449,
+    "lines": 63,
+    "sha256": "4476290ecd865471617cab31ebb58610a36a265e1caaec511cbcf8c1c586bcbf"
+  },
+  "checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "bytes": 74408,
+    "lines": 189,
+    "sha256": "9055c29978164c45b161a9b87fdcbb8bc32c7a71ce9e6e82eeb00f9404ec0077"
+  },
+  "ordered_formula_tags": 15,
+  "display_pairs": 15,
+  "EOF_incremental_inverse_recovers_accepted_main": true,
+  "source_baseline_checkpoint_sha256": "205efa530bc0c32cf8794a6161744080841baa2b877ccc291363bb020fdc5bf8",
+  "old_review_values_preserved": 34,
+  "current_review_count": 35,
+  "scientific_identity_tuples_unchanged": 17,
+  "private_paper_unchanged": true,
+  "private_paper_parsed_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "protected_historical_sources": [
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "bytes": 12364,
+      "lines": 283,
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_frequency_activation_release_20260907.json",
+      "bytes": 9949,
+      "lines": 127,
+      "sha256": "f362464072b1fcd7d8311d859aac12b4932841f40262c42343f7779ad1a64308",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_frequency_activation_dispatch_receipt_20260907.md",
+      "bytes": 4510,
+      "lines": 53,
+      "sha256": "521e83d71c92efe7e0c1cef2035759b3412ec954202b3dd773db2c70ad6fb8fc",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "bytes": 13572,
+      "lines": 314,
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_audit_20260907.md",
+      "bytes": 8709,
+      "lines": 68,
+      "sha256": "007329f05787cca1911bf967c68816e96459fe5d78fa05b028b52c31a4132db9",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_checks_20260907.json",
+      "bytes": 4705,
+      "lines": 119,
+      "sha256": "6d89a4a1203108e2e68fc83dca7f2d215f521835aecfa8d3db5e935be447de13",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r070b_report-source.md",
+      "bytes": 33260,
+      "lines": 1095,
+      "sha256": "f6c83c7b6d16033dea455583cd83a98d5f2e82333308f3a9bac3ea2693521332",
+      "base_bytes_equal": true
+    },
+    {
+      "path": "research/r073w_signed_production_heat_characteristic.md",
+      "bytes": 13044,
+      "lines": 516,
+      "sha256": "bdb1ddaa16d33871fc1356ae573861981620437a20579f992e76a5dde54c0edd",
+      "base_bytes_equal": true
+    }
+  ],
+  "user_agents_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab",
+  "user_agents_not_staged": true,
+  "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566",
+  "new_scientific_release": false,
+  "new_handoff": false,
+  "latest_scientific_release": "ClayB-FrequencyActivation-20260907",
+  "finite_check_output_identical_on_rerun": true,
+  "independent_math_review_scope": "C sole full actual-file nonauthor HN.1-15 PASS on a780917...; final one-LF deletion independently accepted at bf5eb773... . Exact scopes and primary source limitations are in audit; not external peer review or whole literature proof certification.",
+  "independent_finite_review_scope": "B Ruby2.6.10 Rational/Complex independently recomputed six-mode ordered convolution, Leray projection, C radical coefficients, common heat sum and two controls. Not all Python16checks/5controls dual certification or a PDE certificate.",
+  "record_scope_review": {
+    "reviewer": "A / r076l_proof_audit",
+    "status": "PASS",
+    "audit_sha256": "4476290ecd865471617cab31ebb58610a36a265e1caaec511cbcf8c1c586bcbf",
+    "scope": "Actual main/audit record consistency, dedup distinctions, coauthor versus sole nonauthor review, finite versus PDE and nonpublication boundaries; not another full nonauthor mathematical review."
+  },
+  "no_standalone_QA_program": true
+}
