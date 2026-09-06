@@ -1,0 +1,50 @@
+{
+  "release_id": "paper-heat-edge-v2-20260906",
+  "received_at_utc": "2026-09-06T02:46:00Z",
+  "status": "owner-complete-freeze-received-integrity-registered",
+  "owner_task_id": "01a0747d-db37-7063-b9e0-06466ca89cbf",
+  "registration_task_id": "019fb8c8-96a8-7320-bb59-3ab9e8b7e29e",
+  "worktree": "/Users/kasifa/Documents/Math/paper-edge-v2",
+  "version_root": "papers/near-edge-extrapolation-and-parabolic-shear/v2",
+  "source_commit": "ee014e3d8d332282b6e708aaa73dec23ed275b69",
+  "branch": "codex/heat-edge-paper-v2",
+  "baseline_commit": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd",
+  "manifest": "papers/near-edge-extrapolation-and-parabolic-shear/v2/source-manifest.json",
+  "manifest_sha256": "70aac251ba35b0f6633573122a102cb6fef914f40b87abaadb64e2e5c1067d72",
+  "source_archive": "papers/near-edge-extrapolation-and-parabolic-shear/v2/output/paper-heat-edge-v2-20260906-source.zip",
+  "archive_sha256": "570cacc7249be827958ba45ca8454fdff3830cdc68ef50246a29dff163110205",
+  "owner_receipt": "papers/near-edge-extrapolation-and-parabolic-shear/v2/output/release-receipt.json",
+  "entry_documents": [
+    "papers/near-edge-extrapolation-and-parabolic-shear/v2/成果说明.md",
+    "papers/near-edge-extrapolation-and-parabolic-shear/v2/RESPONSE_TO_DUE_DILIGENCE.md",
+    "papers/near-edge-extrapolation-and-parabolic-shear/v2/audits/final-audit.md"
+  ],
+  "checked_here": {
+    "commit_exists_and_is_current_worktree_HEAD": true,
+    "worktree_clean": true,
+    "manifest_matches_stated_hash_and_commit": true,
+    "manifest_source_rows_checked_against_worktree_and_commit": 63,
+    "archive_matches_stated_hash": true,
+    "owner_receipt_read": true,
+    "scientific_proofs_reaudited": false,
+    "numerical_checks_rerun": false,
+    "archive_recompiled": false,
+    "reader_layout_reaudited": false
+  },
+  "owner_reported_not_reverified_here": {
+    "new_exact_checks": 1431,
+    "historical_exact_checks": 1866,
+    "scientific_figure_rows_reproduced": 16,
+    "xdv_pages": 25,
+    "archive_recompile_xdv_aux_bbl_identical": true,
+    "reader_pdf_generated": false,
+    "human_peer_review": false,
+    "claim_boundary": "two-scale and profile supplemental proofs; no optimal error, exhaustive novelty, universal dynamic matching or general NS result"
+  },
+  "public_release_authorized": false,
+  "submission_authorized": false,
+  "sent_to_publication_task": false,
+  "publication_monitoring": false,
+  "no_paper_worktree_changes_by_registration_task": true,
+  "note": "Registration only under the single-paper exception. Not included in the separate ClayB-PlateauHistory publication handoff. Later public release requires user direction."
+}
