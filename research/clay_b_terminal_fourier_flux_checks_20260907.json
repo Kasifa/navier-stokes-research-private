@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-TerminalFourierFlux-20260907",
+  "baseline_source_commit": "7b2bf2152d8de82bba2048bbdce2ca2373f37c20",
+  "status": "PASS",
+  "scope": "Read-only structure, source-byte and protected-state comparison. Not PDE/numerical/dual-implementation, novelty or publication certification.",
+  "main": {
+    "path": "research/clay_b_terminal_fourier_flux_20260907.md",
+    "lines": 139,
+    "bytes": 7984,
+    "sha256": "1513edc738ffdf868abe5c7fe3363541f00bd67b520bfcfa5f286d6d8b716767"
+  },
+  "checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "lines": 180,
+    "bytes": 66625,
+    "sha256": "6d3c8993fa988ba403406555aa9c7db516c5b9ca9c43ff6b0acceaaf38e0c508"
+  },
+  "ordered_tags": [
+    "TF.1",
+    "TF.2",
+    "TF.3",
+    "TF.4",
+    "TF.5",
+    "TF.6",
+    "TF.7",
+    "TF.8",
+    "TF.9",
+    "TF.10"
+  ],
+  "display_pairs": 10,
+  "clarification_inverse": {
+    "bytes": 7974,
+    "sha256": "b28f880f0b6d88c90fa2f00210e6c2a9ebc3c30aa06e9373ac0c532f7439fdde",
+    "scope": "Only clarify the left limit at T; no mathematical change."
+  },
+  "source_bindings": [
+    {
+      "path": "research/clay_b_vorticity_direction_budget_20260907.md",
+      "lines": 163,
+      "bytes": 8270,
+      "sha256": "05d84b2efc720c136d10b0c34b933b984f32270137617066b54eea847c0aa647"
+    },
+    {
+      "path": "research/clay_b_adjoint_weak_trace_20260906.md",
+      "lines": 220,
+      "bytes": 8804,
+      "sha256": "1487c0fa39a1ee63fc3c421ebfd23028164b27c35a7f5225bdeebd60b0c2c449"
+    },
+    {
+      "path": "research/r070i_literature_audit.md",
+      "lines": 476,
+      "bytes": 18023,
+      "sha256": "61819d91c6ef642e8f5bc0b08d6ccd123dd12fc640118653192a93301af5e91a"
+    },
+    {
+      "path": "research/r071m_report-source.md",
+      "lines": 991,
+      "bytes": 26245,
+      "sha256": "5f898e118560666d9efa6ff770e42794b4eecd0d3fdacd3b810186bb80f2b52f"
+    },
+    {
+      "path": "research/r071j_literature_audit.md",
+      "lines": 67,
+      "bytes": 7850,
+      "sha256": "b9c3b6d91276eebfd35426f8a7a105477ca3485387f2bee6550c078bdca8dcb9"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "lines": 910,
+      "bytes": 41497,
+      "sha256": "9f90254f6dcbcce7c6066b4f90d6fae63d797502901ef35014531700f63eae58"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "lines": 93,
+      "bytes": 5236,
+      "sha256": "19c7b704e0fa94477785878aef48b67c6591ef9adcce9f66c6219c4a03e42425"
+    }
+  ],
+  "external_source_reference": {
+    "arxiv": "1802.05785v2",
+    "version_date": "2018-03-20",
+    "url": "https://arxiv.org/html/1802.05785v2",
+    "scope": "Root HTML Sections1-4; B/C scoped Theorem1.1 and relevant Sections3-4.1. No PDF visual check, no local third-party byte binding, no full external-dependency certification."
+  },
+  "state_protection": {
+    "changed_old_fields": [
+      "checkpoint_id",
+      "current_internal_work",
+      "current_question",
+      "current_working_source",
+      "current_working_sources",
+      "next_step",
+      "status"
+    ],
+    "added_fields": [
+      "terminal_fourier_flux_review"
+    ],
+    "old_reviews_preserved": 30,
+    "current_review_count": 31,
+    "scientific_release_identities_preserved": 16,
+    "private_paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "private_paper_serialization": "Python json.dumps(paper, sort_keys=True), defaults; UTF8; no appended LF",
+    "user_AGENTS": {
+      "path": "AGENTS.md",
+      "lines": 29,
+      "bytes": 4589,
+      "sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+    },
+    "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566"
+  },
+  "publication": {
+    "new_freeze": false,
+    "new_handoff": false,
+    "publication_side_inspected": false
+  },
+  "exclusions": [
+    "No unconditional zero terminal gap or smooth continuation",
+    "No uniform total variation or measure weak-star compactness for Fourier flux",
+    "No identification with a suitable local energy defect measure",
+    "No actual-NS impossibility counterexample or novelty claim",
+    "No simulation/DGX/figures/reader artifacts/DeepResearch"
+  ]
+}
