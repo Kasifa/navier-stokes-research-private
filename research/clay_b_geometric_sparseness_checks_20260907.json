@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-GeometricSparsenessScreen-20260907",
+  "baseline_source_commit": "1fd4f6b37a115e5e03c922686fcddafd6c0812bd",
+  "status": "PASS",
+  "scope": "Read-only structural and record comparisons. Not a PDE proof, numerical certificate, dual implementation or publication acceptance.",
+  "main": {
+    "path": "research/clay_b_geometric_sparseness_screen_20260907.md",
+    "lines": 85,
+    "bytes": 6396,
+    "sha256": "4caebe8af8683e28d59329a96c81ebe67fb8992596f6aa91743126a19cf60dc2"
+  },
+  "checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "lines": 177,
+    "bytes": 62885,
+    "sha256": "ab31fe4fe895973ec5e41dcb2e9bcefb15df966b915b7bd220dc7dad8f4479ca"
+  },
+  "ordered_tags": [
+    "GS.1",
+    "GS.2",
+    "GS.3",
+    "GS.4",
+    "GS.5",
+    "GS.6",
+    "GS.7"
+  ],
+  "display_pairs": 7,
+  "source_bindings": [
+    {
+      "path": "research/clay_b_strategy_logic_20260907.md",
+      "lines": 152,
+      "bytes": 10242,
+      "sha256": "6cbebb0d6c9c53a37c68afff02c8f5ebab241413120c3ac9455beeac72625e2e"
+    },
+    {
+      "path": "research/clay_b_strategy_logic_audit_20260907.md",
+      "lines": 83,
+      "bytes": 9538,
+      "sha256": "eff969cde0d44ab93c8b679862defa4636af223a3b363455810e49ff65af094f"
+    },
+    {
+      "path": "research/clay_b_strategy_logic_checks_20260907.json",
+      "lines": 139,
+      "bytes": 5237,
+      "sha256": "1a14b2d38d44dcd213dff9c6c8d79c6e528cb30e62d98aebcdcdaea265515d61"
+    },
+    {
+      "path": "research/clay_b_mature_frequency_literature_bridge_20260906.md",
+      "lines": 49,
+      "bytes": 2934,
+      "sha256": "ac52fde83f1a441c4933c0c9322e5e937fb4b5073f762eab2c09306b39c337e1"
+    },
+    {
+      "path": "research/r074q_problem_freeze.md",
+      "lines": 518,
+      "bytes": 17181,
+      "sha256": "42efa94f5310d8f7ce3cea1896ee1e0a8ddd9bddf5d588f9bb853c8696a1a962"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "lines": 910,
+      "bytes": 41497,
+      "sha256": "9f90254f6dcbcce7c6066b4f90d6fae63d797502901ef35014531700f63eae58"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "lines": 93,
+      "bytes": 5236,
+      "sha256": "19c7b704e0fa94477785878aef48b67c6591ef9adcce9f66c6219c4a03e42425"
+    }
+  ],
+  "state_protection": {
+    "changed_old_fields": [
+      "checkpoint_id",
+      "current_internal_work",
+      "current_question",
+      "current_working_source",
+      "current_working_sources",
+      "next_step",
+      "status"
+    ],
+    "added_fields": [
+      "geometric_sparseness_screen_review"
+    ],
+    "old_reviews_preserved": 28,
+    "current_review_count": 29,
+    "scientific_release_identities_preserved": 16,
+    "private_paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "private_paper_serialization": "Python json.dumps(paper, sort_keys=True), defaults; UTF8; no appended LF",
+    "user_AGENTS": {
+      "path": "AGENTS.md",
+      "lines": 29,
+      "bytes": 4589,
+      "sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+    },
+    "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566"
+  },
+  "publication": {
+    "new_freeze": false,
+    "new_handoff": false,
+    "publication_side_inspected": false
+  },
+  "exclusions": [
+    "No actual NS dynamic estimate",
+    "No NS singularity or general regularity theorem",
+    "No actual smallest sparseness-radius lower bound",
+    "No proof that geometry methods cannot work",
+    "No periodic/localized transfer",
+    "No simulation/DGX/figures/reader outputs"
+  ]
+}
