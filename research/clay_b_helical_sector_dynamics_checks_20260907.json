@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-HelicalSectorDynamics-20260907",
+  "baseline_source_commit": "5ec60e76763f5d1caabba8702f957de55e12b4e2",
+  "status": "PASS",
+  "scope": "Read-only UTF8/LF, formula structure, baseline source-byte and protected-state checks; not PDE/numerical/dual-implementation, novelty or publication certification.",
+  "main": {
+    "path": "research/clay_b_helical_sector_dynamics_20260907.md",
+    "lines": 126,
+    "bytes": 7277,
+    "sha256": "558b249728879db0c52f402db8769666e0a0ab3a6b5da992e7b889a33e6d0318"
+  },
+  "checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "lines": 180,
+    "bytes": 67972,
+    "sha256": "a85002100ef33ad744a58624ab49b193a36bb8a06e213b55774283d03293f10e"
+  },
+  "ordered_tags": [
+    "HS.1",
+    "HS.2",
+    "HS.3",
+    "HS.4",
+    "HS.5",
+    "HS.6",
+    "HS.7",
+    "HS.8"
+  ],
+  "display_pairs": 8,
+  "source_bindings": [
+    {
+      "path": "research/clay_b_terminal_fourier_flux_20260907.md",
+      "lines": 139,
+      "bytes": 7984,
+      "sha256": "1513edc738ffdf868abe5c7fe3363541f00bd67b520bfcfa5f286d6d8b716767"
+    },
+    {
+      "path": "research/r072i_literature_audit.md",
+      "lines": 152,
+      "bytes": 14318,
+      "sha256": "b43145aba7ed07e3d900f2a18b5055d86300bb5b683028d2a01ca3628c14b82c"
+    },
+    {
+      "path": "research/r071x_literature_audit.md",
+      "lines": 782,
+      "bytes": 25379,
+      "sha256": "014e7e06eaa778ec3178901956e08fc65542ed56cb0a46f855aac2cd2d7625c7"
+    },
+    {
+      "path": "research/r070j_report-source.md",
+      "lines": 1102,
+      "bytes": 30543,
+      "sha256": "fe821ad2d049891831543223c9b7dbcb9fe4a6830fcd8bb0bab5ddb5ab334d35"
+    },
+    {
+      "path": "research/r070x_report-source.md",
+      "lines": 1002,
+      "bytes": 22757,
+      "sha256": "86a34601de5a7095ce7ec1bd24eb7ef9c64491068770168d7dc00bf6e8fadcd3"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_release_20260907.json",
+      "lines": 910,
+      "bytes": 41497,
+      "sha256": "9f90254f6dcbcce7c6066b4f90d6fae63d797502901ef35014531700f63eae58"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_dispatch_receipt_20260907.md",
+      "lines": 93,
+      "bytes": 5236,
+      "sha256": "19c7b704e0fa94477785878aef48b67c6591ef9adcce9f66c6219c4a03e42425"
+    }
+  ],
+  "external_sources": [
+    {
+      "arxiv": "1505.00142v1",
+      "version_date": "2015-05-01",
+      "url": "https://arxiv.org/html/1505.00142v1"
+    },
+    {
+      "arxiv": "1303.1215v1",
+      "version_date": "2013-03-05",
+      "url": "https://arxiv.org/html/1303.1215v1"
+    }
+  ],
+  "external_source_scope": "HTML URL/version and actual reading scope recorded in audit. No local third-party byte binding or PDF check; not full external-dependency certification.",
+  "state_protection": {
+    "changed_old_fields": [
+      "checkpoint_id",
+      "current_internal_work",
+      "current_question",
+      "current_working_source",
+      "current_working_sources",
+      "next_step",
+      "status"
+    ],
+    "added_fields": [
+      "helical_sector_dynamics_review"
+    ],
+    "old_reviews_preserved": 31,
+    "current_review_count": 32,
+    "scientific_release_identities_preserved": 16,
+    "private_paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "private_paper_serialization": "Python json.dumps(paper,sort_keys=True), defaults; UTF8; no appended LF",
+    "user_AGENTS": {
+      "path": "AGENTS.md",
+      "lines": 29,
+      "bytes": 4589,
+      "sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+    },
+    "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566"
+  },
+  "publication": {
+    "new_freeze": false,
+    "new_handoff": false,
+    "publication_side_inspected": false
+  },
+  "exclusions": [
+    "No novelty or unconditional regularity gain",
+    "No counterexample to weaker sector dominance, single-sector data global regularity or general regularity",
+    "No claim that every homochiral datum leaks; Beltrami exception retained",
+    "No finite-Fourier-support persistence or general 3D-dependent cascade bound",
+    "No simulation/DGX/figures/reader artifacts/DeepResearch"
+  ]
+}
