@@ -1,0 +1,1 @@
+{"checked": ["data.csv", "figure.svg"], "maximumCoarseFineDelta": 1.881494959832e-12, "maximumPhaseDropDelta": 1.165734175856e-15, "maximumSaddleResidual": 2.84217094304e-14, "numpy": "2.3.5", "python": "3.12.14", "rows": 16, "verdict": "PASS"}

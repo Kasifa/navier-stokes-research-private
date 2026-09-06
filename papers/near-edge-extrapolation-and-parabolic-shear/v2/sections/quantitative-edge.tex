@@ -1,0 +1,314 @@
+\section{Quantitative Gaussian edge estimates}\label{sec:quantitative-edge}
+
+The following estimates quantify the two scales without a relation between
+their two small errors.  The proof uses the mean under each displaced
+Gaussian measure.  In particular, it does not divide two estimates whose
+errors are only small on the common-amplitude scale.
+
+\begin{theorem}[Uniform errors for two Chebyshev families]
+\label{thm:quantitative-edge}
+Fix $0<s_0\le s_1<\infty$ and $0\le C_0<\infty$.  Consider either
+\[
+ p_n=T_n\quad(n\ge1),\qquad\text{or}\qquad
+ p_n=U_{n-1}/n\quad(n\ge1),
+\]
+where $U_{n-1}(\cos\theta)=\sin(n\theta)/\sin\theta$.
+Put
+\[
+ Q^p_{n,A}(s,c)=(e^{sA^{-2}D^2}p_n)(1+c/A),\quad
+ \mu=(n^2/A)^{1/3},\quad \epsilon=\mu/A,
+\]
+and set $F_s=3\,2^{-4/3}s^{1/3}$ and
+$G_s=2^{-2/3}s^{-1/3}$.
+There are constants $C,\mu_*>0$ and $\epsilon_*>0$, computable from
+$s_0,s_1,C_0$ alone, such that if $\mu\ge\mu_*$ and
+$0<\epsilon\le\epsilon_*$, then $Q^p_{n,A}(s,c)>0$ and
+\begin{align}
+ \left|\mu^{-2}\log Q^p_{n,A}(s,0)-F_s\right|
+ &\le C\left(\epsilon+
+             \frac{\log(2+\mu)}{\mu^2}\right),
+ \label{eq:quantitative-amplitude}\\
+ \left|\mu^{-1}\log\frac{Q^p_{n,A}(s,c_2)}{Q^p_{n,A}(s,c_1)}
+                -G_s(c_2-c_1)\right|
+ &\le C|c_2-c_1|\left(\sqrt\epsilon+
+             \frac{\sqrt{\log(2+\mu)}}\mu\right).
+ \label{eq:quantitative-tilt}
+\end{align}
+These estimates hold uniformly for $s\in[s_0,s_1]$ and
+$|c_1|,|c_2|\le C_0$.  No optimality of these error orders is asserted.
+In particular, they apply throughout $A\to\infty$, $\mu\to\infty$,
+$\mu/A\to0$.
+\end{theorem}
+
+For auditability, a profile proposition gives explicit constants before
+they are absorbed into $C$.
+
+\begin{proposition}[A square-root edge profile criterion]
+\label{prop:edge-profile}
+Write $\psi(z)=\sqrt{2z}$, $z_-=2^{1/3}s_0^{2/3}$,
+$z_+=2^{1/3}s_1^{2/3}$, $Z=z_++1$, and $J=[z_-,Z]$.
+Suppose a real measurable profile $p=p_{\mu,A}$, with $A=\mu/\epsilon$,
+satisfies the following inequalities for some fixed $k>0$, $b,d\ge0$:
+\begin{align}
+ |p(x)|&\le1 &&(|x|\le1),\label{eq:profile-interior}\\
+ 0<p(1+\mu z/A)&\le e^{\mu^2\psi(z)},\quad
+ |p(-1-\mu z/A)|\le e^{\mu^2\psi(z)}
+ &&(z\ge0),\label{eq:profile-envelope}\\
+ p(1+\mu z/A)&\ge k\mu^{-b}
+       e^{\mu^2(\psi(z)-d\epsilon)} &&(z\in J).
+ \label{eq:profile-local-lower}
+\end{align}
+Assume these hold for $\mu\ge\mu_0\ge1$ and
+$0<\epsilon\le\epsilon_0\le1$.  Define $Q^p$ by its Gaussian
+convolution, which agrees with the finite heat expansion for a polynomial:
+\[
+ Q^p(s,c)=\frac1{\sqrt{4\pi s}}\int_{\mathbb R}
+       p(1+y/A)e^{-(y-c)^2/(4s)}\,dy.
+\]
+The conclusions of Theorem~\ref{thm:quantitative-edge} hold.
+Constants may also depend on $k,b,d,\mu_0,\epsilon_0$.
+The formulas below specify the constants and a noncircular threshold.
+\end{proposition}
+
+\paragraph{Constants for the profile criterion.}
+In the following formulas, $\log_+x=\max\{0,\log x\}$.  All constants
+are fixed before $\mu,A$ are chosen.  Set
+\begin{align*}
+ F_*&=3\,2^{-4/3}s_0^{1/3},&
+ D_*&=(2z_-)^{-3/2}+(2s_0)^{-1},& a_*&=(8s_1)^{-1},\\
+ H_*&=C_0^2s_1/(2s_0^2),&
+ L_*&=\frac{k}{\sqrt{4\pi s_1}}
+              e^{-D_*/2-C_0/(2s_0)},&
+ V_*&=\sqrt{2s_1/s_0}\,e^{H_*},\\
+ K_*&=\frac{e^{H_*}}{\sqrt{4\pi s_0}L_*},&
+ H_{\rm tail}&=3\,2^{-4/3}(2s_1)^{1/3},&
+ E_0&=1+\sqrt{s_1/(2s_0)},\\
+ E_1&=\frac1{\sqrt{\pi s_0}}+
+ \frac{6\sqrt{s_1/e}\sqrt{2\pi s_1}+4s_1}
+      {2s_0\sqrt{4\pi s_0}},&
+ \kappa&=F_*/4.&&
+\end{align*}
+For $\mu\ge1$ put
+\begin{align*}
+ r(\mu,\epsilon)^2
+  &=\frac{d\epsilon}{a_*}
+    +\frac{(b+1)\log\mu+\log_+(K_*/a_*)}{a_*\mu^2},\\
+ \rho(\mu,\epsilon)&=r(\mu,\epsilon)+\mu^{-2},\\
+ \rho_*&=\sqrt{\frac{d+b+1+\log_+(K_*/a_*)}{a_*}}+1,\\
+ M_*&=(z_++\rho_*+C_0)/(2s_0),\qquad
+ E_2=2(E_1+E_0M_*).
+\end{align*}
+One admissible threshold is
+\begin{align}
+ \epsilon_*&=\min\left\{\epsilon_0,\,
+             \frac1{\sqrt{8s_1H_{\rm tail}}},\,
+             \frac{F_*}{4d}\right\},\label{eq:profile-epsilon-threshold}\\
+ \mu_*&=\max\left\{2,C_0,\mu_0,
+       \frac{2C_0z_+}{s_0F_*},\frac{8b}{F_*},
+       \sqrt{\frac{8\{\log_+(1/L_*)+C_0^2/(4s_0)\}}{F_*}},
+       \sqrt{\frac{\log(2E_0)}\kappa}\right\}.
+       \label{eq:profile-mu-threshold}
+\end{align}
+The entry $F_*/(4d)$ is omitted when $d=0$.
+At this threshold, more explicit versions of the two errors are
+\begin{align}
+ \left|\mu^{-2}\log Q^p(s,0)-F_s\right|
+ &\le d\epsilon+
+ \frac{b\log\mu+\max\{\log_+(1/L_*),\log_+V_*\}
+              +2E_0e^{-\kappa\mu^2}}{\mu^2},
+ \label{eq:profile-amplitude-explicit}\\
+ \left|\mu^{-1}\log\frac{Q^p(s,c_2)}{Q^p(s,c_1)}
+                 -G_s(c_2-c_1)\right|
+ &\le |c_2-c_1|\left\{
+       \frac{\rho(\mu,\epsilon)+C_0/\mu}{2s_0}
+                     +E_2e^{-\kappa\mu^2}\right\}.
+ \label{eq:profile-tilt-explicit}
+\end{align}
+
+\begin{proof}[Proof of Proposition~\ref{prop:edge-profile}]
+Retain the positive exterior and write
+\[
+ I(s,c)=\frac1{\sqrt{4\pi s}}\int_0^\infty
+       p(1+y/A)e^{-(y-c)^2/(4s)}\,dy.
+\]
+Let $z_s=2^{1/3}s^{2/3}$ and
+$\Phi_s(z)=\psi(z)-z^2/(4s)$.  Its derivative vanishes at $z_s$,
+$\Phi_s(z_s)=F_s$, and
+\[
+ \Phi_s''(z)=-(2z)^{-3/2}-(2s)^{-1}\le-(2s_1)^{-1}
+ \quad(z>0).
+\]
+Consequently, including $z=0$ by continuity,
+\begin{equation}\label{eq:profile-strong-concavity}
+ \Phi_s(z)\le F_s-\frac{(z-z_s)^2}{4s_1}\quad(z\ge0).
+\end{equation}
+Put $\mathcal B=\mu^2F_s+c\mu z_s/(2s)-c^2/(4s)$.
+On $z_s\le z\le z_s+1/\mu$, the interval lies in $J$,
+$|\Phi_s''(z)|\le D_*$, and the linear tilt changes by at most
+$C_0/(2s_0)$.  Integrating the local lower bound over this interval
+therefore gives
+\begin{equation}\label{eq:profile-I-lower}
+ I(s,c)\ge L_*\mu^{-b}e^{\mathcal B-d\mu^2\epsilon}.
+\end{equation}
+For the upper bound, Young's inequality in the precise form
+\[
+ \frac{c\mu(z-z_s)}{2s}
+ \le\frac{\mu^2(z-z_s)^2}{8s_1}+H_*
+\]
+and \eqref{eq:profile-strong-concavity} show that
+\begin{equation}\label{eq:profile-I-upper}
+ I(s,c)\le V_*e^{\mathcal B}.
+\end{equation}
+Indeed the changed measure is $\mu\,dz/\sqrt{4\pi s}$ and its Gaussian
+upper bound can be integrated over the whole real line.
+
+Normalize the positive integrand for each $c$ to a probability measure
+for $Z=y/\mu$.  Equations~\eqref{eq:profile-I-lower} and
+\eqref{eq:profile-strong-concavity} give its density bound
+\[
+ f_{s,c}(z)\le K_*\mu^{b+1}e^{d\mu^2\epsilon}
+                  e^{-a_*\mu^2(z-z_s)^2}\quad(z\ge0).
+\]
+For any $r\ge0$, extending both tails to the whole line gives
+\[
+ \mathbb E_{s,c}|Z-z_s|
+ \le r+\frac{K_*}{a_*}\mu^{b-1}
+          e^{d\mu^2\epsilon-a_*\mu^2r^2}.
+\]
+The displayed choice of $r(\mu,\epsilon)$ makes the second term at
+most $\mu^{-2}$.  Differentiating the Gaussian, justified by the
+global envelope, now yields the exact identity
+\[
+ \partial_c\log I(s,c)=\frac{\mu\mathbb E_{s,c}Z-c}{2s}.
+\]
+It follows that
+\begin{equation}\label{eq:profile-positive-derivative}
+ \left|\mu^{-1}\partial_c\log I(s,c)-G_s\right|
+       \le\frac{\rho(\mu,\epsilon)+C_0/\mu}{2s_0}.
+\end{equation}
+This estimate treats the unbounded Gaussian tilt directly and uniformly
+for positive and negative $c$.
+
+It remains to restore the signed remainder $\mathcal R=Q^p-I$.
+Its interior contribution from $-2A\le y\le0$ has absolute value at
+most one and $c$-derivative at most $(\pi s_0)^{-1/2}$.  In the
+negative exterior put $y=-2A-u$, $u\ge0$.  Since $A\ge C_0$,
+\[
+ 2A+u+c\ge A+u,\qquad
+ \mu^2\psi(u/\mu)-\frac{(2A+u+c)^2}{4s}
+ \le-\frac{A^2}{4s_1}+H_{\rm tail}\mu^2
+                            -\frac{u^2}{8s_1}.
+\]
+The value of $H_{\rm tail}$ follows by maximizing
+$\sqrt{2z}-z^2/(8s_1)$ on $z\ge0$; its maximizer is
+$2^{1/3}(2s_1)^{2/3}$.  The threshold for $\epsilon$ makes the
+right side at most $-A^2/(8s_1)-u^2/(8s_1)$.
+Gaussian integration proves $|\mathcal R|\le E_0$.
+For its derivative use
+$|2A+u+c|/(2s)\le(3A+u)/(2s_0)$, together with
+\[
+ \int_0^\infty e^{-u^2/(8s_1)}du=\sqrt{2\pi s_1},\quad
+ \int_0^\infty u e^{-u^2/(8s_1)}du=4s_1,\quad
+ \sup_{A\ge0}Ae^{-A^2/(8s_1)}=2\sqrt{s_1/e}.
+\]
+This proves $|\partial_c\mathcal R|\le E_1$ with the stated constant.
+No assumption on the sign of either omitted portion is used.
+
+The first threshold gives $d\epsilon\le F_*/4$.  The linear term
+in $\mathcal B$ costs at most $F_*\mu^2/4$ by the fourth entry of
+\eqref{eq:profile-mu-threshold}.  Finally $\log\mu\le\mu$,
+the fifth and sixth entries, and \eqref{eq:profile-I-lower} give
+\[
+ I(s,c)\ge e^{\kappa\mu^2},\qquad
+ |\mathcal R/I|\le E_0e^{-\kappa\mu^2}\le\tfrac12.
+\]
+Thus $Q^p>0$ and
+$|\log Q^p-\log I|\le2E_0e^{-\kappa\mu^2}$.
+Since $\epsilon\le1$ and $\log\mu\le\mu^2$, we have
+$\rho\le\rho_*$ and $|\partial_c\log I|\le\mu M_*$.  Hence
+\[
+ \mu^{-1}|\partial_c\log Q^p-\partial_c\log I|
+ =\mu^{-1}\left|
+   \frac{\partial_c\mathcal R-\mathcal R\partial_c\log I}
+        {I+\mathcal R}\right|
+ \le E_2e^{-\kappa\mu^2}.
+\]
+Integrating this estimate and
+\eqref{eq:profile-positive-derivative} between $c_1$ and $c_2$
+proves \eqref{eq:profile-tilt-explicit}, including exact vanishing when
+$c_1=c_2$.  At $c=0$, use \eqref{eq:profile-I-lower} and
+\eqref{eq:profile-I-upper} to obtain
+\eqref{eq:profile-amplitude-explicit}.  These explicit estimates imply
+the simpler displayed orders in the theorem.  For example,
+$e^{-\kappa\mu^2}\le(2e\kappa)^{-1/2}/\mu$ for $\mu>0$,
+and each remaining constant term is absorbed using
+$\log(2+\mu)\ge1$ for $\mu\ge2$.
+\end{proof}
+
+\begin{proof}[Verification of Theorem~\ref{thm:quantitative-edge}]
+Write $\theta=\operatorname{arcosh}(1+\epsilon z)$.  For $u\ge0$,
+integrating $(2t)^{-1/2}(1+t/2)^{-1/2}$ from zero to $u$ gives
+\begin{equation}\label{eq:arcosh-quantitative-bounds}
+ \sqrt{2u}(1-u/12)\le\operatorname{arcosh}(1+u)
+ \le\sqrt{2u},\qquad
+ \operatorname{arcosh}(1+u)\ge
+                \frac{\sqrt{2u}}{\sqrt{1+u/2}}.
+\end{equation}
+The first lower bound uses $(1+v)^{-1/2}\ge1-v/2$; the other uses
+the minimum of the decreasing factor in the same integral.
+As $n\sqrt\epsilon=\mu^2$, it follows on $J$ that
+\[
+ \mu^2\{\psi(z)-d\epsilon\}\le n\theta
+       \le\mu^2\psi(z),\qquad d=\sqrt2 Z^{3/2}/12.
+\]
+For $T_n$, the identity $T_n(\cosh\theta)=\cosh(n\theta)$ gives
+the exterior envelope and local lower bound with
+$k=1/2$, $b=0$, $\mu_0=1$, $\epsilon_0=1$.
+Its interior bound and parity give the other two hypotheses.
+
+For the second family, the finite sum
+\[
+ \frac{U_{n-1}(\cosh\theta)}n
+  =\frac1n\sum_{j=0}^{n-1}e^{(n-1-2j)\theta}
+  =\frac{\sinh(n\theta)}{n\sinh\theta}
+\]
+is positive and at most $e^{n\theta}$.  The corresponding trigonometric
+sum has modulus at most one, proving the interior bound, including the
+endpoints by continuity.  Parity gives the negative exterior envelope.
+On $J$ one has the exact denominator identity
+\[
+ n\sinh\theta=\mu^2\sqrt{z(2+\epsilon z)}
+       \le\mu^2\sqrt{Z(2+Z)}.
+\]
+Put $h_*=\sqrt{2z_-}/\sqrt{1+Z/2}$ and
+$\mu_0=\max\{1,h_*^{-1/2}\}$.  Then
+$n\theta\ge\mu^2h_*\ge1$ on $J$ by
+\eqref{eq:arcosh-quantitative-bounds}.  Therefore
+\[
+ \frac{U_{n-1}(1+\epsilon z)}n
+ \ge\frac{1-e^{-2}}{2\sqrt{Z(2+Z)}}\mu^{-2}
+                    e^{\mu^2\{\psi(z)-d\epsilon\}}.
+\]
+This verifies the criterion with $b=2$,
+$k=(1-e^{-2})/(2\sqrt{Z(2+Z)})$, and $\epsilon_0=1$.
+All constants and thresholds are consequently obtained from the explicit
+formulas above.  Taking their maximum or minimum as appropriate gives
+one choice valid for both families.
+\end{proof}
+
+\begin{remark}[Normalization and the scope of the extension]
+For unnormalized $U_{n-1}$ the displacement ratio is unchanged, but
+the common-amplitude formula contains the additional term
+$\mu^{-2}\log n$.  This term need not vanish in the original joint
+range.  For example, take $n_j=\lceil e^{j^3}\rceil$ and
+$A_j=n_j^2/j^3$.  Then $\mu_j=j$, $\epsilon_j=j^4/n_j^2\to0$,
+whereas $\mu_j^{-2}\log n_j\sim j$.
+The normalization therefore removes a real obstruction, rather than
+only changing notation.  The profile criterion requires positivity on
+the exterior, a global envelope on both sides, an interior bound, and
+a quantitative lower bound near the saddle.  It does not assert the
+same conclusion for arbitrary Jacobi parameters or arbitrary
+polynomial heat flows.  The normalized second family has the same two
+leading constants; no Navier--Stokes realization for that additional
+family is claimed here.
+\end{remark}

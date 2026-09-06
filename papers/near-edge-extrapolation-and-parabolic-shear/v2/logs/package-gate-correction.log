@@ -1,0 +1,2 @@
+Initial freeze gate: stopped before archive creation because git diff --name-only quoted the Unicode Chinese summary filename, so a correct v2 path failed the prefix check.
+Correction: request core.quotepath=false for git text output; preserve exact Unicode paths. Mathematical and TeX sources unchanged.

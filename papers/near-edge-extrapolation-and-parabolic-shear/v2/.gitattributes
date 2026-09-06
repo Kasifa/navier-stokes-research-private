@@ -1,0 +1,2 @@
+# Preserve raw TeX diagnostic bytes, including engine-generated trailing spaces.
+logs/*.log whitespace=-blank-at-eol

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "tex_sources": 11,
+  "labels": 100,
+  "references": 106,
+  "cited_keys": [
+    "BatahanShehata2014",
+    "DLMF",
+    "Erdelyi2017",
+    "HallHo2025",
+    "HileStanoyevitch2001",
+    "Khan2019",
+    "Kos2008",
+    "Paris2018",
+    "Paris2021",
+    "Zhang2026"
+  ],
+  "uncited_bib_keys": [],
+  "compilation": {
+    "output": "XDV only",
+    "pages": 25,
+    "xdv_sha256": "a7afacbe429e15d3fd7189fe682e73cee087fcee00c595cebe1038dd29eda18f",
+    "log_sha256": "607e2e40c80f7ebe44dde72714dd5b6d01eed15db15da17fbe32549cc37aab1c",
+    "blocking_warnings": [],
+    "reader_pdf_generated": false,
+    "visual_manuscript_review": "not performed; source/XDV delivery, no reader PDF"
+  },
+  "source_sha256": {
+    "main.tex": "dcb578f8764896dacbe22223775d11b327bfe0f766eb456b15ce2e65f433d192",
+    "sections/consequences.tex": "67cc0acdaa41f2212b8a2000777e54d82bf862f0c43a7371f881ddc8fcae112e",
+    "sections/diagnostic.tex": "3bf79f07817de634e5062d42390910ddb61c6998318c043bd21e168a0c8b4e22",
+    "sections/discussion.tex": "d60679ece457e695ace2693af05f5a69a6e5473f287afdb810d7077c65f68c18",
+    "sections/frame-and-mass.tex": "a430ec1536cf92b9f50759bb847b005dd3c3bd569d2db50bcbf2bde07e3c35bb",
+    "sections/literature-context.tex": "fbae1db6c862139a5dddf2a34e3b7b25990d35ce46b77f986885f99a8fc9b2e9",
+    "sections/parabolic.tex": "f9aa54130790581ab37e2d4060ed5ad9accb80a341275f73084db0e5e2e523b4",
+    "sections/quantitative-edge.tex": "fd091c50680d13c762da81ef4f388914293f11156c4c25f944f3b04a2b02dddb",
+    "sections/sharpness.tex": "70dfbc20c90bc2553437a2dedfc1b5d7a96a2b245b5455dc1687e214cae5be9b",
+    "sections/time-weighted.tex": "8b59ed97145ac07a710b87dbc6c964f9b974009ea97d6e5d4d6d43bf11bcb7ae",
+    "sections/upper-bound.tex": "5878c9a176a11069cd9cac80fca67796688bb524abf66333526f53f02536ffaf"
+  }
+}

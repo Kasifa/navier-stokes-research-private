@@ -1,0 +1,362 @@
+{
+  "schema": "paper-research-freeze-source-v2",
+  "release_id": "paper-heat-edge-v2-20260906",
+  "source_baseline": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd",
+  "source_commit_binding": "output/release-receipt.json; produced after clean commit",
+  "dependencies": [
+    {
+      "release": "near-edge-parabolic-v1",
+      "commit": "0a212f4e140e0c9875e740cb8ee23be32a5c05dd"
+    }
+  ],
+  "files": [
+    {
+      "path": "v1/checks/verify_algebra.py",
+      "bytes": 13620,
+      "sha256": "d8c33940c53334d1726823511aff27cc8c2b722db0150dde35e37e802db44fb6"
+    },
+    {
+      "path": "v1/figures/heat-edge/caption.md",
+      "bytes": 1241,
+      "sha256": "102e7d96396173cc56cacf0e1552241d617c3d9b94495f1404b74e07c3829316"
+    },
+    {
+      "path": "v1/figures/heat-edge/config.json",
+      "bytes": 466,
+      "sha256": "ec613babd5ff988c732bbd9881962e93dc6e5ef2821832eb22a069b843fece28"
+    },
+    {
+      "path": "v1/figures/heat-edge/data.csv",
+      "bytes": 4679,
+      "sha256": "bbc7139237a9120d91284c0ddb80c0c73aa93708bb4a8f778f38e1d24d18c96d"
+    },
+    {
+      "path": "v1/figures/heat-edge/figure.pdf",
+      "bytes": 71783,
+      "sha256": "6de47c8df62ae35fc85e5b1ca2010038dd505d2e15b39caaa1f765b30cf4e7ea"
+    },
+    {
+      "path": "v1/figures/heat-edge/figure.png",
+      "bytes": 472120,
+      "sha256": "a5bff2596a6bf9ab0becc41cba0a985744c3b31878c6b11281ca2f4cf891fc75"
+    },
+    {
+      "path": "v1/figures/heat-edge/figure.svg",
+      "bytes": 12650,
+      "sha256": "5e9061d5b76b03c60d58cac98320513dc442b7a595604ee9c59697b2e4190662"
+    },
+    {
+      "path": "v1/figures/heat-edge/manifest.json",
+      "bytes": 5463,
+      "sha256": "c6c6e5e6ab980eddf254ec2462b73bc99cc351c05069adb6fb0aefd52719f29f"
+    },
+    {
+      "path": "v1/figures/heat-edge/plot.py",
+      "bytes": 19619,
+      "sha256": "079a32963e6f9bf72771b647683e83d6264e3c1c365ae0004ac58f29b48ba8a2"
+    },
+    {
+      "path": "v1/figures/heat-edge/progress.ndjson",
+      "bytes": 3943,
+      "sha256": "84569637a2602f6832bbbb2cf2b3fe3fcf9698af2aff088904f3f661ed00430d"
+    },
+    {
+      "path": "v1/figures/heat-edge/qa-report.md",
+      "bytes": 2654,
+      "sha256": "4c55f693c1ca644edc778d93f2ee232d8ae55a03b44b0c2d0dd20820260dfb2c"
+    },
+    {
+      "path": "v1/figures/heat-edge/render.cjs",
+      "bytes": 3387,
+      "sha256": "2981e7c156aa9b9807a6c7b92c16d9a99ee48aac4deeb362116eb3849b3fa99d"
+    },
+    {
+      "path": "v1/figures/heat-edge/resources.csv",
+      "bytes": 1424,
+      "sha256": "14f817a9bf9a28dc4f17541f94a26442bee8de83aa2571a6cf92e69cafd517c6"
+    },
+    {
+      "path": "v2/.gitattributes",
+      "bytes": 117,
+      "sha256": "50bfd0cbc5ec1fd56164c670b1926dc32860d582c212474525700e82ea7a4cff"
+    },
+    {
+      "path": "v2/.gitignore",
+      "bytes": 34,
+      "sha256": "a5bee7239b98325734d4365173a73040e9e44ddaaa6fead9af35a332c0f340d0"
+    },
+    {
+      "path": "v2/FIGURES.md",
+      "bytes": 1818,
+      "sha256": "ab0a2dba8b06c383ae1c55eae5a098b2ce962ff5f828c336e01ae1d50a864ae6"
+    },
+    {
+      "path": "v2/PROGRESS.md",
+      "bytes": 1589,
+      "sha256": "35e3f96283b346531f3357ccf3e90fb7def80cbf7558e21d192705dd10d26a74"
+    },
+    {
+      "path": "v2/README.md",
+      "bytes": 3173,
+      "sha256": "695bd91be703242296e2dcfd14f8e81f78be47a56b17ad06634a2ac686f7b117"
+    },
+    {
+      "path": "v2/RESPONSE_TO_DUE_DILIGENCE.md",
+      "bytes": 3247,
+      "sha256": "efae55238cc880571a25e18421df1c2a1631414840bacba1e3be6ce53cca032c"
+    },
+    {
+      "path": "v2/audits/application-audit.md",
+      "bytes": 8898,
+      "sha256": "d31f036f27f846cc89647cf4eb81ac229e971e06612955da3cbe9850705e0507"
+    },
+    {
+      "path": "v2/audits/archive-build.json",
+      "bytes": 1985,
+      "sha256": "c7883f107679030621b876b9b119ed7f7e3dd27bb27868422767f17296a6e240"
+    },
+    {
+      "path": "v2/audits/auxiliary-cross-audit.md",
+      "bytes": 9534,
+      "sha256": "f9259cf60536851564fb15e70218028ab52af0b3aa94e3883d9e792641b650fa"
+    },
+    {
+      "path": "v2/audits/baseline-algebra.json",
+      "bytes": 1666,
+      "sha256": "517c79686e54288d1422ca731c4e23988e6012b32ee3f961474e7ac2976ad6f8"
+    },
+    {
+      "path": "v2/audits/final-audit.md",
+      "bytes": 7235,
+      "sha256": "9ae7a68b3c5e2ee71d5384a31f77a5f45a5162638aa47f596e06545be118ca7d"
+    },
+    {
+      "path": "v2/audits/literature-manuscript-audit.md",
+      "bytes": 5979,
+      "sha256": "a6ae928b368ea7bdff45d4d21a83d37d36b9c0dfefe7b602ad9288493583c838"
+    },
+    {
+      "path": "v2/audits/quantitative-cross-audit.md",
+      "bytes": 8572,
+      "sha256": "a11b1bb9add81bdd46967947fa90c5be0fc06d5da15af361faa2e36370c80a68"
+    },
+    {
+      "path": "v2/audits/quantitative-edge-self-audit.md",
+      "bytes": 3476,
+      "sha256": "c1d03b4a7c7b25472c4ef34d9175e8d8c734a25b85265f5e234e880460ac4b30"
+    },
+    {
+      "path": "v2/audits/retained-figure-check.json",
+      "bytes": 245,
+      "sha256": "2b6c858837983dd291cd012147422d0a2f2ba2431cddb9682796ae1f1ee88c7d"
+    },
+    {
+      "path": "v2/audits/revision-algebra.json",
+      "bytes": 2056,
+      "sha256": "6d51f0cd06ce8247fb73905cabcbe803f4fc469724747844a6ff6f314489d52c"
+    },
+    {
+      "path": "v2/audits/source-quality.json",
+      "bytes": 1840,
+      "sha256": "a6b152cece574d4dad78bf8d9ba87f6ce1924416db4c21a9533d2a770184a42a"
+    },
+    {
+      "path": "v2/audits/time-cross-audit.md",
+      "bytes": 5593,
+      "sha256": "38e3391012cfecfb5f657dd42c38ef90b620fe5c7115e4db81998980b44dfc27"
+    },
+    {
+      "path": "v2/build-xdv.sh",
+      "bytes": 342,
+      "sha256": "c36223c677203f95f4a6dc75aa7e685a13ae6a5c7097524249945805ca4ba131"
+    },
+    {
+      "path": "v2/checks/package_release.py",
+      "bytes": 5453,
+      "sha256": "e71e5e8d797344556452c583a08c2a97d3c9d9533147cea679194170990a2417"
+    },
+    {
+      "path": "v2/checks/source_quality.py",
+      "bytes": 3949,
+      "sha256": "b519434df66ea73faff6e3b1f1f8004170eaf6ca2a3a7a4742eda01cfc4b43f6"
+    },
+    {
+      "path": "v2/checks/verify_archive_build.py",
+      "bytes": 2613,
+      "sha256": "098f27c32c806ab6455304651566acf50e7c2d2d0d1b3d6596cf00b35c141485"
+    },
+    {
+      "path": "v2/checks/verify_revision.py",
+      "bytes": 6649,
+      "sha256": "e6011f71bf591fd3a7ebc39c73a6ab46bd7c121a061a6075fba36c46b2fbb52e"
+    },
+    {
+      "path": "v2/input-provenance.json",
+      "bytes": 1775,
+      "sha256": "4e4c82637c5a6e64c565db2c26b812444e48c13146024dcc2bf0f617e08fc5c7"
+    },
+    {
+      "path": "v2/literature/additional.bib",
+      "bytes": 2330,
+      "sha256": "cc41752e500a4ea9cb17541eacbe8c6e18231d68303c89b20822638e1c888ed0"
+    },
+    {
+      "path": "v2/literature/novelty-update.md",
+      "bytes": 11518,
+      "sha256": "d943001e440fc0e7a84433acc283050d1e03e19ee4a47ed8b4bde9716d84ef80"
+    },
+    {
+      "path": "v2/literature/search-log.md",
+      "bytes": 4983,
+      "sha256": "067387fa600834a3861ccfa329c4e28472fb9c60e83e9969e770c7fba304f167"
+    },
+    {
+      "path": "v2/literature/source-metadata.json",
+      "bytes": 3819,
+      "sha256": "13f646031203102472bd3358d41239e6c688d570d5a1caf33c7662e97fb703da"
+    },
+    {
+      "path": "v2/logs/archive-build-command.log",
+      "bytes": 1010,
+      "sha256": "ef5ce9f9b4b2d142c4aae31327ba221846a21bf6c2437d2ce10b3832c9d72827"
+    },
+    {
+      "path": "v2/logs/build-command.log",
+      "bytes": 632,
+      "sha256": "50d363d2e8b42d6681ebc4a4fc734cf720e0b69ac4a6e65755dee026ebaab10a"
+    },
+    {
+      "path": "v2/logs/main.blg",
+      "bytes": 194,
+      "sha256": "f7f776f61e365e48ef4e36e855330a84656940380f2bed652c3c9060f7936d1a"
+    },
+    {
+      "path": "v2/logs/main.log",
+      "bytes": 21090,
+      "sha256": "607e2e40c80f7ebe44dde72714dd5b6d01eed15db15da17fbe32549cc37aab1c"
+    },
+    {
+      "path": "v2/logs/package-gate-correction.log",
+      "bytes": 305,
+      "sha256": "fb82aaf302c25553b17328f7c7993518d99333158c65cf7dde75f014a7e928af"
+    },
+    {
+      "path": "v2/main.bbl",
+      "bytes": 3195,
+      "sha256": "1215e5e0c70fd8dc2ee5ef66eb2e308ab4dea15a574e8b6a73a1ee39fb594ea6"
+    },
+    {
+      "path": "v2/main.tex",
+      "bytes": 9075,
+      "sha256": "dcb578f8764896dacbe22223775d11b327bfe0f766eb456b15ce2e65f433d192"
+    },
+    {
+      "path": "v2/provenance.md",
+      "bytes": 7256,
+      "sha256": "d7b73a7294d6c73bd42dc60ce3102c4612a1110db93e867e238605a6a70d6c34"
+    },
+    {
+      "path": "v2/references.bib",
+      "bytes": 3576,
+      "sha256": "2096c12256fcaacc03a8038218f00680f4cde0f9c6b9f78461f002538bc3fecd"
+    },
+    {
+      "path": "v2/research/bounded-routes.md",
+      "bytes": 6917,
+      "sha256": "f41b1c95f87a159a612fe56250e05b752427b77ea10a146f5e9efb4295e7c4f9"
+    },
+    {
+      "path": "v2/research/quantitative-edge.md",
+      "bytes": 9716,
+      "sha256": "0f78cc5cec1b3485c463b35b665d87545b9e6598117afbb738b429c26b37b5ac"
+    },
+    {
+      "path": "v2/sections/consequences.tex",
+      "bytes": 4321,
+      "sha256": "67cc0acdaa41f2212b8a2000777e54d82bf862f0c43a7371f881ddc8fcae112e"
+    },
+    {
+      "path": "v2/sections/diagnostic.tex",
+      "bytes": 2486,
+      "sha256": "3bf79f07817de634e5062d42390910ddb61c6998318c043bd21e168a0c8b4e22"
+    },
+    {
+      "path": "v2/sections/discussion.tex",
+      "bytes": 3203,
+      "sha256": "d60679ece457e695ace2693af05f5a69a6e5473f287afdb810d7077c65f68c18"
+    },
+    {
+      "path": "v2/sections/frame-and-mass.tex",
+      "bytes": 9890,
+      "sha256": "a430ec1536cf92b9f50759bb847b005dd3c3bd569d2db50bcbf2bde07e3c35bb"
+    },
+    {
+      "path": "v2/sections/literature-context.tex",
+      "bytes": 3689,
+      "sha256": "fbae1db6c862139a5dddf2a34e3b7b25990d35ce46b77f986885f99a8fc9b2e9"
+    },
+    {
+      "path": "v2/sections/parabolic.tex",
+      "bytes": 19246,
+      "sha256": "f9aa54130790581ab37e2d4060ed5ad9accb80a341275f73084db0e5e2e523b4"
+    },
+    {
+      "path": "v2/sections/quantitative-edge.tex",
+      "bytes": 12202,
+      "sha256": "fd091c50680d13c762da81ef4f388914293f11156c4c25f944f3b04a2b02dddb"
+    },
+    {
+      "path": "v2/sections/sharpness.tex",
+      "bytes": 5013,
+      "sha256": "70dfbc20c90bc2553437a2dedfc1b5d7a96a2b245b5455dc1687e214cae5be9b"
+    },
+    {
+      "path": "v2/sections/time-weighted.tex",
+      "bytes": 4814,
+      "sha256": "8b59ed97145ac07a710b87dbc6c964f9b974009ea97d6e5d4d6d43bf11bcb7ae"
+    },
+    {
+      "path": "v2/sections/upper-bound.tex",
+      "bytes": 10465,
+      "sha256": "5878c9a176a11069cd9cac80fca67796688bb524abf66333526f53f02536ffaf"
+    },
+    {
+      "path": "v2/成果说明.md",
+      "bytes": 8044,
+      "sha256": "aa49432bf92396cb023fdb2c151b1c7b210dba499f96ce7332aa24d82bd84dcd"
+    }
+  ],
+  "self_exclusion": [
+    "v2/source-manifest.json",
+    "v2/output/",
+    "v2/tmp/"
+  ],
+  "claim_boundary": {
+    "proved": [
+      "quantitative uniform T and normalized U edge errors",
+      "profile criterion",
+      "fixed-data complete-interval first-kind shear realization",
+      "original-amplitude full-velocity rate, amplitude scaling and bounded-drift shape bound",
+      "abstract temporal N^(4/3) order witness"
+    ],
+    "literature": [
+      "near-edge Fourier scale",
+      "temporal upper inequality inputs",
+      "polynomial heat operation"
+    ],
+    "finite_computation": "Finite exact algebra and retained numerical figure; no continuum certification",
+    "open": [
+      "best error orders",
+      "arbitrary Jacobi parameters",
+      "matching general dynamic bounds",
+      "other bounded-drift profiles"
+    ],
+    "not_clay": true,
+    "human_peer_review": false,
+    "priority_verified": false
+  },
+  "figure_inventory": "v2/FIGURES.md",
+  "reader_pdf": "No new reader PDF; historical figure retained",
+  "stage_review": "Yes: standalone manuscript repositioning and new theorem, without changing mainline roadmap",
+  "publication": "Not performed; once-only return to fixed research task after freeze"
+}

@@ -1,0 +1,277 @@
+\section{A uniform bound for the complete collar flux}
+\label{sec:upper-bound}
+
+This auxiliary application combines established spatial and temporal
+inequalities with the shear energy identity. It is not a separate claim
+of a new extrapolation scale.
+
+\begin{lemma}[Spatial input from Zhang]\label{thm:ub-edge}
+For $g(x)=\sum_{j=1}^N c_j e^{i\xi_jx}$ with arbitrary real frequencies,
+complex coefficients, and $0\le d\le1$,
+\begin{equation}\label{eq:ub-edge}
+ \max\{|g(1+d)|,|g(-1-d)|\}
+ \le C_ZN e^{3\sqrt2N\sqrt d}\|g\|_{L^2(-1,1)},
+ \qquad C_Z=\sqrt{9\cdot8191/2}.
+\end{equation}
+Consequently, for $J=[-e,e]$ and $I=[-e(1+d),e(1+d)]$, $e>0$,
+\begin{equation}\label{eq:ub-affine-edge}
+ \|g\|_{L^\infty(I)}^2
+ \le\frac{C_Z^2}{e}N^2e^{6\sqrt2N\sqrt d}\int_J|g|^2.
+\end{equation}
+\end{lemma}
+
+\begin{proof}[Attribution and rescaling]
+The right endpoint assertion is Zhang's near-edge theorem
+\cite[Theorem 1.1 and Proposition 4.2, v1]{Zhang2026}, using the
+admissible finite-range constant $8191$. Reflection proves the left
+endpoint assertion. There is no frequency separation assumption;
+repeated frequencies are merged and zero coefficients are allowed.
+Affine rescaling proves the second assertion outside $J$. At an
+interior point $z$, applying the $d=0$ endpoint bound separately to
+$[-e,z]$ and $[z,e]$ gives
+$\ell_\pm|g(z)|^2\le2C_Z^2N^2\int_{J_\pm}|g|^2$.
+Adding these estimates gives the same bound on $J$.
+\end{proof}
+
+The theorem cited here is a preprint result. The longer reconstruction
+in the frozen first version followed the same half-line basis argument
+with exponent $5\sqrt2$; it is not an additional contribution and is
+omitted here. The required range in this section is only $d\le1$.
+Corollary~\ref{lem:ub-delay} supplies the temporal input and
+\eqref{eq:ub-cutoff-time} its rescaled form.
+
+\subsection{The physical model and the uniform theorem}
+
+Write $\mathbb T=\mathbb R/(2\pi\mathbb Z)$.  Fix
+$0<\delta_0<\delta$ and a function
+$\vartheta\in C_c^\infty((-\delta,\delta))$ such that
+$0\le\vartheta\le1$ and $\vartheta=1$ on $[-\delta_0,\delta_0]$.
+Fix also $\eta\in C^1([0,4])$ with
+$0\le\eta\le1$ and $\eta(0)=0$.
+For $R>0$, $a\ge\max(1,\delta+2\delta_0)$ and $(a+\delta)R<\pi/2$, set
+\begin{align}
+ \xi_{a,R}(x)&=\vartheta(|x|/R-a),&
+ \mathcal S^{\rm plat}_{a,R}
+ &=\{x\in\mathbb T^3:\,||x|/R-a|\le\delta_0\},
+ \label{eq:ub-geometry}\\
+ F(t,x_2)&=\sum_{j=1}^q A_je^{-n_j^2t}
+                   \cos(n_jx_2-\phi_j-n_jBt),
+ \label{eq:ub-F}
+\end{align}
+where $q\ge1$, $1\le n_1<\cdots<n_q\le2n_1$ are integers,
+$A_j\ge0$, and $\phi_j,B\in\mathbb R$.
+The support of the cutoff lies in a Euclidean chart of the torus, and it
+is extended by zero outside that chart.  The field $u=(0,B,F)$ is an exact
+smooth Navier--Stokes solution with viscosity one and pressure zero:
+its only nonzero evolution equation is
+$F_t+BF_{x_2}-F_{x_2x_2}=0$.
+
+Define the complete flux and the full plateau observation by
+\begin{align}
+ \mathcal T_{\boldsymbol n,R}
+ &=\frac12\int_0^{4R^2}\!\int_{\mathbb T^3}
+       \eta(t/R^2)B\,\partial_2\xi_{a,R}(x)F(t,x_2)^2\,dx\,dt,
+ \label{eq:ub-T}\\
+ M^{\rm plat}_{\boldsymbol n,R}
+ &=\int_0^{4R^2}\!\int_{\mathcal S^{\rm plat}_{a,R}}
+                         |F(t,x_2)|^3\,dx\,dt.
+ \label{eq:ub-M}
+\end{align}
+The time cutoff occurs in the flux; the plateau observation uses the
+entire unweighted clock.
+
+\begin{theorem}[Complete-clock upper bound]\label{thm:ub-flux}
+For the data above, put
+\[
+ \Delta_a=\frac{\delta+\delta_0}{a-\delta_0},\qquad
+ \Phi_a=12\sqrt2q\sqrt{\Delta_a}.
+\]
+There is a constant $C$, depending only on
+$\vartheta,\delta_0,\delta$ and $\|\eta'\|_\infty$, such that
+\begin{equation}\label{eq:ub-main-refined}
+ |\mathcal T_{\boldsymbol n,R}|
+ \le C a^{2/3}R^{-1/3}
+       \left(q^4+\frac{q^7}{a^2}+q^{13/3}\right)e^{\Phi_a}
+       \bigl(M^{\rm plat}_{\boldsymbol n,R}\bigr)^{2/3}.
+\end{equation}
+In particular,
+\begin{equation}\label{eq:ub-main}
+ |\mathcal T_{\boldsymbol n,R}|
+ \le C a^{2/3}R^{-1/3}q^7e^{\Phi_a}
+       \bigl(M^{\rm plat}_{\boldsymbol n,R}\bigr)^{2/3}.
+\end{equation}
+The constant is independent of $q,R$, all frequencies, amplitudes,
+phases, and $B$.
+\end{theorem}
+
+\begin{proof}
+Use the scaled variables
+\[
+ \begin{gathered}
+ s=t/R^2,\quad z=x_2/(aR),\quad G(s,z)=F(R^2s,aRz),\\
+ \kappa_j=n_jaR,\quad \alpha=\kappa_1,\quad
+ v=BR/a,\quad\lambda=(\alpha/a)^2.
+ \end{gathered}
+\]
+Then $G_s+vG_z-a^{-2}G_{zz}=0$, and its $2q$ complex spatial
+frequencies are $\pm\kappa_j$, with $\alpha\le\kappa_j\le2\alpha$.
+Let
+\[
+ \begin{gathered}
+ e_a=1-\delta_0/a,\quad E_a=[-e_a,e_a],\quad
+ I_a=[-1-\delta/a,1+\delta/a],\\
+ h(s)=\int_{E_a}|G(s,z)|^3\,dz,\quad H=\int_0^4h(s)\,ds.
+ \end{gathered}
+\]
+The assumptions imply $e_a\ge1/2$, $\Delta_a\le1$, and uniformly
+bounded upper and lower lengths for these intervals.
+Equation \eqref{eq:ub-affine-edge} with $N=2q$, followed by H\"older,
+gives
+\begin{equation}\label{eq:ub-observation}
+ \|G(s)\|_{L^\infty(I_a)}^2
+ \le\frac{4C_Z^2}{e_a}q^2e^{\Phi_a}\int_{E_a}|G|^2
+ \le Cq^2e^{\Phi_a}h(s)^{2/3}.
+\end{equation}
+
+The following two estimates from the literature are used in the remaining
+argument.  Erd\'elyi's Markov inequality~\cite[Theorem 9.1, arXiv v1]{Erdelyi2017} states, for
+$f(x)=\sum_{r=1}^N c_re^{i\mu_rx}$ with $\mu_r\in\mathbb R$ on $[0,1]$, that
+\begin{equation}\label{eq:ub-markov-input}
+ \|f'\|_\infty\le C
+       \left(N^5+\sum_{r=1}^N\mu_r^2\right)^{1/2}\|f\|_\infty.
+\end{equation}
+The more precise expression in that paper is
+$(1+\varepsilon_N)(108N^5+\sum_r\mu_r^2)^{1/2}$, with a uniformly
+bounded factor $1+\varepsilon_N$.
+K\'os's endpoint inequality~\cite{Kos2008}, recorded in
+Erd\'elyi's paper as (1.2), is
+\begin{equation}\label{eq:ub-kos-input}
+ |f(0)|\le2N\|f\|_{L^2(0,1)},\qquad
+ f(r)=\sum_{j=1}^N c_je^{\gamma_jr},\quad
+ \operatorname{Re}\gamma_j\ge0.
+\end{equation}
+
+Map $I_a$ affinely onto $[0,1]$ in
+\eqref{eq:ub-markov-input}.  Its length is bounded above and below,
+and $\sum_j(\kappa_j^2+(-\kappa_j)^2)\le8q\alpha^2$.
+Together with \eqref{eq:ub-observation}, this proves
+\begin{equation}\label{eq:ub-derivative}
+ \|G_z(s)\|_{L^\infty(I_a)}^2
+ \le C(q^7+q^3\alpha^2)e^{\Phi_a}h(s)^{2/3}.
+\end{equation}
+For fixed $z$, the function $r\mapsto G(4-r,z)$, $0\le r\le1$,
+has at most $2q$ exponential terms with exponents
+$(\kappa_j/a)^2\pm iv\kappa_j$.  Applying
+\eqref{eq:ub-kos-input}, cubing, and using H\"older on the unit
+interval yields
+\begin{equation}\label{eq:ub-endpoint}
+ h(4)\le64q^3\int_3^4h(s)\,ds\le64q^3H,
+ \qquad h(4)^{2/3}\le16q^2H^{2/3}.
+\end{equation}
+
+The radial geometry can be computed exactly.  At $y=x_2$, the
+cross-sectional integral of the cutoff is
+$2\pi\int_{|y|}^\infty r\vartheta(r/R-a)\,dr$.
+Differentiating with respect to $y$ gives
+\[
+ \int_{\mathbb T^2}\partial_2\xi_{a,R}(x_1,y,x_3)\,dx_1\,dx_3
+ =-2\pi y\vartheta(|y|/R-a).
+\]
+Thus, with
+\[
+ W_a(z)=-2\pi az\vartheta(a(|z|-1)),\qquad
+ \Xi_a(z)=\int_{-\infty}^zW_a(r)\,dr,
+\]
+the exact flux conversion is
+\begin{equation}\label{eq:ub-flux-conversion}
+ \mathcal T_{\boldsymbol n,R}
+ =\frac{a^2R^3}{2}\,v\int_0^4\eta(s)
+                         \int_{\mathbb R}W_a(z)G(s,z)^2\,dz\,ds.
+\end{equation}
+The function $W_a$ is odd and has zero integral.  Its two support
+intervals have length $O(a^{-1})$, and $|W_a|\le Ca$ there.  Consequently
+\begin{equation}\label{eq:ub-kernel-bounds}
+ \operatorname{supp}\Xi_a\subset I_a,\qquad
+ \|\Xi_a\|_1+\|\Xi_a\|_\infty\le C,\qquad
+ \|\Xi_a''\|_1=\|W_a'\|_1\le Ca.
+\end{equation}
+These bounds follow directly by differentiating $W_a$ on its support;
+that support stays away from $z=0$.
+
+Put $\mathcal E(s)=\int_{\mathbb R}\Xi_a(z)G(s,z)^2\,dz$.
+Multiplying
+$(G^2)_s+v(G^2)_z-a^{-2}(G^2)_{zz}=-2a^{-2}|G_z|^2$
+by $\Xi_a$, and then integrating in space and time, gives
+\begin{align}
+ v\int_0^4\eta\int W_aG^2
+ &=\eta(4)\mathcal E(4)-\int_0^4\eta'\mathcal E\,ds
+ \nonumber\\
+ &\quad-a^{-2}\int_0^4\eta\int\Xi_a''G^2
+       +2a^{-2}\int_0^4\eta\int\Xi_a|G_z|^2.
+ \label{eq:ub-energy}
+\end{align}
+There is no initial-face term because $\eta(0)=0$.
+Using \eqref{eq:ub-observation}, \eqref{eq:ub-endpoint}, and
+\eqref{eq:ub-kernel-bounds}, the first three terms on the right have
+absolute sum at most
+\begin{equation}\label{eq:ub-first-rows}
+ C(q^4+q^2+a^{-1}q^2)e^{\Phi_a}H^{2/3}.
+\end{equation}
+Here $\int_0^4h^{2/3}\le4^{1/3}H^{2/3}$.
+The last term, by \eqref{eq:ub-derivative}, is bounded by
+\[
+ Ce^{\Phi_a}\left[
+       \frac{q^7}{a^2}\int_0^4\eta h^{2/3}\,ds
+       +q^3\lambda\int_0^4\eta h^{2/3}\,ds\right].
+\]
+The first summand is at most $Cq^7a^{-2}H^{2/3}$.
+If $\lambda\le1$, H\"older bounds the second by $Cq^3H^{2/3}$.
+If $\lambda>1$, the temporal exponents of $G$ have real parts in
+$[\lambda,4\lambda]$ and $\eta(s)\le\|\eta'\|_\infty s$.
+Equation \eqref{eq:ub-cutoff-time}, with $N\le2q$, bounds that summand
+by $Cq^{13/3}\lambda^{-1/3}H^{2/3}\le Cq^{13/3}H^{2/3}$.
+Combining these estimates with \eqref{eq:ub-energy} gives
+\begin{equation}\label{eq:ub-scaled-bound}
+ \left|v\int_0^4\eta\int W_aG^2\right|
+ \le C\left(q^4+\frac{q^7}{a^2}+q^{13/3}\right)
+                  e^{\Phi_a}H^{2/3}.
+\end{equation}
+
+Finally, the plateau cross-sectional area at $x_2=aRz$, divided by
+$R^2$, equals
+\[
+ \pi\left(
+ [(a+\delta_0)^2-a^2z^2]_+
+ -[(a-\delta_0)^2-a^2z^2]_+\right).
+\]
+For $z\in E_a$ it is exactly $4\pi a\delta_0$.  As
+$dt\,dx_2=aR^3\,ds\,dz$, this proves
+\begin{equation}\label{eq:ub-mass-conversion}
+ M^{\rm plat}_{\boldsymbol n,R}\ge4\pi\delta_0a^2R^5H.
+\end{equation}
+Equations \eqref{eq:ub-flux-conversion}, \eqref{eq:ub-scaled-bound},
+and \eqref{eq:ub-mass-conversion} prove
+\eqref{eq:ub-main-refined}.  Since $a,q\ge1$,
+$q^4+q^7/a^2+q^{13/3}\le3q^7$, proving \eqref{eq:ub-main}.
+\end{proof}
+
+\begin{remark}[A shrinking-gap regime]\label{rem:ub-window}
+Let $a=pL$ with fixed $p>0$, and let
+$\omega=\exp(-\gamma L^2)$ with fixed $\gamma>0$.  Set
+$P=R^{-2}\omega M^{\rm plat}_{\boldsymbol n,R}$ and
+$X=(\omega/R)[\mathcal T_{\boldsymbol n,R}]_+$.
+Equation \eqref{eq:ub-main} becomes
+\[
+ X\le C a^{2/3}q^7\omega^{1/3}e^{12\sqrt2q\sqrt{\Delta_a}}P^{2/3}.
+\]
+If $q=q(L)=o(L^{5/2})$, then $\Delta_a=O(L^{-1})$ and
+\[
+ \lim_{L\to\infty}\frac1{L^2}
+   \log\left(Ca^{2/3}q(L)^7\omega^{1/3}
+                   e^{12\sqrt2q(L)\sqrt{\Delta_a}}\right)
+ =-\frac\gamma3.
+\]
+This is the rate of the proved upper-bound coefficient.  It does not
+assert that a particular flux attains that rate.  For the normalization
+$\gamma=2/3969$ used in the research notes, the rate is $-2/11907$.
+\end{remark}

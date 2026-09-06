@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "engine": "Tectonic 0.16.9",
+  "output_format": "XDV; no reader PDF",
+  "sources_compared": 14,
+  "source_bytes_equal": true,
+  "same_as_reference": {
+    "main.aux": true,
+    "main.bbl": true,
+    "main.xdv": true
+  },
+  "pages": 25,
+  "blocking_warnings": [],
+  "build_directory": "/var/folders/5g/mg87p_l50pgf6p3vrj83lvzr0000gn/T/paper-edge-v2-source-build-le_q0n0e/extract/v2/build",
+  "network_resources": "only-cached",
+  "source_hashes": {
+    "v2/main.tex": "dcb578f8764896dacbe22223775d11b327bfe0f766eb456b15ce2e65f433d192",
+    "v2/references.bib": "2096c12256fcaacc03a8038218f00680f4cde0f9c6b9f78461f002538bc3fecd",
+    "v2/main.bbl": "1215e5e0c70fd8dc2ee5ef66eb2e308ab4dea15a574e8b6a73a1ee39fb594ea6",
+    "v2/sections/consequences.tex": "67cc0acdaa41f2212b8a2000777e54d82bf862f0c43a7371f881ddc8fcae112e",
+    "v2/sections/diagnostic.tex": "3bf79f07817de634e5062d42390910ddb61c6998318c043bd21e168a0c8b4e22",
+    "v2/sections/discussion.tex": "d60679ece457e695ace2693af05f5a69a6e5473f287afdb810d7077c65f68c18",
+    "v2/sections/frame-and-mass.tex": "a430ec1536cf92b9f50759bb847b005dd3c3bd569d2db50bcbf2bde07e3c35bb",
+    "v2/sections/literature-context.tex": "fbae1db6c862139a5dddf2a34e3b7b25990d35ce46b77f986885f99a8fc9b2e9",
+    "v2/sections/parabolic.tex": "f9aa54130790581ab37e2d4060ed5ad9accb80a341275f73084db0e5e2e523b4",
+    "v2/sections/quantitative-edge.tex": "fd091c50680d13c762da81ef4f388914293f11156c4c25f944f3b04a2b02dddb",
+    "v2/sections/sharpness.tex": "70dfbc20c90bc2553437a2dedfc1b5d7a96a2b245b5455dc1687e214cae5be9b",
+    "v2/sections/time-weighted.tex": "8b59ed97145ac07a710b87dbc6c964f9b974009ea97d6e5d4d6d43bf11bcb7ae",
+    "v2/sections/upper-bound.tex": "5878c9a176a11069cd9cac80fca67796688bb524abf66333526f53f02536ffaf",
+    "v1/figures/heat-edge/figure.pdf": "6de47c8df62ae35fc85e5b1ca2010038dd505d2e15b39caaa1f765b30cf4e7ea"
+  },
+  "boundary": "Local source rebuild, not a remote arXiv test or visual manuscript review"
+}

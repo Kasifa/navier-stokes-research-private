@@ -1,0 +1,43 @@
+{
+  "inputs": [
+    {
+      "path": "/Users/kasifa/Documents/Math/PAPER_REVISION_BRIEF_2026-09-06.md",
+      "sha256": "a12e6ffb192c36875f223cdddb7b0d0c5788bbf56215b7e349805a6ad48f7dea",
+      "access": "read in full, current task"
+    },
+    {
+      "path": "/Users/kasifa/Documents/Math/paper-novelty-due-diligence-2026-09-05.md",
+      "sha256": "0ace808ca27fa09def7a390cf75f4c9e019418f9a2a9eca3c319535b16a67d42",
+      "access": "read in full, current task"
+    },
+    {
+      "path": "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md",
+      "sha256": "13bd18c0abb3726c2554f73f30c99f9e31d8c2a41ab2a8507e0775128e1850d1",
+      "access": "read in full, current task"
+    },
+    {
+      "commit": "25d44e986d5283107816f910f89b94bceb1d5726",
+      "path": "research/r076j_local_edge_extrapolation_reconstruction.md",
+      "sha256": "a3d67c8a27ef6ffb7068313732e8e8a08ba98931226df726ac4ee2140ab0f57f",
+      "access": "full frozen mathematical source read"
+    },
+    {
+      "commit": "8a89aee4fe0839de44e21a90ba827a9cc77b3062",
+      "path": "research/r076k_real_dyadic_edge_sharpness.md",
+      "sha256": "e293a3aa3e9c1dde443ed7a8c07afd2c709d3855d8b469b38033b04d71116bf2",
+      "access": "full frozen mathematical source read"
+    },
+    {
+      "commit": "b234b63c24c7b19efc703367e23b092385066a1c",
+      "path": "research/r076l_parabolic_edge_smoothing_complete_clock.md",
+      "sha256": "13492867aa83ead472d8db8d55c9a5d8c65a2418b1de397e0cffdd845b8a5c7a",
+      "access": "full frozen mathematical source read"
+    }
+  ],
+  "helper": {
+    "command": "python3 /Users/kasifa/Documents/Math/scripts/ns_workflow_context.py research",
+    "exit_code": 2,
+    "reason": "workflow policy SHA-256 changed",
+    "shared_index_refreshed": false
+  }
+}

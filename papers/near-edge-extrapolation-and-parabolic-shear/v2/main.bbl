@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Batahan and Shehata(2014)]{BatahanShehata2014}
+Raed~S. Batahan and A.~Shehata.
+\newblock {Hermite--Chebyshev} polynomials with their generalized form.
+\newblock \emph{Journal of Mathematical Sciences: Advances and Applications},
+  29:\penalty0 47--59, 2014.
+\newblock
+  \href{https://scientificadvances.co.in/admin/img_data/849/images/%5B4%5D%20JMSAA%207100121348%20S.%20Raed%20Batahan%20and%20A%20Shehata%20%5B47-59%5D.pdf}{Publisher
+  full text}.
+
+\bibitem[Erd\'elyi(2017)]{Erdelyi2017}
+Tam\'as Erd\'elyi.
+\newblock Inequalities for exponential sums.
+\newblock \emph{Sbornik: Mathematics}, 208\penalty0 (3):\penalty0 433--464,
+  2017.
+\newblock \doi{10.1070/SM8670}.
+
+\bibitem[Hall and Ho(2025)]{HallHo2025}
+Brian~C. Hall and Ching-Wei Ho.
+\newblock The heat flow conjecture for polynomials and random matrices.
+\newblock \emph{Letters in Mathematical Physics}, 115:\penalty0 60, 2025.
+\newblock \doi{10.1007/s11005-025-01946-9}.
+
+\bibitem[Hile and Stanoyevitch(2001)]{HileStanoyevitch2001}
+G.~N. Hile and Alexander Stanoyevitch.
+\newblock Heat polynomial analogs for higher order evolution equations.
+\newblock \emph{Electronic Journal of Differential Equations}, 2001\penalty0
+  (28):\penalty0 1--19, 2001.
+\newblock URL \url{https://ejde.math.txstate.edu/Volumes/2001/28/hile.pdf}.
+
+\bibitem[Khan(2019)]{Khan2019}
+Waseem~A. Khan.
+\newblock Certain results for the {Hermite} and {Chebyshev} polynomials of
+  2-variables.
+\newblock \emph{Annals of Communications in Mathematics}, 2\penalty0
+  (2):\penalty0 84--90, 2019.
+\newblock URL
+  \url{https://www.technoskypub.com/wp-content/uploads/2023/09/3-V2N2-P3-W-Certain-results-for-the-Hermite.pdf}.
+
+\bibitem[K\'os(2008)]{Kos2008}
+G\'eza K\'os.
+\newblock Two {Tur\'an} type inequalities.
+\newblock \emph{Acta Mathematica Hungarica}, 119:\penalty0 219--226, 2008.
+\newblock \doi{10.1007/s10474-007-6176-5}.
+
+\bibitem[{National Institute of Standards and Technology}(n.d.)]{DLMF}
+{National Institute of Standards and Technology}.
+\newblock {NIST Digital Library of Mathematical Functions}, n.d.
+\newblock URL \url{https://dlmf.nist.gov/}.
+\newblock Sections 8.4, 16.2, 16.11 and 18.5; accessed 6 September 2026.
+
+\bibitem[Paris(2018)]{Paris2018}
+R.~B. Paris.
+\newblock Asymptotics of a {Gauss} hypergeometric function with large
+  parameters, {IV}: A uniform expansion, 2018.
+\newblock URL \url{https://arxiv.org/abs/1809.08794v2}.
+\newblock Version 2, 14 October 2018.
+
+\bibitem[Paris(2021)]{Paris2021}
+R.~B. Paris.
+\newblock Uniform asymptotics of a {Gauss} hypergeometric function with two
+  large parameters, {V}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2004.01945v2}.
+\newblock Version 2, 25 April 2021; first submitted 2020.
+
+\bibitem[Zhang(2026)]{Zhang2026}
+Ruizhe Zhang.
+\newblock Optimal extrapolation bounds for sparse {Fourier} sums, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.10501v1}.
+\newblock Version 1, 11 July 2026; preprint.
+
+\end{thebibliography}
