@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "base_commit": "b047893d40aa0d48d217b81fcc4bf697f20832f0",
+  "scope": "Read-only record consistency and raw provenance. No PDE, numerical certificate, independent implementation, full historical re-review or novelty certification.",
+  "status": "passed",
+  "main_nonauthor_accepted_sha256": "6cbebb0d6c9c53a37c68afff02c8f5ebab241413120c3ac9455beeac72625e2e",
+  "protected_state": {
+    "changed_old_keys": [
+      "checkpoint_id",
+      "current_internal_work",
+      "current_question",
+      "current_working_source",
+      "current_working_sources",
+      "next_step",
+      "status"
+    ],
+    "only_added_key": "strategy_logic_review",
+    "old_reviews": 27,
+    "current_reviews": 28,
+    "all_old_review_values_preserved": true,
+    "paper_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+    "scientific_release_identities_preserved": 16,
+    "no_new_handoff": true,
+    "user_AGENTS_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab"
+  },
+  "structure": {
+    "ordered_SL_labels": 9,
+    "displays_paired": true,
+    "LF_and_no_trailing_whitespace": true,
+    "claim_scope_guards": true
+  },
+  "artifacts": [
+    {
+      "path": "research/clay_b_strategy_logic_20260907.md",
+      "bytes": 10242,
+      "lines": 152,
+      "sha256": "6cbebb0d6c9c53a37c68afff02c8f5ebab241413120c3ac9455beeac72625e2e"
+    },
+    {
+      "path": "research/clay_b_active_checkpoint_20260906.json",
+      "bytes": 61411,
+      "lines": 177,
+      "sha256": "ef3c807a13ab9abbe39d8b3726069f5200c115bd829e09e45c4f94658a0d19b1"
+    }
+  ],
+  "historical_bindings": [
+    {
+      "path": "research/clay_b_prescribed_centre_contract_20260905.md",
+      "bytes": 14379,
+      "lines": 311,
+      "sha256": "d82a36827a7e4b956079db1d66101478ffbb6b743cb65b6d4d0b317c37119f2c",
+      "root_read_scope": "root full; A full"
+    },
+    {
+      "path": "research/r074i_suitable_weak_tube_and_log_obstruction.md",
+      "bytes": 25110,
+      "lines": 827,
+      "sha256": "70ff507704c6c7aed5ea8bc0250a96373113975e8e3f92edd53e3193d7cd8457",
+      "root_read_scope": "root definitions and Sections1-3 through complete Theorem3.3 proof; not whole historical note"
+    },
+    {
+      "path": "research/clay_b_stage_strategy_review_20260906.md",
+      "bytes": 6817,
+      "lines": 117,
+      "sha256": "addf4d96077852d5ac9733fd04b33488978e99cc71fd9ee5c8c188aa6f338dfd",
+      "root_read_scope": "root full"
+    },
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_20260907.md",
+      "bytes": 8747,
+      "lines": 178,
+      "sha256": "179e6e91ecd2af97a23d397de22628f06fbdd61105b478322eb39e05359a563b",
+      "root_read_scope": "root and B full"
+    },
+    {
+      "path": "research/clay_b_vertical_pressure_test_20260907.md",
+      "bytes": 13824,
+      "lines": 258,
+      "sha256": "96ed373d746c31cd09cadb1d2bfcb9658374fd8c2b58850929870c1da4b6ef5c",
+      "root_read_scope": "root full in preceding completed turn; current authoritative bytes retained"
+    },
+    {
+      "path": "research/clay_b_critical_euler_compactness_20260906.md",
+      "bytes": 11207,
+      "lines": 268,
+      "sha256": "69f34722f1158324610b18e94e611ace714424dc506254afcacd4bd37a057954",
+      "root_read_scope": "root lines1-88: BL.1-5, conditions and claimed compactness interface; not full proof reread"
+    },
+    {
+      "path": "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "bytes": 5741,
+      "lines": 125,
+      "sha256": "e023ac8a8140dcf523a1a6bee70a810b6f58041529e34f79c94df89f1355b907",
+      "root_read_scope": "root full, including BM.4-8"
+    },
+    {
+      "path": "research/clay_b_periodic_no_atom_endpoint_20260906.md",
+      "bytes": 5208,
+      "lines": 125,
+      "sha256": "11d2133b8c4cd0de6242bff03d1c2c8e4d5d6e12237e3da2cc4c35bb1e6d5b5c",
+      "root_read_scope": "root full"
+    },
+    {
+      "path": "research/clay_b_energy_atom_dissipation_20260906.md",
+      "bytes": 8641,
+      "lines": 220,
+      "sha256": "efd0eca624055fd6e825aa1f85602f3815a1ea20e6f257263d64f0021c5a5bac",
+      "root_read_scope": "root and B full"
+    },
+    {
+      "path": "research/clay_b_same_parent_residual_20260906.md",
+      "bytes": 12442,
+      "lines": 302,
+      "sha256": "6620dfbf00c9a35a5b76b6315765ea38993b844d7354e25202b61a600cc018f3",
+      "root_read_scope": "root lines1-230 including BU.1-15; scoped inherited later mixed-pressure consequences"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_20260907.md",
+      "bytes": 10366,
+      "lines": 257,
+      "sha256": "0008aef30fe1bf6364e924b17d2830e0ed42b47da4cb5d2445feac980c8de3a4",
+      "root_read_scope": "root and B full"
+    },
+    {
+      "path": "research/clay_b_operator_budget_strength_20260906.md",
+      "bytes": 6912,
+      "lines": 172,
+      "sha256": "35d7b914b633cfbd821cdfbcff5a7ce7127e50e2cb1e20f00c4913a2e23e3c61",
+      "root_read_scope": "root and B full; external local theory remains inherited"
+    },
+    {
+      "path": "research/clay_b_signed_scale_local_budget_20260905.md",
+      "bytes": 7842,
+      "lines": 226,
+      "sha256": "2cb5c98182d42b3b68ef6ce74087009ee41ea6c3ac492e27413bf682c77fcf03",
+      "root_read_scope": "root full, including S.1-15"
+    }
+  ]
+}
