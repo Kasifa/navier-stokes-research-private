@@ -1,6 +1,6 @@
 # 纵向幅值应变的真实 NS 演化：符号预检
 
-2026-09-06。**WORKING / NOT FROZEN / INTERNAL PREFLIGHT / NOT CLAY。**
+2026-09-06。**LOCAL DERIVATION / CURRENT ESTIMATE UNCLOSED / NOT CLAY。**
 
 本稿只做黏性 \(\nu=1\) 的光滑周期 Navier--Stokes 方程中的局部代数。
 设
@@ -274,6 +274,7 @@ r076l_heat_chebyshev 对修订后实际全文独立审查 PASS，
 逐项复算两个 F 方程及其适用域，并确认前述边界。
 父级按该审查意见补明能量直接控制的 F 范数。
 
-本稿仍是独立工作预检，不属于已冻结的 PressureGeometry 包。
-下一步先检查可明确写出的加权积分抵消及其压力余项，
-不再逐点重复同一高阶导数估计，不把缺失临界条件加作既定事实。
+本稿不属于此前 PressureGeometry 包；现并入 PressureQuotient 小节，
+与 AF/AG 的积分抵消及 AH 的准确预算反例一同冻结。
+直接方向演化仍未闭合，不再逐点重复同一高阶导数估计，
+不把缺失临界条件加作既定事实。
