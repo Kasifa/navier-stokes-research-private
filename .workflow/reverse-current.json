@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Do not rerun either segment producer or completed comparator. Read actual limited arithmetic outcome and acceptance. Independent execution review accepted. Prepare and non-author review audit_m2_necessary_gate.py under M2_NECESSARY_GATE_EXECUTION_CONTRACT.md; root full read, source commit then one run only. B0 has not been computed. Preserve all four false flags and producer resource evidence gap. No new node, epsilon, time window, formal release or publication action.",
+  "next_action": "Do not rerun either producer, comparator or M2 gate. M2 single execution exit1 invalidated earlier receipt after peak increased32768B; temporary Q2/D/UNDECIDED are not accepted evidence. Preserve failure bytes. Read-only independent failure review accepted. Prove/review uniform-in-A>=A0 time-endpoint minimum for same explicit control family using existing baseline H ratio and late-time monotonicity; no new arrays, node, epsilon, m choice or scientific execution. Keep four flags false.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: \u6309\u65e2\u5b9a\u7684\u7b56\u7565\u6301\u7eed\u5f00\u5c55\u7814\u7a76; \u5982\u65e0\u7279\u522b\u9700\u8981\u6211\u6765\u786e\u8ba4\u7684\uff0c\u4f60\u5c31\u6301\u7eed\u5f00\u5c55\u4e0b\u53bb\uff0c\u4e0d\u9700\u8981\u505c\u987f",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "NO-CERTIFICATE-YET-FOR-FIXED-a; SEGMENT_ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP; FIXED_M2_INPUT_UNPAID",
+  "scientific_status": "NO-CERTIFICATE-YET-FOR-FIXED-a; SEGMENT_ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP; M2_GATE_NOT_ADMITTED_FAILED_FINAL_RECEIPT",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -173,7 +173,16 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_NEXT_INPUT_SCOPE_AUDIT.md",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_NEXT_INPUT_ROOT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_EXECUTION_CONTRACT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_EXECUTION_INDEPENDENT_REVIEW.md"
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_EXECUTION_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/m2-necessary-gate-root-tool-exit.json",
+    "research/reverse/fixed-seed-global-screen/m2-necessary-gate-root-nonadmission.json",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_MONOTONICITY.md",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_ROOT_SOURCE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_INDEPENDENT_SOURCE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/audit_m2_necessary_gate.py",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_FAILED_EXECUTION_REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -320,7 +329,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "e2686372b16c971c913abafcaeeb93a0f2233bad6d8ff4c1385c21ff47ceb42f",
+    "research/reverse/CHECKPOINT.md": "a27a84e633fafc5e8d34e331fdd0c83283e86f157a72ed022931f7e19f592e32",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -338,7 +347,16 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_NEXT_INPUT_SCOPE_AUDIT.md": "cecb56ff8cabe10bbce3d77fb1cef18458e4c32830f16220c1da69566937d490",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_NEXT_INPUT_ROOT_REVIEW.md": "ad5c06c2e1da43f46ab6d74abc73db3987af9e9090b6911e46a6985ed13a0049",
     "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_EXECUTION_CONTRACT.md": "7ee3b897fd2c7cabd7fbeedb8c0c053130bcdd7e46fbc1dd1c602fa3a454e9cd",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_EXECUTION_INDEPENDENT_REVIEW.md": "fe1986c2fc9fe78cc47663278296e10f76429bc399b1f784db3f361c4f9a0afd"
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_EXECUTION_INDEPENDENT_REVIEW.md": "fe1986c2fc9fe78cc47663278296e10f76429bc399b1f784db3f361c4f9a0afd",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_OUTCOME.md": "f92c42aa7cec594b22ef956f713cb319675d65e70a8c5521ca38d8cae227edf0",
+    "research/reverse/fixed-seed-global-screen/m2-necessary-gate-root-tool-exit.json": "b95206a428a7dd8bda1c36964067120349f55f673cd3875c5102caf97add2a8b",
+    "research/reverse/fixed-seed-global-screen/m2-necessary-gate-root-nonadmission.json": "a7fb6824507ee7b9cc3726f276eb0bdaa1be2587df5c1b653f38149e872baaaf",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_MONOTONICITY.md": "750262253c2e90f35ea15713438bf76bf08c752eed2ed94d2370d83d30f0b3ba",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_ROOT_REVIEW.md": "9601cee1282fb4ffd57c42ad75084fd922ed8c819980bebcfbad717639189c6a",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_ROOT_SOURCE_REVIEW.md": "9d2d56b52b547b3f4aa82f5baaa81f64a4eca67ff194af418f55fbb6e82bae23",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_INDEPENDENT_SOURCE_REVIEW.md": "151cd8181364f0c7d1c06a83b4b2c2d74ff65b9bb46f527148a719009d0d9f4c",
+    "research/reverse/fixed-seed-global-screen/audit_m2_necessary_gate.py": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd",
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_FAILED_EXECUTION_REVIEW.md": "0689cc2730ef9e046d8085308698ca35834bb6692acfd46acab6bbc2b51f2d3e"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -352,7 +370,7 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Completed limited arithmetic agreement; one fixed M2 necessary gate under source preparation",
+  "current_topic": "Single M2 gate NOT_ADMITTED after final receipt failure; continue bounded pure analytic endpoint-family extension",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
     "Two exact sources being implemented; stable source SHA and static preflight pending",
@@ -377,7 +395,7 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T21:10:13.853743+00:00",
+  "updated_at": "2026-09-07T21:23:23.652091+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "PROGRESS: reviewed and committed exact segment execution/comparison contracts, 20 small exact checks, two source implementations actively assigned; no science kernel run yet",
   "completed_unreleased_audits": [
@@ -644,8 +662,9 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_ARITHMETIC_OUTCOME.md",
-    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_EXECUTION_CONTRACT.md"
+    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_MONOTONICITY.md",
+    "research/reverse/fixed-seed-global-screen/M2_CONTROL_BUDGET_ROOT_REVIEW.md"
   ],
   "resume_read_note": "Use current checkpoint and actual unique run artifacts first. Review full mathematical sources when arguments require them. Closed old node/trajectory kernels are immutable inputs, not restart instructions.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
@@ -788,5 +807,24 @@
     "release_ready": false,
     "rerun_forbidden": true,
     "independent_execution_review_sha256": "fe1986c2fc9fe78cc47663278296e10f76429bc399b1f784db3f361c4f9a0afd"
+  },
+  "m2_necessary_gate_evidence": {
+    "status": "NOT_ADMITTED_FAILED_FINAL_RECEIPT",
+    "source_commit": "ca8d379a9496c4c6aadb1d6a1c8cffaf262b153c",
+    "source_sha256": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd",
+    "actual_exit_code": 1,
+    "tool_chunk_id": "7a3b03",
+    "reason": "LATE_PEAK_ABSENT_FROM_RECEIPT",
+    "receipt_peak_bytes": 32669696,
+    "later_peak_bytes": 32702464,
+    "observed_cap_overrun": false,
+    "temporary_scientific_values_accepted": false,
+    "root_nonadmission_sha256": "a7fb6824507ee7b9cc3726f276eb0bdaa1be2587df5c1b653f38149e872baaaf",
+    "producer_resource_complete": false,
+    "resource_complete": false,
+    "certificate_ready": false,
+    "release_ready": false,
+    "retry_forbidden": true,
+    "independent_failed_execution_review_sha256": "0689cc2730ef9e046d8085308698ca35834bb6692acfd46acab6bbc2b51f2d3e"
   }
 }

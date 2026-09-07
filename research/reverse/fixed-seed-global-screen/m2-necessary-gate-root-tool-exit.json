@@ -1,0 +1,16 @@
+{
+  "schema": "root-tool-execution-evidence-v1",
+  "command_scope": "Unique m2 necessary gate invocation; no retry",
+  "actual_tool_result": {
+    "chunk_id": "7a3b03",
+    "wall_time_seconds": 0.000002792,
+    "exit_code": 1,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "tool_result_received_by": "root",
+  "producer_resource_complete": false,
+  "resource_complete": false,
+  "certificate_ready": false,
+  "release_ready": false
+}

@@ -1,0 +1,66 @@
+{
+  "actual_exit_code": 1,
+  "actual_output_census_after_failure_record": 49568,
+  "actual_tool_exit_evidence": {
+    "bytes": 443,
+    "sha256": "b95206a428a7dd8bda1c36964067120349f55f673cd3875c5102caf97add2a8b"
+  },
+  "certificate_ready": false,
+  "earlier_receipt_invalid": true,
+  "failure_reason": "LATE_PEAK_ABSENT_FROM_RECEIPT",
+  "files": {
+    "m2-necessary-gate-trial-01/claim.json": {
+      "bytes": 6266,
+      "sha256": "2477990862808689a48d1fec87dc36266e31bb46e72ebdeee7f15a4993f1ed22"
+    },
+    "m2-necessary-gate-trial-01/configuration.json": {
+      "bytes": 4868,
+      "sha256": "71c13aacaca92018f44766033e55a283f83c2b0fb65f46650198a56c73b68702"
+    },
+    "m2-necessary-gate-trial-01/final-receipt.json": {
+      "bytes": 1797,
+      "sha256": "767c1f52bf39fb95612cfef066cf3d959b9acf4b7dfc1c1a3ed5429c30c0ceb5"
+    },
+    "m2-necessary-gate-trial-01/result.json": {
+      "bytes": 5341,
+      "sha256": "6c3b5670b15a0a8c7cc596c66a152441849964c65245255e7930e33a35cb2da4"
+    },
+    "m2-necessary-gate-trial-01/run.json": {
+      "bytes": 7180,
+      "sha256": "c71eab10927c1a8e31e93045cfb06e3b2220dccd3eb1ad6cc909e7f303c38578"
+    },
+    "m2-necessary-gate-trial-01/source-snapshot.py": {
+      "bytes": 23144,
+      "sha256": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd"
+    },
+    "m2-necessary-gate.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "m2-necessary-gate.stdout.log": {
+      "bytes": 972,
+      "sha256": "a0af8414a0fc2f3853a66a2969fb97597f2856048ba96c37823e3b1a9f6414bb"
+    }
+  },
+  "intermediate_decision_not_accepted": true,
+  "interpretation": "One sum completed but final admission failed. Do not use provisional numeric values as accepted scientific evidence. Preserve immutable failure; no rerun, source repair or receipt rewrite.",
+  "late_observation": {
+    "all_output_bytes": 49112,
+    "elapsed_seconds": 0.04916679114103317,
+    "self_peak_rss_bytes": 32702464,
+    "single_process_no_children": true
+  },
+  "later_observed_peak": 32702464,
+  "observed_resource_cap_overrun": false,
+  "peak_increase_bytes": 32768,
+  "producer_resource_complete": false,
+  "receipt_peak": 32669696,
+  "release_ready": false,
+  "resource_complete": false,
+  "retry_forbidden": true,
+  "schema": "root-m2-gate-nonadmission-v1",
+  "scientific_sum_repeated": false,
+  "source_commit": "ca8d379a9496c4c6aadb1d6a1c8cffaf262b153c",
+  "source_sha256": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd",
+  "status": "NOT_ADMITTED_FAILED_FINAL_RECEIPT"
+}
