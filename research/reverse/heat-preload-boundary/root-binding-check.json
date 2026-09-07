@@ -1,0 +1,14 @@
+{
+  "scope": "Actual byte checks; not mathematical recomputation",
+  "checker_sha256": "d960d44ba953864f82bf009db847d646035ae9d08799e2d7439fafa92810872f",
+  "independent_review_sha256": "d220159daf7ba99d53f8abd84314259a8fc90684623921d2139e4a49121d3a8d",
+  "counts": {
+    "history-review-inputs.json": 20,
+    "history-search-manifest.json": 283,
+    "INDEPENDENT_REVIEW.md": 7,
+    "DERIVATION.md": 3
+  },
+  "total": 313,
+  "all_match": true,
+  "failures": []
+}

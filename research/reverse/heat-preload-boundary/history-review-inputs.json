@@ -1,0 +1,178 @@
+{
+  "schema": "heat-preload-history-review-inputs-v1",
+  "generated_at_utc": "2026-09-07T15:05:24.434937+00:00",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "review_scope": "bounded history and source applicability; limited independent check of H.1–H.15; not final preflight review",
+  "external_originals_read_this_task": [],
+  "new_scientific_computation": false,
+  "additional_directed_queries": [
+    {
+      "name": "r073a_shear_spectrum",
+      "argv": [
+        "rg",
+        "-n",
+        "--",
+        "heat evolution can cross a spectral boundary|spectrally stable|spectrally unstable",
+        "research/r073a_literature_audit.md"
+      ],
+      "exit_code": 0,
+      "matches": 4
+    },
+    {
+      "name": "r073yz_spatial_variance",
+      "argv": [
+        "rg",
+        "-n",
+        "--",
+        "Heat covariances|variance formulas|P_s=e|\\\\tau_\\{11,s\\}|k_s=|D_s=",
+        "research/r073y_exact_shear_no_go.md",
+        "research/r073z_finiteness_obstruction_and_repair.md"
+      ],
+      "exit_code": 0,
+      "matches": 10
+    },
+    {
+      "name": "r073q_heat_norm_reference",
+      "argv": [
+        "rg",
+        "-n",
+        "--",
+        "a priori global solution|uniform critical heat|reference orbit|mathfrak X",
+        "research/r073q_heat_flow_stability_proof.md"
+      ],
+      "exit_code": 0,
+      "matches": 19
+    },
+    {
+      "name": "r05_quantity_definition",
+      "argv": [
+        "rg",
+        "-n",
+        "--",
+        "criticalRatio:|hHalf =|hThreeHalf =",
+        "research/critical-packet-heat.mjs"
+      ],
+      "exit_code": 0,
+      "matches": 3
+    }
+  ],
+  "actual_read_inputs": [
+    {
+      "path": "research/reverse/heat-preload-boundary/CONTRACT.md",
+      "bytes": 1852,
+      "sha256": "9d78b048092b9b6af2dfa8ba44896bec39a5c9145aa1a28373c96bffb6377784",
+      "read_scope": "全文"
+    },
+    {
+      "path": "research/reverse/heat-preload-boundary/DERIVATION.md",
+      "bytes": 13815,
+      "sha256": "333d5708b253a3f86d52324dd7e28e97b941afcf9c7c71c9b041616df0bc6a1a",
+      "read_scope": "全文 H.1–H.15；绑定核验发现作者新增 H.7a–c 并收紧 H.15 后，已再次全文实读和独立检查角距离推导"
+    },
+    {
+      "path": "public/notes/r0-5.html",
+      "bytes": 31325,
+      "sha256": "86d8e956fa233b6d14869afe7920e821708cb6f58f14586d0bf29b0441cf2a6d",
+      "read_scope": "§2–5，lines340–500"
+    },
+    {
+      "path": "research/critical-packet-heat.mjs",
+      "bytes": 5857,
+      "sha256": "cd98db2c098095deccbba3038faba1c02fc29b7a1d170523f7c78cc1080951a4",
+      "read_scope": "heatSnapshot，lines64–104；仅实读，未运行旧数值脚本"
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "bytes": 31861,
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a",
+      "read_scope": "§0，§6命题3，§8；lines175–205,395–450,480–520"
+    },
+    {
+      "path": "public/notes/r0-16.html",
+      "bytes": 25581,
+      "sha256": "eb91089aed6d639fb023fa5168da1f5ffc9a04f5426d1981357d295dc4d58b8c",
+      "read_scope": "§6–7，lines360–405"
+    },
+    {
+      "path": "research/r073a_literature_audit.md",
+      "bytes": 15435,
+      "sha256": "89fef1f0aef01d36375f84602a3756b54e4803d0f0fce9c3b990d4269882be6b",
+      "read_scope": "§1–2.5，lines1–180；特别§2.4 lines100–113；仅本地历史记录"
+    },
+    {
+      "path": "research/r073n_fixed_background_no_go_proof.md",
+      "bytes": 12708,
+      "sha256": "39502f59b68f9a9e48a1ebbb5b6ed3425492941c0f9b1db9274dd8e2ebbfbceb",
+      "read_scope": "§1–2，lines1–155"
+    },
+    {
+      "path": "research/r073p_critical_frequency_proof.md",
+      "bytes": 12982,
+      "sha256": "817ac29f44ff5debcd531cac8dd1e82bc13ff3a0e4758017afd2e230ce0feb0a",
+      "read_scope": "§1–3，lines1–165"
+    },
+    {
+      "path": "research/r073q_heat_flow_stability_proof.md",
+      "bytes": 13593,
+      "sha256": "dba6d93ba3be0837f014b8f157afb8a7a6175ac6312e09cc3d10afdfc17fa1be",
+      "read_scope": "§1–3开头，lines1–155"
+    },
+    {
+      "path": "research/r073r_lp_caloric_certificate_proof.md",
+      "bytes": 16433,
+      "sha256": "f1d1377b502ff736ee9bedb2572c553255600d061612a4d4590da66a091b0eee",
+      "read_scope": "§1，lines1–122；Lemma5.1–5.3及实际相关证明段，lines400–555"
+    },
+    {
+      "path": "research/r073y_exact_shear_no_go.md",
+      "bytes": 21563,
+      "sha256": "2574f2caf19248a17d25f811488db1c7b30295efd07e59852c3afa17cf8f69e4",
+      "read_scope": "§3，lines230–282"
+    },
+    {
+      "path": "research/r073z_finiteness_obstruction_and_repair.md",
+      "bytes": 18226,
+      "sha256": "42728153e9b2c784281e64f00990413d41124627b08dfda656d4c7c40bd351f7",
+      "read_scope": "§0–1，lines1–165"
+    },
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "bytes": 12364,
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a",
+      "read_scope": "§1–6，lines1–260：FA.1–FA.16及完整NS余项"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "bytes": 10994,
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "read_scope": "本轮复读§1–3开头，lines1–140；全文为前轮独立作者审计，当前来源用途限精确分解和明确假设"
+    }
+  ],
+  "search_evidence": [
+    {
+      "path": "research/reverse/heat-preload-boundary/history-search-manifest.json",
+      "bytes": 51192,
+      "sha256": "817c98edc1bc4a0448d23799efaacf950110d254c463637993cbf3cdefb14508"
+    },
+    {
+      "path": "research/reverse/heat-preload-boundary/01_heat_fraction.log",
+      "bytes": 5110,
+      "sha256": "51aab68d91640b60bfbd91fa30dccb5f24bc32bc098dda75ac12e1bd3e5826ea"
+    },
+    {
+      "path": "research/reverse/heat-preload-boundary/02_fraction_budget.log",
+      "bytes": 825,
+      "sha256": "9ab894eaeab30483ca4db92e77957663c1d2e96b3cd001f656330cad4d7cf154"
+    },
+    {
+      "path": "research/reverse/heat-preload-boundary/03_relative_projection.log",
+      "bytes": 3861,
+      "sha256": "3176728a95a1dc70c90c07f88046b994b15a19e1664e97ad619b53b5c68b673f"
+    },
+    {
+      "path": "research/reverse/heat-preload-boundary/04_directed_interfaces.log",
+      "bytes": 3222,
+      "sha256": "f855e64b14c2d8e3aa15760f2dbd0e1fee9d18b0bb1d5ddf22beba691fc4ceca"
+    }
+  ]
+}

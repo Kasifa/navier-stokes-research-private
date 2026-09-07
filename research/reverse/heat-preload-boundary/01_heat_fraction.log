@@ -1,0 +1,33 @@
+public/notes/r0-16.html:389:            <li>这个有限树在热耗散和高阶余项下仍保持同样比例；</li>
+public/notes/r0-5.html:424:            三线性量在表中一直同号。临界比值先上升并不表示非线性增长；分子和分母都在热衰减，比例可以增加。
+research/r073i_literature_audit.md:182:operator of the heat-evolving monotone shear have neither eigenvalues nor
+research/r073n_claim_source_ledger.md:16:| LS5 | full-path assumptions can yield nonlinear stability of exact heat-evolving monotone shears | [Li--Zhao](https://arxiv.org/abs/2306.03555) | stable-side neighboring theorem | monotone geometry and full-path Rayleigh hypotheses differ |
+research/r073m_claim_source_ledger.md:11:| LS5 | a full-path spectrally stable heat-evolving monotone shear can remain nonlinearly stable at the sharp threshold | [Li--Zhao](https://arxiv.org/abs/2306.03555) | conflict check | assumes the relevant Rayleigh path remains spectrally stable |
+research/r073n_literature_audit.md:199:Li and Zhao prove nonlinear asymptotic stability for heat-evolving monotone
+research/r073r_report-source.md:380:matchedPhaseHeatTraceSeparation=CLOSED_AFTER_AUDIT
+research/r073r_primary_literature_audit.md:235:6. their \(m^{2/3}\) heat-trace ratio and the scaled separation;
+research/r073q_finite_diagnostic_audit.md:106:`research/figures/r073q/fig-r073q-heat-flow-separation` contains exactly 25
+research/r073r_problem_freeze.md:79:Fourier support and coefficient magnitudes, while its heat traces have ratio
+research/r073r_bilingual_dictionary.md:28:| phase-coherence separation | 相位相干分离 | The matched pair has critical heat traces whose ratio grows like \(m^{2/3}\), despite identical quadratic spectral data. |
+research/r073r_bilingual_dictionary.md:45:matchedPhaseHeatTraceSeparation=CLOSED_AFTER_AUDIT
+research/r073r_bilingual_dictionary.md:82:  the heat entrance without the additional concentration information.
+research/r073q_report-source.md:68:这一步关闭的是一类有热扩散结构的高频入口，不是任意
+research/r073t_bilingual_dictionary.md:184:| Heat-weighted sign pair | The signed separation is \(-768Le^{-8\tau L^2}\). | Heat weighting restores scale sensitivity, but the scalar heat-weighted state still does not close the signed vector flux. The sign pair has the same pressure and tensor, and the statement is not a closed heat hierarchy. |
+research/r073r_lp_caloric_certificate_proof.md:522:### Lemma 5.3: heat-flow separation
+research/r073t_report-source.md:391:   heat 权重全部用 `Fraction` 稀疏卷积复算；最终封印通过 `55/55`
+research/r073w_primary_literature_audit.md:203:is the standard heat-semigroup representation of a fractional inverse.  When
+research/r073u_parent_draft_audit.md:105:| Dilation and heat factor | PASS | The sign-pair separation is \(2Le^{-5sL^2}K\); its Frobenius norm at \(s=\theta L^{-2}\) is \(2\sqrt6Le^{-5\theta}=2\sqrt{6\theta}e^{-5\theta}s^{-1/2}\). |
+research/r073x_report-source.md:1:# R0.73X | Localized heat ledgers with explicit exterior tails: Gaussian velocity control, algebraic pressure tails, and the open coercivity bridge
+research/r073v_report-source.md:1:# R0.73V | A pressure-aware signed third-order heat lift: exact scale generation and the 3→4 physical-time boundary
+research/r073x_primary_literature_audit.md:314:Pressure covariance, heat tails, cutoff leakage, and the defect measure must
+research/r073x_bilingual_dictionary.md:8:**Release title:** R0.73X | Localized heat ledgers with explicit exterior tails: Gaussian velocity control, algebraic pressure tails, and the open coercivity bridge
+research/r073x_bilingual_dictionary.md:74:| \(0<\theta\le1\) | maximum heat-scale fraction |
+research/r073x_bilingual_dictionary.md:94:| 直接 heat 传播产生 Gaussian 尾；harmonic pressure 由椭圆核产生代数尾，两者不能混写。 | “Direct heat propagation produces Gaussian tails; harmonic pressure produces an algebraic tail through the elliptic kernel, and the two mechanisms must not be conflated.” |
+research/r073w_signed_production_heat_characteristic.md:492:and heat-scale integrations in (7.5), then takes an absolute value.  It is not
+research/r073x_claim_source_ledger.md:73:2. Gaussian heat tails and algebraic harmonic-pressure tails are different
+research/r073v_bilingual_dictionary.md:8:**Release title:** R0.73V | A pressure-aware signed third-order heat lift: exact scale generation and the 3→4 physical-time boundary
+research/r073v_bilingual_dictionary.md:35:| 底 heat 尺度的阶数分离 | Order separation at the bottom heat scale |
+research/r073v_bilingual_dictionary.md:279:**English:** R0.73V gives an exact heat-scale generation law for a
+research/r073x_localized_heat_characteristic.md:526:* **Heat-kernel tails.**  A compactly supported \(\chi\) does not localize
+research/r073x_localized_heat_characteristic.md:562:An estimate of the type (X8.1), with all pressure and heat-tail payments and
+research/r073z_finiteness_obstruction_and_repair.md:626:torus the nonlocal heat tail makes the exact kernel smaller, but no

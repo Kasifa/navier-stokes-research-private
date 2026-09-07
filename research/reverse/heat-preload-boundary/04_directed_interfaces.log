@@ -1,0 +1,47 @@
+# r073a_shear_spectrum
+# argv = ["rg", "-n", "--", "heat evolution can cross a spectral boundary|spectrally stable|spectrally unstable", "research/r073a_literature_audit.md"]
+100:### 2.4 Li--Zhao: heat evolution can cross a spectral boundary
+106:**Checked content:** the authors construct a shear that is spectrally stable
+107:initially but becomes spectrally unstable under heat evolution.
+299:| all-start propagation is possible under strong hypotheses | Li--Zhao, Proposition 3.1 | monotone and spectrally stable at every time |
+
+# r073yz_spatial_variance
+# argv = ["rg", "-n", "--", "Heat covariances|variance formulas|P_s=e|\\\\tau_\\{11,s\\}|k_s=|D_s=", "research/r073y_exact_shear_no_go.md", "research/r073z_finiteness_obstruction_and_repair.md"]
+research/r073y_exact_shear_no_go.md:267: \tau_{11,s}
+research/r073y_exact_shear_no_go.md:276: k_s={1\over2}\operatorname{tr}\tau_s
+research/r073y_exact_shear_no_go.md:282:As a consistency check, \(\tau_{11,s}\ge0\); its minimum is
+research/r073z_finiteness_obstruction_and_repair.md:48: k_s={1\over2}\left(P_s|u|^2-|P_su|^2\right).
+research/r073z_finiteness_obstruction_and_repair.md:62:## 1. Heat covariances and conventions
+research/r073z_finiteness_obstruction_and_repair.md:64:Let \(P_s=e^{s\Delta}\) be the periodic heat semigroup.  For almost every
+research/r073z_finiteness_obstruction_and_repair.md:77:We abbreviate \(D_s=D_{ii,s}\).  If \(K_s^{\rm per}\) denotes the strictly
+research/r073z_finiteness_obstruction_and_repair.md:78:positive periodic heat kernel, the exact variance formulas are
+research/r073z_finiteness_obstruction_and_repair.md:104: D_s=2\int_0^sP_{s-r}|\nabla^2P_ru|_F^2\,dr,
+research/r073z_finiteness_obstruction_and_repair.md:111: k_s=\int_0^sP_{s-r}|\nabla P_ru|_F^2\,dr.
+
+# r073q_heat_norm_reference
+# argv = ["rg", "-n", "--", "a priori global solution|uniform critical heat|reference orbit|mathfrak X", "research/r073q_heat_flow_stability_proof.md"]
+21:be an a priori global solution of the unforced incompressible
+27: \|f\|_{\mathfrak X}:=\|e^{t\Delta}f\|_{E(0,\infty)}.
+31:For mean-zero periodic distributions, \(\mathfrak X\) is the heat-semigroup
+34:### Theorem 1.1: uniform critical heat-flow stability
+36:There exists a number \(\rho_{\mathfrak X}[u]>0\), depending only on the
+37:fixed reference orbit through
+48: \|v_0-u(t_0)\|_{\mathfrak X}<\rho_{\mathfrak X}[u],
+64: \le 2K[u]\|w(t_0)\|_{\mathfrak X},
+356: \delta:=\|Sw_0\|_E=\|w_0\|_{\mathfrak X}.
+394: \rho_{\mathfrak X}[u]
+399:If \(\delta<\rho_{\mathfrak X}[u]\), then
+459: \|f\|_{\mathfrak X}
+465:\(\rho_{\mathfrak X}[u]/C_X\).  This statement does not compare that radius
+490: \|w_N\|_{\mathfrak X}^4
+500: \|w_N\|_{\mathfrak X}={c_6\over4^{1/4}}N^{-3/4}\to0.
+521: \|w_N\|_{\mathfrak X}<R,
+527:Taking \(R=\rho_{\mathfrak X}[u]\) proves that the heat-flow tube reaches
+534: \cup\{f:\|f\|_{\mathfrak X}<\rho_{\mathfrak X}[u]\}.
+549:small \(\mathfrak X\)-norm.
+
+# r05_quantity_definition
+# argv = ["rg", "-n", "--", "criticalRatio:|hHalf =|hThreeHalf =", "research/critical-packet-heat.mjs"]
+90:  const hHalf = Math.sqrt(hHalfSquared.sum);
+91:  const hThreeHalf = Math.sqrt(hThreeHalfSquared.sum);
+97:    criticalRatio: Math.abs(trilinear.sum) / (hHalf * hThreeHalf ** 2),

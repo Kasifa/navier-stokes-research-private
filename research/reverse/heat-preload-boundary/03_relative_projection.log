@@ -1,0 +1,24 @@
+public/notes/r0-10.html:196:            <div class="status-item"><span>PROVED</span><strong>相对泄漏 \(O(\delta^2)\)</strong><p>目标能量为 \(c_*\delta^3+O(\delta^4)\)，非目标能量为 \(O(\delta^5)\)。</p></div>
+public/notes/r0-10.html:510:            理论常数 \(c_*=0.00151916543\) 落在观测范围内；相对泄漏除以 \(\delta^2\) 保持在 0.83 到 0.85。
+research/r073c_fast_transfer_agent.md:326:| complement-to-unstable feedback | \(O(\varepsilon^2)\) with gap | relative \(O(\varepsilon^2T)\) |
+research/r073e_literature_audit.md:440:> projection perturbation, resolvent--semigroup theory, and nonautonomous
+research/r073n_fixed_background_no_go_proof.md:479:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073n_claim_source_ledger.md:21:| N1 | every coexisting perturbation satisfies the explicit relative \(L^2\) bound on its common strong lifespan | R0.73N Section 2 direct integration by parts | internal continuum theorem | does not by itself prove global three-dimensional continuation |
+research/r073n_adversarial_audit.md:213:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073p_independent_analytic_audit.md:173:Three unit windows transfer the early relative \(L^2\) estimate to \(H^3\),
+research/r073n_bilingual_dictionary.md:33:| 共同强解寿命 | common strong lifespan | The relative \(L^2\) estimate is valid there for arbitrary three-dimensional comparisons. It becomes all-time only in the planar subsystem or inside the proved \(H^3\) tube. |
+research/r073n_bilingual_dictionary.md:151:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073n_gap_matrix.md:14:| G6 | Does every fixed member have finite relative \(L^2\) gain? | exact relative-energy identity and finite integrated strain | CLOSED on the common strong lifespan | call it all-time only for global comparison solutions |
+research/r073n_gap_matrix.md:17:| G9 | Is the planar subsystem FPS-style \((H^3_{\mathrm{pl}},L^2_{\mathrm{pl}})\) stable? | planar invariance, two-dimensional global regularity, and the relative \(L^2\) bound | CLOSED INTERNALLY | restrict both \(X\) and \(Z\) to the planar phase space |
+research/r073n_literature_audit.md:75:   the relative \(L^2\) estimate give genuine FPS-style
+research/r073n_literature_audit.md:352:> relative \(L^2\) estimate and two-dimensional global regularity give
+research/r073n_problem_freeze.md:381:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073n_independent_analytic_audit.md:41:## 2. Relative \(L^2\) bound
+research/r073n_independent_analytic_audit.md:301:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073n_report-source.md:354:| fixed-time relative \(L^2\) bound | CLOSED | direct nonlinear integration by parts and Gronwall |
+research/r073n_report-source.md:356:| planar synchronized \((H^3_{\rm pl},L^2_{\rm pl})\) stability | CLOSED | planar invariance, global 2D regularity, and relative \(L^2\) bound |
+research/r073n_report-source.md:495:fixedTimeRelativeL2LipschitzBound=CLOSED
+research/r073p_report-source.md:11:第一，对一条固定的先验全局强参考轨道 \(u\)，任意 Leray--Hopf 比较解都满足从初时刻开始的相对 \(L^2\) 能量估计和指数衰减；这不需要小量条件，但只控制弱解距离，不会自动把比较解变成早期强解。
+research/r073p_bilingual_dictionary.md:16:| all-time weak relative-energy stability | 全时弱相对能量稳定 | \(L^2\) comparison for every Leray--Hopf selection; no early strong-regularity claim |
+research/r073p_claim_source_ledger.md:8:| C2 | Relative weak \(L^2\) energy and exponential decay | Classical/internal derivation | Weak--strong relative energy; `r073p_critical_frequency_proof.md` Section 3 | Applies to every Leray--Hopf comparison selection |
+research/r073p_critical_frequency_proof.md:100:## 3. All-time relative \(L^2\) stability for every Leray--Hopf solution

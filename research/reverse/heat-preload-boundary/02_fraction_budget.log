@@ -1,0 +1,4 @@
+public/notes/r0-5.html:468:            “支撑外”是初始六叶支撑之外的 \(\dot H^{1/2}\) 能量比例；“热流对齐”是当前状态与纯热流状态的加权余弦。
+research/r073r_bilingual_dictionary.md:109:auditable shellwise energy--concentration budget and uses a divergence-free
+research/r073r_claim_source_ledger.md:11:| C4 | \(\Theta_j^{2/3}E_j^4=\|P_jf\|_6^4\), so the shell-concentration budget is exactly a reparameterization of the classical Besov norm | `INTERNAL_EXACT` | Algebra from the definitions of \(E_j\) and \(\Theta_j\); [analytic proof](r073r_lp_caloric_certificate_proof.md), equations (1.4)--(1.7) | Energy/concentration bookkeeping interface only |
+research/r073r_shell_concentration_candidate.md:42:separates shell energy from spatial concentration and admits an exact finite
