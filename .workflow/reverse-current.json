@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Freeze and hand off the bounded packet route screen once, then define one explicit local concentration/periodic pressure matching test; do not extend the rejected six-mode jet route.",
+  "next_action": "Send GlobalPacketScreen once for PRIVATE_ARCHIVE, then define one explicit local concentration/periodic matching contract without extending the rejected six-mode route.",
   "resume_action": "Read driver-dominance draft and latest checkpoint; user explicitly resumed research after the recorded pause.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instruction: 恢复研究",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-GlobalPacketScreen",
-  "scientific_status": "PACKET_SCREEN_REVIEW_COMPLETE_READY_FOR_FREEZE",
+  "scientific_status": "PACKET_SCREEN_RESEARCH_COMPLETE_NO_CANDIDATE",
   "accepted": "NO-CANDIDATE for direct regeneration of the six-mode seed: known center gate, failed similarity, and conditional global-copy/self-action energy obstruction.",
   "required_files": [
     "research/reverse/route-screen/ENERGY_SCREEN.md",
@@ -31,8 +31,8 @@
     "research/reverse/driver-dominance/freeze.json": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260907-DriverDominance",
-  "source_commit": null,
+  "last_completed_release": "ReverseNS-20260907-GlobalPacketScreen",
+  "source_commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
   "freeze_manifest": "research/reverse/route-screen/freeze.json",
   "handoff_state": "NOT_SENT_PENDING_FREEZE",
   "protocol_hashes": {
