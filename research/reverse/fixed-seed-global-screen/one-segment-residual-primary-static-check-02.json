@@ -1,0 +1,30 @@
+{
+  "ASCII": true,
+  "AST": true,
+  "command": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/audit_one_segment_residual.py --check-only",
+  "config_sha256": "d67fb54134a11fb93ca56e4ed8bafe6094840e5d4e327a2a90a1f4479c051372",
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "executed_at_utc": "2026-09-07T20:10:50.488095+00:00",
+  "exit_code": 0,
+  "fixed_pin_count": 27,
+  "preflight_status": "STATIC_PINS_PASS_SOURCE_REVIEW_NOT_BOUND",
+  "reason_for_second_static_check": "source changed only to continue cleanup after per-PID grace-period wait4 errors; first static evidence retained unchanged",
+  "science_run_directory_after": false,
+  "science_run_directory_before": false,
+  "scientific_kernel_executed": false,
+  "source_sha256": "f8f871684d68303de24a8901abb35266969d2f978d218ca9d14cd16ce45fac63",
+  "source_unchanged": true,
+  "status": "STATIC_CHECK_PASS",
+  "stderr": {
+    "bytes": 0,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-primary-static-check-02.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 5690,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-primary-static-check-02.stdout.log",
+    "sha256": "7ec028a3c58113e78eaf056d2760bc03da3d1c8026d58afa4bd1e3a140b5141d"
+  },
+  "target_entry": "--check-only",
+  "wall_seconds": 0.14795508300000002
+}

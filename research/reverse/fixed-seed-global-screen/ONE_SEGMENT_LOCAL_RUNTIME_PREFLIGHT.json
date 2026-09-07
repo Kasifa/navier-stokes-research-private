@@ -1,0 +1,185 @@
+{
+  "schema": "ns.reverse.local-runtime-preflight.v1",
+  "started_utc": "2026-09-07T19:50:06.854649+00:00",
+  "finished_utc": "2026-09-07T19:50:06.879654+00:00",
+  "working_directory": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "scope": "Read-only OS/runtime metadata preflight; no scientific arrays, kernels, integer multiplication benchmark, environment mutation, installation, process termination, or remote transfer. Scientific execution counters are not consumed.",
+  "invocation": {
+    "argv": [
+      "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "-"
+    ],
+    "script_source": "Python stdin standard-library metadata and subprocess wrapper; exact OS command argv/output/timestamps are retained in commands. Runtime metadata expressions are retained below.",
+    "scientific_runs_started": 0,
+    "metadata_query_expressions": [
+      "sys.executable",
+      "os.path.realpath(sys.executable)",
+      "platform.python_version()",
+      "sys.version",
+      "platform.python_implementation()",
+      "sys.flags.optimize",
+      "sys.dont_write_bytecode",
+      "platform.platform()",
+      "platform.system()",
+      "platform.release()",
+      "platform.machine()",
+      "importlib.metadata.distribution(\"numpy\").version",
+      "importlib.metadata.distribution(\"numpy\").metadata.get(\"Requires-Python\")",
+      "str(importlib.metadata.distribution(\"numpy\").locate_file(\"numpy-\" + dist.version + \".dist-info\"))",
+      "os.cpu_count()"
+    ]
+  },
+  "runtime": {
+    "requested_python": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "sys_executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "real_executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "python_version": "3.12.14",
+    "sys_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "implementation": "CPython",
+    "optimization_flag": 0,
+    "dont_write_bytecode": true,
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "system": "Darwin",
+    "release": "25.6.0",
+    "machine": "arm64",
+    "numpy_metadata_version": "2.3.5",
+    "numpy_requires_python": ">=3.11",
+    "numpy_metadata_location": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy-2.3.5.dist-info",
+    "numpy_imported": false,
+    "logical_cpu_python": 18
+  },
+  "commands": [
+    {
+      "label": "hardware",
+      "argv": [
+        "/usr/sbin/sysctl",
+        "hw.model",
+        "machdep.cpu.brand_string",
+        "hw.logicalcpu",
+        "hw.physicalcpu",
+        "hw.memsize",
+        "hw.machine"
+      ],
+      "started_utc": "2026-09-07T19:50:06.868330+00:00",
+      "elapsed_seconds": 0.0023566249292343855,
+      "returncode": 0,
+      "stdout": "hw.model: Mac17,7\nmachdep.cpu.brand_string: Apple M5 Max\nhw.logicalcpu: 18\nhw.physicalcpu: 18\nhw.memsize: 38654705664\nhw.machine: arm64\n",
+      "stderr": "",
+      "status": "READ_OK"
+    },
+    {
+      "label": "load_average",
+      "argv": [
+        "/usr/sbin/sysctl",
+        "vm.loadavg"
+      ],
+      "started_utc": "2026-09-07T19:50:06.870699+00:00",
+      "elapsed_seconds": 0.0015861671417951584,
+      "returncode": 0,
+      "stdout": "vm.loadavg: { 3.38 2.92 2.87 }\n",
+      "stderr": "",
+      "status": "READ_OK"
+    },
+    {
+      "label": "memory_pressure_query",
+      "argv": [
+        "/usr/bin/memory_pressure",
+        "-Q"
+      ],
+      "started_utc": "2026-09-07T19:50:06.872302+00:00",
+      "elapsed_seconds": 0.0021150840912014246,
+      "returncode": 0,
+      "stdout": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 46%\n",
+      "stderr": "",
+      "status": "READ_OK"
+    },
+    {
+      "label": "virtual_memory_snapshot",
+      "argv": [
+        "/usr/bin/vm_stat"
+      ],
+      "started_utc": "2026-09-07T19:50:06.874435+00:00",
+      "elapsed_seconds": 0.002846416784450412,
+      "returncode": 0,
+      "stdout": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                    11528.\nPages active:                                 523091.\nPages inactive:                               531002.\nPages speculative:                               992.\nPages throttled:                                   0.\nPages wired down:                             327334.\nPages purgeable:                               26201.\n\"Translation faults\":                    17357528817.\nPages copy-on-write:                      1217111824.\nPages zero filled:                        7842534399.\nPages reactivated:                         671198191.\nPages purged:                              645750155.\nFile-backed pages:                            308649.\nAnonymous pages:                              746436.\nPages stored in compressor:                  4535629.\nPages occupied by compressor:                 904832.\nDecompressions:                           2813383186.\nCompressions:                             3101586750.\nPageins:                                   383452944.\nPageouts:                                   12131941.\nSwapins:                                     9984705.\nSwapouts:                                   21516315.\nPages tagged:                                 256502.\nPages tagged resident:                        144713.\nPages tagged compressed:                      111789.\nPages tag-storage:                             73728.\nPages tag-storage holding tags:                 9400.\nPages tag-storage free:                          201.\nPages tag-storage non-tag pageable:            64112.\nPages tag-storage non-tag wired:                  15.\nBytes of compressed tags:                   18070080.\nTagged compressions:                        65094294.\nTagged decompressions:                      62624928.\n",
+      "stderr": "",
+      "status": "READ_OK"
+    },
+    {
+      "label": "filesystem_capacity",
+      "argv": [
+        "/bin/df",
+        "-Pk",
+        "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+      ],
+      "started_utc": "2026-09-07T19:50:06.877311+00:00",
+      "elapsed_seconds": 0.0023174581583589315,
+      "returncode": 0,
+      "stdout": "Filesystem   1024-blocks      Used  Available Capacity  Mounted on\n/dev/disk3s5  1948404040 834750540 1075826908    44%    /System/Volumes/Data\n",
+      "stderr": "",
+      "status": "READ_OK"
+    }
+  ],
+  "candidate_scope": {
+    "primary_and_independent_order": "SEQUENTIAL; never both six-worker kernels at once",
+    "workers_per_kernel": 6,
+    "parent_process_additional": true,
+    "wall_limit_seconds_per_kernel": 600,
+    "total_observed_rss_limit_bytes_per_kernel": 2147483648,
+    "total_output_limit_bytes_per_kernel": 536870912,
+    "proven_peak_or_runtime": false
+  },
+  "assessment": {
+    "status": "NO_OBVIOUS_CURRENT_CAPACITY_BLOCKER_METADATA_ONLY",
+    "assessed_utc": "2026-09-07T19:51:29.260708+00:00",
+    "runtime_metadata": "The exact requested bundled executable resolves to Python 3.12.14, unoptimized, arm64; NumPy distribution metadata is 2.3.5 with Requires-Python >=3.11. This confirms installed metadata, not native import or array IO.",
+    "cpu": "Eighteen OS-reported logical cores and load averages 3.38/2.92/2.87 show no obvious current saturation blocker for one six-worker group plus parent. No cores are reserved and load may change.",
+    "memory": "Physical RAM is 36 GiB and memory_pressure -Q reported 46% system-wide memory free. The 2 GiB per-run total observed-RSS cap has no obvious present capacity blocker. vm_stat includes compressed memory and a small raw free-page count; these are not interpreted as an allocatable byte guarantee.",
+    "disk": "Available bytes exceed 1 TiB, far above two retained 512 MiB output caps for sequential runs. This does not certify the implementation will obey either output cap.",
+    "execution_order": "Only one six-worker scientific kernel and its parent at a time; primary and independent runs are sequential. No scientific run was started.",
+    "not_verified": [
+      "NumPy native extension import/ABI and actual NPY/NPZ reading",
+      "worker startup and auxiliary-process resource reporting",
+      "scientific peak RSS, transient allocations, wall time, or final archive size",
+      "scientific correctness or Gamma threshold",
+      "availability remaining unchanged until execution"
+    ],
+    "limitation": "This snapshot is not a kernel peak, runtime, archive, or successful-execution certificate. Both real runs must still pass their complete live and write-after-final resource gates. No run authorization is inferred from this preflight."
+  },
+  "observations": {
+    "captured_local_time_zone": "Asia/Shanghai (UTC+08:00)",
+    "measurement_start_local": "2026-09-08T03:50:06.854649+08:00",
+    "hardware_model": "Mac17,7",
+    "cpu_brand": "Apple M5 Max",
+    "architecture": "arm64",
+    "logical_cores": 18,
+    "physical_cores_os_reported": 18,
+    "physical_ram_bytes": 38654705664,
+    "physical_ram_gib": 36,
+    "load_average_1m_5m_15m": [
+      3.38,
+      2.92,
+      2.87
+    ],
+    "os_memory_free_percentage_reported": 46,
+    "os_memory_free_percentage_is_not_a_byte_guarantee": true,
+    "filesystem_available_kib": 1075826908,
+    "filesystem_available_bytes": 1101646753792,
+    "filesystem_available_gib_approx": 1025.9884910583496,
+    "filesystem_capacity_used_percent": 44,
+    "two_sequential_runs_max_persistent_output_bytes": 1073741824
+  },
+  "status": "READ_ONLY_ENVIRONMENT_PREFLIGHT_COMPLETE",
+  "prohibited_actions_performed": {
+    "environment_variables_modified": false,
+    "software_installed": false,
+    "numpy_imported": false,
+    "scientific_arrays_loaded": false,
+    "scientific_kernel_started": false,
+    "integer_convolution_or_multiplication_benchmark": false,
+    "gpu_or_remote_transfer": false,
+    "processes_killed": false,
+    "other_users_process_command_lines_collected": false
+  }
+}

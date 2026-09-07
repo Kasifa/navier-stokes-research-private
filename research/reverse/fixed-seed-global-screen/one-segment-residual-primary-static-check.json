@@ -1,0 +1,29 @@
+{
+  "ASCII": true,
+  "AST": true,
+  "command": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/audit_one_segment_residual.py --check-only",
+  "config_sha256": "d67fb54134a11fb93ca56e4ed8bafe6094840e5d4e327a2a90a1f4479c051372",
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "executed_at_utc": "2026-09-07T20:08:43.422509+00:00",
+  "exit_code": 0,
+  "fixed_pin_count": 27,
+  "preflight_status": "STATIC_PINS_PASS_SOURCE_REVIEW_NOT_BOUND",
+  "science_run_directory_after": false,
+  "science_run_directory_before": false,
+  "scientific_kernel_executed": false,
+  "source_sha256": "baae25b1edc524e703e1a00a34b36a8806ea658eb1b2cbc4233233973f67aa7c",
+  "source_unchanged": true,
+  "status": "STATIC_CHECK_PASS",
+  "stderr": {
+    "bytes": 0,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-primary-static-check.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 5690,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-primary-static-check.stdout.log",
+    "sha256": "fcb3c98713cb69fa66a24535d4429c0c733d5e9e27c77d584371656f93ae6f73"
+  },
+  "target_entry": "--check-only",
+  "wall_seconds": 0.137828917
+}
