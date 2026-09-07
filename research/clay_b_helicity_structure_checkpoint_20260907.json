@@ -1,0 +1,39 @@
+{
+  "checkpoint_id": "HL-StructureScope-20260907",
+  "base_commit": "ad211336f4eed79a2044d3541dc49601189ff6f0",
+  "privacy": "PRIVATE_CORE",
+  "research_authority": "USER_EXPLICIT_RESUME_ACTIVE",
+  "status": "REVIEWED_RESEARCH_READY_FOR_PRIVATE_FREEZE",
+  "main": "research/clay_b_helicity_structure_scope_20260907.md",
+  "audit": "research/clay_b_helicity_structure_audit_20260907.md",
+  "accepted_main_sha256": "d21f2f382e19ef007926e4ee59e2c6ae5be32706ec27a471c7a3538901cac3cf",
+  "review": "C full nonauthor mathematical review plus actual four-line delta PASS; B source/operator scope review plus same delta PASS; A independent admissible-function residual example and corrected alternating form. Exact scopes are in audit.",
+  "classification": [
+    "LITERATURE",
+    "PROVED LOCAL CHECK",
+    "NO NEW UNCONDITIONAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "findings": [
+    "For each fixed positive viscosity, one fixed smooth unforced periodic original-NS datum has h(0,x)=0 everywhere, h(t,x*)=-t/3+O(t^2), and total H(t)=0 throughout its smooth interval by reflection symmetry.",
+    "Tao arXiv1402.0290v3 Remark4.3 already discusses joint energy/helicity cancellation. Its displayed elementary six-term formula has a nonzero admissible-function curl pairing, even after the inverse-curl sign is corrected.",
+    "A modified six-term formula has both cancellations, agrees with the original elementary dynamics on odd fields, and remains in the exact local-cascade class. This is a local algebra/interface check, not a proof audit of the full averaged blowup construction."
+  ],
+  "limitations": [
+    "No unconditional critical bound, regularity gain, singularity construction, arbitrary-candidate coverage, novelty or publication-value proof.",
+    "The true-NS example is near initial time; its window and remainder may depend on viscosity. Global H=0 follows from its specific symmetry, not arbitrary zero-helicity data.",
+    "JAMS formula bytes and a complete erratum registry were not verified. ArXiv v3 PDF pages34-35 were visually checked; bounded searches found no correction but do not prove absence.",
+    "The source elementary formula failure does not disprove the paper's main theorem. The correction is not an independently certified full averaged-NS blowup theorem.",
+    "The global critical-difference identity and pure helical spectral-sector leakage were already recorded in HS; no repeated mechanism count."
+  ],
+  "simulation": false,
+  "numerical_certificate": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "public_overview_requested": false,
+  "handoff_state": "NOT_SENT_SOURCE_STAGE",
+  "next_action": "Freeze the reviewed source and send it once to the fixed publisher for PRIVATE_ARCHIVE. Continue only research; do not wait for archival or inspect publisher state. No new unconditional candidate is selected. A next technical run requires a concrete original-NS space-time relation, an independently controlled quantity and an interface covering arbitrary candidate singularities. Do not repeat global helicity, initial-zero or spectral-defect variants.",
+  "full_goal": "Arbitrary admissible smooth-data three-dimensional unforced periodic Navier-Stokes regularity remains OPEN / NOT CLAY."
+}
