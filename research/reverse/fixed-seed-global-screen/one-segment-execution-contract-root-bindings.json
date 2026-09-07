@@ -1,0 +1,38 @@
+{
+  "bindings": {
+    "FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md": "61450a286e2f300f4444a29b45fa53fe93ec1b655fab3b4f03afb4261e93307c",
+    "ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md": "a9d6b288917eb98123afce1bd0f07bf879e530b53701ad9eb9e00f4c5a099171",
+    "ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md": "de6b150813559e6d0856b3df8db77491c9a3da4cad1f07a3d94282cd29642104",
+    "ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
+    "ONE_SEGMENT_RESIDUAL_EXECUTION_INDEPENDENT_REVIEW.md": "92af668f2a3fdfe081eb99123af63d781a7e2de90fbba158c70c852b9d868afc",
+    "ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md": "fd77dcc9ac5f1ed822d3d14cd1eb8ca33eb242d5f2322f862b170bbbdf6ce8ea"
+  },
+  "classification": "PRIVATE_CORE",
+  "kind": "root_non_author_independent_contract_review_and_primary_review_acceptance",
+  "review_sha256": "8244f7b4d2137c71c60f169b022d5cf238bebef50b00692a40d48cb32e00fb24",
+  "science_kernels_executed": false,
+  "small_integer_checks": {
+    "Bernstein_abs_bound": true,
+    "Bernstein_binomial_max": true,
+    "Gamma_argument": true,
+    "Gamma_factor": true,
+    "S_scalars": true,
+    "W_scalars": true,
+    "all_products": true,
+    "dyadic_L_bound_exponent": true,
+    "fraction_guard": true,
+    "ind_binary": true,
+    "ind_with_reserve": true,
+    "main_binary": true,
+    "main_remaining": true,
+    "one_tensor_products": true,
+    "ordered_space": true,
+    "partial_q_bound": true,
+    "scalar_products": true,
+    "square_products": true,
+    "tensor_scalars": true,
+    "time_counts": true
+  },
+  "source_review_pending": true,
+  "status": "PASS_BOUNDED_CONTRACTS_ONLY"
+}

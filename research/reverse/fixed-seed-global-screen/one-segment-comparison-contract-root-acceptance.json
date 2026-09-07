@@ -1,0 +1,15 @@
+{
+  "additional_checked_inference": "same exact E and fixed normalized sqrt imply main rbar0 >= independent rbar0, rbar2 equal, hence main Gamma >= independent Gamma; only independent-pass/main-unproved mismatch is allowed",
+  "bindings": {
+    "ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
+    "ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
+    "ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
+    "ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md": "fd77dcc9ac5f1ed822d3d14cd1eb8ca33eb242d5f2322f862b170bbbdf6ce8ea"
+  },
+  "classification": "PRIVATE_CORE",
+  "code_and_data_not_yet_accepted": true,
+  "root_full_read_independent_review": true,
+  "root_is_contract_author": true,
+  "scientific_execution": false,
+  "status": "NONAUTHOR_COMPARISON_CONTRACT_REVIEW_ACCEPTED"
+}
