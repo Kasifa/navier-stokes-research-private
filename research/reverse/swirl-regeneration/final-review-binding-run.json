@@ -1,0 +1,20 @@
+{
+  "classification": "PRIVATE_CORE",
+  "scope": "File input binding only; not a mathematical or numerical certificate",
+  "command": [
+    "python3",
+    "research/reverse/swirl-regeneration/check_bindings.py"
+  ],
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "started_utc": "2026-09-07T14:22:35.081821+00:00",
+  "ended_utc": "2026-09-07T14:22:35.147752+00:00",
+  "elapsed_seconds": 0.065657,
+  "python_version": "3.9.6",
+  "source_sha256": "4527ad14512527f32d7eb256309edd4058fb583464a7da20132f606166b5b8b7",
+  "stdout_path": "research/reverse/swirl-regeneration/final-review-binding-check.json",
+  "stdout_sha256": "65dba5db865807fea5c273b84c87bbf5ae89e394840b5df0b9c238481e52d399",
+  "exit_code": 0,
+  "stderr": "",
+  "status": "PASS",
+  "original_execution_claim": "This log records only this actual run; no earlier execution time is inferred."
+}

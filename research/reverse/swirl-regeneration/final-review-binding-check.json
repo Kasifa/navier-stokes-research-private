@@ -1,0 +1,304 @@
+{
+  "reviews": [
+    {
+      "bindings": [
+        {
+          "bytes": 2285,
+          "path": "research/reverse/swirl-regeneration/CONTRACT.md",
+          "sha256": "c887d8cc20495f0cf2e80585e66f92663f82c605f923194d49df5dda44bc9e12"
+        },
+        {
+          "bytes": 8701,
+          "path": "research/reverse/swirl-regeneration/INDEPENDENT_DERIVATION.md",
+          "sha256": "1ee6495178a4d6def57e733765ae0b778a3c90abf3456c352776c77e6db39581"
+        },
+        {
+          "bytes": 5383,
+          "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+          "sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c"
+        },
+        {
+          "bytes": 10163,
+          "path": "research/reverse/exterior-pressure/PROOF.md",
+          "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9"
+        }
+      ],
+      "review": "research/reverse/swirl-regeneration/REMAINDER_REVIEW.md",
+      "search_corpora_bytes_only": [],
+      "sha256": "0c73fb914be4e3d17886dfe4d3a0d6240f7c7a7f42066c4d6d39dfbc63684a77"
+    },
+    {
+      "bindings": [
+        {
+          "bytes": 1424,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_CONTRACT.md",
+          "sha256": "4502487b1379740ea169e1e5d5f5faffd5e7c1d8ecd225dfd19516be7c574280"
+        },
+        {
+          "bytes": 6262,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF_DRAFT.md",
+          "sha256": "1eaf197ab6c8b443792cefadfbaac3d96bad3771a281fded32ca2d15d5c92283"
+        },
+        {
+          "bytes": 10837,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRAIN_DERIVATION.md",
+          "sha256": "65dcbe9cbafffc13289cb774426f6e18bf7edab230bb03324a7ea894f01c3bcc"
+        },
+        {
+          "bytes": 2285,
+          "path": "research/reverse/swirl-regeneration/CONTRACT.md",
+          "sha256": "c887d8cc20495f0cf2e80585e66f92663f82c605f923194d49df5dda44bc9e12"
+        },
+        {
+          "bytes": 8701,
+          "path": "research/reverse/swirl-regeneration/INDEPENDENT_DERIVATION.md",
+          "sha256": "1ee6495178a4d6def57e733765ae0b778a3c90abf3456c352776c77e6db39581"
+        },
+        {
+          "bytes": 5383,
+          "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+          "sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c"
+        },
+        {
+          "bytes": 9940,
+          "path": "research/reverse/swirl-regeneration/REMAINDER_REVIEW.md",
+          "sha256": "0c73fb914be4e3d17886dfe4d3a0d6240f7c7a7f42066c4d6d39dfbc63684a77"
+        },
+        {
+          "bytes": 10163,
+          "path": "research/reverse/exterior-pressure/PROOF.md",
+          "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9"
+        },
+        {
+          "bytes": 13913,
+          "path": "research/reverse/next-concentration/PROOF.md",
+          "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1"
+        }
+      ],
+      "review": "research/reverse/swirl-regeneration/CENTER_STRETCH_REVIEW.md",
+      "search_corpora_bytes_only": [],
+      "sha256": "d5ff3bf32b3a541431a344a101d6d6c7a392f9a5b5b8e069aafeb446b19f89dd"
+    },
+    {
+      "bindings": [
+        {
+          "bytes": 2285,
+          "path": "research/reverse/swirl-regeneration/CONTRACT.md",
+          "sha256": "c887d8cc20495f0cf2e80585e66f92663f82c605f923194d49df5dda44bc9e12"
+        },
+        {
+          "bytes": 1424,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_CONTRACT.md",
+          "sha256": "4502487b1379740ea169e1e5d5f5faffd5e7c1d8ecd225dfd19516be7c574280"
+        },
+        {
+          "bytes": 8701,
+          "path": "research/reverse/swirl-regeneration/INDEPENDENT_DERIVATION.md",
+          "sha256": "1ee6495178a4d6def57e733765ae0b778a3c90abf3456c352776c77e6db39581"
+        },
+        {
+          "bytes": 5383,
+          "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+          "sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c"
+        },
+        {
+          "bytes": 6262,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF_DRAFT.md",
+          "sha256": "1eaf197ab6c8b443792cefadfbaac3d96bad3771a281fded32ca2d15d5c92283"
+        },
+        {
+          "bytes": 10837,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRAIN_DERIVATION.md",
+          "sha256": "65dcbe9cbafffc13289cb774426f6e18bf7edab230bb03324a7ea894f01c3bcc"
+        },
+        {
+          "bytes": 15374,
+          "path": "research/reverse/first-cycle/SOURCES.md",
+          "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b"
+        },
+        {
+          "bytes": 14336,
+          "path": "research/reverse/first-cycle/PROOF.md",
+          "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+        },
+        {
+          "bytes": 5904,
+          "path": "research/reverse/first-cycle/freeze.json",
+          "sha256": "e00899dc38023cdddf3336c2b527d30dd24f99191b426753f9995d6889ebe081"
+        },
+        {
+          "bytes": 10163,
+          "path": "research/reverse/exterior-pressure/PROOF.md",
+          "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9"
+        },
+        {
+          "bytes": 3212,
+          "path": "research/reverse/exterior-pressure/OUTCOME.md",
+          "sha256": "17024e2a79907d19f6d25c2d3261f58b899f9f269626f30cb841e22ccd301d7e"
+        },
+        {
+          "bytes": 8081,
+          "path": "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+          "sha256": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91"
+        },
+        {
+          "bytes": 4565,
+          "path": "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md",
+          "sha256": "e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78"
+        },
+        {
+          "bytes": 12310,
+          "path": "research/reverse/exterior-pressure/freeze.json",
+          "sha256": "71e22006160b590fec66908265f644f8749894cd96ab8df6a4d26e7153e782db"
+        },
+        {
+          "bytes": 21563,
+          "path": "research/r073y_exact_shear_no_go.md",
+          "sha256": "2574f2caf19248a17d25f811488db1c7b30295efd07e59852c3afa17cf8f69e4"
+        },
+        {
+          "bytes": 12375,
+          "path": "research/r073z_pressure_active_kernel.md",
+          "sha256": "faa6e2e475e7ce4f5663a0cc13647a14f414157abfae4b9582ced56726f86a68"
+        },
+        {
+          "bytes": 13118,
+          "path": "research/r073v_claim_source_ledger.md",
+          "sha256": "e060fe21a58c1d1da2a1fd3edd35cedb52f1ef2ced6c4ea75e1977b526d24c86"
+        },
+        {
+          "bytes": 32919,
+          "path": "public/notes/r0-7.html",
+          "sha256": "009f6f14cc220315da02f1c512fc0d897a223af655ec7c89a89da4198eea5d31"
+        },
+        {
+          "bytes": 31614,
+          "path": "public/notes/r0-8.html",
+          "sha256": "2b33d5a6f7d44f8eb78abbed8e9f4b24cbcd48d5c83f62d1f302ec6e2f5481a2"
+        },
+        {
+          "bytes": 31861,
+          "path": "public/notes/r0-10.html",
+          "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a"
+        },
+        {
+          "bytes": 31105,
+          "path": "public/notes/r0-13.html",
+          "sha256": "e5ad43432fb040c60aa51a3716bdd1b606c297f47df45e60722ae7e83903675e"
+        }
+      ],
+      "review": "research/reverse/swirl-regeneration/SOURCE_HISTORY_REVIEW.md",
+      "search_corpora_bytes_only": [
+        {
+          "bytes": 595274,
+          "files": 20,
+          "manifest_sha256": "4af845d22fb59242a58fd7cd106e7046a9145d9d1dabdf6888a83e37861ee346",
+          "read_depth": "targeted_text_search_not_full_read",
+          "selector": "public/notes/r0-{1..20}.html"
+        },
+        {
+          "bytes": 2823704,
+          "files": 262,
+          "manifest_sha256": "d5b21ec6bca411d5e05fde46c585a471b1711ee526f785e965a6ec82d276ebbe",
+          "read_depth": "targeted_text_search_not_full_read",
+          "selector": "research/r073*.md (top-level only)"
+        }
+      ],
+      "sha256": "d26440b8a929279e294ab4a6b7f1f6b4e0fd5a5380bf45cc28d3694f8e5faa63"
+    },
+    {
+      "bindings": [
+        {
+          "bytes": 2285,
+          "path": "research/reverse/swirl-regeneration/CONTRACT.md",
+          "sha256": "c887d8cc20495f0cf2e80585e66f92663f82c605f923194d49df5dda44bc9e12"
+        },
+        {
+          "bytes": 1424,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_CONTRACT.md",
+          "sha256": "4502487b1379740ea169e1e5d5f5faffd5e7c1d8ecd225dfd19516be7c574280"
+        },
+        {
+          "bytes": 8701,
+          "path": "research/reverse/swirl-regeneration/INDEPENDENT_DERIVATION.md",
+          "sha256": "1ee6495178a4d6def57e733765ae0b778a3c90abf3456c352776c77e6db39581"
+        },
+        {
+          "bytes": 5408,
+          "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_PROOF.md",
+          "sha256": "f4b12d5a745ab5da6df578e4c6cc66184ea29edbb501f029a9ea983cf601ee9a"
+        },
+        {
+          "bytes": 6361,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF.md",
+          "sha256": "4874268bd9fb9e21d609b10b776ba8cb66c0181973edeb161327f99a252bcb22"
+        },
+        {
+          "bytes": 10837,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRAIN_DERIVATION.md",
+          "sha256": "65dcbe9cbafffc13289cb774426f6e18bf7edab230bb03324a7ea894f01c3bcc"
+        },
+        {
+          "bytes": 9940,
+          "path": "research/reverse/swirl-regeneration/REMAINDER_REVIEW.md",
+          "sha256": "0c73fb914be4e3d17886dfe4d3a0d6240f7c7a7f42066c4d6d39dfbc63684a77"
+        },
+        {
+          "bytes": 11700,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_REVIEW.md",
+          "sha256": "d5ff3bf32b3a541431a344a101d6d6c7a392f9a5b5b8e069aafeb446b19f89dd"
+        },
+        {
+          "bytes": 18167,
+          "path": "research/reverse/swirl-regeneration/SOURCE_HISTORY_REVIEW.md",
+          "sha256": "d26440b8a929279e294ab4a6b7f1f6b4e0fd5a5380bf45cc28d3694f8e5faa63"
+        },
+        {
+          "bytes": 4977,
+          "path": "research/reverse/swirl-regeneration/OUTCOME.md",
+          "sha256": "0ad7cbccb6c758ebbb9165e785ae3746d203736e6766a3d2abf263904c95b2ab"
+        },
+        {
+          "bytes": 2229,
+          "path": "research/reverse/swirl-regeneration/VALIDATION.md",
+          "sha256": "18c08b81a6635bb4206559a4d1416c4741ed3430e323141e16f5b86ec0fa3899"
+        },
+        {
+          "bytes": 3687,
+          "path": "research/reverse/swirl-regeneration/check_bindings.py",
+          "sha256": "4527ad14512527f32d7eb256309edd4058fb583464a7da20132f606166b5b8b7"
+        },
+        {
+          "bytes": 5383,
+          "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+          "sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c"
+        },
+        {
+          "bytes": 6262,
+          "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF_DRAFT.md",
+          "sha256": "1eaf197ab6c8b443792cefadfbaac3d96bad3771a281fded32ca2d15d5c92283"
+        },
+        {
+          "bytes": 10163,
+          "path": "research/reverse/exterior-pressure/PROOF.md",
+          "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9"
+        },
+        {
+          "bytes": 13913,
+          "path": "research/reverse/next-concentration/PROOF.md",
+          "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1"
+        },
+        {
+          "bytes": 14336,
+          "path": "research/reverse/first-cycle/PROOF.md",
+          "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+        }
+      ],
+      "review": "research/reverse/swirl-regeneration/FINAL_REVIEW.md",
+      "search_corpora_bytes_only": [],
+      "sha256": "e413fe16cc6c7a8c4e970871d6ca407e0456044bb1eb575f4885e75d471752c3"
+    }
+  ],
+  "scope": "REVIEW_INPUT_BYTES_ONLY_NOT_MATHEMATICAL_CERTIFICATE",
+  "status": "PASS"
+}

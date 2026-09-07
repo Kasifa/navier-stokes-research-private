@@ -1,0 +1,23 @@
+{
+  "classification": "PRIVATE_CORE",
+  "scope": "Actual root byte-binding rerun, not a mathematical certificate",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "research/reverse/swirl-regeneration/check_bindings.py"
+  ],
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "started_utc": "2026-09-07T14:23:35.578642+00:00",
+  "ended_utc": "2026-09-07T14:23:35.632416+00:00",
+  "elapsed_seconds": 0.053778625000000004,
+  "python_version": "3.9.6",
+  "script_sha256": "4527ad14512527f32d7eb256309edd4058fb583464a7da20132f606166b5b8b7",
+  "stdout_sha256": "65dba5db865807fea5c273b84c87bbf5ae89e394840b5df0b9c238481e52d399",
+  "compared_output": "research/reverse/swirl-regeneration/final-review-binding-check.json",
+  "byte_identical_to_independent_run": true,
+  "exit_code": 0,
+  "stderr": "",
+  "review_count": 4,
+  "input_bindings": 51,
+  "corpus_manifests": 2,
+  "status": "PASS"
+}
