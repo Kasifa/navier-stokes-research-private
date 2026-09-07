@@ -1,0 +1,240 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "no_candidate": "No autonomous or iterable regeneration template accepted",
+    "not_claimed": [
+      "Novelty of center gate: it already appears in R0.10",
+      "Human peer review",
+      "Formal proof assistant verification",
+      "Global regularity or singularity of this datum",
+      "Completion of the persistent research goal",
+      "Clay solution"
+    ],
+    "open": [
+      "Full packet regeneration",
+      "Uniform iteration",
+      "One fixed datum at infinitely many scales",
+      "Infinite-dimensional iterative errors",
+      "Finite total time and singularity"
+    ],
+    "proved": [
+      "One fixed full viscous unforced periodic NS solution has positive-time net vector and modal-power dominance at the specified initially empty target",
+      "Absolute-channel vector and energy dominance strictly fail on the same time window",
+      "Complete Fourier-Leray, phases, feedback, viscosity and infinite-dimensional errors retained"
+    ],
+    "scope": "q=(2,1,1), 0<t<=1e-6, initial velocity 2(cos x3,cos x1,cos x2), viscosity one, fixed zero-mean 2pi torus"
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "90c44d1703486e3983d12b87ed54f22c8c677982",
+    "b72d4627bfbed913214d01514ba1696ce68632af",
+    "b7ce9a3473ac01a7396c9d11751caf5a9b62a94e"
+  ],
+  "dependency_ledger": "research/reverse/driver-dominance/sources-evidence.json",
+  "direct_reviewed_dependencies": [
+    {
+      "bytes": 14336,
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "bytes": 13341,
+      "path": "research/reverse/first-cycle/exact_algebra.py",
+      "sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb"
+    },
+    {
+      "bytes": 158864,
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68"
+    },
+    {
+      "bytes": 1697,
+      "path": "research/reverse/first-cycle/certificate.json",
+      "sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4"
+    },
+    {
+      "bytes": 1663,
+      "path": "research/reverse/next-mixed/PREFLIGHT.md",
+      "sha256": "9e3fcaa0803f44af4bef629a78bf3da1b0ca569b44ee1541872085aeeb7e8858"
+    },
+    {
+      "bytes": 14631,
+      "path": "research/reverse/next-mixed/mixed-result.json",
+      "sha256": "81bf5c90b344533793b456b363f0dc0436377247a86b5ff8e6fe62bc5c3afb84"
+    },
+    {
+      "bytes": 31861,
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a"
+    }
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 16089,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/ANALYTIC_REVIEW.md",
+      "sha256": "a2679c723819b81cb9a9a6937670fe9d64b7d80749b54754fc2f9c2b515e05c8"
+    },
+    {
+      "bytes": 3039,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/CONTRACT.md",
+      "sha256": "f8541ccb01672e2ae129f1a8ca85ee281db3e04aa3c977185eaef44b4a134c14"
+    },
+    {
+      "bytes": 2394,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/OUTCOME.md",
+      "sha256": "7469778e1a2269225ca192baa77a1af25ded9d8b3c94346454af48d90eef5040"
+    },
+    {
+      "bytes": 11513,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/PROOF.md",
+      "sha256": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032"
+    },
+    {
+      "bytes": 879,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/README.md",
+      "sha256": "83f1304aeac1890c3fbbdd6bd21ce0eb1d1103f5bd6c9c22bfcc3c13686dcef2"
+    },
+    {
+      "bytes": 14195,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/SOURCES.md",
+      "sha256": "433b16c92e6a1c7786aad0fb35e44e2067902630770bc1509d394a5293469b1b"
+    },
+    {
+      "bytes": 1774,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/VALIDATION.md",
+      "sha256": "c890bfdc7960e8a92ac9a86e8e4f5188202a3211debb9b1d17451dd11eb826bf"
+    },
+    {
+      "bytes": 76394,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/driver-certificate.json",
+      "sha256": "44b759581f233aac53cf7a52e278b5d4e67693417c8d74e64612e0a9c8a6c5d1"
+    },
+    {
+      "bytes": 232729,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/driver-independent.json",
+      "sha256": "ee48c23e1f72fd338cb62fb974189aa17ff3a830eb6056130d28e92fb3468d68"
+    },
+    {
+      "bytes": 7411,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/driver_certificate.py",
+      "sha256": "0e979657b3b20bf034a138809f6a7f6f6bf1629c532d5600be59490ace9a4732"
+    },
+    {
+      "bytes": 11582,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/independent-final-review.json",
+      "sha256": "9a2b39b388eedf61494b673bbddf0221e3a8b736cfebc44f966e6936351be9ba"
+    },
+    {
+      "bytes": 22417,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/independent_driver.rb",
+      "sha256": "17dad370826f92ed4e1ea4b2306a952a14971d039a18bede495122e81cfcc390"
+    },
+    {
+      "bytes": 5954,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/sources-evidence.json",
+      "sha256": "737e616b37165db12296e55b108c54a470c95106428ab2ff902cef274fc484a0"
+    },
+    {
+      "bytes": 5857,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/verification-run.json",
+      "sha256": "9fddff092f44ad0cf39fc283d7070faac932e879e7cbe67773cba06adf4b4f16"
+    },
+    {
+      "bytes": 14336,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "bytes": 13341,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/exact_algebra.py",
+      "sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb"
+    },
+    {
+      "bytes": 158864,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68"
+    },
+    {
+      "bytes": 1697,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/certificate.json",
+      "sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4"
+    },
+    {
+      "bytes": 1663,
+      "commit": "b7ce9a3473ac01a7396c9d11751caf5a9b62a94e",
+      "path": "research/reverse/next-mixed/PREFLIGHT.md",
+      "sha256": "9e3fcaa0803f44af4bef629a78bf3da1b0ca569b44ee1541872085aeeb7e8858"
+    },
+    {
+      "bytes": 14631,
+      "commit": "b7ce9a3473ac01a7396c9d11751caf5a9b62a94e",
+      "path": "research/reverse/next-mixed/mixed-result.json",
+      "sha256": "81bf5c90b344533793b456b363f0dc0436377247a86b5ff8e6fe62bc5c3afb84"
+    },
+    {
+      "bytes": 31861,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a"
+    },
+    {
+      "bytes": 7073,
+      "commit": "32cddf5dfa060321016e0da5ebd1c7eabd8a3278",
+      "path": "research/reverse/driver-dominance/freeze.json",
+      "sha256": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0"
+    }
+  ],
+  "freeze_commit": "32cddf5dfa060321016e0da5ebd1c7eabd8a3278",
+  "freeze_commit_binding": "The commit containing this envelope is supplied separately in the once-only handoff; this avoids self-referential hashes.",
+  "inherited_scientific_baseline": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "milestone_reason": "Bounded modal diagnostic and failed stronger contract; no accepted iterative mechanism or global theorem. Subsequent route screening is separate work.",
+  "milestone_recap_required": false,
+  "normalization_note": "Private transport only: 14 new scientific files, 7 exact reviewed dependencies and original immutable freeze; preserve source/freeze/3 dependency refs. Prior release not reissued. Scientific assertions not independently re-proved by publisher. No public or shared-detail export.",
+  "predecessor_release": "ReverseNS-20260907-TwoGeneration",
+  "public_export_authorization": "No new core files or attachments. The website trial does not authorize public or shared-detail export of this package. Any overview requires separate publisher semantic/privacy review.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260907-DriverDominance",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "94dec8ba1a1a01d291d62ef5252ad575fd4df55d"
+  ],
+  "scientific_source_commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+  "source_commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "execution_receipt": "research/reverse/driver-dominance/verification-run.json",
+    "final_review": "research/reverse/driver-dominance/independent-final-review.json",
+    "final_review_bound_files": 20,
+    "final_status": "PASS",
+    "independent_ruby_assertions": 162,
+    "local_source_files": 11,
+    "negative_controls": 6,
+    "old_frozen_files_verified_unchanged": 19,
+    "primary_assertions": 28,
+    "source_bindings_including_audit_document": 12
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
