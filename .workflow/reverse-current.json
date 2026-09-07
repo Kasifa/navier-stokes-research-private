@@ -6,10 +6,10 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Pascal implements primary audit_one_segment_residual.py; Rawls implements independent audit_one_segment_residual_independent.py; Pauli prepares read-only local runtime preflight. All already assigned. Await stable source notifications, full-read and independently review both sources and static checks, fix actual issues, commit exact source and pins before root schedules the two once-only fixed-I runs sequentially. No scientific kernel or new array computation is currently allowed to authors. No old kernel rerun, new node/epsilon/precision/window, uncontrolled retry or publication work.",
+  "next_action": "Primary run is complete and MUST NOT rerun. Independent source 1e9c9ee5, system review 4130f823, root full review 4b88d9e4 and actual static 176f1ad7 are accepted. Commit these exact sources, then root launches the unique independent fixed-I run. On resume FIRST inspect its exclusive output directory and external stdio; if present continue actual run acceptance, never launch again. Pascal prepares data-only comparison code; its actual independent run/output pins must await successful real execution. No scientific retry, old kernel, new node/window/epsilon or publication work.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
-  "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
+  "resume_authority": "Latest direct user instructions: \u6309\u65e2\u5b9a\u7684\u7b56\u7565\u6301\u7eed\u5f00\u5c55\u7814\u7a76; \u5982\u65e0\u7279\u522b\u9700\u8981\u6211\u6765\u786e\u8ba4\u7684\uff0c\u4f60\u5c31\u6301\u7eed\u5f00\u5c55\u4e0b\u53bb\uff0c\u4e0d\u9700\u8981\u505c\u987f",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
   "scientific_status": "FIXED_NODE_ORIGINAL_RESIDUAL_CERTIFIED_OLD_EPSILON_REFUTED; NODE_AND_FIXED_CONTROL_FAMILY_COMPATIBLE; CONTINUOUS_RESIDUAL_AND_ORIGINAL_NS_UNPAID",
@@ -313,7 +313,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "a3a8b024c1a350f818a5970d42e673f0d410dd432927ff6e4197709a9ba2f749",
+    "research/reverse/CHECKPOINT.md": "4ba46f2cb260193051073dbd43373faab167d50d6e150cc58b9cae5a9879aa2a",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -321,7 +321,9 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md": "8244f7b4d2137c71c60f169b022d5cf238bebef50b00692a40d48cb32e00fb24",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md": "fd77dcc9ac5f1ed822d3d14cd1eb8ca33eb242d5f2322f862b170bbbdf6ce8ea",
     "research/reverse/fixed-seed-global-screen/one-segment-execution-contract-root-bindings.json": "32ac48b07a681b1e5aaa9e26532f8b7d19020ab198fffc587e7261c7e54bd527",
-    "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json": "752a67491ee285c683826a9a18edc7cb0a5b9004f7e4a5549ef1424b16e09e7e"
+    "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json": "752a67491ee285c683826a9a18edc7cb0a5b9004f7e4a5549ef1424b16e09e7e",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_ROOT_SOURCE_REVIEW.md": "4b88d9e462d3a63deda294ce50e66427a2eb951e909a80206b1e0f4e9f44c36b",
+    "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -344,7 +346,7 @@
     "Same original fixed NS solution, all-window inputs and singularity/global status remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
-  "pause_authority": "Latest direct user instruction: 先暂停一下",
+  "pause_authority": "Latest direct user instruction: \u5148\u6682\u505c\u4e00\u4e0b",
   "resumed_at": "2026-09-07T20:25:31+08:00",
   "previous_completed_release": {
     "release_id": "ReverseNS-20260907-LocalPressureScreen",
@@ -360,7 +362,7 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T19:50:31.063529+00:00",
+  "updated_at": "2026-09-07T20:29:33.436498+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "PROGRESS: reviewed and committed exact segment execution/comparison contracts, 20 small exact checks, two source implementations actively assigned; no science kernel run yet",
   "completed_unreleased_audits": [
@@ -627,12 +629,11 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_ROOT_SOURCE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md"
   ],
-  "resume_read_note": "Read current accepted synthesis and new contract drafts as they stabilize; mathematical sources in full when needed. Previous required_files are provenance, not an instruction to reread/recompute closed work. Forward helper/index and publication queue remain out of scope.",
+  "resume_read_note": "Use current checkpoint and actual unique run artifacts first. Review full mathematical sources when arguments require them. Closed old node/trajectory kernels are immutable inputs, not restart instructions.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
   "current_analysis_source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
   "control_family_endpoint_evidence": {
@@ -655,7 +656,7 @@
     "science_execution": false
   },
   "one_segment_residual_execution_preparation": {
-    "status": "CONTRACTS_REVIEWED_TWO_SOURCE_IMPLEMENTATIONS_IN_PROGRESS_NO_KERNEL_RUN",
+    "status": "PRIMARY_ACCEPTED_INDEPENDENT_SOURCE_REVIEWED_READY_FOR_UNIQUE_RUN",
     "primary_author": "driver_independent_certificate Pascal",
     "primary_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
     "independent_author": "driver_contract_review Rawls",
@@ -699,5 +700,30 @@
     },
     "scope": "complete D_f-to-deltaT mapping, exact W/S, q0 and Bernstein containment, actual negative controls; no kernel reruns",
     "monotonicity": "main rbar0>=independent rbar0, rbar2 equal, hence main Gamma>=independent Gamma under valid source/norm conventions"
+  },
+  "one_segment_primary_residual_evidence": {
+    "source_commit": "31f7f4e382732fb9e20cc0a50293b19d056d2fb3",
+    "source_sha256": "f8f871684d68303de24a8901abb35266969d2f978d218ca9d14cd16ce45fac63",
+    "run_sha256": "869be6550d833d7021b130915c0ecb69e22545d8c4c03f4e99c790f15ba6a500",
+    "result_sha256": "85eed24be3ce08d92761d6a5a4eab22eff046d1ad2b0c26ca89a817a0ab5baf8",
+    "root_acceptance": "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json",
+    "root_acceptance_sha256": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b",
+    "status": "PRIMARY_RUN_ACCEPTED_PENDING_FULL_INDEPENDENT_RECOMPUTATION_AND_COMPARISON",
+    "rerun_allowed": false,
+    "observed_exit_code": 0,
+    "wall_seconds": 42.78586191707291,
+    "all_process_highwater_sum_bytes": 1722073088,
+    "actual_all_output_bytes": 288938140,
+    "new_real_products": 18,
+    "primary_interface_status": "SEGMENT_UPPER_BOUND_WITHIN_EXISTING_SUFFICIENT_THRESHOLD",
+    "no_global_NS_conclusion": true
+  },
+  "one_segment_independent_source_evidence": {
+    "source_sha256": "1e9c9ee576049bd444ed07e858175b113bdb09d3719f1ab69820a3536564ca79",
+    "root_review_sha256": "4b88d9e462d3a63deda294ce50e66427a2eb951e909a80206b1e0f4e9f44c36b",
+    "system_review_sha256": "4130f8232b7282dbfd4168ea71d1ea666e563b99a6348f2dac10fd4e1d1e687a",
+    "static_record_sha256": "176f1ad7c741605581a7ee22b4ba8f66c08a5a5150dd0d6a66e34843dff634b7",
+    "config_sha256": "1004a2cf47a0dc18d055326a6bfd4aa99109f75ff78779a10540b840bc1a5938",
+    "status": "ROOT_AND_SYSTEM_REVIEW_PASS_NOT_YET_RUN"
   }
 }

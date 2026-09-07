@@ -1,0 +1,7 @@
+{"progress": "worker-23", "stage": "after product 0", "resources": {"wall_seconds_from_parent_entry": 11.39267620909959, "self_peak_rss_bytes": 120471552, "all_output_bytes": 38633151}}
+{"worker": "23", "products_completed": 1, "resources": {"wall_seconds_from_parent_entry": 11.605689750052989, "self_peak_rss_bytes": 174850048, "all_output_bytes": 45323877}}
+{"progress": "worker-23", "stage": "after product 1", "resources": {"wall_seconds_from_parent_entry": 22.459708333946764, "self_peak_rss_bytes": 193445888, "all_output_bytes": 72064373}}
+{"worker": "23", "products_completed": 2, "resources": {"wall_seconds_from_parent_entry": 22.699635583907366, "self_peak_rss_bytes": 199507968, "all_output_bytes": 85437474}}
+{"progress": "worker-23", "stage": "after product 2", "resources": {"wall_seconds_from_parent_entry": 33.84568545897491, "self_peak_rss_bytes": 203849728, "all_output_bytes": 125551276}}
+{"worker": "23", "products_completed": 3, "resources": {"wall_seconds_from_parent_entry": 34.152500041993335, "self_peak_rss_bytes": 215990272, "all_output_bytes": 138922580}}
+{"worker": "23", "status": "WORKER_COMPLETE", "record_sha256": "65080c21b4217382b8e158ea3e7a44919ca2b42b8bd8837ca4c0fdd105522daa", "post_write_observation": {"wall_seconds_from_parent_entry": 34.75281345890835, "self_peak_rss_bytes": 242761728, "all_output_bytes": 205767718}}
