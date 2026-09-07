@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FINAL_INDEPENDENT_METADATA_BINDINGS",
+  "post_write_observation": {
+    "archive_bytes": 146820,
+    "peak_rss_bytes": 77332480,
+    "wall_seconds": 1.578954041004181
+  },
+  "output_directory_bytes": 146820,
+  "stdout_bytes": 34393,
+  "stderr_bytes": 0,
+  "total_with_stdout_stderr": 181213,
+  "run_sha256": "f8cbfd035c7cf0bbcd1e405309cad1327e5d7c1d0e48c37635d65777d3183ebe",
+  "result_sha256": "5b720b8791ebc39c19d577c56903e5e0f18e4d20dc255ff5b4e6c6486d8d69ca",
+  "output_files_verified": 1,
+  "shared_run_result_fields_verified": [
+    "source_sha256",
+    "input_file_sha256",
+    "checkout",
+    "config_sha256"
+  ],
+  "scope": "actual bytes and completed metadata, not another mathematical reconstruction"
+}

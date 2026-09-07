@@ -1,0 +1,66 @@
+{
+  "status": "PASS_ACTUAL_INDEPENDENT_FRACTION_RECONSTRUCTION",
+  "comparison": {
+    "exact_mode_norm_squares_compared": 19648,
+    "chi_coefficients_compared": 4,
+    "norm_intervals_compared": 12,
+    "main_intervals_contained_in_independent": 12,
+    "main_root_inputs_recomputed_from_saved_squares": 58944,
+    "scope": "same fixed reference and one whole interval; no new node projection or full-window conclusion"
+  },
+  "negative_controls": [
+    {
+      "in_memory_mutation": "norm_square",
+      "rejected_by": "exact norm square mismatch"
+    },
+    {
+      "in_memory_mutation": "chi",
+      "rejected_by": "chi mismatch"
+    },
+    {
+      "in_memory_mutation": "count",
+      "rejected_by": "full signed count"
+    },
+    {
+      "in_memory_mutation": "root_sum",
+      "rejected_by": "saved root sum mismatch"
+    },
+    {
+      "in_memory_mutation": "strain_factor",
+      "rejected_by": "strain root factor"
+    },
+    {
+      "in_memory_mutation": "M3_bound",
+      "rejected_by": "main expression mismatch"
+    }
+  ],
+  "input_sha256": {
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_CONTRACT.md": "a53006b424c2166ad943166abca8e284138e64d31a6d07131041f9da9afa229a",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_INDEPENDENT_REVIEW.md": "628ced02a9107039119dcb1744a718db7e2a4b692444c9867b3c62886e39c42e",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_REFINEMENT.md": "d6ab251e47d5818078f045d3f0ab7aae778e8e624c468633c360a9ed08930e01",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/audit_one_segment_derivative.py": "5fcf49eb5c2b8faad3ca40e632de9941d819530d9fd033f04d56866b539e36cc",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_INDEPENDENT_CONTRACT.md": "f3a382ffc6ba5770cb552b3c8192345d2e6ae1eb871c6ca68f39a0b926855689",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/ONE_SEGMENT_INDEPENDENT_CODE_REVIEW.md": "086d6dbb7d7df220b999cc63f05582134935330956f2c3488b7249adbe46a704",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/audit_one_segment_derivative_independent.py": "6d599db92eab6b9f1170b341ee8ba01108165eb50f68be0726e58965364015b8",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-trial-01/norm-square-inputs.json.gz": "42ade977e712f05f3243c3ab40c19a51f3219c8d4355d6278e38f216e1b07564",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-trial-01/RUN_CLAIM.json": "20ccca28dee7dd1c2e26e87327f158ae64517391b1f1459a562ddaa385e0cb91",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-trial-01/run.json": "cf8cafeb3a36015e95da32cd372a9febdd19446af0ce449c577c2f83d6142a51",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/norm-squares-m1.json.gz": "1f4fb5e1bb559e28ce230937bd3d20013fda47cb154c849a67079ff583817b9a",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/partial-sums-m2.json": "1839a87169e159499e8df7c4a3678c5d54c1ec1f2427b5ee7ab7d47fcefc754a",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/result.json": "5b720b8791ebc39c19d577c56903e5e0f18e4d20dc255ff5b4e6c6486d8d69ca",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/partial-sums-m3.json": "93126766eb8bbc4773fe997aa1375a758d559031ba88b457ec72b54e2895b78b",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/norm-squares-m0.json.gz": "efedc8b18d7d0b7700fe3d47cbc68fb757d78018a1c0a47e2751d6ddeef64181",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/progress.jsonl": "6622c7962afcc98b064e75b286b9ef79b952faff6a5ef787fac5fd59f9f9b8c5",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/norm-squares-m2.json.gz": "dc974108a2d4fd162023fa5acf7f1671a032b65dcc3162fea762e7d62c9ad9eb",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/norm-squares-m3.json.gz": "61ba8f4bc24dd78b6fae00c7e8564b33887f4b2c10fa5f104227d99e3c85972f",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/claim.json": "c8585a0097e3d771aff6d2e97687e4a9fe9978a8accddc7c9de764c968f26e4e",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/partial-sums-m0.json": "4cfa82fb68eb651f93d58b4d1d1ee3e2ea9a33936d5940229b1a367bb7ad959f",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/run.json": "f8cbfd035c7cf0bbcd1e405309cad1327e5d7c1d0e48c37635d65777d3183ebe",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-derivative-independent-trial-01/partial-sums-m1.json": "aeb8b0f151ccd96c70e7926bf0299f0b4b7b5f2950e54dd631dbb88d959baab3",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/check_one_segment_agreement.py": "bcea7463660ea7f67a06bf2779603be88001afe1287a0a75bddcae08e3650039"
+  }
+}

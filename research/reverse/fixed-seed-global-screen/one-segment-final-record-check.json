@@ -1,0 +1,117 @@
+{
+  "compressed_and_canonical_hashes_checked": 5,
+  "environment": {
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "final_resources": {
+    "independent": {
+      "actual_directory_bytes": 146820,
+      "archive_bytes": 146820,
+      "archive_plus_external_stdout_bytes": 181213,
+      "external_stdout_bytes": 34393,
+      "peak_rss_bytes": 77332480,
+      "wall_seconds": 1.578954041004181
+    },
+    "primary": {
+      "actual_directory_bytes": 319289,
+      "archive_plus_external_stdout_bytes": 320164,
+      "external_stdout_bytes": 875,
+      "output_bytes": 319289,
+      "peak_rss_bytes": 81117184,
+      "wall_seconds": 0.3750704589765519
+    }
+  },
+  "input_sha256": {
+    "C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "ONE_SEGMENT_DERIVATIVE_CONTRACT.md": "a53006b424c2166ad943166abca8e284138e64d31a6d07131041f9da9afa229a",
+    "ONE_SEGMENT_DERIVATIVE_INDEPENDENT_CONTRACT.md": "f3a382ffc6ba5770cb552b3c8192345d2e6ae1eb871c6ca68f39a0b926855689",
+    "ONE_SEGMENT_DERIVATIVE_OUTCOME.md": "ac2e7737600b1584da1ed47197335e84dedae4dc61659eae667847391acaa81f",
+    "ONE_SEGMENT_DERIVATIVE_REVIEW.md": "a4e5e12cd3d16ead0bf9081ab516c6f2afbc38cd1b76ae4199b5c550ef294b55",
+    "ONE_SEGMENT_DERIVATIVE_ROOT_REVIEW.md": "cf108858f95dfdb193ab169fccbb4a8a45089660b6ea9f7244e80c410fc54691",
+    "ONE_SEGMENT_INDEPENDENT_CODE_REVIEW.md": "086d6dbb7d7df220b999cc63f05582134935330956f2c3488b7249adbe46a704",
+    "STRAIN_CONTROL_INDEPENDENT_REVIEW.md": "628ced02a9107039119dcb1744a718db7e2a4b692444c9867b3c62886e39c42e",
+    "STRAIN_CONTROL_REFINEMENT.md": "d6ab251e47d5818078f045d3f0ab7aae778e8e624c468633c360a9ed08930e01",
+    "audit_one_segment_derivative.py": "5fcf49eb5c2b8faad3ca40e632de9941d819530d9fd033f04d56866b539e36cc",
+    "audit_one_segment_derivative_independent.py": "6d599db92eab6b9f1170b341ee8ba01108165eb50f68be0726e58965364015b8",
+    "check_one_segment_agreement.py": "bcea7463660ea7f67a06bf2779603be88001afe1287a0a75bddcae08e3650039",
+    "check_one_segment_final_records.py": "817a695738c0034023e0a1b5d4097ed30ed10a8782423e239281579ed6675e36",
+    "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896",
+    "one-segment-derivative-independent-trial-01/claim.json": "c8585a0097e3d771aff6d2e97687e4a9fe9978a8accddc7c9de764c968f26e4e",
+    "one-segment-derivative-independent-trial-01/norm-squares-m0.json.gz": "efedc8b18d7d0b7700fe3d47cbc68fb757d78018a1c0a47e2751d6ddeef64181",
+    "one-segment-derivative-independent-trial-01/norm-squares-m1.json.gz": "1f4fb5e1bb559e28ce230937bd3d20013fda47cb154c849a67079ff583817b9a",
+    "one-segment-derivative-independent-trial-01/norm-squares-m2.json.gz": "dc974108a2d4fd162023fa5acf7f1671a032b65dcc3162fea762e7d62c9ad9eb",
+    "one-segment-derivative-independent-trial-01/norm-squares-m3.json.gz": "61ba8f4bc24dd78b6fae00c7e8564b33887f4b2c10fa5f104227d99e3c85972f",
+    "one-segment-derivative-independent-trial-01/partial-sums-m0.json": "4cfa82fb68eb651f93d58b4d1d1ee3e2ea9a33936d5940229b1a367bb7ad959f",
+    "one-segment-derivative-independent-trial-01/partial-sums-m1.json": "aeb8b0f151ccd96c70e7926bf0299f0b4b7b5f2950e54dd631dbb88d959baab3",
+    "one-segment-derivative-independent-trial-01/partial-sums-m2.json": "1839a87169e159499e8df7c4a3678c5d54c1ec1f2427b5ee7ab7d47fcefc754a",
+    "one-segment-derivative-independent-trial-01/partial-sums-m3.json": "93126766eb8bbc4773fe997aa1375a758d559031ba88b457ec72b54e2895b78b",
+    "one-segment-derivative-independent-trial-01/progress.jsonl": "6622c7962afcc98b064e75b286b9ef79b952faff6a5ef787fac5fd59f9f9b8c5",
+    "one-segment-derivative-independent-trial-01/result.json": "5b720b8791ebc39c19d577c56903e5e0f18e4d20dc255ff5b4e6c6486d8d69ca",
+    "one-segment-derivative-independent-trial-01/run.json": "f8cbfd035c7cf0bbcd1e405309cad1327e5d7c1d0e48c37635d65777d3183ebe",
+    "one-segment-derivative-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "one-segment-derivative-independent.stdout.log": "33282fe33af421999a5cd03c19596a0d6185eb873041f93bd7b8fbd294fd9643",
+    "one-segment-derivative-root-run.log": "4e4de58fe6070e5c4e352c661ac1982487789c9698fdfa9770d6a170aba8692b",
+    "one-segment-derivative-trial-01/RUN_CLAIM.json": "20ccca28dee7dd1c2e26e87327f158ae64517391b1f1459a562ddaa385e0cb91",
+    "one-segment-derivative-trial-01/norm-square-inputs.json.gz": "42ade977e712f05f3243c3ab40c19a51f3219c8d4355d6278e38f216e1b07564",
+    "one-segment-derivative-trial-01/run.json": "cf8cafeb3a36015e95da32cd372a9febdd19446af0ce449c577c2f83d6142a51",
+    "one-segment-independent-agreement.json": "9a17cc31949592feca7176b620fda25065fa3a1928a37dd107e14c28eb684826",
+    "one-segment-independent-final-readback.json": "8e3e472f7d7b041bf83eb1659cb5c6066f725ea18497618e4caba4fd31a39b1b",
+    "one-segment-root-readback.json": "5fc0b35f5d3cfdf1ba8f16cc5d38165d73a79e589fce3bd88c87631a0dd788de"
+  },
+  "negative_control_record_only": 6,
+  "node_arrays_decoded": false,
+  "projection_or_roots_recomputed": false,
+  "rational_endpoint_checks": {
+    "M2": {
+      "exact_primary_upper": [
+        "893846463286381951167498098716609162698421002104521088708245053016313427117150808088481860874429387524545921",
+        "116603895942761499695758180506495792785563461080116413346429322936580450214702386092563661850089498156728320"
+      ],
+      "positive_rounding_margin": [
+        "975075270692637504602826154689619892712263391283400137053415387807605718942092427779271708917633623334503",
+        "2915097398569037492393954512662394819639086527002910333660733073414511255367559652314091546252237453918208000"
+      ],
+      "readable_upper": [
+        "3833",
+        "500"
+      ]
+    },
+    "M3": {
+      "exact_primary_upper": [
+        "75873027455267807545635830971292397206173294701347642847783007379422264947676456795148159085133560634493142991",
+        "5830194797138074984787909025324789639278173054005820667321466146829022510735119304628183092504474907836416000"
+      ],
+      "positive_rounding_margin": [
+        "1127634687100306394017084284415159392849423484107316738553055410634007030385835283015680719675816089974833",
+        "5830194797138074984787909025324789639278173054005820667321466146829022510735119304628183092504474907836416000"
+      ],
+      "readable_upper": [
+        "6507",
+        "500"
+      ]
+    },
+    "sigma": {
+      "exact_primary_upper": [
+        "508169412417897252799759969137003778044371936833055982182495283097021518130833445335471365151672738735974902823218415165581203236955503950289041",
+        "148191408790310724383009784647932149877521181086239319519604384394178274614929427846388578303834579652132822649829045719531250414302280107950080"
+      ],
+      "positive_rounding_margin": [
+        "635598664342659169817961027017480177628571463724418848738776875049818991872460888207292152399347354203394328476058262054928420506584099898667",
+        "740957043951553621915048923239660749387605905431196597598021921970891373074647139231942891519172898260664113249145228597656252071511400539750400"
+      ],
+      "readable_upper": [
+        "343",
+        "100"
+      ]
+    }
+  },
+  "saved_comparison_bindings_checked": 27,
+  "saved_norm_interval_nestings_checked": 12,
+  "saved_per_mode_values_compared_again": false,
+  "scientific_kernel_reexecuted": false,
+  "scope": "Final audit of stored rational endpoints and hashes, not a third reconstruction.",
+  "status": "PASS_SAVED_ENDPOINT_ARITHMETIC_AND_BYTE_AUDIT"
+}
