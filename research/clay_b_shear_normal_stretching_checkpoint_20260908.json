@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+  "name": "SN shear-normal stretching and non-flat rank-one background",
+  "main": "research/clay_b_shear_normal_stretching_20260908.md",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "classification": [
+    "EXACT LINEARIZED STRUCTURE",
+    "SCOPED FIRST-VARIATION CRITERION",
+    "FIXED-TIME ACTUAL-NS STRETCHING OBSTRUCTION",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "The linearized original NS gradient around a one-dimensional heat shear retains the full background-curvature term. Four normal components satisfy a closed nonlocal pressure system with an explicit background-dependent L2 Gronwall bound; their cofactor interpretation is not uniform across zero background gradient.",
+    "For one-dimensional shear, whole-cell stretching has zero first variation but a nonzero mixed quadratic variation retaining the background gradient and its derivative. A compatible periodic example realizes a positive quadratic coefficient; LK's planar pressure-production family instead has identically zero stretching.",
+    "For a rank-one transverse heat background U(y,z)e1, the first stretching variation is the pairing with (Delta U) grad U. It vanishes for all solenoidal variations exactly when its mean-zero transverse Leray projection, equivalently Jac(Delta U,U), is zero.",
+    "An explicit compatible periodic initial family has exact whole-cell stretching 12 pi^3 epsilon and integral Q d^2=O(epsilon^2). The actual common local NS evolution has stretching 12 pi^3 epsilon exp(-10 nu t)+O(epsilon^2), uniformly, so the same pure quadratic absorption fails on fixed positive-age intervals.",
+    "The intrinsic direction rewrite gives a product of the existing VB direction-dissipation factor and the still-uncontrolled integral of |u-c|^2 |omega|^3. Localizing also produces an explicit cutoff flux. This is a deduplication of costs, not a new critical bound."
+  ],
+  "open_items": [
+    "No arbitrary-data global regularity, singularity, novelty certification, human peer review or Clay solution.",
+    "The one-dimensional normal system is not the full nonlinear gradient system, is not a uniform cofactor linearization at a=0, and does not remove background-gradient coefficients.",
+    "The stretching counterexample changes initial data with epsilon. It excludes only the specified pure quadratic RHS, even with constants depending on fixed background parameters and common smoothness bounds; it does not exclude initial-data, linear-background, localization or other compensation terms.",
+    "The transverse first-variation criterion is not a classification of all rank-one gradients or a regularity theorem. Linear pressure can vanish while first-order stretching is positive.",
+    "Neither the critical d norm nor a prescribed-centre good scale has been obtained. A local critical-defect regularity lemma and arbitrary NS evolution producing its hypotheses are separate unproved tasks."
+  ],
+  "next_action": "First perform a bounded primary-source audit for a local critical rank-one-defect epsilon-regularity interface, retaining d=dist_F(grad u,rank<=1). Start with the scale-invariant spacetime L^(5/2) norm of d on a parabolic cylinder and explicitly state the solution class, viscosity normalization, local energy/pressure bounds and dependence of constants. Determine whether a positive local theorem is already known, follows from a justified localized vorticity estimate, or needs a new assumption. Retain transport cutoff fluxes, pressure tails and zero-set terms; do not impose a one-dimensional shear background. Proving a conditional local lemma does not prove that arbitrary NS evolution provides the small scale. Keep the prescribed-centre good-scale bridge open. Do not repeat homogeneous entropy or weight scans, autonomous quadratic pressure absorption, universal Q d^2 stretching absorption, standard OS-Squire theory or the direct VB Cauchy rewrite.",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "publication_boundary": "After research freeze, send release_id and source commit once to the fixed publisher for PRIVATE_ARCHIVE only. No public overview, website, local reader, counts, recap or attachments requested. Research never pushes or inspects, polls, waits for, retries, supervises or reports archival/publication execution, and does not inspect reverse runtime."
+}
