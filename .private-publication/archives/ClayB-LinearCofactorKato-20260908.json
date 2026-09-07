@@ -1,0 +1,146 @@
+{
+  "base_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779",
+  "claims": [
+    "For the same original smooth unforced periodic NS gradient, k=|adj A|/Q is equivalent to d. Its Kato equation retains a nonnegative zero-set measure, positive cofactor-direction dissipation and a signed remainder controlled by sqrt(3) times GD's full-gradient direction entropy.",
+    "An ambient adjugate derivative and Cayley-Hamilton identity bound the inertial source by C d^2. Pressure has the inherited total L1 bound, not an autonomous relative quadratic bound.",
+    "The C1,1 regularization sqrt(k^2+delta^2)-delta handles J=0 and Q=0 together without discarding their limiting measure. Lk is a finite signed measure and k dx has a unique finite nonnegative weak endpoint trace in the stated finite-time smooth-solution scope.",
+    "A compatible periodic initial jet has vanishing cofactor-direction dissipation while |grad sqrt(k)|^2/(P_k+G) is unbounded. A zero-crossing initial slice need not have sqrt(k) in H1_loc.",
+    "An explicit smooth periodic divergence-free initial family has whole-cell signed pressure production epsilon times a strictly positive coefficient, while the integral of d^2 is O(epsilon^2). Uniform local strong theory, an explicit high-order difference estimate and a regular-zero-set argument extend this mismatch to fixed time windows, including fixed positive-age windows."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "scope": "Full-gradient Frobenius entropy with zero-set measure, inherited Hardy pressure endpoint, rank-one geometry and conditional critical continuation. Not a newly proved critical norm.",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779"
+    },
+    {
+      "bytes": 12210,
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "scope": "Squared cofactor quotient, full ambient adjugate derivative, trace-cost rank-one comparison, and fixed-test weak endpoint method. Historical signed square-quotient measure is not rewritten as positive.",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779"
+    }
+  ],
+  "dependency_commits": [
+    "b222709db27ce814aca5dd9fec2d8f8e60bf0779"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "already_used_in": "BTS",
+      "kind": "TARGETED_PRIMARY_SOURCE_INTERFACE",
+      "new_source_discovery": false,
+      "pdf_archived": false,
+      "read_scope": "Section 5 introduction, all five statements of Theorem 5.1 and its accompanying proof; periodic mean-zero local existence, uniqueness, smoothness and stability. Root, A and C performed scoped source checks. High-order difference and pressure limits are separately derived in LK.16-18.",
+      "url": "https://arxiv.org/html/1108.1165v4",
+      "version": "Tao arXiv 1108.1165v4",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "Pure analytic derivation, exact compatible initial-data construction and proved local-time asymptotics; no numerical or measured figure.",
+  "files": [
+    {
+      "bytes": 15553,
+      "commit": "d980c11765055051385497b8144ac63bfc67c034",
+      "path": "research/clay_b_linear_cofactor_kato_20260908.md",
+      "sha256": "3fd124ffb95574d16a08491172a954900f7532996e10c79feb7106ee59e34018"
+    },
+    {
+      "bytes": 5569,
+      "commit": "d980c11765055051385497b8144ac63bfc67c034",
+      "path": "research/clay_b_linear_cofactor_kato_audit_20260908.md",
+      "sha256": "99802a195159d70bb810f10200affb71231b0de7e4f8249631680b52ee49386e"
+    },
+    {
+      "bytes": 4039,
+      "commit": "d980c11765055051385497b8144ac63bfc67c034",
+      "path": "research/clay_b_linear_cofactor_kato_checkpoint_20260908.json",
+      "sha256": "4c7ba1ed3010c775d82a72bb2a791c1e936bc7666d341459cc664b443994b575"
+    },
+    {
+      "bytes": 11939,
+      "commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779",
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "scope": "Full-gradient Frobenius entropy with zero-set measure, inherited Hardy pressure endpoint, rank-one geometry and conditional critical continuation. Not a newly proved critical norm.",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779"
+    },
+    {
+      "bytes": 12210,
+      "commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779",
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "scope": "Squared cofactor quotient, full ambient adjugate derivative, trace-cost rank-one comparison, and fixed-test weak endpoint method. Historical signed square-quotient measure is not rewritten as positive.",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779"
+    },
+    {
+      "bytes": 8373,
+      "commit": "8b7a02c4311e9f73dd237335ce6718d607e93679",
+      "path": "research/clay_b_linear_cofactor_kato_release_20260908.json",
+      "sha256": "d6f7dc555c8b322f343490923a08e1f8093225c2967f36549028886279e23ae4"
+    }
+  ],
+  "freeze_commit": "8b7a02c4311e9f73dd237335ce6718d607e93679",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "This manifest and the later dispatch receipt are outside the immutable source-stage file binding. Dispatch acceptance is not private archival verification.",
+  "is_clay_result": false,
+  "limitations": [
+    "No arbitrary-data global regularity, singularity, novelty certification, optimal constants, human peer review or Clay solution.",
+    "No strong L1 endpoint trace, exclusion of concentration, or GD.11 critical d norm has been derived.",
+    "The pressure counterexample changes initial data with epsilon and refutes only the specified purely quadratic bounds having no extra initial-data term, linear background-coupling term or other compensation on the right. The constant may still depend on the fixed background parameters and common smoothness bound. It is not a single-solution singular-endpoint theorem.",
+    "The initial-slice amplitude obstruction does not refute all positive-time cumulative estimates. A Kato zero-set measure is not the divergent ordinary Fisher density.",
+    "The exact linearized pressure operator, the component that contributes to actual vorticity stretching, and any useful joint estimate still require a separate derivation and review.",
+    "No public overview, website, local reader, public counts, recap, attachments or relaunch requested."
+  ],
+  "logical_predecessor": "ClayB-CofactorDefectDynamics-20260908",
+  "next_research_plan": "Keep d and GD.11. Read LK main/audit and GD definitions in full where needed. Stop trying autonomous k^2-only pressure closure and repeated one-homogeneous entropy/weight scans. Derive the original linearized NS pressure operator on normal gradient variations around the same rank-one shear background; identify which components contribute to true vorticity stretching and test their joint dynamics instead of bounding bare pressure by a quadratic defect. Retain all background-gradient coefficients, pressure normalization, spatial compatibility and zero-set restrictions. Standard local perturbation stability is not arbitrary-data global control. No publication or reverse-runtime inspection.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "actual_main_reviews": "A/C full actual255-line main reviews plus final deltas accept15553B SHA3fd124ffb95574d16a08491172a954900f7532996e10c79feb7106ee59e34018. Five pure escape repairs add5B; C exact inverse restores original15464B SHA921d9dc7. Final L245 scope clarification adds84B; C exact inverse restores15469B SHAd7e3b029. A checks both increments. Participating AI reviews, not wholly nonauthor or human peer review.",
+    "audit": "research/clay_b_linear_cofactor_kato_audit_20260908.md",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "A full actual37-line5569B audit and38-line4039B checkpoint PASS, including strict JSON with no duplicate keys, five completed claims and five open items, final main hash, background-parameter quantifiers and pending-next-question scope.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "LK.1-18 ordered unique tags,22 display pairs,142 inline pairs,private labels,no control characters or bare quad/qquad PASS. Root actual full readback and independent recomputation. Three immutable source files25161B and two local dependencies24149B match git-show and worktree bytes/hashes; staged whitespace clean. Initial local node command unavailable; existing orchestration JavaScript completed text checks without environment changes.",
+    "third_party_pdf_archived": false,
+    "visual_render_qa": false
+  },
+  "recap": {
+    "reason": "Scoped dissipative estimate and a specific pressure-estimate obstruction; no new unconditional critical norm or major global milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-LinearCofactorKato-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "SCOPED POSITIVE MEASURE DISSIPATION",
+    "FIXED-TIME ACTUAL-NS PRESSURE OBSTRUCTION",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "d980c11765055051385497b8144ac63bfc67c034",
+  "simulation": false,
+  "source_commit": "d980c11765055051385497b8144ac63bfc67c034",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
