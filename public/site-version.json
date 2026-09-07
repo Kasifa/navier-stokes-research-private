@@ -1,6 +1,6 @@
 {
   "schemaVersion": "research-site-version-v1",
-  "version": "2.69",
+  "version": "2.70",
   "latestRelease": "R0.76L",
   "latestPublishedResearchHtml": "/notes/r0-76l.html",
   "latestPublishedResearchPdf": "/notes/r0-76l.pdf",
@@ -9,7 +9,7 @@
   "postR060RecapNodeCount": 203,
   "latestRecapRelease": "R0.76I",
   "publicPdfNoteCount": 223,
-  "publishedDate": "2026-09-06",
+  "publishedDate": "2026-09-07",
   "publicIndependentNoteCount": 25,
   "latestIndependentNote": "ClayB-FrequencyActivation-20260907",
   "latestIndependentResearchHtml": "/notes/clay-b-frequency-activation-20260907.html",
@@ -17,5 +17,7 @@
   "newPdfPolicy": "NO_NEW_PDFS_FROM_CLAYB_SIGNED_SCALE_20260905",
   "independentChapterScheme": "CB.n",
   "latestIndependentChapter": "CB.25",
-  "nextIndependentChapter": "CB.26"
+  "nextIndependentChapter": "CB.26",
+  "roadmapTopology": "R0_SOLID_CB_DASHED_NO_INTERLANE_EDGE",
+  "independentChapterTitlePolicy": "CB.n_PREFIXED"
 }

@@ -268246,5 +268246,59 @@
       "research-review.html"
     ],
     "en": "universal N⁻⁵ᐟ² lower bound"
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907001",
+    "zh": "文献综述 v2.70 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "literature-review.html"
+    ],
+    "en": "Literature review v2.70 · 2026-09-07"
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907002",
+    "zh": "研究笔记总索引 · v2.70 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "notes/index.html"
+    ],
+    "en": "Research-note master index · v2.70 · 2026-09-07"
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907003",
+    "zh": "我把已经完成的研究整理为两条路线。R0.1–R0.76L 是实线主序列；CB.1–CB.25 是相对独立的 Clay-B 路线，在单独泳道中仅以虚线表示内部章节顺序。两条路线之间不画任何连接边；它们研究同一个 PDE 问题，但这里不把策略转向表示成由 R0.76L 推出 Clay-B 的定理依赖。历史节点默认只显示阶段判断，最近公开笔记可直接打开原始记录。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "I organize the completed research into two routes. R0.1–R0.76L is the solid-line main sequence; CB.1–CB.25 is the relatively independent Clay-B route, with dashed links used only for its internal chapter order in a separate lane. No edge is drawn between the two routes. They study the same PDE problem, but the strategy change is not presented as a theorem-level implication from R0.76L to Clay-B. Historical nodes show only their stage judgments by default, and the latest public notes open directly."
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907004",
+    "zh": "虚线仅表示 Clay-B 内部章节顺序；R0 与 Clay-B 之间无连接边",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Dashed links show only the internal Clay-B chapter order; there is no edge between R0 and Clay-B"
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907005",
+    "zh": "这条路线与 R0 主序列共享三维 Navier–Stokes 的研究目标，但在此独立起线。R0 与 Clay-B 之间没有实线或虚线继承边；下方虚线只连接 Clay-B 内部已经发布的章节顺序。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "This route shares the three-dimensional Navier–Stokes research objective with the R0 main sequence, but starts independently here. There is no solid or dashed inheritance edge between R0 and Clay-B; the dashed links below connect only the published chapter order within Clay-B."
+  },
+  {
+    "id": "homepageclaybtopologynumbering20260907006",
+    "zh": "综述 v2.70 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Review v2.70 · 2026-09-07"
   }
 ]

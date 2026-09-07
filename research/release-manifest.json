@@ -2,7 +2,7 @@
   "schemaVersion": "research-release-manifest-v1",
   "firstPdfRequiredRelease": "r070a",
   "latestCompletedRelease": "r076l",
-  "siteVersion": "2.69",
+  "siteVersion": "2.70",
   "publicHtmlNoteCount": 266,
   "postR060RecapNodeCount": 203,
   "nextRelease": "r076m",
@@ -114,5 +114,8 @@
   "independentChapterScheme": "CB.n",
   "latestIndependentChapter": "CB.25",
   "nextIndependentChapter": "CB.26",
-  "latestIndependentNote": "ClayB-FrequencyActivation-20260907"
+  "latestIndependentNote": "ClayB-FrequencyActivation-20260907",
+  "publishedDate": "2026-09-07",
+  "roadmapTopology": "R0_SOLID_CB_DASHED_NO_INTERLANE_EDGE",
+  "independentChapterTitlePolicy": "CB.n_PREFIXED"
 }

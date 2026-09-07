@@ -226,11 +226,15 @@ def independent_section(site: dict[str, object]) -> str:
         parser = TitleParser()
         parser.feed(path.read_text(encoding="utf-8"))
         parser.close()
-        title = html.escape(parser.title)
-        if not title:
+        raw_title = parser.title
+        if not raw_title:
             raise RuntimeError("independent note title is missing")
         slug = path.stem
         chapter = INDEPENDENT_CHAPTERS[slug]
+        chapter_prefix = f"{chapter}｜"
+        if raw_title.startswith(chapter_prefix):
+            raw_title = raw_title.removeprefix(chapter_prefix).strip()
+        title = html.escape(raw_title)
         topic, date = slug.removeprefix("clay-b-").rsplit("-", 1)
         display_id = f"ClayB-{''.join(part.title() for part in topic.split('-'))}-{date}"
         href = f"/notes/{slug}.html"
