@@ -1,0 +1,22 @@
+{
+  "actual_five_artifact_hashes": {
+    "c96-centers.i112le.bin": "c16d26dcbea14b63614d192da27a8b268fa49e689a02fb15499601cc1b611c9e",
+    "product-0.signed-le.bin": "c9fe217c68e9c90f1113ee014205490137bf30d20906f7f3832d5008c2f0bbff",
+    "product-1.signed-le.bin": "5d088b3151dc55a8b0d875d1937af067181c2ff24c3cb981de3ca376aef29190",
+    "product-2.signed-le.bin": "827ebd49131500fb8260dc06e921b72461de9a0a85eb7842ca8b68ca6337d3ce",
+    "tensor12-complex.i240le.bin": "795ce995481d41b1fd4c6810101b62d37b187a268eaba992e97ef6f3f79ca0e6"
+  },
+  "primary_final_resources": {
+    "output_bytes": 5813537,
+    "peak_rss_bytes": 87228416,
+    "wall_seconds": 1.6278625840786844
+  },
+  "run_sha256": "375921aff0ceae1294b7d79947d9dfeaf817ad65ce9edc6c02b9b152ac922d70",
+  "scope": "M and delta rational postprocessing and full file readback, no third node reconstruction or independent full convolution; not a residual upper bound.",
+  "source_commit": "7943df9127f28ceda67cffcc9b60311ec1f635c1",
+  "status": "PASS_PRIMARY_FULL_FILE_READBACK_AND_ERROR_POSTPROCESSING",
+  "strict_readable_input_error_uppers": {
+    "E0": "1/10^23",
+    "E2": "8/10^21"
+  }
+}

@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "One-segment derivative certification is complete, independently rebuilt and finally reviewed; no reruns. Next bounded work: Pascal implements only fixed n1280 96-bit c1*c2 Kronecker cost block under 60s/256MiB/8MiB; Pauli independently reviews signed linear-time decoding. Neither block run nor full residual certified yet. Root must read exact final contract/code and review before one execution. No new nodes, parameters, FFT, integration or full-window sweep.",
+  "next_action": "Primary one fixed c96 tensor c1*c2 Kronecker run COMPLETE on source 7943df9127f28ceda67cffcc9b60311ec1f635c1, 1.628s/87228416 RSS/5813537B; source/math/record non-author review PASS. Never rerun it. First attempt trial01 failed on copied 61-character manifest pin before any array/node/scientific kernel; preserve failure and explicit two-line startup recovery. Pauli driver_source_audit is preparing KRONECKER_DIRECT_INDEPENDENT_CONTRACT.md and audit_kronecker_direct_independent.py: original Fraction reconstruction then all 24127744 Gaussian ordered pairs, blind to main. Read final source and contract, root code review and all three correct 64-character live input hashes before its one 60s/256MiB/8MiB run. Then compare 29472 center and 71874 output scalars. No complete NS residual or full-window sweep.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "ONE_FIXED_REFERENCE_INTERVAL_DERIVATIVE_UPPERS_CERTIFIED; CONTINUOUS_ERROR_INPUTS_UNPAID; NO_CERTIFICATE_YET_FOR_FIXED_a",
+  "scientific_status": "ONE_INTERVAL_DERIVATIVE_CERTIFIED; ONE_FIXED_TENSOR_PRIMARY_COST_PASS_WITH_FULL_INDEPENDENT_RECONSTRUCTION_PENDING; NO_CERTIFICATE_YET_FOR_FIXED_a",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -87,7 +87,21 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_FINAL_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/check_one_segment_final_records.py",
     "research/reverse/fixed-seed-global-screen/one-segment-final-record-check.json",
-    "research/reverse/fixed-seed-global-screen/one-segment-final-review-root-check.json"
+    "research/reverse/fixed-seed-global-screen/one-segment-final-review-root-check.json",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_BLOCK_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_BLOCK_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_DECODING_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_STARTUP_RECOVERY.md",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_STARTUP_RECOVERY_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/audit_kronecker_block.py",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-01/run.json",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-02/run.json",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_PRIMARY_COST_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_PRIMARY_RESULT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/check_kronecker_primary_records.py",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-record-check.json",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-root-readback.json",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-review-root-bindings.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -162,7 +176,21 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_FINAL_REVIEW.md": "7300c2ec68e3eed0da855ab2c9303af6321fca301c666bd8c86f187e6100d111",
     "research/reverse/fixed-seed-global-screen/check_one_segment_final_records.py": "817a695738c0034023e0a1b5d4097ed30ed10a8782423e239281579ed6675e36",
     "research/reverse/fixed-seed-global-screen/one-segment-final-record-check.json": "0e54fd5210857d5ba135eb24cb1f3f00f8282e12ae74a2ab83da72a66c8eab90",
-    "research/reverse/fixed-seed-global-screen/one-segment-final-review-root-check.json": "20cade2e5d868f058b394ee3e93ed38eb3dc505e0cf857a00c4cbb8a003d9170"
+    "research/reverse/fixed-seed-global-screen/one-segment-final-review-root-check.json": "20cade2e5d868f058b394ee3e93ed38eb3dc505e0cf857a00c4cbb8a003d9170",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_BLOCK_CONTRACT.md": "d8077701b347d35045d7f59ab39669a9e6bf07f6753db386e3d052dc8ab5ada3",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_BLOCK_ROOT_REVIEW.md": "39e2fd54305c68f9383c72f4da79282f315928b4b5eea0c89f978486ba333a21",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_DECODING_INDEPENDENT_REVIEW.md": "16d36272c65f4e42040fcc7e79f4661a2b047d50c86dcabcf4b083281c3d82b9",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_STARTUP_RECOVERY.md": "77d26c82f4a7a571543628488457e26289d96d5c2b380000944eecf407ac17bb",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_STARTUP_RECOVERY_REVIEW.md": "38d95c2826c81995f21f1aee2b7468567c16e5b5b335b92813d59a989abb69ef",
+    "research/reverse/fixed-seed-global-screen/audit_kronecker_block.py": "b4d65f5a02211ff52f1a202b4e9ba25e9cee47e5a9468bb3a670aa5c381a5c08",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-01/run.json": "44d05321296a6b25b3997495601cc9623a8fd6562b6dfd13f08dedcbbd99fcbc",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-02/run.json": "375921aff0ceae1294b7d79947d9dfeaf817ad65ce9edc6c02b9b152ac922d70",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_PRIMARY_COST_OUTCOME.md": "b990f32d3239e4274def7bc2c8722be6dbe55e1de59aa8a4025ad2ebcb0c4683",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_PRIMARY_RESULT_REVIEW.md": "3ac40135870e8d7c9c7581c4c9f2fa6b42094cf845fdbc620f855757f59a0829",
+    "research/reverse/fixed-seed-global-screen/check_kronecker_primary_records.py": "069cc1fd338ec12e43c77a94373009082d3d3ef19c59d07027373b42a20abc89",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-record-check.json": "5930307fdab6b82eea1de319b65c0a42aee609be7568cf5905bf34ce79ca0632",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-root-readback.json": "9f673dd679d89e3f41af89975628686ba0a0c4fcb748c916aae3b1a81c94d6e3",
+    "research/reverse/fixed-seed-global-screen/kronecker-primary-review-root-bindings.json": "8b1e4d0807952cdecd6c9e47fcaaf2d2cf4d10aed9623278ba2eae2ea54e7215"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -176,11 +204,11 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same fixed reference: one closed Hermite interval derivative certification complete; implement and review one exact convolution cost block",
+  "current_topic": "Same fixed reference: complete one-interval derivative certificate and one exact tensor cost block; direct independent full convolution pending",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Review and execute at most one locked exact convolution cost block, then judge value before extending",
-    "Continuous whole-window residual and derivative bounds, positive comparison and infinite-dimensional error unpaid",
+    "Complete actual independent Fraction input reconstruction and direct all-pair convolution for one fixed tensor block; compare every center and output scalar",
+    "Full node conservative operator/Leray/linear residual and continuous whole-window error inputs unpaid",
     "Original fixed datum global status and finite-time singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
@@ -195,7 +223,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T17:38:39.543117+00:00",
+  "updated_at": "2026-09-07T18:02:05.131655+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "progress: exact primary and independent one-interval derivative certificates completed; 19648 norm squares and four chi agree, 12 interval containments, six negative controls, non-author final review PASS; no actual NS conclusion",
   "completed_unreleased_audits": [
@@ -333,5 +361,27 @@
       "state": "SENT_ONCE_NO_REPLY_DEPENDENCY",
       "tool_receipt": "send_message_to_thread returned matching threadId"
     }
-  ]
+  ],
+  "kronecker_block_evidence": {
+    "primary_status": "COMPLETE_ONE_FIXED_COMPLEX_TENSOR_BLOCK_VERIFIED",
+    "primary_source_commit": "7943df9127f28ceda67cffcc9b60311ec1f635c1",
+    "source_sha256": "b4d65f5a02211ff52f1a202b4e9ba25e9cee47e5a9468bb3a670aa5c381a5c08",
+    "run_sha256": "375921aff0ceae1294b7d79947d9dfeaf817ad65ce9edc6c02b9b152ac922d70",
+    "primary_wall_seconds": 1.6278625840786844,
+    "peak_rss_bytes": 87228416,
+    "output_bytes": 5813537,
+    "complex_outputs": 35937,
+    "general_integer_multiplications": 3,
+    "primary_review": "PASS_LIMITED_PRIMARY_SOURCE_AND_RECORD_SCOPE",
+    "root_review_bindings": 27,
+    "independent_direct_full_reconstruction": "PREPARING_NOT_EXECUTED",
+    "startup_failure": "trial01 SHA pin transcription refused before node loading; all original bytes unchanged; preserved and independently reviewed two-line repair to trial02",
+    "future_full_operator_input_error_uppers": {
+      "E0": "1/10^23",
+      "E2": "8/10^21"
+    },
+    "error_scope": "Input perturbation only, not a residual bound",
+    "primary_rerun_allowed": false,
+    "separate_release": false
+  }
 }

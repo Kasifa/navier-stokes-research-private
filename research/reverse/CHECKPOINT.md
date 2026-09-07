@@ -1,5 +1,11 @@
 # Reverse research checkpoint
 
+2026-09-08 当前实际进展：固定 n1280 的 96 位中心 c̃¹*c̃² 完整整数卷积主块已在源 7943df9127f28ceda67cffcc9b60311ec1f635c1 完成；三次一般整数乘法、35937 复输出，最终 1.627862584 秒、RSS 87228416 字节、目录 5813537 字节。Rawls 已审科学路径/数学接口/结果与实际记录 PASS；根全文读并核 27 项绑定。读 KRONECKER_PRIMARY_COST_OUTCOME.md、KRONECKER_PRIMARY_RESULT_REVIEW.md 和 trial-02/run.json。主成功核不重跑。E₀<10⁻²³、E₂<8·10⁻²¹ 只属输入扰动，完整残差尚未计算。
+
+首次 trial-01 在清单 SHA 字符串漏抄 56a 后被第一道认证拒绝，未加载节点或计算乘法；失败记录保持。KRONECKER_STARTUP_RECOVERY.md 和独立恢复审查明确只修正该 pin 与新输出目录，三原输入未变。正确 manifest SHA 为 5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd；不要再从旧新块合同中的 61 字符错串复制。此恢复不允许科学失败或超限后自动重试。
+
+下一实际工作：Pauli 正准备 KRONECKER_DIRECT_INDEPENDENT_CONTRACT.md 和 audit_kronecker_direct_independent.py，盲于主实现/主输出，原 Fraction 节点重建后完整 24127744 Gaussian 有序对求和。当前未运行。先读其最终源码和合同，根全文审并核全部真实三输入 pin 后才单次执行 60 秒/256 MiB/8 MiB；然后逐 29472 个中心、71874 个输出标量比较。不得把主块零频/共轭/哈希检查称作此独立完整复算。固定一段导数证书已全部关闭，仍为下述同一范围；其余张量、完整 Leray/线性残差及原 NS 结论未支付。以上覆盖下段准备叙述；不重复派活，不重算成功核，也无常规确认依赖。
+
 2026-09-08 当前完成项：固定一段导数上界已完成主核、实际独立 Fraction 重建、精确比较及非作者终审 PASS。19648 份逐模平方范数、四个 χ 完全一致，12 组主区间全部包含于独立区间，六个损坏数据负对照全部被拒。根已全文读最终审查与记录核对源码，并实际核 39 项终审绑定。主/独立运行源分别 ed412495fde38ee5563ce74b727a14f52274513a、ecb67607ba0dcd2ae13fe240c3c3492b1f575c70；最终墙钟分别 0.375/1.579 秒。整段上界 σ≤343/100、M₂≤3833/500、M₃≤6507/500 只属于原固定 Hermite 参照的 I=[1280/2048,1281/2048]，没有完整残差或原 NS 全局证书。读 ONE_SEGMENT_DERIVATIVE_OUTCOME.md、ONE_SEGMENT_DERIVATIVE_FINAL_REVIEW.md 和 one-segment-independent-agreement.json；成功科学核不重跑。本轮没有新正式冻结包。
 
 下一项已实际开工：Pascal 正实现唯一 n1280 的 96 位中心 c̃¹*c̃² 精确 Kronecker 成本块（60 秒、256 MiB、8 MiB）；Pauli 独立审核有符号线性解包及后续完整独立验证方案。当前尚无该块运行。先读两者最终源码/合同与审查，由根全文审读后才能唯一执行；不重复派活，不增加节点、精度、FFT、积分或完整时间窗扫描。连续残差成本预审已经完成，不再重推同一公式。用户持续授权有效，不需要常规确认。下面的待审/准备叙述仅为历史，以本段和 reverse-current.json 为准。
