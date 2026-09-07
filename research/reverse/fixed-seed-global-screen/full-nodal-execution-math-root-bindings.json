@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_CONTRACT.md": "879deca7e881073dc3fc31506aaf681e7d243d068621092fe361fc60963ae40c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md": "5f1c40039f8de23250ef103c16e2991535dadaa4824c4f05e8cc045c75b55e53",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md": "61450a286e2f300f4444a29b45fa53fe93ec1b655fab3b4f03afb4261e93307c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md": "5a1341a58a93582b31a56a33d10a296499ed921daa2c5dac7ee9d27369c87ece"
+  },
+  "scientific_execution": false,
+  "scope": "Full read of contracts and independent review. No code approval or execution claim.",
+  "status": "PASS_ROOT_FULL_READ_NON_AUTHOR_EXECUTION_CONTRACT_MATH_REVIEW_AND_SIX_BINDINGS"
+}

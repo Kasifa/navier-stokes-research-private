@@ -2,7 +2,9 @@
 
 2026-09-08 最新完成项：单一 n1280 的 c̃¹*c̃² 张量块已完整验收。主 Kronecker 与盲于主结果的独立 Fraction→直接有序对算法都实际完成，24127744 个有序对覆盖全部35937复输出。根逐29472中心、71874输出及29472舍入见证比较，M/δ全和也相同，六个内存负对照全拒。Rawls最终非作者审查PASS；根全文读终审和最后记录核对源码，实际核46项绑定。读 KRONECKER_COMPLETE_OUTCOME.md、KRONECKER_COMPLETE_FINAL_REVIEW.md、kronecker-independent-agreement.json；该块科学核和比较均不再重跑。主/独立科学源为7943df9127f28ceda67cffcc9b60311ec1f635c1、49bf28aad70bdcb4adde2fd2cccc0e6b84544f1c，最终墙钟1.628/2.784秒。仍只认证同一96位中心的一项张量，完整残差和原NS结论未付。
 
-下一已开工项：FULL_NODAL_RESIDUAL_CONTRACT.md 已由Pascal写完，根全文读并核公式；核心 V=sQP²L+iDN 与二阶范数消分母公式原由根提出，不将根复读冒充完全非作者审查。Rawls现在独立审这个新数学合同，先读其实际审查再继续；不重复派活。它仅限同一n1280的完整r₀/r₂双边界，复用已验T¹²与中心，另五张量、原精确斜率、完整Leray和线性/非线性相消都须支付。根号精度、源码、资源预算尚未锁定，没有新完整节点计算；不自动增加节点/参数/时间段或全窗扫描。当前NO-CERTIFICATE-YET-FOR-FIXED-a，持续研究授权和active目标保持，无常规确认依赖。本段覆盖下方未完成的旧叙述。
+下一已开工项：同一 n1280 完整残差的 NR 数学合同与两份执行合同均已通过 Rawls 非作者独立审查；根全文读并分别实际核六项输入绑定。读 FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md、FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md。固定 QP=2^96、根号 b=128；两核各一次 60 秒、256 MiB 峰 RSS、64 MiB 输出。复用旧中心和 T¹²，仅新增其余五张量，精确原斜率、完整 Leray、线性/非线性相消和原节点扰动均保留。Pascal 正准备 audit_full_nodal_residual.py，Pauli 盲于该主源码/新结果准备 audit_full_nodal_residual_independent.py；Rawls 正准备一次档案比较器。根随后全文审代码、核实际 pin、锁源码提交后才各执行一次，目前未执行新科学核。核心公式原由根提出，不将根复读冒充其非作者审查。不增加节点、参数或时间窗扫描。当前 NO-CERTIFICATE-YET-FOR-FIXED-a，持续授权和 active 目标保持，无常规确认依赖。
+
+以下按原记录保留历史沿革；其中的“下一步”“准备中”均不覆盖上面的当前状态。
 
 2026-09-08 当前实际进展：固定 n1280 的 96 位中心 c̃¹*c̃² 完整整数卷积主块已在源 7943df9127f28ceda67cffcc9b60311ec1f635c1 完成；三次一般整数乘法、35937 复输出，最终 1.627862584 秒、RSS 87228416 字节、目录 5813537 字节。Rawls 已审科学路径/数学接口/结果与实际记录 PASS；根全文读并核 27 项绑定。读 KRONECKER_PRIMARY_COST_OUTCOME.md、KRONECKER_PRIMARY_RESULT_REVIEW.md 和 trial-02/run.json。主成功核不重跑。E₀<10⁻²³、E₂<8·10⁻²¹ 只属输入扰动，完整残差尚未计算。
 

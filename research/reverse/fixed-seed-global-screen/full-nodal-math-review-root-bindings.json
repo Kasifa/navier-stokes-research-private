@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_COMPLETE_FINAL_REVIEW.md": "f72989cbc34a828132d317fb0f62277568fb8691ef582b501e483fdeb14c3b1f",
+    "research/reverse/fixed-seed-global-screen/kronecker-independent-agreement.json": "5510285fed346165e428bac4dfcb572548283322937a712be6465829481b5779"
+  },
+  "review_sha256": "5a1341a58a93582b31a56a33d10a296499ed921daa2c5dac7ee9d27369c87ece",
+  "root_role": "Read final review; root originally proposed core formulas, Rawls supplied independent derivation.",
+  "scientific_execution": false,
+  "status": "PASS_ROOT_READ_NON_AUTHOR_MATH_REVIEW_AND_SIX_INPUT_BINDINGS"
+}

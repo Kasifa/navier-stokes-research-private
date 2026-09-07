@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Single tensor block is fully complete and finally reviewed: primary Kronecker and blind Fraction/direct all-pair execution agree in every 29472 center and 71874 output scalar; witness M/delta agree and six mutations rejected. Never rerun either. Next: Rawls driver_contract_review is independently reviewing FULL_NODAL_RESIDUAL_CONTRACT.md (Pascal author, root proposed core formulas and read full final). Read its actual final review when ready, then scope one full n1280 node residual implementation and budget; no source/run is prepared yet. Reuse certified tensor12/center; all other five tensors, exact original slope and full Leray/linear signed residual remain unpaid. Do not auto-extend to more nodes, time intervals, parameters or a whole-window sweep.",
+  "next_action": "Both full-node kernel sources have complete root code review and actual static/pin checks. Lock this source commit, then execute primary once and blind independent once at the fixed node under their 60s/256MiB/64MiB contracts. Keep HEAD stable until both finish; preserve any failure and never retry a scientific kernel. Rawls prepares check_full_nodal_agreement.py without executing it; root must read final checker before one full artifact comparison and subsequent final review. No whole-window or parameter expansion.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -115,7 +115,19 @@
     "research/reverse/fixed-seed-global-screen/check_kronecker_complete_records.py",
     "research/reverse/fixed-seed-global-screen/kronecker-complete-final-record-check.json",
     "research/reverse/fixed-seed-global-screen/kronecker-complete-root-final-bindings.json",
-    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md"
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/full-nodal-math-review-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/full-nodal-execution-math-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual.py",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual_independent.py",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary-check-only.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -218,7 +230,19 @@
     "research/reverse/fixed-seed-global-screen/check_kronecker_complete_records.py": "56c54ca33291e9b93eaca78b6c5d3e2f1fd00c4b870998b824768deee86a16c7",
     "research/reverse/fixed-seed-global-screen/kronecker-complete-final-record-check.json": "29f74fe5c3d545481be5e2ebcc2f19fe2e3b91345d3fd8a7641b065d8dcbd75e",
     "research/reverse/fixed-seed-global-screen/kronecker-complete-root-final-bindings.json": "9fbcbbbaca66831459803b4462d3373cffeb39269c1c975d9ddeafbf7a43fcef",
-    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b"
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md": "5a1341a58a93582b31a56a33d10a296499ed921daa2c5dac7ee9d27369c87ece",
+    "research/reverse/fixed-seed-global-screen/full-nodal-math-review-root-bindings.json": "e4266a8f32c2f3e04607f15cfd3f21cfb647da3577660abc3b2663e8e9462050",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_CONTRACT.md": "879deca7e881073dc3fc31506aaf681e7d243d068621092fe361fc60963ae40c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md": "61450a286e2f300f4444a29b45fa53fe93ec1b655fab3b4f03afb4261e93307c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md": "5f1c40039f8de23250ef103c16e2991535dadaa4824c4f05e8cc045c75b55e53",
+    "research/reverse/fixed-seed-global-screen/full-nodal-execution-math-root-bindings.json": "e2aea740e3af2bccca1afbbeeee78d782f9095ed0f9ba70198847fae66fa4a00",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual.py": "54af5a2eac8be72acacef40f1be73ba00916704d64aef539d4459375a9d18e8c",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual_independent.py": "6b65b6f536d77c544c8803832eadcf37c72568f951a9982edf40e73dbc272fbf",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md": "a28d49df6c91012f57fe2a086b2b4a4d205698187484685b755514770865e182",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md": "f6185da959f93adcca2ad77de6f66fa52fb063d559023db9e09c10f8f43a56aa",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary-check-only.json": "d249fb91c2b5f552a699ccc85861b06b374a3e42256dfce90da056a375381fbc",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json": "8db20c0b6b6f7d2deb01e1ecace14fef92432a914d46f0dd2b4ebd027c970695"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -232,12 +256,12 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same fixed reference: one tensor fully independently certified; next exact full nodal residual mathematical contract under independent review",
+  "current_topic": "Same fixed reference: full n1280 residual math accepted; two exact implementations being prepared",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Read Rawls independent review of FULL_NODAL_RESIDUAL_CONTRACT; core formulas proposed by root then independently expanded by Pascal",
-    "Lock source, precision and resource budget before one same-node full residual calculation; no new computation has started",
-    "Full continuous whole-window error, original fixed datum global status and finite-time singularity remain open"
+    "Root full read of both final implementation sources and real file pins, source commit before execution",
+    "One actual primary and one blind independent full n1280 residual execution, then complete exact artifact comparison and final independent result review",
+    "Whole-window original NS error, fixed-datum global regularity and singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -251,7 +275,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T18:16:56.835972+00:00",
+  "updated_at": "2026-09-07T18:38:05.621063+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "Substantive progress: one closed reference interval derivative certificate and one complete full-spectrum tensor certified by two actual exact algorithms; startup pin failure preserved/corrected without changing data; final non-author audit complete; next full nodal residual contract written and under independent mathematical review.",
   "completed_unreleased_audits": [
@@ -373,11 +397,11 @@
     "rerun_allowed": false
   },
   "continuous_residual_arithmetic_preflight": {
-    "status": "PASS_ANALYTIC_PATH_COST_UNMEASURED",
+    "status": "ANALYTIC_PATH_ACCEPTED_SINGLE_TENSOR_COST_AND_OUTPUT_INDEPENDENTLY_PAID_FULL_NODE_PENDING",
     "method": "3D exact Kronecker integer convolution, optional fixed 96-bit centers with proved conservative input error",
     "root_independent_analytic_review": "PASS",
-    "scientific_kernel_executed": false,
-    "next_cost_block": "at most one fixed n1280 tensor c1*c2 if later selected and source-reviewed; not run"
+    "scientific_kernel_executed": true,
+    "next_cost_block": "Closed tensor12 must not rerun. Full same-node residual math accepted; implementation preparation only. No whole-window execution."
   },
   "peer_exchanges": [
     {
@@ -427,13 +451,25 @@
   },
   "full_nodal_residual_preparation": {
     "contract": "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md",
-    "status": "MATHEMATICAL_CONTRACT_WRITTEN_INDEPENDENT_REVIEW_RUNNING",
+    "status": "BOTH_SOURCES_ROOT_REVIEWED_READY_FOR_ONCE_EACH_EXECUTION_AFTER_COMMIT",
     "root_read": "complete final text, core formula originator; not claimed as non-author independent review",
     "independent_reviewer": "driver_contract_review Rawls",
-    "implementation_prepared": false,
+    "implementation_prepared": true,
     "new_scientific_execution": false,
     "fixed_node": 1280,
     "reuse_tensor12": true,
-    "root_precision_and_resource_budget": "not yet fixed; required before code execution"
+    "root_precision_and_resource_budget": "Each implementation once: n1280, QP96, b128, 60 seconds, 256 MiB observed peak RSS, 64 MiB output including 256 KiB metadata reserve",
+    "independent_math_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md",
+    "independent_execution_contract_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md",
+    "roles": {
+      "primary": "driver_independent_certificate Pascal",
+      "blind_independent": "driver_source_audit Pauli",
+      "artifact_checker": "driver_contract_review Rawls"
+    },
+    "root_review_scope": "Full final sources read; two actual check-only runs completed without scientific arrays. Ready for source commit and one execution each.",
+    "primary_source_sha256": "54af5a2eac8be72acacef40f1be73ba00916704d64aef539d4459375a9d18e8c",
+    "independent_source_sha256": "6b65b6f536d77c544c8803832eadcf37c72568f951a9982edf40e73dbc272fbf",
+    "primary_root_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md",
+    "independent_root_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md"
   }
 }
