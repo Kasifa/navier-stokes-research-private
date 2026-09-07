@@ -2,7 +2,7 @@
 
 2026-09-07。ACTIVE_RESEARCH_CHECKPOINT。用户最新直接要求“按既定的策略持续开展研究”及“如无特别需要我来确认的，你就持续开展下去，不需要停顿”。日常研究、独立审查、源码冻结和一次私有交接不需新确认。更晚的用户明确暂停仍优先。科学工作与所有 git 命令只在本反向树、codex/ns-reverse 执行。
 
-当前数学已完成独立审查，正在作最终证据绑定与统一冻结：exterior-pressure/OUTCOME.md。拟定 release 为 ReverseNS-20260907-LocalPressureScreen，包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
+当前有界研究已完成：exterior-pressure/OUTCOME.md。release 为 ReverseNS-20260907-LocalPressureScreen，源码 a341a095a7aa0fb7715cc6156b66fe929dfca572，清单 exterior-pressure/freeze.json 已写，待一次私有交接。该包，包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
 
 已证内容与边界：
 
@@ -24,3 +24,5 @@
 暂停沿革保存在 PAUSE_DRIVER_DOMINANCE_20260907.md、PAUSE_DUPLICATE_ENTRY_20260907.md；这些不覆盖最新持续授权。前次平台 goal blocked 也不是当前状态：本次 get_goal 返回无目标后，已按用户持续研究请求成功建立 active、无预算的反向研究目标。不需要再让用户恢复旧目标卡片，也不把有限包完成标为整个研究目标完成。
 
 不运行正向 helper，不改正向检查点/索引，不读发布队列或发布索引，不 push、修改 remote、部署或监控网页。完整新成果 PRIVATE_CORE。统一迭代、单个固定初值的无限尺度、无限维迭代误差、有限总时间和奇性仍 OPEN / NOT CLAY。
+
+最新科学下一项：固定单个局部旋流初值，按完整 Fourier–Leray toroidal/poloidal 投影识别第一代经向分量，检验其自作用是否能在 t² 阶回馈原旋流模板。先核几何恒等式与真实解的严格短时余项，不将单次经向激活视为再生，也不因领先门失败自动增加 Taylor 阶。Pauli已并行独立推导。
