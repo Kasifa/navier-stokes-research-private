@@ -1,5 +1,15 @@
 # Forward research role and current rules
 
+## Current privacy boundary (2026-09-07)
+
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+
+- New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
+- Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
+- The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
+- Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
+- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+
 - This worktree belongs to `研究任务` (forward regularity), not the reverse task or publisher.
 - Current state: PAUSED_BY_USER. The user's latest “先等一下吧” overrides earlier resume instructions. Management maintenance and migration do not resume mathematical research, computation or new research subagents.
 - Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md` and `NAVIER_STOKES_WRITING_STYLE.md` before using older local instructions. Historical freezes remain unchanged.
@@ -15,17 +25,17 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Follow the central writing guide rather than mechanical word replacement. Preserve mathematical scope and AI/computer-assistance disclosure. The publisher uses HTML for daily notes and HTML/PDF only for individually approved Frontier Results papers; existing PDFs and scientific vector figures are preserved.
+- Follow the central writing guide; preserve mathematical scope and AI disclosure. Historic paper HTML/PDF/source remain aligned. New complete manuscripts are private unless the user explicitly expands the finite exception list.
 
 # Publishing target
 
-- Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
+- The publisher stores PRIVATE_CORE in the private source repository; only reviewed PUBLIC_PROGRESS_OVERVIEW content and fixed historical exceptions reach the independent public site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
 - A research section counts as research-complete when its analytic proof or explicitly stated negative result, required certificates, independent audit, literature boundary, figure package when scientifically needed, release manifest, and frozen source commit are complete. Reader-facing HTML/PDF, bilingual text, homepage entries, deployment, and online verification are publication-completion conditions owned by the fixed `发布任务`; they are not research-completion conditions.
 - Each research direction sends its own frozen `release_id + source commit` once to the fixed `发布任务`. It continues only when the user has authorized research to run; a paused task records the handoff and remains paused. Neither direction polls, waits for, supervises or reports publication.
 - Use only the existing task titled `发布任务` for all website and GitHub Pages work. Do not create a task per section, version, repair, or retry. The publisher owns FIFO ordering, retries, deployment waits, online verification, and `/Users/kasifa/Documents/Math/NAVIER_STOKES_PUBLICATION_QUEUE.md`.
-- Publish each research-complete section asynchronously through that one FIFO queue. At most one release may be `active`; later releases remain `queued` until the predecessor is online-verified.
-- Treat a cumulative recap as a milestone artifact, not a per-section requirement. Update it only after a substantial phase closure, route change, or positive theorem; an ordinary completed section publishes its own note without creating a new recap.
+- Hand off each completed PRIVATE_CORE freeze once for private archival in the single FIFO. Public summaries have distinct approval and verification; a private-only release does not wait for a webpage.
+- Recaps are private milestone records, not a per-section public obligation. Future public summaries require separate semantic/privacy approval and never automatically expose a completed section.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.
 
