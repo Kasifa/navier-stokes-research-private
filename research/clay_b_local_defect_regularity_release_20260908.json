@@ -1,0 +1,133 @@
+{
+  "release_id": "ClayB-LocalDefectRegularity-20260908",
+  "logical_predecessor": "ClayB-ShearNormalStretching-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "58a416b0431d38ca6bbdbbef18cd0ad35814a01d",
+  "source_commit": "910d2535ce08ff1738b8bc54b453ed0de349e5f2",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "SCOPED CONDITIONAL LOCAL REGULARITY",
+    "LITERATURE SCOPE AUDIT",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For the specified periodic suitable weak solution smooth before an interior candidate terminal time, finite local spacetime L^(5/2) rank-one defect implies regularity at that point. The dimensionless integral includes nu^(-3/2).",
+    "A terminal-slice covering argument produces a solution-dependent regular collar. Exact localized enstrophy retains its transport and viscous cutoff flux, controlled in L1 time by collar velocity and the existing dissipation, not by unproved pressure or vorticity derivative bounds.",
+    "Critical Young absorption and Gronwall give interior vorticity L-infinity-time L2-space control, which matches GKT's p=q=2 local vorticity criterion. The same scoped proof accepts finite critical positive effective stretching rate.",
+    "The elementary inequality abs(lambda2(sym A)) <= dist_F(A,rank<=1) identifies overlap with known local spectral criteria. The checked NP theorem retains Dirichlet and interior-open-set assumptions; it is not directly relabeled a periodic one-sided terminal theorem."
+  ],
+  "limitations": [
+    "No arbitrary-data global regularity, singularity construction, novelty certification, human peer review or Clay solution.",
+    "No unconditional local critical defect norm or prescribed-centre good scale is obtained.",
+    "The proved local estimate has solution-dependent collar and initial-slice constants. A uniform quantitative epsilon-regularity scale is not established.",
+    "The direct enstrophy proof is not an arbitrary-local-suitable-weak theorem: smooth-preterminal testing and the specified suitable continuation are explicit.",
+    "The proposed single-scale L2-defect criterion, general weak rank-one limit regularity, and quantitative pressure/regularity transfer remain open."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_local_defect_regularity_20260908.md",
+      "sha256": "15d82dea0f1d18f1133060943ed3631b048e95853261276fb3a955646356b9e5",
+      "bytes": 13177
+    },
+    {
+      "path": "research/clay_b_local_defect_regularity_audit_20260908.md",
+      "sha256": "3ffaced000cd7340949226b65ea20a61a3167cb120b940d416f631648990151e",
+      "bytes": 5255
+    },
+    {
+      "path": "research/clay_b_local_defect_regularity_checkpoint_20260908.json",
+      "sha256": "ab07073246f71a3fc99dacd589f653a0257c7357dc6d04719fed328e77f8978f",
+      "bytes": 3677
+    },
+    {
+      "path": "research/source-pdfs/neustupa_penel_boundary_2005.pdf",
+      "sha256": "b23b165a776d444d95fe1a2d56378423f3ed6fdc50489b3c65f352132f05458a",
+      "bytes": 187962,
+      "kind": "UNCHANGED_THIRD_PARTY_PRIMARY_SOURCE_PRIVATE_COPY",
+      "read_scope": "Root: complete printed pages185-187 text and local visual check, references separately; not whole-paper proof audit."
+    }
+  ],
+  "dependencies": [
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "58a416b0431d38ca6bbdbbef18cd0ad35814a01d",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "bytes": 11939,
+      "scope": "Full actual read. Same all-matrix rank-one distance, pointwise stretching bound GD.10, conditional GD.11 and remaining critical-norm gap."
+    },
+    {
+      "kind": "FROZEN_LOCAL_SCOPE_BOUNDARY",
+      "source_commit": "58a416b0431d38ca6bbdbbef18cd0ad35814a01d",
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "bytes": 15079,
+      "scope": "Full actual read. Previous scope and next-question contract. No reuse of a pure quadratic Qd^2 stretching absorption or direct direction-Cauchy claim."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEDUPLICATION",
+      "source_commit": "58a416b0431d38ca6bbdbbef18cd0ad35814a01d",
+      "path": "research/clay_b_negative_strain_cone_20260908.md",
+      "sha256": "3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46",
+      "bytes": 14542,
+      "scope": "Full actual read. Fixed-axis strain-cone and conditional bad-set L4 time exit are distinct; not silently promoted to the new single-scale rank-one candidate."
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/html/math/0607114v1",
+      "title": "Gustafson-Kang-Tsai, Interior regularity criteria for suitable weak solutions of the Navier-Stokes equations",
+      "scope": "Root/C actual introductory statements, Theorem1.1(ii),(iii), Definition2.1, Lemma3.6, Remark3.7 and proof of (iii). The p=q=2 criteria, including the periodic domain and backward regular-point definition, are used. Standard theorem inputs, not a whole-paper or all-dependencies proof certification.",
+      "whole_paper_certified": false
+    },
+    {
+      "url": "https://arxiv.org/html/1606.08126v1",
+      "title": "Chae-Lee, On the Geometric Regularity Conditions for the 3D Navier-Stokes Equations",
+      "scope": "Root actual v1 mathematical text through the end of the proof, especially Lemma3 and cutoff terms. Scope comparison only, not adoption of the triple-product theorem or stronger pressure/time-derivative assertions. C additionally read v2; versions and theorem numbers are not conflated.",
+      "whole_paper_certified": false
+    },
+    {
+      "url": "https://www.impan.pl/shop/publication/transaction/download/product/86331",
+      "title": "Neustupa-Penel 2005, Estimates up to the boundary of a weak solution to the Navier-Stokes equation in a cube in dependence on eigenvalues of the rate of deformation tensor",
+      "scope": "Root text and local rendered-page inspection of printed185-187, Theorem1 and domain conditions; references separately. Dirichlet and interior-open-set assumptions retained. Later boundary theorem not adopted. Whole PDF stored privately unchanged; storage is not a whole-paper proof audit.",
+      "local_path": "research/source-pdfs/neustupa_penel_boundary_2005.pdf",
+      "whole_paper_certified": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_local_defect_regularity_audit_20260908.md",
+    "mathematical_review": "Root independently recomputed the local covering, cutoff identity, critical absorption, vorticity exit and spectral inequality. A actual full final163-line13177B review PASS. C actual full163-line13008B review plus exact inverse of the169B final two-line clarification accepts finalSHA15d82dea. Participating AI reviews, not wholly nonauthor or human peer review.",
+    "record_review": "C actual full33-line5201B audit and32-line3677B checkpoint passed strict JSON/no-duplicate and scope review; a54B single-line clarification distinguishes disjoint original balls from their fivefold covers. C actual exact-inverse acceptance binds final33-line5255B audit SHA3ffaced0 and unchanged checkpoint SHAab070732. No extra full-review count.",
+    "structural_checks": "11 ordered unique LD tags,16 display pairs,76 inline pairs,no abnormal control characters. Only final main changes atlines146,163; mathematics LD1-11 unchanged. Staged whitespace check PASS. Four immutable source files210071B and three dependency files41560B match both git-show and worktree bytes/SHA256.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "source_pdf_visual_check": "Printed185-187, all three pages locally rendered and actually inspected; online screenshots failed. Source PDF byte-copy compared equal to download.",
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic conditional criterion and source-scope comparison. Archived third-party source PDF is not a new scientific figure.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Conditional local interface and bounded literature overlap, not an unconditional critical estimate or major global-regularity milestone."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "Manifest and later dispatch receipt are outside the immutable source-stage files. Dispatch acceptance is not archive verification. No website, public overview, local reader, counts, recap, attachments or relaunch requested.",
+  "next_research_plan": "Audit a genuinely weaker one-scale candidate at unit viscosity: for a suitable weak pair defined near the closure of Q1 with A(1)+E(1)+D(1)<=M, does integral_Q1 d^2<epsilon(M) imply regularity at the terminal centre? First verify compactness and the gradient-minor weak-closure mechanism, then the exact regularity interface for a general local suitable rank-one limit. Do not use convex lower semicontinuity of d, do not apply LD's smooth-preterminal hypothesis to an arbitrary weak limit, and retain pressure decomposition and transfer to approximating solutions. Check primary literature for this precise candidate before claiming novelty. Arbitrary NS evolution producing a prescribed-centre small scale remains a separate open bridge."
+}
