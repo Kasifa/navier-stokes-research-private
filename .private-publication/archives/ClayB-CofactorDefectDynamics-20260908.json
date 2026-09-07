@@ -1,0 +1,134 @@
+{
+  "base_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d",
+  "claims": [
+    "The same original smooth periodic NS gradient has the complete adjugate and squared normalized cofactor evolution, including ambient trace terms, pressure, viscous products and normalization derivatives.",
+    "The quotient f=|adj A|^2/Q^3 is comparable to d^2/Q and smooth on all Q>0, not a globally smooth equivalent of d.",
+    "A ten-dimensional homogeneous lift bounds the signed Hessian chain measure by the existing Frobenius measure; its zero-set remainder satisfies |sigma_f|<=K zeta_A.",
+    "Lf has finite total variation; full-cell and fixed smooth-test integrals are BV. Uniform positive mass yields a unique finite nonnegative weak-star measure trace as t approaches a finite candidate endpoint.",
+    "A compatible periodic divergence-free initial velocity realizes negative pointwise normalized viscous density, excluding an automatic nonnegative-density claim."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "scope": "Full-gradient Frobenius entropy with zero-set measure, inherited pressure endpoint, rank-one geometry and conditional critical continuation. No new whole-primary-source review.",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d"
+    },
+    {
+      "bytes": 8401,
+      "kind": "FROZEN_LOCAL_IDENTITY",
+      "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+      "scope": "Existing adjugate/Piola algebra and full-cell quartic cancellation; not counted as new dissipation.",
+      "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+      "source_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d"
+    }
+  ],
+  "dependency_commits": [
+    "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d"
+  ],
+  "dgx": false,
+  "figure_reason": "Pure analytic derivation and exact compatible-jet sign calculation, not measured or numerical results.",
+  "files": [
+    {
+      "bytes": 12210,
+      "commit": "274d264721e1ec80ff5a52cc77b0ce8273bec682",
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6"
+    },
+    {
+      "bytes": 4822,
+      "commit": "274d264721e1ec80ff5a52cc77b0ce8273bec682",
+      "path": "research/clay_b_cofactor_defect_audit_20260908.md",
+      "sha256": "750a0b4d9a7efe1614d9990d505f4122462de461d014e7e9a456d4e23ef0c801"
+    },
+    {
+      "bytes": 3127,
+      "commit": "274d264721e1ec80ff5a52cc77b0ce8273bec682",
+      "path": "research/clay_b_cofactor_defect_checkpoint_20260908.json",
+      "sha256": "1b8374a3ee4064058e4dd9ab123dc4c23d90273a6c86bec68e00bb2325a68e74"
+    },
+    {
+      "bytes": 11939,
+      "commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d",
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "scope": "Full-gradient Frobenius entropy with zero-set measure, inherited pressure endpoint, rank-one geometry and conditional critical continuation. No new whole-primary-source review.",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d"
+    },
+    {
+      "bytes": 8401,
+      "commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d",
+      "kind": "FROZEN_LOCAL_IDENTITY",
+      "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+      "scope": "Existing adjugate/Piola algebra and full-cell quartic cancellation; not counted as new dissipation.",
+      "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+      "source_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d"
+    },
+    {
+      "bytes": 6233,
+      "commit": "f8edcb87f903c5454c74b1a7e106d331f2ab70a7",
+      "path": "research/clay_b_cofactor_defect_release_20260908.json",
+      "sha256": "ce8e9ff3408cec974f7d2d07aef99916c3aed5429a59becf55dd8d56b224355a"
+    }
+  ],
+  "freeze_commit": "f8edcb87f903c5454c74b1a7e106d331f2ab70a7",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "The manifest and later dispatch receipt are outside the immutable source-stage file binding. Dispatch acceptance is not private archival verification.",
+  "is_clay_result": false,
+  "limitations": [
+    "No arbitrary-data global regularity, singularity, novelty certification, optimal constant, human peer review or Clay solution.",
+    "No strong L1 endpoint trace, absolute continuity of the weak measure trace, exclusion of concentration or finite-measure assertion for partial_t f.",
+    "The current f norms and BV control do not derive GD.11's critical d norm; f is a squared normalized defect, not d.",
+    "The pressure representation alone does not provide a weighted estimate or pointwise bound by d^2.",
+    "The compatible sign check does not determine the full-cell integral, the complete time derivative, or invariance of the rank-one-gradient class.",
+    "No public overview, counts, recap, attachments, website, local reader or relaunch requested."
+  ],
+  "logical_predecessor": "ClayB-GradientRankOneDefect-20260908",
+  "next_research_plan": "Keep d and GD.11. Test the linear cofactor quotient k=|adj A|/Q, retaining J=0 and Q=0 chain measures, actual pressure and denominator terms. Identify nonnegative dissipation and test whether remaining negative terms are controlled by the existing entropy. No claim is accepted until the estimate and its exponents are proved; do not repeat CD/PGR or scan weights.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "actual_main_reviews": "A full actual201-line12183B main plus final27B next-action delta; C full201-line12046B main, exact137B three-line clarifications and final27B delta. Both accept final12210B SHA4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6. Participating AI reviews, not wholly nonauthor/human peer review.",
+    "audit": "research/clay_b_cofactor_defect_audit_20260908.md",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "C full audit/checkpoint, corrected pending-k wording, final37-line4822B audit and31-line3127B checkpoint hashes accepted; exact main/checkpoint inverse-delta verification and strict JSON/no duplicate keys PASS.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "CD.1-14 ordered unique tags,19 display pairs,104 inline pairs,privacy and strict checkpoint JSON PASS. Immutable3 source files20159B and2 local dependencies20340B match git-show bytes/hashes; staged whitespace clean. The first inline post-commit validator had an extra-parenthesis SyntaxError; its corrected rerun passed without changing scientific files.",
+    "third_party_pdf_archived": false,
+    "visual_render_qa": false
+  },
+  "recap": {
+    "reason": "Scoped weak-time increment without a new unconditional critical estimate or a major milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-CofactorDefectDynamics-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "SCOPED WEAK TIME CONTROL",
+    "COMPATIBLE SIGN CHECK",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "274d264721e1ec80ff5a52cc77b0ce8273bec682",
+  "simulation": false,
+  "source_commit": "274d264721e1ec80ff5a52cc77b0ce8273bec682",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
