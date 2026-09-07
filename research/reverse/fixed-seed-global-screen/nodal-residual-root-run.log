@@ -1,0 +1,26 @@
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "selection-frozen-before-exact-convolution", "violations": [], "wall_seconds": 0.17173679103143513}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-1-of-24", "violations": [], "wall_seconds": 0.17656899988651276}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-2-of-24", "violations": [], "wall_seconds": 0.1809013329911977}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-3-of-24", "violations": [], "wall_seconds": 0.18542295787483454}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-4-of-24", "violations": [], "wall_seconds": 0.18994258297607303}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-5-of-24", "violations": [], "wall_seconds": 0.19421666581183672}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-6-of-24", "violations": [], "wall_seconds": 0.19969924981705844}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-7-of-24", "violations": [], "wall_seconds": 0.20407441584393382}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-8-of-24", "violations": [], "wall_seconds": 0.20822799997404218}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-9-of-24", "violations": [], "wall_seconds": 0.21242779097519815}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-10-of-24", "violations": [], "wall_seconds": 0.21676870784722269}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-11-of-24", "violations": [], "wall_seconds": 0.22110137483105063}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-12-of-24", "violations": [], "wall_seconds": 0.22566274995915592}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-13-of-24", "violations": [], "wall_seconds": 0.23032183293253183}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-14-of-24", "violations": [], "wall_seconds": 0.23493816587142646}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-15-of-24", "violations": [], "wall_seconds": 0.24003166588954628}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-16-of-24", "violations": [], "wall_seconds": 0.24496291601099074}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-17-of-24", "violations": [], "wall_seconds": 0.2501576659269631}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-18-of-24", "violations": [], "wall_seconds": 0.25505791581235826}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-19-of-24", "violations": [], "wall_seconds": 0.2599957080092281}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-20-of-24", "violations": [], "wall_seconds": 0.2656140828039497}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-21-of-24", "violations": [], "wall_seconds": 0.2709834158886224}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-22-of-24", "violations": [], "wall_seconds": 0.2758141248486936}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-23-of-24", "violations": [], "wall_seconds": 0.28047812497243285}}
+{"nodal_residual_progress": {"output_bytes_including_partial": 2708978, "peak_rss_bytes": 91455488, "stage": "exact-output-24-of-24", "violations": [], "wall_seconds": 0.2851565829478204}}
+{"mathematical_verdict": "OLD_REFERENCE_R2_ENVELOPE_REFUTED", "post_write_budget_observation": {"output_bytes_including_partial": 2752701, "peak_rss_bytes": 91602944, "violations": [], "wall_seconds": 0.2912580829579383}, "run_log": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/nodal-residual-trial-01/run.json", "run_log_sha256": "1c86e99028c1d279c2beddd7f932462112814720ebc71ffb5f737256079411be", "status": "COMPLETE_FIXED_NODE_LOWER_TRIAL"}

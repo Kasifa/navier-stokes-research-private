@@ -1,0 +1,64 @@
+{
+  "status": "PASS_ACTUAL_INDEPENDENT_EXACT_RECOMPUTATION",
+  "comparison": {
+    "modes": 24,
+    "complex_F_components": 72,
+    "complex_R_components": 72,
+    "ordered_pairs": 32448,
+    "Lambda": {
+      "denominator": "61577903202335553914825971013592171767684319907407221806161834636355394979511183809276955052355171591308940520911174130286460905059033483837440000",
+      "numerator": "51482519555232224987040910319427603524770275047508684903681690170582258224791791318068512938434030618780046185557997247467913258489"
+    },
+    "necessary_epsilon_squared_lower": {
+      "denominator": "15097827635300697729182869616688304906739468559785047870749822658236933431048094727161656517521777272116566978081141054581346552922584337614826015825760152716790598637282823273185280000",
+      "numerator": "153774939284454389173478732221224497178110587165872412704582809431822860620428353751749414803994521731607196497190214870763645605505156965450030067765527957299554629474663"
+    }
+  },
+  "negative_controls": [
+    {
+      "in_memory_mutation": "F",
+      "rejected_by": "unprojected F mismatch"
+    },
+    {
+      "in_memory_mutation": "R",
+      "rejected_by": "residual component mismatch"
+    },
+    {
+      "in_memory_mutation": "weight",
+      "rejected_by": "frequency weight mismatch"
+    },
+    {
+      "in_memory_mutation": "coverage",
+      "rejected_by": "pair count mismatch"
+    },
+    {
+      "in_memory_mutation": "N",
+      "rejected_by": "Lambda mismatch"
+    },
+    {
+      "in_memory_mutation": "P32",
+      "rejected_by": "P32 mismatch"
+    }
+  ],
+  "input_sha256": {
+    "nodal-residual-trial-01/exact-result.json": "ff1e7e8a1e7ed34d80bfb2d7c363ffd932d2437f0f7b1f6dcd3e07e5fa6de3d6",
+    "nodal-residual-trial-01/selection-candidates.npy": "40f08e4175f072bd64bade32bae893c38e5dd53104b509f13af83542e53294b9",
+    "nodal-residual-trial-01/selection-full-R35.npy": "4a110149934828be3d3f461fec9ac10070ec5233073c0d4a9b12015e58f40933",
+    "nodal-residual-trial-01/selection-ranking.npy": "b45dbc923c99309e54116c74f729c1b97c1574003464fa647745a0d351ca379b",
+    "nodal-residual-trial-01/selection-scores.npy": "dd025653872a06bf1ee6cc8b6c1b75d8bcf7566b431d5a9cdc9e75023962d719",
+    "nodal-residual-trial-01/selection.json": "62c066774e2e6d6c6ab20e6d9b4f92b5599c9acda7bf64420a819997ec5f3d69",
+    "C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "NODAL_RESIDUAL_LOWER_CONTRACT.md": "6d8dbc0bdc4f04416e84f4b9db6cdf4336dd066e7496b974f9429a88c35d9026",
+    "RESIDUAL_COST_PREFLIGHT.md": "dfc54d9be18ca0d47a5c4ea13433523327ff9f0f85691d512bdbcfeed646be4e",
+    "audit_nodal_residual_lower.py": "855581a1ef55dc6bfe54b1823b01aec13dfb4fb724329ded6551ba6b919d6fdd",
+    "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896",
+    "nodal-residual-trial-01/run.json": "1c86e99028c1d279c2beddd7f932462112814720ebc71ffb5f737256079411be",
+    "INDEPENDENT_NODAL_RESIDUAL_CONTRACT.md": "ee8b7fb5ac4b3adaf8d131c8e7625a2687d694322bab9d9da0997654ca405c57",
+    "independent_nodal_residual_lower.py": "42330a0e6eb67fb5dbde3022d81b7ed8b7c134eb8e3894bcf9627075e202b9ac",
+    "check_nodal_residual_agreement.py": "b39843e365dfb443b2d36449942a724a543713c9378069bb4a68ac024e69e5f3",
+    "nodal-residual-independent-trial-01/run.json": "afa6ff96f1f3654883c535902a4a2aa5c71e39ba858f7e9ca0ca913e34162609"
+  },
+  "scope": "Same fixed reference and 24 outputs; no continuous upper bound or true NS conclusion"
+}

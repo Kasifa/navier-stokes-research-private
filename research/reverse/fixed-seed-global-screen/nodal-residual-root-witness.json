@@ -1,0 +1,28 @@
+{
+  "status": "PASS_READABLE_RATIONAL_COROLLARY",
+  "scope": "Existing exact result arithmetic and actual byte recheck only, not independent convolution",
+  "r2_squared_lower_greater_than": [
+    "83",
+    "100000000000000000"
+  ],
+  "P8_at_5_over_2": [
+    "3588667",
+    "294912"
+  ],
+  "P8_greater_than": [
+    "121",
+    "10"
+  ],
+  "epsilon_squared_required_greater_than": [
+    "10043",
+    "1000000000000000000"
+  ],
+  "old_epsilon_squared": [
+    "1",
+    "100000000000000"
+  ],
+  "output_files_rehashed": 6,
+  "source_inputs_rehashed": 7,
+  "result_sha256": "ff1e7e8a1e7ed34d80bfb2d7c363ffd932d2437f0f7b1f6dcd3e07e5fa6de3d6",
+  "run_sha256": "1c86e99028c1d279c2beddd7f932462112814720ebc71ffb5f737256079411be"
+}

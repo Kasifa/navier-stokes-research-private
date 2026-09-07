@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Actual four input byte checks plus parsing existing exact records; not a new convolution",
+  "contract_review_inputs": [
+    {
+      "path": "research/reverse/fixed-seed-global-screen/NODAL_RESIDUAL_LOWER_CONTRACT.md",
+      "sha256": "6d8dbc0bdc4f04416e84f4b9db6cdf4336dd066e7496b974f9429a88c35d9026"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md",
+      "sha256": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/RESIDUAL_COST_PREFLIGHT.md",
+      "sha256": "dfc54d9be18ca0d47a5c4ea13433523327ff9f0f85691d512bdbcfeed646be4e"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/produce_nodes.py",
+      "sha256": "a517d46dd14a7ddfdae235189e9c79a35306d0832412121f92ecc86796f8940e"
+    }
+  ],
+  "readable_lower_witness_checked": true,
+  "agreement_summary_checked": true,
+  "review_sha256": "71738e047e2514c857fac571c665430af8c6f50e9526a0a86942cee1ac47dc12"
+}

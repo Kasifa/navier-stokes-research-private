@@ -1,0 +1,25 @@
+{"independent_residual_progress": {"completed_modes": 1, "total_modes": 24, "wall_seconds": 0.2885544169694185}}
+{"independent_residual_progress": {"completed_modes": 2, "total_modes": 24, "wall_seconds": 0.30672637512907386}}
+{"independent_residual_progress": {"completed_modes": 3, "total_modes": 24, "wall_seconds": 0.32461662497371435}}
+{"independent_residual_progress": {"completed_modes": 4, "total_modes": 24, "wall_seconds": 0.34299841709434986}}
+{"independent_residual_progress": {"completed_modes": 5, "total_modes": 24, "wall_seconds": 0.3610945420805365}}
+{"independent_residual_progress": {"completed_modes": 6, "total_modes": 24, "wall_seconds": 0.3784114171285182}}
+{"independent_residual_progress": {"completed_modes": 7, "total_modes": 24, "wall_seconds": 0.3961763749830425}}
+{"independent_residual_progress": {"completed_modes": 8, "total_modes": 24, "wall_seconds": 0.4143762090243399}}
+{"independent_residual_progress": {"completed_modes": 9, "total_modes": 24, "wall_seconds": 0.4326964591164142}}
+{"independent_residual_progress": {"completed_modes": 10, "total_modes": 24, "wall_seconds": 0.4509016249794513}}
+{"independent_residual_progress": {"completed_modes": 11, "total_modes": 24, "wall_seconds": 0.46876604203134775}}
+{"independent_residual_progress": {"completed_modes": 12, "total_modes": 24, "wall_seconds": 0.4865842091385275}}
+{"independent_residual_progress": {"completed_modes": 13, "total_modes": 24, "wall_seconds": 0.5044909589923918}}
+{"independent_residual_progress": {"completed_modes": 14, "total_modes": 24, "wall_seconds": 0.5224036250729114}}
+{"independent_residual_progress": {"completed_modes": 15, "total_modes": 24, "wall_seconds": 0.5399943341035396}}
+{"independent_residual_progress": {"completed_modes": 16, "total_modes": 24, "wall_seconds": 0.5576515840366483}}
+{"independent_residual_progress": {"completed_modes": 17, "total_modes": 24, "wall_seconds": 0.5751621669624001}}
+{"independent_residual_progress": {"completed_modes": 18, "total_modes": 24, "wall_seconds": 0.5932980419602245}}
+{"independent_residual_progress": {"completed_modes": 19, "total_modes": 24, "wall_seconds": 0.6112463341560215}}
+{"independent_residual_progress": {"completed_modes": 20, "total_modes": 24, "wall_seconds": 0.629130250075832}}
+{"independent_residual_progress": {"completed_modes": 21, "total_modes": 24, "wall_seconds": 0.6466713750269264}}
+{"independent_residual_progress": {"completed_modes": 22, "total_modes": 24, "wall_seconds": 0.6641142920125276}}
+{"independent_residual_progress": {"completed_modes": 23, "total_modes": 24, "wall_seconds": 0.6824844591319561}}
+{"independent_residual_progress": {"completed_modes": 24, "total_modes": 24, "wall_seconds": 0.7000400421675295}}
+{"execution_status": "COMPLETE", "final_observation": {"output_bytes": 78516, "peak_rss_bytes": 67174400, "wall_seconds": 0.701790250139311}, "mathematical_status": "OLD_REFERENCE_R2_ENVELOPE_REFUTED", "output": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/nodal-residual-independent-trial-01/run.json", "sha256": "afa6ff96f1f3654883c535902a4a2aa5c71e39ba858f7e9ca0ca913e34162609"}
