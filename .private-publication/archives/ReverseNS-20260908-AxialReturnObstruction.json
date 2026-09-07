@@ -1,0 +1,152 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_FINITE_EXACT_ALGEBRAIC_OBSTRUCTION / NO-CANDIDATE_FOR_SPECIFIED_GATE / NOT_CLAY",
+    "not_claimed": [
+      "No full positive-time viscous NS two-generation obstruction or accepted mechanism.",
+      "No exclusion of heat-weighted finite-time return, seed-mixed 1+3/3+1 trees, approximate return, wider support or other templates.",
+      "No new fixed physical initial datum, infinite-scale iteration, infinite-dimensional iterative error control, finite total time, singularity or global regularity.",
+      "No external novelty, human peer review or proof-assistant verification."
+    ],
+    "open": [
+      "The actual heat-weighted return equations and full same-solution supply/remainder contract.",
+      "One fixed datum and uniform infinite-scale iteration with finite total time."
+    ],
+    "proved": [
+      "For every three distinct positive integer axial lengths and every nonzero complex transverse polarization on each real conjugate wave pair, F=B(B(a,a),B(a,a)) cannot reproduce the original template at all doubled axial modes with a common nonzero amplitude, arbitrary translation, and any compatible signed-axis orthogonal transformation.",
+      "All receiver pairings, ordered Fourier-Leray terms, complex phases, conjugacy, zero branches and shared amplitude constraints are retained."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "inherited_r0_baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
+      "kind": "historical-local-sources",
+      "later_reverse_sources_commit": "af2da7e63db05d2c5738b96e4e988990117a6f77",
+      "ledger": "research/reverse/unequal-axis-return/HISTORY_SCOPE.md",
+      "scope": "R0.10-13 and completed first-cycle/route-screen exact scope. Source hashes and actual read ranges in ledger; no external priority claim."
+    },
+    {
+      "commit": "af2da7e63db05d2c5738b96e4e988990117a6f77",
+      "kind": "startup-checkpoint-snapshot",
+      "path": "research/reverse/CHECKPOINT.md",
+      "scope": "Historical startup state read by history reviewer; subsequent current checkpoint updates do not modify this snapshot.",
+      "sha256": "5adc99fbb4d5e5b371f8ec5d36c8a692dea6db6e93ea4abce63c63a5d974f1c8"
+    }
+  ],
+  "dependency_commits": [
+    "d58abdd9390ef8ced52f1807a956a663853f7680",
+    "af2da7e63db05d2c5738b96e4e988990117a6f77"
+  ],
+  "excluded_later_work": [
+    "HEAT_TRANSFER_PREFLIGHT.md",
+    "HEAT_ORDER_CONTRACT.md",
+    "HEAT_ORDER_PROOF.md",
+    "HEAT_ORDER_INDEPENDENT.md"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 4863,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/CONTRACT.md",
+      "sha256": "8bc4655cbb4ae5fecd672222d424f9b867aa79808113203367376f95315a8db4"
+    },
+    {
+      "bytes": 8923,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/HISTORY_SCOPE.md",
+      "sha256": "1c209e0dc0e2d5c2f1077e1cb30f3fec4cfd196d9dadb3599a6a9cef97588207"
+    },
+    {
+      "bytes": 8831,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/PROOF.md",
+      "sha256": "30803d6bfc7d6a25250644858eeb309e800e6e14280f139de49490eac7b4524b"
+    },
+    {
+      "bytes": 9583,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/INDEPENDENT_DERIVATION.md",
+      "sha256": "54de32f2395e05c6fa5b289a7f0c33cbcc0139f6f0e739ffa37a30123b42316a"
+    },
+    {
+      "bytes": 8704,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/INDEPENDENT_REVIEW.md",
+      "sha256": "d600696608b71dae21ea687ca22b59558e427756385d86094d446b2d94f9f85d"
+    },
+    {
+      "bytes": 4274,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/ROOT_COMPARISON.md",
+      "sha256": "64ab9c3ee9a50c5acb57f59e6419d6423c1beca60b0100befd1e195a54e6b024"
+    },
+    {
+      "bytes": 2540,
+      "commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "path": "research/reverse/unequal-axis-return/OUTCOME.md",
+      "sha256": "5b945db021bdca98d7b66aee3c003f458ba52ff4568e353120221c001e72c49c"
+    },
+    {
+      "bytes": 5560,
+      "commit": "af2da7e63db05d2c5738b96e4e988990117a6f77",
+      "kind": "startup-checkpoint-snapshot",
+      "path": "research/reverse/CHECKPOINT.md",
+      "scope": "Historical startup state read by history reviewer; subsequent current checkpoint updates do not modify this snapshot.",
+      "sha256": "5adc99fbb4d5e5b371f8ec5d36c8a692dea6db6e93ea4abce63c63a5d974f1c8"
+    },
+    {
+      "bytes": 6326,
+      "commit": "60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6",
+      "path": "research/reverse/unequal-axis-return/freeze.json",
+      "sha256": "e230f70316b11e7cb9c24c4c5f6f1a38cd3ea83083b77dd6e599866824cfbdb9"
+    }
+  ],
+  "freeze_commit": "60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6",
+  "freeze_commit_binding": "Containing manifest commit supplied separately in once-only handoff. Research continues without monitoring publication.",
+  "milestone_recap_required": true,
+  "milestone_scope": "One coherent universal obstruction for the locked instantaneous pure-2+2 doubled-template gate; not a positive-time NS mechanism.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260907-SwirlRegeneration",
+  "private_milestone_record": "research/reverse/unequal-axis-return/OUTCOME.md",
+  "public_export_authorization": "No public export of new mathematical core. Private archive only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-AxialReturnObstruction",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+  "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "earlier_closed_resource_gap_or_failed_M2_repaired": false,
+    "final_outcome_review": {
+      "accepted": true,
+      "actual_full_read": [
+        "ROOT_COMPARISON.md",
+        "OUTCOME.md"
+      ],
+      "mathematical_text_unchanged_after_review": true,
+      "post_review_metadata_change": "Removed exactly one final LF from independent derivation to satisfy git diff --check; updated its one SHA in ROOT_COMPARISON. Reverse transformations independently asserted here to recover the previously reviewed hashes. No mathematical text changed.",
+      "reviewer": "driver_independent_certificate / Pascal"
+    },
+    "git_staged_whitespace_check": "PASS before source commit 64792d83",
+    "independent_derivation": "research/reverse/unequal-axis-return/INDEPENDENT_DERIVATION.md",
+    "independent_derivation_inputs": [
+      "CONTRACT.md only; no root proof or other review read"
+    ],
+    "non_author_review": "research/reverse/unequal-axis-return/INDEPENDENT_REVIEW.md",
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "root_comparison": "research/reverse/unequal-axis-return/ROOT_COMPARISON.md",
+    "scientific_programs_run": 0,
+    "source_byte_manifest": "Seven actual text files hashed by Python standard library; SHA is provenance only, not a scientific program or numerical certificate.",
+    "status": "PASS_EXACT_MANUAL_PROOF_AND_INDEPENDENT_REVIEW",
+    "unresolved_items": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
