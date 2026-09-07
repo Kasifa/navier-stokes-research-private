@@ -1,0 +1,124 @@
+{
+  "release_id": "ClayB-StrainConeCompatibility-20260908",
+  "logical_predecessor": "ClayB-TwoPointDeterminantDynamics-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "CLASSICAL INPUT",
+    "PROVED IN STATED SCOPE",
+    "CONDITIONAL REGULARITY",
+    "EXACT SMOOTH DYNAMICS",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "base_commit": "553e06c62a6c56e518c739478f9a6ff282d60223",
+  "source_commit": "38745b58cf0a56587a69d5d659a50838829dc79e",
+  "claims": [
+    "SE derives the fixed-torus classical pressure endpoint and complete convex spectral budget, including repeated and zero spectral sets; these are not claimed as new classical theory.",
+    "SC proves a fixed-plane determinant identity and a quantitative L2 cone estimate without freezing the positive spectral block or requiring zero-mean amplitude.",
+    "The geometric-complement localization retains spectral and angular failure sets; a legitimate non-solenoidal cutoff removes the need for Leray nonlocal correction but not ordinary boundary cost.",
+    "A local L6 velocity estimate yields conditional suitable-weak regularity if the geometric-complement strain is L4 in time and L2 in space. The reference axis may measurably vary in time.",
+    "SC derives complete original-NS negative-eigenline/amplitude dynamics and a whole-ball amplitude-band angular estimate, with all stated derivative and pressure terms retained."
+  ],
+  "limitations": [
+    "No new unconditional critical estimate, arbitrary-data regularity, singular solution, full Clay solution, worldwide novelty claim or human peer review.",
+    "The required geometric-complement L4 time norm is not proved from energy, which gives only L2. The full shape-gradient/eigenline-gradient mixed term remains uncontrolled by SE.",
+    "The angular Poincare estimate requires an entire ball with its specified amplitude band; it is not a theorem on arbitrary fragmented high-strain sets.",
+    "Smooth eigenline dynamics is only asserted on the one-negative/two-positive spectral open set; zero-spectrum contributions in SE are not removed.",
+    "The regularity endpoint uses a standard local regularity theorem with a primary-source hypothesis check for suitable weak solutions and, for a first smooth endpoint, matching extension and weak-strong uniqueness interfaces.",
+    "The unrelated broad convex-cone higher-integrability theorem is not imported; its perturbative hypotheses were checked. SE historical internal-checkpoint statements remain unchanged in this first combined SE-SC freeze.",
+    "Core research remains private. No website, local reader, public overview, public result count, public attachment or recap update is requested."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "bytes": 12727
+    },
+    {
+      "path": "research/clay_b_strain_spectral_entropy_audit_20260908.md",
+      "sha256": "a991eb712382124f6f000a3abb5946d36bbcc54d269fdc5ff3e3a326a86c274f",
+      "bytes": 5796
+    },
+    {
+      "path": "research/clay_b_strain_spectral_entropy_checkpoint_20260908.json",
+      "sha256": "b04e4dac68249d99014c80697523c8ece31496f2f0c2a04574ec223bda360b67",
+      "bytes": 2688
+    },
+    {
+      "path": "research/clay_b_negative_strain_cone_20260908.md",
+      "sha256": "3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46",
+      "bytes": 14542
+    },
+    {
+      "path": "research/clay_b_negative_strain_cone_audit_20260908.md",
+      "sha256": "02defeac490519ce3fecd21578b357a7beebf6a96f9635e5210cbb713ac30787",
+      "bytes": 6195
+    },
+    {
+      "path": "research/clay_b_negative_strain_cone_checkpoint_20260908.json",
+      "sha256": "27eac4e07d92c3e465d2081d33f7146d8c0c71ab7d9123b7d72a0976c720fc66",
+      "bytes": 3111
+    }
+  ],
+  "dependencies": [
+    {
+      "kind": "INCLUDED_LOCAL_PROOF",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "scope": "SE.5 and SE.11-13 for exact dynamics and cumulative spectral dissipation; SE.18 comparison is explicitly preserved."
+    },
+    {
+      "kind": "CLASSICAL_INPUT",
+      "url": "https://www.numdam.org/item/SEDP_1989-1990____A16_0.pdf",
+      "scope": "Prior SE audit documents actual CLMS source reading and fixed-torus interface, not reread in this turn or a novelty claim."
+    },
+    {
+      "kind": "CLASSICAL_INPUT",
+      "url": "https://arxiv.org/html/2106.11852v1",
+      "scope": "Li-Zhang Theorem1.2 pressure Hardy endpoint; source scope remains as recorded in unchanged SE audit."
+    },
+    {
+      "kind": "STANDARD_REGULARITY_INTERFACE",
+      "url": "https://arxiv.org/html/1310.3112v1",
+      "scope": "Neustupa Theorem1, actual hypothesis review with time/space exponents4,6 and a contained backward shell. Whole source proof not reaudited."
+    },
+    {
+      "kind": "CHECKED_BUT_NOT_USED_AS_CORE_THEOREM",
+      "url": "https://arxiv.org/html/2106.03077v2",
+      "scope": "Perturbative near-linear-space conditions and arbitrary-cone limitation. Does not supply SC wide-cone estimate."
+    }
+  ],
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic estimates and identities, with no simulated or measured data.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "A scoped analytic subsection, not general NS control or a large route milestone; no public recap requested."
+  },
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_negative_strain_cone_audit_20260908.md",
+    "main": "A and C read the full227-line first manuscript and all final deltas; C additionally confirmed final full236-line14542B manuscript at SHA3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46. Both accepted their stated scopes; neither is a wholly nonauthor or human reviewer.",
+    "prerequisite": "SE unchanged197-line12727B main retains its prior actual-file reviews; root reread SE main/audit/checkpoint in full.",
+    "source_files_match_commit": true,
+    "integrity_validation": "Executed git-show comparison for all6 source files against immutable source_commit, byte equality, declared SHA256 and JSON parsing; all pass. Staged whitespace check passed. Metadata checks are not PDE proofs.",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "third_party_pdf_archived": false
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "Manifest excludes itself and later dispatch receipt from source-stage hash binding. Source/audit/checkpoints are frozen; accepted dispatch is not archive verification.",
+  "next_research_plan": "Seek an actual time-integrated high-strain compatibility estimate from SC.10-17 with real amplitude layers, all boundary/zero-spectrum/geometric-complement terms, and a demonstrable improvement over energy time integrability. Do not repackage the conditional hypothesis as an unconditional input. Continue authorized research without publication or reverse-runtime inspection."
+}
