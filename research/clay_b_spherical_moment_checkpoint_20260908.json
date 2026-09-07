@@ -1,0 +1,32 @@
+{
+  "role": "forward_research",
+  "name": "TD-TP two-point determinant and projected moment audit",
+  "privacy": "PRIVATE_CORE",
+  "classification": "SCOPED ANALYTIC RESULTS / NO NEW REGULARITY ESTIMATE / NOT CLAY",
+  "base_commit": "ddaa463d6e658b100edd23c8300a1c6f0a4ece7d",
+  "main": "research/clay_b_spherical_moment_dynamics_20260908.md",
+  "prerequisite": "research/clay_b_two_point_vorticity_determinant_20260907.md",
+  "audit": "research/clay_b_spherical_moment_dynamics_audit_20260908.md",
+  "completed": [
+    "Full first spherical-moment equation including relative radial and tangential fluxes, viscosity cross source, periodic spatial zero mode and fixed-cutoff energy identity.",
+    "Exact representation of m by ball and sphere means and the existing j2 filtered-strain kernel; complete periodic remainder recovered from J=-rho*d_rho(B)/3.",
+    "Original-NS evolution of q_rho with pressure, commutator and all cross-diffusion terms; uniform ordinary pressure estimate and direct commutator bound.",
+    "Two-mode projected decay as a control, then one genuine globally smooth three-mode shear NS example with A1'(0)>0 for sufficiently small cutoff radius.",
+    "Scoped strategy correction: stop the two disproved universal monotonicity branches without claiming that all geometric or joint-source estimates are impossible."
+  ],
+  "open": [
+    "Arbitrary smooth-data unforced three-dimensional periodic Navier-Stokes regularity and the original full Clay goal.",
+    "A noncircular original-NS control improving the classical enstrophy estimate or excluding a genuine candidate singularity.",
+    "A useful joint estimate on actual projected/filtered source terms; the current ordinary bounds do not provide it."
+  ],
+  "next_action": "Perform a bounded strategy reevaluation after TD-TP, not another automatic angular projection, weight change or shear scan. Use the exact map to existing filtered strain to avoid rediscovering R0.70B/L. If a genuinely different joint-source mechanism can be specified, execute its first calculation; otherwise select a different original-NS structural mechanism after local dedup and a narrowly necessary primary-source check. Keep unproved noncircular hard estimates admissible; do not replace the Clay goal with the completed identities or finite examples.",
+  "previous_goal_turn_classification": "PROGRESS_IN_ANALYTIC_SCOPE_NOT_A_NEW_CLAY_BRIDGE",
+  "new_unconditional_estimate": false,
+  "new_rigidity_candidate_selected": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "publication_boundary": "One combined private research freeze only after final actual-file audits. No public overview or detailed website output. Send once to the fixed publisher and continue authorized research without reading or supervising publication state.",
+  "is_clay_result": false
+}
