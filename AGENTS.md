@@ -2,18 +2,19 @@
 
 ## Current privacy boundary (2026-09-07)
 
-- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. Management accepted migration/privacy QA on 2026-09-07; use only the existing publisher heartbeat automation-2, with activation recorded in publication-cadence.json; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
 
 - New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
 - Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
 - The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
 - Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
-- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+- Management accepted migration/privacy QA on 2026-09-07 and now issues the user's conditional joint resume to the two existing research tasks. See /Users/kasifa/Documents/Math/.workflow/management-acceptance-20260907.md. This does not start new paper or strategy work; each role owns its scientific next_action. Any later explicit user pause takes precedence.
 
 This worktree is owned by the persistent task `研究任务（反向）`.
 The current workspace protocol and the user's latest instructions govern this
-worktree. Current state: PAUSED_BY_USER after “先暂停一下”. Do not resume research,
-computations or scientific subagents until the user explicitly resumes this task.
+worktree. Current authority: RESUME_AUTHORIZED_BY_MANAGEMENT after independent
+acceptance of the user's later conditional joint resume. Resume on management's
+dispatch from the reverse-owned checkpoint; any newer user pause takes precedence.
 
 - Scientific work and all git commands run only in `/Users/kasifa/Documents/Math/navier-stokes-reverse`, branch `codex/ns-reverse`.
 - Read `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md` and `/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md` when first needed or changed.
@@ -40,7 +41,7 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - The publisher stores PRIVATE_CORE in the private source repository; only reviewed PUBLIC_PROGRESS_OVERVIEW content and fixed historical exceptions reach the independent public site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
 - A research section is complete when its result, required certificates, independent review, literature boundary, necessary figure archive, manifest and source freeze are complete. Website publication is a separate responsibility and is never a research-completion condition.
-- Only the fixed publisher receives the once-only frozen handoff and manages publication FIFO. Research tasks do not publish or wait for publication. The current user pause remains in force.
+- Only the fixed publisher receives the once-only frozen handoff and manages publication FIFO. Research tasks do not publish or wait for publication. The management joint-resume decision now applies; later user pauses take precedence.
 - Recaps are private milestone records, not a per-section public obligation. Future public summaries require separate semantic/privacy approval and never automatically expose a completed section.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.
