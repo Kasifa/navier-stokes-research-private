@@ -1,0 +1,119 @@
+{
+  "release_id": "ClayB-DirectionBmo-BridgeScreen-20260908",
+  "logical_predecessor": "ClayB-FullStrainGradientEntropy-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+  "source_commit": "01071cafa15603e7403d1bbf0acb5cf29891a4ec",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "PRIMARY SOURCE INTERFACE AUDIT",
+    "EXACT SMOOTH NS CHECK",
+    "SCOPED AUTOMATIC IMPLICATION REFUTED",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "The combined weighted Piola/Betchov-pressure identity is an already recorded equivalent source rewrite, not a new dynamical input.",
+    "The same previously recorded smooth periodic shear has finite direction and zero-set dissipation but infinite full localized logarithmically weighted direction-BMO norm at every finite time.",
+    "Smooth saturation removes this example's zero-plane jump; its displayed general BMO bound still requires uncontrolled endpoint derivatives."
+  ],
+  "limitations": [
+    "Only the proposed universal periodic budget-to-full-direction-BMO implication is refuted; not an NS singularity, not a counterexample to the whole-space conditional theorem.",
+    "Bradshaw-Grujic v4 HTML hypothesis/conclusion interface reviewed; literal global norm issue retained, PDF not checked, full external proof and periodic adaptation not certified.",
+    "No new unconditional critical estimate, general regularity, novelty certification, human peer review or newly selected unconditional mechanism.",
+    "No public overview, result count, attachment, recap, website/local reader or relaunch requested."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_direction_bmo_bridge_screen_20260908/research-note.md",
+      "sha256": "888f4289ccc8064435fa1c2df0ab25ce62c8bc1987a170d33d23cf4a8eb215bc",
+      "bytes": 6841
+    },
+    {
+      "path": "research/clay_b_direction_bmo_bridge_screen_20260908/report-source.md",
+      "sha256": "9438cf0b9979c3a721c63d9bb67b27c9c283f2124c8226dbeb0206558ab25997",
+      "bytes": 4207
+    },
+    {
+      "path": "research/clay_b_direction_bmo_bridge_screen_20260908/qa.md",
+      "sha256": "6c4044dec824d548b0b82e6f96b37dd93e4faf1c2e02d3351be0bedce31bb294",
+      "bytes": 3391
+    }
+  ],
+  "dependencies": [
+    {
+      "kind": "FROZEN_LOCAL_DEPENDENCY",
+      "source_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+      "path": "research/clay_b_vorticity_direction_budget_20260907.md",
+      "sha256": "05d84b2efc720c136d10b0c34b933b984f32270137617066b54eea847c0aa647",
+      "scope": "VB.11-13 exact shear and complete zero-set budget."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEPENDENCY",
+      "source_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+      "path": "research/localized_strain_pressure_commutator_note.md",
+      "sha256": "d5fa8372621c727022926bc6e59c8e91d2435094367cf971395d69d047173ce0",
+      "scope": "R069I existing weighted Betchov and pressure commutator."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEPENDENCY",
+      "source_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+      "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+      "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+      "scope": "PGR.5 existing Piola interface."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEPENDENCY",
+      "source_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+      "path": "research/clay_b_full_strain_gradient_entropy_20260908.md",
+      "sha256": "1c4e89c9eccc2a17eac484946c6fdafc6aecf600d43d996193e9a16cce09f028",
+      "scope": "Already frozen SG weighted full-gradient budget, not a critical bound."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEPENDENCY",
+      "source_commit": "773ead8a36cc50be2bcccc92c21c28cf12584d62",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "scope": "RL variable-pressure commutator and unpaid entropy sources."
+    },
+    {
+      "kind": "PRIMARY_SOURCE_INTERFACE",
+      "url": "https://arxiv.org/html/1309.2519v4",
+      "scope": "Section2 norm and section3 Theorem1 plus printed HTML proof; source proof limitations retained. Not a new source discovery or PDF archive."
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_direction_bmo_bridge_screen_20260908/qa.md",
+    "actual_file_reviews": "A and C full research-note/report-source reviews plus final three-line scope clarifications; participant AI reviews, not human or wholly nonauthor reviews. A actual QA-record read PASS.",
+    "structural_checks": "DB.1-9 unique ordered tags, 11 display pairs, inline balance and scope checks passed; staged whitespace clean. All three source files match immutable git-show bytes and SHA256 (14439 bytes), and all five immutable dependencies match SHA256 (42595 bytes). JSON and private-only scope checks passed.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "visual_render_qa": false,
+    "third_party_pdf_archived": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Analytic source-interface check only; no simulation or measured data.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "No new unconditional critical control or large milestone."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "Manifest and later dispatch receipt are excluded from the immutable source-stage file binding. Accepted dispatch is not archival verification.",
+  "next_research_plan": "Stop the verified duplicate weighted-source rewrite and automatic full-direction-BMO bridge. Reassess the actual signed NS production and arbitrary-candidate critical interface; specify a genuinely additional estimate before expanding another calculation. Do not automatically launch another logarithmic weight, saturated-direction or projector variant. Hard unproved noncircular estimates remain eligible for exploration."
+}
