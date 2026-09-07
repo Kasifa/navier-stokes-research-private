@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Do not rerun completed kernels. Nodal residual source/results committed d4a426ac. Strain coefficient S.1-S.3 and time-dependent scalar control now independently reviewed and combined in CONTROL_REFINEMENT_OUTCOME.md. Pascal is preparing ONE_SEGMENT_DERIVATIVE_CONTRACT.md / audit_one_segment_derivative.py for exactly interval n1280; Rawls is reviewing its math contract when available. Pauli is completing CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md. Read actual files/messages; root must read source before authorizing one bounded run. No duplicate work, new integration or expanded 24-mode test.",
+  "next_action": "Primary fixed interval n1280 derivative upper-bound run has COMPLETED once on source ed412495fde38ee5563ce74b727a14f52274513a; never rerun it. Pauli driver_source_audit is preparing independent Fraction derivative contract/code from original archives, without main source/results; read actual independent source when final, write root code review before one execution and compare complete 4x4912 exact norm squares. Rawls primary contract and strain reviews are complete. Continuous-residual Kronecker/96-bit preflight and root analytic review are complete, but no multiplier cost block has run. No new time integration, selection or parameter expansion.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -66,7 +66,15 @@
     "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_ROOT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/CONTROL_REFINEMENT_OUTCOME.md",
     "research/reverse/fixed-seed-global-screen/control-refinement-root-bindings.json",
-    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json"
+    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/one-segment-derivative-trial-01/run.json",
+    "research/reverse/fixed-seed-global-screen/one-segment-root-readback.json",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/continuous-residual-cost-root-bindings.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -120,7 +128,15 @@
     "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_ROOT_REVIEW.md": "1e6d277f0bc104a51be9d48a4028fe0ea562141607418d1ccf658fe82d75ac64",
     "research/reverse/fixed-seed-global-screen/CONTROL_REFINEMENT_OUTCOME.md": "bde19888ce180ed5a720e9f38a2052266738ca008112b08377b344519a4e8d5d",
     "research/reverse/fixed-seed-global-screen/control-refinement-root-bindings.json": "63b72366a85b77b7e9c0cf72db5335680c34cca0d7f949ba861495ec7b6d21c9",
-    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json": "436d000f66b20f489aec19a786e002fa13b0cfeb96bde5b884d2f9a31770609c"
+    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json": "436d000f66b20f489aec19a786e002fa13b0cfeb96bde5b884d2f9a31770609c",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_CONTRACT.md": "a53006b424c2166ad943166abca8e284138e64d31a6d07131041f9da9afa229a",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_REVIEW.md": "a4e5e12cd3d16ead0bf9081ab516c6f2afbc38cd1b76ae4199b5c550ef294b55",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_ROOT_REVIEW.md": "cf108858f95dfdb193ab169fccbb4a8a45089660b6ea9f7244e80c410fc54691",
+    "research/reverse/fixed-seed-global-screen/one-segment-derivative-trial-01/run.json": "cf8cafeb3a36015e95da32cd372a9febdd19446af0ce449c577c2f83d6142a51",
+    "research/reverse/fixed-seed-global-screen/one-segment-root-readback.json": "5fc0b35f5d3cfdf1ba8f16cc5d38165d73a79e589fce3bd88c87631a0dd788de",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
+    "research/reverse/fixed-seed-global-screen/continuous-residual-cost-root-bindings.json": "12d42b3e56e262c49d65602afd5e361af1b7b44066f8a108ad9756c34b462fe0"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -137,7 +153,7 @@
   "current_topic": "Same fixed reference: exact old residual cost obstruction complete; next strain coefficient and piecewise control with one fixed Hermite interval derivative bound",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Actual review and one bounded execution of fixed interval n1280 derivative upper-bound contract/code; contract/code still being prepared, no execution yet",
+    "Finish actual independent Fraction reconstruction for the completed one fixed Hermite interval, compare complete norm squares and certified intervals, then scope outcome",
     "Continuous whole-window residual and spatial derivative bounds, positive comparison and infinite-dimensional error remain unpaid",
     "Original fixed datum global status, uniform iteration and finite-time singularity remain open"
   ],
@@ -153,7 +169,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T17:08:46.635402+00:00",
+  "updated_at": "2026-09-07T17:23:20.694122+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "progress: one locked nodal full residual lower test and independent Fraction convolution completed, 24 modes and 32448 ordered pairs agree, six mutation controls rejected, final non-author review passed; old epsilon 1e-7 strictly refuted only for reference; epsilon 2e-7 undecided; new analytic control work underway; one-sided strain refinement and explicit piecewise positive control independently reviewed, no actual full-window input certificate",
   "completed_unreleased_audits": [
@@ -251,5 +267,44 @@
     "non_author_time_control_review": "root full read and hand derivation PASS",
     "actual_input_envelopes_certified": false,
     "separate_release": false
-  }
+  },
+  "one_segment_derivative_evidence": {
+    "source_commit": "ed412495fde38ee5563ce74b727a14f52274513a",
+    "primary_status": "COMPLETE",
+    "segment": 1280,
+    "time_interval": "[1280/2048,1281/2048]",
+    "wall_seconds": 0.3750704589765519,
+    "peak_rss_bytes": 81117184,
+    "output_directory_bytes": 319289,
+    "full_signed_modes": 4912,
+    "bernstein_coefficients": 4,
+    "integer_root_inputs": 58944,
+    "upper_bounds_rational_ceil": {
+      "sigma": "343/100",
+      "M2": "3833/500",
+      "M3": "6507/500"
+    },
+    "independent_reconstruction": "PREPARING_NOT_EXECUTED",
+    "global_certificate": false,
+    "retry_allowed": false,
+    "interpretation": "Only reference one-segment upper bounds; values are not actual derivative maxima"
+  },
+  "continuous_residual_arithmetic_preflight": {
+    "status": "PASS_ANALYTIC_PATH_COST_UNMEASURED",
+    "method": "3D exact Kronecker integer convolution, optional fixed 96-bit centers with proved conservative input error",
+    "root_independent_analytic_review": "PASS",
+    "scientific_kernel_executed": false,
+    "next_cost_block": "at most one fixed n1280 tensor c1*c2 if later selected and source-reviewed; not run"
+  },
+  "peer_exchanges": [
+    {
+      "recipient_role": "forward",
+      "thread_id": "019fb8c8-96a8-7320-bb59-3ab9e8b7e29e",
+      "source_commit": "0a5b5e73b0303103d6aa047dfa6ede13d447551a",
+      "topic": "one-sided strain L2/H2 coefficients and conditional explicit piecewise barriers",
+      "scope": "given reference with certified continuous inputs only; no actual NS global certificate",
+      "state": "SENT_ONCE_NO_REPLY_DEPENDENCY",
+      "tool_receipt": "send_message_to_thread returned matching threadId"
+    }
+  ]
 }

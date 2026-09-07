@@ -1,0 +1,33 @@
+{
+  "status": "PASS_FINAL_READBACK_AND_BOUND_INPUTS",
+  "source_commit": {
+    "git_HEAD": "ed412495fde38ee5563ce74b727a14f52274513a",
+    "scope": "observed at execution; individual input/source byte hashes remain binding",
+    "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+  },
+  "root_run_sha256": "cf8cafeb3a36015e95da32cd372a9febdd19446af0ce449c577c2f83d6142a51",
+  "root_inputs_checked": 8,
+  "norm_square_shape_checked": [
+    4,
+    4912
+  ],
+  "decimal_reading_only": {
+    "chi_absolute_upper": 0.45389652548030823,
+    "sigma_upper": 3.4291421922909957,
+    "M2_upper": 7.665665508510566,
+    "M3_upper": 13.013806587133649,
+    "A1_b_upper": 3.56572615114718,
+    "A2_b_upper": 6.093321821488815,
+    "A3_b_upper": 11.441462900111897
+  },
+  "rational_upper_ceil_milli": {
+    "chi_absolute_upper": "227/500",
+    "sigma_upper": "343/100",
+    "M2_upper": "3833/500",
+    "M3_upper": "6507/500",
+    "A1_b_upper": "1783/500",
+    "A2_b_upper": "3047/500",
+    "A3_b_upper": "5721/500"
+  },
+  "scope": "Only primary one-segment upper bound; actual independent reconstruction still pending"
+}
