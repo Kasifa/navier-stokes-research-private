@@ -33,6 +33,17 @@
       "sent_at_utc": "2026-09-07T12:44:38.543631+00:00",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260907-LocalPressureScreen",
+      "source_commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "freeze_commit": "5237c77d586efd267f9185182534d992152d76ba",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": "2026-09-07T13:52:44.042348+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"

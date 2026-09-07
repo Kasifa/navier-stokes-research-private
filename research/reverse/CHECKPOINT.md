@@ -2,7 +2,10 @@
 
 2026-09-07。ACTIVE_RESEARCH_CHECKPOINT。用户最新直接要求“按既定的策略持续开展研究”及“如无特别需要我来确认的，你就持续开展下去，不需要停顿”。日常研究、独立审查、源码冻结和一次私有交接不需新确认。更晚的用户明确暂停仍优先。科学工作与所有 git 命令只在本反向树、codex/ns-reverse 执行。
 
-当前有界研究已完成：exterior-pressure/OUTCOME.md。release 为 ReverseNS-20260907-LocalPressureScreen，源码 a341a095a7aa0fb7715cc6156b66fe929dfca572，清单 exterior-pressure/freeze.json 已写，待一次私有交接。该包，包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
+
+当前实际科研位于 swirl-regeneration/，不是等待交接。CONTRACT.md 已固定单个 δ=1/100 局部旋流初值及完整 Fourier–Leray 的旋流/补投影。Pauli 已独立推得 n=B(a,a)≠0、curl n=γa，以及 〈a,B(n,n)〉=0；逐点零的是未投影三重积，不是 a·B(n,n) 本身。根代理已另写 LOCAL_REMAINDER_DRAFT.md：A4 Wiener 压缩映射、同一T0高阶Volterra控制、完整原解的 m=tn+r 及O(t³)模板反馈误差。Rawls正在独立全文核查；未将新草稿提前记为冻结或接受定理。若实际review已落盘，先读它并处理问题。领先门失败仅限二阶原模板，不自动追更高Taylor阶，不排除其它方向或较晚回馈。
+
+当前有界研究已完成：exterior-pressure/OUTCOME.md。release 为 ReverseNS-20260907-LocalPressureScreen，源码 a341a095a7aa0fb7715cc6156b66fe929dfca572，清单 exterior-pressure/freeze.json。冻结提交5237c77d586efd267f9185182534d992152d76ba，已一次PRIVATE_ARCHIVE交接，记录见HANDOFF_LOG.json；不得重投或监控。该包包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
 
 已证内容与边界：
 
@@ -13,7 +16,7 @@
 
 根代理已经全文读证明与独立审查，并实际重跑81分量核证书和联合有限代数输出；当前36项独立审查绑定、最终汇总18项绑定和来源账本10项均通过。三份原有有限核验源码、确定性输出与实际运行记录均已保存并由根代理实际重跑。未作数值 PDE 扫描，没有科学图，不声称常数已数值化或人类同行评审。
 
-下一动作：完成最后证据绑定，源码提交，freeze.json 和最终恢复索引，再向既有发布任务一次 PRIVATE_ARCHIVE 交接；交接后继续研究，不等待或监控发布。接下来的科学方向必须由真实非定常演化提供外场与再生成，不再扩展静态外环或任意 NON-NS 路径的变体。尚无通过这一要求的新候选；必须先写一个具体有界合同再计算。
+下一动作：继续下一项真实原解旋流再生成的有限检验；本包已一次交接，不等待或监控发布。接下来的科学方向必须由真实非定常演化提供外场与再生成，不再扩展静态外环或任意 NON-NS 路径的变体。尚无通过这一要求的新候选；必须先写一个具体有界合同再计算。
 
 先前三个冻结包保持不变，均已一次移交，记录见 HANDOFF_LOG.json：
 
