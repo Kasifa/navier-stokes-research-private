@@ -1,0 +1,34 @@
+{
+  "release_id": "ClayB-WeakGradientEntropy-20260908",
+  "logical_predecessor": "ClayB-ShapeDissipationCompactness-20260908",
+  "privacy": "PRIVATE_CORE",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "main": "research/clay_b_weak_gradient_entropy_20260908.md",
+  "base_commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+  "classification": "SCOPED LOCAL WEAK-GRADIENT ENTROPY / AUTOMATIC THETA SOBOLEV ADMISSIBILITY / NO AUTOMATIC GOOD SCALE / OPEN / NOT CLAY",
+  "is_clay_result": false,
+  "completed_claims": [
+    "For an unforced unit-viscosity distribution NS pair with u in L-infinity_t L2_x intersect L2_t H1_x and p in L^(3/2) on Q1, a fixed local solenoidal extension and div-curl Hardy estimate give integral_{B3/4 x (-1,0)} |Hess p| <= C(E+D^(2/3)). No local energy inequality is needed for this a priori estimate.",
+    "Spatial mollification of one fixed weak solution preserves G_epsilon=grad u_epsilon. The exact divergence-free transport commutator has a product of velocity and gradient increments and tends to zero in local L1 by the (2,2)-to-1 estimate and translation continuity of fixed G in L2.",
+    "For fixed spatial epsilon the fully convolved equation gives an absolutely continuous time representative. A nonnegative cutoff preserves the top gradient-norm slice. Convex norm regularization, then zero-set truncation of the compatible shape variable, then epsilon-to-zero identify Theta(G)=d(G)G/|G|^(3/2), zero at G=0, in the whole interior L2_t H1_x space.",
+    "The local bound is esssup_{-1/4<t<0} integral_{B1/2}|grad u| + integral_{Q1/2}|grad Theta|^2 <= C[sqrt(E)+sqrt(AE)+E+D^(2/3)]. It also gives local Theta in L-infinity_t L2_x. Separate nonnegative budgets are added with their constant factors, not counted twice against one unchanged bound.",
+    "For a suitable weak pair near closure Q1, a larger mother cylinder or finite interior covering supplies the full Theta weak derivative required by frozen SC-A. Its conditional regularity implication therefore needs no additional Theta-H1 assumption; the same epsilon_Theta(M) still requires actual smallness and a common A+E+D cap.",
+    "Under NS scaling K(r/2) <= C[sqrt(E(r))+sqrt(A(r)E(r))+E(r)+D(r)^(2/3)], where K(r)=r^(-1) integral_{Qr}|grad Theta|^2. This is only a finite critical bound. The exact smooth local entropy balance retains signed pressure-inertia, transport, cutoff and slice terms and gives no contraction by itself."
+  ],
+  "open_items": [
+    "An arbitrary actual NS evolution has not been shown to produce a prescribed-centre scale with a common A+E+D cap and normalized Theta-gradient below epsilon_Theta(M).",
+    "No cross-scale contraction, non-summable disjoint concentration cost, or automatic o(r) entropy dissipation follows from the finite local or global estimates.",
+    "The signed pressure-inertia combination and cutoff transport in the exact local entropy balance are not controlled by a sufficiently small critical quantity. Ordinary backward heat kernels do not remove them; an advective adjoint requires its own uniform local lower-bound proof.",
+    "No classical rough-solution Gamma=|G||grad(G/|G|)|^2 or full radial grad|G| is defined or controlled here, and no signed zero-set defect is identified. The accepted object is the full weak derivative of Theta.",
+    "Effective thresholds, regularity-radius moduli, optimality, a full source-collision/novelty audit and human peer review remain outstanding.",
+    "General three-dimensional global regularity, a singularity construction and the Clay goal remain open."
+  ],
+  "next_action": "Seek a new same-solution signed cancellation in the exact local full-gradient entropy equation WE.23, retaining cutoff transport and top/bottom slice terms. First audit pressure-inertia after subtracting the spatially constant gradient of an affine reference velocity: distinguish relative-gradient entropy, which changes its dissipation, from a shape-relative entropy that preserves the original dissipation; check all reference-time, cutoff and pressure terms and their critical scaling. Do not repeat RL's uncontrolled variable-coefficient pressure term after Young's inequality, GD's variable-axis obstruction, SC compactness or the now-completed WE weak-H1 admission. A finite critical bound, another conditional rewrite, a terminal weak measure trace or a finite experiment is not an automatic prescribed-centre good scale. Any proposed contraction must control the common A+E+D cap and yield a genuine small normalized shape gradient or a non-summable disjoint cost. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "handoff_policy": "After complete research freeze, send once to the fixed publisher for PRIVATE_ARCHIVE only. Dispatch acceptance is not archive verification. No public overview, website, local reader, attachments, push or supervision requested.",
+  "main_sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9"
+}
