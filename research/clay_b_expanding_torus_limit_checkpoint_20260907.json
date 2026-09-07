@@ -1,0 +1,39 @@
+{
+  "checkpoint_id": "MI-MP-MQ-MinimalInitialReduction-20260907",
+  "base_commit": "92a328c7da606027eed9df480deee2226d41f171",
+  "privacy": "PRIVATE_CORE",
+  "research_authority": "USER_EXPLICIT_RESUME_ACTIVE",
+  "status": "REVIEWED_RESEARCH_READY_FOR_PRIVATE_FREEZE",
+  "main": "research/clay_b_expanding_torus_limit_20260907.md",
+  "audit": "research/clay_b_expanding_torus_limit_audit_20260907.md",
+  "accepted_main_sha256": "d1fddb0e8f0ff64f3c9056d36942e942f09e4f734b3d5988a832e13aeae950b7",
+  "review": "C actual full MQ.1-12 review at0337 plus exact seven-line delta PASS; A scoped source/solution-class/goal review plus final delta PASS; B pressure and associated compactness interface review plus final delta PASS. Reviewers participated in scoped derivation checks; not human peer review. Exact versions and limits are in audit.",
+  "classification": ["CONDITIONAL REDUCTION", "STANDARD THEORY INTERFACES", "PROVED IN STATED SCOPE", "OPEN", "NOT CLAY"],
+  "completed_scope": [
+    "MI: conditional strong compactness of minimizing singular periodic initial data when first singularity times have a positive lower bound; finite singular times have a fixed-domain upper bound from small-H1 recovery.",
+    "MP: local energy, dissipation and time-gauged pressure estimates on expanding tori, with constants independent of period length.",
+    "MQ: from a hypothetical sequence of expanding-torus singular suitable Leray solutions with bounded initial critical norm, extract a nonzero full-space critical datum with lower-semicontinuous norm and finite maximal mild time at most1; verify full local-energy class, pressure representation and comparison inputs."
+  ],
+  "limitations": [
+    "Periodic existence, suitability, trace, continuation and comparison theory listed in MI, full-space critical mild theory and the cited singularity stability/weak-strong theorems remain explicit standard external interfaces, not fully re-proved dependencies.",
+    "No actual singular initial datum is constructed and no candidate is ruled out. No new unconditional regularity estimate, domain-threshold equality, flow-invariant minimizing set or critical-orbit compactness follows.",
+    "The Euclidean limit datum lies in the critical class; it need not have Clay smoothness, rapid decay or finite total energy. The limit solution is in N(f) on[0,2), not asserted globally extended or finite-global-energy Leray-Hopf.",
+    "This is an adaptation and conditional reduction using known compactness/weak-strong mechanisms, without novelty, publication-value or human peer-review certification."
+  ],
+  "historical_dependencies": [
+    "research/clay_b_minimal_initial_probe_20260907.md",
+    "research/clay_b_minimal_initial_probe_audit_20260907.md",
+    "research/clay_b_expanding_torus_local_energy_20260907.md",
+    "research/clay_b_expanding_torus_local_energy_audit_20260907.md"
+  ],
+  "historical_state_note": "Prior MI/MP internal-checkpoint and next-action statements are retained unchanged as historical records. This checkpoint closes the selected limit-transfer scope, not later rigidity or the full goal.",
+  "simulation": false,
+  "numerical_certificate": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "public_overview_requested": false,
+  "handoff_state": "NOT_SENT_SOURCE_STAGE",
+  "next_action": "Freeze MI/MP/MQ as one conditional reduction and dispatch once for PRIVATE_ARCHIVE. Then reevaluate a concrete original-NS rigidity input for the periodic minimal datum or Euclidean concentration candidate. An exact noncircular unproved lemma is admissible for exploration; do not demand it be solved before admission. Do not infer orbit bounds or flow invariance from initial-data minimality, repeat closed scalar/source screens, or treat candidate extraction as exclusion. No further precise rigidity estimate is selected yet. Continue authorized research without publication or local-reader inspection, waits or retries.",
+  "full_goal": "Arbitrary admissible smooth-data three-dimensional unforced periodic Navier-Stokes regularity remains OPEN / NOT CLAY."
+}
