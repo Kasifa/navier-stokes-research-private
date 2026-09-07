@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "78f2a7f38dc0a210b0b3cbd66e8e85ed19704a4d",
+  "name": "CD cofactor defect dynamics",
+  "main": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "classification": ["EXACT SMOOTH IDENTITIES", "SCOPED WEAK TIME CONTROL", "COMPATIBLE SIGN CHECK", "NO NEW CRITICAL ESTIMATE", "OPEN", "NOT CLAY"],
+  "completed_scope": [
+    "For Q=|A|, J=adj A and f=|J|^2/Q^3, d^2/(2Q)<=f<=d^2/Q and f<=Q/3; f is smooth at every Q>0, including nonzero rank-one matrices and repeated singular values.",
+    "The actual NS adjugate and quotient equations retain pressure, full ambient trace terms, viscous matrix products and all denominator derivatives.",
+    "Ten-dimensional homogeneous lifting yields a uniform Hessian bound by the same Frobenius regularization; the signed zero-set measure obeys |sigma_f|<=K zeta_A and is not deleted.",
+    "Lf is a finite signed measure with an initial-gradient and energy bound. The full-cell and fixed smooth-test masses are BV and f(A(t)) dx has a unique finite nonnegative weak-star measure trace at a finite candidate endpoint.",
+    "A localized vector-potential construction realizes a negative normalized Hessian density in an actual smooth periodic divergence-free initial velocity gradient."
+  ],
+  "open_items": [
+    "No arbitrary-data global regularity, singularity, novelty certification, human peer review or Clay solution.",
+    "The weak measure trace need not have a proved density; no strong L1 trace, concentration exclusion or finite-measure assertion for partial_t f is established.",
+    "f is a squared normalized defect, not d. The stated norm interpolation and BV information do not give the critical d condition in GD.11.",
+    "No invariance or failure of invariance of the entire rank-one-gradient class under NS is concluded.",
+    "The pressure Riesz representation does not supply a weighted estimate or a pointwise bound by d^2."
+  ],
+  "next_action": "Keep d and GD.11 fixed. Examine k=|adj A|/Q, which is equivalent to d but nonsmooth at J=0 and Q=0. Derive its genuine original-NS Kato/chain inequality, retaining both zero-set contributions, pressure and denominator derivatives. Identify any nonnegative dissipation and test whether its remaining negative part is controlled by GD's existing entropy; then test whether this controls a critical d norm or only another lower-order geometry quantity. Do not adopt k as a new estimate merely by renaming, sweep weights, repeat CD/PGR identities or assume rank-one invariance. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "publication_boundary": "After the source freeze, send release_id plus source commit once to the fixed publisher for PRIVATE_ARCHIVE only; no public overview, website, local reader, counts or attachments requested. Research does not push, poll, wait for, retry, supervise or report archive/publication execution."
+}
