@@ -1,0 +1,501 @@
+===== PDF PAGE 1 =====
+Incompressible hydrodynamic turbulence from a chain reaction of vortex
+reconnection events
+Robert M. Kerr
+Department of Mathematics, University of Warwick, Coventry CV4 7AL, United Kingdom
+From a new anti-parallel initial condition using long vortices, three-dimensional turbulence
+forms after two reconnection steps and the formation of at least one set of vortex rings for
+both quantum and incompressible vortices. The long domain allows multiple reconnections,
+which enhance vortex stretching rates and the generation of small-scale vortex structures
+within the vortex rings. For the Navier-Stokes vortices, further new features are a proﬁle
+less likely to shed vortex sheets and an improved mapping the direction of the vorticity
+onto the three-dimensional mesh. The vortices evolve via the following steps: First, until
+the ﬁrst reconnection, dynamics largely consistent with how vortices attract with a possible
+singularity in the Euler equations. Second, vortex reconnection where the symmetry planes
+meet. Third, a series of vortex rings, with the stretching at each following set of reconnections
+leading to the new reconnections and rings. Half of the circulation reconnects into two
+“bridges”, leaving two “threads”, which the extra stretching transforming the threads into
+spirals wrapped around the bridges. It is argued that these spirals are the source of the
+observed k−5/3 energy spectra and other statistics commonly associated with high Reynolds
+number turbulence.
+PACS numbers:
+To appear in the Procedia IUTAM volume of papers for Understanding Common Aspects of
+Extreme Events in Fluids, Dublin, 2-6 July 2012. as Fully developed hydrodynamic turbulence
+from a chain reaction of reconnection events .
+I. INTRODUCTION
+This paper presents initial comparisons between new Navier-Stokes reconnection calculations
+and recent quantum vortex reconnection calculations. It is also the ﬁrst of a series of reports on
+hydrodynamic Navier-Stokes and Euler simulations using a new set of anti-parallel vortex initial
+conditions. Figure 1 shows the initial conﬁguration of vorticity used in all of these calculations,
+with vortices that are very long compared with the size of the initial perturbation. For the classical
+calculations isosurfaces of vortices and vortex lines are shown. For the quantum case isosurfaces
+of very low density are shown.
+arXiv:1212.3829v2  [physics.flu-dyn]  18 Jan 2013
+
+===== PDF PAGE 2 =====
+arXiv:1212.3829 2
+Preliminary analysis of these new simulations provides insight into these questions:
+a) Could a simple conﬁguration of vortices generate turbulence promptly from a clearly identi-
+ﬁed series of steps?
+b) Can interacting vortices directly generate a k−5/3 energy spectrum without the usual statis-
+tical cascade arguments?
+c) What is the role of temporal intermittency in determining the higher-order statistics of
+turbulence?
+The conclusion of this paper will be that at least two reconnection steps are needed in the
+interaction between the two vortices before the classical signatures of fully-developed Navier-Stokes
+turbulence appear. One of these signatures is a k−5/3 energy spectrum. The development of -5/3
+spectrum appears to be linked to the generation of stretched spiral vortices [13], which in turn grow
+out of locally orthogonal vortices created by a series of vortex reconnection events, a conﬁguration
+that has been seen in some isotropic calculations [6, 8] just before they become fully turbulent.
+This paper is organised as follows. First, the new initial condition. This will allow alternative
+numerical methods to reproduce the results given here. Third, the stages in the evolution of the
+vortex structures are described using ﬁgures 1 and III, starting from the ﬁrst reconnection event
+and ending with a turbulent state of vortex rings with swirl. Some statistics for enstrophy growth
+will be provided to give a time-line for the evolution. After the ﬁnal structure is described, spectra
+and then vorticity moments will be discussed to illustrate the evolution towards a turbulent state.
+II. BACKGROUND: CLASSICAL VERSUS QUANTUM DECAYING TURBULENCE
+Experimentally, a quantum vortex tangle, that is quantum turbulence, is observed to decay
+[17, 18] with the same power law as homogeneous, isotropic incompressible turbulence in a periodic
+box and is observed to have a k−5/3, as does classical turbulence [14, 16]. Numerically, this can be
+achieved using isotropic initial conditions [19]. However, until recently [10] it has been impossible
+to achieve this type of quantum turbulent state numerically when the simulation starts from only
+two interacting vortices. Which is also true of the classical case. The ﬁrst goal of the calculations
+reported here was to modify the successful quantum initial condition of very long anti-parallel
+vortices [10] for the Navier-Stokes equations, then to see if this could also evolve into a turbulent
+state.
+
+===== PDF PAGE 3 =====
+arXiv:1212.3829 3
+t=0, both cases.
+GP transition: t=1.5.
+GP rings: t=32.
+1
+NS transition: t=16
+NS ﬁrst ring forms: t=96
+NS turbulence: t=256
+FIG. 1: Comparison of long anti-parallel evolution for Gross-Pitaevskii and Navier-Stokes. The objective
+was to have an initial condition where vortex lines did not separate from the vicinity of the prescribed
+trajectory. In each case a series of reconnections results in the formation of a series of vortex rings. The
+Navier-Stokes rings swirl due to the incomplete reconnection of circulation. The steps are discussed in the
+text.
+A. Equations
+The respective classical and quantum equations are as follows. First their respective velocity
+equations (1,3) are given, which show the similarities between the two dynamical systems. Much
+of the mathematical analysis of these equations is done with the vorticity ω =∇× u and the
+wave function ψ =√ρeiφ, whose equations are (2,4) respectively, and do not resemble one another.
+For classical systems either (1) or (2) can be integrated in time, for the quantum case only (4) is
+integrated.
+
+===== PDF PAGE 4 =====
+arXiv:1212.3829 4
+Incompressible Navier-
+Stokes/Euler:
+∂u
+∂t + (u·∇ )u =−∇p + ν△u
+dissipation
+(1)
+using ρ≡ 1 or∇· u = 0
+What can be integrated: vorticity
+ω =∇× u
+∂ω
+∂t +(u·∇ )ω  
+advection
+= ( ω·∇ )u  
+vortex stretching
++ ν△ω
+dissipation
+(2)
+Gross-Pitaevskii
+ρ
+(∂u
+∂t + (u·∇ )u
+)
+=−∇p +∇Σ and ∂ρ
+∂t +∇· (ρu) = 0 (3)
+where u =∇φ, p = 0.25ρ2, Σ = a quantum tensor.
+What is integrated: ψ =√ρeiφ.
+1
+i
+∂ψ
+∂t = 0.5∇2ψ + 0.5ψ(1−| ψ|2) (4)
+The essential diﬀerence between the two systems is that the Navier-Stokes equations are dissi-
+pative, while the Gross-Pitaevskii equations are an energy conserving Hamiltonian system.
+B. Initialisation
+For the three-dimensional incompressible equations, while vorticity is calculated by taking
+derivatives of the velocity, one can still initialise with vorticity by inverting its ﬁelds to gener-
+ate the initial velocities that are usually integrated in time. However, this is easier said than
+done.
+These issues underlie some of the recent controversy over whether the Euler equations can, or
+cannot, have singularities, as discussed in the issue of Physica D containing the proceedings of the
+2007 Euler 350 meeting, including [2]. The problems with earlier anti-parallel initial conditions,
+going back to [15], are the appearance of negative spots of circulation in the primary symmetry
+plane, as shown by ﬁgure II B(left). The consequences of those negative spots discussed in [2] and
+the older conferences proceedings it mentions. Simple ﬁxes such as in ﬁgure II B(right) have not
+provided satisfactory corrections. The inspiration for the new initial condition outlined here only
+came about by attempting to apply an inverted classical initial condition to quantum ﬂuids, which
+was then replaced after it developed unphysical instabilities [10]. The three primary elements of
+the new initial condition are these:
+i) A new proﬁle of the vorticity distribution in the core that is based upon the Rosenhead
+regularisation of a 2D point vortex:
+v(x) = Γ (−(y− y0), x− x0)
+(x− x0)2 + (y− y0)2 + a2 and ω =∇× v = Γ a2
+((x− x0)2 + (y− y0)2 + a2)2 .
+(5)
+
+===== PDF PAGE 5 =====
+arXiv:1212.3829 5
+Compare this proﬁle with the Fetter Pad´ e approximate for the density (7). Similar except
+this has been taken to the fourth power. This smooth proﬁle behaves diﬀerently than the
+squared-oﬀ Gaussian proﬁle of vorticity introduced by [15] and used too many times since
+[2, 7, 9].
+ii) A new direction algorithm whose goal is to ﬁnd the nearest position ( xs, ys, zs) on the given
+analytic trajectory to a given ( xi, yj, zk) on the three-dimensional grid. The direction of the
+vorticity at the points ( xi, yj, zk) is then given by the tangent of the chosen trajectory at
+(xs, ys, zs).
+iii) Making the vortices very, very long to minimise boundary eﬀects and allow several recon-
+nection events. A new goal is to have a completely local perturbation that asymptotes
+into a straight line. In this way, if the vortex line is lengthened, the perturbation remains
+unchanged. The double cosine path of the past Euler work [2, 7, 9] did not satisfy these
+conditions. In contrast, the following analytic trajectory does.
+xω(x, y, z) =
+(
+δx
+[
+2/ cosh
+(
+[y/δy]pt
+)
+− 1
+]
+, 1, 0
+)
+. (6)
+The following lengths are used: δx =−1.6 and δy = 1.25. pt = 1.8 was chosen in order to
+localise the perturbation near the y = 0 symmetry plane.
+• The diﬀerent physics in the quantum case dictates how to choose the density and phase
+around the ρ = 0 vortex cores. The density proﬁle ρ(r) must go from ρ(0) = 0 to ρ→ 1 as
+r→∞ . One example is this low-order Pad´ e solution [4]:
+√ρ(r) = r/
+√
+r2 + 2 or ρ(r) = r2/(r2 + 2) . (7)
+Points i) and ii) resolve the problem with the negative spots, leading to the ﬁnal proﬁle in ﬁgure
+II B. This has been used for anti-parallel vertical vortices in a stratiﬁed ﬂuid, the anti-parallel
+unstratiﬁed vortices mentioned here, and anti-parallel Euler vortices. Unphysical initial instabilities
+due to small-scale inbalances have been suppressed, without the extra massaging or squeezing used
+before [2, 9], resulting in calculations where a cleaner and stronger larger-scale instability forms. Is
+this suﬃcient to lead to a transition to sustained turbulence from vortex interactions where none
+had been seen in earlier work?
+The two simulations are used here say it is. Removing the symmetries, the full domains are
+Lx× Ly× Lz = 4 π× 32π× 4π and Lx× Ly× Lz = 4 π× 32π× 8π, with x, y, z values going
+as approximately [0 : 12 ,−50 : 50 ,−6 : 6] and x, y, z going as [0 : 12 ,−50 : 50 ,−12 : 12]. The
+
+===== PDF PAGE 6 =====
+arXiv:1212.3829 6
+FIG. 2: Left: Noise generated by one of the original anti-parallel initial conditions [15]. Right: From
+[2]. As indicated by the position of the min( ωy). As in [9], r⊥ is used along with a squared-oﬀ Gaussian
+proﬁle, which is then lengthened in x, in this case by using an anisotropic ﬁlter in kx. In [9] the proﬁle was
+lengthened by adding a localised ∂ux/∂z shear.
+Lz = 8π, ν = 0.001 calculation is used to show the full spatial development of the structures and
+the Lz = 4 π, ν = 0 .0005 case is used to show that a full Kolmogorov k−5/3 inertial subrange
+with very strong −Su ﬂuctuations develops. The important timescales are the same in the two
+calculations.
+The insets show the upper/left quarter domain near the y = 0 perturbation plane. The t = 0
+inset shows that the circular cross-section, taken perpendicular to the direction of vorticity ˆω in its
+centre, has constant width along its entire length and the t = 16 inset shows that large ﬂuctuations
+of vorticity about zero seen previously [2, 7] are now avoided.
+All of the initial conditions to be discussed then apply a Fourier ﬁlter of the form
+f4(k) = e−δ4(k2
+x+k2
+y+k2
+z )2
+, (8)
+with δ4 = 0.01. This initialisation was done on modest meshes, typically 128 3, before those ﬁelds
+are remeshed onto the meshes of true interest.
+III. INSTABILITY STEPS
+Initial instability. The primary inviscid linear instability on anti-parallel vortices was orig-
+inally identiﬁed by [3]. This quickly becomes nonlinear with the perturbation in anti-parallel
+vortices in ﬁgure 1 evolving into the structures GP t = 1 .5 and NS t = 16 structures that are
+beginning to reconnect at the point of closest approach while generating waves away from those
+points. The insets at t = 0 and NS t = 16 show the perspective that has appeared in a number of
+
+===== PDF PAGE 7 =====
+arXiv:1212.3829 7
+FIG. 3: Left: x− y cross-section of ω at t = 0 for y > 0 through the position of maximum vorticity, which
+is on y = 0 near x = 7.25. by the continuous crosses of ωy = 0 at these boundaries. Right: Circulation
+in the two primary half-symmetry planes. Their sum remains constant through the reconnection process
+which results in nearly half of the original circulation being reconnected.
+earlier papers, in particular [9], with a cut through the symmetry plane. This cut shows familiar
+features including the leading heads, remnants of the original vortices, and the following tails,
+ﬂattened vortex sheets. These sheets are why the extra resolution is needed in z.
+After t = 16, as the reconnection continues, the twists turns into kinks, shown in ﬁgure III.
+These twists and kinks do not form if periodic perturbations are used [15], which the long domain,
+plus the localised perturbations, promote.
+Ongoing analysis of the curvature for t < 16 has found a complicated structure of peaks and
+dips along the vortices with the curvature on the y = 0 perturbation plane remaining small for all
+times. These peaks and dips are within the isosurface shown in t = 16 frame and are not directly
+connected to the bulges to larger |z| near|y| = 5. These bulges are more directly related to the
+requirement that any volume that has been pulled away from the y = 0 perturbation plane by
+vortex stretching must go somewhere, and in this case it goes into the bulges. Another feature of
+the bulges is how they bend back towards the z = 0 dividing plane, overshooting the original z
+positions of the vortices.
+By t = 32, the ﬁrst reconnection event has completed, with the heads reconnecting across the
+z = 0 plane to form bridges and kinks that develop from the inviscid twist generated before t = 16.
+Roll-up and twist As the ﬁrst reconnection is ﬁnished at t = 32, the tails roll-up to form
+new tubes on the y = 0 perturbation plane. These new tubes are commonly known as braids or
+threads, with one indicted by the red vortex line coming out of the y = 0 perturbation plane in the
+t = 96 frame. To be able to observe the complicated interactions at these two times, two vorticity
+
+===== PDF PAGE 8 =====
+arXiv:1212.3829 8
+FIG. 4: t = 32: Evolved from t = 16 when reconnection began. Left: Two isosurfaces. Outer ω = .63
+transparent surface in turquoise for comparison with t = 16 ang later times, and an inner ω = .89 surface
+to capture the ﬁner vorticity details. Right: The ω = .55 isosurface is shown to emphasize how the tails
+have started to roll-up, seen on the right of the cut through the y = 0 perturbation plane. How the roll-up
+connects to the original vortices is in red while the reconnected parts of the vortices are blue. They are
+following each other into the main structure, but are not yet twisting around one another.
+isosurfaces are used: |ω| = 0.89 and|ω| = 0.63, shown only for the y > 0 half-domain so that the
+y = 0, x− y cut is visible.
+The two important features highlighted by the|ω| = 0.89 isosurface at t = 32 are the roll-up of
+the tails and the initial twisting between thebridge and tails. At t = 32, the new threadstuck behind
+the reconnected bridge at y≈ 2 and z =±1 with the two sets of vortices are aligned orthogonally,
+similar to what has been seen after vortex sheets ﬁrst reconnect in simulations initialised with
+only a few small wavenumber Fourier modes [1, 6]. Beyond the orthogonal crossing point, the
+unreconnected threads+tails begin to wrap around the reconnected bridges, near y≈ 3, generating
+a twisted structure that has not been unraveled further.
+The lower|ω| = 0.63 surface shows the relationship between these intense regions and the new
+path for the envelope of the original vortices. This includes the bulge that goes to|z|≥ 4 near y = 5.
+Note the new intensiﬁcation of vorticity inside the |ω| = 0 .63 isosurface for 5 ≤| y|≤ 10. This
+growth is being driven by a new anti-parallel interaction that is developing around 8 ≤| y|≤ 12.
+This new source of vortex stretching plays a role in the next stage illustrated by the frame at
+t = 96.
+Timescales In order to interpret the time evolution shown by the series of frames in ﬁgure 1,
+diagnostics are needed for identifying timescales. One comes from normalising the production of
+enstrophy Z into the following skewness:
+− Su = c ωSω
+Z3/2 = c dZ/dt
+Z3/2 where [S]ij = 1
+2
+(∂ui
+∂xj
++ ∂uj
+∂xi
+)
+and c is an isotropy coeﬃcient . (9)
+
+===== PDF PAGE 9 =====
+arXiv:1212.3829 9
+FIG. 5: Vorticity and energy time evolution for the ν = 0.0005, Lz = 2π calculation. Left: Decay of kinetic
+energy (lower/black), growth until t = 320 (then decay) of enstrophy and velocity derivative skewness:
+−Su. Several intermediate timescales set using the growth then decay of the enstrophy Z and−Su, its
+normalised production. First timescale: t1≈ 48, showing the largest −Su and representing the completion
+of the ﬁrst reconnection, which began about tc≈ 14. t2≈ 110 is completion of the second reconnection and
+detachment of the ﬁrst vortex rings. The −Su≈ 2 overshoots the steady-state value of about −Su = 0.5 to
+0.7 by an unprecedented margin compared to earlier work. But is not due to singular growth, which Euler
+calculations say should end after t≈ 14. Right: Temporal variation in the higher-order vorticity moments,
+normalised and scaled in the manner suggested by [5]. By using this scaling on this modestly large Reynolds
+number Navier-Stokes calculation, one can see that each higher-order moment is bounded from above by
+the lower-order moments.
+It is known from experiments and simulations that at large Reynolds numbers −Su→ 0.5− 0.7,
+so the growth and relaxation of−Su to this asymptotic value can used to set the timescales of the
+calculation.
+Figure 5 shows the most signiﬁcant timescales appearing in the global diagnostics. On the left
+is the evolution of the global enstrophy Z, its normalized production −Su (9) and the decay of
+kinetic energy. On the right is the evolution of the rescaled vorticity moments Dm (10). The
+Dm are characterised by a hierarchy where the lower-order Dm bound the higher-order Dm for all
+times and order. This hierarchy, including comparisons of these curves to their counterparts from
+high-Reynolds number homogeneous, isotropic simulations, is being investigated further. What is
+important for the evolution described here are the following. First, the growth of the Z,−Su and
+the Dm are nearly identical up until t≈ 16. This is when the ﬁrst reconnection begins and is a
+candidate time for when there could be a singularity in the ν = 0 Euler limit.
+The next important time is t≈ 48 when−Su has its ﬁrst and largest peak for both cases and
+
+===== PDF PAGE 10 =====
+arXiv:1212.3829 10
+there is a minor peak in Z. Isosurfaces at t = 48 are almost the same as those at t = 32, with a
+little additional twisting up the reconnected bridges. −Su decreases rapidly for t > 48, reaching
+a minimum at t≈ 90, which is when the second reconnection is beginning and is discussed next.
+The additional peaks in −Su can all be associated with the additional reconnection events being
+discussed. These features are largely mirrored by the Dm in the right frame of ﬁgure 5, including
+D∞.
+Spirals By t = 32, the reconnected bridges have begun to separate in y. This is because the
+curvature underlying the Biot-Savart interaction reverses its direction in the reconnected vortices,
+so the interaction goes from attraction in z for t < 16 before reconnection, to repulsion in y for
+t > 32 after reconnection. As the t > 32 vortices separate, the reconnected bridges wind the
+unreconnected threads about themselves, illustrated at t = 96 by how the red thread coming from
+the y = 0 plane snakes around the blue line coming from the z = 0 bridge. For large y, the red and
+blue lines meet and joint into the original vortex.
+The other major feature to note in the t = 96 frame is that the new anti-parallel attraction
+seen for 8≤ y≤ 12 at earlier times has now moved out to y≈ 17 and has progressed to the stage
+where the vortices are starting to touch and reconnect again. The inner isosurface shows ﬂattening,
+curvature, and preliminary roll-up similar to what forms at y = 0 at t = 16, just before the ﬁrst
+reconnection. Furthermore, for the period just before and after t = 96, the normalised enstrophy
+production and the higher-order Dm in ﬁgure 5 all grow signiﬁcantly, as they do around t = 16,
+the time of the ﬁrst reconnection.
+After the reconnection that starts at t = 96 has been completed, we are left with a disconnected
+vortex ring with strong spiraling patterns snaking completely around it, as shown at t = 176.
+By t = 176, a third reconnection site is developing near y≈ 35, which leads to a second vortex
+ring disconnecting, with new spirals forming on its low y side. A second ring with spirals then
+disconnects, as shown at t = 256. Given a large enough domain in y, this process would probably
+continue to produce new spiral rings, as in the quantum vortex case [10]. It also has similarities
+to experimental observations such as [12] where thin threads connecting a chain of vortex rings are
+seen.
+IV. SPECTRA AND MOMENTS
+The initial high-wavenumber spectra are given by the hyperviscous ﬁlter, which quickly develop
+into power laws that are steeper thank−4, as seen in Euler calculations [9]. The subsequent spectral
+
+===== PDF PAGE 11 =====
+arXiv:1212.3829 11
+FIG. 6: Kinetic energy spectra: Domain: 2 π(2, 8, 1) ν = 0 .0005. Uncompensated spectra shows the pro-
+gression from a k−3 spectrum at short times to the formation of a k−5/3 at later times. As the large-scale,
+low wavenumber part of the spectrum begins to decay, Kolmogorov similarity (using the time dependent
+dissipation ϵ(t) = νZ) sees convergence starting at t = 184. The estimated Kolmogorov coeﬃcient K0 is
+between K0=1.05 and 1.1. This is lower than what is obtained from large forced numerical simulations,
+which typically give K0≈ 1.5, perhaps because not all of our global enstrophy Z (and therefore dissipation
+ϵ = νZ) is participating in the turbulent dynamics.
+evolution is shown in ﬁgure 6, starting at t = 44. Eventually, starting at t = 184, a k−5/3 begins
+to form, lengthen, and collapse according to Kolmogorov similarity. kx and kz spectra have also
+been determined. They do not have the same extent as the ky direction because the physical space
+domains in those directions are smaller, but their inertial subranges are consistent in magnitude
+and extent with those in the ky direction.
+While spectra can provide some measure of whether a ﬂuid is turbulent or not, they provide little
+information about the statistical nature of physical space velocity ﬂuctuations and intermittency.
+If the experimental conditions are relatively steady for long periods of time, there are a number of
+alternative physical space statistics that can be used to characterise the intermittency of turbulent
+ﬂows. However, determining many of these numerically is restricted by how rapidly they converge
+to steady statistics. In the analysis of high Reynolds number, very large numerical simulation, what
+
+===== PDF PAGE 12 =====
+arXiv:1212.3829 12
+[20] have demonstrated is their ratios converge, even if their values don’t. As recently pointed out
+[11], this can be explained by the mathematics in [5].
+What insight can these reconnection calculations provide? They can if the rise and fall of
+these intermittent statistics can be tied to the reconnection events and the growth of enstrophy
+production.
+First, is intermittency growing suﬃciently rapidly as the Reynolds number increases for these
+reconnection simulations to be useful? The strong growth in the skewness ﬂuctuations in ﬁgure
+5(left) suggests that this is the case as the two initial peaks near t = 40 and t = 105 double when
+the Reynolds number is doubled. Even higher growth is expected when this is redone with an
+Lz = 4π domain.
+Which brings us to the rescaling of the higher-order vorticity moments as a function of time
+in the manner recently suggested by [5], given in ﬁgure 5(right). This ﬁgure shows a hierarchy of
+higher-order vorticity moments, higher than m = 1 (the enstrophy), which would oﬀ the upper
+scale at the top. The normalisation is based upon the frequency scale ϖ = ν/L2
+z and a power law
+designed to compare the degree of intermittency for each moment and goes as
+Dm = (ϖHm)1/ ˜αm where ˜ αm = 4m/(4m− 3) , (10)
+where the Hm = (
+∫
+ω2mdV )1/2m are the standard vorticity moments. With this scaling, each of
+the higher-order moments is bounded from above by the lower-order moments. Furthermore, as
+the order increases, the moments become bunched in regions of strong growth. The ordering is
+fostered by the choice of frequency scale and the bunching is fostered by the choice of power law.
+The maximum of vorticity, the m =∞ norm, follows the same scaling and appears just below the
+m = 5 curve.
+There is no rigorous proof that this ordering should be obeyed, but this observation should
+be signiﬁcant for the question of whether the Navier-Stokes equations have singularities or not.
+First, could it be shown that for any suﬃciently smooth Navier-Stokes initial condition that these
+moments relax quickly into this ordering, and that this ordering is then maintained? If so, then
+we would know that all the higher-order vorticity norms will eventually be bounded from above by
+the lower-oder vorticity norms. Which brings us to the lowest order, m = 1 norm, the enstrophy.
+Implying that if the growth of enstrophy could be bounded for all times, then all higher-order
+moments of vorticity could be bounded, including H∞.
+
+===== PDF PAGE 13 =====
+arXiv:1212.3829 13
+V. SUMMARY
+The case is made in this paper that if the initial vortices are well-balanced and the domain is
+large enough for two independent reconnection steps to form, then the ﬂow wil rapidly break down
+into three-dimensional, fully- developed turbulence.
+The initial conﬁguration used to demonstrate this consisted of very long, anti-parallel vortices.
+It is argued that the long domain is needed in order to accommodate the multiple reconnections,
+which enhance vortex stretching rates and the generation of small-scale vortex structures within
+the vortex rings. In addition to making the initial vortices very long, several new features are
+applied during initialisation that are designed to make it less likely that the ﬂow will generate
+vortex sheets. These include a new balanced proﬁle and an improved way of mapping the direction
+of the vorticity onto the three-dimensional mesh.
+To get to the turbulent state, the vortices progress through the following steps: First, until
+the ﬁrst reconnection, the vortex dynamics are largely consistent with existing work on possible
+singularities of the Euler equations. This includes a head and tail structure with the maximum
+of vorticity between these them. A feature not clearly noted before is how the vortices twist back
+upon themselves towards secondary points along the original anti-parallel vortices. This nonlocal
+ampliﬁcation of the anti-parallel interaction provides extra stretching along the entire vortices,
+including the primary symmetry plane.
+Jumping to the last ﬁgure of higher-order moments, note the convergent growth of these mo-
+ments leading up to t = 16. This is related to singular Euler dynamics that is being discussed
+elsewhere.
+The next step is reconnection on the primary symmetry plane. Only the half associated with the
+head reconnects into two “bridges”, leaving the tails to roll-up into two “threads”. Together these
+form a locally orthogonal conﬁguration with steep energy spectra and minimal energy dissipation.
+The third step starts with orthogonal conﬁgurations and is modiﬁed, compared to past simu-
+lations, by the stretching induced by the anti-parallel interactions at the secondary points. Due
+to this secondary stretching, as the threads begin to wrap around the newly reconnected bridges,
+they are also pulled along the bridges to form spirals.
+Eventually there are two more reconnections at secondary points, which result in vortex rings
+separating from the original vortex lines. It is only at this stage, while the spectra are becoming
+less steep, that signiﬁcant dissipation develops, ﬁrst at higher wavenumbers.
+The fourth step will be deﬁned as an extended period with multiple reconnections, forming
+
+===== PDF PAGE 14 =====
+arXiv:1212.3829 14
+multiple vortex rings, during which a nascent -5/3 extends to low wavenumbers and additional
+statistics achieve values consistent with fully-developed turbulence. Each reconnection is at the
+secondary interaction positions induced by the previous anti-parallel interaction and reconnection.
+And each pair of reconnections forms a vortex ring.
+In the calculations reported here, there are three distinct reconnection events from which two
+sets of independent vortex rings form on either side of the symmetry plane. For the quantum
+vortex calculations in ﬁgure 1, it is seen that there is no end to the number of rings that can form,
+so long as the domain is large enough. For each set of reconnections, additional stretched spirals
+form as the k5/3 energy spectrum appears. The ﬁnal vortex structure is a chain of vortex rings
+connected by thin threads, as seen in some experiments.
+The ﬁnal state satisﬁes all the usual properties of fully-developed turbulence, usually associated
+with homogeneous and isotropic ﬂows, neither of which is true for these simulations. There is
+a Kolmogorov k5/3 subrange with roughly the correct constant. And after highly intermittent
+variations, the velocity derivative skewness −Su, or normalised enstrophy production settles to
+values of about 0.5 to 0.6, which are the values characteristic of fully-developed turbulence. It
+is then shown that the intermittency of −Su can be extended to intermittency in higher-order
+moments of vorticity. Moments that we hope will be determined numerically in some upcoming
+cutting-edge simulations of forced, homogeneous, isotropic turbulence similar to that used by [20].
+Acknowledgements
+All calculations were done on clusters at the University of Warwicks Centre for Scientiﬁc Com-
+puting. Travel support from COST-Aerosols and Particles is appreciated. I thank J.D. Gibbon for
+communicating his latest mathematics results on vorticity moments.
+Acknowledgements
+The author thanks the organisers of this meeting for the opportunity to speak. Computing
+support was provided by the Warwick Centre for Scientiﬁc Computing.
+[1] Brachet M.E.,Meiron D.I.,Orszag S. A.,Nickel B. G.,Morf R.H.,Frisch U., Small-scale structure of the
+Taylor-Green vortex J. Fluid Mech. 1983;130:411–452.
+
+===== PDF PAGE 15 =====
+arXiv:1212.3829 15
+[2] Bustamante M.D., Kerr R.M., 3D Euler about a 2D symmetry plane Physica D 2008;237:1912–1920.
+[3] Crow S. C.,
+AIAA Journal 1982;8:2172Stability theory for a pair of trailing vortices.
+[4] Fetter A. L.,Vortices in an Imperfect Bose Gas. IV. Translational Velocity Phys. Rev. 1966;151:100104.
+[5] Gibbon J.D., arXiv:1108.4651v2 Conditional regularity of solutions of the three dimensional Navier-
+Stokes equations and implications for intermittency; 2011
+[6] Holm D. D., Kerr R. M., Helicity in the formation of turbulence Phys Fluids 2007;19:025101.
+[7] Hou T.Y., Li R., Dynamic depletion of vortex stretching and non-blowup of the 3-D incompressible
+Euler equations. J. Nonlin. Sci. 2006;16:639–664.
+[8] Kerr R. M., Higher order derivative correlations and the alignment of small–scale structures in isotropic
+numerical turbulence J. Fluid Mech. 1985;153:31–58.
+[9] Kerr, R. M.,Evidence for a singularity of the three-dimensional, incompressible Euler equations Phys.
+Fluids A 93a;5:1725–1746.
+[10] Kerr R.M., Phys. Rev. Letters 2011;Vortex stretching as a mechanism for quantum kinetic energy
+decay:106224501.
+[11] Kerr R.M.,Dissipation and enstrophy statistics in turbulence: Are the simulations and mathematics
+con- verging? J. Fluid Mech. 2012;700:.
+[12] Leweke T., . . C;H:.K. Williamson, 2011Phys. Fluids23024101 Experiments on long-wavelength insta-
+bility and reconnection of a vortex pair
+[13] Lundgren T., Strained spiral vortex model for turbulent ﬁne structure Phys. Fluids 1982;25:21932203.
+[14] Maurer J., Tabeling P., Local investigation of superﬂuid turbulence Europhys. Lett. 1998;43:2934.
+[15] Melander M.V., Hussain F., Cross-linking of two antiparallel vortex tubes Phys. Fluids A 1989;1:633636.
+[16] Roche P.E.,Diribarne P.,Didelot T.,Fran¸ cais O,Rousseau L,Willaime H, Vortex density spectrum of
+quantum turbulence Europhys. Lett. 2007;77:66002.
+[17] Smith M. R.,Donnelly R. J.,Goldenfeld N.,Vinen W. F., Decay of vorticity in homogeneous turbu-
+lence Phys. Rev. Lett. 1993;71:25832586.
+[18] Walmsley P.M.,Golov A.I., Hall H.E.,Levchenko A.A.,Vinen W.F., Dissipation of quantum turbulence
+in the zero temperature limit Phys. Rev. Lett. 2007;99:265302.
+[19] Yepez J.,Vahal.a G.,Vahala L,Soe M., Superuid Turbulence from Quantum Kelvin Wave to Classical
+Kolmogorov Cascades Phys. Rev. Lett. 2009;103:084501.
+[20] Yeung P.K.,Donzis ,Sreenivasan K.R., Dissipation, enstrophy and pressure statistics in turbulence sim-
+ulations at high Reynolds numbers. J. Fluid Mech. 2012;700:.

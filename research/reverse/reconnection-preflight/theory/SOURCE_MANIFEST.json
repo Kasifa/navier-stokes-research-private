@@ -1,0 +1,99 @@
+{
+  "record_created_at_utc": "2026-09-07T14:44:17.002561+00:00",
+  "scope": "Primary-source archive and bounded reading; not a scientific numerical certificate.",
+  "source": {
+    "title": "Vortex reconnection in the three dimensional Navier-Stokes equations",
+    "authors": [
+      "Alberto Enciso",
+      "Renato Luca",
+      "Daniel Peralta-Salas"
+    ],
+    "arxiv_version": "1606.06176v2",
+    "version_date": "2016-06-23",
+    "pdf_url": "https://arxiv.org/pdf/1606.06176v2",
+    "doi": "10.1016/j.aim.2017.01.025",
+    "pages": 29
+  },
+  "retrieval": {
+    "pdf_download": "curl -fL --retry 2 --connect-timeout 20 --max-time 90 https://arxiv.org/pdf/1606.06176v2 -o research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.pdf",
+    "pdf_download_exit_code": 0,
+    "publisher_article_url": "https://www.sciencedirect.com/science/article/pii/S0001870816312403",
+    "publisher_tool_fetch_status": "403 Forbidden; version-of-record proof not independently checked in this reading"
+  },
+  "extraction": {
+    "tool": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext",
+    "options": [
+      "-layout"
+    ],
+    "exit_code": 0
+  },
+  "rendering": {
+    "tool": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftoppm",
+    "options": [
+      "-scale-to",
+      "1500",
+      "-png"
+    ],
+    "pdf_pages_rendered_and_viewed": [
+      18,
+      21,
+      22
+    ],
+    "purpose": "Check printed tensor convention, Duhamel signs, exponents and parameter choices; these are source page extracts, not new research figures."
+  },
+  "files": [
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.pdf",
+      "bytes": 326286,
+      "sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.txt",
+      "bytes": 96938,
+      "sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-18.png",
+      "bytes": 192081,
+      "sha256": "ce33f80c720807cbdb804dcbbb67cbc7ada6b6860b89248fe531afed852d14a1"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-21.png",
+      "bytes": 230491,
+      "sha256": "8c8e8da2835bca492ec6f7c0a07c427e3cc6bef174898209f206b4eb6aa43bb8"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-22.png",
+      "bytes": 201441,
+      "sha256": "c05612b2121bb24e74caf7a399966ba19e3f59ec38b578687dff27d52dc731a2"
+    }
+  ],
+  "bindings": [
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "bytes": 2319,
+      "sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/THEORY_READING.md",
+      "bytes": 10306,
+      "sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418"
+    }
+  ],
+  "read_scope": {
+    "read": [
+      "Introduction: equation, fixed domain/viscosity, complete Theorem 1.1 and surrounding stability definition",
+      "Section 3 complete, including symmetric tensor convention, Theorem 3.1 and Corollary 3.2",
+      "Section 4 complete three-step construction and Remark 4.5",
+      "Section 6 complete",
+      "Theorem 2.1 statement"
+    ],
+    "not_audited": [
+      "Complete Section 2 proof",
+      "Section 5 instantaneous-destruction proof",
+      "External KAM/topology references",
+      "Version-of-record proof",
+      "Any numerical simulations"
+    ]
+  }
+}

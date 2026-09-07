@@ -1,0 +1,394 @@
+{
+  "scope": "Actual source and review byte bindings; not mathematical validation",
+  "checker_sha256": "83de52f96d0fa401cf7eda931c18985ffe50cd91ad72a76aa73d66adf35a6f91",
+  "review_sha256": "8ac2ad7e2f56e1a85baf2364533f5a215fb52fa4dc9636b6c09cfce010a52fb8",
+  "records_checked": 48,
+  "unique_files_checked": 28,
+  "all_match": true,
+  "records": [
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.pdf",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "actual_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "bytes": 326286,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.txt",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "actual_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "bytes": 96938,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-18.png",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "ce33f80c720807cbdb804dcbbb67cbc7ada6b6860b89248fe531afed852d14a1",
+      "actual_sha256": "ce33f80c720807cbdb804dcbbb67cbc7ada6b6860b89248fe531afed852d14a1",
+      "bytes": 192081,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-21.png",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "8c8e8da2835bca492ec6f7c0a07c427e3cc6bef174898209f206b4eb6aa43bb8",
+      "actual_sha256": "8c8e8da2835bca492ec6f7c0a07c427e3cc6bef174898209f206b4eb6aa43bb8",
+      "bytes": 230491,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-22.png",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "c05612b2121bb24e74caf7a399966ba19e3f59ec38b578687dff27d52dc731a2",
+      "actual_sha256": "c05612b2121bb24e74caf7a399966ba19e3f59ec38b578687dff27d52dc731a2",
+      "bytes": 201441,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "actual_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "bytes": 2319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/THEORY_READING.md",
+      "origin": "theory/SOURCE_MANIFEST.json",
+      "expected_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "actual_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "bytes": 10306,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "actual_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "bytes": 2319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/NUMERICAL_READING.md",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "776cd2ca9be34cb835b32a7e9166d504cc103e835f4a9fb25bfe1eb7b8664b00",
+      "actual_sha256": "776cd2ca9be34cb835b32a7e9166d504cc103e835f4a9fb25bfe1eb7b8664b00",
+      "bytes": 7203,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-03.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "ff99ec9c9f7759ac311256e9c58abbba9fa0e1b7b95ba9dd2343e36a42e66a80",
+      "actual_sha256": "ff99ec9c9f7759ac311256e9c58abbba9fa0e1b7b95ba9dd2343e36a42e66a80",
+      "bytes": 225925,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-04.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "96667fb1c4b5c45ae35f8dc53c8ecebf6eeca825f167035042b586c902c07310",
+      "actual_sha256": "96667fb1c4b5c45ae35f8dc53c8ecebf6eeca825f167035042b586c902c07310",
+      "bytes": 191319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-05.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "db9617ff95185ea512e9220bfbecd36cb04db8648c8f1eb84dc054bebdd664a2",
+      "actual_sha256": "db9617ff95185ea512e9220bfbecd36cb04db8648c8f1eb84dc054bebdd664a2",
+      "bytes": 212044,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-06.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "8f6eb8ec601913865f7c3873b7a0de95829cc0f4dc731e99b6676809fccd8d25",
+      "actual_sha256": "8f6eb8ec601913865f7c3873b7a0de95829cc0f4dc731e99b6676809fccd8d25",
+      "bytes": 364104,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-07.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "852a5885eb1aa922896cf184f241f7960042e1b1e24951880dae1e61dedd1daa",
+      "actual_sha256": "852a5885eb1aa922896cf184f241f7960042e1b1e24951880dae1e61dedd1daa",
+      "bytes": 230703,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-08.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "027bd18bd8bdcdd24e3a9dc9252264f039ed081f65239f6094d8a3fd4eb98b65",
+      "actual_sha256": "027bd18bd8bdcdd24e3a9dc9252264f039ed081f65239f6094d8a3fd4eb98b65",
+      "bytes": 245892,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-09.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "702f2955288ccf216576fc202f7b4284216ef13d2b5e3b70524abf9232664f7c",
+      "actual_sha256": "702f2955288ccf216576fc202f7b4284216ef13d2b5e3b70524abf9232664f7c",
+      "bytes": 241280,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-10.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "6540ebc400379b898c0e0edb63ef41d26696d358a13e3b81b2674e7c889d5144",
+      "actual_sha256": "6540ebc400379b898c0e0edb63ef41d26696d358a13e3b81b2674e7c889d5144",
+      "bytes": 197194,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-11.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "528f0ec0f11424aae1ba588dfb849e8c4b0e024be1cb10c54979e713c798e95f",
+      "actual_sha256": "528f0ec0f11424aae1ba588dfb849e8c4b0e024be1cb10c54979e713c798e95f",
+      "bytes": 234035,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-12.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "2b0ae9b39ed13fb9dece55acb416fa1c4918c3aa26f0666ed276a13785f2ddc9",
+      "actual_sha256": "2b0ae9b39ed13fb9dece55acb416fa1c4918c3aa26f0666ed276a13785f2ddc9",
+      "bytes": 185545,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-13.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "44bd3a1290335644193871c3ab6cdae2e7f5c10c58b1007a3bb20f9e2b2351ae",
+      "actual_sha256": "44bd3a1290335644193871c3ab6cdae2e7f5c10c58b1007a3bb20f9e2b2351ae",
+      "bytes": 193246,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-14.png",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "46e3bf5604678302cb493e0a33896b3aef27d2f735c018871fbe23bce31c75f9",
+      "actual_sha256": "46e3bf5604678302cb493e0a33896b3aef27d2f735c018871fbe23bce31c75f9",
+      "bytes": 168668,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/kerr-1212.3829v2.pdf",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "38de54eb0de154302fbb12f12b701c8902ba5dc45e62d2f9d3118051aefc5044",
+      "actual_sha256": "38de54eb0de154302fbb12f12b701c8902ba5dc45e62d2f9d3118051aefc5044",
+      "bytes": 2314936,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/kerr-1212.3829v2.txt",
+      "origin": "numerics/source-hashes.json",
+      "expected_sha256": "eecb786e9846aaf17a6575f2cd01bffd19f70ab232d63c4541c24e5e530951fd",
+      "actual_sha256": "eecb786e9846aaf17a6575f2cd01bffd19f70ab232d63c4541c24e5e530951fd",
+      "bytes": 34286,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "actual_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "bytes": 2319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/THEORY_READING.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "actual_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "bytes": 10306,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/NUMERICAL_READING.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "776cd2ca9be34cb835b32a7e9166d504cc103e835f4a9fb25bfe1eb7b8664b00",
+      "actual_sha256": "776cd2ca9be34cb835b32a7e9166d504cc103e835f4a9fb25bfe1eb7b8664b00",
+      "bytes": 7203,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/STOKES_BASELINE_LEMMA.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "e1c7baedaa8f56d15028cce300006db0edae174302b8044d14d54f6ef1c04cc3",
+      "actual_sha256": "e1c7baedaa8f56d15028cce300006db0edae174302b8044d14d54f6ef1c04cc3",
+      "bytes": 9236,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "actual_sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "bytes": 10994,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/OUTCOME.md",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "4028dfb0b4dfdfaa1e5f9d02ebdc1f95d54b87c71e7f48339b0740977067a530",
+      "actual_sha256": "4028dfb0b4dfdfaa1e5f9d02ebdc1f95d54b87c71e7f48339b0740977067a530",
+      "bytes": 6540,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/SOURCE_MANIFEST.json",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "a8c738c03717311770dd576e89e8862ade9365eaafaf94cff85b1b48415a8d94",
+      "actual_sha256": "a8c738c03717311770dd576e89e8862ade9365eaafaf94cff85b1b48415a8d94",
+      "bytes": 3750,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.pdf",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "actual_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "bytes": 326286,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.txt",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "actual_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "bytes": 96938,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-hashes.json",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "e64eeb3fa986e30f1b5c405ff80a0776581117966e12dcec34e9e63073b52284",
+      "actual_sha256": "e64eeb3fa986e30f1b5c405ff80a0776581117966e12dcec34e9e63073b52284",
+      "bytes": 4852,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/kerr-1212.3829v2.pdf",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "38de54eb0de154302fbb12f12b701c8902ba5dc45e62d2f9d3118051aefc5044",
+      "actual_sha256": "38de54eb0de154302fbb12f12b701c8902ba5dc45e62d2f9d3118051aefc5044",
+      "bytes": 2314936,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/kerr-1212.3829v2.txt",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "eecb786e9846aaf17a6575f2cd01bffd19f70ab232d63c4541c24e5e530951fd",
+      "actual_sha256": "eecb786e9846aaf17a6575f2cd01bffd19f70ab232d63c4541c24e5e530951fd",
+      "bytes": 34286,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-18.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "ce33f80c720807cbdb804dcbbb67cbc7ada6b6860b89248fe531afed852d14a1",
+      "actual_sha256": "ce33f80c720807cbdb804dcbbb67cbc7ada6b6860b89248fe531afed852d14a1",
+      "bytes": 192081,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/source-page-21.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "8c8e8da2835bca492ec6f7c0a07c427e3cc6bef174898209f206b4eb6aa43bb8",
+      "actual_sha256": "8c8e8da2835bca492ec6f7c0a07c427e3cc6bef174898209f206b4eb6aa43bb8",
+      "bytes": 230491,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-04.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "96667fb1c4b5c45ae35f8dc53c8ecebf6eeca825f167035042b586c902c07310",
+      "actual_sha256": "96667fb1c4b5c45ae35f8dc53c8ecebf6eeca825f167035042b586c902c07310",
+      "bytes": 191319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-08.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "027bd18bd8bdcdd24e3a9dc9252264f039ed081f65239f6094d8a3fd4eb98b65",
+      "actual_sha256": "027bd18bd8bdcdd24e3a9dc9252264f039ed081f65239f6094d8a3fd4eb98b65",
+      "bytes": 245892,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-09.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "702f2955288ccf216576fc202f7b4284216ef13d2b5e3b70524abf9232664f7c",
+      "actual_sha256": "702f2955288ccf216576fc202f7b4284216ef13d2b5e3b70524abf9232664f7c",
+      "bytes": 241280,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-11.png",
+      "origin": "PREFLIGHT_REVIEW.md",
+      "expected_sha256": "528f0ec0f11424aae1ba588dfb849e8c4b0e024be1cb10c54979e713c798e95f",
+      "actual_sha256": "528f0ec0f11424aae1ba588dfb849e8c4b0e024be1cb10c54979e713c798e95f",
+      "bytes": 234035,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "origin": "STOKES_BASELINE_LEMMA.md",
+      "expected_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "actual_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "bytes": 2319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/THEORY_READING.md",
+      "origin": "STOKES_BASELINE_LEMMA.md",
+      "expected_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "actual_sha256": "50f67bf49150d254b398a1a60161f0e0ac92736dbdfee2f936e0b330e45cf418",
+      "bytes": 10306,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/SOURCE_MANIFEST.json",
+      "origin": "STOKES_BASELINE_LEMMA.md",
+      "expected_sha256": "a8c738c03717311770dd576e89e8862ade9365eaafaf94cff85b1b48415a8d94",
+      "actual_sha256": "a8c738c03717311770dd576e89e8862ade9365eaafaf94cff85b1b48415a8d94",
+      "bytes": 3750,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.pdf",
+      "origin": "STOKES_BASELINE_LEMMA.md",
+      "expected_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "actual_sha256": "ba89fa2fa06cf1dd058f9ea121364a36c59c4cdc25880e4cc7754c89ed319269",
+      "bytes": 326286,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/theory/enciso-luca-peralta-salas-1606.06176v2.txt",
+      "origin": "STOKES_BASELINE_LEMMA.md",
+      "expected_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "actual_sha256": "c1077dfd622a7aca9c4e5b53caa1460c6f37022e175930bc7eb51e440e402390",
+      "bytes": 96938,
+      "match": true
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+      "origin": "SOURCE_ATTRIBUTION_LEMMA.md",
+      "expected_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "actual_sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
+      "bytes": 2319,
+      "match": true
+    },
+    {
+      "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+      "origin": "SOURCE_ATTRIBUTION_LEMMA.md",
+      "expected_sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c",
+      "actual_sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c",
+      "bytes": 5383,
+      "match": true
+    }
+  ]
+}

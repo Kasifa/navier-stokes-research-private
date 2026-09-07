@@ -6,33 +6,31 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read reconnection-preflight/CONTRACT.md, then actual THEORY_READING.md and NUMERICAL_READING.md as they arrive. Pascal is reading Enciso-Luca-Peralta-Salas 1606.06176 theory sections 1,4,6; Pauli reads Kerr 1212.3829 methods and the two reconnections. Root must reconcile actual originals and distinguish topology changes, preloaded fields, viscous switching, genuine nonlinear source attribution, fixed domain/viscosity, and finite versus infinite quantifiers. No simulation or new candidate yet. Prior SwirlRegeneration already sent once; no publisher monitoring.",
+  "next_action": "Continue heat-preload-boundary/CONTRACT.md. Pascal is deriving infinite-support fixed-datum heat tail monotonicity, sharp relative L2 projection error and full NS fraction budget; Pauli audits local R0/R073/FA history. Read actual DERIVATION.md/HISTORY_REVIEW.md when present, independently verify then review bounded conclusions. Reconnection preflight completed with full source readings and conditional interfaces; no new candidate or PDE simulation. Do not repeat the already-sent SwirlRegeneration handoff or inspect publishing state.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "SWIRL_REGENERATION_FROZEN_AND_SENT_ONCE; RETURN_INTERFACE_AUDIT_COMPLETE; RECONNECTION_PRIMARY_SOURCE_PREFLIGHT_ACTIVE",
+  "scientific_status": "RECONNECTION_SOURCE_PREFLIGHT_COMPLETE_NO_CERTIFIED_RETURN; HEAT_PRELOAD_BOUNDARY_ANALYSIS_ACTIVE",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
-    "research/reverse/reconnection-preflight/CONTRACT.md",
-    "research/reverse/return-interface/CONTRACT.md",
-    "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md",
-    "research/reverse/return-interface/INDEPENDENT_INTERFACE.md",
-    "research/reverse/return-interface/INTERFACE_REVIEW.md",
-    "research/reverse/return-interface/root-binding-check.json",
-    "research/reverse/swirl-regeneration/freeze.json",
-    "research/reverse/swirl-regeneration/OUTCOME.md"
+    "research/reverse/heat-preload-boundary/CONTRACT.md",
+    "research/reverse/reconnection-preflight/OUTCOME.md",
+    "research/reverse/reconnection-preflight/PREFLIGHT_REVIEW.md",
+    "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+    "research/reverse/reconnection-preflight/STOKES_BASELINE_LEMMA.md",
+    "research/reverse/reconnection-preflight/root-binding-check.json",
+    "research/reverse/swirl-regeneration/freeze.json"
   ],
   "required_file_sha256": {
-    "research/reverse/reconnection-preflight/CONTRACT.md": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
-    "research/reverse/return-interface/CONTRACT.md": "e647b416ef4c310b0b6501d8b49e01adfe1c866f8bd9e9dd937b87f24c3aaa3a",
-    "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md": "03deb65a173e254832e298dfe31c3fc8e8c82fe38d996e9bab33dfaaece7bab7",
-    "research/reverse/return-interface/INDEPENDENT_INTERFACE.md": "610b9da62651deb5caed543bb8d2f9d721f98062f2719c3f82bc2d3220d5c787",
-    "research/reverse/return-interface/INTERFACE_REVIEW.md": "ed0d3bfadbf03fc12525661f849e2ff61d1c03b7977a70ec745698d566fd0b3e",
-    "research/reverse/return-interface/root-binding-check.json": "bbbc286d4d335744f44f4a458f1b92001a9c62f13b08bcc4556e939d11469110",
-    "research/reverse/swirl-regeneration/freeze.json": "ea45cde3359c2d62ea71de5efc43659b7f227d50e5df96b32a3ce152e205fb9b",
-    "research/reverse/swirl-regeneration/OUTCOME.md": "0ad7cbccb6c758ebbb9165e785ae3746d203736e6766a3d2abf263904c95b2ab"
+    "research/reverse/heat-preload-boundary/CONTRACT.md": "9d78b048092b9b6af2dfa8ba44896bec39a5c9145aa1a28373c96bffb6377784",
+    "research/reverse/reconnection-preflight/OUTCOME.md": "4028dfb0b4dfdfaa1e5f9d02ebdc1f95d54b87c71e7f48339b0740977067a530",
+    "research/reverse/reconnection-preflight/PREFLIGHT_REVIEW.md": "8ac2ad7e2f56e1a85baf2364533f5a215fb52fa4dc9636b6c09cfce010a52fb8",
+    "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+    "research/reverse/reconnection-preflight/STOKES_BASELINE_LEMMA.md": "e1c7baedaa8f56d15028cce300006db0edae174302b8044d14d54f6ef1c04cc3",
+    "research/reverse/reconnection-preflight/root-binding-check.json": "ba519ecb97b3e125d5a7690ec2dbe65c4e7fd23281df48119915c3e99bc1b0b2",
+    "research/reverse/swirl-regeneration/freeze.json": "ea45cde3359c2d62ea71de5efc43659b7f227d50e5df96b32a3ce152e205fb9b"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -46,10 +44,10 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Reconnection primary-source preflight: distinguish newly supplied structures from initially prescribed components and diffusion switches",
-  "current_topic_directory": "research/reverse/reconnection-preflight",
+  "current_topic": "One fixed infinite-support initial datum: heat high-frequency energy fractions and the actual NS nonlinear budget",
+  "current_topic_directory": "research/reverse/heat-preload-boundary",
   "pending": [
-    "Actual primary-source mechanism read of theory and numerical reconnection papers; independent agents active",
+    "Independent derivation and history review of heat-preload-boundary contract are active",
     "No full returned state or singularity mechanism accepted",
     "Uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative errors and finite total time remain open"
   ],
@@ -65,13 +63,25 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal returned null on this continuation and user-requested unbounded persistent reverse research goal was successfully created on 2026-09-07",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T14:38:38.266565+00:00",
+  "updated_at": "2026-09-07T15:00:55.789754+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "progress: actual fixed-data swirl center compression theorem completed with full NS remainder, independent final review, source freeze and once-only private handoff; FA return-interface actual audit completed and source preflight begun",
-  "completed_unreleased_audit": {
-    "directory": "research/reverse/return-interface",
-    "status": "LIMITED_PASS_NO_RETURN_INTERFACE_FOR_CENTER_TEMPLATE",
-    "separate_release": false,
-    "scope": "Old equal-length range lemma matched to actual FA seed. Fixed finite-bandwidth and complete returned state not classified. FA.14 existing one-stage full remainder preserved; errors still missing are cross-generation and infinite iteration."
-  }
+  "previous_goal_turn_classification": "progress: two original reconnection sources actually audited; exact Stokes baseline and full temporal Duhamel attribution/remainder independently reviewed; original normalization ambiguity fixed; 48 recorded byte bindings verified; next fixed-datum infinite-support heat budget analysis actively delegated",
+  "completed_unreleased_audits": [
+    {
+      "directory": "research/reverse/return-interface",
+      "status": "LIMITED_PASS_NO_RETURN_INTERFACE_FOR_CENTER_TEMPLATE",
+      "separate_release": false,
+      "scope": "Old equal-length range lemma matched to actual FA seed. Fixed finite-bandwidth and complete returned state not classified. FA.14 existing one-stage full remainder preserved; errors still missing are cross-generation and infinite iteration."
+    },
+    {
+      "directory": "research/reverse/reconnection-preflight",
+      "status": "PASS_SOURCE_AUDIT_AND_CONDITIONAL_INTERFACES_NO_CANDIDATE_FOR_THIS_CONTRACT",
+      "separate_release": false,
+      "scope": "Two original sources, Stokes topological baseline, complete nine-channel temporal attribution and conditional full NS Wiener remainder. No new initial datum, PDE scan or novelty claim.",
+      "independent_review": "research/reverse/reconnection-preflight/PREFLIGHT_REVIEW.md",
+      "actual_root_binding_check": "research/reverse/reconnection-preflight/root-binding-check.json",
+      "binding_records_checked": 48,
+      "unique_bound_files": 28
+    }
+  ]
 }

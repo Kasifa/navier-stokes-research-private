@@ -1,0 +1,161 @@
+{
+  "retrieved_at_utc": "2026-09-07T14:38:39.316364+00:00",
+  "requested_url": "https://arxiv.org/pdf/1212.3829v2",
+  "resolved_url": "https://arxiv.org/pdf/1212.3829v2",
+  "version": "arXiv:1212.3829v2, 2013-01-18",
+  "pdf_pages": 15,
+  "pdf_sha256": "38de54eb0de154302fbb12f12b701c8902ba5dc45e62d2f9d3118051aefc5044",
+  "pdf_bytes": 2314936,
+  "text_sha256": "eecb786e9846aaf17a6575f2cd01bffd19f70ab232d63c4541c24e5e530951fd",
+  "text_bytes": 34286,
+  "extraction": "pypdf PdfReader.extract_text; PDF pages numbered from 1",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "http_content_type": null,
+  "reading_completed_at_utc": "2026-09-07T14:43:02.639391+00:00",
+  "contract_input": {
+    "path": "research/reverse/reconnection-preflight/CONTRACT.md",
+    "bytes": 2319,
+    "sha256": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4"
+  },
+  "reading_report": {
+    "path": "research/reverse/reconnection-preflight/NUMERICAL_READING.md",
+    "bytes": 7203,
+    "sha256": "776cd2ca9be34cb835b32a7e9166d504cc103e835f4a9fb25bfe1eb7b8664b00"
+  },
+  "read_scope": {
+    "body_text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "visual_pdf_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "references_page_15_followed": false,
+    "arxiv_v1_read": false,
+    "additional_papers_read": []
+  },
+  "rendered_source_pages": [
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-03.png",
+      "bytes": 225925,
+      "sha256": "ff99ec9c9f7759ac311256e9c58abbba9fa0e1b7b95ba9dd2343e36a42e66a80"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-04.png",
+      "bytes": 191319,
+      "sha256": "96667fb1c4b5c45ae35f8dc53c8ecebf6eeca825f167035042b586c902c07310"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-05.png",
+      "bytes": 212044,
+      "sha256": "db9617ff95185ea512e9220bfbecd36cb04db8648c8f1eb84dc054bebdd664a2"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-06.png",
+      "bytes": 364104,
+      "sha256": "8f6eb8ec601913865f7c3873b7a0de95829cc0f4dc731e99b6676809fccd8d25"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-07.png",
+      "bytes": 230703,
+      "sha256": "852a5885eb1aa922896cf184f241f7960042e1b1e24951880dae1e61dedd1daa"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-08.png",
+      "bytes": 245892,
+      "sha256": "027bd18bd8bdcdd24e3a9dc9252264f039ed081f65239f6094d8a3fd4eb98b65"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-09.png",
+      "bytes": 241280,
+      "sha256": "702f2955288ccf216576fc202f7b4284216ef13d2b5e3b70524abf9232664f7c"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-10.png",
+      "bytes": 197194,
+      "sha256": "6540ebc400379b898c0e0edb63ef41d26696d358a13e3b81b2674e7c889d5144"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-11.png",
+      "bytes": 234035,
+      "sha256": "528f0ec0f11424aae1ba588dfb849e8c4b0e024be1cb10c54979e713c798e95f"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-12.png",
+      "bytes": 185545,
+      "sha256": "2b0ae9b39ed13fb9dece55acb416fa1c4918c3aa26f0666ed276a13785f2ddc9"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-13.png",
+      "bytes": 193246,
+      "sha256": "44bd3a1290335644193871c3ab6cdae2e7f5c10c58b1007a3bb20f9e2b2351ae"
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/numerics/source-page-14.png",
+      "bytes": 168668,
+      "sha256": "46e3bf5604678302cb493e0a33896b3aef27d2f735c018871fbe23bce31c75f9"
+    }
+  ],
+  "rendering": {
+    "purpose": "source-reading-only; not a research figure",
+    "tool": "pdftoppm",
+    "settings": [
+      {
+        "pages": [
+          4,
+          5,
+          6
+        ],
+        "dpi": 110
+      },
+      {
+        "pages": [
+          3,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "dpi": 100
+      }
+    ]
+  },
+  "scientific_computation": false,
+  "pde_simulation": false,
+  "parameter_scan": false,
+  "status": "QUALITATIVE_NUMERICAL_LEAD_NO_CERTIFIED_RETURN_INTERFACE",
+  "scope_limits": [
+    "production_grid_and_timestep_not_specified",
+    "body_and_caption_domain_labels_unresolved",
+    "second_generation_exclusive_source_attribution_not_certified",
+    "no_continuum_error_certificate",
+    "moment_ordering_not_proved"
+  ]
+}
