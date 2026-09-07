@@ -3,9 +3,10 @@
 2026-09-07。ACTIVE_RESEARCH_CHECKPOINT。用户最新直接要求“按既定的策略持续开展研究”及“如无特别需要我来确认的，你就持续开展下去，不需要停顿”。日常研究、独立审查、源码冻结和一次私有交接不需新确认。更晚的用户明确暂停仍优先。科学工作与所有 git 命令只在本反向树、codex/ns-reverse 执行。
 
 
-当前实际科研位于 swirl-regeneration/，不是等待交接。CONTRACT.md 已固定单个 δ=1/100 局部旋流初值及完整 Fourier–Leray 的旋流/补投影。Pauli 已独立推得 n=B(a,a)≠0、curl n=γa，以及 〈a,B(n,n)〉=0；逐点零的是未投影三重积，不是 a·B(n,n) 本身。根代理已另写 LOCAL_REMAINDER_DRAFT.md：A4 Wiener 压缩映射、同一T0高阶Volterra控制、完整原解的 m=tn+r 及O(t³)模板反馈误差。Rawls正在独立全文核查；未将新草稿提前记为冻结或接受定理。若实际review已落盘，先读它并处理问题。领先门失败仅限二阶原模板，不自动追更高Taylor阶，不排除其它方向或较晚回馈。
+当前科学工作分两项。swirl-regeneration/ 的两个合同已有实际完整证明与独立审查：同一固定初值的第一代 n 非零，但 Q=〈a,B(n,n)〉=0，实际模板回馈只有 O(t³) 上界；同一原解在固定 x_c 的涡量拉伸项在明确解析正时间窗为负。周期 Green 的完整四阶修正有 M_G<11781/6250<2，足够对已固定δ确定中心符号；不是改用全空间压力。两份最终 PROOF 已通过 Rawls 的实际最终核对，根代理已全文读 FINAL_REVIEW 并重跑 check_bindings.py：51项绑定、2组检索语料全部匹配，输出与独立执行逐字节一致。源码提交0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4；freeze.json 已列18个实际源码文件。当前正式冻结 release=ReverseNS-20260907-SwirlRegeneration，研究已完成；清单提交之后须一次PRIVATE_ARCHIVE交接并记录，不依赖回执。
 
-当前有界研究已完成：exterior-pressure/OUTCOME.md。release 为 ReverseNS-20260907-LocalPressureScreen，源码 a341a095a7aa0fb7715cc6156b66fe929dfca572，清单 exterior-pressure/freeze.json。冻结提交5237c77d586efd267f9185182534d992152d76ba，已一次PRIVATE_ARCHIVE交接，记录见HANDOFF_LOG.json；不得重投或监控。该包包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
+同时已实际启动 return-interface/CONTRACT.md。根代理全文读 FA.1–17，Pascal在独立核对FA.7–14首代输出是否可成为R0.10 §7/R0.11 §6–7下一门的完整输入。明确比较支持、二维横向极化、相位与完整余项；不再调球形旋流、追更高Taylor阶或新增相邻观测。尚无新的机制候选通过筛选。若已有review或接口推导落盘，先读实际文件，不重复委派。
+最近已完成并交接的冻结包：exterior-pressure/OUTCOME.md。release 为 ReverseNS-20260907-LocalPressureScreen，源码 a341a095a7aa0fb7715cc6156b66fe929dfca572，清单 exterior-pressure/freeze.json。冻结提交5237c77d586efd267f9185182534d992152d76ba，已一次PRIVATE_ARCHIVE交接，记录见HANDOFF_LOG.json；不得重投或监控。该包包含 next-concentration/ 和 exterior-pressure/ 两个目录。这是一包连贯的局部压力筛选，不将相邻的例子拆成多个进展计数。
 
 已证内容与边界：
 
@@ -16,8 +17,7 @@
 
 根代理已经全文读证明与独立审查，并实际重跑81分量核证书和联合有限代数输出；当前36项独立审查绑定、最终汇总18项绑定和来源账本10项均通过。三份原有有限核验源码、确定性输出与实际运行记录均已保存并由根代理实际重跑。未作数值 PDE 扫描，没有科学图，不声称常数已数值化或人类同行评审。
 
-下一动作：继续下一项真实原解旋流再生成的有限检验；本包已一次交接，不等待或监控发布。接下来的科学方向必须由真实非定常演化提供外场与再生成，不再扩展静态外环或任意 NON-NS 路径的变体。尚无通过这一要求的新候选；必须先写一个具体有界合同再计算。
-
+下一动作：清单提交后作当前旋流包的一次私有交接，随后继续已启动的FA返回接口核对。此前包已经一次交接，不等待或监控发布。下一项只能核实际状态输入缺口，不将旧家族初值的单次激活拼成同一解迭代；若接口仍缺失，记录未命中而不制造候选。
 先前三个冻结包保持不变，均已一次移交，记录见 HANDOFF_LOG.json：
 
 - TwoGeneration：源码90c44d1703486e3983d12b87ed54f22c8c677982，冻结b72d4627bfbed913214d01514ba1696ce68632af。完整固定六模原解的短时两代产生与显式无限维余项；无可迭代结构。
@@ -28,4 +28,4 @@
 
 不运行正向 helper，不改正向检查点/索引，不读发布队列或发布索引，不 push、修改 remote、部署或监控网页。完整新成果 PRIVATE_CORE。统一迭代、单个固定初值的无限尺度、无限维迭代误差、有限总时间和奇性仍 OPEN / NOT CLAY。
 
-最新科学下一项：固定单个局部旋流初值，按完整 Fourier–Leray toroidal/poloidal 投影识别第一代经向分量，检验其自作用是否能在 t² 阶回馈原旋流模板。先核几何恒等式与真实解的严格短时余项，不将单次经向激活视为再生，也不因领先门失败自动增加 Taylor 阶。Pauli已并行独立推导。
+本次已读中央协议的新条款：公开工作暂停与本人本地完整版属于固定发布任务；两条研究及即时私有归档继续。反向AGENTS和协议哈希在自己的索引已更新，不读发布队列或状态，不跟进网站。

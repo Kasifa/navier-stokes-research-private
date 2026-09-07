@@ -4,7 +4,7 @@ Latest direct task authority: the user said “恢复研究”, then “按既�
 
 ## Current privacy boundary (2026-09-07)
 
-- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. Management accepted migration/privacy QA on 2026-09-07; use only the existing publisher heartbeat automation-2, with activation recorded in publication-cadence.json; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+- Latest central protocol read on 2026-09-07: research and immediate PRIVATE_CORE archival continue while public website work is paused. The fixed publisher alone maintains the user's local full reader and any later authorized public summaries. Earlier public-automation activation and historical-fulltext permissions below are historical, not current permission to publish. This reverse task never reads publishing state, changes automations, debugs the site, or waits for them. Scientific freeze and one-time private handoff remain authorized.
 
 - New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
 - Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
