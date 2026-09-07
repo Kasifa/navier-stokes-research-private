@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "b222709db27ce814aca5dd9fec2d8f8e60bf0779",
+  "name": "LK linear cofactor Kato and first-order pressure production",
+  "main": "research/clay_b_linear_cofactor_kato_20260908.md",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "SCOPED POSITIVE MEASURE DISSIPATION",
+    "FIXED-TIME ACTUAL-NS PRESSURE OBSTRUCTION",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "For the same original smooth unforced periodic NS gradient, k=|adj A|/Q is equivalent to d. Its Kato equation retains a nonnegative zero-set measure, positive cofactor-direction dissipation and a signed remainder controlled by sqrt(3) times GD's full-gradient direction entropy.",
+    "An ambient adjugate derivative and Cayley-Hamilton identity bound the inertial source by C d^2. Pressure has the inherited total L1 bound, not an autonomous relative quadratic bound.",
+    "The C1,1 regularization sqrt(k^2+delta^2)-delta handles J=0 and Q=0 together without discarding their limiting measure. Lk is a finite signed measure and k dx has a unique finite nonnegative weak endpoint trace in the stated finite-time smooth-solution scope.",
+    "A compatible periodic initial jet has vanishing cofactor-direction dissipation while |grad sqrt(k)|^2/(P_k+G) is unbounded. A zero-crossing initial slice need not have sqrt(k) in H1_loc.",
+    "An explicit smooth periodic divergence-free initial family has whole-cell signed pressure production epsilon times a strictly positive coefficient, while the integral of d^2 is O(epsilon^2). Uniform local strong theory, an explicit high-order difference estimate and a regular-zero-set argument extend this mismatch to fixed time windows, including fixed positive-age windows."
+  ],
+  "open_items": [
+    "No arbitrary-data global regularity, singularity, novelty certification, optimal constants, human peer review or Clay solution.",
+    "No strong L1 endpoint trace, exclusion of concentration, or GD.11 critical d norm has been derived.",
+    "The pressure counterexample changes initial data with epsilon and refutes only the specified purely quadratic bounds having no extra initial-data term, linear background-coupling term or other compensation on the right. The constant may still depend on the fixed background parameters and common smoothness bound. It is not a single-solution singular-endpoint theorem.",
+    "The initial-slice amplitude obstruction does not refute all positive-time cumulative estimates. A Kato zero-set measure is not the divergent ordinary Fisher density.",
+    "The exact linearized pressure operator, the component that contributes to actual vorticity stretching, and any useful joint estimate still require a separate derivation and review."
+  ],
+  "next_action": "Keep d and GD.11. Read LK main/audit and GD definitions in full where needed. Stop trying autonomous k^2-only pressure closure and repeated one-homogeneous entropy/weight scans. Derive the original linearized NS pressure operator on normal gradient variations around the same rank-one shear background; identify which components contribute to true vorticity stretching and test their joint dynamics instead of bounding bare pressure by a quadratic defect. Retain all background-gradient coefficients, pressure normalization, spatial compatibility and zero-set restrictions. Standard local perturbation stability is not arbitrary-data global control. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "publication_boundary": "Freeze and send release_id plus source commit once to the fixed publisher for PRIVATE_ARCHIVE only. No public overview, website, local reader, counts, recap or attachments requested. Research does not push, poll, wait for, retry, supervise or report archival/publication execution."
+}
