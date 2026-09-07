@@ -1,0 +1,34 @@
+{
+  "checkpoint_id": "BTS-SourceScope-20260907",
+  "base_commit": "eb17216408a4b88261741ab0d60b4619d700590b",
+  "privacy": "PRIVATE_CORE",
+  "research_authority": "USER_EXPLICIT_RESUME_THIS_TURN",
+  "authority_note": "The user's direct 恢复 supersedes the immediately preceding pause. Historical pause and management records remain unchanged. This resumes this forward research task, not paper, strategy, publication or other tasks.",
+  "status": "REVIEWED_SOURCE_READY_FOR_PRIVATE_FREEZE",
+  "main": "research/clay_b_total_speed_source_scope_20260907.md",
+  "audit": "research/clay_b_total_speed_source_audit_20260907.md",
+  "accepted_main_sha256": "45866ce7c05ae233ba3d351b5aea9cf9e05ab37facff054a86dc6671c797a751",
+  "review": "C complete nonauthor actual-file mathematical PASS; A independent scoped source review; B pre-final-state records review. This checkpoint is a source-stage snapshot, not a live dispatch or archive receipt.",
+  "classification": [
+    "LITERATURE",
+    "SOURCE-PROOF CONSEQUENCE",
+    "NO-CANDIDATE FOR THIS INTERFACE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "finding": "Tao1108.1165v4 section9 gives supercritical finite total speed, not the desired square-root interval modulus. Its whole-space unforced proof retains S_I <= C M_s nu^(-3/4) h^(1/4) + C nu^(-2) D_I. Energy gives no needed critical rate from this estimate.",
+  "limitations": [
+    "The source theorem requires an already existing finite-energy almost-smooth solution on the interval; it does not establish global existence.",
+    "No local proof of the source's periodic Remark9.7, no arbitrary weak-solution extension and no new periodic theorem.",
+    "An uncontrolled upper bound does not prove the left side diverges. No fixed-positive-age or fixed-solution terminal counterexample.",
+    "No novelty, optimality, human peer review or general regularity claim.",
+    "The reverse result is a future unreviewed input, not a dependency accepted by this package."
+  ],
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "handoff_state": "NOT_SENT_SOURCE_STAGE",
+  "next_action": "Save the reviewed source commit, bind it in a private-only freeze manifest, and hand off once. Then inspect only the already received reverse first-cycle frozen proof and NO-CANDIDATE at source90c44d1703486e3983d12b87ed54f22c8c677982 for genuinely new actual-NS dynamic input. Do not restart total-speed norm, clock, exponent or pressure variants; do not repeat FA/BCS; do not wait for publication.",
+  "full_goal": "Arbitrary admissible smooth-data three-dimensional unforced periodic Navier-Stokes regularity remains OPEN / NOT CLAY."
+}
