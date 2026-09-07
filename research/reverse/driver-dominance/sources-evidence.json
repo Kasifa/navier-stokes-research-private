@@ -1,0 +1,188 @@
+{
+  "classification": "PRIVATE_CORE",
+  "date": "2026-09-07",
+  "audit_scope": "bounded local-primary-source and meaning audit for current-initial-support projection split; numerical certificate review is a separate task",
+  "current_split": {
+    "seed": "l=P_S u",
+    "initially_empty": "w=(I-P_S)u",
+    "S": "{+/- e1,+/- e2,+/- e3}",
+    "target": [
+      2,
+      1,
+      1
+    ]
+  },
+  "local_sources": [
+    {
+      "path": "research/reverse/first-cycle/SOURCES.md",
+      "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b",
+      "bytes": 15374,
+      "lines": 158,
+      "read_line_ranges": [
+        [
+          1,
+          158
+        ]
+      ],
+      "read_scope": "full document; first-cycle audit boundary and inherited source pointers",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+      "bytes": 14336,
+      "lines": 244,
+      "read_line_ranges": [
+        [
+          1,
+          244
+        ]
+      ],
+      "read_scope": "full document; exact initial datum, projected equation, local solution, complete remainder and invariant-class boundary",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/reverse/next-mixed/PREFLIGHT.md",
+      "sha256": "9e3fcaa0803f44af4bef629a78bf3da1b0ca569b44ee1541872085aeeb7e8858",
+      "bytes": 1663,
+      "lines": 21,
+      "read_line_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "read_scope": "full document; existing third derivative and ordered root split, not a positive-time certificate",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-11.html",
+      "sha256": "ad8ebe34c67939cd371f621cc7fbf5f54cf501c4d2506e587aa1494f4ef52095",
+      "bytes": 29207,
+      "lines": 542,
+      "read_line_ranges": [
+        [
+          249,
+          446
+        ]
+      ],
+      "read_scope": "sections 3-7; equal-length gate, phase relay and reverse-line obstruction",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-12.html",
+      "sha256": "a8e98babfa76e0379157367155c6161294b276a1c5565b0f48878a4a28c7cb7a",
+      "bytes": 31784,
+      "lines": 553,
+      "read_line_ranges": [
+        [
+          270,
+          475
+        ]
+      ],
+      "read_scope": "sections 3-8; primary comparison uses sections 5-8: complete recurrence, competing trees and viscous timing limit",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-13.html",
+      "sha256": "e5ad43432fb040c60aa51a3716bdd1b606c297f47df45e60722ae7e83903675e",
+      "bytes": 31105,
+      "lines": 543,
+      "read_line_ranges": [
+        [
+          263,
+          418
+        ]
+      ],
+      "read_scope": "sections 3-6; exact ordered root decomposition and scope of energy obstruction",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/r073r_lp_caloric_certificate_proof.md",
+      "sha256": "f1d1377b502ff736ee9bedb2572c553255600d061612a4d4590da66a091b0eee",
+      "bytes": 16433,
+      "lines": 687,
+      "read_line_ranges": [
+        [
+          247,
+          291
+        ]
+      ],
+      "read_scope": "section 4.1; complex convolution and Fourier-tail contract",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/r073w_signed_production_heat_characteristic.md",
+      "sha256": "bdb1ddaa16d33871fc1356ae573861981620437a20579f992e76a5dde54c0edd",
+      "bytes": 13044,
+      "lines": 516,
+      "read_line_ranges": [
+        [
+          103,
+          220
+        ],
+        [
+          409,
+          516
+        ]
+      ],
+      "read_scope": "sections 3-4 and 7-8; signed aggregation versus absolute production, only historical logic comparison",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/r073n_fixed_background_no_go_proof.md",
+      "sha256": "39502f59b68f9a9e48a1ebbb5b6ed3425492941c0f9b1db9274dd8e2ebbfbceb",
+      "bytes": 12708,
+      "lines": 500,
+      "read_line_ranges": [
+        [
+          431,
+          500
+        ]
+      ],
+      "read_scope": "sections 6-7; fixed-member versus varying-family quantifiers",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/r073z_pressure_active_kernel.md",
+      "sha256": "faa6e2e475e7ce4f5663a0cc13647a14f414157abfae4b9582ced56726f86a68",
+      "bytes": 12375,
+      "lines": 499,
+      "read_line_ranges": [
+        [
+          436,
+          499
+        ]
+      ],
+      "read_scope": "sections 5-6; cyclic snapshot already used and instantaneous/dynamic limits",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a",
+      "bytes": 31861,
+      "lines": 581,
+      "read_line_ranges": [
+        [
+          230,
+          358
+        ]
+      ],
+      "read_scope": "Resumption supplement: sections 2–4; same central gate and target, sign convention, varying-data dense-packet first-Picard boundary",
+      "old_certificate_rerun": false
+    }
+  ],
+  "new_external_theorem_dependencies": [],
+  "external_search_performed": false,
+  "external_search_rationale": "No newly imported external theorem; current proof uses inherited self-contained local existence/remainder argument, finite exact Fourier algebra and elementary norm/inner-product inequalities. No novelty or priority claim.",
+  "source_document": {
+    "path": "research/reverse/driver-dominance/SOURCES.md",
+    "sha256": "433b16c92e6a1c7786aad0fb35e44e2067902630770bc1509d394a5293469b1b"
+  },
+  "limitations": [
+    "No old certificate reruns",
+    "No independent certification of current numerical constants by this source audit",
+    "No claim of exhaustive literature coverage or human peer review",
+    "No publication or forward resume index/queue read"
+  ]
+}

@@ -1,5 +1,7 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+Latest direct task authority: the user explicitly said “恢复研究” after the recorded driver-dominance pause. This reverse task is authorized to resume from its own actual checkpoint. Earlier pause records remain historical; a newer user pause would again take precedence. This does not authorize changing the forward task or publication state.
+
 ## Current privacy boundary (2026-09-07)
 
 - Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. Management accepted migration/privacy QA on 2026-09-07; use only the existing publisher heartbeat automation-2, with activation recorded in publication-cadence.json; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.

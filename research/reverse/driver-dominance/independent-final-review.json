@@ -1,0 +1,256 @@
+{
+  "schema": "ReverseNS-driver-independent-final-review-v1",
+  "classification": "PRIVATE_CORE",
+  "release_id": "ReverseNS-20260907-DriverDominance",
+  "status": "PASS",
+  "reviewed_at_utc": "2026-09-07T12:32:24.172756+00:00",
+  "reviewer": {
+    "role": "bounded independent analytic reviewer",
+    "agent": "driver_contract_review",
+    "ai_assisted": true,
+    "human_peer_review": false,
+    "formal_proof_assistant_verification": false
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "scientific_scope": "Full-PDE positive-time comparison and proved failure of the specified absolute-dominance contracts at q=(2,1,1) for 0<t<=1e-6; no accepted iterable regeneration candidate or singularity theorem.",
+  "proof_equations_reviewed": "D.1 through D.28",
+  "review_checks": [
+    {
+      "id": "fixed_problem_and_quantifiers",
+      "status": "PASS",
+      "scope": "One fixed real smooth divergence-free datum, fixed torus, viscosity one, no forcing, zero-mean frame, fixed seed-support projection and one target; no exchange of varying-datum and fixed-datum quantifiers."
+    },
+    {
+      "id": "D13_D14_true_seed_and_off_seed_bounds",
+      "status": "PASS",
+      "scope": "Full transverse seed projection, b and c seed jets both minus a, l norm at most six, all remainder bounds non-strict at t=0; positive-time division examples explicitly scoped."
+    },
+    {
+      "id": "D15_D18_full_support_forcing",
+      "status": "PASS",
+      "scope": "Fixed-mode Wiener convolution bound applies to the full infinite support; structural zeros hold for every current seed phase and polarization; EG=1861 and ES=2670 retain the complete remainder."
+    },
+    {
+      "id": "D19_D20_opposite_vector_contracts",
+      "status": "PASS",
+      "scope": "Actual complete leading vectors, exact rational square-root brackets, and two strictly positive time margins independently checked."
+    },
+    {
+      "id": "D23_no_new_fourth_jet_assumption",
+      "status": "PASS",
+      "scope": "The 1802 t^4 mode bound follows by integrating the complete viscous target equation with the certified 7201 t^3 forcing error; no new fourth time derivative is assumed."
+    },
+    {
+      "id": "D24_D27_actual_energy_and_viscosity",
+      "status": "PASS",
+      "scope": "Actual solution coefficient in all Hermitian pairings; channel-specific error estimates justify common 6000; net energy positive, net dominance, absolute-dominance failure and viscous modal growth all have exact positive margins."
+    },
+    {
+      "id": "D26_negative_contribution_scope",
+      "status": "PASS",
+      "scope": "A negative contribution to target modal energy is not described as a proof of its destination in a seed or another band."
+    },
+    {
+      "id": "D28_no_high_order_upgrade",
+      "status": "PASS",
+      "scope": "The newborn-to-seed ratio is only a Wiener norm statement; no high-order critical estimate, autonomous seed removal, packet closure, uniform iteration or singularity is claimed."
+    },
+    {
+      "id": "algebra_programs_and_actual_execution",
+      "status": "PASS",
+      "scope": "Primary Python 28 checks and 6 mutations; independent Ruby 162 checks. Reviewer read both calculation paths and executed both --check commands. All nine full fields match coefficient-by-coefficient; current bytes match the final execution receipt."
+    },
+    {
+      "id": "inherited_full_PDE_dependency",
+      "status": "PASS",
+      "scope": "The first-cycle complete proof was read in full. Independent Ruby recomputes its finite residual constants and compares the existing certificate; finite computations do not replace the inherited infinite-dimensional existence and error argument."
+    },
+    {
+      "id": "bounded_sources_and_privacy",
+      "status": "PASS",
+      "scope": "Current source and meaning report read; twelve recorded source bindings verified. R0.10 lines 229-358 and 440-473 were additionally reread directly for the identical central gate, nonlinear sign, varying-datum Picard family, and rank-one image. Other historical source audits remain attributed to their source reviewer. No novelty guarantee or public permission is inferred."
+    },
+    {
+      "id": "final_artifact_integrity",
+      "status": "PASS",
+      "scope": "Thirteen local scientific files, six directly used mathematical inputs, and one targeted historical source are bound. This review JSON and future freeze.json are excluded to avoid circular hashing."
+    }
+  ],
+  "resolved_findings": [
+    "D.15 universal fixed-mode inequality now non-strict, including zero inputs.",
+    "D.17 and D.23 remainder inequalities now valid at t=0.",
+    "D.14 examples dividing by t or t^2 now explicitly limited to positive t.",
+    "D.26 negative modal energy contribution no longer asserts a destination.",
+    "R0.10 uses the same central input wavevectors, polarization directions and output coefficient up to the explicitly reconciled nonlinear sign convention; current SOURCES and PROOF now exclude this old gate from the claimed increment."
+  ],
+  "open_mathematical_findings": [],
+  "execution_evidence": {
+    "receipt": "research/reverse/driver-dominance/verification-run.json",
+    "primary_checks": 28,
+    "primary_mutations": 6,
+    "independent_checks": 162,
+    "all_nine_fields_compared": [
+      "a",
+      "N",
+      "C",
+      "b",
+      "c",
+      "W2",
+      "g",
+      "s_plus",
+      "s_minus"
+    ],
+    "receipt_checksums_verified": 9,
+    "inherited_certificate_input_hashes_verified": 4,
+    "source_bindings_verified": 12,
+    "strict_gaps_independently_recomputed": {
+      "vector_net_margin": "73663/1000000",
+      "vector_absolute_failure_margin": "37799/1000000",
+      "power_seed_net_positive": "1321/4500",
+      "power_net_dominance_margin": "659/9000",
+      "power_absolute_failure_margin": "11/1125",
+      "power_g_positive": "2473/4500",
+      "power_s_plus_positive": "1973/4500",
+      "power_s_minus_negative_margin": "299/2250",
+      "mode_energy_growth_margin": "948473/1125000"
+    }
+  },
+  "bindings": [
+    {
+      "path": "research/reverse/driver-dominance/ANALYTIC_REVIEW.md",
+      "sha256": "a2679c723819b81cb9a9a6937670fe9d64b7d80749b54754fc2f9c2b515e05c8",
+      "bytes": 16089
+    },
+    {
+      "path": "research/reverse/driver-dominance/CONTRACT.md",
+      "sha256": "f8541ccb01672e2ae129f1a8ca85ee281db3e04aa3c977185eaef44b4a134c14",
+      "bytes": 3039
+    },
+    {
+      "path": "research/reverse/driver-dominance/OUTCOME.md",
+      "sha256": "7469778e1a2269225ca192baa77a1af25ded9d8b3c94346454af48d90eef5040",
+      "bytes": 2394
+    },
+    {
+      "path": "research/reverse/driver-dominance/PROOF.md",
+      "sha256": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032",
+      "bytes": 11513
+    },
+    {
+      "path": "research/reverse/driver-dominance/README.md",
+      "sha256": "83f1304aeac1890c3fbbdd6bd21ce0eb1d1103f5bd6c9c22bfcc3c13686dcef2",
+      "bytes": 879
+    },
+    {
+      "path": "research/reverse/driver-dominance/SOURCES.md",
+      "sha256": "433b16c92e6a1c7786aad0fb35e44e2067902630770bc1509d394a5293469b1b",
+      "bytes": 14195
+    },
+    {
+      "path": "research/reverse/driver-dominance/VALIDATION.md",
+      "sha256": "c890bfdc7960e8a92ac9a86e8e4f5188202a3211debb9b1d17451dd11eb826bf",
+      "bytes": 1774
+    },
+    {
+      "path": "research/reverse/driver-dominance/driver-certificate.json",
+      "sha256": "44b759581f233aac53cf7a52e278b5d4e67693417c8d74e64612e0a9c8a6c5d1",
+      "bytes": 76394
+    },
+    {
+      "path": "research/reverse/driver-dominance/driver-independent.json",
+      "sha256": "ee48c23e1f72fd338cb62fb974189aa17ff3a830eb6056130d28e92fb3468d68",
+      "bytes": 232729
+    },
+    {
+      "path": "research/reverse/driver-dominance/driver_certificate.py",
+      "sha256": "0e979657b3b20bf034a138809f6a7f6f6bf1629c532d5600be59490ace9a4732",
+      "bytes": 7411
+    },
+    {
+      "path": "research/reverse/driver-dominance/independent_driver.rb",
+      "sha256": "17dad370826f92ed4e1ea4b2306a952a14971d039a18bede495122e81cfcc390",
+      "bytes": 22417
+    },
+    {
+      "path": "research/reverse/driver-dominance/sources-evidence.json",
+      "sha256": "737e616b37165db12296e55b108c54a470c95106428ab2ff902cef274fc484a0",
+      "bytes": 5954
+    },
+    {
+      "path": "research/reverse/driver-dominance/verification-run.json",
+      "sha256": "9fddff092f44ad0cf39fc283d7070faac932e879e7cbe67773cba06adf4b4f16",
+      "bytes": 5857
+    }
+  ],
+  "inherited_bindings": [
+    {
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+      "bytes": 14336
+    },
+    {
+      "path": "research/reverse/first-cycle/exact_algebra.py",
+      "sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb",
+      "bytes": 13341
+    },
+    {
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+      "bytes": 158864
+    },
+    {
+      "path": "research/reverse/first-cycle/certificate.json",
+      "sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+      "bytes": 1697
+    },
+    {
+      "path": "research/reverse/next-mixed/PREFLIGHT.md",
+      "sha256": "9e3fcaa0803f44af4bef629a78bf3da1b0ca569b44ee1541872085aeeb7e8858",
+      "bytes": 1663
+    },
+    {
+      "path": "research/reverse/next-mixed/mixed-result.json",
+      "sha256": "81bf5c90b344533793b456b363f0dc0436377247a86b5ff8e6fe62bc5c3afb84",
+      "bytes": 14631
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a",
+      "bytes": 31861
+    }
+  ],
+  "binding_counts": {
+    "local_scientific_files": 13,
+    "direct_mathematical_inputs": 6,
+    "targeted_historical_source": 1,
+    "inherited_inputs": 7,
+    "total": 20
+  },
+  "binding_exclusions": [
+    "research/reverse/driver-dominance/independent-final-review.json",
+    "research/reverse/driver-dominance/freeze.json"
+  ],
+  "scope_limits": [
+    "The review certifies the bounded statements and current bytes only, not scientific novelty or human peer review.",
+    "Finite exact algebra does not itself prove local PDE existence or infinite-dimensional remainder control; those arguments remain explicit in the inherited proof and current proof.",
+    "No autonomous seed removal, full-band energy transfer, closed packet regeneration, fixed-datum infinite cascade, finite total time or singularity result.",
+    "Only the stated targeted R0.10 sections were additionally reread during final review; no complete re-reading of every historical source or re-running of old source-review programs is claimed.",
+    "This receipt is not a source freeze, publication authorization, or assertion that the persistent research objective is complete.",
+    "Any changed bound file requires a renewed scope-appropriate review and hash binding."
+  ],
+  "targeted_historical_review": {
+    "path": "public/notes/r0-10.html",
+    "line_ranges": [
+      [
+        229,
+        358
+      ],
+      [
+        440,
+        473
+      ]
+    ],
+    "status": "PASS",
+    "finding": "Same P=(1,1,0), Q=(1,0,1), K=(2,1,1), polarization directions and squared center norm 4/3; current g is the negative of the old positively signed kernel. The old dense inputs vary with frequency and only their first Picard output is used there. This collision narrows novelty attribution without changing the current full-PDE positive-time inequalities."
+  }
+}

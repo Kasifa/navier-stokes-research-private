@@ -1,0 +1,200 @@
+{
+  "schema": "ReverseNS-driver-verification-run-v1",
+  "classification": "PRIVATE_CORE",
+  "status": "PASS",
+  "started_at_utc": "2026-09-07T12:30:15.447332+00:00",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "source_parent_commit": "b7ce9a3473ac01a7396c9d11751caf5a9b62a94e",
+  "environment": {
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "architecture": "arm64",
+    "cpu": "Apple M5 Max",
+    "logical_cpus": 18,
+    "memory_bytes": 38654705664,
+    "python": "3.9.6",
+    "ruby": "ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin25]",
+    "concurrent_certificate_processes": 2,
+    "workers_per_certificate": 1,
+    "precision": "exact rational and rational-complex",
+    "random_seed": "not applicable: deterministic",
+    "solver_tolerance": "not applicable: no time-step solver",
+    "remote_or_gpu_jobs": false
+  },
+  "runs": [
+    {
+      "argv": [
+        "python3",
+        "research/reverse/driver-dominance/driver_certificate.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.149914875,
+      "stdout": {
+        "status": "PASS",
+        "checks": 28,
+        "mutations": 6,
+        "T": "1/1000000",
+        "gaps": {
+          "vector_net_margin": "73663/1000000",
+          "vector_absolute_failure_margin": "37799/1000000",
+          "power_seed_net_positive": "1321/4500",
+          "power_net_dominance_margin": "659/9000",
+          "power_absolute_failure_margin": "11/1125",
+          "power_g_positive": "2473/4500",
+          "power_s_plus_positive": "1973/4500",
+          "power_s_minus_negative_margin": "299/2250",
+          "mode_energy_growth_margin": "948473/1125000"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "ruby",
+        "research/reverse/driver-dominance/independent_driver.rb",
+        "--check"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.087732791,
+      "stdout": {
+        "status": "PASS",
+        "checks": 162,
+        "failed": [],
+        "q_vectors": {
+          "g": [
+            {
+              "re": "0",
+              "im": "-2/3"
+            },
+            {
+              "re": "0",
+              "im": "2/3"
+            },
+            {
+              "re": "0",
+              "im": "2/3"
+            }
+          ],
+          "s_plus": [
+            {
+              "re": "0",
+              "im": "-1/3"
+            },
+            {
+              "re": "0",
+              "im": "-1/6"
+            },
+            {
+              "re": "0",
+              "im": "5/6"
+            }
+          ],
+          "s_minus": [
+            {
+              "re": "0",
+              "im": "1/6"
+            },
+            {
+              "re": "0",
+              "im": "-1/6"
+            },
+            {
+              "re": "0",
+              "im": "-1/6"
+            }
+          ],
+          "d": [
+            {
+              "re": "0",
+              "im": "-5/3"
+            },
+            {
+              "re": "0",
+              "im": "2/3"
+            },
+            {
+              "re": "0",
+              "im": "8/3"
+            }
+          ],
+          "v": [
+            {
+              "re": "0",
+              "im": "-5/18"
+            },
+            {
+              "re": "0",
+              "im": "1/9"
+            },
+            {
+              "re": "0",
+              "im": "4/9"
+            }
+          ]
+        },
+        "q_squared_norms": {
+          "g": "4/3",
+          "s_plus": "5/6",
+          "s_minus": "1/12",
+          "seed_net": "7/12",
+          "v": "31/108"
+        },
+        "seconds": 0.05269899987615645,
+        "sha256": "ee48c23e1f72fd338cb62fb974189aa17ff3a830eb6056130d28e92fb3468d68"
+      },
+      "stderr": ""
+    }
+  ],
+  "checksums": [
+    {
+      "path": "research/reverse/driver-dominance/driver_certificate.py",
+      "sha256": "0e979657b3b20bf034a138809f6a7f6f6bf1629c532d5600be59490ace9a4732",
+      "bytes": 7411
+    },
+    {
+      "path": "research/reverse/driver-dominance/independent_driver.rb",
+      "sha256": "17dad370826f92ed4e1ea4b2306a952a14971d039a18bede495122e81cfcc390",
+      "bytes": 22417
+    },
+    {
+      "path": "research/reverse/driver-dominance/driver-certificate.json",
+      "sha256": "44b759581f233aac53cf7a52e278b5d4e67693417c8d74e64612e0a9c8a6c5d1",
+      "bytes": 76394
+    },
+    {
+      "path": "research/reverse/driver-dominance/driver-independent.json",
+      "sha256": "ee48c23e1f72fd338cb62fb974189aa17ff3a830eb6056130d28e92fb3468d68",
+      "bytes": 232729
+    },
+    {
+      "path": "research/reverse/first-cycle/exact_algebra.py",
+      "sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb",
+      "bytes": 13341
+    },
+    {
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+      "bytes": 158864
+    },
+    {
+      "path": "research/reverse/first-cycle/certificate.json",
+      "sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+      "bytes": 1697
+    },
+    {
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+      "bytes": 14336
+    },
+    {
+      "path": "research/reverse/next-mixed/mixed-result.json",
+      "sha256": "81bf5c90b344533793b456b363f0dc0436377247a86b5ff8e6fe62bc5c3afb84",
+      "bytes": 14631
+    }
+  ],
+  "prior_frozen_files_unchanged": 19,
+  "source_document_bindings_verified": 12,
+  "old_resume_inputs_verified": 7,
+  "limits": "PASS certifies deterministic finite algebra and rational hypotheses; the accompanying analytic proof controls the full PDE. No regeneration or singularity theorem.",
+  "source_update_note": "Actual final rerun after R0.10 central-gate collision supplement; proof and certificate conclusions unchanged."
+}
