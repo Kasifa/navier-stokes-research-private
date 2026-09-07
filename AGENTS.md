@@ -1,3 +1,18 @@
+# Reverse research ownership and resumption (2026-09-07)
+
+This worktree is owned by the persistent task `研究任务（反向）`.
+The current workspace protocol and the user's latest instructions govern this
+worktree. Current state: PAUSED_BY_USER after “先暂停一下”. Do not resume research,
+computations or scientific subagents until the user explicitly resumes this task.
+
+- Scientific work and all git commands run only in `/Users/kasifa/Documents/Math/navier-stokes-reverse`, branch `codex/ns-reverse`.
+- Read `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md` and `/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md` when first needed or changed.
+- Resume from this tree's `.workflow/reverse-current.json` and its reverse-owned checkpoint. Do not use or refresh the forward `research` helper/index; do not alter forward checkpoints or the publication queue.
+- After explicit resumption, new scientific outputs belong in `research/reverse/`. This task has its own user pause, separate from the forward task; preserve both tasks' historical files.
+- Target: fixed positive viscosity, unforced fixed three-dimensional torus, one fixed smooth real divergence-free initial datum. A finite two-step mechanism is not singularity, uniform iteration, or a fixed-datum infinite cascade.
+- Freeze completed bounded research as `ReverseNS-...`, including proof boundaries, sources, certificates, independent review, hashes, and figure inventory. Hand off each release and frozen source commit once to existing publication task `01a06480-0532-7fd0-bdf0-57571465a2d4`. Continue only while research is authorized; otherwise save the record and remain paused. Never monitor publication.
+- Do not edit site/reader pages, deploy, push, alter remotes or visibility, or create publication tasks. Research completion is the research freeze, independent of website publication. Migration is conditional on verified quiescence and does not resume this task. Follow the central task registry and writing guide.
+
 # Published writing style
 
 These rules apply to reader-facing text in `public/`, page metadata, research notes, and downloadable versions.
@@ -8,14 +23,14 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Before publishing, read the page once as prose and search for the discouraged phrases above. Keep HTML and PDF copies in sync.
+- Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_WRITING_STYLE.md`; preserve mathematical scope and AI/computer-assistance disclosure. The publisher uses HTML for daily notes and HTML/PDF for individually approved Frontier Results papers; preserve historical PDFs and scientific figure archives.
 
 # Publishing target
 
 - Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
-- Starting with R0.70A, a research section counts as completed only after its analytic proof or explicitly stated negative result, required certificates, independent audit, formal figure package, synchronized HTML/PDF, literature boundary, bilingual dictionary, homepage route/progress entries, and publication tests all pass. Keep the same inventory in `research/release-manifest.json`.
-- Publish each newly completed section in the same release cycle. Do not let later research versions advance while an earlier certified section remains absent from the public route.
+- A research section is complete when its result, required certificates, independent review, literature boundary, necessary figure archive, manifest and source freeze are complete. Website publication is a separate responsibility and is never a research-completion condition.
+- Only the fixed publisher receives the once-only frozen handoff and manages publication FIFO. Research tasks do not publish or wait for publication. The current user pause remains in force.
 - Treat a cumulative recap as a milestone artifact, not a per-section requirement. Update it only after a substantial phase closure, route change, or positive theorem; an ordinary completed section publishes its own note without creating a new recap.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.

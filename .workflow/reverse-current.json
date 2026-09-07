@@ -1,0 +1,12 @@
+{
+  "role": "reverse",
+  "status": "PAUSED_BY_USER",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "pause_record": "research/reverse/PAUSE_DUPLICATE_ENTRY_20260907.md",
+  "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "branch": "codex/ns-reverse",
+  "checkpoint": "research/reverse/CHECKPOINT.md",
+  "next_action": "Wait for explicit user resumption; do not start research through a duplicate task",
+  "resume_action": "Verify source boundaries and a full Fourier-Leray two-generation coefficient with an infinite-dimensional remainder contract",
+  "forward_pause_applies": false
+}
