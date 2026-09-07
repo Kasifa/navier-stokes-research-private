@@ -1,0 +1,47 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_EXACT_CORRELATED_PAIR_MAP_AND_ZERO_BRANCHES",
+  "files": [
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_CONTRACT.md",
+      "sha256": "ba31859d9b2e2654c8cf8e00bf64da3b54070c93e9fa036594a96e3d3f70fb1d",
+      "bytes": 1489
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_PROOF.md",
+      "sha256": "50510f2b1b2bee2ed3739bd9a5a1276f16056e244f5b71192b9a39b8066190a5",
+      "bytes": 4470
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_INDEPENDENT.md",
+      "sha256": "d8413facd655e775e7e3582b45947be92a3c0f60387b966625475088ff3703f8",
+      "bytes": 9050
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_REVIEW.md",
+      "sha256": "d3a3f52265b2c2fa1b4fe5ed42b86b2ac42d969c60d573499614312da5dd67b2",
+      "bytes": 5621
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_SPATIAL_REVIEW.md",
+      "sha256": "0e300c6b239dde79452e99d17cfb32558dcdf4a075c356e3c885e770a1d71355",
+      "bytes": 4097
+    }
+  ],
+  "root_actual_full_read": true,
+  "independent_author": "Pauli; only contract and own preflight read before derivation",
+  "main_non_author_reviewer": "Rawls; did not read new independent spatial proof",
+  "root_author_and_comparator": "root",
+  "independent_extra_equations_SI19_to_SI22_checked_by": "root, not attributed to Rawls",
+  "scope": "For nonparallel nonorthogonal p,q and shared complex transverse U,V, complete ordered Fourier-Leray quartic pair map and zero iff P=Q or U dot q=0 or V dot p=0. Positive heat weight applies to this pair only; other pair contributions can cancel.",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "full_ns_remainder_paid": false,
+  "figures": [],
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "next_unpaid": "Joint three-pair exact receiver contract; shared seeds across all edges and complete different heat weights, before any parameter selection."
+}

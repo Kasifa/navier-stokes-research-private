@@ -1,0 +1,45 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "PASS_EXACT_SHARED_SEED_HEAT_PREFLIGHT_ONLY",
+  "files": [
+    {
+      "path": "research/reverse/nonorthogonal-return/PREFLIGHT_CONTRACT.md",
+      "sha256": "cf60ed5f76911da486656f8cf6543bd0822980f2990129c52c3b733300e03684",
+      "bytes": 1807
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SOURCE_AND_HEAT_PREFLIGHT.md",
+      "sha256": "cd0206ef0164387d41e246485d1f4a3a0815fef42ed45163816d21ac4e6fdbe0",
+      "bytes": 5132
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/INDEPENDENT_PREFLIGHT.md",
+      "sha256": "679ce998bd78f2203232e6404df376eb94a2a19419c6ae3fdb82b25dbf823f65",
+      "bytes": 7630
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/PREFLIGHT_REVIEW.md",
+      "sha256": "cb60331e1ecf368eec48e2dcdef578b73689e7eadcab7ef4aba249dbba2fdbfb",
+      "bytes": 8102
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_PREFLIGHT_REVIEW.md",
+      "sha256": "b87ae9e6668209adeaa4b7ad10c44c65a13bb7baf517494c08bc5ea05e465fb0",
+      "bytes": 2258
+    }
+  ],
+  "root_actual_full_read": true,
+  "independent_author": "Pauli; read contract only before deriving",
+  "non_author_reviewer": "Pascal; read both drafts",
+  "root_author_and_comparator": "root",
+  "scope": "Correlated ordered Fourier-Leray first outputs, exact paired heat weights, continuous scalar orthogonal interface and equal-length second-gate condition. No full spatial image classification in this preflight.",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "full_ns_remainder_paid": false,
+  "figures": [],
+  "formal_release": false,
+  "publication_handoff_performed": false
+}
