@@ -1,8 +1,18 @@
 # Paper-specialist role and current rules
 
+## Current privacy boundary (2026-09-07)
+
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+
+- New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
+- Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
+- The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
+- Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
+- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+
 - This worktree belongs to the single-paper task `论文修订与补充研究`, ID `01a0747d-db37-7063-b9e0-06466ca89cbf`; it is not another general research line or a publishing task.
 - Read `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md`, `NAVIER_STOKES_WRITING_STYLE.md` and `.workflow/paper-current.md` in the Math workspace. Do not run or refresh the forward research index.
-- Continue only the user's current paper/editorial scope. A completed manuscript freeze is a research checkpoint, not permission to submit or publicly list another paper. The current Frontier Results whitelist is limited to the two explicitly confirmed papers in the central policy.
+- Continue only the user's current paper/editorial scope. A completed manuscript freeze is a research checkpoint, not permission to submit or publicly list another paper. The two previously confirmed papers are retained historical exceptions only; a new revision is not automatically public.
 - The fixed publisher owns website editing, deployment and its queue. Do not push, alter remotes, implement migration or supervise routine publication. Preserve v1, frozen sources, audits and historical PDFs.
 - Save current editorial inputs and outstanding issues at a safe checkpoint for the conditional migration check. This management request does not resume either paused research direction or authorize new mathematical work.
 
@@ -16,11 +26,11 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Follow the central writing guide; preserve mathematical scope and AI/computer-assistance disclosure. Approved paper HTML/PDF versions must agree with their named source; do not silently rewrite frozen files. Daily research notes remain HTML-only.
+- Follow the central writing guide; preserve mathematical scope and AI disclosure. Historic paper HTML/PDF/source remain aligned. New complete manuscripts are private unless the user explicitly expands the finite exception list.
 
 # Publishing target
 
-- Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
+- The publisher stores PRIVATE_CORE in the private source repository; only reviewed PUBLIC_PROGRESS_OVERVIEW content and fixed historical exceptions reach the independent public site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
 - The research freeze completes the paper stage. Website publication, bilingual reader pages, permitted PDFs and online checks belong to the fixed publisher and do not block research completion.
 - Publication requires the user's specific authority and the single FIFO queue; paper preparation, audit success and arXiv formatting do not automatically authorize publication or submission.
@@ -34,7 +44,7 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - Export formal figures as vector PDF and SVG plus a 600 dpi PNG. Use 85 mm for a single-column figure and 178 mm for a double-column figure unless a journal template requires something else.
 - Use neutral titles, explicit units, honest scales, restrained colors, and non-color distinctions. Inspect at final print size and in grayscale. Do not use screenshots as the archival figure when a vector or data-driven export is possible.
 - Keep exploratory plots separate from formal figures. A plot becomes a formal figure only after its data, caption, manifest, and visual QA are complete.
-- Website figures may be compressed copies, but they must link back to the same archived data and plotting source used for the paper-ready export.
+- Complete figure/data/code provenance remains in the private archive. Future public progress summaries must not export scientific figures, source data or plotting code without a separate explicit historical-exception approval.
 
 # Compute resources
 
