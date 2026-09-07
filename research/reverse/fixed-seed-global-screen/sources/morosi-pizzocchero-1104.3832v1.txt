@@ -1,0 +1,2037 @@
+
+
+===== PDF PAGE 1 ; PRINTED PAGE title =====
+
+   incompressible Euler and Navier-StokesOn approximate solutions of the
+                                       equations
+
+
+                       Carlo Morosia, Livio Pizzoccherob(1)
+
+
+                 a Dipartimento di Matematica, Politecnico di Milano,
+                         P.za L. da Vinci 32, I-20133 Milano, Italy
+                               e–mail: carlo.morosi@polimi.it
+                  b Dipartimento di Matematica, Universit`a di Milano
+                          Via C. Saldini 50, I-20133 Milano, Italy
+          and Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Italy
+                             e–mail: livio.pizzocchero@unimi.it
+
+                                            Abstract
+          We considertheincompressibleEulerorNavier-Stokes (NS)equations ona
+      torusTd, inthefunctional settingof theSobolevspaces HnΣ0(Td)of divergence
+      free, zeromeanvectorﬁeldsonTd,forn ∈ (d/ 2+1, +∞  ). Wepresentageneral
+      theory of approximate solutions for the Euler/NS Cauchy problem; this allows
+      to infer a lower bound Tc on the time of existence of the exact solution u
+      analyzing a posteriori any approximate solution ua, and also to construct a
+      function Rn such that ∥u(t)− ua(t)∥n ⩽ Rn(t) for all t ∈ [0,Tc). Both Tc and
+      Rn are determined solving suitable “control inequalities”, depending on the
+      error of ua; the fully quantitative implementation of this scheme depends on
+      some previous estimates of ours on the Euler/NS quadratic nonlinearity [15]
+      [16]. To keep in touch with the existing literature on the subject, our results
+      are compared with a setting for approximate Euler/NS solutions proposed in
+      [3]. As a ﬁrst application of the present framework, we consider the Galerkin
+      approximate solutions of the Euler/NS Cauchy problem, with a speciﬁc initial
+      datumconsideredin[2]: inthiscaseourmethodsallow, amongst else, toprove
+      global existence for the NS Cauchy problem when the viscosity is above an
+      explicitly given bound.
+
+Keywords:  Navier-Stokes equations, existence and regularity theory, theoretical
+approximation.
+AMS 2000 Subject classiﬁcations: 35Q30, 76D03, 76D05.
+
+
+
+
+
+
+
+
+   1Corresponding author
+
+===== PDF PAGE 2 ; PRINTED PAGE 1 =====
+
+1    Introduction
+
+In recent years, there has been some activity about approximate solutions of the
+Euler and Navier-Stokes (NS) equations, viewed as tools to infer accurate a pos-
+teriori estimates on the exact solutions.  We mention, in particular:  the works by
+Chernyshenko et al. [3], Dashti and Robinson [4], Robinson and Sadowski [18], and
+our papers [12] [13] [14]. The present work seats within the same research area; here
+we consider the incompressible Euler/NS equations
+                                 ∂u
+                                 ∂t  = − L(u•∂u)+ν∆u+f,                                       (1.1)
+where: u =u(x,t ) is the divergence free velocity ﬁeld;  the space variablesx =
+(xs)s=1,...,d     belong to the torus Td (and yield the derivatives∂s :=∂/∂x   s); ∆ :=
+∑d
+   s=1∂ss is the Laplacian;  (u•∂u)r  := ∑ds=1us∂sur (r = 1,...,d     ); L is the Leray
+projectionontothespaceofdivergence freevector ﬁelds;ν istheviscosity coeﬃcient,
+so thatν = 0 in the Euler case andν ∈ (0, +∞  ) in the NS case;f =f(x,t ) is the
+Leray projected density of external forces.   The dimensiond is arbitrary in the
+general setting of the paper, but we putd = 3 in a ﬁnal application.
+    The functional setting that we consider for Eq. (1.1) relies on the Sobolev spaces
+
+ HnΣ0(Td) ≡  HnΣ0 := {v : Td →   Rd |  ⟨v⟩ = 0,   divv = 0,   √       − ∆nv ∈ L2(Td) },   (1.2)
+
+with ⟨ ⟩ indicating the mean over Td; for any realn, the above space is equipped
+with the inner product ⟨v|w⟩n := ⟨√         − ∆nv|√    − ∆nw⟩L2 and with the corresponding
+norm ∥ ∥n. One of the main issues in this setting is the behavior of the bilinear map
+
+                                      P(v,w ) := − L(v•w)                                              (1.3)
+
+in the above mentioned Sobolev spaces.   It is well known that there are positive
+constantsKnd ≡Kn andGnd ≡Gn fulﬁlling the “basic inequality”
+
+    ∥P(v,w )∥n ⩽Kn∥v∥n∥w∥n+1         forn ∈ (d2, +∞  ),v ∈ HnΣ0,w ∈ Hn+1Σ0 ,      (1.4)
+
+and the so-called “Kato inequality”
+
+  |⟨P(v,w )|w⟩n|⩽Gn∥v∥n∥w∥2n    forn ∈ (d2 +1, +∞  ),v ∈ HnΣ0,w ∈ Hn+1Σ0   ;    (1.5)
+
+fullyquantitativeupperandlowerboundsonKn andGn werederivedinourprevious
+works[15][16], forreasonsrelatedtothepresent settinganddescribedmoreprecisely
+in the sequel.
+    Independently of the problem to estimateKn andGn, the above two inequalities
+playamajorroleintheveryinteresting paper[3]onapproximateEuler/NSsolutions
+
+                                                  1
+
+===== PDF PAGE 3 ; PRINTED PAGE 2 =====
+
+and a posteriori estimates on exact solutions.  To give an idea of the framework of
+[3] we describe a result therein, using notations closer to our setting.
+    Consider the Euler/NS equation (1.1) with a speciﬁed initial conditionu(x, 0) =
+u0(x); letua : Td× [0,Ta) →   Rd be an approximate solution of this Cauchy problem.
+Givenn ∈  (d/ 2 + 1, +∞  ) (and assuming suitable regularity foru0,f,u a), letua
+possess the diﬀerential error estimatorǫn  :  [0,Ta)  →    [0, +∞  ),  the datum error
+estimatorδn ∈  [0, +∞  ) and the growth estimators Dn, Dn+1 : [0,Ta) →   [0, +∞  );
+this means that, fort ∈ [0,Ta),
+
+                      ∥(∂ua∂t  +L(ua •∂ua)−ν∆ua −f) (t)∥n ⩽ǫn(t),                       (1.6)
+
+                                       ∥ua(0)−u0∥n ⩽δn,                                              (1.7)
+                         ∥ua(t)∥n ⩽ Dn(t),     ∥ua(t)∥n+1 ⩽ Dn+1(t)                           (1.8)
+(withua(t) :=ua(·,t ), etc.). According to [3], Eq. (1.1) with datumu0 has an exact
+(strong, HnΣ0-valued) solutionu on a time interval [0,Tb) ⊂  [0,Ta), ifTb (with the
+estimators forua) fulﬁlls the inequality
+                                                 ∫  Tb
+                      ∫  Tb                     −
+                δn +                   GnTbe       0dt(GnDn(t)+KnDn+1(t))              .               (1.9)
+                       0dtǫn(t)<    1
+The present work aims to reﬁne, to some extent, the approach of [3] and to apply
+it to get fully quantitative estimates on the exact solution of the Euler/NS Cauchy
+problem on Td, with some speciﬁc initial datum. Our main result can be described
+as follows:   assuming suitable regularity foru0,f,u a,  and intendingǫn, Dn, Dn+1
+as above, suppose there is a function Rn ∈C([0,Tc), [0, +∞  )), withTc ∈  (0,Ta],
+fulﬁlling the control inequalities
+ d+Rn
+   dt    ⩾ −νRn+(GnDn+KnDn+1)Rn+GnR2n+ǫn on [0,Tc),    Rn(0) ⩾δn  (1.10)
+(withd+/dt   the right upper Dini derivative, see Section 2).  Then, the solutionu
+of the Euler/NS equation (1.1) with initial datumu0 exists (in a classical sense) on
+the time interval [0,Tc), and its distance from the approximate solution admits the
+bound
+                         ∥u(t)−ua(t)∥n ⩽ Rn(t)       fort ∈ [0,Tc).                         (1.11)
+Some features distinguishing our approach from [3] are the following ones.
+(i) Diﬀerently from (1.9), our control inequalities (1.10) depend explicitly onν and
+thus could allow a more accurate analysis of the inﬂuence of viscosity on the regu-
+larity of the Euler/NS solutions.
+(ii) Our approach promises better lower bounds on the time of existence ofu.  For
+example, forν> 0 and under speciﬁc assumptions illustrated in the paper, the
+
+                                                   2
+
+===== PDF PAGE 4 ; PRINTED PAGE 3 =====
+
+inequalities (1.10) have solutions Rn withTc = +∞  , implying the global nature of
+the NS solutionu; on the contrary, ifδn orǫn are nonzero the inequality (1.9) cannot
+have a solution with very largeTb, since the right hand side is bounded by 1/ (GnTb)
+and thus vanishes forTb →   +∞  .
+(iii) In [3] there is not an explicit bound on the distance betweenu andua, such
+as (1.11) (however, our analysis yielding (1.11) is greatly indebted to [3] and, in a
+sense, it mainly reﬁnes and completes a chain of inequalities foru −ua appearing
+therein).
+(iv) The constantsKn andGn in the inequalities (1.4) (1.5) are not evaluated in
+[3].  On the contrary, here we have at hand our previous results [15] [16] on these
+constants; thus, in speciﬁc applications, we can implement the control inequalities
+(1.10) and their outcome (1.11) in a fully quantitative way.
+    As an example of our approach, in the ﬁnal part of the paper we consider the
+Euler/NS equations on T3 with a speciﬁc initial datumu0.  Independently of the
+approach developed here, this datum has been already considered in an interesting
+paper by Behr, Neˇcas and Wu [2], where it is indicated as the origin of a possible
+blow-up for the Euler equations.  However, in the cited work the blow-up is con-
+jectured on the grounds of a merely “experimental” analysis of a ﬁnite number of
+terms in the power series ∑+∞i=0ui(x)ti solving formally the Euler Cauchy problem.
+    In the present work, dealing with the initial datum of [2] both forν = 0 and for
+ν> 0, a diﬀerent approach to the Cauchy problem is developed using the familiar
+Galerkinapproximation(withaconvenient setofFouriermodes), combinedwithour
+general setting for approximate solutions based on the control inequalities (1.10);
+in this case, the Sobolev order isn = 3,ua is the Galerkin solution and we use
+for it the required estimators, to be substituted in the control inequalities (1.10)
+(with the values for the constantsK3 andG3 obtained in [15] [16]). We search for a
+solution R3 fulﬁlling Eqs. (1.10) as equalities (i.e., with ⩽ replaced by =); this gives
+rise to an ordinary Cauchy problem for R3, which is solved very easily and reliably
+by numerical means.   Admittedly,  our computations are preliminary:  they were
+performed using MATHEMATICA on a PC, with a fairly small set of 150 Fourier
+modes for the Galerkin approximation; we plan to develop the same approach with
+more powerful computational tools in a subsequent work.
+    In a few words, our results are as follows:  in the caseν = 0, the solution R3
+of the control equations (1.10) exists on a ﬁnite time interval [0,Tc) (after which it
+blows up); so, we can grant existence for the Euler Cauchy problem on the interval
+[0,Tc), where we also have the estimate (1.11) on the H3Σ0 distance between the
+exact solutionu and the Galerkin approximate solutionua.  (Unfortunately,Tc is
+less than the blow-up time suggested in [2] for the Euler Cauchy problem, so we
+cannot disprove the conjecture of the cited paper; the situation could change using
+many more Galerkin modes, which is our aim for the future).  For 0<ν ≲ 8, the
+situation is similar: R3 blows up in a ﬁnite timeTc, and we can grant existence for
+
+                                                 3
+
+===== PDF PAGE 5 ; PRINTED PAGE 4 =====
+
+the NS Cauchy problem only up toTc.  On the contrary, forν ≳ 8, our approach
+grants global existence for the NS Cauchy problem (and a bound of the type (1.11)
+on the full interval [0, +∞  )).
+    To conclude this Introduction, let us describe the organization of the paper. In
+Section 2 we present some preliminaries:  these concern mainly the Sobolev spaces
+on Td, in view of their applications to the Euler/NS equations (1.1). In Section 3 we
+deﬁne formally the Euler/NS Cauchy problem, the general notion of approximate
+solution for this problem and the related error estimators.  In Section 4, that con-
+tains the main theoretical results of the paper, we develop the general framework
+yielding the control inequalities (1.10), and prove theestimate (1.11) onthe distance
+between the exact solutionu of the Euler/NS Cauchy problem and an approximate
+solutionua (here we also give more details on the connections of the present work
+with[3]). InSection5wepresent someanalyticalsolutions ofthecontrolinequalities
+(1.10), under speciﬁc assumptions for their estimators and supposing, for simplicity,
+that the external forcing in (1.1) is zero; as anticipated, in certain cases our analyt-
+ical solutions for the control inequalities are global, thus ensuring global existence
+for the Euler/NS Cauchy problem.  In Section 6 we describe the general Galerkin
+method for (1.1); in particular, we give error and growth estimators for the Galerkin
+approximate solutions, to be used with our control inequalities (1.10).  In Section
+7 we consider the Galerkin method with the initial datum of [2], both forν = 0
+an forν> 0.  In Appendix A we review some comparison lemmas of the ˇCaplygin
+type about diﬀerential inequalities; these are employed in Section 4 in relation to
+the control inequalities. In Appendix B, for completeness we report the proof of an
+essentially known statement on the Galerkin approximants for the Euler/NS Cauchy
+problem.
+
+2    Preliminaries
+
+Dini derivatives. Consider a function
+
+                                 f : [0,T ) →   R,   t  ↦→ f(t)                                      (2.1)
+
+(withT ∈ (0, +∞  )). The right, lower and upper Dini derivatives off at any point
+t0 ∈ [0,T ) are, respectively,
+
+                    d+f                    f(t0 +h)−f(t0)
+                      dt (t0) := liminfh→  0+        h              ∈ [−∞ , +∞  ] ;                    (2.2)
+                    d+f                     f(t0 +h)−f(t0)
+                     dt (t0) := limsuph→  0+         h              ∈ [−∞ , +∞  ].                    (2.3)
+
+
+                                                   4
+
+===== PDF PAGE 6 ; PRINTED PAGE 5 =====
+
+Of course,
+                                        d+f
+                                         dt (t0) ⩽d+fdt (t0) ;                                             (2.4)
+furthermore, the opposite function −f :t ∈ [0,T ) ↦→ − f(t) is such that
+                                     d+(−f)
+                                        dt    (t0) = −d+fdt (t0).                                          (2.5)
+
+Theleft, lowerandupperDiniderivativesd−dt,d−dt aredeﬁnedsimilarly, withh →   0−;
+however, left derivatives are not used in this paper.  Of course, all Dini derivatives
+coincide with the usual derivative if this exists.
+Sobolev spaces of vector ﬁelds on the torus; Laplacian, Leray projection,
+and so on.  We work in any space dimensiond ∈ {2, 3,...    } (usingr,s  as indices
+in {1,...,d     }).  Fora,b  in Cd we puta•b := ∑dr=1arbr and write                a for the complex
+conjugated-tuple (ar);  Cd carries the inner product (a,b )  ↦→                   a•b and the norm
+|a|:= √   a•a. We often restrict the previous operations to Rd.
+We consider the torus Td, i.e., the product ofd copies of T := R/ (2πZ); a point of
+Td is generically written asx = (xs)s=1,...,d    . In the sequel we often refer to the space
+
+                                             D(Td) ≡D                                                     (2.6)
+
+of the real distributions on Td, and to the space
+
+                    D′(Td) ≡  D′:= {v = (vr)r=1,...,d     |vr ∈D for allr}.                    (2.7)
+
+Elements ofD′canbeinterpreted as“generalizedfunctions Td →   Rd”; inthesequel,
+we call them (distributional) vector ﬁelds on Td.D and D′ will be equipped with
+their weak topologies. For more details on distributions (and on the function spaces
+mentioned in the sequel) we refer, e.g., to [14].
+    Using distributional derivatives, we can give a meaning to several diﬀerential
+operators acting on vector ﬁelds, e.g. the Laplacian ∆ : D′→   D′and the divergence
+div : D′ → D.  Any real distributionw ∈D has a mean ⟨w⟩ := ⟨w, 1/ (2π)d⟩ ∈  R
+(the right hand side in this deﬁnition indicates the action ofw on the constant test
+function 1/ (2π)d).  Passing to a vector ﬁeldv ∈  D′, we can deﬁne componentwise
+the mean ⟨v⟩ ∈ Rd.
+    Each vector ﬁeldv ∈ D′has a unique (weakly convergent) Fourier series expan-
+sion
+             v = ∑      vkek, v k ∈ Cd, e k(x) :=      1(2π)d/  2eik•x forx ∈ Td ;          (2.8)
+                   k∈Zd
+of course, ther-th component ofvk is ⟨vr,e − k⟩ (i.e., it equals the action ofvr on the
+test functione− k). Due to the reality ofv, the Fourier coeﬃcients have the property
+vk =v− k for allk ∈ Zd; one has ⟨v⟩ =v0/ (2π)d/  2.
+
+                                                    5
+
+===== PDF PAGE 7 ; PRINTED PAGE 6 =====
+
+    In the sequel we often refer to the space of zero mean vector ﬁelds, of the diver-
+gence free (or solenoidal) vector ﬁelds and to their intersection; these are, respec-
+tively,
+
+    D′0 := {v ∈ D′| ⟨v⟩ = 0},    D′Σ := {v ∈ D′|divv = 0},    D′Σ0 := D′Σ ∩ D′0.      (2.9)
+
+Elements of D′0 and D′Σ are characterized, respectively, by the conditionsv0 = 0 and
+k•vk = 0 for allk; handling with the Fourier components of vector ﬁelds in D′0, it is
+convenient to put
+                                           Zd0 := Zd \{0}.                                                (2.10)
+Of course, for eachv ∈ D′one has (∆v)k = −|k|2vk; this suggests to deﬁne, for any
+n ∈ R,
+ √  − ∆n : D′                       − ∆n such that (√       − ∆nv)k := |k|nvk fork ∈ Zd0.   (2.11)
+
+               0 →   D′0, v  ↦→   √
+We denote with L2(Td) the space of square integrable vector ﬁeldsv : Td →   Rd;
+this is a real Hilbert space with the inner product ⟨v|w⟩L2  :=  ∫Tddxv(x)•w(x)
+= ∑k∈Zd     vk•wk and the norm ∥v∥L2 := √⟨v|v⟩L2.  For anyn ∈  R, let us consider
+the Sobolev space
+
+                                                                nv ∈ L2(Td) } =                  (2.12)
+                     Hn0(Td) ≡  Hn0 := {v ∈ D′0 |√        − ∆
+
+                         = {v ∈ D′|v0 = 0,  ∑           |k|2n|vk|2< +∞ }   ;
+
+                                                  k∈Zd0
+this is a real Hilbert space with the inner product and the norm
+
+                    ⟨v|w⟩n := ⟨√     − ∆nv|√     − ∆nw⟩L2 = ∑          |k|2nvk•wk,                  (2.13)
+
+                                                                 k∈Zd0
+                                                       √  ∑
+                             ∥v∥n := √⟨v|v⟩n =                 |k|2n|vk|2.                              (2.14)
+
+                                                          k∈Zd0
+Clearly,n ⩽n′implies Hn′0  ⊂  Hn0 and ∥ ∥n ⩽ ∥ ∥n′. In this paper, we mainly ﬁx the
+attention on the divergence free Sobolev space
+                    HnΣ0(Td) ≡  HnΣ0 := D′Σ ∩ Hn0 = {v ∈ Hn0 |k•vk = 0 }                 (2.15)
+
+(n ∈  R); this is a closed subspace of Hn0, and thus a real Hilbert space with the
+restriction of ⟨ | ⟩n.
+    Form ∈ {0, 1, 2,...,      +∞}   let us consider the space Cm(Td, Rd) ≡  Cm of vector
+ﬁeldsv : Td →   Rd of classCm in the ordinary sense; ifm< +∞  , equip this with
+the norm
+                         ∥v∥Cm :=          max           max
+                                          ℓ = 0,...,m,   x∈Td|∂s1...s    ℓur(x)|.                        (2.16)
+                                       r,s1,...,sℓ  = 1,...,d
+
+                                                    6
+
+===== PDF PAGE 8 ; PRINTED PAGE 7 =====
+
+There is a well known Sobolev imbedding
+
+   Hn0 ⊂  Cm,   ∥ ∥Cm ⩽Smn∥ ∥n    form ∈ {0, 1, 2,...    },n ∈ R,n>d2 +m,      (2.17)
+
+involving suitable positive constantsSmnd ≡Smn.
+    For arbitraryn ∈ R, we have
+
+                              ∆Hn+20     = Hn0,         ∆Hn+2Σ0   = HnΣ0,                                (2.18)
+
+and ∆ is continuous between the above spaces; furthermore,
+
+                   ⟨∆v|v⟩n = −∥v∥2n+1 ⩽ −∥v∥2n       for eachv ∈ Hn+20                     (2.19)
+
+(all the above statements are made evident by the Fourier representations).
+    By deﬁnition, the Leray projection is the map
+
+         L : D′→   D′Σ,   v  ↦→   Lv such that (Lv)k = Lkvk fork ∈ Zd ;            (2.20)
+
+here Lk is the orthogonal projection of Cd ontok⊥  = {a ∈  Cd |k•a = 0} (given
+explicitly by Lkc =c−  (k•c)k/ |k|2 and L0c =c, fork ∈ Zd0 andc ∈ Cd).  For each
+realn, we have a continuous linear map
+
+                                        L ↾Hn0 : Hn0 →   HnΣ0                                             (2.21)
+
+(which, in fact, is the orthogonal projection of (Hn0, ⟨ | ⟩n) onto the subspace HnΣ0).
+The fundamental bilinear map inthe Euler/NSequations. Inthissubsection
+we assumen ∈ (d/ 2, +∞  ). With this condition, we have a continuous bilinear map
+HnΣ0 ×  Hn+1Σ0    →    Hn0,  (v,w )  ↦→ v•∂w,  wherev•∂w  is the vector ﬁeld on Td  with
+components (v•∂w)r := ∑ds=1vs∂swr. By composition with the Leray projection L,
+we obtain a continuous bilinear map
+
+          P : HnΣ0 ×  Hn+1Σ0   →   HnΣ0,         (v,w ) ↦→   P(v,w ) := − L(v•∂w).               (2.22)
+
+This appears in the Euler/NS equations, and is referred in the sequel as the funda-
+mental bilinear map for such equations. As is known, for allv ∈ HnΣ0 andw ∈ Hn+1Σ0
+of Fourier componentsvk andwk, P(v,w ) has Fourier components P(v,w )0 = 0 and
+                        P(v,w )k = −  i            ∑    vh•(k −h)Lkwk− h                        (2.23)
+                                         (2π)d/  2 h∈Zd0
+
+for allk ∈ Zd0, where Lk is the already mentioned projection of Cd ontok⊥ .
+    The continuity of P is equivalent to the existence of a constantKnd ≡ Kn ∈
+(0, +∞  ) such that
+
+               ∥P(v,w )∥n ⩽Kn∥v∥n∥w∥n+1         forv ∈ HnΣ0,w ∈ Hn+1Σ0   ;           (2.24)
+
+                                                   7
+
+===== PDF PAGE 9 ; PRINTED PAGE 8 =====
+
+we refer to this as the basic inequality  about P.   With the stronger assumption
+n ∈ (d/ 2+1, +∞  ), it is known that there is a constantGnd ≡Gn ∈ (0, +∞  ) such
+that
+                 |⟨P(v,w )|w⟩n|⩽Gn∥v∥n∥w∥2n    forv ∈ HnΣ0,w ∈ Hn+1Σ0   ;             (2.25)
+we call this the Kato inequality, since it originates from Kato’s seminal paper [6]
+(for completeness, we mention that ⟨P(v,w )|w⟩n = −⟨v•∂w|w⟩n forv,w  as above).
+In our previous works [15] [16], we derived upper and lower bounds for the sharp
+constants in the above inequalities; throughout this paper,Kn andGn are any two
+constants fulﬁlling Eqs. (2.24) (2.25).
+
+3    The  Cauchy  problem  for  the  Euler/NS  equa-
+       tions: exact and approximate solutions
+
+From here to the end of Section 6 we ﬁx any space dimensiond ∈ {2, 3,...    }, we
+consider the Sobolev spaces of vector ﬁelds on Td, and we choose a real numbern
+such that
+                                        n ∈ (d2 +1, +∞  ).                                                (3.1)
+
+Euler and NS equations:  the Cauchy problem.  Let us choose a “viscosity
+coeﬃcient”
+                                           ν ∈ [0, +∞  ),                                                    (3.2)
+a “forcing”
+                                      f ∈C([0, +∞  ), HnΣ0)                                             (3.3)
+and an initial datum
+                                            u0 ∈ Hn+2Σ0 .                                                      (3.4)
+
+
+
+ 3.1 Deﬁnition. The Cauchy problem for the (incompressible) ﬂuid with viscosity
+ν, initial datumu0 and forcingf is the following:
+
+                  Findu ∈C([0,T ), Hn+2Σ0  )∩C1([0,T ), HnΣ0)    such that                 (3.5)
+
+                          du
+                          dt =ν∆u+P(u,u )+f,   u (0) =u0
+(withT  ∈  (0, +∞  ], depending onu).  As usually, we speak of the “Euler Cauchy
+problem” ifν = 0, and of the “NS Cauchy problem” ifν> 0.                                  ♦
+
+
+
+
+
+                                                  8
+
+===== PDF PAGE 10 ; PRINTED PAGE 9 =====
+
+ 3.2 Remark. (i) The mapu ↦→   P(u,u )sends continuously Hn+1Σ0   into HnΣ0, while ∆
+sendscontinuouslyHn+2Σ0   intoHnΣ0; thisexplainstheappearingofHn+2Σ0   intheprevious
+deﬁnition, at least in the NS case. In the Euler caseν = 0, ∆ is absent from (3.5);
+so, in the previous deﬁnition and in the subsequent theoretical developments one
+could systematically replace Hn+2Σ0   with Hn+1Σ0  ; this is not done just to avoid tedious
+distinctions between the Euler and the NS case.
+(ii) Consider any functionu ∈C([0,T ), Hn+20    ).  By the Sobolev imbedding (2.17),
+one has
+
+         u ∈C([0,T ), Cm)   for anym ∈ {0, 1, 2,...    } such thatn+2>d2 +m
+
+                                (in particular, form = 0, 1, 2, 3).                                   (3.6)
+                                                                                                        ♦
+
+The following results are well known, and reported for completeness.
+
+ 3.3 Proposition. For anyν,f  andu0 as above, (i)-(iii) hold.
+(i) The Cauchy problem (3.5) has a unique maximal (i.e., nonextendable) solution,
+hereafter denote withu, with a suitable domain [0,T ) (0<T ⩽ +∞  ). All the other
+solutions of (3.5) are restrictions ofu.
+(ii)u  has  the  property  (3.6).   Furthermore,  ifν>  0  and the  forcing (x,t )  ↦→
+f(t)(x) ≡ f(x,t ) isC∞   from Td ×  (0,T ) to Rd, the function (x,t ) ↦→ u(t)(x) ≡
+u(x,t ) isC∞   as well from Td × (0,T ) to Rd.
+(iii) For anyt ∈  [0,T ) consider the vorticity matrixω(t), of elementsωrs(t) :=
+∂rus(t) −∂sur(t)  (r,s   =  1,...,d     );  let ∥ω(t)∥C0  :=  maxr,s =1,...,d    maxTd |ωrs(t)|.   If
+T< +∞  , one has
+                                     limsup
+                                       t→  T−   ∥ω(t)∥C0 = +∞   ;                                         (3.7)
+this implies
+                                      limsup
+                                        t→  T−   ∥u(t)∥n = +∞ .                                           (3.8)
+Proof. (i) See [7].
+(ii) The property (3.6) holds becauseu ∈C([0,T ), Hn+2Σ0  ). Forν> 0 andf of class
+C∞  on Td × (0,T ), the same smoothness property is granted foru by Theorem 6.1
+of [5] (with the domainD considered therein replaced by Td).
+(iii) LetT< +∞  . Eq. (3.7) is the celebrated Beale-Kato-Majda blow-up criterion
+[1] (see also [8]). To prove (3.8) we note that, for eacht ∈ [0,T ),
+                         ∥ω(t)∥C0 ⩽ const.∥u(t)∥C1 ⩽ const.∥u(t)∥n ;                         (3.9)
+here the ﬁrst inequality follows from the deﬁnition ofω(t) in terms of the derivatives
+∂rus(t), and the second one from the Sobolev imbedding (2.17) (withm = 1). The
+relations (3.7) and (3.9) immediately give Eq. (3.8).                                                 □
+
+                                                    9
+
+===== PDF PAGE 11 ; PRINTED PAGE 10 =====
+
+Approximate solutions. Our treatment uses systematically the present terminol-
+ogy.
+
+ 3.4 Deﬁnition.  An approximate solution of the problem (3.5) is any mapua ∈
+C([0,Ta), Hn+2Σ0  ) ∩C1([0,Ta), HnΣ0) (withTa ∈  (0, +∞  ]).  Given such a function, we
+stipulate (i) (ii).
+(i) The diﬀerential error ofua is
+
+                e(ua) :=duadt  −ν∆ua −  P(ua,ua)−f  ∈C([0,Ta), HnΣ0) ;             (3.10)
+
+the datum error is
+                                      ua(0)−u0 ∈ Hn+2Σ0 .                                             (3.11)
+(ii) Letm ∈ R,m  ⩽n. A diﬀerential error estimator of orderm forua is a function
+
+  ǫm ∈C([0,Ta), [0, +∞  ))   such that   ∥e(ua)(t)∥m ⩽ǫm(t) fort ∈ [0,Ta).    (3.12)
+
+Letm ∈ R,m ⩽n+2. A datum error estimator of orderm forua is a real number
+
+                     δm ∈ [0, +∞  )   such that   ∥ua(0)−u0∥m ⩽δm ;                   (3.13)
+
+a growth estimator of orderm forua is a function
+
+   Dm ∈C([0,Ta), [0, +∞  ))   such that   ∥ua(t)∥m ⩽ Dm(t) fort ∈ [0,Ta).     (3.14)
+
+In particular the functionǫm(t) := ∥e(ua)(t)∥m, the numberδm := ∥ua(0)−u0∥m and
+the function Dm(t) := ∥ua(t)∥m will be called the tautological estimators of orderm
+for the diﬀerential error, the datum error and the growth ofua.
+
+4    Main theorems about approximate solutions
+
+Assumptions and notations.  Throughout this section we ﬁx a viscosity coeﬃ-
+cient, a forcing and an initial datum as in Eqs.  (3.2)–(3.4) (recalling the condition
+(3.1)n>d/ 2 + 1).   We consider for the Cauchy problem (3.5) an approximate
+solution
+                          ua ∈C([0,Ta), Hn+2Σ0  )∩C1([0,Ta), HnΣ0) ;                            (4.1)
+in the sequelǫn  ∈C([0,Ta), [0, +∞  ) andδn  ∈  [0, +∞  ) are diﬀerential error and
+datum error estimators of ordern forua, while Dn, Dn+1 ∈C([0,Ta), [0, +∞  )) are
+growth estimators of ordersn,n +1 (see Deﬁnition 3.4). Finally, we denote with
+
+                            u ∈C([0,T ), Hn+2Σ0  )∩C1([0,T ), HnΣ0)                                (4.2)
+
+the maximal solution of (3.5) (typically unknown, as well asT).
+
+                                                 10
+
+===== PDF PAGE 12 ; PRINTED PAGE 11 =====
+
+Some lemmas. For the sake of brevity, we put
+
+   Tw := min(Ta,T ),   w  :=u−ua ∈C([0,T w), Hn+2Σ0  )∩C1([0,T w), HnΣ0).     (4.3)
+
+Furthermore, we introduce the function
+
+                     Wn : [0,T w) →   [0, +∞  ),         Wn(t) := ∥w(t)∥n ;                     (4.4)
+
+this is clearly continuous, andC1 in a neighborhood of any instantt0  ∈  [0,T w)
+such thatw(t0) ̸= 0. In the sequel we often consider the right, upper Dini derivative
+d+Wn/dt  (seeEq. (2.3)), thatisjusttheordinaryderivativeatanyt0 withw(t0) ̸= 0.
+    The forthcoming two lemmas review and partially reﬁne some results of [3] (after
+adaptationtoourslightlydiﬀerent setting; forexample, Diniderivativesarenoteven
+mentioned in [3]).
+
+ 4.1 Lemma. One has
+        dw
+        dt  =ν∆w +P(ua,w )+P(w,ua)+P(w,w )−e(ua)   on [0,T w),            (4.5)
+                                      w(0) =u0 −ua(0).                                               (4.6)
+Proof. By deﬁnition of the diﬀerential errore(ua), we have
+
+                            dua
+                             dt  =ν∆ua +P(ua,ua)+f +e(ua) ;                               (4.7)
+of course,du/dt  =ν∆u+P(u,u )+f whence, writingu =ua +w,
+
+                    dua
+                     dt  +dwdt  =ν∆(ua +w)+P(ua +w,ua+w)+f
+        =ν∆ua +ν∆w +P(ua,ua)+P(ua,w )+P(w,ua)+P(w,w )+f.           (4.8)
+Subtracting Eq. (4.7) from (4.8) we obtain Eq. (4.5); Eq. (4.6) is obvious.           □
+
+
+ 4.2 Lemma.  Consider the above mentioned estimatorsǫn,δ n, Dn, Dn+1, and the
+function Wn deﬁned in Eq. (4.4). Then
+
+ d+Wn
+    dt    ⩽ −νWn+(GnDn+KnDn+1)Wn+GnW2n+ǫn everywhere on [0,T w),   (4.9)
+                                          Wn(0) ⩽δn.                                                   (4.10)
+
+
+
+                                                 11
+
+===== PDF PAGE 13 ; PRINTED PAGE 12 =====
+
+Proof. We proceed in three steps.
+    Step 1.  Veriﬁcation of Eq.  (4.9) at a timet0 such thatw(t0) ̸= 0.  In this case,
+w(t) ̸= 0 for allt in some intervalI ∋t0; Wn is nonzero andC1 onI. In the same
+interval, we have:
+          d+Wn                         dW2n             d
+           ( dt    =dWndt   =    12Wn    dt   =    12Wn dt⟨w|w⟩n =   1Wn⟨dwdt |w⟩n              (4.11))
+ =     1    ν⟨∆w|w⟩n+⟨P(ua,w )|w⟩n+⟨P(w,ua)|w⟩n+⟨P(w,w )|w⟩n−⟨e(ua)|w⟩n                                 .
+
+(4.5) Wn
+
+On the other hand, we have the following inequalities:
+
+                                ⟨∆w|w⟩n    ⩽
+                                            (2.19) −∥w∥2n = − W2n ;                                 (4.12)
+
+       ⟨P(ua,w )|w⟩n ⩽ |⟨P(ua,w )|w⟩n|   ⩽
+                                                (2.25)Gn∥ua∥n∥w∥2n ⩽GnDnW2n ;         (4.13)
+
+                    ⟨P(w,ua)|w⟩n ⩽ |⟨P(w,ua)|w⟩n|⩽ ∥P(w,ua)∥n∥w∥n                 (4.14)
+                              ⩽
+                            (2.24)Kn∥ua∥n+1∥w∥2n ⩽KnDn+1W2n ;
+
+                 ⟨P(w,w )|w⟩n ⩽ |⟨P(w,w )|w⟩n|   ⩽
+                                                        (2.25)Gn∥w∥3n =GnW3n ;             (4.15)
+                  −⟨e(ua)|w⟩n ⩽ |⟨e(ua)|w⟩n|⩽ ∥e(ua)∥n∥w∥n ⩽ǫnWn ;              (4.16)
+inserting the relations (4.12)–(4.16) into Eq.  (4.11), we obtain the inequality (4.9)
+at all timest ∈I and, in particular, at timet0.
+    Step 2. Veriﬁcation of Eq. (4.9) at a timet0 such thatw(t0) = 0. At this instant
+we have Wn(t0) = 0, and the relation (4.9) to be proved becomes
+                                        d+Wn
+                                          dt   (t0) ⩽ǫn(t0).                                             (4.17)
+To go on we recall that, given aC1 functionz : [0,T z) →   E with values in a Banach
+space E equipped with the norm ∥ ∥, we haved+∥z∥/dt   ⩽ ∥dz/dt ∥ at all times,
+including instants whenz vanishes (see, e.g., [17] and references therein); if this
+result is applied to the functionw with norm ∥w∥n = Wn, we get
+                                     d+Wn
+                                       dt   (t0) ⩽ ∥dwdt (t0)∥n.                                        (4.18)
+Now, we evaluate (dw/dt )(t0) via Eq. (4.5), taking into account thatw(t0) = 0; this
+gives
+                              ∥dwdt (t0)∥n = ∥e(ua)(t0)∥n ⩽ǫn(t0),                               (4.19)
+
+                                                   12
+
+===== PDF PAGE 14 ; PRINTED PAGE 13 =====
+
+and Eqs. (4.18) (4.19) yield the thesis (4.17).
+    Step 3. Veriﬁcation of Eq. (4.10). In fact, the deﬁnitions of Wn,w  andδn give
+                                  Wn(0) = ∥u(0)−ua(0)∥ ⩽δn.                                    (4.20)
+Now, the proof is concluded.                                                                                          □
+To go on, we need a comparison lemma of the ˇCaplygin type.  This is a variant of
+some known results [9] [11]: for more details, see Appendix A.
+
+ 4.3 Lemma. Let T ∈ (0, +∞  ]; consider a functionψ ∈C(R× [0, T), R), (s,t ) ↦→
+ψ(s,t ) possessing partial derivative∂ψ/∂s   ∈C(R× [0, T), R); furthermore, lets0 ∈
+R. Suppose that W, R ∈C([0, T), R) are functions such that
+                    d+W
+                      dt  (t) ⩽ψ(W(t),t )   for allt ∈ [0, T),   W(0) ⩽s0,                (4.21)
+                     d+R
+                      dt  (t) ⩾ψ(R(t),t )   for allt ∈ [0, T),   R(0) ⩾s0.                  (4.22)
+Then
+                                W(t) ⩽ R(t)       for allt ∈ [0, T).                                (4.23)
+                                                                                                           ♦
+
+Hereafter, interesting conclusions will arise from the combination of the above com-
+parison result with Lemma 4.2.
+The control inequalities and the main theorem. We begin with a deﬁnition,
+which is followed by the main result of the section.
+
+ 4.4 Deﬁnition.  Consider a function Rn ∈C([0,Tc), [0, +∞  )), withTc ∈ (0,Ta].
+This function is said to fulﬁll the control inequalities (with respect to the estimators
+ǫn,δ n, Dn, Dn+1) if
+
+  d+Rn
+    dt    ⩾ −νRn +(GnDn +KnDn+1)Rn +GnR2n +ǫn everywhere on [0,Tc),   (4.24)
+                                              Rn(0) ⩾δn.                                                   (4.25)
+
+ 4.5 Proposition.  Suppose there is a function Rn ∈C([0,Tc), [0, +∞  )) fulﬁlling
+the control inequalities, and consider the maximal solutionu of the Euler/NS Cauchy
+problem (3.5). Then, the existence timeT ofu is such that
+
+                                                 T ⩾Tc ;                                                     (4.26)
+
+furthermore,
+                          ∥u(t)−ua(t)∥n ⩽ Rn(t)       fort ∈ [0,Tc).                         (4.27)
+
+                                                     13
+
+===== PDF PAGE 15 ; PRINTED PAGE 14 =====
+
+Proof. Let us employ the following notation, already used in the previous subsec-
+tions:Tw := min(Ta,T ),w :=u−ua and Wn :t ↦→ ∥w(t)∥n (see Eqs.  (4.3) (4.4);
+w and Wn have domain [0,T w)). We further deﬁne T := min(Tc,T ) (and note that
+Tc ⩽Ta implies T ⩽Tw). For the moment we have not yet proved (4.26), so we do
+not know whether T equalsTc, or not. We proceed in three steps.
+    Step 1. One has
+
+                         ∥u(t)−ua(t)∥n ⩽ Rn(t)       fort ∈ [0, T).                          (4.28)
+
+Consider the functions Wn and Rn on [0, T). Due to Lemma 4.2 and to the control
+inequalities, these fulﬁll the relations
+
+          d+Wn
+            dt   (t) ⩽d+Wndt   (t) ⩽ψ(Wn(t),t ) for allt ∈ [0, T),    Wn(0) ⩽δn ;
+                  d+Rn
+                    dt   (t) ⩾ψ(Rn(t),t ) for allt ∈ [0, T),    Rn(0) ⩾δn,
+whereψ : [0, T)× R →   R,ψ(s,t ) := −νs+(GnDn(t)+KnDn+1(t))s+Gns2+ǫn(t).
+Therefore, by Lemma 4.3 we have Wn(t) ⩽ Rn(t) fort ∈  [0, T); this is just the
+relation (4.28).
+    Step 2.  One has the relation (4.26)T ⩾Tc.  To prove this, we assumeT<Tc
+and try to infer a contradiction. To this purpose we note that, according to (3.8),
+
+                                     limsup
+                                      t→  T−   ∥u(t)∥n = +∞ .
+On the other hand, recalling Eq. (4.28) we can write ∥u(t)∥n ⩽ ∥ua(t)∥n +∥u(t)−
+ua(t)∥n ⩽ ∥ua(t)∥n + Rn(t) fort ∈  [0,T );  from here and from the continuity of
+∥ua( )∥n, Rn on [0,Tc) ⊃  [0,T ] we get
+
+                      sup
+                     t∈[0,T )∥u(t)∥n ⩽ maxt∈[0,T ](∥ua(t)∥n +Rn(t))< +∞ .                    (4.29)
+
+The results (3.8) and (4.29) are contradictory.
+    Step 3.  Conclusion of the proof.  Eq.  (4.26) proved in Step 2 implies T =Tc;
+now, the inequality (4.28) of Step 1 coincides with the thesis (4.27).                      □
+Of course,  the control inequalities (4.24) (4.25) are fulﬁlled by a function Rn  ∈
+C1([0,Tc), [0, +∞  )) such thatTc ∈ (0,Ta], and
+
+ dRn
+   dt   = −νRn +(GnDn +KnDn+1)Rn +GnR2n +ǫn    everywhere on [0,Tc),   (4.30)
+                                           Rn(0) =δn.                                                   (4.31)
+
+
+
+                                                  14
+
+===== PDF PAGE 16 ; PRINTED PAGE 15 =====
+
+ 4.6 Deﬁnition.  Eqs.  (4.30) (4.31) are referred in the sequel as the the control
+equations, or the control Cauchy problem for Rn.                                                      ♦
+
+5    Analytic  solutions  of  the  control  inequalities
+      (with no external forcing)
+
+Throughout this section we consider again the Euler/NS Cauchy problem (3.5),
+for a given viscosityν  ∈  [0, +∞  ), external forcingf  and initial datumu0 as in
+(3.2)–(3.4).  After choosing an approximate solutionua for (3.5) and determining
+the corresponding estimators, one is faced with the problem of solving the control
+inequalities (4.24) (4.25), or the control equations (4.30) (4.31), for the unknown
+real functiont ↦→   Rn(t).  In many applications, such as the one of the next sec-
+tion on the Galerkin approximate solutions, a numerical treatment of the control
+equations is recommended (and the result is generally reliable:  (4.30) (4.31) is a
+typically nonstiﬀ Cauchy problem).   However,  an analytic approach to the con-
+trol equations/inequalities has its own interest, both for theoretical reasons and for
+building simple user-ready criteria.
+    In this section we propose an analytic approach for special forms of the ap-
+proximate solution and/or its estimators. For simplicity, throughout the section we
+assume zero external forcing:
+
+                                f(t) := 0       fort ∈ [0, +∞  ) ;                                     (5.1)
+
+however, many results presented in the section could be extended to the case of
+nonzerof, with suitable assumptions on this function.
+    We begin by considering the approximate solutionua := 0; this choice seems to
+be very trivial but, in spite of this, it can be used to obtain nontrivial estimates on
+the time of existence of the exact solution of the Euler/NS Cauchy problem. In the
+NS caseν> 0, these estimates include a condition for global existence under a fully
+quantitative norm bound on the initial datum.
+    The second case considered in thesection ismuch moregeneral: theapproximate
+solution is unspeciﬁed, even though a certain form is assumed for its estimators.
+Results  from  the  zero  approximate  solution.   Let us choose for (3.5) the
+approximate solution
+
+                     ua : [0, +∞  ) →   Hn+2Σ0 ,   ua(t) := 0   for allt.                       (5.2)
+
+
+
+
+
+
+                                                 15
+
+===== PDF PAGE 17 ; PRINTED PAGE 16 =====
+
+ 5.1 Lemma.  (i) The diﬀerential and datum errors of the zero approximate solu-
+tion are
+
+               e(ua)(t) = 0        for allt ∈ [0, +∞  ),   ua(0)−u0 = −u0 ;           (5.3)
+
+consequently, this approximate solution has the diﬀerential and datum estimators
+
+                                    ǫn(t) := 0,   δ n := ∥u0∥n,                                       (5.4)
+
+and the growth estimators
+
+                           Dn(t) := Dn+1(t) := 0        fort ∈ [0, +∞  ).                           (5.5)
+
+The control equations (4.30) (4.31) with the above estimators take the form
+
+                          dRn
+                           dt   = −νRn +GnR2n,         Rn(0) = ∥u0∥n.                          (5.6)
+(ii) The Cauchy problem (5.6) has the solution Rn  ∈C1([0,Tc), [0, +∞  )), deter-
+mined as follows:
+                       +∞                                      ifν> 0, ∥u0∥n ⩽ν/G  n,
+                                     (                   )
+               Tc :=       − 1ν log    1−   νGn∥u0∥n          ifν> 0, ∥u0∥n>ν/G  n,                       (5.7)
+                           1
+                           Gn∥u0∥n                             ifν = 0
+
+(intending 1/ (Gn∥u0∥n) := +∞   ifu0 = 0);
+
+                        Rn(t) :=        ∥u0∥ne− νt1−Gn∥u0∥neν(t)        fort ∈ [0,Tc),                        (5.8)
+
+                                                1−e− νt
+
+                                  eν(t) :=            ν         ifν> 0,                                  (5.9)
+                                                  t                ifν = 0
+
+(note thatt = limν→  0+ 1−e− νtν      ).
+
+Proof. (i) Obvious.
+(ii) The Cauchy problem (5.6) is solved by the quadrature formula
+                                        ∫ Rn(t)         dr
+
+                                         ∥u0∥n     Gnr2 −νr =t ;                                        (5.10)
+
+
+                                                      16
+
+===== PDF PAGE 18 ; PRINTED PAGE 17 =====
+
+the  integral  in  the  left  hand  side  equals  (1/ν  )logGn −ν/ Rn(t)Gn −ν/ ∥u0∥n  ifν >  0,  and
+(1/G  n)(1/ ∥u0∥n −  1/ Rn(t)) ifν = 0; some elementary manipulations yield for the
+solution Rn the expression (5.7)-(5.9).                                                                          □
+From the previous lemma and from the main theorem on approximate solutions
+(Proposition 4.5),  here applied withua  =  0 and Rn  as in (5.8),  we obtain the
+following result.
+
+ 5.2 Proposition. Consider the Cauchy problem (3.5) for the Euler/NS equations
+with zero external forcing, and any datumu0  ∈  Hn+2Σ0  ;  letu ∈C([0,T ), Hn+2Σ0  ) ∩
+C1([0,T ), HnΣ0) be the maximal solution.  DeﬁneTc andeν  as in Eqs.  (5.7) (5.9);
+then
+
+          T ⩾Tc,         ∥u(t)∥n ⩽        ∥u0∥ne− νt1−Gn∥u0∥neν(t)        fort ∈ [0,Tc).              (5.11)
+
+In particular, due to (5.7),
+
+                               T =Tc = +∞       if  ∥u0∥n ⩽ νGn ;                                (5.12)
+
+in this caseu is global and, ifν> 0, it decays exponentially.
+
+Other suﬃcient conditions for global existence.  Consider again the Cauchy
+problem  (3.5)  with  zero  external  forcing  and  any  datumu0  ∈   Hn+2Σ0  ;  letu  ∈
+C([0,T ), Hn+2Σ0  ) ∩C1([0,T ), HnΣ0) be the maximal solution.  An obvious implication
+of Proposition 5.2 is the following.
+
+ 5.3 Corollary. Assume
+
+                           ∥u(t1)∥n ⩽ νGn        for somet1 ∈ [0,T ).                           (5.13)
+
+Then:
+
+    T = +∞,         ∥u(t)∥n ⩽        ∥u(t1)∥ne− ν(t− t1)1−Gn∥u(t1)∥neν(t−t1)    fort ∈ [t1, +∞  ),       (5.14)
+
+witheν as in Eq. (5.9).
+Proof. The functionu ↾[t1,T ) is the maximal solution of the Cauchy problem with
+datumu(t1) speciﬁed at timet1, rather than at time 0. By Eqs. (5.11) (5.12), with
+an obvious shift in time, we obtain the thesis (5.14).                                                 □
+A consequence of the previous result, of more practical use, is the following.
+
+
+                                                    17
+
+===== PDF PAGE 19 ; PRINTED PAGE 18 =====
+
+ 5.4 Corollary.  Letua ∈C([0,Ta), Hn+2Σ0  ) ∩C1([0,Ta), HnΣ0) be any approximate
+solution of (3.5), with estimatorsǫn,δ n, Dn, Dn+1;  assume that the corresponding
+control inequalities (4.24) (4.25) have a solution Rn  ∈ C1([0,Tc), [0, +∞  )), with
+Tc ∈ (0,Ta]. Finally, assume that
+
+                      (Dn +Rn)(t1) ⩽ νGn        for somet1 ∈ [0,Tc).                      (5.15)
+
+Then:
+
+   T = +∞,     ∥u(t)∥n ⩽        (Dn +Rn)(t1)e− ν(t− t1)1−Gn(Dn +Rn)(t1)eν(t−t1) fort ∈ [t1, +∞  ).     (5.16)
+
+Proof.  By Proposition 4.5 we have ∥u(t)−ua(t)∥n ⩽ Rn(t) for allt ∈ [0,Tc) and,
+in particular, fort =t1; we further write ∥u(t1)∥n ⩽ ∥ua(t1)∥n +∥u(t1)−ua(t1)∥n,
+which implies
+                                  ∥u(t1)∥n ⩽ (Dn +Rn)(t1).                                       (5.17)
+Eq. (5.17) and the assumption (5.15) gives the inequality
+
+                                         ∥u(t1)∥n ⩽ νGn,
+
+which has the form (5.13).  By the previous corollary, we have Eq.  (5.14) and this
+result, combined with (5.17), gives the thesis (5.16).                                                 □
+
+A general result, under conditions of exponential decay (ν > 0) or bound-
+edness (ν = 0) for the approximate solution. In this paragraph we exhibit a
+solution of the control equations (4.30) (4.31), holding for any approximate solution
+whose estimators have certain features.  Such features are described in the forth-
+coming Eq.  (5.18); these indicate that the norms of ordersn,n + 1 ofua behave
+likee− νt, while then-th norm of the diﬀerential error behaves likee− 2νt. (In the NS
+case these are conditions of exponential decay, while in the Euler case they simply
+indicate the boundedness ofua and its error.)
+    Theassumptionthatua behaveslikee− νt correspondstoarathertypical behavior
+of the approximate solutions under zero external forcing; for example, this behavior
+occursinthecaseoftheGalerkinapproximatesolutionsdiscussed inthenextsection
+(see Lemma 6.4 and the subsequent Remark). The diﬀerential error ofua typically
+behaves likee− 2νt whenua is bounded bye− νt and the diﬀerential error depends
+only on the quadratic function P(ua,ua); again, this situation occurs in the example
+of the Galerkin approximate solutions with no forcing (see Lemma 6.8).
+    Other approximation methods suggested for the NS equations (ν> 0) yield
+approximate solutions with a behavior as in (5.18); as an example, this happens if
+one assumes no external forcing and takes forua the truncation to any order of the
+power series solution introduced by Sinai [19].
+
+                                                 18
+
+===== PDF PAGE 20 ; PRINTED PAGE 19 =====
+
+ 5.5 Lemma.  For anyν ∈  [0, +∞  ), consider for (3.5) an approximate solution
+ua ∈C([0, +∞  ), Hn+2Σ0  )∩C1([0, +∞  ), HnΣ0). Assume this to have growth and diﬀer-
+ential error estimators of the forms
+
+         Dn(t) :=Dne− νt,     Dn+1(t) :=Dn+1e− νt,     En(t) :=Ene− 2νt,             (5.18)
+
+withDn,D n+1  ∈  (0, +∞  ),En  ∈  [0, +∞  );  furthermore, assume this to have any
+datum error estimatorδn ∈ [0, +∞  ). From the above constants, let us deﬁne
+
+                                    Fn := 12(GnDn +KnDn+1) ;                                     (5.19)
+
+furthermore, assume the “error bound”
+
+                                               GnEn<F2n                                                   (5.20)
+
+and deﬁne
+                                    W±n  :=Fn ±  √F2n −GnEn.                                      (5.21)
+Finally, consider the functiont ∈ [0, +∞  ) ↦→ eν(t) deﬁned by (5.9), and put
+
+                ηn : [0, +∞  ) →   [1, +∞  ),   η n(t) :=e(W+n  −W−n )eν(t).            (5.22)
+
+Then, (i) (ii) hold.
+(i) The control equations (4.30) (4.31) with the above estimators take the form
+
+        dRn
+         dt   = −νRn +2Fne− νtRn +GnR2n +Ene− 2νt,         Rn(0) =δn.           (5.23)
+(ii) The Cauchy problem (5.23) has the solution Rn ∈C1([0,Tc), [0, +∞  )), deter-
+mined as follows:
+       +∞                                                                     ifν> 0,  W+n +Gnδn
+                     (                                          )                 W−n +Gnδn ⩾e(W+− W− )/ν ,
+Tc :=      − 1ν log    1−    νW+n  −W−n  logW+n  +GnδnW−n  +Gnδn     ifν> 0,  W+n +GnδnW−n +Gnδn<e(W+− W− )/ν ,
+             1
+
+            W+n  −W−n  logW+n  +GnδnW−n  +Gnδn                             ifν = 0 ;
+                                                                                                      (5.24)
+  Rn(t) :=   1    W+n (W−n  +Gnδn)ηn(t)−W−n (W+n  +Gnδn)
+              Gn        (W+n  +Gnδn)−  (W−n  +Gnδn)ηn(t)   e− νtfort ∈ [0,Tc).   (5.25)
+Proof. (i) Obvious.
+(ii) We write the unknown solution Rn of (5.23) as
+
+                                           Rn(t) = Zn(t)e− νt                                             (5.26)
+
+                                                     19
+
+===== PDF PAGE 21 ; PRINTED PAGE 20 =====
+
+where Zn ∈C1([0,Tc), [0, +∞  )) (andTc) are to be found.  Eq.  (5.23) is equivalent
+to the Cauchy problem
+                   dZn
+                     dt   = (En +2FnZn +GnZ2n)e− νt,         Zn(0) =δn,                 (5.27)
+withFn as in (5.19); this is solved by the quadrature formula
+                            ∫  Zn(t)          dz                ∫  t
+
+
+                              δn    En +2Fnz +Gnz2 =             0dse− νs.                             (5.28)
+
+On the other hand                      ∫  t
+
+
+                                          0dse− νs =eν(t) ;                                            (5.29)
+furthermoreEn +2Fnz +Gnz2 = (1/G  n)(W+n  +Gnz)(W−n  +Gnz), which implies
+      ∫  Zn(t)            dz                                [                   ]   z=Zn(t)
+               En +2Fnz +Gnz2 = −         1W+n  −W−n          logW+n  +GnzW−n  +Gnz        .         (5.30)
+        δn                                                                        z=δn
+
+Inserting Eqs.  (5.29) (5.30) into Eq.  (5.28) we easily obtain an explicit expression
+for Zn(t) which implies Eq. (5.25) for Rn(t) = Zn(t)e− νt. The interval [0,Tc) where
+Zn is well deﬁned is also easily determined, by the same manipulation employed to
+make explicit Zn(t).                                                                                                         □
+From the previous lemma and from the main theorem on approximate solutions
+(Proposition 4.5), we obtain the following result.
+
+ 5.6 Proposition. Consider the Euler/NS Cauchy problem (3.5), and an approxi-
+mate solutionua ∈C([0, +∞  ), Hn+2Σ0  )∩C1([0, +∞  ), HnΣ0); assume this to have growth
+and diﬀerential error estimators fulﬁlling all conditions in Lemma 5.5, and deﬁne
+Tc,  Rn  via Eqs.   (5.24) (5.25) of the same lemma.   Now,  consider the maximal
+solutionu ∈C([0,T ), Hn+2Σ0  )∩C1([0,T ), HnΣ0) of (3.5); then
+
+                 T ⩾Tc,         ∥u(t)−ua(t)∥ ⩽ Rn(t)        fort ∈ [0,Tc).              (5.31)
+
+(In particular,u is global under the conditions givingTc = +∞   in Eq. (5.24).)
+
+ 5.7 Remark.  One could easily derive a variant of Lemma 5.5 (and Proposition
+5.6) dealing with the limit caseGnEn =F2n, whereW−n  =W+n . The expressions for
+Tc and Rn in this case coincide with the ones derivable from Eqs.  (5.24) (5.25) in
+the limitW−n  → W+n .  The results in Lemma 5.1 (and Proposition 5.2) could also
+be derived from Lemma 5.5 (and Proposition 5.6), in the limit caseEn = 0 and
+Dn,D n+1 →   0.
+
+
+                                                   20
+
+===== PDF PAGE 22 ; PRINTED PAGE 21 =====
+
+6    The Galerkin approximate solutions for the Eu-
+      ler/NS equations, and their errors
+
+Throughout this section, we consider a setG with the following features:
+                     G ⊂  Zd0,   G  ﬁnite,   k  ∈G ⇔ − k ∈G.                        (6.1)
+Hereafter we write ≺ ek  ≻ k∈G  for the linear subspace of D′0  made of the sums
+∑
+  k∈Gvkek (which is, in fact, contained in C∞ ). The forthcoming deﬁnitions follow
+closely the setting proposed in our previous work [13] for the Galerkin method.
+Galerkin subspaces and projections. We deﬁne them as follows.
+
+ 6.1 Deﬁnition.  The Galerkin subspace and projection corresponding toG are,
+respectively:
+
+ HGΣ0 := D′Σ0∩ ≺ ek ≻ k∈G= {∑         vkek |vk ∈ Cd,    vk =v− k,k •vk = 0 for allk} ;  (6.2)
+                                 k∈G
+               PG : D′Σ0  →   HGΣ0,   v  = ∑         vkek ↦→   PGv := ∑     vkek.              (6.3)
+                                                k∈Zd0                   k∈G
+                                                                                                 ♦
+
+It is clear that
+ HGΣ0 ⊂  C∞  ∩ D′Σ0; ∆(HGΣ0) = HGΣ0; HGΣ0 ⊂  HmΣ0,  PG(HmΣ0) = HGΣ0 for allm ∈ R.   (6.4)
+The following result is useful in the sequel.
+
+ 6.2 Lemma. Letm,p  ∈ R,m ⩽p andv ∈ HpΣ0. Then,
+
+                    ∥(1− PG)v∥m ⩽   ∥v∥p|G|p− m,         |G|:=   min
+                                                                 k∈Zd0\  G|k|.                      (6.5)
+Proof. We have (1−  PG)v = ∑k∈Zd0\  Gvkek; thus,
+
+                ∥(1− PG)v∥2m =   ∑          |k|2m|vk|2 =   ∑         |k|2p
+                                                                   |k|2p− 2m|vk|2               (6.6)
+                                     k∈Zd0\  G             k∈Zd0\  G
+                    (             1    )     ∑
+                 ⩽     sup    |k|2p− 2m          |k|2p|vk|2 ⩽       1|G|2p− 2m ∥v∥2p.
+                      k∈Zd0\  G          k∈Zd0\  G
+                                                                                                □
+
+Galerkin approximate solutions. Letusbegivenν ∈ [0, +∞  ),f ∈C([0, +∞  ), D′Σ0)
+andu0 ∈ D′Σ0.
+
+                                                21
+
+===== PDF PAGE 23 ; PRINTED PAGE 22 =====
+
+ 6.3 Deﬁnition.  The Galerkin approximate solution of the Euler/NS equations
+corresponding to the datumu0, to the forcingf  and to the set of modesG is the
+maximal (i.e., nonextendable) solutionuf,u 0,G  ≡uG of the followingCauchy problem,
+in the ﬁnite dimensional space HGΣ0:
+
+                             FinduG ∈C1([0,T G), HGΣ0) such that                               (6.7)
+
+               duG
+                dt   =ν∆uG +PGP(uG,u G)+PGf,   u G(0) = PGu0.
+                                                                                                       ♦
+
+Eq.    (6.7)  describes  the  Cauchy  problem  for  an  ODE  in  the  ﬁnite-dimensional
+vector space HGΣ0;  this relies on the continuous function HGΣ0 ×  [0, +∞  )  →    HGΣ0,
+(v,t ) ↦→ ν∆v+PGP(v,v )+PGf(t), which is smooth with respect to the variablev.
+So, the standard theory of ODEs in ﬁnite dimensional spaces grants existence and
+uniqueness for the solution of (6.7).
+    The following facts are known (see, e.g., [20]); a proof suitable for the present
+setting is given, for completeness, in Appendix B.
+
+ 6.4 Lemma.  (i) For anyν ∈  [0, +∞  ),f  ∈C([0, +∞  ), D′Σ0) andu0 ∈  D′Σ0, the
+maximal solution of problem (6.7) is in fact global:
+
+                                             TG = +∞ .                                                      (6.8)
+
+(ii) If the forcingf is identically zero, one has
+                               { = ∥PGu0∥L2           ifν = 0,t ∈ [0, +∞  ),
+                  ∥uG(t)∥L2       ⩽ ∥PGu0∥L2e− νt   ifν> 0,t ∈ [0, +∞  ).                  (6.9)
+
+(iii) Letν ∈ [0, +∞  ). For anyf ∈C([0, +∞  ), D′Σ0) one has
+                   (                 ∫  t                      )
+   ∥uG(t)∥L2 ⩽       ∥PGu0∥L2 +                                  e− νt    fort ∈ [0, +∞  ).     (6.10)
+                                      0dseνs∥PGf(s)∥L2
+In particular, let                  ∫  +∞
+                              J :=
+                                      0 dseνs∥PGf(s)∥L2< +∞   ;                              (6.11)
+then,                              (                  )
+                   ∥uG(t)∥L2 ⩽      ∥PGu0∥L2 +J          e− νt    fort ∈ [0, +∞  ).                (6.12)
+
+ 6.5 Remark.   Letν  ∈  [0, +∞  ).  Iff  = 0 or, more generally, ifJ< +∞  , the
+previous lemma gives a bound of the type ∥uG(t)∥L2  ⩽ const. e− νt.   This fact,
+
+
+                                                   22
+
+===== PDF PAGE 24 ; PRINTED PAGE 23 =====
+
+with the equivalence of all norms on the ﬁnite dimensional space HGΣ0, implies the
+following: for any realm,
+
+                            ∥uG(t)∥m ⩽Ume− νt    fort ∈ [0, +∞  ),                             (6.13)
+
+with a suitable constantUm ∈ [0, +∞  ) (depending on the initial datum and on the
+forcing).
+
+ 6.6 Deﬁnition.  (i) For allk ∈  Zd0,fk ∈C([0, +∞  ), Cd) andu0k ∈  Cd are the
+Fourier components of the forcing and the initial datum: f(t)  =  ∑k∈Zd0fk(t)ek,
+u0 = ∑k∈Zd0u0kek.
+(ii) Fork ∈G,γGk ≡γk ∈C1([0, +∞  ), Cd) are the Fourier components ofuG:
+
+                                       uG(t) = ∑      γk(t)ek.                                            (6.14)
+                                                 k∈G
+
+(Note the relations     fk =f− k,k•fk = 0, and the analogous relations foru0k,γk.)   ♦
+
+Let us review a well known fact.
+
+ 6.7 Proposition.   Under the correspondenceuG  ↦→    (γk),  Eq.   (6.7) foruG  is
+equivalent to the following problem: ﬁnd a family of functionsγk ∈C1([0, +∞  ), Cd)
+(k ∈G) such that
+    dγk                             ∑[γh•(k −h)]Lkγk− h +fk,   γ k(0) =u0k     (6.15)
+     dt  = −ν|k|2γk −   i(2π)d/  2   h∈G
+
+(intendingγk− h(t) := 0 ifk −h ̸∈G; recall that Lk is the orthogonal projection of
+Cd ontok⊥ ).  A family of functionsγk (k ∈G) fulﬁlling Eqs. (6.15) automatically
+possesses the properties      γk =γ− k andk•γk = 0.
+Proof. Clearly, Eq. (6.7) is equivalent to
+    ( duG)
+
+        dt    k =ν(∆uG)k +P(uG,u G)k +fk,         (uG)k(0) =u0k        fork ∈G ;
+
+making explicit the above Fourier components via Eq. (2.23), we obtain Eqs. (6.15).
+Let us show that Eqs.  (6.15) imply           γk =γ− k andk•γk = 0.  The ﬁrst implication
+is proved noting that the functions (γk)k∈G and (γ− k)k∈G are solutions of the same
+Cauchy problem.   The second  implication follows noting that,  for eachk  ∈ G,
+(d/dt )(k•γk) = −ν|k|2(k•γk) and (k•γk)(0) = 0; the solution of this Cauchy problem
+is identically zero.                                                                                                            □
+The Galerkin solutions in the general framework for approximate solu-
+tions.  From now on we stick to the framework of the previous sections, i.e.:  we
+
+                                                  23
+
+===== PDF PAGE 25 ; PRINTED PAGE 24 =====
+
+consider the Sobolev spaces of ordersn,n +1,n +2, for a ﬁxedn ∈ (d/ 2+1, +∞  );
+as in (3.2)–(3.4), we choose a viscosityν ∈ [0, +∞  ), a forcingf ∈C([0, +∞  ), HnΣ0)
+and an initial datumu0 ∈  Hn+2Σ0  ; we consider the Euler/NS Cauchy problem (3.5).
+Having ﬁxed a set of modesG as in (6.1), we regard the corresponding Galerkin
+solutionuG as an approximate solution of the Euler/NS Cauchy problem (3.5); our
+aim is to apply the general theory of the previous sections withua =uG.
+    The desired application requires to give growth and error estimators foruG. Of
+course, we have the tautological growth estimators
+                                                     √∑
+                          Dm(t) := ∥uG(t)∥m =                |k|2m|γk(t)|2,                          (6.16)
+                                                        k∈G
+
+to be used withm =n orm =n + 1; these are employed systematically in the
+sequel. Let us pass to the errors ofuG and their estimators.
+
+ 6.8 Lemma. (i) The Galerkin solutionuG has the datum error
+
+                        uG(0)−u0 = − (1−  PG)u0 = −    ∑                 u0kek                       (6.17)
+                                                                 k∈Zd\  G
+
+and its tautological estimator
+                                                      √   ∑
+                         δn := ∥uG(0)−u0∥n =                     |k|2n|u0k|2.                         (6.18)
+
+                                                         k∈Zd0\  G
+
+There is a rougher estimator
+
+                          ∥uG(0)−u0∥n ⩽δ′np,   δ ′np :=  ∥u0∥p|G|p− n,                          (6.19)
+
+wherep is any real number such thatp ⩾n,u0 ∈ HpΣ0.
+(ii) The diﬀerential error ofuG is
+
+                        e(uG) = − (1−  PG)P(uG,u G)−  (1− PG)f ;                       (6.20)
+
+the Fourier representation of the above summands is
+
+                                    (1−  PG)f =   ∑          fkek ;                                       (6.21)
+
+                                                     k∈Zd0\  G
+
+                                (1−  PG)P(uG,u G) = ∑            pkek,                                  (6.22)
+                                                           k∈dG
+
+
+                                                  24
+
+===== PDF PAGE 26 ; PRINTED PAGE 25 =====
+
+      dG := (G+G)\(G∪{0}),   p k := −  i                         ∑[γh•(k −h)]Lkγk− h.
+                                                        (2π)d/  2h∈G
+
+(In the above:G+G := {p+q|p,q  ∈G}; \is the usual set-theoretical diﬀerence;
+again, we intendγk− h := 0 ifk −h ̸∈G.)
+(iii) The above terms ine(uG) have norms
+                                                 √   ∑
+                            ∥(1− PG)f∥n =                  |k|2n|fk|2,                               (6.23)
+
+                                                    k∈Zd0\  G
+                                                       √  ∑
+                        ∥(1− PG)P(uG,u G)∥n =                  |k|2n|pk|2 ;                        (6.24)
+                                                          k∈dG
+these admit the bounds
+                                   ∥(1− PG)f∥n ⩽  ∥f∥p|G|p− n,                                        (6.25)
+
+                      ∥(1− PG)P(uG,u G)∥n ⩽ Kq|G|q− n∥uG∥q∥uG∥q+1                      (6.26)
+
+where:p is any real number such thatp ⩾n andf ∈C([0, +∞  ), HpΣ0);q is any real
+number such thatq ⩾n;Kq ∈  (0, +∞  ) is such that ∥P(v,w )∥q ⩽Kq∥v∥q∥w∥q+1∑
+for allv  ∈  HqΣ0,w  ∈  Hq+1Σ0    (of course ∥uG∥q  = √            k∈G|k|2q|γk|2, and similarly
+for ∥uG∥q+1).  Thus, a diﬀerential error estimatorǫn of ordern foruG is obtained
+setting
+
+      ǫn := ( r.h.s. of (6.24) or (6.26) )+( r.h.s. of (6.23) or (6.25)).          (6.27)
+
+Proof. (i)Eqs. (6.17)(6.18)areobvious. Eq. (6.19)followswriting∥uG(0)−u0∥n =
+∥(1− PG)u0∥n and using the inequality (6.5).
+(ii) We have
+
+ e(uG) =duGdt  −ν∆uG −  P(uG,u G)−f = PGP(uG,u G)+PGf −  P(uG,u G)−f,
+
+where the ﬁrst equality is just the deﬁnition of the diﬀerential error, and the second
+follows from (6.7); so, Eq. (6.20) is proved.
+    The Fourier representation (6.21) for (1 −  PG)f  follows immediately from the
+deﬁnition of PG.   To derive the representation (6.22) for (1 −  PG)P(uG,u G), let
+us consider the Fourier components ofuG that we indicate in any case withγk,
+intendingγk := 0 fork ∈ Zd \G. Eq. (2.23) gives
+
+                                    P(uG,u G) = ∑        pkek,
+
+                                                    k∈Zd0
+
+                                                 25
+
+===== PDF PAGE 27 ; PRINTED PAGE 26 =====
+
+where, for anyk,pk is deﬁned following Eq.  (6.22).  On the other hand:  for each
+k ∈ Zd0,pk is a sum overh ∈G containing terms of the formγk− h; ifk ̸∈G+G, for
+allh ∈G we havek−h ̸∈G (sincek−h ∈G would implyk = (k−h)+h ∈G+G);
+k −h ̸∈G impliesγk− h = 0.  Due to the above considerations we havepk = 0 for
+k ̸∈G+G, whence
+                                 P(uG,u G) =       ∑          pkek.                                     (6.28)
+                                                k∈(G+G)\{  0}
+Application of 1−  PG removes from the above sum the terms withk ∈G; thus
+                         (1−  PG)P(uG,u G) =          ∑               pkek,                          (6.29)
+                                                    k∈(G+G)\  (G∪{0})
+in agreement with Eq. (6.22).
+(iii) Eqs.  (6.23) (6.24) are straightforward consequences of the Fourier representa-
+tions (6.21) (6.22). Eq. (6.25) follows immediately from (6.5). To infer Eq. (6.26),
+we note that (6.5) and the inequality involvingKq imply
+
+       ∥(1− PG)P(uG,u G)∥n ⩽ Kq|G|q− n∥P(uG,u G)∥q ⩽ Kq|G|q− n∥uG∥q∥uG∥q+1.
+
+Finally, Eq. (6.20) implies
+                   ∥e(uG)∥ ⩽ ∥(1−  PG)P(uG,u G)∥n +∥(1− PG)f∥n ;                 (6.30)
+binding the two summands in the right hand side via Eqs.  (6.24) or (6.26), (6.23)
+or (6.25) we obtain the estimatorǫn in (6.27).                                                            □
+
+
+ 6.9 Remarks. (i) The exact expression (6.24) for ∥(1− PG)P(uG,u G)∥n involves
+a sum over the ﬁnite setdG; for eachk ∈dG, the termpk in the above sum is itself
+a ﬁnite sum, that can be computed explicitly from the Fourier coeﬃcientsγk =γk(t)
+of the Galerkin approximate solution (assuming these ones to be known, say, from
+the numerical integrationof thesystem (6.15)). However, whenG is largethe setdG
+is typically very large, and this can make too expensive the computation of the sum
+overdG. In these cases one can use for ∥(1− PG)P(uG,u G)∥n the bound (6.26); this∑
+requires computation of ∥uG∥q = √               k∈G|k|2q|γk|2 and of ∥uG∥q+1, both of them
+less expensive since these sums are overG, rather thandG.
+(ii) We are aware that, if the Galerkin equations (6.15) are solved numerically by
+some standard method for ODEs, one does not obtain the exact solutionsγk(t)
+(k ∈G) but, rather, some approximants whose distance from theγk’s should be
+estimated on the grounds of the employed numerical scheme.   In the application
+presented in the next section,  relying on a relatively small setG of modes,  the
+intrinsic error in the numerical integration of (6.15) has been regarded as negligible;
+the situation would be diﬀerent using a much larger set of modes.                          ♦
+
+
+                                                 26
+
+===== PDF PAGE 28 ; PRINTED PAGE 27 =====
+
+7    An application of the previous framework for
+       the Galerkin method
+
+A preliminary.  In this section we frequently report the results of computations
+performed with MATHEMATICA. A formula liker =a.bcde...       must be intended
+as follows: computation of the real numberr via MATHEMATICA produces as an
+outputa.bcde , followed by other digits not reported for brevity.
+Setting up the problem. Throughout this section, we work in space dimension
+
+                                                d = 3,                                                          (7.1)
+
+with any viscosityν ∈ [0, +∞  ). We consider the Euler/NS equations on T3 with no
+external forcing, in the Sobolev framework of ordern = 3. So, the Cauchy problem
+(3.5) takes the form
+                   Findu ∈C([0,T ), H5Σ0)∩C1([0,T ), H3Σ0)   such that                  (7.2)
+                            du
+                             dt =ν∆u+P(u,u ),   u (0) =u0.
+The initial datumu0 in H5Σ0 (in fact, in HmΣ0 for any realm) is chosen of this form:
+                                      u0 =      ∑        u0kek,                                             (7.3)
+                                             k=± a, ± b, ± c
+                         a := (1, 1, 0), b  := (1, 0, 1), c  := (0, 1, 1) ;
+u0, ± a := (2π)3/  2(1, − 1, 0), u 0, ± b := (2π)3/  2(1, 0, − 1), u 0, ± c := (2π)3/  2(0, 1, − 1).
+
+Forν = 0, this initial datum has been considered by Behr, Neˇcas and Wu [2] as
+the origin of a possible blow-up for the Euler equations. More precisely, the authors
+of the cited work try a solutionu of the Euler equations in the form of a power
+seriesu(t) = ∑+∞i=0uiti, where the zero order term corresponds to the initial datum,
+andu1,u 2,...     : T3 →   R3 are determined recursively.  By a means ofC++ program,
+the authors compute the termsui fori = 1,...,      35, allowing to construct the partial
+sumsuN(t) := ∑Ni=0uiti up toN = 35.  A merely “experimental” analysis of these
+partial sums and of their H3Σ0 norms brings the authors to conjecture that the exact
+solutionu(t) of the Euler Cauchy problem blows up in H3Σ0 fort → T⋆, for some
+T⋆ ∈ (0. 32, 0. 35).
+For subsequent use, we mention that Eq. (7.3) implies
+
+                                        ∥u0∥m = √     3π32m+5                                              (7.4)
+
+for any realm. This formula gives, for example,
+
+                             ∥u0∥1 = 77. 15...,       ∥u0∥2 = 109. 1...,                                       (7.5)
+
+                                                  27
+
+===== PDF PAGE 29 ; PRINTED PAGE 28 =====
+
+                  ∥u0∥3 = 154. 3....,        ∥u0∥4 = 218. 2....,        ∥u0∥5 = 308. 6....
+Introducing our approach. In this section we propose a diﬀerent approach to the
+Euler Cauchy problem of [2], that we apply as well to the NS case; so, we consider
+the problem (7.2) (7.3), for arbitraryν ∈ [0, +∞  ).
+We refer to the general setting developed in the present paper, using the spaces HnΣ0,
+Hn+1Σ0  , Hn+2Σ0   with
+                                                 n = 3.                                                          (7.6)
+This requires, amongst else, the numerical values of two constantsK3,G3 fulﬁlling
+forn = 3 the “basic inequality” (2.24) and the “Kato inequality” (2.25). Due to the
+computations in [15] [16], these can be taken as follows:
+
+                                  K3 = 0. 323,   G 3 = 0. 438.                                      (7.7)
+
+To illustrate our setting, we start with a very elementary result.
+A simple suﬃcient condition for global existence (and exponential decay).
+According to Proposition 5.2, the solutionu of the NS Cauchy problem (7.2) (7.3)
+is global and exponentially decaying fort →   +∞  , if
+
+                                       ν ⩾G3∥u0∥3 = 67. 58...                                              (7.8)
+
+(in the last passage, we have used the numerical values in (7.5) (7.7) forG3 and
+∥u0∥3) (2).  As shown hereafter, a more reﬁned application of our setting for ap-
+proximate solutions signiﬁcantly improves the above condition: in fact, in the next
+pages, combining this setting with the Galerkin method we will be able to infer
+global existence forν ≳ 8.
+Going on in our approach:  Galerkin approximants.  The idea developed in
+thesequel, bothintheEulercase(ν = 0)andintheNScase(ν> 0), isthefollowing:
+to compute numerically the Galerkin approximate solutionuG for a suitable set of
+modesG; to construct for it error and growth estimators, in the Sobolev norms of
+orders3 or4; tosolve numerically thecontrol equations (4.30)(4.31) foranunknown
+function R3 : [0,Tc) →   [0, +∞  ). After ﬁnding the solution of this control problem,
+we can grant on theoretical grounds that the solutionu of the Euler/NS Cauchy
+problem (7.2) exists at least up to timeTc, and that ∥u(t) −uG(t)∥3 ⩽ R3(t) for
+t ∈ [0,Tc).
+
+   2For completeness, we mention a criterion for NS global existence in H1
+                                                                                 Σ0(T3), discussed in [14];
+this can be written as ν ⩾ ∥u0∥1/  0. 407, where u0 is an arbitrary initial datum in H1Σ0.  With the
+datum u0 in (7.3) (and the value of ∥u0∥1 in (7.5)), we conclude that [14] ensures global existence
+in H1Σ0 for ν ⩾ 189. 5...    .  By a known regularity theorem about NS equations [10], this result of
+global existence in H1Σ0 also implies global existence in H3Σ0; however, the condition ν ⩾ 189. 5...
+arising from the H1 setting of [14] is manifestly weaker than the condition (7.8).
+
+
+                                                    28
+
+===== PDF PAGE 30 ; PRINTED PAGE 29 =====
+
+    Our computation has been performed using Mathematica on a PC, with the
+relatively small set of 150 modes
+                            G :=S ∪−S ;        −S := {−k |k ∈S} ;                           (7.9)
+S := {(0, 0, 2), (0, 1, − 3), (0, 1, 1), (0, 1, 3), (0, 2, 0), (0, 2, 2), (0, 3, − 1), (0, 3, 1), (0, 3, 3),
+    (1, − 3, − 2), (1, − 3, 0), (1, − 3, 2), (1, − 2, − 3), (1, − 2, − 1), (1, − 2, 1), (1, − 2, 3),
+(1, − 1, − 2), (1, − 1, 2), (1, 0, − 3), (1, 0, 1), (1, 0, 3), (1, 1, − 2), (1, 1, 0), (1, 1, 2), (1, 2, − 3),
+(1, 2, − 1), (1, 2, 1), (1, 2, 3), (1, 3, − 2), (1, 3, 0), (1, 3, 2), (2, − 3, − 3), (2, − 3, − 1), (2, − 3, 1),
+(2, − 3, 3), (2, − 2, − 2), (2, − 2, 2), (2, − 1, − 3), (2, − 1, − 1), (2, − 1, 1), (2, − 1, 3), (2, 0, 0),
+(2, 0, 2), (2, 1, − 3), (2, 1, − 1), (2, 1, 1), (2, 1, 3), (2, 2, − 2), (2, 2, 0), (2, 3, − 3), (2, 3, − 1),
+(2, 3, 1), (2, 3, 3), (3, − 3, − 2), (3, − 3, 2), (3, − 2, − 3), (3, − 2, − 1), (3, − 2, 1), (3, − 2, 3),
+(3, − 1, − 2), (3, − 1, 0), (3, − 1, 2), (3, 0, − 1), (3, 0, 1), (3, 0, 3), (3, 1, − 2), (3, 1, 0), (3, 1, 2),
+            (3, 2, − 3), (3, 2, − 1), (3, 2, 1), (3, 2, 3), (3, 3, − 2), (3, 3, 0), (3, 3, 2)}.
+
+The results we present here are somehow provisional; we plan to attack the problem
+by more powerful numerical tools in a future work, using forG a larger set of modes.
+A  sketch  of  the  operations  to  be  done.   The list of such operations is the
+following:
+(i) First of all, one chooses a valueν ∈ [0, +∞  ) for the viscosity, and a ﬁnite time
+interval [0,T I) for the numerical computation of the Galerkin solution.
+(ii) TheGalerkinsolutionuG fortheset ofmodesGin(7.9)andfortheinitial datum
+u0 is foundnumerically onthe chosen timeinterval [0,T I). Moreprecisely, onesolves
+numerically the system of diﬀerential equations (6.15) for the Fourier components
+(γk)k∈G ofuG, with the initial conditionsu0k corresponding to Eq. (7.3). We recall
+(see Lemma 6.4) that the general theory of the Galerkin solutions for zero external
+forcing ensures the global existence ofuG (and its exponential decay, ifν> 0); thus,
+from a theoretical viewpoint there is no obstruction to the computation ofuG on
+any ﬁnite interval [0,T I).
+(iii)WeapplytouG on[0,T I)theframeworkofthepresentpaperfortheapproximate
+Euler/NS solutions using (we repeat it) the spaces HnΣ0, Hn+1Σ0   and Hn+2Σ0   withn = 3.
+(iv) Some important characters in our approach are the norms
+                                               √∑
+                   Dn(t) := ∥uG(t)∥n =                 |k|2n|γk(t)|2       (n = 3, 4),               (7.10)
+                                                  k∈G
+
+which can be obtained from the numerical valuesγk(t) of the Fourier components.
+Further, we need a datum error estimatorδ3 and a diﬀerential error estimatorǫ3.
+On the other hand the datum error is zero in this case, since the initial conditionu0
+
+                                                      29
+
+===== PDF PAGE 31 ; PRINTED PAGE 30 =====
+
+is in the subspace HGΣ0 spanned by the chosen set (7.9) of modes; thus, we can take
+
+                                                δ3 = 0.                                                       (7.11)
+
+As for the diﬀerential error estimator, we take the precise expression coming from
+Eqs. (6.24) (6.27) (taking into account that the forcingf is zero in this case); these
+yield the expression                          √   ∑
+                                     ǫ3(t) =           |k|6|pk(t)|2                                       (7.12)
+                                                 k∈dG
+wheredG := (G+G)\(G∪{0})andpk(t) := −i(2π)− d/  2∑h∈G[γh(t)•(k−h)]Lkγk− h(t),
+as in Eq.  (6.22).  The computation ofǫ3(t) following Eq.  (7.12) is rather expen-
+sive: the setdG consists of 929 modes and, for each one of them, one must perform
+the nontrivial computation ofpk(t).  (For these reasons, a computation with a set
+of modes much larger than theG in (7.9) would suggest to replace thisǫ3 with a
+rougher estimator, coming from Eqs. (6.26) (6.27)).
+(v) Now we consider the control equations (4.30) (4.31), taking the form
+
+                      dR3
+                       dt   = −νR3 +(G3D3 +K3D4)R3 +G3R23 +ǫ3,                    (7.13)
+                                             R3(0) = 0,                                                    (7.14)
+withK3,G 3 as in Eq.(7.7) and D3(t), D4(t),ǫ3(t) as in Eqs.   (7.10) (7.12).   The
+unknown is a function R3 ∈C1([0,Tc), [0, +∞  )), with 0<Tc ⩽TI; this is deter-
+mined numerically (with a package for self-adaptive integration, allowing to detect
+a possible blow-up of R3; in this case,Tc is the blow-up time).
+    Once we have R3, the general theory allows to state the following.
+(a) The maximal solutionu of the Euler/NS Cauchy problem (7.2) (7.3) has a
+domain containing [0,Tc), and
+
+                          ∥u(t)−uG(t)∥3 ⩽ R3(t)       fort ∈ [0,Tc)                         (7.15)
+
+(see Proposition 4.5).
+(b) Supposeν> 0, and
+
+                        (D3 +R3)(t1) ⩽ νG3        for somet1 ∈ [0,Tc).                       (7.16)
+
+Then, the solutionu of the NS Cauchy problem (7.2) is global, and
+
+           ∥u(t)∥3 ⩽        (D3 +R3)(t1)e− ν(t− t1)1−G3(D3 +R3)(t1)eν(t−t1)    fort ∈ [t1, +∞  ),               (7.17)
+
+witheν as in Eq. (5.9) (see Corollary 5.4).
+
+                                                   30
+
+===== PDF PAGE 32 ; PRINTED PAGE 31 =====
+
+Hereafter, we report the results obtained from the above scheme for some choices of
+ν.
+Case ν = 0 . First of all, the Galerkin equations (6.15) have been solved for the set
+of modes (7.9) on a time interval of lengthTI = 2.  (This required, approximately,
+15 seconds of CPU time on our machine.)  In Figures 1a, 1b and 1c we report, as
+examples, the graphs of |γk(t)|fort ∈ [0, 2), in the casesk = (1, 1, 0),k = (0, 0, 2)
+andk = (0, 1, − 3), respectively.   (Of course, we could consider many alternative
+choices, such as plotting the norms |γk(t)|for other modes, or the real parts of the
+componentsγrk(t) (r = 1, 2, 3), or the imaginary parts of the same components.) As
+a supplementary information, we mention that the graphs of |γk(t)|are identical in
+the three casesk = (1, 1, 0), (1, 0, 1), (0, 1, 1)).
+    After computing numerically all theγk(t) (fork ∈G), one obtains from Eqs.
+(7.10) and (7.12) the norms Dn(t) := ∥uG(t)∥n (n = 3, 4) and the diﬀerential error
+estimatorǫ3(t), fort ∈  [0, 2); Figures 1d and 1e report the graphs of D3(t) and
+ǫ3(t) (to give some more detail, we mention that the functions D3(t), D4(t) andǫ3(t)
+have been computed for a set of sample values oft ∈  [0, 2), and then interpolated
+by means of the MATHEMATICA algorithms.  The computation ofǫ3(t) at each
+sample valuet is rather expensive, for it involves a sum on the large setdG; the
+CPU time is about 15 seconds for eacht and, for this reason, we have used only 30
+sample values).
+    The ﬁnal step is the numerical solution of the Cauchy problem (4.30) (4.31)
+for the unknown function R3(t) (a task performed almost instantaneously by our
+PC). The MATHEMATICA self-adaptive routines for ODEs indicate a divergence
+of R3(t) fort → Tc, withTc = 0. 06666...   .  Figure 1f gives the graph of R3(t) for
+t ∈  [0,Tc).  The conclusion of these computations is the following:  the solutionu
+of the Euler Cauchy problem (7.2) (7.3) has a domain containing [0,Tc), and its
+distance fromuG is bounded by R3 on this interval.
+Some remarks on the ν = 0 case. We have already mentioned that the blow-up
+ofu(t) is conjectured in [2] fort → T⋆ ∈ (0. 32, 0. 35). The basis of this conjecture is
+an experimental analysis of the ﬁrst 35 terms in the power series (in time) solving
+formally the Cauchy problem; in principle, this analysis does not even prove exis-
+tence ofu(t) at any speciﬁed timet<T⋆. Our lower boundTc = 0. 06666...    for the
+interval of existence ofu is about 1/ 5 of the blow-up timeT⋆ suggested by [2], but it
+relies on an analytic theory for approximate solutions, their errors, etc., summarized
+by Proposition 4.5; in this sense, it is theoretically grounded.
+    Perhaps, our method could give a sensibly larger lower boundTc on the time of
+existence, when implemented witha setG ofGalerkinmodes much larger than(7.9).
+Alternatively, one could apply our theoretical framework using as an approximate
+solution the partial sumuN(t) := ∑Ni=1uiti, withN = 35 as in [2] or with a larger
+N.  Both tasks require much more expensive numerical computations (to be done
+
+
+                                                 31
+
+===== PDF PAGE 33 ; PRINTED PAGE 32 =====
+
+with more appropriate hardware and software): we plan to do this elsewhere.  One
+cannot exclude that an attack with more powerful devices could ﬁnally result into
+a theoretically grounded lower boundTc larger than the suspected blow-up timeT⋆
+of [2]; however, at present this is just a hope.
+Cases ν = 3 and ν = 7.  We use again the Galerkin solutionuG withG as in
+(7.9).   Due to the positivity ofν, all componentsγk(t) of the Galerkin solution
+decay exponentially fort  →    +∞   (recall Lemma 6.4);  the same happens of the
+norms D3(t), D4(t) and of the diﬀerential error estimatorǫ3(t), which are essential
+objects for our purposes.
+    The system (6.15)fortheGalerkincomponentsγk(t)hasbeensolved numerically
+on a time interval of lengthTI = 1 (which required a CPU time of about 15 seconds
+forν = 3, and 25 seconds forν = 7).  Subsequently, D3(t), D4(t) andǫ3(t) have
+been computed from the componentsγk(t) and Eqs.  (7.10) (7.12) (indeed, some
+interpolation hasbeen doneas inthe caseν = 0; asinthat case, forthe computation
+ofǫ3(t) we have used only 30 sample values oft in [0, 1), with a CPU time of about
+15 seconds for each one).
+    For both the above values ofν, the ﬁnal step has been the (very fast) numer-
+ical solution of the Cauchy problem (4.30) (4.31) for the unknown function R3(t).
+According to the MATHEMATICA routines for ODEs, R3(t) diverges fort → Tc,
+whereTc = 0. 09025...    forν = 3, andTc = 0. 2386...    forν = 7. We repeat that these
+results grant existence on a domain ⊃  [0,Tc) for the solutionu of the NS Cauchy
+problem (7.2) (7.3), and the bound (7.15) on this interval.
+    As examples, in Figures 2a-2f we have reported some details on computations for
+ν = 7. More precisely, Figures 2a, 2b and 2c are the graphs of |γk(t)|fort ∈ [0, 1),
+in the casesk = (1, 1, 0),k = (0, 0, 2) andk = (0, 1, − 3), respectively.   (In fact,
+the graphs of |γk(t)|fork = (1, 0, 1) andk = (0, 1, 1) are identical to the graph
+of the casek  = (1, 1, 0).)   Figures 2d and 2e are the graphs of D3(t) andǫ3(t),
+fort ∈  [0, 1).  Figure 2f gives the graph of R3(t) that, as anticipated, diverges for
+t → Tc = 0. 2386...     .
+Case ν = 8. Again, we have used the Galerkin solutionuG withG as in (7.9). All
+the componentsγk(t), the norms D3(t), D4(t) and the diﬀerential error estimator
+ǫ3(t) decay exponentially fort →   +∞  . The system (6.15) for the Galerkin compo-
+nentsγk(t) has been solved numerically on a time interval of lengthTI = 1 (which
+required a CPU time of about 25 seconds).  The forthcoming Figures 3a,3b,3c are
+the graphs of |γk(t)|fort ∈  [0, 1),k = (1, 1, 0),k = (0, 0, 2) andk = (0, 1, − 3),
+respectively. Subsequently, the norms Dn(t) (n = 3, 4) and the errorǫ3(t) have been
+computed from the componentsγk(t) and Eqs.  (7.10) (7.12) (making some inter-
+polations, as in the previous cases). Figures 2d and 2e are the graphs of D3(t) and
+ǫ3(t), fort ∈ [0, 1).
+    The ﬁnal step has been the (very fast) numerical solution of the Cauchy problem
+
+
+                                                 32
+
+===== PDF PAGE 34 ; PRINTED PAGE 33 =====
+
+(4.30) (4.31) for the unknown  function R3(t).   Diﬀerently from all the previous
+cases, the numerical solution R3(t) determined by MATHEMATICA is deﬁned on
+the whole interval [0, 1); its graph is reported in Figure 3f which suggests, via some
+extrapolation, that R3(t) should be deﬁned for allt ∈ [0, +∞  ), with R3(t) →   0+ for
+t →   +∞  ; of course, this would imply global existence for the solutionu of the NS
+Cauchy problem (7.2) (7.3).
+    However, global existence ofu can even be inferred without extrapolating the
+behavior of R3 outside the interval [0, 1). In fact, global existence is granted if the
+condition (7.16) (D3 + R3)(t1) ⩽ν/G  3 holds at any instantt1> 0; in the present
+caseν/G  3 = 18. 26...   , and the numerical computation performed in the interval [0, 1)
+shows that (7.16) is satisﬁed for anyt1 ∈ [0. 1567...,     1). In conclusion, we can take for
+granted that we have global existence for the solutionu of the NS Cauchy problem.
+Of course, ∥u(t)−ua(t)∥3 is bounded by the numerically computed function R3(t),
+fort ∈  [0, 1).  After choosing at1 ∈  [0. 1567, +∞  ), we obtain as well a bound of
+the form (5.14) for ∥u(t)∥3, which also implies ∥u(t)∥3 to vanish exponentially for
+t →   +∞  .
+    Forexample, let uschooset1 = 0. 9. WehaveD3(0. 9) = 8. 580...   × 10− 5, R3(0. 9) =
+0. 06100...   ; with the already known valueG3 = 0. 438, Eq. (5.14) gives
+
+   ∥u(t)∥3 ⩽     0. 0614e− 8(t− 0. 9)1+0. 00335e− 8(t− 0. 9) ⩽ 0. 0614e− 8(t− 0. 9)       fort ∈ [0. 9, +∞  ).     (7.18)
+
+(Here the ﬁrst inequality follows directly from (5.14), recalling thate8(t) = (1 −
+e− 8t)/ 8; the second inequality is obvious.)
+Summary of the previous results, and ﬁnal comments. Our method to treat
+the Galerkin approximantuG, withG as in (7.9), has given the following results
+about the Euler/NS Cauchy problem (7.2) (7.3).
+a)ν = 0, 3, 7: we can grant existence of the solutionu of (7.2) (7.3) on an interval
+containing [0,Tc), withTc = 0. 06666, 0. 09025, 0. 2386, respectively, for these three
+choices ofν. We have ∥u(t)−uG(t)∥3 ⩽ R3(t) fort ∈ [0,Tc), where R3 is computed
+numerically solving (4.30) (4.31) (forν = 0 andν = 7, the graph of R3 is reported
+in Figures 1f and 2f).
+b)ν  =  8:  we can grant global existence for the solutionu of (7.2) (7.3).   For
+t ∈ [0, 1) we have a bound ∥u(t)−uG(t)∥3 ⩽ R3(t), with R3 obtained again from the
+numerical solution of (4.30) (4.31); the graph of this function is reported in Figure
+3f.   Fort ∈  [0. 9, +∞  ) we have a bound of the form (7.18) on ∥u(t)∥3, decaying
+exponentially for larget.
+    By extrapolation, we are led to conjecture that results similar to (a) should be
+obtained for allν ∈  [0,ν cr), while results similar to (b) should be obtained for all
+ν ∈ [νcr, +∞  ), for someνcr ∈ (7, 8). (From a qualitative viewpoint, this is just the
+behavior described by Lemma 5.5ontheanalytical solution ofthecontrol inequality.
+
+
+                                                  33
+
+===== PDF PAGE 35 ; PRINTED PAGE 34 =====
+
+However, hereweareapplyingthecontrolequalitieswiththetautologicalgrowthand
+error estimators, given directly by the numerical solution of the Galerkin equations;
+these are more precise than the simple analytical estimators considered in the cited
+lemma.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 34
+
+===== PDF PAGE 36 ; PRINTED PAGE 35 =====
+
+20                                                                   2500
+
+                                                                     2000
+15                                                                   1500
+
+
+10                                                                   1000
+
+                                                                                       0.5           1           1.5           2
+               0.5            1            1.5            2
+                                                                     Figure  1d.        ν   =   0.     Graph  of  D3(t)   =
+Figure 1a.    ν = 0.  Graph of |γk(t)|when k =                       ∥uG(t)∥3,  for  t   ∈   [0, 2).     One  has  D3(0)   =
+(1, 1, 0), for t ∈ [0, 2).                                           154. 3...   , D3(0. 02) = 156. 4...   , D3(0. 04) = 162. 7...   ,
+                                                                     D3(0. 06) = 172. 7...    .
+
+
+   3                                                                 40000
+2.5                                                                  30000
+   2
+1.5                                                                  20000
+
+   1                                                                 10000
+0.5
+                0.5            1           1.5            2                             0.5           1          1.5           2
+
+Figure 1b.    ν = 0.  Graph of |γk(t)|when k =                       Figure 1e.   ν = 0. Graph of ǫ3(t), for t ∈ [0, 2).
+(0, 0, 2), for t ∈ [0, 2).                                           One has ǫ3(0. 02) = 9. 027...   , ǫ3(0. 04) = 36. 17...   ,
+                                                                     ǫ3(0. 06) = 81. 65...     .
+
+ 6                                                                   3000
+ 5                                                                   2500
+ 4                                                                   2000
+ 3                                                                   1500
+                                                                     1000
+ 2                                                                     500
+
+ 1
+                                                                                 0.01    0.02    0.03   0.04    0.05    0.06
+              0.5             1           1.5            2           Figure 1f.    ν = 0.  Graph of R3(t); this func-
+Figure 1c.    ν = 0.  Graph of |γk(t)|when k =                       tion diverges for t →   Tc = 0. 06666...   .   One has
+(0, 1, − 3), for t ∈ [0, 2).                                         R3(0)  =  0,  R3(0. 02)  =  0. 1439...   ,  R3(0. 04)  =
+                                                                     4. 685...   , R3(0. 06) = 182. 3...    .
+
+
+                                                              35
+
+===== PDF PAGE 37 ; PRINTED PAGE 36 =====
+
+                                                                      150
+
+ 20                                                                   125
+15                                                                    100
+
+                                                                        75
+ 10                                                                     50
+
+  5                                                                     25
+
+                                                                                    0.2        0.4       0.6        0.8          1
+             0.2        0.4        0.6        0.8         1           Figure  2d.       ν   =  7.     Graph  of  D3(t),  for
+Figure 2a.    ν = 7.  Graph of |γk(t)|when k =                        t ∈ [0, 1).  One has D3(0) = 154. 3...   , D3(0. 025) =
+(1, 1, 0), for t ∈ [0, 1).                                            109. 5...   , D3(0. 07) = 58. 40...   , D3(0. 15) = 18. 89...   ,
+                                                                      D3(0. 23) = 6. 153...    .
+                                                                         2
+
+
+0.008                                                                 1.5
+
+0.006                                                                    1
+
+0.004
+                                                                      0.5
+0.002
+
+                0.2       0.4        0.6       0.8         1                        0.2        0.4       0.6        0.8          1
+                                                                      Figure  2e.        ν   =   7.     Graph  of  ǫ3(t),  for
+Figure 2b.    ν = 7.  Graph of |γk(t)|when k =                        t  ∈   [0, 1).    One  has  ǫ3(0)  =  0,  ǫ3(0. 025)  =
+(0, 0, 2), for t ∈ [0, 1).                                            2. 024...   , ǫ3(0. 07) = 0. 5788...   ,ǫ3(0. 15) = 0. 01089...   ,
+                                                                      ǫ3(0. 23) = 1. 338...    × 10−4.
+                                                                      600
+ 1.5·10-6                                                             500
+
+1.25·10-6                                                             400
+    1·10-6                                                            300
+ 7.5·10-7                                                             200
+    5·10-7                                                            100
+ 2.5·10-7
+                     0.2      0.4      0.6      0.8        1                        0.05        0.1        0.15        0.2
+                                                                      Figure  2f.       ν   =  7.    Graph  of  R3(t);  this
+Figure 2c.    ν = 7.  Graph of |γk(t)|when k =                        function diverges for t  →    Tc  =  0. 2386...   .   One
+(0, 1, − 3), for t ∈ [0, 1).                                          has R3(0) = 0, R3(0. 07) = 2. 096...   , R3(0. 15) =
+                                                                      20. 90...   , R3(0. 23) = 265. 0...    .
+
+
+                                                              36
+
+===== PDF PAGE 38 ; PRINTED PAGE 37 =====
+
+                                                                      150
+
+ 20                                                                   125
+15                                                                    100
+
+                                                                       75
+ 10                                                                    50
+
+  5                                                                    25
+
+                                                                                   0.2        0.4        0.6        0.8         1
+             0.2        0.4       0.6        0.8          1          Figure  3d.       ν   =  8.     Graph  of  D3(t),  for
+Figure 3a.    ν = 8.  Graph of |γk(t)|when k =                       t ∈  [0, 1).  One has D3(0) = 154. 3...   , D3(0. 2) =
+(1, 1, 0), for t ∈ [0, 1).                                           6. 280...   , D3(0. 4) = 0. 2559...   , D3(0. 6) = 0. 01043...   ,
+                                                                     D3(0. 9) = 8. 580...    × 10−5...    .
+                                                                       1.5
+0.007                                                                 1.25
+0.006                                                                      1
+0.005
+0.004                                                                 0.75
+0.003                                                                  0.5
+0.002                                                                 0.25
+0.001
+                0.2       0.4        0.6       0.8         1                         0.2       0.4        0.6       0.8         1
+                                                                     Figure  3e.      ν  =  8.   Graph of ǫ3(t),  for  t  ∈
+Figure 3b.    ν = 8.  Graph of |γk(t)|when k =                       [0, 1).   One has ǫ3(0)  = 0, ǫ3(0. 023) = 1. 553...   ,
+(0, 0, 2), for t ∈ [0, 1).                                           ǫ3(0. 07)   =   0. 2844...   ,   ǫ3(0. 15)   =   0. 002638...   ,
+                                                                     ǫ3(0. 23) = 1. 593...    × 10−5.
+                                                                       6
+                                                                       5
+8·10-7                                                                 4
+
+6·10-7                                                                 3
+4·10-7                                                                 2
+                                                                       1
+2·10-7
+                                                                                  0.2        0.4       0.6        0.8          1
+                 0.2       0.4       0.6       0.8         1         Figure 3f.   ν = 8. Graph of R3(t), for t ∈ [0, 1).
+                                                                     One has R3(0) = 0, R3(0. 2) = 6. 435...   , R3(0. 4) =
+Figure 3c.    ν = 8.  Graph of |γk(t)|when k =                       2. 787...    R3(0. 6) = 0. 6503...   , R3(0. 9) = 0. 06100...   .
+(0, 1, − 3), for t ∈ [0, 1).                                         The condition (7.16) for global existence of the
+                                                                     NS Cauchy problem, i.e., (D3 + R3)(t1) ⩽ ν/G  3,
+                                                                     is satisﬁed for any t1 ∈ [0. 1567...,     1) .
+                                                              37
+
+===== PDF PAGE 39 ; PRINTED PAGE 38 =====
+
+A    Some comparison lemmas of the ˇCaplygin type
+
+Let T ∈ (0, +∞  ]; suppose we are given
+
+  ψ ∈C(R×  [0, T), R),   (s,t ) ↦→ ψ(s,t )  such that ∂ψ∂s  ∈C(R× [0, T), R) ;   (A.1)
+
+                                                s0 ∈ R.                                                        (A.2)
+Under the above assumptions, the Cauchy problem
+                               dS
+                                dt(t) =ψ(S(t),t ),         S(0) =s0.                                 (A.3)
+has a unique maximal (i.e., nonextendable) solution S ∈C1([0,T S), R). (Of course
+TS ∈ (0, T]; later on we give conditions under whichTS = T.)
+    The following is a known result, of the ˇCaplygin type: see [9] or [11].
+
+ A.1 Lemma. Suppose there is a function W ∈C([0, T), R) such that
+                    d+W
+                      dt  (t) ⩽ψ(W(t),t )   fort ∈ [0, T),         W(0) ⩽s0                 (A.4)
+(withd+/dt   the right lower Dini derivative, see Eq. (2.2)). Then
+
+                                   W(t) ⩽ S(t)    fort ∈ [0,T S).                                      (A.5)
+
+A straightforward variant of the previous result is the following.
+
+ A.2 Lemma. Suppose there is a function R ∈C([0, T), R) such that
+                    d+R
+                      dt  (t) ⩾ψ(R(t),t )    fort ∈ [0, T),         R(0) ⩾s0,                  (A.6)
+(withd+/dt   the right upper Dini derivative, see Eq. (2.3)). Then
+
+                                    R(t) ⩾ S(t) fort ∈ [0,T S).                                        (A.7)
+
+Proof.  We consider the function − R, recalling thatd+(− R)/dt   = −d+R/dt ; from
+(A.6) we infer
+               d+(− R)
+                   dt     (t) ⩽ −ψ(R(t),t )  fort ∈ [0, T),         − R(0) ⩽ −s0.            (A.8)
+On the other hand, the function − S ∈C1([0,T S), R) is the maximal solution of the
+Cauchy problem
+                         d(− S)
+                            dt   (t) = −ψ(S(t),t ),         − S(0) = −s0.                         (A.9)
+
+                                                    38
+
+===== PDF PAGE 40 ; PRINTED PAGE 39 =====
+
+Therefore, Lemma A.1 with W replaced by − R (and other obvious substitutions)
+gives
+                               − R(t) ⩽ − S(t)   fort ∈ [0,T S),
+yielding the thesis (A.7).                                                                                                □
+
+
+ A.3 Lemma.   Suppose  there  are  functions  W, R  ∈ C([0, T), R)  fulﬁlling  Eqs.
+(A.4), (A.6) respectively. Then
+
+                     TS = T,         W(t) ⩽ S(t) ⩽ R(t)   fort ∈ [0, T).                   (A.10)
+
+Proof. From Lemmas A.1 and A.2 we infer
+
+                              W(t) ⩽ S(t) ⩽ R(t) fort ∈ [0,T S) ;                              (A.11)
+
+we claim that this inequality implies
+
+                                              TS = T.                                                      (A.12)
+
+In fact, wheneverTS is ﬁnite, the nonextendability of S beyond this time implies
+that S is unbounded in any left neighborhood ofT−S ; on the other hand, if it were
+TS< T, Eq. (A.11) would ensure the boundedness of S on [0,T S).
+    Now, the combination of (A.11) and (A.12) gives the thesis (A.10).                  □
+If we forget the solution S of the Cauchy problem (A.3),  the inequality  (A.10)
+becomes W(t) ⩽ R(t) fort ∈  [0, T);  this is just the statement in Eq.   (4.23) of
+Lemma 4.3, which is thus recognized as a weaker version of Lemma A.3.
+
+B    Appendix. ProofofLemma 6.4on theGalerkin
+        approximants
+
+Letν  ∈  [0, +∞  ),f  ∈ C([0, +∞  ), D′Σ0) andu0  ∈  D′Σ0.   In the ﬁnite dimensional
+space HGΣ0, we consider the maximal solutionuG of the Cauchy problem (6.7), here
+reproduced for the reader’s convenience:
+
+                            FinduG ∈C1([0,T G), HGΣ0) such that
+
+               duG
+                dt   =ν∆uG +PGP(uG,u G)+PGf,   u G(0) = PGu0.
+For the moment, the maximal time of existenceTG is not known; one of our aims
+is to show thatTG = +∞  .  Let us proceed to prove this claim and all the other
+statements of Lemma 6.4; our arguments are divided in several steps.
+
+                                                  39
+
+===== PDF PAGE 41 ; PRINTED PAGE 40 =====
+
+Step 1 (“energy balance equation”). Everywhere on [0,T G), one has
+                        d
+                        dt ∥uG∥2L2 = 2ν⟨∆uG|uG⟩L2 +2⟨PGf|uG⟩L2.                        (B.1)
+
+In fact,               d
+                                    dt∥uG∥2L2 = 2⟨duGdt |uG⟩L2                                        (B.2)
+               = 2ν⟨∆uG|uG⟩L2 +2⟨PGP(uG,u G)|uG⟩L2 +2⟨PGf|uG⟩L2.
+On the other hand,
+
+                       ⟨PGP(uG,u G)|uG⟩L2 = ⟨P(uG,u G)|uG⟩L2 = 0 ;                       (B.3)
+
+in the ﬁrst passage above, the projection PG on HGΣ0 is omitted since we are taking
+the inner product withuG =uG(t) ∈ HGΣ0; thesecond passage reﬂects the well known
+identity ⟨P(v,w )|w⟩L2 = 0, holding for all zero mean, divergence free vector ﬁelds
+v,w  on Td suﬃciently regular to give meaning to the indicated inner product (see,
+e.g., [16], Lemma 2.3). Eqs. (B.2) (B.3) yield the thesis (B.1).
+Step 2. Everywhere on [0,T G), one has
+                       d
+                       dt ∥uG∥2L2 ⩽ − 2ν∥uG∥2L2 +2∥PGf∥L2∥uG∥L2.                        (B.4)
+
+This follows from the energy equation (B.1), combined with the inequalities
+
+         ⟨∆uG|uG⟩L2 ⩽ −∥uG∥2L2,         ⟨PGf|uG⟩L2 ⩽ ∥PGf∥L2∥uG∥L2.              (B.5)
+
+The ﬁrst of these relations follows using (2.19), withn = 0; the second one is an
+application of the Cauchy-Schwarz inequality for ⟨ | ⟩L2.
+Step 3. Everywhere on [0,T G), one has
+                            d+
+                             dt ∥uG∥L2 ⩽ −ν∥uG∥L2 +∥PGf∥L2,                               (B.6)
+withd+/dt   the upper Dini derivative.  Let us ﬁrst prove Eq.  (B.6) at a timet0 ∈
+[0,T G) such thatuG(t0) ̸= 0.  In this case, ∥uG(t)∥L2 ̸= 0 for allt in an intervalI
+containingt0; in this interval the functiont ↦→ ∥uG∥L2 isC1, and we have
+       d+                                          d
+       dt ∥uG∥L2 =ddt ∥uG∥L2 =       12∥uG∥L2      dt ∥uG∥2L2 ⩽ −ν∥uG∥L2 +∥PGf∥L2,
+
+thelast passagefollowing from(B.4). Now, consider aninstantt0 such thatuG(t0) =
+0. Due to a general result already mentioned (see the comments before Eq. (4.18)),
+we can write         d+             ⏐⏐⏐⏐t0
+                                 dt     ∥uG∥L2 ⩽ ∥duGdt  (t0)∥L2 ;
+
+
+                                                  40
+
+===== PDF PAGE 42 ; PRINTED PAGE 41 =====
+
+on the other hand, Eq.  (6.7) and the assumptionuG(t0) = 0 give (duG/dt )(t0) =
+PGf(t0), so                         ⏐⏐⏐⏐t0
+                                 d+     ∥uG∥L2 ⩽ ∥PGf(t0)∥L2 ;
+                                 dt
+this is just the thesis (B.6), at the instant under consideration.
+Step 4. One has
+                    (                ∫  t                      )
+    ∥uG(t)∥L2 ⩽      ∥PGu0∥L2 +                                   e− νt    fort ∈ [0,T G).      (B.7)
+                                       0dseνs∥PGf(s)∥L2
+Let us consider the continuous functiont ∈ [0,T G) ↦→ ∥uG(t)∥L2; due to Step 3 and
+touG(0) = PGu0, we have
+
+              d+
+               dt∥uG(t)∥L2 ⩽ψ(∥uG(t)∥L2,t ),         ∥uG(t)∥L2 = ∥PGu0∥L2           (B.8)
+where
+               ψ : R×  [0, +∞  ) →   R,   ψ (s,t ) := −νs+∥PGf(t)∥L2.             (B.9)
+On the other hand, the Cauchy problem
+
+                          dS
+                          dt(t) =ψ(S(t),t ),         S(0) = ∥PGu0∥L2                         (B.10)
+has the global solution
+               (                ∫  t                       )
+     S(t) :=    ∥PGu0∥L2 +                                   e− νt    fort ∈ [0, +∞  ).         (B.11)
+                                  0dseνs∥PGf(s)∥L2
+So, by the comparison results reviewed in the previous Appendix (see, in particular,
+Lemma A.2), we have
+
+                             ∥uG(t)∥L2 ⩽ S(t)       fort ∈ [0,T G) ;
+
+this is just the thesis (B.7).
+Step 5.  One hasTG = +∞   (which justiﬁes statement (6.8) in the lemma under
+proof).  If it wereTG< +∞  , we would have limsupt→  T−
+                                                                       G ∥uG(t)∥L2  = +∞  ; this
+would be contradicted by Eq.  (B.7), implying supt∈[0,T G)∥uG(t)∥L2 ⩽ ∥PGu0∥L2 +
+∫TG
+ 0 dseνs∥PGf(s)∥L2< +∞  .
+Step 6. Proof of statement (6.9) in the lemma, under the assumption of zero forcing.
+We use the results of Steps 1 and 4, putting thereinTG = +∞  . Forf = 0 andν = 0,
+the energy balance equation (B.1) takes the form (d/dt )∥uG∥2L2 = 0; thus,
+
+                             ∥uG(t)∥L2 = ∥uG(0)∥L2 = ∥PGu0∥L2
+
+                                                  41
+
+===== PDF PAGE 43 ; PRINTED PAGE 42 =====
+
+for allt ∈ [0, +∞  ). Forf = 0 andν> 0, Eq.(B.7) gives
+
+                                ∥uG(t)∥L2 ⩽ ∥PGu0∥L2e− νt,
+
+again fort ∈ [0, +∞  ). The above two equations correspond to the content of (6.9).
+Step 7. Proof of statements (6.10)-(6.12) in the lemma. Statement (6.10) is just Eq.
+(B.7), withTG = +∞  . Having proved (6.10), statements (6.11) (6.12) are obvious.
+
+Acknowledgments.  This work was partly supported by INdAM, INFN and by
+MIUR, PRIN 2008 Research Project ”Geometrical methods in the theory of nonlin-
+ear waves and applications”.
+
+
+References
+
+ [1] J. T.Beale, T. Kato, A. Majda, Remarks on the breakdown of smooth solutions
+     for the 3D Euler equations, Commun. Math. Phys. 94, 61-66 (1984).
+ [2] E. Behr, J. Neˇcas, H. Wu, On blow-up of solution for Euler equations, M2AN:
+     Math. Model. Numer. Anal. 35 229-238 (2001).
+ [3] S.I. Chernyshenko, P. Constantin, J.C. Robinson, E.S. Titi, A posteriori regu-
+     larity of the three-dimensional Navier-Stokes equations from numerical compu-
+     tations, J. Math. Phys. 48, 065204/10 (2007).
+ [4] M. Dashti, J.C. Robinson, An a posteriori condition on the numerical approx-
+     imation of the Navier-Stokes equations for the existence of a strong solution,
+     SIAM J. Numer. Anal. 46, 3136-3150 (2008).
+ [5] H.Fujita,T.Kato,OntheNavier-Stokesinitialvalueproblem.I,Arch.Rational
+     Mech. Anal. 16, 269–315 (1964).
+ [6] T.Kato, Nonstationary ﬂows of viscous and ideal ﬂuids in R3, J.Funct.Anal. 9,
+     296-305 (1972).
+ [7] T. Kato, Quasi-linear equations of evolution, with applications to partial diﬀer-
+     ential equations, in “Spectral theory and diﬀerential equations”, Proceedings
+     of the Dundee Symposium, Lecture Notes in Mathematics 448, 23-70 (1975).
+ [8] H. Kozono, Y. Taniuchi, Limiting case of the Sobolev inequality in BMO, with
+     applicationtotheEuler equations, Commun. Math. Phys. 214, 191–200(2000).
+
+ [9] V. Laksmikantham, S. Leela, “Diﬀerential and integral inequalities”, Volume I,
+     Academic Press, New York (1969).
+
+                                                42
+
+===== PDF PAGE 44 ; PRINTED PAGE 43 =====
+
+[10] P.G. Lemari´e-Rieusset, “Recent developments in the Navier-Stokes problem”,
+     Chapman & Hall, Boca Raton (2002).
+[11] D.S. Mitrinovic, J.E. Pecaric, A.M. Fink, “Inequalities involving functions and
+     their integrals and derivatives”, Kluwer, Dordrecht (1991).
+[12] C. Morosi, L. Pizzocchero, On approximate solutions of semilinear evolution
+     equations, Rev. Math. Phys. 16, 383-420 (2004).
+[13] C. Morosi, L. Pizzocchero, On approximate solutions of semilinear evolution
+     equationsII.Generalizations, andapplicationstoNavier-Stokes equations, Rev.
+     Math. Phys. 20, 625-706 (2008).
+[14] C.  Morosi,  L. Pizzocchero,  AnH1  setting  for the Navier-Stokes  equations:
+     Quantitative estimates, Nonlinear Anal. 74, 2398-2414 (2011).
+[15] C. Morosi, L. Pizzocchero, On the constants in a basic inequality for the Euler
+     and NS equations, arXiv: 1007.4412v2 [mathAP] (2010).
+[16] C. Morosi, L. Pizzocchero, On the constants in a Kato inequality for the Euler
+     and NS equations, arXiv:  1009.2051v1 [mathAP] (2010). To appear in Com-
+     mun. Pure Appl. Anal. .
+[17] T. Petry,  On the stability of the Abramov transfer for diﬀerential-algebraic
+     equations of index 1, SIAM J. Numer. Anal. 35, 201–216 (1998).
+[18] J.C. Robinson, W. Sadowski, Numerical veriﬁcation of regularity in the three-
+     dimensional Navier-Stokes equationsforboundedsetsofinitialdata, Asymptot.
+     Anal. 59, 39-50 (2008).
+[19] Y. Sinai, Power series for solutions of the 3D Navier-Stokes system on R3, J.
+     Stat. Phys. 121, 779–803 (2005).
+[20] R.Temam, “Navier-Stokesequations andnonlinear functionalanalysis”, SIAM,
+     Philadelphia (1983).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                43

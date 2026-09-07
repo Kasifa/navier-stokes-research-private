@@ -1,0 +1,1340 @@
+{
+  "N_definition_max_error": {
+    "array_index": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "maximum": 0.0
+  },
+  "actual_command": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B research/reverse/fixed-seed-global-screen/backend_probe.py",
+  "array_memory": {
+    "backend_attribute_array_nbytes": {
+      "initial_support": 19683,
+      "k_magnitude": 157464,
+      "k_squared": 157464,
+      "kx": 216,
+      "ky": 216,
+      "kz": 216,
+      "mask": 19683,
+      "negative_indices": 216
+    },
+    "note": "Per-array nbytes are measured directly. Attribute views can share backing storage; no sum of this list is claimed as unique or peak memory. FFT transient workspace is excluded.",
+    "one_complex_state_nbytes": 944784,
+    "one_complex_state_shape": [
+      3,
+      27,
+      27,
+      27
+    ],
+    "one_rhs_output_nbytes": 944784,
+    "two_static_states_nbytes": 1889568
+  },
+  "checks": {
+    "N_direct_definition_matches_ordered_Baa": true,
+    "a+N/8: full_nonlinearity": true,
+    "a+N/8: full_rhs": true,
+    "a: full_nonlinearity": true,
+    "a: full_rhs": true,
+    "mixed_field_detects_deleted_Leray_pressure": true
+  },
+  "config": {
+    "absolute_max_component_error_threshold": 1e-12,
+    "array_dtype": "complex128",
+    "cutoff": 8,
+    "delta_constructor_placeholder": 0.1,
+    "grid": 27,
+    "negative_control_minimum_difference": 1e-06,
+    "parameter_or_grid_scan": false,
+    "rho": 1.0,
+    "scale": 1,
+    "sparse_convention": "B_k=-i P_k sum_(p+q=k) (f_p dot q) f_q; P_0=I",
+    "sparse_sum": "all ordered positive and negative mode pairs; no truncation",
+    "static_fields": [
+      "a",
+      "a+N/8"
+    ],
+    "status": "STATIC_KERNEL_DIAGNOSTIC_NOT_NS_TRAJECTORY",
+    "time_steps": 0,
+    "timed_field": "a+N/8",
+    "timed_rhs_calls": 3,
+    "viscosity": 1.0,
+    "wall_budget_seconds": 10.0
+  },
+  "config_sha256": "2dde821df469a164c4e60ad3692d9c712c488f70cdde6b6e8172f9fee0e58a61",
+  "environment": {
+    "cpu": "Apple M5 Max",
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "logical_cpu_count": 18,
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "numpy_path": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/__init__.py",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "precision": "numpy complex128 / float64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "thread_count_note": "Environment values are recorded, not inferred actual FFT worker counts; no thread setting was changed.",
+    "thread_environment": {
+      "BLIS_NUM_THREADS": null,
+      "MKL_DYNAMIC": null,
+      "MKL_NUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_DYNAMIC": null,
+      "OMP_MAX_ACTIVE_LEVELS": null,
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    }
+  },
+  "limits": [
+    "Floating-point static diagnostic only; not a rigorous certificate.",
+    "Neither field is advanced; a+N/8 is an algebraic test field, not a new initial-datum proposal.",
+    "No continuum error estimate, NS trajectory, global regularity, or singularity conclusion.",
+    "Array nbytes records exclude ephemeral FFT workspace; process peak RSS is reported separately."
+  ],
+  "process_peak_rss": {
+    "note": "Whole-process peak, including Python/libraries; not a pure NumPy-array allocation measurement.",
+    "ru_maxrss": 60375040,
+    "unit": "bytes"
+  },
+  "result": "PASS",
+  "source_sha256": {
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/critical_packet_dynamics.py": "1978dcc97629f0b136afb136cd56ca257398358ceb38ed5364b02287e74f06fc",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/first-cycle/ALGEBRA.md": "8098e84113b10c5ce37320de15e94f33a29e8207b980fb6d62483176c3fd6dc0",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/backend_probe.py": "ed422c9684ead4c7c199e8a28d0d02115c446f964e6fb99999ff1c1124483a42"
+  },
+  "started_at_utc": "2026-09-07T15:39:27.344053+00:00",
+  "static_cases": [
+    {
+      "field": "a",
+      "full_output_support": [
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "input_nonzero_mode_count": 6,
+      "nonlinear_zero_mode": [
+        [
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "nonlinearity_error_all_grid_components": {
+        "array_index": [
+          0,
+          0,
+          26,
+          26
+        ],
+        "maximum": 4.602704400932062e-16
+      },
+      "ordered_pair_count": 36,
+      "rhs_error_all_grid_components": {
+        "array_index": [
+          0,
+          0,
+          26,
+          26
+        ],
+        "maximum": 4.602704400932062e-16
+      },
+      "unprojected_convective_negative_control_difference": {
+        "array_index": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum": 0.0
+      }
+    },
+    {
+      "field": "a+N/8",
+      "full_output_support": [
+        {
+          "coefficient_imag": [
+            0.010416666666666666,
+            -0.010416666666666668,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -2,
+            -1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.125
+          ],
+          "k": [
+            -2,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666666,
+            0.010416666666666668,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -2,
+            -1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666666,
+            0.010416666666666668,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -2,
+            1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.125
+          ],
+          "k": [
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666666,
+            -0.010416666666666668,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -2,
+            1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            0.010416666666666666,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            0.010416666666666666,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            -0.010416666666666668,
+            0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -1,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            0.010416666666666668,
+            0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            -1,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.125,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.125,
+            0.0
+          ],
+          "k": [
+            -1,
+            0,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            -0.010416666666666668,
+            -0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            1,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            0.010416666666666668,
+            -0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            1,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            0.010416666666666666,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            0.010416666666666666,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            -1,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.125,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.125,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.25
+          ],
+          "k": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            -1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.25,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.25,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.25
+          ],
+          "k": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.125,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            -0.125,
+            0.0,
+            0.0
+          ],
+          "k": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            -0.010416666666666666,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            -0.010416666666666666,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            -0.010416666666666668,
+            0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -1,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            0.010416666666666668,
+            0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            -1,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.125,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            -0.125,
+            0.0
+          ],
+          "k": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666668,
+            -0.010416666666666668,
+            -0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            1,
+            -2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            0.010416666666666668,
+            -0.010416666666666666
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            -0.010416666666666666,
+            -0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            2,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666668,
+            -0.010416666666666666,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666666,
+            0.010416666666666668,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            2,
+            -1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.125
+          ],
+          "k": [
+            2,
+            -1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666666,
+            -0.010416666666666668,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            2,
+            -1,
+            1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.010416666666666666,
+            -0.010416666666666668,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            2,
+            1,
+            -1
+          ]
+        },
+        {
+          "coefficient_imag": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            -0.125
+          ],
+          "k": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient_imag": [
+            -0.010416666666666666,
+            0.010416666666666668,
+            0.010416666666666668
+          ],
+          "coefficient_real": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "k": [
+            2,
+            1,
+            1
+          ]
+        }
+      ],
+      "input_nonzero_mode_count": 18,
+      "nonlinear_zero_mode": [
+        [
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "nonlinearity_error_all_grid_components": {
+        "array_index": [
+          1,
+          26,
+          0,
+          26
+        ],
+        "maximum": 6.661680794944617e-16
+      },
+      "ordered_pair_count": 324,
+      "rhs_error_all_grid_components": {
+        "array_index": [
+          1,
+          26,
+          0,
+          26
+        ],
+        "maximum": 6.661680794944617e-16
+      },
+      "unprojected_convective_negative_control_difference": {
+        "array_index": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "maximum": 0.25
+      }
+    }
+  ],
+  "status": "STATIC_KERNEL_DIAGNOSTIC_NOT_NS_TRAJECTORY",
+  "timing": {
+    "median_rhs_seconds": 0.0016942080110311508,
+    "note": "Three RHS evaluations on the identical static mixed array, after correctness evaluations; no time step is applied.",
+    "sample_count": 3,
+    "timed_rhs_seconds": [
+      0.0016689170151948929,
+      0.0016942080110311508,
+      0.0018296248745173216
+    ]
+  },
+  "total_script_wall_seconds_before_json_write": 0.10188679094426334,
+  "working_directory": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}

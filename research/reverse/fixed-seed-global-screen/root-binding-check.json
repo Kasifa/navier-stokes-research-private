@@ -1,0 +1,22 @@
+{
+  "scope": "Actual byte verification only; not mathematical recomputation",
+  "checker_sha256": "eee8842d00b207289404324fa7285b6ff27d53e1eabe744138c4f029dbc0544a",
+  "counts": {
+    "sources/source-hashes.json": 9,
+    "root-review-inputs.json": 26,
+    "ANALYTIC_PREFLIGHT.md": 3,
+    "ANALYTIC_INDEPENDENT_REVIEW.md": 4,
+    "FIRST_RESPONSE_BUDGET.md": 5,
+    "HYBRID_DERIVATION.md": 3,
+    "HYBRID_INDEPENDENT_REVIEW.md": 5,
+    "RESIDUAL_COST_PREFLIGHT.md": 2,
+    "COST_INDEPENDENT_REVIEW.md": 4,
+    "backend-probe-independent-run.json": 3,
+    "backend-probe-run.json": 3
+  },
+  "total": 67,
+  "unique_files": 26,
+  "independent_and_root_static_diagnostics_equal": true,
+  "all_match": true,
+  "failures": []
+}

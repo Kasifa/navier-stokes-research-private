@@ -1,0 +1,123 @@
+{
+  "schema": "reverse-source-archive-v1",
+  "acquired_at_utc": "2026-09-07T15:10:06.365761+00:00",
+  "source_url": "https://arxiv.org/pdf/1104.3832v1",
+  "title": "On approximate solutions of the incompressible Euler and Navier-Stokes equations",
+  "authors": [
+    "Carlo Morosi",
+    "Livio Pizzocchero"
+  ],
+  "version": "arXiv:1104.3832v1, 19 Apr 2011",
+  "pdf_pages": 44,
+  "printed_page_offset": "PDF physical page n>1 is printed n-1; first PDF page is title",
+  "files": [
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/morosi-pizzocchero-1104.3832v1.pdf",
+      "bytes": 493876,
+      "sha256": "ef7a15dacafad7f703ee33c24b14ff36a17c7650194438db9b69ed2ce3d75877"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/morosi-pizzocchero-1104.3832v1.txt",
+      "bytes": 113131,
+      "sha256": "87caca373dea5427feeaeafe9c2485534a8c2e2a6e775d253b6ba79d3bc5c1b3"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-07.png",
+      "bytes": 171578,
+      "sha256": "9d41e0a66b6debd9f6924d9b4e5e0ae2ebd5490089eca7e10b6f181d01fd458e",
+      "role": "source-reading-only"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-14.png",
+      "bytes": 179036,
+      "sha256": "c4a77d24e21ddfa9ee33701d9b8de8761868d3addcabd1fe15223453f4fdb738",
+      "role": "source-reading-only"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-19.png",
+      "bytes": 230677,
+      "sha256": "155f08f29f739fd8af7a593a07f603cb981a0b667435aa4ccd3faa3edc2e8bfc",
+      "role": "source-reading-only"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-27.png",
+      "bytes": 234810,
+      "sha256": "0827d9215a1b2e7d12d8f7f29d496a483d4941d96c8116d8e7052a64a87cb6fc",
+      "role": "source-reading-only"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-28.png",
+      "bytes": 194938,
+      "sha256": "120883ef3acd463d8b1ba2a392c1c4ac12b42347d6e2582063400c4d74516bbe",
+      "role": "source-reading-only"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-29.png",
+      "bytes": 238412,
+      "sha256": "054838eab18eb40a584c6ddc84bed3fbec56949390ab1d6d98176a833af0cad5",
+      "role": "source-reading-only"
+    }
+  ],
+  "extraction": "pypdf PdfReader(page).extract_text(extraction_mode=\"layout\"); page separators added",
+  "external_constant_proofs_followed": false,
+  "reviewed_at_utc": "2026-09-07T15:13:49.504342+00:00",
+  "actual_read_scope": [
+    {
+      "printed_pages": "5–8",
+      "sections": "§2 torus, Fourier basis, homogeneous Sobolev norms, Leray, (2.19), (2.24)–(2.25)"
+    },
+    {
+      "printed_pages": "8–10",
+      "sections": "§3 datum/solution regularity, local existence/continuation references, Definition3.4 residual and data error"
+    },
+    {
+      "printed_pages": "10–14",
+      "sections": "§4 full error equation, Lemma4.2 proof including zero error, comparison statement, Proposition4.5 and proof, control ODE"
+    },
+    {
+      "printed_pages": "15–18",
+      "sections": "§5 zero-approximation logistic comparison, Lemma5.1, Proposition5.2, Corollaries5.3–5.4 and proofs; later Lemma5.5 not reviewed"
+    },
+    {
+      "printed_pages": "21–26",
+      "sections": "§6 Galerkin residual, Fourier tail, Lemma6.8 and proof, Remark6.9(ii) numerical error qualification"
+    },
+    {
+      "printed_pages": "27–33",
+      "sections": "§7 fixed BNW initial datum, norm convention, stated constants, finite Galerkin estimator setup, sampling/interpolation and viscosity examples; figures not used as numerical evidence"
+    },
+    {
+      "printed_pages": "38–39",
+      "sections": "Appendix A comparison statements and A.2/A.3 proof; external A.1 sources not followed"
+    },
+    {
+      "printed_pages": "42–43",
+      "sections": "reference entries for cited prerequisite/constant papers only; no linked originals read"
+    }
+  ],
+  "visually_read_pdf_pages": [
+    7,
+    14,
+    19,
+    27,
+    28,
+    29
+  ],
+  "visual_purpose": "Source-page formula/readability checks only; no local scientific figure, plotted computation, or copied figure result.",
+  "extraction_warning": "pypdf reported rotated text, so extraction is not represented as fully faithful; key formulas/initial data/numerical-error qualification were checked on rendered original pages.",
+  "new_pde_or_ode_numerical_runs": false,
+  "new_external_originals": [
+    "arXiv:1104.3832v1"
+  ],
+  "not_read_external_originals": [
+    "arXiv:1007.4412v2 [15], basic-inequality constants",
+    "arXiv:1009.2051v1 [16], Kato-inequality constants",
+    "BNW [2]",
+    "other references cited as prerequisites by the reviewed paper"
+  ],
+  "local_contract": {
+    "path": "research/reverse/fixed-seed-global-screen/CONTRACT.md",
+    "bytes": 2389,
+    "sha256": "5ed4bdb7c458a720f48ee9e3ec3206153280df8101e23b3852bb13097c334f9e"
+  }
+}

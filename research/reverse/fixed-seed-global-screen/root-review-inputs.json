@@ -1,0 +1,135 @@
+{
+  "scope": "Root actually read these mathematical inputs and source pages. Byte bindings only; not a numerical certificate.",
+  "files": [
+    {
+      "path": "research/reverse/fixed-seed-global-screen/CONTRACT.md",
+      "bytes": 2389,
+      "sha256": "5ed4bdb7c458a720f48ee9e3ec3206153280df8101e23b3852bb13097c334f9e"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/ANALYTIC_PREFLIGHT.md",
+      "bytes": 12110,
+      "sha256": "52793f58abf5eada0b2002b4abbf9a50dc08d52012d706b4753203c9dabde6cd"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/ANALYTIC_INDEPENDENT_REVIEW.md",
+      "bytes": 9435,
+      "sha256": "19c7d308ebd2d91ce0fd4cb178709cdcf4731ed13561c4deb7c9bfdbce1f47d0"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/FIRST_RESPONSE_BUDGET.md",
+      "bytes": 8076,
+      "sha256": "54cadfab1cab8a5f1e6d79854abad073655a3526042c27773ed08fb8e462aac6"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_CONTROL_CONTRACT.md",
+      "bytes": 2041,
+      "sha256": "e1c5ac5a07926de0f6e862ba8d0096b8007d73b22b3d6f5c890071c781a9212d"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_DERIVATION.md",
+      "bytes": 14796,
+      "sha256": "2b1be8ad9612b10a019c4cdb43c74b7ae5f76e739d0ee572ba4decb1d3013fbc"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/SOURCE_PREFLIGHT.md",
+      "bytes": 9565,
+      "sha256": "9328d3b37fa35989149c02d9097f4c3279f5f366636c91eb1b6d79ef3c650192"
+    },
+    {
+      "path": "research/reverse/first-cycle/CONTRACT.md",
+      "bytes": 3861,
+      "sha256": "6311d166a3bba64faa3f7d1afe042535702014f0e7b2dfffa6952acb7eb68cf8"
+    },
+    {
+      "path": "research/reverse/first-cycle/ALGEBRA.md",
+      "bytes": 10586,
+      "sha256": "8098e84113b10c5ce37320de15e94f33a29e8207b980fb6d62483176c3fd6dc0"
+    },
+    {
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "bytes": 14336,
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-hashes.json",
+      "bytes": 5019,
+      "sha256": "9e362eb0d6521dc23cd556afb0e3d3aa5bd5a566b1439b8be5346b1296f69cc7"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/morosi-pizzocchero-1104.3832v1.pdf",
+      "bytes": 493876,
+      "sha256": "ef7a15dacafad7f703ee33c24b14ff36a17c7650194438db9b69ed2ce3d75877"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/morosi-pizzocchero-1104.3832v1.txt",
+      "bytes": 113131,
+      "sha256": "87caca373dea5427feeaeafe9c2485534a8c2e2a6e775d253b6ba79d3bc5c1b3"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-07.png",
+      "bytes": 171578,
+      "sha256": "9d41e0a66b6debd9f6924d9b4e5e0ae2ebd5490089eca7e10b6f181d01fd458e"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-14.png",
+      "bytes": 179036,
+      "sha256": "c4a77d24e21ddfa9ee33701d9b8de8761868d3addcabd1fe15223453f4fdb738"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-19.png",
+      "bytes": 230677,
+      "sha256": "155f08f29f739fd8af7a593a07f603cb981a0b667435aa4ccd3faa3edc2e8bfc"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-27.png",
+      "bytes": 234810,
+      "sha256": "0827d9215a1b2e7d12d8f7f29d496a483d4941d96c8116d8e7052a64a87cb6fc"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-28.png",
+      "bytes": 194938,
+      "sha256": "120883ef3acd463d8b1ba2a392c1c4ac12b42347d6e2582063400c4d74516bbe"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/sources/source-page-29.png",
+      "bytes": 238412,
+      "sha256": "054838eab18eb40a584c6ddc84bed3fbec56949390ab1d6d98176a833af0cad5"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_INDEPENDENT_REVIEW.md",
+      "bytes": 9977,
+      "sha256": "2cbc394084e8a4991b8e18b6aeb90b04263aca2021d23f2ffe205e8ba22939ac"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/RESIDUAL_COST_PREFLIGHT.md",
+      "bytes": 7624,
+      "sha256": "dfc54d9be18ca0d47a5c4ea13433523327ff9f0f85691d512bdbcfeed646be4e"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/COST_INDEPENDENT_REVIEW.md",
+      "bytes": 6663,
+      "sha256": "3bc390267698153cd1960911709daf5a2b56c3a580695a72c37fb81dd8092f59"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/backend_probe.py",
+      "bytes": 11289,
+      "sha256": "ed422c9684ead4c7c199e8a28d0d02115c446f964e6fb99999ff1c1124483a42"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/backend-probe-independent-run.json",
+      "bytes": 26660,
+      "sha256": "959ee82160166a4b3c09bdf595e551b6aff5cf345f22d4a9975ed4a32a807f34"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/backend-probe-run.json",
+      "bytes": 26659,
+      "sha256": "98b5571fa234e77ce6a790284035ac74ff2c4a616baccfbc80963e6c885859ed"
+    },
+    {
+      "path": "research/critical_packet_dynamics.py",
+      "bytes": 15553,
+      "sha256": "1978dcc97629f0b136afb136cd56ca257398358ceb38ed5364b02287e74f06fc"
+    }
+  ]
+}
