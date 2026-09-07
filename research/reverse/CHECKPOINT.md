@@ -1,5 +1,9 @@
 # Reverse research checkpoint
 
+2026-09-08 最新完成项：单一 n1280 的 c̃¹*c̃² 张量块已完整验收。主 Kronecker 与盲于主结果的独立 Fraction→直接有序对算法都实际完成，24127744 个有序对覆盖全部35937复输出。根逐29472中心、71874输出及29472舍入见证比较，M/δ全和也相同，六个内存负对照全拒。Rawls最终非作者审查PASS；根全文读终审和最后记录核对源码，实际核46项绑定。读 KRONECKER_COMPLETE_OUTCOME.md、KRONECKER_COMPLETE_FINAL_REVIEW.md、kronecker-independent-agreement.json；该块科学核和比较均不再重跑。主/独立科学源为7943df9127f28ceda67cffcc9b60311ec1f635c1、49bf28aad70bdcb4adde2fd2cccc0e6b84544f1c，最终墙钟1.628/2.784秒。仍只认证同一96位中心的一项张量，完整残差和原NS结论未付。
+
+下一已开工项：FULL_NODAL_RESIDUAL_CONTRACT.md 已由Pascal写完，根全文读并核公式；核心 V=sQP²L+iDN 与二阶范数消分母公式原由根提出，不将根复读冒充完全非作者审查。Rawls现在独立审这个新数学合同，先读其实际审查再继续；不重复派活。它仅限同一n1280的完整r₀/r₂双边界，复用已验T¹²与中心，另五张量、原精确斜率、完整Leray和线性/非线性相消都须支付。根号精度、源码、资源预算尚未锁定，没有新完整节点计算；不自动增加节点/参数/时间段或全窗扫描。当前NO-CERTIFICATE-YET-FOR-FIXED-a，持续研究授权和active目标保持，无常规确认依赖。本段覆盖下方未完成的旧叙述。
+
 2026-09-08 当前实际进展：固定 n1280 的 96 位中心 c̃¹*c̃² 完整整数卷积主块已在源 7943df9127f28ceda67cffcc9b60311ec1f635c1 完成；三次一般整数乘法、35937 复输出，最终 1.627862584 秒、RSS 87228416 字节、目录 5813537 字节。Rawls 已审科学路径/数学接口/结果与实际记录 PASS；根全文读并核 27 项绑定。读 KRONECKER_PRIMARY_COST_OUTCOME.md、KRONECKER_PRIMARY_RESULT_REVIEW.md 和 trial-02/run.json。主成功核不重跑。E₀<10⁻²³、E₂<8·10⁻²¹ 只属输入扰动，完整残差尚未计算。
 
 首次 trial-01 在清单 SHA 字符串漏抄 56a 后被第一道认证拒绝，未加载节点或计算乘法；失败记录保持。KRONECKER_STARTUP_RECOVERY.md 和独立恢复审查明确只修正该 pin 与新输出目录，三原输入未变。正确 manifest SHA 为 5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd；不要再从旧新块合同中的 61 字符错串复制。此恢复不允许科学失败或超限后自动重试。

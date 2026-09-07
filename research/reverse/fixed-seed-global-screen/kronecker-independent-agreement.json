@@ -1,0 +1,108 @@
+{
+  "comparison": {
+    "E0": [
+      "514514400965273181896024160932929799622703143385036002575967530668420714730692880918987269400644357998524448482109569",
+      "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+    ],
+    "E2": [
+      "514514400965273181896024160932929799622703143385036002575967530668420714730692880918987269400644357998524448482109569",
+      "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+    ],
+    "M_from_independent_witnesses": [
+      "2230910627993578574243105217351362653694309800951327755527",
+      "440447883505179256852362690216140157468191188700343828480"
+    ],
+    "center_scalars_equal": 29472,
+    "complex_outputs_equal": 35937,
+    "delta_from_independent_witnesses": [
+      "1310978451444758215901001919909778307506752577",
+      "38742205547461893218272904290486295504448948546423633659433643828838400"
+    ],
+    "ordered_pairs_independently_executed": 24127744,
+    "rounding_witnesses_checked": 29472,
+    "tensor_scalars_equal": 71874,
+    "ties": 0
+  },
+  "independent_source_commit": "49bf28aad70bdcb4adde2fd2cccc0e6b84544f1c",
+  "input_sha256": {
+    "C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
+    "KRONECKER_BLOCK_CONTRACT.md": "d8077701b347d35045d7f59ab39669a9e6bf07f6753db386e3d052dc8ab5ada3",
+    "KRONECKER_DECODING_INDEPENDENT_REVIEW.md": "16d36272c65f4e42040fcc7e79f4661a2b047d50c86dcabcf4b083281c3d82b9",
+    "KRONECKER_DIRECT_CODE_REVIEW.md": "cb14b77d627ea5bb4f2b100629e28dd78bd16d8e58119ee0e48efac872af781d",
+    "KRONECKER_DIRECT_INDEPENDENT_CONTRACT.md": "4693c1aed265dcd77a5d20b1d08eb715156d451379936cf012fdfa0749b76c12",
+    "KRONECKER_PRIMARY_RESULT_REVIEW.md": "3ac40135870e8d7c9c7581c4c9f2fa6b42094cf845fdbc620f855757f59a0829",
+    "KRONECKER_STARTUP_RECOVERY.md": "77d26c82f4a7a571543628488457e26289d96d5c2b380000944eecf407ac17bb",
+    "KRONECKER_STARTUP_RECOVERY_REVIEW.md": "38d95c2826c81995f21f1aee2b7468567c16e5b5b335b92813d59a989abb69ef",
+    "audit_kronecker_block.py": "b4d65f5a02211ff52f1a202b4e9ba25e9cee47e5a9468bb3a670aa5c381a5c08",
+    "audit_kronecker_direct_independent.py": "057951051c5aeaf6d70d2d232811fd84731a6d81f32782156fdae30b48f9a499",
+    "check_kronecker_agreement.py": "0504b93b06a8ba2237a28adf613b5e1bd9622a93a88e9f25b9a68d3119862ec0",
+    "kronecker-block-root-recovery-run.log": "2cd3068af56aef5f48500dcb6ad4acf4cd46c407e144411b39e5fd8dc6626236",
+    "kronecker-block-trial-02/c96-centers.i112le.bin": "c16d26dcbea14b63614d192da27a8b268fa49e689a02fb15499601cc1b611c9e",
+    "kronecker-block-trial-02/product-0.signed-le.bin": "c9fe217c68e9c90f1113ee014205490137bf30d20906f7f3832d5008c2f0bbff",
+    "kronecker-block-trial-02/product-1.signed-le.bin": "5d088b3151dc55a8b0d875d1937af067181c2ff24c3cb981de3ca376aef29190",
+    "kronecker-block-trial-02/product-2.signed-le.bin": "827ebd49131500fb8260dc06e921b72461de9a0a85eb7842ca8b68ca6337d3ce",
+    "kronecker-block-trial-02/run.json": "375921aff0ceae1294b7d79947d9dfeaf817ad65ce9edc6c02b9b152ac922d70",
+    "kronecker-block-trial-02/tensor12-complex.i240le.bin": "795ce995481d41b1fd4c6810101b62d37b187a268eaba992e97ef6f3f79ca0e6",
+    "kronecker-direct-independent-trial-01/centers-independent.i112le.bin": "c16d26dcbea14b63614d192da27a8b268fa49e689a02fb15499601cc1b611c9e",
+    "kronecker-direct-independent-trial-01/claim.json": "7e801f94b92adff803ba68e558338f87508233415ae14aa0c0041a5a80a718dd",
+    "kronecker-direct-independent-trial-01/progress.jsonl": "a16f7a6b878242e1169896e40ce69d301aaddc3951e89ae33bb4ae46e83dfb4b",
+    "kronecker-direct-independent-trial-01/result.json": "af998444847ef90696cc5e18fb716d60f2625748a98d2d11438e0f73b009853f",
+    "kronecker-direct-independent-trial-01/rounding-witnesses.json.gz": "637e467edbb178fa25e8f05cb5dcf9bc48a299fce2350e930153b6367007333c",
+    "kronecker-direct-independent-trial-01/run.json": "e4d54cf0690702f54029b4c36412d9d922e14a632090e5a4ac88f2e8b8e293e7",
+    "kronecker-direct-independent-trial-01/tensor12-direct.i240le.bin": "795ce995481d41b1fd4c6810101b62d37b187a268eaba992e97ef6f3f79ca0e6",
+    "kronecker-direct-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kronecker-direct-independent.stdout.log": "2322dc422a2a396807828f37fd5b9b408752be80f4e138ecc03eeba83200e43b",
+    "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+  },
+  "negative_controls": [
+    {
+      "in_memory_mutation": "center_scalar",
+      "rejected_by": "center scalar mismatch at 0"
+    },
+    {
+      "in_memory_mutation": "tensor_real",
+      "rejected_by": "tensor scalar mismatch at 0"
+    },
+    {
+      "in_memory_mutation": "tensor_imag",
+      "rejected_by": "tensor scalar mismatch at 1"
+    },
+    {
+      "in_memory_mutation": "pair_count",
+      "rejected_by": "complete ordered-pair count"
+    },
+    {
+      "in_memory_mutation": "denominator",
+      "rejected_by": "tensor denominator"
+    },
+    {
+      "in_memory_mutation": "rounding_witness",
+      "rejected_by": "witness Euclidean division"
+    }
+  ],
+  "node_reconstruction_or_convolution_reexecuted_by_checker": false,
+  "primary_source_commit": "7943df9127f28ceda67cffcc9b60311ec1f635c1",
+  "resources": {
+    "independent": {
+      "actual_directory_bytes": 2772758,
+      "archive_bytes": 2772758,
+      "including_logs_bytes": 2786482,
+      "peak_rss_bytes": 86786048,
+      "wall_seconds": 2.783710124902427
+    },
+    "primary": {
+      "actual_directory_bytes": 5813537,
+      "including_logs_bytes": 5814242,
+      "output_bytes": 5813537,
+      "peak_rss_bytes": 87228416,
+      "wall_seconds": 1.6278625840786844
+    }
+  },
+  "scope": "All scalars of one fixed dyadic tensor; witness sums independently connect M/delta. Not a full residual or NS conclusion.",
+  "source_sha256": "0504b93b06a8ba2237a28adf613b5e1bd9622a93a88e9f25b9a68d3119862ec0",
+  "status": "PASS_ACTUAL_BLIND_DIRECT_ALL_PAIR_RECONSTRUCTION_AND_COMPLETE_COMPARISON"
+}
