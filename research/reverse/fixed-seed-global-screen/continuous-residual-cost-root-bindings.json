@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ANALYTIC_REVIEW_AND_ACTUAL_INPUT_BINDINGS",
+  "scientific_kernel_executed": false,
+  "input_sha256": {
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/nodal-residual-trial-01/run.json": "1c86e99028c1d279c2beddd7f932462112814720ebc71ffb5f737256079411be",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/r073j_interval_core.py": "07e73c01443e522f1845a008b2b199a2279606ddbb585cf330163b68386e903e",
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/fft/_pocketfft.py": "09fa40a51f51d123ae72a97d829f6f5da766ff2e5c04cf979e3e6dac3a6f1521"
+  }
+}

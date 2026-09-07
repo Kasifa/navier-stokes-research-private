@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SOURCE_AND_CONTRACT_REVIEW_ONLY",
+  "scientific_execution": false,
+  "script_sha256": "5fcf49eb5c2b8faad3ca40e632de9941d819530d9fd033f04d56866b539e36cc",
+  "review_sha256": "a4e5e12cd3d16ead0bf9081ab516c6f2afbc38cd1b76ae4199b5c550ef294b55",
+  "input_sha256": {
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_DERIVATIVE_CONTRACT.md": "a53006b424c2166ad943166abca8e284138e64d31a6d07131041f9da9afa229a",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_REFINEMENT.md": "d6ab251e47d5818078f045d3f0ab7aae778e8e624c468633c360a9ed08930e01",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_INDEPENDENT_REVIEW.md": "628ced02a9107039119dcb1744a718db7e2a4b692444c9867b3c62886e39c42e",
+    "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "research/reverse/fixed-seed-global-screen/NODE_PRODUCTION_CONTRACT.md": "9f2ff230ef8a569c3b3b70f4a8de37aece19db52439227f1269fc53f183e4fb8"
+  }
+}
