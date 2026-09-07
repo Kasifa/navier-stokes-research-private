@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Review the independent derivation of the fixed profile in next-concentration/CONTRACT.md: prove full pressure Hessian covariance and an explicit C*tau^(5/2) periodic Green remainder before deciding the central residual test. No fifth gate/jet expansion of old seed.",
+  "next_action": "Read the next-concentration draft and literature boundary. Fixed radius-two path already fails the normalized global energy residual (independently checked); review center pressure covariance and strict periodic remainder separately. Do not treat this as a new self-similar mechanism or ignore the Tsai theorem boundary.",
   "resume_action": "Read driver-dominance draft and latest checkpoint; user explicitly resumed research after the recorded pause.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instruction: 恢复研究",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-GlobalPacketScreen",
-  "scientific_status": "PACKET_SCREEN_FROZEN_NEXT_PRESSURE_MATCHING_STARTED",
+  "scientific_status": "TWO_RELEASES_FROZEN_NEXT_CONCENTRATION_DRAFT_SAVED",
   "accepted": "NO-CANDIDATE for direct regeneration of the six-mode seed: known center gate, failed similarity, and conditional global-copy/self-action energy obstruction.",
   "required_files": [
     "research/reverse/route-screen/ENERGY_SCREEN.md",
@@ -21,7 +21,10 @@
     "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md",
     "research/reverse/driver-dominance/PROOF.md",
     "research/reverse/driver-dominance/freeze.json",
-    "research/reverse/next-concentration/CONTRACT.md"
+    "research/reverse/next-concentration/CONTRACT.md",
+    "research/reverse/next-concentration/DERIVATION_DRAFT.md",
+    "research/reverse/next-concentration/LITERATURE_BOUNDARY.md",
+    "research/reverse/next-concentration/central-algebra.json"
   ],
   "required_file_sha256": {
     "research/reverse/route-screen/ENERGY_SCREEN.md": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
@@ -30,7 +33,10 @@
     "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md": "ee33ce0945d16e779a8adee5c001d104753faff7d5e643781be05336f609a790",
     "research/reverse/driver-dominance/PROOF.md": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032",
     "research/reverse/driver-dominance/freeze.json": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0",
-    "research/reverse/next-concentration/CONTRACT.md": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b"
+    "research/reverse/next-concentration/CONTRACT.md": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
+    "research/reverse/next-concentration/DERIVATION_DRAFT.md": "8b80d35cb940ad4214a7aa94e62af1bdb80a2d1303ce25e90e3ee75fd4c5f299",
+    "research/reverse/next-concentration/LITERATURE_BOUNDARY.md": "11da931103f8ee41dad367f8f5c919984b5253ec79ddd49040a52c61e472bdfc",
+    "research/reverse/next-concentration/central-algebra.json": "60425d2611c409b7eb5e1d1a78de837b994e50c2d5c3653b17bf44a70339e647"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-GlobalPacketScreen",
@@ -47,7 +53,7 @@
   "current_topic": "Fixed radial-cutoff linear-strain concentration: necessary periodic-pressure residual test",
   "current_topic_directory": "research/reverse/next-concentration",
   "pending": [
-    "Independent concentration derivation in progress; proposed covariance/periodic-tail obstruction not yet accepted",
+    "Concentration DERIVATION_DRAFT.md saved and read by root; final independent review and freeze not complete. Energy and center-pressure arguments have distinct logical roles.",
     "No compatible concentration profile or iteratable regeneration mechanism accepted",
     "Uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative errors, finite total time and singularity remain open"
   ],
@@ -60,5 +66,6 @@
     "freeze_commit": "32cddf5dfa060321016e0da5ebd1c7eabd8a3278",
     "handoff_state": "SENT_ONCE_DO_NOT_RESEND"
   },
-  "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency."
+  "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
+  "platform_goal_state_last_observed": "blocked; explicit user research resume is valid, but goal API cannot set active and CUA denied control of Codex app. User must use goal-card resume for automatic goal continuation."
 }

@@ -1,0 +1,31 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "FINITE_ALGEBRA_ONLY_PRESSURE_PROOF_PENDING",
+  "S_diagonal": [
+    1,
+    2,
+    -3
+  ],
+  "D_diagonal": [
+    5,
+    -8,
+    3
+  ],
+  "trace_S": 0,
+  "trace_D": 0,
+  "trace_S_squared": 14,
+  "D_pair_S_squared": 0,
+  "D_pair_S": -20,
+  "D_Frobenius_squared": 98,
+  "inner_velocity_gradient": "tau^-1 S",
+  "inner_time_derivative_gradient": "tau^-2 S",
+  "inner_advection_gradient": "tau^-2 S^2",
+  "inner_viscous_gradient": "zero, if the cutoff curl is exactly Sy in the inner ball",
+  "necessary_pressure_test": "If tau^2 Hess p=alpha S^2+beta tr(S^2) I+error with error->0, then D:C -> -20, not zero.",
+  "limits": [
+    "No pressure covariance theorem certified in this file",
+    "No periodic Green remainder certified in this file",
+    "Not an NS solution, fixed-datum reachability proof, or singularity theorem"
+  ],
+  "reproduce": "For the listed diagonal integer arrays, use exact integer sums: trace_S=sum(S), trace_D=sum(D), trace_S_squared=sum(s*s for s in S), D_pair_S_squared=sum(d*s*s for d,s in zip(D,S)), D_pair_S=sum(d*s for d,s in zip(D,S)), D_Frobenius_squared=sum(d*d for d in D)."
+}
