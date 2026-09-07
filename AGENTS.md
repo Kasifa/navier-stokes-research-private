@@ -1,8 +1,18 @@
 # Fixed publication role and current rules
 
+## Current privacy boundary (2026-09-07)
+
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+
+- New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
+- Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
+- The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
+- Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
+- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+
 - This is the current source checkout used by the fixed `发布任务`, ID `01a06480-0532-7fd0-bdf0-57571465a2d4`. It shares a Git common directory with scientific worktrees; it is not yet the isolated public-artifact repository.
 - Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md` and `NAVIER_STOKES_WRITING_STYLE.md`. Two research directions exist and are currently paused; publication does not resume them.
-- The private-research/public-artifact migration is conditionally approved, not yet cleared to run. Do not change repository visibility, name, remotes or hosting until management has recorded verified stage checkpoints and quiescence. After clearance, execute the existing migration plan with independent public Git history and an approved artifact list.
+- The fixed publisher is authorized to complete migration under the latest confirmed historical-retention/privacy boundary. Recheck quiescence before cutover. Exact live targets and migration phase are recorded in the central target binding; governance edits are not a migration-completion claim.
 - Only this fixed task edits website content, the FIFO queue and deployment. Management may maintain role and writing rules; scientific tasks provide frozen sources and bounded editorial input without duplicate publication supervision.
 
 # Published writing style
@@ -15,18 +25,18 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Before publishing, follow the central writing guide and read the actual prose in both languages. Daily reader notes use HTML only; individually approved Frontier Results papers use HTML and PDF. Preserve historical frozen PDFs. If a paper is explicitly revised, issue a traceable new version instead of silently overwriting old HTML/PDF/source evidence.
+- Before publishing any new overview, read both languages and complete semantic/privacy approval. Keep all historical frozen proof/PDF/source bytes unchanged; new complete papers and daily readers are private.
 
 # Publishing target
 
-- Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
+- The publisher stores PRIVATE_CORE in the private source repository; only reviewed PUBLIC_PROGRESS_OVERVIEW content and fixed historical exceptions reach the independent public site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
 - A research section is complete when its result, required certificates, independent audit, literature boundary, necessary figure package, manifest and source freeze are complete. Reader pages, approved PDFs, homepage entries, deployment and online checks are separate publication conditions.
 - Each of the two research tasks sends its frozen `release_id + source commit` once. It continues only if research is authorized to run; paused tasks remain paused. Neither research task waits for or monitors publication.
 - Use only the existing task titled `发布任务` for all website and GitHub Pages work. Do not create a task per section, version, repair, or retry. The publisher owns FIFO ordering, retries, deployment waits, online verification, and `/Users/kasifa/Documents/Math/NAVIER_STOKES_PUBLICATION_QUEUE.md`.
-- Process authorized frozen research handoffs and explicitly approved maintenance through one FIFO queue, with at most one active release. Frontier Results inclusion requires the user's per-paper confirmation; research completion or arXiv preparation alone does not authorize it.
+- Process PRIVATE_CORE and PUBLIC_PROGRESS_OVERVIEW in their own FIFO lanes with one actual execution lock. Archive private freezes immediately; queue public overviews and ordinary maintenance for the next 48-hour batch. PUBLIC_PROGRESS_OVERVIEW requires distinct semantic approval; new full-paper inclusion requires explicit exception-list expansion.
 - For a compact read-only resume check, run `python3 /Users/kasifa/Documents/Math/scripts/ns_workflow_context.py publication`. At a natural checkpoint review and update the actual release, source pointers, status, outstanding items and next action first; only then use `--refresh` to bind hashes. Hash refresh alone is not review or verification.
-- Treat a cumulative recap as a milestone artifact, not a per-section requirement. Update it only after a substantial phase closure, route change, or positive theorem; an ordinary completed section publishes its own note without creating a new recap.
+- Recaps are private milestone records, not a per-section public obligation. Future public summaries require separate semantic/privacy approval and never automatically expose a completed section.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.
 
@@ -37,7 +47,7 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - Export formal figures as vector PDF and SVG plus a 600 dpi PNG. Use 85 mm for a single-column figure and 178 mm for a double-column figure unless a journal template requires something else.
 - Use neutral titles, explicit units, honest scales, restrained colors, and non-color distinctions. Inspect at final print size and in grayscale. Do not use screenshots as the archival figure when a vector or data-driven export is possible.
 - Keep exploratory plots separate from formal figures. A plot becomes a formal figure only after its data, caption, manifest, and visual QA are complete.
-- Website figures may be compressed copies, but they must link back to the same archived data and plotting source used for the paper-ready export.
+- Complete figure/data/code provenance remains in the private archive. Future public progress summaries must not export scientific figures, source data or plotting code without a separate explicit historical-exception approval.
 
 # Compute resources
 

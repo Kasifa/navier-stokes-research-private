@@ -7,6 +7,9 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { ReleasePipelineError, STAGES, runReleasePipeline } from "./release-pipeline-lib.mjs";
 
 const root = resolve(fileURLToPath(new URL("../", import.meta.url)));
+if (!process.argv.includes("--status") && !process.argv.includes("--help")) {
+  throw new Error("Historical full-reader generation/publication is disabled by the private-core policy. Use ns_split_publish.py; a research freeze is not public-content authorization.");
+}
 
 function usage() {
   return `Usage: node scripts/publish-release.mjs --handoff <repo-relative.json> [options]

@@ -981,6 +981,7 @@ async function runCommitStage(root, contract, verifyExisting, allowCommit) {
 }
 
 async function runPushStage(root, contract, verifyExisting, allowPush, publicationCommit) {
+  rejectLegacySplitTransport();
   if (verifyExisting) {
     return { publicationCommit, execution: "verified-existing", outputs: {} };
   }
@@ -1006,6 +1007,7 @@ function delay(milliseconds) {
 }
 
 export async function waitForPagesDeployment(contract, publicationCommit, options = {}) {
+  rejectLegacySplitTransport();
   const timeoutMs = options.timeoutMs ?? 15 * 60 * 1000;
   const pollMs = options.pollMs ?? 10_000;
   const deadline = Date.now() + timeoutMs;
@@ -1046,6 +1048,10 @@ export async function waitForPagesDeployment(contract, publicationCommit, option
     label: "GitHub Pages deployment",
     message: `timeout waiting for ${publicationCommit}; last status ${lastSeen?.status ?? "not found"}`,
   }]);
+}
+
+function rejectLegacySplitTransport() {
+  throw new Error("Legacy source-push/independent-CI transport is permanently disabled, including when target configuration is absent. Use the fixed publisher's ns_split_publish.py with immutable source/public IDs and reviewed artifact manifests.");
 }
 
 async function verifyVisualEvidence(root, contract, publicationCommit) {
