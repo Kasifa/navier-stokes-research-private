@@ -1,10 +1,12 @@
 # Reverse research checkpoint
 
-2026-09-07。ACTIVE_FREEZE_PENDING。仅反向树 `navier-stokes-reverse`、`codex/ns-reverse`。
+2026-09-07。ACTIVE_NEXT_BOUNDED_QUESTION。仅反向树 `navier-stokes-reverse`、`codex/ns-reverse`。
 
 首轮研究已通过：固定原解有限两代模态产生及严格无限维余项；完整压力使一阶新生场对种子的主动输运为零，同一低阶目标出现于全局光滑三角负对照，指定三元组不复制。未接受可迭代奇性机制。精确问题、全证明、来源和独立审查在 `research/reverse/first-cycle/`。本轮没有图形、仿真或远程任务。
 
-下一步：提交科学源与冻结元数据，向固定发布任务一次交接PRIVATE_ARCHIVE；然后在同一初值至多下一阶完整导数中检验依赖全部三个种子组的横向混合响应。该下一项尚未执行，不属于首轮定理或冻结结果。持续研究无需等待公开窗口。
+科学源提交：90c44d1703486e3983d12b87ed54f22c8c677982。首轮RESEARCH_COMPLETE，冻结信封见 `first-cycle/freeze.json`。
+
+下一步：向固定发布任务一次交接PRIVATE_ARCHIVE；然后在同一初值至多下一阶完整导数中检验依赖全部三个种子组的横向混合响应。该下一项尚未执行，不属于首轮定理或冻结结果。持续研究无需等待公开窗口。
 
 ## 恢复授权及保留历史
 

@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "ACTIVE_FREEZE_PENDING",
+  "status": "ACTIVE_NEXT_BOUNDED_QUESTION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DUPLICATE_ENTRY_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Commit reviewed scientific package, seal freeze metadata, hand off once for PRIVATE_ARCHIVE, then bounded next mixed-response diagnostic",
+  "next_action": "Send one PRIVATE_ARCHIVE handoff, then compute at most the next full jet and test the all-three-seed mixed response",
   "resume_action": "Verify source boundaries and a full Fourier-Leray two-generation coefficient with an infinite-dimensional remainder contract",
   "forward_pause_applies": false,
   "resume_authority": "Management dispatch after independent acceptance at 2026-09-07 18:59 Asia/Shanghai",
@@ -28,5 +28,14 @@
     "research/reverse/first-cycle/certificate.json": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
     "research/reverse/first-cycle/independent-final-review.json": "3cd3b7de9e41b6b48ac4d9604a005ea2329d5b9700fe978dee3d432bac375cbf"
   },
-  "classification": "PRIVATE_CORE"
+  "classification": "PRIVATE_CORE",
+  "last_completed_release": "ReverseNS-20260907-TwoGeneration",
+  "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+  "freeze_manifest": "research/reverse/first-cycle/freeze.json",
+  "handoff_state": "READY_NOT_SENT",
+  "protocol_hashes": {
+    "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "e97a5e825e1b93792306827c6e609850a055112630cf72e22ae767d5485effd4",
+    "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
+    "AGENTS.md": "0c81fdf882073544b18ed71cedb4c18fd82432e048e25d9e55e7572d29e67ae2"
+  }
 }
