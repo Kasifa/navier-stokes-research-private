@@ -1,0 +1,139 @@
+{
+  "base_commit": "92a328c7da606027eed9df480deee2226d41f171",
+  "claims": [
+    "MI: under the explicitly listed standard periodic interfaces, a minimizing singular-initial-data sequence with first singularity times bounded below has a strongly convergent critical-norm subsequence reaching the periodic minimum.",
+    "MP: expanding tori have period-independent local energy, dissipation and time-gauged pressure bounds on the stated scale-dependent interval; the proof retains the full periodic Green kernel and summable far-pressure shells.",
+    "MQ: a hypothetical expanding-torus sequence of global suitable Leray solutions singular at the same interior point and with bounded initial homogeneous H1/2 norms has a nonzero full-space critical initial limit with norm lower semicontinuity and maximal mild lifetime between0 and1.",
+    "The fixed-torus positive-age and expanding-torus zero-age arguments complete the selected conditional initial-data compactness reduction, not candidate exclusion or general regularity."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "kind": "LOCAL_PROOF",
+      "path": "research/clay_b_minimal_initial_probe_20260907.md",
+      "scope": "MI.1-6 and explicitly listed periodic standard-theory interfaces; included in files."
+    },
+    {
+      "kind": "LOCAL_PROOF",
+      "path": "research/clay_b_expanding_torus_local_energy_20260907.md",
+      "scope": "MP.1-10, expanding-torus local estimates; included in files."
+    },
+    {
+      "kind": "STANDARD_THEORY",
+      "scope": "Rusin-Sverak: singularity stability in Proposition2.2/Lemma2.1 and critical mild theory in section3. Root previously read HTML mathematical body; this round re-read relevant section2 statements and full Lemma2.1 proof. External book dependencies not fully read or re-proved.",
+      "url": "https://arxiv.org/html/0911.0500v1"
+    },
+    {
+      "kind": "STANDARD_THEORY",
+      "scope": "Bradshaw-Tsai: Definition1.1 and Theorem1.9. Root read all six class conditions, related m-space definitions, Theorem1.7/1.9 statements and both complete section4 proofs. Theorem1.2 and other external dependencies not all re-proved; earlier MP read Lemma2.1-2.2 and proofs.",
+      "url": "https://arxiv.org/html/1907.00256v1"
+    }
+  ],
+  "dependency_commits": [],
+  "dgx": false,
+  "figure_reason": "Analytic compactness and solution-class transfer; no simulated or measured data.",
+  "files": [
+    {
+      "bytes": 10476,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_minimal_initial_probe_20260907.md",
+      "sha256": "19bfbb62908ac0e9210bf6d5f03e963ebfb26ade25147bee5b672215720eea87"
+    },
+    {
+      "bytes": 4478,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_minimal_initial_probe_audit_20260907.md",
+      "sha256": "c172a812c1fb7ab16b67a1c7bc2a17425f76ed40dccf915c56eea2b2ef577750"
+    },
+    {
+      "bytes": 8613,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_expanding_torus_local_energy_20260907.md",
+      "sha256": "83d46b607bc3f724fbd7270168201fe0ab2f68cf781309ccc95227016988ad70"
+    },
+    {
+      "bytes": 5496,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_expanding_torus_local_energy_audit_20260907.md",
+      "sha256": "e8dd4e52fe4b6bd587d879d97467aa0b476759026f301423c3bf06e35775d332"
+    },
+    {
+      "bytes": 11939,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_expanding_torus_limit_20260907.md",
+      "sha256": "d1fddb0e8f0ff64f3c9056d36942e942f09e4f734b3d5988a832e13aeae950b7"
+    },
+    {
+      "bytes": 6330,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_expanding_torus_limit_audit_20260907.md",
+      "sha256": "5874cf29f836ba7417656dc270d375b4dc919f9ca00cdf7c817672ff43fe60ac"
+    },
+    {
+      "bytes": 4105,
+      "commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+      "path": "research/clay_b_expanding_torus_limit_checkpoint_20260907.json",
+      "sha256": "536d4854f1a1f76b494fe520a4e02579456d8f457e8f1ccae42558d29d0454f6"
+    },
+    {
+      "bytes": 7801,
+      "commit": "222dd4493673215ae8e2485f9149d557fbc2f9b5",
+      "path": "research/clay_b_expanding_torus_limit_release_20260907.json",
+      "sha256": "4d42d34776a257306e233235a809ea26851e02dab2b8bebf801a1d42fcdaccf3"
+    }
+  ],
+  "freeze_commit": "222dd4493673215ae8e2485f9149d557fbc2f9b5",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "This manifest binds source-stage files at source_commit. It does not hash itself or a later dispatch receipt and does not claim archival completion. No prior scientific release or third-party paper is rearchived as a new result.",
+  "is_clay_result": false,
+  "limitations": [
+    "No actual singular datum, new unconditional regularity estimate, equality of domain thresholds, compact critical orbit, flow-invariant minimizing set, rigidity exclusion, novelty or human peer-review result.",
+    "The full-space datum is critical-space data, not automatically smooth, rapidly decaying or finite-total-energy Clay data. The extracted local-energy solution is on[0,2), not claimed extended globally or in the finite-global-energy Leray-Hopf class.",
+    "MI's periodic existence, suitability, initial-trace, continuation and comparison interfaces, full-space critical mild theory, and the cited singularity stability/weak-strong results are explicit external standard theory. Their complete dependencies were not all re-proved.",
+    "The initial nonzero conclusion is conditional and obtained only after verifying the exact local-energy class, preserving the singularity and invoking weak-strong comparison.",
+    "Prior MI/MP notes retain their historical internal-checkpoint statements unchanged. This combined package first freezes the selected transfer scope; it does not retrospectively turn prior exploratory checks into extra results."
+  ],
+  "logical_predecessor": "ClayB-HelicityStructureScope-20260907",
+  "next_research_plan": "Reevaluate a concrete original-NS rigidity input for the periodic minimal datum or Euclidean concentration candidate. Exact noncircular unproved lemmas remain admissible exploratory targets. Do not infer critical-orbit control or flow invariance from minimal initial data, repeat closed scalar/source screens, or equate extraction with exclusion. No next precise rigidity estimate is selected yet. Continue authorized research without publication or local-reader work, inspection, waiting or repeat handoffs.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_expanding_torus_limit_audit_20260907.md",
+    "limits": "AI-assisted mathematical and source-scope review, not human peer review, whole dependency certification, novelty or public privacy approval.",
+    "math": "C actual full MQ.1-12 review at0337 plus exact seven-line final delta PASS; C previously participated in initial-data/trace checks. A source/class/goal scoped review plus final delta PASS; B pressure/associated compactness scoped review plus final delta PASS. Final main d1fddb0e8f0ff64f3c9056d36942e942f09e4f734b3d5988a832e13aeae950b7.",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "pde_simulation": false,
+    "prerequisites": "MI and MP exact prior mathematical review scopes remain in their immutable audits; root read both main manuscripts and audits in full this round.",
+    "records": "B actual audit35lines5841B and checkpoint39lines4105B records QA PASS at hashes recorded in final audit; root added only the receipt paragraph afterwards.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE"
+  },
+  "recap": {
+    "reason": "Scoped conditional reduction, not a new general-regularity milestone; no public recap requested.",
+    "update_required": false
+  },
+  "release_id": "ClayB-MinimalInitialCompactnessReduction-20260907",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "CONDITIONAL REDUCTION",
+    "STANDARD THEORY INTERFACES",
+    "PROVED IN STATED SCOPE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+  "simulation": false,
+  "source_commit": "ca0ba91ca590a6e0d2bc14269dc8e3fb046086a2",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
