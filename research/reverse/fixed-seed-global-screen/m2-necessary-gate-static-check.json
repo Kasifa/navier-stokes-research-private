@@ -1,0 +1,32 @@
+{
+  "B0_computed": false,
+  "actual_tool_exit_code": 0,
+  "certificate_ready": false,
+  "command": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B research/reverse/fixed-seed-global-screen/audit_m2_necessary_gate.py --check-only",
+  "config_sha256": "e63d1f2762f84df19c9e63ae77ee327865b518602f2fb4f6f9f204146b0f5f33",
+  "files": {
+    "audit_m2_necessary_gate.py": {
+      "bytes": 23144,
+      "sha256": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd"
+    },
+    "m2-necessary-gate-static.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "m2-necessary-gate-static.stdout.log": {
+      "bytes": 4787,
+      "sha256": "6f8196a0ca457fd67b7a3af1e1dd954b0889d17807719269a0d488f5132fe9ca"
+    }
+  },
+  "fixed_pin_count": 28,
+  "producer_resource_complete": false,
+  "release_ready": false,
+  "resource_complete": false,
+  "scientific_integers_decoded": false,
+  "scientific_run_directory_exists": false,
+  "shell_redirection": "zsh set -o noclobber; fixed static stdout/stderr files",
+  "source_review_and_root_unique_run_remain_required": true,
+  "source_sha256": "a3a7cd37cf21a4322ed710bb1281908bd3332589a83d4acd7205e3f425f920cd",
+  "status": "PASS_STATIC_ONLY_NOT_SCIENTIFIC_EXECUTION",
+  "utc": "2026-09-07T21:12:09.008196+00:00"
+}
