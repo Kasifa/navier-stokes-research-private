@@ -1,0 +1,31 @@
+{
+  "release_id": "ClayB-RankOneSquaredCompactness-20260908",
+  "logical_predecessor": "ClayB-LocalDefectRegularity-20260908",
+  "privacy": "PRIVATE_CORE",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "main": "research/clay_b_rank_one_squared_compactness_20260908.md",
+  "main_sha256": "d13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b",
+  "base_commit": "5d2794c349626e6d5ec6933770228ba07b87482d",
+  "classification": "SCOPED ONE-SCALE CONDITIONAL REGULARITY / WEAK MINOR CLOSURE / HARMONIC-PRESSURE LIMIT / NO NEW UNCONDITIONAL DYNAMIC ESTIMATE / OPEN / NOT CLAY",
+  "is_clay_result": false,
+  "completed_claims": [
+    "At unit viscosity, for every finite M>0 there is epsilon(M)>0: a local suitable weak pair defined near the closure of Q1 with A(1)+E(1)+D(1)<=M and integral_Q1 dist_F(grad u,all rank<=1 matrices)^2<epsilon(M) is regular at the terminal centre. No smooth-preterminal hypothesis is used.",
+    "Strong velocity L2/L3 and weak gradient L2 compactness pass the second gradient minors distributionally. The cofactor estimate gives rank<=1 in the limit, without strong gradients or convex lower semicontinuity of the nonconvex distance.",
+    "Tracefree rank-one gradients give harmonic pressure. Its time-integrated gradient is spatially smooth and bounded on smaller fixed cylinders. The corrected velocity solves a solenoidal forced equation with an L2 right hand side.",
+    "An explicit adaptation of O'Leary's small-power truncation, not direct invocation of its pressure-gradient theorem, gives three strict integrability gains 10/3 to 15/4 to 9/2 to 21/4 and C_limit(r)<=K_u*r^(1/7), uniformly up to the backward top.",
+    "Fixed spatial Riesz decomposition has a strongly converging near part and uniformly bounded harmonic remainders. The limiting near part is also harmonic. Their uncentered pressure integral decays O(r), enabling fixed-r then n-to-infinity transfer to the original suitable solutions and a fixed CKN threshold."
+  ],
+  "open_items": [
+    "Arbitrary NS evolution producing a prescribed-centre scale with both a controlled energy/pressure cap and square-defect smaller than epsilon(M) remains unproved.",
+    "No computable epsilon(M), defect-to-radius modulus, optimal assumptions or complete novelty audit is provided.",
+    "Finite unnormalized dissipation does not automatically control r^(-1) times local dissipation or square defect. Nested-cylinder lower bounds cannot be summed as independent costs.",
+    "General unforced 3D global regularity, a singularity construction, and the Clay goal remain open."
+  ],
+  "next_action": "Investigate an actual prescribed-centre good-scale mechanism using the new RS interface. First formulate the exact singular-centre alternative: at every scale whose A+E+D is bounded by the same M, H must be at least epsilon(M). Then test whether the existing full-gradient shape-entropy estimates can convert this into a lower bound on disjoint annular or temporal costs. Read the relevant GD/SG/LK source arguments in full before combining them. Finite dissipation and nested r-sized lower bounds alone are not a contradiction; do not count a restatement of the conditional criterion as an unconditional gain. Effective thresholds and minimal-assumption/source-collision audits are separate questions. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "handoff_policy": "After the complete freeze, send once to the fixed publisher for PRIVATE_ARCHIVE only; dispatch acceptance is not archive verification. No public overview, website, local reader, attachments, push or supervision requested."
+}
