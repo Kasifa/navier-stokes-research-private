@@ -1,0 +1,127 @@
+{
+  "release_id": "ClayB-ShapeDissipationCompactness-20260908",
+  "logical_predecessor": "ClayB-RankOneSquaredCompactness-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+  "source_commit": "d59c871d6d4a3a0b13d4e1c023284e468b0c3402",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "SCOPED SHAPE-DISSIPATION CONDITIONAL REGULARITY",
+    "SLICEWISE RANK-ONE OR AFFINE COMPACTNESS",
+    "QUADRATIC-PRESSURE LIMIT AND CKN TRANSFER",
+    "NO AUTOMATIC GOOD SCALE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For every finite M, a local suitable weak pair near closure Q1 with A(1)+E(1)+D(1)<=M and Theta(grad u) in L2_t H1_x is regular at the terminal centre if integral_Q1 |grad Theta|^2<epsilon_Theta(M), where Theta(G)=d(G)G/|G|^(3/2), zero at G=0, and d is distance to all rank<=1 matrices.",
+    "For smooth-preterminal compatible gradients, Theta crosses the full zero set through (F-delta)_+ B and integral |grad Theta|^2<=(2+1/sqrt2)^2 integral Gamma. Hence sufficiently small full-gradient shape dissipation Gamma=|G| |grad(G/|G|)|^2 under the same M cap implies local regularity. This classical Gamma expression is not assigned automatically to arbitrary suitable weak solutions.",
+    "Small Theta derivatives give spatially constant slice limits after Poincare and legitimate time-dependent Fatou subsequences. Zero constant uses weak second-minor closure to give rank<=1 gradients; nonzero constant uses continuous inversion and a gradient-L2 contradiction to give affine velocity slices. A nonzero affine NS example excludes a rank-one-only conclusion.",
+    "The slice union gives tr(G^2)=beta(t), with beta measurable and bounded by the uniform slice velocity energy. Subtract p0=-beta|x|^2/6 and integrate only the harmonic pressure gradient. The corrected solenoidal equation has an L2 force including bounded -grad p0, so the already justified RS small-power bootstrap yields C_limit(r)<=K_u*r^(1/7).",
+    "Strong near-pressure convergence, harmonic q_n and pi-p0, and the quadratic p0 remainder O(r^6) permit fixed-r then n-to-infinity transfer to the original suitable solutions and a fixed unforced CKN threshold.",
+    "The normalized Theta-gradient and Gamma integrals scale as r^(-1) times their physical integrals. Singular-centre lower bounds only apply at scales satisfying the same M cap. Nested bounds are not independent costs; even valid disjoint-shell lower bounds of order r remain summable. No contradiction with finite total shape dissipation is obtained."
+  ],
+  "limitations": [
+    "Same-solution NS evolution producing an arbitrarily small prescribed-centre scale with both a common A+E+D cap and normalized Theta-gradient or Gamma below its threshold remains unproved.",
+    "Finite GD/SG/LK integrals and weak measure terminal traces do not establish cross-scale contraction, a non-summable disjoint concentration cost, or concentration exclusion.",
+    "No automatic full weak-H1 admissibility or classical Gamma definition for every suitable weak solution is claimed; the general SC-A theorem expressly requires Theta's full weak spatial derivative.",
+    "No effective epsilon(M), regularity-radius modulus, optimality, complete novelty audit, or human peer review is provided.",
+    "General unforced three-dimensional global regularity, a singularity construction, and the Clay goal remain open.",
+    "Participating AI review is not human peer review or a complete novelty certification."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_shape_dissipation_compactness_20260908.md",
+      "sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586",
+      "bytes": 15252
+    },
+    {
+      "path": "research/clay_b_shape_dissipation_compactness_audit_20260908.md",
+      "sha256": "9e0064682e5c82c394bfd4bbd258034d6acb3090ea90a0163ac815c7224bdeb1",
+      "bytes": 6080
+    },
+    {
+      "path": "research/clay_b_shape_dissipation_compactness_checkpoint_20260908.json",
+      "sha256": "2002358e0af122a6e093d44da99a483b051af80e1b654d9e68e885239ff86d16",
+      "bytes": 4837
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_rank_one_squared_compactness_20260908.md",
+      "sha256": "d13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b",
+      "bytes": 14595,
+      "source_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "bytes": 11939,
+      "source_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_full_strain_gradient_entropy_20260908.md",
+      "sha256": "1c4e89c9eccc2a17eac484946c6fdafc6aecf600d43d996193e9a16cce09f028",
+      "bytes": 15011,
+      "source_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_linear_cofactor_kato_20260908.md",
+      "sha256": "3fd124ffb95574d16a08491172a954900f7532996e10c79feb7106ee59e34018",
+      "bytes": 15553,
+      "source_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/html/math/0607114v1",
+      "title": "Gustafson-Kang-Tsai, Interior regularity criteria for suitable weak solutions of the Navier-Stokes equations",
+      "scope": "Root actual renewed reading of Definition2.1, Theorem2.2 and surrounding context. Only the unforced one-scale CKN interface is used; not a reproof of CKN or complete source audit.",
+      "whole_paper_certified": false
+    },
+    {
+      "url": "https://ejde.math.txstate.edu/Volumes/1998/12/Oleary.pdf",
+      "title": "Mike O'Leary, Pressure conditions for the local regularity of solutions of the Navier-Stokes equations, EJDE1998 No12",
+      "scope": "Previously actually read primary source and the fully re-read frozen RS12-16 explicit small-power adaptation. SC changes only the corrected equation's force by a bounded term. No new PDF copy, new full-source review count, or direct use of the original pressure-gradient theorem.",
+      "inherited_through": "research/clay_b_rank_one_squared_compactness_20260908.md",
+      "new_pdf_audit": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_shape_dissipation_compactness_audit_20260908.md",
+    "mathematical_review": "Root actual full219-line15222B manuscript readback and independent derivation, followed by three exact wording clarifications totalling30B. A and C actual complete SC1-24 reviews plus final wording checks accept219lines15252B SHA7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586, no remaining mandatory changes. C exact inverse restores original SHA5262a7414b70cfeea007ef88da50f6837fc38fef34dd134bfb1f29a5aac82e51. Participating AI reviewers, not wholly nonauthor or human.",
+    "record_review": "C actual full34-line6080B audit SHA9e0064682e5c82c394bfd4bbd258034d6acb3090ea90a0163ac815c7224bdeb1 and33-line4837B checkpoint SHA2002358e0af122a6e093d44da99a483b051af80e1b654d9e68e885239ff86d16 PASS. Strict JSON/no duplicate keys, main hash,6 claims5 open items, source and review scopes, current next action checked. Root full record readback.",
+    "structural_checks": "24 ordered unique SC tags,24 display pairs,126 inline pairs,no abnormal controls. Exact-rational bootstrap,1/7,19/20,quadratic-pressure r6,dissipation r^(-1),and affine coefficients checked. Staged whitespace PASS. Three immutable source files26169B plus four dependencies57098B verified against git-show and local bytes/hashes.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic compactness and conditional regularity theorem; no new computation or scientific figure.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Scoped conditional bridge from existing shape dissipation to regularity; no arbitrary-evolution good scale or global-regularity milestone."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "Manifest and dispatch receipt are outside immutable source-stage files. Dispatch acceptance is not archive verification. No website, public overview, local reader, counts, recap, public attachments or relaunch requested.",
+  "next_research_plan": "Test a genuine same-solution prescribed-centre good-scale mechanism now that SC-A/SC-B connect small shape dissipation to regularity. Start from the exact local full-gradient Frobenius entropy balance, retain transport, cutoff, initial/final slice and pressure-Hessian terms, and compute each term's NS scaling. Check whether any cross-scale decay or non-summable disjoint concentration cost can be derived while controlling A+E+D by a common M. Read GD and the relevant earlier local entropy/pressure-gate sources before using them; do not redo unchanged global radial or variable-axis tests as new research. Keep any uncontrolled critical term explicit. Do not repeat SC compactness or promote finite total dissipation, a weak terminal measure trace, another conditional reformulation or finite experiments to an arbitrary-evolution proof. Effective thresholds and source-collision audits are separate questions. No publication or reverse-runtime inspection."
+}
