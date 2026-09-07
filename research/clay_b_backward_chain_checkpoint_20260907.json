@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "ClayB-BackwardChainScope-20260907",
+  "privacy": "PRIVATE_CORE",
+  "role": "forward-research",
+  "authority": "The prior pause is superseded by the formal management resume dispatch after independent acceptance 2026-09-07 18:59 Asia/Shanghai. Research is currently authorized. Only a future new user pause overrides this resumption.",
+  "governance_base_commit": "f06682e85c9dfbe74e2f4df2573f63f82e7b4549",
+  "previous_scientific_checkpoint": {
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
+    "sha256": "86fbfc6009ec5f6cad6d46bb02af7ae53a40c3673a3b84a97278950736dc1dae",
+    "preserve_unchanged": true
+  },
+  "status": "reviewed-source-ready-for-private-freeze",
+  "current_question": "Can energy and viscosity replace critical-norm dependence in a uniform square-root-time total-speed bound needed for a backward-concentration-chain interface?",
+  "main_source": "research/clay_b_backward_chain_scope_20260907.md",
+  "audit": "research/clay_b_backward_chain_audit_20260907.md",
+  "checks": "research/clay_b_backward_chain_checks_20260907.json",
+  "current_result": "BCS.1-7 derives from existing FA/AJ full-NS solution family a fixed-energy fixed-viscosity counterexample to a uniform energy-only square-root-time total-speed modulus, on strictly positive windows whose age tends to zero. BCS.8-12 are an abstract conditional chain lemma and scalar non-NS example; no one fixed initial datum, mature-time bound or general regularity result.",
+  "independent_review": "C sole complete nonauthor mathematical PASS, actual main119lines8117bytes SHA256 3e67ea698dd42a0dd0cdef5f1d112558e9f3e9035a99f9758189c10f35ae481a; read FA full, AJ1-212 throughAJ15, relevant Tao interface. Not a finite-JSON or record-package review.",
+  "next_action": "Freeze the mathematically and record-reviewed PRIVATE_CORE source-interface result and hand off once for private archival. Afterwards at most one bounded source check of the already-registered original bounded-total-speed energy/mature-history dependencies; do not assume a new gain, retune norms/clocks or restart FA construction. If no new actual same-solution dynamic input is found, record NO-CANDIDATE for that interface.",
+  "mathematical_scope": [
+    "fixed unnormalized T3, fixed nu>0, fixed E0>0; full unforced NS and real meanzero smooth data",
+    "changing-data short-time counterexample only; does not disprove fixed-data terminal or fixed-positive-age estimates",
+    "abstract scalar chain is not a PDE solution; no novelty, sharpness or journal-value certification",
+    "general arbitrary-smooth-data regularity, G/R216-R217 and terminal gap OPEN / NOT CLAY"
+  ],
+  "prior_release": {
+    "release_id": "ClayB-FrequencyActivation-20260907",
+    "source_commit": "1674af0dc98825d0d0299fa69e3ae12398c3d8a0",
+    "freeze_commit": "c688fca88da5a434aac5ca46971a7d800f146b39",
+    "handoff_receipt": "research/clay_b_frequency_activation_dispatch_receipt_20260907.md",
+    "already_sent_once": true,
+    "do_not_resend": true
+  },
+  "source_stage_handoff": null,
+  "status_scope": "Reviewed source-stage snapshot before the separate freeze manifest and dispatch receipt; current continuation and handoff evidence are in the forward research resume index.",
+  "publication_scope": "PRIVATE_ARCHIVE only requested after freeze. Publisher owns archive transport and any separately reviewed 48-hour public overview; research never pushes, polls, waits or supervises.",
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap": false
+}

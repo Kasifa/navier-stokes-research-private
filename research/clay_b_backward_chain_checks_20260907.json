@@ -1,0 +1,53 @@
+{
+  "study_id": "ClayB-BackwardChainScope-20260907",
+  "privacy": "PRIVATE_CORE",
+  "classification": "FINITE ARITHMETIC ONLY",
+  "result": {
+    "arithmetic_checks": {
+      "dissipation_exponent_negative": true,
+      "energy_exponent_zero": true,
+      "finite_chain_max_lower_bound": true,
+      "finite_chain_radius_sum": true,
+      "geometric_radius_tail": true,
+      "geometric_time_steps": true,
+      "pointwise_sqrt_modulus_squared": true,
+      "rescaled_viscosity_exponent": true,
+      "speed_integral_exponent": true,
+      "speed_ratio_exponent_positive": true,
+      "sqrt_time_exponent": true,
+      "subwindows_contained": true,
+      "time_convection_match": true
+    },
+    "counts": {
+      "checks": 13,
+      "controls": 5
+    },
+    "environment": {
+      "parallelism": 1,
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "precision": "exact rational",
+      "python": "3.9.6"
+    },
+    "negative_controls": {
+      "long_window_not_contained": true,
+      "long_windows_overlap": true,
+      "ns_amplitude_does_not_preserve_energy": true,
+      "parabolic_clock_breaks_full_equation": true,
+      "radius_bound_is_not_min_bound": true
+    },
+    "scope": "Finite arithmetic and designated error controls only; not PDE, existence, limits, all interval inequalities, literature, novelty or publication certification."
+  },
+  "source_code": "from fractions import Fraction as F\nimport json, platform, sys\nchecks={}\na,b=F(3,2),F(5,2)\nchecks['energy_exponent_zero']=(2*a-3==0)\nchecks['time_convection_match']=(a+b==2*a+1)\nchecks['rescaled_viscosity_exponent']=(2-b==F(-1,2))\nchecks['speed_integral_exponent']=(a-b==-1)\nchecks['sqrt_time_exponent']=( -b/2==F(-5,4))\nchecks['speed_ratio_exponent_positive']=(a-b/2==F(1,4))\nchecks['dissipation_exponent_negative']=(2*(a+1)-3-b==F(-1,2))\nr=[F(1,2**i) for i in range(10)]\nt=[F(4,3)*x*x for x in r]\ndelta=F(1,2)\nchecks['geometric_time_steps'] = all(t[i]-t[i+1]==r[i]**2 for i in range(9))\nchecks['subwindows_contained'] = all(t[i]-delta*r[i]**2>=t[i+1] for i in range(9))\nchecks['geometric_radius_tail']=(sum(r,F(0))+2*r[-1]/2==2)\nD=t[0]-t[-1]\nS=delta*sum(r[:-1],F(0))\nchecks['finite_chain_radius_sum']=(S/delta==sum(r[:-1],F(0)))\nchecks['finite_chain_max_lower_bound']=(max(r[:-1])>=delta*D/S)\nchecks['pointwise_sqrt_modulus_squared'] = all(t[i]/r[i]**2==F(4,3) for i in range(10))\ncontrols={\n 'parabolic_clock_breaks_full_equation':(a+2!=2*a+1),\n 'ns_amplitude_does_not_preserve_energy':(2*F(1)-3!=0),\n 'long_window_not_contained':(t[0]-2*r[0]**2<t[1]),\n 'long_windows_overlap':(max(t[0]-2*r[0]**2,t[1]-2*r[1]**2)<min(t[0],t[1])),\n 'radius_bound_is_not_min_bound':(F(1,1024)<(1+F(1,1024)**2)/(1+F(1,1024)))\n}\nassert all(checks.values()) and all(controls.values())\nprint(json.dumps({'arithmetic_checks':checks,'negative_controls':controls,'counts':{'checks':len(checks),'controls':len(controls)},'environment':{'python':sys.version.split()[0],'platform':platform.platform(),'precision':'exact rational','parallelism':1},'scope':'Finite arithmetic and designated error controls only; not PDE, existence, limits, all interval inequalities, literature, novelty or publication certification.'},sort_keys=True,indent=2))\n",
+  "replay": {
+    "runs": 2,
+    "byte_identical_stdout": true
+  },
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "limitations": [
+    "Five control instances include two manifestations of the same overlong-window error; do not count them as five independent mathematical mechanisms.",
+    "No independent second implementation claimed.",
+    "Mathematical acceptance is recorded separately in the actual-file audit."
+  ]
+}
