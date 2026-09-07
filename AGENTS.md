@@ -1,5 +1,15 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Current privacy boundary (2026-09-07)
+
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+
+- New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
+- Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
+- The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
+- Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
+- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+
 This worktree is owned by the persistent task `研究任务（反向）`.
 The current workspace protocol and the user's latest instructions govern this
 worktree. Current state: PAUSED_BY_USER after “先暂停一下”. Do not resume research,
@@ -23,15 +33,15 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_WRITING_STYLE.md`; preserve mathematical scope and AI/computer-assistance disclosure. The publisher uses HTML for daily notes and HTML/PDF for individually approved Frontier Results papers; preserve historical PDFs and scientific figure archives.
+- Follow the central writing guide; preserve scope and AI disclosure. Historical readers/PDFs remain frozen; new full research material is PRIVATE_CORE.
 
 # Publishing target
 
-- Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
+- The publisher stores PRIVATE_CORE in the private source repository; only reviewed PUBLIC_PROGRESS_OVERVIEW content and fixed historical exceptions reach the independent public site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
 - A research section is complete when its result, required certificates, independent review, literature boundary, necessary figure archive, manifest and source freeze are complete. Website publication is a separate responsibility and is never a research-completion condition.
 - Only the fixed publisher receives the once-only frozen handoff and manages publication FIFO. Research tasks do not publish or wait for publication. The current user pause remains in force.
-- Treat a cumulative recap as a milestone artifact, not a per-section requirement. Update it only after a substantial phase closure, route change, or positive theorem; an ordinary completed section publishes its own note without creating a new recap.
+- Recaps are private milestone records, not a per-section public obligation. Future public summaries require separate semantic/privacy approval and never automatically expose a completed section.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.
 
@@ -42,7 +52,7 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - Export formal figures as vector PDF and SVG plus a 600 dpi PNG. Use 85 mm for a single-column figure and 178 mm for a double-column figure unless a journal template requires something else.
 - Use neutral titles, explicit units, honest scales, restrained colors, and non-color distinctions. Inspect at final print size and in grayscale. Do not use screenshots as the archival figure when a vector or data-driven export is possible.
 - Keep exploratory plots separate from formal figures. A plot becomes a formal figure only after its data, caption, manifest, and visual QA are complete.
-- Website figures may be compressed copies, but they must link back to the same archived data and plotting source used for the paper-ready export.
+- Complete figure/data/code provenance remains in the private archive. Future public progress summaries must not export scientific figures, source data or plotting code without a separate explicit historical-exception approval.
 
 # Compute resources
 
