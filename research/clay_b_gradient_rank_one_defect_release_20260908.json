@@ -1,0 +1,111 @@
+{
+  "release_id": "ClayB-GradientRankOneDefect-20260908",
+  "logical_predecessor": "ClayB-DirectionBmo-BridgeScreen-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "83ce548d30f1c3552e8cac7d674ca9a1db17dea6",
+  "source_commit": "d1547eaf2e06d4cc0eebbdb56b747b45d56b4c0c",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "PROVED IN STATED SCOPE",
+    "CONDITIONAL CONTINUATION",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For the same smooth unforced periodic NS solution, full-gradient Frobenius entropy retains the initial gradient cost and complete zero-set measure.",
+    "Row-curl compatibility controls the previously unestimated radial derivative multiplied by the distance from rank-one matrices.",
+    "For Q=|A| and d=dist_F(A,rank<=1), F=d/sqrt(Q) belongs to L-infinity_t L2_x and L2_t H1_x without a logarithmic loss; Q=0 is handled by Lipschitz truncation.",
+    "For every tracefree matrix, |S xi|<=4d when vorticity is nonzero and |omega.S.omega|<=4d|omega|^2 in all cases.",
+    "An explicit critical mixed-norm condition on d implies standard H1 continuation; the required condition is not derived from the new spatial budget.",
+    "The variable-eigenline cofactor identity preserves its cutoff costs and remains a lower-order incomplete interface."
+  ],
+  "limitations": [
+    "No arbitrary-data global regularity, singularity, novelty certification, optimal constant, human peer review or Clay solution.",
+    "The estimate controls d/sqrt(Q), not all sqrt(Q); no temporal BV or candidate-endpoint strong trace is supplied.",
+    "The paid squared defect d^2/Q cannot replace d in the pointwise stretching bound; the exact matrix check is not an NS counterexample.",
+    "The listed norm and Holder/interpolation bounds do not reach the d critical line 2/p+3/r=2.",
+    "No invariance of the full rank-one gradient class under NS is assumed.",
+    "No public overview, counts, attachment, recap, website/local reader or relaunch requested."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "bytes": 11939
+    },
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_audit_20260908.md",
+      "sha256": "2cb381c7e4037b3275141359a3e4c18166a5fc0ec7ddf1bf4584e23de98c6bec",
+      "bytes": 4968
+    },
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_checkpoint_20260908.json",
+      "sha256": "9af05f64e8ca6731f63cd4a12f835db28dbb26eb4a0732736958e459923ebac8",
+      "bytes": 2817
+    }
+  ],
+  "dependencies": [
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "83ce548d30f1c3552e8cac7d674ca9a1db17dea6",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "scope": "Classical fixed-torus pressure Hardy endpoint; no new original-source audit this turn."
+    },
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "83ce548d30f1c3552e8cac7d674ca9a1db17dea6",
+      "path": "research/clay_b_full_strain_gradient_entropy_20260908.md",
+      "sha256": "1c4e89c9eccc2a17eac484946c6fdafc6aecf600d43d996193e9a16cce09f028",
+      "scope": "Matrix Frobenius entropy, zero-set measure and previous lower-order shape/gradient budgets."
+    },
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "83ce548d30f1c3552e8cac7d674ca9a1db17dea6",
+      "path": "research/clay_b_negative_strain_cone_20260908.md",
+      "sha256": "3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46",
+      "scope": "Fixed-plane minor and isolated-line budgets; not a global variable-axis theorem."
+    },
+    {
+      "kind": "PRIMARY_SOURCE_STANDARD_CONTINUATION_INTERFACE",
+      "url": "https://arxiv.org/html/1005.4463v1",
+      "scope": "Introduction, periodic applicability, strong-solution class and Theorem1 proof's maximal-H1-interval logic only; no full-proof certification or import of the one-entry criterion."
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_gradient_rank_one_defect_audit_20260908.md",
+    "actual_main_reviews": "A and C full actual-main reviews plus final three-line scope delta, final218lines11939B SHA78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a. Both participated in modules; not wholly nonauthor/human reviewers.",
+    "record_review": "C actual38line4968B audit and37line2817B checkpoint, final deltas, strict JSON/no duplicate keys, exact hashes PASS. Root read final main/records and recomputed formulas.",
+    "structural_checks": "GD.1-16 tags,22 display pairs,inline balance,privacy and checkpoint JSON passed; staged whitespace clean. All3 source files19724B match immutable git-show bytes and SHA256, and all3 local dependencies42280B match immutable hashes. Manifest JSON/private-only scope checks passed.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "visual_render_qa": false,
+    "third_party_pdf_archived": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic proof and matrix-order check, not numerical or measured results.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Scoped positive analytic step without new unconditional critical control or a large milestone."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "The manifest and later dispatch receipt are outside the immutable source-stage file binding. Dispatch acceptance is not private archival verification.",
+  "next_research_plan": "Keep d fixed; first verify the comparison and smooth domain of a squared cofactor quotient on Q>0. After targeted PGR dedup, derive its actual NS dynamics with pressure, viscous products, normalization and zero-set terms retained. Check against GD.11; do not equate the squared quantity with d, assume rank-one invariance or restart a weight scan."
+}
