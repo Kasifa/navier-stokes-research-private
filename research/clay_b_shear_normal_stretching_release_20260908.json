@@ -1,0 +1,127 @@
+{
+  "release_id": "ClayB-ShearNormalStretching-20260908",
+  "logical_predecessor": "ClayB-LinearCofactorKato-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+  "source_commit": "50e9754708d6bf1e1d9bf4a2c37d4a10308fc7d6",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "EXACT LINEARIZED STRUCTURE",
+    "SCOPED FIRST-VARIATION CRITERION",
+    "FIXED-TIME ACTUAL-NS STRETCHING OBSTRUCTION",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "The linearized original NS gradient around a one-dimensional heat shear retains the full background-curvature term. Four normal components satisfy a closed nonlocal pressure system with an explicit background-dependent L2 Gronwall bound; their cofactor interpretation is not uniform across zero background gradient.",
+    "For one-dimensional shear, whole-cell stretching has zero first variation but a nonzero mixed quadratic variation retaining the background gradient and its derivative. A compatible periodic example realizes a positive quadratic coefficient; LK's planar pressure-production family instead has identically zero stretching.",
+    "For a rank-one transverse heat background U(y,z)e1, the first stretching variation is the pairing with (Delta U) grad U. It vanishes for all solenoidal variations exactly when its mean-zero transverse Leray projection, equivalently Jac(Delta U,U), is zero.",
+    "An explicit compatible periodic initial family has exact whole-cell stretching 12 pi^3 epsilon and integral Q d^2=O(epsilon^2). The actual common local NS evolution has stretching 12 pi^3 epsilon exp(-10 nu t)+O(epsilon^2), uniformly, so the same pure quadratic absorption fails on fixed positive-age intervals.",
+    "The intrinsic direction rewrite gives a product of the existing VB direction-dissipation factor and the still-uncontrolled integral of |u-c|^2 |omega|^3. Localizing also produces an explicit cutoff flux. This is a deduplication of costs, not a new critical bound."
+  ],
+  "limitations": [
+    "No arbitrary-data global regularity, singularity, novelty certification, human peer review or Clay solution.",
+    "The one-dimensional normal system is not the full nonlinear gradient system, is not a uniform cofactor linearization at a=0, and does not remove background-gradient coefficients.",
+    "The stretching counterexample changes initial data with epsilon. It excludes only the specified pure quadratic RHS, even with constants depending on fixed background parameters and common smoothness bounds; it does not exclude initial-data, linear-background, localization or other compensation terms.",
+    "The transverse first-variation criterion is not a classification of all rank-one gradients or a regularity theorem. Linear pressure can vanish while first-order stretching is positive.",
+    "Neither the critical d norm nor a prescribed-centre good scale has been obtained. A local critical-defect regularity lemma and arbitrary NS evolution producing its hypotheses are separate unproved tasks.",
+    "No public overview, website, local reader, counts, recap, attachments or relaunch requested."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "bytes": 15079
+    },
+    {
+      "path": "research/clay_b_shear_normal_stretching_audit_20260908.md",
+      "sha256": "3556d6d158961b63f55b7ed3f5f407a38e5ed411efc3337427c06b39ccb45245",
+      "bytes": 6119
+    },
+    {
+      "path": "research/clay_b_shear_normal_stretching_checkpoint_20260908.json",
+      "sha256": "3d48aeb7b0b403531f4a31ab16e8be348ce0f41ea287203745218d4c4faf0ef4",
+      "bytes": 4593
+    }
+  ],
+  "dependencies": [
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+      "path": "research/clay_b_linear_cofactor_kato_20260908.md",
+      "sha256": "3fd124ffb95574d16a08491172a954900f7532996e10c79feb7106ee59e34018",
+      "bytes": 15553,
+      "scope": "Full actual read: cofactor definitions and zero-set boundaries, ambient adjugate derivative, and common local strong-solution difference estimate. Its planar pressure counterexample is not a stretching counterexample."
+    },
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "bytes": 11939,
+      "scope": "Full actual read: rank-one distance to all matrices, full-gradient entropy, linear pointwise stretching bound and the conditional critical continuation interface. Critical norm not obtained."
+    },
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "source_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+      "path": "research/clay_b_vorticity_direction_budget_20260907.md",
+      "sha256": "05d84b2efc720c136d10b0c34b933b984f32270137617066b54eea847c0aa647",
+      "bytes": 8270,
+      "scope": "Full actual read: existing direction budget, initial-vorticity cost, zero-set measure and extra amplitude gap. SN.19 does not upgrade this input."
+    },
+    {
+      "kind": "FROZEN_LOCAL_DEDUPLICATION_ONLY",
+      "source_commit": "bba5d22f67e8ea5ae38a36cedf2e3f094da7897b",
+      "path": "research/r072z_report-source.md",
+      "sha256": "a0bb00acbc5c0d47d79cc1445d5b4d2a3854081eacf04300ade0dcc9f05ea237",
+      "bytes": 31257,
+      "scope": "Only sections0-2 were read to identify old OS-Squire and commutator structure. Whole file hash identifies provenance, not a whole-file proof audit or adoption of later threshold/propagator claims."
+    }
+  ],
+  "external_sources": [
+    {
+      "kind": "PRIMARY_SOURCE_SCOPE_COMPARISON_ONLY",
+      "url": "https://arxiv.org/html/1801.05645v1",
+      "title": "Li-Wei-Zhang, Pseudospectral bound and transition threshold for the 3D Kolmogorov flow",
+      "read_scope": "Abstract and introductory equations(1.1)-(1.6), linear triangular system and returned nearby statements/sketch context. Root/C checked the relevant equation and scope comparison; A accepted its bounded use. No enhanced-dissipation or transition-threshold theorem is adopted or proof-certified.",
+      "version_note": "The attempted v3 HTML returned404. The actual abstract page lists v1, whose HTML link was then read.",
+      "whole_paper_certified": false,
+      "pdf_archived": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_shear_normal_stretching_audit_20260908.md",
+    "actual_main_reviews": "A/C actual full SN.1-18 reviews at257lines13242B SHA53cb56ff; SN.19/cutoff/next-plan increment adds23lines1827B and was independently recomputed and actually reviewed by both. C exact inverse restores the old hash. Final M>0 clarification adds10B; A accepts it and C exact inverse restores280lines15069B SHA4c0a25e6. Final280lines15079B SHA4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13 accepted. Participating AI reviews, not wholly nonauthor or human peer review; increments are not extra full-review rounds.",
+    "record_review": "C full actual39-line5997B audit and38-line4593B checkpoint PASS, strict JSON/no duplicate keys. C then exact inverse verifies final three audit-line edits to39lines6119B SHA3556d6d158961b63f55b7ed3f5f407a38e5ed411efc3337427c06b39ccb45245; unchanged checkpoint SHA3d48aeb7b0b403531f4a31ab16e8be348ce0f41ea287203745218d4c4faf0ef4. Final bindings and scope accepted.",
+    "structural_checks": "SN.1-19 ordered unique tags,29 display pairs,77 inline pairs,no abnormal control characters PASS. Root full actual readback, all mathematical modules independently recomputed, actual final deltas read. Three immutable source files25791B and four local dependency files67019B match git-show and worktree bytes/hashes; one dependency is partial-read deduplication only. Staged whitespace clean. A redundant unmatched patch hunk was rejected atomically before the corrected increment applied.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "visual_render_qa": false,
+    "third_party_pdf_archived": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic identities, exact compatible Fourier initial fields, and proved local-time asymptotics; no numerical or measured data.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Scoped first-variation criterion and a specific fixed-time stretching obstruction, with no unconditional critical estimate or major global milestone."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "The manifest and later dispatch receipt lie outside the immutable source-stage file binding. Dispatch acceptance does not verify private archival or publication.",
+  "next_research_plan": "First perform a bounded primary-source audit for a local critical rank-one-defect epsilon-regularity interface, retaining d=dist_F(grad u,rank<=1). Start with the scale-invariant spacetime L^(5/2) norm of d on a parabolic cylinder and explicitly state the solution class, viscosity normalization, local energy/pressure bounds and dependence of constants. Determine whether a positive local theorem is already known, follows from a justified localized vorticity estimate, or needs a new assumption. Retain transport cutoff fluxes, pressure tails and zero-set terms; do not impose a one-dimensional shear background. Proving a conditional local lemma does not prove that arbitrary NS evolution provides the small scale. Keep the prescribed-centre good-scale bridge open. Do not repeat homogeneous entropy or weight scans, autonomous quadratic pressure absorption, universal Q d^2 stretching absorption, standard OS-Squire theory or the direct VB Cauchy rewrite."
+}
