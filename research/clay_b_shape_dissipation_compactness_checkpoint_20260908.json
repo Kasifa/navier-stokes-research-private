@@ -1,0 +1,33 @@
+{
+  "release_id": "ClayB-ShapeDissipationCompactness-20260908",
+  "logical_predecessor": "ClayB-RankOneSquaredCompactness-20260908",
+  "privacy": "PRIVATE_CORE",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "main": "research/clay_b_shape_dissipation_compactness_20260908.md",
+  "main_sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586",
+  "base_commit": "d7381d78bcda66aa09a1e4ed64a64ac679cf08bf",
+  "classification": "SCOPED SHAPE-DISSIPATION CONDITIONAL REGULARITY / SLICEWISE RANK-ONE OR AFFINE COMPACTNESS / NO AUTOMATIC GOOD SCALE / OPEN / NOT CLAY",
+  "is_clay_result": false,
+  "completed_claims": [
+    "For every finite M, a local suitable weak pair near closure Q1 with A(1)+E(1)+D(1)<=M and Theta(grad u) in L2_t H1_x is regular at the terminal centre if integral_Q1 |grad Theta|^2<epsilon_Theta(M), where Theta(G)=d(G)G/|G|^(3/2), zero at G=0, and d is distance to all rank<=1 matrices.",
+    "For smooth-preterminal compatible gradients, Theta crosses the full zero set through (F-delta)_+ B and integral |grad Theta|^2<=(2+1/sqrt2)^2 integral Gamma. Hence sufficiently small full-gradient shape dissipation Gamma=|G| |grad(G/|G|)|^2 under the same M cap implies local regularity. This classical Gamma expression is not assigned automatically to arbitrary suitable weak solutions.",
+    "Small Theta derivatives give spatially constant slice limits after Poincare and legitimate time-dependent Fatou subsequences. Zero constant uses weak second-minor closure to give rank<=1 gradients; nonzero constant uses continuous inversion and a gradient-L2 contradiction to give affine velocity slices. A nonzero affine NS example excludes a rank-one-only conclusion.",
+    "The slice union gives tr(G^2)=beta(t), with beta measurable and bounded by the uniform slice velocity energy. Subtract p0=-beta|x|^2/6 and integrate only the harmonic pressure gradient. The corrected solenoidal equation has an L2 force including bounded -grad p0, so the already justified RS small-power bootstrap yields C_limit(r)<=K_u*r^(1/7).",
+    "Strong near-pressure convergence, harmonic q_n and pi-p0, and the quadratic p0 remainder O(r^6) permit fixed-r then n-to-infinity transfer to the original suitable solutions and a fixed unforced CKN threshold.",
+    "The normalized Theta-gradient and Gamma integrals scale as r^(-1) times their physical integrals. Singular-centre lower bounds only apply at scales satisfying the same M cap. Nested bounds are not independent costs; even valid disjoint-shell lower bounds of order r remain summable. No contradiction with finite total shape dissipation is obtained."
+  ],
+  "open_items": [
+    "Same-solution NS evolution producing an arbitrarily small prescribed-centre scale with both a common A+E+D cap and normalized Theta-gradient or Gamma below its threshold remains unproved.",
+    "Finite GD/SG/LK integrals and weak measure terminal traces do not establish cross-scale contraction, a non-summable disjoint concentration cost, or concentration exclusion.",
+    "No automatic full weak-H1 admissibility or classical Gamma definition for every suitable weak solution is claimed; the general SC-A theorem expressly requires Theta's full weak spatial derivative.",
+    "No effective epsilon(M), regularity-radius modulus, optimality, complete novelty audit, or human peer review is provided.",
+    "General unforced three-dimensional global regularity, a singularity construction, and the Clay goal remain open."
+  ],
+  "next_action": "Test a genuine same-solution prescribed-centre good-scale mechanism now that SC-A/SC-B connect small shape dissipation to regularity. Start from the exact local full-gradient Frobenius entropy balance, retain transport, cutoff, initial/final slice and pressure-Hessian terms, and compute each term's NS scaling. Check whether any cross-scale decay or non-summable disjoint concentration cost can be derived while controlling A+E+D by a common M. Read GD and the relevant earlier local entropy/pressure-gate sources before using them; do not redo unchanged global radial or variable-axis tests as new research. Keep any uncontrolled critical term explicit. Do not repeat SC compactness or promote finite total dissipation, a weak terminal measure trace, another conditional reformulation or finite experiments to an arbitrary-evolution proof. Effective thresholds and source-collision audits are separate questions. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "handoff_policy": "After the complete freeze, send once to the fixed publisher for PRIVATE_ARCHIVE only. Dispatch acceptance is not archive verification. No public overview, website, local reader, attachments, push or supervision requested."
+}
