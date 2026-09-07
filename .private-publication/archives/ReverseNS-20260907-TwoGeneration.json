@@ -1,0 +1,184 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "no_candidate": "No accepted iteratable regeneration template or matched concentration profile in this bounded screen",
+    "not_claimed": [
+      "Novelty",
+      "Human peer review",
+      "Formal proof assistant verification",
+      "Clay solution"
+    ],
+    "open": [
+      "Autonomous regeneration",
+      "Uniform iteration",
+      "One fixed datum at infinitely many scales",
+      "Infinite-dimensional iterative errors",
+      "Finite total time and singularity"
+    ],
+    "proved": [
+      "Fixed-datum finite two-generation creation in a full smooth viscous unforced periodic NS solution with explicit infinite-dimensional remainder",
+      "Pressure-gradient cancellation of first-generation advection of seed",
+      "Specific three-mode similarity obstruction",
+      "Identical selected jets in a globally smooth triangular control"
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "d58abdd9390ef8ced52f1807a956a663853f7680",
+    "d16d669123c2965694e4203a7618dc569da51438"
+  ],
+  "dependency_ledger": "research/reverse/first-cycle/sources-evidence.json",
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 10586,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/ALGEBRA.md",
+      "sha256": "8098e84113b10c5ce37320de15e94f33a29e8207b980fb6d62483176c3fd6dc0"
+    },
+    {
+      "bytes": 3861,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/CONTRACT.md",
+      "sha256": "6311d166a3bba64faa3f7d1afe042535702014f0e7b2dfffa6952acb7eb68cf8"
+    },
+    {
+      "bytes": 12514,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/INDEPENDENT_REVIEW.md",
+      "sha256": "8b233d26ec03dbb1eb4093f443c6e922bfea66b5d648404043ba9f8500ceeb78"
+    },
+    {
+      "bytes": 3042,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/NO-CANDIDATE.md",
+      "sha256": "903b79ce75d285bcb78850c92181d2ae70380d4c985daf8c4b6643cbf33c92db"
+    },
+    {
+      "bytes": 14336,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "bytes": 2109,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/README.md",
+      "sha256": "3b1f4437656b4369fc50c3b40a0f56f3af6b888dbe65d1762dcff186fe6b4896"
+    },
+    {
+      "bytes": 15374,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/SOURCES.md",
+      "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b"
+    },
+    {
+      "bytes": 2035,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/VALIDATION.md",
+      "sha256": "4ceb72f774bf82cae5ca2962e1868d17693aacafa74a41e409087362b44dbf62"
+    },
+    {
+      "bytes": 158864,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68"
+    },
+    {
+      "bytes": 1697,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/certificate.json",
+      "sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4"
+    },
+    {
+      "bytes": 5255,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/certify.py",
+      "sha256": "a229d34406fe3e8d6e4160355e77ae76a0b478235a2ac38e89edd8bcb692ebd9"
+    },
+    {
+      "bytes": 13341,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/exact_algebra.py",
+      "sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb"
+    },
+    {
+      "bytes": 471,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/independent-crosscheck-run.json",
+      "sha256": "a9c2654670a9938d8b2f277d4e8004551ada158a7993989d15ca73e6c6d3c992"
+    },
+    {
+      "bytes": 4970,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/independent-crosscheck.json",
+      "sha256": "c5f7bb1cc08e23ab9927c0c32e913ff6a1bbe24e346a7df0407389d00a524f07"
+    },
+    {
+      "bytes": 4153,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/independent-final-review.json",
+      "sha256": "3cd3b7de9e41b6b48ac4d9604a005ea2329d5b9700fe978dee3d432bac375cbf"
+    },
+    {
+      "bytes": 10162,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/independent_crosscheck.rb",
+      "sha256": "2c6178bc5945f5432b4ac081e13d69c5809d3286121e899db48c363a6e280c60"
+    },
+    {
+      "bytes": 487,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/run-environment.json",
+      "sha256": "de3925dd04c530aedda6b1d09deae6e49f8da821b588adf81f31fb3a5f070d1a"
+    },
+    {
+      "bytes": 20641,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/sources-evidence.json",
+      "sha256": "e299a75bed24d25655bc40418748c35a8780d76ceeb70f93ea01e60ddcc8b81f"
+    },
+    {
+      "bytes": 1345,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/verification-run.json",
+      "sha256": "6448de782e33cfc8a9a38048bd9c1fd19c812ab186e224ab2191bb2f9f1b0c70"
+    },
+    {
+      "commit": "b72d4627bfbed913214d01514ba1696ce68632af",
+      "path": "research/reverse/first-cycle/freeze.json",
+      "sha256": "e00899dc38023cdddf3336c2b527d30dd24f99191b426753f9995d6889ebe081"
+    }
+  ],
+  "freeze_commit": "b72d4627bfbed913214d01514ba1696ce68632af",
+  "freeze_commit_binding": "The commit containing this envelope is supplied separately in the once-only handoff to avoid self-referential hashes.",
+  "governance_baseline": "d16d669123c2965694e4203a7618dc569da51438",
+  "inherited_scientific_baseline": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "milestone_reason": "First bounded local diagnostic; no new iterative mechanism or global theorem",
+  "milestone_recap_required": false,
+  "normalization_note": "Publisher transport envelope; original immutable freeze.json included as a separately hashed file. Nineteen scientific files plus the original freeze envelope. No public export authorized.",
+  "public_export_authorization": "No core files or attachments. Any future PUBLIC_PROGRESS_OVERVIEW must be separately semantically reviewed by the fixed publisher at its authorized cadence.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260907-TwoGeneration",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "90c44d1703486e3983d12b87ed54f22c8c677982"
+  ],
+  "scientific_source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+  "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_status": "PASS",
+    "independent_ruby_assertions": 54,
+    "negative_mutations": 8,
+    "primary_algebra_assertions": 19,
+    "rational_contract_assertions": 9,
+    "review_bound_files": 15,
+    "source_hashes": 56
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
