@@ -1,3 +1,11 @@
+# Paper-specialist role and current rules
+
+- This worktree belongs to the single-paper task `论文修订与补充研究`, ID `01a0747d-db37-7063-b9e0-06466ca89cbf`; it is not another general research line or a publishing task.
+- Read `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md`, `NAVIER_STOKES_WRITING_STYLE.md` and `.workflow/paper-current.md` in the Math workspace. Do not run or refresh the forward research index.
+- Continue only the user's current paper/editorial scope. A completed manuscript freeze is a research checkpoint, not permission to submit or publicly list another paper. The current Frontier Results whitelist is limited to the two explicitly confirmed papers in the central policy.
+- The fixed publisher owns website editing, deployment and its queue. Do not push, alter remotes, implement migration or supervise routine publication. Preserve v1, frozen sources, audits and historical PDFs.
+- Save current editorial inputs and outstanding issues at a safe checkpoint for the conditional migration check. This management request does not resume either paused research direction or authorize new mathematical work.
+
 # Published writing style
 
 These rules apply to reader-facing text in `public/`, page metadata, research notes, and downloadable versions.
@@ -8,16 +16,16 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Before publishing, read the page once as prose and search for the discouraged phrases above. Keep HTML and PDF copies in sync.
+- Follow the central writing guide; preserve mathematical scope and AI/computer-assistance disclosure. Approved paper HTML/PDF versions must agree with their named source; do not silently rewrite frozen files. Daily research notes remain HTML-only.
 
 # Publishing target
 
 - Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
-- Starting with R0.70A, a completed and certified research release is not publication-complete until its reader-facing HTML, synchronized PDF, homepage route entry, and homepage progress entry are present and the public-site tests pass.
-- Publish each newly completed section in the same release cycle. Do not let later research versions advance while an earlier certified section remains absent from the public route.
+- The research freeze completes the paper stage. Website publication, bilingual reader pages, permitted PDFs and online checks belong to the fixed publisher and do not block research completion.
+- Publication requires the user's specific authority and the single FIFO queue; paper preparation, audit success and arXiv formatting do not automatically authorize publication or submission.
 - Keep the homepage's latest-version label, total public-note count, route-node counts, and recap endpoint derived from the actual published files; verify them before every GitHub Pages push.
-- After a phase recap, create the next cumulative recap from that endpoint onward instead of silently extending only the research cards.
+- Recaps are milestone artifacts or explicit user requests, not a mandatory next task after every paper or section; the publisher maintains their coverage accurately.
 
 # Simulation and figure archive
 
