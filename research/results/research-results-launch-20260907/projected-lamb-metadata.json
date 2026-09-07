@@ -1,0 +1,22 @@
+{
+  "key": "projected-lamb",
+  "slug": "projected-lamb-heat-packing",
+  "date": "2026-08-27",
+  "commit": "f799b7cd619f71a585c6d59d8c83cad1a61480b5",
+  "title": {
+    "zh": "投影 Lamb 场的热堆积与三维 Navier–Stokes 流的尖锐迹障碍",
+    "en": "Projected-Lamb Heat Packing and Sharp Trace Obstructions for Three-Dimensional Navier–Stokes Flow"
+  },
+  "description": {
+    "zh": "在零均值周期设定下，本文证明投影 Lamb 场的归一化热扩展体积量受 Leray 能量估计控制。光滑精确解给出尖锐的迹损失；正时间内部入壳构造进一步表明，特定的归一化 \\(\\dot H^{-1}\\)-Lamb 时间积分，不能沿所构造的缩放族以统一常数控制入壳原子。剩余的零水平占据估计仍未解决。",
+    "en": "In the zero-mean periodic setting, this manuscript controls the normalized heat-extension bulk of the projected Lamb field using the Leray energy inequality. Exact smooth solutions exhibit a sharp trace loss. A positive-time internal shell-entry construction further shows that a specific normalized \\(\\dot H^{-1}\\)-Lamb time integral cannot control the entry atoms with a uniform constant along the constructed scaling family. The remaining zero-level occupation estimate is unresolved."
+  },
+  "scope": {
+    "zh": "未证明一般 Leray–Hopf 解的底部迹系数在时间上可积，未控制剩余占据量或复发，也未证明三维 Navier–Stokes 全局正则性或构造奇性。有限 Fourier 与 Galerkin 计算用于核对，不能替代连续论证。",
+    "en": "The paper does not prove time integrability of the bottom-trace coefficient for general Leray–Hopf solutions, control the remaining occupation or recurrence, establish global Navier–Stokes regularity, or construct a singularity. Finite Fourier and Galerkin calculations serve as checks and do not replace the continuum arguments."
+  },
+  "count": {
+    "zh": "10 节正文 · 1 个附录 · 9 个证明",
+    "en": "10 main sections · 1 appendix · 9 proofs"
+  }
+}

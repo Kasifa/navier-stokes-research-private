@@ -62,7 +62,7 @@ test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest",
   assert.equal(noteFiles.filter((name) => /^r0-[0-9a-z]+\.html$/.test(name)).length, 266);
   assert.equal(noteFiles.filter((name) => /^r0-[0-9a-z]+\.pdf$/.test(name)).length, 223);
   assert.equal(noteFiles.includes("clay-b-frequency-activation-20260907.pdf"), false);
-  assert.equal(site.version, "2.70");
+  assert.equal(site.version, "2.71");
   assert.equal(site.latestRelease, "R0.76L");
   assert.equal(site.publicIndependentNoteCount, 25);
   assert.equal(site.latestIndependentNote, "ClayB-FrequencyActivation-20260907");
@@ -70,13 +70,14 @@ test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest",
   assert.equal(site.latestIndependentResearchPdf, null);
   assert.equal(site.latestIndependentChapter, "CB.25");
   assert.equal(site.nextIndependentChapter, "CB.26");
-  assert.equal(manifest.siteVersion, "2.70");
+  assert.equal(manifest.siteVersion, "2.71");
   assert.equal(manifest.latestCompletedRelease, "r076l");
-  assert.equal(manifest.latestPublication.releaseId, "clay-b-frequency-activation-20260907");
-  assert.equal(manifest.latestPublication.logicalPredecessor, "ClayB-SourceEnstrophy-20260907");
-  assert.equal(manifest.latestPublication.pdfGenerated, false);
-  assert.equal(manifest.latestPublication.advancesCanonicalR0Series, false);
-  assert.equal(manifest.latestPublication.chapter, "CB.25");
+  const independent = manifest.latestIndependentPublication ?? manifest.latestPublication;
+  assert.equal(independent.releaseId, "clay-b-frequency-activation-20260907");
+  assert.equal(independent.logicalPredecessor, "ClayB-SourceEnstrophy-20260907");
+  assert.equal(independent.pdfGenerated, false);
+  assert.equal(independent.advancesCanonicalR0Series, false);
+  assert.equal(independent.chapter, "CB.25");
 });
 
 test("prior note, canonical endpoint, recap, and historical PDF remain byte-exact", async () => {

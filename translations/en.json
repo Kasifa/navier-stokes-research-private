@@ -268300,5 +268300,122 @@
       "research-review.html"
     ],
     "en": "Review v2.70 · 2026-09-07"
+  },
+  {
+    "id": "researchresultslaunch20260907001",
+    "zh": "文献综述 v2.71 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "literature-review.html"
+    ],
+    "en": "Literature review v2.71 · 2026-09-07"
+  },
+  {
+    "id": "researchresultslaunch20260907002",
+    "zh": "研究笔记总索引 · v2.71 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "notes/index.html"
+    ],
+    "en": "Research-note master index · v2.71 · 2026-09-07"
+  },
+  {
+    "id": "researchresultslaunch20260907003",
+    "zh": "本文研究热演化下高阶切比雪夫多项式的端点增长，区分整体振幅与邻近位置对比的两个对数尺度，给出一致误差界，并验证归一化第二类多项式。进一步以每个成员各自固定初值的精确傅里叶剪切流，研究整个时间区间内的局部有符号通量，说明观察参考系与速度归一化对结论的影响。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "This manuscript studies endpoint growth of high-degree Chebyshev polynomials under heat evolution. It separates the logarithmic scales of the overall amplitude and the contrast between nearby positions, gives uniform error bounds, and verifies the result for normalized second-kind polynomials. A sequence of exact Fourier shears, each with its own fixed initial datum, then connects these estimates to signed local flux over an entire time interval and shows how the conclusions depend on the observation frame and velocity normalization."
+  },
+  {
+    "id": "researchresultslaunch20260907004",
+    "zh": "查看全部成果 →",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "View all results →"
+  },
+  {
+    "id": "researchresultslaunch20260907005",
+    "zh": "论文、证明与可复核的研究成果",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Papers, proofs, and verifiable research results"
+  },
+  {
+    "id": "researchresultslaunch20260907006",
+    "zh": "前沿成果",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Frontier Results"
+  },
+  {
+    "id": "researchresultslaunch20260907007",
+    "zh": "前沿成果入口",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Frontier Results navigation"
+  },
+  {
+    "id": "researchresultslaunch20260907008",
+    "zh": "热演化切比雪夫多项式的端点行为与稀疏傅里叶剪切流的局部通量",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Heat-evolved Chebyshev edges and localized fluxes of sparse Fourier shears"
+  },
+  {
+    "id": "researchresultslaunch20260907009",
+    "zh": "投影 Lamb 场的热堆积与三维 Navier–Stokes 流的尖锐迹障碍",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Projected-Lamb Heat Packing and Sharp Trace Obstructions for Three-Dimensional Navier–Stokes Flow"
+  },
+  {
+    "id": "researchresultslaunch20260907010",
+    "zh": "完整双语论文 · 英文 PDF · 源码",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Complete bilingual paper · English PDF · Source files"
+  },
+  {
+    "id": "researchresultslaunch20260907011",
+    "zh": "研究手稿",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Research manuscript"
+  },
+  {
+    "id": "researchresultslaunch20260907012",
+    "zh": "在零均值周期设定下，本文证明投影 Lamb 场的归一化热扩展体积量受 Leray 能量估计控制。光滑精确解给出尖锐的迹损失；正时间内部入壳构造进一步表明，特定的归一化 \\(\\dot H^{-1}\\)-Lamb 时间积分，不能沿所构造的缩放族以统一常数控制入壳原子。剩余的零水平占据估计仍未解决。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "In the zero-mean periodic setting, this manuscript controls the normalized heat-extension bulk of the projected Lamb field using the Leray energy inequality. Exact smooth solutions exhibit a sharp trace loss. A positive-time internal shell-entry construction further shows that a specific normalized \\(\\dot H^{-1}\\)-Lamb time integral cannot control the entry atoms with a uniform constant along the constructed scaling family. The remaining zero-level occupation estimate is unresolved."
+  },
+  {
+    "id": "researchresultslaunch20260907013",
+    "zh": "综述 v2.71 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Review v2.71 · 2026-09-07"
   }
 ]

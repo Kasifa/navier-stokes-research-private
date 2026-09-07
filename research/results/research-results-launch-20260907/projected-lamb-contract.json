@@ -1,0 +1,503 @@
+{
+  "schema": "projected-lamb-html-content-contract/v1",
+  "counts": {
+    "tex_files": 1,
+    "section_headings": 12,
+    "main_sections": 10,
+    "unnumbered_sections": 1,
+    "appendices": 1,
+    "subsection_headings": 3,
+    "formal_statement_and_proof_blocks": 18,
+    "formal_blocks_by_kind": {
+      "proposition": 2,
+      "proof": 9,
+      "theorem": 6,
+      "lemma": 1
+    },
+    "additional_remark_blocks": 2,
+    "display_math_blocks": 92,
+    "inline_math_blocks": 234,
+    "labels": 73,
+    "cross_reference_occurrences": 56,
+    "cross_reference_unique_targets": 38,
+    "citation_occurrences": 13,
+    "cited_unique_keys": 14,
+    "bibliography_entries": 14,
+    "bibtex_library_entries": 16,
+    "figures": 2,
+    "tabular_blocks": 1
+  },
+  "front_matter": {
+    "title": {
+      "tex": "Projected-Lamb Heat Packing and Sharp Trace Obstructions\\\\\nfor Three-Dimensional Navier--Stokes Flow",
+      "raw_tex": "\\title{Projected-Lamb Heat Packing and Sharp Trace Obstructions\\\\\nfor Three-Dimensional Navier--Stokes Flow}",
+      "location": {
+        "file": "main.tex",
+        "line": 46,
+        "character_offset": 1546
+      }
+    },
+    "author": {
+      "tex": "C. K. Zeng\\\\[-1mm]\\small Independent Researcher",
+      "raw_tex": "\\author{C. K. Zeng\\\\[-1mm]\\small Independent Researcher}",
+      "location": {
+        "file": "main.tex",
+        "line": 48,
+        "character_offset": 1655
+      }
+    },
+    "date": {
+      "tex": "27 August 2026",
+      "raw_tex": "\\date{27 August 2026}",
+      "location": {
+        "file": "main.tex",
+        "line": 49,
+        "character_offset": 1712
+      }
+    },
+    "abstract_tex": "\nFor the three-dimensional incompressible Navier--Stokes equations, the\nvorticity stretching and transport terms can be compressed into the curl of\nthe solenoidal Lamb vector\n\\(L=\\Pp(u\\times\\omega)\\).  This paper studies a signed Littlewood--Paley\nshell injection built from that representation.  The associated vertical\nheat extension has an unconditional bulk estimate: after normalization by\nenstrophy, its full heat-height integral belongs to \\(L^1\\) in physical time\nfor every periodic Leray--Hopf solution on a finite interval.  The estimate\npersists under bounded-overlap spatial localization and yields a conditional\nlocal continuation criterion.\n\nThe bulk estimate does not recover the bottom trace.  A fixed smooth radial\ntight frame and an explicit global smooth 2D3C Navier--Stokes family along\ndyadic frequencies \\(K=2^j\\) give an exact bottom-to-bulk factor \\(2K^2\\).\nThe same family shows that matched\npartitions do not hide the loss, while a covariant interior-cylinder\nconstruction rules out every geometry-only factor \\(o(r^{-2})\\).  A second\nconstruction uses the finite-dimensional implicit-function theorem for the\nexact Navier--Stokes flow to prescribe a positive-time full-shell zero with\nnonzero nonlinear forcing.  After an amplitude-frequency scaling, its\nscale-invariant entry atom is of order \\(\\lambda^{-4}\\), whereas the bare\nnormalized Leray--Lamb time budget is of order \\(\\lambda^{-6}\\).  Thus no\nuniform bare payment of such internal entries is possible.  An outgoing\ncoarea identity gives an exact scale-matched representation of every\nfinite-order entry, but its zero-level occupation density is not controlled\nhere.  None of the results proves global regularity or constructs a\nsingularity.  Computer-assisted finite Fourier, spectral-reconstruction, and\nGalerkin calculations are used as audits and corroboration; no analytic\ntheorem is inferred from floating-point output.\n",
+    "abstract_sha256": "8eff397e46579de4ed24301047f7fcd89eaa4ff5fb0ba5b0f2629c902d684c78",
+    "msc_class": [
+      "35Q30",
+      "35B65",
+      "76D05"
+    ],
+    "keywords": [
+      "Navier--Stokes equations",
+      "Lamb vector",
+      "vorticity stretching",
+      "heat extension",
+      "Littlewood--Paley decomposition",
+      "trace obstruction",
+      "occupation measure"
+    ],
+    "preamble_tex": "\\documentclass[11pt]{article}\n\n\\usepackage[a4paper,margin=30mm]{geometry}\n\\usepackage[T1]{fontenc}\n\\usepackage{lmodern}\n\\usepackage{microtype}\n\\usepackage{amsmath,amssymb,amsthm,mathtools}\n\\usepackage{booktabs}\n\\usepackage{graphicx}\n\\usepackage[numbers,sort&compress]{natbib}\n\\usepackage{xcolor}\n\\usepackage{enumitem}\n\\usepackage{url}\n\\usepackage[colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black]{hyperref}\n\n\\allowdisplaybreaks\n\\setlist{itemsep=2pt,topsep=4pt}\n\n\\newtheorem{theorem}{Theorem}[section]\n\\newtheorem{proposition}[theorem]{Proposition}\n\\newtheorem{lemma}[theorem]{Lemma}\n\\newtheorem{corollary}[theorem]{Corollary}\n\\theoremstyle{definition}\n\\newtheorem{definition}[theorem]{Definition}\n\\newtheorem{remark}[theorem]{Remark}\n\n\\newcommand{\\Torus}{\\mathbb T^3}\n\\newcommand{\\R}{\\mathbb R}\n\\newcommand{\\Pp}{\\mathbb P}\n\\newcommand{\\curl}{\\operatorname{curl}}\n\\newcommand{\\supp}{\\operatorname{supp}}\n\\newcommand{\\esssup}{\\operatorname*{ess\\,sup}}\n\\newcommand{\\ip}[2]{\\left\\langle #1,#2\\right\\rangle}\n\\newcommand{\\norm}[1]{\\left\\lVert #1\\right\\rVert}\n\\newcommand{\\abs}[1]{\\left\\lvert #1\\right\\rvert}\n\\newcommand{\\pos}[1]{\\left(#1\\right)_{+}}\n\\newcommand{\\dd}{\\,\\mathrm d}\n\n\\hypersetup{\n pdftitle={Projected-Lamb Heat Packing and Sharp Trace Obstructions for Three-Dimensional Navier-Stokes Flow},\n pdfauthor={C. K. Zeng},\n pdfsubject={Three-dimensional incompressible Navier-Stokes equations},\n pdfkeywords={Navier-Stokes equations, Lamb vector, vorticity stretching, heat extension, trace obstruction}\n}\n\n\\title{Projected-Lamb Heat Packing and Sharp Trace Obstructions\\\\\nfor Three-Dimensional Navier--Stokes Flow}\n\\author{C. K. Zeng\\\\[-1mm]\\small Independent Researcher}\n\\date{27 August 2026}\n\n\\begin{document}",
+    "preamble_sha256": "b04670fbca975347c9eb957793fa3b5c0590afd1bdbf74b149a15c67a2e3f6f8"
+  },
+  "headings": [
+    {
+      "id": "heading-01",
+      "kind": "section",
+      "number": "1",
+      "title_tex": "Introduction",
+      "heading_labels": []
+    },
+    {
+      "id": "heading-02",
+      "kind": "subsection",
+      "number": "1.1",
+      "title_tex": "Main results",
+      "heading_labels": []
+    },
+    {
+      "id": "heading-03",
+      "kind": "subsection",
+      "number": "1.2",
+      "title_tex": "Relation to nearby work",
+      "heading_labels": []
+    },
+    {
+      "id": "heading-04",
+      "kind": "section",
+      "number": "2",
+      "title_tex": "Setting and notation",
+      "heading_labels": [
+        "sec:setting"
+      ]
+    },
+    {
+      "id": "heading-05",
+      "kind": "section",
+      "number": "3",
+      "title_tex": "A signed shell continuation coefficient",
+      "heading_labels": [
+        "sec:criterion"
+      ]
+    },
+    {
+      "id": "heading-06",
+      "kind": "section",
+      "number": "4",
+      "title_tex": "Unconditional projected-Lamb heat packing",
+      "heading_labels": [
+        "sec:bulk"
+      ]
+    },
+    {
+      "id": "heading-07",
+      "kind": "section",
+      "number": "5",
+      "title_tex": "Bounded-overlap localization",
+      "heading_labels": [
+        "sec:local"
+      ]
+    },
+    {
+      "id": "heading-08",
+      "kind": "section",
+      "number": "6",
+      "title_tex": "Exact critical trace loss",
+      "heading_labels": [
+        "sec:trace"
+      ]
+    },
+    {
+      "id": "heading-09",
+      "kind": "subsection",
+      "number": "6.1",
+      "title_tex": "Interior cylinders",
+      "heading_labels": []
+    },
+    {
+      "id": "heading-10",
+      "kind": "section",
+      "number": "7",
+      "title_tex": "A genuine positive-time internal entry",
+      "heading_labels": [
+        "sec:entry"
+      ]
+    },
+    {
+      "id": "heading-11",
+      "kind": "section",
+      "number": "8",
+      "title_tex": "No uniform bare payment",
+      "heading_labels": [
+        "sec:no-payment"
+      ]
+    },
+    {
+      "id": "heading-12",
+      "kind": "section",
+      "number": "9",
+      "title_tex": "Outgoing occupation at the zero level",
+      "heading_labels": [
+        "sec:occupation"
+      ]
+    },
+    {
+      "id": "heading-13",
+      "kind": "section",
+      "number": "10",
+      "title_tex": "Discussion and exact claim boundary",
+      "heading_labels": [
+        "sec:discussion"
+      ]
+    },
+    {
+      "id": "heading-14",
+      "kind": "section",
+      "number": null,
+      "title_tex": "Computer-assisted verification and reproducibility",
+      "heading_labels": []
+    },
+    {
+      "id": "heading-15",
+      "kind": "section",
+      "number": "A",
+      "title_tex": "Finite Fourier ledger for the six-mode trace family",
+      "heading_labels": []
+    }
+  ],
+  "labels": [
+    "eq:intro-bulk",
+    "eq:intro-time",
+    "eq:intro-trace",
+    "eq:intro-payment",
+    "sec:setting",
+    "eq:nse",
+    "eq:tight",
+    "eq:lamb",
+    "eq:vort-lamb",
+    "eq:heat-fields",
+    "eq:heat-vort",
+    "sec:criterion",
+    "eq:shell-work",
+    "eq:compression",
+    "eq:Asb",
+    "prop:continuation",
+    "eq:continuation-hyp",
+    "sec:bulk",
+    "eq:Theta",
+    "thm:global-bulk",
+    "eq:bulk-main",
+    "eq:Vdef",
+    "eq:Lambda",
+    "eq:factorization",
+    "sec:local",
+    "eq:local-work",
+    "eq:local-q",
+    "prop:local",
+    "eq:local-pack",
+    "eq:alpha-pack",
+    "eq:Aloc",
+    "sec:trace",
+    "eq:2d3c",
+    "eq:low-block",
+    "thm:trace",
+    "eq:trace-global",
+    "eq:trace-normalized",
+    "eq:trace-local",
+    "eq:trace-fraction",
+    "eq:partition-two-sided",
+    "fig:local-trace",
+    "eq:interior-defs",
+    "eq:interior-normalized",
+    "thm:interior",
+    "eq:interior-scaling",
+    "sec:entry",
+    "eq:seed",
+    "eq:Fstar",
+    "eq:seed-ledger",
+    "eq:flow-derivative",
+    "thm:entry",
+    "eq:z-expansion",
+    "eq:A-entry",
+    "lem:simple",
+    "sec:no-payment",
+    "eq:entry-atom",
+    "eq:bare-base",
+    "eq:double-scaling",
+    "thm:no-payment",
+    "eq:atom-scale",
+    "eq:budget-scale",
+    "eq:ratio-scale",
+    "eq:small-data-ledger",
+    "fig:internal-entry",
+    "sec:occupation",
+    "eq:occupation-defs",
+    "eq:qalpha",
+    "thm:coarea",
+    "eq:coarea",
+    "eq:radial",
+    "eq:excursion",
+    "sec:discussion",
+    "eq:appendix-norms"
+  ],
+  "cross_references": [
+    {
+      "command": "ref",
+      "target": "sec:criterion"
+    },
+    {
+      "command": "ref",
+      "target": "sec:bulk"
+    },
+    {
+      "command": "ref",
+      "target": "sec:trace"
+    },
+    {
+      "command": "ref",
+      "target": "sec:entry"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:intro-bulk"
+    },
+    {
+      "command": "ref",
+      "target": "sec:discussion"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:nse"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:lamb"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:continuation-hyp"
+    },
+    {
+      "command": "ref",
+      "target": "prop:continuation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:continuation-hyp"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:intro-time"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:shell-work"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:tight"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:bulk-main"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:lamb"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:bulk-main"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:intro-time"
+    },
+    {
+      "command": "ref",
+      "target": "thm:global-bulk"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:local-work"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:intro-time"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:local-work"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:local-pack"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:alpha-pack"
+    },
+    {
+      "command": "ref",
+      "target": "thm:global-bulk"
+    },
+    {
+      "command": "ref",
+      "target": "prop:continuation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:2d3c"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:local-work"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:trace-global"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:low-block"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:trace-normalized"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:trace-local"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:interior-scaling"
+    },
+    {
+      "command": "ref",
+      "target": "thm:interior"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:z-expansion"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:seed-ledger"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:A-entry"
+    },
+    {
+      "command": "ref",
+      "target": "thm:entry"
+    },
+    {
+      "command": "ref",
+      "target": "thm:entry"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:double-scaling"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:A-entry"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:atom-scale"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:bare-base"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:budget-scale"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ratio-scale"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:small-data-ledger"
+    },
+    {
+      "command": "ref",
+      "target": "thm:entry"
+    },
+    {
+      "command": "ref",
+      "target": "thm:no-payment"
+    },
+    {
+      "command": "ref",
+      "target": "thm:no-payment"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:bare-base"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:coarea"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:coarea"
+    },
+    {
+      "command": "ref",
+      "target": "fig:internal-entry"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:2d3c"
+    },
+    {
+      "command": "ref",
+      "target": "sec:trace"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:low-block"
+    }
+  ]
+}

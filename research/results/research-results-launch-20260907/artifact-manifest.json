@@ -1,0 +1,136 @@
+{
+  "releaseId": "ResearchResults-Launch-20260907",
+  "papers": [
+    {
+      "key": "heat-edge",
+      "slug": "heat-evolved-chebyshev-edges",
+      "date": "2026-09-06",
+      "commit": "9ff88b3455894a2ac27bbcec8ecd669435a58a4f",
+      "title": {
+        "zh": "热演化切比雪夫多项式的端点行为与稀疏傅里叶剪切流的局部通量",
+        "en": "Heat-evolved Chebyshev edges and localized fluxes of sparse Fourier shears"
+      },
+      "description": {
+        "zh": "本文研究热演化下高阶切比雪夫多项式的端点增长，区分整体振幅与邻近位置对比的两个对数尺度，给出一致误差界，并验证归一化第二类多项式。进一步以每个成员各自固定初值的精确傅里叶剪切流，研究整个时间区间内的局部有符号通量，说明观察参考系与速度归一化对结论的影响。",
+        "en": "This manuscript studies endpoint growth of high-degree Chebyshev polynomials under heat evolution. It separates the logarithmic scales of the overall amplitude and the contrast between nearby positions, gives uniform error bounds, and verifies the result for normalized second-kind polynomials. A sequence of exact Fourier shears, each with its own fixed initial datum, then connects these estimates to signed local flux over an entire time interval and shows how the conclusions depend on the observation frame and velocity normalization."
+      },
+      "scope": {
+        "zh": "结论适用于文中指定的多项式与光滑精确剪切流，不涉及一般三维 Navier–Stokes 正则性，也不主张误差界或通量上界最优。",
+        "en": "The conclusions concern the specified polynomial families and smooth exact shears; they neither address general three-dimensional Navier–Stokes regularity nor claim optimal error or flux bounds."
+      },
+      "count": {
+        "zh": "7 节正文 · 4 个附录 · 18 个证明",
+        "en": "7 main sections · 4 appendices · 18 proofs"
+      }
+    },
+    {
+      "key": "projected-lamb",
+      "slug": "projected-lamb-heat-packing",
+      "date": "2026-08-27",
+      "commit": "f799b7cd619f71a585c6d59d8c83cad1a61480b5",
+      "title": {
+        "zh": "投影 Lamb 场的热堆积与三维 Navier–Stokes 流的尖锐迹障碍",
+        "en": "Projected-Lamb Heat Packing and Sharp Trace Obstructions for Three-Dimensional Navier–Stokes Flow"
+      },
+      "description": {
+        "zh": "在零均值周期设定下，本文证明投影 Lamb 场的归一化热扩展体积量受 Leray 能量估计控制。光滑精确解给出尖锐的迹损失；正时间内部入壳构造进一步表明，特定的归一化 \\(\\dot H^{-1}\\)-Lamb 时间积分，不能沿所构造的缩放族以统一常数控制入壳原子。剩余的零水平占据估计仍未解决。",
+        "en": "In the zero-mean periodic setting, this manuscript controls the normalized heat-extension bulk of the projected Lamb field using the Leray energy inequality. Exact smooth solutions exhibit a sharp trace loss. A positive-time internal shell-entry construction further shows that a specific normalized \\(\\dot H^{-1}\\)-Lamb time integral cannot control the entry atoms with a uniform constant along the constructed scaling family. The remaining zero-level occupation estimate is unresolved."
+      },
+      "scope": {
+        "zh": "未证明一般 Leray–Hopf 解的底部迹系数在时间上可积，未控制剩余占据量或复发，也未证明三维 Navier–Stokes 全局正则性或构造奇性。有限 Fourier 与 Galerkin 计算用于核对，不能替代连续论证。",
+        "en": "The paper does not prove time integrability of the bottom-trace coefficient for general Leray–Hopf solutions, control the remaining occupation or recurrence, establish global Navier–Stokes regularity, or construct a singularity. Finite Fourier and Galerkin calculations serve as checks and do not replace the continuum arguments."
+      },
+      "count": {
+        "zh": "10 节正文 · 1 个附录 · 9 个证明",
+        "en": "10 main sections · 1 appendix · 9 proofs"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "public/results/heat-evolved-chebyshev-edges.html",
+      "sha256": "3b28ae3087b2436e53e057a7735273cb2763c5b7eed7e461248972fb521ee7d3",
+      "bytes": 311207
+    },
+    {
+      "path": "public/results/index.html",
+      "sha256": "b03ffadfdf5d632471d85728a2f1d4809305c4e6307fc7e65ab9351f16af997b",
+      "bytes": 7598
+    },
+    {
+      "path": "public/results/projected-lamb-heat-packing.html",
+      "sha256": "770dd8961fc8f56ba3f9c70293c051479f992a6bdf9294f988c43a586ad38637",
+      "bytes": 180187
+    },
+    {
+      "path": "public/results/results.css",
+      "sha256": "f71d16c79744cc283c94254be6441363c054cc9b5caa2f26b787d3fd5ea6df6b",
+      "bytes": 5787
+    },
+    {
+      "path": "public/results/results.js",
+      "sha256": "2c87df47fa60aa388f61d435f4f745683b48945125a465004009bcb7abc46825",
+      "bytes": 2021
+    },
+    {
+      "path": "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+      "sha256": "bbc7139237a9120d91284c0ddb80c0c73aa93708bb4a8f778f38e1d24d18c96d",
+      "bytes": 4679
+    },
+    {
+      "path": "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+      "sha256": "6de47c8df62ae35fc85e5b1ca2010038dd505d2e15b39caaa1f765b30cf4e7ea",
+      "bytes": 71783
+    },
+    {
+      "path": "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+      "sha256": "5e9061d5b76b03c60d58cac98320513dc442b7a595604ee9c59697b2e4190662",
+      "bytes": 12650
+    },
+    {
+      "path": "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+      "sha256": "74fe125fadd686e83edea32098dc56c6034081f8700ca1414ff8867bd9bd9714",
+      "bytes": 125436
+    },
+    {
+      "path": "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+      "sha256": "c216bc828f7b51f6368f0fadeef7d0fb9502943ddebf25fc48c4cd36d0e6f2fe",
+      "bytes": 621096
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-heat-packing-source.zip",
+      "sha256": "de5dcc02ff1496942759ff9a3c8e9bbcf67f2abd58721ece24c7b14bf4c4af4f",
+      "bytes": 118547
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-heat-packing.pdf",
+      "sha256": "6378c24c16a53db1cb850c1b16e8ee3e4b7af4f663b974d7a345801bccc76658",
+      "bytes": 503965
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-internal-entry.pdf",
+      "sha256": "c03a933690e74be684dc2b27bde7c6a1855e40ab48e36ecb82d67ff86b33d8b3",
+      "bytes": 53773
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-internal-entry.svg",
+      "sha256": "b2dbb44440decc12885f386e78856e53ada3ec57e14f377b695b1ee5ffb3fa73",
+      "bytes": 457148
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-local-trace.pdf",
+      "sha256": "395c4149ea6b8d5739715822383a757c704b8173edc354a7f6d035575e447999",
+      "bytes": 59514
+    },
+    {
+      "path": "public/assets/papers/projected-lamb-local-trace.svg",
+      "sha256": "a1062cead6ef54009023377f77972fc0172481b7d9ea67c970f73234c258ee9a",
+      "bytes": 491954
+    }
+  ],
+  "pdfPolicy": "EXPLICIT_TWO_PAPER_ENGLISH_PDF_EXCEPTION; DAILY_NOTES_REMAIN_HTML_ONLY",
+  "sourceBinding": {
+    "heat-edge": "9ff88b3455894a2ac27bbcec8ecd669435a58a4f",
+    "projected-lamb": "f799b7cd619f71a585c6d59d8c83cad1a61480b5"
+  }
+}

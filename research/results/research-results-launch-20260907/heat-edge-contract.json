@@ -1,0 +1,728 @@
+{
+  "schema": "heat-edge-html-content-contract/v1",
+  "counts": {
+    "tex_files": 11,
+    "section_headings": 11,
+    "main_sections": 7,
+    "appendices": 4,
+    "subsection_headings": 3,
+    "paragraph_headings": 6,
+    "formal_statement_and_proof_blocks": 36,
+    "formal_blocks_by_kind": {
+      "theorem": 4,
+      "proposition": 9,
+      "proof": 18,
+      "lemma": 3,
+      "corollary": 2
+    },
+    "additional_remark_blocks": 5,
+    "display_math_blocks": 139,
+    "labels": 100,
+    "cross_reference_occurrences": 108,
+    "cross_reference_unique_targets": 65,
+    "citation_occurrences": 18,
+    "bibliography_entries": 10,
+    "figures": 1,
+    "ancillary_files": 8
+  },
+  "front_matter": {
+    "title": "Heat-evolved Chebyshev edges and localized fluxes of sparse Fourier shears",
+    "author": "C. K. Zeng",
+    "affiliation": "Independent Researcher",
+    "orcid": "0009-0002-5402-3374",
+    "abstract_tex": "\nHeat evolution of a high-degree Chebyshev polynomial near an endpoint\nhas two logarithmic scales. For\n$Q_{m,A}(s,c)=(e^{sA^{-2}D^2}T_m)(1+c/A)$ and\n$\\mu=(m^2/A)^{1/3}$, the common amplitude has scale $\\mu^2$,\nwhile a bounded endpoint displacement has scale $\\mu$.\nI give uniform, nonoptimal error bounds on compact positive time\nintervals throughout $\\mu\\to\\infty$, $\\mu/A\\to0$.\nThe relative-displacement estimate follows from a direct Gaussian tilt,\nso its error is not obtained by subtracting two coarse amplitude estimates.\nAn edge-profile proposition applies also to the endpoint-normalized\nChebyshev polynomials of the second kind.\n\nAn explicit sequence of consecutive-integer-frequency shears transfers\nthe first-kind profile over the full time interval, using one initial\ndatum for each member of the sequence. Its signed collar-flux quotient retains an\n$\\exp(\\Theta(\\mu))$ edge factor with algebraic factors stated separately.\nThe denominator is the cubic mass of the nonconstant component on the\nwhole spatial plateau. For the stated amplitude normalization, inclusion\nof the constant drift in the denominator instead makes this quotient\ndecay; amplitude rescaling and changes of observation frame are treated\nexplicitly. A supporting time-weighted inequality is a corollary of\nErd\\'elyi's results, and an elementary $N$-term construction shows its\n$N^{4/3}$ order cannot be reduced in the abstract temporal class.\nThe spatial extrapolation scale and polynomial heat operation are\nestablished inputs. The shear application concerns smooth exact solutions\nand gives no general Navier--Stokes regularity conclusion.\n",
+    "msc_class": "41A60, 41A17, 35K05, 35Q30",
+    "publication_status_note": "Local preprint preparation. No arXiv identifier, DOI, journal publication, or human peer-review status should be invented."
+  },
+  "headings": [
+    {
+      "id": "heading-01",
+      "kind": "section",
+      "number": "1",
+      "title_tex": "Introduction",
+      "heading_labels": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "id": "heading-02",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Main results."
+    },
+    {
+      "id": "heading-03",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Relation to prior work."
+    },
+    {
+      "id": "heading-04",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Observation frame and normalization."
+    },
+    {
+      "id": "heading-05",
+      "kind": "section",
+      "number": "2",
+      "title_tex": "Quantitative Gaussian edge estimates",
+      "heading_labels": [
+        "sec:quantitative-edge"
+      ]
+    },
+    {
+      "id": "heading-06",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Constants for the profile criterion."
+    },
+    {
+      "id": "heading-07",
+      "kind": "section",
+      "number": "3",
+      "title_tex": "Special-function context and the contribution boundary",
+      "heading_labels": [
+        "sec:literature"
+      ]
+    },
+    {
+      "id": "heading-08",
+      "kind": "section",
+      "number": "4",
+      "title_tex": "A fixed-initial-data realization by integer Fourier shears",
+      "heading_labels": [
+        "sec:parabolic"
+      ]
+    },
+    {
+      "id": "heading-09",
+      "kind": "subsection",
+      "number": "4.1",
+      "title_tex": "Uniform transfer to consecutive integer modes"
+    },
+    {
+      "id": "heading-10",
+      "kind": "subsection",
+      "number": "4.2",
+      "title_tex": "The signed flux and the whole spatial plateau"
+    },
+    {
+      "id": "heading-11",
+      "kind": "section",
+      "number": "5",
+      "title_tex": "Observation frame and the velocity in the denominator",
+      "heading_labels": [
+        "sec:frame-mass"
+      ]
+    },
+    {
+      "id": "heading-12",
+      "kind": "section",
+      "number": "6",
+      "title_tex": "A uniform bound for the complete collar flux",
+      "heading_labels": [
+        "sec:upper-bound"
+      ]
+    },
+    {
+      "id": "heading-13",
+      "kind": "subsection",
+      "number": "6.1",
+      "title_tex": "The physical model and the uniform theorem"
+    },
+    {
+      "id": "heading-14",
+      "kind": "section",
+      "number": "7",
+      "title_tex": "Limitations and computational assistance",
+      "heading_labels": [
+        "sec:discussion"
+      ]
+    },
+    {
+      "id": "heading-15",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Computer and AI assistance."
+    },
+    {
+      "id": "heading-16",
+      "kind": "paragraph",
+      "number": null,
+      "title_tex": "Data and code availability."
+    },
+    {
+      "id": "heading-17",
+      "kind": "section",
+      "number": "A",
+      "title_tex": "A time-weighted literature corollary and its order",
+      "heading_labels": [
+        "sec:time-weighted"
+      ]
+    },
+    {
+      "id": "heading-18",
+      "kind": "section",
+      "number": "B",
+      "title_tex": "Classical spatial witnesses and elementary realization",
+      "heading_labels": [
+        "sec:sharpness"
+      ]
+    },
+    {
+      "id": "heading-19",
+      "kind": "section",
+      "number": "C",
+      "title_tex": "Quantitative consequences and comparison of regimes",
+      "heading_labels": [
+        "sec:consequences"
+      ]
+    },
+    {
+      "id": "heading-20",
+      "kind": "section",
+      "number": "D",
+      "title_tex": "A finite diagnostic of the heat-edge calculation",
+      "heading_labels": [
+        "sec:diagnostic"
+      ]
+    }
+  ],
+  "labels": [
+    "sec:introduction",
+    "sec:quantitative-edge",
+    "thm:quantitative-edge",
+    "eq:quantitative-amplitude",
+    "eq:quantitative-tilt",
+    "prop:edge-profile",
+    "eq:profile-interior",
+    "eq:profile-envelope",
+    "eq:profile-local-lower",
+    "eq:profile-epsilon-threshold",
+    "eq:profile-mu-threshold",
+    "eq:profile-amplitude-explicit",
+    "eq:profile-tilt-explicit",
+    "eq:profile-strong-concavity",
+    "eq:profile-I-lower",
+    "eq:profile-I-upper",
+    "eq:profile-positive-derivative",
+    "eq:arcosh-quantitative-bounds",
+    "sec:literature",
+    "eq:terminating-hypergeometric",
+    "sec:parabolic",
+    "eq:heat-edge-definition",
+    "eq:edge-degree-regime",
+    "thm:heat-edge",
+    "eq:heat-leading-limit",
+    "eq:heat-tilt-limit",
+    "lem:heat-terminal",
+    "eq:heat-positive-series",
+    "eq:heat-log-derivatives",
+    "eq:heat-global-majorant",
+    "prop:dynamic-confluence",
+    "eq:parabolic-frozen-parameters",
+    "eq:parabolic-fourier-coefficients",
+    "eq:parabolic-exact-shear",
+    "eq:parabolic-uniform-transfer",
+    "eq:parabolic-conjugation",
+    "eq:parabolic-outer-cap",
+    "eq:parabolic-physical-flux",
+    "eq:parabolic-physical-payment",
+    "thm:parabolic-shear",
+    "eq:parabolic-residual-lower",
+    "eq:parabolic-residual-upper",
+    "eq:parabolic-normalized-rate",
+    "eq:parabolic-dimensional-identities",
+    "eq:parabolic-S-bounds",
+    "eq:parabolic-K-upper",
+    "eq:parabolic-K-lower",
+    "sec:frame-mass",
+    "prop:galilean-frame",
+    "prop:full-velocity-mass",
+    "eq:complete-volume",
+    "eq:complete-mass",
+    "eq:component-scales",
+    "eq:complete-velocity-rate",
+    "prop:amplitude-scaling",
+    "eq:amplitude-sandwich",
+    "prop:bounded-drift-shape",
+    "eq:bounded-drift-decay",
+    "sec:upper-bound",
+    "thm:ub-edge",
+    "eq:ub-edge",
+    "eq:ub-affine-edge",
+    "eq:ub-geometry",
+    "eq:ub-F",
+    "eq:ub-T",
+    "eq:ub-M",
+    "thm:ub-flux",
+    "eq:ub-main-refined",
+    "eq:ub-main",
+    "eq:ub-observation",
+    "eq:ub-markov-input",
+    "eq:ub-kos-input",
+    "eq:ub-derivative",
+    "eq:ub-endpoint",
+    "eq:ub-flux-conversion",
+    "eq:ub-kernel-bounds",
+    "eq:ub-energy",
+    "eq:ub-first-rows",
+    "eq:ub-scaled-bound",
+    "eq:ub-mass-conversion",
+    "rem:ub-window",
+    "sec:discussion",
+    "sec:time-weighted",
+    "lem:ub-delay",
+    "eq:ub-delay",
+    "prop:time-order",
+    "eq:time-order",
+    "eq:ub-cutoff-time",
+    "sec:sharpness",
+    "lem:confluent-real-rooted",
+    "eq:confluent-map",
+    "thm:real-dyadic-lower",
+    "thm:integer-slice",
+    "sec:consequences",
+    "cor:critical-coefficient",
+    "eq:critical-rate",
+    "eq:critical-kappa",
+    "eq:power-law-regimes",
+    "sec:diagnostic",
+    "fig:edge-diagnostic"
+  ],
+  "cross_references": [
+    {
+      "command": "ref",
+      "target": "sec:literature"
+    },
+    {
+      "command": "ref",
+      "target": "sec:frame-mass"
+    },
+    {
+      "command": "ref",
+      "target": "thm:quantitative-edge"
+    },
+    {
+      "command": "ref",
+      "target": "prop:edge-profile"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-strong-concavity"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-I-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-strong-concavity"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-mu-threshold"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-I-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-positive-derivative"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-tilt-explicit"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-I-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-I-upper"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:profile-amplitude-explicit"
+    },
+    {
+      "command": "ref",
+      "target": "thm:quantitative-edge"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:arcosh-quantitative-bounds"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:terminating-hypergeometric"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:edge-degree-regime"
+    },
+    {
+      "command": "ref",
+      "target": "thm:quantitative-edge"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:edge-degree-regime"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:heat-positive-series"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:heat-global-majorant"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:edge-degree-regime"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-fourier-coefficients"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-conjugation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-conjugation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-uniform-transfer"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-exact-shear"
+    },
+    {
+      "command": "ref",
+      "target": "prop:dynamic-confluence"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-physical-payment"
+    },
+    {
+      "command": "ref",
+      "target": "prop:dynamic-confluence"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:edge-degree-regime"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-physical-flux"
+    },
+    {
+      "command": "ref",
+      "target": "prop:dynamic-confluence"
+    },
+    {
+      "command": "ref",
+      "target": "thm:heat-edge"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-uniform-transfer"
+    },
+    {
+      "command": "ref",
+      "target": "lem:heat-terminal"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:heat-global-majorant"
+    },
+    {
+      "command": "ref",
+      "target": "thm:heat-edge"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:heat-global-majorant"
+    },
+    {
+      "command": "ref",
+      "target": "lem:heat-terminal"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-physical-payment"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:heat-tilt-limit"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-dimensional-identities"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-K-upper"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-residual-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-K-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-residual-upper"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-normalized-rate"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "ref",
+      "target": "prop:dynamic-confluence"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-physical-payment"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:edge-degree-regime"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-fourier-coefficients"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:complete-volume"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:complete-mass"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-S-bounds"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-K-upper"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-K-lower"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-dimensional-identities"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:component-scales"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:complete-velocity-rate"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:complete-mass"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:component-scales"
+    },
+    {
+      "command": "ref",
+      "target": "prop:full-velocity-mass"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:complete-velocity-rate"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:parabolic-fourier-coefficients"
+    },
+    {
+      "command": "ref",
+      "target": "prop:dynamic-confluence"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:bounded-drift-decay"
+    },
+    {
+      "command": "ref",
+      "target": "lem:ub-delay"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-cutoff-time"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-affine-edge"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-markov-input"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-observation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-kos-input"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-observation"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-endpoint"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-kernel-bounds"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-derivative"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-cutoff-time"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-energy"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-flux-conversion"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-scaled-bound"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-mass-conversion"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-main-refined"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-main"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-main"
+    },
+    {
+      "command": "ref",
+      "target": "sec:literature"
+    },
+    {
+      "command": "ref",
+      "target": "fig:edge-diagnostic"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:ub-delay"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:time-order"
+    },
+    {
+      "command": "ref",
+      "target": "lem:confluent-real-rooted"
+    },
+    {
+      "command": "ref",
+      "target": "sec:parabolic"
+    },
+    {
+      "command": "ref",
+      "target": "thm:ub-flux"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:critical-kappa"
+    },
+    {
+      "command": "ref",
+      "target": "thm:ub-flux"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:critical-rate"
+    },
+    {
+      "command": "eqref",
+      "target": "eq:critical-kappa"
+    },
+    {
+      "command": "ref",
+      "target": "sec:sharpness"
+    },
+    {
+      "command": "ref",
+      "target": "rem:ub-window"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "ref",
+      "target": "thm:parabolic-shear"
+    },
+    {
+      "command": "ref",
+      "target": "fig:edge-diagnostic"
+    },
+    {
+      "command": "ref",
+      "target": "thm:heat-edge"
+    }
+  ]
+}

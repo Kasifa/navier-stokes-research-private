@@ -1,0 +1,22 @@
+{
+  "key": "heat-edge",
+  "slug": "heat-evolved-chebyshev-edges",
+  "date": "2026-09-06",
+  "commit": "9ff88b3455894a2ac27bbcec8ecd669435a58a4f",
+  "title": {
+    "zh": "热演化切比雪夫多项式的端点行为与稀疏傅里叶剪切流的局部通量",
+    "en": "Heat-evolved Chebyshev edges and localized fluxes of sparse Fourier shears"
+  },
+  "description": {
+    "zh": "本文研究热演化下高阶切比雪夫多项式的端点增长，区分整体振幅与邻近位置对比的两个对数尺度，给出一致误差界，并验证归一化第二类多项式。进一步以每个成员各自固定初值的精确傅里叶剪切流，研究整个时间区间内的局部有符号通量，说明观察参考系与速度归一化对结论的影响。",
+    "en": "This manuscript studies endpoint growth of high-degree Chebyshev polynomials under heat evolution. It separates the logarithmic scales of the overall amplitude and the contrast between nearby positions, gives uniform error bounds, and verifies the result for normalized second-kind polynomials. A sequence of exact Fourier shears, each with its own fixed initial datum, then connects these estimates to signed local flux over an entire time interval and shows how the conclusions depend on the observation frame and velocity normalization."
+  },
+  "scope": {
+    "zh": "结论适用于文中指定的多项式与光滑精确剪切流，不涉及一般三维 Navier–Stokes 正则性，也不主张误差界或通量上界最优。",
+    "en": "The conclusions concern the specified polynomial families and smooth exact shears; they neither address general three-dimensional Navier–Stokes regularity nor claim optimal error or flux bounds."
+  },
+  "count": {
+    "zh": "7 节正文 · 4 个附录 · 18 个证明",
+    "en": "7 main sections · 4 appendices · 18 proofs"
+  }
+}

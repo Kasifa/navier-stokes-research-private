@@ -1,6 +1,6 @@
 {
   "schemaVersion": "research-site-version-v1",
-  "version": "2.70",
+  "version": "2.71",
   "latestRelease": "R0.76L",
   "latestPublishedResearchHtml": "/notes/r0-76l.html",
   "latestPublishedResearchPdf": "/notes/r0-76l.pdf",
@@ -19,5 +19,9 @@
   "latestIndependentChapter": "CB.25",
   "nextIndependentChapter": "CB.26",
   "roadmapTopology": "R0_SOLID_CB_DASHED_NO_INTERLANE_EDGE",
-  "independentChapterTitlePolicy": "CB.n_PREFIXED"
+  "independentChapterTitlePolicy": "CB.n_PREFIXED",
+  "frontierResultsIndex": "/results/",
+  "frontierResultCount": 2,
+  "frontierResultsPublication": "ResearchResults-Launch-20260907",
+  "frontierReaderPdfPolicy": "EXPLICIT_ENGLISH_PDF_FOR_APPROVED_PAPERS"
 }

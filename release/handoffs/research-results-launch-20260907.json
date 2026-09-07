@@ -1,0 +1,453 @@
+{
+  "schemaVersion": "research-publication-handoff-v1",
+  "releaseId": "ResearchResults-Launch-20260907",
+  "frozenCommit": "9ff88b3455894a2ac27bbcec8ecd669435a58a4f",
+  "sourceRepository": "paper-edge-v2",
+  "translationRoute": "LOCAL_DIRECT_NO_DGX",
+  "artifacts": [
+    {
+      "path": "papers/near-edge-extrapolation-and-parabolic-shear/arxiv/source/main.tex",
+      "sha256": "2851cebf1a72779f071611d0239a799cb7434788df1a9c747649e48c754659ed",
+      "role": "approved-first-paper-frozen-source",
+      "commit": "9ff88b3455894a2ac27bbcec8ecd669435a58a4f"
+    }
+  ],
+  "artifactPolicy": {
+    "readerPdf": "REQUIRED",
+    "historicalReaderPdfs": "PRESERVE",
+    "scientificFigure": "REQUIRED",
+    "simulation": "FORBIDDEN",
+    "recap": "PRESERVE",
+    "scope": "TWO_APPROVED_PAPER_ENGLISH_PDFS_ONLY; COPY_VERIFIED_NO_NEW_AUTHORING"
+  },
+  "claimBoundary": {
+    "requiredLabels": [
+      "PROVED",
+      "FINITE",
+      "OPEN",
+      "NOT CLAY"
+    ],
+    "publicFiles": [
+      "public/results/index.html",
+      "public/results/heat-evolved-chebyshev-edges.html",
+      "public/results/projected-lamb-heat-packing.html"
+    ]
+  },
+  "recap": {
+    "mode": "PRESERVE",
+    "latestRecapRelease": "r076i",
+    "preservedArtifacts": [
+      {
+        "path": "public/recap-r0-61-r0-76i.html",
+        "sha256": "1ea5048bcbecf791a557da94aa4bbf7fbda0a9517c83f40327d119af4f8103c9"
+      },
+      {
+        "path": "public/recap-r0-61-r0-76i.pdf",
+        "sha256": "5bff642caa0c7ad4bf6cdfc3df252b3c0e68312373e185e3a85f27a5828baa98"
+      }
+    ]
+  },
+  "stages": {
+    "generate": {
+      "runner": "python-local",
+      "script": "scripts/generate_research_results_launch_20260907_release.py",
+      "inputs": [
+        "VERSION",
+        "research/results/research-results-launch-20260907",
+        "public/research-review.html",
+        "public/literature-review.html",
+        "research/release-manifest.json"
+      ],
+      "outputs": [
+        "public/results/heat-evolved-chebyshev-edges.html",
+        "public/results/index.html",
+        "public/results/projected-lamb-heat-packing.html",
+        "public/results/results.css",
+        "public/results/results.js",
+        "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "public/assets/papers/projected-lamb-heat-packing-source.zip",
+        "public/assets/papers/projected-lamb-heat-packing.pdf",
+        "public/assets/papers/projected-lamb-internal-entry.pdf",
+        "public/assets/papers/projected-lamb-internal-entry.svg",
+        "public/assets/papers/projected-lamb-local-trace.pdf",
+        "public/assets/papers/projected-lamb-local-trace.svg",
+        "VERSION",
+        "public/research-review.html",
+        "public/literature-review.html",
+        "public/notes/index.html",
+        "public/notes/clay-b-frequency-activation-20260907.html",
+        "public/site-version.json",
+        "research/release-manifest.json"
+      ]
+    },
+    "translate": {
+      "runner": "node-local",
+      "script": "scripts/add-research-results-launch-20260907-translations.mjs",
+      "inputs": [
+        "public/research-review.html",
+        "public/notes/index.html",
+        "translations/en.json",
+        "research/results/research-results-launch-20260907/translations.json"
+      ],
+      "outputs": [
+        "translations/en.json",
+        "public/i18n-en.js"
+      ]
+    },
+    "bind": {
+      "runner": "node-local",
+      "script": "scripts/bind-research-results-launch-20260907-pdfs.mjs",
+      "inputs": [
+        "public/results/heat-evolved-chebyshev-edges.html",
+        "public/results/index.html",
+        "public/results/projected-lamb-heat-packing.html",
+        "public/results/results.css",
+        "public/results/results.js",
+        "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "public/assets/papers/projected-lamb-heat-packing-source.zip",
+        "public/assets/papers/projected-lamb-heat-packing.pdf",
+        "public/assets/papers/projected-lamb-internal-entry.pdf",
+        "public/assets/papers/projected-lamb-internal-entry.svg",
+        "public/assets/papers/projected-lamb-local-trace.pdf",
+        "public/assets/papers/projected-lamb-local-trace.svg",
+        "research/results/research-results-launch-20260907/artifact-manifest.json"
+      ],
+      "outputs": [
+        "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "public/assets/papers/projected-lamb-heat-packing.pdf",
+        "public/assets/papers/projected-lamb-internal-entry.pdf",
+        "public/assets/papers/projected-lamb-local-trace.pdf"
+      ]
+    }
+  },
+  "publication": {
+    "expectedCommit": null,
+    "siteBaseUrl": "https://kasifa.github.io",
+    "repository": "Kasifa/Kasifa.github.io",
+    "workflow": "pages.yml",
+    "remote": "origin",
+    "targetBranch": "main",
+    "commitMessage": "Publish two complete bilingual Frontier Results manuscripts",
+    "managedPaths": [
+      "VERSION",
+      "papers/near-edge-extrapolation-and-parabolic-shear/arxiv/source/main.tex",
+      "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+      "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+      "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+      "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+      "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+      "public/assets/papers/projected-lamb-heat-packing-source.zip",
+      "public/assets/papers/projected-lamb-heat-packing.pdf",
+      "public/assets/papers/projected-lamb-internal-entry.pdf",
+      "public/assets/papers/projected-lamb-internal-entry.svg",
+      "public/assets/papers/projected-lamb-local-trace.pdf",
+      "public/assets/papers/projected-lamb-local-trace.svg",
+      "public/i18n-en.js",
+      "public/literature-review.html",
+      "public/notes/clay-b-frequency-activation-20260907.html",
+      "public/notes/index.html",
+      "public/research-review.html",
+      "public/results/heat-evolved-chebyshev-edges.html",
+      "public/results/index.html",
+      "public/results/projected-lamb-heat-packing.html",
+      "public/results/results.css",
+      "public/results/results.js",
+      "public/site-version.json",
+      "release/handoffs/research-results-launch-20260907.json",
+      "release/qa/research-results-launch-20260907.json",
+      "research/release-manifest.json",
+      "research/results/research-results-launch-20260907/abstracts/heat-edge.en.html",
+      "research/results/research-results-launch-20260907/abstracts/heat-edge.zh.html",
+      "research/results/research-results-launch-20260907/abstracts/projected-lamb.en.html",
+      "research/results/research-results-launch-20260907/abstracts/projected-lamb.zh.html",
+      "research/results/research-results-launch-20260907/artifact-manifest.json",
+      "research/results/research-results-launch-20260907/audits/binding-and-page-qa.md",
+      "research/results/research-results-launch-20260907/audits/chinese-review-sections-1-4.md",
+      "research/results/research-results-launch-20260907/audits/chinese-review-sections-5-appendices.md",
+      "research/results/research-results-launch-20260907/audits/english-html-audit.md",
+      "research/results/research-results-launch-20260907/audits/heat-edge-abstract.zh.md",
+      "research/results/research-results-launch-20260907/audits/heat-edge-merged-audit.md",
+      "research/results/research-results-launch-20260907/audits/math-audit-en.json",
+      "research/results/research-results-launch-20260907/audits/math-audit-zh.json",
+      "research/results/research-results-launch-20260907/audits/part-1-5.zh-independent-review.md",
+      "research/results/research-results-launch-20260907/audits/part-6-end.zh-independent-review.md",
+      "research/results/research-results-launch-20260907/audits/part-6-end.zh.qa.md",
+      "research/results/research-results-launch-20260907/fragments/heat-edge.en.html",
+      "research/results/research-results-launch-20260907/fragments/heat-edge.zh.html",
+      "research/results/research-results-launch-20260907/fragments/projected-lamb.en.html",
+      "research/results/research-results-launch-20260907/fragments/projected-lamb.zh.html",
+      "research/results/research-results-launch-20260907/heat-edge-contract.json",
+      "research/results/research-results-launch-20260907/heat-edge-metadata.json",
+      "research/results/research-results-launch-20260907/homepage-section.html",
+      "research/results/research-results-launch-20260907/projected-lamb-contract.json",
+      "research/results/research-results-launch-20260907/projected-lamb-metadata.json",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/heat-evolved-chebyshev-edges.pdf",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-heat-packing-source.zip",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-heat-packing.pdf",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-internal-entry.pdf",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-internal-entry.svg",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-local-trace.pdf",
+      "research/results/research-results-launch-20260907/reader-assets/assets/papers/projected-lamb-local-trace.svg",
+      "research/results/research-results-launch-20260907/reader-assets/results/heat-evolved-chebyshev-edges.html",
+      "research/results/research-results-launch-20260907/reader-assets/results/index.html",
+      "research/results/research-results-launch-20260907/reader-assets/results/projected-lamb-heat-packing.html",
+      "research/results/research-results-launch-20260907/reader-assets/results/results.css",
+      "research/results/research-results-launch-20260907/reader-assets/results/results.js",
+      "research/results/research-results-launch-20260907/translations.json",
+      "scripts/add-research-results-launch-20260907-translations.mjs",
+      "scripts/bind-research-results-launch-20260907-pdfs.mjs",
+      "scripts/generate_research_results_launch_20260907_release.py",
+      "scripts/publication-qa-lib.mjs",
+      "tests/clay-b-frequency-activation-20260907-release.test.mjs",
+      "tests/research-results-launch-20260907-gate.test.mjs",
+      "tests/research-results-launch-20260907-release.test.mjs",
+      "translations/en.json"
+    ],
+    "expectedLive": [
+      {
+        "role": "homepage",
+        "localPath": "public/research-review.html",
+        "urlPath": "/research-review.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "literature",
+        "localPath": "public/literature-review.html",
+        "urlPath": "/literature-review.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "historical-note-index",
+        "localPath": "public/notes/index.html",
+        "urlPath": "/notes/index.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "site-version",
+        "localPath": "public/site-version.json",
+        "urlPath": "/site-version.json",
+        "contentTypes": [
+          "application/json"
+        ]
+      },
+      {
+        "role": "translations",
+        "localPath": "public/i18n-en.js",
+        "urlPath": "/i18n-en.js",
+        "contentTypes": [
+          "application/javascript",
+          "text/javascript"
+        ]
+      },
+      {
+        "role": "latest-independent-note",
+        "localPath": "public/notes/clay-b-frequency-activation-20260907.html",
+        "urlPath": "/notes/clay-b-frequency-activation-20260907.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "figure-png",
+        "localPath": "public/assets/r076l/fig-r076l-parabolic-edge.png",
+        "urlPath": "/assets/r076l/fig-r076l-parabolic-edge.png",
+        "contentTypes": [
+          "image/png"
+        ]
+      },
+      {
+        "role": "note-html",
+        "localPath": "public/results/heat-evolved-chebyshev-edges.html",
+        "urlPath": "/results/heat-evolved-chebyshev-edges.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "note-index",
+        "localPath": "public/results/index.html",
+        "urlPath": "/results/",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "second-paper-html",
+        "localPath": "public/results/projected-lamb-heat-packing.html",
+        "urlPath": "/results/projected-lamb-heat-packing.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "result-asset-results-css",
+        "localPath": "public/results/results.css",
+        "urlPath": "/results/results.css",
+        "contentTypes": [
+          "text/css"
+        ]
+      },
+      {
+        "role": "result-asset-results-js",
+        "localPath": "public/results/results.js",
+        "urlPath": "/results/results.js",
+        "contentTypes": [
+          "application/javascript",
+          "text/javascript"
+        ]
+      },
+      {
+        "role": "result-asset-heat-evolved-chebyshev-edges-data-csv",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "contentTypes": [
+          "text/csv",
+          "application/octet-stream",
+          "text/plain"
+        ]
+      },
+      {
+        "role": "figure-pdf",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "figure-svg",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      },
+      {
+        "role": "result-asset-heat-evolved-chebyshev-edges-source-zip",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "contentTypes": [
+          "application/zip",
+          "application/octet-stream",
+          "application/x-zip-compressed"
+        ]
+      },
+      {
+        "role": "note-pdf",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-heat-packing-source-zip",
+        "localPath": "public/assets/papers/projected-lamb-heat-packing-source.zip",
+        "urlPath": "/assets/papers/projected-lamb-heat-packing-source.zip",
+        "contentTypes": [
+          "application/zip",
+          "application/octet-stream",
+          "application/x-zip-compressed"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-heat-packing-pdf",
+        "localPath": "public/assets/papers/projected-lamb-heat-packing.pdf",
+        "urlPath": "/assets/papers/projected-lamb-heat-packing.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-internal-entry-pdf",
+        "localPath": "public/assets/papers/projected-lamb-internal-entry.pdf",
+        "urlPath": "/assets/papers/projected-lamb-internal-entry.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-internal-entry-svg",
+        "localPath": "public/assets/papers/projected-lamb-internal-entry.svg",
+        "urlPath": "/assets/papers/projected-lamb-internal-entry.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-local-trace-pdf",
+        "localPath": "public/assets/papers/projected-lamb-local-trace.pdf",
+        "urlPath": "/assets/papers/projected-lamb-local-trace.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-local-trace-svg",
+        "localPath": "public/assets/papers/projected-lamb-local-trace.svg",
+        "urlPath": "/assets/papers/projected-lamb-local-trace.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      }
+    ],
+    "expectedAbsent": [
+      "/notes/clay-b-frequency-activation-20260907.pdf",
+      "/notes/clay-b-recent-source-screen-20260906.pdf",
+      "/notes/clay-b-signed-scale-20260905.pdf"
+    ],
+    "siteVersionExpectations": {
+      "schemaVersion": "research-site-version-v1",
+      "version": "2.71",
+      "latestRelease": "R0.76L",
+      "latestIndependentNote": "ClayB-FrequencyActivation-20260907",
+      "newPdfPolicy": "NO_NEW_PDFS_FROM_CLAYB_SIGNED_SCALE_20260905",
+      "latestIndependentChapter": "CB.25",
+      "nextIndependentChapter": "CB.26",
+      "frontierResultsIndex": "/results/",
+      "frontierResultCount": 2,
+      "frontierReaderPdfPolicy": "EXPLICIT_ENGLISH_PDF_FOR_APPROVED_PAPERS"
+    }
+  },
+  "visualQa": {
+    "evidencePath": ".release/qa/ResearchResults-Launch-20260907.json",
+    "configPath": "release/qa/research-results-launch-20260907.json",
+    "requiredChecks": [
+      "homepage-desktop-light-zh",
+      "homepage-desktop-dark-en",
+      "homepage-mobile-light-en",
+      "homepage-mobile-dark-zh",
+      "results-index-desktop-light-zh",
+      "results-index-desktop-dark-en",
+      "results-index-mobile-light-en",
+      "results-index-mobile-dark-zh",
+      "heat-paper-desktop-light-zh",
+      "heat-paper-desktop-dark-en",
+      "heat-paper-mobile-light-en",
+      "heat-paper-mobile-dark-zh",
+      "lamb-paper-desktop-light-zh",
+      "lamb-paper-desktop-dark-en",
+      "lamb-paper-mobile-light-en",
+      "lamb-paper-mobile-dark-zh"
+    ]
+  }
+}

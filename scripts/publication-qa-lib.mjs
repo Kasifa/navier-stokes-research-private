@@ -188,7 +188,8 @@ async function localServer(root) {
   const publicRoot = resolve(root, "public");
   const server = createServer((request, response) => {
     const pathname = decodeURIComponent(new URL(request.url, "http://127.0.0.1").pathname);
-    const repositoryPath = pathname === "/" ? "research-review.html" : pathname.replace(/^\/+/, "");
+    const repositoryPath = pathname === "/" ? "research-review.html"
+      : (pathname.endsWith("/") ? `${pathname}index.html` : pathname).replace(/^\/+/, "");
     const target = resolve(publicRoot, repositoryPath);
     if (!target.startsWith(`${publicRoot}/`)) return response.writeHead(403).end();
     response.setHeader("Content-Type", CONTENT_TYPES.get(extname(target).toLowerCase()) ?? "application/octet-stream");

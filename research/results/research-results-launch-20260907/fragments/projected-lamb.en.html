@@ -1,0 +1,891 @@
+<p><strong>2020 Mathematics Subject Classification.</strong> 35Q30,
+35B65, 76D05.</p>
+<p><strong>Keywords.</strong> Navier–Stokes equations; Lamb vector;
+vorticity stretching; heat extension; Littlewood–Paley decomposition;
+trace obstruction; occupation measure.</p>
+<h1 data-number="1" id="introduction" data-source-heading="heading-01"><span class="header-section-number">1</span> Introduction</h1>
+<p>Let <span class="math inline">\(u\)</span> be a divergence-free
+velocity field and <span class="math inline">\(\omega=\operatorname{curl}u\)</span> its
+vorticity. The obstruction to a direct global enstrophy estimate in
+three dimensions is the vortex-stretching work <span class="math inline">\(\int S:\omega\otimes\omega\)</span>, where <span class="math inline">\(S=(\nabla u+\nabla u^{T})/2\)</span>. Classical
+regularity theory controls this work by adding geometric coherence,
+critical-space smallness, or an integrable strong norm; representative
+examples include <span class="citation" data-cites="Serrin1962"><a href="#ref-Serrin1962" role="doc-biblioref">[9]</a></span>, <span class="citation" data-cites="ConstantinFefferman1993"><a href="#ref-ConstantinFefferman1993" role="doc-biblioref">[2]</a></span>, and <span class="citation" data-cites="KochTataru2001"><a href="#ref-KochTataru2001" role="doc-biblioref">[7]</a></span>. The aim here
+is narrower. I examine one signed frequency-localized form of the
+enstrophy injection and determine exactly which part follows from the
+Leray energy inequality and which part does not.</p>
+<p>The starting identity is classical. Modulo a Bernoulli gradient, the
+Navier–Stokes nonlinearity is the solenoidal Lamb vector <span class="math display" data-source-display="display-001" data-source-sha256="8812f375e137e243ae348642da98dbddffda0ec93d408cb3de4b00f9e26d1202">\[L=\mathbb P(u\times\omega)=\partial_tu-\nu\Delta
+u.\]</span> Solenoidal Lamb decompositions have appeared in fluid
+mechanics and in mathematical formulations of the curl operator <span class="citation" data-cites="Shtilman1992 IyerSreenivasanYeung2022 LernerVigneron2022"><a href="#ref-Shtilman1992" role="doc-biblioref">[10]</a>, <a href="#ref-IyerSreenivasanYeung2022" role="doc-biblioref">[5]</a>, <a href="#ref-LernerVigneron2022" role="doc-biblioref">[8]</a></span>. The
+contribution of this paper is not that decomposition by itself. It is
+the specific signed shell quotient below, its energy-level heat packing,
+and sharp smooth-solution obstructions to recovering its bottom
+trace.</p>
+<h2 data-number="1.1" id="main-results" data-source-heading="heading-02"><span class="header-section-number">1.1</span> Main results</h2>
+<p>Fix a real-even scalar tight Fourier frame <span class="math inline">\((T_j)_j\)</span>. For heat height <span class="math inline">\(s\ge0\)</span>, set <span class="math display" data-source-display="display-002" data-source-sha256="a5465e6a9eb65288a2d30d49bd1ec45cf968931e83f480dd0856fc35461b2444">\[W_{j,s}=e^{s\Delta}T_j\omega,
+\qquad F_{j,s}=e^{s\Delta}T_jL,
+\qquad D_{j,s}=\left\lVert \nabla W_{j,s}\right\rVert_2^2,\]</span> and
+define the complete shell injection <span class="math display" data-source-display="display-003" data-source-sha256="f788bcc192f60a1735857108d6dbbf7e403ec6320da27fcd021d91f360e82d43">\[b_{j,s}=\left\langle
+\operatorname{curl}W_{j,s},F_{j,s}\right\rangle.\]</span> The positive
+shell square function is <span class="math display" data-source-display="display-004" data-source-sha256="763928024f6558f8105c5ec32c9f60c0e95c7a9e7905c79b0a437d1d9bc157dc">\[\Theta_s^2
+=\sum_{D_{j,s}&gt;0}\frac{\left(b_{j,s}\right)_{+}^2}{D_{j,s}}.\]</span>
+The first theorem, proved in Sections <a href="#sec:criterion" data-reference-type="ref" data-reference="sec:criterion" class="xref" data-ref-target="sec:criterion">3</a>–<a href="#sec:bulk" data-reference-type="ref" data-reference="sec:bulk" class="xref" data-ref-target="sec:bulk">4</a>, is <span class="tex-anchor" id="eq:intro-bulk" aria-hidden="true"></span><span class="math display" data-source-display="display-005" data-source-sha256="76fc58638a5c720d56dda4ee6ff7441cae71350e1da36a2acd76e0885649b339">\[\begin{equation}
+
+\int_0^\infty\Theta_s^2\,\mathrm ds
+\le \frac12\left\lVert L\right\rVert_{\dot H^{-1}}^2
+\le \frac12\left\lVert u\right\rVert_4^4.
+\end{equation}\]</span><span class="equation-numbers">(1)</span> If <span class="math inline">\(Y(t)=\left\lVert
+\omega(t)\right\rVert_2^2\)</span> and <span class="math display" data-source-display="display-006" data-source-sha256="0bf15a98966d31e45eb49f0e73dbad6f7143f20eeac75581a9fb41e59162466b">\[\mathcal
+V(t)=Y(t)^{-1}\int_0^\infty\Theta_s(t)^2\,\mathrm ds,\]</span> with the
+value zero when <span class="math inline">\(Y=0\)</span>, then every
+periodic Leray–Hopf solution satisfies <span class="tex-anchor" id="eq:intro-time" aria-hidden="true"></span><span class="math display" data-source-display="display-007" data-source-sha256="7bc1dab1961b04594de5fac66dd3edcaf00bc51c26a83687bf48ef49401d30ca">\[\begin{equation}
+
+\int_0^T\mathcal V(t)\,\mathrm dt
+\le \frac{C_S^3}{2\sqrt{2\nu}}\left\lVert u_0\right\rVert_2^2\sqrt T.
+\end{equation}\]</span><span class="equation-numbers">(2)</span> This is an unconditional statement at the energy
+level. Bounded-overlap localization gives the corresponding estimate
+with an overlap constant and also gives a conditional local continuation
+criterion.</p>
+<p>The bottom value <span class="math display" data-source-display="display-008" data-source-sha256="b8088d7f3fc006fe08fe3ebc1ea3b8cdc3aaffffabe186c0c47d7d3433c3d65d">\[A_{\mathrm{sb},+}(t)=\Theta_0(t)^2/Y(t)\]</span>
+is different. Section <a href="#sec:trace" data-reference-type="ref" data-reference="sec:trace" class="xref" data-ref-target="sec:trace">6</a> constructs one fixed dyadically
+covariant radial frame and a global smooth 2D3C family for which, at
+every dyadic frequency <span class="math inline">\(K=2^j\)</span>, <span class="tex-anchor" id="eq:intro-trace" aria-hidden="true"></span><span class="math display" data-source-display="display-009" data-source-sha256="8a37fe855a65372b1a6bc0677479bdcf401c601bc76bcec422a2fab8f76b29e5">\[\begin{equation}
+
+A_{\mathrm{sb},+}(0)=2K^2\mathcal V(0).
+\end{equation}\]</span><span class="equation-numbers">(3)</span> The identity survives every nonzero nonnegative
+smooth cutoff. At a parabolic heat height <span class="math inline">\(h=\theta K^{-2}\)</span>, the height average is a
+fixed positive fraction of the bottom value. Matched partitions retain
+the same scale law. A separate whole-space scaling argument places the
+obstruction on strictly interior admissible skewed cylinders and rules
+out a pure geometry-only bottom-from-bulk factor <span class="math inline">\(o(r^{-2})\)</span>. The critical <span class="math inline">\(Cr^{-2}\)</span> factor is saturated, not
+rejected.</p>
+<p>Section <a href="#sec:entry" data-reference-type="ref" data-reference="sec:entry" class="xref" data-ref-target="sec:entry">7</a> addresses a temporal objection to a
+static trace example. Starting from <span class="math display" data-source-display="display-010" data-source-sha256="61d3d10a8236328c946ac02d4ba37225238fedb7692fac31c9de030e2716e9f2">\[U=(0,\cos x_1,\cos x_2),\]</span> the exact local
+Navier–Stokes flow is perturbed in the target shell so that the entire
+shell vanishes at a prescribed positive time <span class="math inline">\(\tau\)</span>, while its nonlinear forcing remains
+nonzero. The resulting zero is a genuine simple internal positive entry.
+Choosing a base amplitude <span class="math inline">\(a_\lambda=\lambda^{-2}\)</span> and then applying
+integer Navier–Stokes dilation gives <span class="tex-anchor" id="eq:intro-payment" aria-hidden="true"></span><span class="math display" data-source-display="display-011" data-source-sha256="85d86ff13f356186ed7beb1d2f8045c6efd184298c61124e530236ae73c0b496">\[\begin{equation}
+
+\frac{\text{internal entry atom}}
+{\displaystyle\int
+   \left\lVert L_\lambda\right\rVert_{\dot H^{-1}}^2/Y_\lambda\,\mathrm
+dt}
+=\frac{2\nu}{\sinh(2\nu\tau)}\lambda^2+o(\lambda^2).
+\end{equation}\]</span><span class="equation-numbers">(4)</span> The initial kinetic energy and critical <span class="math inline">\(\dot H^{1/2}\)</span> norm tend to zero, while the
+initial enstrophy remains bounded. Thus the failure is not caused by a
+large energy ledger or an initial-time observation face.</p>
+<p>The final positive statement is an exact outgoing-coarea
+representation of all isolated finite-order entries. Its density has the
+correct scale, but it concentrates at the distinguished zero level. The
+Leray inequality does not provide the required uniform occupation
+estimate in the present argument.</p>
+<h2 data-number="1.2" id="relation-to-nearby-work" data-source-heading="heading-03"><span class="header-section-number">1.2</span> Relation to nearby work</h2>
+<p>The heat-extension viewpoint is established in critical Navier–Stokes
+theory, most notably in the <span class="math inline">\(BMO^{-1}\)</span> framework of <span class="citation" data-cites="KochTataru2001"><a href="#ref-KochTataru2001" role="doc-biblioref">[7]</a></span>. The present square function is solution-dependent, signed
+before squaring, and normalized by enstrophy; it is not the Koch–Tataru
+norm. Rigorous skewed-cylinder geometry is available from <span class="citation" data-cites="Yang2020"><a href="#ref-Yang2020" role="doc-biblioref">[13]</a></span> and has been
+used for derivative estimates by <span class="citation" data-cites="VasseurYang2021"><a href="#ref-VasseurYang2021" role="doc-biblioref">[12]</a></span>. Those
+covering theorems do not by themselves recover a boundary value in the
+independent heat-height variable. Recent caloric trace estimates recover
+boundary regularity from stronger interior derivative norms <span class="citation" data-cites="ChenLiangTsai2026"><a href="#ref-ChenLiangTsai2026" role="doc-biblioref">[1]</a></span>, rather than from the zero-order bulk in <a href="#eq:intro-bulk" data-reference-type="eqref" data-reference="eq:intro-bulk" class="xref" data-ref-target="eq:intro-bulk">(1)</a>.</p>
+<p>The closest filtered-vorticity comparison located in the preparation
+of this draft is <span class="citation" data-cites="Yu2026"><a href="#ref-Yu2026" role="doc-biblioref">[14]</a></span>. That work controls a positive near-field stretching part
+and obtains conditional unweighted closure under additional far-field,
+commutator, and localization summability. The observable and the closure
+hypotheses differ from those used here. Exact commutator identities also
+do not imply defect vanishing without an additional compactness or
+regularity input; this distinction is familiar from <span class="citation" data-cites="DuchonRobert2000"><a href="#ref-DuchonRobert2000" role="doc-biblioref">[3]</a></span>.</p>
+<p>The paper makes no priority or literature-exhaustion claim. Its
+precise scope is summarized in Section <a href="#sec:discussion" data-reference-type="ref" data-reference="sec:discussion" class="xref" data-ref-target="sec:discussion">10</a>.</p>
+<h1 data-number="2" id="sec:setting" data-source-heading="heading-04"><span class="header-section-number">2</span> Setting and notation</h1>
+<p>The periodic part of the paper is set on <span class="math inline">\(\mathbb T^3=(\mathbb R/2\pi\mathbb Z)^3\)</span>
+with normalized spatial measure. The velocity has zero mean and
+satisfies <span class="tex-anchor" id="eq:nse" aria-hidden="true"></span><span class="math display" data-source-display="display-012" data-source-sha256="3995a4a1d7bd9f91646eaab16bb1ecd0af0d2e4b395f6c7e6a7518a7506a094b">\[\begin{equation}
+
+\partial_tu+u\cdot\nabla u+\nabla p=\nu\Delta u,
+\qquad \nabla\cdot u=0,
+\qquad \omega=\operatorname{curl}u.
+\end{equation}\]</span><span class="equation-numbers">(5)</span> All Fourier multipliers are set to zero on the
+zero mode. The Leray projection is denoted by <span class="math inline">\(\mathbb P\)</span>.</p>
+<p>A <em>real-even scalar tight frame</em> is a countable family of
+scalar Fourier multipliers <span class="math inline">\((T_j)_j\)</span>,
+with symbols <span class="math inline">\(m_j(k)\)</span>, such that
+<span class="tex-anchor" id="eq:tight" aria-hidden="true"></span><span class="math display" data-source-display="display-013" data-source-sha256="3bd5bef0e2e0f258971c75fc2a0669f20818e43aef7daf057a84c0e851719bf2">\[\begin{equation}
+
+m_j(-k)=m_j(k)\in\mathbb R,
+\qquad \sum_j\left\lvert m_j(k)\right\rvert^2=1
+\quad (k\ne0).
+\end{equation}\]</span><span class="equation-numbers">(6)</span> For finite frames all sums are literal. Infinite
+sums are interpreted by finite truncation followed by monotone or Fatou
+convergence whenever the summands are nonnegative.</p>
+<p>At energy regularity, expressions containing <span class="math inline">\(e^{s\Delta}L\)</span> as an <span class="math inline">\(L^2\)</span> field are understood for <span class="math inline">\(s&gt;0\)</span>. Their heat-height integrals are
+defined by finite shell and positive-height truncation followed by
+Tonelli and Fatou. At <span class="math inline">\(s=0\)</span>, the
+shell coefficients are used only when <span class="math inline">\(L\in
+L^2\)</span>; this holds, in particular, at almost every <span class="math inline">\(H^2\)</span> time of a periodic <span class="math inline">\(H^1\)</span> strong solution. Changing a
+coefficient on the remaining null set does not affect any continuation
+hypothesis below.</p>
+<p>The rotational form of <a href="#eq:nse" data-reference-type="eqref" data-reference="eq:nse" class="xref" data-ref-target="eq:nse">(5)</a> gives <span class="tex-anchor" id="eq:lamb" aria-hidden="true"></span><span class="math display" data-source-display="display-014" data-source-sha256="6e861be1881e6c677b2e46302e166295229f59e33f1399fb7f8fd105025957ce">\[\begin{equation}
+
+u\times\omega=L+\nabla B,
+\qquad
+B=p+\frac12\left\lvert u\right\rvert^2,
+\qquad
+L=\mathbb P(u\times\omega)
+   =\partial_tu-\nu\Delta u
+   =-\mathbb P\nabla\cdot(u\otimes u).
+\end{equation}\]</span><span class="equation-numbers">(7)</span> Taking curl yields <span class="tex-anchor" id="eq:vort-lamb" aria-hidden="true"></span><span class="math display" data-source-display="display-015" data-source-sha256="7f5d8377fa62cff99d9ad231ae4ed4c2cfabea703da0f9a22719956e867fe7e1">\[\begin{equation}
+
+\partial_t\omega-\nu\Delta\omega
+=\operatorname{curl}L=S\omega-u\cdot\nabla\omega.
+\end{equation}\]</span><span class="equation-numbers">(8)</span></p>
+<p>For <span class="math inline">\(s\ge0\)</span>, define <span class="tex-anchor" id="eq:heat-fields" aria-hidden="true"></span><span class="math display" data-source-display="display-016" data-source-sha256="699c014f546bc56e03cc2e457a371cc0fb577b7b79ed209d087d15696ab81c3f">\[\begin{equation}
+
+A_{j,s}=e^{s\Delta}T_j,
+\quad W_{j,s}=A_{j,s}\omega,
+\quad F_{j,s}=A_{j,s}L,
+\quad D_{j,s}=\left\lVert \nabla W_{j,s}\right\rVert_2^2.
+\end{equation}\]</span><span class="equation-numbers">(9)</span> Since <span class="math inline">\(W_{j,s}\)</span> is divergence free, <span class="math inline">\(D_{j,s}=\left\lVert
+\operatorname{curl}W_{j,s}\right\rVert_2^2\)</span>. The heat-extended
+vorticity equation is <span class="tex-anchor" id="eq:heat-vort" aria-hidden="true"></span><span class="math display" data-source-display="display-017" data-source-sha256="128ea7c619e7848a69713833f4746471a2d2f609c1bb621b0ad1957521e752e9">\[\begin{equation}
+
+(\partial_t-\nu\partial_s)W_{j,s}=\operatorname{curl}F_{j,s}.
+\end{equation}\]</span><span class="equation-numbers">(10)</span></p>
+<h1 data-number="3" id="sec:criterion" data-source-heading="heading-05"><span class="header-section-number">3</span> A signed shell continuation
+coefficient</h1>
+<p>At heat height <span class="math inline">\(s\)</span>, define the
+complete shell work <span class="tex-anchor" id="eq:shell-work" aria-hidden="true"></span><span class="math display" data-source-display="display-018" data-source-sha256="5155a260e9eae3a059f92c54b9bcdb1fd58ee3070405a7af1f32f463d4a4c8dc">\[\begin{equation}
+
+b_{j,s}=\left\langle \operatorname{curl}W_{j,s},F_{j,s}\right\rangle.
+\end{equation}\]</span><span class="equation-numbers">(11)</span> This includes stretching and the
+transport-filter commutator. Indeed, <span class="tex-anchor" id="eq:compression" aria-hidden="true"></span><span class="math display" data-source-display="display-019" data-source-sha256="cd880f27a7a83eadf61a1994d5a5756692de03b79e91085177df7fb2a2240783">\[\begin{equation}
+
+\begin{aligned}
+b_{j,s}
+&amp;=\left\langle
+W_{j,s},A_{j,s}(S\omega-u\cdot\nabla\omega)\right\rangle\\
+&amp;=\left\langle
+W_{j,s},A_{j,s}(S\omega)+[u\cdot\nabla,A_{j,s}]\omega\right\rangle.
+\end{aligned}
+\end{equation}\]</span><span class="equation-numbers">(12)</span> The advective pairing with <span class="math inline">\(W_{j,s}\)</span> vanishes globally. Pressure is
+the gradient complement in <a href="#eq:lamb" data-reference-type="eqref" data-reference="eq:lamb" class="xref" data-ref-target="eq:lamb">(7)</a> and
+is therefore not a third independent vorticity work term.</p>
+<p>At <span class="math inline">\(s=0\)</span>, write <span class="tex-anchor" id="eq:Asb" aria-hidden="true"></span><span class="math display" data-source-display="display-020" data-source-sha256="9650495b541c6a3fbbb1b4445638fdc92e6a00c782456e3657495668c79acf2f">\[\begin{equation}
+
+\Theta_0^2=\sum_{D_{j,0}&gt;0}\frac{\left(b_{j,0}\right)_{+}^2}{D_{j,0}},
+\qquad
+A_{\mathrm{sb},+}=\frac{\Theta_0^2}{Y},
+\qquad Y=\left\lVert \omega\right\rVert_2^2,
+\end{equation}\]</span><span class="equation-numbers">(13)</span> with value zero when <span class="math inline">\(Y=0\)</span>.</p>
+<div id="prop:continuation" class="proposition" data-source-block="proposition-01" data-source-sha256="3ab3e685a8ccbebdb6837a8bfaec114d258f9d9fa385fa73ab364bcdc80d3706">
+<p><strong>Proposition 3.1</strong> (Conditional shell continuation).
+<em>Let <span class="math inline">\(u\)</span> be a maximal periodic
+<span class="math inline">\(H^1\)</span> strong solution on <span class="math inline">\([0,T_*)\)</span>. If <span class="tex-anchor" id="eq:continuation-hyp" aria-hidden="true"></span><span class="math display" data-source-display="display-021" data-source-sha256="2280ee3b6ec96b5814b9f152facb7eef7e28203ca7d4f253abfd7ce1d0534594">\[\begin{equation}
+
+\int_0^{T_*}A_{\mathrm{sb},+}(t)\,\mathrm dt&lt;\infty,
+\end{equation}\]</span><span class="equation-numbers">(14)</span> then <span class="math inline">\(u\)</span>
+extends beyond <span class="math inline">\(T_*\)</span>.</em></p>
+</div>
+<div class="proof" data-source-block="proof-02" data-source-sha256="a8f49792aad9f47d49c7568dbc8df35b1bb545714a31d72f2c6d5e85702f2a20">
+<p><em>Proof.</em> Set <span class="math inline">\(D=\left\lVert
+\nabla\omega\right\rVert_2^2\)</span> and <span class="math inline">\(\mathfrak P=\int S:\omega\otimes\omega\)</span>.
+Tightness gives <span class="math inline">\(\sum_jD_{j,0}=D\)</span> and
+<span class="math inline">\(\sum_jb_{j,0}=\mathfrak P\)</span>.
+Positive-part subadditivity and weighted Cauchy imply <span class="math display" data-source-display="display-022" data-source-sha256="395f2a83566edca51ba5ec8c17000a8da68d4fb40898ce2ecf3b66a57a082156">\[\mathfrak P_+
+\le \sqrt D\,\Theta_0
+\le \frac\nu2D+\frac1{2\nu}A_{\mathrm{sb},+}Y.\]</span> The enstrophy
+identity therefore yields <span class="math display" data-source-display="display-023" data-source-sha256="2fb46518e700cec5b7407d5c6e0b565bf8e1e6ddc16e9dda902b4222f6df5ecc">\[Y'+\nu
+D\le\nu^{-1}A_{\mathrm{sb},+}Y.\]</span> Gronwall and <a href="#eq:continuation-hyp" data-reference-type="eqref" data-reference="eq:continuation-hyp" class="xref" data-ref-target="eq:continuation-hyp">(14)</a> bound
+<span class="math inline">\(Y\)</span> on <span class="math inline">\([0,T_*)\)</span> and place <span class="math inline">\(D\)</span> in <span class="math inline">\(L^1(0,T_*)\)</span>. The standard strong-solution
+continuation theorem then extends the solution; see, for example, <span class="citation" data-cites="FujitaKato1964 Kato1984 Temam2001"><a href="#ref-FujitaKato1964" role="doc-biblioref">[4]</a>, <a href="#ref-Kato1984" role="doc-biblioref">[6]</a>, <a href="#ref-Temam2001" role="doc-biblioref">[11]</a></span>. ◻</p>
+</div>
+<div class="remark" data-source-block="remark-03" data-source-sha256="5ee7d7c91e644b518cce57e0ce0df46d1837256357a4469b970d2bb5cd0198a9">
+<p><strong>Remark 3.2.</strong>. Proposition <a href="#prop:continuation" data-reference-type="ref" data-reference="prop:continuation" class="xref" data-ref-target="prop:continuation">3.1</a> is a
+scale-critical conditional reduction, not an unconditional regularity
+criterion. The rest of the paper tests whether <a href="#eq:continuation-hyp" data-reference-type="eqref" data-reference="eq:continuation-hyp" class="xref" data-ref-target="eq:continuation-hyp">(14)</a> follows
+from the energy-controlled heat extension.</p>
+</div>
+<h1 data-number="4" id="sec:bulk" data-source-heading="heading-06"><span class="header-section-number">4</span> Unconditional projected-Lamb heat
+packing</h1>
+<p>For <span class="math inline">\(s\ge0\)</span>, set <span class="tex-anchor" id="eq:Theta" aria-hidden="true"></span><span class="math display" data-source-display="display-024" data-source-sha256="0431ec73716efff19d7f202c59538e305a9a012d4c22ad9f709892a9e04bd45a">\[\begin{equation}
+
+\Theta_s^2
+=\sum_{D_{j,s}&gt;0}\frac{\left(b_{j,s}\right)_{+}^2}{D_{j,s}}.
+\end{equation}\]</span><span class="equation-numbers">(15)</span></p>
+<div id="thm:global-bulk" class="theorem" data-source-block="theorem-04" data-source-sha256="6b7e20a2326c330a8b4afc8635e47dbc65cf998aa1e91f1de2bbfd39180bc638">
+<p><strong>Theorem 4.1</strong> (Global heat-bulk estimate). <em>At every
+time at which <span class="math inline">\(u\in H^1(\mathbb
+T^3)\)</span>, <span class="tex-anchor" id="eq:bulk-main" aria-hidden="true"></span><span class="math display" data-source-display="display-025" data-source-sha256="180b38e97cf27fd295a35f0aa7c21085f83c8a6f4af6c72d631007dfee3b32b3">\[\begin{equation}
+
+\Theta_s^2\le\left\lVert e^{s\Delta}L\right\rVert_2^2\quad(s&gt;0),
+\qquad
+\int_0^\infty\Theta_s^2\,\mathrm ds
+\le\frac12\left\lVert L\right\rVert_{\dot H^{-1}}^2
+\le\frac12\left\lVert u\right\rVert_4^4.
+\end{equation}\]</span><span class="equation-numbers">(16)</span> If <span class="math inline">\(L\in
+L^2\)</span>, the pointwise inequality also holds at <span class="math inline">\(s=0\)</span>. For a periodic Leray–Hopf solution
+and every finite <span class="math inline">\(T\)</span>, the normalized
+bulk <span class="tex-anchor" id="eq:Vdef" aria-hidden="true"></span><span class="math display" data-source-display="display-026" data-source-sha256="5b5543739270b7eee65dc859ce60ec5004978b68e235cbb29c1e476b5820a80d">\[\begin{equation}
+
+\mathcal V(t)=\frac1{Y(t)}\int_0^\infty\Theta_s(t)^2\,\mathrm ds
+\end{equation}\]</span><span class="equation-numbers">(17)</span> satisfies <a href="#eq:intro-time" data-reference-type="eqref" data-reference="eq:intro-time" class="xref" data-ref-target="eq:intro-time">(2)</a>.</em></p>
+</div>
+<div class="proof" data-source-block="proof-05" data-source-sha256="ef46036ca0e17fc18a81561d04b40667f26582dd3ec94beb044a69d314053d1e">
+<p><em>Proof.</em> Shellwise Cauchy and <a href="#eq:shell-work" data-reference-type="eqref" data-reference="eq:shell-work" class="xref" data-ref-target="eq:shell-work">(11)</a> give <span class="math display" data-source-display="display-027" data-source-sha256="74c1e43dfd0132182792712fc4e7e7694ae46a093a234783586059b33939e9c9">\[\frac{\left(b_{j,s}\right)_{+}^2}{D_{j,s}}
+\le\left\lVert F_{j,s}\right\rVert_2^2.\]</span> Summing and using <a href="#eq:tight" data-reference-type="eqref" data-reference="eq:tight" class="xref" data-ref-target="eq:tight">(6)</a> proves the first inequality in
+<a href="#eq:bulk-main" data-reference-type="eqref" data-reference="eq:bulk-main" class="xref" data-ref-target="eq:bulk-main">(16)</a>. Since <span class="math inline">\(L\)</span> has zero mean, <span class="math display" data-source-display="display-028" data-source-sha256="51e334b2356044a894fb3669e5d4d3231ae9cf932957fd9ec3de4dd3f342af1d">\[\int_0^\infty\left\lVert
+e^{s\Delta}L\right\rVert_2^2\,\mathrm ds
+=\frac12\left\lVert (-\Delta)^{-1/2}L\right\rVert_2^2.\]</span> The
+multiplier <span class="math inline">\((-\Delta)^{-1/2}\mathbb
+P\nabla\cdot\)</span> has <span class="math inline">\(L^2\)</span>
+operator norm at most one from matrix fields with the Frobenius norm to
+vector fields. Equation <a href="#eq:lamb" data-reference-type="eqref" data-reference="eq:lamb" class="xref" data-ref-target="eq:lamb">(7)</a> therefore gives <span class="math display" data-source-display="display-029" data-source-sha256="8fd2d843bb587a5de1fe9341a99e11ca68378fb1d68abc64bf31151a503538a1">\[\left\lVert L\right\rVert_{\dot H^{-1}}
+\le\left\lVert u\otimes u\right\rVert_2=\left\lVert
+u\right\rVert_4^2.\]</span> This proves <a href="#eq:bulk-main" data-reference-type="eqref" data-reference="eq:bulk-main" class="xref" data-ref-target="eq:bulk-main">(16)</a>.</p>
+<p>The three-dimensional interpolation and Sobolev inequalities give
+<span class="math display" data-source-display="display-030" data-source-sha256="44620a7dffecde66b8aee5f17503a6ca36e1887609f9f69592b61e050c9f8795">\[\left\lVert u\right\rVert_4^4
+\le\left\lVert u\right\rVert_2\left\lVert u\right\rVert_6^3
+\le C_S^3\left\lVert u\right\rVert_2Y^{3/2}.\]</span> Hence <span class="math display" data-source-display="display-031" data-source-sha256="a8e64c40696219f5998606238b307f80ddf490ea80d3890fd2f749ea2532cc6a">\[\mathcal V(t)\le\frac{C_S^3}{2}\left\lVert
+u(t)\right\rVert_2Y(t)^{1/2}.\]</span> The Leray inequality implies
+<span class="math display" data-source-display="display-032" data-source-sha256="8a18216f428c51186d60667f50fc3ce4a4f42527560e4d97991b72844783c1d5">\[\left\lVert
+u(t)\right\rVert_2\le\left\lVert u_0\right\rVert_2,
+\qquad
+\nu\int_0^TY(t)\,\mathrm dt\le\frac12\left\lVert
+u_0\right\rVert_2^2.\]</span> Cauchy in time proves <a href="#eq:intro-time" data-reference-type="eqref" data-reference="eq:intro-time" class="xref" data-ref-target="eq:intro-time">(2)</a>.</p>
+<p>For weak solutions, the argument is first applied to finite shell and
+heat-height truncations at almost every <span class="math inline">\(H^1\)</span> time. Tonelli and Fatou then give the
+stated interpretation. No solution-dependent test function is inserted
+into the weak formulation. ◻</p>
+</div>
+<p>The factorization of the unresolved trace is now explicit. When the
+denominator is positive, define <span class="tex-anchor" id="eq:Lambda" aria-hidden="true"></span><span class="math display" data-source-display="display-033" data-source-sha256="5da4cab9a70b8b4b6bb8a06d072c42da52a25d95164e72efb85d54cbec12391d">\[\begin{equation}
+
+\Lambda_L^2(t)=
+\frac{\Theta_0(t)^2}{\displaystyle\int_0^\infty\Theta_s(t)^2\,\mathrm
+ds};
+\end{equation}\]</span><span class="equation-numbers">(18)</span> otherwise set <span class="math inline">\(\Lambda_L=0\)</span>. Then <span class="tex-anchor" id="eq:factorization" aria-hidden="true"></span><span class="math display" data-source-display="display-034" data-source-sha256="05a556861ef79e3e42a456417c06966e7ae46ddfec9f6935d119114fa5a94eec">\[\begin{equation}
+
+A_{\mathrm{sb},+}=\Lambda_L^2\mathcal V.
+\end{equation}\]</span><span class="equation-numbers">(19)</span> Theorem <a href="#thm:global-bulk" data-reference-type="ref" data-reference="thm:global-bulk" class="xref" data-ref-target="thm:global-bulk">4.1</a>
+controls <span class="math inline">\(\mathcal V\)</span>, but does not
+control <span class="math inline">\(\Lambda_L^2\)</span>.</p>
+<h1 data-number="5" id="sec:local" data-source-heading="heading-07"><span class="header-section-number">5</span> Bounded-overlap localization</h1>
+<p>Let <span class="math inline">\((\chi_{j,Q})_Q\)</span> be a
+nonnegative smooth partition of unity at the matched radius <span class="math inline">\(r_j\simeq K_j^{-1}\)</span>, where <span class="math inline">\(T_j\)</span> is supported in <span class="math inline">\(cK_j\le\left\lvert k\right\rvert\le CK_j\)</span>.
+Assume uniform derivative bounds and overlap at most <span class="math inline">\(N\)</span>. Define <span class="tex-anchor" id="eq:local-work" aria-hidden="true"></span><span class="math display" data-source-display="display-035" data-source-sha256="025a9ec4e2c79ee280d483e2fdc93f9066664b1f9676a3c4d69d1e00527dd149">\[\begin{equation}
+
+B_{j,Q}(t,s)=\left\langle
+F_{j,s},\operatorname{curl}(\chi_{j,Q}W_{j,s})\right\rangle,
+\qquad
+d_{j,Q}(t,s)=\left\lVert
+\operatorname{curl}(\chi_{j,Q}W_{j,s})\right\rVert_2^2,
+\end{equation}\]</span><span class="equation-numbers">(20)</span> and set <span class="tex-anchor" id="eq:local-q" aria-hidden="true"></span><span class="math display" data-source-display="display-036" data-source-sha256="4f76ac05980a0b0f224ffbe6a2f96eb347c336b1db6fb76d2453adf8a7cc9291">\[\begin{equation}
+
+q_{j,Q}(t,s)=
+\begin{cases}
+\left(B_{j,Q}(t,s)\right)_{+}^2/d_{j,Q}(t,s),&amp;d_{j,Q}&gt;0,\\
+0,&amp;d_{j,Q}=0.
+\end{cases}
+\end{equation}\]</span><span class="equation-numbers">(21)</span> The curl in <a href="#eq:local-work" data-reference-type="eqref" data-reference="eq:local-work" class="xref" data-ref-target="eq:local-work">(20)</a> retains the cutoff
+collar exactly: <span class="math display" data-source-display="display-037" data-source-sha256="638359cf05669ace4df2bc067e509487bfc3e434c671a11d1c636aaad088dd53">\[B_{j,Q}
+=\int\chi_{j,Q}F_{j,s}\cdot\operatorname{curl}W_{j,s}
++\int F_{j,s}\cdot(\nabla\chi_{j,Q}\times W_{j,s}).\]</span></p>
+<div id="prop:local" class="proposition" data-source-block="proposition-06" data-source-sha256="eeda32a8f722c42cea8c641f541d62e88ddde680b80dc804383f94ad334733e7">
+<p><strong>Proposition 5.1</strong> (Local packing and criterion).
+<em>Under the preceding assumptions, <span class="tex-anchor" id="eq:local-pack" aria-hidden="true"></span><span class="math display" data-source-display="display-038" data-source-sha256="763e0925464edc08152f18d6bc32ae8a377d1238e89b5db9935a4423e928e06a">\[\begin{equation}
+
+\sum_{j,Q}q_{j,Q}(t,s)
+\le N\left\lVert e^{s\Delta}L(t)\right\rVert_2^2.
+\end{equation}\]</span><span class="equation-numbers">(22)</span> For every <span class="math inline">\(\alpha&gt;0\)</span>, <span class="tex-anchor" id="eq:alpha-pack" aria-hidden="true"></span><span class="math display" data-source-display="display-039" data-source-sha256="ab77c2034b248542506daa8ef0ebf52563e859540166ec8d4b319934730f6c93">\[\begin{equation}
+
+\int_0^\infty s^{\alpha-1}\sum_{j,Q}q_{j,Q}(t,s)\,\mathrm ds
+\le\frac{N\Gamma(\alpha)}{2^\alpha}
+\left\lVert (-\Delta)^{-\alpha/2}L(t)\right\rVert_2^2.
+\end{equation}\]</span><span class="equation-numbers">(23)</span> At <span class="math inline">\(\alpha=1\)</span>, the normalized left side
+belongs to <span class="math inline">\(L^1(0,T)\)</span> with the right
+side of <a href="#eq:intro-time" data-reference-type="eqref" data-reference="eq:intro-time" class="xref" data-ref-target="eq:intro-time">(2)</a> multiplied by <span class="math inline">\(N\)</span>.</em></p>
+<p><em>Moreover, if <span class="tex-anchor" id="eq:Aloc" aria-hidden="true"></span><span class="math display" data-source-display="display-040" data-source-sha256="70e8726a28ecad633dba6e932b50e1d5fdb20ee39bb5162a90c595775ee2e070">\[\begin{equation}
+
+A_{\mathrm{loc},+}(t)
+=\frac1{Y(t)}\sum_{j,Q}q_{j,Q}(t,0)
+\end{equation}\]</span><span class="equation-numbers">(24)</span> is integrable on the maximal strong interval,
+then the solution continues.</em></p>
+</div>
+<div class="proof" data-source-block="proof-07" data-source-sha256="487c6caf41aa8c8b09a3682becee9d4b1e468a3ba7c6d1f351052a88cef87d00">
+<p><em>Proof.</em> Cauchy in <a href="#eq:local-work" data-reference-type="eqref" data-reference="eq:local-work" class="xref" data-ref-target="eq:local-work">(20)</a> gives <span class="math display" data-source-display="display-041" data-source-sha256="56ac1f9a582086a8ce1dc30064afdb0933afcb8f2693dc9a995c86b4d622a200">\[q_{j,Q}\le
+\left\lVert
+1_{\operatorname{supp}\chi_{j,Q}}F_{j,s}\right\rVert_2^2.\]</span>
+Bounded overlap and frame tightness prove <a href="#eq:local-pack" data-reference-type="eqref" data-reference="eq:local-pack" class="xref" data-ref-target="eq:local-pack">(22)</a>. Spectral integration
+gives <a href="#eq:alpha-pack" data-reference-type="eqref" data-reference="eq:alpha-pack" class="xref" data-ref-target="eq:alpha-pack">(23)</a>; the case <span class="math inline">\(\alpha=1\)</span> then follows as in Theorem <a href="#thm:global-bulk" data-reference-type="ref" data-reference="thm:global-bulk" class="xref" data-ref-target="thm:global-bulk">4.1</a>.</p>
+<p>For the criterion, the matched annular Bernstein and collar bounds
+imply <span class="math display" data-source-display="display-042" data-source-sha256="13cd5864ce2dc48f56b68216e5a0c18f1dd2f373afd27d8802eb7cfd37146450">\[\sum_Qd_{j,Q}\le
+C_{\chi}\,D_{j,0}.\]</span> Since <span class="math inline">\(\sum_QB_{j,Q}=b_{j,0}\)</span>, weighted Cauchy
+gives <span class="math display" data-source-display="display-043" data-source-sha256="d27307ed1431389cee07565cf7a4d9f39c1fe49f88720b6630acbe6d72eeb5a2">\[\frac{\left(b_{j,0}\right)_{+}^2}{D_{j,0}}
+\le C_{\chi}\sum_Qq_{j,Q}(t,0).\]</span> Thus <span class="math inline">\(A_{\mathrm{sb},+}\le
+C_{\chi}A_{\mathrm{loc},+}\)</span>, and Proposition <a href="#prop:continuation" data-reference-type="ref" data-reference="prop:continuation" class="xref" data-ref-target="prop:continuation">3.1</a> applies. ◻</p>
+</div>
+<div class="remark" data-source-block="remark-08" data-source-sha256="6c9f81feeb110282a1da1be4f8ce885b0d9a5c6d17c3f5389e7a0e53d4e32296">
+<p><strong>Remark 5.2.</strong>. The local criterion is not claimed to be
+weaker than a standard published criterion. Direct Cauchy gives <span class="math inline">\(A_{\mathrm{loc},+}\le N\left\lVert
+L\right\rVert_2^2/Y
+\le N\left\lVert u\right\rVert_\infty^2\)</span>, so the Serrin endpoint
+<span class="math inline">\(u\in L_t^2L_x^\infty\)</span> implies
+it.</p>
+</div>
+<h1 data-number="6" id="sec:trace" data-source-heading="heading-08"><span class="header-section-number">6</span> Exact critical trace loss</h1>
+<p>The estimates above integrate in the heat-height variable. This
+section shows that the missing boundary trace costs two frequency powers
+even for global smooth solutions.</p>
+<p>For <span class="math inline">\(\sigma\in\{-1,1\}\)</span>, <span class="math inline">\(a&gt;0\)</span>, and dyadic integer <span class="math inline">\(K=2^j\)</span>, <span class="math inline">\(j\ge0\)</span>, define <span class="tex-anchor" id="eq:2d3c" aria-hidden="true"></span><span class="math display" data-source-display="display-044" data-source-sha256="86b34b1e8d7d74ddb050dbffc455d62168bc3c441a10f6be3624cb9f77394a98">\[\begin{equation}
+
+u_{\sigma,a,K}(x)=aK
+\left(0,-2\cos(Kx_1),
+2\sigma\sin(Kx_1+Kx_2)-2\cos(Kx_2)\right).
+\end{equation}\]</span><span class="equation-numbers">(25)</span> This field is real, zero mean, divergence free,
+and independent of <span class="math inline">\(x_3\)</span>. Its
+horizontal velocity is a decaying two-dimensional shear and its third
+component solves a linear advection-diffusion equation driven by that
+shear. It therefore generates a global smooth three-dimensional periodic
+solution.</p>
+<p>Choose one fixed smooth dyadically covariant radial tight frame that
+first places the radii <span class="math inline">\(K\)</span> and <span class="math inline">\(\sqrt2K\)</span> in one parent and then splits
+them exactly into low and high children. Such a frame is obtained from a
+smooth square partition in <span class="math inline">\(\log_2\left\lvert
+\xi\right\rvert\)</span> with a flat top, followed by a fixed
+sine-cosine refinement. The frame is fixed before <span class="math inline">\(K\)</span> is chosen.</p>
+<p>For <span class="math inline">\(\sigma=-1\)</span>, the only positive
+child is the low-radius block. Direct Fourier calculation gives <span class="tex-anchor" id="eq:low-block" aria-hidden="true"></span><span class="math display" data-source-display="display-045" data-source-sha256="4028645cbc82f83faf0848ee744523eb0818f57f8590ea3a73d1f7aba52267ee">\[\begin{equation}
+
+b_{\mathrm{lo}}(s)=2a^3K^6e^{-2K^2s},
+\quad
+D_{\mathrm{lo}}(s)=4a^2K^6e^{-2K^2s},
+\quad
+q_{\mathrm{lo}}(s)=a^4K^6e^{-2K^2s}.
+\end{equation}\]</span><span class="equation-numbers">(26)</span></p>
+<div id="thm:trace" class="theorem" data-source-block="theorem-09" data-source-sha256="b0b972a962ed58894bec03d9a7964605e49c28848cbb9c85b84f4ee49337dcb0">
+<p><strong>Theorem 6.1</strong> (Sharp global and localized trace cost).
+<em>For the family <a href="#eq:2d3c" data-reference-type="eqref" data-reference="eq:2d3c" class="xref" data-ref-target="eq:2d3c">(25)</a> and the fixed frame above, <span class="tex-anchor" id="eq:trace-global" aria-hidden="true"></span><span class="math display" data-source-display="display-046" data-source-sha256="0418edd39fa4f9bb645cd231ba6f9530db21df6751a558ee91731bc55cdaefb3">\[\begin{equation}
+
+q_{\mathrm{lo}}(0)=2K^2\int_0^\infty q_{\mathrm{lo}}(s)\,\mathrm ds,
+\end{equation}\]</span><span class="equation-numbers">(27)</span> and, with <span class="math inline">\(Y=8a^2K^4\)</span>, <span class="tex-anchor" id="eq:trace-normalized" aria-hidden="true"></span><span class="math display" data-source-display="display-047" data-source-sha256="9ef97a1bcb0bf2f311219124b8f38baa0bec694c001dbea4cd9f67057f8cb340">\[\begin{equation}
+
+A_{\mathrm{sb},+}(0)=\frac{a^2K^2}{8},
+\qquad
+\mathcal V(0)=\frac{a^2}{16},
+\qquad
+A_{\mathrm{sb},+}(0)=2K^2\mathcal V(0).
+\end{equation}\]</span><span class="equation-numbers">(28)</span></em></p>
+<p><em>Let <span class="math inline">\(\phi\ge0\)</span> be any nonzero
+smooth cutoff fixed before the data, and let <span class="math inline">\(q_\phi\)</span> be defined by the complete
+localized work in <a href="#eq:local-work" data-reference-type="eqref" data-reference="eq:local-work" class="xref" data-ref-target="eq:local-work">(20)</a>. Then for every <span class="math inline">\(h&gt;0\)</span>, <span class="tex-anchor" id="eq:trace-local" aria-hidden="true"></span><span class="math display" data-source-display="display-048" data-source-sha256="3c04fbe94d424e7a91efb2025f8703c271db8d4fc5337327be6b34ad94a9e596">\[\begin{equation}
+
+q_\phi(0)=\frac{2K^2}{1-e^{-2K^2h}}
+\int_0^h q_\phi(s)\,\mathrm ds.
+\end{equation}\]</span><span class="equation-numbers">(29)</span> In particular, at <span class="math inline">\(h=\theta K^{-2}\)</span>, the heat-height average
+is a fixed positive fraction of the bottom value.</em></p>
+</div>
+<div class="proof" data-source-block="proof-10" data-source-sha256="21706f9cc751569c5deaa31c651acf6b95c6343d66146ee3b591412d32384f56">
+<p><em>Proof.</em> Equation <a href="#eq:trace-global" data-reference-type="eqref" data-reference="eq:trace-global" class="xref" data-ref-target="eq:trace-global">(27)</a> follows by
+integrating the last formula in <a href="#eq:low-block" data-reference-type="eqref" data-reference="eq:low-block" class="xref" data-ref-target="eq:low-block">(26)</a>; division by <span class="math inline">\(Y\)</span> gives <a href="#eq:trace-normalized" data-reference-type="eqref" data-reference="eq:trace-normalized" class="xref" data-ref-target="eq:trace-normalized">(28)</a>.</p>
+<p>For the local statement, the low block is <span class="math display" data-source-display="display-049" data-source-sha256="79fbf8f9c18fbae4ee12411263c25cbc29dc2a79e0f99c5a32f4d43daa9a17ad">\[W_s=2aK^2e^{-K^2s}(\sin(Kx_2),0,\sin(Kx_1)),
+\quad
+F_s=-2a^2K^3e^{-K^2s}(0,0,\cos(Kx_2)).\]</span> The complete localized
+work, including the cutoff collar, satisfies <span class="math display" data-source-display="display-050" data-source-sha256="0034832bf5ecada19308c87932b307be122de4e7012ad077d11961769fb296ef">\[B_\phi(s)=\left\langle
+F_s,\operatorname{curl}(\phi W_s)\right\rangle
+=4a^3K^6e^{-2K^2s}
+   \int\phi(x)\sin^2(Kx_2)\,\mathrm dx&gt;0.\]</span> Both <span class="math inline">\(F_s\)</span> and <span class="math inline">\(W_s\)</span> lie on <span class="math inline">\(\left\lvert k\right\rvert=K\)</span>, so <span class="math inline">\(q_\phi(s)=e^{-2K^2s}q_\phi(0)\)</span>.
+Integration over <span class="math inline">\([0,h]\)</span> proves <a href="#eq:trace-local" data-reference-type="eqref" data-reference="eq:trace-local" class="xref" data-ref-target="eq:trace-local">(29)</a>. ◻</p>
+</div>
+<p>At the matched height, <span class="tex-anchor" id="eq:trace-fraction" aria-hidden="true"></span><span class="math display" data-source-display="display-051" data-source-sha256="cb92286e49b3ca457f9252b635c337be0f9d320b087ce913aac964b63f07d2a7">\[\begin{equation}
+
+\frac{h^{-1}\int_0^h q_\phi(s)\,\mathrm ds}{q_\phi(0)}
+=\frac{1-e^{-2\theta}}{2\theta}.
+\end{equation}\]</span><span class="equation-numbers">(30)</span> The factor is positive and independent of <span class="math inline">\(K\)</span>.</p>
+<p>Matched partitions do not remove the scale. If <span class="math inline">\((\phi_Q)_Q\)</span> is a standard nonnegative
+partition at radius <span class="math inline">\(r=\rho/K\)</span> with
+overlap <span class="math inline">\(N\)</span> and uniform
+square-derivative bounds, then <span class="tex-anchor" id="eq:partition-two-sided" aria-hidden="true"></span><span class="math display" data-source-display="display-052" data-source-sha256="5f2948da89e9f417513e6605ca202df3f9d628390f838fe752c5b3c2e6c7c900">\[\begin{equation}
+
+\frac{a^4K^6e^{-2K^2s}}
+{2(C_0+C_1/\rho^2)}
+\le\sum_Qq_Q(s)
+\le2Na^4K^6e^{-2K^2s}.
+\end{equation}\]</span><span class="equation-numbers">(31)</span> Choosing <span class="math inline">\(a=K^{-1}\)</span> keeps <span class="math inline">\(\left\lVert u\right\rVert_2^2=6\)</span>. The
+normalized aggregate bottom remains between positive constants, while
+its heat bulk is <span class="math inline">\(O(K^{-2})\)</span>.</p>
+<figure id="fig:local-trace" data-latex-placement="t">
+<img src="/assets/papers/projected-lamb-local-trace.svg" alt="Scientific figure 1" loading="lazy"><figcaption>Localized heat packing and the critical trace cost. The
+exact profile is <span class="math inline">\(q_\phi(s)/q_\phi(0)=e^{-2K^2s}\)</span>. The
+finite spectral points independently reconstruct the trigonometric
+identity and are not DNS. Matched partitions preserve the bottom scale
+while the corresponding bulk decays by <span class="math inline">\(K^{-2}\)</span> at fixed kinetic energy. The last
+panel shows the covariant <span class="math inline">\(r^{-2}\)</span>
+interior-cylinder scaling.</figcaption>
+</figure>
+<h2 data-number="6.1" id="interior-cylinders" data-source-heading="heading-09"><span class="header-section-number">6.1</span> Interior cylinders</h2>
+<p>The exact family above is evaluated at an initial trace. The same
+critical power occurs on strictly interior cylinders, with a narrower
+conclusion.</p>
+<p>For this subsection only, take the covariant one-block tight frame
+<span class="math inline">\(T_0=I\)</span>. At the center time <span class="math inline">\(t_Q\)</span> of a skewed cylinder <span class="math inline">\(Q\)</span>, let <span class="math inline">\(\chi_Q\)</span> be its covariantly transported
+nonnegative spatial cutoff and set <span class="math display" data-source-display="display-053" data-source-sha256="694bb7ee1f9748801c09fd21801b161f235d2e486a0473ee51ac1c694fefe51c">\[W_s=e^{s\Delta}\omega(t_Q),\qquad
+F_s=e^{s\Delta}L(t_Q).\]</span> Define <span class="tex-anchor" id="eq:interior-defs" aria-hidden="true"></span><span class="math display" data-source-display="display-054" data-source-sha256="d30f630c54595eeb834382bfd9c704ecf1d7bbe1ba094bbb9ccfaafc18b1f765">\[\begin{equation}
+
+B_Q(s)=\left\langle
+F_s,\operatorname{curl}(\chi_QW_s)\right\rangle,\qquad
+d_Q(s)=\left\lVert \operatorname{curl}(\chi_QW_s)\right\rVert_2^2,
+\end{equation}\]</span><span class="equation-numbers">(32)</span> <span class="math display" data-source-display="display-055" data-source-sha256="6061234855f49bdf9170d60efc3633e680baa4aebd8fb86fee5f4deb7f0e4a24">\[q_Q(s)=
+\begin{cases}
+  \left(B_Q(s)\right)_{+}^2/d_Q(s),&amp;d_Q(s)&gt;0,\\
+  0,&amp;d_Q(s)=0.
+\end{cases}\]</span> With <span class="math inline">\(Y_Q=\left\lVert
+\omega(t_Q)\right\rVert_2^2\)</span>, put <span class="tex-anchor" id="eq:interior-normalized" aria-hidden="true"></span><span class="math display" data-source-display="display-056" data-source-sha256="d9ffb04d5cee048579f492b5d313a35f958fde29c8d1f15e9a98c9d77abc87e4">\[\begin{equation}
+
+A_Q=\frac{q_Q(0)}{Y_Q},\qquad
+\mathcal V_{Q,h}=\frac1{Y_Q}\int_0^h q_Q(s)\,\mathrm ds.
+\end{equation}\]</span><span class="equation-numbers">(33)</span></p>
+<div id="thm:interior" class="theorem" data-source-block="theorem-11" data-source-sha256="e07592ed001af0055811082beba9d3349924ffd647c97c86a2abc8f7296805dc">
+<p><strong>Theorem 6.2</strong> (Geometry-only subcritical trace no-go).
+<em>There is a scale-covariant family of local-in-time smooth
+whole-space Navier–Stokes solutions, each defined on an interval
+containing a strictly interior admissible skewed cylinder <span class="math inline">\(Q_r\)</span>, for which <span class="tex-anchor" id="eq:interior-scaling" aria-hidden="true"></span><span class="math display" data-source-display="display-057" data-source-sha256="c66c1b2cbbdc0b2706c61341d1e967b5163709cf3486e78e194ab81032ac30fd">\[\begin{equation}
+
+\frac{A_{Q_r}}{\mathcal V_{Q_r,\theta r^2}}=c_*r^{-2},
+\qquad c_*&gt;0.
+\end{equation}\]</span><span class="equation-numbers">(34)</span> Consequently, an estimate <span class="math display" data-source-display="display-058" data-source-sha256="5620e01d449b42239edb1b93d105327bd61b8a595149fbdf38c592461ea1b097">\[A_Q\le c(r)\mathcal V_{Q,\theta r^2}\]</span>
+that is required for all smooth solutions and all cylinders in this
+covariant one-block class, with constants depending only on the uniform
+geometry and admissibility parameters, cannot have <span class="math inline">\(c(r)=o(r^{-2})\)</span>.</em></p>
+</div>
+<div class="proof" data-source-block="proof-12" data-source-sha256="8b1f578c5639def420cf4c3049a6afc4c1be77765aedcc507540f15929470dc7">
+<p><em>Proof.</em> Let <span class="math display" data-source-display="display-059" data-source-sha256="51639bd5d12cc8db682b6d0ddcfb35f27b08d6f12dad77a247a1675718dde9c5">\[u_{\mathrm{aff}}=(x_1,-x_2-x_3,0),
+\qquad \omega_{\mathrm{aff}}=(1,0,0).\]</span> Put <span class="math inline">\(A_0=-\frac13x\times u_{\mathrm{aff}}\)</span>, and
+choose <span class="math inline">\(\eta\in C_c^\infty(\mathbb
+R^3)\)</span> equal to one on a ball. Then <span class="math inline">\(u_0=\operatorname{curl}(\eta A_0)\)</span> is
+smooth, compactly supported, and divergence free. Because <span class="math inline">\(u_{\mathrm{aff}}\)</span> is linear, homogeneous,
+and divergence free, <span class="math inline">\(\operatorname{curl}A_0=u_{\mathrm{aff}}\)</span>,
+so <span class="math inline">\(u_0=u_{\mathrm{aff}}\)</span> on the
+smaller affine core.</p>
+<p>In the affine core, <span class="math inline">\(\operatorname{curl}L=(\omega\cdot\nabla)u-(u\cdot\nabla)\omega=(1,0,0)\)</span>.
+Choose a nonnegative cutoff <span class="math inline">\(\chi\)</span>
+supported in the core with <span class="math inline">\(\nabla\chi\times\omega_{\mathrm{aff}}\not\equiv0\)</span>.
+At the initial trace, <span class="math display" data-source-display="display-060" data-source-sha256="cbcbedce0c470f454c7a7bc46275050363021ba0ce3fef6d573a27b49db5c8d3">\[\int\chi\,\omega_{\mathrm{aff}}\cdot\operatorname{curl}L\,\mathrm
+dx&gt;0,
+\qquad \left\lVert
+\operatorname{curl}(\chi\omega_{\mathrm{aff}})\right\rVert_2&gt;0.\]</span>
+Multiplying the datum by a sufficiently small fixed positive amplitude
+preserves both inequalities. Smooth local existence and continuity
+preserve them at a small positive center time. Sufficiently small skewed
+cylinders are admissible in the sense of <span class="citation" data-cites="Yang2020"><a href="#ref-Yang2020" role="doc-biblioref">[13]</a></span>, because their admissibility
+quantity is bounded by <span class="math inline">\(r^2\sup\left\lVert
+\nabla u\right\rVert_\infty\)</span>.</p>
+<p>Fix one such base cylinder with radius <span class="math inline">\(r_0\)</span>. Continuity in <span class="math inline">\(s\)</span> gives <span class="math inline">\(q_Q(s)&gt;0\)</span> on some interval <span class="math inline">\([0,h_0]\)</span>; set <span class="math inline">\(\theta=h_0/r_0^2\)</span>. Under the exact scaling
+<span class="math display" data-source-display="display-061" data-source-sha256="880ff7fb732f54465be711e43fddbd582648100234c2cffc49f2a0a2f9a5f481">\[u_\lambda(t,x)=\lambda u(\lambda^2t,\lambda
+x),
+\quad r_\lambda=\lambda^{-1}r_0,
+\quad h_\lambda=\lambda^{-2}h_0,\]</span> and covariant scaling of the
+cutoff, mollifier, trajectory, and heat height, <span class="math display" data-source-display="display-062" data-source-sha256="75b5239b06f78e4b9241bcebf57572222addd47a682aa7eefc0253d6d8d4d91a">\[B_{Q_\lambda}=\lambda^3B_Q,\quad
+d_{Q_\lambda}=\lambda^3d_Q,\quad
+q_{Q_\lambda}=\lambda^3q_Q,\quad
+Y_{Q_\lambda}=\lambda Y_Q.\]</span> Consequently <span class="math inline">\(A_{Q_\lambda}=\lambda^2A_Q\)</span>, while <span class="math inline">\(\mathcal V_{Q_\lambda,h_\lambda}=\mathcal
+V_{Q,h_0}\)</span>. Since both base quantities are positive, this is
+exactly <a href="#eq:interior-scaling" data-reference-type="eqref" data-reference="eq:interior-scaling" class="xref" data-ref-target="eq:interior-scaling">(34)</a>, with
+<span class="math inline">\(c_*=r_0^2A_Q/\mathcal
+V_{Q,h_0}&gt;0\)</span>. ◻</p>
+</div>
+<p>Theorem <a href="#thm:interior" data-reference-type="ref" data-reference="thm:interior" class="xref" data-ref-target="thm:interior">6.2</a> does not reject a critical <span class="math inline">\(Cr^{-2}\)</span> trace inequality, a theorem with
+additional collar or solution-dependent terms, or a statement on
+cylinders that stay a fixed positive physical time away from the initial
+face as <span class="math inline">\(r\to0\)</span>.</p>
+<h1 data-number="7" id="sec:entry" data-source-heading="heading-10"><span class="header-section-number">7</span> A genuine positive-time internal
+entry</h1>
+<p>The trace obstructions above leave open whether positive-time
+dynamics could prevent the relevant shell observable from entering
+through zero. This section constructs such an entry for the exact smooth
+Navier–Stokes flow.</p>
+<p>Let <span class="tex-anchor" id="eq:seed" aria-hidden="true"></span><span class="math display" data-source-display="display-063" data-source-sha256="e947f524996759cbdd95e21eec30029dcc1d430776c6a6acd1a98d96c2d7558a">\[\begin{equation}
+
+U(x)=(0,\cos x_1,\cos x_2),
+\qquad
+\Omega=\operatorname{curl}U=(-\sin x_2,0,-\sin x_1).
+\end{equation}\]</span><span class="equation-numbers">(35)</span> The projected Lamb field is <span class="tex-anchor" id="eq:Fstar" aria-hidden="true"></span><span class="math display" data-source-display="display-064" data-source-sha256="df18ff8903c3eb6695a1ff4b0f04ae52f8a118e1eaa3176cd4551033c4c00b1a">\[\begin{equation}
+
+F_*=\mathbb P(U\times\Omega)=(0,0,\cos x_1\sin x_2).
+\end{equation}\]</span><span class="equation-numbers">(36)</span> It is supported on the four modes <span class="math inline">\((\pm1,\pm1,0)\)</span>, hence on <span class="math inline">\(\left\lvert k\right\rvert^2=2\)</span>, while
+<span class="math inline">\(U\)</span> lies on <span class="math inline">\(\left\lvert k\right\rvert^2=1\)</span>. Normalized
+torus averages give <span class="tex-anchor" id="eq:seed-ledger" aria-hidden="true"></span><span class="math display" data-source-display="display-065" data-source-sha256="3f3186fc35c5287a3714b712e05f37c9a316bf44c98eabc3a7e362aa687e55d1">\[\begin{equation}
+
+\left\lVert \Omega\right\rVert_2^2=1,
+\quad \left\lVert F_*\right\rVert_2^2=\frac14,
+\quad \left\lVert \operatorname{curl}F_*\right\rVert_2^2=\frac12,
+\quad -\Delta F_*=2F_*.
+\end{equation}\]</span><span class="equation-numbers">(37)</span></p>
+<p>Let <span class="math inline">\(E_*\)</span> be the
+finite-dimensional real divergence-free velocity space on the target
+modes and let <span class="math inline">\(P_*\)</span> be the
+corresponding projection. Fix an integer <span class="math inline">\(m\ge3\)</span>. Standard periodic local theory
+gives a smooth fixed-time solution map <span class="math inline">\(S_t\)</span> from a neighborhood of zero in the
+divergence-free, mean-zero <span class="math inline">\(H^m\)</span>
+space to <span class="math inline">\(H^m\)</span>, on a common interval;
+see <span class="citation" data-cites="FujitaKato1964 Temam2001"><a href="#ref-FujitaKato1964" role="doc-biblioref">[4]</a>, <a href="#ref-Temam2001" role="doc-biblioref">[11]</a></span>. Its derivative is <span class="tex-anchor" id="eq:flow-derivative" aria-hidden="true"></span><span class="math display" data-source-display="display-066" data-source-sha256="c1f6810ad9028edbab1dc47c3dc7c82b86a820d6d8c758e03e48b60af03965a4">\[\begin{equation}
+
+DS_\tau(0)h=e^{\nu\tau\Delta}h.
+\end{equation}\]</span><span class="equation-numbers">(38)</span></p>
+<div id="thm:entry" class="theorem" data-source-block="theorem-13" data-source-sha256="28a2f75ceafa84bf4dead2eb6a62f9b8122584cf26c5c0de6e548322aff8a38d">
+<p><strong>Theorem 7.1</strong> (Smooth internal positive entry). <em>For
+every sufficiently small fixed <span class="math inline">\(\tau&gt;0\)</span>, there is <span class="math inline">\(a_0&gt;0\)</span> and a smooth map <span class="math inline">\(z:(-a_0,a_0)\to E_*\)</span> such that <span class="tex-anchor" id="eq:z-expansion" aria-hidden="true"></span><span class="math display" data-source-display="display-067" data-source-sha256="55b7319756f296cdb2da2e37a77217f4007ed4c01a756923305fea7bb67e4e29">\[\begin{equation}
+
+z(a)=-a^2\tau F_*+O(a^3),
+\end{equation}\]</span><span class="equation-numbers">(39)</span> and, for every <span class="math inline">\(0&lt;\left\lvert a\right\rvert&lt;a_0\)</span>,
+the solution with initial datum <span class="math inline">\(u_0^a=aU+z(a)\)</span> is smooth on <span class="math inline">\([0,2\tau]\)</span> and has a simple positive
+target-shell entry at the strictly internal time <span class="math inline">\(t=\tau\)</span>. Its leading entry coefficient is
+<span class="tex-anchor" id="eq:A-entry" aria-hidden="true"></span><span class="math display" data-source-display="display-068" data-source-sha256="40c0978c5d59e682c97170dde7e53ac0c40b4f8d795b895803d5b3ca2ffe426c">\[\begin{equation}
+
+A_+(a)=\frac{a^2e^{-2\nu\tau}}4+O(a^3),
+\qquad A_-(a)=0.
+\end{equation}\]</span><span class="equation-numbers">(40)</span> At least one cell in every nonnegative covering
+partition also has a simple positive entry at that time.</em></p>
+</div>
+<div class="proof" data-source-block="proof-14" data-source-sha256="1d8861458d0cae86dac499983c97f2947ad6b3e86982f9f6449c85ac9ef8685e">
+<p><em>Proof.</em> Define <span class="math display" data-source-display="display-069" data-source-sha256="a008269a60c61faeb518b6e680b3e8f5e20e863ca97b607f0e7c776ec9451f15">\[\Phi(a,z)=P_*S_\tau(aU+z).\]</span> At the
+origin, <span class="math inline">\(D_z\Phi(0,0)=e^{-2\nu\tau}I_{E_*}\)</span>, an
+invertible finite matrix. The ordinary implicit-function theorem gives a
+smooth <span class="math inline">\(z(a)\)</span> with <span class="math inline">\(\Phi(a,z(a))=0\)</span>. The quadratic Duhamel
+term on the target shell is <span class="math display" data-source-display="display-070" data-source-sha256="7dd73c55c6bdaeb6f3f0d91ac336b500d7dfba3b458795baaf75980ba254378e">\[e^{\nu(\tau-r)\Delta}P_*
+\mathbb P\bigl((e^{\nu r\Delta}U)\times
+\operatorname{curl}(e^{\nu r\Delta}U)\bigr)
+=e^{-2\nu\tau}F_*.\]</span> Integration in <span class="math inline">\(r\)</span> gives <a href="#eq:z-expansion" data-reference-type="eqref" data-reference="eq:z-expansion" class="xref" data-ref-target="eq:z-expansion">(39)</a>.</p>
+<p>At time <span class="math inline">\(\tau\)</span>, the target-shell
+velocity and vorticity vanish, whereas the projected Lamb forcing
+satisfies <span class="math display" data-source-display="display-071" data-source-sha256="adfadda5471bcba11e7d97859a57a7d8066ac598b631a12239acadc62f202960">\[P_*L(u^a(\tau))
+=a^2e^{-2\nu\tau}F_*+O(a^3)\ne0.\]</span> Let <span class="math inline">\(W_*=T_*\omega\)</span> and <span class="math inline">\(C_*=\operatorname{curl}W_*\)</span>. From the
+filtered vorticity equation and <span class="math inline">\(W_*(\tau)=0\)</span>, <span class="math display" data-source-display="display-072" data-source-sha256="a0cd80f410fe54bf4dd342ea254b319095fad357b437fb7ad73f40783fadf1e3">\[C_{*,t}(\tau)=-\Delta P_*L(u^a(\tau)).\]</span>
+The target forcing is divergence free, annular, and nonzero. Therefore
+<span class="math display" data-source-display="display-073" data-source-sha256="c3f77a50226aec2efa790460540e3c49a1c28a223c5379fe0e907ec4ad61013b">\[\left\langle
+P_*L(u^a(\tau)),C_{*,t}(\tau)\right\rangle
+=\left\lVert \nabla P_*L(u^a(\tau))\right\rVert_2^2&gt;0.\]</span> The
+zero is simple and enters from the positive side. Equations <a href="#eq:seed-ledger" data-reference-type="eqref" data-reference="eq:seed-ledger" class="xref" data-ref-target="eq:seed-ledger">(37)</a> and the leading
+low-shell enstrophy give <a href="#eq:A-entry" data-reference-type="eqref" data-reference="eq:A-entry" class="xref" data-ref-target="eq:A-entry">(40)</a>.</p>
+<p>For a nonnegative partition <span class="math inline">\((\chi_Q)_Q\)</span>, the full-shell root gives
+<span class="math display" data-source-display="display-074" data-source-sha256="6714efa6d9c9e91cff7ad5e2c2c86d1bc3f4fc2d7f84b9f07512f7fd47afe748">\[\left\langle P_*L,C_{Q,t}\right\rangle
+=\int\chi_Q\left\lvert \operatorname{curl}P_*L\right\rvert^2\,\mathrm
+dx.\]</span> The sum over <span class="math inline">\(Q\)</span> is
+positive, so at least one cell has a positive simple entry. ◻</p>
+</div>
+<div id="lem:simple" class="lemma" data-source-block="lemma-15" data-source-sha256="77a32399df3f1019f1d53fd9697c427a529ea00496233323aa66ee5286fdfaa3">
+<p><strong>Lemma 7.2</strong> (Global positive entries are simple).
+<em>Every finite-order positive entry of a global nonzero annular shell
+is simple.</em></p>
+</div>
+<div class="proof" data-source-block="proof-16" data-source-sha256="7e11f66d8175e547cc9873a91ef704b9548fb22addb169a3b8d81e1dd38ae797">
+<p><em>Proof.</em> At a global-shell zero, <span class="math inline">\(C_j=\operatorname{curl}W_j=0\)</span>. Since <span class="math inline">\(W_j\)</span> is divergence free, annular, and zero
+mean, this implies <span class="math inline">\(W_j=0\)</span>. Hence
+<span class="math inline">\(C_{j,t}=-\Delta F_j\)</span>. If the zero
+had order greater than one, then <span class="math inline">\(F_j=0\)</span>, contradicting positivity of the
+entry pairing. Finally, <span class="math inline">\(\left\langle
+F_j,C_{j,t}\right\rangle=\left\lVert \nabla
+F_j\right\rVert_2^2&gt;0\)</span>. ◻</p>
+</div>
+<h1 data-number="8" id="sec:no-payment" data-source-heading="heading-11"><span class="header-section-number">8</span> No uniform bare payment</h1>
+<p>For a finite-order entry at <span class="math inline">\(t_\beta\)</span>, write <span class="math display" data-source-display="display-075" data-source-sha256="c7f14e6666fb30f6db9275e1d159cc45440bb3eb37044bc28c40488cc3f8fe1a">\[C_\beta(t_\beta+s)=c_\beta
+s^{m_\beta}+O_{L^2}(\left\lvert s\right\rvert^{m_\beta+1}),
+\qquad c_\beta\ne0,\]</span> and define <span class="tex-anchor" id="eq:entry-atom" aria-hidden="true"></span><span class="math display" data-source-display="display-076" data-source-sha256="88452d3d8cf85a9031416f5aa45721d3e67b9d0e27b2b5480ba215ee23107c18">\[\begin{equation}
+
+A_{\beta,+}
+=\frac{\left\langle F_{j(\beta)}(t_\beta),c_\beta/\left\lVert
+c_\beta\right\rVert_2\right\rangle_+^2}{Y(t_\beta)},
+\qquad
+a_\beta=\kappa_{j(\beta)}^{-2}A_{\beta,+}.
+\end{equation}\]</span><span class="equation-numbers">(41)</span> Here <span class="math inline">\(\kappa_j\)</span> is the nominal shell frequency.
+In the base construction of Theorem <a href="#thm:entry" data-reference-type="ref" data-reference="thm:entry" class="xref" data-ref-target="thm:entry">7.1</a>, the target
+modes have Fourier radius <span class="math inline">\(\left\lvert
+k\right\rvert=\sqrt2\)</span>, and the shell convention is <span class="math inline">\(\kappa_*=1\)</span>; after the integer dilation
+<span class="math inline">\(\lambda\)</span>, the corresponding nominal
+frequency is <span class="math inline">\(\kappa_{*,\lambda}=\lambda\)</span>. With this
+convention the atom <span class="math inline">\(a_\beta\)</span> is
+scale invariant.</p>
+<p>For the family in Theorem <a href="#thm:entry" data-reference-type="ref" data-reference="thm:entry" class="xref" data-ref-target="thm:entry">7.1</a>, <span class="tex-anchor" id="eq:bare-base" aria-hidden="true"></span><span class="math display" data-source-display="display-077" data-source-sha256="da0f6933d68ce4d2443d068e577e35b5322366c103e0a4f339f9a63a582161fc">\[\begin{equation}
+
+R(a):=\int_0^{2\tau}
+\frac{\left\lVert L^a(t)\right\rVert_{\dot H^{-1}}^2}{Y^a(t)}\,\mathrm
+dt
+=\frac{a^2(1-e^{-4\nu\tau})}{16\nu}+O(a^3).
+\end{equation}\]</span><span class="equation-numbers">(42)</span> Choose <span class="math inline">\(a_\lambda=\lambda^{-2}\)</span> and apply the
+integer periodic scaling <span class="tex-anchor" id="eq:double-scaling" aria-hidden="true"></span><span class="math display" data-source-display="display-078" data-source-sha256="07138a456354939f48f20081089be68ee22ed0e73c50eea46342280a95517d1b">\[\begin{equation}
+
+u_\lambda(x,t)=\lambda
+u^{a_\lambda}(\lambda x,\lambda^2t).
+\end{equation}\]</span><span class="equation-numbers">(43)</span></p>
+<div id="thm:no-payment" class="theorem" data-source-block="theorem-17" data-source-sha256="5e9361650076341bb4bd0eff699709e3c2be7fc2661a28fb1e29689c7c9ebd4b">
+<p><strong>Theorem 8.1</strong> (Internal scaling no-go). <em>Along <a href="#eq:double-scaling" data-reference-type="eqref" data-reference="eq:double-scaling" class="xref" data-ref-target="eq:double-scaling">(43)</a>, the
+constructed internal entry and the bare budget satisfy <span class="tex-anchor" id="eq:atom-scale" aria-hidden="true"></span><span class="tex-anchor" id="eq:budget-scale" aria-hidden="true"></span><span class="math display" data-source-display="display-079" data-source-sha256="28834c272a3174b2509850634198fad33cdefb5ccf7d378b77f57b7782ff3934">\[\begin{align}
+a_{\beta,\lambda}
+&amp;=\frac{e^{-2\nu\tau}}{4\lambda^4}+O(\lambda^{-6}),
+\\
+R_\lambda
+&amp;=\frac{1-e^{-4\nu\tau}}{16\nu\lambda^6}
+   +O(\lambda^{-8}),
+
+\end{align}\]</span><span class="equation-numbers">(44) · (45)</span> and therefore <span class="tex-anchor" id="eq:ratio-scale" aria-hidden="true"></span><span class="math display" data-source-display="display-080" data-source-sha256="bcdab9017cf7411df91ffa4d942ccf41a71d13c04e072c235049f5ca56d1d3a7">\[\begin{equation}
+
+\frac{a_{\beta,\lambda}}{R_\lambda}
+=\frac{2\nu}{\sinh(2\nu\tau)}\lambda^2+o(\lambda^2).
+\end{equation}\]</span><span class="equation-numbers">(46)</span> There is no constant <span class="math inline">\(C\)</span>, uniform along this family, for which
+the sum of internal entry atoms is bounded by <span class="math inline">\(C R_\lambda\)</span>.</em></p>
+<p><em>Moreover, <span class="tex-anchor" id="eq:small-data-ledger" aria-hidden="true"></span><span class="math display" data-source-display="display-081" data-source-sha256="6b86cf3e79ada2d73fccaddffa26c747a8a410a5faaac4991e17478c433da2bb">\[\begin{equation}
+
+\left\lVert u_\lambda(0)\right\rVert_2^2=O(\lambda^{-2}),
+\qquad
+\left\lVert u_\lambda(0)\right\rVert_{\dot H^{1/2}}^2=O(\lambda^{-1}),
+\qquad
+\left\lVert \omega_\lambda(0)\right\rVert_2^2=1+o(1).
+\end{equation}\]</span><span class="equation-numbers">(47)</span></em></p>
+</div>
+<div class="proof" data-source-block="proof-18" data-source-sha256="224421debcf206ed39e8b2bb1463eece2b7f1d3f6cb624b6b3489e1bd463140d">
+<p><em>Proof.</em> The base entry is given by <a href="#eq:A-entry" data-reference-type="eqref" data-reference="eq:A-entry" class="xref" data-ref-target="eq:A-entry">(40)</a>. The covariant dilation
+moves it to time <span class="math inline">\(\tau/\lambda^2\)</span> and
+preserves the scale-zero atom; the amplitude choice contributes <span class="math inline">\(a_\lambda^2=\lambda^{-4}\)</span>, proving <a href="#eq:atom-scale" data-reference-type="eqref" data-reference="eq:atom-scale" class="xref" data-ref-target="eq:atom-scale">(44)</a>. The base budget <a href="#eq:bare-base" data-reference-type="eqref" data-reference="eq:bare-base" class="xref" data-ref-target="eq:bare-base">(42)</a> acquires the additional
+time-scaling factor <span class="math inline">\(\lambda^{-2}\)</span>,
+which gives <a href="#eq:budget-scale" data-reference-type="eqref" data-reference="eq:budget-scale" class="xref" data-ref-target="eq:budget-scale">(45)</a>. Their quotient
+is <a href="#eq:ratio-scale" data-reference-type="eqref" data-reference="eq:ratio-scale" class="xref" data-ref-target="eq:ratio-scale">(46)</a>.</p>
+<p>On the normalized torus, the dilation multiplies squared <span class="math inline">\(L^2\)</span>, <span class="math inline">\(\dot
+H^{1/2}\)</span>, and <span class="math inline">\(\dot H^1\)</span>
+norms by <span class="math inline">\(\lambda^2\)</span>, <span class="math inline">\(\lambda^3\)</span>, and <span class="math inline">\(\lambda^4\)</span>, respectively. Combining these
+factors with <span class="math inline">\(a_\lambda^2=\lambda^{-4}\)</span> proves <a href="#eq:small-data-ledger" data-reference-type="eqref" data-reference="eq:small-data-ledger" class="xref" data-ref-target="eq:small-data-ledger">(47)</a>. ◻</p>
+</div>
+<figure id="fig:internal-entry" data-latex-placement="t">
+<img src="/assets/papers/projected-lamb-internal-entry.svg" alt="Scientific figure 2" loading="lazy"><figcaption>Finite Fourier–Galerkin corroboration of the internal-entry
+geometry. Shooting a finite-dimensional target-shell correction makes
+the target shell vanish at <span class="math inline">\(t=\tau\)</span>;
+the analytic continuum result is Theorem <a href="#thm:entry" data-reference-type="ref" data-reference="thm:entry" class="xref" data-ref-target="thm:entry">7.1</a>, not the time
+stepper. The last panel displays the exact leading powers in Theorem <a href="#thm:no-payment" data-reference-type="ref" data-reference="thm:no-payment" class="xref" data-ref-target="thm:no-payment">8.1</a>.</figcaption>
+</figure>
+<p>Theorem <a href="#thm:no-payment" data-reference-type="ref" data-reference="thm:no-payment" class="xref" data-ref-target="thm:no-payment">8.1</a> excludes only the bare right side
+in <a href="#eq:bare-base" data-reference-type="eqref" data-reference="eq:bare-base" class="xref" data-ref-target="eq:bare-base">(42)</a> with a constant uniform
+along the covariant family. It does not exclude a fixed-frequency
+theorem, a constant depending on high Sobolev norms, or an estimate with
+an added atomic, variation, strong-Lamb, or material-derivative
+charge.</p>
+<h1 data-number="9" id="sec:occupation" data-source-heading="heading-12"><span class="header-section-number">9</span> Outgoing occupation at the zero
+level</h1>
+<p>The bare budget has the wrong scale for an atomic entry. A zero-level
+occupation density has the correct scale and represents the atom
+exactly.</p>
+<p>Let <span class="math inline">\(I\)</span> be a compact classical
+interval whose endpoints are not zeros. For a finite family <span class="math inline">\(\Lambda\)</span>, assume that every zero of every
+<span class="math inline">\(C_\alpha\)</span>, <span class="math inline">\(\alpha\in\Lambda\)</span>, is isolated and of
+finite order. Put <span class="tex-anchor" id="eq:occupation-defs" aria-hidden="true"></span><span class="math display" data-source-display="display-082" data-source-sha256="db3d7550439c179bda0f30a15552d8fc71a20976488103a42d126cb9e9fe04a3">\[\begin{equation}
+
+r_\alpha(t)=\left\lVert C_\alpha(t)\right\rVert_2,
+\qquad
+\xi_\alpha(t)=\frac{C_\alpha(t)}{r_\alpha(t)}\quad(r_\alpha&gt;0),
+\end{equation}\]</span><span class="equation-numbers">(48)</span> and <span class="tex-anchor" id="eq:qalpha" aria-hidden="true"></span><span class="math display" data-source-display="display-083" data-source-sha256="f37ee7eed0b42fd8c2a01774ab9b19159025bd6f01d141390965b7ab5c05031d">\[\begin{equation}
+
+q_\alpha(t)
+=\frac{\left\langle
+F_{j(\alpha)}(t),\xi_\alpha(t)\right\rangle_+^2}{Y(t)}.
+\end{equation}\]</span><span class="equation-numbers">(49)</span> Choose <span class="math inline">\(\rho\in
+C_c^\infty((0,1))\)</span>, <span class="math inline">\(\rho\ge0\)</span>, <span class="math inline">\(\int_0^1\rho=1\)</span>, and set <span class="math inline">\(\rho_\delta(s)=\delta^{-1}\rho(s/\delta)\)</span>.</p>
+<div id="thm:coarea" class="theorem" data-source-block="theorem-19" data-source-sha256="7fa12eefbebd12bfd535b293d8c51f0e05dcd23effb8cb0e465f8eb4977219f0">
+<p><strong>Theorem 9.1</strong> (Outgoing-coarea identity). <em>Under the
+preceding assumptions, <span class="tex-anchor" id="eq:coarea" aria-hidden="true"></span><span class="math display" data-source-display="display-084" data-source-sha256="78f079d3e24330da3716d86cc9985cc611fcf1e6f1ba87ad04bc175492ad44b3">\[\begin{equation}
+
+\begin{aligned}
+&amp;\sum_{\alpha\in\Lambda}
+\sum_{\substack{t_*\in I\\C_\alpha(t_*)=0}}
+\kappa_{j(\alpha)}^{-2}A_{\alpha,+}(t_*)\\
+&amp;\quad=\lim_{\delta\downarrow0}
+\sum_{\alpha\in\Lambda}\kappa_{j(\alpha)}^{-2}
+\int_Iq_\alpha(t)\rho_\delta(r_\alpha(t))
+\left(r_{\alpha,t}(t)\right)_{+}\,\mathrm dt.
+\end{aligned}
+\end{equation}\]</span><span class="equation-numbers">(50)</span> The identity includes both odd crossings and
+even touches.</em></p>
+</div>
+<div class="proof" data-source-block="proof-20" data-source-sha256="0b61f5b902b4054467f60882d098bd9903c2a5e335c23341adf081b10b26da7d">
+<p><em>Proof.</em> Near a zero of order <span class="math inline">\(m\)</span>, <span class="math display" data-source-display="display-085" data-source-sha256="bdf3c8ab52cc577b3b7bed5afe053ea24f57399119042cd4d627b8574d657750">\[C(t_*+s)=cs^m+O_{L^2}(\left\lvert
+s\right\rvert^{m+1}),
+\quad
+r(t_*+s)=\left\lVert c\right\rVert_2s^m(1+O(s)),
+\quad
+\xi(t_*+s)\longrightarrow c/\left\lVert c\right\rVert_2\]</span> from
+the right. The factor <span class="math inline">\(\left(r_t\right)_{+}\)</span> removes the incoming
+left side. On the right, the substitution <span class="math inline">\(y=r(t)\)</span> gives <span class="math display" data-source-display="display-086" data-source-sha256="fe60cf0661adf512a45df4aa0aa0eaaa53b8a8fb6c1674f0111bbcf8a84b8dc1">\[\int
+q(t)\rho_\delta(r(t))\left(r_t(t)\right)_{+}\,\mathrm dt
+\longrightarrow q(t_*+)=A_+(t_*).\]</span> The argument is unchanged for
+an even-order touch. Summing finitely many disjoint zero neighborhoods
+proves <a href="#eq:coarea" data-reference-type="eqref" data-reference="eq:coarea" class="xref" data-ref-target="eq:coarea">(50)</a>. ◻</p>
+</div>
+<p>If <span class="math inline">\(C_t-\nu\Delta C=G\)</span>, then
+wherever <span class="math inline">\(r&gt;0\)</span>, <span class="tex-anchor" id="eq:radial" aria-hidden="true"></span><span class="math display" data-source-display="display-087" data-source-sha256="1bebde25dd3eee9a60d8a372b7421758cde13af551a9f24f49cc834779e5d4d0">\[\begin{equation}
+
+r_t=\left\langle \xi,G\right\rangle-\nu\frac{\left\lVert \nabla
+C\right\rVert_2^2}{r}.
+\end{equation}\]</span><span class="equation-numbers">(51)</span> The density in <a href="#eq:coarea" data-reference-type="eqref" data-reference="eq:coarea" class="xref" data-ref-target="eq:coarea">(50)</a>
+has scale exponent two before time integration and therefore total scale
+zero. This repairs the dimensional mismatch of the bare budget only at
+the level of representation. The bound <span class="math inline">\(\left(r_t\right)_{+}\le\left\lVert
+G\right\rVert_2\)</span> still leaves <span class="math inline">\(\rho_\delta(r)\sim\delta^{-1}\)</span>, and no
+uniform zero-level occupation estimate follows from an ordinary <span class="math inline">\(L_t^pG\)</span> bound.</p>
+<p>For comparison, a fixed smooth divergence-free packet <span class="math inline">\(\psi\)</span> has an amplitude-weighted excursion
+bound that is paid by the Leray ledger. If <span class="math inline">\(b_\psi(t)=\left\langle
+u(t),\psi\right\rangle\)</span>, then on <span class="math inline">\(I=[s,t]\)</span>, <span class="tex-anchor" id="eq:excursion" aria-hidden="true"></span><span class="math display" data-source-display="display-088" data-source-sha256="8b59598d8cf9edfab010be337415c0eaafd8d724390b746d8baf7664fbe794fb">\[\begin{equation}
+
+V_I^+(b_\psi)
+\le\nu\left\lVert \nabla\psi\right\rVert_2(\left\lvert I\right\rvert
+D_I)^{1/2}
++\left\lVert \nabla\psi\right\rVert_\infty E_I\left\lvert I\right\rvert,
+\end{equation}\]</span><span class="equation-numbers">(52)</span> where <span class="math inline">\(E_I=\operatorname*{ess\,sup}_I\left\lVert
+u\right\rVert_2^2\)</span> and <span class="math inline">\(D_I=\int_I\left\lVert \nabla
+u\right\rVert_2^2\)</span>. This controls entries that reach a fixed
+amplitude, not arbitrarily shallow zero entries.</p>
+<h1 data-number="10" id="sec:discussion" data-source-heading="heading-13"><span class="header-section-number">10</span> Discussion and exact claim
+boundary</h1>
+<p>The results isolate a precise separation.</p>
+<ol>
+<li><p>The projected-Lamb shell injection has a complete signed identity
+and a scale-critical conditional continuation coefficient.</p></li>
+<li><p>Leray energy unconditionally controls the normalized vertical
+heat bulk, globally and under bounded-overlap localization.</p></li>
+<li><p>The bottom trace is not a free consequence of that bulk. Exact
+global smooth solutions saturate the full <span class="math inline">\(K^2\)</span> trace cost, and covariant interior
+cylinders saturate <span class="math inline">\(r^{-2}\)</span>.</p></li>
+<li><p>Positive-time internal shell entries genuinely occur in smooth
+Navier–Stokes dynamics. The bare normalized <span class="math inline">\(\dot H^{-1}\)</span>-Lamb time integral cannot
+uniformly pay their scale-invariant atoms.</p></li>
+<li><p>Outgoing occupation gives an exact scale-matched representation,
+but its summed zero-level mass is an open estimate.</p></li>
+</ol>
+<p>The paper does not prove that <span class="math inline">\(A_{\mathrm{sb},+}\in L^1_t\)</span> for every
+Leray–Hopf solution, does not prove an occupation or recurrence bound,
+and does not extend the finite-order entry ledger through an unknown
+singular time. It neither proves global regularity nor constructs
+finite-time breakdown. The remaining question is not another algebraic
+decomposition: it is whether the exact Navier–Stokes coupling supplies a
+scale-zero occupation, jet, or amplitude-thresholded charge that can be
+summed from an a priori budget.</p>
+<h1 class="unnumbered" id="computer-assisted-verification-and-reproducibility" data-source-heading="heading-14">Computer-assisted
+verification and reproducibility</h1>
+<p>Computer assistance was used in four bounded roles: finite Fourier
+algebra checks, independent spectral and real-space reconstructions,
+quadrature and scaling-table audits, and figure generation. These
+calculations test the finite-frame identities and the numerical points
+reported in the figures. The continuum arguments remain analytic: they
+use the projected-Lamb identity, heat-semigroup estimates, the local
+solution map, the implicit-function theorem, and the Leray energy
+inequality. No theorem in this paper depends on a floating-point output
+being treated as a proof.</p>
+<p>The exact Fourier identities, independent reconstructions, figure
+data, commands, environments, and checksums used here are archived in
+the immutable public snapshot at commit <a href="https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0"><code>89b2ba3cc808</code></a>.
+The <a href="https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0/research/certificates/r071f">localized-trace
+certificate</a> and the <a href="https://github.com/Kasifa/Kasifa.github.io/tree/89b2ba3cc808973a25bc605087e8f6c50ca94df0/research/certificates/r071t">internal-entry
+certificate</a> contain the exact producers, independent programs,
+environments, outputs, and checksum manifests. The time-stepping
+experiment shown in Figure <a href="#fig:internal-entry" data-reference-type="ref" data-reference="fig:internal-entry" class="xref" data-ref-target="fig:internal-entry">2</a> is a
+finite Fourier–Galerkin corroboration, not DNS and not a continuum error
+certificate.</p>
+<h1 data-number="A" id="finite-fourier-ledger-for-the-six-mode-trace-family" data-source-heading="heading-15"><span class="header-section-number">A</span> Finite Fourier ledger for the
+six-mode trace family</h1>
+<p>For completeness, the vorticity of <a href="#eq:2d3c" data-reference-type="eqref" data-reference="eq:2d3c" class="xref" data-ref-target="eq:2d3c">(25)</a> is
+<span class="math display" data-source-display="display-089" data-source-sha256="c8289b756a13c65458a53c12bad3740d1178cfff38fd1f5fdd4a72c566fd629a">\[\omega_{\sigma,a,K}=2aK^2
+\left(
+\sigma\cos(Kx_1+Kx_2)+\sin(Kx_2),
+-\sigma\cos(Kx_1+Kx_2),
+\sin(Kx_1)
+\right).\]</span> Normalized averages give <span class="tex-anchor" id="eq:appendix-norms" aria-hidden="true"></span><span class="math display" data-source-display="display-090" data-source-sha256="6c0a17cc142f1b2a954f61dcb147c4dcaba52fc034377e35414413bc592f5dc0">\[\begin{equation}
+
+\left\lVert u\right\rVert_2^2=6a^2K^2,
+\qquad
+\left\lVert \omega\right\rVert_2^2=8a^2K^4,
+\qquad
+\left\lVert \nabla\omega\right\rVert_2^2=12a^2K^6.
+\end{equation}\]</span><span class="equation-numbers">(53)</span> Resolving the complete nonlinear enstrophy work
+by output radius gives</p>
+<div class="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">output radius</th>
+<th style="text-align: right;">stretching</th>
+<th style="text-align: right;">transport</th>
+<th style="text-align: right;">combined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span class="math inline">\(K\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(2\sigma
+a^3K^6\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(-2\sigma
+a^3K^6\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">\(\sqrt2K\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(2\sigma
+a^3K^6\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(-2\sigma
+a^3K^6\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(4\sigma
+a^3K^6\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Thus stretching and the transport-filter commutator must remain
+together. For a radial block with multiplier values <span class="math inline">\(\alpha\)</span> at <span class="math inline">\(K\)</span> and <span class="math inline">\(\beta\)</span> at <span class="math inline">\(\sqrt2K\)</span>, the complete work is <span class="math display" data-source-display="display-091" data-source-sha256="5557c157086ed57f0ad84cf5157d70e3d8e94d82ba3dbb815bd28392e3ca78ed">\[b_T=2\sigma a^3K^6(2\beta^2-\alpha^2),\]</span>
+while at heat height <span class="math inline">\(s\)</span>, with <span class="math inline">\(\tau_h=K^2s\)</span>, <span class="math display" data-source-display="display-092" data-source-sha256="38f1b3c2c3e5065f168bc2ee8c69dcb5d3cf463971474f96977df87a0e5f9b69">\[b_T(s)=2\sigma a^3K^6
+\left(2\beta^2e^{-4\tau_h}-\alpha^2e^{-2\tau_h}\right).\]</span> The
+fixed radial refinement used in Section <a href="#sec:trace" data-reference-type="ref" data-reference="sec:trace" class="xref" data-ref-target="sec:trace">6</a> sets one
+child to <span class="math inline">\((\alpha,\beta)=(1,0)\)</span> and
+the other to <span class="math inline">\((0,1)\)</span>, which yields <a href="#eq:low-block" data-reference-type="eqref" data-reference="eq:low-block" class="xref" data-ref-target="eq:low-block">(26)</a> for <span class="math inline">\(\sigma=-1\)</span>.</p>
+<div id="refs" class="references"><ol class="numbered-bibliography"><li id="ref-ChenLiangTsai2026"><p>H. Chen, S. Liang, and T.-P. Tsai. Maximal regularity and caloric
+trace estimates in mixed <span>Lebesgue</span> norms for the heat
+equation. <em>arXiv preprint</em>, 2026. <a href="https://doi.org/10.48550/arXiv.2606.16438">doi:<code>10.48550/arXiv.2606.16438</code></a>.</p>
+</li><li id="ref-ConstantinFefferman1993"><p>P. Constantin and C. Fefferman. Direction of vorticity and the
+problem of global regularity for the <span>Navier–Stokes</span>
+equations. <em>Indiana University Mathematics Journal</em>, 42 (3):
+775–789, 1993. <a href="https://doi.org/10.1512/iumj.1993.42.42034">doi:<code>10.1512/iumj.1993.42.42034</code></a>.</p>
+</li><li id="ref-DuchonRobert2000"><p>J. Duchon and R. Robert. Inertial energy dissipation for weak
+solutions of incompressible <span>Euler</span> and
+<span>Navier–Stokes</span> equations. <em>Nonlinearity</em>, 13 (1):
+249–255, 2000. <a href="https://doi.org/10.1088/0951-7715/13/1/312">doi:<code>10.1088/0951-7715/13/1/312</code></a>.</p>
+</li><li id="ref-FujitaKato1964"><p>H. Fujita and T. Kato. On the <span>Navier–Stokes</span> initial
+value problem. <span>I</span>. <em>Archive for Rational Mechanics and
+Analysis</em>, 16: 269–315, 1964. <a href="https://doi.org/10.1007/BF00276188">doi:<code>10.1007/BF00276188</code></a>.</p>
+</li><li id="ref-IyerSreenivasanYeung2022"><p>K. P. Iyer, K. R. Sreenivasan, and P. K. Yeung. Nonlinear
+amplification in hydrodynamic turbulence. <em>Journal of Fluid
+Mechanics</em>, 930: R2, 2022. <a href="https://doi.org/10.1017/jfm.2021.914">doi:<code>10.1017/jfm.2021.914</code></a>.</p>
+</li><li id="ref-Kato1984"><p>T. Kato. Strong <span><span class="math inline">\(L^p\)</span></span>-solutions of the
+<span>Navier–Stokes</span> equation in <span><span class="math inline">\(\mathbb R^m\)</span></span>, with applications to
+weak solutions. <em>Mathematische Zeitschrift</em>, 187: 471–480, 1984.
+<a href="https://doi.org/10.1007/BF01174182">doi:<code>10.1007/BF01174182</code></a>.</p>
+</li><li id="ref-KochTataru2001"><p>H. Koch and D. Tataru. Well-posedness for the
+<span>Navier–Stokes</span> equations. <em>Advances in Mathematics</em>,
+157 (1): 22–35, 2001. <a href="https://doi.org/10.1006/aima.2000.1937">doi:<code>10.1006/aima.2000.1937</code></a>.</p>
+</li><li id="ref-LernerVigneron2022"><p>N. Lerner and F. Vigneron. On some properties of the curl operator
+and their consequences for the <span>Navier–Stokes</span> system.
+<em>Communications in Mathematical Research</em>, 38 (4): 449–497, 2022.
+<a href="https://doi.org/10.4208/cmr.2021-0106">doi:<code>10.4208/cmr.2021-0106</code></a>.</p>
+</li><li id="ref-Serrin1962"><p>J. Serrin. On the interior regularity of weak solutions of the
+<span>Navier–Stokes</span> equations. <em>Archive for Rational Mechanics
+and Analysis</em>, 9: 187–195, 1962. <a href="https://doi.org/10.1007/BF00253344">doi:<code>10.1007/BF00253344</code></a>.</p>
+</li><li id="ref-Shtilman1992"><p>L. Shtilman. On the solenoidality of the <span>Lamb</span> vector.
+<em>Physics of Fluids A</em>, 4 (1): 197–199, 1992. <a href="https://doi.org/10.1063/1.858488">doi:<code>10.1063/1.858488</code></a>.</p>
+</li><li id="ref-Temam2001"><p>R. Temam. <em>Navier–Stokes Equations: Theory and Numerical
+Analysis</em>. AMS Chelsea Publishing, Providence, RI, 2001. Reprint and
+retypesetting of the 1984 edition.</p>
+</li><li id="ref-VasseurYang2021"><p>A. Vasseur and J. Yang. Second derivatives estimate of suitable
+solutions to the <span>3D Navier–Stokes</span> equations. <em>Archive
+for Rational Mechanics and Analysis</em>, 241 (2): 683–727, 2021. <a href="https://doi.org/10.1007/s00205-021-01661-4">doi:<code>10.1007/s00205-021-01661-4</code></a>.</p>
+</li><li id="ref-Yang2020"><p>J. Yang. Construction of maximal functions associated with skewed
+cylinders generated by incompressible flows and applications.
+<em>Annales de l’Institut Henri Poincaré C, Analyse non linéaire</em>,
+39 (4): 793–818, 2022. <a href="https://doi.org/10.4171/AIHPC/20">doi:<code>10.4171/AIHPC/20</code></a>.</p>
+</li><li id="ref-Yu2026"><p>R. Yu. Filtered vortex stretching and subgrid defects for the
+three-dimensional <span>Navier–Stokes</span> equations. <em>arXiv
+preprint</em>, 2026. <a href="https://doi.org/10.48550/arXiv.2606.27560">doi:<code>10.48550/arXiv.2606.27560</code></a>.</p>
+</li></ol></div>
