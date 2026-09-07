@@ -1,0 +1,35 @@
+{
+  "role": "forward_research",
+  "privacy": "PRIVATE_CORE",
+  "name": "SC negative strain cone and geometric-complement time control",
+  "base_commit": "553e06c62a6c56e518c739478f9a6ff282d60223",
+  "classification": "PROVED IN STATED SCOPE / CONDITIONAL / STANDARD THEORY INTERFACES / OPEN / NOT CLAY",
+  "main": "research/clay_b_negative_strain_cone_20260908.md",
+  "audit": "research/clay_b_negative_strain_cone_audit_20260908.md",
+  "mathematical_dependency": "research/clay_b_strain_spectral_entropy_20260908.md",
+  "completed_scope": [
+    "Fixed-plane symmetric-gradient determinant identity and a cone L2 estimate allowing arbitrary positive-block shape, with no zero-mean amplitude requirement.",
+    "Good/bad geometric decomposition retaining spectral and angular failure sets; a non-solenoidal auxiliary cutoff legitimately avoids Leray nonlocal correction while retaining ordinary boundary cost.",
+    "Local L6 velocity bound and conditional suitable-weak regularity if the geometric-complement strain belongs to L4 in time and L2 in space; measurable reference axis may vary with time.",
+    "Complete smooth original-NS negative-eigenline and amplitude dynamics, cross-sign dissipation equivalence, and a whole-ball amplitude-band angular estimate."
+  ],
+  "open": [
+    "Establish or bypass the geometric-complement L4 time norm using actual NS dynamics. The basic energy estimate supplies only L2 time control.",
+    "Control amplitude layers, their boundaries and near-wave-cone regions without importing a full-ball spectral or amplitude-band assumption into arbitrary solutions.",
+    "Control the mixed strain-gradient/eigenline-gradient term in SC.16, or demonstrate a different estimate that avoids requiring this term.",
+    "Arbitrary-data unforced three-dimensional NS regularity and the full Clay goal."
+  ],
+  "new_unconditional_critical_estimate": false,
+  "full_goal_closed": false,
+  "scoped_analytic_subsection_complete": true,
+  "high_strain_concentration_control_complete": false,
+  "combined_freeze_plan": "First SE-SC private analytic package after actual-file review and immutable source binding. SE historic internal statements remain unchanged. No separate SE release.",
+  "next_action": "Continue the concrete high-strain compatibility mechanism from SC.10-17. Seek an actual time-integrated interpolation or self-improving estimate with real amplitude layers and all layer boundaries, zero-spectrum and geometric-complement terms retained. Do not redo SC cone/Korn/negative-line calculations or the narrow-cone literature transplant. A hard unproved noncircular estimate may be explored, but SC.11 cannot be assumed as an arbitrary-data theorem. No publication or reverse-runtime inspection.",
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "public_overview_requested": false,
+  "handoff_status_at_source_stage": "NOT_YET_SENT",
+  "publication_boundary": "Only the fixed publisher may archive the forthcoming freeze. No website/local-reader work, push, polling, waiting, supervision or duplicate handoff by research."
+}
