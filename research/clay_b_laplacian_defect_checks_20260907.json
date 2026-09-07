@@ -1,0 +1,209 @@
+{
+  "exact_checks": {
+    "Young_conjugates_and_viscosity_power": true,
+    "basic_energy_integral": true,
+    "critical_cost_prefactor": true,
+    "defect_derivative_numerator": true,
+    "defect_numerator": true,
+    "denominator_polynomial": true,
+    "frequency_cost_exponent": true,
+    "initial_defect": true,
+    "initial_energy_normalization": true,
+    "initial_increase": true,
+    "late_decrease_sample": true,
+    "quadratic_minimum_sample": true,
+    "sample_cost_cancellation": true,
+    "stationary_peak_value": true,
+    "strain_weight_normalization": true
+  },
+  "exact_outputs": {
+    "denominator": [
+      "1",
+      "17",
+      "16"
+    ],
+    "derivative_numerator": [
+      "9",
+      "0",
+      "-144"
+    ],
+    "gap_numerator": [
+      "0",
+      "9"
+    ],
+    "initial_d_delta_d_tau": "405/578",
+    "initial_defect": "9/34",
+    "late_sample_d_delta_d_tau": "-405/578",
+    "minimum_sample": "9/17",
+    "peak_defect": "9/25"
+  },
+  "finite_sample_r": [
+    "1",
+    "1/4",
+    "1/16"
+  ],
+  "minimum_sample_inputs": {
+    "M1": "5",
+    "M2": "17",
+    "P": "2"
+  },
+  "negative_controls": {
+    "forget_negative_time_chain_rule_reverses_growth": true,
+    "missing_factor_two_in_quadratic_derivative_fails_minimum": true,
+    "missing_symmetric_strain_entry_breaks_budget": true,
+    "omit_parabolic_time_jacobian_gives_wrong_N_power": true,
+    "omit_squared_defect_changes_cost": true
+  },
+  "no_numerical_integral_or_simulation": true,
+  "scope": "Designated exact polynomial, normalization and exponent checks only. No numerical integration or simulation; continuous monotonicity, integral asymptotics and PDE/continuation statements require separate analytic review.",
+  "status": "PASS",
+  "UTF8_LF_single_EOF": true,
+  "audit": {
+    "bytes": 7674,
+    "lines": 54,
+    "path": "research/clay_b_laplacian_defect_audit_20260907.md",
+    "sha256": "34365f1931163a4eee6aee89e4d2abb49abb8e8849c5586579d87a597a7aec80"
+  },
+  "base_commit": "aa98c281b177afae2055624986430492856defaf",
+  "changed_checkpoint_fields": [
+    "checkpoint_id",
+    "current_question",
+    "current_working_source",
+    "current_working_sources",
+    "historical_checkpoint_note",
+    "laplacian_defect_review",
+    "next_step",
+    "status"
+  ],
+  "checkpoint": {
+    "bytes": 77013,
+    "lines": 190,
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "sha256": "10e8a36cc87df1ceb4e7c2ca62cbdfa72fe905670f69e2b59f6a40b788658642"
+  },
+  "current_review_count": 36,
+  "display_pairs": 9,
+  "latest_scientific_release": "ClayB-FrequencyActivation-20260907",
+  "main": {
+    "bytes": 8500,
+    "lines": 169,
+    "path": "research/clay_b_laplacian_defect_screen_20260907.md",
+    "sha256": "997829bffdf5d42ec6093ac53c6998c76e3d72f18da25de5abb7fd9f4dcab94c"
+  },
+  "new_handoff": false,
+  "new_scientific_release": false,
+  "old_review_values_preserved": 35,
+  "ordered_formula_tags": 9,
+  "private_paper_parsed_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "private_paper_unchanged": true,
+  "protected_historical_sources": [
+    {
+      "base_bytes_equal": true,
+      "bytes": 10312,
+      "lines": 201,
+      "path": "research/clay_b_heat_normal_form_20260907.md",
+      "sha256": "bf5eb773c1003202febdc0a7a1280c6ed7925017ddd5d8a23411e837f8313e64"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 8449,
+      "lines": 63,
+      "path": "research/clay_b_heat_normal_form_audit_20260907.md",
+      "sha256": "4476290ecd865471617cab31ebb58610a36a265e1caaec511cbcf8c1c586bcbf"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 6535,
+      "lines": 214,
+      "path": "research/clay_b_heat_normal_form_checks_20260907.json",
+      "sha256": "7f1a37b1380db5558fb0dcca1f0b80d5800b483142a7919164cb30ad09bf7334"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 12364,
+      "lines": 283,
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 9949,
+      "lines": 127,
+      "path": "research/clay_b_frequency_activation_release_20260907.json",
+      "sha256": "f362464072b1fcd7d8311d859aac12b4932841f40262c42343f7779ad1a64308"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 4510,
+      "lines": 53,
+      "path": "research/clay_b_frequency_activation_dispatch_receipt_20260907.md",
+      "sha256": "521e83d71c92efe7e0c1cef2035759b3412ec954202b3dd773db2c70ad6fb8fc"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 22757,
+      "lines": 1002,
+      "path": "research/r070x_report-source.md",
+      "sha256": "86a34601de5a7095ce7ec1bd24eb7ef9c64491068770168d7dc00bf6e8fadcd3"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 10477,
+      "lines": 346,
+      "path": "research/r070x_independent_audit.md",
+      "sha256": "6d7c63743d8adab0d36f21fb14daa931769dab38d762fbb0400429df7df1bdf7"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 15639,
+      "lines": 751,
+      "path": "research/r070s_report-source.md",
+      "sha256": "e96d7e9e7ff77e2df2bb5020d757416897731be27cb0f569b1bb2546a3b9e7c9"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 28682,
+      "lines": 1026,
+      "path": "research/r071u_report-source.md",
+      "sha256": "833aa52b19f6498897dd6acef1fb8ea3a9427fe960854b2c6203cc90e18af28a"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 12014,
+      "lines": 260,
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "sha256": "ed8d6ee53e35d5097fd96858832542925b0d8fbf3454841ad2ff047f5b7f8f46"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 6401,
+      "lines": 114,
+      "path": "research/clay_b_clock_stochastic_audit_20260907.md",
+      "sha256": "197d6c7a7f34bc54f1a78871c9d50423613a0ce9530bc7d1b149a1180e162b05"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 12346,
+      "lines": 304,
+      "path": "research/clay_b_leray_paid_budget_20260907.md",
+      "sha256": "788d06c56c61a4e68d609118cb50e114f5328c0c8e6c588463cac6bfd88a51fb"
+    }
+  ],
+  "scientific_identity_tuples_unchanged": 17,
+  "source_baseline_checkpoint_sha256": "9055c29978164c45b161a9b87fdcbb8bc32c7a71ce9e6e82eeb00f9404ec0077",
+  "user_agents_not_staged": true,
+  "user_agents_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab",
+  "workflow_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566",
+  "finite_check_output_identical_on_rerun": true,
+  "independent_math_review_scope": "C / euler_rigidity_screen is the sole full actual-file nonauthor mathematical reviewer; MSD.1-9 PASS without amendment at main 997829bffdf5d42ec6093ac53c6998c76e3d72f18da25de5abb7fd9f4dcab94c (169 lines, 8500 bytes). Reading and proof scopes are stated in audit. This is not external peer review, full model-theorem dependency certification, or a novelty review.",
+  "independent_finite_review_scope": "B / r076l_figure_audit independently used Ruby Rational for denominator polynomial, numerator difference, derivative numerator and peak value, and separately rederived the exact heat-family and cost formulas analytically. Not all 15 Python checks and 5 controls were dual-implemented; finite checks do not certify PDE continuation or all-N asymptotics.",
+  "record_scope_review": {
+    "reviewer": "A / r076l_proof_audit",
+    "status": "PASS",
+    "audit_sha256": "34365f1931163a4eee6aee89e4d2abb49abb8e8849c5586579d87a597a7aec80",
+    "scope": "Actual main/audit scope consistency: dedup, local-contributor versus sole full nonauthor review, finite versus analytic/PDE evidence, original-NS versus model and fixed-data quantifiers. Not a second full nonauthor mathematical review."
+  },
+  "no_standalone_QA_program": true,
+  "finite_check_python_source": "from fractions import Fraction as F\nimport json\ndef trim(a):\n    a=list(a)\n    while len(a)>1 and not a[-1]:a.pop()\n    return a\ndef add(a,b):\n    out=[F(0)]*max(len(a),len(b))\n    for i,x in enumerate(a):out[i]+=x\n    for i,x in enumerate(b):out[i]+=x\n    return trim(out)\ndef neg(a):return [-x for x in a]\ndef mul(a,b):\n    out=[F(0)]*(len(a)+len(b)-1)\n    for i,x in enumerate(a):\n        for j,y in enumerate(b):out[i+j]+=x*y\n    return trim(out)\ndef der(a):return trim([i*x for i,x in enumerate(a)][1:] or [F(0)])\ndef val(a,r):\n    return sum(x*r**i for i,x in enumerate(a))\nden=mul(list(map(F,[1,1])),list(map(F,[1,16])))\nsq=mul(list(map(F,[1,4])),list(map(F,[1,4])))\ngap=add(den,neg(sq))\nnum=add(mul(der(gap),den),neg(mul(gap,der(den))))\ndef delta(r):return val(gap,r)/val(den,r)\ndef dtau(r):return val(num,r)/val(den,r)**2*(-6*r)\np,m1,m2=F(2),F(5),F(17)\nrho=m1/m2\nminimum=lambda x:m2*x*x-2*m1*x+p\nchecks={\n\"initial_energy_normalization\":F(5,16)*F(16,5)==1,\n\"strain_weight_normalization\":F(16,5)/4==F(4,5),\n\"denominator_polynomial\":den==list(map(F,[1,17,16])),\n\"defect_numerator\":gap==list(map(F,[0,9])),\n\"defect_derivative_numerator\":num==list(map(F,[9,0,-144])),\n\"initial_defect\":delta(F(1))==F(9,34),\n\"stationary_peak_value\":delta(F(1,4))==F(9,25) and dtau(F(1,4))==0,\n\"initial_increase\":dtau(F(1))>0,\n\"late_decrease_sample\":dtau(F(1,16))<0,\n\"basic_energy_integral\":F(4,5)*(F(1,2)+F(1,8))==F(1,2),\n\"critical_cost_prefactor\":F(81)*F(4,5)**2==F(1296,25),\n\"frequency_cost_exponent\":2*2-2==2,\n\"Young_conjugates_and_viscosity_power\":1/F(4,3)+1/F(4)==1 and -F(3,4)*4==-3,\n\"quadratic_minimum_sample\":minimum(rho)==p-m1*m1/m2==F(9,17),\n\"sample_cost_cancellation\":all(delta(r)**2*(1+r)**2==81*r*r/(1+16*r)**2 for r in [F(1),F(1,4),F(1,16)]),\n}\ncontrols={\n\"missing_symmetric_strain_entry_breaks_budget\":F(1,2)*F(4,5)*(F(1,2)+F(1,8))!=F(1,2),\n\"forget_negative_time_chain_rule_reverses_growth\":val(num,F(1))<0 and dtau(F(1))>0,\n\"omit_parabolic_time_jacobian_gives_wrong_N_power\":2*2!=2*2-2,\n\"omit_squared_defect_changes_cost\":delta(F(1))*(1+F(1))**2!=delta(F(1))**2*(1+F(1))**2,\n\"missing_factor_two_in_quadratic_derivative_fails_minimum\":minimum(2*rho)>minimum(rho),\n}\nassert all(checks.values()) and all(controls.values())\nprint(json.dumps({\"status\":\"PASS\",\"scope\":\"Designated exact polynomial, normalization and exponent checks only. No numerical integration or simulation; continuous monotonicity, integral asymptotics and PDE/continuation statements require separate analytic review.\",\"exact_checks\":checks,\"negative_controls\":controls,\"exact_outputs\":{\"denominator\":list(map(str,den)),\"gap_numerator\":list(map(str,gap)),\"derivative_numerator\":list(map(str,num)),\"initial_defect\":str(delta(F(1))),\"peak_defect\":str(delta(F(1,4))),\"initial_d_delta_d_tau\":str(dtau(F(1))),\"late_sample_d_delta_d_tau\":str(dtau(F(1,16))),\"minimum_sample\":str(minimum(rho))},\"finite_sample_r\":[\"1\",\"1/4\",\"1/16\"],\"minimum_sample_inputs\":{\"P\":\"2\",\"M1\":\"5\",\"M2\":\"17\"},\"no_numerical_integral_or_simulation\":True},indent=2,sort_keys=True))\n",
+  "finite_check_source_scope": "Archived exact inline Python used in this turn for reproducibility; standard-library Fraction only. Designated algebraic negative controls, not mutation testing of a PDE solver."
+}
