@@ -1,5 +1,9 @@
 # Reverse research checkpoint
 
+2026-09-08 当前实际状态：完整 n1280 残差主核和独立 Fraction 核已在同一源10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505各执行一次，均 COMPLETE，不得重跑。主7.769秒、RSS119848960、目录46985943字节；独立15.008秒、RSS87588864、目录24673201字节；两份stderr为空。主run SHA 1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7，独立run b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e。根已核两份实际末行stdout、run字节和目录大小。两核均给同一点r0门通过、r2的指定epsilon=2e-7包络被拒；尚待全输出比较和最终独立审查，不提前标总验收PASS。
+
+当前待办：Rawls正准备 check_full_nodal_agreement.py（尚未运行）；根须全文读最终比较器后一次核所有五张量、215622残差标量与范数/扰动/资源。Pascal正准备 FULL_NODAL_RESIDUAL_OUTCOME.md，Pauli正写 NODAL_VS_CONTROL_INTERFACE.md 的短解析界限说明，不重算大核。后者只区分单个epsilon失败与整个指定控制函数族未判定，不选择第三个epsilon或作扫描。源码审批与运行前数学审查均已完成。下方“源码准备中”属于历史。原固定初值仍 NO-CERTIFICATE-YET-FOR-FIXED-a；持续授权有效，不需常规确认。
+
 2026-09-08 最新完成项：单一 n1280 的 c̃¹*c̃² 张量块已完整验收。主 Kronecker 与盲于主结果的独立 Fraction→直接有序对算法都实际完成，24127744 个有序对覆盖全部35937复输出。根逐29472中心、71874输出及29472舍入见证比较，M/δ全和也相同，六个内存负对照全拒。Rawls最终非作者审查PASS；根全文读终审和最后记录核对源码，实际核46项绑定。读 KRONECKER_COMPLETE_OUTCOME.md、KRONECKER_COMPLETE_FINAL_REVIEW.md、kronecker-independent-agreement.json；该块科学核和比较均不再重跑。主/独立科学源为7943df9127f28ceda67cffcc9b60311ec1f635c1、49bf28aad70bdcb4adde2fd2cccc0e6b84544f1c，最终墙钟1.628/2.784秒。仍只认证同一96位中心的一项张量，完整残差和原NS结论未付。
 
 下一已开工项：同一 n1280 完整残差的 NR 数学合同与两份执行合同均已通过 Rawls 非作者独立审查；根全文读并分别实际核六项输入绑定。读 FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md、FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md。固定 QP=2^96、根号 b=128；两核各一次 60 秒、256 MiB 峰 RSS、64 MiB 输出。复用旧中心和 T¹²，仅新增其余五张量，精确原斜率、完整 Leray、线性/非线性相消和原节点扰动均保留。Pascal 正准备 audit_full_nodal_residual.py，Pauli 盲于该主源码/新结果准备 audit_full_nodal_residual_independent.py；Rawls 正准备一次档案比较器。根随后全文审代码、核实际 pin、锁源码提交后才各执行一次，目前未执行新科学核。核心公式原由根提出，不将根复读冒充其非作者审查。不增加节点、参数或时间窗扫描。当前 NO-CERTIFICATE-YET-FOR-FIXED-a，持续授权和 active 目标保持，无常规确认依赖。

@@ -1,0 +1,16 @@
+{"full_node_progress": {"completed_new_tensors": 1, "completed_large_products": 3, "wall_seconds": 1.441329542081803}}
+{"full_node_progress": {"completed_new_tensors": 2, "completed_large_products": 6, "wall_seconds": 2.945920916972682}}
+{"full_node_progress": {"completed_new_tensors": 3, "completed_large_products": 9, "wall_seconds": 4.203540167072788}}
+{"full_node_progress": {"completed_new_tensors": 4, "completed_large_products": 12, "wall_seconds": 5.7526581671554595}}
+{"full_node_progress": {"completed_new_tensors": 5, "completed_large_products": 15, "wall_seconds": 7.095403833081946}}
+{"full_node_residual_progress": {"outputs": 1, "wall_seconds": 7.098760708002374}}
+{"full_node_residual_progress": {"outputs": 4097, "wall_seconds": 7.153900749981403}}
+{"full_node_residual_progress": {"outputs": 8193, "wall_seconds": 7.214743958087638}}
+{"full_node_residual_progress": {"outputs": 12289, "wall_seconds": 7.271072083152831}}
+{"full_node_residual_progress": {"outputs": 16385, "wall_seconds": 7.327607083134353}}
+{"full_node_residual_progress": {"outputs": 20481, "wall_seconds": 7.381603542016819}}
+{"full_node_residual_progress": {"outputs": 24577, "wall_seconds": 7.436006083153188}}
+{"full_node_residual_progress": {"outputs": 28673, "wall_seconds": 7.492659375071526}}
+{"full_node_residual_progress": {"outputs": 32769, "wall_seconds": 7.546697417041287}}
+{"full_node_residual_progress": {"outputs": 35937, "wall_seconds": 7.588697333121672}}
+{"execution_status": "COMPLETE", "final_observation": {"output_bytes": 46985943, "peak_rss_bytes": 119848960, "wall_seconds": 7.769261500099674}, "mathematical_status": "FULL_FIXED_NODE_RESIDUAL_BOUNDS_VERIFIED", "output": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/full-nodal-residual-trial-01/run.json", "sha256": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7"}

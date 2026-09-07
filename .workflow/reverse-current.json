@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Both full-node kernel sources have complete root code review and actual static/pin checks. Lock this source commit, then execute primary once and blind independent once at the fixed node under their 60s/256MiB/64MiB contracts. Keep HEAD stable until both finish; preserve any failure and never retry a scientific kernel. Rawls prepares check_full_nodal_agreement.py without executing it; root must read final checker before one full artifact comparison and subsequent final review. No whole-window or parameter expansion.",
+  "next_action": "Both full nodal scientific kernels completed once on source 10df40f9; never rerun. Root checked final stdout/run hashes/actual directory resources. Rawls is preparing check_full_nodal_agreement.py; root must full-read then execute that data-only full comparison once. Pascal prepares outcome; Pauli prepares bounded symbolic NODAL_VS_CONTROL_INTERFACE distinguishing fixed epsilon failure from unclassified function family, without a third epsilon choice or scan. Final non-author result audit after actual full comparison. Original NS/full-window status remains open.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -127,7 +127,14 @@
     "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/full-nodal-primary-check-only.json",
-    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json"
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-residual-trial-01/run.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/run.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/result.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stdout.log",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stderr.log",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stdout.log",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -242,7 +249,14 @@
     "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md": "a28d49df6c91012f57fe2a086b2b4a4d205698187484685b755514770865e182",
     "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md": "f6185da959f93adcca2ad77de6f66fa52fb063d559023db9e09c10f8f43a56aa",
     "research/reverse/fixed-seed-global-screen/full-nodal-primary-check-only.json": "d249fb91c2b5f552a699ccc85861b06b374a3e42256dfce90da056a375381fbc",
-    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json": "8db20c0b6b6f7d2deb01e1ecace14fef92432a914d46f0dd2b4ebd027c970695"
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json": "8db20c0b6b6f7d2deb01e1ecace14fef92432a914d46f0dd2b4ebd027c970695",
+    "research/reverse/fixed-seed-global-screen/full-nodal-residual-trial-01/run.json": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/run.json": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/result.json": "e637e7fcde5f2fa8ac7cf55d635ada579f6fae189ebf903b6a7a018c351e393b",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stdout.log": "d0188f972afcb8dde652fe50a637dae03861f0e1b15b443e85c9b32b3ceb3f9d",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stdout.log": "2b7b3da465b45286e5e046f8ac13ac97c563c73af0247c21c95d403f20a1a500",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -256,12 +270,13 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same fixed reference: full n1280 residual math accepted; two exact implementations being prepared",
+  "current_topic": "Full fixed node residual computed twice; exact full-output agreement and final limited-scope review pending",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Root full read of both final implementation sources and real file pins, source commit before execution",
-    "One actual primary and one blind independent full n1280 residual execution, then complete exact artifact comparison and final independent result review",
-    "Whole-window original NS error, fixed-datum global regularity and singularity remain open"
+    "Root review then one exact data-only full output comparison; kernels cannot rerun",
+    "Non-author final result review and concise outcome/checkpoint commit",
+    "Symbolic fixed-family interface note only; no third epsilon selection or new numerical test",
+    "Whole-window original NS error, fixed-datum global status and singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -275,7 +290,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T18:38:05.621063+00:00",
+  "updated_at": "2026-09-07T18:42:15.932662+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "Substantive progress: one closed reference interval derivative certificate and one complete full-spectrum tensor certified by two actual exact algorithms; startup pin failure preserved/corrected without changing data; final non-author audit complete; next full nodal residual contract written and under independent mathematical review.",
   "completed_unreleased_audits": [
@@ -451,11 +466,11 @@
   },
   "full_nodal_residual_preparation": {
     "contract": "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md",
-    "status": "BOTH_SOURCES_ROOT_REVIEWED_READY_FOR_ONCE_EACH_EXECUTION_AFTER_COMMIT",
+    "status": "BOTH_ONCE_EXECUTIONS_COMPLETE_PENDING_FULL_COMPARISON_AND_FINAL_REVIEW",
     "root_read": "complete final text, core formula originator; not claimed as non-author independent review",
     "independent_reviewer": "driver_contract_review Rawls",
     "implementation_prepared": true,
-    "new_scientific_execution": false,
+    "new_scientific_execution": true,
     "fixed_node": 1280,
     "reuse_tensor12": true,
     "root_precision_and_resource_budget": "Each implementation once: n1280, QP96, b128, 60 seconds, 256 MiB observed peak RSS, 64 MiB output including 256 KiB metadata reserve",
@@ -470,6 +485,37 @@
     "primary_source_sha256": "54af5a2eac8be72acacef40f1be73ba00916704d64aef539d4459375a9d18e8c",
     "independent_source_sha256": "6b65b6f536d77c544c8803832eadcf37c72568f951a9982edf40e73dbc272fbf",
     "primary_root_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md",
-    "independent_root_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md"
+    "independent_root_review": "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md",
+    "source_commit": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
+    "rerun_allowed": false
+  },
+  "full_nodal_residual_evidence": {
+    "status": "ACTUAL_PRIMARY_AND_BLIND_INDEPENDENT_COMPLETE_FULL_COMPARISON_PENDING",
+    "node": 1280,
+    "time": "5/8",
+    "source_commit": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
+    "primary_run_sha256": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+    "independent_run_sha256": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+    "primary_wall_seconds": 7.769261500099674,
+    "independent_wall_seconds": 15.00825629197061,
+    "primary_peak_rss_bytes": 119848960,
+    "independent_peak_rss_bytes": 87588864,
+    "primary_directory_bytes": 46985943,
+    "independent_directory_bytes": 24673201,
+    "stdout_bytes": [
+      1897,
+      73102
+    ],
+    "stderr_bytes": [
+      0,
+      0
+    ],
+    "individual_gate_results": {
+      "r0": "CERTIFIED_AT_FIXED_NODE",
+      "r2": "REFUTED_AT_FIXED_NODE_FOR_FIXED_EPSILON_2E_MINUS_7"
+    },
+    "rerun_allowed": false,
+    "scope": "Exact-reference single node; full agreement and final review pending; no actual NS/full-window conclusion",
+    "separate_release": false
   }
 }
