@@ -1,0 +1,186 @@
+{
+  "base_commit": "ddaa463d6e658b100edd23c8300a1c6f0a4ece7d",
+  "claims": [
+    "TD proves the local two-point vorticity determinant's full-gradient cancellation and complete independent/synchronous viscous identities on closed smooth intervals, retaining all weighted transport and cutoff terms.",
+    "TD and TP prove the complete first spherical-moment dynamics, its periodic spatial zero mode and weighted balance; exact ball/sphere averages identify its actual stretching pairing with the existing j2 filtered-strain kernel.",
+    "TP derives the original-NS filtered cubic pairing evolution with pressure, commutator and cross diffusion, and proves the stated ordinary pressure and commutator upper bounds.",
+    "Explicit globally smooth original-NS shear solutions disprove universal nonnegativity of the specified unprojected and first-harmonic weighted viscous combinations. The projected negative example uses an exact positive47/80 Taylor coefficient and sufficiently small cutoff radius, not numerical threshold selection.",
+    "This combined package completes the finite TD-TP analytic audit and stops exactly two universal monotonicity branches, not all geometric or joint-source estimates."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "kind": "LOCAL_PROOF",
+      "path": "research/clay_b_expanding_torus_local_energy_20260907.md",
+      "scope": "Section2 periodic Green construction for TD; previously frozen under MQ and not duplicated as a new result.",
+      "sha256": "83d46b607bc3f724fbd7270168201fe0ab2f68cf781309ccc95227016988ad70"
+    },
+    {
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070b_report-source.md",
+      "scope": "Section8.1 j2 physical-annulus symbol; relevant subsequent expansion. No transfer or recertification of its other full-space obstruction theorems.",
+      "sha256": "f6c83c7b6d16033dea455583cd83a98d5f2e82333308f3a9bac3ea2693521332"
+    },
+    {
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070l_report-source.md",
+      "scope": "Section3 exact filtered strain equation. TP directly derives its specified zero-mass-filter formulation, preserving the exact algebraic boundary.",
+      "sha256": "41c4fdaeaed7a169f8abdb012f7d1bab747efb8847b6dee63e8e11638c8c8f1e"
+    },
+    {
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/physical_space_annular_increment_note.md",
+      "scope": "Sections1-3 signed stretching kernel and pair-exchange double increment.",
+      "sha256": "0af3f548f2464383f809f9a181c81075e8e0ec2e58611389073f14fa5bbc0791"
+    },
+    {
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070a_moving_annular_balance_note.md",
+      "scope": "Section3 full cubic two-point time derivative; TD is a structural refinement, not a new two-point route.",
+      "sha256": "ec0f4f95bd13f00cd6933cec095c357efff0c19c1b1466ff283a62c863a06656"
+    },
+    {
+      "kind": "STANDARD_FORMULA",
+      "scope": "j0,j1,j2 explicit formulas, with recurrence10.51.1 separately checked on the official HTML. No external NS mechanism was imported.",
+      "url": "https://dlmf.nist.gov/10.49#E3"
+    }
+  ],
+  "dependency_commits": [],
+  "dgx": false,
+  "figure_reason": "Pure analytic identities and finite-mode exact smooth solutions; no simulated or measured data.",
+  "files": [
+    {
+      "bytes": 16783,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "path": "research/clay_b_two_point_vorticity_determinant_20260907.md",
+      "sha256": "29513b6c3404ed096135985e9f9b92e29027c386b1cfe8e9adb6d0c937099f81"
+    },
+    {
+      "bytes": 5467,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "path": "research/clay_b_two_point_vorticity_determinant_audit_20260907.md",
+      "sha256": "444f61049937c13c5f5f444757235b238471f0706f622f0a2a1e8c73ae25d7b3"
+    },
+    {
+      "bytes": 13559,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "path": "research/clay_b_spherical_moment_dynamics_20260908.md",
+      "sha256": "3d87b1e0c4f90b9e19966a8d07a63154e499d4932a326f0a1b2c935a7d610857"
+    },
+    {
+      "bytes": 5842,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "path": "research/clay_b_spherical_moment_dynamics_audit_20260908.md",
+      "sha256": "c948e38ab3f7e2534de014bc1e4a9ae20b9e2dae054e3827836dda340e3ebd13"
+    },
+    {
+      "bytes": 2879,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "path": "research/clay_b_spherical_moment_checkpoint_20260908.json",
+      "sha256": "684a9abb38f7b72e976dec0b33ed76524b0731efa3273623911fdd1ed70a1e9f"
+    },
+    {
+      "bytes": 8613,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "kind": "LOCAL_PROOF",
+      "path": "research/clay_b_expanding_torus_local_energy_20260907.md",
+      "scope": "Section2 periodic Green construction for TD; previously frozen under MQ and not duplicated as a new result.",
+      "sha256": "83d46b607bc3f724fbd7270168201fe0ab2f68cf781309ccc95227016988ad70"
+    },
+    {
+      "bytes": 33260,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070b_report-source.md",
+      "scope": "Section8.1 j2 physical-annulus symbol; relevant subsequent expansion. No transfer or recertification of its other full-space obstruction theorems.",
+      "sha256": "f6c83c7b6d16033dea455583cd83a98d5f2e82333308f3a9bac3ea2693521332"
+    },
+    {
+      "bytes": 24631,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070l_report-source.md",
+      "scope": "Section3 exact filtered strain equation. TP directly derives its specified zero-mass-filter formulation, preserving the exact algebraic boundary.",
+      "sha256": "41c4fdaeaed7a169f8abdb012f7d1bab747efb8847b6dee63e8e11638c8c8f1e"
+    },
+    {
+      "bytes": 9503,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/physical_space_annular_increment_note.md",
+      "scope": "Sections1-3 signed stretching kernel and pair-exchange double increment.",
+      "sha256": "0af3f548f2464383f809f9a181c81075e8e0ec2e58611389073f14fa5bbc0791"
+    },
+    {
+      "bytes": 23517,
+      "commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+      "kind": "LOCAL_PRECEDENT",
+      "path": "research/r070a_moving_annular_balance_note.md",
+      "scope": "Section3 full cubic two-point time derivative; TD is a structural refinement, not a new two-point route.",
+      "sha256": "ec0f4f95bd13f00cd6933cec095c357efff0c19c1b1466ff283a62c863a06656"
+    },
+    {
+      "bytes": 8803,
+      "commit": "cbe7d8d8066859f055dcfbdd7784f2faf468c8f6",
+      "path": "research/clay_b_spherical_moment_release_20260908.json",
+      "sha256": "67793c38ebdb2ebcb9c37f5747994c24a33ee664834d33a8b24475cfd268eca3"
+    }
+  ],
+  "freeze_commit": "cbe7d8d8066859f055dcfbdd7784f2faf468c8f6",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "This manifest binds five source-stage files and dependencies at source_commit. It excludes itself and later dispatch receipts from source-stage hashing. No archival or publication completion is claimed.",
+  "is_clay_result": false,
+  "limitations": [
+    "No new unconditional regularity estimate, actual singular solution, general singularity exclusion, Clay solution, worldwide novelty claim or human peer-review result.",
+    "All identities are for the stated smooth original unforced periodic NS class and local lifted coordinates; no weak-solution or candidate-endpoint passage has been established.",
+    "The projected dynamics is not a closed hierarchy; the pressure, gradient-cross and relative transport terms remain. Ordinary bounds are not controlled by the basic Leray time budget.",
+    "The shear examples are globally regular with zero total vortex stretching; they are not blowup examples or no-go theorems for every geometric method.",
+    "The j2 annular representation and general filtered strain equations have local precedents R0.70B/L. New representation is not claimed as a new source of control.",
+    "TD and its audit retain their original internal-checkpoint statements. This is their first combined scientific freeze with TP, not retroactive creation of additional releases.",
+    "Complete standard elliptic/Sobolev theory and all historical source theorems were not reproved. Research freeze does not give public permission."
+  ],
+  "logical_predecessor": "ClayB-MinimalInitialCompactnessReduction-20260907",
+  "next_research_plan": "Reevaluate the route after the completed TD-TP audit. Stop automatic further projections, weight variants and shear scans. Require a concrete noncircular original-NS mechanism with an executable first calculation, whether it concerns the true joint source or a different structure; do not demand its hardest lemma be pre-proved. Preserve the full Clay goal and all existing conditional reductions. Continue authorized research without publication/local-reader work, inspection, waiting or duplicate handoffs.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_spherical_moment_dynamics_audit_20260908.md",
+    "integrity_validation": "Executed structured JSON validation and independent git-show byte/hash comparison against immutable source_commit: all5 source files and5 local dependencies match their working bytes and SHA256, all listed byte sizes match, and private-only/NOT CLAY flags pass. git diff --cached --check passed at source stage. These checks are metadata QA, not PDE proofs.",
+    "limits": "AI collaborators participated in modules; this is not wholly nonauthor or human peer review, worldwide novelty certification or public privacy approval.",
+    "main": "C and A both actually read the full TP manuscript at278lines13559B SHA3d87b1e0c4f90b9e19966a8d07a63154e499d4932a326f0a1b2c935a7d610857 and independently checked the specified formulas and scopes. No main changes followed their acceptance.",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "pde_simulation": false,
+    "prerequisite": "TD prior actual-file and delta review scopes remain in its unchanged audit; root reread TD and audit in full this turn.",
+    "records": "A actually read the final audit44lines5842B SHAc948e38ab3f7e2534de014bc1e4a9ae20b9e2dae054e3827836dda340e3ebd13 and checkpoint32lines2879B SHA684a9abb38f7b72e976dec0b33ed76524b0731efa3273623911fdd1ed70a1e9f, and passed the limited authorship/scope/privacy/first-combined-freeze record check. This is not additional mathematical certification.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE"
+  },
+  "recap": {
+    "reason": "A bounded exploratory branch audit, not a new general-regularity milestone or whole-project route change; no public recap requested.",
+    "update_required": false
+  },
+  "release_id": "ClayB-TwoPointDeterminantDynamics-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "SCOPED ANALYTIC OBSTRUCTION",
+    "STANDARD THEORY INTERFACES",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+  "simulation": false,
+  "source_commit": "79afa826f58c074ce3065d731b80bd91f89ea780",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
