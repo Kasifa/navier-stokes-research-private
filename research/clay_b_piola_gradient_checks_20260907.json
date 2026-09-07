@@ -1,0 +1,452 @@
+{
+  "extra_checks": {
+    "HN_pairing_exact_12": true
+  },
+  "extra_negative_controls": {
+    "omit_advection_fails_HN_work": true,
+    "omit_factor_two_K_detected_in_3D_sample": true
+  },
+  "fields": {
+    "HN_six_mode": {
+      "checks": {
+        "Betchov_cubic_mean_zero": true,
+        "Cayley_Hamilton_quartic_all_modes": true,
+        "Piola_Laplacian_pairing_zero": true,
+        "advective_gradient_pairing": true,
+        "full_NS_cubic_budget_no_quartic_remainder": true,
+        "full_residual_tensor_pairing": true,
+        "isotropic_pairing_cancellation_all_modes": true,
+        "piola_all_modes_column_divergence": true,
+        "pressure_quartic_pairing": true,
+        "q_mean_zero": true,
+        "real_and_solenoidal": true,
+        "self_strain_gradient_pairing": true,
+        "trace_M_factor_three_all_modes": true,
+        "tracefree_M0_all_modes": true,
+        "vorticity_pairing_zero": true
+      },
+      "negative_controls": {
+        "reverse_pressure_sign_breaks_pairing": true,
+        "wrong_isotropic_trace_factor_detected": true
+      },
+      "outputs": {
+        "A2_H_mean": [
+          "-192",
+          "0"
+        ],
+        "A4_mean": [
+          "192",
+          "0"
+        ],
+        "I_over_V": [
+          "12",
+          "0"
+        ],
+        "I_plus_J_over_V": [
+          "12",
+          "0"
+        ],
+        "J_over_V": [
+          "0",
+          "0"
+        ],
+        "correct_Piola_divergence_mean_square": [
+          "0",
+          "0"
+        ],
+        "q_squared_mean": [
+          "384",
+          "0"
+        ],
+        "swapped_Piola_divergence_mean_square": [
+          "0",
+          "0"
+        ]
+      },
+      "positive_modes": [
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            0
+          ]
+        ]
+      ]
+    },
+    "three_dimensional_eight_mode": {
+      "checks": {
+        "Betchov_cubic_mean_zero": true,
+        "Cayley_Hamilton_quartic_all_modes": true,
+        "Piola_Laplacian_pairing_zero": true,
+        "advective_gradient_pairing": true,
+        "full_NS_cubic_budget_no_quartic_remainder": true,
+        "full_residual_tensor_pairing": true,
+        "isotropic_pairing_cancellation_all_modes": true,
+        "piola_all_modes_column_divergence": true,
+        "pressure_quartic_pairing": true,
+        "q_mean_zero": true,
+        "real_and_solenoidal": true,
+        "self_strain_gradient_pairing": true,
+        "trace_M_factor_three_all_modes": true,
+        "tracefree_M0_all_modes": true,
+        "vorticity_pairing_zero": true
+      },
+      "negative_controls": {
+        "reverse_pressure_sign_breaks_pairing": true,
+        "wrong_Piola_divergence_orientation_detected": true,
+        "wrong_isotropic_trace_factor_detected": true
+      },
+      "outputs": {
+        "A2_H_mean": [
+          "-304",
+          "0"
+        ],
+        "A4_mean": [
+          "304",
+          "0"
+        ],
+        "I_over_V": [
+          "24",
+          "0"
+        ],
+        "I_plus_J_over_V": [
+          "84",
+          "0"
+        ],
+        "J_over_V": [
+          "60",
+          "0"
+        ],
+        "correct_Piola_divergence_mean_square": [
+          "0",
+          "0"
+        ],
+        "q_squared_mean": [
+          "608",
+          "0"
+        ],
+        "swapped_Piola_divergence_mean_square": [
+          "1216",
+          "0"
+        ]
+      },
+      "positive_modes": [
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            -1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    }
+  },
+  "normalization": "All spatial integrals divided by V=(2pi)^3; full polynomial convolutions, no truncation or numerical quadrature.",
+  "sample_control_limitations": {
+    "HN_orientation_swap_detected": false,
+    "explanation": "The planar HN cofactor is divergence-free in both orientations, so this field cannot detect the swapped-orientation control. That control is assigned to the three-dimensional field and passes there."
+  },
+  "scope": "Exact finite Fourier-polynomial checks on two specified smooth solenoidal fields only; not all-field proofs, PDE evolution, novel classifications, dynamical bounds or regularity certificates.",
+  "status": "PASS",
+  "UTF8_LF_single_EOF": true,
+  "audit": {
+    "bytes": 10069,
+    "lines": 61,
+    "path": "research/clay_b_piola_gradient_audit_20260907.md",
+    "sha256": "1303c3f8a6021c7766e24cafb46fcbc8313df9f865c0972b51e341eb8552f6b8"
+  },
+  "base_commit": "454ace62fd12a720c411230649331c6364d864f0",
+  "changed_checkpoint_fields": [
+    "checkpoint_id",
+    "current_internal_work",
+    "current_question",
+    "current_working_source",
+    "current_working_sources",
+    "historical_checkpoint_note",
+    "historical_internal_work_records",
+    "next_step",
+    "piola_gradient_remainder_review",
+    "status"
+  ],
+  "checkpoint": {
+    "bytes": 82945,
+    "lines": 212,
+    "path": "research/clay_b_active_checkpoint_20260906.json",
+    "sha256": "86fbfc6009ec5f6cad6d46bb02af7ae53a40c3673a3b84a97278950736dc1dae"
+  },
+  "current_internal_work_points_to_PGR": true,
+  "current_review_count": 37,
+  "display_pairs": 9,
+  "historical_private_paper_registration_unchanged": true,
+  "latest_scientific_release": "ClayB-FrequencyActivation-20260907",
+  "main": {
+    "bytes": 8401,
+    "lines": 145,
+    "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+    "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813"
+  },
+  "new_handoff": false,
+  "new_scientific_release": false,
+  "old_review_values_preserved": 36,
+  "ordered_formula_tags": 9,
+  "private_paper_parsed_sha256": "c9755ea86f93575cc96c28ac5b3caa1a059bddec2b58a448d09d9cc54d6431c5",
+  "protected_historical_sources": [
+    {
+      "base_bytes_equal": true,
+      "bytes": 8500,
+      "lines": 169,
+      "path": "research/clay_b_laplacian_defect_screen_20260907.md",
+      "sha256": "997829bffdf5d42ec6093ac53c6998c76e3d72f18da25de5abb7fd9f4dcab94c"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 7674,
+      "lines": 54,
+      "path": "research/clay_b_laplacian_defect_audit_20260907.md",
+      "sha256": "34365f1931163a4eee6aee89e4d2abb49abb8e8849c5586579d87a597a7aec80"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 11211,
+      "lines": 209,
+      "path": "research/clay_b_laplacian_defect_checks_20260907.json",
+      "sha256": "62dd9d190fd538fba9a5e554d70b39b28fad484d69ac42afb42d13ce0473510b"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 10312,
+      "lines": 201,
+      "path": "research/clay_b_heat_normal_form_20260907.md",
+      "sha256": "bf5eb773c1003202febdc0a7a1280c6ed7925017ddd5d8a23411e837f8313e64"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 8449,
+      "lines": 63,
+      "path": "research/clay_b_heat_normal_form_audit_20260907.md",
+      "sha256": "4476290ecd865471617cab31ebb58610a36a265e1caaec511cbcf8c1c586bcbf"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 6535,
+      "lines": 214,
+      "path": "research/clay_b_heat_normal_form_checks_20260907.json",
+      "sha256": "7f1a37b1380db5558fb0dcca1f0b80d5800b483142a7919164cb30ad09bf7334"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 12364,
+      "lines": 283,
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 9949,
+      "lines": 127,
+      "path": "research/clay_b_frequency_activation_release_20260907.json",
+      "sha256": "f362464072b1fcd7d8311d859aac12b4932841f40262c42343f7779ad1a64308"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 4510,
+      "lines": 53,
+      "path": "research/clay_b_frequency_activation_dispatch_receipt_20260907.md",
+      "sha256": "521e83d71c92efe7e0c1cef2035759b3412ec954202b3dd773db2c70ad6fb8fc"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 22757,
+      "lines": 1002,
+      "path": "research/r070x_report-source.md",
+      "sha256": "86a34601de5a7095ce7ec1bd24eb7ef9c64491068770168d7dc00bf6e8fadcd3"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 23517,
+      "lines": 797,
+      "path": "research/r070a_moving_annular_balance_note.md",
+      "sha256": "ec0f4f95bd13f00cd6933cec095c357efff0c19c1b1466ff283a62c863a06656"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 7332,
+      "lines": 288,
+      "path": "research/localized_strain_pressure_commutator_note.md",
+      "sha256": "d5fa8372621c727022926bc6e59c8e91d2435094367cf971395d69d047173ce0"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 24631,
+      "lines": 941,
+      "path": "research/r070l_report-source.md",
+      "sha256": "41c4fdaeaed7a169f8abdb012f7d1bab747efb8847b6dee63e8e11638c8c8f1e"
+    },
+    {
+      "base_bytes_equal": true,
+      "bytes": 10247,
+      "lines": 404,
+      "path": "research/pressure_hessian_pointwise_obstruction_note.md",
+      "sha256": "8eda90895ee566c3680c6c12720de7f8a3a0b32fdeffb4cd6c5ed0dc346305f0"
+    }
+  ],
+  "scientific_identity_tuples_unchanged": 17,
+  "source_baseline_checkpoint_sha256": "10e8a36cc87df1ceb4e7c2ca62cbdfa72fe905670f69e2b59f6a40b788658642",
+  "stale_internal_work_record_preserved_in_history": true,
+  "user_agents_not_staged": true,
+  "user_agents_sha256": "80959a5c6d2db01543f8f1ae1ddc2e1ba7430c1b14d1b4ef658dcc965efecfab",
+  "workflow_changed_during_turn": true,
+  "workflow_policy": {
+    "bytes": 12804,
+    "lines": 135,
+    "path": "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md",
+    "sha256": "e1210c07b55c429a35a10eab1b56e574eff840e5e3b3e42c7d56cdc578424aab"
+  },
+  "workflow_previous_sha256": "4977c4db891381fe45c319568d1080606094b54d8af8bf0a4b53d72079223566",
+  "workflow_read_scope": "Root fully reread corrected135line12804B protocol after management correction. Private-source/public-artifact migration is only a proposal pending explicit user approval, with no execution authorization; Frontier Results requires explicit per-paper user confirmation; research completion alone does not authorize publication. Prior migration execution language is superseded. Preserved paper object is historical research registration. No remote/configuration changes, push, publication inspection or migration monitoring.",
+  "finite_check_instances": 31,
+  "distinct_negative_control_mechanisms": 5,
+  "valid_negative_control_instances": 7,
+  "finite_check_output_identical_on_rerun": true,
+  "finite_check_python_source": "from fractions import Fraction as F\nimport json\nZ=(F(0),F(0))\ndef cadd(a,b):return (a[0]+b[0],a[1]+b[1])\ndef cmul(a,b):return (a[0]*b[0]-a[1]*b[1],a[0]*b[1]+a[1]*b[0])\ndef cs(a,t):return (a[0]*t,a[1]*t)\ndef clean(p):return {k:v for k,v in p.items() if v!=Z}\ndef pa(*args):\n o={}\n for p in args:\n  for k,v in p.items():o[k]=cadd(o.get(k,Z),v)\n return clean(o)\ndef ps(p,t):return clean({k:cs(v,t) for k,v in p.items()})\ndef pm(a,b):\n o={}\n for k,v in a.items():\n  for l,w in b.items():\n   n=tuple(k[j]+l[j] for j in range(3))\n   o[n]=cadd(o.get(n,Z),cmul(v,w))\n return clean(o)\ndef pd(p,j):return clean({k:cmul((F(0),F(k[j])),v) for k,v in p.items()})\ndef plap(p):return clean({k:cs(v,-sum(x*x for x in k)) for k,v in p.items()})\ndef ma(*args):return [[pa(*(a[i][j] for a in args)) for j in range(3)] for i in range(3)]\ndef ms(a,t):return [[ps(p,t) for p in row] for row in a]\ndef mt(a):return [[a[j][i] for j in range(3)] for i in range(3)]\ndef mm(a,b):return [[pa(*(pm(a[i][k],b[k][j]) for k in range(3))) for j in range(3)] for i in range(3)]\ndef tr(a):return pa(*(a[i][i] for i in range(3)))\ndef ip(a,b):return pa(*(pm(a[i][j],b[i][j]) for i in range(3) for j in range(3)))\ndef mean(p):return p.get((0,0,0),Z)\ndef lapmat(a):return [[plap(p) for p in row] for row in a]\ndef ident(p):return [[p if i==j else {} for j in range(3)] for i in range(3)]\ndef field(rows):\n u=[{} for _ in range(3)]\n for k,real,imag in rows:\n  nk=tuple(-x for x in k)\n  for j in range(3):\n   u[j][k]=(F(real[j]),F(imag[j]));u[j][nk]=(F(real[j]),-F(imag[j]))\n return [clean(p) for p in u]\nrows1=[((1,0,0),(0,1,0),(0,0,0)),((0,2,0),(1,0,0),(0,0,0)),((1,2,0),(0,0,0),(2,-1,0))]\nrows2=[((1,0,0),(0,1,1),(0,0,0)),((0,2,0),(1,0,1),(0,0,0)),((1,2,0),(0,0,0),(2,-1,1)),((0,0,1),(1,1,0),(0,0,0))]\ndef evaluate(rows):\n u=field(rows)\n A=[[pd(u[i],j) for j in range(3)] for i in range(3)]\n S=ms(ma(A,mt(A)),F(1,2)); L=ms(lapmat(S),-1)\n T=[[[pd(S[i][j],k) for j in range(3)] for i in range(3)] for k in range(3)]\n G=[[ip(T[i],T[j]) for j in range(3)] for i in range(3)]\n K=ma(*(mm(t,t) for t in T));M=ma(G,ms(K,2))\n gradnorm=pa(*(ip(t,t) for t in T));M0=ma(M,ms(ident(gradnorm),-1))\n adv=[[pa(*(pm(u[k],pd(S[i][j],k)) for k in range(3))) for j in range(3)] for i in range(3)]\n I=mean(ip(L,adv));J=mean(ip(L,mm(S,S)));work=mean(ip(S,M))\n omega=[pa(pd(u[2],1),ps(pd(u[1],2),-1)),pa(pd(u[0],2),ps(pd(u[2],0),-1)),pa(pd(u[1],0),ps(pd(u[0],1),-1))]\n ww=[[pm(omega[i],omega[j]) for j in range(3)] for i in range(3)]\n A2=mm(A,A);q=tr(A2);C=ma(A2,ms(ident(q),F(-1,2)))\n divcol=[pa(*(pd(C[i][j],i) for i in range(3))) for j in range(3)]\n divrow=[pa(*(pd(C[i][j],j) for j in range(3))) for i in range(3)]\n pressure={k:cs(v,F(1,sum(x*x for x in k))) for k,v in q.items() if k!=(0,0,0)}\n H=[[pd(pd(pressure,i),j) for j in range(3)] for i in range(3)]\n Q2=mean(pm(q,q));PH=mean(tr(mm(A2,H)));A4=mean(tr(mm(A2,A2)))\n DA=mean(tr(mm(A2,lapmat(A))))\n checks={\n \"real_and_solenoidal\":all(v[0]==u[j].get(tuple(-x for x in k),Z)[0] and v[1]==-u[j].get(tuple(-x for x in k),Z)[1] for j in range(3) for k,v in u[j].items()) and tr(A)=={},\n \"q_mean_zero\":mean(q)==Z,\n \"piola_all_modes_column_divergence\":all(p=={} for p in divcol),\n \"tracefree_M0_all_modes\":tr(M0)=={},\n \"trace_M_factor_three_all_modes\":tr(M)==ps(gradnorm,3),\n \"isotropic_pairing_cancellation_all_modes\":ip(S,M0)==ip(S,M),\n \"advective_gradient_pairing\":I==mean(ip(S,G)),\n \"self_strain_gradient_pairing\":J==mean(ip(S,ms(K,2))),\n \"full_residual_tensor_pairing\":work==cadd(I,J),\n \"vorticity_pairing_zero\":mean(ip(L,ww))==Z,\n \"Betchov_cubic_mean_zero\":mean(tr(mm(A2,A)))==Z,\n \"Piola_Laplacian_pairing_zero\":DA==Z,\n \"pressure_quartic_pairing\":PH==cs(Q2,F(-1,2)),\n \"Cayley_Hamilton_quartic_all_modes\":tr(mm(A2,A2))==ps(pm(q,q),F(1,2)),\n \"full_NS_cubic_budget_no_quartic_remainder\":cadd(cs(DA,3),cadd(cs(A4,-3),cs(PH,-3)))==Z,\n }\n outputs={\"I_over_V\":I,\"J_over_V\":J,\"I_plus_J_over_V\":work,\"q_squared_mean\":Q2,\"A2_H_mean\":PH,\"A4_mean\":A4,\"correct_Piola_divergence_mean_square\":mean(pa(*(pm(p,p) for p in divcol))),\"swapped_Piola_divergence_mean_square\":mean(pa(*(pm(p,p) for p in divrow)))}\n controls={\n \"wrong_Piola_divergence_orientation_detected\":any(p!={} for p in divrow),\n \"reverse_pressure_sign_breaks_pairing\":cs(PH,-1)!=cs(Q2,F(-1,2)),\n \"wrong_isotropic_trace_factor_detected\":tr(ma(M,ms(ident(gradnorm),F(-1,3))))!={},\n }\n return checks,outputs,controls\nc1,o1,n1=evaluate(rows1);c2,o2,n2=evaluate(rows2)\nextra={\"HN_pairing_exact_12\":o1[\"I_over_V\"]==(F(12),F(0)) and o1[\"J_over_V\"]==Z}\nneg={\"omit_advection_fails_HN_work\":o1[\"J_over_V\"]!=o1[\"I_plus_J_over_V\"],\"omit_factor_two_K_detected_in_3D_sample\":o2[\"J_over_V\"]!=Z}\nhn_orientation_detected=n1.pop(\"wrong_Piola_divergence_orientation_detected\")\nassert hn_orientation_detected is False\nassert all(c1.values()) and all(c2.values()) and all(extra.values()) and all(n1.values()) and all(n2.values()) and all(neg.values())\ndef serial(x):\n if isinstance(x,F):return str(x)\n if isinstance(x,dict):return {k:serial(v) for k,v in x.items()}\n if isinstance(x,(tuple,list)):return [serial(v) for v in x]\n return x\nprint(json.dumps(serial({\"status\":\"PASS\",\"scope\":\"Exact finite Fourier-polynomial checks on two specified smooth solenoidal fields only; not all-field proofs, PDE evolution, novel classifications, dynamical bounds or regularity certificates.\",\"fields\":{\"HN_six_mode\":{\"positive_modes\":rows1,\"checks\":c1,\"outputs\":o1,\"negative_controls\":n1},\"three_dimensional_eight_mode\":{\"positive_modes\":rows2,\"checks\":c2,\"outputs\":o2,\"negative_controls\":n2}},\"extra_checks\":extra,\"extra_negative_controls\":neg,\"sample_control_limitations\":{\"HN_orientation_swap_detected\":hn_orientation_detected,\"explanation\":\"The planar HN cofactor is divergence-free in both orientations, so this field cannot detect the swapped-orientation control. That control is assigned to the three-dimensional field and passes there.\"},\"normalization\":\"All spatial integrals divided by V=(2pi)^3; full polynomial convolutions, no truncation or numerical quadrature.\"}),sort_keys=True))\n",
+  "finite_check_source_scope": "Exact Fraction/Gaussian-rational finite Fourier-polynomial code archived for replay. Complete convolution outputs are retained for each selected field; no PDE time integration, truncation evolution, quadrature or simulation.",
+  "independent_math_review": {
+    "reviewer": "C / euler_rigidity_screen",
+    "status": "PASS",
+    "main_sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+    "scope": "Sole full actual-file nonauthor mathematical reconstruction of PGR.1-9. Read main, HN.9-11, R070X4 complete zero proof, Miller v2 section5 full remainder/highorder/comparison proof interfaces and CW publisher sections5/7. No full CW tensor classification, Miller model existence dependencies, external peer review, novelty or regularity certification."
+  },
+  "independent_finite_review": {
+    "reviewer": "B / r076l_figure_audit",
+    "status": "PASS",
+    "method": "Ruby 2.6.10 Rational/Complex; from independently enumerated ordered convolution of the specified three-dimensional field, without root source/check imports.",
+    "normalized_outputs": {
+      "mean_q_squared": "608",
+      "mean_A2_H": "-304",
+      "I": "24",
+      "J": "60",
+      "I_plus_J": "84",
+      "correct_Piola_divergence_mean_square": "0",
+      "swapped_Piola_divergence_mean_square": "1216"
+    },
+    "scope": "Only these finite outputs and one swapped-index control independently recomputed; not all 31 checks and 7 controls dual certification, PDE proof or dynamical bound."
+  },
+  "record_scope_review": {
+    "reviewer": "A / r076l_proof_audit",
+    "status": "PASS",
+    "main_sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+    "audit_sha256_at_review": "e6a9b6b51756c69c0b289bc5a61149ccc10365f174918b577b7f2c2ab5378009",
+    "scope": "Main/audit contributor roles, finite/PDE and limited CW classification/regularity/nonrelease boundaries. This audit hash precedes later bookkeeping-only paragraphs preserving the legacy current_internal_work, correcting workflow authorization, and recording the user's pause; final current audit is bound separately above. Final package acceptance is recorded in the research recovery index, not asserted for this historical review hash."
+  },
+  "no_standalone_QA_program": true,
+  "no_scientific_figures": true,
+  "no_simulation": true,
+  "no_DGX": true,
+  "user_requested_pause": true,
+  "pause_scope": "Finish existing PGR package and local commit, then stop before strategy optimization or any new research candidate; await user instruction."
+}
