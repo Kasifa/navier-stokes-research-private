@@ -1,0 +1,40 @@
+{
+  "role": "forward_research",
+  "privacy": "PRIVATE_CORE",
+  "name": "SG full strain gradient and normalized-shape entropy",
+  "base_commit": "489e292b6f780ec27d4662c08ca4a84ea421e4c1",
+  "main": "research/clay_b_full_strain_gradient_entropy_20260908.md",
+  "main_sha256": "1c4e89c9eccc2a17eac484946c6fdafc6aecf600d43d996193e9a16cce09f028",
+  "audit": "research/clay_b_full_strain_gradient_entropy_audit_20260908.md",
+  "dependencies": [
+    "research/clay_b_strain_spectral_entropy_20260908.md",
+    "research/clay_b_negative_strain_cone_20260908.md"
+  ],
+  "classification": "CLASSICAL INPUT / PROVED IN STATED SCOPE / NO NEW CRITICAL ESTIMATE / OPEN / NOT CLAY",
+  "completed_scope": [
+    "Bounded-slope convex spectral entropy controls the full strain gradient with denominator (e+|S|) log^2(e+|S|), including amplitude and within-sign changes.",
+    "Frobenius entropy controls the full normalized strain shape with its zero-set measure retained.",
+    "Combined entropies yield weighted parabolic-operator bounds for the full normalized matrix and both isolated spectral lines, not time BV.",
+    "The fixed-axis cone estimate extends to the union of the positive and negative cones; all geometric-complement and cutoff terms remain.",
+    "Spectral amplitude-layer measures retain threshold boundaries and integrate to the complete convex entropy.",
+    "Smooth Huber tests recover a classical-strength weak L4/3 second-derivative estimate; explicit interpolation does not reach the critical strain line."
+  ],
+  "open": [
+    "SC.11 geometric-complement L4 time integrability or a genuinely different critical estimate for actual NS evolution.",
+    "Control of signed nonlinear and pressure sources under unbounded entropy tests; pressure L1 alone is insufficient.",
+    "Fragmented high-strain geometry, amplitude-layer boundary control and zero-spectrum contributions at the critical scale.",
+    "Arbitrary-data three-dimensional NS regularity and the full Clay objective."
+  ],
+  "scoped_analytic_subsection_complete": true,
+  "new_unconditional_critical_estimate": false,
+  "novelty_established": false,
+  "full_goal_closed": false,
+  "next_action": "Make one bounded calculation of a smooth q log(e+q)-type radial entropy: derive the full source and dissipation, then check original-NS pressure and inertial compatibility without dropping variable-coefficient terms. Removing only the logarithmic loss still cannot cross SG.18's direct-interpolation gap. Do not continue a weight scan or classify a formal identity as a new regularity gain; require an explicit useful critical improvement before expanding this branch.",
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "public_overview_requested": false,
+  "handoff_status_at_source_stage": "NOT_YET_SENT",
+  "publication_boundary": "Fixed publisher only; one PRIVATE_ARCHIVE handoff of the frozen package. Research must not push, inspect, poll, wait for, retry or supervise archival/publication."
+}
