@@ -1,0 +1,34 @@
+{
+  "ASCII": true,
+  "AST": true,
+  "actual_fixed_and_transitive_pin_count": 141,
+  "arithmetic_comparison_executed": false,
+  "certificate_ready": false,
+  "command": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/compare_one_segment_residual.py --check-only",
+  "comparison_output_directory_after": false,
+  "comparison_output_directory_before": false,
+  "config_sha256": "c4a44731f0ce8f612533d1e76957bca7a8ca3705e03c05a8d08929281ecd382e",
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "entry": "--check-only",
+  "executed_at_utc": "2026-09-07T20:48:27.593346+00:00",
+  "exit_code": 0,
+  "preflight_status": "STATIC_FIXED_PINS_PASS_ARITHMETIC_ONLY_SOURCE_REVIEW_NOT_BOUND",
+  "producer_resource_complete": false,
+  "release_ready": false,
+  "resource_complete": false,
+  "scientific_kernel_executed": false,
+  "source_sha256": "7e09b766feb86ac70bb1b05957903320d41069637d4c2ee23e8ebed88c6bd294",
+  "source_unchanged": true,
+  "status": "STATIC_CHECK_PASS",
+  "stderr": {
+    "bytes": 0,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-comparison-static-check.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 18922,
+    "file": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-comparison-static-check.stdout.log",
+    "sha256": "20872f609f1d7fdf6252c954fbb7876a4ad506daf2e07dc89899db0502236e62"
+  },
+  "wall_seconds": 0.306208209
+}

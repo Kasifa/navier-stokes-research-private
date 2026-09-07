@@ -1,0 +1,29 @@
+# 同一段完整数据对照：根非作者源码审查
+
+2026-09-08。PRIVATE_CORE。`PASS_ROOT_FULL_SOURCE_REVIEW_FOR_LIMITED_ARITHMETIC_COMPARISON`。根不是比较器作者，已分段实读全部1054行，并实际补读独立来源/receipt连接、区间真子区间变异、隐藏helper补充、四false旗标及最终失效路径。尚未执行比较。
+
+实际绑定：源码 `compare_one_segment_residual.py` SHA `7e09b766feb86ac70bb1b05957903320d41069637d4c2ee23e8ebed88c6bd294`；配置 `c4a44731f0ce8f612533d1e76957bca7a8ca3705e03c05a8d08929281ecd382e`；原比较合同 `e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db`；Pauli完整非作者源码终审 `14bc674a61adca842a0cf09005451b1988800ef51bf5781abc3d290909421771`。根已全文读该终审，接受其限定范围。作者实际字节静态记录 `40be18d24a0ebcc2487231993664ece775ddaf6993adb9dc6f1aeeb606c470bf` 及其真实stdout/stderr已核，不冒称根执行过该入口。
+
+强制限定补充为 `212df48b07648511024524ab746d41ec3e419914cb111862ae3569663ccf9355`，独立补充审查 `36141219e713ed8a72cb1c6cef9609d00e86aed36f7fd7d80e242d0331562e06`，隐藏helper审计 `c971a90e0c7d230bd25df1dd80b2e27c74b9af089ad6194099e217e981a77c87`。根已全文读取三文件；它们更正此前两核完整成本验收，不能靠新比较恢复。源码精确要求三文件名集合及其实际SHA，缺项拒绝运行。
+
+## 全部算术与来源连接
+
+根逐式确认：六层Df的存储索引已对应deltaT的1至6次幂系数；对角直接取Dj，非对角先验证(Djl-Dj-Dl)为偶数再除2，完整比较2587464个实整数，没有再次平移时间索引或丢弃有序作用。W完整1509354整数、S完整467181有符号整数分别逐项比较，零频单列。不存在重算空间卷积、生产节点或完整W平方的路径。
+
+主b和独立AH都为同一2^64s a整数，故四层117888分子直接相等是合法同分母比较。88416新中心和29472旧中心完整核对；每个主e及独立商余连接到同一原b和最近偶数舍入。独立模块、NumPy及两生产核均未被导入。
+
+完整已存S重新作二阶整数和与零阶signed floor/ceil和，连接主13项幂系数及非整除计数；独立q2精确相等，独立q0各自落入主区间。完整Bernstein变换的权重、13项系数和传播宽度均重建，零阶宽度最多13·35936/QP^4。两侧真实有理根号的floor/ceil用原分子分母检查；四层M/delta及单次E相等。根下端不被当作残差下界。Gamma按固定3584/1023和max(rbar2,64rbar0)计算，保持主不小于独立，并用同一2/8085825严格分类，没有改epsilon。
+
+来源门实际绑定双方run/result/源码提交/根exit0/末行stdout与独立receipt；原manifest/modes/block、各自原科学来源、主30份与独立11份二进制、worker记录和完整已保存日志都有实际字节连接及最后反查。既有资源字段只核已记录对象的一致性；旧root验收不再表示隐藏helper成本完整。
+
+七个变异均取完整循环中的实际非零见证，经同一正常validator先通过baseline，再在内存改一个张量标量、极化奇偶、W虚部、S、新中心、q0区间端点及实际来源hash并要求拒绝。区间修改保留原一端，仅错误收窄另一端，形成排除独立真值的合法真子区间。没有非零/严格余量见证即失败。两个synthetic边界为-3/2的错误截向零及9/8在scale2下错误精确根，均与实际档案变异分列。没有改冻结文件。
+
+## 自身成本与最终记录
+
+源码只用已审标准库顺序字节/整数/Fraction操作，不导入platform、subprocess、线程或进程调度库。环境字段仅取sys、os.uname的五项和os.cpu_count；读取Git元数据直接读文件，没有git子进程。原NPY模式表由标准库固定格式解码。此前两个生产核中被漏审的platform helper路径在此不存在。
+
+单进程候选停止界为120秒、256MiB SELF峰RSS、8MiB全部新输出；包括默认字节预核、实际对照、回读、临时元数据与外置日志。没有保证运行能在该界内完成。OUT与外置stdout/stderr须由根排他创建。源码先固定提交，再将本报告实际SHA作为运行时审查pin，只允许唯一一次执行。
+
+完整结果后还重新读取所有绑定字节、根审查及checkout。run、末行stdout、receipt相互连接；receipt自身大小定点及最后实际字节/峰值必须匹配。晚期峰值未记录、字节差或资源超限会改FAILED/STOP、使原receipt失效并返回非零。根实际验收必须同时看到exit0、最后stdout、匹配run/comparison/receipt和该次对照资源记录；不能只凭中途结果状态。
+
+唯一允许的正状态为 `ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP`。result/run/stdout/receipt必须有producer_resource_complete=false、resource_complete=false、certificate_ready=false、release_ready=false。该结果只增加固定原参照这一个区间的算术证据，不关闭完整研究证书，不证明全窗输入或原NS解的全局性/奇性，不形成正式冻结或发布包。失败保留，无自动重试。根同意在这些固定范围内执行一次数据对照，尚未填写任何结果。
