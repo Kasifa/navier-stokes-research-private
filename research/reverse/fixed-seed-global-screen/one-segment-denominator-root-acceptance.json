@@ -1,0 +1,37 @@
+{
+  "acceptance_scope": "exact representation and signed polynomial bound only",
+  "bindings": {
+    "FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md": "a9d6b288917eb98123afce1bd0f07bf879e530b53701ad9eb9e00f4c5a099171",
+    "ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md": "de6b150813559e6d0856b3df8db77491c9a3da4cad1f07a3d94282cd29642104",
+    "ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61"
+  },
+  "classification": "PRIVATE_CORE",
+  "not_yet_executed": [
+    "old V by D full component exact division",
+    "new center coefficient reconstruction",
+    "new tensor products",
+    "full W generation",
+    "continuous norm/Bernstein bounds"
+  ],
+  "root_full_read_independent_review": true,
+  "root_is_lemma_author": true,
+  "scientific_kernels_executed": false,
+  "small_integer_checks": {
+    "Bernstein_weights_sum_bound": true,
+    "F_multiplier": true,
+    "N_multiplier": true,
+    "S_coefficient": true,
+    "W_archive": true,
+    "W_bound": true,
+    "all_mode_count": true,
+    "lambda0": true,
+    "lambda1": true,
+    "lambda2": true,
+    "lambda3": true,
+    "power_of_two_quotient": true,
+    "signed34": true
+  },
+  "source_head": "d0fa57c751eb6084e03ff8afc782fcdce76eaec0",
+  "status": "NON_AUTHOR_SD_REVIEW_ACCEPTED_BY_ROOT"
+}
