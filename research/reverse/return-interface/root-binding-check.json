@@ -1,0 +1,40 @@
+{
+  "classification": "PRIVATE_CORE",
+  "scope": "Actual final source-interface review input binding, not scientific computation",
+  "executed_at_utc": "2026-09-07T14:37:19.214737+00:00",
+  "review_sha256": "ed0d3bfadbf03fc12525661f849e2ff61d1c03b7977a70ec745698d566fd0b3e",
+  "bindings": [
+    {
+      "path": "research/reverse/return-interface/CONTRACT.md",
+      "bytes": 2040,
+      "sha256": "e647b416ef4c310b0b6501d8b49e01adfe1c866f8bd9e9dd937b87f24c3aaa3a"
+    },
+    {
+      "path": "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md",
+      "bytes": 4103,
+      "sha256": "03deb65a173e254832e298dfe31c3fc8e8c82fe38d996e9bab33dfaaece7bab7"
+    },
+    {
+      "path": "research/reverse/return-interface/INDEPENDENT_INTERFACE.md",
+      "bytes": 11402,
+      "sha256": "610b9da62651deb5caed543bb8d2f9d721f98062f2719c3f82bc2d3220d5c787"
+    },
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "bytes": 12364,
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "bytes": 31861,
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a"
+    },
+    {
+      "path": "public/notes/r0-11.html",
+      "bytes": 29207,
+      "sha256": "ad8ebe34c67939cd371f621cc7fbf5f54cf501c4d2506e587aa1494f4ef52095"
+    }
+  ],
+  "status": "PASS",
+  "new_release": false
+}

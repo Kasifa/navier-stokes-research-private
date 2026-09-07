@@ -6,48 +6,52 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Commit completed SwirlRegeneration freeze manifest, send source+freeze commits once to fixed publisher and record dispatch. Continue return-interface actual FA/R0 comparison; read independent interface when present. Never monitor prior packages.",
-  "resume_action": "Read own CHECKPOINT and current required sources; continue actual research. LocalPressureScreen already sent once; do not re-freeze, resend or monitor it.",
+  "next_action": "Read reconnection-preflight/CONTRACT.md, then actual THEORY_READING.md and NUMERICAL_READING.md as they arrive. Pascal is reading Enciso-Luca-Peralta-Salas 1606.06176 theory sections 1,4,6; Pauli reads Kerr 1212.3829 methods and the two reconnections. Root must reconcile actual originals and distinguish topology changes, preloaded fields, viscous switching, genuine nonlinear source attribution, fixed domain/viscosity, and finite versus infinite quantifiers. No simulation or new candidate yet. Prior SwirlRegeneration already sent once; no publisher monitoring.",
+  "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "SWIRL_REGENERATION_RESEARCH_COMPLETE; RETURN_INTERFACE_AUDIT_ACTIVE",
+  "scientific_status": "SWIRL_REGENERATION_FROZEN_AND_SENT_ONCE; RETURN_INTERFACE_AUDIT_COMPLETE; RECONNECTION_PRIMARY_SOURCE_PREFLIGHT_ACTIVE",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
-    "research/reverse/swirl-regeneration/freeze.json",
-    "research/reverse/swirl-regeneration/OUTCOME.md",
-    "research/reverse/swirl-regeneration/FINAL_REVIEW.md",
+    "research/reverse/reconnection-preflight/CONTRACT.md",
     "research/reverse/return-interface/CONTRACT.md",
     "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md",
-    "research/clay_b_frequency_activation_20260907.md"
+    "research/reverse/return-interface/INDEPENDENT_INTERFACE.md",
+    "research/reverse/return-interface/INTERFACE_REVIEW.md",
+    "research/reverse/return-interface/root-binding-check.json",
+    "research/reverse/swirl-regeneration/freeze.json",
+    "research/reverse/swirl-regeneration/OUTCOME.md"
   ],
   "required_file_sha256": {
-    "research/reverse/swirl-regeneration/freeze.json": "ea45cde3359c2d62ea71de5efc43659b7f227d50e5df96b32a3ce152e205fb9b",
-    "research/reverse/swirl-regeneration/OUTCOME.md": "0ad7cbccb6c758ebbb9165e785ae3746d203736e6766a3d2abf263904c95b2ab",
-    "research/reverse/swirl-regeneration/FINAL_REVIEW.md": "e413fe16cc6c7a8c4e970871d6ca407e0456044bb1eb575f4885e75d471752c3",
+    "research/reverse/reconnection-preflight/CONTRACT.md": "23eca817fca5500e6dc7e7ec5647272751929fd486c58ed3dd6f30d32a893cf4",
     "research/reverse/return-interface/CONTRACT.md": "e647b416ef4c310b0b6501d8b49e01adfe1c866f8bd9e9dd937b87f24c3aaa3a",
-    "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md": "dc2f44d3fdaa3f8a708538b8b9e72d0b9017b0ddac07d59a64817b592799db14",
-    "research/clay_b_frequency_activation_20260907.md": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    "research/reverse/return-interface/ROOT_INTERFACE_NOTES.md": "03deb65a173e254832e298dfe31c3fc8e8c82fe38d996e9bab33dfaaece7bab7",
+    "research/reverse/return-interface/INDEPENDENT_INTERFACE.md": "610b9da62651deb5caed543bb8d2f9d721f98062f2719c3f82bc2d3220d5c787",
+    "research/reverse/return-interface/INTERFACE_REVIEW.md": "ed0d3bfadbf03fc12525661f849e2ff61d1c03b7977a70ec745698d566fd0b3e",
+    "research/reverse/return-interface/root-binding-check.json": "bbbc286d4d335744f44f4a458f1b92001a9c62f13b08bcc4556e939d11469110",
+    "research/reverse/swirl-regeneration/freeze.json": "ea45cde3359c2d62ea71de5efc43659b7f227d50e5df96b32a3ce152e205fb9b",
+    "research/reverse/swirl-regeneration/OUTCOME.md": "0ad7cbccb6c758ebbb9165e785ae3746d203736e6766a3d2abf263904c95b2ab"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
   "source_commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
   "freeze_manifest": "research/reverse/swirl-regeneration/freeze.json",
-  "handoff_state": "READY_FOR_ONCE_ONLY_PRIVATE_ARCHIVE_DISPATCH_AFTER_FREEZE_COMMIT",
+  "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "5c5ce379714ca61f402c40265b60e23419c73207e337cdc3c164169390bb2da6",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "2a3890e88bbca053aa2592c8298e36bab589e1e3f98927f4c87a3815281b9e8d"
   },
-  "freeze_commit": "PENDING_CONTAINING_COMMIT",
+  "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Fixed-data swirl short-time mechanism screening finalized mathematically; actual FA return-interface audit started",
-  "current_topic_directory": "research/reverse/swirl-regeneration",
+  "current_topic": "Reconnection primary-source preflight: distinguish newly supplied structures from initially prescribed components and diffusion switches",
+  "current_topic_directory": "research/reverse/reconnection-preflight",
   "pending": [
-    "Once-only private dispatch after freeze commit; no publisher response dependency",
-    "Independent FA return-interface derivation/reconciliation",
-    "No accepted regenerating mechanism; uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative error and finite total time remain open"
+    "Actual primary-source mechanism read of theory and numerical reconnection papers; independent agents active",
+    "No full returned state or singularity mechanism accepted",
+    "Uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative errors and finite total time remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -61,7 +65,13 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal returned null on this continuation and user-requested unbounded persistent reverse research goal was successfully created on 2026-09-07",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T14:25:36.044821+00:00",
+  "updated_at": "2026-09-07T14:38:38.266565+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "progress: prior package frozen and handed off once; current actual fixed-data center-strain theorem and full positive-time remainder independently reviewed; no blocker"
+  "previous_goal_turn_classification": "progress: actual fixed-data swirl center compression theorem completed with full NS remainder, independent final review, source freeze and once-only private handoff; FA return-interface actual audit completed and source preflight begun",
+  "completed_unreleased_audit": {
+    "directory": "research/reverse/return-interface",
+    "status": "LIMITED_PASS_NO_RETURN_INTERFACE_FOR_CENTER_TEMPLATE",
+    "separate_release": false,
+    "scope": "Old equal-length range lemma matched to actual FA seed. Fixed finite-bandwidth and complete returned state not classified. FA.14 existing one-stage full remainder preserved; errors still missing are cross-generation and infinite iteration."
+  }
 }
