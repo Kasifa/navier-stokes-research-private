@@ -6,14 +6,14 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "One bounded feasibility gate for continuing the same fixed-reference global exclusion attempt: read existing coverage records, complete input contracts and archive formats only; identify unpaid time coverage, retained evidence limitations, operation/storage requirements and a concrete scientific payoff. Do not extrapolate a whole-window runtime budget from a single segment or start new science arrays/runs. Proceed to implementation/review only if a bounded continuous-input problem can preserve strict standards without repeating any closed kernel. Otherwise close this current reference-certification route and return to the authorized two mechanism classes, without more neighboring constant refinements or audits as substitutes for research. No management reply or routine user confirmation is a dependency.",
-  "resume_action": "One bounded feasibility gate for continuing the same fixed-reference global exclusion attempt: read existing coverage records, complete input contracts and archive formats only; identify unpaid time coverage, retained evidence limitations, operation/storage requirements and a concrete scientific payoff. Do not extrapolate a whole-window runtime budget from a single segment or start new science arrays/runs. Proceed to implementation/review only if a bounded continuous-input problem can preserve strict standards without repeating any closed kernel. Otherwise close this current reference-certification route and return to the authorized two mechanism classes, without more neighboring constant refinements or audits as substitutes for research. No management reply or routine user confirmation is a dependency.",
+  "next_action": "One bounded return-state question within the frequency-regeneration mechanism: first read exact R0.10-13 and completed route-screen/first-cycle scope to determine whether three unequal axial wave pairs with full two-dimensional transverse polarizations can return all doubled axial receiver modes to the same polarization template via genuine prior-generation self-supply, with current-seed mixed channels explicitly retained. No new frequency integers, polarization coefficients, physical datum, parameter search or scientific execution yet. If old image/backreaction/full-tree obstructions already cover it, close without recomputing. Only if an uncovered concrete return state exists, fix support, phase, receiver transformation, source attribution, rigorous remainder and resource contract before any bounded candidate check. No new automatic modulation variations or resumption of the closed reference-certificate route.",
+  "resume_action": "One bounded return-state question within the frequency-regeneration mechanism: first read exact R0.10-13 and completed route-screen/first-cycle scope to determine whether three unequal axial wave pairs with full two-dimensional transverse polarizations can return all doubled axial receiver modes to the same polarization template via genuine prior-generation self-supply, with current-seed mixed channels explicitly retained. No new frequency integers, polarization coefficients, physical datum, parameter search or scientific execution yet. If old image/backreaction/full-tree obstructions already cover it, close without recomputing. Only if an uncovered concrete return state exists, fix support, phase, receiver transformation, source attribution, rigorous remainder and resource contract before any bounded candidate check. No new automatic modulation variations or resumption of the closed reference-certificate route.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: \u6309\u65e2\u5b9a\u7684\u7b56\u7565\u6301\u7eed\u5f00\u5c55\u7814\u7a76; \u5982\u65e0\u7279\u522b\u9700\u8981\u6211\u6765\u786e\u8ba4\u7684\uff0c\u4f60\u5c31\u6301\u7eed\u5f00\u5c55\u4e0b\u53bb\uff0c\u4e0d\u9700\u8981\u505c\u987f",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "NO-CERTIFICATE-YET-FOR-FIXED-a; WEIGHTED_PARAMETER_NECESSARY_REGION_PROVED; DIRECT_COARSE_BOUND_REUSE_INCOMPATIBLE_WITH_FIXED_FAMILY; M2_GATE_NOT_ADMITTED",
-  "accepted": "Scoped analytic logarithmic sensitivity, fixed-slice exclusion, A>=2 unique terminal scalar criterion, weighted necessary budget, and direct coarse-bound reuse obstruction. No actual derivative lower bound, new scientific execution, whole-window reference certificate, or original NS conclusion.",
+  "scientific_status": "NO-CANDIDATE FOR A SINGULARITY MECHANISM; EXACT_MODULATED_PURE_SWIRL_ORBIT_OBSTRUCTION_ACCEPTED; FIXED_SIX_MODE_NS_STILL_NO_CERTIFICATE; M2_GATE_NOT_ADMITTED",
+  "accepted": "Full angular-average residual curl obstruction under the exact open-spacetime-tube total-velocity contract, arbitrary C1 translation/proper rotation/amplitude/isotropic scale, fixed viscosity and complete periodic pressure. Independent derivation, non-author full review and final outcome review completed. Current fixed-reference whole-window certificate route closed for unpaid coverage/constants and retained resource evidence gap. No original NS singularity/global result.",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
     "research/reverse/fixed-seed-global-screen/ROOT_REVIEW.md",
@@ -193,7 +193,18 @@
     "research/reverse/fixed-seed-global-screen/CONTROL_WEIGHTED_PARAMETER_ROOT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_AUDIT.md",
     "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_REVIEW.md",
-    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_ROOT_REVIEW.md"
+    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_STRUCTURAL_COST_GATE.md",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_EVIDENCE_COVERAGE_GATE.md",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_ROUTE_DECISION.md",
+    "research/reverse/MECHANISM_NEXT_QUESTION_SCREEN.md",
+    "research/reverse/modulated-swirl-screen/CONTRACT.md",
+    "research/reverse/modulated-swirl-screen/PROOF.md",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_DERIVATION.md",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_REVIEW.md",
+    "research/reverse/modulated-swirl-screen/ROOT_COMPARISON.md",
+    "research/reverse/modulated-swirl-screen/OUTCOME.md",
+    "research/reverse/modulated-swirl-screen/acceptance.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -340,7 +351,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "c12b700ab51ea2ed80150c03ca9ed5fb1f1f552b7963e11f49e4deb3aea4b1fb",
+    "research/reverse/CHECKPOINT.md": "5adc99fbb4d5e5b371f8ec5d36c8a692dea6db6e93ea4abce63c63a5d974f1c8",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -378,7 +389,18 @@
     "research/reverse/fixed-seed-global-screen/CONTROL_WEIGHTED_PARAMETER_ROOT_REVIEW.md": "67dc61f696c0552e526f8e72e1f6fa6909216c424982e0eb5e16aac7d54acff8",
     "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_AUDIT.md": "6e756a1ee48d4c302e8c55e135ffb243a7442f3c8b89d32810715c9725efeea2",
     "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_REVIEW.md": "e66484ca53e9327e10cdb9cf80f481f4d6f9bc3b4f576d5878ac2edcb4116b53",
-    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_ROOT_REVIEW.md": "a04e049b64eed21cd0e3b2013e65963d3686f9f92decec4e07b3f11b4ed09800"
+    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_ROOT_REVIEW.md": "a04e049b64eed21cd0e3b2013e65963d3686f9f92decec4e07b3f11b4ed09800",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_STRUCTURAL_COST_GATE.md": "6570fec1945c6d8a7fb431c7f18eb753b19b54fcc696bd6d0d79b0956821da23",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_EVIDENCE_COVERAGE_GATE.md": "62944d74a1000ad995c7a7c1f79758d306c10a90de15094b7d3a958bb4279e98",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_ROUTE_DECISION.md": "869b933d50a0964849e4e287ee111b87f1bf81736b2700c11a75a58978323c85",
+    "research/reverse/MECHANISM_NEXT_QUESTION_SCREEN.md": "dcf80554cab4004eb69c0ea12452d5a500185c02b7907581fafc7ad75f85f17e",
+    "research/reverse/modulated-swirl-screen/CONTRACT.md": "147e3a624a620f71792f9610fa779c09ed5d877c791fda922d0ca445ab41cf02",
+    "research/reverse/modulated-swirl-screen/PROOF.md": "25d5bff7b2a96a9562af373cde2929a674acf1ee1cdaea3311785158e326142a",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_DERIVATION.md": "868bdf7eaed4bf6170759e6e9434b43f62c83e7a3c393c7c6e3613b84da23706",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_REVIEW.md": "eeab8cd77788908ec6a52980861cbc5f7ed28449d0891eb55adfa3cce8da0c81",
+    "research/reverse/modulated-swirl-screen/ROOT_COMPARISON.md": "dbc0dae4d18fedf8dec55e8ebd49ad389232d0a619aaae86ffd7626217a12340",
+    "research/reverse/modulated-swirl-screen/OUTCOME.md": "1320d4e62bc88cb88e3cf9963613e0252f67d80c877ab81b8b61590908e7bf69",
+    "research/reverse/modulated-swirl-screen/acceptance.json": "20484645068cd56c0adf5035fff4c606eeb18c1312c40c6c1ce68053ca11f879"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -392,12 +414,12 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Weighted scalar budget proved; direct reuse of the existing coarse segment bounds closed; bounded whole-window input feasibility gate next",
-  "current_topic_directory": "research/reverse/fixed-seed-global-screen",
+  "current_topic": "Exact arbitrarily modulated pure-swirl orbit rejected by full angular-average NS residual; fixed-reference current certificate route closed",
+  "current_topic_directory": "research/reverse/modulated-swirl-screen",
   "pending": [
-    "One bounded coverage/resource/value gate for the same fixed-reference whole-window certificate, without new scientific execution",
-    "Actual whole-window reference inputs and shared error propagation from zero remain unpaid",
-    "Original fixed-data NS singularity/global status unresolved; no full new certificate or formal release"
+    "Bounded history/scope gate for unequal axial-pair full return state before any new candidate or computation",
+    "No accepted singularity candidate, same-initial-data infinite-scale cascade, uniform iteration, infinite-dimensional cross-generation error or finite-total-time mechanism",
+    "Fixed six-mode original NS remains uncertified; old failed/resource-gap outputs retain their exact restrictions"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: \u5148\u6682\u505c\u4e00\u4e0b",
@@ -416,9 +438,9 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T21:59:18.910875+00:00",
+  "updated_at": "2026-09-07T22:22:02.049693+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "PROGRESS: proved and independently reviewed symbolic sensitivity, weighted A>=2 control criterion and direct coarse-bound reuse obstruction; committed actual proofs/reviews in 349d806a, b3f54f74, 39d9bedd. No new scientific kernel, failed-gate reuse, parameter selection or publication action.",
+  "previous_goal_turn_classification": "PROGRESS: completed bounded whole-window evidence/cost gate, closed the current reference route, fixed and proved an exact arbitrary-C1 moving-swirl angular-average obstruction with genuinely separate derivation and full non-author review; actual scientific commits 33947fe1 and f694f90c. No scientific program or failed-output reuse.",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -683,15 +705,15 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_AUDIT.md",
-    "research/reverse/fixed-seed-global-screen/CONTROL_ROUTE_INPUT_VALUE_REVIEW.md",
-    "research/reverse/fixed-seed-global-screen/CONTROL_WEIGHTED_PARAMETER_REGION.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_ARITHMETIC_OUTCOME.md",
-    "research/reverse/fixed-seed-global-screen/M2_NECESSARY_GATE_OUTCOME.md"
+    "research/reverse/modulated-swirl-screen/OUTCOME.md",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_REVIEW.md",
+    "research/reverse/modulated-swirl-screen/acceptance.json",
+    "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_ROUTE_DECISION.md",
+    "research/reverse/MECHANISM_NEXT_QUESTION_SCREEN.md"
   ],
-  "resume_read_note": "Current constant-tuning and direct coarse-bound reuse route is closed. Historical next-step paragraphs, including symbolic mcrit bracketing, are completed and must not restart. All closed numerical kernels remain closed; failed M2 temporary values remain unadmitted.",
+  "resume_read_note": "Both the whole-window feasibility gate and the proposed exact modulated-swirl test are now completed. Do not reactivate their historical next steps. The current return-state question is not a chosen initial datum or positive candidate; history must be read before its finite contract. No publication or management wait.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
-  "current_analysis_source_commit": "39d9beddb51276af4bfa49b7c9adecafc5bf29d0",
+  "current_analysis_source_commit": "f694f90cf94a35add2cc9c265e4e0f0939b61b22",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -886,5 +908,45 @@
     "resource_complete": false,
     "certificate_ready": false,
     "release_ready": false
+  },
+  "whole_window_route_stop_evidence": {
+    "status": "CURRENT_EVIDENCE_AND_EXECUTION_ROUTE_CLOSED",
+    "source_commit": "f694f90cf94a35add2cc9c265e4e0f0939b61b22",
+    "files_sha256": {
+      "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_STRUCTURAL_COST_GATE.md": "6570fec1945c6d8a7fb431c7f18eb753b19b54fcc696bd6d0d79b0956821da23",
+      "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_EVIDENCE_COVERAGE_GATE.md": "62944d74a1000ad995c7a7c1f79758d306c10a90de15094b7d3a958bb4279e98",
+      "research/reverse/fixed-seed-global-screen/WHOLE_WINDOW_ROUTE_DECISION.md": "869b933d50a0964849e4e287ee111b87f1bf81736b2700c11a75a58978323c85"
+    },
+    "scope": "Unpaid full-window inputs, absent non-repeated constant-layer algorithm and retained I producer-resource gap. Not all methods or the original NS solution.",
+    "rounding_noncommutation_example_independently_checked_by": "Pascal",
+    "new_scientific_execution": false,
+    "producer_resource_complete": false,
+    "resource_complete": false,
+    "certificate_ready": false,
+    "release_ready": false
+  },
+  "modulated_swirl_evidence": {
+    "status": "ACCEPTED_BOUNDED_ANALYTIC_OBSTRUCTION",
+    "source_commit": "f694f90cf94a35add2cc9c265e4e0f0939b61b22",
+    "acceptance_file": "research/reverse/modulated-swirl-screen/acceptance.json",
+    "acceptance_sha256": "20484645068cd56c0adf5035fff4c606eeb18c1312c40c6c1ce68053ca11f879",
+    "files_sha256": {
+      "research/reverse/modulated-swirl-screen/CONTRACT.md": "147e3a624a620f71792f9610fa779c09ed5d877c791fda922d0ca445ab41cf02",
+      "research/reverse/modulated-swirl-screen/PROOF.md": "25d5bff7b2a96a9562af373cde2929a674acf1ee1cdaea3311785158e326142a",
+      "research/reverse/modulated-swirl-screen/INDEPENDENT_DERIVATION.md": "868bdf7eaed4bf6170759e6e9434b43f62c83e7a3c393c7c6e3613b84da23706",
+      "research/reverse/modulated-swirl-screen/INDEPENDENT_REVIEW.md": "eeab8cd77788908ec6a52980861cbc5f7ed28449d0891eb55adfa3cce8da0c81",
+      "research/reverse/modulated-swirl-screen/ROOT_COMPARISON.md": "dbc0dae4d18fedf8dec55e8ebd49ad389232d0a619aaae86ffd7626217a12340",
+      "research/reverse/modulated-swirl-screen/OUTCOME.md": "1320d4e62bc88cb88e3cf9963613e0252f67d80c877ab81b8b61590908e7bf69",
+      "research/reverse/modulated-swirl-screen/acceptance.json": "20484645068cd56c0adf5035fff4c606eeb18c1312c40c6c1ce68053ca11f879"
+    },
+    "scope": "Exact total-velocity shape on full-circle open spacetime tube, no modulation-rate smallness. Not a snapshot/approximate-orbit/general-NS result.",
+    "root_proof_author": "root",
+    "independent_derivation_author": "Pauli",
+    "non_author_review_author": "Rawls",
+    "prior_involvement_disclosed": true,
+    "new_initial_datum_chosen": false,
+    "scientific_programs_run": 0,
+    "formal_freeze_package": false,
+    "publication_handoff_performed": false
   }
 }

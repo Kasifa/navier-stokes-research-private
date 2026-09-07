@@ -1,0 +1,52 @@
+{
+  "status": "ACCEPTED_BOUNDED_ANALYTIC_OBSTRUCTION",
+  "classification": "PRIVATE_CORE",
+  "source_commit": "f694f90cf94a35add2cc9c265e4e0f0939b61b22",
+  "contract_source_commit_prefix": "33947fe1",
+  "files_sha256": {
+    "research/reverse/modulated-swirl-screen/CONTRACT.md": "147e3a624a620f71792f9610fa779c09ed5d877c791fda922d0ca445ab41cf02",
+    "research/reverse/modulated-swirl-screen/PROOF.md": "25d5bff7b2a96a9562af373cde2929a674acf1ee1cdaea3311785158e326142a",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_DERIVATION.md": "868bdf7eaed4bf6170759e6e9434b43f62c83e7a3c393c7c6e3613b84da23706",
+    "research/reverse/modulated-swirl-screen/INDEPENDENT_REVIEW.md": "eeab8cd77788908ec6a52980861cbc5f7ed28449d0891eb55adfa3cce8da0c81",
+    "research/reverse/modulated-swirl-screen/ROOT_COMPARISON.md": "dbc0dae4d18fedf8dec55e8ebd49ad389232d0a619aaae86ffd7626217a12340",
+    "research/reverse/modulated-swirl-screen/OUTCOME.md": "1320d4e62bc88cb88e3cf9963613e0252f67d80c877ab81b8b61590908e7bf69"
+  },
+  "root_full_reads_completed": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT_DERIVATION.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "independent_derivation": {
+    "author": "Pauli",
+    "root_proof_read_before_derivation": false,
+    "same_complete_point_formula": true
+  },
+  "independent_review": {
+    "author": "Rawls",
+    "full_contract_main_and_independent_proof_reviewed": true,
+    "prior_involvement_disclosed": true,
+    "blind_review": false,
+    "final_outcome_and_root_comparison_read": true,
+    "unresolved_items": []
+  },
+  "scope": "Exact total-velocity pure-swirl shape on an open spacetime tube containing the full moving circle, arbitrary C1 positive amplitude and isotropic scale plus translation and proper rotation. Full fixed-viscosity unforced periodic NS. Angular-average curl residual is A^2/ell^2 times q_star>0. No such nonempty exact orbit interval.",
+  "not_claimed": [
+    "single-snapshot exclusion",
+    "approximate modulated orbit control",
+    "arbitrary velocity background or meridional response exclusion",
+    "singularity or global regularity",
+    "new initial datum or infinite-scale iteration",
+    "external novelty or human peer review"
+  ],
+  "scientific_programs_run": 0,
+  "new_scientific_arrays_read": false,
+  "new_figures": [],
+  "formal_freeze_package": false,
+  "publication_handoff_performed": false,
+  "earlier_resource_gap_or_failed_M2_repaired": false,
+  "mathematics_review_basis": "Actual manual derivations and full non-author text review. SHA checks only bind the reviewed bytes.",
+  "created_at": "2026-09-07T22:20:52.148038+00:00"
+}
