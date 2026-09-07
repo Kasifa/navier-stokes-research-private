@@ -1,0 +1,279 @@
+{
+  "checker_environment": {
+    "argv": [
+      "research/reverse/fixed-seed-global-screen/check_full_nodal_agreement.py",
+      "--run",
+      "--primary-run-sha256",
+      "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+      "--independent-run-sha256",
+      "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+      "--primary-stdout",
+      "full-nodal-primary.stdout.log",
+      "--primary-stderr",
+      "full-nodal-primary.stderr.log",
+      "--independent-stdout",
+      "full-nodal-independent.stdout.log",
+      "--independent-stderr",
+      "full-nodal-independent.stderr.log"
+    ],
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "checker_source_sha256": "a32fce39a8ed4922e6579a77dcc15673aa3cee6a2a8c7dc58577ab96b1329235",
+  "comparison": {
+    "V_S_outputs_checked": 35937,
+    "compared_field": "center residual Rhat; original-reference R bounded only through E",
+    "full_signed_nonzero_outputs": 35936,
+    "gate_comparison": {
+      "0": {
+        "endpoint_identity_required": false,
+        "independent_gate": "NODE_PASS",
+        "independent_interval": [
+          [
+            "33972883647662275253748640645784876686196949235883857859282899016448913193727084277769447190596990506263416952369633043024075970431",
+            "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+          ],
+          [
+            "33972883647663304282550571192306201611895171148415681019260944115833757102935672842580356105434626843437844802318358443409122109569",
+            "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+          ]
+        ],
+        "primary_gate": "NODE_PASS",
+        "primary_interval": [
+          [
+            "33972883647662275253748640645784876686196949235883857859282899016448913193727084277769447190596990506263416952369633043024075970431",
+            "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+          ],
+          [
+            "33972883647663304282550571192306201611895171148415681019260944115833757102935672842580356105434626843437844802318358443409122109569",
+            "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+          ]
+        ],
+        "same_classification": true
+      },
+      "2": {
+        "endpoint_identity_required": false,
+        "independent_gate": "REFUTED",
+        "independent_interval": [
+          [
+            "4662696019686021953621956100905804544271522988089674270760797968362145252424881201735245865211318308075937653879521124073757890431",
+            "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+          ],
+          [
+            "4662696019687050982423886647269797527385960730409496944590541605453240672147120149954734607515344800934427241780763999949660989569",
+            "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+          ]
+        ],
+        "primary_gate": "REFUTED",
+        "primary_interval": [
+          [
+            "4662696019686021953621956100905804544271522988089674270760797968362145252424881201735245865211318308075937653879521124073757890431",
+            "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+          ],
+          [
+            "4662696019687050982423886647269797527385960730409496944590541605453240672147120149954734607515344800934427241780763999949660989569",
+            "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+          ]
+        ],
+        "same_classification": true
+      }
+    },
+    "independent_exact_norm0_squared": [
+      "80874730917478602014523946424173853071316598407334560311576114939652538552543123357151844315499503875965883750745454372266218326226884622499552724359196280367189631142064543502752851542441679755468539499554007079912574825443562205403822797912893851115792764961322590003474875026115768122328593499",
+      "201358202837656495763260369264203627226524229275101043357552451366884694654492916319761103461321148608021431434575366156785612415881436328486247434685362077279975364273170167049742691805393891567400334829517880137917282359975174946055908320796940336145551985665072464946640909687246099782450740601884415130337280000"
+    ],
+    "independent_exact_norm2_squared": [
+      "22904107748873021490515708807415410105815628802831924662797762588064708398462626219214502484196228199",
+      "4925250774549309901534880012517951725634967408808180833493536675530715221437151326426783281860614455100828498788352"
+    ],
+    "new_tensor_scalars_equal": 359370,
+    "norm0_inside_primary_integer_bracket": true,
+    "norm2_equals_primary_A2_over_H0": true,
+    "perturbation": {
+      "E0": [
+        "514514400965273181896024160932929799622703143385036002575967530668420714730692880918987269400644357998524448482109569",
+        "53605660381492396186264347645372964815922798410350218522337152369241871664498183991127630002183327555835360200819571756917886698410475520000"
+      ],
+      "E2": [
+        "514514400965273181896024160932929799622703143385036002575967530668420714730692880918987269400644357998524448482109569",
+        "68374566813128056360031055670118577571330100013201809339715755573012591408798704070315854594621591270198163521453535404231998339809280000"
+      ],
+      "M": [
+        "2230910627993578574243105217351362653694309800951327755527",
+        "440447883505179256852362690216140157468191188700343828480"
+      ],
+      "delta": [
+        "1310978451444758215901001919909778307506752577",
+        "38742205547461893218272904290486295504448948546423633659433643828838400"
+      ]
+    },
+    "residual_rational_components_equal": 215622
+  },
+  "independent_run_sha256": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+  "independent_source_commit": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
+  "input_sha256": {
+    "C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
+    "FULL_NODAL_COMPARISON_NOTES.md": "638dee5e4490aceeac85bf78c65fbbfc2f174685d095bf9b7ca55828666bcbb8",
+    "FULL_NODAL_EXECUTION_CONTRACT.md": "879deca7e881073dc3fc31506aaf681e7d243d068621092fe361fc60963ae40c",
+    "FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md": "5f1c40039f8de23250ef103c16e2991535dadaa4824c4f05e8cc045c75b55e53",
+    "FULL_NODAL_INDEPENDENT_CODE_REVIEW.md": "f6185da959f93adcca2ad77de6f66fa52fb063d559023db9e09c10f8f43a56aa",
+    "FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md": "61450a286e2f300f4444a29b45fa53fe93ec1b655fab3b4f03afb4261e93307c",
+    "FULL_NODAL_PRIMARY_CODE_REVIEW.md": "a28d49df6c91012f57fe2a086b2b4a4d205698187484685b755514770865e182",
+    "FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md": "5a1341a58a93582b31a56a33d10a296499ed921daa2c5dac7ee9d27369c87ece",
+    "KRONECKER_COMPLETE_FINAL_REVIEW.md": "f72989cbc34a828132d317fb0f62277568fb8691ef582b501e483fdeb14c3b1f",
+    "audit_full_nodal_residual.py": "54af5a2eac8be72acacef40f1be73ba00916704d64aef539d4459375a9d18e8c",
+    "audit_full_nodal_residual_independent.py": "6b65b6f536d77c544c8803832eadcf37c72568f951a9982edf40e73dbc272fbf",
+    "audit_kronecker_direct_independent.py": "057951051c5aeaf6d70d2d232811fd84731a6d81f32782156fdae30b48f9a499",
+    "check_full_nodal_agreement.py": "a32fce39a8ed4922e6579a77dcc15673aa3cee6a2a8c7dc58577ab96b1329235",
+    "full-nodal-independent-trial-01/claim.json": "a65bd8ea6f92ac50f786f12ee21c78d56450d97856b55bf2a35e440713c179f0",
+    "full-nodal-independent-trial-01/progress.jsonl": "3093c2edb4aa1ed7785b278437b8d91791c6edac8fc7d9a5d4e247c57242b2fc",
+    "full-nodal-independent-trial-01/residual-hat-fractions.i256-u256le.bin": "6054a0cbe5a3c91946b3d65acd38b32c720f8da575dbec0dddd79e6a49122ab5",
+    "full-nodal-independent-trial-01/result.json": "e637e7fcde5f2fa8ac7cf55d635ada579f6fae189ebf903b6a7a018c351e393b",
+    "full-nodal-independent-trial-01/run.json": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+    "full-nodal-independent-trial-01/tensor11-direct.i240le.bin": "da3267a95820b39d2c0500c46adc40b98f5a991c6b918ad20110baea9957862a",
+    "full-nodal-independent-trial-01/tensor13-direct.i240le.bin": "e24a6e9ef33331197c3763a85eaabca2ee20ae1ab08953c50a89020eba8ffb13",
+    "full-nodal-independent-trial-01/tensor22-direct.i240le.bin": "eba9e7c39633b7ac3d9362d0745bc6b22a116d79894f5c15498478132c457b40",
+    "full-nodal-independent-trial-01/tensor23-direct.i240le.bin": "0bbc711ff8b8c60f375e569a0db42b700db5a98f3f8d65cc22ed878a49e17ec3",
+    "full-nodal-independent-trial-01/tensor33-direct.i240le.bin": "b879c212204a6745aa3a68f638c1cd9bd8378ea3d40f9ca5161b620e57061584",
+    "full-nodal-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full-nodal-independent.stdout.log": "2b7b3da465b45286e5e046f8ac13ac97c563c73af0247c21c95d403f20a1a500",
+    "full-nodal-primary.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full-nodal-primary.stdout.log": "d0188f972afcb8dde652fe50a637dae03861f0e1b15b443e85c9b32b3ceb3f9d",
+    "full-nodal-residual-trial-01/A.i256le.bin": "8d6abf9a1726e00e8f33563231b43da3ca9f4da5f0dd7e34999ca2a74d282e4a",
+    "full-nodal-residual-trial-01/J.i256le.bin": "8d1e35b1dbc251262fcd98116e19446961dd8146e508b28a407c6070fbd73682",
+    "full-nodal-residual-trial-01/RUN_CLAIM.json": "fcd02c84586cc91cc11c6cb7ad7022e5b42d898901f62aaabebd9cdeddde2856",
+    "full-nodal-residual-trial-01/S.u960le.bin": "9fc37b370b78fabd4b7b958611850075f9b6ab5522ce4d6127d61b782e1bf1c3",
+    "full-nodal-residual-trial-01/V.i512le.bin": "f1540ec031c880f998885fadc196384f6d7c0ab402c33cbdae0e7535d1b82a82",
+    "full-nodal-residual-trial-01/run.json": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+    "full-nodal-residual-trial-01/tensor-11-product-0.signed-le.bin": "4d557f7058a98f9c0c58129bc8db151919b443eebd93c1094e81363f54387f63",
+    "full-nodal-residual-trial-01/tensor-11-product-1.signed-le.bin": "b80cf627d576603298ef1aa717ed60ec8f290b8ae8b7b7b7b84725634bfc78a1",
+    "full-nodal-residual-trial-01/tensor-11-product-2.signed-le.bin": "41da8e854a8d0b9a4fe58b28ee1ac8328c563b292a807c746f61bbad6abde8d4",
+    "full-nodal-residual-trial-01/tensor-11.i240le.bin": "da3267a95820b39d2c0500c46adc40b98f5a991c6b918ad20110baea9957862a",
+    "full-nodal-residual-trial-01/tensor-13-product-0.signed-le.bin": "ef782f01719294112bc63db567132e7fb2328b2b99e2483202442f5c7116c334",
+    "full-nodal-residual-trial-01/tensor-13-product-1.signed-le.bin": "d4aa98367b8fa779b008c754b5c075896633e09601cf81d3fdae38a02fe8d68e",
+    "full-nodal-residual-trial-01/tensor-13-product-2.signed-le.bin": "010030717c1ccb404388a467515b1c37498a676f45c8b88e37c41e5c5915c246",
+    "full-nodal-residual-trial-01/tensor-13.i240le.bin": "e24a6e9ef33331197c3763a85eaabca2ee20ae1ab08953c50a89020eba8ffb13",
+    "full-nodal-residual-trial-01/tensor-22-product-0.signed-le.bin": "e581f5a18651419b524803b9e8ddaf49a05124a701f234e2499993d75cf9685f",
+    "full-nodal-residual-trial-01/tensor-22-product-1.signed-le.bin": "a286852e272c67637e069a4bed339909541b05a9f127c342b8a091c1bf53e27c",
+    "full-nodal-residual-trial-01/tensor-22-product-2.signed-le.bin": "6fd00e4f04efddfc62194dff93f34f5a68aa0ab29b6037c9198843258feab4c2",
+    "full-nodal-residual-trial-01/tensor-22.i240le.bin": "eba9e7c39633b7ac3d9362d0745bc6b22a116d79894f5c15498478132c457b40",
+    "full-nodal-residual-trial-01/tensor-23-product-0.signed-le.bin": "7a7632a6893da4a8415f1ddaa5ecc19816e90baae754af02c4bf12d89b3bd013",
+    "full-nodal-residual-trial-01/tensor-23-product-1.signed-le.bin": "25cc343ee2282653601679d83ff2e29a31d7268abfd0b92d66808280469f46d5",
+    "full-nodal-residual-trial-01/tensor-23-product-2.signed-le.bin": "585e2df8048b761ee3beb13d814f7b19448d074f380e96554e503b2ac62d677a",
+    "full-nodal-residual-trial-01/tensor-23.i240le.bin": "0bbc711ff8b8c60f375e569a0db42b700db5a98f3f8d65cc22ed878a49e17ec3",
+    "full-nodal-residual-trial-01/tensor-33-product-0.signed-le.bin": "a6dd4227657625f196672cc7aa3c4ec20b14a9dd8bf3d4800ca9a3e1053b5a22",
+    "full-nodal-residual-trial-01/tensor-33-product-1.signed-le.bin": "34a5f31833ad225ef458409e3c77529c24823321248af31e34269c17ecb95f3a",
+    "full-nodal-residual-trial-01/tensor-33-product-2.signed-le.bin": "22da7086c3965104020b49c701dbac7d390da4d26a90fd1a75408e82c1f79d21",
+    "full-nodal-residual-trial-01/tensor-33.i240le.bin": "b879c212204a6745aa3a68f638c1cd9bd8378ea3d40f9ca5161b620e57061584",
+    "kronecker-block-trial-02/c96-centers.i112le.bin": "c16d26dcbea14b63614d192da27a8b268fa49e689a02fb15499601cc1b611c9e",
+    "kronecker-block-trial-02/run.json": "375921aff0ceae1294b7d79947d9dfeaf817ad65ce9edc6c02b9b152ac922d70",
+    "kronecker-block-trial-02/tensor12-complex.i240le.bin": "795ce995481d41b1fd4c6810101b62d37b187a268eaba992e97ef6f3f79ca0e6",
+    "kronecker-direct-independent-trial-01/centers-independent.i112le.bin": "c16d26dcbea14b63614d192da27a8b268fa49e689a02fb15499601cc1b611c9e",
+    "kronecker-direct-independent-trial-01/result.json": "af998444847ef90696cc5e18fb716d60f2625748a98d2d11438e0f73b009853f",
+    "kronecker-direct-independent-trial-01/rounding-witnesses.json.gz": "637e467edbb178fa25e8f05cb5dcf9bc48a299fce2350e930153b6367007333c",
+    "kronecker-direct-independent-trial-01/run.json": "e4d54cf0690702f54029b4c36412d9d922e14a632090e5a4ac88f2e8b8e293e7",
+    "kronecker-direct-independent-trial-01/tensor12-direct.i240le.bin": "795ce995481d41b1fd4c6810101b62d37b187a268eaba992e97ef6f3f79ca0e6",
+    "kronecker-independent-agreement.json": "5510285fed346165e428bac4dfcb572548283322937a712be6465829481b5779",
+    "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+  },
+  "kernel_operations_reexecuted": {
+    "convolution": false,
+    "integration": false,
+    "node_reconstruction": false
+  },
+  "negative_controls": [
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "source_pin",
+      "rejected_by": "source/input SHA mismatch"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "missing_output",
+      "rejected_by": "complete artifact set"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "tensor_real",
+      "rejected_by": "tensor real/imag scalar equality"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "tensor_imag",
+      "rejected_by": "tensor real/imag scalar equality"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "residual_common_denominator",
+      "rejected_by": "residual signed rational equality"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "residual_sign",
+      "rejected_by": "residual signed rational equality"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "s_squared_weight",
+      "rejected_by": "full ordered second-derivative s-squared weight"
+    },
+    {
+      "kind": "explicit_tiny_synthetic_boundary_not_an_archival_measurement",
+      "name": "floor_square_not_true_rational_equality",
+      "rejected_by": "true rational root equality flag"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "E_lower_sign",
+      "rejected_by": "norm error minus/plus direction"
+    },
+    {
+      "kind": "actual_archival_item_mutated_in_memory",
+      "name": "E_upper_sign",
+      "rejected_by": "norm error minus/plus direction"
+    }
+  ],
+  "primary_run_sha256": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+  "primary_source_commit": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
+  "resources": {
+    "independent": {
+      "actual_directory_bytes": 24673201,
+      "including_external_logs_bytes": 24746303,
+      "post_write": {
+        "archive_bytes": 24673201,
+        "peak_rss_bytes": 87588864,
+        "wall_seconds": 15.00825629197061
+      },
+      "pre_write_snapshot": {
+        "archive_bytes": 24673010,
+        "peak_rss_bytes": 87588864,
+        "wall_seconds": 15.007939707953483
+      },
+      "stderr": "full-nodal-independent.stderr.log",
+      "stdout": "full-nodal-independent.stdout.log"
+    },
+    "primary": {
+      "actual_directory_bytes": 46985943,
+      "including_external_logs_bytes": 46987840,
+      "post_write": {
+        "output_bytes": 46985943,
+        "peak_rss_bytes": 119848960,
+        "wall_seconds": 7.769261500099674
+      },
+      "pre_write_snapshot": {
+        "output_bytes": 46985909,
+        "peak_rss_bytes": 119848960,
+        "wall_seconds": 7.768730042036623
+      },
+      "stderr": "full-nodal-primary.stderr.log",
+      "stdout": "full-nodal-primary.stdout.log"
+    }
+  },
+  "scope": "Complete saved fields for one reference node; exact archival arithmetic comparison and enclosure checks only. No continuous-time residual bound or NS solution conclusion.",
+  "status": "PASS_FROZEN_FULL_NODAL_ARCHIVE_COMPARISON"
+}

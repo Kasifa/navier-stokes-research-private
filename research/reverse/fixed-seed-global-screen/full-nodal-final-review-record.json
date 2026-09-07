@@ -1,0 +1,200 @@
+{
+  "accepted_full_comparison_binding_count": 68,
+  "accepted_full_comparison_sha256": "f2ccad0d3a963e1a0bdbf0e9695e2979271807201ef3427964b2a11052511ed8",
+  "binary_scientific_files_read_or_rehashed_in_this_review": false,
+  "comparison_record_connected": {
+    "counts": [
+      359370,
+      215622,
+      35937
+    ],
+    "negative_controls": {
+      "archival_in_memory": 9,
+      "tiny_synthetic": 1
+    },
+    "norm_result_records_equal": true
+  },
+  "created_at_utc": "2026-09-07T18:53:23.628901+00:00",
+  "display_check_count": 10,
+  "display_checks": [
+    {
+      "ceil_upper": "633755528910388",
+      "claim": "primary_r0_outward_display",
+      "contains_stored_interval": true,
+      "floor_lower": "633755528910368",
+      "scale": "1000000000000000000000000"
+    },
+    {
+      "ceil_upper": "68193426839989922",
+      "claim": "primary_r2_outward_display",
+      "contains_stored_interval": true,
+      "floor_lower": "68193426839974872",
+      "scale": "1000000000000000000000000"
+    },
+    {
+      "ceil_upper": "633755528910388",
+      "claim": "independent_r0_outward_display",
+      "contains_stored_interval": true,
+      "floor_lower": "633755528910368",
+      "scale": "1000000000000000000000000"
+    },
+    {
+      "ceil_upper": "68193426839989922",
+      "claim": "independent_r2_outward_display",
+      "contains_stored_interval": true,
+      "floor_lower": "68193426839974872",
+      "scale": "1000000000000000000000000"
+    },
+    {
+      "claim": "E0_strict_display_upper",
+      "passed": true,
+      "strict_upper": [
+        "959813567",
+        "100000000000000000000000000000000"
+      ]
+    },
+    {
+      "claim": "E2_strict_display_upper",
+      "passed": true,
+      "strict_upper": [
+        "376246918223",
+        "50000000000000000000000000000000"
+      ]
+    },
+    {
+      "claim": "primary_r0_strict_gate_display",
+      "passed": true,
+      "readable_upper": [
+        "221202414709",
+        "100000000000000000000"
+      ],
+      "stored_upper_product": [
+        "31848368446595070653272279617585080493500108986975695864301856445338989527752334566713641184686329259736422634632208778853316995635953325498640633804198192261328472158825419072224606561",
+        "14397839412633256822588032996481195025847258900749339223366600141861712044076431784696417778902454996417215799562275117090893455687149884780404272376194961123443160639503846607745241610977280000"
+      ],
+      "target": [
+        "1",
+        "320000000"
+      ]
+    },
+    {
+      "claim": "primary_r2_strict_gate_display",
+      "passed": true,
+      "readable_lower": [
+        "59504611779",
+        "250000000000000000"
+      ],
+      "stored_lower_product": [
+        "1011129181720780954308390147667901508256055489577994292216863850154295513397227440464088293194654618020465045813975110190579954362314918027173706757508023661119667657231011992615643",
+        "4248112673500444001056296233624961355801921763027535212510267854741638236649610231667946537416870546606787555281631684432016886329159492410199205122633965784414628635485516072002519040000"
+      ],
+      "target": [
+        "1",
+        "5000000"
+      ]
+    },
+    {
+      "claim": "independent_r0_strict_gate_display",
+      "passed": true,
+      "readable_upper": [
+        "221202414709",
+        "100000000000000000000"
+      ],
+      "stored_upper_product": [
+        "31848368446595070653272279617585080493500108986975695864301856445338989527752334566713641184686329259736422634632208778853316995635953325498640633804198192261328472158825419072224606561",
+        "14397839412633256822588032996481195025847258900749339223366600141861712044076431784696417778902454996417215799562275117090893455687149884780404272376194961123443160639503846607745241610977280000"
+      ],
+      "target": [
+        "1",
+        "320000000"
+      ]
+    },
+    {
+      "claim": "independent_r2_strict_gate_display",
+      "passed": true,
+      "readable_lower": [
+        "59504611779",
+        "250000000000000000"
+      ],
+      "stored_lower_product": [
+        "1011129181720780954308390147667901508256055489577994292216863850154295513397227440464088293194654618020465045813975110190579954362314918027173706757508023661119667657231011992615643",
+        "4248112673500444001056296233624961355801921763027535212510267854741638236649610231667946537416870546606787555281631684432016886329159492410199205122633965784414628635485516072002519040000"
+      ],
+      "target": [
+        "1",
+        "5000000"
+      ]
+    }
+  ],
+  "environment": {
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "excluded_operations": [
+    "convolution",
+    "node reconstruction",
+    "projection",
+    "residual field reconstruction",
+    "root or exponential series recomputation",
+    "full array comparison",
+    "rerunning either science kernel or comparison checker"
+  ],
+  "input_count": 29,
+  "input_sha256": {
+    "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md": "0c7ea4b3d33d152f298058a909e446505150d1004529f1a4518c2e1fedc7f796",
+    "research/reverse/fixed-seed-global-screen/CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_NOTES.md": "638dee5e4490aceeac85bf78c65fbbfc2f174685d095bf9b7ca55828666bcbb8",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_ROOT_REVIEW.md": "3b6d875cab09d8c7eb81844e90b9b85d1f7b1771a89f3cb389ee10d4f1864321",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_CONTRACT.md": "879deca7e881073dc3fc31506aaf681e7d243d068621092fe361fc60963ae40c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_EXECUTION_INDEPENDENT_REVIEW.md": "5f1c40039f8de23250ef103c16e2991535dadaa4824c4f05e8cc045c75b55e53",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_CODE_REVIEW.md": "f6185da959f93adcca2ad77de6f66fa52fb063d559023db9e09c10f8f43a56aa",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_INDEPENDENT_EXECUTION_CONTRACT.md": "61450a286e2f300f4444a29b45fa53fe93ec1b655fab3b4f03afb4261e93307c",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_PRIMARY_CODE_REVIEW.md": "a28d49df6c91012f57fe2a086b2b4a4d205698187484685b755514770865e182",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md": "f3c5327e59931a2e638c039078f78175f4138c53eec139cc57c1ae5fd2cb513b",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_INDEPENDENT_REVIEW.md": "5a1341a58a93582b31a56a33d10a296499ed921daa2c5dac7ee9d27369c87ece",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_OUTCOME.md": "223c963e10ae14c93a231901dfe1554b8c61b63324537ebc250ddb7ae15d32ee",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual.py": "54af5a2eac8be72acacef40f1be73ba00916704d64aef539d4459375a9d18e8c",
+    "research/reverse/fixed-seed-global-screen/audit_full_nodal_residual_independent.py": "6b65b6f536d77c544c8803832eadcf37c72568f951a9982edf40e73dbc272fbf",
+    "research/reverse/fixed-seed-global-screen/check_full_nodal_agreement.py": "a32fce39a8ed4922e6579a77dcc15673aa3cee6a2a8c7dc58577ab96b1329235",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.json": "f2ccad0d3a963e1a0bdbf0e9695e2979271807201ef3427964b2a11052511ed8",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stdout.log": "0dff347542377e124c41fd487570294b5be51aa95e01151e5954d6509c06205c",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-check-only.json": "8db20c0b6b6f7d2deb01e1ecace14fef92432a914d46f0dd2b4ebd027c970695",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/result.json": "e637e7fcde5f2fa8ac7cf55d635ada579f6fae189ebf903b6a7a018c351e393b",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/run.json": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stdout.log": "2b7b3da465b45286e5e046f8ac13ac97c563c73af0247c21c95d403f20a1a500",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary-check-only.json": "d249fb91c2b5f552a699ccc85861b06b374a3e42256dfce90da056a375381fbc",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/full-nodal-primary.stdout.log": "d0188f972afcb8dde652fe50a637dae03861f0e1b15b443e85c9b32b3ceb3f9d",
+    "research/reverse/fixed-seed-global-screen/full-nodal-residual-trial-01/run.json": "1f2f85bc1fc2c6e48f37a525c8ce1b790b873be532176cff7f00c9a0b7bb0dd7",
+    "research/reverse/fixed-seed-global-screen/kronecker-independent-agreement.json": "5510285fed346165e428bac4dfcb572548283322937a712be6465829481b5779"
+  },
+  "noninteger_S_over_s_squared_count": 8520,
+  "procedure": "Inline standard-library JSON/SHA/Fraction readback. Exact display floor/ceil, strict inequality and stored endpoint-product checks; metadata joins and file sizes. No new executable checker was created.",
+  "resources": {
+    "independent": {
+      "directory_bytes_from_stat_only": 24673201,
+      "including_logs_bytes": 24746303,
+      "post_write": {
+        "archive_bytes": 24673201,
+        "peak_rss_bytes": 87588864,
+        "wall_seconds": 15.00825629197061
+      }
+    },
+    "primary": {
+      "directory_bytes_from_stat_only": 46985943,
+      "including_logs_bytes": 46987840,
+      "post_write": {
+        "output_bytes": 46985943,
+        "peak_rss_bytes": 119848960,
+        "wall_seconds": 7.769261500099674
+      }
+    }
+  },
+  "scope": "Non-author review of two scientific kernels and OUTCOME, plus small record/display checks. Reviewer authored comparison code; its non-author implementation review belongs to root. One reference node only.",
+  "small_inputs_matching_comparison_bindings": 22,
+  "source_commit_scientific_runs": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
+  "status": "PASS_FINAL_RECORD_AND_EXACT_DISPLAY_CHECKS_ONLY"
+}

@@ -1,0 +1,28 @@
+{
+  "fixed_rational_inequalities": [
+    "epsilon_G < q_minus < q_plus < epsilon_H",
+    "q_minus > 1/5000000",
+    "H_minus = 2269215/16",
+    "H_plus = 3239775/16",
+    "(2/441)*(49/128) = 1/576",
+    "(1/144)/(431/288) = 2/431"
+  ],
+  "new_epsilon_or_exponential_experiment": false,
+  "pure_symbolic_review": [
+    "first control remainder multiplied by 64",
+    "second-control exact epsilon-squared condition",
+    "endpoint condition necessary, P3 sufficient",
+    "existing brackets do not decide whole family compatibility"
+  ],
+  "scientific_kernels_reexecuted": false,
+  "source_bindings": {
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md": "59d06565ff7cb693b6e5a63eb306b25b2009b4cb19ed5914c7453bb118ad8439",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_INDEPENDENT_REVIEW.md": "7703ad55c901e9774a21d95b9675d8b8ada62237940e85cf9374f8aad3bf3103",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_LEMMA.md": "bcbb265b0b9639d2fcae54dddee5415cce0cec62f1874d008dc389d2ae7ea2cf",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_ROOT_REVIEW.md": "2d6d0e36359befe94bf55f29dd1a3593f74d899b679d4c5485ca144fe69640c9",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.json": "f2ccad0d3a963e1a0bdbf0e9695e2979271807201ef3427964b2a11052511ed8",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/result.json": "e637e7fcde5f2fa8ac7cf55d635ada579f6fae189ebf903b6a7a018c351e393b",
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent-trial-01/run.json": "b197dc3cf405e191a7f4b7ca5076e7f04b2c812c22f6610e878972ff9957039e"
+  },
+  "status": "PASS_ROOT_NON_AUTHOR_INTERFACE_REVIEW_AND_EXACT_ARCHIVAL_CROSS_MULTIPLICATIONS"
+}

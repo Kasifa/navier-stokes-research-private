@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Both full nodal scientific kernels completed once on source 10df40f9; never rerun. Root checked final stdout/run hashes/actual directory resources. Rawls is preparing check_full_nodal_agreement.py; root must full-read then execute that data-only full comparison once. Pascal prepares outcome; Pauli prepares bounded symbolic NODAL_VS_CONTROL_INTERFACE distinguishing fixed epsilon failure from unclassified function family, without a third epsilon choice or scan. Final non-author result audit after actual full comparison. Original NS/full-window status remains open.",
+  "next_action": "Full n1280 residual is completely accepted: two actual kernels, full exact comparison, non-author final review and root 30 final bindings all complete. Never rerun either kernel or comparison. Next already started: Pascal driver_independent_certificate writes ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md for the same existing I=[1280/2048,1281/2048], algebra and certified integer/storage/multiplication layout only, reusing all six constant tensors and nodal Rhat0. Read its final draft before independent review; no new code, run budget, experiment, third epsilon or broader window is authorized by that draft yet. Preserve current original NS open status.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "ONE_INTERVAL_DERIVATIVE_AND_ONE_FIXED_TENSOR_CERTIFIED; FULL_NODAL_AND_CONTINUOUS_RESIDUAL_UNPAID; NO_CERTIFICATE_YET_FOR_FIXED_a",
+  "scientific_status": "FULL_FIXED_NODE_REFERENCE_RESIDUAL_CERTIFIED_SPECIFIED_EPSILON_REFUTED; CONTINUOUS_RESIDUAL_AND_ORIGINAL_NS_UNPAID",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -134,7 +134,21 @@
     "research/reverse/fixed-seed-global-screen/full-nodal-primary.stdout.log",
     "research/reverse/fixed-seed-global-screen/full-nodal-primary.stderr.log",
     "research/reverse/fixed-seed-global-screen/full-nodal-independent.stdout.log",
-    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log"
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log",
+    "research/reverse/fixed-seed-global-screen/check_full_nodal_agreement.py",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_NOTES.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stdout.log",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stderr.log",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_FINAL_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/full-nodal-final-review-record.json",
+    "research/reverse/fixed-seed-global-screen/full-nodal-final-review-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/nodal-vs-control-root-bindings.json",
+    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -256,7 +270,21 @@
     "research/reverse/fixed-seed-global-screen/full-nodal-primary.stdout.log": "d0188f972afcb8dde652fe50a637dae03861f0e1b15b443e85c9b32b3ceb3f9d",
     "research/reverse/fixed-seed-global-screen/full-nodal-primary.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "research/reverse/fixed-seed-global-screen/full-nodal-independent.stdout.log": "2b7b3da465b45286e5e046f8ac13ac97c563c73af0247c21c95d403f20a1a500",
-    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "research/reverse/fixed-seed-global-screen/full-nodal-independent.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/check_full_nodal_agreement.py": "a32fce39a8ed4922e6579a77dcc15673aa3cee6a2a8c7dc58577ab96b1329235",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_NOTES.md": "638dee5e4490aceeac85bf78c65fbbfc2f174685d095bf9b7ca55828666bcbb8",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_COMPARISON_ROOT_REVIEW.md": "3b6d875cab09d8c7eb81844e90b9b85d1f7b1771a89f3cb389ee10d4f1864321",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.json": "f2ccad0d3a963e1a0bdbf0e9695e2979271807201ef3427964b2a11052511ed8",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stdout.log": "0dff347542377e124c41fd487570294b5be51aa95e01151e5954d6509c06205c",
+    "research/reverse/fixed-seed-global-screen/full-nodal-agreement.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_OUTCOME.md": "223c963e10ae14c93a231901dfe1554b8c61b63324537ebc250ddb7ae15d32ee",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_FINAL_REVIEW.md": "6d191cdb7be53601617754769b55b50be6346e5abfc2ca93083bf0518be7bc69",
+    "research/reverse/fixed-seed-global-screen/full-nodal-final-review-record.json": "2c7be5ae420978d9fbddd39a503b0814558bbef971f4e9bedd9efec12704d713",
+    "research/reverse/fixed-seed-global-screen/full-nodal-final-review-root-bindings.json": "411739fca1d82938f50a5474eb9cd6075c880e561450b66e23429cac4623c710",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md": "59d06565ff7cb693b6e5a63eb306b25b2009b4cb19ed5914c7453bb118ad8439",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md": "0dd434ef1222a33fe38f50a3fc959d1daa062c53b78c13f5d1df4034eb62adf7",
+    "research/reverse/fixed-seed-global-screen/nodal-vs-control-root-bindings.json": "4a94d7e305879d560d7690615b3b9fd14d11ff63b10dc0d0c97d1c9e2e29e538",
+    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md": "0de97fa3eb05e193c6319275747572c4cfe9f1b6fed1f26f705a549432da2ca3"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -270,13 +298,12 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Full fixed node residual computed twice; exact full-output agreement and final limited-scope review pending",
+  "current_topic": "Complete fixed-node residual obstruction accepted; same-interval incremental continuous-residual algebra preflight underway",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Root review then one exact data-only full output comparison; kernels cannot rerun",
-    "Non-author final result review and concise outcome/checkpoint commit",
-    "Symbolic fixed-family interface note only; no third epsilon selection or new numerical test",
-    "Whole-window original NS error, fixed-datum global status and singularity remain open"
+    "Read Pascal same-interval incremental residual preflight final draft, then bounded independent math/layout review",
+    "Only after that assess a concrete once-run source/resource contract; no new experiment presently prepared",
+    "Full continuous whole-window error and original fixed datum global/singularity status remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -288,11 +315,11 @@
     "handoff_state": "SENT_ONCE_DO_NOT_RESEND"
   },
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
-  "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
+  "platform_goal_state_last_observed": "active verified by get_goal on this continuation; unbounded, no user confirmation dependency",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T18:42:15.932662+00:00",
+  "updated_at": "2026-09-07T18:58:33.171352+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "Substantive progress: one closed reference interval derivative certificate and one complete full-spectrum tensor certified by two actual exact algorithms; startup pin failure preserved/corrected without changing data; final non-author audit complete; next full nodal residual contract written and under independent mathematical review.",
+  "previous_goal_turn_classification": "Substantive progress: two exact full same-node residual runs and full output comparison/final review completed, specified uniform residual budget rigorously refuted, control-family scope sharpened; new same-interval continuous algebra preflight started.",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -358,7 +385,7 @@
     ],
     "A": "2067/160",
     "epsilon_3e_minus_7": "specified function fails saturated-envelope second control inequality at endpoint",
-    "epsilon_2e_minus_7": "conditional beta<129591/3200000<1/24; compatibility with actual reference unpaid",
+    "epsilon_2e_minus_7": "Conditional beta<129591/3200000<1/24 remains valid; compatibility with this actual reference is now strictly refuted at t=5/8 by the completed full nodal certificate.",
     "review": "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_INDEPENDENT_REVIEW.md"
   },
   "nodal_residual_evidence": {
@@ -375,7 +402,7 @@
     "final_non_author_review": "PASS",
     "root_final_review_bindings_checked": 31,
     "readable_witness": "Lambda > 83/10^17, exp(5/2) > 121/10, product > 1/10^14",
-    "epsilon_2e_minus_7": "not decided even by the exact selected-mode lower bound; 13 Lambda < 4/10^14",
+    "epsilon_2e_minus_7": "The historical 24-mode lower bound alone did not decide this budget. Later complete full-node certificate now strictly refutes it; see full_nodal_residual_evidence.",
     "original_ns_conclusion": false,
     "retry_allowed": false,
     "separate_release": false
@@ -412,11 +439,11 @@
     "rerun_allowed": false
   },
   "continuous_residual_arithmetic_preflight": {
-    "status": "ANALYTIC_PATH_ACCEPTED_SINGLE_TENSOR_COST_AND_OUTPUT_INDEPENDENTLY_PAID_FULL_NODE_PENDING",
+    "status": "ANALYTIC_PATH_ACCEPTED_SINGLE_TENSOR_AND_FULL_NODE_INDEPENDENTLY_PAID_CONTINUOUS_INTERVAL_PENDING",
     "method": "3D exact Kronecker integer convolution, optional fixed 96-bit centers with proved conservative input error",
     "root_independent_analytic_review": "PASS",
     "scientific_kernel_executed": true,
-    "next_cost_block": "Closed tensor12 must not rerun. Full same-node residual math accepted; implementation preparation only. No whole-window execution."
+    "next_cost_block": "All completed node and tensor kernels remain closed. Pascal prepares same-interval incremental continuous-residual algebra only; no new code or budget locked."
   },
   "peer_exchanges": [
     {
@@ -466,7 +493,7 @@
   },
   "full_nodal_residual_preparation": {
     "contract": "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_CONTRACT.md",
-    "status": "BOTH_ONCE_EXECUTIONS_COMPLETE_PENDING_FULL_COMPARISON_AND_FINAL_REVIEW",
+    "status": "CLOSED_ACCEPTED_DO_NOT_RERUN",
     "root_read": "complete final text, core formula originator; not claimed as non-author independent review",
     "independent_reviewer": "driver_contract_review Rawls",
     "implementation_prepared": true,
@@ -490,7 +517,7 @@
     "rerun_allowed": false
   },
   "full_nodal_residual_evidence": {
-    "status": "ACTUAL_PRIMARY_AND_BLIND_INDEPENDENT_COMPLETE_FULL_COMPARISON_PENDING",
+    "status": "PASS_TWO_ACTUAL_KERNELS_FULL_COMPARISON_NON_AUTHOR_FINAL_REVIEW",
     "node": 1280,
     "time": "5/8",
     "source_commit": "10df40f9bbebbe3086f3a7d0bc1a1d5301fb4505",
@@ -515,7 +542,43 @@
       "r2": "REFUTED_AT_FIXED_NODE_FOR_FIXED_EPSILON_2E_MINUS_7"
     },
     "rerun_allowed": false,
-    "scope": "Exact-reference single node; full agreement and final review pending; no actual NS/full-window conclusion",
-    "separate_release": false
-  }
+    "scope": "Same exact reference node only, center field fully compared and original residual norm paid via E; epsilon2e-7 uniform envelope refuted, original NS open",
+    "separate_release": false,
+    "comparison_source_commit": "b9921bdd",
+    "comparison_sha256": "f2ccad0d3a963e1a0bdbf0e9695e2979271807201ef3427964b2a11052511ed8",
+    "new_tensor_scalars_equal": 359370,
+    "residual_rational_components_equal": 215622,
+    "V_S_outputs_checked": 35937,
+    "comparison_source_bindings": 68,
+    "negative_controls_rejected": 10,
+    "final_review": "PASS_NON_AUTHOR_SCIENTIFIC_SCOPE",
+    "final_review_sha256": "6d191cdb7be53601617754769b55b50be6346e5abfc2ca93083bf0518be7bc69",
+    "root_final_bindings": 30,
+    "readable_strict_necessary_epsilon": "epsilon > 2.38018447116e-7",
+    "comparison_rerun_allowed": false
+  },
+  "nodal_control_family_interface": {
+    "status": "PASS_CONDITIONAL_ALGEBRA_AND_ARCHIVAL_CROSS_MULTIPLICATIONS",
+    "file": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
+    "review": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md",
+    "root_bindings": 7,
+    "scope": "Node requirement incompatible with coarse guaranteed sufficient range; whole explicit family not excluded; no third epsilon choice or experiment"
+  },
+  "one_segment_residual_increment_preparation": {
+    "status": "ANALYTIC_DRAFT_IN_PROGRESS_NO_NEW_CODE_OR_EXECUTION",
+    "author": "driver_independent_certificate Pascal",
+    "file": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
+    "interval": "[1280/2048,1281/2048]",
+    "scope": "Reuse all certified constant tensors and nodal residual. Preserve full conservative polynomial residual and whole-theta input error. At most compare direct 4D and incremental packing analytically. No additional node/time-window/parameter experiment.",
+    "independent_review": "not yet assigned; read author final first"
+  },
+  "resume_read_set": [
+    "research/reverse/CHECKPOINT.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_FINAL_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
+    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md"
+  ],
+  "resume_read_note": "Read current checkpoint and this small read set first; older accepted required_files are provenance, not an instruction to reread or rerun them. If Pascal new draft exists, read its actual latest text and messages before assigning another author.",
+  "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md"
 }
