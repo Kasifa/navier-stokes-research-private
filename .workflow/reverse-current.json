@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Primary run is complete and MUST NOT rerun. Independent source 1e9c9ee5, system review 4130f823, root full review 4b88d9e4 and actual static 176f1ad7 are accepted. Commit these exact sources, then root launches the unique independent fixed-I run. On resume FIRST inspect its exclusive output directory and external stdio; if present continue actual run acceptance, never launch again. Pascal prepares data-only comparison code; its actual independent run/output pins must await successful real execution. No scientific retry, old kernel, new node/window/epsilon or publication work.",
+  "next_action": "Both one-segment scientific kernels are complete and root byte/exit/resource accepted; NEVER rerun either. Pascal implements data-only full comparator with actual both run/result/receipt/root-exit pins. Pauli independently reviews all comparator source while root full-reads it; resolve issues, commit exact source/reviews and then root runs one complete comparison with all seven same-validator witness mutations and two arithmetic edge cases. Rawls audits remaining derivative-envelope scope analytically only. No new array scan, node/window/epsilon, closed kernel or publication work.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: \u6309\u65e2\u5b9a\u7684\u7b56\u7565\u6301\u7eed\u5f00\u5c55\u7814\u7a76; \u5982\u65e0\u7279\u522b\u9700\u8981\u6211\u6765\u786e\u8ba4\u7684\uff0c\u4f60\u5c31\u6301\u7eed\u5f00\u5c55\u4e0b\u53bb\uff0c\u4e0d\u9700\u8981\u505c\u987f",
@@ -313,7 +313,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "4ba46f2cb260193051073dbd43373faab167d50d6e150cc58b9cae5a9879aa2a",
+    "research/reverse/CHECKPOINT.md": "97bb95288d4eb2ef60ee429d414fb98b5a1076e656e2503c8ca1a43e3e03a484",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -323,7 +323,8 @@
     "research/reverse/fixed-seed-global-screen/one-segment-execution-contract-root-bindings.json": "32ac48b07a681b1e5aaa9e26532f8b7d19020ab198fffc587e7261c7e54bd527",
     "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json": "752a67491ee285c683826a9a18edc7cb0a5b9004f7e4a5549ef1424b16e09e7e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_ROOT_SOURCE_REVIEW.md": "4b88d9e462d3a63deda294ce50e66427a2eb951e909a80206b1e0f4e9f44c36b",
-    "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b"
+    "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b",
+    "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json": "5265d2ebe8a3af7bd822ecdcef2f68a6e20a567f4d84135af2ccabd10f154c49"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -362,7 +363,7 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T20:29:33.436498+00:00",
+  "updated_at": "2026-09-07T20:34:24.653241+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "PROGRESS: reviewed and committed exact segment execution/comparison contracts, 20 small exact checks, two source implementations actively assigned; no science kernel run yet",
   "completed_unreleased_audits": [
@@ -629,8 +630,8 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_ROOT_SOURCE_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json",
+    "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md"
   ],
   "resume_read_note": "Use current checkpoint and actual unique run artifacts first. Review full mathematical sources when arguments require them. Closed old node/trajectory kernels are immutable inputs, not restart instructions.",
@@ -656,7 +657,7 @@
     "science_execution": false
   },
   "one_segment_residual_execution_preparation": {
-    "status": "PRIMARY_ACCEPTED_INDEPENDENT_SOURCE_REVIEWED_READY_FOR_UNIQUE_RUN",
+    "status": "BOTH_UNIQUE_KERNELS_ACCEPTED_FULL_COMPARATOR_SOURCE_IN_PROGRESS",
     "primary_author": "driver_independent_certificate Pascal",
     "primary_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
     "independent_author": "driver_contract_review Rawls",
@@ -724,6 +725,22 @@
     "system_review_sha256": "4130f8232b7282dbfd4168ea71d1ea666e563b99a6348f2dac10fd4e1d1e687a",
     "static_record_sha256": "176f1ad7c741605581a7ee22b4ba8f66c08a5a5150dd0d6a66e34843dff634b7",
     "config_sha256": "1004a2cf47a0dc18d055326a6bfd4aa99109f75ff78779a10540b840bc1a5938",
-    "status": "ROOT_AND_SYSTEM_REVIEW_PASS_NOT_YET_RUN"
+    "status": "UNIQUE_RUN_COMPLETED_ROOT_ACCEPTED"
+  },
+  "one_segment_independent_residual_evidence": {
+    "source_commit": "616b7ec2f3f6e0578bf07b9ced2ad6ccb1bc9cc9",
+    "run_sha256": "85ef60b89269eb2aacde9d054ef7eb055b22495e8cc3e6662094b14d557fc082",
+    "result_sha256": "08db4607d178a5d69bbec053eeb21563f00dcc9d75faeddb91ff74d47616c9b9",
+    "final_receipt_sha256": "7066e7c7499e5b57a392eb2408a0a0f63315cb4dcbd77db8a54154ef2353d1a9",
+    "root_acceptance": "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json",
+    "root_acceptance_sha256": "5265d2ebe8a3af7bd822ecdcef2f68a6e20a567f4d84135af2ccabd10f154c49",
+    "observed_exec_exit_code": 0,
+    "wall_seconds": 83.7886416669935,
+    "all_process_highwater_sum_bytes": 710754304,
+    "actual_all_output_bytes": 169426849,
+    "new_gaussian_products": 2171496960,
+    "new_scalar_products": 8685987840,
+    "status": "INDEPENDENT_RUN_ACCEPTED_PENDING_COMPLETE_DATA_COMPARISON",
+    "rerun_allowed": false
   }
 }

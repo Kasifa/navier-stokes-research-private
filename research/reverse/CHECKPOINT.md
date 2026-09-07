@@ -12,7 +12,9 @@
 
 主端整段上界 rbar0 约6.35029949379e-10、rbar2约6.81934268401e-8，Gamma_I约2.38910304785e-7，严格小于既有充分阈值下界2/8085825；小数只作显示，存档判定用精确有理数。这仍是 PRIMARY_RUN_ACCEPTED_PENDING_FULL_INDEPENDENT_RECOMPUTATION_AND_COMPARISON，不能作为全窗或固定a的NS结论。此前“尚无新科学核运行”仅是上述解析提交时的历史状态。
 
-下一已开工项：独立源码已完整编成，Pauli发现的失败路径问题已修复并实际补读关闭；最终源码1e9c9ee5、系统终审4130f823、根完整源码审查4b88d9e4、实际静态记录176f1ad7，均限定PASS，尚未运行科学核。现在固定源提交后由根安排其唯一一次完整直接复算；恢复时先查one-segment-residual-independent-trial-01及外置stdout/stderr是否已存在，存在即接续验收其真实状态，绝不重复启动。Pascal同时按已审比较合同编写 compare_one_segment_residual.py，已读主实际schema和独立源码固定schema；独立run/output的SHA须待真实结果后再锁，禁止占位hash和比较试跑。各核只允许同一I，各自600秒/2GiB/512MiB，不新增节点、参数、精度或窗口。独立路径完整六张量乘15非恒定时间对乘4912²有序空间对，禁止重算旧C0*C0、全G² object矩阵或数据掩码。未来完整主D_f→deltaT、W/S、系数、误差及Bernstein比较；独立Gamma从其rbar精确导出，允许主更宽上界未认证而独立通过，禁止反向分类矛盾。
+独立核亦已在源码提交616b7ec2f3f6e0578bf07b9ced2ad6ccb1bc9cc9唯一执行完成：2,171,496,960个新增复乘法、8,685,987,840个实整数乘法，11二进制169,192,128B，用时83.789秒，全部进程高水位和710,754,304B，全输出169,426,849B。源码1e9c9ee5、系统终审4130f823、根完整源码审查4b88d9e4；实际exit0和final-receipt/run/末行stdout、全部11档案及六worker资源已由根验收。run SHA85ef60b89269eb2aacde9d054ef7eb055b22495e8cc3e6662094b14d557fc082，result SHA08db4607d178a5d69bbec053eeb21563f00dcc9d75faeddb91ff74d47616c9b9，receipt SHA7066e7c7499e5b57a392eb2408a0a0f63315cb4dcbd77db8a54154ef2353d1a9，根验收 one-segment-independent-root-execution-acceptance.json SHA5265d2ebe8a3af7bd822ecdcef2f68a6e20a567f4d84135af2ccabd10f154c49。禁止重跑独立核；尚未做两核完整科学数据比较。
+
+下一已开工项：Pascal按已审比较合同编写 compare_one_segment_residual.py，现已取得双方真实run/result/receipt/根exit验收pins；Pauli独立审其实际源码，根也将全文审读，稳定源提交后才由根唯一执行完整数据比较。源码未审不试跑。完整主D_f→deltaT、W/S、原系数、新C、误差及Bernstein比较，7个实际非零见证变异须经同一validator拒绝，另核两项小floor/root边界。独立Gamma从其rbar精确导出，允许主更宽上界未认证而独立通过，禁止反向分类矛盾。Rawls并行仅审既有导数包络输入到底已支付哪些条件，并给至多一个下一最小有界合同；不做新数组/扫描。仍不新增节点、参数、精度或窗口，不重算已关闭核。
 
 旧 n1280 完整残差两核、全部对照及终审已在 d0fa57c7 关闭，不得重跑；原 r2 exp(5/4)>2.38018447116e-7。唯一节点生产、单段导数、旧单张量核也全部关闭。已有终点界 X_*<1/2 不能替代实际导数/残差全窗条件。不得根据平台目标中已过时的 LocalPressureScreen 下一步重启已关闭工作。
 

@@ -1,0 +1,256 @@
+{
+  "actual_all_output_bytes_after_exit": 169426849,
+  "binary_bindings": {
+    "S.i544le.bin": {
+      "bytes": 31768308,
+      "sha256": "e2beefbfb96caa9e04efb3910142ed195331a1dc3a47e3f889e5231c312a4b73"
+    },
+    "W.i272le.bin": {
+      "bytes": 51318036,
+      "sha256": "d73bf00e36d2d1c5b6cca68d48114eb4a1c4d2569bb2809c842cb3e9b0f5100a"
+    },
+    "centers-c96.i128le.bin": {
+      "bytes": 1886208,
+      "sha256": "7a2967235e08a2826d0341a2de1f0d9825ec1ca0113f2c505236fcf8debe6d2b"
+    },
+    "delta-T11.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "7794d17f4d77cbf3ad37c568cfb1d39d22f6dfbc796d145155e35c3039cb6291"
+    },
+    "delta-T12.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "41b2fa3194976f6a48491e4026723a4e5cb807676c8cca5227c52fc0111a98d4"
+    },
+    "delta-T13.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "06e1e6eb4c5d33ecc1452a2731477258d03e42f75fde9815bf956eb3aae7c46e"
+    },
+    "delta-T22.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "039eba87d1ee424ba29699eb0c1034eee32890f7ab7367b6f9087e0a19b5dc68"
+    },
+    "delta-T23.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "e1c8444f87809b9057a66cff21dd07879ae946ddb1a01239e648b07aee53b936"
+    },
+    "delta-T33.i248le.bin": {
+      "bytes": 13368564,
+      "sha256": "15dceadca022c04f78e9f0298886a4fa68bb98d7eb61eac24b0917837982e947"
+    },
+    "hermite-AH.i128le.bin": {
+      "bytes": 1886208,
+      "sha256": "154c291a333e2556dae953d226899e8f90e054f2e0648ef6e845d69aecb21d15"
+    },
+    "rounding-floor-rem.i128-u16le.bin": {
+      "bytes": 2121984,
+      "sha256": "73d689ee0cefb7ecb05035a90aa5490ca9459a918ae3e1f2ff96b2f7770213df"
+    }
+  },
+  "checked_at_utc": "2026-09-07T20:32:38.973739+00:00",
+  "cross_implementation_scientific_comparison_performed": false,
+  "exec_exit_evidence": "root write_stdin tool completion for unique session 49976; not inferred from run JSON",
+  "final_receipt_observation": {
+    "all_process_highwater_sum_bytes": 710754304,
+    "children": {
+      "14464": {
+        "observed_highwater_bytes": 67026944,
+        "started_at": "2026-09-07T20:29:49.459964+00:00",
+        "tensor": "11",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:56.717494+00:00",
+          "highwater_bytes": 67026944,
+          "status": 0
+        },
+        "worker_report_sha256": "d213860bb25290cd779471e3e703c00c0e911f006a3fd5757cb9fd360106a264",
+        "worker_reported_highwater_bytes": 66617344
+      },
+      "14465": {
+        "observed_highwater_bytes": 66928640,
+        "started_at": "2026-09-07T20:29:49.460615+00:00",
+        "tensor": "12",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:57.350650+00:00",
+          "highwater_bytes": 66928640,
+          "status": 0
+        },
+        "worker_report_sha256": "136939b18c59b00b3825f268769a011fc5bc3f825644cde7d3cf5268548bf9eb",
+        "worker_reported_highwater_bytes": 66551808
+      },
+      "14466": {
+        "observed_highwater_bytes": 66977792,
+        "started_at": "2026-09-07T20:29:49.461151+00:00",
+        "tensor": "13",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:57.139693+00:00",
+          "highwater_bytes": 66977792,
+          "status": 0
+        },
+        "worker_report_sha256": "0a7b1e9302e74a80c1088f76da4061f66f1da2ffa5a6d6f337d6adcead339b7f",
+        "worker_reported_highwater_bytes": 66584576
+      },
+      "14467": {
+        "observed_highwater_bytes": 66961408,
+        "started_at": "2026-09-07T20:29:49.461890+00:00",
+        "tensor": "22",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:57.350661+00:00",
+          "highwater_bytes": 66961408,
+          "status": 0
+        },
+        "worker_report_sha256": "4c34f5fe14f124086b743aa1f7ce2eb1d371f31be15cedad5b76d6db6409bef8",
+        "worker_reported_highwater_bytes": 66568192
+      },
+      "14468": {
+        "observed_highwater_bytes": 66879488,
+        "started_at": "2026-09-07T20:29:49.462635+00:00",
+        "tensor": "23",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:56.928728+00:00",
+          "highwater_bytes": 66879488,
+          "status": 0
+        },
+        "worker_report_sha256": "e4e3b00778baa59ba591140c71d117bf69a786a7654b71e861f360792867354c",
+        "worker_reported_highwater_bytes": 66486272
+      },
+      "14469": {
+        "observed_highwater_bytes": 66945024,
+        "started_at": "2026-09-07T20:29:49.464272+00:00",
+        "tensor": "33",
+        "wait4": {
+          "exit_code": 0,
+          "finished_at": "2026-09-07T20:30:57.350664+00:00",
+          "highwater_bytes": 66945024,
+          "status": 0
+        },
+        "worker_report_sha256": "b9e110e1802b4ed243bbb7c7a96533e8ca874b017afa22f2146f825860dcd72b",
+        "worker_reported_highwater_bytes": 66551808
+      }
+    },
+    "cleanup_errors": [],
+    "elapsed_seconds": 83.7886416669935,
+    "fork_preflight": {
+      "native_task_threadnum": 1,
+      "pid": 14452,
+      "python_active_count": 1,
+      "utc": "2026-09-07T20:29:49.458619+00:00"
+    },
+    "highwater_source": "parent getrusage SELF; every child wait4 ru_maxrss bytes",
+    "output_bytes": 169423190,
+    "output_observation": {
+      "all_output_bytes": 169423190,
+      "descriptors": {
+        "1": {
+          "bytes": 3607,
+          "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-independent.stdout.log",
+          "regular_file": true
+        },
+        "2": {
+          "bytes": 0,
+          "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/one-segment-residual-independent.stderr.log",
+          "regular_file": true
+        }
+      },
+      "directory_bytes": 169419583,
+      "external_stdout_stderr_bytes": 3607,
+      "metadata_and_external_log_bytes": 231062
+    },
+    "parent": {
+      "highwater_bytes": 309035008,
+      "pid": 14452,
+      "started_at": "2026-09-07T20:29:47.639104+00:00"
+    },
+    "rss_source": "macOS proc_pidinfo TASKINFO resident bytes",
+    "sample_interval_seconds": 0.2,
+    "samples": 411,
+    "simultaneous_rss_peak_bytes": 385859584
+  },
+  "final_receipt_sha256": "7066e7c7499e5b57a392eb2408a0a0f63315cb4dcbd77db8a54154ef2353d1a9",
+  "new_gaussian_products": 2171496960,
+  "new_scalar_products": 8685987840,
+  "observed_exec_exit_code": 0,
+  "result_sha256": "08db4607d178a5d69bbec053eeb21563f00dcc9d75faeddb91ff74d47616c9b9",
+  "root_source_review_sha256": "4b88d9e462d3a63deda294ce50e66427a2eb951e909a80206b1e0f4e9f44c36b",
+  "run_sha256": "85ef60b89269eb2aacde9d054ef7eb055b22495e8cc3e6662094b14d557fc082",
+  "schema": "one-segment-independent-root-execution-acceptance-v1",
+  "scientific_kernels_recomputed_by_this_acceptance": false,
+  "scope": "one fixed reference interval only; no full-window or NS conclusion",
+  "source_commit": "616b7ec2f3f6e0578bf07b9ced2ad6ccb1bc9cc9",
+  "source_sha256": "1e9c9ee576049bd444ed07e858175b113bdb09d3719f1ab69820a3536564ca79",
+  "status": "INDEPENDENT_RUN_ACCEPTED_PENDING_COMPLETE_DATA_COMPARISON",
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 3607,
+    "sha256": "2041297784132306beaa216b490a430159a4f83cf02ebacc74b42f6a94fdf7ea"
+  },
+  "tool_session": 49976,
+  "workers": {
+    "14464": {
+      "record_sha256": "d213860bb25290cd779471e3e703c00c0e911f006a3fd5757cb9fd360106a264",
+      "tensor": "11",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:56.717494+00:00",
+        "highwater_bytes": 67026944,
+        "status": 0
+      }
+    },
+    "14465": {
+      "record_sha256": "136939b18c59b00b3825f268769a011fc5bc3f825644cde7d3cf5268548bf9eb",
+      "tensor": "12",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:57.350650+00:00",
+        "highwater_bytes": 66928640,
+        "status": 0
+      }
+    },
+    "14466": {
+      "record_sha256": "0a7b1e9302e74a80c1088f76da4061f66f1da2ffa5a6d6f337d6adcead339b7f",
+      "tensor": "13",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:57.139693+00:00",
+        "highwater_bytes": 66977792,
+        "status": 0
+      }
+    },
+    "14467": {
+      "record_sha256": "4c34f5fe14f124086b743aa1f7ce2eb1d371f31be15cedad5b76d6db6409bef8",
+      "tensor": "22",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:57.350661+00:00",
+        "highwater_bytes": 66961408,
+        "status": 0
+      }
+    },
+    "14468": {
+      "record_sha256": "e4e3b00778baa59ba591140c71d117bf69a786a7654b71e861f360792867354c",
+      "tensor": "23",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:56.928728+00:00",
+        "highwater_bytes": 66879488,
+        "status": 0
+      }
+    },
+    "14469": {
+      "record_sha256": "b9e110e1802b4ed243bbb7c7a96533e8ca874b017afa22f2146f825860dcd72b",
+      "tensor": "33",
+      "wait4": {
+        "exit_code": 0,
+        "finished_at": "2026-09-07T20:30:57.350664+00:00",
+        "highwater_bytes": 66945024,
+        "status": 0
+      }
+    }
+  }
+}
