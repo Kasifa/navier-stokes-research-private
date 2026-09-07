@@ -1,0 +1,311 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "NO-CANDIDATE; PRECISE STATIC BOUNDARIES AND A REAL-NS CONDITIONAL LOCAL RESIDENCE OBSTRUCTION",
+    "literature": "Tsai 1998 Theorems 1-2 and 1999 erratum already in first-cycle; exact candidate admits the local Theorem 2 exclusion if it satisfied NS, whereas asymptotic transfer needs separate work",
+    "open": [
+      "A genuine time-dependent regenerating mechanism supplied by the same original solution",
+      "Uniform iteration for one fixed datum through infinite scales",
+      "Infinite-dimensional iterative error estimates",
+      "Finite total time and singularity"
+    ],
+    "proved": [
+      "The single prescribed compact radial-strain path fails exact energy and its full normalized center-gradient residual contract",
+      "The full periodic exterior stress obeys the stated energy-distance Hessian bound, with sharp exponent only in the static energy-controlled function class",
+      "A fully specified NON-NS path meets exact energy equality, finite dissipation, full periodic pressure recovery and full normalized center residual convergence; an explicit curl residual remains nonzero",
+      "Any actual NS solution inside the specified fixed local C3 tube for the rescaled outer shape has each continuous residence interval of logarithmic length at most 8 epsilon/Q, with viscosity retained and without a small time-derivative assumption"
+    ],
+    "scope_limits": [
+      "No singularity candidate accepted",
+      "No generic exclusion of nonstationary concentration, reentry, other topologies, modulated shapes, or other scales",
+      "Static for-each-scale fields and a fixed-initial-value NON-NS path do not constitute a single genuine NS trajectory",
+      "No numerical values claimed for the analytic Green, energy or residence constants",
+      "No novelty, human peer review or formal proof-assistant claim"
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [],
+  "dependency_ledger": "research/reverse/exterior-pressure/source-hashes.json",
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 3979,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/CONTRACT.md",
+      "sha256": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b"
+    },
+    {
+      "bytes": 13920,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/DERIVATION_DRAFT.md",
+      "sha256": "8b80d35cb940ad4214a7aa94e62af1bdb80a2d1303ce25e90e3ee75fd4c5f299"
+    },
+    {
+      "bytes": 4969,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "sha256": "ce36ecb367122399647989ac8a286f0cf9b8058d83fa7634de9b53dd3100daa2"
+    },
+    {
+      "bytes": 8710,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "sha256": "4ed11ff07a1d46c09617a16f8579938dd16b9660d47fb4eadb5c04f7901e5e97"
+    },
+    {
+      "bytes": 2518,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/LITERATURE_BOUNDARY.md",
+      "sha256": "812269c006d972c484de0cb46ecd195f1eed92ecd80953875cdd62354d2ef54c"
+    },
+    {
+      "bytes": 2451,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/OUTCOME.md",
+      "sha256": "d0c3123589f13b19692c6b2116a23f7e08e4f584f2d85404e03753b0feeec372"
+    },
+    {
+      "bytes": 13913,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/PROOF.md",
+      "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1"
+    },
+    {
+      "bytes": 9796,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/SOURCE_REVIEW.md",
+      "sha256": "1f49a4c3665b5b84842fcaf39f4afc5693b9d33483bbe57e62993205f99f4653"
+    },
+    {
+      "bytes": 1157,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/next-concentration/central-algebra.json",
+      "sha256": "fa192f061c8e0583d9a0d633ff0311743afb8262db6135784f78bf78db6eb69c"
+    },
+    {
+      "bytes": 2388,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/CONTRACT.md",
+      "sha256": "2f81a514f1d521cbc8dd5f0cc4f8a544392d5737da38d2c277be5f0dfdc06e2d"
+    },
+    {
+      "bytes": 10115,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/DERIVATION_DRAFT.md",
+      "sha256": "e9fa2eadb90d72327c42c006d7d2f6aac9888aae7fdde450291e6e13957c7ac1"
+    },
+    {
+      "bytes": 9536,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/FINAL_PACKAGE_REVIEW.md",
+      "sha256": "959758e9026f6a948b76e516e008bc18d726df9035ec6bf0993dce9b7d19d3a2"
+    },
+    {
+      "bytes": 9393,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "sha256": "bf85ec985c0703712b631344b0eeb8f982c5a2ceb4f7a76f9a911a41eadb5399"
+    },
+    {
+      "bytes": 1936,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/JOINT_TEST_CONTRACT.md",
+      "sha256": "8d0f8a3b8e4e81181078967932eb975e12e73dd8e95732ab050da0b35776511c"
+    },
+    {
+      "bytes": 8081,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+      "sha256": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91"
+    },
+    {
+      "bytes": 12280,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "sha256": "92188f9c259278777af0bdc4077fc60d92d80a98e8b3efc60f058d504593a308"
+    },
+    {
+      "bytes": 3212,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/OUTCOME.md",
+      "sha256": "17024e2a79907d19f6d25c2d3261f58b899f9f269626f30cb841e22ccd301d7e"
+    },
+    {
+      "bytes": 10163,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9"
+    },
+    {
+      "bytes": 1095,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/RESCALED_EXIT_CONTRACT.md",
+      "sha256": "31c9b603144d5b0b5544caecb6de37ab7d04c8d0803b400ad3c5e63396534543"
+    },
+    {
+      "bytes": 4565,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md",
+      "sha256": "e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78"
+    },
+    {
+      "bytes": 9121,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "sha256": "d9b29618ec836e0d3ea3a63fde0888db59add6b289dc7900c84a0e748601a0d6"
+    },
+    {
+      "bytes": 1380,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent-joint-check.txt",
+      "sha256": "772d297e1c3bc7e57d4df3bf000b2acc6a63e39f0cb5ce66bf908b03e558d93f"
+    },
+    {
+      "bytes": 1574,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent-joint-run.json",
+      "sha256": "9f02f7617aea595377a6c0addf594175398bb3f02b4c49c00243c4c46369a8d2"
+    },
+    {
+      "bytes": 107,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent-kernel-check.txt",
+      "sha256": "6807a29d02058a171184a4637bdb7c96e043e2a6a7146bcc984cd5b74e33fbd9"
+    },
+    {
+      "bytes": 736,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent-kernel-run.json",
+      "sha256": "ef03cea65cbd59fa93571b7fa041b9c3f78ef554b65afa3e91f7088b3aae9c32"
+    },
+    {
+      "bytes": 1864,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent_joint_check.py",
+      "sha256": "2e33e2df6a481d057176d968f590cbcf7284498d4bfa7e1a1cc6e64e9b5e1b01"
+    },
+    {
+      "bytes": 1486,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/independent_kernel_check.py",
+      "sha256": "a0b530537d5d669cf9fddad84ea0b7a1efc8268238fc1985ab73744528abd5fc"
+    },
+    {
+      "bytes": 2465,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/rescaled-exit-review-scalars.run.json",
+      "sha256": "2739e999cc0f4b48875d675e3787b23b333db308d981e5912fc105297cc561b2"
+    },
+    {
+      "bytes": 640,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/rescaled-exit-review-scalars.stdout.txt",
+      "sha256": "15588dba3b987d143d2ea1aba3ecc84c37389a6838ba3fa3af45238375208f39"
+    },
+    {
+      "bytes": 798,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/rescaled_exit_review_scalar_checks.py",
+      "sha256": "5766581233ef845e993d7910f83684a8d0db30f545185430f758c7263e37b6d7"
+    },
+    {
+      "bytes": 9753,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/root-binding-check.json",
+      "sha256": "1a4302f9d433116b0158f0601b316e0d78e31a2fd85831240bb15d487a2397bd"
+    },
+    {
+      "bytes": 760,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/root-joint-rerun.json",
+      "sha256": "89345860f9bba14bd5529c5f5be2bc62193841f13752cba15300193425185d9c"
+    },
+    {
+      "bytes": 718,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/root-kernel-rerun.json",
+      "sha256": "cdb0e70438073832d936d9d8e95ffe8c52162ee41b4091a0e912d7154039de40"
+    },
+    {
+      "bytes": 653,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/root-rescaled-rerun.json",
+      "sha256": "f82908f0085a9814e7c6a61b290ec498293b627bb93e5a56c51cf66ea463c7c6"
+    },
+    {
+      "bytes": 4937,
+      "commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "path": "research/reverse/exterior-pressure/source-hashes.json",
+      "sha256": "de32cf573b41a0650ee51ca2a142cad718cfbd0e6288d5adaadfa2b6b772a9fb"
+    },
+    {
+      "bytes": 12310,
+      "commit": "5237c77d586efd267f9185182534d992152d76ba",
+      "path": "research/reverse/exterior-pressure/freeze.json",
+      "sha256": "71e22006160b590fec66908265f644f8749894cd96ab8df6a4d26e7153e782db"
+    }
+  ],
+  "freeze_commit": "5237c77d586efd267f9185182534d992152d76ba",
+  "freeze_commit_binding": "Containing commit supplied separately in the one-time handoff; goal continues after bounded research completion",
+  "historical_dependencies": [
+    {
+      "bytes": 15374,
+      "path": "research/reverse/first-cycle/SOURCES.md",
+      "read_scope": "History only: section 5 FA/FCB boundary and section 6 item 5 already-read Tsai 1998 plus 1999 erratum; not re-certification of entire first-cycle package",
+      "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b"
+    },
+    {
+      "bytes": 13572,
+      "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "read_scope": "History only: current turn read lines 180-315, section 4 FCB.14-18 full countermodel and section 5 scope; not a scientific estimate dependency",
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15"
+    }
+  ],
+  "milestone_recap_required": true,
+  "milestone_scope": "Closure of this fixed local-pressure candidate and its static/dynamic boundary tests only",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260907-GlobalPacketScreen",
+  "private_milestone_record": "research/reverse/exterior-pressure/OUTCOME.md",
+  "public_export_authorization": "No new scientific core, formulas, proof, figures, code, data, parameters, certificates or reconstructible route authorized for public export",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260907-LocalPressureScreen",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "a341a095a7aa0fb7715cc6156b66fe929dfca572"
+  ],
+  "scientific_source_commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+  "source_commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "actual_root_reruns": [
+      "independent_kernel_check.py: 81 integer derivative components plus the original rational cone/sign checks",
+      "independent_joint_check.py: original rotations, support and curl-point exact arithmetic, parsed and semantically asserted by root",
+      "rescaled_exit_review_scalar_checks.py: ten original Fraction identities, root rerun and byte comparison"
+    ],
+    "aggregate_review_file_bindings": 18,
+    "certificate_scope": "Finite arithmetic supports the analytic proof; independent mathematical reviews are separate and do not certify each others unaudited claims",
+    "independent_mathematical_components": 4,
+    "new_numerical_PDE_experiment": false,
+    "proof_constants": "Defined by convergent integrals or finite suprema, with analytic positivity/finiteness; no numerical interval claimed",
+    "records": [
+      "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "research/reverse/exterior-pressure/FINAL_PACKAGE_REVIEW.md",
+      "research/reverse/exterior-pressure/root-binding-check.json",
+      "research/reverse/exterior-pressure/root-kernel-rerun.json",
+      "research/reverse/exterior-pressure/root-joint-rerun.json",
+      "research/reverse/exterior-pressure/root-rescaled-rerun.json"
+    ],
+    "scientific_review_file_bindings": 36,
+    "source_ledger_local_bindings": 10,
+    "status": "PASS"
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
