@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ACTUAL_BYTES_AND_ANALYTIC_REVIEW",
+  "scientific_kernel_executed": false,
+  "records": [
+    {
+      "path": "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_PREFLIGHT.md",
+      "sha256": "4aaaa57692f2f5a7a70390eca23f4a26076c22bd99d1eb70f28126c627fb973e",
+      "role": "time control actual source byte check"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_DERIVATION.md",
+      "sha256": "2b1be8ad9612b10a019c4cdb43c74b7ae5f76e739d0ee572ba4decb1d3013fbc",
+      "role": "time control actual source byte check"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md",
+      "sha256": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251",
+      "role": "time control actual source byte check"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_REFINEMENT.md",
+      "sha256": "d6ab251e47d5818078f045d3f0ab7aae778e8e624c468633c360a9ed08930e01",
+      "role": "root actual full read or authored derivation; R0.73N relevant sections 3-5"
+    },
+    {
+      "path": "research/r073n_report-source.md",
+      "sha256": "40fbfb966b07cff7a056f817ebf816b160afacc8155e63dbebc65382495b374c",
+      "role": "root actual full read or authored derivation; R0.73N relevant sections 3-5"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_20260907.md",
+      "sha256": "0008aef30fe1bf6364e924b17d2830e0ed42b47da4cb5d2445feac980c8de3a4",
+      "role": "root actual full read or authored derivation; R0.73N relevant sections 3-5"
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_ROOT_REVIEW.md",
+      "sha256": "1e6d277f0bc104a51be9d48a4028fe0ea562141607418d1ccf658fe82d75ac64",
+      "role": "root actual full read or authored derivation; R0.73N relevant sections 3-5"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Do not rerun completed producer, node gates or residual lower kernels. Exact old residual envelope refutation and independent final review are complete. Root has derived STRAIN_CONTROL_REFINEMENT.md, Rawls is independently reviewing it; Pascal completed TIME_DEPENDENT_CONTROL_PREFLIGHT.md and root review, and is preparing ONE_SEGMENT_DERIVATIVE_CONTRACT.md / audit_one_segment_derivative.py for fixed interval n1280, not run. Pauli is completing CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md. Read actual files/messages, review before one bounded new execution; no duplicate work or expanded 24-mode test.",
+  "next_action": "Do not rerun completed kernels. Nodal residual source/results committed d4a426ac. Strain coefficient S.1-S.3 and time-dependent scalar control now independently reviewed and combined in CONTROL_REFINEMENT_OUTCOME.md. Pascal is preparing ONE_SEGMENT_DERIVATIVE_CONTRACT.md / audit_one_segment_derivative.py for exactly interval n1280; Rawls is reviewing its math contract when available. Pauli is completing CONTINUOUS_RESIDUAL_COST_PREFLIGHT.md. Read actual files/messages; root must read source before authorizing one bounded run. No duplicate work, new integration or expanded 24-mode test.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -59,7 +59,14 @@
     "research/reverse/fixed-seed-global-screen/nodal-residual-root-witness.json",
     "research/reverse/fixed-seed-global-screen/nodal-residual-final-record-check.json",
     "research/reverse/fixed-seed-global-screen/nodal-residual-final-review-root-check.json",
-    "research/reverse/fixed-seed-global-screen/nodal-residual-final-root-bindings.json"
+    "research/reverse/fixed-seed-global-screen/nodal-residual-final-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_REFINEMENT.md",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_PREFLIGHT.md",
+    "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/CONTROL_REFINEMENT_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/control-refinement-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -106,7 +113,14 @@
     "research/reverse/fixed-seed-global-screen/nodal-residual-root-witness.json": "c8e3a6e77cffc661d91e831ceb7ec18146f38602a283c21c4673de2b8f3c330d",
     "research/reverse/fixed-seed-global-screen/nodal-residual-final-record-check.json": "24acfd7dd2d284bc6b7c1a2861f0b5a9380d63ad280fc021b3e08a2b2138c32f",
     "research/reverse/fixed-seed-global-screen/nodal-residual-final-review-root-check.json": "6f4ef3109953dcdc3a7b4b70a0e6c47cdf1d35c2b1c99215313eba877a959d5a",
-    "research/reverse/fixed-seed-global-screen/nodal-residual-final-root-bindings.json": "adaac0d416df8d79862a83d6d82b85902917179f208f9ddfc90d29796ebed940"
+    "research/reverse/fixed-seed-global-screen/nodal-residual-final-root-bindings.json": "adaac0d416df8d79862a83d6d82b85902917179f208f9ddfc90d29796ebed940",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_REFINEMENT.md": "d6ab251e47d5818078f045d3f0ab7aae778e8e624c468633c360a9ed08930e01",
+    "research/reverse/fixed-seed-global-screen/STRAIN_CONTROL_INDEPENDENT_REVIEW.md": "628ced02a9107039119dcb1744a718db7e2a4b692444c9867b3c62886e39c42e",
+    "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_PREFLIGHT.md": "4aaaa57692f2f5a7a70390eca23f4a26076c22bd99d1eb70f28126c627fb973e",
+    "research/reverse/fixed-seed-global-screen/TIME_DEPENDENT_CONTROL_ROOT_REVIEW.md": "1e6d277f0bc104a51be9d48a4028fe0ea562141607418d1ccf658fe82d75ac64",
+    "research/reverse/fixed-seed-global-screen/CONTROL_REFINEMENT_OUTCOME.md": "bde19888ce180ed5a720e9f38a2052266738ca008112b08377b344519a4e8d5d",
+    "research/reverse/fixed-seed-global-screen/control-refinement-root-bindings.json": "63b72366a85b77b7e9c0cf72db5335680c34cca0d7f949ba861495ec7b6d21c9",
+    "research/reverse/fixed-seed-global-screen/strain-independent-review-root-check.json": "436d000f66b20f489aec19a786e002fa13b0cfeb96bde5b884d2f9a31770609c"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -123,7 +137,7 @@
   "current_topic": "Same fixed reference: exact old residual cost obstruction complete; next strain coefficient and piecewise control with one fixed Hermite interval derivative bound",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Independent final review of new strain coefficient and actual source review of one fixed interval derivative-bound implementation",
+    "Actual review and one bounded execution of fixed interval n1280 derivative upper-bound contract/code; contract/code still being prepared, no execution yet",
     "Continuous whole-window residual and spatial derivative bounds, positive comparison and infinite-dimensional error remain unpaid",
     "Original fixed datum global status, uniform iteration and finite-time singularity remain open"
   ],
@@ -139,9 +153,9 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal verified on current continuation, no token budget or repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T17:04:23.454664+00:00",
+  "updated_at": "2026-09-07T17:08:46.635402+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "progress: one locked nodal full residual lower test and independent Fraction convolution completed, 24 modes and 32448 ordered pairs agree, six mutation controls rejected, final non-author review passed; old epsilon 1e-7 strictly refuted only for reference; epsilon 2e-7 undecided; new analytic control work underway",
+  "previous_goal_turn_classification": "progress: one locked nodal full residual lower test and independent Fraction convolution completed, 24 modes and 32448 ordered pairs agree, six mutation controls rejected, final non-author review passed; old epsilon 1e-7 strictly refuted only for reference; epsilon 2e-7 undecided; new analytic control work underway; one-sided strain refinement and explicit piecewise positive control independently reviewed, no actual full-window input certificate",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -227,6 +241,15 @@
     "epsilon_2e_minus_7": "not decided even by the exact selected-mode lower bound; 13 Lambda < 4/10^14",
     "original_ns_conclusion": false,
     "retry_allowed": false,
+    "separate_release": false
+  },
+  "control_refinement_evidence": {
+    "status": "PASS_CONDITIONAL_ANALYTIC_INTERFACES_NOT_REFERENCE_CERTIFICATE",
+    "strain": "sigma = sup negative minimum eigenvalue of symmetric reference gradient; coefficients sigma and 3 sigma; fixed initial sigma=2",
+    "non_author_strain_review": "PASS; root full read and four source bindings checked",
+    "time_control": "independent linear alpha then fixed once-per-interval H cap and continuous positive beta; retains square-root, cubic and spectral gap",
+    "non_author_time_control_review": "root full read and hand derivation PASS",
+    "actual_input_envelopes_certified": false,
     "separate_release": false
   }
 }
