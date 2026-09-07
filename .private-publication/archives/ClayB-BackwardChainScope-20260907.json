@@ -1,0 +1,123 @@
+{
+  "base_commit": "f06682e85c9dfbe74e2f4df2573f63f82e7b4549",
+  "claims": [
+    "On fixed unnormalized T3, fixed nu>0 and E0>0, the existing FA/AJ smooth full unforced NS family disproves a uniform square-root-time L1_t L-infinity_x total-speed bound with constant depending only on E0 and nu.",
+    "The strictly positive windows have age and length comparable to N^(-5/2); integrated speed is at least c N^(-1), the square-root-time ratio at least c N^(1/4), and total dissipation on the construction window tends to zero as N^(-1/2).",
+    "The explicitly assumed time-chain windows are internally disjoint when delta<=alpha; the radius sum, a maximum-radius lower bound and the displacement estimate follow by integration and summation.",
+    "An explicitly non-NS scalar example has infinitely many geometric events and a square-root integral modulus on every time interval. It does not satisfy endpoint classical smoothness."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 12364,
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    },
+    {
+      "bytes": 12310,
+      "path": "research/clay_b_short_time_pressure_work_preflight_20260906.md",
+      "sha256": "a8061f7c4fbc8e274414e97561cee4d7d9da7fc52120778e82ee5ab8ab8d14ea"
+    }
+  ],
+  "dependency_commits": [],
+  "dgx": false,
+  "figure_reason": "Pure analytic corollary and explicitly scalar example, no simulation or measured data.",
+  "files": [
+    {
+      "bytes": 8117,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_backward_chain_scope_20260907.md",
+      "sha256": "3e67ea698dd42a0dd0cdef5f1d112558e9f3e9035a99f9758189c10f35ae481a"
+    },
+    {
+      "bytes": 7365,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_backward_chain_audit_20260907.md",
+      "sha256": "bb8030dcbe91c7114ec484fd3dde72b8dd402dbd0e7472abaf80278848a3f514"
+    },
+    {
+      "bytes": 3673,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_backward_chain_checks_20260907.json",
+      "sha256": "3c229f724079b29be0069d00adec0dc4a33fd427034f38039305b8eb36441220"
+    },
+    {
+      "bytes": 3624,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_backward_chain_checkpoint_20260907.json",
+      "sha256": "594fa9bd492f242355e1116052d95c262c75f20e9596ea9a19f9978ee6b7d1e0"
+    },
+    {
+      "bytes": 12364,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a"
+    },
+    {
+      "bytes": 12310,
+      "commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+      "path": "research/clay_b_short_time_pressure_work_preflight_20260906.md",
+      "sha256": "a8061f7c4fbc8e274414e97561cee4d7d9da7fc52120778e82ee5ab8ab8d14ea"
+    },
+    {
+      "commit": "ab5b23e380eae536a362b8b2cf211fcb4f69a1d0",
+      "path": "research/clay_b_backward_chain_release_20260907.json",
+      "sha256": "0ad11efe35b8f5e4ef086397a0bbad895e1eb45b6b3adc6f092edc8fb32ecb32"
+    }
+  ],
+  "freeze_commit": "ab5b23e380eae536a362b8b2cf211fcb4f69a1d0",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "This later manifest binds reviewed files from the scientific source commit; it does not hash itself or the later dispatch receipt. The checkpoint is a source-stage snapshot; current dispatch evidence lives in the separate receipt and research resume index.",
+  "is_clay_result": false,
+  "limitations": [
+    "Changing initial data, not one fixed solution or a fixed-positive-age/terminal-time counterexample.",
+    "Direct FA/AJ corollary, not a new construction, novelty, sharpness, priority or publication-value certification.",
+    "No unconditional critical control, valid periodic transplant of the external theorem, singularity or general regularity conclusion.",
+    "The scalar example is not an NS trajectory. One large radius does not bound the minimum or terminal radius.",
+    "Source PDF/HTML reading is scoped; no full Tao/external-dependency proof audit.",
+    "Only private archival is requested; no new public full text, core details, source attachments, daily-reader PDF or historical whitelist expansion."
+  ],
+  "logical_predecessor": "ClayB-FrequencyActivation-20260907",
+  "next_research_plan": "At most one bounded check of original bounded-total-speed estimates and their energy, initial-regularity and fixed-positive-age dependence. No assumed gain, clock/norm variant or repeat FA construction; if no new same-solution input is obtained, record NO-CANDIDATE for that interface. General3D target remains OPEN.",
+  "normalization_note": "Four new source files and two exact dependencies are bound to their stated scientific commit; the original release manifest is separately bound to the freeze commit. This is a new private-only package, not a repeat release of FA. No public overview authorization.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "arithmetic_checks": 13,
+    "audit": "research/clay_b_backward_chain_audit_20260907.md",
+    "checks": "research/clay_b_backward_chain_checks_20260907.json",
+    "deterministic_primary_runs": 2,
+    "distinct_error_mechanisms": 4,
+    "dual_implementation": false,
+    "independent_nonauthor_math": "C actual main119lines8117B SHA3e67ea698dd42a0dd0cdef5f1d112558e9f3e9035a99f9758189c10f35ae481a; FA full, AJ1-212 and scoped Tao interface.",
+    "independent_same_code_replays": 2,
+    "limits": "Finite arithmetic only; continuous proofs independently reviewed. No external human peer review, novelty, general regularity or public-privacy approval claim.",
+    "negative_control_instances": 5,
+    "record_review": "A bounded actual-file and arithmetic PASS with two checkpoint tense corrections implemented by root; no extra full mathematical review.",
+    "status": "PASS_IN_STATED_SCOPE"
+  },
+  "recap": {
+    "update_required": false
+  },
+  "release_id": "ClayB-BackwardChainScope-20260907",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "PROVED COROLLARY",
+    "CONDITIONAL CHAIN LEMMA",
+    "SCALAR NON-NS EXAMPLE",
+    "NO-CANDIDATE FOR UNCONDITIONAL CLOSURE"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+  "simulation": false,
+  "source_commit": "97ffe9f5835d21c0187fd8ed52a8d32353237052",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
