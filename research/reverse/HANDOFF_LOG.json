@@ -22,6 +22,17 @@
       "sent_at_utc": "2026-09-07T12:36:52.578012+00:00",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260907-GlobalPacketScreen",
+      "source_commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "freeze_commit": "d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": "2026-09-07T12:44:38.543631+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"

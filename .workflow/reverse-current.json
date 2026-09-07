@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Send GlobalPacketScreen once for PRIVATE_ARCHIVE, then define one explicit local concentration/periodic matching contract without extending the rejected six-mode route.",
+  "next_action": "Review the independent derivation of the fixed profile in next-concentration/CONTRACT.md: prove full pressure Hessian covariance and an explicit C*tau^(5/2) periodic Green remainder before deciding the central residual test. No fifth gate/jet expansion of old seed.",
   "resume_action": "Read driver-dominance draft and latest checkpoint; user explicitly resumed research after the recorded pause.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instruction: 恢复研究",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-GlobalPacketScreen",
-  "scientific_status": "PACKET_SCREEN_RESEARCH_COMPLETE_NO_CANDIDATE",
+  "scientific_status": "PACKET_SCREEN_FROZEN_NEXT_PRESSURE_MATCHING_STARTED",
   "accepted": "NO-CANDIDATE for direct regeneration of the six-mode seed: known center gate, failed similarity, and conditional global-copy/self-action energy obstruction.",
   "required_files": [
     "research/reverse/route-screen/ENERGY_SCREEN.md",
@@ -20,7 +20,8 @@
     "research/reverse/route-screen/INDEPENDENT_ENERGY_REVIEW.md",
     "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md",
     "research/reverse/driver-dominance/PROOF.md",
-    "research/reverse/driver-dominance/freeze.json"
+    "research/reverse/driver-dominance/freeze.json",
+    "research/reverse/next-concentration/CONTRACT.md"
   ],
   "required_file_sha256": {
     "research/reverse/route-screen/ENERGY_SCREEN.md": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
@@ -28,26 +29,27 @@
     "research/reverse/route-screen/INDEPENDENT_ENERGY_REVIEW.md": "8eec5f9782d535dfbc673877045563a8f2150da9189b8a2ffee54bef28592cba",
     "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md": "ee33ce0945d16e779a8adee5c001d104753faff7d5e643781be05336f609a790",
     "research/reverse/driver-dominance/PROOF.md": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032",
-    "research/reverse/driver-dominance/freeze.json": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0"
+    "research/reverse/driver-dominance/freeze.json": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0",
+    "research/reverse/next-concentration/CONTRACT.md": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-GlobalPacketScreen",
   "source_commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
   "freeze_manifest": "research/reverse/route-screen/freeze.json",
-  "handoff_state": "NOT_SENT_PENDING_FREEZE",
+  "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "0dbe8a4cf4c61a52e3914e5a66f6d07a65d590e7fe45457e03f7c140d1293d97",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "ac0d704f7ddd69767a41f87bfe95f37b6b69cb74e0e34c53849f16d75c78d11d"
   },
-  "freeze_commit": null,
+  "freeze_commit": "d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Whole-packet route screen completed; preparing exact-scope NO-CANDIDATE freeze",
-  "current_topic_directory": "research/reverse/route-screen",
+  "current_topic": "Fixed radial-cutoff linear-strain concentration: necessary periodic-pressure residual test",
+  "current_topic_directory": "research/reverse/next-concentration",
   "pending": [
-    "Packet-screen source and freeze commits and once-only handoff",
-    "No explicit compatible local concentration profile accepted",
-    "Uniform iteration, fixed-datum infinite scales, infinite-dimensional iterative errors, finite total time and singularity remain open"
+    "Independent concentration derivation in progress; proposed covariance/periodic-tail obstruction not yet accepted",
+    "No compatible concentration profile or iteratable regeneration mechanism accepted",
+    "Uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative errors, finite total time and singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",

@@ -6,7 +6,7 @@
 
 状态 DRIVER_DOMINANCE_RESEARCH_COMPLETE。源码提交94dec8ba1a1a01d291d62ef5252ad575fd4df55d，冻结清单见driver-dominance/freeze.json。主Python28项及6负例、独立Ruby162项实际通过；最终独立审查绑定20文件。零时刻/零输入严格符号及负贡献去向措辞已经修订，R0.10同中心门碰撞已经补核。不声明新颖性或真人同行评审。该冻结包已一次PRIVATE_ARCHIVE交接；冻结提交32cddf5dfa060321016e0da5ebd1c7eabd8a3278，记录在HANDOFF_LOG.json，不重投或监控。
 
-后续有界筛选 `route-screen/` 已完成独立审查：NO-CANDIDATE。当前中心门与R0.10碰撞；循环三元组Gram不复制轴模板；同初值有限能量排除满足指定自作用/黏性强度合同的全域整数倍频复制，K≥2即失败。此合同不是任意级联必要条件，同一原解的单波对产生给出反例边界。另有完整补谱内部自作用平衡，证明单模正输入由其它补谱净负项精确抵消。该筛选已RESEARCH_COMPLETE，源码9adf4264ec6df694acccb33d8cacf0617e6b15a3，冻结清单见route-screen/freeze.json；待一次PRIVATE_ARCHIVE交接。不得把单模相消、全域几何复制或预置稠密初值族当作同一原解的无限接力；不自动增加Taylor阶或扫描。
+后续有界筛选 `route-screen/` 已完成独立审查：NO-CANDIDATE。当前中心门与R0.10碰撞；循环三元组Gram不复制轴模板；同初值有限能量排除满足指定自作用/黏性强度合同的全域整数倍频复制，K≥2即失败。此合同不是任意级联必要条件，同一原解的单波对产生给出反例边界。另有完整补谱内部自作用平衡，证明单模正输入由其它补谱净负项精确抵消。该筛选已RESEARCH_COMPLETE，源码9adf4264ec6df694acccb33d8cacf0617e6b15a3，冻结清单见route-screen/freeze.json；已一次PRIVATE_ARCHIVE交接，冻结提交d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f，不重投或监控。不得把单模相消、全域几何复制或预置稠密初值族当作同一原解的无限接力；不自动增加Taylor阶或扫描。
 
 首轮 `ReverseNS-20260907-TwoGeneration` 已冻结，源码90c44d1703486e3983d12b87ed54f22c8c677982，冻结b72d4627bfbed913214d01514ba1696ce68632af，已一次交接。记录在HANDOFF_LOG.json，不能重投或查询发布。第三阶预检在b7ce9a3473ac01a7396c9d11751caf5a9b62a94e。
 
@@ -15,3 +15,5 @@
 不运行正向research helper，不改正向索引/检查点，不读发布队列或发布索引，不push、修改remote、部署或监控网站。完整新成果PRIVATE_CORE，只向既有发布任务一次移交。
 
 下一科学问题转至原已允许的局部浓缩/周期外场匹配：先定义一个明确的内部剖面、无散周期外场和完整无外力残差合同，再决定是否接受候选。不得将Euler/Boussinesq或局部运动学缩放视作NS解。没有实际剖面就记录未命中，不自动启动大扫描。
+
+已实际启动下一有界合同：`next-concentration/CONTRACT.md`。固定T*=1/100、ν=1、S=diag(1,2,-3)、径向切断的紧支撑无散剖面和单个固定初值；检验完整周期压力能否使中心归一化残差梯度趋零。全空间Hessian协变分类与周期Green余项由独立代理推导中，尚未接受结论；当前不冻结这一新草稿。
