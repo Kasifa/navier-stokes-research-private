@@ -1,0 +1,46 @@
+{
+  "actual_command": [
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "research/reverse/fixed-seed-global-screen/independent_node_gates.py"
+  ],
+  "arithmetic_wall_seconds": 0.830630750162527,
+  "budget_seconds": 60,
+  "cpu_count": 18,
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "elapsed_before_run_record_seconds": 1.0321844171267003,
+  "error": null,
+  "evidence_cleanup_seconds": 0.2015545000322163,
+  "finished_at_utc": "2026-09-07T16:17:24.088476+00:00",
+  "input_sha256": {
+    "node-trial-01/block-00640-00703.npz": "0baf9f82b18c9d056a17d5bb7b246f1743ac297650ab5849983da8808a38c52a",
+    "node-trial-01/block-05120-05120.npz": "2f85a5204ba7af0bd9493d79baa257fc42ec2f9468396df94bad9cf39f88e23a",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+  },
+  "numpy": "2.3.5",
+  "optimization": 0,
+  "peak_rss_native": 103088128,
+  "pid": 52855,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "result_file": "independent-node-gates-result.json",
+  "result_sha256": "5cf6fcb0cb92e5acbdec208ebf2addc709e069a82e176b17951d2036d90174db",
+  "rss_units": "bytes on macOS; native ru_maxrss otherwise",
+  "source_sha256": {
+    "NODE_GATE_INDEPENDENT_RUN_CONTRACT.md": "56dc24b236fe6eeec1209a121534f9ba01137cb401089b2370055abd30100936",
+    "NODE_GATE_LEMMA.md": "177fe82983bb8d6d3e172615c716176338bdc7e31cd546e0416b502b80dd76fb",
+    "NODE_PRODUCTION_CONTRACT.md": "9f2ff230ef8a569c3b3b70f4a8de37aece19db52439227f1269fc53f183e4fb8",
+    "independent_node_gates.py": "63c4d325af6773fc82c1f2faf9acc86b16fa7b81cc143f7d8f7e7d22e89d6669"
+  },
+  "started_at_utc": "2026-09-07T16:17:23.056297+00:00",
+  "status": "TWO_FIXED_REFERENCE_NODES_COMPUTED",
+  "thread_environment": {
+    "MKL_NUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "VECLIB_MAXIMUM_THREADS": null
+  },
+  "thread_scope": "one Python process; no FFT or BLAS mathematical arithmetic; internal library workers not inferred"
+}

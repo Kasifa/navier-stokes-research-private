@@ -1,0 +1,21 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_NODE_RECOMPUTATION",
+  "compared_projected_real_imag_scalars": 58944,
+  "ordered_third_derivative_vectors_compared": 27,
+  "exact_q_and_P32_margin_equal": true,
+  "root_endpoint_interval_contained_in_independent_interval": true,
+  "terminal_strict_readable_interval": [
+    "421555438900/10^12",
+    "421555438901/10^12"
+  ],
+  "independent_runtime_seconds": 0.830630750162527,
+  "input_binding_records_rechecked": 8,
+  "scope": "Two reference nodes, no continuous residual or actual NS conclusion",
+  "inputs": {
+    "independent_node_gates.py": "63c4d325af6773fc82c1f2faf9acc86b16fa7b81cc143f7d8f7e7d22e89d6669",
+    "independent-node-gates-result.json": "5cf6fcb0cb92e5acbdec208ebf2addc709e069a82e176b17951d2036d90174db",
+    "independent-node-gates-run.json": "813ef2374f030911e9c9ed43ec74513d9d4d74a2df160de178a59221b745bb6c",
+    "node-gates-root-run.json": "681d8c1194a8f08869050a803ba08127703b021c4c0330368e7c0cd69f69fae2",
+    "audit_node_gates.py": "6bbd7b5c344ed75beae7f3e20f6d4db4ec0a6b3df30583a3c4e8f6228d2257b2"
+  }
+}

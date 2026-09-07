@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "After final production source review and source commit, run exactly one locked node producer with bundled Python3.12 -B without optimization. Never rerun if node-trial-01 exists. Authenticate archive, then execute reviewed audit_node_gates.py on available prescribed nodes only. Missing nodes after STOP remain missing. No continuous NS certificate.",
+  "next_action": "Single node trial completed and independently checked; NEVER rerun produce_nodes.py. Read NODE_TRIAL_OUTCOME and node-independent-comparison. Pauli is preparing a <=24-output exact full nodal residual lower-bound contract at n1280; Pascal is deriving a conditional parametric Y25 cost lemma, not yet independently reviewed. Continue these bounded checks on existing data, no new integration.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -38,7 +38,11 @@
     "research/reverse/fixed-seed-global-screen/NODE_PRODUCTION_CONTRACT.md",
     "research/reverse/fixed-seed-global-screen/NODE_CONTRACT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/NODE_GATE_LEMMA.md",
-    "research/reverse/fixed-seed-global-screen/NODE_GATE_INDEPENDENT_REVIEW.md"
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/NODE_TRIAL_OUTCOME.md",
+    "research/reverse/fixed-seed-global-screen/node-gates-root-run.json",
+    "research/reverse/fixed-seed-global-screen/node-independent-comparison.json",
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -64,7 +68,11 @@
     "research/reverse/fixed-seed-global-screen/NODE_PRODUCTION_CONTRACT.md": "9f2ff230ef8a569c3b3b70f4a8de37aece19db52439227f1269fc53f183e4fb8",
     "research/reverse/fixed-seed-global-screen/NODE_CONTRACT_REVIEW.md": "6c91db397f2fbfc4d9ed0233409a98e2b0a998d93db5e2317b35bde6232fba91",
     "research/reverse/fixed-seed-global-screen/NODE_GATE_LEMMA.md": "177fe82983bb8d6d3e172615c716176338bdc7e31cd546e0416b502b80dd76fb",
-    "research/reverse/fixed-seed-global-screen/NODE_GATE_INDEPENDENT_REVIEW.md": "ff66c11d43bb7ffe8f32f0a15895f482f016e421f38f629f31ac0feaaaaaab1f"
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_INDEPENDENT_REVIEW.md": "ff66c11d43bb7ffe8f32f0a15895f482f016e421f38f629f31ac0feaaaaaab1f",
+    "research/reverse/fixed-seed-global-screen/NODE_TRIAL_OUTCOME.md": "0aca42c82537982d2bc88f8787454eaf882dc1a4e4069956fb335b589377b344",
+    "research/reverse/fixed-seed-global-screen/node-gates-root-run.json": "681d8c1194a8f08869050a803ba08127703b021c4c0330368e7c0cd69f69fae2",
+    "research/reverse/fixed-seed-global-screen/node-independent-comparison.json": "78d37a683c4476955dc02dc174aaa2b05f8945bd67f1adaa805d6d4301a56043",
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md": "2f07de4c1a2d5fa7e2ae54abad36fd9f3414788bb5f1350a50953fc8bbe46d57"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -78,13 +86,13 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Locked candidate-node production and exact finite reference gate after independent C1 full residual review",
+  "current_topic": "Exact finite reference cost obstruction with completed fixed candidate archive; next full nodal residual lower bound and parametric conditional control",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Final source review then one fixed 5120-step candidate run",
-    "Exact finite node gate and independent recomputation",
-    "Continuous Mj/full residual, infinite-dimensional error and control unpaid",
-    "One fixed datum infinite-scale iteration and finite-time singularity remain open"
+    "Full nodal residual lower-bound contract/code then independent exact check; no integration",
+    "Parametric Y25 sufficient-cost lemma and independent review",
+    "Continuous full residual, spatial derivative envelope, positive comparison and infinite-dimensional error remain unpaid",
+    "Original fixed datum global status and infinite-scale singularity mechanism remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -98,7 +106,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; verified get_goal on this continuation; no token budget and no repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T16:09:39.117462+00:00",
+  "updated_at": "2026-09-07T16:19:48.189527+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "progress: C1 and node-gate interfaces independently reviewed; fixed production contract; two source issues repaired before integration",
   "completed_unreleased_audits": [
@@ -143,5 +151,18 @@
     "pde_time_steps": 0,
     "global_certificate": false,
     "separate_release": false
+  },
+  "node_trial_evidence": {
+    "source_commit": "e25172102db5f29237af1386eca73cfd13bee699",
+    "manifest": "research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json",
+    "manifest_sha256": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "steps": 5120,
+    "nodes": 5121,
+    "production_wall_seconds": 67.23583625000902,
+    "archive_bytes": 251588790,
+    "peak_rss_bytes": 138084352,
+    "independent_two_node_check": "PASS",
+    "interpretation": "Only candidate reference: old M3 envelope refuted and reference endpoint below half; no actual NS certificate",
+    "production_retry_allowed": false
   }
 }

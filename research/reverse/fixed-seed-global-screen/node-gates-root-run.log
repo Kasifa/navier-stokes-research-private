@@ -1,0 +1,10 @@
+{"exact_node_done": 0}
+{"exact_node_done": 640}
+{"exact_node_done": 1280}
+{"exact_node_done": 1920}
+{"exact_node_done": 2560}
+{"exact_node_done": 3200}
+{"exact_node_done": 3840}
+{"exact_node_done": 4480}
+{"exact_node_done": 5120}
+{"output": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/node-gates-root-run.json", "sha256": "681d8c1194a8f08869050a803ba08127703b021c4c0330368e7c0cd69f69fae2", "nodes_checked": 9, "missing": [], "wall_seconds": 1.576950249960646}

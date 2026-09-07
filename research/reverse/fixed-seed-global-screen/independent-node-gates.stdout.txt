@@ -1,0 +1,6 @@
+{"phase": "authenticated_fixed_node", "wall_seconds": 0.0702674591448158, "node": 640}
+{"phase": "completed_fixed_node", "wall_seconds": 0.7070347920525819, "node": 640}
+{"phase": "authenticated_fixed_node", "wall_seconds": 0.7084624590352178, "node": 5120}
+{"phase": "completed_fixed_node", "wall_seconds": 0.8286301251500845, "node": 5120}
+{"phase": "all_arithmetic_complete", "wall_seconds": 0.8306132091674954}
+{"status": "TWO_FIXED_REFERENCE_NODES_COMPUTED", "arithmetic_wall_seconds": 0.830630750162527, "result": "independent-node-gates-result.json", "result_sha256": "5cf6fcb0cb92e5acbdec208ebf2addc709e069a82e176b17951d2036d90174db", "run": "independent-node-gates-run.json", "run_sha256": "813ef2374f030911e9c9ed43ec74513d9d4d74a2df160de178a59221b745bb6c", "error": null}

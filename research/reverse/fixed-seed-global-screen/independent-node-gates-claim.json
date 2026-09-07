@@ -1,0 +1,10 @@
+{
+  "actual_command": [
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "research/reverse/fixed-seed-global-screen/independent_node_gates.py"
+  ],
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "pid": 52855,
+  "started_at_utc": "2026-09-07T16:17:23.056297+00:00"
+}
