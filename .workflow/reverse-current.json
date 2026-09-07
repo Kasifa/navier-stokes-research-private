@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Commit and freeze the independently reviewed driver-dominance package, send it once for PRIVATE_ARCHIVE, then complete the separate packet energy/geometry route screen. No publication waiting.",
+  "next_action": "Send the frozen driver-dominance release once for PRIVATE_ARCHIVE; continue separate route-screen review without waiting for publication.",
   "resume_action": "Read driver-dominance draft and latest checkpoint; user explicitly resumed research after the recorded pause.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instruction: 恢复研究",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-DriverDominance",
-  "scientific_status": "REVIEW_COMPLETE_READY_FOR_FREEZE",
+  "scientific_status": "DRIVER_DOMINANCE_RESEARCH_COMPLETE",
   "accepted": "Fixed-datum positive-time net driver and modal power dominance; strict failure of absolute-channel dominance. No iterative regeneration.",
   "required_files": [
     "research/reverse/driver-dominance/PROOF.md",
@@ -33,8 +33,8 @@
     "research/reverse/first-cycle/PROOF.md": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260907-TwoGeneration",
-  "source_commit": null,
+  "last_completed_release": "ReverseNS-20260907-DriverDominance",
+  "source_commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
   "freeze_manifest": "research/reverse/driver-dominance/freeze.json",
   "handoff_state": "NOT_SENT_PENDING_FREEZE",
   "protocol_hashes": {
