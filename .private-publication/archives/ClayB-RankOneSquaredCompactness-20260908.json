@@ -1,0 +1,146 @@
+{
+  "base_commit": "5d2794c349626e6d5ec6933770228ba07b87482d",
+  "claims": [
+    "At unit viscosity, for every finite M>0 there is epsilon(M)>0: a local suitable weak pair defined near the closure of Q1 with A(1)+E(1)+D(1)<=M and integral_Q1 dist_F(grad u,all rank<=1 matrices)^2<epsilon(M) is regular at the terminal centre. No smooth-preterminal hypothesis is used.",
+    "Strong velocity L2/L3 and weak gradient L2 compactness pass the second gradient minors distributionally. The cofactor estimate gives rank<=1 in the limit, without strong gradients or convex lower semicontinuity of the nonconvex distance.",
+    "Tracefree rank-one gradients give harmonic pressure. Its time-integrated gradient is spatially smooth and bounded on smaller fixed cylinders. The corrected velocity solves a solenoidal forced equation with an L2 right hand side.",
+    "An explicit adaptation of O'Leary's small-power truncation, not direct invocation of its pressure-gradient theorem, gives three strict integrability gains 10/3 to 15/4 to 9/2 to 21/4 and C_limit(r)<=K_u*r^(1/7), uniformly up to the backward top.",
+    "Fixed spatial Riesz decomposition has a strongly converging near part and uniformly bounded harmonic remainders. The limiting near part is also harmonic. Their uncentered pressure integral decays O(r), enabling fixed-r then n-to-infinity transfer to the original suitable solutions and a fixed CKN threshold."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 13177,
+      "kind": "FROZEN_PREDECESSOR_SCOPE_AND_NEXT_QUESTION",
+      "path": "research/clay_b_local_defect_regularity_20260908.md",
+      "scope": "Actual full main read. Its old next candidate is resolved in RS; LD frozen source remains unchanged.",
+      "sha256": "15d82dea0f1d18f1133060943ed3631b048e95853261276fb3a955646356b9e5",
+      "source_commit": "5d2794c349626e6d5ec6933770228ba07b87482d"
+    }
+  ],
+  "dependency_commits": [
+    "5d2794c349626e6d5ec6933770228ba07b87482d"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "local_path": "research/source-pdfs/oleary_local_pressure_1998.pdf",
+      "scope": "Root and C actual full official TeX including proof; root PDF visual inspection of page2 and pages4-9. RS explicitly adapts only the small-power integrability argument to a corrected solenoidal equation with F in L2. It does not directly apply the original pressure-gradient theorem or claim arbitrary forced-v boundedness.",
+      "tex_url": "https://ejde.math.txstate.edu/Volumes/1998/12/Oleary-tex",
+      "title": "Mike O'Leary, Pressure conditions for the local regularity of solutions of the Navier-Stokes equations, EJDE1998 No12",
+      "url": "https://ejde.math.txstate.edu/Volumes/1998/12/Oleary.pdf",
+      "whole_paper_and_dependencies_certified": false
+    },
+    {
+      "scope": "Actual Definition2.1, Theorem2.2 and Lemma3.4 pressure decomposition with surrounding text. Uses standard unforced CKN one-scale criterion; not reproof of CKN or all external dependencies.",
+      "title": "Gustafson-Kang-Tsai, Interior regularity criteria for suitable weak solutions of the Navier-Stokes equations",
+      "url": "https://arxiv.org/html/math/0607114v1",
+      "whole_paper_certified": false
+    },
+    {
+      "scope": "Root introduction, definition and Theorem2.4/2.5; C additionally actual Lemma4.1 and section5 proofs. Adjacent fixed-velocity-bound plus pressure-smallness result; not used to bypass unknown epsilon(M(r)) or weak-solution testing.",
+      "title": "Kukavica-Rusin-Ziane, An anisotropic partial regularity criterion for the Navier-Stokes equations",
+      "url": "https://arxiv.org/html/1511.02807v1",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "Pure analytic weak-compactness and conditional regularity theorem; archived third-party PDF is not a new scientific figure.",
+  "files": [
+    {
+      "bytes": 14595,
+      "commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+      "path": "research/clay_b_rank_one_squared_compactness_20260908.md",
+      "sha256": "d13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b"
+    },
+    {
+      "bytes": 5700,
+      "commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+      "path": "research/clay_b_rank_one_squared_compactness_audit_20260908.md",
+      "sha256": "824c6600e663f1e619a2e202fed47e86fd80e032b0c3b9ea20a8bcef7323aa53"
+    },
+    {
+      "bytes": 3730,
+      "commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+      "path": "research/clay_b_rank_one_squared_compactness_checkpoint_20260908.json",
+      "sha256": "c06776b65a71f8ddc5cbdc0a38574822e5a2a3888948de1d4fb7b959cdb482cb"
+    },
+    {
+      "bytes": 134166,
+      "commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+      "kind": "UNCHANGED_THIRD_PARTY_PRIMARY_SOURCE_PRIVATE_COPY",
+      "path": "research/source-pdfs/oleary_local_pressure_1998.pdf",
+      "read_scope": "Full official TeX actually read; root visually inspected PDF page2 and pages4-9. Not an audit of all cited sources.",
+      "sha256": "8e40599eef7397c5a42263c7fba0ae019aa85032a55b9ac02821c56f0684e3ba"
+    },
+    {
+      "bytes": 13177,
+      "commit": "5d2794c349626e6d5ec6933770228ba07b87482d",
+      "kind": "FROZEN_PREDECESSOR_SCOPE_AND_NEXT_QUESTION",
+      "path": "research/clay_b_local_defect_regularity_20260908.md",
+      "scope": "Actual full main read. Its old next candidate is resolved in RS; LD frozen source remains unchanged.",
+      "sha256": "15d82dea0f1d18f1133060943ed3631b048e95853261276fb3a955646356b9e5",
+      "source_commit": "5d2794c349626e6d5ec6933770228ba07b87482d"
+    },
+    {
+      "bytes": 9065,
+      "commit": "07b1501d92e11556d71be20346252a65ab516c6d",
+      "path": "research/clay_b_rank_one_squared_compactness_release_20260908.json",
+      "sha256": "eba003262e9bb7b6a4619f01a27c4d007a07532baaec4a1399766ecc06bfad39"
+    }
+  ],
+  "freeze_commit": "07b1501d92e11556d71be20346252a65ab516c6d",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Manifest and dispatch receipt are outside immutable source-stage files. Dispatch acceptance is not archive verification. No website, public overview, local reader, counts, recap, public attachments or relaunch requested.",
+  "is_clay_result": false,
+  "limitations": [
+    "Arbitrary NS evolution producing a prescribed-centre scale with both a controlled energy/pressure cap and square-defect smaller than epsilon(M) remains unproved.",
+    "No computable epsilon(M), defect-to-radius modulus, optimal assumptions or complete novelty audit is provided.",
+    "Finite unnormalized dissipation does not automatically control r^(-1) times local dissipation or square defect. Nested-cylinder lower bounds cannot be summed as independent costs.",
+    "General unforced 3D global regularity, a singularity construction, and the Clay goal remain open.",
+    "Participating AI review is not human peer review or a complete novelty certification."
+  ],
+  "logical_predecessor": "ClayB-LocalDefectRegularity-20260908",
+  "next_research_plan": "Investigate an actual prescribed-centre good-scale mechanism using the new RS interface. First formulate the exact singular-centre alternative: at every scale whose A+E+D is bounded by the same M, H must be at least epsilon(M). Then test whether the existing full-gradient shape-entropy estimates can convert this into a lower bound on disjoint annular or temporal costs. Read the relevant GD/SG/LK source arguments in full before combining them. Finite dissipation and nested r-sized lower bounds alone are not a contradiction; do not count a restatement of the conditional criterion as an unconditional gain. Effective thresholds and minimal-assumption/source-collision audits are separate questions. No publication or reverse-runtime inspection.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_rank_one_squared_compactness_audit_20260908.md",
+    "mathematical_review": "Root full manuscript readback and independent derivation. A and C actual complete219-line14595B RS1-20 reviews both PASS at SHAd13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b. Participating AI reviewers, not wholly nonauthor or human. One13B terminology clarification, not extra proof/review count.",
+    "new_output_visual_qa": false,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "C actual full33-line5569B audit and31-line3730B checkpoint PASS, strict JSON/no duplicate and scope/hash check. One131B audit paragraph update records A's subsequently received full review; C exact inverse accepts final33-line5700B SHA824c6600e663f1e619a2e202fed47e86fd80e032b0c3b9ea20a8bcef7323aa53. Main and checkpoint unchanged.",
+    "source_files_match_commit": true,
+    "source_pdf_visual_check": "Original nine-page PDF unchanged; page2 and pages4-9 actually rendered and inspected. Online screenshot failed; local source copy byte-identical to download.",
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "20 ordered unique RS tags,22 display pairs,91 inline pairs,no abnormal controls. Three strict exponent improvements, C exponent1/7 and nonlinear Holder19/20 independently checked with exact rationals. Staged whitespace PASS. Four source files158191B and predecessor13177B verified against immutable git-show bytes and local hashes."
+  },
+  "recap": {
+    "reason": "Scoped conditional interface, not an arbitrary-evolution critical estimate or global regularity milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-RankOneSquaredCompactness-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "SCOPED ONE-SCALE CONDITIONAL REGULARITY",
+    "WEAK MINOR CLOSURE",
+    "HARMONIC-PRESSURE LIMIT AND CKN TRANSFER",
+    "NO NEW UNCONDITIONAL DYNAMIC ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+  "simulation": false,
+  "source_commit": "f51d2a9c7c66c3a4b3689f37aaf711ae4ece2732",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
