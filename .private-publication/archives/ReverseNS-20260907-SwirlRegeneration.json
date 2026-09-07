@@ -1,0 +1,205 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "NO-CANDIDATE FOR TWO SPECIFIED FIXED-DATA SHORT-TIME GATES",
+    "open": [
+      "An actually regenerated full state usable for another stage",
+      "Uniform iteration for one fixed datum through infinite scales",
+      "Infinite-dimensional iterative error estimates",
+      "Finite total time and singularity"
+    ],
+    "proved": [
+      "The full infinite-dimensional NS solution from one fixed smooth real divergence-free mean-zero swirl datum exists on the specified analytic time interval and generates a nonzero first complementary field",
+      "The first generation has zero leading self-feedback against the original template; the actual feedback is bounded by an explicit O(t^3) expression",
+      "At the fixed core center the actual vorticity stretching scalar is negative throughout a rigorously defined positive time window, retaining viscosity and full periodic pressure; a complete periodic fourth Green-kernel bound is strictly below 2"
+    ],
+    "scope_limits": [
+      "No claim that the whole first-generation self-action or toroidal output vanishes",
+      "Fixed spatial point only; no material-trajectory tracking or complete vorticity magnitude derivative claim",
+      "No general absence of positive stretching elsewhere or later, and no regularity theorem",
+      "No numerical values for Wiener norms or the resulting positive time windows",
+      "No novelty, human peer review, formal proof-assistant or Clay claim"
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "freeze_commit": "5237c77d586efd267f9185182534d992152d76ba",
+      "release_id": "ReverseNS-20260907-LocalPressureScreen",
+      "scope": "Fixed W and J_W; full periodic Green/heat-kernel and fourth Newton kernel definitions; frozen source files are reused without modification",
+      "source_commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572"
+    },
+    {
+      "release_id": "ReverseNS-20260907-TwoGeneration",
+      "scope": "History only: earlier B(N,a_cyc)=0 already implies the corresponding template pairing is zero; not the current swirl geometry",
+      "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982"
+    }
+  ],
+  "dependency_commits": [
+    "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+    "5237c77d586efd267f9185182534d992152d76ba",
+    "90c44d1703486e3983d12b87ed54f22c8c677982"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 10837,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CENTER_STRAIN_DERIVATION.md",
+      "sha256": "65dcbe9cbafffc13289cb774426f6e18bf7edab230bb03324a7ea894f01c3bcc"
+    },
+    {
+      "bytes": 1424,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_CONTRACT.md",
+      "sha256": "4502487b1379740ea169e1e5d5f5faffd5e7c1d8ecd225dfd19516be7c574280"
+    },
+    {
+      "bytes": 6361,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF.md",
+      "sha256": "4874268bd9fb9e21d609b10b776ba8cb66c0181973edeb161327f99a252bcb22"
+    },
+    {
+      "bytes": 6262,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_PROOF_DRAFT.md",
+      "sha256": "1eaf197ab6c8b443792cefadfbaac3d96bad3771a281fded32ca2d15d5c92283"
+    },
+    {
+      "bytes": 11700,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CENTER_STRETCH_REVIEW.md",
+      "sha256": "d5ff3bf32b3a541431a344a101d6d6c7a392f9a5b5b8e069aafeb446b19f89dd"
+    },
+    {
+      "bytes": 2285,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/CONTRACT.md",
+      "sha256": "c887d8cc20495f0cf2e80585e66f92663f82c605f923194d49df5dda44bc9e12"
+    },
+    {
+      "bytes": 10659,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/FINAL_REVIEW.md",
+      "sha256": "e413fe16cc6c7a8c4e970871d6ca407e0456044bb1eb575f4885e75d471752c3"
+    },
+    {
+      "bytes": 8701,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/INDEPENDENT_DERIVATION.md",
+      "sha256": "1ee6495178a4d6def57e733765ae0b778a3c90abf3456c352776c77e6db39581"
+    },
+    {
+      "bytes": 5383,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_DRAFT.md",
+      "sha256": "c0346e98e776e7a5526727fde1572f1fc543d66b8fd3c31450ca791ea7297f8c"
+    },
+    {
+      "bytes": 5408,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/LOCAL_REMAINDER_PROOF.md",
+      "sha256": "f4b12d5a745ab5da6df578e4c6cc66184ea29edbb501f029a9ea983cf601ee9a"
+    },
+    {
+      "bytes": 4977,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/OUTCOME.md",
+      "sha256": "0ad7cbccb6c758ebbb9165e785ae3746d203736e6766a3d2abf263904c95b2ab"
+    },
+    {
+      "bytes": 9940,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/REMAINDER_REVIEW.md",
+      "sha256": "0c73fb914be4e3d17886dfe4d3a0d6240f7c7a7f42066c4d6d39dfbc63684a77"
+    },
+    {
+      "bytes": 18167,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/SOURCE_HISTORY_REVIEW.md",
+      "sha256": "d26440b8a929279e294ab4a6b7f1f6b4e0fd5a5380bf45cc28d3694f8e5faa63"
+    },
+    {
+      "bytes": 2229,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/VALIDATION.md",
+      "sha256": "18c08b81a6635bb4206559a4d1416c4741ed3430e323141e16f5b86ec0fa3899"
+    },
+    {
+      "bytes": 3687,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/check_bindings.py",
+      "sha256": "4527ad14512527f32d7eb256309edd4058fb583464a7da20132f606166b5b8b7"
+    },
+    {
+      "bytes": 12130,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/final-review-binding-check.json",
+      "sha256": "65dba5db865807fea5c273b84c87bbf5ae89e394840b5df0b9c238481e52d399"
+    },
+    {
+      "bytes": 871,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/final-review-binding-run.json",
+      "sha256": "789d433462a42bee4f1b9340820684d752670a622964721642f486f895486b0f"
+    },
+    {
+      "bytes": 929,
+      "commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+      "path": "research/reverse/swirl-regeneration/root-binding-rerun.json",
+      "sha256": "68917f5860bab4686c19568b99ad5c270b6d2d9318d9df174415b5a1d7b70782"
+    },
+    {
+      "bytes": 8119,
+      "commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
+      "path": "research/reverse/swirl-regeneration/freeze.json",
+      "sha256": "ea45cde3359c2d62ea71de5efc43659b7f227d50e5df96b32a3ce152e205fb9b"
+    }
+  ],
+  "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
+  "freeze_commit_binding": "Containing freeze commit is supplied separately in once-only handoff. Persistent research continues.",
+  "milestone_recap_required": true,
+  "milestone_scope": "One coherent fixed-swirl short-time mechanism screen; not separate counts per scalar or proof",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260907-LocalPressureScreen",
+  "private_milestone_record": "research/reverse/swirl-regeneration/OUTCOME.md",
+  "public_export_authorization": "No new core public export authorized. Current public work is paused; this handoff requests private archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260907-SwirlRegeneration",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4"
+  ],
+  "scientific_source_commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+  "source_commit": "0834a734c4ef48ed9c2ecf4cb0f9c4dc98d2e9a4",
+  "source_ledger": "research/reverse/swirl-regeneration/SOURCE_HISTORY_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "actual_byte_binding_program": "research/reverse/swirl-regeneration/check_bindings.py",
+    "actual_run_records": [
+      "research/reverse/swirl-regeneration/final-review-binding-run.json",
+      "research/reverse/swirl-regeneration/root-binding-rerun.json"
+    ],
+    "certificate_scope": "Byte binding only. All new scientific calculations are analytic proofs and independent analytical reviews, not executed numerical certificates.",
+    "deterministic_output": "research/reverse/swirl-regeneration/final-review-binding-check.json",
+    "independent_final_review": "research/reverse/swirl-regeneration/FINAL_REVIEW.md",
+    "independent_mathematical_reviews": [
+      "research/reverse/swirl-regeneration/REMAINDER_REVIEW.md",
+      "research/reverse/swirl-regeneration/CENTER_STRETCH_REVIEW.md"
+    ],
+    "new_numerical_PDE_experiment": false,
+    "parameter_scan": false,
+    "review_input_bindings": 51,
+    "root_output_byte_identical_to_review_run": true,
+    "source_corpus_manifests": 2,
+    "source_review": "research/reverse/swirl-regeneration/SOURCE_HISTORY_REVIEW.md",
+    "status": "PASS"
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
