@@ -1,0 +1,34 @@
+{
+  "release_id": "ClayB-NearPressureEntropy-20260908",
+  "logical_predecessor": "ClayB-AffineReferencePressure-20260908",
+  "privacy": "PRIVATE_CORE",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "base_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+  "main": "research/clay_b_near_pressure_entropy_20260908.md",
+  "main_sha256": "4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808",
+  "classification": "EXACT PERIODIC JOINT GRADIENT-ENTROPY SOURCE / FIXED POSITIVE-TIME PURE-QUADRATIC OBSTRUCTION / CLASSICAL TWO-SCALE HARDY INTERFACE / MIXED ABSORPTION OPEN / NOT CLAY",
+  "is_clay_result": false,
+  "completed_claims": [
+    "For smooth local unit-viscosity NS, the two-scale full-gradient entropy balance keeps both slices, cutoff time/Laplacian/transport, the near matrix N_r and harmonic pressure. Its standard bounds still contain C theta^(-1) E(r); the harmonic term is C theta^2(Hcal(r)+E(r)), with no extra time-decay factor.",
+    "Classical div-curl Hardy control of every component of N_r and Hardy-BMO duality give a small oscillatory near-field term only if the actual cutoff matrix test phi(B0-W) has an additionally small BMO coefficient. Constant-matrix cutoff integrals remain. Exact amplitude-scaled rank-one heat shears have Theta=0 and shrinking A,E,mu budgets but unchanged positive local unit-direction oscillation, so they exclude an automatic unweighted BMO smallness modulus.",
+    "For the SN initial family but a different normalized joint source I=integral B0:(G^2+Hess p), p_epsilon=epsilon^2(-cos2y-cos4z/4). The initial whole-cell pressure pairing is exactly zero by parity, and I=-6epsilon integral cos^2y cos^2(2z)/q_epsilon<0. Thus -I>=12pi^3epsilon/sqrt(5+17epsilon^2), whereas integral d(G)^2<=50pi^3epsilon^2. I changes sign under negation of an initial velocity with its own canonical pressure.",
+    "The transverse velocity is an exact heat multiple of a steady two-dimensional Euler field. Coupling it to the axial linear advection-diffusion equation constructs full smooth periodic NS solutions for every finite time. The axial second-order remainder obeys an explicit forced parabolic equation and is O_T(epsilon^2) in every fixed C_t C^k norm.",
+    "For every fixed finite T, I(u_epsilon(t))=-epsilon kappa(t)+O_T(epsilon^2), with explicit positive kappa(t)>=12pi^3 exp(-10nu t)/sqrt5, uniformly on [0,T]. The normalized-gradient denominator cancels against the first-order matrix factor, including background zeros. Any fixed positive-age interval therefore has first-order joint production and only second-order integral d^2, ruling out a pure-quadratic production bound without other terms."
+  ],
+  "open_items": [
+    "The counterexample does not exclude delta*mu_G+C_delta*d^2 or other mixed absorption: the rank-one background has nonzero O(1) original direction dissipation. Positive production is not net gradient-norm growth.",
+    "No unconditional mixed signed near-field estimate yields an absorbable or summable critical remainder. Classical Hardy pairing supplies no automatic small BMO coefficient and does not remove transport, cutoff or slice terms.",
+    "No arbitrary actual NS evolution has been shown to generate the required prescribed-centre small normalized shape dissipation and common A+E+D cap. Pressure-Hessian control does not replace pressure normalization.",
+    "The full periodic pressure pairing is exactly zero only on the listed initial slices; its first-order term vanishes along the constructed solution, but exact positive-time cancellation is not claimed. Special x-independent globally smooth solutions are not singularity constructions.",
+    "Effective thresholds, optimality, novelty certification, human peer review and general three-dimensional global regularity remain open. Finite algebra checks do not certify continuum integrals or parabolic evolution."
+  ],
+  "next_action": "Test the still-open mixed absorption of the actual full-gradient entropy production by original mu_G, not the disproved pure d^2 replacement. First calibrate any proposed constant against NE's exact periodic solution family and its amplitude/frequency scaling, then derive the compatible-gradient weighted spatial pairing with all degeneracies and localized slice/transport/pressure-tail terms. A useful estimate must state its common A+E+D dependencies and yield a scale-small or summable remainder, not just another C*E(r) or finite total bound. Do not assume unweighted unit-direction BMO smallness, replace original mu_G by relative-gradient dissipation, or repeat RL's unresolved pressure-square Young bound under a new name. If no genuine new input appears, record the exact missing coefficient and reconsider the structural route instead of issuing another conditional rephrasing. No publication or reverse-runtime inspection.",
+  "finite_symbolic_check_script": "research/clay_b_near_pressure_entropy_checks_20260908.py",
+  "finite_symbolic_checks_run": true,
+  "numerical_certificate_required": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "handoff_policy": "After complete freeze send once to the fixed publisher for PRIVATE_ARCHIVE only. No public overview, local reader, website, push, polling, waiting or supervision. Dispatch acceptance is not archive verification."
+}
