@@ -1,0 +1,288 @@
+{
+  "base_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+  "claims": [
+    "For smooth local unit-viscosity NS, the two-scale full-gradient entropy balance keeps both slices, cutoff time/Laplacian/transport, the near matrix N_r and harmonic pressure. Its standard bounds still contain C theta^(-1) E(r); the harmonic term is C theta^2(Hcal(r)+E(r)), with no extra time-decay factor.",
+    "Classical div-curl Hardy control of every component of N_r and Hardy-BMO duality give a small oscillatory near-field term only if the actual cutoff matrix test phi(B0-W) has an additionally small BMO coefficient. Constant-matrix cutoff integrals remain. Exact amplitude-scaled rank-one heat shears have Theta=0 and shrinking A,E,mu budgets but unchanged positive local unit-direction oscillation, so they exclude an automatic unweighted BMO smallness modulus.",
+    "For the SN initial family but a different normalized joint source I=integral B0:(G^2+Hess p), p_epsilon=epsilon^2(-cos2y-cos4z/4). The initial whole-cell pressure pairing is exactly zero by parity, and I=-6epsilon integral cos^2y cos^2(2z)/q_epsilon<0. Thus -I>=12pi^3epsilon/sqrt(5+17epsilon^2), whereas integral d(G)^2<=50pi^3epsilon^2. I changes sign under negation of an initial velocity with its own canonical pressure.",
+    "The transverse velocity is an exact heat multiple of a steady two-dimensional Euler field. Coupling it to the axial linear advection-diffusion equation constructs full smooth periodic NS solutions for every finite time. The axial second-order remainder obeys an explicit forced parabolic equation and is O_T(epsilon^2) in every fixed C_t C^k norm.",
+    "For every fixed finite T, I(u_epsilon(t))=-epsilon kappa(t)+O_T(epsilon^2), with explicit positive kappa(t)>=12pi^3 exp(-10nu t)/sqrt5, uniformly on [0,T]. The normalized-gradient denominator cancels against the first-order matrix factor, including background zeros. Any fixed positive-age interval therefore has first-order joint production and only second-order integral d^2, ruling out a pure-quadratic production bound without other terms."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 11723,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "read_scope": "full",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 14138,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "read_scope": "full",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "read_scope": "full",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 15079,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "read_scope": "full",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 3581,
+      "kind": "FROZEN_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "read_scope": "full",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 3682,
+      "kind": "FROZEN_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_signed_mixed_pressure_reading_20260907.md",
+      "read_scope": "full",
+      "sha256": "f10ee68c876175a2b34ced557702248713dc5135766ad746ea92813b3deb208a",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 23247,
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/r070z_report-source.md",
+      "read_scope": "sections8-9 lines723-880",
+      "sha256": "10ad1e10fc726f309f10e602191ba96161dac2b5a54b79578a31ff8992aa87fa",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 11670,
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/energy_stress_commutator_note.md",
+      "read_scope": "section5 lines263-316",
+      "sha256": "1c3207f95691f1028c5b8863ee52082df10ae5ca6f79dbed6a7a3909938cf71c",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 12727,
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "read_scope": "sections1-2 lines1-50",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    }
+  ],
+  "dependency_commits": [
+    "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "new_pdf_audit": false,
+      "scope": "Root targeted Theorem1.2 and remarks107-121 plus s=1 proof524-533; C also targeted the endpoint and proof. Classical Hardy pressure interface only. Other broad search results are not proof inputs; no whole-paper or all-dependency certification.",
+      "title": "Dong Li and Xiaoyi Zhang, A regularity upgrade of pressure",
+      "url": "https://arxiv.org/html/2106.11852v1",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "Pure analytic periodic solution and exact finite identities; no simulation or new scientific figure.",
+  "files": [
+    {
+      "bytes": 11860,
+      "commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+      "path": "research/clay_b_near_pressure_entropy_20260908.md",
+      "sha256": "4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808"
+    },
+    {
+      "bytes": 5352,
+      "commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+      "path": "research/clay_b_near_pressure_entropy_checks_20260908.py",
+      "sha256": "d40a98d88f78e25cadc515252b8d4172a5f5e5c10d4db5f4319ff5b3fa4f75ee"
+    },
+    {
+      "bytes": 4600,
+      "commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+      "path": "research/clay_b_near_pressure_entropy_audit_20260908.md",
+      "sha256": "43a3b475b60b7f5c11c91c9e97bd37bac3d691f28ee45969e7c88969fabb587a"
+    },
+    {
+      "bytes": 5332,
+      "commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+      "path": "research/clay_b_near_pressure_entropy_checkpoint_20260908.json",
+      "sha256": "ebf29edb76469bca2d8ca946c9cda9f4726c969e7dc7565ee57e04d3567b1acb"
+    },
+    {
+      "bytes": 11723,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "read_scope": "full",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 14138,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "read_scope": "full",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 11939,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "read_scope": "full",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 15079,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "read_scope": "full",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 3581,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "read_scope": "full",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 3682,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_signed_mixed_pressure_reading_20260907.md",
+      "read_scope": "full",
+      "sha256": "f10ee68c876175a2b34ced557702248713dc5135766ad746ea92813b3deb208a",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 23247,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/r070z_report-source.md",
+      "read_scope": "sections8-9 lines723-880",
+      "sha256": "10ad1e10fc726f309f10e602191ba96161dac2b5a54b79578a31ff8992aa87fa",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 11670,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/energy_stress_commutator_note.md",
+      "read_scope": "section5 lines263-316",
+      "sha256": "1c3207f95691f1028c5b8863ee52082df10ae5ca6f79dbed6a7a3909938cf71c",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 12727,
+      "commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64",
+      "kind": "FROZEN_TARGETED_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "read_scope": "sections1-2 lines1-50",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "c0edf939a62852d4f192ba03ab5882eb8a02db64"
+    },
+    {
+      "bytes": 12936,
+      "commit": "1ab1269eb61dbf714692999cbf6f8beaee29e278",
+      "path": "research/clay_b_near_pressure_entropy_release_20260908.json",
+      "sha256": "33296eacc12dc1bef306f5b09bf137e735b4938f8c2985ed355a2de353bc5488"
+    }
+  ],
+  "freeze_commit": "1ab1269eb61dbf714692999cbf6f8beaee29e278",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Manifest and dispatch receipt are outside immutable source-stage files. Dispatch acceptance is not archive verification. No public overview, website, local reader, recap, counts, public attachments or relaunch requested.",
+  "is_clay_result": false,
+  "limitations": [
+    "The counterexample does not exclude delta*mu_G+C_delta*d^2 or other mixed absorption: the rank-one background has nonzero O(1) original direction dissipation. Positive production is not net gradient-norm growth.",
+    "No unconditional mixed signed near-field estimate yields an absorbable or summable critical remainder. Classical Hardy pairing supplies no automatic small BMO coefficient and does not remove transport, cutoff or slice terms.",
+    "No arbitrary actual NS evolution has been shown to generate the required prescribed-centre small normalized shape dissipation and common A+E+D cap. Pressure-Hessian control does not replace pressure normalization.",
+    "The full periodic pressure pairing is exactly zero only on the listed initial slices; its first-order term vanishes along the constructed solution, but exact positive-time cancellation is not claimed. Special x-independent globally smooth solutions are not singularity constructions.",
+    "Effective thresholds, optimality, novelty certification, human peer review and general three-dimensional global regularity remain open. Finite algebra checks do not certify continuum integrals or parabolic evolution.",
+    "Participating AI reviews are not wholly nonauthor reviews, human peer review or a full novelty audit."
+  ],
+  "logical_predecessor": "ClayB-AffineReferencePressure-20260908",
+  "next_research_plan": "Test the still-open mixed absorption of the actual full-gradient entropy production by original mu_G, not the disproved pure d^2 replacement. First calibrate any proposed constant against NE's exact periodic solution family and its amplitude/frequency scaling, then derive the compatible-gradient weighted spatial pairing with all degeneracies and localized slice/transport/pressure-tail terms. A useful estimate must state its common A+E+D dependencies and yield a scale-small or summable remainder, not just another C*E(r) or finite total bound. Do not assume unweighted unit-direction BMO smallness, replace original mu_G by relative-gradient dissipation, or repeat RL's unresolved pressure-square Young bound under a new name. If no genuine new input appears, record the exact missing coefficient and reconsider the structural route instead of issuing another conditional rephrasing. No publication or reverse-runtime inspection.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_near_pressure_entropy_audit_20260908.md",
+    "finite_symbolic_checks": {
+      "checks": [
+        "steady Euler and canonical pressure",
+        "heat eigenvalue",
+        "Poisson equation",
+        "gradient products",
+        "parity"
+      ],
+      "independent_implementation": false,
+      "method": "Standard-library Fraction polynomial quotient by two circle identities; physical y,z chain derivatives.",
+      "mutations_rejected": 3,
+      "negative_residuals": [
+        "-8 sin(y) cos(y)",
+        "cos(2z)",
+        "-12 epsilon cos(y)^2 cos(2z)^2"
+      ],
+      "passed": true,
+      "review": "Root and C actually read and ran the171-line5352B script; root additionally ran two deterministic repeats. C explicitly rechecked the three negative residuals with the same implementation.",
+      "scope": "Finite algebra only. Analytic torus integrals, strict inequalities and positive-time parabolic evolution require the separate written proof. No numerical PDE simulation.",
+      "script": "research/clay_b_near_pressure_entropy_checks_20260908.py",
+      "sha256": "d40a98d88f78e25cadc515252b8d4172a5f5e5c10d4db5f4319ff5b3fa4f75ee"
+    },
+    "mathematical_review": "Root independent derivation and full198-line11663B initial main readback, then seven exact clarifications totalling197B. A independently derived the local module and actually accepted full final198lines11860B SHA4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808. C participated in the periodic source derivation, fully read initial main and accepted all final deltas; inverse reconstruction restores initial SHA84c833dde89a275cea1546525d96edfa418670f863b046f1414c966d96ee86cb. Neither is wholly nonauthor or human; increments are not extra full reviews.",
+    "new_output_visual_qa": false,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "Root full audit/checkpoint readback. C actual full26-line4600B audit SHA43a3b475b60b7f5c11c91c9e97bd37bac3d691f28ee45969e7c88969fabb587a and34-line5332B checkpoint SHAebf29edb76469bca2d8ca946c9cda9f4726c969e7dc7565ee57e04d3567b1acb PASS without changes. Strict JSON/no duplicates,5 claims/5 open, current main and script hashes,19 labels/display pairs, no abnormal controls and genuine future scope checked. C did not reverify the nine historical dependencies in this record pass.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "19 ordered unique NE tags,19 display pairs,no abnormal controls; strict checkpoint and staged whitespace PASS. Four source files27144B and nine immutable dependency files107786B verified by root against local bytes, SHA256 and bound git objects. Explicit read_scope distinguishes full from targeted mathematical reading."
+  },
+  "recap": {
+    "reason": "Scoped exclusion of two unproved simplifications, not an automatic good-scale or global-regularity milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-NearPressureEntropy-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "EXACT PERIODIC JOINT GRADIENT-ENTROPY SOURCE",
+    "FIXED POSITIVE-TIME PURE-QUADRATIC OBSTRUCTION",
+    "CLASSICAL TWO-SCALE HARDY INTERFACE",
+    "MIXED ABSORPTION OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+  "simulation": false,
+  "source_commit": "ad1b81203d2955ec15c1921555baf461ea15c36f",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
