@@ -1,0 +1,103 @@
+{
+  "release_id": "ClayB-FiniteObservation-SourceScreen-20260907",
+  "logical_predecessor": "ClayB-ReverseFirstCycle-AcceptanceRecord-20260907",
+  "base_commit": "9a49e0cf3bfd56dd54d80cfd589c6b2799239661",
+  "source_commit": "685e66b828c984950c26454ab199d56d2c4e1ae0",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "scientific_classification": [
+    "LITERATURE SCOPE SCREEN",
+    "ELEMENTARY INPUT CHECK",
+    "NO-CANDIDATE FOR UNCONDITIONAL INPUT",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "new_mathematical_result": false,
+  "is_clay_result": false,
+  "claims": [
+    "The bounded deduplicated source screen newly read one original paper, Balakrishna-Biswas2025. It supplied no unconditional terminal dynamic input.",
+    "The source-stated finite-observation criterion retains an h-dependent quantitative threshold. Finite observations at each fixed h do not automatically meet it.",
+    "The elementary energy spectral upper bound does not close that sufficient-condition invocation. It is not an actual-NS counterexample.",
+    "Specific source proof steps require explanation. The local record does not certify the full paper or assert its theorem false."
+  ],
+  "limitations": [
+    "No new regularity, singularity, novelty, optimality, human peer review or Clay proof.",
+    "Only scoped original source and actual report reviewed; no full audit of all cited dependencies or corrections.",
+    "No new observed-norm, time-window or exponent route is approved. Next scientific candidate remains unselected.",
+    "No PDE solver, numerical dataset, scientific figure or recap."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_terminal_mechanism_screen_20260907/report-source.md",
+      "bytes": 9048,
+      "sha256": "b09a1f9a8bca2ddea260be9b1f119c9220b7afe1f1aa4866657aae63152cf642"
+    },
+    {
+      "path": "research/clay_b_terminal_mechanism_screen_20260907/plan-and-gaps.md",
+      "bytes": 4088,
+      "sha256": "589c62249d717eced036229d54ef5636f13f0d942bd27f7ed95ee3a8960a4dcb"
+    },
+    {
+      "path": "research/clay_b_terminal_mechanism_screen_20260907/qa.md",
+      "bytes": 2836,
+      "sha256": "10c05b570c86053d9dff50337fb630caee70c4c68fd877d244bbbea0fc5e306d"
+    }
+  ],
+  "source_reference": {
+    "authors": [
+      "Abhishek Balakrishna",
+      "Animikh Biswas"
+    ],
+    "title": "Determining functionals and data assimilation and a novel regularity criterion for the three-dimensional navier–stokes equations",
+    "publication_date": "2025-07-04",
+    "url": "https://link.springer.com/article/10.1007/s40687-025-00530-w",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40687-025-00530-w.pdf",
+    "pdf_pages": 29,
+    "pdf_bytes": 536628,
+    "pdf_sha256": "d090960fe6e137c84d1a91a39564b549b0f3f10ce83bdbe9f39aa675f5766076",
+    "third_party_pdf_included": false,
+    "access_date": "2026-09-07",
+    "root_reading_scope": "Relevant text pp5-6,8-27 plus publisher/PDF web introduction. Visual pp5,15,16. Not all external dependencies or entire-PDF visual audit.",
+    "native_retrieval_references": [
+      "turn6975search10",
+      "turn6977view0",
+      "turn6980view0",
+      "turn6980view1",
+      "turn6981view0"
+    ]
+  },
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "nonauthor_actual_report": "B full 85-line9048-byte final report at b09a1f9a8bca2ddea260be9b1f119c9220b7afe1f1aa4866657aae63152cf642; input inequality and source-proof limits accepted.",
+    "independent_original_source": "A scoped original pp1-25 and key formula visual checks confirm conditions and limitations. Not a second actual-report review.",
+    "root_checks": "Primary-source identity, selected visual checks, scope labels, links, math delimiters, exact accepted report hash and git whitespace checks PASS.",
+    "qa_file": "research/clay_b_terminal_mechanism_screen_20260907/qa.md",
+    "full_external_paper_proof_certified": false
+  },
+  "deep_research": {
+    "workflow": "current conversation skill under prior explicit authorization",
+    "background_service_used": false,
+    "update_plan_available": false,
+    "plan_file": "research/clay_b_terminal_mechanism_screen_20260907/plan-and-gaps.md",
+    "new_sources_read": 1,
+    "maximum_new_sources": 2,
+    "stop_reason": "Conditional threshold and missing input determined; no evidence that another synonym search changes conclusion."
+  },
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "Binds prior source commit. No self-hash or future dispatch receipt. Research freeze is not archive execution or public permission.",
+  "next_research_plan": "No new candidate selected. Return to original-NS unclosed estimates in clay_b_strategy_logic_20260907.md, distinguish covering all possible singularities from atom/selected-band branches. A concrete noncircular dynamic estimate is required before a new derivation or calculation; do not repeat this bounded source screen or closed adjacent variants."
+}
