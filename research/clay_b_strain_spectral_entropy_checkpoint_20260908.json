@@ -1,0 +1,33 @@
+{
+  "role": "forward_research",
+  "privacy": "PRIVATE_CORE",
+  "name": "SE spectral entropy and compatible strain localization",
+  "classification": "INTERNAL EXPLORATORY CHECKPOINT / CLASSICAL INPUT / PROVED IN STATED SCOPE / OPEN / NOT CLAY",
+  "base_commit": "2ed057e38783b9016d677516f0fc8ecfa9f98b5a",
+  "main": "research/clay_b_strain_spectral_entropy_20260908.md",
+  "audit": "research/clay_b_strain_spectral_entropy_audit_20260908.md",
+  "previous_goal_turn_classification": "SCOPED_ANALYTIC_PROGRESS_WITHOUT_NEW_REGULARITY_CONTROL",
+  "current_turn_progress": [
+    "Bounded strategy reevaluation and actual primary-source checking: pressure Hessian Hardy endpoint is classical, not a new discovery.",
+    "Periodic endpoint interface and complete convex spectral entropy balance with repeated eigenvalues and zero-spectral-set measure retained.",
+    "Exact distance from a real trace-free symmetric matrix to the solenoidal strain wave cone and a quantitative frozen-shape L2 lemma.",
+    "Actual cutoff localization with the full Leray correction, nonzero scalar mean and support-fraction term."
+  ],
+  "open": [
+    "Connect spectral dissipation to an actual control of high-strain concentration; the current budget omits within-sign-block shape variation.",
+    "Control or bypass the shape and cutoff errors of SE.19 using original-NS dynamics, without assuming fixed shape or deleting nonlocal correction.",
+    "Treat the region 0 < lambda2 < delta*|S| rather than imposing a uniform spectral separation on the full solution.",
+    "Arbitrary smooth-data three-dimensional unforced Navier-Stokes regularity and the full Clay goal."
+  ],
+  "next_action": "Read SE actual main and audit. Do not redo the classical Hardy endpoint, spectral Hessian, wave-cone distance or cutoff computation. Continue the selected high-strain compatibility mechanism by an actual estimate on variable shape and boundary terms; allow a different conical compatibility formulation if it avoids unnecessarily strong fixed-shape assumptions, but verify any required primary theorem and all hypotheses first. Keep the near-wave-cone region and time control explicit. An unproved noncircular hard estimate is admissible for exploration, not a completed proof.",
+  "new_critical_estimate": false,
+  "full_goal_closed": false,
+  "scientific_section_complete": false,
+  "release_created": false,
+  "handoff_sent": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "publication_boundary": "Internal research continuation only. Earlier TD-TP handoff remains once-only. No publisher or publication-state inspection, no website/local-reader actions."
+}
