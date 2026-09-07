@@ -1,0 +1,155 @@
+{
+  "classification": "PRIVATE_CORE",
+  "date": "2026-09-07",
+  "scope": "bounded first-mechanism whole-packet route screening; no new Taylor orders, scans, external theorems, or broad novelty claim",
+  "result": "NO-CANDIDATE_FOR_SCREENED_SIX_MODE_ROUTE",
+  "accepted_pending_whole_packet_contracts": 0,
+  "local_sources": [
+    {
+      "path": "public/notes/r0-9.html",
+      "sha256": "5c1410218f8eb043edb403878490b3222c7f4a237244fa1434e97a803f7d35f5",
+      "bytes": 31395,
+      "lines": 557,
+      "read_line_ranges": [
+        [
+          214,
+          477
+        ]
+      ],
+      "read_scope": "sections 1-7 read in full; sparse/cone chain, exact first Picard and multiplicity lemma",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a",
+      "bytes": 31861,
+      "lines": 581,
+      "read_line_ranges": [
+        [
+          229,
+          473
+        ]
+      ],
+      "read_scope": "sections 2-7 read in full; matching center kernel, dense first-generation assumptions and polarization obstruction",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-11.html",
+      "sha256": "ad8ebe34c67939cd371f621cc7fbf5f54cf501c4d2506e587aa1494f4ef52095",
+      "bytes": 29207,
+      "lines": 542,
+      "read_line_ranges": [
+        [
+          249,
+          446
+        ]
+      ],
+      "read_scope": "sections 3-7 read in previous bounded audit within this agent session; full selected statements/proofs retained",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-12.html",
+      "sha256": "a8e98babfa76e0379157367155c6161294b276a1c5565b0f48878a4a28c7cb7a",
+      "bytes": 31784,
+      "lines": 553,
+      "read_line_ranges": [
+        [
+          270,
+          475
+        ]
+      ],
+      "read_scope": "sections 3-8 read in previous bounded audit within this agent session; selected statements/proofs retained",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "public/notes/r0-13.html",
+      "sha256": "e5ad43432fb040c60aa51a3716bdd1b606c297f47df45e60722ae7e83903675e",
+      "bytes": 31105,
+      "lines": 543,
+      "read_line_ranges": [
+        [
+          190,
+          210
+        ],
+        [
+          263,
+          418
+        ]
+      ],
+      "read_scope": "sections 3-6 previously read in full in this agent session; precise result boundary reread",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+      "bytes": 14336,
+      "lines": 244,
+      "read_line_ranges": [
+        [
+          1,
+          96
+        ],
+        [
+          194,
+          244
+        ]
+      ],
+      "read_scope": "re-read current fixed initial datum, algebra convention, cyclic geometry and final scope",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/reverse/first-cycle/NO-CANDIDATE.md",
+      "sha256": "903b79ce75d285bcb78850c92181d2ae70380d4c985daf8c4b6643cbf33c92db",
+      "bytes": 3042,
+      "lines": 21,
+      "read_line_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "read_scope": "read current full outcome; no old next action adopted",
+      "old_certificate_rerun": false
+    },
+    {
+      "path": "research/reverse/driver-dominance/OUTCOME.md",
+      "sha256": "7469778e1a2269225ca192baa77a1af25ded9d8b3c94346454af48d90eef5040",
+      "bytes": 2394,
+      "lines": 17,
+      "read_line_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "read_scope": "read current full outcome; bounded positive-time comparison and explicit route-screen instruction",
+      "old_certificate_rerun": false
+    }
+  ],
+  "self_contained_checks": [
+    {
+      "id": "matching-center-kernel",
+      "statement": "The new-new leading central forcing uses the same P,Q,K and simultaneous phase reversal as R0.10 after reconciling the sign convention",
+      "proof": "HISTORY_SCREEN.md section 3, equation (1)",
+      "new_taylor_order": false
+    },
+    {
+      "id": "cyclic-packet-Gram",
+      "statement": "For Q columns M=I+J with J=11^T, M^T M=I+5J is not a scalar multiple of I",
+      "proof": "HISTORY_SCREEN.md section 4, equation (2)",
+      "scope": "excludes only common orthogonal-dilation copies of the original three axis pairs"
+    }
+  ],
+  "external_theorem_dependencies": [],
+  "source_document": {
+    "path": "research/reverse/route-screen/HISTORY_SCREEN.md",
+    "sha256": "9fb62c4d1fa569e8fefb12dbbc58d3cb9d0423879d6afa80af68f9de863a9bfb"
+  },
+  "limitations": [
+    "Historical mathematical proofs read only at selected locations; no old certificate reruns",
+    "No current whole-packet PDE estimate",
+    "NO-CANDIDATE is not a universal singularity obstruction",
+    "No publication/forward index or queue access",
+    "No git operations or external handoff"
+  ]
+}
