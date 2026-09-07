@@ -1,3 +1,10 @@
+# Fixed publication role and current rules
+
+- This is the current source checkout used by the fixed `发布任务`, ID `01a06480-0532-7fd0-bdf0-57571465a2d4`. It shares a Git common directory with scientific worktrees; it is not yet the isolated public-artifact repository.
+- Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md` and `NAVIER_STOKES_WRITING_STYLE.md`. Two research directions exist and are currently paused; publication does not resume them.
+- The private-research/public-artifact migration is conditionally approved, not yet cleared to run. Do not change repository visibility, name, remotes or hosting until management has recorded verified stage checkpoints and quiescence. After clearance, execute the existing migration plan with independent public Git history and an approved artifact list.
+- Only this fixed task edits website content, the FIFO queue and deployment. Management may maintain role and writing rules; scientific tasks provide frozen sources and bounded editorial input without duplicate publication supervision.
+
 # Published writing style
 
 These rules apply to reader-facing text in `public/`, page metadata, research notes, and downloadable versions.
@@ -8,17 +15,17 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Before publishing, read the page once as prose and search for the discouraged phrases above. Starting with `ClayB-SignedScale-20260905`, publish new reader notes as HTML only and do not generate a new reader PDF. Preserve historical PDFs byte-for-byte; when maintaining a legacy HTML/PDF pair, keep that existing pair synchronized.
+- Before publishing, follow the central writing guide and read the actual prose in both languages. Daily reader notes use HTML only; individually approved Frontier Results papers use HTML and PDF. Preserve historical frozen PDFs. If a paper is explicitly revised, issue a traceable new version instead of silently overwriting old HTML/PDF/source evidence.
 
 # Publishing target
 
 - Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
-- A research section counts as research-complete when its analytic proof or explicitly stated negative result, required certificates, independent audit, literature boundary, figure package when scientifically needed, release manifest, and frozen source commit are complete. Reader-facing bilingual HTML, homepage entries, deployment, and online verification are publication-completion conditions owned by the fixed `发布任务`; they are not research-completion conditions. Historical PDF preservation remains a publication invariant, but no new reader PDF is required or generated.
-- The fixed `研究任务` sends each frozen `release_id + source commit` once to the fixed `发布任务`, then continues research without polling, waiting for, supervising, or reporting publication. A pending publication must never block a later research version.
+- A research section is complete when its result, required certificates, independent audit, literature boundary, necessary figure package, manifest and source freeze are complete. Reader pages, approved PDFs, homepage entries, deployment and online checks are separate publication conditions.
+- Each of the two research tasks sends its frozen `release_id + source commit` once. It continues only if research is authorized to run; paused tasks remain paused. Neither research task waits for or monitors publication.
 - Use only the existing task titled `发布任务` for all website and GitHub Pages work. Do not create a task per section, version, repair, or retry. The publisher owns FIFO ordering, retries, deployment waits, online verification, and `/Users/kasifa/Documents/Math/NAVIER_STOKES_PUBLICATION_QUEUE.md`.
-- Publish each research-complete section asynchronously through that one FIFO queue. At most one release may be `active`; later releases remain `queued` until the predecessor is online-verified.
-- For a compact read-only resume check, run `python3 /Users/kasifa/Documents/Math/scripts/ns_workflow_context.py publication`. At a reviewed natural checkpoint, the publication owner may refresh only its pinned hashes and commit with the same command plus `--refresh`; this is a recovery aid, not scientific or deployment verification.
+- Process authorized frozen research handoffs and explicitly approved maintenance through one FIFO queue, with at most one active release. Frontier Results inclusion requires the user's per-paper confirmation; research completion or arXiv preparation alone does not authorize it.
+- For a compact read-only resume check, run `python3 /Users/kasifa/Documents/Math/scripts/ns_workflow_context.py publication`. At a natural checkpoint review and update the actual release, source pointers, status, outstanding items and next action first; only then use `--refresh` to bind hashes. Hash refresh alone is not review or verification.
 - Treat a cumulative recap as a milestone artifact, not a per-section requirement. Update it only after a substantial phase closure, route change, or positive theorem; an ordinary completed section publishes its own note without creating a new recap.
 - Keep the latest published-research endpoint and latest recap endpoint as distinct manifest fields. Derive the homepage's latest-version label, total public-note count, published route-node count, recap-covered node count, and recap endpoint from the actual files; verify them before every GitHub Pages push.
 - When a milestone recap is created, state its exact terminal release and node coverage. Later note-only releases must keep that recap byte-identical and label it as the previous milestone instead of silently implying current coverage.
