@@ -66,6 +66,19 @@
       "sent_at_utc": "2026-09-07T22:50:18.532521+00:00",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-HeatWeightedAxialReturn",
+      "source_commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "freeze_commit": "477a0940ffbbfd65ad77f3e29e788609d67e62ee",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-07T23:28:53.382714+00:00",
+      "sent_time_note": "Actual tool confirmed earlier in this goal turn; exact dispatch timestamp was not retained in this receipt. This is a record, not a resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"

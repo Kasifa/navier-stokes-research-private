@@ -1,24 +1,26 @@
 # Reverse research checkpoint
 
-2026-09-08。用户持续研究授权有效；平台目标active、无token预算，不需例行确认。全部科学写入与Git只在 /Users/kasifa/Documents/Math/navier-stokes-reverse、codex/ns-reverse。旧暂停和目标文字里的LocalPressureScreen“待冻结”均为已完成的历史状态。不得改正向索引、共享入口或发布队列，不push、改remote/可见性、部署或监督发布。六个正式包均已一次交接，不重发。
+2026-09-08。用户持续研究授权有效；平台目标active、无token预算，不需例行确认。全部科学写入与Git只在 /Users/kasifa/Documents/Math/navier-stokes-reverse、codex/ns-reverse。旧暂停和目标文字里的LocalPressureScreen“待冻结”均为已完成的历史状态。不得改正向索引、共享入口或发布队列，不push、改remote/可见性、部署或监督发布。七个正式包均已一次交接，不重发。
 
-## 最新已完成的真实数学检验
+## 最新正式完成：全部正时间的正交热树障碍
 
-科学源码 64792d83f8f5fab395e55c2ba4a1014accdc7ebb，冻结提交 60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6。ReverseNS-20260908-AxialReturnObstruction 的七份文本已逐一绑定源码对象，已一次交给固定发布任务作 PRIVATE_ARCHIVE；实际工具确认见 HANDOFF_LOG.json，不等待或查询归档。主证明、仅从合同出发的Pauli独立推导、Pascal非作者全文审查和最终边界审读、根全文比较均完成。
+ReverseNS-20260908-HeatWeightedAxialReturn：科学源码528261e647e05c7346e7a9976954d2dac3288f89，冻结提交477a0940ffbbfd65ad77f3e29e788609d67e62ee，清单unequal-axis-return/heat-freeze.json。14份文本实际匹配科学源码对象；已一次交给固定发布任务作PRIVATE_ARCHIVE，工具成功已补记HANDOFF_LOG.json，未观察归档，不重发、不等待。复用前包64792d83/60fd4719的七份瞬时系数与边界原文；没有重复改写旧冻结。
 
-精确结论：对三对互异正整数长度的轴向种子，所有非零复二维横向极化及实值共轭，F=B(B(a,a),B(a,a)) 在全部加倍轴向接收模上不可能是原模板的共同非零幅度副本，即使允许任意平移及全部相容正交反射。旧第二门的一维像只限制单通道；本次矛盾来自完整两个通道共享的相位与公共幅度条件。相关性模长强制(1,1/2,1)，而频率差比须同时满足γ=2α=2β与γ=(α+β)/(1+αβ)，不能成立。全部零分支、两个有序项、共轭和Leray均已保留。没有新实际初值、科学程序或图档。
+结论：固定ν=1、无外力三维2π环面，三对互异正整数轴向种子，完整复二维横向极化和实值共轭，所定义的纯2+2 Duhamel树在任何正时间都不能于全部六个加倍接收模上形成共同非零幅度的原模板副本，允许任意平移及所有相容正交符号变换。所有第一层供给、两个有序项、Leray、零分支、相位及不同通道黏性权重保留。
 
-只接受指定瞬时纯2+2代数障碍；不是完整正时间NS机制必要条件的否定。1+3/3+1、原种子、目标外反馈和不同通道的热权重没有删除或付清。该瞬时合同已结束，不重算或扫描同一公式。原启动检查点保留于 checkpoint-history/20260908-before-unequal-axis-return.md。
+先前热排序门7d07e7b8把唯一剩余条件化为t13=t12^(2)，现在已严格证明t13<t12^(2)。设A=q2−q1、B=q3−q2、λ=A/(A+B)、ω=B/(A+B)，剩余域B>A>0。在t13处，对数热核的正插值误差严格小于(3/8)λωℓ²，而返回需要的正间隙严格大于(1/2)λωlog²(ω/λ)，其中0<ℓ<log(ω/λ)。得到log(2g2/g1)>(1/8)λωlog²(ω/λ)>0。因此剩余标量相容性已关闭，不再重算两个时间或在失败公式中选参、扫描。此间隙依赖频率比，不是统一正下界或NS余项。
 
-## 最新接纳的正时间树排序门
+HEAT_COMPATIBILITY_PROOF、只从合同出发的Pauli独立证明、Rawls独立消元及其对独立证明的全文审查、Pascal对主证明的全文审查、根全文比较和最终范围审读均完成。最终结论见HEAT_OUTCOME.md；HEAT_ORDER和HEAT_COMPATIBILITY_REDUCTION中旧“未决”只保留其当时的部分阶段，不再是当前待办。
 
-已先锁 HEAT_ORDER_CONTRACT.md。HEAT_TRANSFER_PREFLIGHT.md 的完整精确树分账根已全文读取并手核：v₁在±p_i±p_j为t exp(−(q_i+q_j)t)N；w₂₂在2p_i的j通道乘H_ij=∫₀ᵗs²exp(−4q_i(t−s)−2(q_i+q_j)s)ds。它们只是Picard树，不能当完整真实第一代或原解。
+NO-CANDIDATE仅针对这份精确正交纯树模板合同。v1、w22是树项，未认证为原解的独立世代；1+3/3+1、种子混合、其它模板、近似返回、非正交或更宽支撑及无限维余项均未被排除或支付。没有实际新初值、科学程序、数组或图档；没有完整NS两步机制、单初值无限尺度、有限总时间、奇性或全局正则性结论。
 
-科学源码7d07e7b8a1dbd4085346ac88b578bd3e4bd44257。HEAT_ORDER_PROOF、未读热主稿的Pauli独立推导、Pascal未读独立稿的非作者审查及根全文比较均完成；接纳见HEAT_ORDER_ROOT_REVIEW及heat-order-acceptance.json。这是当前热问题的内部检查点，未新建正式包或额外交接。
+## 当前工作：非正交共享种子的空间返回
 
-已证明g₁>g₂，结合相位强制D=I、R₁R₂R₃>0及g₁=g₃=2g₂；q₁<q₂<q₃时必须q₂²<q₁q₃，故n₂²≥n₁n₃的长度在全部正时间被这个树合同排除。剩余长度的g₁/g₃严格递增，只在一个t₁₃等于1。独立稿另证全部i<j的g_i/g_j严格递增，根实际核了其有限区间概率密度/分部积分引理0<(uμ(u))'<2，接受这些额外式；不能称Pascal另读过该独立稿。
+nonorthogonal-return/PREFLIGHT_CONTRACT已先锁，主预检、只读合同的Pauli独立预检、Pascal非作者全文审查和根全文比较已完成。实际重读本地R0.11 §3、§9–10，R0.12 §2–5；旧等长门对全部复横向输入有效，但第二层p+q、p−q等长当且仅当p·q=0。没有新外部文献适用性或新颖性声明。
 
-对剩余α<β，t₁₃与使g₁/g₂=2的t₁₂^(2)均各自唯一。其严格区间分别为log(β/α)/(8(q₃−q₁))<t₁₃<log(β/α)/(2(q₃−q₁))，log(2β/γ)/(8(q₂−q₁))<t₁₂^(2)<log(2β/γ)/(2(q₂−q₁))。返回仍必须t₁₃=t₁₂^(2)，这个等式未决；区间交非空不是充分条件。没有选择n_i、t或极化，没有扫描或科学程序。
+对共享U⊥p、V⊥q，完整空间前代N±都依赖同一U,V及其共轭。c=p·q≠0、E=|p|²+|q|²时，精确第一树层热因子I±=exp(−Et)(1−exp(∓2ct))/(±2c)，乘积为exp(−2Et)sinh²(ct)/c²；到2p的配对权重J是该乘积与exp(−4|p|²(t−s))的正积分。c→0在固定有限时间一致恢复正交公式，不代表整数频率连续路径。完整有序第二门C的平面投影满足C·q=ic(N+·(p−q))(N−·(p+q))/|p|²。
+
+进一步SPATIAL_CONTRACT已先锁；主稿、Pauli只读合同及自己旧预检的独立展开、Rawls未读独立稿的主稿非作者审查及根全文比较均完成。精确接受与来源绑定见ROOT_SPATIAL_REVIEW及spatial-acceptance.json；独立稿额外相位比值和前代零分支也经根实际手核，未误记为Rawls另审。科学源码3a6ef9afc98985a133a04a9bc1416ebaec8f5060，共12份文本/接纳记录，是三对共同筛选的内部检查点，不单独正式交接。已接受结论是：非平行且非正交p,q下，单对输出C=0当且仅当原频率等长，或任一所需平面极化分量为零。非零分支的平面输出不消失；法向含共享接收种子的反馈项，不可删除。这仍不是三对共同返回或实际NS候选。
 
 ## 已完成的精确调制纯旋流障碍
 
@@ -41,10 +43,10 @@
 - M2唯一执行源ca8d379a9496c4c6aadb1d6a1c8cffaf262b153c，工具chunk7a3b03实际exit1；末峰值比收据增加32768B触发LATE_PEAK_ABSENT_FROM_RECEIPT，run FAILED、旧收据失效。没有实际上限超限证据，但不满足接纳合同。临时UNDECIDED/Q2/D科学值均NOT_ADMITTED，禁修源重跑、换名重复、改收据或用失败值指导选参。
 - 旧n1280已接受完整残差节点需求、原末端小性仍按原范围保留；不得将有限参照或节点当真实NS。最新纯解析障碍不追认或修复任何旧运行。
 
-## 下一唯一有界动作
+## 下一有界动作与恢复
 
-带热排序门已完成，不重算其微分或再派相同审查。下一唯一未付条件是剩余n₂²<n₁n₃长度上，两个唯一时间t₁₃与t₁₂^(2)是否可能相等，等价于g₂(t₁₃)/g₁(t₁₃)=1/2。先锁一个精确符号相容性合同，再试严格比较这两个时间；不先挑选频率、时间、极化或扫描，不把粗对数区间交当解。可复用已接受的全比值单调与概率密度引理。若仍未决，准确保留缺口，不以邻近条件或重复核对冒充进展。
+nonorthogonal-return单对空间与热积分检查点已完成，不重算或重复派审。下一步只锁三对线性独立种子的完整共同接收合同：每个2p_i必须合计所有其它j的共享配对及各自正热权重，保留复共轭、相位、回流和零分支；不能把单对映射输入自由化，也不能从每个通道非零推出同时返回。未锁定共同接收合同前不选整数波向量、极化、幅度、时间或实际初值，不开程序或扫描。
 
-即使树级相容，也未证明六个复系数方程的充分可解性；树级通过仍不接受完整NS两步机制，须另有固定实际初值、真实供给和完整无限维余项合同。不能交换forall N exists u0_N和exists u0 forall N。
+树级通过仍不接受完整NS两步机制，须另有固定实际初值、真实供给及完整无限维余项合同。不能交换forall N exists u0_N和exists u0 forall N。全部旧计算禁令与失败值不接纳状态保持；新解析公式不修复它们。
 
-恢复只用本页与.workflow/reverse-current.json；当前首读为unequal-axis-return/HEAT_ORDER_ROOT_REVIEW、HEAT_ORDER_INDEPENDENT、HEAT_ORDER_PROOF和HEAT_TRANSFER_PREFLIGHT。主稿开头“独立比较完成前待接纳”是先写稿时的条件句，当前接纳以根比较及绑定为准。旧modulated-swirl与固定参照路线均已结束，不能按历史“待证明”重开。研究自主继续，不以管理或发布回执为依赖。
+恢复只用本页与.workflow/reverse-current.json；当前首读nonorthogonal-return/ROOT_SPATIAL_REVIEW、SPATIAL_INDEPENDENT、SPATIAL_PROOF、ROOT_PREFLIGHT_REVIEW及其接纳记录。完整热树的结论以HEAT_OUTCOME为准。旧modulated-swirl、固定参照路线、瞬时轴向和正时间轴向精确模板均已结束，不能按历史待办重开。研究自主继续，不以管理或发布回执为依赖。旧本页已原字节保存于checkpoint-history/20260908-before-heat-compatibility-close.md。
