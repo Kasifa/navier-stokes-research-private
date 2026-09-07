@@ -1,0 +1,42 @@
+{
+  "M_exact": "5858206364003/41250000000",
+  "PDE_solver": false,
+  "T": "1/10000",
+  "U_upper": "600180033/100000000",
+  "bounds": {
+    "a": "6",
+    "b": "18",
+    "c": "66",
+    "t2": "213",
+    "t3": "56504/165",
+    "t4": "64003/165"
+  },
+  "complete_algebra_bytes_match": true,
+  "mathematical_limit": "Same-code complete replay and exact constants only. The infinite-dimensional proof and the limited forward usefulness require analytic review; no new regularity or singularity result.",
+  "original_certify_py_mutation_suite_reexecuted": false,
+  "original_primary_check_count": 19,
+  "rational_and_binding_checks": {
+    "M_below_143": true,
+    "all_primary_checks_recomputed": true,
+    "bounds_match_proof_table": true,
+    "certificate_points_to_full_algebra": true,
+    "fixed_time_contraction": true,
+    "j_lower_bound": true,
+    "k_lower_bound": true,
+    "polynomial_in_ball": true,
+    "stored_rational_constants_match": true
+  },
+  "residual_modes": {
+    "t2": 66,
+    "t3": 126,
+    "t4": 150
+  },
+  "second_Fourier_implementation": false,
+  "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+  "source_hashes": {
+    "algebra-result.json": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+    "certificate.json": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+    "exact_algebra.py": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb"
+  },
+  "status": "PASS_SCOPED_REPLAY"
+}
