@@ -1,0 +1,31 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "PASS",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "research/reverse/next-mixed/mixed_response.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"FINITE_DIAGNOSTIC_NOT_REGENERATION\", \"support_sizes\": [0, 0, 0, 36], \"component_l1_upper\": [\"0\", \"0\", \"0\", \"144\"], \"checks\": {\"derivatives_0_1_2_all_three_mixed_zero\": true, \"third_mixed_nonzero\": true, \"third_mixed_real_divfree_mean_zero\": true}}",
+      "error": "",
+      "wall_seconds": 0.24683299999999997
+    },
+    {
+      "command": [
+        "ruby",
+        "research/reverse/next-mixed/mixed_independent.rb",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "{\"status\":\"PASS\",\"checks\":18,\"first_nonzero_order\":3,\"mixed_stats\":[{\"order\":0,\"stats\":{\"support_count\":0,\"component_real_imag_l1\":\"0\",\"normalized_L2_squared\":\"0\",\"real_divfree_mean_zero\":true}},{\"order\":1,\"stats\":{\"support_count\":0,\"component_real_imag_l1\":\"0\",\"normalized_L2_squared\":\"0\",\"real_divfree_mean_zero\":true}},{\"order\":2,\"stats\":{\"support_count\":0,\"component_real_imag_l1\":\"0\",\"normalized_L2_squared\":\"0\",\"real_divfree_mean_zero\":true}},{\"order\":3,\"stats\":{\"support_count\":36,\"component_real_imag_l1\":\"144\",\"normalized_L2_squared\":\"296\",\"real_divfree_mean_zero\":true}}],\"selected_nonzero_mode\":{\"k\":[-2,-1,-1],\"third_derivative\":[{\"re\":\"0\",\"im\":\"5/3\"},{\"re\":\"0\",\"im\":\"-2/3\"},{\"re\":\"0\",\"im\":\"-8/3\"}]},\"seconds\":0.024114999920129776,\"sha256\":\"6db3513f8a19a0269f9190c40d113decb77b8892c87b9c520ee1cf5fe4dfa00f\"}",
+      "error": "",
+      "wall_seconds": 0.066315541
+    }
+  ],
+  "independent_assertions": 18,
+  "first_cycle_science_unchanged": 19,
+  "boundary": "Finite third-jet preflight only; no new release or PDE remainder"
+}

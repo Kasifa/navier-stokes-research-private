@@ -1,0 +1,17 @@
+{
+  "classification": "PRIVATE_CORE",
+  "handoffs": [
+    {
+      "release_id": "ReverseNS-20260907-TwoGeneration",
+      "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "freeze_commit": "b72d4627bfbed913214d01514ba1696ce68632af",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": "2026-09-07T11:22:10.835418+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
+    }
+  ],
+  "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
+}
