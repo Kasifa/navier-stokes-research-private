@@ -1,0 +1,106 @@
+{
+  "release_id": "ClayB-HelicityStructureScope-20260907",
+  "logical_predecessor": "ClayB-FiniteObservation-SourceScreen-20260907",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": ["PRIVATE_ARCHIVE"],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "LITERATURE",
+    "PROVED LOCAL CHECK",
+    "NO NEW UNCONDITIONAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "base_commit": "ad211336f4eed79a2044d3541dc49601189ff6f0",
+  "source_commit": "dda10b676b2d6204a4538a3546f76859fe39a5d7",
+  "claims": [
+    "A fixed smooth unforced periodic NS datum has pointwise initial helicity zero, but h(t,x*)=-t/3+O(t^2) for every fixed positive viscosity; a reflection symmetry simultaneously keeps total helicity zero throughout its smooth interval.",
+    "The elementary six-term formula printed in Tao arXiv1402.0290v3 Remark4.3 fails its claimed universal curl cancellation on admissible real divergence-free Schwartz test fields; the displayed inverse-curl sign also differs from the true inverse.",
+    "A corrected elementary formula has energy and curl cancellations, preserves the odd-field dynamics and the exact local-cascade class, with convergent scale sums for H10 inputs.",
+    "These local checks do not provide an unconditional regularity estimate or select a new arbitrary-data candidate."
+  ],
+  "limitations": [
+    "No original-NS blowup, general regularity, new critical bound, arbitrary-candidate singularity coverage, novelty or human peer-review claim.",
+    "Near-initial-time construction only; constants and the time window may depend on fixed viscosity. Zero total helicity is preserved by the specific reflection symmetry, not by every zero-helicity datum.",
+    "Only the arXiv v3 formula was visually verified. Formal JAMS formula bytes and a complete erratum registry were not checked; bounded negative searches are not proof that no correction exists.",
+    "The elementary formula failure is not a disproof of Tao's main theorem. The corrected elementary interface is not a reproof of the complete averaged-NS blowup construction or representation theorem.",
+    "HS already contains the global critical-difference identity and helical spectral-sector leakage; these are not new mechanisms. Reverse first-cycle data and its numerical remainder certificate are not reused as this example's certificate."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_helicity_structure_scope_20260907.md",
+      "sha256": "d21f2f382e19ef007926e4ee59e2c6ae5be32706ec27a471c7a3538901cac3cf",
+      "bytes": 12278
+    },
+    {
+      "path": "research/clay_b_helicity_structure_audit_20260907.md",
+      "sha256": "fcc08ea9a80a6631cecef8b2c82c2183f14ef627147957b1cd3207d492e6a7ba",
+      "bytes": 6759
+    },
+    {
+      "path": "research/clay_b_helicity_structure_checkpoint_20260907.json",
+      "sha256": "e68a009d07c784163a91dc9a2e35771bb47f8fb3f02f71072f5fdc5bdb271382",
+      "bytes": 3271
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_helical_sector_dynamics_20260907.md",
+      "sha256": "558b249728879db0c52f402db8769666e0a0ab3a6b5da992e7b889a33e6d0318",
+      "bytes": 7277
+    },
+    {
+      "path": "research/clay_b_averaged_ns_scope_check_20260906.md",
+      "sha256": "8f697f717c92dd716b839d2e1ab00c8c1baa1c6f8cc3e636cc7c505c411f7401",
+      "bytes": 2247
+    },
+    {
+      "path": "research/clay_b_reverse_first_cycle_acceptance_20260907.md",
+      "sha256": "16035a2a368cae26d066a8fa3194392788ece60e1abcd1c9c1a2ab7802bde625",
+      "bytes": 7132
+    }
+  ],
+  "accepted_immutable_source": {
+    "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+    "path": "research/reverse/first-cycle/PROOF.md",
+    "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+    "scope": "Section3 generic Wiener local-existence and smoothness argument only. No repeat archive of the reverse source or simulation/certificate."
+  },
+  "source_reference": {
+    "url": "https://arxiv.org/abs/1402.0290v3",
+    "pdf_url": "https://arxiv.org/pdf/1402.0290v3",
+    "pdf_sha256": "743c802bd9ecf90ec8d022292885f886a321ab1f7c2dfb601b3c860b98b3f07d",
+    "pdf_bytes": 1052688,
+    "scope": "HTML original-NS/Leray conventions, Definition3.1, Theorems3.2-3.3 statements, full Remark4.3; arXiv PDF printed pages34-35 visually inspected.",
+    "third_party_pdf_included": false,
+    "jams_formula_visually_verified": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Analytic local construction and source/operator-scope check; no simulated or measured data.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {"update_required": false},
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "math": "C full nonauthor main review plus actual four-line delta; B source/operator scope review plus delta. Both accepted d21f2f382e19ef007926e4ee59e2c6ae5be32706ec27a471c7a3538901cac3cf.",
+    "independent_algebra": "A admissible Schwartz example and corrected alternating form; B separate six-term pairing, parity and scaling.",
+    "records": "A main/audit/checkpoint review PASS at exact versions listed in audit; root appended only the receipt paragraph and checked final JSON, equation tags, hashes and preservation.",
+    "audit": "research/clay_b_helicity_structure_audit_20260907.md",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "pde_simulation": false,
+    "source_files_match_commit": true,
+    "limits": "Analytic and source-scope review only. No full external-paper proof certification, novelty, human peer review or public privacy approval."
+  },
+  "handoff": {
+    "target_title": "发布任务",
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "send_once": true,
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true
+  },
+  "integrity_note": "This manifest binds source-stage files at source_commit. It does not hash itself or the later dispatch receipt and does not claim archival completion.",
+  "next_research_plan": "No new unconditional candidate selected. Require a specific original-NS space-time relation, independently controlled quantity and arbitrary-candidate interface before the next technical run. Do not repeat global helicity, initial-zero, GP/SV/MSD or closed finite-observation variants. Do not wait for or monitor archival."
+}
