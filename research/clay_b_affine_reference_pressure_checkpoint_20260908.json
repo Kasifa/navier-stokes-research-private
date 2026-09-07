@@ -1,0 +1,36 @@
+{
+  "release_id": "ClayB-AffineReferencePressure-20260908",
+  "logical_predecessor": "ClayB-WeakGradientEntropy-20260908",
+  "privacy": "PRIVATE_CORE",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "main": "research/clay_b_affine_reference_pressure_20260908.md",
+  "main_sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+  "base_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+  "classification": "SCOPED PRESSURE-HESSIAN FORCED SCALE RECURRENCE / EXACT AFFINE-REFERENCE ENTROPY / LOCAL NS COUNTERCHECKS / NO AUTOMATIC GOOD SCALE / OPEN / NOT CLAY",
+  "is_clay_result": false,
+  "completed_claims": [
+    "For WE's unforced unit-viscosity local energy-class distribution NS solutions, at inner scales Hcal(r)=r^(-1) integral_Qr|Hess p| obeys Hcal(theta*r)<=C0*theta^2*Hcal(r)+C1*theta^(-1)*E(r), 0<theta<=1/4. The harmonic Hessian gives spatial theta^3, time only gives interval inclusion, and the near part uses WE's solenoidal-extension Hardy estimate.",
+    "For fixed theta with a=C0*theta^2<1, the exact discrete convolution bound propagates an existing E(r_j)->0 into Hcal(r_j)->0 and a common finite E cap into a finite Hcal cap. This is a forced pressure-subsystem recurrence, not decay of E or the full NS system.",
+    "For smooth local solutions and a fixed nonnegative compact cutoff, J_eta=integral eta|G|-|integral eta G| satisfies an exact balance with the original nonnegative mu_G. The mean-gradient norm uses its first-order absolutely continuous chain rule even at mean zero; the mean itself and its evolution are boundary velocity/nonlinearity/pressure integrals. On the full periodic cell J is only the original gradient L1 norm.",
+    "The norm of R=G-C dissipates a different Gamma_R. An explicit local NS shear arbitrarily close to a fixed affine gradient has Gamma_R=0 but Gamma_G>0, even with G^2+H=0. The missing comparison term is the spatial derivative of the radial amplitude |R|.",
+    "For an exact affine NS reference with m=|C|>0 and |R|<=theta*m for 0<theta<1, the entropy |G|-(C/m):G retains the original dissipation and cancels first-order reference terms. Reference and inertia terms, and, at a fixed time when the same approximation holds on the mother ball, a cut-off near-pressure pairing via L2 elliptic estimates, are quadratic in full R. The entropy controls only transverse R, not its radial component; harmonic pressure tails remain.",
+    "Explicit local affine and harmonic-potential NS solutions show that a prescribed near-affine reference does not remove a first-order harmonic pressure source, and locally zero optimized defect need not remain zero without pressure/boundary inputs. These are smooth nonperiodic, non-finite-total-energy checks, not singularity or Clay counterexamples; the potential construction is classical and explicitly sourced."
+  ],
+  "open_items": [
+    "No arbitrary same-solution NS mechanism produces small E or normalized original shape dissipation at a prescribed centre. The forced pressure recurrence only propagates an already supplied energy smallness.",
+    "The signed near-field inertia-pressure interaction and cutoff transport in the original local entropy still lack a proved estimate giving absorbable or summable errors beyond the critical E source.",
+    "The full radial relative-gradient variation, nondegenerate reference magnitude, reference time coefficient and harmonic relative pressure cannot be bounded automatically by the calibrated entropy. The best mean direction need not solve the affine-reference NS equation.",
+    "A common A+E+D cap still needs justification along the relevant scales. Hessian control misses spatially affine pressure and does not replace SC's D normalization.",
+    "Effective thresholds, optimality, a complete novelty/source-collision audit and human peer review have not been supplied. Exact polynomial checks certify only the listed explicit identities.",
+    "General three-dimensional global regularity, singularity construction and the Clay goal remain open."
+  ],
+  "next_action": "Use AH.4 to keep the harmonic pressure-Hessian tail separate from its critical E forcing. For the same actual NS evolution, derive a two-scale signed integral balance for the near-field combination G^2+Hess(pi_r) in WE.23 together with all transport, cutoff and top/bottom slice terms. Test whether their joint structure yields an absorbable or summable error beyond the unchanged E(r) bound, while retaining original mu_G or the actual weak grad Theta and controlling the common A+E+D cap. Do not redo AH's affine subtraction, its three local counterchecks, WE weak-H1 admission, SC compactness, RL's variable-coefficient Young remainder or SN's disproved pure quadratic stretching replacement. A pressure-only forced contraction or an instantaneous near-affine assumption is not an arbitrary-evolution good-scale proof. If the estimate merely returns the same critical source, record that exact limitation before selecting a materially different structural input. No publication or reverse-runtime inspection.",
+  "finite_symbolic_check_script": "research/clay_b_affine_reference_pressure_checks_20260908.py",
+  "finite_symbolic_checks_run": true,
+  "numerical_certificate_required": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "handoff_policy": "After complete freeze, send once to the fixed publisher for PRIVATE_ARCHIVE only. No public overview, local reader, website, attachments, push, polling or supervision. Dispatch acceptance is not archive verification."
+}
