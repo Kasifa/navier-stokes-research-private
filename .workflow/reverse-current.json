@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read Pascal ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md and Rawls ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md when stable. Both are already assigned and writing; do not duplicate. Independently review concrete method and resource contracts, then implement and source-review before any single fixed-interval execution. Six-process candidate budgets are not measured costs. Existing kernels and complete nodal comparison remain closed, never rerun. No new nodes, epsilon choice, precision, window or unreviewed trial. User continuous authority remains active; routine internal preparation requires no user confirmation.",
+  "next_action": "Pascal implements primary audit_one_segment_residual.py; Rawls implements independent audit_one_segment_residual_independent.py; Pauli prepares read-only local runtime preflight. All already assigned. Await stable source notifications, full-read and independently review both sources and static checks, fix actual issues, commit exact source and pins before root schedules the two once-only fixed-I runs sequentially. No scientific kernel or new array computation is currently allowed to authors. No old kernel rerun, new node/epsilon/precision/window, uncontrolled retry or publication work.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -158,7 +158,15 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_INDEPENDENT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json",
-    "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json"
+    "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md",
+    "research/reverse/fixed-seed-global-screen/one-segment-execution-contract-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -305,7 +313,15 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "01ac859bce7d9e26c4cb678326fd2bf2995993c3bc021b466c5084f1ff367c2d"
+    "research/reverse/CHECKPOINT.md": "a3a8b024c1a350f818a5970d42e673f0d410dd432927ff6e4197709a9ba2f749",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_INDEPENDENT_REVIEW.md": "92af668f2a3fdfe081eb99123af63d781a7e2de90fbba158c70c852b9d868afc",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md": "8244f7b4d2137c71c60f169b022d5cf238bebef50b00692a40d48cb32e00fb24",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md": "fd77dcc9ac5f1ed822d3d14cd1eb8ca33eb242d5f2322f862b170bbbdf6ce8ea",
+    "research/reverse/fixed-seed-global-screen/one-segment-execution-contract-root-bindings.json": "32ac48b07a681b1e5aaa9e26532f8b7d19020ab198fffc587e7261c7e54bd527",
+    "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json": "752a67491ee285c683826a9a18edc7cb0a5b9004f7e4a5549ef1424b16e09e7e"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -319,12 +335,13 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Accepted exact fixed-control endpoint gate, strict node compatibility, and same-segment residual increment/denominator lemmas; bounded main/independent execution contracts under preparation",
+  "current_topic": "Reviewed full-segment primary/direct-independent execution and comparison contracts; two exact sources under implementation",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Main and independent one-segment execution contracts being authored; read stable drafts before independent review/code",
-    "Complete original same-segment continuous residual not yet computed; no new scientific kernel this turn",
-    "All-window derivative/residual inputs and original fixed datum global/singularity result remain open"
+    "Two exact sources being implemented; stable source SHA and static preflight pending",
+    "Root full source review and runtime preflight before any once-only science execution",
+    "Future complete two-kernel comparison code/pins/run remain unpaid",
+    "Same original fixed NS solution, all-window inputs and singularity/global status remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -343,9 +360,9 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T19:34:26.862866+00:00",
+  "updated_at": "2026-09-07T19:50:31.063529+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "ACTUAL_NEW_ANALYTIC_RESEARCH_WITH_NONAUTHOR_REVIEWS_AND_41_SMALL_EXACT_CHECKS_NO_SCIENTIFIC_KERNEL",
+  "previous_goal_turn_classification": "PROGRESS: reviewed and committed exact segment execution/comparison contracts, 20 small exact checks, two source implementations actively assigned; no science kernel run yet",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -610,9 +627,10 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
-    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md"
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md"
   ],
   "resume_read_note": "Read current accepted synthesis and new contract drafts as they stabilize; mathematical sources in full when needed. Previous required_files are provenance, not an instruction to reread/recompute closed work. Forward helper/index and publication queue remain out of scope.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
@@ -637,7 +655,7 @@
     "science_execution": false
   },
   "one_segment_residual_execution_preparation": {
-    "status": "TWO_CONTRACTS_BEING_AUTHORED_NO_CODE_OR_EXECUTION",
+    "status": "CONTRACTS_REVIEWED_TWO_SOURCE_IMPLEMENTATIONS_IN_PROGRESS_NO_KERNEL_RUN",
     "primary_author": "driver_independent_certificate Pascal",
     "primary_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
     "independent_author": "driver_contract_review Rawls",
@@ -649,7 +667,37 @@
       "observed_total_rss_bytes": 2147483648,
       "output_bytes": 536870912
     },
-    "resource_status": "candidate engineering stop thresholds, not reviewed final contracts or measured costs",
-    "no_new_epsilon": true
+    "resource_status": "reviewed engineering stop thresholds; no measured kernel costs",
+    "no_new_epsilon": true,
+    "source_commit": "ef2948e6817d2e3ba2c597050aed077f4b7e4ef4",
+    "primary_contract_review": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_INDEPENDENT_REVIEW.md",
+    "independent_contract_root_review": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_CONTRACT_ROOT_REVIEW.md",
+    "primary_source": "research/reverse/fixed-seed-global-screen/audit_one_segment_residual.py",
+    "independent_source": "research/reverse/fixed-seed-global-screen/audit_one_segment_residual_independent.py",
+    "source_review_status": "not yet read; authors implementing, only static default/check-only allowed",
+    "primary_fixed_binary_bytes": 288713460,
+    "independent_fixed_binary_bytes": 169192128,
+    "root_binding_record": "research/reverse/fixed-seed-global-screen/one-segment-execution-contract-root-bindings.json",
+    "runtime_preflight": {
+      "author": "driver_source_audit Pauli",
+      "file": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_LOCAL_RUNTIME_PREFLIGHT.json",
+      "status": "read-only environment preflight in progress"
+    }
+  },
+  "one_segment_residual_comparison_preparation": {
+    "status": "CONTRACT_AND_NONAUTHOR_REVIEW_ACCEPTED_NO_CODE_OR_DATA",
+    "source_commit": "ef2948e6817d2e3ba2c597050aed077f4b7e4ef4",
+    "contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md",
+    "independent_review": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md",
+    "root_acceptance": "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json",
+    "full_counts": {
+      "tensor_real_scalars": 2587464,
+      "W_integer_scalars": 1509354,
+      "S_signed_coefficients": 467181,
+      "new_center_real_scalars": 88416,
+      "original_power_real_scalars": 117888
+    },
+    "scope": "complete D_f-to-deltaT mapping, exact W/S, q0 and Bernstein containment, actual negative controls; no kernel reruns",
+    "monotonicity": "main rbar0>=independent rbar0, rbar2 equal, hence main Gamma>=independent Gamma under valid source/norm conventions"
   }
 }

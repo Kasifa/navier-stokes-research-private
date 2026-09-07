@@ -6,7 +6,9 @@
 
 同一既存 I=[1280/2048,1281/2048] 的完整增量残差接口也已接受：六极化、18次新实整数乘法，复用旧六常数张量和带相位 Rhat0，保留精确原线性项、全 H、完整 Leray 与全段一次输入误差。Pauli 独立推导及全文审查 PASS。SD 精确分母约化另获 Pauli 非作者 PASS：每个残差系数为 W/(s QP^2)，旧常数 W0=V/D 必须逐实虚精确整除；W 的34字节全档案为51,318,036B。负平方幂系数、floor/ceil 与 degree12 Bernstein 接口已核。根全文读终审并实际核4来源/13小整数关系。这些都是解析结果，尚无新科学核运行或连续残差数据。
 
-下一已开工项：Pascal 正写 ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md；Rawls 正写 ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md。仅同一段，不新增节点、参数、精度或窗口。主路径六极化四维整数乘法；独立路径六张量乘15个非恒定时间对乘4912^2完整有序空间对，禁止重算旧 C0*C0。两者均拟用6进程，有界候选600秒、2GiB观测总RSS、512MiB输出；最终资源/方法合同、源码及非作者审查尚未锁定，先全文审稿再实现，不直接运行或试跑。须完整记录证据，主 D_f 与独立 deltaT 经精确恢复比较，W/S全量对比，零阶直接Fraction核与主floor/ceil包含比较。
+最新执行合同已在 ef2948e6 提交并完成限定审查：主 SE 最终76877866、Pauli审查92af668f；独立 DI 最终fd77dcc9、根非作者审查8244f7b4；完整对照合同e6a39b64、Pauli审查76be8313。根实际核6来源/20小整数，另全文验收对照审查。独立W/S已统一主time-major格式与34/68字节。主固定二进制288,713,460B，独立169,192,128B；各6worker顺序执行，各自600秒、2GiB观测总RSS、512MiB输出，均为停止阈值而非实测成本。
+
+下一已开工项：Pascal 正实现 audit_one_segment_residual.py，Rawls 正实现 audit_one_segment_residual_independent.py；两者都只能运行默认/check-only的语法/配置/实际SHA检查，禁止任何新科学算术或试跑。Pauli 正作只读本地运行环境预检 ONE_SEGMENT_LOCAL_RUNTIME_PREFLIGHT.json。待源码稳定后根全文审读，修复问题、固定源提交及真实输入pin后，由根安排本段两核各唯一一次执行；不可把合同PASS直接当源码或运行通过。仅同一段，不新增节点、参数、精度或窗口。主路径六极化四维整数乘法；独立路径完整六张量乘15非恒定时间对乘4912^2有序空间对，禁止重算旧C0*C0、全G² object矩阵或数据掩码。主D_f与独立deltaT经精确恢复比较，W/S全量对比，独立零阶Fraction与主floor/ceil包含比较。独立Gamma由未来比较器从rbar计算，允许主更宽上界未认证而独立通过，禁止反向分类矛盾。
 
 旧 n1280 完整残差两核、全部对照及终审已在 d0fa57c7 关闭，不得重跑；原 r2 exp(5/4)>2.38018447116e-7。唯一节点生产、单段导数、旧单张量核也全部关闭。已有终点界 X_*<1/2 不能替代实际导数/残差全窗条件。不得根据平台目标中已过时的 LocalPressureScreen 下一步重启已关闭工作。
 
