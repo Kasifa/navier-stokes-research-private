@@ -1,0 +1,207 @@
+{
+  "base_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+  "claims": [
+    "For WE's unforced unit-viscosity local energy-class distribution NS solutions, at inner scales Hcal(r)=r^(-1) integral_Qr|Hess p| obeys Hcal(theta*r)<=C0*theta^2*Hcal(r)+C1*theta^(-1)*E(r), 0<theta<=1/4. The harmonic Hessian gives spatial theta^3, time only gives interval inclusion, and the near part uses WE's solenoidal-extension Hardy estimate.",
+    "For fixed theta with a=C0*theta^2<1, the exact discrete convolution bound propagates an existing E(r_j)->0 into Hcal(r_j)->0 and a common finite E cap into a finite Hcal cap. This is a forced pressure-subsystem recurrence, not decay of E or the full NS system.",
+    "For smooth local solutions and a fixed nonnegative compact cutoff, J_eta=integral eta|G|-|integral eta G| satisfies an exact balance with the original nonnegative mu_G. The mean-gradient norm uses its first-order absolutely continuous chain rule even at mean zero; the mean itself and its evolution are boundary velocity/nonlinearity/pressure integrals. On the full periodic cell J is only the original gradient L1 norm.",
+    "The norm of R=G-C dissipates a different Gamma_R. An explicit local NS shear arbitrarily close to a fixed affine gradient has Gamma_R=0 but Gamma_G>0, even with G^2+H=0. The missing comparison term is the spatial derivative of the radial amplitude |R|.",
+    "For an exact affine NS reference with m=|C|>0 and |R|<=theta*m for 0<theta<1, the entropy |G|-(C/m):G retains the original dissipation and cancels first-order reference terms. Reference and inertia terms, and, at a fixed time when the same approximation holds on the mother ball, a cut-off near-pressure pairing via L2 elliptic estimates, are quadratic in full R. The entropy controls only transverse R, not its radial component; harmonic pressure tails remain.",
+    "Explicit local affine and harmonic-potential NS solutions show that a prescribed near-affine reference does not remove a first-order harmonic pressure source, and locally zero optimized defect need not remain zero without pressure/boundary inputs. These are smooth nonperiodic, non-finite-total-energy checks, not singularity or Clay counterexamples; the potential construction is classical and explicitly sourced."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 14138,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 3581,
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 15079,
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 10247,
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/pressure_hessian_pointwise_obstruction_note.md",
+      "sha256": "8eda90895ee566c3680c6c12720de7f8a3a0b32fdeffb4cd6c5ed0dc346305f0",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    }
+  ],
+  "dependency_commits": [
+    "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "new_pdf_audit": false,
+      "scope": "Root targeted reading of introduction lines55-89 including the harmonic-potential example72-84; C read55-99. The classic local potential-flow construction and lack of boundary conditions only, not unreviewed pressure-projection theory. Other search results and a merely opened Tao page are not proof inputs.",
+      "title": "Jorg Wolf, On the local pressure of the Navier-Stokes equations and related systems",
+      "url": "https://arxiv.org/html/1611.01482v1",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "Pure analytic pressure-scale and affine-reference estimates with explicit local algebra checks; no simulation or scientific figure.",
+  "files": [
+    {
+      "bytes": 11723,
+      "commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0"
+    },
+    {
+      "bytes": 5945,
+      "commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+      "path": "research/clay_b_affine_reference_pressure_checks_20260908.py",
+      "sha256": "87058f489387545fb77e63d53f6a5fe813c4c3c703c38db85b96759ac6502420"
+    },
+    {
+      "bytes": 5847,
+      "commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+      "path": "research/clay_b_affine_reference_pressure_audit_20260908.md",
+      "sha256": "2729d6964410b5d85255518f9d529326e9b0e8bd176ad7cdec39bca8de50f0c4"
+    },
+    {
+      "bytes": 5576,
+      "commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+      "path": "research/clay_b_affine_reference_pressure_checkpoint_20260908.json",
+      "sha256": "6f39bde766526336d0b61383e3acc95ba037484790353c3f22d2ca24e7558e84"
+    },
+    {
+      "bytes": 14138,
+      "commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 11939,
+      "commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 3581,
+      "commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 15079,
+      "commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_shear_normal_stretching_20260908.md",
+      "sha256": "4c4959d9e858a81c9d92fed3885fa9c6dba170368bbfe3feb7688e4f0d9e0e13",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 10247,
+      "commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/pressure_hessian_pointwise_obstruction_note.md",
+      "sha256": "8eda90895ee566c3680c6c12720de7f8a3a0b32fdeffb4cd6c5ed0dc346305f0",
+      "source_commit": "31aead3a887d67c1157be898fb1c3efcc7e0f094"
+    },
+    {
+      "bytes": 11742,
+      "commit": "1a73f22fe4236d6836c7b88844c555e939e46790",
+      "path": "research/clay_b_affine_reference_pressure_release_20260908.json",
+      "sha256": "cb2381b288029dca97fcad42ce6a9fa34c9b360d288a0cd6a0defe26e447555f"
+    }
+  ],
+  "freeze_commit": "1a73f22fe4236d6836c7b88844c555e939e46790",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Manifest and dispatch receipt are outside immutable source-stage files. Dispatch acceptance is not archive verification. No public overview, website, local reader, counts, recap, public attachments or relaunch requested.",
+  "is_clay_result": false,
+  "limitations": [
+    "No arbitrary same-solution NS mechanism produces small E or normalized original shape dissipation at a prescribed centre. The forced pressure recurrence only propagates an already supplied energy smallness.",
+    "The signed near-field inertia-pressure interaction and cutoff transport in the original local entropy still lack a proved estimate giving absorbable or summable errors beyond the critical E source.",
+    "The full radial relative-gradient variation, nondegenerate reference magnitude, reference time coefficient and harmonic relative pressure cannot be bounded automatically by the calibrated entropy. The best mean direction need not solve the affine-reference NS equation.",
+    "A common A+E+D cap still needs justification along the relevant scales. Hessian control misses spatially affine pressure and does not replace SC's D normalization.",
+    "Effective thresholds, optimality, a complete novelty/source-collision audit and human peer review have not been supplied. Exact polynomial checks certify only the listed explicit identities.",
+    "General three-dimensional global regularity, singularity construction and the Clay goal remain open.",
+    "Participating AI reviews are not wholly nonauthor reviews, human peer review or a complete novelty certification."
+  ],
+  "logical_predecessor": "ClayB-WeakGradientEntropy-20260908",
+  "next_research_plan": "Use AH.4 to keep the harmonic pressure-Hessian tail separate from its critical E forcing. For the same actual NS evolution, derive a two-scale signed integral balance for the near-field combination G^2+Hess(pi_r) in WE.23 together with all transport, cutoff and top/bottom slice terms. Test whether their joint structure yields an absorbable or summable error beyond the unchanged E(r) bound, while retaining original mu_G or the actual weak grad Theta and controlling the common A+E+D cap. Do not redo AH's affine subtraction, its three local counterchecks, WE weak-H1 admission, SC compactness, RL's variable-coefficient Young remainder or SN's disproved pure quadratic stretching replacement. A pressure-only forced contraction or an instantaneous near-affine assumption is not an arbitrary-evolution good-scale proof. If the estimate merely returns the same critical source, record that exact limitation before selecting a materially different structural input. No publication or reverse-runtime inspection.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_affine_reference_pressure_audit_20260908.md",
+    "finite_symbolic_checks": {
+      "abandoned_backend": "Default and bundled Python both lacked SymPy; imports failed, no SymPy test passed or dependency installed.",
+      "examples": [
+        "AH14-15",
+        "AH21-22",
+        "AH23"
+      ],
+      "independent_implementation": false,
+      "method": "Standard-library Fraction multivariate polynomials; dt=partial_t+E partial_E with E=exp(t).",
+      "passed": true,
+      "pressure_mutations_rejected": 3,
+      "review": "Root and C actual full184-line5945B script read/run and code review. Complete NS/divergence residuals, Gamma numerator, norm derivative and parity checked; p+x1^2 mutations give (2x1,0,0). Root additionally ran two deterministic repeats and rejected a false polynomial identity and a divergent velocity input.",
+      "scope": "Finite explicit-solution identities only; continuous integrals and general PDE statements use the separate written arguments.",
+      "script": "research/clay_b_affine_reference_pressure_checks_20260908.py",
+      "script_sha256": "87058f489387545fb77e63d53f6a5fe813c4c3c703c38db85b96759ac6502420"
+    },
+    "mathematical_review": "Root actual complete214-line11641B initial manuscript readback and derivation. A and C actual full AH1-23 reviews, then three exact clarifications totalling82B accept final214lines11723B SHA31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0. C inverse-restored initial SHAfe0a3942579060ab6f8e3e0524bf9219ddb797c22fc45080efdf2ee370bd2724; not another full-reading round. Root additionally read final main in full after context recovery. Participating module authors, not wholly nonauthor or human reviewers.",
+    "new_output_visual_qa": false,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "Root full audit/checkpoint readback and final changes checked. A actual full30-line5847B audit SHA2729d6964410b5d85255518f9d529326e9b0e8bd176ad7cdec39bca8de50f0c4 and initial36-line5479B checkpoint, then final two claim clarifications totalling97B accepts36lines5576B SHA6f39bde766526336d0b61383e3acc95ba037484790353c3f22d2ca24e7558e84. Strict JSON/no duplicates, six claims/six open items, nonnegative cutoff, 0<theta<1 and fixed-time mother-ball near-affine conditions PASS.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "23 ordered unique AH tags;23 display pairs;50 inline pairs;no abnormal controls. Staged whitespace PASS. Four source files29091B and five dependencies54984B checked against local bytes and hashes; dependencies match immutable base git objects."
+  },
+  "recap": {
+    "reason": "Scoped pressure recurrence and conditional cancellation; no arbitrary-evolution good scale or global-regularity milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-AffineReferencePressure-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "SCOPED PRESSURE-HESSIAN FORCED SCALE RECURRENCE",
+    "EXACT AFFINE-REFERENCE ENTROPY",
+    "LOCAL NS COUNTERCHECKS",
+    "NO AUTOMATIC GOOD SCALE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+  "simulation": false,
+  "source_commit": "69d28f738b07b63f74b76b3188ffd3f9c743fce3",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
