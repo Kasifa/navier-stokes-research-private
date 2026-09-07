@@ -1,0 +1,135 @@
+{
+  "base_commit": "489e292b6f780ec27d4662c08ca4a84ea421e4c1",
+  "claims": [
+    "Full logarithmically weighted strain-gradient estimate, including amplitude and within-sign derivatives, on the same smooth unforced periodic NS solution.",
+    "Frobenius normalized-shape entropy with the complete zero-set measure; weighted parabolic-operator estimates for the full shape and both isolated eigenlines.",
+    "The fixed-axis cone estimate extends to a double cone; the geometric complement and cutoff errors remain.",
+    "Spectral amplitude-layer measures retain all threshold contributions and average to the smooth entropy.",
+    "Huber tests recover a classical-strength weak L4/3 second-derivative estimate; actual direct interpolation still misses the critical time exponent."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "scope": "Classical fixed-torus pressure endpoint, matrix chain rule and full cross-sign spectral measure.",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "38745b58cf0a56587a69d5d659a50838829dc79e"
+    },
+    {
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_negative_strain_cone_20260908.md",
+      "scope": "Fixed-axis cone, localized complement estimates and isolated-line dynamics.",
+      "sha256": "3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46",
+      "source_commit": "38745b58cf0a56587a69d5d659a50838829dc79e"
+    },
+    {
+      "kind": "PRIMARY_SOURCE_SCOPE_COMPARISON",
+      "scope": "Introduction and stated Theorem1.1, Corollary1.2, Theorem1.3 conditions. Not a whole-proof review or new Constantin/Lions original-source read.",
+      "url": "https://arxiv.org/html/2009.14291v1"
+    }
+  ],
+  "dependency_commits": [
+    "38745b58cf0a56587a69d5d659a50838829dc79e"
+  ],
+  "dgx": false,
+  "figure_reason": "Pure analytic calculation without simulated or measured data.",
+  "files": [
+    {
+      "bytes": 15011,
+      "commit": "51cdef8080f11f0b8fee2fb023ab7a064176ed65",
+      "path": "research/clay_b_full_strain_gradient_entropy_20260908.md",
+      "sha256": "1c4e89c9eccc2a17eac484946c6fdafc6aecf600d43d996193e9a16cce09f028"
+    },
+    {
+      "bytes": 4872,
+      "commit": "51cdef8080f11f0b8fee2fb023ab7a064176ed65",
+      "path": "research/clay_b_full_strain_gradient_entropy_audit_20260908.md",
+      "sha256": "dce4fbe401c66fd32de22af8c88a96a0eedfffbbda925425c0ae5306e3c245c5"
+    },
+    {
+      "bytes": 3016,
+      "commit": "51cdef8080f11f0b8fee2fb023ab7a064176ed65",
+      "path": "research/clay_b_full_strain_gradient_entropy_checkpoint_20260908.json",
+      "sha256": "626b002acb66da3ebd97de56da7deab8a7bb103096664383ed523115ba6c3c8c"
+    },
+    {
+      "bytes": 12727,
+      "commit": "38745b58cf0a56587a69d5d659a50838829dc79e",
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "scope": "Classical fixed-torus pressure endpoint, matrix chain rule and full cross-sign spectral measure.",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "38745b58cf0a56587a69d5d659a50838829dc79e"
+    },
+    {
+      "bytes": 14542,
+      "commit": "38745b58cf0a56587a69d5d659a50838829dc79e",
+      "kind": "FROZEN_LOCAL_PROOF",
+      "path": "research/clay_b_negative_strain_cone_20260908.md",
+      "scope": "Fixed-axis cone, localized complement estimates and isolated-line dynamics.",
+      "sha256": "3c8534de2ffbdfa87e3c577f33a7ca82026cd0f503149944d90a7e966cd88e46",
+      "source_commit": "38745b58cf0a56587a69d5d659a50838829dc79e"
+    },
+    {
+      "bytes": 5583,
+      "commit": "2d116d68118ced23a1ab378ec6a0c05a92f9abb1",
+      "path": "research/clay_b_full_strain_gradient_entropy_release_20260908.json",
+      "sha256": "cf14668945a15929333069454a66d98cb22b3afb9df3e2c9c61f29e646135989"
+    }
+  ],
+  "freeze_commit": "2d116d68118ced23a1ab378ec6a0c05a92f9abb1",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Manifest excludes itself and the later dispatch receipt from the source-stage hash binding. Accepted dispatch is not archival verification.",
+  "is_clay_result": false,
+  "limitations": [
+    "No new unconditional critical estimate, general-data regularity, singular solution, novelty certification, human peer review or Clay solution.",
+    "Weighted LB and LP are not temporal or material BV estimates, and their open-set equations are not extended across zero sets.",
+    "Amplitude-layer tail convergence has no adequate critical rate; the geometric-complement L4 time norm remains unproved.",
+    "Even removing only the logarithmic gradient loss does not cross the displayed direct-interpolation gap.",
+    "The Vasseur-Yang source is used for scoped literature comparison, not a periodic weak-solution theorem transplant.",
+    "No public overview, website/local reader, attachment, result count or recap update is requested."
+  ],
+  "logical_predecessor": "ClayB-StrainConeCompatibility-20260908",
+  "next_research_plan": "One bounded unbounded-entropy source calculation, with all variable-coefficient pressure terms and inertial terms retained. No further weight scan without an actual critical improvement; continue authorized research independently of archival.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "actual_main_reviews": "A and C full final263-line15011-byte manuscript at declared SHA256 plus exact216-byte final paragraph change. Both participated in derivations; not wholly nonauthor or human peer reviews.",
+    "audit": "research/clay_b_full_strain_gradient_entropy_audit_20260908.md",
+    "integrity": "Executed immutable git-show comparison, declared bytes and SHA256 for all3 source files (22899 bytes) and both frozen local dependencies. JSON and SG.1-18 tag/delimiter checks passed. Staged whitespace passed. None of these structural checks prove mathematics.",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "A checked final37-line4872-byte audit and40-line3016-byte checkpoint, actual hashes, JSON, paths and scope; PASS.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "third_party_pdf_archived": false
+  },
+  "recap": {
+    "reason": "Scoped analytic completion, no new critical estimate or large milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-FullStrainGradientEntropy-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "CLASSICAL INPUT",
+    "PROVED IN STATED SCOPE",
+    "NO NEW CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "51cdef8080f11f0b8fee2fb023ab7a064176ed65",
+  "simulation": false,
+  "source_commit": "51cdef8080f11f0b8fee2fb023ab7a064176ed65",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
