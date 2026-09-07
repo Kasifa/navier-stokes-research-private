@@ -1,0 +1,93 @@
+{
+  "base_commit": "9495a80e115f4e6058b77b3a3ccf777421c8c945",
+  "claims": [
+    "Accept the fixed reverse first-cycle source only in the finite short-time scope stated in the acceptance record.",
+    "Full original algebra output was regenerated; selected coefficients were independently checked and the analytic remainder separately reviewed.",
+    "No new forward terminal control or singularity mechanism is obtained."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "90c44d1703486e3983d12b87ed54f22c8c677982"
+  ],
+  "dgx": false,
+  "files": [
+    {
+      "bytes": 7132,
+      "commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+      "path": "research/clay_b_reverse_first_cycle_acceptance_20260907.md",
+      "sha256": "16035a2a368cae26d066a8fa3194392788ece60e1abcd1c9c1a2ab7802bde625"
+    },
+    {
+      "bytes": 4038,
+      "commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+      "path": "research/clay_b_reverse_first_cycle_replay_20260907.py",
+      "sha256": "9a0af1bdf43c1bc9f501d1f793905f358f920888e67b4e2752a95bf6d7724de5"
+    },
+    {
+      "bytes": 1467,
+      "commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+      "path": "research/clay_b_reverse_first_cycle_replay_20260907.json",
+      "sha256": "861a4e0ca211c4ed344c034005cf0761ea165680b3e976752300a21bf9c46f65"
+    },
+    {
+      "bytes": 1747,
+      "commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+      "path": "research/clay_b_reverse_first_cycle_acceptance_audit_20260907.md",
+      "sha256": "1a80a5144689165b2fa7adb281c0f078372480f49c236848caa7e205ffc87f00"
+    },
+    {
+      "bytes": 3741,
+      "commit": "ce6efee14868830f4f94b9bbfd0043059dc777f3",
+      "path": "research/clay_b_reverse_first_cycle_acceptance_release_20260907.json",
+      "sha256": "59b5420c4f81034d7f6a73a1936b5c5c41fd3e4a881436bf38a28c7ce22e6f9f"
+    }
+  ],
+  "freeze_commit": "ce6efee14868830f4f94b9bbfd0043059dc777f3",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "immutable_external_dependencies": {
+    "algebra_sha256": "8098e84113b10c5ce37320de15e94f33a29e8207b980fb6d62483176c3fd6dc0",
+    "certificate_sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+    "code_sha256": "5b9903f1b70a5f38e838a8ae82102a43354efda4878c3e295815d9ea5b166deb",
+    "copy_into_this_record": false,
+    "output_sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+    "prefix": "research/reverse/first-cycle/",
+    "proof_sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+    "source_commit": "90c44d1703486e3983d12b87ed54f22c8c677982"
+  },
+  "integrity_note": "Manifest binds prior source commit; no self-hash or future dispatch receipt. This is not a private archive completion receipt.",
+  "is_clay_result": false,
+  "limitations": [
+    "Not a second full-table Fourier implementation or rerun of the original eight mutation tests.",
+    "No global regularity or infinite cascade, no novelty or human peer-review certification.",
+    "Only new forward acceptance/replay records are archived; original reverse package is not duplicated or modified."
+  ],
+  "new_mathematical_result": false,
+  "next_research_plan": "A bounded deduplicated original-source mechanism screen, at most two new sources. No adjacent total-speed variants or duplicate reverse mixed-response work.",
+  "normalization_note": "Four new forward acceptance records plus original immutable manifest only. Five external source hashes checked against already privately archived reverse first-cycle commit; originals not copied/reissued. Publisher verifies transport, not mathematics. No new mathematical result or public export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_reverse_first_cycle_acceptance_audit_20260907.md",
+    "continuous_proof": "A selected independent algebra/mechanism checks; B full scoped analytic remainder review. Exact scope is in acceptance record.",
+    "record_review": "C actual three-file record read and one read-only replay PASS. Root final replay/readback and git diff checks PASS.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE"
+  },
+  "recap_required": false,
+  "record_type": "CROSS_TRACK_ACCEPTANCE_AND_SCOPED_REPLAY",
+  "release_id": "ClayB-ReverseFirstCycle-AcceptanceRecord-20260907",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+  "simulation": false,
+  "source_commit": "0937fcac279e13be98196ea85b8c616348a3bb36",
+  "status": "RESEARCH_RECORD_FREEZE_COMPLETE"
+}
