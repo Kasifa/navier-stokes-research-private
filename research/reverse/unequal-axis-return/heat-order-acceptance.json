@@ -1,0 +1,54 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_HEAT_TREE_ORDER_AND_UNIQUE_TIME_NECESSITY",
+  "scientific_source_commit": "7d07e7b8a1dbd4085346ac88b578bd3e4bd44257",
+  "files": [
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_CONTRACT.md",
+      "sha256": "a65d7ffb1350e7cb2a6ee20cc5be80eae41d4ac2544c163e9fc7765d1bacf9ad",
+      "bytes": 1823
+    },
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_TRANSFER_PREFLIGHT.md",
+      "sha256": "efe1b7313abaee0d1cd986da6ffdba38ff818eb8707b0cdda003f66eee18f369",
+      "bytes": 8914
+    },
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_PROOF.md",
+      "sha256": "2d4196425bf443fb113c34a4102a08fa089e5ac3956cebae4a86b5a159d4b32b",
+      "bytes": 5511
+    },
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_INDEPENDENT.md",
+      "sha256": "80b3b7dc3565bc8fbc8328e501c4f1a17b2d2929c82bb1863c39690793ddafc9",
+      "bytes": 12271
+    },
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_REVIEW.md",
+      "sha256": "366c1ea933c121ed67b9eca20dd1dc90af3a0d745b65194e5d9550dc356384c3",
+      "bytes": 7529
+    },
+    {
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_ROOT_REVIEW.md",
+      "sha256": "2f1ea3d1c36d9aec4ca34a4b3c1ade5a7334ce9d082956786e0604242f846467",
+      "bytes": 4987
+    }
+  ],
+  "actual_review_basis": "Independent mathematical derivation, full non-author review of main proof and root full manual comparison. Extra all-ratio monotonicity in the independent manuscript was actually checked by root; non-author main reviewer did not read that independent manuscript.",
+  "scope": "Only the exact heat-weighted w22 tree. D must be identity; n2^2>=n1*n3 is excluded for all positive time. Remaining lengths have a unique g1=g3 time and a unique g1=2g2 time, which must coincide for any return. No claim that they coincide or cannot coincide.",
+  "remaining_unpaid": [
+    "Equality of the two unique times, equivalently g2(t13)/g1(t13)=1/2",
+    "Sufficiency of the complex polarization equations",
+    "Full actual NS supply, 1+3/3+1 and infinite-dimensional remainder",
+    "One fixed datum infinite-scale iteration and finite total time"
+  ],
+  "scientific_programs_run": 0,
+  "arrays_read": false,
+  "new_initial_datum_chosen": false,
+  "new_figures": [],
+  "formal_freeze_package": false,
+  "publication_handoff_performed": false,
+  "previous_instantaneous_release_handoff_unchanged": true,
+  "earlier_failed_m2_or_resource_gap_repaired": false,
+  "created_at": "2026-09-07T22:58:13.324387+00:00"
+}

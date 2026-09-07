@@ -55,6 +55,17 @@
       "sent_at_utc": "2026-09-07T14:26:27.021502+00:00",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-AxialReturnObstruction",
+      "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+      "freeze_commit": "60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": "2026-09-07T22:50:18.532521+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
