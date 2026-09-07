@@ -1,0 +1,106 @@
+{
+  "scope": "Byte bindings only; independent mathematical review and actual node recomputation recorded separately",
+  "records": [
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_LEMMA.md",
+      "sha256": "bcbb265b0b9639d2fcae54dddee5415cce0cec62f1874d008dc389d2ae7ea2cf"
+    },
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_DERIVATION.md",
+      "sha256": "2b1be8ad9612b10a019c4cdb43c74b7ae5f76e739d0ee572ba4decb1d3013fbc"
+    },
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/RESIDUAL_COST_PREFLIGHT.md",
+      "sha256": "dfc54d9be18ca0d47a5c4ea13433523327ff9f0f85691d512bdbcfeed646be4e"
+    },
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/HYBRID_INDEPENDENT_REVIEW.md",
+      "sha256": "2cbc394084e8a4991b8e18b6aeb90b04263aca2021d23f2ffe205e8ba22939ac"
+    },
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/C1_RESIDUAL_CONTRACT.md",
+      "sha256": "a001077c4e1828827a3e7738e154bdd1b02541ff44d63032a475e2f0b5017251"
+    },
+    {
+      "source": "PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+      "path": "research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json",
+      "sha256": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/NODE_GATE_INDEPENDENT_RUN_CONTRACT.md",
+      "sha256": "56dc24b236fe6eeec1209a121534f9ba01137cb401089b2370055abd30100936"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/NODE_GATE_LEMMA.md",
+      "sha256": "177fe82983bb8d6d3e172615c716176338bdc7e31cd546e0416b502b80dd76fb"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/NODE_PRODUCTION_CONTRACT.md",
+      "sha256": "9f2ff230ef8a569c3b3b70f4a8de37aece19db52439227f1269fc53f183e4fb8"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent_node_gates.py",
+      "sha256": "63c4d325af6773fc82c1f2faf9acc86b16fa7b81cc143f7d8f7e7d22e89d6669"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/node-trial-01/block-00640-00703.npz",
+      "sha256": "0baf9f82b18c9d056a17d5bb7b246f1743ac297650ab5849983da8808a38c52a"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/node-trial-01/block-05120-05120.npz",
+      "sha256": "2f85a5204ba7af0bd9493d79baa257fc42ec2f9468396df94bad9cf39f88e23a"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json",
+      "sha256": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/node-trial-01/modes.npy",
+      "sha256": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates-static-review.json",
+      "sha256": "7192ce0db8062ace0b98d76ec1235ff648c9a6e70681fbeddd68aa424ce13f20"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates-claim.json",
+      "sha256": "732009f158185eb9526366631dc0c3a87f7328dc8ee4075678c6eabd335d9ebc"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates-result.json",
+      "sha256": "5cf6fcb0cb92e5acbdec208ebf2addc709e069a82e176b17951d2036d90174db"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates-run.json",
+      "sha256": "813ef2374f030911e9c9ed43ec74513d9d4d74a2df160de178a59221b745bb6c"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates.stdout.txt",
+      "sha256": "cec48642101aaba751716bddc00d4308b401c08d817b02bb16380cc1f729440c"
+    },
+    {
+      "source": "NODE_GATE_INDEPENDENT_RESULT.md",
+      "path": "research/reverse/fixed-seed-global-screen/independent-node-gates.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status": "PASS"
+}

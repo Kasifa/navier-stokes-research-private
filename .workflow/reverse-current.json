@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Single node trial completed and independently checked; NEVER rerun produce_nodes.py. Read NODE_TRIAL_OUTCOME and node-independent-comparison. Pauli is preparing a <=24-output exact full nodal residual lower-bound contract at n1280; Pascal is deriving a conditional parametric Y25 cost lemma, not yet independently reviewed. Continue these bounded checks on existing data, no new integration.",
+  "next_action": "Do not rerun the completed producer or node gates. Pauli (driver_source_audit) is preparing NODAL_RESIDUAL_LOWER_CONTRACT.md and an exact <=24-output nodal residual implementation at n1280; read its actual files and final message before duplicate work, review source before one bounded run. PARAMETRIC_COST_LEMMA and independent/root reviews are complete. Test residual compatibility using existing fixed data; no new time integration.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
@@ -42,7 +42,11 @@
     "research/reverse/fixed-seed-global-screen/NODE_TRIAL_OUTCOME.md",
     "research/reverse/fixed-seed-global-screen/node-gates-root-run.json",
     "research/reverse/fixed-seed-global-screen/node-independent-comparison.json",
-    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md"
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_LEMMA.md",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/post-node-review-bindings.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -72,7 +76,11 @@
     "research/reverse/fixed-seed-global-screen/NODE_TRIAL_OUTCOME.md": "0aca42c82537982d2bc88f8787454eaf882dc1a4e4069956fb335b589377b344",
     "research/reverse/fixed-seed-global-screen/node-gates-root-run.json": "681d8c1194a8f08869050a803ba08127703b021c4c0330368e7c0cd69f69fae2",
     "research/reverse/fixed-seed-global-screen/node-independent-comparison.json": "78d37a683c4476955dc02dc174aaa2b05f8945bd67f1adaa805d6d4301a56043",
-    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md": "2f07de4c1a2d5fa7e2ae54abad36fd9f3414788bb5f1350a50953fc8bbe46d57"
+    "research/reverse/fixed-seed-global-screen/NODE_GATE_CODE_REVIEW.md": "2f07de4c1a2d5fa7e2ae54abad36fd9f3414788bb5f1350a50953fc8bbe46d57",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_LEMMA.md": "bcbb265b0b9639d2fcae54dddee5415cce0cec62f1874d008dc389d2ae7ea2cf",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_INDEPENDENT_REVIEW.md": "7703ad55c901e9774a21d95b9675d8b8ada62237940e85cf9374f8aad3bf3103",
+    "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_ROOT_REVIEW.md": "2d6d0e36359befe94bf55f29dd1a3593f74d899b679d4c5485ca144fe69640c9",
+    "research/reverse/fixed-seed-global-screen/post-node-review-bindings.json": "3f063efaf92c7a3bda327548f7d19b5f29b167b584bfb8239c2df51aee59ded8"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -89,10 +97,9 @@
   "current_topic": "Exact finite reference cost obstruction with completed fixed candidate archive; next full nodal residual lower bound and parametric conditional control",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Full nodal residual lower-bound contract/code then independent exact check; no integration",
-    "Parametric Y25 sufficient-cost lemma and independent review",
-    "Continuous full residual, spatial derivative envelope, positive comparison and infinite-dimensional error remain unpaid",
-    "Original fixed datum global status and infinite-scale singularity mechanism remain open"
+    "Exact <=24-output full nodal residual lower-bound contract/code and actual independent check",
+    "Continuous whole-window residual and spatial derivative bounds, positive comparison and infinite-dimensional error remain unpaid",
+    "Original fixed datum global status, uniform iteration and finite-time singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -106,9 +113,9 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; verified get_goal on this continuation; no token budget and no repeated blocker",
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T16:19:48.189527+00:00",
+  "updated_at": "2026-09-07T16:27:12.527743+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "progress: C1 and node-gate interfaces independently reviewed; fixed production contract; two source issues repaired before integration",
+  "previous_goal_turn_classification": "progress: one fixed node trial completed; independent exact two-node recomputation agrees; old M3 envelope strictly refuted for reference, reference endpoint below half; parametric conditional control proved and independently reviewed; no actual NS global certificate",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -164,5 +171,17 @@
     "independent_two_node_check": "PASS",
     "interpretation": "Only candidate reference: old M3 envelope refuted and reference endpoint below half; no actual NS certificate",
     "production_retry_allowed": false
+  },
+  "parametric_cost_evidence": {
+    "status": "PASS_CONDITIONAL_LEMMA_NOT_REFERENCE_CERTIFICATE",
+    "mu": [
+      "19/5",
+      "19/5",
+      "6"
+    ],
+    "A": "2067/160",
+    "epsilon_3e_minus_7": "specified function fails saturated-envelope second control inequality at endpoint",
+    "epsilon_2e_minus_7": "conditional beta<129591/3200000<1/24; compatibility with actual reference unpaid",
+    "review": "research/reverse/fixed-seed-global-screen/PARAMETRIC_COST_INDEPENDENT_REVIEW.md"
   }
 }
