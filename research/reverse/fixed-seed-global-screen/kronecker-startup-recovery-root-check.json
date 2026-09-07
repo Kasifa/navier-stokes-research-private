@@ -1,0 +1,12 @@
+{
+  "actual_archive_sha256": {
+    "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+  },
+  "failed_run_sha256": "44d05321296a6b25b3997495601cc9623a8fd6562b6dfd13f08dedcbbd99fcbc",
+  "root_read_git_diff": "Only OUT directory and corrected manifest pin differ from source 632185f1.",
+  "scientific_execution": false,
+  "source_sha256": "b4d65f5a02211ff52f1a202b4e9ba25e9cee47e5a9468bb3a670aa5c381a5c08",
+  "status": "PASS_ALL_THREE_ACTUAL_ARCHIVE_PINS_AND_TWO_LINE_REPAIR"
+}

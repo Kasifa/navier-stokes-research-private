@@ -1,0 +1,2 @@
+{"kronecker_stop": {"type": "ValueError", "message": "original archive SHA mismatch: node-trial-01/manifest.json"}}
+{"execution_status": "FAILED", "final_observation": {"output_bytes": 4851, "peak_rss_bytes": 40271872, "wall_seconds": 0.06192362494766712}, "mathematical_status": "COST_NOT_PAID", "output": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/fixed-seed-global-screen/kronecker-block-trial-01/run.json", "sha256": "44d05321296a6b25b3997495601cc9623a8fd6562b6dfd13f08dedcbbd99fcbc"}

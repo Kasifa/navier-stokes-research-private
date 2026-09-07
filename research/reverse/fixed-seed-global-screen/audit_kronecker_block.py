@@ -26,7 +26,7 @@ import time
 
 HERE = Path(__file__).resolve().parent
 WORKTREE = HERE.parents[2]
-OUT = HERE / "kronecker-block-trial-01"
+OUT = HERE / "kronecker-block-trial-02"
 Q = 1 << 52
 QP = 1 << 96
 BASE = 1 << 240
@@ -40,7 +40,7 @@ PROOFS = {
     "CONTINUOUS_RESIDUAL_COST_ROOT_REVIEW.md": "4865cf0639e20bc6d8d6c2546e8382c08b59366814168ff2f0b309bc8ef4e5da",
 }
 ARCHIVE = {
-    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a75c6f81622c1cd",
+    "node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
     "node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896",
     "node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
 }

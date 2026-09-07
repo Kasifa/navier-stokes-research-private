@@ -1,0 +1,16 @@
+{
+  "input_sha256": {
+    "research/reverse/fixed-seed-global-screen/KRONECKER_BLOCK_CONTRACT.md": "d8077701b347d35045d7f59ab39669a9e6bf07f6753db386e3d052dc8ab5ada3",
+    "research/reverse/fixed-seed-global-screen/KRONECKER_STARTUP_RECOVERY.md": "77d26c82f4a7a571543628488457e26289d96d5c2b380000944eecf407ac17bb",
+    "research/reverse/fixed-seed-global-screen/audit_kronecker_block.py": "b4d65f5a02211ff52f1a202b4e9ba25e9cee47e5a9468bb3a670aa5c381a5c08",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-root-run.log": "7874ccd7a971d6ff5b6dcf7126daf31e62f8c5dc0ccd0c684f12cab893b09b0c",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-01/RUN_CLAIM.json": "a445afd5f6bf925e0124c238156a0dccc36a707ccb76b17f53b23a6da36a2172",
+    "research/reverse/fixed-seed-global-screen/kronecker-block-trial-01/run.json": "44d05321296a6b25b3997495601cc9623a8fd6562b6dfd13f08dedcbbd99fcbc",
+    "research/reverse/fixed-seed-global-screen/node-trial-01/block-01280-01343.npz": "abf3b33282ff0b08e995c6aa1f80e7d79dbd64a55137574b77d51356b236297e",
+    "research/reverse/fixed-seed-global-screen/node-trial-01/manifest.json": "5ac2abdfb7a14a38904f2ef1c58d81cf90bea776ce5426a56a75c6f81622c1cd",
+    "research/reverse/fixed-seed-global-screen/node-trial-01/modes.npy": "f184c97c52e561ac53b8936ee51e68690517ad65c79e8050c93a891ac8856896"
+  },
+  "review_sha256": "38d95c2826c81995f21f1aee2b7468567c16e5b5b335b92813d59a989abb69ef",
+  "scientific_execution": false,
+  "status": "PASS_ROOT_READ_RECOVERY_REVIEW_AND_9_CURRENT_BINDINGS"
+}
