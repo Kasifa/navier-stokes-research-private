@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "83ce548d30f1c3552e8cac7d674ca9a1db17dea6",
+  "name": "GD full-gradient rank-one defect",
+  "main": "research/clay_b_gradient_rank_one_defect_20260908.md",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "classification": [
+    "EXACT SMOOTH IDENTITIES",
+    "SCOPED ANALYTIC ESTIMATE",
+    "CONDITIONAL CONTINUATION",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "A-Frobenius entropy with the initial gradient cost and nonnegative zero-set measure retained.",
+    "Row-curl compatibility yields tau^2|grad Q|^2 <= 2Q^2|grad B|^2.",
+    "For d=dist_F(A,rank<=1), F=d/sqrt(Q) has a no-log global L-infinity L2 and L2 H1 budget, including Q=0 via Lipschitz truncation.",
+    "For tracefree A with omega nonzero, |S xi| <= 4d; the scalar bound |omega.S.omega| <= 4d|omega|^2 holds for all tracefree A.",
+    "The explicit critical d mixed-norm condition yields H1 control and standard smooth continuation; that condition remains unpaid.",
+    "The variable-eigenline minor identity retains its cutoff and unbounded velocity-gradient quotient; it is not an additional critical estimate."
+  ],
+  "open_items": [
+    "No arbitrary-smooth-data 3D periodic regularity or Clay solution.",
+    "The paid R_g=d^2/Q norms and direct Holder/interpolation do not yield d in Lp_t Lr_x, 2/p+3/r=2.",
+    "The algebraic A_epsilon example precludes replacing the linear rank-one defect by its squared normalized version in a universal pointwise stretching bound; it is not an NS counterexample.",
+    "No rank-one-gradient invariance, temporal BV, endpoint strong trace, novelty certification or human peer review is claimed."
+  ],
+  "next_action": "Keep d(A) as the same mathematical object. After targeted dedup of PGR's existing cofactor algebra, first prove the comparison between a squared cofactor quotient, such as |cof A|^2/|A|^3 on Q>0, and d^2/Q; verify its smooth domain before differentiation. Then derive its actual original-NS evolution with pressure Hessian, viscous products, denominator and zero-set terms retained. Do not confuse a squared quantity with d or assume a globally smooth representative across rank-one/zero sets. Test whether any resulting bound supplies the precise GD.11 critical time gain. No rank-one invariance, repeated Piola identity counted as a new estimate, or other weight scan.",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "publication_boundary": "Once frozen, send release_id plus source commit once to the fixed publisher for PRIVATE_ARCHIVE only. Research neither pushes nor inspects, waits for, retries, supervises or reports archival/publication; no website or local-reader request."
+}
