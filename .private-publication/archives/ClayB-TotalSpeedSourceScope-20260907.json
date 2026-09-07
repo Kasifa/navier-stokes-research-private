@@ -1,0 +1,110 @@
+{
+  "base_commit": "eb17216408a4b88261741ab0d60b4619d700590b",
+  "claims": [
+    "Tao1108.1165v4 section9 controls finite total speed, with E^(1/2) T^(1/4)+E in its R3, unit-viscosity, finite-energy almost-smooth solution setting.",
+    "The whole-space unforced proof, retaining actual interval dissipation and restoring fixed viscosity, gives S_I <= C M_s nu^(-3/4) h^(1/4)+C nu^(-2) D_I. This is a direct source-proof consequence, not new critical control.",
+    "The estimate provides no uniform square-root interval modulus from the stated energy inputs; an uncontrolled upper bound is not a counterexample to that modulus at fixed positive age.",
+    "This bounded source interface is closed as NO-CANDIDATE, not as a regularity theorem."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 8117,
+      "path": "research/clay_b_backward_chain_scope_20260907.md",
+      "sha256": "3e67ea698dd42a0dd0cdef5f1d112558e9f3e9035a99f9758189c10f35ae481a"
+    }
+  ],
+  "dependency_commits": [],
+  "dgx": false,
+  "figure_reason": "Analytic source-scope audit with no simulation or measured data.",
+  "files": [
+    {
+      "bytes": 8167,
+      "commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+      "path": "research/clay_b_total_speed_source_scope_20260907.md",
+      "sha256": "45866ce7c05ae233ba3d351b5aea9cf9e05ab37facff054a86dc6671c797a751"
+    },
+    {
+      "bytes": 6201,
+      "commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+      "path": "research/clay_b_total_speed_source_audit_20260907.md",
+      "sha256": "0f3a3abddc53432342524cc1831d7e36dd3e85d76cc03b76b2365bc6da53f5f4"
+    },
+    {
+      "bytes": 2661,
+      "commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+      "path": "research/clay_b_total_speed_source_checkpoint_20260907.json",
+      "sha256": "04725710e3a209d5074b04cb21416ed9b2471cfa18aee2042e107274a5b62e12"
+    },
+    {
+      "bytes": 8117,
+      "commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+      "path": "research/clay_b_backward_chain_scope_20260907.md",
+      "sha256": "3e67ea698dd42a0dd0cdef5f1d112558e9f3e9035a99f9758189c10f35ae481a"
+    },
+    {
+      "commit": "f9e839799de84b63dc255e477a41f9dae207783e",
+      "path": "research/clay_b_total_speed_source_release_20260907.json",
+      "sha256": "1b52c04abfaf9b3e574fc8b93839f87cea727bd100b2050583417e74c4d02d71"
+    }
+  ],
+  "freeze_commit": "f9e839799de84b63dc255e477a41f9dae207783e",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Later manifest binds source-stage files in the scientific commit. It does not hash itself or the later dispatch receipt. The checkpoint is not a live archive or publication status.",
+  "is_clay_result": false,
+  "limitations": [
+    "No global existence result, arbitrary weak-solution extension, new periodic theorem, novel mechanism, sharpness or human peer-review claim.",
+    "Source Remark9.7 mentions normalized-pressure periodic extension for T<=L^2 but omits its proof; no local proof of that extension is claimed.",
+    "No fixed-positive-age or fixed-initial-data terminal counterexample; BCS young-window changing-data quantifiers remain unchanged.",
+    "Finite speed integral and vanishing dissipation tails do not supply a critical rate or exclude infinite accumulation.",
+    "The reverse first-cycle result is not yet read or accepted and is not a mathematical dependency of this package."
+  ],
+  "logical_predecessor": "ClayB-BackwardChainScope-20260907",
+  "next_research_plan": "Inspect only the already received reverse first-cycle frozen result for a genuinely new actual-NS dynamic input; verify class, generation provenance and full remainder before any use. No total-speed adjacent variants or repeated FA/BCS.",
+  "normalization_note": "Three new scientific files and one exact dependency bound to source commit; original manifest bound separately to freeze commit. Only this release is archived. No third-party PDF or public output included.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_total_speed_source_audit_20260907.md",
+    "independent_nonauthor_math": "C accepted actual105lines8167B main SHA45866ce7c05ae233ba3d351b5aea9cf9e05ab37facff054a86dc6671c797a751",
+    "limits": "Record checks do not prove PDE results. No full external-paper proof audit, novelty certification, human peer review or public privacy approval.",
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "pde_simulation": false,
+    "record_review": "B pre-final-state records PASS; root final-state JSON, tags, links, source bytes and preservation checks PASS. Exact reviewed versions are in audit.",
+    "source_files_match_commit": true,
+    "source_review": "A independently read the single original source and verified statement/proof scope and viscosity factors.",
+    "status": "PASS_IN_STATED_SCOPE"
+  },
+  "recap": {
+    "update_required": false
+  },
+  "release_id": "ClayB-TotalSpeedSourceScope-20260907",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "LITERATURE",
+    "SOURCE-PROOF CONSEQUENCE",
+    "NO-CANDIDATE FOR THIS INTERFACE"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+  "simulation": false,
+  "source_commit": "c447ef240cc6fd65725078fdec61053a01af1161",
+  "source_reference": {
+    "pdf_bytes": 1015701,
+    "pdf_sha256": "d9a6d83a293bb91f7b2ac7b7753e36f2b6d7300ea43536c2ac9bb5d891aa5e22",
+    "pdf_url": "https://arxiv.org/pdf/1108.1165v4",
+    "scope": "section9, pages49-54, with explicitly listed definitions and LP/pressure/energy dependencies in audit",
+    "third_party_pdf_included": false,
+    "url": "https://arxiv.org/abs/1108.1165v4"
+  },
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
