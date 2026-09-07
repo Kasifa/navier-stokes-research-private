@@ -1,0 +1,177 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "NO-CANDIDATE FOR THE SCREENED SIX-MODE ROUTE; ELEMENTARY CONDITIONAL OBSTRUCTIONS",
+    "history": "The current newborn center gate and polarization already occur in R0.10; sparse/dense and full-tree boundaries read from R0.9–13",
+    "no_candidate": "No whole-packet regeneration candidate accepted for direct extrapolation of the six-mode seed diagnostics",
+    "open": [
+      "An explicit compatible local concentration profile with periodic pressure matching",
+      "Uniform iteration for one fixed initial datum",
+      "Infinite-dimensional iterative errors",
+      "Finite total time and singularity"
+    ],
+    "proved": [
+      "The specified cyclic target triple does not give a scaled orthogonal copy of the original axial template",
+      "For this fixed datum and viscosity one, any orthogonal global periodic copy A a(Kx) with integer K>=2 fails the stated self-interaction L2 at least viscous L2 contract",
+      "Finite signed support M and frequency lower bound K imply the explicitly conditional M>=rho^2 nu^2 K^2/E0^2 self-action threshold",
+      "Complete off-seed self-interaction power sums to zero; the known positive q/-q pair is balanced by negative total power in the remaining off-seed modes",
+      "A single-mode-pair example in the same full solution shows self-action dominance is not necessary for finite target generation"
+    ],
+    "scope_limits": [
+      "Orthogonal packets and global periodic copies, not arbitrary cancelling decompositions or localized concentrations",
+      "The self-action criterion is a specified contract, not a necessary condition for all cascades or singularities",
+      "No dynamic support invariance, autonomous removal of external modes or full iterated PDE estimate assumed",
+      "No general regularity or singularity theorem",
+      "No novelty, human peer review or formal proof assistant claim"
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "90c44d1703486e3983d12b87ed54f22c8c677982",
+    "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+    "32cddf5dfa060321016e0da5ebd1c7eabd8a3278"
+  ],
+  "dependency_ledger": "research/reverse/route-screen/source-hashes.json",
+  "direct_dependencies": [
+    {
+      "bytes": 14336,
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "bytes": 158864,
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68"
+    },
+    {
+      "bytes": 11513,
+      "path": "research/reverse/driver-dominance/PROOF.md",
+      "sha256": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032"
+    },
+    {
+      "bytes": 76394,
+      "path": "research/reverse/driver-dominance/driver-certificate.json",
+      "sha256": "44b759581f233aac53cf7a52e278b5d4e67693417c8d74e64612e0a9c8a6c5d1"
+    },
+    {
+      "bytes": 11582,
+      "path": "research/reverse/driver-dominance/independent-final-review.json",
+      "sha256": "9a2b39b388eedf61494b673bbddf0221e3a8b736cfebc44f966e6936351be9ba"
+    },
+    {
+      "bytes": 7073,
+      "path": "research/reverse/driver-dominance/freeze.json",
+      "sha256": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0"
+    }
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 6996,
+      "commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc"
+    },
+    {
+      "bytes": 2922,
+      "commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "path": "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md",
+      "sha256": "ee33ce0945d16e779a8adee5c001d104753faff7d5e643781be05336f609a790"
+    },
+    {
+      "bytes": 11833,
+      "commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "path": "research/reverse/route-screen/HISTORY_SCREEN.md",
+      "sha256": "9fb62c4d1fa569e8fefb12dbbc58d3cb9d0423879d6afa80af68f9de863a9bfb"
+    },
+    {
+      "bytes": 9841,
+      "commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "path": "research/reverse/route-screen/INDEPENDENT_ENERGY_REVIEW.md",
+      "sha256": "8eec5f9782d535dfbc673877045563a8f2150da9189b8a2ffee54bef28592cba"
+    },
+    {
+      "bytes": 5004,
+      "commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+      "path": "research/reverse/route-screen/source-hashes.json",
+      "sha256": "bcc29962863ebc58b47fc0a01dee27e5e95e75800a4c72449b9ccf92d34721df"
+    },
+    {
+      "bytes": 14336,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/PROOF.md",
+      "sha256": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120"
+    },
+    {
+      "bytes": 158864,
+      "commit": "90c44d1703486e3983d12b87ed54f22c8c677982",
+      "path": "research/reverse/first-cycle/algebra-result.json",
+      "sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68"
+    },
+    {
+      "bytes": 11513,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/PROOF.md",
+      "sha256": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032"
+    },
+    {
+      "bytes": 76394,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/driver-certificate.json",
+      "sha256": "44b759581f233aac53cf7a52e278b5d4e67693417c8d74e64612e0a9c8a6c5d1"
+    },
+    {
+      "bytes": 11582,
+      "commit": "94dec8ba1a1a01d291d62ef5252ad575fd4df55d",
+      "path": "research/reverse/driver-dominance/independent-final-review.json",
+      "sha256": "9a2b39b388eedf61494b673bbddf0221e3a8b736cfebc44f966e6936351be9ba"
+    },
+    {
+      "bytes": 7073,
+      "commit": "32cddf5dfa060321016e0da5ebd1c7eabd8a3278",
+      "path": "research/reverse/driver-dominance/freeze.json",
+      "sha256": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0"
+    },
+    {
+      "bytes": 6376,
+      "commit": "d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f",
+      "path": "research/reverse/route-screen/freeze.json",
+      "sha256": "6453bbc6b0e96ec757c4ae6f64fd393ad0cdf7b5496ad3d3c4261a618c4a8838"
+    }
+  ],
+  "freeze_commit": "d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f",
+  "freeze_commit_binding": "The containing commit is supplied separately in the once-only handoff.",
+  "milestone_recap_required": true,
+  "milestone_scope": "Closure of the direct six-mode packet extrapolation through this release only; no whole-project recap or public detailed route authorization",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "predecessor_release": "ReverseNS-20260907-DriverDominance",
+  "private_milestone_record": "research/reverse/route-screen/HISTORY_SCREEN.md",
+  "public_export_authorization": "No new core files, route details, proofs or attachments are authorized for public/shared detail export. Only separately reviewed high-level progress may be considered by the fixed publisher.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260907-GlobalPacketScreen",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "9adf4264ec6df694acccb33d8cacf0617e6b15a3"
+  ],
+  "scientific_source_commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+  "source_commit": "9adf4264ec6df694acccb33d8cacf0617e6b15a3",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "history_plus_document_hashes_verified": 9,
+    "history_source_files": 8,
+    "independent_analytic_methods": [
+      "Physical-space differentiation and exact trigonometric integration of template norms",
+      "Independent full-text check of scaling, projection, energy balance, conjugate factor and counterexample scope"
+    ],
+    "independent_review_bound_documents": 3,
+    "new_computational_certificate_required": false,
+    "new_numerical_experiment": false,
+    "reason_no_new_certificate": "Self-contained analytic and elementary exact arithmetic screen. Nontrivial Fourier coefficients and positive-time constants use the independently certified predecessor; template norms are independently derived by physical integration. No new solver, approximation, scan or numerical tolerance.",
+    "status": "PASS"
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
