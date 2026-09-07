@@ -2,16 +2,16 @@
 
 ## Current privacy boundary (2026-09-07)
 
-- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. The existing publisher heartbeat automation-2 remains paused pending management acceptance; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
+- Public overviews and ordinary website maintenance run in 48-hour batches, with no empty publication. PRIVATE_CORE archival is immediate and independent of that window. Management accepted migration/privacy QA on 2026-09-07; use only the existing publisher heartbeat automation-2, with activation recorded in publication-cadence.json; do not duplicate it. Per-channel FIFO uses one execution lock, and waiting for a public window or CI must not block private archival.
 
 - New complete statements, proofs, constructions, estimates, code, data, parameters, certificates, manuscripts, logs and attachments are PRIVATE_CORE. Only the fixed publisher archives and pushes them to the private source repository. Research completion never authorizes full public readers or source attachments.
 - Public output is PUBLIC_PROGRESS_OVERVIEW only: reviewed bilingual high-level object, direction, reliable stage and limitations, without reconstructible core method details. Semantic review is mandatory; scans, hidden links, collapsed UI and JavaScript are not privacy controls.
 - The user explicitly retains already-public historical reader files, the two approved papers and previously linked frozen attachments for now. The exact 323b543a historical exception manifest is finite; it never permits exporting the entire old public repository/history or expanding exceptions without specific user approval.
 - Transport authority is /Users/kasifa/Documents/Math/.workflow/publication-targets.json and scripts/ns_split_publish.py. The old full-reader publish command is disabled; source/public identity, visibility, independent public objects and allowlists must pass. Do not bypass hooks or use raw API/--no-verify to evade these checks.
-- Research remains paused: CONDITIONAL_RESUME_PENDING_MIGRATION_AND_PRIVACY_QA. Only the management task may issue the user's conditional joint resume after independent migration/privacy acceptance. Do not infer resume from these governance edits or refresh another role's scientific next_action.
+- Management accepted migration/privacy QA on 2026-09-07 and now issues the user's conditional joint resume to the two existing research tasks. See /Users/kasifa/Documents/Math/.workflow/management-acceptance-20260907.md. This does not start new paper or strategy work; each role owns its scientific next_action. Any later explicit user pause takes precedence.
 
 - This worktree belongs to `研究任务` (forward regularity), not the reverse task or publisher.
-- Current state: PAUSED_BY_USER. The user's latest “先等一下吧” overrides earlier resume instructions. Management maintenance and migration do not resume mathematical research, computation or new research subagents.
+- Current authority: RESUME_AUTHORIZED_BY_MANAGEMENT, implementing the user's later conditional joint resume after independent acceptance. Resume from the actual paused checkpoint when management dispatches; a newer explicit user pause overrides this authority.
 - Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md` and `NAVIER_STOKES_WRITING_STYLE.md` before using older local instructions. Historical freezes remain unchanged.
 - Do not alter remotes or repository visibility. The fixed publisher may migrate only after the management quiescence check passes.
 
