@@ -268417,5 +268417,680 @@
       "research-review.html"
     ],
     "en": "Review v2.71 · 2026-09-07"
+  },
+  {
+    "id": "strategytopologydualtrack20260907001",
+    "zh": "文献综述 v2.72 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "literature-review.html"
+    ],
+    "en": "Literature review v2.72 · 2026-09-07"
+  },
+  {
+    "id": "strategytopologydualtrack20260907002",
+    "zh": "研究笔记总索引 · v2.72 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "notes/index.html"
+    ],
+    "en": "Research-note master index · v2.72 · 2026-09-07"
+  },
+  {
+    "id": "strategytopologydualtrack20260907003",
+    "zh": "标识实线箭头：有来源的数学依赖；此总览不添加",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Labeled solid arrow: sourced mathematical dependency; none added to this overview"
+  },
+  {
+    "id": "strategytopologydualtrack20260907004",
+    "zh": "查看完整历史档案 ↓",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Explore the full research archive ↓"
+  },
+  {
+    "id": "strategytopologydualtrack20260907005",
+    "zh": "从一个固定光滑初值出发，检验集中、结构再生成和跨尺度接力能否在完整方程中持续。有限模型增长与一次频带激活不等于奇性。",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Starting from one fixed smooth initial datum, test whether concentration, structural regeneration and transfer across scales can persist in the full equations. Growth in a finite model or a single band activation does not establish a singularity."
+  },
+  {
+    "id": "strategytopologydualtrack20260907006",
+    "zh": "从原方程推出累计控制、好尺度或合法的刚性排除，研究光滑解能否持续延拓。条件判据和已识别的障碍分别记录。",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Derive cumulative control, a good scale or a justified rigidity argument from the original equations to study smooth continuation. Conditional criteria and identified obstructions are recorded separately."
+  },
+  {
+    "id": "strategytopologydualtrack20260907007",
+    "zh": "当前策略 · 两方向均暂停",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Current strategy · Both directions paused"
+  },
+  {
+    "id": "strategytopologydualtrack20260907008",
+    "zh": "当前端点 R0.76L 第 63 步：特定解族的完整时钟吸收估计",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Current endpoint R0.76L Step 63: a complete-clock absorption estimate for the specified family"
+  },
+  {
+    "id": "strategytopologydualtrack20260907009",
+    "zh": "对任意允许初值",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "For every admissible datum"
+  },
+  {
+    "id": "strategytopologydualtrack20260907010",
+    "zh": "反向：奇性构造与机制验证",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Reverse: Singularity Construction and Mechanism Validation"
+  },
+  {
+    "id": "strategytopologydualtrack20260907011",
+    "zh": "反向候选：先完成有界机制检验",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Reverse candidates: begin with a bounded mechanism test"
+  },
+  {
+    "id": "strategytopologydualtrack20260907012",
+    "zh": "方法候选",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Candidate methods"
+  },
+  {
+    "id": "strategytopologydualtrack20260907013",
+    "zh": "方法与验证",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Methods and Verification"
+  },
+  {
+    "id": "strategytopologydualtrack20260907014",
+    "zh": "方向设立不表示机制已验证。候选仍待检验；每个截断规模选取不同初值，不等于一个固定初值实现无限级联。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Establishing the direction does not validate a mechanism. These candidates remain to be tested; choosing different data for each truncation size is not an infinite cascade from one fixed datum."
+  },
+  {
+    "id": "strategytopologydualtrack20260907015",
+    "zh": "方向已设立 · 研究暂停",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Direction established · Research paused"
+  },
+  {
+    "id": "strategytopologydualtrack20260907016",
+    "zh": "共同策略",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Shared strategy"
+  },
+  {
+    "id": "strategytopologydualtrack20260907017",
+    "zh": "共同基准：无外力三维周期原方程",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Shared baseline: the original unforced three-dimensional periodic equations"
+  },
+  {
+    "id": "strategytopologydualtrack20260907018",
+    "zh": "共同基准为固定三维环面、固定正黏性和无外力原方程。正向研究任意允许光滑初值；反向寻找一个固定允许光滑初值。域、均值、压力规范与范数须在具体问题中明确。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The shared baseline is the original unforced system on a fixed three-dimensional torus with fixed positive viscosity. The forward objective concerns every admissible smooth datum; the reverse objective seeks one fixed admissible smooth datum. Each concrete problem must specify the domain, mean, pressure convention and norms."
+  },
+  {
+    "id": "strategytopologydualtrack20260907019",
+    "zh": "共同设定：固定三维环面、固定正黏性、无外力、实值光滑无散初值。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Shared setting: a fixed three-dimensional torus, fixed positive viscosity, no forcing, and real-valued smooth divergence-free initial data."
+  },
+  {
+    "id": "strategytopologydualtrack20260907020",
+    "zh": "共同问题设定",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Shared problem setting"
+  },
+  {
+    "id": "strategytopologydualtrack20260907021",
+    "zh": "固定共同问题与量词",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Fix the shared problem and its quantifiers"
+  },
+  {
+    "id": "strategytopologydualtrack20260907022",
+    "zh": "候选不表示已启动；刚性排除所需的紧性并未自动获得。假设奇点再反证排除仍属于正向。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Candidates are not marked as started; the compactness required for rigidity has not been obtained automatically. Assuming a singularity and ruling it out by contradiction remains a forward argument."
+  },
+  {
+    "id": "strategytopologydualtrack20260907023",
+    "zh": "恢复后，比较连续频带转移与局部浓缩剖面两类候选。有限步检验必须保留完整方程、回流、相位、耗散和余项；一次激活、有限模型增长或一族不同初值不证明固定初值的无限级联。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "After resumption, compare successive band transfer and local concentration profiles. A finite-step test must retain the full equations, backflow, phases, dissipation and remainders; a single activation, finite-model growth or a family of different initial data does not prove an infinite cascade from one fixed datum."
+  },
+  {
+    "id": "strategytopologydualtrack20260907024",
+    "zh": "恢复后，检验结构再生成、持续时间或多次传递的累计约束；同时保留局部能量、压力、好尺度与具备合法紧性前提的刚性方法。若没有减少已有结论中的未付输入，就记录障碍，不把候选当作进展。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "After resumption, test cumulative constraints on structural regeneration, persistence or repeated transfer, while retaining local energy, pressure, good-scale and rigidity methods with justified compactness assumptions. If a candidate removes none of the unpaid inputs in existing results, record the obstruction rather than count it as progress."
+  },
+  {
+    "id": "strategytopologydualtrack20260907025",
+    "zh": "恢复研究后的工作计划",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Research Program after Resumption"
+  },
+  {
+    "id": "strategytopologydualtrack20260907026",
+    "zh": "紧性与刚性排除",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Compactness and rigidity"
+  },
+  {
+    "id": "strategytopologydualtrack20260907027",
+    "zh": "局部能量、压力与尺度改善",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Local energy, pressure and scale improvement"
+  },
+  {
+    "id": "strategytopologydualtrack20260907028",
+    "zh": "局部浓缩剖面与外场匹配",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Local concentration profiles and outer-field matching"
+  },
+  {
+    "id": "strategytopologydualtrack20260907029",
+    "zh": "历史档案",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Research archive"
+  },
+  {
+    "id": "strategytopologydualtrack20260907030",
+    "zh": "历史记录 · 公开端点 CB.25。Clay-B 局部集中与持留预算是这一档案的历史主题；下方点线只记录已发布章节的顺序。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Historical record · Public endpoint CB.25. Local concentration and persistence budgets are the historical Clay-B theme of this archive; the dotted lines below record the order of published chapters only."
+  },
+  {
+    "id": "strategytopologydualtrack20260907031",
+    "zh": "历史记录 · 公开端点 R0.76L · 下方四个既有阶段保留完整明细",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Historical record · Public endpoint R0.76L · The four existing stages below retain their full details"
+  },
+  {
+    "id": "strategytopologydualtrack20260907032",
+    "zh": "历史顺序 · R0 与 CB 之间无依赖边",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "HISTORICAL ORDER · NO DEPENDENCY EDGE BETWEEN R0 AND CB"
+  },
+  {
+    "id": "strategytopologydualtrack20260907033",
+    "zh": "连线语义",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Connection semantics"
+  },
+  {
+    "id": "strategytopologydualtrack20260907034",
+    "zh": "连续频带转移与结构再生成",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Successive band transfer and structural regeneration"
+  },
+  {
+    "id": "strategytopologydualtrack20260907035",
+    "zh": "两方向当前均暂停，后续工作须待明确恢复。已公开的 R0 与 CB 记录是共同资源，不逐篇重贴为纯正向或纯反向；候选不计为研究成果。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Both directions are currently paused; further work awaits an explicit resumption. Published R0 and CB records are shared resources and are not relabeled wholesale as purely forward or reverse; candidates are not counted as research results."
+  },
+  {
+    "id": "strategytopologydualtrack20260907036",
+    "zh": "两方向当前均暂停。以下是明确恢复后的候选工作范围，不是正在执行的研究或已获证明的路线。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Both directions are currently paused. The following is the candidate scope after an explicit resumption, not research currently running or an already validated proof route."
+  },
+  {
+    "id": "strategytopologydualtrack20260907037",
+    "zh": "两个并列目标方向，无定理蕴含关系",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Two parallel objectives, with no theorem implication asserted"
+  },
+  {
+    "id": "strategytopologydualtrack20260907038",
+    "zh": "临界通量与动态几何",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Critical flux and dynamic geometry"
+  },
+  {
+    "id": "strategytopologydualtrack20260907039",
+    "zh": "频域相互作用、物理空间局部化、精确解与稳定性分析可服务两端目标。符号推导、数值搜索、严格证书、原文核验和独立审查贯穿全过程。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Frequency interactions, physical-space localization, exact solutions and stability analysis can serve either objective. Symbolic derivation, numerical search, rigorous certificates, primary-source checks and independent review support the work throughout."
+  },
+  {
+    "id": "strategytopologydualtrack20260907040",
+    "zh": "频域相互作用、物理空间局部化、精确解与稳定性分析可服务两端目标。符号推导、数值搜索、严格证书、原文核验和独立审查贯穿全过程。 每个问题以证明、带适用范围的障碍、条件结果或有证据的候选淘汰结束。公开结论保留来源、假设与独立复核边界；网页研究记录不等于同行评议或 Clay 问题已经解决。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Frequency interactions, physical-space localization, exact solutions and stability analysis can serve either objective. Symbolic derivation, numerical search, rigorous certificates, primary-source checks and independent review support the work throughout. Each problem ends with a proof, an obstruction with a stated scope, a conditional result or an evidenced rejection of a candidate. Public conclusions retain their sources, hypotheses and independent-review boundaries; a web research record is not peer review or a solution of the Clay problem."
+  },
+  {
+    "id": "strategytopologydualtrack20260907041",
+    "zh": "频域与物理空间方法共同服务这两个目标。Fourier–Leray 临界通量与频率包是起始技术路线，不能把它们视为唯一可能的出口。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Frequency-space and physical-space methods serve both objectives. Fourier–Leray critical flux and frequency packets are the initial technical approach, not the only possible route."
+  },
+  {
+    "id": "strategytopologydualtrack20260907042",
+    "zh": "起始技术路线：Fourier–Leray 临界通量与频率包",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Initial approach: Fourier–Leray critical flux and frequency packets"
+  },
+  {
+    "id": "strategytopologydualtrack20260907043",
+    "zh": "尚无公开冻结成果",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "No publicly released frozen result yet"
+  },
+  {
+    "id": "strategytopologydualtrack20260907044",
+    "zh": "围绕原方程结构与临界尺度动力学，分别研究正则性控制与奇性机制；两方向当前均暂停。最新公开端点为 R0.76L 与 CB.25。CB.25 的尖锐首次激活时钟不提供驻留或同一初值的无限级联。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The shared strategy is equation structure and critical-scale dynamics, with separate objectives of regularity control and singularity mechanisms; both directions are currently paused. The latest public endpoints are R0.76L and CB.25. The sharp first-activation clock in CB.25 does not provide persistence or an infinite cascade from one fixed datum."
+  },
+  {
+    "id": "strategytopologydualtrack20260907045",
+    "zh": "问题目标",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The Navier–Stokes Problem"
+  },
+  {
+    "id": "strategytopologydualtrack20260907046",
+    "zh": "我研究能量传递、局部集中与黏性耗散之间的动态竞争：寻找排除有限时奇性的控制机制，同时检验可持续的奇性构造机制。",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "I study the dynamic competition between energy transfer, local concentration and viscous dissipation, seeking mechanisms that prevent finite-time singularities while testing mechanisms that could sustain a singularity construction."
+  },
+  {
+    "id": "strategytopologydualtrack20260907047",
+    "zh": "无箭头分组：策略包含",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Unarrowed group: strategy membership"
+  },
+  {
+    "id": "strategytopologydualtrack20260907048",
+    "zh": "细灰点线：历史顺序",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Thin gray dotted line: historical order"
+  },
+  {
+    "id": "strategytopologydualtrack20260907049",
+    "zh": "下一候选还需原方程提供额外动力学估计",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The next candidate requires an additional dynamical estimate from the original equations"
+  },
+  {
+    "id": "strategytopologydualtrack20260907050",
+    "zh": "虚线箭头：待检验联系",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Dashed arrow: a link to be tested"
+  },
+  {
+    "id": "strategytopologydualtrack20260907051",
+    "zh": "寻找一个固定允许初值",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Seek one fixed admissible datum"
+  },
+  {
+    "id": "strategytopologydualtrack20260907052",
+    "zh": "一个共用的频域观察量",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "A shared frequency-space observable"
+  },
+  {
+    "id": "strategytopologydualtrack20260907053",
+    "zh": "已公开历史档案",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Published Research Archive"
+  },
+  {
+    "id": "strategytopologydualtrack20260907054",
+    "zh": "原方程结构与临界尺度动力学",
+    "count": 3,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Equation Structure and Critical-Scale Dynamics"
+  },
+  {
+    "id": "strategytopologydualtrack20260907055",
+    "zh": "阅读公开端点 R0.76L →",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Read the public endpoint R0.76L →"
+  },
+  {
+    "id": "strategytopologydualtrack20260907056",
+    "zh": "在固定三维环面、固定正黏性下，初值取实值、光滑、周期、无散，并固定均值归一化。正向目标是任意允许初值的全局光滑延拓，对应周期正面命题 B；反向目标是寻找一个固定允许初值在无外力原方程中产生有限时奇性。两者使用同一方程，初值量词不同。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "On a fixed three-dimensional torus with fixed positive viscosity, initial data are real-valued, smooth, periodic and divergence-free, with a fixed mean normalization. The forward objective is global smooth continuation for every admissible datum, corresponding to the positive periodic statement B; the reverse objective seeks a finite-time singularity from one fixed admissible datum in the original unforced equations. They use the same equations with different quantifiers on initial data."
+  },
+  {
+    "id": "strategytopologydualtrack20260907057",
+    "zh": "在固定三维环面上，以 Littlewood–Paley 投影定义临界频率包络；它是分析工具，本身不提供全局控制。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "On the fixed three-dimensional torus, Littlewood–Paley projections define a critical frequency envelope; this is an analytical tool and does not itself provide global control."
+  },
+  {
+    "id": "strategytopologydualtrack20260907058",
+    "zh": "在固定正黏性、无外力的三维周期原方程中，研究任意允许光滑初值的全局延拓，或寻找一个允许初值的有限时奇性。",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "For the original unforced three-dimensional periodic equations with fixed positive viscosity, study global smooth continuation for every admissible smooth initial datum, or seek a finite-time singularity from one admissible datum."
+  },
+  {
+    "id": "strategytopologydualtrack20260907059",
+    "zh": "整体策略",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Overall strategy"
+  },
+  {
+    "id": "strategytopologydualtrack20260907060",
+    "zh": "整体策略 · 两个目标方向",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "OVERALL STRATEGY · TWO OBJECTIVES"
+  },
+  {
+    "id": "strategytopologydualtrack20260907061",
+    "zh": "正向：正则性与动态控制",
+    "count": 2,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Forward: Regularity and Dynamic Control"
+  },
+  {
+    "id": "strategytopologydualtrack20260907062",
+    "zh": "正向候选：查找新的动态输入",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Forward candidates: identify new dynamic inputs"
+  },
+  {
+    "id": "strategytopologydualtrack20260907063",
+    "zh": "正向需要从原方程支付累计控制、好尺度改善或刚性排除的全部输入；紧性不能由奇点假设自动推出。反向需要控制完整相互作用、黏性与余项，并把有限步机制连接到同一个固定初值的全部尺度。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The forward objective requires deriving all inputs for cumulative control, good-scale improvement or rigidity from the original equations; compactness does not follow automatically from assuming a singularity. The reverse objective requires controlling the full interactions, viscosity and remainders, then connecting a finite-step mechanism to all scales of one fixed datum."
+  },
+  {
+    "id": "strategytopologydualtrack20260907064",
+    "zh": "正则性控制与奇性机制的双向研究",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Regularity Control and Singularity Mechanisms"
+  },
+  {
+    "id": "strategytopologydualtrack20260907065",
+    "zh": "证据边界：条件结果、已知障碍与开放问题分列",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Evidence boundary: conditional results, known obstructions and open questions kept distinct"
+  },
+  {
+    "id": "strategytopologydualtrack20260907066",
+    "zh": "执行状态与证据状态分开记录：两方向已设立、当前暂停；原问题仍为 OPEN。条件定理、有限计算、模型反例与原方程奇性构造不可互相替代。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Execution and evidence are recorded separately: both directions are established and currently paused; the original problem remains OPEN. Conditional theorems, finite computations, model counterexamples and singularity constructions for the original equations are not interchangeable."
+  },
+  {
+    "id": "strategytopologydualtrack20260907067",
+    "zh": "综述 v2.72 · 2026-09-07",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Review v2.72 · 2026-09-07"
+  },
+  {
+    "id": "strategytopologydualtrack20260907068",
+    "zh": "BM 用 Gavrilov 已知定常流排除宽类全零刚性，并证明固定 NS 来源若实现 BL 就必须产生定量终端能量原子；BN 在额外强 L^(11/3) 下重算已知无原子端点。基本能量估计尚不能推出这里所需的紧性条件或额外 L^(11/3) 控制。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "BM uses known steady flows of Gavrilov to exclude a broad all-zero rigidity claim, and proves that a fixed NS source satisfying BL must produce a quantitative terminal energy atom. BN rederives the known no-atom endpoint under additional strong L^(11/3) control. The basic energy estimate does not establish the required compactness conditions or the additional L^(11/3) control."
+  },
+  {
+    "id": "strategytopologydualtrack20260907069",
+    "zh": "CB 研究记录",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "CB Research Record"
+  },
+  {
+    "id": "strategytopologydualtrack20260907070",
+    "zh": "CB.1–CB.25 保留 Clay-B 历史记录；本序列不占用 R0 编号，也不改变 R0.76L 的公开端点。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "CB.1–CB.25 preserve the historical Clay-B record; this sequence does not use R0 numbering or change the public R0.76L endpoint."
+  },
+  {
+    "id": "strategytopologydualtrack20260907071",
+    "zh": "OPEN · 未解决",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "OPEN · Unresolved"
+  },
+  {
+    "id": "strategytopologydualtrack20260907072",
+    "zh": "R0 研究记录",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "R0 Research Record"
+  },
+  {
+    "id": "strategytopologydualtrack20260907073",
+    "zh": "R0 研究记录历史树",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "R0 Research Record history tree"
+  },
+  {
+    "id": "strategytopologydualtrack20260907074",
+    "zh": "R0 研究记录与 CB 研究记录保留已公开的历史顺序、阶段判断和原始阅读入口。CB 沿用 Clay-B 历史名称，是研究记录序列，不是与周期问题不同的方程版本。两个档案均可服务两端目标；灰色点线只表示历史顺序，不表示定理蕴含，R0 与 CB 之间不添加依赖边。",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "The R0 Research Record and CB Research Record preserve the published historical order, stage assessments and original reading links. CB retains its historical Clay-B name: it is a research record sequence, not a different equation from the periodic problem. Both archives can serve either objective; gray dotted lines indicate historical order only, not theorem implications, and no dependency edge is added between R0 and CB."
+  },
+  {
+    "id": "strategytopologydualtrack20260907075",
+    "zh": "R0 与 CB 的灰色点线均表示历史顺序；档案之间无依赖边",
+    "count": 1,
+    "files": [
+      "research-review.html"
+    ],
+    "en": "Gray dotted lines in both R0 and CB indicate historical order; no dependency edge connects the archives"
   }
 ]

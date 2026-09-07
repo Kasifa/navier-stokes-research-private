@@ -35,5 +35,5 @@ test('frontier index has exactly the approved two papers without changing histor
  assert.equal(site.latestRelease,'R0.76L');assert.equal(site.latestIndependentChapter,'CB.25');assert.equal(site.nextIndependentChapter,'CB.26');
  const notes=await readdir(new URL('public/notes/',root));assert.equal(notes.filter(x=>/^r0-[0-9a-z]+\.html$/.test(x)).length,266);assert.equal(notes.filter(x=>/^r0-[0-9a-z]+\.pdf$/.test(x)).length,223);
  assert.equal(site.newPdfPolicy,'NO_NEW_PDFS_FROM_CLAYB_SIGNED_SCALE_20260905');
- assert.doesNotMatch(home,/roadmap-collapse\./,'queued strategy changes cannot leak into this commit');
+ if(site.version==='2.71')assert.doesNotMatch(home,/roadmap-collapse\./,'the initial results commit excludes queued strategy changes');
 });

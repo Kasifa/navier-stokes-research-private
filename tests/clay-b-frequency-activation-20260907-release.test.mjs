@@ -35,7 +35,7 @@ test("the HTML-only FrequencyActivation note is bilingual, bounded, and figure-f
   assert.equal(note.includes("R0.76M"), false);
 });
 
-test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest", async () => {
+test("homepage preserves independent historical order and the latest spotlight", async () => {
   const [home, literature, index, site, manifest, noteFiles] = await Promise.all([
     text("public/research-review.html"), text("public/literature-review.html"), text("public/notes/index.html"),
     text("public/site-version.json").then(JSON.parse), text("research/release-manifest.json").then(JSON.parse), readdir(resolve(root, "public/notes")),
@@ -52,8 +52,9 @@ test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest",
   const boundary = home.indexOf('class="tree-row clay-b-public-boundary-row"', cb25);
   assert.ok(r0 < rb && rb < divider && divider < clay && clay < cb22 && cb22 < cb23 && cb23 < cb24 && cb24 < cb25 && cb25 < boundary);
   assert.equal(home.slice(r0, divider).includes("clay-b-two-scale-row"), false);
-  assert.match(home, /\.clay-b-route-tree \.tree-row::before[\s\S]*?border-left-style: dashed/);
-  assert.match(home, /不把策略转向表示成由 R0\.76L 推出 Clay-B 的定理依赖/);
+  assert.ok(home.includes('/strategy-topology.css'));
+  assert.match(await text('public/strategy-topology.css'), /#route-map \.tree-root::after,#route-map \.tree-row::before \{ border-left: 1px dotted var\(--muted\)/);
+  assert.match(home, /R0 与 CB 之间不添加依赖边/);
   assert.equal((home.match(/class="route-overview independent-release-spotlight"/g) ?? []).length, 1);
   assert.equal((home.match(/id="clay-b-frequency-activation"/g) ?? []).length, 1);
   assert.equal((home.match(/id="clay-b-source-enstrophy"/g) ?? []).length, 0);
@@ -62,7 +63,7 @@ test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest",
   assert.equal(noteFiles.filter((name) => /^r0-[0-9a-z]+\.html$/.test(name)).length, 266);
   assert.equal(noteFiles.filter((name) => /^r0-[0-9a-z]+\.pdf$/.test(name)).length, 223);
   assert.equal(noteFiles.includes("clay-b-frequency-activation-20260907.pdf"), false);
-  assert.equal(site.version, "2.71");
+  assert.equal(site.version, "2.72");
   assert.equal(site.latestRelease, "R0.76L");
   assert.equal(site.publicIndependentNoteCount, 25);
   assert.equal(site.latestIndependentNote, "ClayB-FrequencyActivation-20260907");
@@ -70,7 +71,7 @@ test("homepage keeps R0 solid, Clay-B dashed, sequential, and spotlight-latest",
   assert.equal(site.latestIndependentResearchPdf, null);
   assert.equal(site.latestIndependentChapter, "CB.25");
   assert.equal(site.nextIndependentChapter, "CB.26");
-  assert.equal(manifest.siteVersion, "2.71");
+  assert.equal(manifest.siteVersion, "2.72");
   assert.equal(manifest.latestCompletedRelease, "r076l");
   const independent = manifest.latestIndependentPublication ?? manifest.latestPublication;
   assert.equal(independent.releaseId, "clay-b-frequency-activation-20260907");

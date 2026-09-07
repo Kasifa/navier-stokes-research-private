@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "research-publication-handoff-v1",
+  "releaseId": "StrategyTopology-DualTrack-20260907",
+  "frozenCommit": "c087197c306ccb50eaef07af370968bf4ec47d97",
+  "sourceRepository": "navier-stokes-research",
+  "translationRoute": "LOCAL_DIRECT_NO_DGX",
+  "artifacts": [
+    {
+      "path": "research/clay_b_frequency_activation_frozen_ledger_20260907.json",
+      "sha256": "863d930d56fcfeadc3a31868090f777d4810bd7448c2aa0d8bafde00267c6125",
+      "role": "unchanged-scientific-baseline",
+      "commit": "c087197c306ccb50eaef07af370968bf4ec47d97"
+    }
+  ],
+  "artifactPolicy": {
+    "readerPdf": "OMIT_NEW",
+    "historicalReaderPdfs": "PRESERVE",
+    "scientificFigure": "NOT_REQUIRED",
+    "simulation": "FORBIDDEN",
+    "recap": "PRESERVE"
+  },
+  "claimBoundary": {
+    "requiredLabels": [
+      "PROVED",
+      "FINITE",
+      "OPEN",
+      "NOT CLAY"
+    ],
+    "publicFiles": [
+      "public/notes/clay-b-frequency-activation-20260907.html"
+    ]
+  },
+  "recap": {
+    "mode": "PRESERVE",
+    "latestRecapRelease": "r076i",
+    "preservedArtifacts": [
+      {
+        "path": "public/recap-r0-61-r0-76i.html",
+        "sha256": "1ea5048bcbecf791a557da94aa4bbf7fbda0a9517c83f40327d119af4f8103c9"
+      },
+      {
+        "path": "public/recap-r0-61-r0-76i.pdf",
+        "sha256": "5bff642caa0c7ad4bf6cdfc3df252b3c0e68312373e185e3a85f27a5828baa98"
+      }
+    ]
+  },
+  "stages": {
+    "generate": {
+      "runner": "python-local",
+      "script": "scripts/generate_strategy_topology_dual_track_20260907_release.py",
+      "inputs": [
+        "VERSION",
+        "public/research-review.html",
+        "public/site-version.json",
+        "research/release-manifest.json",
+        "research/site-maintenance/strategy-topology-dual-track-20260907"
+      ],
+      "outputs": [
+        "VERSION",
+        "public/research-review.html",
+        "public/literature-review.html",
+        "public/notes/index.html",
+        "public/notes/clay-b-frequency-activation-20260907.html",
+        "public/site-version.json",
+        "research/release-manifest.json"
+      ]
+    },
+    "translate": {
+      "runner": "node-local",
+      "script": "scripts/add-strategy-topology-dual-track-20260907-translations.mjs",
+      "inputs": [
+        "public/research-review.html",
+        "translations/en.json",
+        "research/site-maintenance/strategy-topology-dual-track-20260907/translations.json"
+      ],
+      "outputs": [
+        "translations/en.json",
+        "public/i18n-en.js"
+      ]
+    }
+  },
+  "publication": {
+    "expectedCommit": null,
+    "siteBaseUrl": "https://kasifa.github.io",
+    "repository": "Kasifa/Kasifa.github.io",
+    "workflow": "pages.yml",
+    "remote": "origin",
+    "targetBranch": "main",
+    "commitMessage": "Add dual-objective strategy overview and four-step collapsible research archives",
+    "managedPaths": [
+      "VERSION",
+      "public/i18n-en.js",
+      "public/literature-review.html",
+      "public/notes/clay-b-frequency-activation-20260907.html",
+      "public/notes/index.html",
+      "public/research-review.html",
+      "public/roadmap-collapse.css",
+      "public/roadmap-collapse.js",
+      "public/site-version.json",
+      "public/strategy-topology.css",
+      "release/handoffs/strategy-topology-dual-track-20260907.json",
+      "release/qa/strategy-topology-dual-track-20260907.json",
+      "research/release-manifest.json",
+      "research/site-maintenance/strategy-topology-dual-track-20260907/EDITORIAL_SCOPE.md",
+      "research/site-maintenance/strategy-topology-dual-track-20260907/baseline.json",
+      "research/site-maintenance/strategy-topology-dual-track-20260907/translations.json",
+      "scripts/add-strategy-topology-dual-track-20260907-translations.mjs",
+      "scripts/generate_strategy_topology_dual_track_20260907_release.py",
+      "tests/clay-b-frequency-activation-20260907-release.test.mjs",
+      "tests/research-results-launch-20260907-release.test.mjs",
+      "tests/strategy-topology-dual-track-20260907-gate.test.mjs",
+      "tests/strategy-topology-dual-track-20260907-release.test.mjs",
+      "translations/en.json"
+    ],
+    "expectedLive": [
+      {
+        "role": "homepage",
+        "localPath": "public/research-review.html",
+        "urlPath": "/research-review.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "literature",
+        "localPath": "public/literature-review.html",
+        "urlPath": "/literature-review.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "historical-note-index",
+        "localPath": "public/notes/index.html",
+        "urlPath": "/notes/index.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "site-version",
+        "localPath": "public/site-version.json",
+        "urlPath": "/site-version.json",
+        "contentTypes": [
+          "application/json"
+        ]
+      },
+      {
+        "role": "translations",
+        "localPath": "public/i18n-en.js",
+        "urlPath": "/i18n-en.js",
+        "contentTypes": [
+          "application/javascript",
+          "text/javascript"
+        ]
+      },
+      {
+        "role": "note-html",
+        "localPath": "public/notes/clay-b-frequency-activation-20260907.html",
+        "urlPath": "/notes/clay-b-frequency-activation-20260907.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "figure-png",
+        "localPath": "public/assets/r076l/fig-r076l-parabolic-edge.png",
+        "urlPath": "/assets/r076l/fig-r076l-parabolic-edge.png",
+        "contentTypes": [
+          "image/png"
+        ]
+      },
+      {
+        "role": "preserved-approved-paper-html",
+        "localPath": "public/results/heat-evolved-chebyshev-edges.html",
+        "urlPath": "/results/heat-evolved-chebyshev-edges.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "note-index",
+        "localPath": "public/results/index.html",
+        "urlPath": "/results/",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "second-paper-html",
+        "localPath": "public/results/projected-lamb-heat-packing.html",
+        "urlPath": "/results/projected-lamb-heat-packing.html",
+        "contentTypes": [
+          "text/html"
+        ]
+      },
+      {
+        "role": "result-asset-results-css",
+        "localPath": "public/results/results.css",
+        "urlPath": "/results/results.css",
+        "contentTypes": [
+          "text/css"
+        ]
+      },
+      {
+        "role": "result-asset-results-js",
+        "localPath": "public/results/results.js",
+        "urlPath": "/results/results.js",
+        "contentTypes": [
+          "application/javascript",
+          "text/javascript"
+        ]
+      },
+      {
+        "role": "result-asset-heat-evolved-chebyshev-edges-data-csv",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-data.csv",
+        "contentTypes": [
+          "text/csv",
+          "application/octet-stream",
+          "text/plain"
+        ]
+      },
+      {
+        "role": "figure-pdf",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-figure.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "figure-svg",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-figure.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      },
+      {
+        "role": "result-asset-heat-evolved-chebyshev-edges-source-zip",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges-source.zip",
+        "contentTypes": [
+          "application/zip",
+          "application/octet-stream",
+          "application/x-zip-compressed"
+        ]
+      },
+      {
+        "role": "preserved-approved-paper-pdf",
+        "localPath": "public/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "urlPath": "/assets/papers/heat-evolved-chebyshev-edges.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-heat-packing-source-zip",
+        "localPath": "public/assets/papers/projected-lamb-heat-packing-source.zip",
+        "urlPath": "/assets/papers/projected-lamb-heat-packing-source.zip",
+        "contentTypes": [
+          "application/zip",
+          "application/octet-stream",
+          "application/x-zip-compressed"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-heat-packing-pdf",
+        "localPath": "public/assets/papers/projected-lamb-heat-packing.pdf",
+        "urlPath": "/assets/papers/projected-lamb-heat-packing.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-internal-entry-pdf",
+        "localPath": "public/assets/papers/projected-lamb-internal-entry.pdf",
+        "urlPath": "/assets/papers/projected-lamb-internal-entry.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-internal-entry-svg",
+        "localPath": "public/assets/papers/projected-lamb-internal-entry.svg",
+        "urlPath": "/assets/papers/projected-lamb-internal-entry.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-local-trace-pdf",
+        "localPath": "public/assets/papers/projected-lamb-local-trace.pdf",
+        "urlPath": "/assets/papers/projected-lamb-local-trace.pdf",
+        "contentTypes": [
+          "application/pdf"
+        ]
+      },
+      {
+        "role": "result-asset-projected-lamb-local-trace-svg",
+        "localPath": "public/assets/papers/projected-lamb-local-trace.svg",
+        "urlPath": "/assets/papers/projected-lamb-local-trace.svg",
+        "contentTypes": [
+          "image/svg+xml"
+        ]
+      },
+      {
+        "role": "strategy-topology-css",
+        "localPath": "public/strategy-topology.css",
+        "urlPath": "/strategy-topology.css",
+        "contentTypes": [
+          "text/css"
+        ]
+      },
+      {
+        "role": "roadmap-collapse-css",
+        "localPath": "public/roadmap-collapse.css",
+        "urlPath": "/roadmap-collapse.css",
+        "contentTypes": [
+          "text/css"
+        ]
+      },
+      {
+        "role": "roadmap-collapse-js",
+        "localPath": "public/roadmap-collapse.js",
+        "urlPath": "/roadmap-collapse.js",
+        "contentTypes": [
+          "application/javascript",
+          "text/javascript"
+        ]
+      }
+    ],
+    "expectedAbsent": [
+      "/notes/clay-b-frequency-activation-20260907.pdf",
+      "/notes/clay-b-recent-source-screen-20260906.pdf",
+      "/notes/clay-b-signed-scale-20260905.pdf"
+    ],
+    "siteVersionExpectations": {
+      "schemaVersion": "research-site-version-v1",
+      "version": "2.72",
+      "latestRelease": "R0.76L",
+      "latestIndependentNote": "ClayB-FrequencyActivation-20260907",
+      "newPdfPolicy": "NO_NEW_PDFS_FROM_CLAYB_SIGNED_SCALE_20260905",
+      "latestIndependentChapter": "CB.25",
+      "nextIndependentChapter": "CB.26",
+      "frontierResultsIndex": "/results/",
+      "frontierResultCount": 2,
+      "frontierReaderPdfPolicy": "EXPLICIT_ENGLISH_PDF_FOR_APPROVED_PAPERS",
+      "roadmapTopology": "DUAL_OBJECTIVE_GROUPS_SHARED_DOTTED_HISTORY_NO_INTERLANE_DEPENDENCY",
+      "roadmapPreviewSteps": 4,
+      "researchExecutionState": "BOTH_DIRECTIONS_PAUSED"
+    }
+  },
+  "visualQa": {
+    "evidencePath": ".release/qa/StrategyTopology-DualTrack-20260907.json",
+    "configPath": "release/qa/strategy-topology-dual-track-20260907.json",
+    "requiredChecks": [
+      "homepage-desktop-light-zh",
+      "homepage-desktop-light-en",
+      "homepage-desktop-dark-zh",
+      "homepage-desktop-dark-en",
+      "homepage-mobile-light-zh",
+      "homepage-mobile-light-en",
+      "homepage-mobile-dark-zh",
+      "homepage-mobile-dark-en"
+    ]
+  }
+}

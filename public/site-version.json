@@ -1,6 +1,6 @@
 {
   "schemaVersion": "research-site-version-v1",
-  "version": "2.71",
+  "version": "2.72",
   "latestRelease": "R0.76L",
   "latestPublishedResearchHtml": "/notes/r0-76l.html",
   "latestPublishedResearchPdf": "/notes/r0-76l.pdf",
@@ -18,10 +18,12 @@
   "independentChapterScheme": "CB.n",
   "latestIndependentChapter": "CB.25",
   "nextIndependentChapter": "CB.26",
-  "roadmapTopology": "R0_SOLID_CB_DASHED_NO_INTERLANE_EDGE",
+  "roadmapTopology": "DUAL_OBJECTIVE_GROUPS_SHARED_DOTTED_HISTORY_NO_INTERLANE_DEPENDENCY",
   "independentChapterTitlePolicy": "CB.n_PREFIXED",
   "frontierResultsIndex": "/results/",
   "frontierResultCount": 2,
   "frontierResultsPublication": "ResearchResults-Launch-20260907",
-  "frontierReaderPdfPolicy": "EXPLICIT_ENGLISH_PDF_FOR_APPROVED_PAPERS"
+  "frontierReaderPdfPolicy": "EXPLICIT_ENGLISH_PDF_FOR_APPROVED_PAPERS",
+  "roadmapPreviewSteps": 4,
+  "researchExecutionState": "BOTH_DIRECTIONS_PAUSED"
 }
