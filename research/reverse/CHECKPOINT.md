@@ -1,5 +1,11 @@
 # Reverse research checkpoint
 
+当前恢复入口（2026-09-08）：完整比较器已在源码提交2e7ded4313eddbe7c2d7cbefc503d7bcb671b154唯一执行完成，工具会话82913实际exit0。结果只接受ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP，四项完整性/就绪标志全false。141来源实际字节复核、七类完整对象及7+2负对照已由根验收；最终输出154601B、单进程峰值199491584B、3.706704084秒。读fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_ARITHMETIC_OUTCOME.md及one-segment-comparison-root-execution-acceptance.json。Pauli正在作最终执行记录非作者审查。本次单段主核、独立核、比较器全部关闭，禁止重跑；不得把资源缺口解释为已补账。
+
+当前唯一下一项：M2_NECESSARY_GATE_EXECUTION_CONTRACT.md。同一t0=5/8，只读原hermite-b首层29472标量，B0=sum b0²，比较25 B0 pn与361·2^128 pd。尚未求B0，不预填结果；源由Pascal实现、Rawls非作者审查、根全文审读后先提交再唯一执行。严格触发仅拒绝固定参照M2≤(19/5)e^-t，否则UNDECIDED_FOR_LINF。四false与生产资源缺口传递。没有新epsilon/节点/时间窗/图档/正式包。
+
+以下为此前阶段的历史记录，其“正在”“下一项”“尚未比较”不再是执行指令；“全部进程”资源字样已按顶部缺口声明撤回，不能覆盖当前状态。
+
 2026-09-08。持续研究授权有效，平台目标 active、无 token 预算；无需例行确认。只在本反向树写科学文件和执行 Git。此前五个正式包均已一次 PRIVATE_ARCHIVE 交接，不重发或监控。当前工作是同一固定六模初值的机制筛查及后验接口，原初值仍 NO-CERTIFICATE-YET-FOR-FIXED-a。
 
 最新更正优先于下文历史验收：根发现两生产核的platform.platform()经本机标准库隐式调用uname -p及file -b，未登记自管wait4。此前“全部进程资源收齐”的主/独立root验收含义已撤回；下文高水位和只属已记录进程，不能推断全体后代预算。实际exit0、完整算术档案及墙钟记录保留，旧文件/hash不静默改写，不猜测补账，不重跑两个科学核。Pauli正作ONE_SEGMENT_HIDDEN_HELPER_RESOURCE_AUDIT.md。根已写ONE_SEGMENT_COMPARISON_RESOURCE_GAP_ADDENDUM.md（212df48b…）交非作者审查：后续唯一data-only比较即便全部一致，也只允许ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP，producer_resource_complete/resource_complete/certificate_ready/release_ready全部false；不关闭完整单段研究证书、不正式冻结发布。比较器已移除platform隐式子进程路径，补充及独立审查未锁之前禁止运行。
