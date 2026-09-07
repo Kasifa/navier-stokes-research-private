@@ -1,3 +1,10 @@
+# Paper-source role and current rules
+
+- This worktree preserves paper sources and historical preparations used by the current paper specialist. It is not an additional general research or publication task.
+- Follow `/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md`, `NAVIER_STOKES_TASK_REGISTRY.md`, `NAVIER_STOKES_WRITING_STYLE.md` and the Math `.workflow/paper-current.md`. Do not use or refresh the forward research index.
+- Preserve frozen manuscripts, v1 directories, evidence and untracked drafts. Do not stage unrelated manuscripts merely to obtain a clean worktree. Current public inclusion requires the specific two-paper whitelist; other drafts are not approved.
+- The fixed publisher alone edits the website and deploys. Do not push, modify remotes or migrate this worktree. Management maintenance does not resume paused research or initiate new paper work.
+
 # Published writing style
 
 These rules apply to reader-facing text in `public/`, page metadata, research notes, and downloadable versions.
@@ -8,16 +15,17 @@ These rules apply to reader-facing text in `public/`, page metadata, research no
 - State what was calculated, what is known from the literature, what remains open, and what has not been checked. Do not imply novelty or a proof unless the evidence supports it.
 - Separate published results, conditional results, preprints, calculations, conjectures, and failed attempts. Link primary sources where practical.
 - Keep technical notation precise. Plain language should simplify the prose, not weaken the mathematical statement.
-- Before publishing, read the page once as prose and search for the discouraged phrases above. Keep HTML and PDF copies in sync.
+- Follow the central writing guide and preserve AI/computer-assistance disclosure. Approved new paper versions must keep HTML/PDF/source meanings aligned; preserve historical frozen versions instead of overwriting them. Daily notes remain HTML-only.
 
 # Publishing target
 
 - Publish this project only through the GitHub repository and its GitHub Pages site at `https://kasifa.github.io/`.
 - Do not mirror or deploy the project to another hosting service unless the user explicitly changes this rule.
-- Starting with R0.70A, a completed and certified research release is not publication-complete until its reader-facing HTML, synchronized PDF, homepage route entry, and homepage progress entry are present and the public-site tests pass.
-- Publish each newly completed section in the same release cycle. Do not let later research versions advance while an earlier certified section remains absent from the public route.
+- A research release is research-complete when its analytic result, certificates, independent audit, literature boundary, required figure package, release manifest, and frozen source commit are complete. Reader-facing HTML/PDF, bilingual text, homepage entries, deployment, and online verification are publication-completion conditions owned by the fixed `发布任务`; they do not block later research.
+- Each authorized research direction hands off its own frozen release once. The paper specialist follows its recorded paper handoff, with no duplicate delivery. Paused research stays paused; no paper task polls or supervises routine publication.
+- Use only the existing task titled `发布任务` for all website and GitHub Pages work. Do not create a task per section, version, repair, or retry. The publisher owns the FIFO queue at `/Users/kasifa/Documents/Math/NAVIER_STOKES_PUBLICATION_QUEUE.md`, deployment waits, retries, and online verification.
 - Keep the homepage's latest-version label, total public-note count, route-node counts, and recap endpoint derived from the actual published files; verify them before every GitHub Pages push.
-- After a phase recap, create the next cumulative recap from that endpoint onward instead of silently extending only the research cards.
+- Recaps occur at real milestones or on explicit user request; they are not automatically required after every completed section.
 
 # Simulation and figure archive
 
