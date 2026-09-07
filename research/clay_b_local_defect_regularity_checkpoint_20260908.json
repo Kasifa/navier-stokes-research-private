@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "58a416b0431d38ca6bbdbbef18cd0ad35814a01d",
+  "name": "LD local critical rank-one-defect regularity and spectral-source scope",
+  "main": "research/clay_b_local_defect_regularity_20260908.md",
+  "status": "RESEARCH_SCOPE_COMPLETE",
+  "classification": ["SCOPED CONDITIONAL LOCAL REGULARITY", "LITERATURE SCOPE AUDIT", "NO NEW UNCONDITIONAL CRITICAL ESTIMATE", "OPEN", "NOT CLAY"],
+  "completed_scope": [
+    "For the specified periodic suitable weak solution smooth before an interior candidate terminal time, finite local spacetime L^(5/2) rank-one defect implies regularity at that point. The dimensionless integral includes nu^(-3/2).",
+    "A terminal-slice covering argument produces a solution-dependent regular collar. Exact localized enstrophy retains its transport and viscous cutoff flux, controlled in L1 time by collar velocity and the existing dissipation, not by unproved pressure or vorticity derivative bounds.",
+    "Critical Young absorption and Gronwall give interior vorticity L-infinity-time L2-space control, which matches GKT's p=q=2 local vorticity criterion. The same scoped proof accepts finite critical positive effective stretching rate.",
+    "The elementary inequality abs(lambda2(sym A)) <= dist_F(A,rank<=1) identifies overlap with known local spectral criteria. The checked NP theorem retains Dirichlet and interior-open-set assumptions; it is not directly relabeled a periodic one-sided terminal theorem."
+  ],
+  "open_items": [
+    "No arbitrary-data global regularity, singularity construction, novelty certification, human peer review or Clay solution.",
+    "No unconditional local critical defect norm or prescribed-centre good scale is obtained.",
+    "The proved local estimate has solution-dependent collar and initial-slice constants. A uniform quantitative epsilon-regularity scale is not established.",
+    "The direct enstrophy proof is not an arbitrary-local-suitable-weak theorem: smooth-preterminal testing and the specified suitable continuation are explicit.",
+    "The proposed single-scale L2-defect criterion, general weak rank-one limit regularity, and quantitative pressure/regularity transfer remain open."
+  ],
+  "next_action": "Audit a genuinely weaker one-scale candidate at unit viscosity: for a suitable weak pair defined near the closure of Q1 with A(1)+E(1)+D(1)<=M, does integral_Q1 d^2<epsilon(M) imply regularity at the terminal centre? First verify compactness and the gradient-minor weak-closure mechanism, then the exact regularity interface for a general local suitable rank-one limit. Do not use convex lower semicontinuity of d, do not apply LD's smooth-preterminal hypothesis to an arbitrary weak limit, and retain pressure decomposition and transfer to approximating solutions. Check primary literature for this precise candidate before claiming novelty. Arbitrary NS evolution producing a prescribed-centre small scale remains a separate open bridge.",
+  "scientific_figures": [],
+  "source_pdf": "research/source-pdfs/neustupa_penel_boundary_2005.pdf",
+  "source_pdf_read_scope": "Root: complete printed pages185-187 text and local visual check, references separately; not whole-paper proof audit.",
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "publication_boundary": "After research freeze, send once to the fixed publisher for PRIVATE_ARCHIVE only. No public overview, website, local reader, counts, recap or attachments. Research does not push, inspect, poll, wait for, retry, supervise or report archival/publication execution."
+}
