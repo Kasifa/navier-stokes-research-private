@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Full n1280 residual is completely accepted: two actual kernels, full exact comparison, non-author final review and root 30 final bindings all complete. Never rerun either kernel or comparison. Next already started: Pascal driver_independent_certificate writes ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md for the same existing I=[1280/2048,1281/2048], algebra and certified integer/storage/multiplication layout only, reusing all six constant tensors and nodal Rhat0. Read its final draft before independent review; no new code, run budget, experiment, third epsilon or broader window is authorized by that draft yet. Preserve current original NS open status.",
+  "next_action": "Read Pascal ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md and Rawls ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md when stable. Both are already assigned and writing; do not duplicate. Independently review concrete method and resource contracts, then implement and source-review before any single fixed-interval execution. Six-process candidate budgets are not measured costs. Existing kernels and complete nodal comparison remain closed, never rerun. No new nodes, epsilon choice, precision, window or unreviewed trial. User continuous authority remains active; routine internal preparation requires no user confirmation.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-SwirlRegeneration",
-  "scientific_status": "FULL_FIXED_NODE_REFERENCE_RESIDUAL_CERTIFIED_SPECIFIED_EPSILON_REFUTED; CONTINUOUS_RESIDUAL_AND_ORIGINAL_NS_UNPAID",
+  "scientific_status": "FIXED_NODE_ORIGINAL_RESIDUAL_CERTIFIED_OLD_EPSILON_REFUTED; NODE_AND_FIXED_CONTROL_FAMILY_COMPATIBLE; CONTINUOUS_RESIDUAL_AND_ORIGINAL_NS_UNPAID",
   "accepted": "NO-CANDIDATE for the specified two fixed-swirl gates; complete actual NS local existence/remainders and independent final review passed",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -148,7 +148,17 @@
     "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
     "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md",
     "research/reverse/fixed-seed-global-screen/nodal-vs-control-root-bindings.json",
-    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md"
+    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
+    "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_LEMMA.md",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_NODE_COMPATIBILITY.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_INDEPENDENT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
+    "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json",
+    "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -284,7 +294,18 @@
     "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md": "59d06565ff7cb693b6e5a63eb306b25b2009b4cb19ed5914c7453bb118ad8439",
     "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md": "0dd434ef1222a33fe38f50a3fc959d1daa062c53b78c13f5d1df4034eb62adf7",
     "research/reverse/fixed-seed-global-screen/nodal-vs-control-root-bindings.json": "4a94d7e305879d560d7690615b3b9fd14d11ff63b10dc0d0c97d1c9e2e29e538",
-    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md": "0de97fa3eb05e193c6319275747572c4cfe9f1b6fed1f26f705a549432da2ca3"
+    "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md": "0de97fa3eb05e193c6319275747572c4cfe9f1b6fed1f26f705a549432da2ca3",
+    "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md": "7d4b2c9eb29ed11036ffa878d0e90d7c4d946d6ab95a5232c495c1cb05c5cc56",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_INDEPENDENT_REVIEW.md": "e446080328b254a810d2adb084991409bb1b99ab1d47ed518e34be0db6674a55",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_LEMMA.md": "bfc2a232188fc838078d9f4036c4b7b0fb684d881f72644c9f0996eaef2c691d",
+    "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_NODE_COMPATIBILITY.md": "4f37255af866f4bdeb8f2be9e11a4be76c70a90c994904c2b9934c537b0dac12",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md": "a9d6b288917eb98123afce1bd0f07bf879e530b53701ad9eb9e00f4c5a099171",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md": "de6b150813559e6d0856b3df8db77491c9a3da4cad1f07a3d94282cd29642104",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_INDEPENDENT_REVIEW.md": "956d20ae6941bfce62cf2e35588bc5e775c09fd38a6c462c685bf2120642a784",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
+    "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
+    "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
+    "research/reverse/CHECKPOINT.md": "01ac859bce7d9e26c4cb678326fd2bf2995993c3bc021b466c5084f1ff367c2d"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -298,12 +319,12 @@
   },
   "freeze_commit": "418324a294b0c7fa09e35cd9b73061ed04006066",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Complete fixed-node residual obstruction accepted; same-interval incremental continuous-residual algebra preflight underway",
+  "current_topic": "Accepted exact fixed-control endpoint gate, strict node compatibility, and same-segment residual increment/denominator lemmas; bounded main/independent execution contracts under preparation",
   "current_topic_directory": "research/reverse/fixed-seed-global-screen",
   "pending": [
-    "Read Pascal same-interval incremental residual preflight final draft, then bounded independent math/layout review",
-    "Only after that assess a concrete once-run source/resource contract; no new experiment presently prepared",
-    "Full continuous whole-window error and original fixed datum global/singularity status remain open"
+    "Main and independent one-segment execution contracts being authored; read stable drafts before independent review/code",
+    "Complete original same-segment continuous residual not yet computed; no new scientific kernel this turn",
+    "All-window derivative/residual inputs and original fixed datum global/singularity result remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -315,11 +336,16 @@
     "handoff_state": "SENT_ONCE_DO_NOT_RESEND"
   },
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
-  "platform_goal_state_last_observed": "active verified by get_goal on this continuation; unbounded, no user confirmation dependency",
+  "platform_goal_state_last_observed": {
+    "status": "active",
+    "remaining_tokens": null,
+    "observed_utc": "2026-09-07T19:34:26.862759+00:00",
+    "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
+  },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T18:58:33.171352+00:00",
+  "updated_at": "2026-09-07T19:34:26.862866+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
-  "previous_goal_turn_classification": "Substantive progress: two exact full same-node residual runs and full output comparison/final review completed, specified uniform residual budget rigorously refuted, control-family scope sharpened; new same-interval continuous algebra preflight started.",
+  "previous_goal_turn_classification": "ACTUAL_NEW_ANALYTIC_RESEARCH_WITH_NONAUTHOR_REVIEWS_AND_41_SMALL_EXACT_CHECKS_NO_SCIENTIFIC_KERNEL",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -562,23 +588,68 @@
     "file": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
     "review": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md",
     "root_bindings": 7,
-    "scope": "Node requirement incompatible with coarse guaranteed sufficient range; whole explicit family not excluded; no third epsilon choice or experiment"
+    "scope": "Node requirement incompatible with coarse guaranteed sufficient range; whole explicit family not excluded; no third epsilon choice or experiment",
+    "followup": {
+      "status": "STRICT_NODE_COMPATIBILITY_PROVED_AND_NONAUTHOR_REVIEWED",
+      "file": "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_NODE_COMPATIBILITY.md",
+      "relation": "eta < epsilon_S < epsilon_N",
+      "not_a_new_epsilon_choice": true,
+      "root_review": "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md"
+    }
   },
   "one_segment_residual_increment_preparation": {
-    "status": "ANALYTIC_DRAFT_IN_PROGRESS_NO_NEW_CODE_OR_EXECUTION",
+    "status": "PASS_ALGEBRAIC_PREFLIGHT_NO_CODE_OR_EXECUTION",
+    "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
     "author": "driver_independent_certificate Pascal",
     "file": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
+    "independent_review": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_INDEPENDENT_REVIEW.md",
+    "reviewer": "driver_source_audit Pauli",
     "interval": "[1280/2048,1281/2048]",
-    "scope": "Reuse all certified constant tensors and nodal residual. Preserve full conservative polynomial residual and whole-theta input error. At most compare direct 4D and incremental packing analytically. No additional node/time-window/parameter experiment.",
-    "independent_review": "not yet assigned; read author final first"
+    "new_real_products": 18,
+    "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_OUTCOME.md",
-    "research/reverse/fixed-seed-global-screen/FULL_NODAL_RESIDUAL_FINAL_REVIEW.md",
-    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
-    "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_ROOT_REVIEW.md"
+    "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md"
   ],
-  "resume_read_note": "Read current checkpoint and this small read set first; older accepted required_files are provenance, not an instruction to reread or rerun them. If Pascal new draft exists, read its actual latest text and messages before assigning another author.",
-  "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md"
+  "resume_read_note": "Read current accepted synthesis and new contract drafts as they stabilize; mathematical sources in full when needed. Previous required_files are provenance, not an instruction to reread/recompute closed work. Forward helper/index and publication queue remain out of scope.",
+  "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-full-nodal-close.md",
+  "current_analysis_source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
+  "control_family_endpoint_evidence": {
+    "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
+    "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
+    "lemma": "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_LEMMA.md",
+    "review": "research/reverse/fixed-seed-global-screen/CONTROL_FAMILY_ENDPOINT_INDEPENDENT_REVIEW.md",
+    "scope": "unique endpoint minimum K(T); exact saturated fixed-family gate iff 0<epsilon<=epsilon_N; original full-window inputs not certified",
+    "root_acceptance": "research/reverse/fixed-seed-global-screen/CONTROL_AND_INCREMENT_ROOT_REVIEW.md"
+  },
+  "one_segment_residual_denominator_evidence": {
+    "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
+    "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
+    "lemma": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
+    "review": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_INDEPENDENT_DERIVATION.md",
+    "root_acceptance": "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json",
+    "scope": "Exact rho=W/(s QP^2); all W integer, old W0=V/D requires future complete exact division; 34-byte W archive 51318036 bytes; signed degree12 norm and floor/ceil interface",
+    "root_bindings": 4,
+    "root_small_integer_checks": 13,
+    "science_execution": false
+  },
+  "one_segment_residual_execution_preparation": {
+    "status": "TWO_CONTRACTS_BEING_AUTHORED_NO_CODE_OR_EXECUTION",
+    "primary_author": "driver_independent_certificate Pascal",
+    "primary_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
+    "independent_author": "driver_contract_review Rawls",
+    "independent_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_EXECUTION_PREFLIGHT.md",
+    "interval": "[1280/2048,1281/2048]",
+    "candidate_per_run_resources": {
+      "process_workers": 6,
+      "wall_seconds": 600,
+      "observed_total_rss_bytes": 2147483648,
+      "output_bytes": 536870912
+    },
+    "resource_status": "candidate engineering stop thresholds, not reviewed final contracts or measured costs",
+    "no_new_epsilon": true
+  }
 }
