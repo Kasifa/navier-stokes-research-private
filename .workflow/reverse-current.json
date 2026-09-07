@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Both one-segment scientific kernels are complete and root byte/exit/resource accepted; NEVER rerun either. Pascal implements data-only full comparator with actual both run/result/receipt/root-exit pins. Pauli independently reviews all comparator source while root full-reads it; resolve issues, commit exact source/reviews and then root runs one complete comparison with all seven same-validator witness mutations and two arithmetic edge cases. Rawls audits remaining derivative-envelope scope analytically only. No new array scan, node/window/epsilon, closed kernel or publication work.",
+  "next_action": "IMPORTANT CORRECTION: both producer platform.platform() calls have hidden uname/file subprocess paths outside managed wait4. Root full-resource acceptance is withdrawn; preserve exact arithmetic archives and historical JSON, do not guess missing costs or rerun kernels. Pauli audits actual local standard-library chain and reviews root RESOURCE_GAP_ADDENDUM. Pascal comparator already blocks execution until true addendum/review/audit pins exist, removes hidden subprocess metadata, and must output only ARITHMETIC_AGREEMENT_WITH_PRODUCER_RESOURCE_EVIDENCE_GAP with all producer_resource/resource/certificate/release flags false. Root full-read final comparator and independent review, commit, then one data-only comparison. Rawls separately audits next fixed-node M2 necessary gate analytically; no scan.",
   "resume_action": "Use only this reverse-owned checkpoint and actual source files; persistent research is active, no user confirmation required for these bounded reads/reviews. Do not use forward helper or historical publication status.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user instructions: \u6309\u65e2\u5b9a\u7684\u7b56\u7565\u6301\u7eed\u5f00\u5c55\u7814\u7a76; \u5982\u65e0\u7279\u522b\u9700\u8981\u6211\u6765\u786e\u8ba4\u7684\uff0c\u4f60\u5c31\u6301\u7eed\u5f00\u5c55\u4e0b\u53bb\uff0c\u4e0d\u9700\u8981\u505c\u987f",
@@ -313,7 +313,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "97bb95288d4eb2ef60ee429d414fb98b5a1076e656e2503c8ca1a43e3e03a484",
+    "research/reverse/CHECKPOINT.md": "64dab355bc0efaec41caf237c01f88285d11735575467bcda7d6faa3408df791",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -324,7 +324,8 @@
     "research/reverse/fixed-seed-global-screen/one-segment-comparison-contract-root-acceptance.json": "752a67491ee285c683826a9a18edc7cb0a5b9004f7e4a5549ef1424b16e09e7e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INDEPENDENT_ROOT_SOURCE_REVIEW.md": "4b88d9e462d3a63deda294ce50e66427a2eb951e909a80206b1e0f4e9f44c36b",
     "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b",
-    "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json": "5265d2ebe8a3af7bd822ecdcef2f68a6e20a567f4d84135af2ccabd10f154c49"
+    "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json": "5265d2ebe8a3af7bd822ecdcef2f68a6e20a567f4d84135af2ccabd10f154c49",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_RESOURCE_GAP_ADDENDUM.md": "212df48b07648511024524ab746d41ec3e419914cb111862ae3569663ccf9355"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-SwirlRegeneration",
@@ -363,7 +364,7 @@
     "stale_objective_clause": "LocalPressureScreen clause already completed; use reverse next_action, do not restart it"
   },
   "platform_goal_history": "Earlier user pause and goal-card blockage are historical; current active unbounded goal verified by get_goal. No user goal-card action is needed.",
-  "updated_at": "2026-09-07T20:34:24.653241+00:00",
+  "updated_at": "2026-09-07T20:43:25.006510+00:00",
   "protocol_read_scope_latest": "Read current central workflow sections 1-120 and applicable reverse freeze/ownership sections; new public pause/local-reader arrangements do not affect research authorization or private archival. No publication queue/status read.",
   "previous_goal_turn_classification": "PROGRESS: reviewed and committed exact segment execution/comparison contracts, 20 small exact checks, two source implementations actively assigned; no science kernel run yet",
   "completed_unreleased_audits": [
@@ -630,8 +631,7 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json",
-    "research/reverse/fixed-seed-global-screen/one-segment-independent-root-execution-acceptance.json",
+    "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_RESOURCE_GAP_ADDENDUM.md",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md"
   ],
   "resume_read_note": "Use current checkpoint and actual unique run artifacts first. Review full mathematical sources when arguments require them. Closed old node/trajectory kernels are immutable inputs, not restart instructions.",
@@ -657,7 +657,7 @@
     "science_execution": false
   },
   "one_segment_residual_execution_preparation": {
-    "status": "BOTH_UNIQUE_KERNELS_ACCEPTED_FULL_COMPARATOR_SOURCE_IN_PROGRESS",
+    "status": "PRODUCER_RESOURCE_ADMISSION_WITHDRAWN_LIMITED_ARITHMETIC_COMPARISON_PREPARATION",
     "primary_author": "driver_independent_certificate Pascal",
     "primary_contract": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md",
     "independent_author": "driver_contract_review Rawls",
@@ -709,7 +709,7 @@
     "result_sha256": "85eed24be3ce08d92761d6a5a4eab22eff046d1ad2b0c26ca89a817a0ab5baf8",
     "root_acceptance": "research/reverse/fixed-seed-global-screen/one-segment-primary-root-execution-acceptance.json",
     "root_acceptance_sha256": "c4c8ea70c33918ddea1d7cce74b89e7e97e99ff9be7aa3f74e73e3633562770b",
-    "status": "PRIMARY_RUN_ACCEPTED_PENDING_FULL_INDEPENDENT_RECOMPUTATION_AND_COMPARISON",
+    "status": "ARITHMETIC_OUTPUTS_PRESERVED_PRODUCER_RESOURCE_EVIDENCE_INCOMPLETE",
     "rerun_allowed": false,
     "observed_exit_code": 0,
     "wall_seconds": 42.78586191707291,
@@ -717,7 +717,10 @@
     "actual_all_output_bytes": 288938140,
     "new_real_products": 18,
     "primary_interface_status": "SEGMENT_UPPER_BOUND_WITHIN_EXISTING_SUFFICIENT_THRESHOLD",
-    "no_global_NS_conclusion": true
+    "no_global_NS_conclusion": true,
+    "historical_acceptance_status": "PRIMARY_RUN_ACCEPTED_PENDING_FULL_INDEPENDENT_RECOMPUTATION_AND_COMPARISON",
+    "producer_resource_complete": false,
+    "certificate_ready": false
   },
   "one_segment_independent_source_evidence": {
     "source_sha256": "1e9c9ee576049bd444ed07e858175b113bdb09d3719f1ab69820a3536564ca79",
@@ -740,7 +743,23 @@
     "actual_all_output_bytes": 169426849,
     "new_gaussian_products": 2171496960,
     "new_scalar_products": 8685987840,
-    "status": "INDEPENDENT_RUN_ACCEPTED_PENDING_COMPLETE_DATA_COMPARISON",
-    "rerun_allowed": false
+    "status": "ARITHMETIC_OUTPUTS_PRESERVED_PRODUCER_RESOURCE_EVIDENCE_INCOMPLETE",
+    "rerun_allowed": false,
+    "historical_acceptance_status": "INDEPENDENT_RUN_ACCEPTED_PENDING_COMPLETE_DATA_COMPARISON",
+    "producer_resource_complete": false,
+    "certificate_ready": false
+  },
+  "producer_resource_evidence_correction": {
+    "status": "ROOT_RESOURCE_COMPLETENESS_CLAIM_WITHDRAWN_PENDING_INDEPENDENT_SOURCE_AUDIT",
+    "cause": "platform.platform() hidden uname -p and file -b subprocesses not managed by producer wait4 ledgers",
+    "old_files_preserved": true,
+    "rerun_allowed": false,
+    "missing_costs_may_not_be_guessed": true,
+    "addendum": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_COMPARISON_RESOURCE_GAP_ADDENDUM.md",
+    "addendum_sha256": "212df48b07648511024524ab746d41ec3e419914cb111862ae3569663ccf9355",
+    "producer_resource_complete": false,
+    "resource_complete": false,
+    "certificate_ready": false,
+    "release_ready": false
   }
 }
