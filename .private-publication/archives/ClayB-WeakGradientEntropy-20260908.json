@@ -1,0 +1,177 @@
+{
+  "base_commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+  "claims": [
+    "For an unforced unit-viscosity distribution NS pair with u in L-infinity_t L2_x intersect L2_t H1_x and p in L^(3/2) on Q1, a fixed local solenoidal extension and div-curl Hardy estimate give integral_{B3/4 x (-1,0)} |Hess p| <= C(E+D^(2/3)). No local energy inequality is needed for this a priori estimate.",
+    "Spatial mollification of one fixed weak solution preserves G_epsilon=grad u_epsilon. The exact divergence-free transport commutator has a product of velocity and gradient increments and tends to zero in local L1 by the (2,2)-to-1 estimate and translation continuity of fixed G in L2.",
+    "For fixed spatial epsilon the fully convolved equation gives an absolutely continuous time representative. A nonnegative cutoff preserves the top gradient-norm slice. Convex norm regularization, then zero-set truncation of the compatible shape variable, then epsilon-to-zero identify Theta(G)=d(G)G/|G|^(3/2), zero at G=0, in the whole interior L2_t H1_x space.",
+    "The local bound is esssup_{-1/4<t<0} integral_{B1/2}|grad u| + integral_{Q1/2}|grad Theta|^2 <= C[sqrt(E)+sqrt(AE)+E+D^(2/3)]. It also gives local Theta in L-infinity_t L2_x. Separate nonnegative budgets are added with their constant factors, not counted twice against one unchanged bound.",
+    "For a suitable weak pair near closure Q1, a larger mother cylinder or finite interior covering supplies the full Theta weak derivative required by frozen SC-A. Its conditional regularity implication therefore needs no additional Theta-H1 assumption; the same epsilon_Theta(M) still requires actual smallness and a common A+E+D cap.",
+    "Under NS scaling K(r/2) <= C[sqrt(E(r))+sqrt(A(r)E(r))+E(r)+D(r)^(2/3)], where K(r)=r^(-1) integral_{Qr}|grad Theta|^2. This is only a finite critical bound. The exact smooth local entropy balance retains signed pressure-inertia, transport, cutoff and slice terms and gives no contraction by itself."
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 15252,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_shape_dissipation_compactness_20260908.md",
+      "sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 12727,
+      "kind": "FROZEN_CLASSICAL_ENDPOINT_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 3581,
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    }
+  ],
+  "dependency_commits": [
+    "84c578b5575ad640ddb60109a10443cb52b62871"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "new_pdf_audit": false,
+      "scope": "Root actual targeted reading of Theorem1.2 and its s=1 proof. Homogeneous div-curl gradient estimate checked separately from the theorem's written full W1,2 norm; compact H1 solenoidal extension and density supplied in WE. No whole-paper or all-dependencies certification.",
+      "title": "Dong Li and Xiaoyi Zhang, A regularity upgrade of pressure",
+      "url": "https://arxiv.org/html/2106.11852v1",
+      "whole_paper_certified": false
+    },
+    {
+      "new_pdf_audit": false,
+      "scope": "Root actual targeted reading of the introduction and section4.3 support-preserving/general bounded Lipschitz mapping statements. Only the standard fixed-annulus zero-mean divergence right-inverse is used. The annulus is not claimed star-shaped; no whole-paper/all-proof certification.",
+      "title": "Martin Costabel and Alan McIntosh, On Bogovskii and regularized Poincare integral operators for de Rham complexes on Lipschitz domains",
+      "url": "https://arxiv.org/html/0808.2614v1",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "Pure local analytic estimate and weak-solution identification; no new simulation or scientific figure.",
+  "files": [
+    {
+      "bytes": 14138,
+      "commit": "8527a23724a563da2106ce2d1eb217b71bc7b5dc",
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9"
+    },
+    {
+      "bytes": 6047,
+      "commit": "8527a23724a563da2106ce2d1eb217b71bc7b5dc",
+      "path": "research/clay_b_weak_gradient_entropy_audit_20260908.md",
+      "sha256": "28068020d38e4ecb3df65cc4f4defd87d7a301b6e7a97e72d92171f6bfe6953b"
+    },
+    {
+      "bytes": 5070,
+      "commit": "8527a23724a563da2106ce2d1eb217b71bc7b5dc",
+      "path": "research/clay_b_weak_gradient_entropy_checkpoint_20260908.json",
+      "sha256": "fa171b327de4b9c0034edd55a94a70e19686946b11dbbaacb9c58d0a2a6c6426"
+    },
+    {
+      "bytes": 15252,
+      "commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_shape_dissipation_compactness_20260908.md",
+      "sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 11939,
+      "commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 12727,
+      "commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+      "kind": "FROZEN_CLASSICAL_ENDPOINT_SCOPE_DEPENDENCY",
+      "path": "research/clay_b_strain_spectral_entropy_20260908.md",
+      "sha256": "eca679ae0d2b9fdab4824fd3a880617951cb90e05ff13d05ce5d7027ad5007da",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 3581,
+      "commit": "84c578b5575ad640ddb60109a10443cb52b62871",
+      "kind": "FROZEN_SCOPE_AUDIT_DEPENDENCY",
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "source_commit": "84c578b5575ad640ddb60109a10443cb52b62871"
+    },
+    {
+      "bytes": 10434,
+      "commit": "f8300a019c5c81a4a7523e4d3514cf2b478fa5f7",
+      "path": "research/clay_b_weak_gradient_entropy_release_20260908.json",
+      "sha256": "bc28109dbdc92bad84d390902a497191fc65f1829ecee6688623f8119bcd6d03"
+    }
+  ],
+  "freeze_commit": "f8300a019c5c81a4a7523e4d3514cf2b478fa5f7",
+  "handoff": {
+    "private_only": true,
+    "research_must_not_push_poll_wait_or_supervise": true,
+    "send_once": true,
+    "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+    "target_title": "发布任务"
+  },
+  "integrity_note": "Manifest and dispatch receipt are outside immutable source-stage files. Dispatch acceptance is not archive verification. No website, public overview, local reader, counts, recap, public attachments or relaunch requested.",
+  "is_clay_result": false,
+  "limitations": [
+    "An arbitrary actual NS evolution has not been shown to produce a prescribed-centre scale with a common A+E+D cap and normalized Theta-gradient below epsilon_Theta(M).",
+    "No cross-scale contraction, non-summable disjoint concentration cost, or automatic o(r) entropy dissipation follows from the finite local or global estimates.",
+    "The signed pressure-inertia combination and cutoff transport in the exact local entropy balance are not controlled by a sufficiently small critical quantity. Ordinary backward heat kernels do not remove them; an advective adjoint requires its own uniform local lower-bound proof.",
+    "No classical rough-solution Gamma=|G||grad(G/|G|)|^2 or full radial grad|G| is defined or controlled here, and no signed zero-set defect is identified. The accepted object is the full weak derivative of Theta.",
+    "Effective thresholds, regularity-radius moduli, optimality, a full source-collision/novelty audit and human peer review remain outstanding.",
+    "General three-dimensional global regularity, a singularity construction and the Clay goal remain open.",
+    "Participating AI review is not human peer review or a complete novelty certification."
+  ],
+  "logical_predecessor": "ClayB-ShapeDissipationCompactness-20260908",
+  "next_research_plan": "Seek a new same-solution signed cancellation in the exact local full-gradient entropy equation WE.23, retaining cutoff transport and top/bottom slice terms. First audit pressure-inertia after subtracting the spatially constant gradient of an affine reference velocity: distinguish relative-gradient entropy, which changes its dissipation, from a shape-relative entropy that preserves the original dissipation; check all reference-time, cutoff and pressure terms and their critical scaling. Do not repeat RL's uncontrolled variable-coefficient pressure term after Young's inequality, GD's variable-axis obstruction, SC compactness or the now-completed WE weak-H1 admission. A finite critical bound, another conditional rewrite, a terminal weak measure trace or a finite experiment is not an automatic prescribed-centre good scale. Any proposed contraction must control the common A+E+D cap and yield a genuine small normalized shape gradient or a non-summable disjoint cost. No publication or reverse-runtime inspection.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "qa": {
+    "audit": "research/clay_b_weak_gradient_entropy_audit_20260908.md",
+    "mathematical_review": "Root actual complete222-line13938B manuscript readback and independent derivation. A and C actual fullWE1-23 reviews, then three exact clarifications totalling200B accept222lines14138B SHA47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9 without remaining mandatory changes. C inverse restores original SHA363db3bb25433b4dd6782e4c924c95a45dbb97706e34b73fd8bcdb665e13485f. Participating module authors, not wholly nonauthor or human reviewers.",
+    "new_output_visual_qa": false,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "Root full audit/checkpoint readback plus final two audit clarifications and one next-action clarification. C actual full30-line6026B audit and34-line5044B checkpoint followed by exact21B and26B deltas accepts final30lines6047B SHA28068020d38e4ecb3df65cc4f4defd87d7a301b6e7a97e72d92171f6bfe6953b and34lines5070B SHAfa171b327de4b9c0034edd55a94a70e19686946b11dbbaacb9c58d0a2a6c6426. Strict JSON/no duplicate keys, six claims/six open items, main hash, source and review scope, squared-gradient scaling and affine-reference gradient wording PASS.",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "23 ordered unique WE tags,23 display pairs,80 inline pairs,no abnormal controls. Exact rational inner-ball margin, Hess-p absolute integral and Theta-gradient squared integral scaling r^(-1), pressure scaling r^(-2), cutoff exponents checked. Staged whitespace PASS. Three source files25255B plus four dependencies43499B verified against immutable git-show and local bytes/hashes."
+  },
+  "recap": {
+    "reason": "A scoped removal of an extra weak-derivative assumption; no automatic prescribed-centre good scale or global-regularity milestone.",
+    "update_required": false
+  },
+  "release_id": "ClayB-WeakGradientEntropy-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "SCOPED LOCAL WEAK-GRADIENT ENTROPY",
+    "AUTOMATIC THETA SOBOLEV ADMISSIBILITY",
+    "CONDITIONAL SC INTERFACE WITHOUT AN EXTRA WEAK-H1 ASSUMPTION",
+    "NO AUTOMATIC GOOD SCALE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "8527a23724a563da2106ce2d1eb217b71bc7b5dc",
+  "simulation": false,
+  "source_commit": "8527a23724a563da2106ce2d1eb217b71bc7b5dc",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
