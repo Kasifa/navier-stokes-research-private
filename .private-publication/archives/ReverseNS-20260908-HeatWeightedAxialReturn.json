@@ -1,0 +1,177 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_EXACT_HEAT_TREE_OBSTRUCTION / NO-CANDIDATE_FOR_SPECIFIED_GATE / NOT_CLAY",
+    "not_claimed": [
+      "A full positive-time NS two-step mechanism or a universal obstruction to such mechanisms.",
+      "Actual first-generation supply certification, complete 1+3/3+1 or mixed-tree response, or infinite-dimensional NS remainder.",
+      "Approximate-return stability, other templates, nonorthogonal or wider frequency supports, or a uniform positive gap independent of frequency ratios.",
+      "A new chosen physical initial datum, infinite-scale iteration, finite total time, singularity or global regularity.",
+      "External novelty, human peer review or proof-assistant verification."
+    ],
+    "proved": [
+      "For the specified fixed-viscosity unforced torus tree w22 built from three distinct positive integer axial wave-pair lengths and arbitrary nonzero complex transverse polarizations with real conjugacy, no positive time produces a common nonzero-amplitude doubled original template on all six receiver modes, even with arbitrary translation and every compatible orthogonal signed-axis transformation.",
+      "The exact first-generation heat coefficients, all receiver pairings, ordered Fourier-Leray factors, phase and zero branches are retained. The remaining two unique reception times satisfy t13<t12^(2), with a strictly positive frequency-dependent logarithmic gap."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "freeze_commit": "60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6",
+      "manifest": "research/reverse/unequal-axis-return/freeze.json",
+      "release_id": "ReverseNS-20260908-AxialReturnObstruction",
+      "scope": "Fixed seed class, complete instantaneous Fourier-Leray receiver coefficients, zero and conjugacy branches, compatible signed-axis transformations and local historical scope. Old seven frozen files are reused without modification or duplicate listing.",
+      "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb"
+    }
+  ],
+  "dependency_commits": [
+    "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
+    "60fd47193d2d929b8ee63c7b7d6d7c1ab64fe1f6"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 1823,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_CONTRACT.md",
+      "sha256": "a65d7ffb1350e7cb2a6ee20cc5be80eae41d4ac2544c163e9fc7765d1bacf9ad"
+    },
+    {
+      "bytes": 8914,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_TRANSFER_PREFLIGHT.md",
+      "sha256": "efe1b7313abaee0d1cd986da6ffdba38ff818eb8707b0cdda003f66eee18f369"
+    },
+    {
+      "bytes": 5511,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_PROOF.md",
+      "sha256": "2d4196425bf443fb113c34a4102a08fa089e5ac3956cebae4a86b5a159d4b32b"
+    },
+    {
+      "bytes": 12271,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_INDEPENDENT.md",
+      "sha256": "80b3b7dc3565bc8fbc8328e501c4f1a17b2d2929c82bb1863c39690793ddafc9"
+    },
+    {
+      "bytes": 7529,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_REVIEW.md",
+      "sha256": "366c1ea933c121ed67b9eca20dd1dc90af3a0d745b65194e5d9550dc356384c3"
+    },
+    {
+      "bytes": 4987,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_ORDER_ROOT_REVIEW.md",
+      "sha256": "2f1ea3d1c36d9aec4ca34a4b3c1ade5a7334ce9d082956786e0604242f846467"
+    },
+    {
+      "bytes": 2703,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_CONTRACT.md",
+      "sha256": "868c41244ecc0512106fbbf1e3c769b7e02d1cacb00ae7f3cb031481b66573a9"
+    },
+    {
+      "bytes": 6419,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_PROOF.md",
+      "sha256": "5c156782846a836df4e2d57e355c9d7a0e802e09048849960ae65257f8329b61"
+    },
+    {
+      "bytes": 9276,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_INDEPENDENT.md",
+      "sha256": "5a2a4a5ea5c75c885c7b453288b7bc5849b606a9f9362189f4a4fa6c77726a4d"
+    },
+    {
+      "bytes": 7142,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_REDUCTION.md",
+      "sha256": "9eb05c6daf35e9399a5f7045d6faa126e1d13354bd8360b344b6f7594c69f1ca"
+    },
+    {
+      "bytes": 6369,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_INDEPENDENT_REVIEW.md",
+      "sha256": "e04372b77e4132c49220a5491a2f4d78fddd93ba7fa659565e6d19772bdc1f8c"
+    },
+    {
+      "bytes": 9130,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_REVIEW.md",
+      "sha256": "2ef72570aa4e1dbf26e99280a717ef80d1146aad37d0ae051a345e5b9ec1c58e"
+    },
+    {
+      "bytes": 4466,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_ROOT_REVIEW.md",
+      "sha256": "66559e7b9100a2d2b946d8e87698925f69dc3ffce5b4cb2218b621dc39815768"
+    },
+    {
+      "bytes": 2367,
+      "commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+      "path": "research/reverse/unequal-axis-return/HEAT_OUTCOME.md",
+      "sha256": "1ce55d13422f507d4e5b63e67f1f980b7f3f428a2895e4f23fb1010b122cdbc8"
+    },
+    {
+      "bytes": 8674,
+      "commit": "477a0940ffbbfd65ad77f3e29e788609d67e62ee",
+      "path": "research/reverse/unequal-axis-return/heat-freeze.json",
+      "sha256": "0e5a824e3ea666645671f1ace0a1e8e183bd63049c9f9a0ae8d96f4bd84ef3f1"
+    }
+  ],
+  "freeze_commit": "477a0940ffbbfd65ad77f3e29e788609d67e62ee",
+  "freeze_commit_binding": "Containing manifest commit supplied separately in once-only handoff. Research continues without publication monitoring.",
+  "literature_boundary": "Inherited local R0.10-13 scope is recorded by the preceding frozen package. New heat-integral, interpolation and positive-gap arguments are elementary self-contained derivations; no external theorem or novelty/priority claim is added.",
+  "milestone_recap_required": true,
+  "milestone_scope": "One coherent exact heat-weighted axial pure-generation template screen, now fully closed at the tree level.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-AxialReturnObstruction",
+  "private_milestone_record": "research/reverse/unequal-axis-return/HEAT_OUTCOME.md",
+  "public_export_authorization": "No public export of new core; private archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-HeatWeightedAxialReturn",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "7d07e7b8a1dbd4085346ac88b578bd3e4bd44257",
+    "528261e647e05c7346e7a9976954d2dac3288f89"
+  ],
+  "scientific_source_commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+  "source_commit": "528261e647e05c7346e7a9976954d2dac3288f89",
+  "source_ledger": "research/reverse/unequal-axis-return/HISTORY_SCOPE.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "analytic_remainder": "Tree identities exact. Positive logarithmic interpolation error is explicitly bounded by 3/8 of the normalized squared log ratio, below a strict 1/2 lower bound; no unestimated asymptotic error is used. This is not an NS remainder certificate.",
+    "earlier_failed_m2_or_producer_resource_gap_repaired": false,
+    "final_scope_review": {
+      "accepted": true,
+      "actual_full_read": [
+        "HEAT_COMPATIBILITY_ROOT_REVIEW.md",
+        "HEAT_OUTCOME.md"
+      ],
+      "outcome_sha256": "1ce55d13422f507d4e5b63e67f1f980b7f3f428a2895e4f23fb1010b122cdbc8",
+      "reviewer": "driver_contract_review / Rawls",
+      "root_review_sha256": "66559e7b9100a2d2b946d8e87698925f69dc3ffce5b4cb2218b621dc39815768",
+      "scope_note": "Nonorthogonal next-scope note means a pair with nonzero inner product; it does not assert every pair of a nonorthogonal triple has nonzero inner product."
+    },
+    "independence": "Pauli derived without reading current main proof. Rawls derived elimination independently and then reviewed Pauli proof without reading current main/Pascal review. Pascal reviewed current main proof without reading Pauli proof/Rawls reduction. Root actually read all final scientific texts and compared their derivations.",
+    "independent_derivation": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_INDEPENDENT.md",
+    "independent_proof_non_author_review": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_INDEPENDENT_REVIEW.md",
+    "independent_reduction": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_REDUCTION.md",
+    "main_non_author_review": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_REVIEW.md",
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "root_full_comparison": "research/reverse/unequal-axis-return/HEAT_COMPATIBILITY_ROOT_REVIEW.md",
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 14 listed texts matched exact scientific source-commit objects and current file bytes; git diff --cached --check passed before source commit. Hashes are provenance only.",
+    "status": "PASS_EXACT_ANALYTIC_PROOF_AND_SEPARATE_REVIEWS",
+    "unresolved_items_within_locked_tree_gate": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
