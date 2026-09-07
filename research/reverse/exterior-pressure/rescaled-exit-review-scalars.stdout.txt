@@ -1,0 +1,5 @@
+JOINT_TEST_PROOF.md 9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91
+PROOF.md 50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9
+RESCALED_EXIT_CONTRACT.md 31c9b603144d5b0b5544caecb6de37ab7d04c8d0803b400ad3c5e63396534543
+RESCALED_EXIT_PROOF.md e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78
+{'rational_checks': {'test_ball_inside_shell': True, 'test_ball_off_axis': True, 'point_l1': True, 'bump_argument': True, 'q_coefficient': True, 'h_double_prime_positive': True, 'linear_error': True, 'linear_error_lt_10': True, 'rescale_linear_sum': True, 'rescale_viscous_power': True}, 'PASS': True}

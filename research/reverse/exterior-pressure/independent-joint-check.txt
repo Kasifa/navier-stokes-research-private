@@ -1,0 +1,48 @@
+{
+  "rotations": [
+    {
+      "i": 1,
+      "det": 1,
+      "gram_identity": true,
+      "Qe2": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "i": 2,
+      "det": 1,
+      "gram_identity": true,
+      "Qe2": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "i": 3,
+      "det": 1,
+      "gram_identity": true,
+      "Qe2": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "T_less_bound": true,
+  "inner_outer_gap_lower": "7/60",
+  "outer_radius_upper": "124/405",
+  "outer_d_less_quarter": true,
+  "y_star_squared_from_ball_center": "1/800",
+  "epsilon_squared": "1/400",
+  "s_star": "1/800",
+  "q_prefactor": "1/100"
+}
+research/reverse/exterior-pressure/JOINT_TEST_CONTRACT.md 1936 8d0f8a3b8e4e81181078967932eb975e12e73dd8e95732ab050da0b35776511c
+research/reverse/exterior-pressure/JOINT_TEST_PROOF.md 8081 9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91
+research/reverse/exterior-pressure/PROOF.md 10163 50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9
+research/reverse/next-concentration/PROOF.md 13913 fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1
+research/reverse/next-concentration/CONTRACT.md 3979 79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b
+research/clay_b_frequency_cascade_budget_20260907.md 13572 4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15

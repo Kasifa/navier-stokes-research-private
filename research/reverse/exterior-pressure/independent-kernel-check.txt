@@ -1,0 +1,1 @@
+PASS: 81 Cartesian fourth-derivative components, exact rational cone bound, and D pairing coefficient -12.

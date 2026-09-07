@@ -1,0 +1,17 @@
+{
+  "classification": "PRIVATE_CORE",
+  "stage": "root actual rerun after code inspection; output-only producer checked with explicit semantic assertions",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "research/reverse/exterior-pressure/independent_joint_check.py"
+  ],
+  "started_utc": "2026-09-07T13:39:01Z",
+  "elapsed_seconds": 0.018879333,
+  "python_version": "3.9.6",
+  "processes": 1,
+  "arithmetic": "exact integer/Fraction output; explicit value and bound assertions",
+  "status": "PASS",
+  "source_sha256": "2e33e2df6a481d057176d968f590cbcf7284498d4bfa7e1a1cc6e64e9b5e1b01",
+  "stdout_sha256": "772d297e1c3bc7e57d4df3bf000b2acc6a63e39f0cb5ce66bf908b03e558d93f",
+  "byte_identical_to": "independent-joint-check.txt"
+}

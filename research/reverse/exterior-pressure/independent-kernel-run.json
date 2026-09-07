@@ -1,0 +1,18 @@
+{
+  "classification": "PRIVATE_CORE",
+  "scope": "Finite independent Cartesian derivative identity, cone rational bound and D coefficient only; analytic PDE arguments separate",
+  "command": [
+    "python3",
+    "research/reverse/exterior-pressure/independent_kernel_check.py"
+  ],
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "started_utc": "2026-09-07T13:32:09.557104+00:00",
+  "elapsed_seconds": 0.019825,
+  "python_version": "3.9.6",
+  "exit_code": 0,
+  "stderr": "",
+  "source_sha256": "a0b530537d5d669cf9fddad84ea0b7a1efc8268238fc1985ab73744528abd5fc",
+  "stdout_file": "independent-kernel-check.txt",
+  "stdout_sha256": "6807a29d02058a171184a4637bdb7c96e043e2a6a7146bcc984cd5b74e33fbd9",
+  "status": "PASS"
+}

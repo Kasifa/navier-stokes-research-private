@@ -1,0 +1,15 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "PASS",
+  "scope": "root actual rerun and semantic assertions on original ten rational checks, after reading source",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "research/reverse/exterior-pressure/rescaled_exit_review_scalar_checks.py"
+  ],
+  "elapsed_seconds": 0.018347958,
+  "processes": 1,
+  "arithmetic": "exact Fraction",
+  "source_sha256": "5766581233ef845e993d7910f83684a8d0db30f545185430f758c7263e37b6d7",
+  "output_sha256": "15588dba3b987d143d2ea1aba3ecc84c37389a6838ba3fa3af45238375208f39",
+  "byte_identical_to": "rescaled-exit-review-scalars.stdout.txt"
+}

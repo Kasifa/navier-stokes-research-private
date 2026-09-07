@@ -1,0 +1,18 @@
+{
+  "classification": "PRIVATE_CORE",
+  "stage": "root actual independent rerun after source inspection",
+  "started_utc": "2026-09-07T13:36:49Z",
+  "elapsed_seconds": 0.020530917000000003,
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "research/reverse/exterior-pressure/independent_kernel_check.py"
+  ],
+  "python_version": "3.9.6",
+  "precision": "exact integers and fractions; no numerical PDE",
+  "processes": 1,
+  "status": "PASS",
+  "exit_code": 0,
+  "byte_identical_to": "independent-kernel-check.txt",
+  "source_sha256": "a0b530537d5d669cf9fddad84ea0b7a1efc8268238fc1985ab73744528abd5fc",
+  "stdout_sha256": "6807a29d02058a171184a4637bdb7c96e043e2a6a7146bcc984cd5b74e33fbd9"
+}

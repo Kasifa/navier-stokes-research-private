@@ -1,0 +1,224 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "PASS",
+  "review_reports": 5,
+  "bindings_checked": 36,
+  "bindings": [
+    {
+      "review": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/next-concentration/CONTRACT.md",
+      "sha256": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/next-concentration/DERIVATION_DRAFT.md",
+      "sha256": "8b80d35cb940ad4214a7aa94e62af1bdb80a2d1303ce25e90e3ee75fd4c5f299",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/next-concentration/LITERATURE_BOUNDARY.md",
+      "sha256": "812269c006d972c484de0cb46ecd195f1eed92ecd80953875cdd62354d2ef54c",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/next-concentration/central-algebra.json",
+      "sha256": "fa192f061c8e0583d9a0d633ff0311743afb8262db6135784f78bf78db6eb69c",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/CONTRACT.md",
+      "sha256": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/DERIVATION_DRAFT.md",
+      "sha256": "8b80d35cb940ad4214a7aa94e62af1bdb80a2d1303ce25e90e3ee75fd4c5f299",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/PROOF.md",
+      "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/OUTCOME.md",
+      "sha256": "d0c3123589f13b19692c6b2116a23f7e08e4f584f2d85404e03753b0feeec372",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/LITERATURE_BOUNDARY.md",
+      "sha256": "812269c006d972c484de0cb46ecd195f1eed92ecd80953875cdd62354d2ef54c",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/SOURCE_REVIEW.md",
+      "sha256": "1f49a4c3665b5b84842fcaf39f4afc5693b9d33483bbe57e62993205f99f4653",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/central-algebra.json",
+      "sha256": "fa192f061c8e0583d9a0d633ff0311743afb8262db6135784f78bf78db6eb69c",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/next-concentration/INDEPENDENT_REVIEW.md",
+      "sha256": "4ed11ff07a1d46c09617a16f8579938dd16b9660d47fb4eadb5c04f7901e5e97",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/next-concentration/FINAL_REVIEW.md",
+      "file": "research/reverse/first-cycle/SOURCES.md",
+      "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/CONTRACT.md",
+      "sha256": "2f81a514f1d521cbc8dd5f0cc4f8a544392d5737da38d2c277be5f0dfdc06e2d",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/DERIVATION_DRAFT.md",
+      "sha256": "e9fa2eadb90d72327c42c006d7d2f6aac9888aae7fdde450291e6e13957c7ac1",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent_kernel_check.py",
+      "sha256": "a0b530537d5d669cf9fddad84ea0b7a1efc8268238fc1985ab73744528abd5fc",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent-kernel-check.txt",
+      "sha256": "6807a29d02058a171184a4637bdb7c96e043e2a6a7146bcc984cd5b74e33fbd9",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent-kernel-run.json",
+      "sha256": "ef03cea65cbd59fa93571b7fa041b9c3f78ef554b65afa3e91f7088b3aae9c32",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/INDEPENDENT_REVIEW.md",
+      "file": "research/reverse/next-concentration/PROOF.md",
+      "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/JOINT_TEST_CONTRACT.md",
+      "sha256": "8d0f8a3b8e4e81181078967932eb975e12e73dd8e95732ab050da0b35776511c",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+      "sha256": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/next-concentration/PROOF.md",
+      "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/next-concentration/CONTRACT.md",
+      "sha256": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent_joint_check.py",
+      "sha256": "2e33e2df6a481d057176d968f590cbcf7284498d4bfa7e1a1cc6e64e9b5e1b01",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent-joint-check.txt",
+      "sha256": "772d297e1c3bc7e57d4df3bf000b2acc6a63e39f0cb5ce66bf908b03e558d93f",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/independent-joint-run.json",
+      "sha256": "9f02f7617aea595377a6c0addf594175398bb3f02b4c49c00243c4c46369a8d2",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+      "sha256": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/RESCALED_EXIT_CONTRACT.md",
+      "sha256": "31c9b603144d5b0b5544caecb6de37ab7d04c8d0803b400ad3c5e63396534543",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md",
+      "sha256": "e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/rescaled_exit_review_scalar_checks.py",
+      "sha256": "5766581233ef845e993d7910f83684a8d0db30f545185430f758c7263e37b6d7",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/rescaled-exit-review-scalars.stdout.txt",
+      "sha256": "15588dba3b987d143d2ea1aba3ecc84c37389a6838ba3fa3af45238375208f39",
+      "status": "PASS"
+    },
+    {
+      "review": "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+      "file": "research/reverse/exterior-pressure/rescaled-exit-review-scalars.run.json",
+      "sha256": "2739e999cc0f4b48875d675e3787b23b333db308d981e5912fc105297cc561b2",
+      "status": "PASS"
+    }
+  ]
+}

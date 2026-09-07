@@ -1,6 +1,6 @@
 {
   "classification": "PRIVATE_CORE",
-  "status": "FINITE_ALGEBRA_ONLY_PRESSURE_PROOF_PENDING",
+  "status": "FINITE_ALGEBRA_ONLY_ANALYTIC_PROOF_SEPARATE",
   "S_diagonal": [
     1,
     2,

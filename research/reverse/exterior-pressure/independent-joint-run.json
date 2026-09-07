@@ -1,0 +1,38 @@
+{
+  "classification": "PRIVATE_CORE",
+  "scope": "actual rerun of the already used integer/Fraction checks; no scan or PDE simulation",
+  "started_at_utc": "2026-09-07T13:36:42.667976+00:00",
+  "finished_at_utc": "2026-09-07T13:36:42.688186+00:00",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "research/reverse/exterior-pressure/independent_joint_check.py"
+  ],
+  "working_directory": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "exit_code": 0,
+  "stderr": "",
+  "wall_time_seconds": 0.0199055,
+  "python_version": "3.9.6",
+  "python_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "available_cpu_count": 18,
+  "processes": 1,
+  "threads": 1,
+  "arithmetic": "Exact Python integers and fractions.Fraction; no floating-point scientific calculation",
+  "random_seed": null,
+  "randomness": "none",
+  "scope_checks_pass": true,
+  "source": {
+    "path": "research/reverse/exterior-pressure/independent_joint_check.py",
+    "sha256": "2e33e2df6a481d057176d968f590cbcf7284498d4bfa7e1a1cc6e64e9b5e1b01"
+  },
+  "deterministic_output": {
+    "path": "research/reverse/exterior-pressure/independent-joint-check.txt",
+    "bytes": 1380,
+    "sha256": "772d297e1c3bc7e57d4df3bf000b2acc6a63e39f0cb5ce66bf908b03e558d93f"
+  },
+  "limitations": [
+    "Finite algebra only; analytic ODE, Green kernel and PDE interpretation remain in the proof and review",
+    "Run timestamps and elapsed time are observational and intentionally nondeterministic"
+  ]
+}

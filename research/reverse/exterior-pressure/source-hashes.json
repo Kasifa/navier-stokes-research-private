@@ -1,0 +1,99 @@
+{
+  "classification": "PRIVATE_CORE",
+  "date": "2026-09-07",
+  "scope": "Local pressure mechanism screen and its precise static/dynamic boundaries; no novelty claim",
+  "external_sources": [
+    {
+      "title": "Tsai 1998 Leray self-similar solutions",
+      "url": "https://personal.math.ubc.ca/~ttsai/publications/leray.pdf",
+      "observed_bytes": 231159,
+      "sha256": "6d3182d53806ce82fa0a2d834b31b758f22399ff625b8c8d7025a65f83fb8182",
+      "read_pages": "published pp29-34, equations, Theorems 1-2, local interpretation and definitions; source agent additionally pressure discussion",
+      "reading_evidence": "research/reverse/next-concentration/SOURCE_REVIEW.md",
+      "scope": "Statement applicability and history, not a proof dependency for the new self-contained inequalities; no full classic proof audit"
+    },
+    {
+      "title": "Tsai 1999 erratum",
+      "url": "https://personal.math.ubc.ca/~ttsai/publications/leray-erratum.pdf",
+      "observed_bytes": 26051,
+      "sha256": "a4fb5549d63d6bc0783440e24c6d87889829aaddad49bf30fb7ab9905ad8f593",
+      "read_pages": "complete one-page erratum by source reviewer; root did not independently re-read",
+      "scope": "Growth comparison correction, theorem statements unchanged"
+    }
+  ],
+  "historical_sources": [
+    {
+      "path": "research/reverse/first-cycle/SOURCES.md",
+      "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b",
+      "bytes": 15374,
+      "read_scope": "History only: section 5 FA/FCB boundary and section 6 item 5 already-read Tsai 1998 plus 1999 erratum; not re-certification of entire first-cycle package"
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15",
+      "bytes": 13572,
+      "read_scope": "History only: current turn read lines 180-315, section 4 FCB.14-18 full countermodel and section 5 scope; not a scientific estimate dependency"
+    }
+  ],
+  "proof_dependencies": [
+    {
+      "path": "research/reverse/next-concentration/CONTRACT.md",
+      "sha256": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
+      "bytes": 3979,
+      "read_scope": "Fixed original candidate and bounded center residual contract; read in full"
+    },
+    {
+      "path": "research/reverse/next-concentration/PROOF.md",
+      "sha256": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1",
+      "bytes": 13913,
+      "read_scope": "Self-contained inner field, energy, covariance and complete periodic pressure estimates; read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/CONTRACT.md",
+      "sha256": "2f81a514f1d521cbc8dd5f0cc4f8a544392d5737da38d2c277be5f0dfdc06e2d",
+      "bytes": 2388,
+      "read_scope": "Fixed exterior stress contract; read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+      "bytes": 10163,
+      "read_scope": "Complete periodic kernel bound and explicit solenoidal static witness; read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/JOINT_TEST_CONTRACT.md",
+      "sha256": "8d0f8a3b8e4e81181078967932eb975e12e73dd8e95732ab050da0b35776511c",
+      "bytes": 1936,
+      "read_scope": "Fixed joint negative-control contract; authored and read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+      "sha256": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91",
+      "bytes": 8081,
+      "read_scope": "Self-contained fixed-path joint negative control; authored and read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/RESCALED_EXIT_CONTRACT.md",
+      "sha256": "31c9b603144d5b0b5544caecb6de37ab7d04c8d0803b400ad3c5e63396534543",
+      "bytes": 1095,
+      "read_scope": "Actual NS finite residence contract; authored and read in full"
+    },
+    {
+      "path": "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md",
+      "sha256": "e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78",
+      "bytes": 4565,
+      "read_scope": "Actual full NS rescaling and local curl exit estimate; authored and read in full"
+    }
+  ],
+  "deduplication": [
+    "Tsai and erratum were already read in first-cycle; exact candidate also within local Theorem 2 if it satisfied NS",
+    "d^-5 bound is standard kernel homogeneity, not a claimed new mechanism",
+    "FCB already has energy-compliant NON-NS paths; joint example additionally addresses full center pressure residual",
+    "Actual NS exit estimate applies only to one fixed local C3 tube; it does not rule out a nonstationary regeneration route"
+  ],
+  "not_read": [
+    "NRS 1996 original was not successfully read; no claim relies on its original text"
+  ],
+  "figures": [],
+  "new_numerical_PDE_experiments": false
+}

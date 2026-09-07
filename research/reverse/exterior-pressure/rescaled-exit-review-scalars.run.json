@@ -1,0 +1,40 @@
+{
+  "schema": "ReverseNS-rescaled-exit-existing-scalar-check-replay-v1",
+  "classification": "PRIVATE_CORE",
+  "purpose": "Preserve the exact earlier inline program and stdout; replay its existing ten scalar checks once to retain an execution log. No new scientific checks.",
+  "original_execution": {
+    "invocation": "python3 - <<'PY'\nfrom pathlib import Path\nfrom hashlib import sha256\nfrom fractions import Fraction as F\nroot=Path('research/reverse/exterior-pressure')\nfor name in ['JOINT_TEST_PROOF.md','PROOF.md','RESCALED_EXIT_CONTRACT.md','RESCALED_EXIT_PROOF.md']:\n print(name,sha256((root/name).read_bytes()).hexdigest())\nchecks={'test_ball_inside_shell': F(2,40**2)<(F(1,20)-F(1,400))**2,'test_ball_off_axis':F(1,40)>F(1,400),'point_l1':F(1,40)+F(61,40)==F(31,20),'bump_argument':F(1,20)**2-2*F(1,40)**2==F(1,800),'q_coefficient':16*F(1,40)**2==F(1,100),'h_double_prime_positive':1-2*F(1,800)>0,'linear_error':2+F(2,5)*F(31,20)*2+6==F(231,25),'linear_error_lt_10':F(231,25)<10,'rescale_linear_sum':F(3,5)+F(2,5)==1,'rescale_viscous_power':F(8,5)-F(7,5)==F(1,5)}\nprint({'rational_checks':checks,'PASS':all(checks.values())})\nPY",
+    "workdir": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+    "timestamp": "not separately retained",
+    "source_preserved_verbatim": true,
+    "original_observed_stdout_matches_replay": true
+  },
+  "replay": {
+    "command": "python3 research/reverse/exterior-pressure/rescaled_exit_review_scalar_checks.py",
+    "workdir": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+    "started_utc": "2026-09-07 13:45:44 UTC",
+    "ended_utc": "2026-09-07 13:45:44 UTC",
+    "tool_reported_wall_time_seconds": 2.875e-06,
+    "tool_chunk_id": "d3321b",
+    "exit_code": 0,
+    "timing_scope": "Tool observation only; not a scientific benchmark.",
+    "python": "Python 3.9.6",
+    "arithmetic": "fractions.Fraction, exact rational arithmetic",
+    "workers": 1,
+    "randomness": "none",
+    "scientific_check_count": 10,
+    "new_scientific_checks": 0,
+    "pass_evidence": "Saved stdout lists all ten existing rational_checks as True and PASS as True."
+  },
+  "artifacts": [
+    {
+      "path": "rescaled_exit_review_scalar_checks.py",
+      "sha256": "5766581233ef845e993d7910f83684a8d0db30f545185430f758c7263e37b6d7"
+    },
+    {
+      "path": "rescaled-exit-review-scalars.stdout.txt",
+      "sha256": "15588dba3b987d143d2ea1aba3ecc84c37389a6838ba3fa3af45238375208f39"
+    }
+  ],
+  "status": "PASS"
+}

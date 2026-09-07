@@ -6,37 +6,43 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read the next-concentration draft and literature boundary. Fixed radius-two path already fails the normalized global energy residual (independently checked); review center pressure covariance and strict periodic remainder separately. Do not treat this as a new self-similar mechanism or ignore the Tsai theorem boundary.",
-  "resume_action": "Read driver-dominance draft and latest checkpoint; user explicitly resumed research after the recorded pause.",
+  "next_action": "Complete final-package review, source commit, freeze and one-time PRIVATE_ARCHIVE handoff for LocalPressureScreen. Then stop expanding static/non-NS variants; select one concrete nonstationary original-NS question with full evolution and an independent audit.",
+  "resume_action": "Read reverse CHECKPOINT and current required scientific files. Complete LocalPressureScreen final evidence bindings/freeze, then continue actual NS nonstationary mechanism screening without routine permission requests.",
   "forward_pause_applies": false,
-  "resume_authority": "Latest direct user instruction: 恢复研究",
+  "resume_authority": "Latest direct user instructions: 按既定的策略持续开展研究; 如无特别需要我来确认的，你就持续开展下去，不需要停顿",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260907-GlobalPacketScreen",
-  "scientific_status": "TWO_RELEASES_FROZEN_NEXT_CONCENTRATION_DRAFT_SAVED",
+  "scientific_status": "LOCAL_PRESSURE_SCREEN_REVIEWED_READY_FOR_SOURCE_FREEZE",
   "accepted": "NO-CANDIDATE for direct regeneration of the six-mode seed: known center gate, failed similarity, and conditional global-copy/self-action energy obstruction.",
   "required_files": [
-    "research/reverse/route-screen/ENERGY_SCREEN.md",
-    "research/reverse/route-screen/HISTORY_SCREEN.md",
-    "research/reverse/route-screen/INDEPENDENT_ENERGY_REVIEW.md",
-    "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md",
-    "research/reverse/driver-dominance/PROOF.md",
-    "research/reverse/driver-dominance/freeze.json",
-    "research/reverse/next-concentration/CONTRACT.md",
-    "research/reverse/next-concentration/DERIVATION_DRAFT.md",
+    "research/reverse/next-concentration/PROOF.md",
     "research/reverse/next-concentration/LITERATURE_BOUNDARY.md",
-    "research/reverse/next-concentration/central-algebra.json"
+    "research/reverse/next-concentration/FINAL_REVIEW.md",
+    "research/reverse/exterior-pressure/CONTRACT.md",
+    "research/reverse/exterior-pressure/PROOF.md",
+    "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md",
+    "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md",
+    "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md",
+    "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md",
+    "research/reverse/exterior-pressure/OUTCOME.md",
+    "research/reverse/exterior-pressure/source-hashes.json",
+    "research/reverse/exterior-pressure/FINAL_PACKAGE_REVIEW.md",
+    "research/reverse/exterior-pressure/root-binding-check.json"
   ],
   "required_file_sha256": {
-    "research/reverse/route-screen/ENERGY_SCREEN.md": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
-    "research/reverse/route-screen/HISTORY_SCREEN.md": "9fb62c4d1fa569e8fefb12dbbc58d3cb9d0423879d6afa80af68f9de863a9bfb",
-    "research/reverse/route-screen/INDEPENDENT_ENERGY_REVIEW.md": "8eec5f9782d535dfbc673877045563a8f2150da9189b8a2ffee54bef28592cba",
-    "research/reverse/route-screen/FINAL_SCREEN_REVIEW.md": "ee33ce0945d16e779a8adee5c001d104753faff7d5e643781be05336f609a790",
-    "research/reverse/driver-dominance/PROOF.md": "b509b433294243c80b8e72f8c8cce09f1171a5a27a05fbf023bcc69fa207f032",
-    "research/reverse/driver-dominance/freeze.json": "1420f3a3f95f667dbcd3f947643ac56a949c10cc7198df5d0cf1a02c9bf90df0",
-    "research/reverse/next-concentration/CONTRACT.md": "79269431bc4e5f2651d821d23a8d49fc0805574104453a1406c3cdcf6fd4580b",
-    "research/reverse/next-concentration/DERIVATION_DRAFT.md": "8b80d35cb940ad4214a7aa94e62af1bdb80a2d1303ce25e90e3ee75fd4c5f299",
-    "research/reverse/next-concentration/LITERATURE_BOUNDARY.md": "11da931103f8ee41dad367f8f5c919984b5253ec79ddd49040a52c61e472bdfc",
-    "research/reverse/next-concentration/central-algebra.json": "60425d2611c409b7eb5e1d1a78de837b994e50c2d5c3653b17bf44a70339e647"
+    "research/reverse/next-concentration/PROOF.md": "fafadaecc7972111cd6d55e5cfa5ede746f306353f8b953266dc37d37a39a7f1",
+    "research/reverse/next-concentration/LITERATURE_BOUNDARY.md": "812269c006d972c484de0cb46ecd195f1eed92ecd80953875cdd62354d2ef54c",
+    "research/reverse/next-concentration/FINAL_REVIEW.md": "ce36ecb367122399647989ac8a286f0cf9b8058d83fa7634de9b53dd3100daa2",
+    "research/reverse/exterior-pressure/CONTRACT.md": "2f81a514f1d521cbc8dd5f0cc4f8a544392d5737da38d2c277be5f0dfdc06e2d",
+    "research/reverse/exterior-pressure/PROOF.md": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+    "research/reverse/exterior-pressure/JOINT_TEST_PROOF.md": "9d0100f62ec6ef25ef2552348120d2b7b1e802aba49167bf4115edad02a3cd91",
+    "research/reverse/exterior-pressure/JOINT_TEST_REVIEW.md": "92188f9c259278777af0bdc4077fc60d92d80a98e8b3efc60f058d504593a308",
+    "research/reverse/exterior-pressure/RESCALED_EXIT_PROOF.md": "e96f1bce6d2076d560191211e208bd43f33e0db2d5c21de8abc6dfd31b361e78",
+    "research/reverse/exterior-pressure/RESCALED_EXIT_REVIEW.md": "d9b29618ec836e0d3ea3a63fde0888db59add6b289dc7900c84a0e748601a0d6",
+    "research/reverse/exterior-pressure/OUTCOME.md": "17024e2a79907d19f6d25c2d3261f58b899f9f269626f30cb841e22ccd301d7e",
+    "research/reverse/exterior-pressure/source-hashes.json": "de32cf573b41a0650ee51ca2a142cad718cfbd0e6288d5adaadfa2b6b772a9fb",
+    "research/reverse/exterior-pressure/FINAL_PACKAGE_REVIEW.md": "959758e9026f6a948b76e516e008bc18d726df9035ec6bf0993dce9b7d19d3a2",
+    "research/reverse/exterior-pressure/root-binding-check.json": "1a4302f9d433116b0158f0601b316e0d78e31a2fd85831240bb15d487a2397bd"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260907-GlobalPacketScreen",
@@ -46,16 +52,16 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "0dbe8a4cf4c61a52e3914e5a66f6d07a65d590e7fe45457e03f7c140d1293d97",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
-    "AGENTS.md": "ac0d704f7ddd69767a41f87bfe95f37b6b69cb74e0e34c53849f16d75c78d11d"
+    "AGENTS.md": "a3590da886564db434279253965b90b9bc0f9f938fad39ccdeee41840c5c6802"
   },
   "freeze_commit": "d9fa0fb939aa5cf5ae8c655faa0555c10cc9908f",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Fixed radial-cutoff linear-strain concentration: necessary periodic-pressure residual test",
-  "current_topic_directory": "research/reverse/next-concentration",
+  "current_topic": "Local pressure screen: fixed profile no-candidate, exterior pressure sharpness, joint NON-NS control, actual NS finite C3 residence obstruction",
+  "current_topic_directory": "research/reverse/exterior-pressure",
   "pending": [
-    "Concentration DERIVATION_DRAFT.md saved and read by root; final independent review and freeze not complete. Energy and center-pressure arguments have distinct logical roles.",
-    "No compatible concentration profile or iteratable regeneration mechanism accepted",
-    "Uniform iteration, one fixed datum infinite scales, infinite-dimensional iterative errors, finite total time and singularity remain open"
+    "LocalPressureScreen mathematics independently reviewed; remaining source/evidence final binding and freeze/handoff",
+    "No nonstationary concentration or whole-packet regeneration candidate accepted",
+    "Uniform iteration, a single initial datum at all scales, infinite-dimensional iterative errors, finite total time and singularity remain open"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -67,5 +73,7 @@
     "handoff_state": "SENT_ONCE_DO_NOT_RESEND"
   },
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
-  "platform_goal_state_last_observed": "blocked; explicit user research resume is valid, but goal API cannot set active and CUA denied control of Codex app. User must use goal-card resume for automatic goal continuation."
+  "platform_goal_state_last_observed": "active; get_goal returned null on this continuation and user-requested unbounded persistent reverse research goal was successfully created on 2026-09-07",
+  "platform_goal_history": "blocked; explicit user research resume is valid, but goal API cannot set active and CUA denied control of Codex app. User must use goal-card resume for automatic goal continuation.",
+  "updated_at": "2026-09-07T13:41:20.132523+00:00"
 }

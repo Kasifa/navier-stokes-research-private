@@ -1,6 +1,6 @@
 # Reverse research ownership and resumption (2026-09-07)
 
-Latest direct task authority: the user explicitly said “恢复研究” after the recorded driver-dominance pause. This reverse task is authorized to resume from its own actual checkpoint. Earlier pause records remain historical; a newer user pause would again take precedence. This does not authorize changing the forward task or publication state.
+Latest direct task authority: the user said “恢复研究”, then “按既定的策略持续开展研究” and “如无特别需要我来确认的，你就持续开展下去，不需要停顿”. Continue authorized reverse scientific work autonomously from its own checkpoint; routine bounded review and private handoff require no new user confirmation. Earlier pause records remain historical; a newer user pause takes precedence. This does not authorize changing the forward task or publication state.
 
 ## Current privacy boundary (2026-09-07)
 
