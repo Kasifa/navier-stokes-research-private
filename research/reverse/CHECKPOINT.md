@@ -1,9 +1,15 @@
 # Reverse research checkpoint
 
-2026-09-07: PAUSED_BY_USER. Worktree `navier-stokes-reverse`, branch `codex/ns-reverse`, inherited baseline `d58abdd9390ef8ced52f1807a956a663853f7680`.
+2026-09-07。ACTIVE_FREEZE_PENDING。仅反向树 `navier-stokes-reverse`、`codex/ns-reverse`。
 
-User instruction in the retained task `01a07996-7beb-7793-ab71-d71abacbfb86`: “先暂停一下”. Wait for explicit user resumption. Management corrected this lifecycle status after stopping and archiving the duplicate entry; see `PAUSE_DUPLICATE_ENTRY_20260907.md`. No scientific conclusion was accepted and no new source commit or release was made.
+首轮研究已通过：固定原解有限两代模态产生及严格无限维余项；完整压力使一阶新生场对种子的主动输运为零，同一低阶目标出现于全局光滑三角负对照，指定三元组不复制。未接受可迭代奇性机制。精确问题、全证明、来源和独立审查在 `research/reverse/first-cycle/`。本轮没有图形、仿真或远程任务。
 
-First bounded question: can initially empty Fourier targets in the same full viscous periodic Navier–Stokes solution receive a genuinely second-generation leading term, with no direct initial-seed quadratic activation? Fix data and an infinite-dimensional remainder contract before acceptance.
+下一步：提交科学源与冻结元数据，向固定发布任务一次交接PRIVATE_ARCHIVE；然后在同一初值至多下一阶完整导数中检验依赖全部三个种子组的横向混合响应。该下一项尚未执行，不属于首轮定理或冻结结果。持续研究无需等待公开窗口。
 
-Current stage: startup verified; source collision check and two-step calculation incomplete. No candidate accepted and no singularity claimed. This task is paused by its own direct user instruction, independently of the forward task's pause.
+## 恢复授权及保留历史
+
+- 科学继承基线：d58abdd9390ef8ced52f1807a956a663853f7680。
+- 初始启动只建立记录；随后用户“先暂停一下”，反向独立暂停，未科学冻结。管理保存重复入口暂停记录于 `PAUSE_DUPLICATE_ENTRY_20260907.md`。
+- 管理治理提交d16d669123c2965694e4203a7618dc569da51438只更新AGENTS，不是科研来源。
+- 2026-09-07 18:59迁移/隐私管理独立验收后的正式派发恢复本任务。之后没有新的用户暂停。新的用户暂停始终优先。
+- 不运行正向research helper，不改正向索引/检查点，不读取发布队列或发布索引，不push或监控网站。完整新成果PRIVATE_CORE。

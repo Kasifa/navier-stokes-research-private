@@ -1,0 +1,46 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "PASS",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "research/reverse/first-cycle/exact_algebra.py",
+        "--check"
+      ],
+      "python_hash_seed": "42",
+      "returncode": 0,
+      "output": "PASS exact Fourier jets and byte-identical certificate",
+      "error": "",
+      "wall_seconds": 0.394951833
+    },
+    {
+      "command": [
+        "python3",
+        "research/reverse/first-cycle/certify.py",
+        "--check"
+      ],
+      "python_hash_seed": "42",
+      "returncode": 0,
+      "output": "{\"status\": \"PASS\", \"checks\": 9, \"negative_mutations\": 8, \"T\": \"1/10000\", \"M_upper\": \"143\"}",
+      "error": "",
+      "wall_seconds": 0.42158474999999995
+    },
+    {
+      "command": [
+        "ruby",
+        "research/reverse/first-cycle/independent_crosscheck.rb",
+        "--check"
+      ],
+      "python_hash_seed": "42",
+      "returncode": 0,
+      "output": "{\"status\":\"PASS\",\"checks\":54,\"bounds\":{\"A\":\"6\",\"b\":\"18\",\"c\":\"66\",\"D2\":\"213\",\"D3\":\"56504/165\",\"D4\":\"64003/165\"},\"failed\":[]}",
+      "error": "",
+      "wall_seconds": 0.078554583
+    }
+  ],
+  "review_bound_files": 15,
+  "source_hashes": 56,
+  "failures": [],
+  "review_sha256": "3cd3b7de9e41b6b48ac4d9604a005ea2329d5b9700fe978dee3d432bac375cbf"
+}

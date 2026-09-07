@@ -1,0 +1,529 @@
+{
+  "schema": "reverse-ns-bounded-source-audit-v1",
+  "classification": "PRIVATE_CORE",
+  "created_utc": "2026-09-07T11:12:53.208254+00:00",
+  "scientific_baseline_inherited": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "method": "Primary-source web reads plus exact local source bytes; no novelty search completeness claim.",
+  "local_sources": [
+    {
+      "path": "public/notes/r0-1.html",
+      "sha256": "09b35f61be49b18e7b7675ba7dd5cfabf4c94185537186d1fdeb959cb5a661c3",
+      "bytes": 33457,
+      "lines": 798,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-2.html",
+      "sha256": "e693a44efd4477702571a164efbbecddc8dd9709aba1a7503a31232124a9ac2d",
+      "bytes": 31395,
+      "lines": 675,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-3.html",
+      "sha256": "66c4dc91debd56e8defcd58889b32ef4df685d1b449d501584182d1032444f8c",
+      "bytes": 27799,
+      "lines": 600,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-4.html",
+      "sha256": "94fb3a0a0d56d8a5843b80387b9fbae3c02ec3ccbc18d9aed353d5838ef0b1e5",
+      "bytes": 28919,
+      "lines": 628,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-5.html",
+      "sha256": "86d8e956fa233b6d14869afe7920e821708cb6f58f14586d0bf29b0441cf2a6d",
+      "bytes": 31325,
+      "lines": 632,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-6.html",
+      "sha256": "fa2ebf9ac38a77e8d85ce2d1f71f6011e07f7ed0b26ad08459608f0496cfef6c",
+      "bytes": 33397,
+      "lines": 671,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-7.html",
+      "sha256": "009f6f14cc220315da02f1c512fc0d897a223af655ec7c89a89da4198eea5d31",
+      "bytes": 32919,
+      "lines": 735,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-8.html",
+      "sha256": "2b33d5a6f7d44f8eb78abbed8e9f4b24cbcd48d5c83f62d1f302ec6e2f5481a2",
+      "bytes": 31614,
+      "lines": 633,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-9.html",
+      "sha256": "5c1410218f8eb043edb403878490b3222c7f4a237244fa1434e97a803f7d35f5",
+      "bytes": 31395,
+      "lines": 557,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-10.html",
+      "sha256": "d7566fd57a4b8198a866ff3d317ef15bcd1b6671054c964f8875b00635145a0a",
+      "bytes": 31861,
+      "lines": 581,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-11.html",
+      "sha256": "ad8ebe34c67939cd371f621cc7fbf5f54cf501c4d2506e587aa1494f4ef52095",
+      "bytes": 29207,
+      "lines": 542,
+      "read_depth": "introductory_scope_and_result_boundary; targeted full sections 3-8 for R0.11 and 2-8 for R0.12",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-12.html",
+      "sha256": "a8e98babfa76e0379157367155c6161294b276a1c5565b0f48878a4a28c7cb7a",
+      "bytes": 31784,
+      "lines": 553,
+      "read_depth": "introductory_scope_and_result_boundary; targeted full sections 3-8 for R0.11 and 2-8 for R0.12",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-13.html",
+      "sha256": "e5ad43432fb040c60aa51a3716bdd1b606c297f47df45e60722ae7e83903675e",
+      "bytes": 31105,
+      "lines": 543,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-14.html",
+      "sha256": "1b2beb91a181cdb12a4fb891e7c4f7a728c6bf3e0eb914f3f201b48abff85167",
+      "bytes": 29395,
+      "lines": 579,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-15.html",
+      "sha256": "55221565a05655c4c0f87871bc7a36ed618975aaae35c416a14b18ce0e661bad",
+      "bytes": 30207,
+      "lines": 585,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-16.html",
+      "sha256": "eb91089aed6d639fb023fa5168da1f5ffc9a04f5426d1981357d295dc4d58b8c",
+      "bytes": 25581,
+      "lines": 470,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-17.html",
+      "sha256": "7ebf94a2ec61294c140862888874403be11df6b2856b6c5b5d028c3b6f13c805",
+      "bytes": 25797,
+      "lines": 471,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-18.html",
+      "sha256": "e4a695c25d0e86641bb3d9afc53262558a0470f2e5843c7fbb8f05573af4b171",
+      "bytes": 24596,
+      "lines": 458,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-19.html",
+      "sha256": "44d35be0144a3ef8704d3464595e28a1a1cb597a7c59d98d0f5281edc7b69397",
+      "bytes": 26174,
+      "lines": 488,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "public/notes/r0-20.html",
+      "sha256": "97010a26b3bb394f75eebbaf66bb48502dd203aa5dbf1a67eb91798c8de6c283",
+      "bytes": 27347,
+      "lines": 459,
+      "read_depth": "introductory_scope_and_result_boundary",
+      "use": "historical collision only; old finite certificates not rerun"
+    },
+    {
+      "path": "research/r073a_problem_freeze.md",
+      "sha256": "2e57f8aef22b755aee1dced1036d74da36d12b4b5dde3db1d5f2b76a84f53437",
+      "bytes": 6818,
+      "lines": 268,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073b_problem_freeze.md",
+      "sha256": "669733f7d1084793b96282a40f3e86b253eda06d496a1b78a1a775f04a46b114",
+      "bytes": 6257,
+      "lines": 286,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073c_problem_freeze.md",
+      "sha256": "ca3acc0555da96aedab598f48817bb0fb2bcac7eaecfab25a9f4b8b8a070937e",
+      "bytes": 8262,
+      "lines": 279,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073d_problem_freeze.md",
+      "sha256": "3b3b9465b8b0c7ffe0ee846be555be2e2bb3770ca2ddf9495844500162804ab0",
+      "bytes": 5294,
+      "lines": 186,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073e_problem_freeze.md",
+      "sha256": "1efbd431e150335f64573d6ff7da2154ff6b8c6b325764b69e80ed2f8d82e25f",
+      "bytes": 11101,
+      "lines": 379,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073f_problem_freeze.md",
+      "sha256": "57503d83e0ca42884bb01a89a1de4290040e64305de2bcefdfcc56f4d3f4d09c",
+      "bytes": 8030,
+      "lines": 299,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073g_problem_freeze.md",
+      "sha256": "70f78d397fac9edb583d8af1687c5ab495ea3add9abe00b3bf61404755b2f3ad",
+      "bytes": 8172,
+      "lines": 302,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073h_problem_freeze.md",
+      "sha256": "d9248efda2f0e0f06adc55bd240c7d7024f9de0f8667b657fda5aaf217299524",
+      "bytes": 6640,
+      "lines": 310,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073i_problem_freeze.md",
+      "sha256": "8b6efb098fc88689d739d1293ea329f7cf177986d2b450d91d997e585f46b104",
+      "bytes": 12329,
+      "lines": 409,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073j_problem_freeze.md",
+      "sha256": "343eb5ee34acea09875cea09fa80b1927bb00ddf588a55945052e72b2ebb278e",
+      "bytes": 8215,
+      "lines": 308,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073k_problem_freeze.md",
+      "sha256": "841765c83ca20fa1342fa38c06ef5ee978eb2cbd0bc5a1aa0478f641aaf111da",
+      "bytes": 7308,
+      "lines": 235,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073l_problem_freeze.md",
+      "sha256": "84815c31b0c4021ef86731cc73da6f55cf8e4fb770172cb0a2d8e0316ab026d5",
+      "bytes": 5757,
+      "lines": 182,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073m_problem_freeze.md",
+      "sha256": "f9659da9443557451221024ef4029069f2e624dc63077416a6747059f39f7ccb",
+      "bytes": 7715,
+      "lines": 263,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073n_problem_freeze.md",
+      "sha256": "49369e19eea406a7b1e6415834495846bf451cc39d797a1d16df54dee5e6f75d",
+      "bytes": 13496,
+      "lines": 404,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073o_problem_freeze.md",
+      "sha256": "e0cb2543b37f48dacf452371e192594f10d0bae635cc09cc736c77daedadc065",
+      "bytes": 10065,
+      "lines": 340,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073p_problem_freeze.md",
+      "sha256": "7b3ed45c0e844ba158748187e8f931e4cd130f6d4ec85da927311de3c908d3bb",
+      "bytes": 8458,
+      "lines": 294,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073q_problem_freeze.md",
+      "sha256": "c45b5fc8c35746d3bf96918a3a856453f46b75beebf0dcb03826d2e56c5fa604",
+      "bytes": 9373,
+      "lines": 326,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073r_problem_freeze.md",
+      "sha256": "e39c982aef59351d9f3c9911a656934718e42ddd1d4805a5c06e901f71856c0c",
+      "bytes": 3728,
+      "lines": 115,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073s_problem_freeze.md",
+      "sha256": "f1a744e21cb73fbedf401ca40d7f3db49b84b7453cab64c6de79886ea630e196",
+      "bytes": 4490,
+      "lines": 162,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073t_problem_freeze.md",
+      "sha256": "fa89c07aea3995023d74fc7346230033e49d09f6ce302b2a8b25bf1c0a613b27",
+      "bytes": 9872,
+      "lines": 403,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073u_problem_freeze.md",
+      "sha256": "1c7c4b0cf683bc91fc55022748a1c56ef843b0f50617e97fa8e2e57af57cbdc3",
+      "bytes": 5491,
+      "lines": 150,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073v_problem_freeze.md",
+      "sha256": "1a32c11b632689b32808fb7658f5d22fd27a56e5e5c416b5040a683f324235fa",
+      "bytes": 9811,
+      "lines": 283,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073w_problem_freeze.md",
+      "sha256": "bc88021efdd6c12b1f937bff9c7d266591c76f2cc844e908637044d2db1b1494",
+      "bytes": 7622,
+      "lines": 210,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073x_problem_freeze.md",
+      "sha256": "1df5dc75d6323ed484fd36a3c0bcbee36ff1ea94bc20a98ca5bfcb8514c20df8",
+      "bytes": 14154,
+      "lines": 464,
+      "read_depth": "first 44 lines",
+      "use": "question and route mapping only; not final status"
+    },
+    {
+      "path": "research/r073m_prescribed_action_departure_proof.md",
+      "sha256": "d841130a3e2faf3a48ba5c8db9961f9b9668ff32f630fb836779b064da509e91",
+      "bytes": 13356,
+      "lines": 550,
+      "read_depth": "full text",
+      "use": "planar invariant subsystem, nonlinear remainder and varying-background boundary"
+    },
+    {
+      "path": "research/r073n_fixed_background_no_go_proof.md",
+      "sha256": "39502f59b68f9a9e48a1ebbb5b6ed3425492941c0f9b1db9274dd8e2ebbfbceb",
+      "bytes": 12708,
+      "lines": 500,
+      "read_depth": "full text",
+      "use": "fixed-member stability and invalid quantifier exchange"
+    },
+    {
+      "path": "research/r073y_exact_shear_no_go.md",
+      "sha256": "2574f2caf19248a17d25f811488db1c7b30295efd07e59852c3afa17cf8f69e4",
+      "bytes": 21563,
+      "lines": 804,
+      "read_depth": "targeted scope",
+      "use": "exact globally smooth shear witness"
+    },
+    {
+      "path": "research/r073z_finiteness_obstruction_and_repair.md",
+      "sha256": "42728153e9b2c784281e64f00990413d41124627b08dfda656d4c7c40bd351f7",
+      "bytes": 18226,
+      "lines": 679,
+      "read_depth": "targeted scope/result",
+      "use": "covariance finiteness and limits"
+    },
+    {
+      "path": "research/r073z_pressure_active_kernel.md",
+      "sha256": "faa6e2e475e7ce4f5663a0cc13647a14f414157abfae4b9582ced56726f86a68",
+      "bytes": 12375,
+      "lines": 499,
+      "read_depth": "full text",
+      "use": "cyclic sine seed exact historical collision and instantaneous vs dynamic distinction"
+    },
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a",
+      "bytes": 12364,
+      "lines": 283,
+      "read_depth": "full text FA.1-17",
+      "use": "changing-data family and full nonlinear first activation remainder"
+    },
+    {
+      "path": "research/clay_b_frequency_activation_audit_20260907.md",
+      "sha256": "907e790162dcbcbe7fee022cb2a4d79f2c32cc23cf489cb1e82ca1a65f5aae96",
+      "bytes": 8684,
+      "lines": 63,
+      "read_depth": "full text",
+      "use": "provenance scope only; no old audit rerun"
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15",
+      "bytes": 13572,
+      "lines": 314,
+      "read_depth": "full text FCB.1-19",
+      "use": "same-trajectory weighted variation and NON-NS countermodel limits"
+    },
+    {
+      "path": "research/r021_remainder_roadmap.md",
+      "sha256": "3737bb01910b5c313841d26c2545a1d1c286b244156779b251f5058c4659d5e7",
+      "bytes": 12764,
+      "lines": 271,
+      "read_depth": "full text",
+      "use": "finite fifth-order vs full viscous remainder distinction; no next_action adopted"
+    },
+    {
+      "path": "research/cone_frequency_uniform_bilinear_lemma.md",
+      "sha256": "65a62e051a09ee65b5d591aa10dff2c9521d6686e63ca87ac0dd5744724014dd",
+      "bytes": 4737,
+      "lines": 181,
+      "read_depth": "full text",
+      "use": "historical modewise vs infinite sequence-space gap"
+    },
+    {
+      "path": "/Users/kasifa/Documents/Math/研究资料评估/2026-09-07-外部NS资料审读/审读与研究启发.md",
+      "sha256": "8a23019d7b03f478a2fc7e29af50dc70677c6cb75768e6d86e30bf7b14a44084",
+      "bytes": 24607,
+      "lines": 315,
+      "read_depth": "targeted NS scaling and paper boundary sections",
+      "use": "reuse earlier source discovery; live primary reads below supersede summaries"
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "KY",
+      "url": "https://arxiv.org/pdf/2110.08039",
+      "title": "Characterization of three-dimensional Euler flows supported on finitely many Fourier modes",
+      "locators": [
+        "Definition 1.1, PDF page 3",
+        "Theorem 1.4, PDF page 6",
+        "Theorem 5.1, PDF page 22"
+      ],
+      "read_scope": "definition and complete theorem statements with surrounding boundary text",
+      "role": "literature boundary only; no current PDE proof imported"
+    },
+    {
+      "id": "Tao",
+      "url": "https://arxiv.org/pdf/1402.0290",
+      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation",
+      "locators": [
+        "Theorem 1.5 and surrounding explanation, PDF page 9",
+        "Section 1.3"
+      ],
+      "read_scope": "theorem statement, modified-operator boundary and proposed original-equation program",
+      "role": "averaged model cannot replace true Fourier-Leray"
+    },
+    {
+      "id": "PINN-2506-v1",
+      "url": "https://arxiv.org/html/2506.19243v1",
+      "title": "High precision PINNs in unbounded domains: application to singularity formulation in PDEs",
+      "locators": [
+        "Sections 3, 4.1, 4.2, 5"
+      ],
+      "read_scope": "model equations, physical domain, loss/residual distinction and future CAP boundary",
+      "role": "method source, not standard NS CAP"
+    },
+    {
+      "id": "Discovery-v1",
+      "url": "https://arxiv.org/html/2509.14185v1",
+      "title": "Discovery of Unstable Singularities",
+      "locators": [
+        "model scope",
+        "Methods: Spectrum of Linearization",
+        "Validation of lambda"
+      ],
+      "read_scope": "bounded model and validation inspection",
+      "role": "same-symmetry nonnegative real eigenvalue search is not complete spectrum certification"
+    },
+    {
+      "id": "Tsai1998",
+      "url": "https://personal.math.ubc.ca/~ttsai/publications/leray.pdf",
+      "title": "On Leray’s Self-Similar Solutions of the Navier-Stokes Equations Satisfying Local Energy Estimates",
+      "locators": [
+        "equations 1.1-1.4",
+        "Theorems 1 and 2, PDF page 3"
+      ],
+      "read_scope": "equations and theorem statements, with author erratum",
+      "role": "exact Leray ansatz boundary only"
+    },
+    {
+      "id": "Tsai1999-erratum",
+      "url": "https://personal.math.ubc.ca/~ttsai/publications/leray-erratum.pdf",
+      "title": "Erratum to On Leray’s Self-Similar Solutions",
+      "locators": [
+        "whole one-page erratum"
+      ],
+      "read_scope": "full text",
+      "role": "s^-2 correction in comparison growth condition; theorem conclusions unchanged"
+    }
+  ],
+  "limitations": [
+    "No old DNS/PINN/certificate rerun",
+    "External originals read within specified sections; not independently re-proved",
+    "Web sources identified by fixed URLs/locators; no local downloaded-byte hash claimed",
+    "No full spectrum, CAP, infinite-scale or Clay claim",
+    "No claim of visual PDF-page QA; theorem text and author erratum were read",
+    "No publisher queue/index inspected"
+  ],
+  "source_document": {
+    "path": "research/reverse/first-cycle/SOURCES.md",
+    "sha256": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b"
+  }
+}

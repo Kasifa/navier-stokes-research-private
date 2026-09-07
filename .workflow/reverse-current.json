@@ -1,12 +1,32 @@
 {
   "role": "reverse",
-  "status": "PAUSED_BY_USER",
+  "status": "ACTIVE_FREEZE_PENDING",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DUPLICATE_ENTRY_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Wait for explicit user resumption; do not start research through a duplicate task",
+  "next_action": "Commit reviewed scientific package, seal freeze metadata, hand off once for PRIVATE_ARCHIVE, then bounded next mixed-response diagnostic",
   "resume_action": "Verify source boundaries and a full Fourier-Leray two-generation coefficient with an infinite-dimensional remainder contract",
-  "forward_pause_applies": false
+  "forward_pause_applies": false,
+  "resume_authority": "Management dispatch after independent acceptance at 2026-09-07 18:59 Asia/Shanghai",
+  "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
+  "release_id": "ReverseNS-20260907-TwoGeneration",
+  "scientific_status": "REVIEW_PASSED",
+  "accepted": "Fixed-datum finite two-generation creation with full-PDE remainder; specific regeneration diagnostic rejected",
+  "required_files": [
+    "research/reverse/first-cycle/PROOF.md",
+    "research/reverse/first-cycle/NO-CANDIDATE.md",
+    "research/reverse/first-cycle/SOURCES.md",
+    "research/reverse/first-cycle/certificate.json",
+    "research/reverse/first-cycle/independent-final-review.json"
+  ],
+  "required_file_sha256": {
+    "research/reverse/first-cycle/PROOF.md": "a87672a035f1c80a0225ce8956fca53ffc2eb07fdd4e83092505b4ac657f6120",
+    "research/reverse/first-cycle/NO-CANDIDATE.md": "903b79ce75d285bcb78850c92181d2ae70380d4c985daf8c4b6643cbf33c92db",
+    "research/reverse/first-cycle/SOURCES.md": "53fa41805fa419f49a6ad5b3cf5b89b9649c1f59b4e94601049bf0672ea9257b",
+    "research/reverse/first-cycle/certificate.json": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+    "research/reverse/first-cycle/independent-final-review.json": "3cd3b7de9e41b6b48ac4d9604a005ea2329d5b9700fe978dee3d432bac375cbf"
+  },
+  "classification": "PRIVATE_CORE"
 }

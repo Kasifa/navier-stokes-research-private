@@ -1,0 +1,46 @@
+{
+  "A": "6",
+  "M_exact": "5858206364003/41250000000",
+  "M_upper": "143",
+  "U_upper": "600180033/100000000",
+  "accepted": "Finite two-generation creation in one fixed smooth solution",
+  "algebra_sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+  "b_upper": "18",
+  "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "c_upper": "66",
+  "checks": {
+    "A_6": true,
+    "M_less_than_143": true,
+    "contraction_T_condition": true,
+    "exact_primary_checks": true,
+    "first_target_lower_bound": true,
+    "polynomial_ball": true,
+    "reduced_global_class_same_observations": true,
+    "second_target_lower_bound": true,
+    "zero_forcing_fixed_viscosity": true
+  },
+  "classification": "PRIVATE_CORE",
+  "formal_figures": [],
+  "meaning": "Exact finite algebra and rational hypotheses for PROOF.md; infinite-dimensional existence and error bound require that analytic proof and independent review.",
+  "negative_mutations_detected": {
+    "delete_Leray_projection": true,
+    "delete_conjugate_seed_modes": true,
+    "delete_return_to_seed_feedback": true,
+    "erase_nonzero_quartic_residual_bound": true,
+    "flip_second_target_sign": true,
+    "inflate_time_to_one": true,
+    "preseed_second_target": true,
+    "set_viscosity_zero": true
+  },
+  "not_accepted": "Autonomous regeneration, uniform iteration, fixed-datum infinite cascade, finite-time singularity, novelty",
+  "release_id": "ReverseNS-20260907-TwoGeneration",
+  "residual_upper": {
+    "D2": "213",
+    "D3": "56504/165",
+    "D4": "64003/165"
+  },
+  "schema": "ReverseNS-full-PDE-remainder-constants-v1",
+  "spectral_truncation": false,
+  "status": "PASS",
+  "time": "1/10000"
+}

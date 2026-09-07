@@ -1,0 +1,214 @@
+{
+  "schema": "ReverseNS-independent-ruby-crosscheck-v1",
+  "classification": "PRIVATE_CORE",
+  "method": "Ruby exact Rational/Complex; scalar physical derivatives and polynomial products; pressure recovery once per output; no primary imports or cutoff.",
+  "primary_sha256": "27e7d80b602de0b5fad577039efe1e9d5274d7e8e1ddda0d8d719541f8b46b68",
+  "certificate_sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4",
+  "checks": {
+    "all_coefficients_seed": true,
+    "all_coefficients_N_Baa": true,
+    "all_coefficients_uprime0": true,
+    "all_coefficients_usecond0": true,
+    "all_coefficients_C": true,
+    "real_divfree_mean_zero_seed": true,
+    "real_divfree_mean_zero_N_Baa": true,
+    "real_divfree_mean_zero_uprime0": true,
+    "real_divfree_mean_zero_usecond0": true,
+    "real_divfree_mean_zero_C": true,
+    "all_coefficients_residual_t2": true,
+    "real_divfree_mean_zero_residual_t2": true,
+    "all_coefficients_residual_t3": true,
+    "real_divfree_mean_zero_residual_t3": true,
+    "all_coefficients_residual_t4": true,
+    "real_divfree_mean_zero_residual_t4": true,
+    "targets_initially_empty": true,
+    "k_absent_from_all_signed_seed_pair_sums": true,
+    "j_N_equals_minus_i_e3": true,
+    "j_c_equals_4_i_e3": true,
+    "k_c_equals_minus_e3": true,
+    "k_B_N_a_zero": true,
+    "B_N_a_entire_field_zero": true,
+    "B_N_a_full_primary_matches": true,
+    "k_B_a_N_minus_e3": true,
+    "jet_residual_constant_zero": true,
+    "jet_residual_linear_zero": true,
+    "residual_degree2": true,
+    "residual_degree3": true,
+    "residual_degree4": true,
+    "pressure_negative_control_full_zero": true,
+    "pressure_negative_control_omission_nonzero": true,
+    "target_only_cannot_detect_pressure_omission": true,
+    "three_mode_gram_not_scaled_identity": true,
+    "three_mode_gram_matches_primary": true,
+    "reduced_seed_allowed": true,
+    "reduced_seed_has_no_e3_wavevector": true,
+    "reduced_seed_j_jet_identical": true,
+    "reduced_seed_k_jet_identical": true,
+    "reduced_seed_no_pressure_in_second_jet": true,
+    "reduced_primary_seed_matches": true,
+    "reduced_primary_j_N_matches": true,
+    "reduced_primary_j_c_matches": true,
+    "reduced_primary_k_C_matches": true,
+    "reduced_primary_k_c_matches": true,
+    "time_contraction_squared": true,
+    "time_approximation_ball": true,
+    "remainder_constant_less_than_143": true,
+    "j_uniform_lower_bound": true,
+    "k_uniform_lower_bound": true,
+    "certificate_T_matches": true,
+    "certificate_exact_M_matches": true,
+    "certificate_algebra_hash_matches": true,
+    "certificate_residual_bounds_match": true
+  },
+  "coefficient_l1_upper_bounds": {
+    "A": "6",
+    "b": "18",
+    "c": "66",
+    "D2": "213",
+    "D3": "56504/165",
+    "D4": "64003/165"
+  },
+  "support_counts": {
+    "a": 6,
+    "N": 12,
+    "b": 18,
+    "c": 30,
+    "r2": 66,
+    "r3": 126,
+    "r4": 150
+  },
+  "target_j": {
+    "N": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "-1"
+      }
+    ],
+    "c": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "4"
+      }
+    ]
+  },
+  "target_k": {
+    "N": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      }
+    ],
+    "c": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "-1",
+        "im": "0"
+      }
+    ]
+  },
+  "reduced_seed_control": {
+    "physical": "(0,2*cos(x1),2*cos(x2))",
+    "j_b": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "-1"
+      }
+    ],
+    "j_c": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "4"
+      }
+    ],
+    "k_b": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      }
+    ],
+    "k_c": [
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "0",
+        "im": "0"
+      },
+      {
+        "re": "-1",
+        "im": "0"
+      }
+    ],
+    "scope": "The same selected first and second jets occur in a globally smooth triangular 2D3C solution; the main seed itself is not in that class."
+  },
+  "time_contract": {
+    "T": "1/10000",
+    "M_exact": "5858206364003/41250000000",
+    "certified_upper": "143"
+  },
+  "environment": {
+    "ruby": "2.6.10",
+    "platform": "universal.arm64e-darwin25",
+    "workers": 1,
+    "arithmetic": "exact rational complex",
+    "randomness": "none",
+    "spectral_cutoff": "none"
+  },
+  "status": "PASS"
+}

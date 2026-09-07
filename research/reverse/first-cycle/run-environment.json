@@ -1,0 +1,16 @@
+{
+  "command": "python3 research/reverse/first-cycle/certify.py",
+  "python": "3.9.6",
+  "cpu": "Apple M5 Max",
+  "logical_cpus": 18,
+  "workers": 1,
+  "gpu": false,
+  "arithmetic": "exact Fraction and rational-complex; no PDE time stepper",
+  "random_seed": null,
+  "solver_tolerance": null,
+  "wall_seconds": 0.37888879200000003,
+  "status": "PASS",
+  "checks": 9,
+  "negative_mutations": 8,
+  "certificate_sha256": "0146a8f88e224f922b4fc87daec5adb9acce9577cabea6a979abb0ae6b854ce4"
+}
