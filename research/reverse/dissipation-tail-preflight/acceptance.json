@@ -1,0 +1,87 @@
+{
+  "schema": "ReverseNS-dissipation-tail-local-acceptance-v1",
+  "status": "ACCEPTED_CONDITIONAL_APPLICATION_NO_NEW_GATE_CERTIFICATE",
+  "classification": "PRIVATE_CORE",
+  "accepted_at_utc": "2026-09-08T22:53:33.081119+00:00",
+  "files": [
+    {
+      "path": "research/reverse/dissipation-tail-preflight/CONTRACT.md",
+      "sha256": "3b5b18abd8b72aab06baf7badcfbfca93c3494987edc9d4ddd34ead43b1cb996",
+      "bytes": 1718
+    },
+    {
+      "path": "research/reverse/dissipation-tail-preflight/HISTORY.md",
+      "sha256": "fd0b2150498d7296ddbde79d7279b35ace10708068690d7d5875a9a4eb89de36",
+      "bytes": 5434
+    },
+    {
+      "path": "research/reverse/dissipation-tail-preflight/INDEPENDENT.md",
+      "sha256": "495c1f8fef2798165dceb8f971aaa57705e1c15644917784e835a777b5edd3fe",
+      "bytes": 6306
+    },
+    {
+      "path": "research/reverse/dissipation-tail-preflight/ROOT_ANALYSIS.md",
+      "sha256": "754ecbfe2f07583fb156b5ee1856fea853c9b920cb0c593fba7c85fcf4cf4aed",
+      "bytes": 5459
+    },
+    {
+      "path": "research/reverse/dissipation-tail-preflight/REVIEW.md",
+      "sha256": "59fddd94e351a69651f6c83173a567f098773f73ea58c0dc18a74cf349197696",
+      "bytes": 5016
+    },
+    {
+      "path": "research/reverse/dissipation-tail-preflight/OUTCOME.md",
+      "sha256": "37212ef45b3264034b7c6ff07545b7d8be6a245df6a2dce85c533b1109ce5328",
+      "bytes": 1759
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+      "bytes": 12610
+    },
+    {
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+      "bytes": 14127
+    },
+    {
+      "path": "research/reverse/fixed-seed-global-screen/SOURCE_PREFLIGHT.md",
+      "sha256": "9328d3b37fa35989149c02d9097f4c3279f5f366636c91eb1b6d79ef3c650192",
+      "bytes": 9565
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    }
+  ],
+  "root_full_read_independent_and_review": true,
+  "reviewer_non_author": true,
+  "review_nonblind": true,
+  "two_independently_prestopped_proofs": false,
+  "formation_scope": "Author received root K-b geometric hint. Root received author K(K-b) abstract before stopping its own text, then directly checked the stopped proof. Review independently checked formulae; no mutual-blind history is claimed.",
+  "accepted": [
+    "complete ordered truncation-defect bound with denominator K(K-b), constant1",
+    "finite heat accumulation and normalized energy factor1/2",
+    "complete resolved-error/reconstruction decomposition",
+    "fixed-u arbitrary-reconstruction example only without residual control"
+  ],
+  "scientific_executions": 0,
+  "new_numerical_values_evaluated": false,
+  "same_original_datum_preserved": true,
+  "old_arrays_reopened": false,
+  "full_trajectory_error_paid": false,
+  "actual_NS_existence_through_T_certified": false,
+  "actual_source_gates_certified": false,
+  "finite_time_singularity": false,
+  "external_novelty_review": false,
+  "formal_machine_proof": false,
+  "human_peer_review": false,
+  "formal_release": false,
+  "publication_handoff": false,
+  "figures": [],
+  "new_reader_pdf": false,
+  "excluded_next_work": "NEXT_ERROR_HISTORY.md and any subsequent residual-aware error contract are later preparatory work, not accepted by this record."
+}
