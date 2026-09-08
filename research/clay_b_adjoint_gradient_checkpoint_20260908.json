@@ -1,0 +1,153 @@
+{
+  "check_id": "ClayB-AdjointGradient-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef",
+  "previous_goal_turn_classification": "PROGRESS: SP completed signed propagation and selected the actual adjoint-gradient/strain pairing as the next bounded test.",
+  "main": "research/clay_b_adjoint_gradient_check_20260908.md",
+  "main_sha256": "e7bd01654dc3abde374db3c4ecd77f6ac15f4e3c10be063af9190181fe2acbb3",
+  "main_bytes": 15116,
+  "main_lines": 304,
+  "classification": [
+    "INTERNAL ADJOINT GRADIENT CHECK",
+    "CLASSICAL LP LOCAL ADAPTATION",
+    "SCOPED ACTUAL NS ADJOINT COUNTERCHECK",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "AG.4–5：正确列散度兼容性及有界标量最大值原理把伴随梯度的四次Gronwall成本换为integral ||G||2²，且给grad h L4。它是已有LP.8–9的反时被动标量适配，不是新机制；不移用于无同样最大值控制的Weber向量。",
+    "AG.2–3、6–11：完整物理/反时梯度式保留两端；静态chi^4输运分部积分配合较大theta标量Caccioppoli，得到真正母球A/E预算：r^-1Ephi(a)+nu/r integral phi|J|² <= r^-1Ephi(b)+CM²[nu^-1(A+E)+1+nu+sqrt A]。没有自动共同好尺度或小量。",
+    "AG.12–14：原梯度与伴随张量的完整对偶相消内部Laplacian，但压力、截止交叉项和端点保留；Piola仅允许导数转移。原mu_G含零集zeta，不等于伴随Hessian耗散。",
+    "AG.15–19：真实NS热剪切u_n=n4 exp(nu(1-t)) sin y e1及真实伴随，在正龄缩短窗口I_n上，应变配对积分为至少cn^-2，而Hessian和完整mu积分为O(n^-4)。否定只依delta/nu/周期、无能量和端点补偿的纯mu界；不否定带这些成本的估计、固定窗口或统一能量版本。",
+    "AG.20–21：中间时刻L2能量加Nash给实际伴随初端H1算子界以及完整响应的固定正间隔H^-1上界。保留原初端和终端速度，没有强H^-1响应终端迹、强L2速度迹或临界局部响应小量。",
+    "AG.22–23：完整源导数转移后，已付分项范数的Holder倒数和为21/20及11/10。只是这些界不足，实际hN已有L1可积性；没有证明联合补偿不可能。"
+  ],
+  "open_items": [
+    "一般三维NS、Clay、PF指定中心共同A/E与小K、临界源响应、正则延拓仍OPEN。",
+    "AG的局部母球预算没有自动的r->0有界性或小量；终端梯度和实际速度均值没有删除。",
+    "原压力加权乘积及完整源联合补偿尚未闭合；未把原mu换为参考相对耗散或伴随J²。",
+    "纯mu反检的能量随n增长、窗口随n缩短，不提供统一能量、固定长度窗口或奇性反例。",
+    "固定正间隔H^-1响应上界不是强终端迹；没有用TG强L1迹推出强H^-1或速度强L2。",
+    "AG.4和AG.11属于已有LP机制的适配；没有全面查新或独立学术新颖性认证。"
+  ],
+  "next_action": "AG已核清SP.18：有界实际标量伴随可用旧LP兼容性把四次时间成本换成已付的integral ||G||2²，并完成静态chi^4局部A/E预算；原mu含零集测度，但不能在无能量/端点补偿的全族量词下独自支付该配对。AG为内部检查，TG独立冻结与一次移交不变。下一测试只围绕AG.22完整有符号源：保留同一真实伴随，检查散度—旋度与原压力的联合补偿能否改善uG/gradp L5/4配grad h L4和p L5/3配Hess h L2的分项缺口，并产生源响应除以r后的实际控制。先对照SP/IDC/LP的既有交换子、投影和Hardy界去重；不能只重复分部积分或把额外L5、源强范数、共同好尺度假设命名为已获输入。尚未接受新的无条件临界估计；若只有等价重写即停止这个具体测试，不新建独立小节/release，不重复交接，不查询发布或反向执行。",
+  "next_test_selected": true,
+  "next_unconditional_critical_input_accepted": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "last_independent_source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "last_independent_freeze_commit": "93965a9c3cf8ccb3e61aad637a2f736c8d0fd5fd",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_signed_source_propagation_20260908.md",
+      "sha256": "31c83385cb3151e8076b695419324933092c235294a5acc039ed405b7e697f75",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_leray_paid_budget_20260907.md",
+      "sha256": "788d06c56c61a4e68d609118cb50e114f5328c0c8e6c588463cac6bfd88a51fb",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_variable_reference_check_20260908.md",
+      "sha256": "15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+      "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_physical_adjoint_budget_20260905.md",
+      "sha256": "71bea08e6eba0a042ead57f1ef985de9b9d9aaa09968a7ae03a8cc2fae9f2430",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_physical_adjoint_shear_20260905.md",
+      "sha256": "e99105914e344077d66ab53d4f0b6e8726409f80aa09f7707d7ae1a2fd4685f0",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    },
+    {
+      "path": "research/clay_b_clock_stochastic_screen_20260907.md",
+      "sha256": "ed8d6ee53e35d5097fd96858832542925b0d8fbf3454841ad2ff047f5b7f8f46",
+      "source_commit": "c75e16377e57e51a6f2b5bd0d3c627242dcc2bef"
+    }
+  ],
+  "review": {
+    "status": "PASS_WITH_SCOPED_INTERNAL_CHECK",
+    "root": "全文读回305行15090B初稿，独立复算局部chi^4/标量Caccioppoli、正反对偶、剪切三角积分、短时误差和H^-1接口。随后在第7行补零均值压力规范并去文末空行；当前304行15116B及哈希已核，不称为再次全文读回。",
+    "module_reviews": {
+      "A": "ma_freeze_review: 实读相关SP、VR全文、AH§1和LP§4，独立核完整局部/反时式、静态chi^4闭合和原梯度联合对偶；最终全稿审读范围单列。",
+      "B": "variable_reference_check: 最终稿之前实读SP全文、旧physical-adjoint-shear全文及LP135–197，独立构造/核算实际NS及真实伴随反检。候选稿实际读1–37、136–243行，核最终第7行及元信息；不是全稿审读，也未重读上游外部原文。",
+      "C": "good_scale_route_comparison: 概念模块实读SP相关段、PGR全文、VR全文、CG全文、LP1–234；候选AG实际读1–125、220–305及LP134–187，核最终两项增量。只认证LP去重、源指数和H^-1接口，不称全稿审读。"
+    },
+    "final_main_review": {
+      "reviewer": "ma_freeze_review",
+      "type": "PARTICIPATING_AI_FULL_READ_PLUS_TWO_DELTA_VERIFICATION",
+      "full_read_sha256": "7fa53d8bca74e3491ebc56bb2fb41991eada50e1f71cfd2d9c6f40b1126b0cc8",
+      "full_read_lines": 305,
+      "full_read_bytes": 15090,
+      "delta": "第7行增加压力取零空间均值；去掉末尾空行。审读者反向恢复精确匹配原稿SHA。",
+      "final_sha256": "e7bd01654dc3abde374db3c4ecd77f6ac15f4e3c10be063af9190181fe2acbb3",
+      "final_lines": 304,
+      "final_bytes": 15116,
+      "verdict": "PASS_NO_REQUIRED_CHANGES",
+      "review_type": "PARTICIPATING_AI_NOT_HUMAN_PEER_REVIEW",
+      "external_full_proof_certified": false
+    },
+    "structural": {
+      "status": "PASS",
+      "ordered_unique_tags": true,
+      "display_pairs": [
+        29,
+        29
+      ],
+      "inline_pairs": [
+        111,
+        111
+      ],
+      "abnormal_controls": false,
+      "trailing_whitespace": false,
+      "missing_local_links": []
+    },
+    "dependency_objects_match_base": true
+  },
+  "literature_scope": {
+    "source": "https://arxiv.org/html/math/0005116",
+    "actual_reading": "本轮直接打开旧LP原始来源，定向阅读Constantin的§7 K-bound和有界函数插值相关段（网页约398–441行）；未采用整篇或附录全部结论。",
+    "not_adopted": "未认证虚拟速度高阶结论、随机/平均标签Jacobian可逆性、整篇定理或原NS临界正则控制。",
+    "deep_research": false,
+    "exhaustive_novelty_search": false
+  },
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false
+}
