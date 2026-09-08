@@ -1,0 +1,65 @@
+{
+  "internal_id": "ClayB-GradientPairingLocalization-20260908",
+  "base_commit": "9b0a9ea97a16a772e2d774a71a821048a04892f2",
+  "status": "BOUNDED_STATIC_TOOL_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_gradient_pairing_localization_20260908.md",
+  "main_sha256": "c955f0eee774d8736f853d00ebacef10ededfe9cd0072103d39441bc1134b58e",
+  "main_lines": 106,
+  "main_bytes": 7044,
+  "classification": [
+    "LOCAL PROVED STATIC LOCALIZATION TOOL",
+    "NO NEW TERMINAL DYNAMICAL INPUT",
+    "NO NEW REGULARITY CRITERION",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "For each fixed smooth mean-zero solenoidal2pi-periodic u, a bounded periodic vector potential and fixed-thickness cutoff yield compactly supported solenoidal W_R equal to u on an exact union of periodic cells.",
+    "The full regularized gradient-norm dissipation is compared through D=-integral B(G):Delta G, including zero-set contributions. D and rank-one defect Q have O_u(R^2) errors; Q error is nonnegative.",
+    "The canonical Poisson correction e_R=f_R+Delta(chi_R p) is supported in the closed O(R^2) cutoff layer and has L2 norm O_u(R). Unitary-Fourier Plancherel gives exact Hessian-Newton L2 norm.",
+    "The signed joint production P differs from m_R P_periodic by O_u(R^(5/2)), including the entire nonlocal pressure correction. Dividing by m_R~R^3 gives convergence.",
+    "Targeted route comparison distinguished this static tool from existing velocity-L3 pressure-work localization and from fixed-positive-age/common-critical-cap dynamics."
+  ],
+  "limitations": [
+    "C_u depends on the fixed periodic seed and its smooth derivatives, not only total kinetic energy; no uniformity over changing amplitudes or preterminal time intervals is claimed.",
+    "No cutoff of an evolving field was called an NS trajectory. Subsequent single-copy NS scaling, torus re-embedding, pressure correction for re-embedding, and new NS solution-family construction were not completed or frozen in this note.",
+    "Even a strengthened initial-slice energy-cap countercheck would not resolve the fixed-positive-age/common-local-A+E question. This static lemma is not a new terminal obstruction or example count.",
+    "Miller/strain-wave-cone and scalar heat-correction entries were already covered locally. No newly adopted external critical estimate, exhaustive novelty search or human peer review.",
+    "PF automatic joint good scale remains open, and the next concrete dynamical estimate has not been selected."
+  ],
+  "next_action": "GL工具已保存，不继续为总动能初端系数的局部化/单泡缩放扩充反例计数。停止重开已覆盖的Miller/中间谱/应变波锥/负应变锥条件出口、标量热流校正、分离剪切秩生成及PTS全域输出。下一步先对照实际旧稿的现行结论选定一个具体终端动力学估计，保留任意原初值、同一真实NS轨道、固定正龄/前终端区间、指定中心、临界尺度与所有端点/截止/压力/参考误差，再作独立推导。新的具体估计尚未确定；不能把静态可局部化、旧条件准则或相邻内部审计视为产生联合好尺度。不重复交接，不查看发布或反向执行。",
+  "next_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "artifact_scope": "LOCAL PRIVATE RESEARCH SOURCE ONLY; internal reusable static tool, no separate publication or archival handoff",
+  "dependencies": [
+    {
+      "path": "research/clay_b_mixed_absorption_calibration_20260908.md",
+      "sha256": "8afd642f0b8b7fe774a952cc69bb4f89a5c3b0a989b178db4668499855a175db",
+      "scope": "Definitions of P,Q and complete regularized gradient-norm dissipation; independently re-derived in GL."
+    }
+  ],
+  "review_scope": {
+    "root": "Actually read PF and MA/NE, HN1-165 and the full negative-strain-cone note within the requested1-250 range. Independently derived GL.1-7 and read the initial complete106-line7018B manuscript; applied and read two final convention corrections. Final106-line7044B c955f0ee accepted. No claim of full HN or full SE/LD audit.",
+    "ma_freeze_review": "Independently checked the static localization lemma and stressed that p must solve the canonical Poisson equation. Confirmed correction sign, O(R) source L2, O(R^(5/2)) pressure pairing, O(R^2) full-dissipation and defect errors. Did not read final GL manuscript. Separately read specified existing strain-route conclusions only; no new external search.",
+    "good_scale_route_comparison": "Read MA1-183,NE94-198,AI1-364 and AJ1-118,213-297,378-416. Found prior velocity-L3 localization distinct from GL and confirmed initial-time versus terminal scope. Did not certify the final GL proof or perform later scaling.",
+    "variable_reference_check": "Nonparticipant in initial GL derivation. Actually read initial1-106 in full, then final19-29 and64-86 after closed-layer and unitary-Fourier corrections. Final106-line7044B c955f0eee774d8736f853d00ebacef10ededfe9cd0072103d39441bc1134b58e PASS. Did not re-audit MA,AI,SE,LD,HN or historical coverage claims.",
+    "all": "AI-assisted mathematical checks only, not human peer review or novelty certification."
+  },
+  "verification": {
+    "source_structure": "7 ordered unique GL tags;7 paired displays;62 paired inline delimiters;no abnormal controls;MA local link exists.",
+    "preservation": "All180 previously indexed source hashes unchanged before commit; no historical tracked modifications. Only GL source and checkpoint are intended new files.",
+    "numerical_scope": "No numerical proof certificate or simulation; mathematical errors are controlled analytically, not fitted from data."
+  }
+}
