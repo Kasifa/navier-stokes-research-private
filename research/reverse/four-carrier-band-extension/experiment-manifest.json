@@ -1,0 +1,48 @@
+{
+  "classification": "PRIVATE_CORE",
+  "object": "One already fixed algebraic datum; all sixteen four-distinct-leaf receivers",
+  "contract": {
+    "path": "research/reverse/four-carrier-band-extension/CONTRACT.md",
+    "sha256": "8687b89a22dd0788e826453f143d8aaef2fd566446f23319cfdb734a3494225e",
+    "pre_review": "research/reverse/four-carrier-band-extension/CONTRACT_REVIEW.md"
+  },
+  "program_stages": [
+    {
+      "role": "author_full_signed_convolution",
+      "source_commit": "1dea1d349b6073bec9e2afacff927044184b2586",
+      "program": "research/reverse/four-carrier-band-extension/exact_band.py",
+      "program_sha256": "2498b4d0ad430f467a48c15e5ca7d7891cbf44b97e35e506ba8d8642f1a8dc2c",
+      "output": "research/reverse/four-carrier-band-extension/exact-band-output.json",
+      "output_sha256": "672265033fcbc05fb7881374d703a673bc2779d20b0612e67adb14f4dd068668",
+      "output_bytes": 131875,
+      "runs": 1,
+      "command_argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/reverse/four-carrier-band-extension/exact_band.py",
+        "--source-commit",
+        "1dea1d349b6073bec9e2afacff927044184b2586",
+        "--contract-sha",
+        "8687b89a22dd0788e826453f143d8aaef2fd566446f23319cfdb734a3494225e"
+      ],
+      "execution_status": "completed",
+      "resources": {
+        "user_cpu_seconds": 0.24642599999999998,
+        "system_cpu_seconds": 0.011635,
+        "maximum_resident_set_bytes_RUSAGE_SELF": 18022400,
+        "scope": "this Python process only, through this measurement; excludes children",
+        "wall_from_main_seconds": 0.225255917,
+        "measurement_boundary": "after one complete result serialization, before adding this metadata and final write"
+      },
+      "scientific_outcome": "THREE_DIMENSIONAL_RECEIVER_PREMISE_NOT_PASSED"
+    }
+  ],
+  "independent_certificate_stage": "PREPARING_NOT_RUN_NOT_ACCEPTED",
+  "formal_self_interaction": "STRICTLY_SKIPPED_RANK_ONE_PER_CONTRACT",
+  "scientific_arithmetic": "Integers/Fraction quadratic field; no scientific floats, random draws or parameter/root changes",
+  "resource_scope": "One science worker, os.uname metadata with no external commands in source. RUSAGE_SELF and wall through first serialization, excluding startup/imports from wall and final metadata/write. No complete external process-tree resource census.",
+  "no_DGX": true,
+  "new_figures": false,
+  "new_PDF": false,
+  "original_failed_evidence_repaired": false,
+  "scope": "Finite exact coefficient calculation; original infinite-dimensional NS and full heat remainder are analytic SOURCE_WINDOW plus frozen prior proof. Main calculation alone is not final acceptance."
+}
