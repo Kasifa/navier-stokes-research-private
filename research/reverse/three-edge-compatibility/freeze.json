@@ -1,0 +1,193 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE",
+  "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+  "scientific_commits": [
+    "7161a05e220e07f9265649b4f375de7f4473d839",
+    "f9d5f6507a5816c47678aa0ff028f169420d006b",
+    "0f573d05d3bd2ab1a6371713550f729103e69e0f"
+  ],
+  "predecessor_release": "ReverseNS-20260908-MixedSourceStarObstruction",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/three-edge-compatibility/CONTRACT.md",
+      "sha256": "51909466ff2baf93b83d419775b0fbd2f1ceff4dec59c785358401d80ff01143",
+      "bytes": 2345
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/FINAL_OUTCOME.md",
+      "sha256": "f13d37640d24d9f34d319c7b00eba97e705c61bae989a675f7de2c319e56b38a",
+      "bytes": 3053
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/FINAL_SCOPE_REVIEW.md",
+      "sha256": "3e428368afa03c27ce5d59d0a58f3c809895dd44bfaa0e16361181fa023dd95a",
+      "bytes": 11918
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/INDEPENDENT.md",
+      "sha256": "dceb5ad9feb87bb569760bf1d428e098c77b253cf9cc75fa18dfd327fd46185b",
+      "bytes": 18148
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "e511ae917ad60b93f1698c6fc7e0c2641132dfb75d0197c7da5fd3dd3f954a05",
+      "bytes": 9818
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md",
+      "sha256": "3dba89eec10784edf5ab45bd3019bce131795d0bd0b7f705ca95a08f4a03a322",
+      "bytes": 5233
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION_REVIEW.md",
+      "sha256": "a19a631ff650c4dce7160fa672caf6d2e772c618414370e7c4f3544a37c59f1a",
+      "bytes": 7770
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO.md",
+      "sha256": "ff52531d6e1b5563c99504aba8e6b6e4e5afce77b76e7e286e74d397c3d610c5",
+      "bytes": 2232
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO_REVIEW.md",
+      "sha256": "7efeab3289aecebd1fb5d69551585d63497c1dbd48557a18154c0d3c6a26419e",
+      "bytes": 4782
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_ANALYSIS.md",
+      "sha256": "54a62b99cb646d78bc42e8dc8829fa09e82625c623ee71bc416fa789c01d8b60",
+      "bytes": 12903
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md",
+      "sha256": "e8816e54ced5050ca5e2736f081825237edc828b71096a4a4241f660c330089d",
+      "bytes": 1992
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_INDEPENDENT.md",
+      "sha256": "3c13790314a2785b4d4ba8edd88555b6c50f86211093e22f128b937932a874a5",
+      "bytes": 11414
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_INDEPENDENT_REVIEW.md",
+      "sha256": "05941b915b8c6e2d5a52206d248ed5d61b2dc4e78b0f8128452e181d487aaf01",
+      "bytes": 8110
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_REVIEW.md",
+      "sha256": "cb2b0dcae50aa917c6f0468427093083b0fe0c1ae4cbae654567aaa133200dfe",
+      "bytes": 8314
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/OUTCOME.md",
+      "sha256": "4026d68b925174e3e6cf956d41b18d7564f295b5ecf8d17248e2e52c60d5391f",
+      "bytes": 1565
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/PROOF.md",
+      "sha256": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3",
+      "bytes": 13749
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/REVIEW.md",
+      "sha256": "430068964d6802ba31e2ef4bcad03dcaed0811a9678e25bf3046030b970fce2f",
+      "bytes": 8811
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ROOT_FOLLOWUP_REVIEW.md",
+      "sha256": "79aed0d1172e92b90b1fc8aea33aa65b92619f58ca4207d91a4ee628880c1264",
+      "bytes": 5605
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/ROOT_REVIEW.md",
+      "sha256": "d35904fd734037a4787c6ef678e921da973bfaa7435ea3643b7d23763ad27858",
+      "bytes": 5602
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/TWO_LINEAR_SOURCE_COROLLARY.md",
+      "sha256": "4824a946c9301fcfe9fbf02629d30dc54d396927c010f665043b3ca890461009",
+      "bytes": 4628
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/TWO_LINEAR_SOURCE_REVIEW.md",
+      "sha256": "8f7892d0033d43edeb0ccf1ad6cce9e75345ec8c208ab7b2b69106f7fe5223a5",
+      "bytes": 8581
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/acceptance.json",
+      "sha256": "7e7fbdc964b59e7911994b5335163d9feb5a351bdcb9bd39eea091ff0045333d",
+      "bytes": 2066
+    },
+    {
+      "path": "research/reverse/three-edge-compatibility/followup-acceptance.json",
+      "sha256": "66f5d25478904f710e94505633f986b86f8aa3a56abe6fe377e68d4898aec927",
+      "bytes": 3192
+    }
+  ],
+  "dependencies": [
+    {
+      "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+      "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "manifest": "research/reverse/net-mixed-cancellation/freeze.json",
+      "use": "Accepted complete pair maps and coherent total-source interfaces. Not re-released."
+    },
+    {
+      "release_id": "ReverseNS-20260908-TrueBandSupply",
+      "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+      "manifest": "research/reverse/mixed-polarization/freeze.json",
+      "use": "Same fixed datum full Fourier local NS source bridge and explicit remainder bounds. Not re-released."
+    }
+  ],
+  "claims": {
+    "classification": "PROVED_SHARED_THREE_EDGE_INTERFACES_AND_TWO_LINEAR_SOURCE_OBSTRUCTION; NO_CANDIDATE_ACCEPTED; NOT_CLAY",
+    "proved": [
+      "Complete shared complex-shape scalar system retains both determinant and parallel components, phases, edge transformations and all total Z/C contributions.",
+      "A linear receiver in a cancelling row forces each area-nonzero sender across a beta-zero edge to have strictly larger frequency length. Mixed linear/area-nonzero types force complete W0 nonzero.",
+      "For any independent integer longest receiver and exactly two active linear senders, the full zero mixed row forces the receiver to be linear. No reverse-beta constraint or sender-sender nonorthogonality is needed for this row lemma.",
+      "In the original nonorthogonal distinct-length active triangle, exactly two linear seeds cannot satisfy total M0=0. Every fixed datum in that branch has complete m=norm(M0)>0 and w=norm(W0)>0.",
+      "The accepted same-datum NS bridge gives an explicit local window with m/(3w)<=norm(R)/norm(S)<=3m/w and limit m/w>0. This excludes achieving zero limiting source ratio solely by shrinking time for that datum."
+    ],
+    "not_claimed": [
+      "No accepted finite two-step mechanism or selected new actual datum.",
+      "Remaining all-linear, all-area-nonzero and only-shortest-linear types are not decided; next lowest-row work is excluded from this freeze.",
+      "No cross-data uniform gap, ratio greater than one, exclusion of an arbitrary positive tolerance or finite/later-time dominance, all-time NS conclusion or new template obstruction.",
+      "No uniform iteration, one fixed datum at infinitely many scales, uniform cross-generation infinite-dimensional remainder, finite total time, singularity or global regularity.",
+      "No repair of old failed computing/resource evidence or original physical datum full-window certificate; no external novelty, human peer review or proof-assistant verification."
+    ]
+  },
+  "validation": {
+    "status": "PASS_ANALYTIC_DERIVATIONS_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_AND_FINAL_SCOPE",
+    "stage_acceptances": [
+      "research/reverse/three-edge-compatibility/acceptance.json",
+      "research/reverse/three-edge-compatibility/followup-acceptance.json"
+    ],
+    "independence": "Base main and independent claims are complementary and have non-author reviews. Two one-elliptic derivations were completed before each author read and reviewed the other. Root general extension discloses inspiration from their structural messages and has a separate non-author review. Final scope reviewer discloses main authorship and later synthesis reads; no all-topic blind-review claim.",
+    "final_scope_review": "research/reverse/three-edge-compatibility/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "All 23 listed files matched actual final source Git objects; all 19 direct acceptance bindings matched actual bytes.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "local_infinite_dimensional_remainder_paid": true,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_computations_repaired": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "literature_boundary": "Self-contained symbolic continuation of accepted complete maps and same-data local NS bridge. Actual source reading and exact boundaries recorded in proofs/reviews. No newly invoked external theorem or novelty claim.",
+  "source_ledger": "research/reverse/three-edge-compatibility/FINAL_SCOPE_REVIEW.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/three-edge-compatibility/FINAL_OUTCOME.md",
+  "milestone_scope": "One combined stage: shared three-edge scalar/polarization system, two-linear-source obstruction and per-datum local NS source-ratio corollary.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
