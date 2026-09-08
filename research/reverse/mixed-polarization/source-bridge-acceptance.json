@@ -1,0 +1,31 @@
+{
+  "status": "ACCEPTED_FIXED_DATA_LOCAL_NS_AND_TRUE_BAND_SUPPLY_REMAINDER",
+  "files_sha256": {
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_CONTRACT.md": "32e6c8152c8b42592d84b9c5809654b9a7528d96d4231bcfe9f2351ebc01ba37",
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_PROOF.md": "b6085eb219e5872ec1e5b3e990fdb5c3b6c7a4f7dc75e265f4adb19cd871d4a4",
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_REVIEW.md": "95cf10aca1f75ce446e0685a615aea6a4e78fe349190d041218d128d295a627b",
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT_REVIEW.md": "2215fb5a51d39ae2b6245fcec719f60272d96ab621399152335f2a25927793e8",
+    "research/reverse/mixed-polarization/ROOT_SOURCE_BRIDGE_REVIEW.md": "ce3dad3d013c4bd635bf62473a75de877741312fd5f043140aa9b466829bfb91",
+    "research/reverse/mixed-polarization/SOURCE_BRIDGE_OUTCOME.md": "c23e4c4fa9c22ac028c239e5ad2c286b8d577eeb5820289197108c4a11054a8e"
+  },
+  "root_actual_full_read": true,
+  "main_author": "root",
+  "independent_author": "coherence_independent_resumed",
+  "main_non_author_review": "coherence_review_resumed",
+  "independent_non_author_review": "coherence_independent_audit",
+  "unresolved_issues": [],
+  "scope": "Same arbitrary but fixed finite three-pair datum; explicit local interval, all Fourier and all leaf orders, true first-band self-supply and fifth-order errors. No evaluated total-vector gap or iterative regeneration.",
+  "main_remainder": "A q^5 (5-q^2)/(40(1-q^2)^2)",
+  "independent_sharper_remainder": "A[q^5/(20(1-q^2))+q^7/(14(1-q^2)^2)]",
+  "interpretation": "Both valid; constants differ intentionally. General local bridge allows equal lengths; only exact mixed-root mapping is extended there, never the P>Q ratio.",
+  "scientific_programs_run": 0,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "local_infinite_dimensional_remainder_paid": true,
+  "cross_generation_uniform_remainder_paid": false,
+  "old_failed_resource_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "figures": []
+}
