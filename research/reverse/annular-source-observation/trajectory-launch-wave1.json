@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-09-08T21:38:47.322855+00:00",
+  "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+  "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+  "memory_pressure_command": [
+    "memory_pressure",
+    "-Q"
+  ],
+  "memory_pressure_stdout": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 58%\n",
+  "memory_pressure_stderr": "",
+  "actual_free_percentage": 58,
+  "required_free_percentage": 40,
+  "actual_disk_free_bytes": 1335213592576,
+  "required_disk_free_bytes": 21474836480,
+  "parallel_supervisors": 2,
+  "runs": [
+    "trajectory128_256",
+    "trajectory160_256"
+  ],
+  "new_scientific_workers_started_before_gate": 0,
+  "gate_pass": true
+}
