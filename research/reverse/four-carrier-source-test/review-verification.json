@@ -1,0 +1,99 @@
+{
+  "status": "PASS_FIXED_CHART_EXACT_REVIEW_CHECK",
+  "input_sha256": {
+    "CONTRACT.md": "7b8769fe6eb84fcaad86cde7b65e5debf79801b30f9c2ae41e0e2758c0968456",
+    "CONTRACT_REVIEW.md": "8b61a03b9e94987ccf8f7ce5d167e992107927989382448f682d66f8b2583c7f",
+    "PROOF.md": "38668542aa347bca09537312a964125c52ec31f34ed335807c5914fae1014164",
+    "exact_screen.py": "d313ad88b121c1840ff52ba2aa4c57aed53f6b85822278e58eaca4d8abc697b8",
+    "certify_root.py": "cfcf64e4798bf160a1b45d1423dff6ec688c253c33c9e0c771d3b81b289afb17",
+    "exact-output.json": "f1e7b55f085bd6979f7655647b32d1acdd931d441cca003527924d77c14e8923",
+    "root-certificate.json": "f8d9268b54b0fe7499d5c3f6dcdf17a654de401aa97fc7e56579b4a412faad4e"
+  },
+  "review_script_sha256": "ba07306654a61c96ee5f4c5d46c5aee1be45be250d33475ccc342ad73c20b01a",
+  "method": "Five ordered tree shapes, all 24 distinct-leaf orders, symbolic alpha; both kernel basis inputs and both signed targets. No author-code imports.",
+  "ordered_tree_terms_checked": {
+    "W": 96,
+    "M": 384
+  },
+  "whole_signed_fourier_recursion_rerun": false,
+  "full_vector_matrices_match": true,
+  "six_locked_samples_match": true,
+  "negative_target_conjugacy_checked": true,
+  "root_check_method": "Quadratic sign/vertex isolation and reduced Mobius endpoint bounds, not author interval-function imports.",
+  "root_checks": [
+    {
+      "alpha_interval": [
+        "-12290240170295714373834817/16174981210091624574484480",
+        "-122902401702957143738348169/161749812100916245744844800"
+      ],
+      "w_mobius_endpoint_enclosure": [
+        "-47673007974206584192068837277538707/60919495638606956933665617631342005",
+        "-33371105581944608934448188697193693/42643646947024869853565935868747355"
+      ],
+      "W_root_reduced_enclosures": [
+        [
+          "-162286729593295697028886609194867567227268157665308/32800566369176321120407396938539816487136641675465",
+          "-340802132145920963760661896432505263815563525527532/68881189375270274352855539267696058493401054609045"
+        ],
+        [
+          "-1312496145573894792189290779755338852295045260853586/76534654861411415947617259523259571803318830576085",
+          "-26249922911477895843785817756823943663562925004122/1530693097228228318952345317059912410964467880201"
+        ],
+        [
+          "957898753417297357193905480920970941814669512887426/68881189375270274352855539267696058493401054609045",
+          "212866389648288301598645646112847612659035271569050/15306930972282283189523451904651914360663766115217"
+        ]
+      ]
+    },
+    {
+      "alpha_interval": [
+        "-107483397657514677262028151/161749812100916245744844800",
+        "-2149667953150293545240563/3234996242018324914896896"
+      ],
+      "w_mobius_endpoint_enclosure": [
+        "-322060760671839700731810093720489/558867577364394678613890339328175",
+        "-67632759741086337153680093652136709/117362191246522882508916935990837235"
+      ],
+      "W_root_reduced_enclosures": [
+        [
+          "10968308078850469828584890688533199765224479779404/2708173398956050375024366780437997769454525017475",
+          "255927188506510962666980839810052569982905842954044/63190712642307842083901872554345135052558560105855"
+        ],
+        [
+          "-11802671376170435308778991716716069239726233510806/702119029358976023154465461595036458747469448975",
+          "-354080141285113059263369643415623746308686015971666/21063570880769280694633957518115045017519520035285"
+        ],
+        [
+          "4297753246792375090320361977231268204636437855306/468079352905984015436310167069223222611544889673",
+          "174059006495091191157974733491023047136786523966594/18957213792692352625170567463065984386181675122325"
+        ]
+      ]
+    }
+  ],
+  "A_l1_enclosure_upper_before_ceiling": "2805891773638589838288807278932398753704699666265854256818737/98537169728272620184301707923947739492786696868646344458240",
+  "A_upper": 29,
+  "K_upper": 7,
+  "W0_A0_lower": "936789767663232537057819651836974136810612625651128054571911113/189339171632875839684135747435006950718246759268965338107084800",
+  "source_and_birth_time_bounds_match": true,
+  "T_star": "936789767663232537057819651836974136810612625651128054571911113/58729806119977266693478976227382680342198363967130129868713226749715729612800",
+  "analytic_NS_tail_not_replaced_by_this_script": true,
+  "no_candidate_or_singularity_acceptance": true,
+  "resource": {
+    "command": "/usr/bin/python3 research/reverse/four-carrier-source-test/review_verify.py > research/reverse/four-carrier-source-test/review-verification.json",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "cpu_arch": "arm64",
+    "cpu_count": 18,
+    "processes": 1,
+    "threads": 1,
+    "process_count_scope": "One scientific Python worker; possible platform-metadata helper processes are not included.",
+    "arithmetic": "exact Fraction, integer isqrt; no floating scientific evaluations",
+    "tolerance": null,
+    "random_seed": null,
+    "wall_seconds": 0.150979209,
+    "wall_scope": "Checker main entry through validation and platform metadata, before final JSON serialization/output.",
+    "max_rss_bytes_macos": 15908864,
+    "rss_scope": "RUSAGE_SELF measured before final JSON serialization; not a complete process-tree peak.",
+    "complete_process_tree_resource_certificate": false
+  }
+}

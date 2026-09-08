@@ -1,0 +1,25 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "OUTPUT_FIELDS_IDENTICAL_NO_SCIENCE_RERUN",
+  "compared": [
+    "all 24 affine rational entries of M and W",
+    "three determinant rational coefficients",
+    "primitive determinant",
+    "fixed root selection index"
+  ],
+  "files": [
+    {
+      "path": "research/reverse/four-carrier-source-test/exact-output.json",
+      "sha256": "f1e7b55f085bd6979f7655647b32d1acdd931d441cca003527924d77c14e8923"
+    },
+    {
+      "path": "research/reverse/four-carrier-source-test/independent-output.json",
+      "sha256": "de084e897e08c7faa48dd49dbb00af61f0449587b34e8a4890711c4a176a0bc7"
+    },
+    {
+      "path": "research/reverse/four-carrier-source-test/root-certificate.json",
+      "sha256": "f8d9268b54b0fe7499d5c3f6dcdf17a654de401aa97fc7e56579b4a412faad4e"
+    }
+  ],
+  "scope": "Exact equality of already generated fields; root and rank proofs separately read. Intermediate subset arrays are not claimed as root full-array reading."
+}

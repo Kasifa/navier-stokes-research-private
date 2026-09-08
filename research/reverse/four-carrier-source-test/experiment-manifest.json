@@ -8,7 +8,7 @@
   "hardware": {
     "os": "macOS 26.6.2 arm64",
     "logical_cpus": 18,
-    "execution": "one local process per sequential stage; pure standard-library exact integer/Fraction arithmetic",
+    "execution": "One scientific Python worker per sequential stage; standard-library exact integer/Fraction arithmetic. platform.platform() may launch metadata helper subprocesses; their number was not instrumented.",
     "parallelism_reason": "Small dependent convolution and algebra; each stage well below one second, process parallelism has no expected benefit."
   },
   "scientific_scope": "One fixed parameter chart; finite exact root isolation; no grid, optimizer, random sample, new chart, numerical NS solver or DGX",
@@ -63,5 +63,14 @@
   "figures": [],
   "new_pdf": false,
   "created_at_utc": "2026-09-08T12:09:34.417010+00:00",
-  "acceptance": "PENDING_INDEPENDENT_ALGEBRA_AND_NONAUTHOR_REVIEW"
+  "acceptance": "PENDING_INDEPENDENT_ALGEBRA_AND_NONAUTHOR_REVIEW",
+  "resource_measurement_scope": {
+    "wall_seconds": "perf_counter-equivalent monotonic elapsed inside main(), including platform metadata calls made there; excludes interpreter startup and imports before main().",
+    "max_rss": "RUSAGE_SELF parent-process peak only, not a whole-process-tree peak.",
+    "processes_and_threads": "Declared scientific worker configuration, not a measured census of metadata helper subprocesses.",
+    "full_process_tree_resource_certificate": false,
+    "unmeasured_child_costs": "Not estimated. No total CPU or total RSS completeness claim.",
+    "budget_observation": "Both main stages returned completed on the initial one-second yielding call; main timers and parent RSS are recorded. No DGX, long run, worker pool, grid or failed restart.",
+    "effect_on_math": "Exact algebra and analytic inequalities require independent checks; they do not rely on completeness of the resource ledger. Original failed-datum resource evidence remains unrepaired."
+  }
 }
