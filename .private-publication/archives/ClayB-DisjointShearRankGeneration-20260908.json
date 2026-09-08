@@ -1,0 +1,131 @@
+{
+  "base_commit": "27728afac997a846c7b7073f49451fa2a4eb7979",
+  "claims": [
+    "固定 nu>0、0<tau<T 及一对分离支撑剪切初值形状，存在统一 epsilon0,c,C，使每个 0<epsilon≤epsilon0 的同一光滑无外力周期 NS 解初始梯度处处秩至多一，而整个 [tau,T] 内固定正体积集合上梯度秩至少二，且缺陷质量 c epsilon≤m_epsilon≤C epsilon。",
+    "原 NS 解在 C([0,T];C1) 中等于 epsilon 倍热轨道加 O(epsilon²)。包含全部零集余项的 CD 有符号黏性测度满足 nu mu_f(T³×(0,t))=-epsilon m_H(t)+O(epsilon²)<0，对固定 [tau,T] 统一成立。",
+    "不存在幅度一致的有限常数，以零初始缺陷、初始动能及累计 q²+|H| 等纯二阶成本控制上述一阶缺陷质量并另加非负耗散；这是 SRG.20 的指定估计障碍。"
+  ],
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "bytes": 12210,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "read_scope": "主任务全文读取；非构思审读者 CD 全文、GD 1–95 行",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "27728afac997a846c7b7073f49451fa2a4eb7979"
+    },
+    {
+      "bytes": 11939,
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "read_scope": "主任务全文读取；非构思审读者 CD 全文、GD 1–95 行",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "27728afac997a846c7b7073f49451fa2a4eb7979"
+    }
+  ],
+  "dependency_commits": [
+    "27728afac997a846c7b7073f49451fa2a4eb7979"
+  ],
+  "dgx": false,
+  "external_sources": [
+    {
+      "scope": "主任务及非构思审读者读取 Theorem 5.1 全部陈述及证明；只使用经典周期局部理论和平滑保持，不认证整篇论文。",
+      "title": "Terence Tao, Localisation and compactness properties of the Navier-Stokes global regularity problem",
+      "url": "https://arxiv.org/html/1108.1165v4#S5",
+      "version": "arXiv:1108.1165v4",
+      "whole_paper_certified": false
+    }
+  ],
+  "figure_reason": "纯解析构造和估计；不需要仿真或科学图。",
+  "files": [
+    {
+      "bytes": 11939,
+      "commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+      "path": "research/clay_b_disjoint_shear_rank_generation_20260908.md",
+      "sha256": "850c9461bb90dde06938247e13e5c71be5db4b1a513e141fa55d8d1d738e6a1b"
+    },
+    {
+      "bytes": 4256,
+      "commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+      "path": "research/clay_b_disjoint_shear_rank_generation_audit_20260908.md",
+      "sha256": "55995e587291515df7329c5ae74c13dd50af0bfc9597abacfdd36a15c5ce7d07"
+    },
+    {
+      "bytes": 2917,
+      "commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+      "path": "research/clay_b_disjoint_shear_rank_generation_checkpoint_20260908.json",
+      "sha256": "13e5b9bca302b4ae0169d4eecbdcd4c623fee7a0a09761252dd5edf94c504657"
+    },
+    {
+      "bytes": 12210,
+      "commit": "27728afac997a846c7b7073f49451fa2a4eb7979",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "read_scope": "主任务全文读取；非构思审读者 CD 全文、GD 1–95 行",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "27728afac997a846c7b7073f49451fa2a4eb7979"
+    },
+    {
+      "bytes": 11939,
+      "commit": "27728afac997a846c7b7073f49451fa2a4eb7979",
+      "kind": "FROZEN_PROOF_DEPENDENCY",
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "read_scope": "主任务全文读取；非构思审读者 CD 全文、GD 1–95 行",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "27728afac997a846c7b7073f49451fa2a4eb7979"
+    },
+    {
+      "bytes": 6790,
+      "commit": "77bf22e9446f8ecc073179f5402dcb7ab0d1efb3",
+      "path": "research/clay_b_disjoint_shear_rank_generation_release_20260908.json",
+      "sha256": "4272062082413a4cf0b882022e581036544a5a4175a2a1f9705b5f11315f6072"
+    }
+  ],
+  "freeze_commit": "77bf22e9446f8ecc073179f5402dcb7ab0d1efb3",
+  "is_clay_result": false,
+  "limitations": [
+    "未获得任意光滑初值沿同一演化的指定中心共同 A+E 上界及足够小形状耗散尺度，PF 条件出口仍缺这一动力学输入。",
+    "不排除初始 integral|G|、独立扩散生成、线性成本、带符号抵消或混合估计；负 mu_f 不是负能量耗散。",
+    "固定 epsilon 的任意小正时间统一下界、真实梯度恰为秩二、正涡伸长及奇性均未证明。",
+    "有限本地去重与局部理论核验不证明新颖性、期刊价值或真人同行评审；一般三维 NS / Clay 仍开放。"
+  ],
+  "logical_predecessor": "ClayB-PressureFreeShapeCriterion-20260908",
+  "next_concrete_dynamical_input_accepted": false,
+  "next_research_plan": "有界检验原整胞联合源候选 |integral B0:(G²+H)|≤C||G||2||d(G)||2，B0=G/|G|且零处取零，H 为同一规范周期压力 Hessian，常数只依赖固定周期胞。先确定全体光滑无散周期初值的量词和可反检族，再独立处理压力配对；惯性项已由 |G²|≤C|G|d 控制。不得用不保持梯度/无散结构的逐点秩一投影直接套 CLMS，不将加强 Hardy 界当已知。候选尚未通过证明或反证；即使整胞界成立，局部截止、调和压力尾和指定中心好尺度仍须另证。不重复 SRG/MA/VR/旧 Piola 抵消，不检查发布或反向执行。",
+  "next_test_candidate_selected": true,
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "preservation_note": "此前内部来源筛选及环带传播前提检查保留在本提交祖先中，不修改其文件、不另计本轮科学小节或重复创建移交。既有PF及其他冻结保持原样。",
+  "privacy": "PRIVATE_CORE",
+  "public_overview_requested": false,
+  "publication_boundary": "仅一次交固定发布任务作PRIVATE_ARCHIVE。无公开摘要、论文选择、翻译、读者HTML/PDF、统计、重上线或仓库权限请求；研究不push、不检查归档或发布执行。最新250行协议已全文阅读，三渠道更新频率不改变研究和即时私有归档授权。",
+  "qa": {
+    "audit": "research/clay_b_disjoint_shear_rank_generation_audit_20260908.md",
+    "mathematical_review": "主任务推导及全文读回，并核对最终差异。variable_reference_check 独立模块复算后全文读取最终212行11939 B主稿；ma_freeze_review 未参与构思，全文读取及复核全部修订，二者均绑定 SHA850c9461bb90dde06938247e13e5c71be5db4b1a513e141fa55d8d1d738e6a1b，PASS。good_scale_route_comparison 仅构造与旧路线范围检查，不认领最终稿全文。全部为AI，不是真人同行评审。",
+    "new_output_visual_qa": false,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "record_review": "主任务与 ma_freeze_review 全文读取最终32行4256 B审查记录 SHA55995e587291515df7329c5ae74c13dd50af0bfc9597abacfdd36a15c5ce7d07，以及33行2917 B检查点 SHA13e5b9bca302b4ae0169d4eecbdcd4c623fee7a0a09761252dd5edf94c504657。3 claims/4 open与下一候选待检状态一致，严格JSON无重复键。",
+    "source_files_match_commit": true,
+    "status": "PASS_IN_STATED_SCOPE",
+    "structural_checks": "20个顺序唯一公式标号、22对展示公式，无异常控制字符；staged whitespace PASS。3个源文件及2个冻结依赖文件的本地字节与绑定git对象相合。结构检查不代替数学证明，不计为科学案例。"
+  },
+  "recap": {
+    "reason": "完成一个具体闭合障碍；没有产生自动好尺度或全局结论，不强写逐节回顾。",
+    "update_required": false
+  },
+  "release_id": "ClayB-DisjointShearRankGeneration-20260908",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "scientific_classification": [
+    "SMOOTH ORIGINAL-NS RANK GENERATION",
+    "SIGNED FULL VISCOSITY OBSTRUCTION",
+    "NOT CLAY"
+  ],
+  "scientific_figures": [],
+  "scientific_source_commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+  "simulation": false,
+  "source_commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+  "status": "RESEARCH_FREEZE_COMPLETE"
+}
