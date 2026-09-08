@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Final B source4206577c (995 lines), nonauthor static review8960aa23, implementation review7353d826 root fully read PASS. Save this pre-run source commit then explicitly authorize Gauss one B execution with fixed contract/A hash. Stage A never rerun. No root output exists yet. C3dd76eea A-adapter prepared, full root read; B adapter and all C execution still pending.",
+  "next_action": "B once completed after f49ebe2a, raw6fd933eb saved cf524c65: two simple real roots, both rank1/fullC nonzero; fixed root0 in(-75/32,-125/64] selected. New original-row amplitudes and positive rational mainT certified by primary. C must independently recompute all six root coefficients and verify every gcd/Sturm/root/normalization/mainT certificate. C3dd76eea+design4ca0 saved as preparation in cf524c65. Hume authorized only to read B and prepare final C adapter, no execution. Final C source/static review/Git and unique run still required. Never rerun A/B.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -39,7 +39,10 @@
     "research/reverse/cyclic-six-carrier/exact_roots.py",
     "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md",
     "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md",
-    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md"
+    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md",
+    "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+    "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+    "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -66,7 +69,10 @@
     "research/reverse/cyclic-six-carrier/exact_roots.py": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
     "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
     "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md": "7353d8262ae4d962ebca2d0dba7b9e8e06e83afb19e3aa4ffe383a5d26a530a8",
-    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734"
+    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734",
+    "research/reverse/cyclic-six-carrier/exact-roots-output.json": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+    "research/reverse/cyclic-six-carrier/verify_cyclic.py": "3dd76eea01c80ad425f85686526185b30d00b7afc25096bb5b0c0434ffaad450",
+    "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md": "4ca0d90f34de8204a4663572c3374581fa4c74203c62ea904b9d74866cdc186b"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -80,7 +86,7 @@
   },
   "freeze_commit": "a856a0f311aba7caa9311ae649f1ce83a74e0ff7",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "C3 exact all-real-root stage B: final source and static reviews passed before unique execution",
+  "current_topic": "C3 primary fixed datum and main window saved; independent stage C pending",
   "current_topic_directory": "research/reverse/cyclic-six-carrier",
   "pending": [
     "Read final C3 contract pre-review and stop code",
@@ -391,7 +397,7 @@
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+  "current_analysis_source_commit": "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -1173,7 +1179,7 @@
     "candidate_accepted": false
   },
   "cyclic_six_carrier_evidence": {
-    "status": "STAGE_A_ONCE_COMPLETE_DEGREE_SIX_ROOT_STAGE_PENDING",
+    "status": "A_AND_B_ONCE_COMPLETE_SELECTED_NEW_DATUM_PENDING_INDEPENDENT_C",
     "preflight": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
     "structural_review": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
     "root_actual_full_read_both": true,
@@ -1181,9 +1187,9 @@
     "contract_sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
     "root_prior_handwork": "C3 geometry/support/degrees and first-band r coefficient (1+alpha^2)e3; disclosed before any unknown four-leaf coefficient computation.",
     "unknown_four_leaf_coefficients_computed": true,
-    "scientific_programs_run": 1,
-    "parameters_selected": false,
-    "actual_new_datum": false,
+    "scientific_programs_run": 2,
+    "parameters_selected": true,
+    "actual_new_datum": true,
     "formal_release": false,
     "not_a_continuation_of_old_four_carrier_solution": true,
     "contract_revision": "A rank-two matrix at a certified determinant root is inconsistent/NOT-CERTIFIED and must stop, never skip the root.",
@@ -1212,12 +1218,41 @@
     "stage_B_method": "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
     "stage_B_method_root_full_read": true,
     "stage_B_implementation_gate": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
-    "stage_B_code_status": "FINAL_CODE_AND_NONAUTHOR_STATIC_REVIEW_PASS_ROOT_FULL_READ_NOT_EXECUTED",
+    "stage_B_code_status": "EXECUTED_ONCE_COMPLETED",
     "application_conditional_review": "PASS_909e9fab_ROOT_FULL_READ",
     "stage_C_code_status": "A_ADAPTER_PREPARED_3dd76eea_ROOT_FULL_READ_B_ADAPTER_PENDING_NOT_EXECUTED",
     "root_comparison": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
     "stage_B_code_sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
     "stage_B_static_review_sha256": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
-    "stage_B_executions": 0
-  }
+    "stage_B_executions": 1,
+    "stage_B_source_commit": "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
+    "stage_B_output": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+    "stage_B_output_sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+    "stage_B_output_saved_commit": "cf524c65172bc8af93939e63862ff8fcd6f4a015",
+    "stage_B_resources": {
+      "RSS_conversion": "Darwin ru_maxrss is bytes",
+      "maximum_RSS_SELF_bytes": 19841024,
+      "system_CPU_seconds_SELF": 0.012211,
+      "user_CPU_seconds_SELF": 0.07208099999999999,
+      "wall_seconds_since_module_start": 0.069373958
+    },
+    "all_real_roots_certified_by_primary": true,
+    "distinct_real_root_count": 2,
+    "root_ranks": [
+      1,
+      1
+    ],
+    "eligible_root_indices": [
+      0,
+      1
+    ],
+    "selected_root_index": 0,
+    "selected_root_isolating_interval": [
+      "-75/32",
+      "-125/64"
+    ],
+    "new_datum_independently_accepted": false,
+    "main_T": "137004842759380260925278829617938421911800292198400000000/41232299689611034755668076451183233780893088052675593910262741694227351226981677"
+  },
+  "cyclic_checkpoint_write_note": "An earlier metadata-only stdin script failed parsing before any writes; cf524c65 nevertheless saved B raw output and prepared C files. This ASCII-only metadata repair does not execute science or change A/B evidence."
 }
