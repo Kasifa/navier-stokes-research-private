@@ -1,0 +1,79 @@
+{
+  "schema": "annular-input-execution-v1",
+  "status": "EXECUTION_PASS_PENDING_INDEPENDENT_INPUT_VALIDATION",
+  "source_commit_supplied": "c37b516bf668a8b600b084dde91f94b7fe27ddb8",
+  "supervisor_pid": 39686,
+  "supervisor_count": 1,
+  "scientific_subprocess_launch_attempts": 1,
+  "scientific_subprocess_launch_count": 1,
+  "child_reported_scientific_execution_count": 1,
+  "child_reported_scientific_completed": true,
+  "limits": {
+    "child_lifecycle_wall_seconds": 5.0,
+    "child_peak_rss_bytes": 268435456
+  },
+  "scientific_scope": "input preparation only; no Fourier/NS integration",
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "uname": [
+      "Darwin",
+      "Wool.local",
+      "25.6.0",
+      "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050",
+      "arm64"
+    ],
+    "rss_raw_unit": "bytes"
+  },
+  "source_hashes_before_launch": {
+    "prepare_input.py": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1",
+    "run_input.py": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028"
+  },
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/prepare_input.py",
+    "--source-commit",
+    "c37b516bf668a8b600b084dde91f94b7fe27ddb8",
+    "--supervisor-pid",
+    "39686"
+  ],
+  "child_lifecycle": {
+    "pid": 39688,
+    "returncode": 0,
+    "timed_out": false,
+    "communication_error": null,
+    "wall_seconds": 0.041177708,
+    "wall_scope": "immediately before Popen through after wait",
+    "usage_before": {
+      "user_seconds": 0.0,
+      "system_seconds": 0.0,
+      "maximum_rss_raw": 0
+    },
+    "usage_after_wait": {
+      "user_seconds": 0.023174,
+      "system_seconds": 0.006697,
+      "maximum_rss_raw": 16187392
+    },
+    "cpu_user_seconds": 0.023174,
+    "cpu_system_seconds": 0.006697,
+    "peak_rss_raw": 16187392,
+    "peak_rss_raw_unit": "bytes",
+    "peak_rss_bytes": 16187392,
+    "rss_scope": "RUSAGE_CHILDREN after sole child was reaped",
+    "within_wall_limit": true,
+    "within_rss_limit": true,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "stdout_first_8192_bytes": "",
+    "stderr_first_8192_bytes": ""
+  },
+  "output_bytes": 133961,
+  "output_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+  "child_status": "INPUT_PREPARATION_PASS_PENDING_INDEPENDENT_VALIDATION",
+  "supervisor_self_usage_before_receipt_serialization": {
+    "user_seconds": 0.022257,
+    "system_seconds": 0.012366,
+    "maximum_rss_raw": 14385152
+  },
+  "supervisor_scope": "one separate metadata parent; its own peak RSS is not added to or substituted for child peak RSS; this is not a simultaneous total-task peak measurement"
+}

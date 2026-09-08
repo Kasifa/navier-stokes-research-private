@@ -1,0 +1,4318 @@
+{
+  "schema": "annular-input-v1",
+  "status": "INPUT_PREPARATION_PASS_PENDING_INDEPENDENT_VALIDATION",
+  "scientific_execution_count": 1,
+  "scientific_completed": true,
+  "source_commit_supplied": "c37b516bf668a8b600b084dde91f94b7fe27ddb8",
+  "pid": 39688,
+  "supervisor_pid": 39686,
+  "science": "same a_* approximation preparation only; no NS integration",
+  "source_bindings": {
+    "research/reverse/annular-source-observation/CONTRACT.md": {
+      "expected": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "actual": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    "research/reverse/annular-source-observation/INPUT_CONTRACT.md": {
+      "expected": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "actual": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    "research/reverse/cyclic-six-carrier/ALGEBRA_A.md": {
+      "expected": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b",
+      "actual": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b"
+    },
+    "research/reverse/cyclic-six-carrier/ALGEBRA_B.md": {
+      "expected": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
+      "actual": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499"
+    }
+  },
+  "source_hashes": {
+    "prepare_input.py": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1",
+    "run_input.py": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028"
+  },
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "uname": [
+      "Darwin",
+      "Wool.local",
+      "25.6.0",
+      "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050",
+      "arm64"
+    ],
+    "byteorder": "little"
+  },
+  "polynomials_ascending": {
+    "P": [
+      {
+        "numerator": "12379608041588",
+        "denominator": "607290075"
+      },
+      {
+        "numerator": "129169813631527",
+        "denominator": "1012150125"
+      },
+      {
+        "numerator": "111813118362046",
+        "denominator": "337383375"
+      },
+      {
+        "numerator": "1377133612024132",
+        "denominator": "3036450375"
+      },
+      {
+        "numerator": "207263796033514",
+        "denominator": "607290075"
+      },
+      {
+        "numerator": "401161881122159",
+        "denominator": "3036450375"
+      },
+      {
+        "numerator": "4124532235492",
+        "denominator": "202430025"
+      }
+    ],
+    "r": [
+      {
+        "numerator": "1807613971",
+        "denominator": "12393675"
+      },
+      {
+        "numerator": "9523582624",
+        "denominator": "20656125"
+      },
+      {
+        "numerator": "27816146846",
+        "denominator": "61968375"
+      },
+      {
+        "numerator": "196585982",
+        "denominator": "1770525"
+      }
+    ],
+    "s": [
+      {
+        "numerator": "536919079",
+        "denominator": "2699067"
+      },
+      {
+        "numerator": "9469267576",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "10524885968",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "646271818",
+        "denominator": "2699067"
+      }
+    ],
+    "v": [
+      {
+        "numerator": "-536919079",
+        "denominator": "2699067"
+      },
+      {
+        "numerator": "-9469267576",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "-10524885968",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "-646271818",
+        "denominator": "2699067"
+      }
+    ],
+    "w": [
+      {
+        "numerator": "1807613971",
+        "denominator": "12393675"
+      },
+      {
+        "numerator": "9523582624",
+        "denominator": "20656125"
+      },
+      {
+        "numerator": "27816146846",
+        "denominator": "61968375"
+      },
+      {
+        "numerator": "196585982",
+        "denominator": "1770525"
+      }
+    ],
+    "V1": [
+      {
+        "numerator": "374162998",
+        "denominator": "2824605"
+      },
+      {
+        "numerator": "942755992",
+        "denominator": "4707675"
+      },
+      {
+        "numerator": "-1345776982",
+        "denominator": "14123025"
+      },
+      {
+        "numerator": "-460876828",
+        "denominator": "2824605"
+      }
+    ],
+    "V2": [
+      {
+        "numerator": "1073838158",
+        "denominator": "2699067"
+      },
+      {
+        "numerator": "18938535152",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "21049771936",
+        "denominator": "13495335"
+      },
+      {
+        "numerator": "1292543636",
+        "denominator": "2699067"
+      }
+    ],
+    "V3": [
+      {
+        "numerator": "-3615227942",
+        "denominator": "12393675"
+      },
+      {
+        "numerator": "-19047165248",
+        "denominator": "20656125"
+      },
+      {
+        "numerator": "-55632293692",
+        "denominator": "61968375"
+      },
+      {
+        "numerator": "-393171964",
+        "denominator": "1770525"
+      }
+    ]
+  },
+  "root_isolation": {
+    "initial_half_open_interval": [
+      {
+        "numerator": "-75",
+        "denominator": "32"
+      },
+      {
+        "numerator": "-125",
+        "denominator": "64"
+      }
+    ],
+    "initial_endpoint_values": [
+      {
+        "numerator": "116275481565508693067",
+        "denominator": "3326901800140800"
+      },
+      {
+        "numerator": "-4031559117426841834111",
+        "denominator": "3477721348413849600"
+      }
+    ],
+    "single_root_uniqueness": "inherited from CB.8, not recomputed",
+    "maximum_bisections": 80,
+    "steps": [
+      {
+        "step": 1,
+        "before": [
+          {
+            "numerator": "-75",
+            "denominator": "32"
+          },
+          {
+            "numerator": "-125",
+            "denominator": "64"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-275",
+          "denominator": "128"
+        },
+        "P_midpoint": {
+          "numerator": "150881052534418633081289",
+          "denominator": "24730462922054041600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-275",
+            "denominator": "128"
+          },
+          {
+            "numerator": "-125",
+            "denominator": "64"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "before": [
+          {
+            "numerator": "-275",
+            "denominator": "128"
+          },
+          {
+            "numerator": "-125",
+            "denominator": "64"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-525",
+          "denominator": "256"
+        },
+        "P_midpoint": {
+          "numerator": "37551066700615476947685587",
+          "denominator": "42734239929309383884800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-525",
+            "denominator": "256"
+          },
+          {
+            "numerator": "-125",
+            "denominator": "64"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "before": [
+          {
+            "numerator": "-525",
+            "denominator": "256"
+          },
+          {
+            "numerator": "-125",
+            "denominator": "64"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1025",
+          "denominator": "512"
+        },
+        "P_midpoint": {
+          "numerator": "-8114457473730061997413111",
+          "denominator": "18605383370583677337600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-525",
+            "denominator": "256"
+          },
+          {
+            "numerator": "-1025",
+            "denominator": "512"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "before": [
+          {
+            "numerator": "-525",
+            "denominator": "256"
+          },
+          {
+            "numerator": "-1025",
+            "denominator": "512"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2075",
+          "denominator": "1024"
+        },
+        "P_midpoint": {
+          "numerator": "7932461999328064470683675969",
+          "denominator": "58346482250150412130713600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-1025",
+            "denominator": "512"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "before": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-1025",
+            "denominator": "512"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4125",
+          "denominator": "2048"
+        },
+        "P_midpoint": {
+          "numerator": "-1903534765846095227649726362317",
+          "denominator": "11202524592028879129097011200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-4125",
+            "denominator": "2048"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "before": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-4125",
+            "denominator": "2048"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-8275",
+          "denominator": "4096"
+        },
+        "P_midpoint": {
+          "numerator": "-5287106955724461360012260976911",
+          "denominator": "238987191296616088087402905600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "before": [
+          {
+            "numerator": "-2075",
+            "denominator": "1024"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-16575",
+          "denominator": "8192"
+        },
+        "P_midpoint": {
+          "numerator": "52072980764851827764721507833627",
+          "denominator": "936439606713271202301660364800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-16575",
+            "denominator": "8192"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "before": [
+          {
+            "numerator": "-16575",
+            "denominator": "8192"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-33125",
+          "denominator": "16384"
+        },
+        "P_midpoint": {
+          "numerator": "16071511892445285584759742866828609",
+          "denominator": "978891535550939496806002301337600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-33125",
+            "denominator": "16384"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "before": [
+          {
+            "numerator": "-33125",
+            "denominator": "16384"
+          },
+          {
+            "numerator": "-8275",
+            "denominator": "4096"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-66225",
+          "denominator": "32768"
+        },
+        "P_midpoint": {
+          "numerator": "-551271981790573632629271593226344437",
+          "denominator": "187947174825780383386752441856819200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-33125",
+            "denominator": "16384"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "before": [
+          {
+            "numerator": "-33125",
+            "denominator": "16384"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-132475",
+          "denominator": "65536"
+        },
+        "P_midpoint": {
+          "numerator": "8984391684263419566947095407202876843",
+          "denominator": "1336513243205549392972461808759603200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-132475",
+            "denominator": "65536"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "before": [
+          {
+            "numerator": "-132475",
+            "denominator": "65536"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-264925",
+          "denominator": "131072"
+        },
+        "P_midpoint": {
+          "numerator": "484871306916981120703204478197945244561",
+          "denominator": "256610542695465483450712667281843814400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-264925",
+            "denominator": "131072"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "before": [
+          {
+            "numerator": "-264925",
+            "denominator": "131072"
+          },
+          {
+            "numerator": "-66225",
+            "denominator": "32768"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-529825",
+          "denominator": "262144"
+        },
+        "P_midpoint": {
+          "numerator": "-8590271515583117914156817235307340187911",
+          "denominator": "16423074732509790940845610706038004121600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-264925",
+            "denominator": "131072"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "before": [
+          {
+            "numerator": "-264925",
+            "denominator": "131072"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1059675",
+          "denominator": "524288"
+        },
+        "P_midpoint": {
+          "numerator": "2153388742957969408163562345091559956443203",
+          "denominator": "3153230348641879860642357255559296791347200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1059675",
+            "denominator": "524288"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "before": [
+          {
+            "numerator": "-1059675",
+            "denominator": "524288"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2119325",
+          "denominator": "1048576"
+        },
+        "P_midpoint": {
+          "numerator": "15659768518054714780577447996500715762903",
+          "denominator": "196119283103090681322751082950238090035200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "before": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-529825",
+            "denominator": "262144"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4238625",
+          "denominator": "2097152"
+        },
+        "P_midpoint": {
+          "numerator": "-2862441885019207756981283998385365956727376917",
+          "denominator": "12915631508037139909191095318770879657358131200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-4238625",
+            "denominator": "2097152"
+          }
+        ]
+      },
+      {
+        "step": 16,
+        "before": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-4238625",
+            "denominator": "2097152"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-8477275",
+          "denominator": "4194304"
+        },
+        "P_midpoint": {
+          "numerator": "-2170405266053870953527302424178503570262826759",
+          "denominator": "30614830241273220525490003718568011039663718400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-8477275",
+            "denominator": "4194304"
+          }
+        ]
+      },
+      {
+        "step": 17,
+        "before": [
+          {
+            "numerator": "-2119325",
+            "denominator": "1048576"
+          },
+          {
+            "numerator": "-8477275",
+            "denominator": "4194304"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-16954575",
+          "denominator": "8388608"
+        },
+        "P_midpoint": {
+          "numerator": "236786022222594127599889353458408394458730039563",
+          "denominator": "52902426656920125068046726425685523076538905395200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-8477275",
+            "denominator": "4194304"
+          }
+        ]
+      },
+      {
+        "step": 18,
+        "before": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-8477275",
+            "denominator": "4194304"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-33909125",
+          "denominator": "16777216"
+        },
+        "P_midpoint": {
+          "numerator": "-37479539838747465914106294465259524708263073166591",
+          "denominator": "1128585102014296001451663497081291158966163315097600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-33909125",
+            "denominator": "16777216"
+          }
+        ]
+      },
+      {
+        "step": 19,
+        "before": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-33909125",
+            "denominator": "16777216"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-67818275",
+          "denominator": "33554432"
+        },
+        "P_midpoint": {
+          "numerator": "-1037704911083918336168789415761195265160016516999279",
+          "denominator": "72229446528914944092906463813202634173834452166246400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-67818275",
+            "denominator": "33554432"
+          }
+        ]
+      },
+      {
+        "step": 20,
+        "before": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-67818275",
+            "denominator": "33554432"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-135636575",
+          "denominator": "67108864"
+        },
+        "P_midpoint": {
+          "numerator": "-531658301362681687003799198602595287105208579852437",
+          "denominator": "107504292508152474928977062419650432258730347410227200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-135636575",
+            "denominator": "67108864"
+          }
+        ]
+      },
+      {
+        "step": 21,
+        "before": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-135636575",
+            "denominator": "67108864"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-271273175",
+          "denominator": "134217728"
+        },
+        "P_midpoint": {
+          "numerator": "-69461539463018290487762275961452697142485747548608919",
+          "denominator": "295851812982435611004544875778877989576025916072945254400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ]
+      },
+      {
+        "step": 22,
+        "before": [
+          {
+            "numerator": "-16954575",
+            "denominator": "8388608"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-542546375",
+          "denominator": "268435456"
+        },
+        "P_midpoint": {
+          "numerator": "40151717193437478570526708620608045385668729372306663369",
+          "denominator": "18934516030875879104290872049848191332865658628668496281600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-542546375",
+            "denominator": "268435456"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ]
+      },
+      {
+        "step": 23,
+        "before": [
+          {
+            "numerator": "-542546375",
+            "denominator": "268435456"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1085092725",
+          "denominator": "536870912"
+        },
+        "P_midpoint": {
+          "numerator": "3427792058817767512920836851196302986454948751029127684963",
+          "denominator": "3635427077928168788023847433570852735910206456704351286067200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1085092725",
+            "denominator": "536870912"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ]
+      },
+      {
+        "step": 24,
+        "before": [
+          {
+            "numerator": "-1085092725",
+            "denominator": "536870912"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2170185425",
+          "denominator": "1073741824"
+        },
+        "P_midpoint": {
+          "numerator": "27458646562672543555670047027656153341242061005331898056729",
+          "denominator": "77555777662467600811175411916178191699417737743026160769433600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-2170185425",
+            "denominator": "1073741824"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ]
+      },
+      {
+        "step": 25,
+        "before": [
+          {
+            "numerator": "-2170185425",
+            "denominator": "1073741824"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4340370825",
+          "denominator": "2147483648"
+        },
+        "P_midpoint": {
+          "numerator": "887972913238638957726358523369673159978804249909678595076603",
+          "denominator": "14890709311193779355745679087906212806288205646661022867731251200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ]
+      },
+      {
+        "step": 26,
+        "before": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-271273175",
+            "denominator": "134217728"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-8680741625",
+          "denominator": "4294967296"
+        },
+        "P_midpoint": {
+          "numerator": "-27820170458596032538091631586227272819755138486198908596102071",
+          "denominator": "317668465305467292922574487208665873200815053795435154511600025600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-8680741625",
+            "denominator": "4294967296"
+          }
+        ]
+      },
+      {
+        "step": 27,
+        "before": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-8680741625",
+            "denominator": "4294967296"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-17361483275",
+          "denominator": "8589934592"
+        },
+        "P_midpoint": {
+          "numerator": "-1932353535969203456560246052928352431215356880233055837088517",
+          "denominator": "138304637956121814605746715519419155679266417978964965229540147200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ]
+      },
+      {
+        "step": 28,
+        "before": [
+          {
+            "numerator": "-4340370825",
+            "denominator": "2147483648"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-34722966575",
+          "denominator": "17179869184"
+        },
+        "P_midpoint": {
+          "numerator": "29706337146006187150140006956827249384340517742017752761298927129",
+          "denominator": "1301170033891194031810865099606695416630538460346102392879513704857600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-34722966575",
+            "denominator": "17179869184"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ]
+      },
+      {
+        "step": 29,
+        "before": [
+          {
+            "numerator": "-34722966575",
+            "denominator": "17179869184"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-69445933125",
+          "denominator": "34359738368"
+        },
+        "P_midpoint": {
+          "numerator": "1106568469299977700435086889519810633579804352658058863973346102403",
+          "denominator": "249824646507109254107686099124485519993063384386451659432866631332659200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ]
+      },
+      {
+        "step": 30,
+        "before": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-17361483275",
+            "denominator": "8589934592"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-138891866225",
+          "denominator": "68719476736"
+        },
+        "P_midpoint": {
+          "numerator": "-25428387163943261162838289814696520562274935544401710213138348485671",
+          "denominator": "5329592458818330754297303447989024426518685533577635401234488135096729600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-138891866225",
+            "denominator": "68719476736"
+          }
+        ]
+      },
+      {
+        "step": 31,
+        "before": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-138891866225",
+            "denominator": "68719476736"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-277783732475",
+          "denominator": "137438953472"
+        },
+        "P_midpoint": {
+          "numerator": "-1355604242696501643683733290913068490809129589286707641468048832893",
+          "denominator": "7932416682892399262209940015611571239469671491836480597186214898748620800"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ]
+      },
+      {
+        "step": 32,
+        "before": [
+          {
+            "numerator": "-69445933125",
+            "denominator": "34359738368"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-555567464975",
+          "denominator": "274877906944"
+        },
+        "P_midpoint": {
+          "numerator": "948600054551735501983771082376200746211994304972892540582664844596521",
+          "denominator": "445510422679997607542892957611490694918786447868040706192989049007269478400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-555567464975",
+            "denominator": "274877906944"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ]
+      },
+      {
+        "step": 33,
+        "before": [
+          {
+            "numerator": "-555567464975",
+            "denominator": "274877906944"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1111134929925",
+          "denominator": "549755813888"
+        },
+        "P_midpoint": {
+          "numerator": "4104074859322803246211666720358764861541306717289567884542714479863667203",
+          "denominator": "4191362056573417491763536945208904457795942901542526963863640973060391252787200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1111134929925",
+            "denominator": "549755813888"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ]
+      },
+      {
+        "step": 34,
+        "before": [
+          {
+            "numerator": "-1111134929925",
+            "denominator": "549755813888"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2222269859825",
+          "denominator": "1099511627776"
+        },
+        "P_midpoint": {
+          "numerator": "36136482843187325070509908635704409373511997445446189224282516832070592729",
+          "denominator": "89415723873566239824288788164456628432980115232907241895757674091955013392793600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-2222269859825",
+            "denominator": "1099511627776"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ]
+      },
+      {
+        "step": 35,
+        "before": [
+          {
+            "numerator": "-2222269859825",
+            "denominator": "1099511627776"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4444539719625",
+          "denominator": "2199023255552"
+        },
+        "P_midpoint": {
+          "numerator": "40860443834041855544644694297822919490015417099541344833198845785216796267",
+          "denominator": "350363652729075878495172394440319850186371063769758988652764763788884950437068800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-4444539719625",
+            "denominator": "2199023255552"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ]
+      },
+      {
+        "step": 36,
+        "before": [
+          {
+            "numerator": "-4444539719625",
+            "denominator": "2199023255552"
+          },
+          {
+            "numerator": "-277783732475",
+            "denominator": "137438953472"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-8889079439225",
+          "denominator": "4398046511104"
+        },
+        "P_midpoint": {
+          "numerator": "-9938340926146266386135506075547565136157370432420315523175094210725670934711",
+          "denominator": "366246804986127318320286876321614350061486551993988062805023433080647734856882585600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-4444539719625",
+            "denominator": "2199023255552"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ]
+      },
+      {
+        "step": 37,
+        "before": [
+          {
+            "numerator": "-4444539719625",
+            "denominator": "2199023255552"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-17778158878475",
+          "denominator": "8796093022208"
+        },
+        "P_midpoint": {
+          "numerator": "1048782176881648926907042304912606700775858623589183111125783765852492599111201",
+          "denominator": "23439795519112148372498360084583318403935139327615236019521499717161455030840485478400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-17778158878475",
+            "denominator": "8796093022208"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ]
+      },
+      {
+        "step": 38,
+        "before": [
+          {
+            "numerator": "-17778158878475",
+            "denominator": "8796093022208"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-35556317756925",
+          "denominator": "17592186044416"
+        },
+        "P_midpoint": {
+          "numerator": "39621922329135157365453317160829926469566646408621331158776862860016353850060787",
+          "denominator": "4500440739669532487519685136239997133555546750902125315748127945694999365921373211852800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ]
+      },
+      {
+        "step": 39,
+        "before": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-8889079439225",
+            "denominator": "4398046511104"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-71112635513825",
+          "denominator": "35184372088832"
+        },
+        "P_midpoint": {
+          "numerator": "-17959273136757638847995696789272743750603168445872506982641505665503043209958711",
+          "denominator": "1959375560128231831301087406254148411888129197671673606856327813091700404210665888153600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-71112635513825",
+            "denominator": "35184372088832"
+          }
+        ]
+      },
+      {
+        "step": 40,
+        "before": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-71112635513825",
+            "denominator": "35184372088832"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-142225271027675",
+          "denominator": "70368744177664"
+        },
+        "P_midpoint": {
+          "numerator": "-1111574635187271155157157481623756907843292108516147929483025382530112014447981631",
+          "denominator": "6144601756562135022960210106013009419681173163898368431101444021855572467604648225249689600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 41,
+        "before": [
+          {
+            "numerator": "-35556317756925",
+            "denominator": "17592186044416"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-284450542055375",
+          "denominator": "140737488355328"
+        },
+        "P_midpoint": {
+          "numerator": "1695537812847087464522144971801841985865282462383127760462889783265361532696290207321",
+          "denominator": "393254512419976641469453446784832602859595082489495579590492417398756637926697486415980134400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-284450542055375",
+            "denominator": "140737488355328"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 42,
+        "before": [
+          {
+            "numerator": "-284450542055375",
+            "denominator": "140737488355328"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-568901084110725",
+          "denominator": "281474976710656"
+        },
+        "P_midpoint": {
+          "numerator": "155942115474647195868949582638207787595577952768751707701109065585964090085948652141827",
+          "denominator": "75504866384635515162135061782687859749042255837983151281374544140561274481925917391868185804800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-568901084110725",
+            "denominator": "281474976710656"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 43,
+        "before": [
+          {
+            "numerator": "-568901084110725",
+            "denominator": "281474976710656"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1137802168221425",
+          "denominator": "562949953421312"
+        },
+        "P_midpoint": {
+          "numerator": "1517686254479196848431286003213996013444954975101027964411732936633660972752825597182681",
+          "denominator": "1610770482872224323458881318030674341312901457876973894002656941665307188947752904359854630502400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1137802168221425",
+            "denominator": "562949953421312"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 44,
+        "before": [
+          {
+            "numerator": "-1137802168221425",
+            "denominator": "562949953421312"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2275604336442825",
+          "denominator": "1125899906842624"
+        },
+        "P_midpoint": {
+          "numerator": "117724188797994677190981712785263164651495797616615691230378769878647556621368181879453307",
+          "denominator": "309267932711467070104105213061889473532077079912378987648510132799738980277968557637092089056460800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-2275604336442825",
+            "denominator": "1125899906842624"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 45,
+        "before": [
+          {
+            "numerator": "-2275604336442825",
+            "denominator": "1125899906842624"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4551208672885625",
+          "denominator": "2251799813685248"
+        },
+        "P_midpoint": {
+          "numerator": "219650864120924293921167165984765956749747491219987275631998547400780653664035430308507587",
+          "denominator": "2199238632614876942962525959551214034005881457154695023278294277687032748643331965419321522179276800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-4551208672885625",
+            "denominator": "2251799813685248"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ]
+      },
+      {
+        "step": 46,
+        "before": [
+          {
+            "numerator": "-4551208672885625",
+            "denominator": "2251799813685248"
+          },
+          {
+            "numerator": "-142225271027675",
+            "denominator": "70368744177664"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-9102417345771225",
+          "denominator": "4503599627370496"
+        },
+        "P_midpoint": {
+          "numerator": "-51320792057798267791752817293138341422158476758087814251215458795945628221191702412635534693",
+          "denominator": "1266761452386169119146414952701499283587387719321104333408297503947730863218559212081529196775263436800"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-4551208672885625",
+            "denominator": "2251799813685248"
+          },
+          {
+            "numerator": "-9102417345771225",
+            "denominator": "4503599627370496"
+          }
+        ]
+      },
+      {
+        "step": 47,
+        "before": [
+          {
+            "numerator": "-4551208672885625",
+            "denominator": "2251799813685248"
+          },
+          {
+            "numerator": "-9102417345771225",
+            "denominator": "4503599627370496"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-18204834691542475",
+          "denominator": "9007199254740992"
+        },
+        "P_midpoint": {
+          "numerator": "802113127209081798921862263552588602779545096699875915028387366993816656023338185920466937761",
+          "denominator": "27024244317571607875123518990965318049864271345516892446043680084218258415329263191072622864538953318400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-18204834691542475",
+            "denominator": "9007199254740992"
+          },
+          {
+            "numerator": "-9102417345771225",
+            "denominator": "4503599627370496"
+          }
+        ]
+      },
+      {
+        "step": 48,
+        "before": [
+          {
+            "numerator": "-18204834691542475",
+            "denominator": "9007199254740992"
+          },
+          {
+            "numerator": "-9102417345771225",
+            "denominator": "4503599627370496"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-36409669383084925",
+          "denominator": "18014398509481984"
+        },
+        "P_midpoint": {
+          "numerator": "-9367373974100128550754470884739759720362872500832201451351804268845272519751998123690062792111",
+          "denominator": "1729551636324582904007905215421780355191313366113081116546795525389968538581072844228647863330493012377600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-18204834691542475",
+            "denominator": "9007199254740992"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ]
+      },
+      {
+        "step": 49,
+        "before": [
+          {
+            "numerator": "-18204834691542475",
+            "denominator": "9007199254740992"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-72819338766169875",
+          "denominator": "36028797018963968"
+        },
+        "P_midpoint": {
+          "numerator": "4028915152058964057123453820018418035196588697922220446202675562469402204098813319334631684030803",
+          "denominator": "332073914174319917569517801360981828196732166293711574376984740874873959407565986091900389759454658376499200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-72819338766169875",
+            "denominator": "36028797018963968"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ]
+      },
+      {
+        "step": 50,
+        "before": [
+          {
+            "numerator": "-72819338766169875",
+            "denominator": "36028797018963968"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-145638677532339725",
+          "denominator": "72057594037927936"
+        },
+        "P_midpoint": {
+          "numerator": "390011689448171066769587068680093546653379587313711373232726492816751492219894004002424862717189",
+          "denominator": "116135139383368714341252127251928071063338025370478364809437286426185428426689743769844945052486875060633600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-145638677532339725",
+            "denominator": "72057594037927936"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ]
+      },
+      {
+        "step": 51,
+        "before": [
+          {
+            "numerator": "-145638677532339725",
+            "denominator": "72057594037927936"
+          },
+          {
+            "numerator": "-36409669383084925",
+            "denominator": "18014398509481984"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-291277355064679425",
+          "denominator": "144115188075855872"
+        },
+        "P_midpoint": {
+          "numerator": "-1399492871191272057903258062118040049691384782741445940519280654793690186983722001590337460108575317",
+          "denominator": "1360174752458014382364744914374581568293814953139042608648129498623483737733390279032423996454726280710140723200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-145638677532339725",
+            "denominator": "72057594037927936"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ]
+      },
+      {
+        "step": 52,
+        "before": [
+          {
+            "numerator": "-145638677532339725",
+            "denominator": "72057594037927936"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-582554710129358875",
+          "denominator": "288230376151711744"
+        },
+        "P_midpoint": {
+          "numerator": "229901063809574939701108442979725441891911351324016411697137366406124445183543620268506222548520027",
+          "denominator": "197394975413407982928216949024882585874839358278681920529433759437421676224346888567063799939007895613263052800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-582554710129358875",
+            "denominator": "288230376151711744"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ]
+      },
+      {
+        "step": 53,
+        "before": [
+          {
+            "numerator": "-582554710129358875",
+            "denominator": "288230376151711744"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1165109420258717725",
+          "denominator": "576460752303423488"
+        },
+        "P_midpoint": {
+          "numerator": "126067470760331640414297472803562753175445944343433795024632479512045180572581253736057527169142540561",
+          "denominator": "1857091928689342303388665056426095367910488682685839508340912808787263129918655527638936229826186281929578800742400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ]
+      },
+      {
+        "step": 54,
+        "before": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-291277355064679425",
+            "denominator": "144115188075855872"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2330218840517435425",
+          "denominator": "1152921504606846976"
+        },
+        "P_midpoint": {
+          "numerator": "-57110617473263532315151907337337986525065723662517122790275638279484416640958793305363333454319148737031",
+          "denominator": "118853883436117907416874563611270103546271275691893728533818419762384840314793953768891918708875922043493043247513600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-2330218840517435425",
+            "denominator": "1152921504606846976"
+          }
+        ]
+      },
+      {
+        "step": 55,
+        "before": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-2330218840517435425",
+            "denominator": "1152921504606846976"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4660437681034870875",
+          "denominator": "2305843009213693952"
+        },
+        "P_midpoint": {
+          "numerator": "-4708060737081821875576858450410904806591093920353022048555915466759859868428806727843053084860104605008317",
+          "denominator": "22819945619734638224039916213363859880884084932843595878493136594377889340440439123627248392104177032350664303522611200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-4660437681034870875",
+            "denominator": "2305843009213693952"
+          }
+        ]
+      },
+      {
+        "step": 56,
+        "before": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-4660437681034870875",
+            "denominator": "2305843009213693952"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-9320875362069741775",
+          "denominator": "4611686018427387904"
+        },
+        "P_midpoint": {
+          "numerator": "-11231799667124859961528286627792019496514468347573540076505052256702795680428268766012927243078773176449677",
+          "denominator": "162275168851446316259839404183920781375175715077998904024840082448909435309798678212460433010518592230049168380605235200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-9320875362069741775",
+            "denominator": "4611686018427387904"
+          }
+        ]
+      },
+      {
+        "step": 57,
+        "before": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-9320875362069741775",
+            "denominator": "4611686018427387904"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-18641750724139483575",
+          "denominator": "9223372036854775808"
+        },
+        "P_midpoint": {
+          "numerator": "-62166522852307519861745333431335572746961103965991976921411382580448034271880245178985374601672742501064837",
+          "denominator": "93470497258433078165667496809938370072101211884927368718307887490571834738444038650377209414058709124508320987228615475200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 58,
+        "before": [
+          {
+            "numerator": "-1165109420258717725",
+            "denominator": "576460752303423488"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-37283501448278967175",
+          "denominator": "18446744073709551616"
+        },
+        "P_midpoint": {
+          "numerator": "67018848423541300491879479472895117823917236007706236255422423847176954542537234381933896546025268693760128329",
+          "denominator": "1994037274846572334200906598612018561538159186878450532657234933132199141086806157874713800833252461322844181060877130137600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-37283501448278967175",
+            "denominator": "18446744073709551616"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 59,
+        "before": [
+          {
+            "numerator": "-37283501448278967175",
+            "denominator": "18446744073709551616"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-74567002896557934325",
+          "denominator": "36893488147419103232"
+        },
+        "P_midpoint": {
+          "numerator": "2102164136619479674054122330968618960506478519361392920767426468743981758083581790421059033262373209669761417761",
+          "denominator": "127618385590180629388858022311169187938442187960220834090063035720460745029555594103981683253328157524662027587896136328806400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-74567002896557934325",
+            "denominator": "36893488147419103232"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 60,
+        "before": [
+          {
+            "numerator": "-74567002896557934325",
+            "denominator": "36893488147419103232"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-149134005793115868625",
+          "denominator": "73786976294838206464"
+        },
+        "P_midpoint": {
+          "numerator": "21517718514685821897308635770164468663696084182384814270593860876040496501752509372268138178171167085103019894963",
+          "denominator": "2722525559257186760295637809304942676020100009818044460588011428703162560630519340884942576071000693859456588541784241681203200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-149134005793115868625",
+            "denominator": "73786976294838206464"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 61,
+        "before": [
+          {
+            "numerator": "-149134005793115868625",
+            "denominator": "73786976294838206464"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-298268011586231737225",
+          "denominator": "147573952589676412928"
+        },
+        "P_midpoint": {
+          "numerator": "1891870780432822340203633967951558322818646786513978476265373401268440510798695475741604516833511715640820494902441",
+          "denominator": "522724907377379857976762459386548993795859201885064536432898194311007211641059713449908974605632133221015665000022574402791014400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-298268011586231737225",
+            "denominator": "147573952589676412928"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 62,
+        "before": [
+          {
+            "numerator": "-298268011586231737225",
+            "denominator": "147573952589676412928"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-596536023172463474425",
+          "denominator": "295147905179352825856"
+        },
+        "P_midpoint": {
+          "numerator": "49414732367321255022350033150945871064847323283985350948215710320681027897782457906952128345655227656964292295689289",
+          "denominator": "33454394072152310910512797400739135602934988920644130331705484435904461545027821660794174374760456526145002560001444761778624921600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-596536023172463474425",
+            "denominator": "295147905179352825856"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 63,
+        "before": [
+          {
+            "numerator": "-596536023172463474425",
+            "denominator": "295147905179352825856"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1193072046344926948825",
+          "denominator": "590295810358705651712"
+        },
+        "P_midpoint": {
+          "numerator": "869262948936420331006407702517800456863593122013314521203789257167738044001920458174356769996438024535856106755960201",
+          "denominator": "2141081220617747898272819033647304678587839290921224341229151003897885538881780586290827159984669217673280163840092464753831994982400"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-1193072046344926948825",
+            "denominator": "590295810358705651712"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ]
+      },
+      {
+        "step": 64,
+        "before": [
+          {
+            "numerator": "-1193072046344926948825",
+            "denominator": "590295810358705651712"
+          },
+          {
+            "numerator": "-18641750724139483575",
+            "denominator": "9223372036854775808"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2386144092689853897625",
+          "denominator": "1180591620717411303424"
+        },
+        "P_midpoint": {
+          "numerator": "-17752128790377578483592178269159687613035013982959046376048510143378669570147499533885860079912945669280449453458216951",
+          "denominator": "137029198119535865489460418153427499429621714618958357838665664249464674488433957522612938239018829931089930485765917744245247678873600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-1193072046344926948825",
+            "denominator": "590295810358705651712"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ]
+      },
+      {
+        "step": 65,
+        "before": [
+          {
+            "numerator": "-1193072046344926948825",
+            "denominator": "590295810358705651712"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4772288185379707795275",
+          "denominator": "2361183241434822606848"
+        },
+        "P_midpoint": {
+          "numerator": "3636547194389118978869471007513738196659340139908110242385938368659279968551418660381980888715664474576875037575291287523",
+          "denominator": "26309606038950886173976400285458079890487369206840004705023807535897217501779319844341684141891615346769266653267056206895087554343731200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-4772288185379707795275",
+            "denominator": "2361183241434822606848"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ]
+      },
+      {
+        "step": 66,
+        "before": [
+          {
+            "numerator": "-4772288185379707795275",
+            "denominator": "2361183241434822606848"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-9544576370759415590525",
+          "denominator": "4722366482869645213696"
+        },
+        "P_midpoint": {
+          "numerator": "2433476977457321704695982702687245602489702411935915068948391200690818157385414275322686082695847558755593381337402487889",
+          "denominator": "561271595497618905044829872756439037663730543079253433707174560765807306704625490012622595027021127397744355269697199080428534492666265600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ]
+      },
+      {
+        "step": 67,
+        "before": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-2386144092689853897625",
+            "denominator": "1180591620717411303424"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-19089152741518831181025",
+          "denominator": "9444732965739290427392"
+        },
+        "P_midpoint": {
+          "numerator": "-6746807284601207017458084124374492383264808782295874079301726900708690427628850093783147388313618158277188980774906936962197",
+          "denominator": "107764146335542829768607335569236295231436264271216659271777515667035002887288094082423538245188056460366916211781862223442278622591922995200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-19089152741518831181025",
+            "denominator": "9444732965739290427392"
+          }
+        ]
+      },
+      {
+        "step": 68,
+        "before": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-19089152741518831181025",
+            "denominator": "9444732965739290427392"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-38178305483037662362075",
+          "denominator": "18889465931478580854784"
+        },
+        "P_midpoint": {
+          "numerator": "-1366983337127488707528449239125295748770724911761329715168001059806273535666990828072104642444221095892860206954121806490479",
+          "denominator": "46917723574658102756400472628783148944298781723522899274787489814219320984941755246769431616952623220840017942544484233335413822080837222400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-38178305483037662362075",
+            "denominator": "18889465931478580854784"
+          }
+        ]
+      },
+      {
+        "step": 69,
+        "before": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-38178305483037662362075",
+            "denominator": "18889465931478580854784"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-76356610966075324724175",
+          "denominator": "37778931862957161709568"
+        },
+        "P_midpoint": {
+          "numerator": "-5473407534679848668806897108773445727973314612152296749111592664862883888754092678385897627727620969433268074729194171675907317",
+          "denominator": "441401943390383430732215646491591865267962938454903436377200704172175371826332033361606812652290279261662888803458507667219573238136516588339200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-76356610966075324724175",
+            "denominator": "37778931862957161709568"
+          }
+        ]
+      },
+      {
+        "step": 70,
+        "before": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-76356610966075324724175",
+            "denominator": "37778931862957161709568"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-152713221932150649448375",
+          "denominator": "75557863725914323419136"
+        },
+        "P_midpoint": {
+          "numerator": "-12656509754112470207832283559493941477718637875912106887254851541723909706061152833343028500575601939441743956949420227057012637",
+          "denominator": "3138858264109393285206866819495764375238847562345979992015649451891024866320583348349204001082953096971824987046816054522450298582304117961523200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-152713221932150649448375",
+            "denominator": "75557863725914323419136"
+          }
+        ]
+      },
+      {
+        "step": 71,
+        "before": [
+          {
+            "numerator": "-9544576370759415590525",
+            "denominator": "4722366482869645213696"
+          },
+          {
+            "numerator": "-152713221932150649448375",
+            "denominator": "75557863725914323419136"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-305426443864301298896775",
+          "denominator": "151115727451828646838272"
+        },
+        "P_midpoint": {
+          "numerator": "5598249050431751309592252729152160988679792220955454092666034020252204566507618262490503429778939292757213208207913819524231627",
+          "denominator": "36897599186265521066921536490399189390562779508393560722469675189576129040829714462227377645383285384811656990591143824590436162926676978486476800"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-152713221932150649448375",
+            "denominator": "75557863725914323419136"
+          }
+        ]
+      },
+      {
+        "step": 72,
+        "before": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-152713221932150649448375",
+            "denominator": "75557863725914323419136"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-610852887728602597793525",
+          "denominator": "302231454903657293676544"
+        },
+        "P_midpoint": {
+          "numerator": "-74835577758908021605811267163739610472228684408817247254801098110250910319143481074259165151582404576524953036357837202144451751391",
+          "denominator": "38570290349376224688621979477963952642934958846107402141888300464836913557347328184515018765307327655589785440831275677971869268979353001511197081600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-610852887728602597793525",
+            "denominator": "302231454903657293676544"
+          }
+        ]
+      },
+      {
+        "step": 73,
+        "before": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-610852887728602597793525",
+            "denominator": "302231454903657293676544"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-1221705775457205195587075",
+          "denominator": "604462909807314587353088"
+        },
+        "P_midpoint": {
+          "numerator": "-2207473325382080988913145584358039464757325389784080206996569823884318887208163681380890304525970304188783307486023290928091988550319",
+          "denominator": "2468498582360078380071806686589692969147837366150873737080851229749562467670229003808961200979668969957746268213201643390199633214678592096716613222400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-1221705775457205195587075",
+            "denominator": "604462909807314587353088"
+          }
+        ]
+      },
+      {
+        "step": 74,
+        "before": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-1221705775457205195587075",
+            "denominator": "604462909807314587353088"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-2443411550914410391174175",
+          "denominator": "1208925819614629174706176"
+        },
+        "P_midpoint": {
+          "numerator": "-58654175986436146686932391327337171193994621294235043887562627794547681054085092149326251863291248312417756249162251742264289822564231",
+          "denominator": "157983909271045016324595627941740350025461591433655919173174478703971997930894656243773516862698814077295761165644905176972776525739429894189863246233600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-2443411550914410391174175",
+            "denominator": "1208925819614629174706176"
+          }
+        ]
+      },
+      {
+        "step": 75,
+        "before": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-2443411550914410391174175",
+            "denominator": "1208925819614629174706176"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-4886823101828820782348375",
+          "denominator": "2417851639229258349412352"
+        },
+        "P_midpoint": {
+          "numerator": "-18195008595333905190998977979409332590018571385957078159183198658003496300955588453542728259891620421340501026275083035021564593427299",
+          "denominator": "165753609726998049914329839151989875436549866422196374214478141591052587993069803272155820970700395097490634665594654611905863895857762511936905700966400"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-4886823101828820782348375",
+            "denominator": "2417851639229258349412352"
+          }
+        ]
+      },
+      {
+        "step": 76,
+        "before": [
+          {
+            "numerator": "-305426443864301298896775",
+            "denominator": "151115727451828646838272"
+          },
+          {
+            "numerator": "-4886823101828820782348375",
+            "denominator": "2417851639229258349412352"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-9773646203657641564696775",
+          "denominator": "4835703278458516698824704"
+        },
+        "P_midpoint": {
+          "numerator": "13573782085945879616354718453607624123101805150298285037552887426586162927691353211685991922171100649361886631876544794549058407204109769",
+          "denominator": "647102092374200386865543692049368473704290678512254644933322664771469303524944511974496325069614342460603437734481531604880492649428704846601679856572825600"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-4886823101828820782348375",
+            "denominator": "2417851639229258349412352"
+          }
+        ]
+      },
+      {
+        "step": 77,
+        "before": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-4886823101828820782348375",
+            "denominator": "2417851639229258349412352"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-19547292407315283129393525",
+          "denominator": "9671406556917033397649408"
+        },
+        "P_midpoint": {
+          "numerator": "-5516115021142817879933423128490889776238940163231606031764728254925501306634062114214388530801431395713866400959717481071913494123548610717",
+          "denominator": "124243601735846474278184388873478746951223810274352891827197951636122106276789346299103294413365953752435860045020454068137054588690311330547522532461982515200"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-19547292407315283129393525",
+            "denominator": "9671406556917033397649408"
+          }
+        ]
+      },
+      {
+        "step": 78,
+        "before": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-19547292407315283129393525",
+            "denominator": "9671406556917033397649408"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-39094584814630566258787075",
+          "denominator": "19342813113834066795298816"
+        },
+        "P_midpoint": {
+          "numerator": "-31039454513506229264995997374926540137845228527860862169207345167335011922904477784941437431587168176860538753790628649983570902695987624111",
+          "denominator": "2650530170364724784601266962634213268292774619186195025646889634903938267238172721047536947485140346718631680960436353453590497892059975051680480692522293657600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-39094584814630566258787075",
+            "denominator": "19342813113834066795298816"
+          }
+        ]
+      },
+      {
+        "step": 79,
+        "before": [
+          {
+            "numerator": "-9773646203657641564696775",
+            "denominator": "4835703278458516698824704"
+          },
+          {
+            "numerator": "-39094584814630566258787075",
+            "denominator": "19342813113834066795298816"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-78189169629261132517574175",
+          "denominator": "38685626227668133590597632"
+        },
+        "P_midpoint": {
+          "numerator": "2357640663410696989784891748388245430976824015934805207060961584449001522424622235005067531183233804103752844441978067214107611476130591657323",
+          "denominator": "508901792710027158643443256825768947512212726883749444924202809901556147309729162441127093917146946569977282744403779863089375595275515209922652292964280382259200"
+        },
+        "branch": "right_half",
+        "after": [
+          {
+            "numerator": "-78189169629261132517574175",
+            "denominator": "38685626227668133590597632"
+          },
+          {
+            "numerator": "-39094584814630566258787075",
+            "denominator": "19342813113834066795298816"
+          }
+        ]
+      },
+      {
+        "step": 80,
+        "before": [
+          {
+            "numerator": "-78189169629261132517574175",
+            "denominator": "38685626227668133590597632"
+          },
+          {
+            "numerator": "-39094584814630566258787075",
+            "denominator": "19342813113834066795298816"
+          }
+        ],
+        "midpoint": {
+          "numerator": "-156378339258522265035148325",
+          "denominator": "77371252455336267181195264"
+        },
+        "P_midpoint": {
+          "numerator": "-38420635767279989643673114508095374901112283638095534666450493225679933162853915660729370463123230045363563666090380575113691333990609288854591",
+          "denominator": "10856571577813912717726789478949737546927204840186654825049659944566531142607555465410711336899134860159515365213947303745906679365877657811683248916571314821529600"
+        },
+        "branch": "left_half",
+        "after": [
+          {
+            "numerator": "-78189169629261132517574175",
+            "denominator": "38685626227668133590597632"
+          },
+          {
+            "numerator": "-156378339258522265035148325",
+            "denominator": "77371252455336267181195264"
+          }
+        ]
+      }
+    ],
+    "completed_bisections": 80,
+    "exact_root_point": null,
+    "final_closed_interval": [
+      {
+        "numerator": "-78189169629261132517574175",
+        "denominator": "38685626227668133590597632"
+      },
+      {
+        "numerator": "-156378339258522265035148325",
+        "denominator": "77371252455336267181195264"
+      }
+    ],
+    "final_endpoint_values": [
+      {
+        "numerator": "2357640663410696989784891748388245430976824015934805207060961584449001522424622235005067531183233804103752844441978067214107611476130591657323",
+        "denominator": "508901792710027158643443256825768947512212726883749444924202809901556147309729162441127093917146946569977282744403779863089375595275515209922652292964280382259200"
+      },
+      {
+        "numerator": "-38420635767279989643673114508095374901112283638095534666450493225679933162853915660729370463123230045363563666090380575113691333990609288854591",
+        "denominator": "10856571577813912717726789478949737546927204840186654825049659944566531142607555465410711336899134860159515365213947303745906679365877657811683248916571314821529600"
+      }
+    ],
+    "stop_reason": "exactly_80_bisections"
+  },
+  "interval_horner_traces": {
+    "v": [
+      {
+        "coefficient_index": 3,
+        "interval": [
+          {
+            "numerator": "-646271818",
+            "denominator": "2699067"
+          },
+          {
+            "numerator": "-646271818",
+            "denominator": "2699067"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 2,
+        "four_products": [
+          {
+            "numerator": "8421909467368829684811929837850025",
+            "denominator": "17402516187572257720995596468224"
+          },
+          {
+            "numerator": "50531456804212978108871570948702425",
+            "denominator": "104415097125433546325973578809344"
+          },
+          {
+            "numerator": "8421909467368829684811929837850025",
+            "denominator": "17402516187572257720995596468224"
+          },
+          {
+            "numerator": "50531456804212978108871570948702425",
+            "denominator": "104415097125433546325973578809344"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-154504520625812222044072619027315651",
+            "denominator": "522075485627167731629867894046720"
+          },
+          {
+            "numerator": "-77252260312906111022036289317663513",
+            "denominator": "261037742813583865814933947023360"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 1,
+        "four_products": [
+          {
+            "numerator": "805372011446620481316867767797542248073006926848608835394195",
+            "denominator": "1346454473306729180749573123544760272559335724705315291136"
+          },
+          {
+            "numerator": "4832232068679722887901205834262650359376931340728557875786915",
+            "denominator": "8078726839840375084497438741268561635356014348231891746816"
+          },
+          {
+            "numerator": "402686005723310240658433778624902781926132403275181444571785",
+            "denominator": "673227236653364590374786561772380136279667862352657645568"
+          },
+          {
+            "numerator": "2416116034339861443950602285488115127026239309469642079113145",
+            "denominator": "4039363419920187542248719370634280817678007174115945873408"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-696971432182895096954839971175541985820837060941184556972833",
+            "denominator": "6732272366533645903747865617723801362796678623526576455680"
+          },
+          {
+            "numerator": "-2090914296548685290864514824004067871498603827442631535571299",
+            "denominator": "20196817099600937711243596853171404088390035870579729367040"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 0,
+        "four_products": [
+          {
+            "numerator": "10899123507539491278575516326376462610931252745749276005964637442695741484982107477555",
+            "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+          },
+          {
+            "numerator": "21798247015078982557151029167895764307387020717298696134219345781206178264041430090945",
+            "denominator": "104176868973831770544437155931481415128600619233845493420095554298495355692624379904"
+          },
+          {
+            "numerator": "10899123507539491278575489796673620868632762410745090736699512255565816820184415573555",
+            "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+          },
+          {
+            "numerator": "65394741045236947671452928325470242468370120141896424399857716040375763707948815584835",
+            "denominator": "312530606921495311633311467794444245385801857701536480260286662895486067077873139712"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "1074586378817107864281726721160907995118510945625523270250543458427305809888925615297",
+            "denominator": "104176868973831770544437155931481415128600619233845493420095554298495355692624379904"
+          },
+          {
+            "numerator": "1611879568225661796422674898135628591286464584737900723340869495540301315805303063193",
+            "denominator": "156265303460747655816655733897222122692900928850768240130143331447743033538936569856"
+          }
+        ]
+      }
+    ],
+    "w": [
+      {
+        "coefficient_index": 3,
+        "interval": [
+          {
+            "numerator": "196585982",
+            "denominator": "1770525"
+          },
+          {
+            "numerator": "196585982",
+            "denominator": "1770525"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 2,
+        "four_products": [
+          {
+            "numerator": "-102472631288885837802663009668099",
+            "denominator": "456625789178280814836619149312"
+          },
+          {
+            "numerator": "-614835787733315026815977959715603",
+            "denominator": "2739754735069684889019714895872"
+          },
+          {
+            "numerator": "-102472631288885837802663009668099",
+            "denominator": "456625789178280814836619149312"
+          },
+          {
+            "numerator": "-614835787733315026815977959715603",
+            "denominator": "2739754735069684889019714895872"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "269051872855817591823414087927174461",
+            "denominator": "1198642696592987138946125266944000"
+          },
+          {
+            "numerator": "59789305079070575960758695762301783",
+            "denominator": "266365043687330475321361170432000"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 1,
+        "four_products": [
+          {
+            "numerator": "-280492567010585607193067920263851743145393815101795116441929",
+            "denominator": "618269911212273603405416230199124614950715383793257021440"
+          },
+          {
+            "numerator": "-1682955402063513643158407252531237603054771067196682771477113",
+            "denominator": "3709619467273641620432497381194747689704292302759542128640"
+          },
+          {
+            "numerator": "-62331681557907912709570658910139540451766189725969299163387",
+            "denominator": "137393313602727467423425828933138803322381196398501560320"
+          },
+          {
+            "numerator": "-373990089347447476257423893671532163640021177597120032678539",
+            "denominator": "824359881616364804540554973598832819934287178391009361920"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "32593258008632527551851436974691776960396098207790191662643",
+            "denominator": "4416213651516240024324401644279461535362252741380407296000"
+          },
+          {
+            "numerator": "684458418181283078588893627531777044741219447475801673273903",
+            "denominator": "92740486681841040510812434529868692242607307568988553216000"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 0,
+        "four_products": [
+          {
+            "numerator": "-33979197056096568034646226029151617653362626208539529048413732545529110863471053927",
+            "denominator": "2277919875521102854470200202583412867243453773334813996066229321395671042841640960"
+          },
+          {
+            "numerator": "-203875182336579408207877323581651697287648205399800199598705434877076457390634660919",
+            "denominator": "13667519253126617126821201215500477203460722640008883976397375928374026257049845760"
+          },
+          {
+            "numerator": "-713563138178027928727584769645065663359079216303510229826776433462416417954078590067",
+            "denominator": "47836317385943159943874204254251670212112529240031093917390815749309091899674460160"
+          },
+          {
+            "numerator": "-4281378829068167572365507933411975798871396708927433847183613859555051031922798266499",
+            "denominator": "287017904315658959663245225525510021272675175440186563504344894495854551398046760960"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "93950252045655325765192816061291924356779532913731170163620215555368727576430077721923",
+            "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+          },
+          {
+            "numerator": "187900504091310651530386056235862390399128380749588626264179653452516919665465873749361",
+            "denominator": "1435089521578294798316226127627550106363375877200932817521724472479272756990233804800"
+          }
+        ]
+      }
+    ],
+    "V1": [
+      {
+        "coefficient_index": 3,
+        "interval": [
+          {
+            "numerator": "-460876828",
+            "denominator": "2824605"
+          },
+          {
+            "numerator": "-460876828",
+            "denominator": "2824605"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 2,
+        "four_products": [
+          {
+            "numerator": "600592941378130112306454000478615",
+            "denominator": "1821193554513375808011167072256"
+          },
+          {
+            "numerator": "3603557648268780673838723426775655",
+            "denominator": "10927161327080254848067002433536"
+          },
+          {
+            "numerator": "600592941378130112306454000478615",
+            "denominator": "1821193554513375808011167072256"
+          },
+          {
+            "numerator": "3603557648268780673838723426775655",
+            "denominator": "10927161327080254848067002433536"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "7117536505665987109489381476082007",
+            "denominator": "30353225908556263466852784537600"
+          },
+          {
+            "numerator": "32028914275496941992702223843569469",
+            "denominator": "136589516588503185600837530419200"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 1,
+        "four_products": [
+          {
+            "numerator": "-7420190255786352079283243990746636487413052511938013404923",
+            "denominator": "15656447364031734659878757250520468285573671217503666176"
+          },
+          {
+            "numerator": "-44521141534718112475699456826943313258491205582246604347531",
+            "denominator": "93938684184190407959272543503122809713442027305021997056"
+          },
+          {
+            "numerator": "-33390856151038584356774605465771631419985140134396066304841",
+            "denominator": "70454013138142805969454407627342107285081520478766497792"
+          },
+          {
+            "numerator": "-200345136906231506140647600765715513022968848104152554259577",
+            "denominator": "422724078828856835816726445764052643710489122872598986752"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-482044510742615588015221839998455661596016552450865750499873",
+            "denominator": "1761350328453570149236360190683552682127038011969162444800"
+          },
+          {
+            "numerator": "-275454006138637478865840867919629714110341802147478813940031",
+            "denominator": "1006485901973468656706491537533458675501164578268092825600"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 0,
+        "four_products": [
+          {
+            "numerator": "502542133590780806228463873817629840549428894577054655636706819149569582492848074397",
+            "denominator": "908519206167137533817765894751291411005237958434699070524089136324087404296142848"
+          },
+          {
+            "numerator": "3015252801544684837370782760861268300680985352240487935364579318880865044091337946509",
+            "denominator": "5451115237002825202906595368507748466031427750608194423144534817944524425776857088"
+          },
+          {
+            "numerator": "287166933480446174987693450870265807480418688434268730926202751262064835067760590659",
+            "denominator": "519153832095507162181580511286452234860135976248399468870908077899478516740653056"
+          },
+          {
+            "numerator": "1723001600882677049926160429767588706245033264764744465927502397230586862927749603923",
+            "denominator": "3114922992573042973089483067718713409160815857490396813225448467396871100443918336"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "224240283346398851395884044742260537804455734366208269953802191635449252917054822700043",
+            "denominator": "327066914220169512174395722110464907961885665036491665388672089076671465546611425280"
+          },
+          {
+            "numerator": "28030035418299856424485524273876308280815205451706222132578611852510335250883302633881",
+            "denominator": "40883364277521189021799465263808113495235708129561458173584011134583933193326428160"
+          }
+        ]
+      }
+    ],
+    "V2": [
+      {
+        "coefficient_index": 3,
+        "interval": [
+          {
+            "numerator": "1292543636",
+            "denominator": "2699067"
+          },
+          {
+            "numerator": "1292543636",
+            "denominator": "2699067"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 2,
+        "four_products": [
+          {
+            "numerator": "-8421909467368829684811929837850025",
+            "denominator": "8701258093786128860497798234112"
+          },
+          {
+            "numerator": "-50531456804212978108871570948702425",
+            "denominator": "52207548562716773162986789404672"
+          },
+          {
+            "numerator": "-8421909467368829684811929837850025",
+            "denominator": "8701258093786128860497798234112"
+          },
+          {
+            "numerator": "-50531456804212978108871570948702425",
+            "denominator": "52207548562716773162986789404672"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "77252260312906111022036289317663513",
+            "denominator": "130518871406791932907466973511680"
+          },
+          {
+            "numerator": "154504520625812222044072619027315651",
+            "denominator": "261037742813583865814933947023360"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 1,
+        "four_products": [
+          {
+            "numerator": "-402686005723310240658433778624902781926132403275181444571785",
+            "denominator": "336613618326682295187393280886190068139833931176328822784"
+          },
+          {
+            "numerator": "-2416116034339861443950602285488115127026239309469642079113145",
+            "denominator": "2019681709960093771124359685317140408839003587057972936704"
+          },
+          {
+            "numerator": "-805372011446620481316867767797542248073006926848608835394195",
+            "denominator": "673227236653364590374786561772380136279667862352657645568"
+          },
+          {
+            "numerator": "-4832232068679722887901205834262650359376931340728557875786915",
+            "denominator": "4039363419920187542248719370634280817678007174115945873408"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "2090914296548685290864514824004067871498603827442631535571299",
+            "denominator": "10098408549800468855621798426585702044195017935289864683520"
+          },
+          {
+            "numerator": "696971432182895096954839971175541985820837060941184556972833",
+            "denominator": "3366136183266822951873932808861900681398339311763288227840"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 0,
+        "four_products": [
+          {
+            "numerator": "-10899123507539491278575489796673620868632762410745090736699512255565816820184415573555",
+            "denominator": "26044217243457942636109288982870353782150154808461373355023888574623838923156094976"
+          },
+          {
+            "numerator": "-65394741045236947671452928325470242468370120141896424399857716040375763707948815584835",
+            "denominator": "156265303460747655816655733897222122692900928850768240130143331447743033538936569856"
+          },
+          {
+            "numerator": "-10899123507539491278575516326376462610931252745749276005964637442695741484982107477555",
+            "denominator": "26044217243457942636109288982870353782150154808461373355023888574623838923156094976"
+          },
+          {
+            "numerator": "-21798247015078982557151029167895764307387020717298696134219345781206178264041430090945",
+            "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-1611879568225661796422674898135628591286464584737900723340869495540301315805303063193",
+            "denominator": "78132651730373827908327866948611061346450464425384120065071665723871516769468284928"
+          },
+          {
+            "numerator": "-1074586378817107864281726721160907995118510945625523270250543458427305809888925615297",
+            "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+          }
+        ]
+      }
+    ],
+    "V3": [
+      {
+        "coefficient_index": 3,
+        "interval": [
+          {
+            "numerator": "-393171964",
+            "denominator": "1770525"
+          },
+          {
+            "numerator": "-393171964",
+            "denominator": "1770525"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 2,
+        "four_products": [
+          {
+            "numerator": "102472631288885837802663009668099",
+            "denominator": "228312894589140407418309574656"
+          },
+          {
+            "numerator": "614835787733315026815977959715603",
+            "denominator": "1369877367534842444509857447936"
+          },
+          {
+            "numerator": "102472631288885837802663009668099",
+            "denominator": "228312894589140407418309574656"
+          },
+          {
+            "numerator": "614835787733315026815977959715603",
+            "denominator": "1369877367534842444509857447936"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-59789305079070575960758695762301783",
+            "denominator": "133182521843665237660680585216000"
+          },
+          {
+            "numerator": "-269051872855817591823414087927174461",
+            "denominator": "599321348296493569473062633472000"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 1,
+        "four_products": [
+          {
+            "numerator": "62331681557907912709570658910139540451766189725969299163387",
+            "denominator": "68696656801363733711712914466569401661190598199250780160"
+          },
+          {
+            "numerator": "373990089347447476257423893671532163640021177597120032678539",
+            "denominator": "412179940808182402270277486799416409967143589195504680960"
+          },
+          {
+            "numerator": "280492567010585607193067920263851743145393815101795116441929",
+            "denominator": "309134955606136801702708115099562307475357691896628510720"
+          },
+          {
+            "numerator": "1682955402063513643158407252531237603054771067196682771477113",
+            "denominator": "1854809733636820810216248690597373844852146151379771064320"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-684458418181283078588893627531777044741219447475801673273903",
+            "denominator": "46370243340920520255406217264934346121303653784494276608000"
+          },
+          {
+            "numerator": "-32593258008632527551851436974691776960396098207790191662643",
+            "denominator": "2208106825758120012162200822139730767681126370690203648000"
+          }
+        ]
+      },
+      {
+        "coefficient_index": 0,
+        "four_products": [
+          {
+            "numerator": "713563138178027928727584769645065663359079216303510229826776433462416417954078590067",
+            "denominator": "23918158692971579971937102127125835106056264620015546958695407874654545949837230080"
+          },
+          {
+            "numerator": "4281378829068167572365507933411975798871396708927433847183613859555051031922798266499",
+            "denominator": "143508952157829479831622612762755010636337587720093281752172447247927275699023380480"
+          },
+          {
+            "numerator": "33979197056096568034646226029151617653362626208539529048413732545529110863471053927",
+            "denominator": "1138959937760551427235100101291706433621726886667406998033114660697835521420820480"
+          },
+          {
+            "numerator": "203875182336579408207877323581651697287648205399800199598705434877076457390634660919",
+            "denominator": "6833759626563308563410600607750238601730361320004441988198687964187013128524922880"
+          }
+        ],
+        "interval": [
+          {
+            "numerator": "-187900504091310651530386056235862390399128380749588626264179653452516919665465873749361",
+            "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+          },
+          {
+            "numerator": "-93950252045655325765192816061291924356779532913731170163620215555368727576430077721923",
+            "denominator": "358772380394573699579056531906887526590843969300233204380431118119818189247558451200"
+          }
+        ]
+      }
+    ]
+  },
+  "intervals": {
+    "alpha": [
+      {
+        "numerator": "-78189169629261132517574175",
+        "denominator": "38685626227668133590597632"
+      },
+      {
+        "numerator": "-156378339258522265035148325",
+        "denominator": "77371252455336267181195264"
+      }
+    ],
+    "v": [
+      {
+        "numerator": "1074586378817107864281726721160907995118510945625523270250543458427305809888925615297",
+        "denominator": "104176868973831770544437155931481415128600619233845493420095554298495355692624379904"
+      },
+      {
+        "numerator": "1611879568225661796422674898135628591286464584737900723340869495540301315805303063193",
+        "denominator": "156265303460747655816655733897222122692900928850768240130143331447743033538936569856"
+      }
+    ],
+    "w": [
+      {
+        "numerator": "93950252045655325765192816061291924356779532913731170163620215555368727576430077721923",
+        "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+      },
+      {
+        "numerator": "187900504091310651530386056235862390399128380749588626264179653452516919665465873749361",
+        "denominator": "1435089521578294798316226127627550106363375877200932817521724472479272756990233804800"
+      }
+    ],
+    "V1": [
+      {
+        "numerator": "224240283346398851395884044742260537804455734366208269953802191635449252917054822700043",
+        "denominator": "327066914220169512174395722110464907961885665036491665388672089076671465546611425280"
+      },
+      {
+        "numerator": "28030035418299856424485524273876308280815205451706222132578611852510335250883302633881",
+        "denominator": "40883364277521189021799465263808113495235708129561458173584011134583933193326428160"
+      }
+    ],
+    "V2": [
+      {
+        "numerator": "-1611879568225661796422674898135628591286464584737900723340869495540301315805303063193",
+        "denominator": "78132651730373827908327866948611061346450464425384120065071665723871516769468284928"
+      },
+      {
+        "numerator": "-1074586378817107864281726721160907995118510945625523270250543458427305809888925615297",
+        "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+      }
+    ],
+    "V3": [
+      {
+        "numerator": "-187900504091310651530386056235862390399128380749588626264179653452516919665465873749361",
+        "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+      },
+      {
+        "numerator": "-93950252045655325765192816061291924356779532913731170163620215555368727576430077721923",
+        "denominator": "358772380394573699579056531906887526590843969300233204380431118119818189247558451200"
+      }
+    ]
+  },
+  "rounding": {
+    "q": 36,
+    "common_denominator": 68719476736,
+    "rule": "nearest; ties to even",
+    "records": {
+      "alpha": {
+        "exact_midpoint_value": {
+          "numerator": "-312756678517044530070296675",
+          "denominator": "154742504910672534362390528"
+        },
+        "scaled_floor": -138891866238,
+        "remainder": 80256979560349,
+        "remainder_denominator": 2251799813685248,
+        "tie": false,
+        "rounded_numerator": -138891866238,
+        "rounded": {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        },
+        "absolute_midpoint_rounding_error": {
+          "numerator": "80256979560349",
+          "denominator": "154742504910672534362390528"
+        }
+      },
+      "v": {
+        "exact_midpoint_value": {
+          "numerator": "51580146183221177485524239678031849343427696050780343929310501875389142340511233443591",
+          "denominator": "5000489710743924986132983484711107926172829723224583684164586606327777073245970235392"
+        },
+        "scaled_floor": 708842705557,
+        "remainder": 53591522548991561337288502594461895445384176537445671135533208937352103687,
+        "remainder_denominator": 72766702371066275898672516409876813503401786485113315344854878004520681472,
+        "tie": false,
+        "rounded_numerator": 708842705558,
+        "rounded": {
+          "numerator": "354421352779",
+          "denominator": "34359738368"
+        },
+        "absolute_midpoint_rounding_error": {
+          "numerator": "19175179822074714561384013815414918058017609947667644209321669067168577785",
+          "denominator": "5000489710743924986132983484711107926172829723224583684164586606327777073245970235392"
+        }
+      },
+      "w": {
+        "exact_midpoint_value": {
+          "numerator": "1002136021820323474828724502289189970967166524205514086222596195100648901867107538888927",
+          "denominator": "7653810781750905591019872680680267233938004678404975026782530519889454703947913625600"
+        },
+        "scaled_floor": 8997643788371,
+        "remainder": 18686784361533289092507009745250462181067230715158113177720279743249967327,
+        "remainder_denominator": 111377605669999401885723239402872673729696611967010176548247262251817369600,
+        "tie": false,
+        "rounded_numerator": 8997643788371,
+        "rounded": {
+          "numerator": "8997643788371",
+          "denominator": "68719476736"
+        },
+        "absolute_midpoint_rounding_error": {
+          "numerator": "18686784361533289092507009745250462181067230715158113177720279743249967327",
+          "denominator": "7653810781750905591019872680680267233938004678404975026782530519889454703947913625600"
+        }
+      }
+    }
+  },
+  "dyadic_reconstruction": {
+    "U": [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "-69445933119",
+        "denominator": "34359738368"
+      }
+    ],
+    "V": [
+      {
+        "numerator": "47114747058529",
+        "denominator": "68719476736"
+      },
+      {
+        "numerator": "-354421352779",
+        "denominator": "17179869184"
+      },
+      {
+        "numerator": "-8997643788371",
+        "denominator": "34359738368"
+      }
+    ],
+    "common_numerators_U": [
+      0,
+      68719476736,
+      -138891866238
+    ],
+    "common_numerators_V": [
+      47114747058529,
+      -1417685411116,
+      -17995287576742
+    ],
+    "construction_integers": {
+      "A": -138891866238,
+      "Vn": 708842705558,
+      "Wn": 8997643788371,
+      "denominator": 68719476736,
+      "3Vn": 2126528116674,
+      "5Wn": 44988218941855,
+      "3Vn+5Wn": 47114747058529,
+      "-2Vn": -1417685411116,
+      "-2Wn": -17995287576742
+    },
+    "binary64": {
+      "U": [
+        {
+          "rational": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "float_hex": "0x0.0p+0",
+          "float_ratio": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "decimal_display_only": "0.0"
+        },
+        {
+          "rational": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "float_hex": "0x1.0000000000000p+0",
+          "float_ratio": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "decimal_display_only": "1.0"
+        },
+        {
+          "rational": {
+            "numerator": "-69445933119",
+            "denominator": "34359738368"
+          },
+          "float_hex": "-0x1.02b4cd83f0000p+1",
+          "float_ratio": {
+            "numerator": "-69445933119",
+            "denominator": "34359738368"
+          },
+          "decimal_display_only": "-2.021142663405044"
+        }
+      ],
+      "V": [
+        {
+          "rational": {
+            "numerator": "47114747058529",
+            "denominator": "68719476736"
+          },
+          "float_hex": "0x1.56ce0e18cb080p+9",
+          "float_ratio": {
+            "numerator": "47114747058529",
+            "denominator": "68719476736"
+          },
+          "decimal_display_only": "685.6098052016605"
+        },
+        {
+          "rational": {
+            "numerator": "-354421352779",
+            "denominator": "17179869184"
+          },
+          "float_hex": "-0x1.4a14a2a52c000p+4",
+          "float_ratio": {
+            "numerator": "-354421352779",
+            "denominator": "17179869184"
+          },
+          "decimal_display_only": "-20.63003792305244"
+        },
+        {
+          "rational": {
+            "numerator": "-8997643788371",
+            "denominator": "34359738368"
+          },
+          "float_hex": "-0x1.05ddab940a600p+8",
+          "float_ratio": {
+            "numerator": "-8997643788371",
+            "denominator": "34359738368"
+          },
+          "decimal_display_only": "-261.86589932683273"
+        }
+      ]
+    }
+  },
+  "twelve_modes": [
+    {
+      "family": "low",
+      "cycle": 0,
+      "polarity": 1,
+      "frequency": [
+        1,
+        0,
+        0
+      ],
+      "common_numerators": [
+        0,
+        68719476736,
+        -138891866238
+      ],
+      "coefficients": [
+        {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        }
+      ],
+      "float_hex": [
+        "0x0.0p+0",
+        "0x1.0000000000000p+0",
+        "-0x1.02b4cd83f0000p+1"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "low",
+      "cycle": 0,
+      "polarity": -1,
+      "frequency": [
+        -1,
+        0,
+        0
+      ],
+      "common_numerators": [
+        0,
+        68719476736,
+        -138891866238
+      ],
+      "coefficients": [
+        {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        }
+      ],
+      "float_hex": [
+        "0x0.0p+0",
+        "0x1.0000000000000p+0",
+        "-0x1.02b4cd83f0000p+1"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "low",
+      "cycle": 1,
+      "polarity": 1,
+      "frequency": [
+        0,
+        1,
+        0
+      ],
+      "common_numerators": [
+        -138891866238,
+        0,
+        68719476736
+      ],
+      "coefficients": [
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        {
+          "numerator": "1",
+          "denominator": "1"
+        }
+      ],
+      "float_hex": [
+        "-0x1.02b4cd83f0000p+1",
+        "0x0.0p+0",
+        "0x1.0000000000000p+0"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "low",
+      "cycle": 1,
+      "polarity": -1,
+      "frequency": [
+        0,
+        -1,
+        0
+      ],
+      "common_numerators": [
+        -138891866238,
+        0,
+        68719476736
+      ],
+      "coefficients": [
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        {
+          "numerator": "1",
+          "denominator": "1"
+        }
+      ],
+      "float_hex": [
+        "-0x1.02b4cd83f0000p+1",
+        "0x0.0p+0",
+        "0x1.0000000000000p+0"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "low",
+      "cycle": 2,
+      "polarity": 1,
+      "frequency": [
+        0,
+        0,
+        1
+      ],
+      "common_numerators": [
+        68719476736,
+        -138891866238,
+        0
+      ],
+      "coefficients": [
+        {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      ],
+      "float_hex": [
+        "0x1.0000000000000p+0",
+        "-0x1.02b4cd83f0000p+1",
+        "0x0.0p+0"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "low",
+      "cycle": 2,
+      "polarity": -1,
+      "frequency": [
+        0,
+        0,
+        -1
+      ],
+      "common_numerators": [
+        68719476736,
+        -138891866238,
+        0
+      ],
+      "coefficients": [
+        {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        {
+          "numerator": "-69445933119",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      ],
+      "float_hex": [
+        "0x1.0000000000000p+0",
+        "-0x1.02b4cd83f0000p+1",
+        "0x0.0p+0"
+      ],
+      "dot_product_integer_terms": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_integer_partial_sums": [
+        0,
+        0,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 0,
+      "polarity": 1,
+      "frequency": [
+        2,
+        3,
+        5
+      ],
+      "common_numerators": [
+        47114747058529,
+        -1417685411116,
+        -17995287576742
+      ],
+      "coefficients": [
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        },
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        },
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        }
+      ],
+      "float_hex": [
+        "0x1.56ce0e18cb080p+9",
+        "-0x1.4a14a2a52c000p+4",
+        "-0x1.05ddab940a600p+8"
+      ],
+      "dot_product_integer_terms": [
+        94229494117058,
+        -4253056233348,
+        -89976437883710
+      ],
+      "dot_product_integer_partial_sums": [
+        94229494117058,
+        89976437883710,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 0,
+      "polarity": -1,
+      "frequency": [
+        -2,
+        -3,
+        -5
+      ],
+      "common_numerators": [
+        47114747058529,
+        -1417685411116,
+        -17995287576742
+      ],
+      "coefficients": [
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        },
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        },
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        }
+      ],
+      "float_hex": [
+        "0x1.56ce0e18cb080p+9",
+        "-0x1.4a14a2a52c000p+4",
+        "-0x1.05ddab940a600p+8"
+      ],
+      "dot_product_integer_terms": [
+        -94229494117058,
+        4253056233348,
+        89976437883710
+      ],
+      "dot_product_integer_partial_sums": [
+        -94229494117058,
+        -89976437883710,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 1,
+      "polarity": 1,
+      "frequency": [
+        5,
+        2,
+        3
+      ],
+      "common_numerators": [
+        -17995287576742,
+        47114747058529,
+        -1417685411116
+      ],
+      "coefficients": [
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        },
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        }
+      ],
+      "float_hex": [
+        "-0x1.05ddab940a600p+8",
+        "0x1.56ce0e18cb080p+9",
+        "-0x1.4a14a2a52c000p+4"
+      ],
+      "dot_product_integer_terms": [
+        -89976437883710,
+        94229494117058,
+        -4253056233348
+      ],
+      "dot_product_integer_partial_sums": [
+        -89976437883710,
+        4253056233348,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 1,
+      "polarity": -1,
+      "frequency": [
+        -5,
+        -2,
+        -3
+      ],
+      "common_numerators": [
+        -17995287576742,
+        47114747058529,
+        -1417685411116
+      ],
+      "coefficients": [
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        },
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        }
+      ],
+      "float_hex": [
+        "-0x1.05ddab940a600p+8",
+        "0x1.56ce0e18cb080p+9",
+        "-0x1.4a14a2a52c000p+4"
+      ],
+      "dot_product_integer_terms": [
+        89976437883710,
+        -94229494117058,
+        4253056233348
+      ],
+      "dot_product_integer_partial_sums": [
+        89976437883710,
+        -4253056233348,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 2,
+      "polarity": 1,
+      "frequency": [
+        3,
+        5,
+        2
+      ],
+      "common_numerators": [
+        -1417685411116,
+        -17995287576742,
+        47114747058529
+      ],
+      "coefficients": [
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        },
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        }
+      ],
+      "float_hex": [
+        "-0x1.4a14a2a52c000p+4",
+        "-0x1.05ddab940a600p+8",
+        "0x1.56ce0e18cb080p+9"
+      ],
+      "dot_product_integer_terms": [
+        -4253056233348,
+        -89976437883710,
+        94229494117058
+      ],
+      "dot_product_integer_partial_sums": [
+        -4253056233348,
+        -94229494117058,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    },
+    {
+      "family": "high",
+      "cycle": 2,
+      "polarity": -1,
+      "frequency": [
+        -3,
+        -5,
+        -2
+      ],
+      "common_numerators": [
+        -1417685411116,
+        -17995287576742,
+        47114747058529
+      ],
+      "coefficients": [
+        {
+          "numerator": "-354421352779",
+          "denominator": "17179869184"
+        },
+        {
+          "numerator": "-8997643788371",
+          "denominator": "34359738368"
+        },
+        {
+          "numerator": "47114747058529",
+          "denominator": "68719476736"
+        }
+      ],
+      "float_hex": [
+        "-0x1.4a14a2a52c000p+4",
+        "-0x1.05ddab940a600p+8",
+        "0x1.56ce0e18cb080p+9"
+      ],
+      "dot_product_integer_terms": [
+        4253056233348,
+        89976437883710,
+        -94229494117058
+      ],
+      "dot_product_integer_partial_sums": [
+        4253056233348,
+        94229494117058,
+        0
+      ],
+      "dot_product_float_hex": "0x0.0p+0"
+    }
+  ],
+  "integer_exactness": {
+    "checked_limit": 9007199254740992,
+    "maximum_absolute_checked_integer": 94229494117058,
+    "domain": "dyadic reconstruction and all twelve dot sums"
+  },
+  "initial_error_upper_bounds": {
+    "coordinate_eU": [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "40128489780187",
+        "denominator": "77371252455336267181195264"
+      }
+    ],
+    "coordinate_eV": [
+      {
+        "numerator": "28762359232688481247651278732482763065773638501873894045945898630623641",
+        "denominator": "40883364277521189021799465263808113495235708129561458173584011134583933193326428160"
+      },
+      {
+        "numerator": "399482912988162018117699824053866225275928484001739897662190310624426815",
+        "denominator": "52088434486915885272218577965740707564300309616922746710047777149247677846312189952"
+      },
+      {
+        "numerator": "3503772067999548344115907111891922713685203201959017366073117835069576561",
+        "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+      }
+    ],
+    "eU": {
+      "numerator": "40128489780187",
+      "denominator": "77371252455336267181195264"
+    },
+    "eV": {
+      "numerator": "679404411864576275457881821325071561615731796951571181835385869405588459",
+      "denominator": "51253197199224814225579504558126789512977709900033314911490159731402598463936921600"
+    },
+    "A0": {
+      "numerator": "705986809521875038148826157275816396234706926007177191615247605062241259",
+      "denominator": "8542199533204135704263250759687798252162951650005552485248359955233766410656153600"
+    },
+    "L2_normalized": {
+      "numerator": "705986809521875038148826157275816396234706926007177191615247605062241259",
+      "denominator": "17084399066408271408526501519375596504325903300011104970496719910467532821312307200"
+    },
+    "homogeneous_H3_normalized": {
+      "numerator": "90374077976817294017243754404209890112201816559086770188996251498771591447",
+      "denominator": "8542199533204135704263250759687798252162951650005552485248359955233766410656153600"
+    },
+    "H3_definition": "sqrt(sum_k |k|**6 * |f_k|**2); homogeneous",
+    "unnormalized_L2_and_H3_conversion": "multiply each bound by (2*pi)**(3/2)",
+    "meaning": "certified upper bounds, not actual errors"
+  },
+  "original_norm_bounds": {
+    "M_squared_interval_normalized": [
+      {
+        "numerator": "2665578480243585041491827970245197057156496735531280520655123100500072910777142750579998556929566353940596207682820496437676408691755624602082820728631517533346568972323710972989",
+        "denominator": "824136020966684923798969476522574629512967280867164577837939983307538067510497256769491349198603234582673324763053806142237431031888099406660182013848532815101915299840000"
+      },
+      {
+        "numerator": "666394620060896260372958205164703805953021327763532719667144766688669475906909401807961811190727559438751457429956335102942561465789279641165097758914243353908505668661565836821",
+        "denominator": "206034005241671230949742369130643657378241820216791144459484995826884516877624314192372837299650808645668331190763451535559357757972024851665045503462133203775478824960000"
+      }
+    ],
+    "energy_interval_normalized": [
+      {
+        "numerator": "2665578480243585041491827970245197057156496735531280520655123100500072910777142750579998556929566353940596207682820496437676408691755624602082820728631517533346568972323710972989",
+        "denominator": "1648272041933369847597938953045149259025934561734329155675879966615076135020994513538982698397206469165346649526107612284474862063776198813320364027697065630203830599680000"
+      },
+      {
+        "numerator": "666394620060896260372958205164703805953021327763532719667144766688669475906909401807961811190727559438751457429956335102942561465789279641165097758914243353908505668661565836821",
+        "denominator": "412068010483342461899484738261287314756483640433582288918969991653769033755248628384745674599301617291336662381526903071118715515944049703330091006924266407550957649920000"
+      }
+    ],
+    "A0_upper": {
+      "numerator": "34144523415310048160862783040349783751445298570327822570464178411566477637992820194150799",
+      "denominator": "5859948879778037093124590021145829600983784831903809004880374929290363757710121369600"
+    }
+  },
+  "fixed_observation": {
+    "A_alpha": {
+      "numerator": "78189169629261132517574175",
+      "denominator": "38685626227668133590597632"
+    },
+    "A_V_coordinates": [
+      {
+        "numerator": "28030035418299856424485524273876308280815205451706222132578611852510335250883302633881",
+        "denominator": "40883364277521189021799465263808113495235708129561458173584011134583933193326428160"
+      },
+      {
+        "numerator": "1611879568225661796422674898135628591286464584737900723340869495540301315805303063193",
+        "denominator": "78132651730373827908327866948611061346450464425384120065071665723871516769468284928"
+      },
+      {
+        "numerator": "187900504091310651530386056235862390399128380749588626264179653452516919665465873749361",
+        "denominator": "717544760789147399158113063813775053181687938600466408760862236239636378495116902400"
+      }
+    ],
+    "C": {
+      "numerator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+      "denominator": "837135554254005299017798574449404228711969261700544143554339275612909108244303052800"
+    },
+    "T": {
+      "numerator": "6697084434032042392142388595595233829695754093604353148434714204903272865954424422400",
+      "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999"
+    },
+    "a": {
+      "numerator": "3348542217016021196071194297797616914847877046802176574217357102451636432977212211200",
+      "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999"
+    },
+    "C_meaning": "upper bound on original homogeneous A1, not the norm",
+    "T_binary64": {
+      "exact": {
+        "numerator": "6697084434032042392142388595595233829695754093604353148434714204903272865954424422400",
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999"
+      },
+      "float_hex": "0x1.9c6f0ce172674p-13",
+      "float_ratio": {
+        "numerator": "1813902992460189",
+        "denominator": "9223372036854775808"
+      },
+      "decimal_display_only": "0.00019666375651032945",
+      "signed_conversion_error": {
+        "numerator": "-1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+        "denominator": "314087874620976115268498947738616817035398787111358429093121422246584720359601513803316494771077269728264192"
+      },
+      "absolute_conversion_error": {
+        "numerator": "1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+        "denominator": "314087874620976115268498947738616817035398787111358429093121422246584720359601513803316494771077269728264192"
+      }
+    },
+    "a_binary64": {
+      "exact": {
+        "numerator": "3348542217016021196071194297797616914847877046802176574217357102451636432977212211200",
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999"
+      },
+      "float_hex": "0x1.9c6f0ce172674p-14",
+      "float_ratio": {
+        "numerator": "1813902992460189",
+        "denominator": "18446744073709551616"
+      },
+      "decimal_display_only": "9.833187825516472e-05",
+      "signed_conversion_error": {
+        "numerator": "-1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+        "denominator": "628175749241952230536997895477233634070797574222716858186242844493169440719203027606632989542154539456528384"
+      },
+      "absolute_conversion_error": {
+        "numerator": "1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+        "denominator": "628175749241952230536997895477233634070797574222716858186242844493169440719203027606632989542154539456528384"
+      }
+    },
+    "node_convention": "exact rational T times exact rational node ratios",
+    "scope": "fixed observation endpoints, not a lifespan or source-gate certificate"
+  },
+  "child_self_timing": {
+    "seconds": 0.024304708,
+    "scope": "first perf_counter after importing time through before serialization; supervisor separately covers child startup, serialization and exit"
+  },
+  "serialization_guards": {
+    "scalar_nodes": 1677,
+    "maximum_rational_bits": 590,
+    "maximum_bytes": 1048576
+  }
+}
