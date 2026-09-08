@@ -6,65 +6,61 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Freeze accepted integer/lattice/odd-length package after final source-object check and send exactly once privately. Finish combined imaginary/real/joint final scope. Continue higher-pure-direction actual two-draft review and comparison; do not infer any actual geometry or NS two-step. Fourteen past releases sent once; no resend/observation.",
+  "next_action": "Fifteenth package sent exactly once privately; no resend or archive observation. Finish combined same-data imaginary/real/joint final scope and source-object freeze, then continue higher-pure-direction separate reviews and root comparison. No actual candidate, geometry choice or NS time window.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
+  "release_id": "ReverseNS-20260908-IntegerBetaLatticeObstruction",
   "scientific_status": "THREE_EDGE_TWO_LINEAR_OBSTRUCTION_ACCEPTED; LOWEST_LINEAR_ROW_UNDER_REVIEW; NO_CANDIDATE; NOT_CLAY",
   "accepted": "Eleventh formal private package accepted, frozen and sent once. Exact two-linear branch has nonzero total M0,W0 and same-data local source-ratio obstruction; no general mechanism exclusion.",
   "required_files": [
-    "research/reverse/area-square-compatibility/freeze.json",
+    "research/reverse/integer-beta-compatibility/freeze.json",
     "research/reverse/remaining-imaginary-compatibility/acceptance.json",
     "research/reverse/remaining-real-compatibility/acceptance.json",
-    "research/reverse/integer-beta-compatibility/acceptance.json",
     "research/reverse/joint-direction-compatibility/acceptance.json",
-    "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md",
     "research/reverse/joint-direction-compatibility/FINAL_OUTCOME.md",
     "research/reverse/higher-pure-direction/CONTRACT.md",
-    "research/reverse/higher-pure-direction/PROOF.md"
+    "research/reverse/higher-pure-direction/PROOF.md",
+    "research/reverse/higher-pure-direction/INDEPENDENT.md"
   ],
   "required_file_sha256": {
-    "research/reverse/area-square-compatibility/freeze.json": "e74a975ccbbf819f811f57c39efb8ffed87160e3d7ab9bf37e74b4c9fe51dfd4",
+    "research/reverse/integer-beta-compatibility/freeze.json": "e98c6ed659ebde27d69d79c4b041834064d141155c6655c623e716ef9919e420",
     "research/reverse/remaining-imaginary-compatibility/acceptance.json": "dcc5f7ca2cfe0d53c19acb3d0b67dd08d54e556835fe8a24b74d568d30ad202c",
     "research/reverse/remaining-real-compatibility/acceptance.json": "ea7669c2c1882caa074cc4e639b96ed1b358f35755e1dff884d570c9efe81d5a",
-    "research/reverse/integer-beta-compatibility/acceptance.json": "85d21bf75d815afbf43657b6ac98aa7501f6703c7d6ff0b20c98714d3a068da5",
     "research/reverse/joint-direction-compatibility/acceptance.json": "4fe31b9213c630d6b74705eb9cec01b2f90ac1452a29f396939bf79c6d28cc05",
-    "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md": "264dfb0e152817202fbbb8671d51770f2e3387aa57f57c89d6f79b2359bd7fcd",
     "research/reverse/joint-direction-compatibility/FINAL_OUTCOME.md": "03f0a10c224e587c89652a1caa0d288d95744e91f27764a837e42308ae929954",
     "research/reverse/higher-pure-direction/CONTRACT.md": "cdda8089bdfedd67d090634ca91fc25e83c33cd0072bd60235c98e5f11d55187",
-    "research/reverse/higher-pure-direction/PROOF.md": "b5eedc38fb528bbb48e2ae51012742612a64edb87f88d22223b55d7a2b7ac488"
+    "research/reverse/higher-pure-direction/PROOF.md": "b5eedc38fb528bbb48e2ae51012742612a64edb87f88d22223b55d7a2b7ac488",
+    "research/reverse/higher-pure-direction/INDEPENDENT.md": "66aac8470f43aa84b04509c843551457c29414e7f9851bf507bde70a9d612363"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
-  "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
-  "freeze_manifest": "research/reverse/three-edge-compatibility/freeze.json",
-  "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
+  "last_completed_release": "ReverseNS-20260908-IntegerBetaLatticeObstruction",
+  "source_commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+  "freeze_manifest": "research/reverse/integer-beta-compatibility/freeze.json",
+  "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "f59ef66f8c91fb040b6304dcb1f7fd63d35fe02a829a9f266a7068743aef6146"
   },
-  "freeze_commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
+  "freeze_commit": "f7f45dece7cbbc19ca0c99379aa5befa8f2c639b",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
   "current_topic": "Same-data complete-row joint direction and fixed-integer-geometry constraints",
   "current_topic_directory": "research/reverse/joint-direction-compatibility",
   "pending": [
-    "Amplitude independent final review actual read and root comparison",
-    "Area-square independent derivation and separate non-author reviews",
-    "Root comparison and coherent freeze after all same-data scope gates",
-    "Integer common-root realization, remaining high conditions and other C directions",
-    "One fixed datum infinite scales, uniform errors and finite total time"
+    "Combined joint-direction final scope and source-object freeze; no handoff before complete.",
+    "Higher-pure-direction main review in progress, independent-text non-author review to dispatch, actual root scale/condition comparison pending.",
+    "Legal geometry and same-direction realization, all pure rows nonzero, common template and actual NS mechanism remain open."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260908-MixedSourceStarObstruction",
+  "previous_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T07:05:08.007562+00:00",
+  "updated_at": "2026-09-08T07:07:46.832406+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -763,7 +759,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T07:05:08.007562+00:00",
+  "last_checkpoint_utc": "2026-09-08T07:07:46.832406+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -895,12 +891,15 @@
     "actual_candidate": false
   },
   "integer_beta_evidence": {
-    "status": "ACCEPTED_FINAL_SCOPE_ROOT_READ_PENDING_FREEZE",
+    "status": "ACCEPTED_FROZEN_SENT_ONCE",
     "acceptance": "research/reverse/integer-beta-compatibility/acceptance.json",
     "final_scope": "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md",
     "root_actual_full_comparison": true,
     "actual_frequency_selected": false,
-    "enumeration_performed": false
+    "enumeration_performed": false,
+    "source_commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+    "freeze_commit": "f7f45dece7cbbc19ca0c99379aa5befa8f2c639b",
+    "manifest": "research/reverse/integer-beta-compatibility/freeze.json"
   },
   "joint_direction_evidence": {
     "status": "ACCEPTED_ROOT_COMPARISON_PENDING_COMBINED_FINAL_SCOPE",
@@ -908,7 +907,7 @@
     "actual_geometry_rank_or_common_root_verified": false
   },
   "higher_pure_direction_evidence": {
-    "status": "MAIN_SELF_READ_STOPPED_INDEPENDENT_REPORTED_STOPPED_NOT_YET_ROOT_READ",
+    "status": "TWO_STOPPED_DERIVATIONS_ROOT_FULL_READ_MAIN_REVIEW_IN_PROGRESS",
     "directory": "research/reverse/higher-pure-direction",
     "main_non_author_review": "IN_PROGRESS",
     "actual_candidate": false
