@@ -1,0 +1,24 @@
+{
+  "classification": "PRIVATE_CORE",
+  "type": "HAND_PROOF_WITH_INDEPENDENT_DERIVATION_AND_NONAUTHOR_REVIEW",
+  "scientific_program_executions": 0,
+  "scientific_reruns": 0,
+  "parameter_scans": 0,
+  "exact_unknown_coefficient_evaluations": 0,
+  "proofs": [
+    "ROOT_ANALYSIS.md",
+    "INDEPENDENT.md"
+  ],
+  "reviews": [
+    "CONTRACT_REVIEW.md",
+    "REVIEW.md"
+  ],
+  "root_comparison": "ROOT_COMPARISON.md",
+  "source_ledger": "SOURCES.md",
+  "resource_measurement": "NOT_APPLICABLE_NO_SCIENTIFIC_EXECUTION",
+  "formal_machine_proof": false,
+  "new_initial_datum": false,
+  "actual_source_gates_certified": false,
+  "infinite_chain_statement": "Conditional same-datum same-time gradient series with explicit summable tail; not constructed infinite iteration",
+  "full_NS_singularity_claim": false
+}

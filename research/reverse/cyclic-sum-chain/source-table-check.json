@@ -1,0 +1,120 @@
+{
+  "status": "ALL_CURRENT_TABLE_BINDINGS_MATCH",
+  "scope": "Current bytes only; actual reading and mathematical review are recorded separately",
+  "checks": [
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/QUESTION.md",
+      "sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
+      "bytes": 3818
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58",
+      "bytes": 9705
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/receiver-input-geometry/PREFLIGHT.md",
+      "sha256": "6ad40abc638cdc1832b33fe0c127148fb5d2bcd9e62e41a26119d1a8074acdd4",
+      "bytes": 13643
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/receiver-lattice-return/PREFLIGHT.md",
+      "sha256": "8457b90de85e006f9305650ef8ae71f69d0ae5cac25d48d53ccc67bdce913c07",
+      "bytes": 12133
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-sum-chain/QUESTION.md",
+      "sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
+      "bytes": 3818
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f",
+      "bytes": 17707
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58",
+      "bytes": 9705
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+      "bytes": 14127
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/QUESTION.md",
+      "sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
+      "bytes": 3818
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+      "sha256": "73957154ebb32e26ccbc4b6f2ef2f7a8e9553580f516150568dee0f90524ed2d",
+      "bytes": 7436
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/INDEPENDENT.md",
+      "sha256": "530686376b920004e525e24c84f7050e80a009a6d8fe565c4bdbb52b08811c40",
+      "bytes": 14357
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/../route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/../cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f",
+      "bytes": 17707
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/../cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/../four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    }
+  ]
+}
