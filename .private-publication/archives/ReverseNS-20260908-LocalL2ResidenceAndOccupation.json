@@ -1,0 +1,195 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "CONDITIONAL_SAME_DATUM_LOCAL_STRONG_L2_RESIDENCE_AND_LOG_TIME_OCCUPATION_OBSTRUCTIONS; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No actual new datum, test function, tolerance, entry time or time instance selected; no actual concentration, return or regeneration candidate.",
+      "No visits count, absolute finite cumulative neighborhood occupation, ordinary physical-time density, weak-solution time trace or endpoint singular trace.",
+      "No existence extension to Tstar, arbitrary modulation or dynamic-shape exclusion, general regularity or NS singularity.",
+      "No fixed-datum infinite-scale iteration, uniform cross-generation infinite-dimensional remainder or finite-total-time singularity construction.",
+      "No scientific program, numerical array, evaluation, parameter scan or figure; no prior failed evidence repaired.",
+      "No external novelty, human peer review or proof-assistant certification. Subsequent angular-momentum applicability and next-family screens are excluded."
+    ],
+    "proved": [
+      "For the same fixed-datum actual smooth NS solution, a fixed-shape local strong velocity L2 neighborhood has an explicit continuous-residence logarithmic-time bound in its stated threshold domain, without perturbation derivative smallness.",
+      "Actual same-datum energy and the exact expanding-cell change of variables pay non-small local errors and both time endpoints, yielding finite-interval error-integral and outside-neighborhood logarithmic-time measure lower bounds.",
+      "Conditional on actual smooth existence at every t<Tstar, fixed-threshold outside-neighborhood lower logarithmic-time density is positive. Independent integrable-viscosity and nonlinear-threshold formulas remain separately attributed with their own budgets."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/exterior-pressure/freeze.json",
+      "release_id": "ReverseNS-20260907-LocalPressureScreen",
+      "source_commit": "a341a095a7aa0fb7715cc6156b66fe929dfca572",
+      "use": "Previously accepted fixed shape, local nonlinear sign and exact rescaled NS interface; negative-control path is still NON_NS."
+    }
+  ],
+  "dependency_commits": [
+    "a341a095a7aa0fb7715cc6156b66fe929dfca572"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 3205,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/CONTRACT.md",
+      "sha256": "2eba0d26399480d98c1d29e288b0f1726b33ca14dc103092936e20749689664f"
+    },
+    {
+      "bytes": 5499,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/PROOF.md",
+      "sha256": "fb94de563dc2a95dad6cd21209724239c5b924ac27097f3610448d37e718a54d"
+    },
+    {
+      "bytes": 11669,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/INDEPENDENT.md",
+      "sha256": "fd9b40918c527ba2e07c54b497bbb7cff4aaddff02ec16eee394dbd237aa436e"
+    },
+    {
+      "bytes": 9009,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/REVIEW.md",
+      "sha256": "de57fb3c89a95c7dba14e29f5336985f8afc76f1ab9c2f72c2847595e70f8daa"
+    },
+    {
+      "bytes": 8596,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/INDEPENDENT_REVIEW.md",
+      "sha256": "aaaa7719beec4a166be5a6438712c51c5c82f7eb1ff9d1869d65dd6a3938257d"
+    },
+    {
+      "bytes": 3842,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/ROOT_COMPARISON.md",
+      "sha256": "b917a7529f6932cae6b8246917146907c70da22c95745ec78e999ff972bca856"
+    },
+    {
+      "bytes": 1248,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/OUTCOME.md",
+      "sha256": "db8ff819f25c43dd9747e7c68d1142b5bdf03f2f843e67792806226de5c7dc99"
+    },
+    {
+      "bytes": 2597,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/weak-local-exit/acceptance.json",
+      "sha256": "4f00c055c95d3292b80e5e578cfe1c9b3c1c5571e9ea2c134d0b3acea76d8207"
+    },
+    {
+      "bytes": 2829,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/CONTRACT.md",
+      "sha256": "368fc878d7f35223b5ebe96dee84cd99b33573cb9ba0208e7e795c0214bd1485"
+    },
+    {
+      "bytes": 6088,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/PROOF.md",
+      "sha256": "5195d555303bb3eea702045f7b38e46ab8a73b1c32eeedb9614ff2dad310e22a"
+    },
+    {
+      "bytes": 13963,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/INDEPENDENT.md",
+      "sha256": "81fe49793284e79f3a54e7efb52fa6de80c965901e96cd6136017c9cbd2f6f1e"
+    },
+    {
+      "bytes": 8036,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/REVIEW.md",
+      "sha256": "5a2ad398db5561d958a964183d7d3cfed9760945e637ab3d6c9d01824e266894"
+    },
+    {
+      "bytes": 9857,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/INDEPENDENT_REVIEW.md",
+      "sha256": "a598a86a876084d8d9f0bc17262a69517d6da0148a75b42cdf96e9fff6d2b5c4"
+    },
+    {
+      "bytes": 4691,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/ROOT_COMPARISON.md",
+      "sha256": "b3dd31384dab5838df298f9acb46078e772fdf32a772c8bee71c852e88e3039e"
+    },
+    {
+      "bytes": 1100,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/OUTCOME.md",
+      "sha256": "fa94bd4c850c539ed531af55215abb96ea369db6ef3cbd33250d34467711cb2b"
+    },
+    {
+      "bytes": 2902,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/acceptance.json",
+      "sha256": "1a670a45783aad07eb23805f2c2c6e7e444edeb6dd72cae0687ae949672cdeaa"
+    },
+    {
+      "bytes": 2228,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/FINAL_OUTCOME.md",
+      "sha256": "2148279981f5a7c09bd634d5ae723fcf6195d532ee8588ac1c59fbf5f4f95650"
+    },
+    {
+      "bytes": 15498,
+      "commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "path": "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+      "sha256": "d405f7984918982fd5f1c1fe05729056cb4760ae91d381931676995960c31804"
+    },
+    {
+      "bytes": 8523,
+      "commit": "d379f15058e37c7b21b831c8c2b2a1b42e5e4b43",
+      "path": "research/reverse/local-occupation/freeze.json",
+      "sha256": "6a452aab8e2fc931ddd6e669c4b27bca708cffd293ea582f1b1459b6c6cf3408"
+    }
+  ],
+  "freeze_commit": "d379f15058e37c7b21b831c8c2b2a1b42e5e4b43",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained conditional continuation of the accepted exact rescaled periodic NS and fixed-shape tests; no new external theorem applicability or novelty claim.",
+  "milestone_scope": "Continuous residence and energy-paid occupation are different conditional necessary bounds for one fixed comparison shape; their conjunction is not a mechanism.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+  "private_milestone_record": "research/reverse/local-occupation/FINAL_OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "75114244ef8e0f72caa43425d9813129edaf6701",
+    "55c86311ee8ebe28c08649a1f8aff99c26f53ea2",
+    "4254f875fac00a053f5d80956909829592a24f58",
+    "0a3747ebce9e50167daee53c67b7596a64ada7a6",
+    "53d26acf2a321b9c05579db985f38dc25a08510f"
+  ],
+  "scientific_source_commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+  "source_commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+  "source_ledger": "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_review": "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+    "independence": "Authors formed without reading each other. Root precontract hand preflight disclosed. Weak-local-exit non-author reviews sequential by one reviewer; occupation reviews by different people each initially unread the other draft, with prior roles disclosed. Root comparisons and final scope nonblind; independent additions separately attributed.",
+    "new_NS_time_window_paid": false,
+    "new_actual_datum_selected": false,
+    "new_test_or_tolerance_selected": false,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 18 final files match source Git objects; all 14 distinct direct acceptance bindings verified. Three old dependency texts byte-equal old source objects. Counts are provenance only.",
+    "stage_acceptances": [
+      "research/reverse/weak-local-exit/acceptance.json",
+      "research/reverse/local-occupation/acceptance.json"
+    ],
+    "status": "PASS_SEPARATE_DERIVATIONS_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
