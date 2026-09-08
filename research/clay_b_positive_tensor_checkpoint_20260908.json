@@ -1,0 +1,70 @@
+{
+  "internal_id": "ClayB-PositiveTensorScreen-20260908",
+  "base_commit": "09c2f38fba6e70e444e073282139eecd72572634",
+  "status": "BOUNDED_METHOD_SCREEN_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_positive_tensor_screen_20260908.md",
+  "main_sha256": "d4d59363a40ebedf7d2420c4c3bd912fd321089c1e67a3cf903a337a600f9f04",
+  "main_lines": 209,
+  "main_bytes": 11546,
+  "classification": [
+    "LITERATURE METHOD SCREEN",
+    "LOCAL PROVED SMOOTH IDENTITIES AND ALGEBRA",
+    "NO NEW REGULARITY CRITERION",
+    "NO NEW UNCONDITIONAL CRITICAL INPUT",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "screened_candidate": "Serre compensated integrability applied to the natural constant-density four-dimensional NS stress tensor, with and without viscous stress.",
+  "completed_scope": [
+    "PTS.2-6: the complete viscous tensor has exact NS row divergence. Its Schur complement is (p+c)I-2nu D; the unshifted mean-zero periodic tensor is PSD only for constant solutions. The minimal time-only pressure shift is esssup_x(2nu lambda_max(D)-p), with no c-prime term.",
+    "PTS.7-8: the determinant removes explicit velocity, but not pressure/strain dependence. Its nonnegative cube root is at most p+c. No terminal-uniform pressure-shift estimate has been derived from basic energy.",
+    "PTS.9-13: deleting viscous stress leaves a real double-divergence/Hessian cancellation for arbitrary smooth solenoidal time curves with canonical Poisson pressure. This weaker identity alone cannot distinguish NS dynamics.",
+    "PTS.14-16: on a finite time interval and a full spatial torus, both direct averaged determinant outputs follow solely from Schur complements, trace/AM-GM and velocity covariance. No time periodicity, momentum equation or Serre theorem is used here.",
+    "PTS.17-18: retain the localized row-divergence and double-divergence product terms, including the factor2nu Delta u dot grad eta; endpoints and side traces are not removed."
+  ],
+  "limitations": [
+    "Only these two natural tensors and their direct global-average outputs were screened. A local weighted or boundary estimate using the same tensor remains possible; no general positive-tensor impossibility theorem is claimed.",
+    "Smooth identities on compact preterminal intervals do not supply terminal-uniform bounds or automatic good scales for arbitrary original data. No actual NS cost-divergence counterexample was constructed.",
+    "Serre's upstream Monge-Ampere existence theory and all later extensions were not independently re-certified. No exhaustive novelty search or human peer review was performed.",
+    "This is an internal method-screen record, not a new independent research section, release, numerical example or theorem toward Clay."
+  ],
+  "next_action": "停止重复 PTS 的两个自然张量及全域平均输出。回到同一实际前终端 NS 解的指定中心联合好尺度，选择保留完整动量残差信息的具体局部带符号估计，先核它是否强于逐时 Poisson/Hessian 恒等式，再核临界量控制、严格尺度增益及端点/截止/压力/参考变化误差。具体新估计尚未确定。若继续正张量方法，可检验同一张量的局部边界机制，但须有不同于已核全域平均输出的实质估计；不反复增加相邻方法审计或初始时间窗反例计数。原PF联合好尺度与任意数据的终端控制仍开放；不重发历史交接，不检查发布或反向执行。",
+  "next_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "artifact_scope": "LOCAL PRIVATE RESEARCH SOURCE ONLY; no reader, publication or separate archival handoff",
+  "source_access": {
+    "title": "Divergence-free positive symmetric tensors and fluid dynamics",
+    "author": "Denis Serre",
+    "version": "arXiv1705.00331v2",
+    "url": "https://arxiv.org/html/1705.00331v2",
+    "publication_record": "https://www.numdam.org/item/AIHPC_2018__35_5_1209_0/",
+    "publication": "Annales de l'Institut Henri Poincare C35(5)(2018),1209-1234;DOI10.1016/j.anihpc.2017.11.002",
+    "access_date": "2026-09-08",
+    "read_scope": "Definition1.1 and relevant preliminaries; full Theorems2.1/2.2; full relevant proof passages Section4.1 and Section5, including periodic reduction and conclusion. Partial applications context only. External Monge-Ampere existence results not independently read or re-proved.",
+    "not_adopted": "2024 Compensated integrability on tori extension was discovered only; its proof was not used. HTML conversion date is not treated as the article publication date."
+  },
+  "review_scope": {
+    "root": "Independently derived PTS.1-18 and read the complete initial209-line11474B manuscript in two parts. Applied and read the one-line scope correction. Final209-line11546B d4d59363 accepted. Primary-source conditions checked as stated, not all upstream proofs.",
+    "ma_freeze_review": "Independent algebra/distribution module check: viscous Schur positivity, pressure shift and absence of c-prime, determinant polynomial, arbitrary-solenoidal-family double-divergence, and pressure-only inviscid determinant. Did not read final manuscript or re-certify Serre theorem.",
+    "good_scale_route_comparison": "Independently checked the stronger covariance/global-average chain for both tensors without momentum or Poisson dynamics. Also read specified AH/MA/QPS/NE sources and AP18 comparison section to distinguish old routes. Did not read final PTS manuscript.",
+    "variable_reference_check": "Nonparticipant in initial PTS derivation. Actually read the entire209-line11474B original728ce66b and checked PTS.1-18. Required scope wording to preserve local mechanisms using the same tensor. Actually read final193-201 lines, inverse-restored that one sentence in memory and recovered original hash; final209-line11546B d4d59363 PASS. No external-source or upstream theorem review.",
+    "all": "AI-assisted mathematical checks only; not human peer review or novelty certification."
+  },
+  "verification": {
+    "source_structure": "18 ordered unique PTS tags;18 paired display delimiters;49 paired inline delimiters;no abnormal controls.",
+    "preservation": "No historical tracked source changed at base09c2f38; previous PFA source and checkpoint SHA256 unchanged. Only this note and its checkpoint are intended new repository files.",
+    "numerical_scope": "No numerical computation or numerical proof certificate. Structural and hash checks are not mathematical certification."
+  }
+}
