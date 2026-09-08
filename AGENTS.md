@@ -1,5 +1,11 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Latest bounded authorization after the pause (2026-09-08)
+
+The user paused this task after the sole six-carrier C verification. On 2026-09-08 the paper task relayed explicit authorization first to evaluate a strategy report, then to finish the actually unfinished sections and one concrete bridge to the optimized strategy. This authorizes the six-carrier final review/acceptance/freeze without rerunning A/B/C, plus a separately bounded receiver-supply bridge and strategy/checkpoint updates. It does not restart unlimited research, scans, automations or the overall goal runner. Finish this bounded scope, save the checkpoint and report; continued broader work still needs user authority. The latest checkpoint overrides older next-action text below.
+
+C output already exists with SHA 8e996350ed8702c17c6dcdd1f80f2f08b57a7a90c43b43d3e78ec348697e1268, from source commit 2b1c213ba5ff7a259a2a5655eb0c9cf4d9615db9. Never interpret old C-not-run fields as permission to rerun. Its reported PASS is not itself a new freeze. Preserve prior frozen science; separately review the existing structural question in cyclic-receiver-supply-preflight before any new coefficient contract. The report's earlier snapshots do not replace actual saved state.
+
 ## Current bounded continuation and protocol refresh (2026-09-08)
 
 The user's continuing research instruction remains active; no routine confirmation is pending. The latest central protocol's changed opening and applicable research sections were actually read on 2026-09-08. PRIVATE_CORE archival is immediate through the fixed publisher; local reader work is batched every 48 hours; public summaries are weekly and paused; new English translation is deferred. Future repository cleanup, visibility/history changes, public relaunch and all reader operations belong to the fixed publisher under their own exact approvals. This research task performs none of them and does not inspect their state. Older contradictory privacy/publication statements below are history.
