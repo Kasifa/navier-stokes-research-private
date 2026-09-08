@@ -1,19 +1,19 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_CYCLIC_SUM_CHAIN_PROOFS_ACCEPTED_FINAL_SCOPE_PENDING",
+  "status": "RESEARCH_ACTIVE_RELEASE_26_SENT_ONCE_JOINT_RECEIVED_SOURCE_SCREEN",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read stopped final scope audit for the cyclic sum-chain package, then bind final science objects, freeze once and hand off once. Continue only a materially new actual-state input question; no publication monitoring or scientific reruns.",
-  "resume_action": "Read stopped final scope audit for the cyclic sum-chain package, then bind final science objects, freeze once and hand off once. Continue only a materially new actual-state input question; no publication monitoring or scientific reruns.",
+  "next_action": "Read stopped nonauthor screen review and close only the old-interface application. Then require an actual mixed-state source and checkable remainder before any new dynamics or computation. Do not reopen, resend or monitor completed releases.",
+  "resume_action": "Read stopped nonauthor screen review and close only the old-interface application. Then require an actual mixed-state source and checkable remainder before any new dynamics or computation. Do not reopen, resend or monitor completed releases.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260909-DifferenceSupplyObstruction",
-  "scientific_status": "ACCEPTED_FIXED_DATUM_ORIGINAL_WINDOW_DIFFERENCE_SUPPLY_OBSTRUCTION; REGENERATION_OPEN_NOT_CLAY",
-  "accepted": "Same release-24 datum full NS; all original-window accounting starts, per-pair and total difference target nonzero, actual self-supply <=target/4. Geometry/lattice working records separately accepted. No regenerated candidate.",
+  "release_id": "ReverseNS-20260909-CyclicSumChainViscosity",
+  "scientific_status": "ACCEPTED_CONDITIONAL_CYCLIC_SUM_PATH_VISCOSITY_OBSTRUCTION; GENERAL_REGENERATION_OPEN_NOT_CLAY",
+  "accepted": "Same release-24 actual NS projections; uniform true self-supply upper bound, conditional discrete received-layer gradient decay and same-time all-layer C1 sum with explicit tail. Higher-layer source gates and full-state recurrence remain unpaid.",
   "required_files": [
     "AGENTS.md",
     "research/reverse/CHECKPOINT.md",
@@ -94,12 +94,17 @@
     "research/reverse/cyclic-sum-chain/certificate-manifest.json",
     "research/reverse/cyclic-sum-chain/figures-manifest.json",
     "research/reverse/cyclic-sum-chain/source-table-check.json",
-    "research/reverse/cyclic-sum-chain/release-set.json"
+    "research/reverse/cyclic-sum-chain/release-set.json",
+    "research/reverse/cyclic-sum-chain/ROOT_FINAL_SCOPE.md",
+    "research/reverse/cyclic-sum-chain/acceptance.json",
+    "research/reverse/cyclic-sum-chain/freeze.json",
+    "research/reverse/cyclic-sum-chain/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/joint-received-source-screen/SCREEN.md"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
-    "research/reverse/CHECKPOINT.md": "be6934d25791bc0fc204a41a30b9e8ce285e50381a08f70a5d2c78c50a26f756",
-    "research/reverse/HANDOFF_LOG.json": "a30f66ac29673a8fb67c49c4b7d9c710a9b3ff5de36fc6eccf72a0180387d52f",
+    "research/reverse/CHECKPOINT.md": "677a9d9760d9a379ce1bf751b79055357b616f84c693b1a8ebf3c22baa8e3989",
+    "research/reverse/HANDOFF_LOG.json": "dd758770d01854e1b56c5c2cf9455cafe3da0047749f1d34ccf7477f734858c4",
     "research/reverse/cyclic-six-carrier/freeze.json": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
     "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a",
     "research/reverse/cyclic-six-carrier/OUTCOME.md": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630",
@@ -176,34 +181,39 @@
     "research/reverse/cyclic-sum-chain/certificate-manifest.json": "3d2ab7bd2bd4486fdc847a1b74bf4b8b695e6cf015aade557dcda6ef9acf261d",
     "research/reverse/cyclic-sum-chain/figures-manifest.json": "a32de1509e5fa609744c3e8c811d72d3129c0b2e586bdd93d6c3b4a90ab66109",
     "research/reverse/cyclic-sum-chain/source-table-check.json": "234361e23b39361f1c1e92c58ef9b367df803a4888a7c1cb75caa3ef728af188",
-    "research/reverse/cyclic-sum-chain/release-set.json": "dfa29ee3e0bf33b3febeabfcd576881b519038290b5da254f9f3c862a798e0e8"
+    "research/reverse/cyclic-sum-chain/release-set.json": "dfa29ee3e0bf33b3febeabfcd576881b519038290b5da254f9f3c862a798e0e8",
+    "research/reverse/cyclic-sum-chain/ROOT_FINAL_SCOPE.md": "fb8792bbc94c00ad0bb892c42f84457d41cbe2bf0077c77118dfafde0a61894d",
+    "research/reverse/cyclic-sum-chain/acceptance.json": "47a18908d070220c00bdcd502a0cd49f06eac075e447ec632ca4faa31fdf0dea",
+    "research/reverse/cyclic-sum-chain/freeze.json": "2ca0e59fac0f115bb99267032889bed285baa6d0e19066a36955c86e1d160a9d",
+    "research/reverse/cyclic-sum-chain/FINAL_SCOPE_REVIEW.md": "fc619e5770b50bfc2cad19d6fec1990fe71b85dee33ac5fc8cc77654f42e7598",
+    "research/reverse/joint-received-source-screen/SCREEN.md": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260909-DifferenceSupplyObstruction",
-  "source_commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
-  "freeze_manifest": "research/reverse/cyclic-difference-response/freeze.json",
+  "last_completed_release": "ReverseNS-20260909-CyclicSumChainViscosity",
+  "source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+  "freeze_manifest": "research/reverse/cyclic-sum-chain/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "e704d12903c8cb2c0bc3dcf336de880f5d3b16a7aaf2e5ded5603f1e8d5bbf57",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "01de3ccca6826934a15614866bdb5f3bc55dd559d6b4458c59d06ab4432eae15"
   },
-  "freeze_commit": "b9452a6c0ac0a9297861541811262b977e2b0964",
+  "freeze_commit": "0ef3aeafeecf0ea898fc65291f5b627ce3788f6f",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same-solution cyclic pair-sum path: uniform viscous supply gate and conditional spatial gradient series",
-  "current_topic_directory": "research/reverse/cyclic-sum-chain",
+  "current_topic": "Actual mixed sum/difference state: deduplicate pure 2+2 return and identify missing deviation source",
+  "current_topic_directory": "research/reverse/joint-received-source-screen",
   "pending": [
-    "Received-state-reuse independent hand preflight and root comparison",
-    "Nonauthor review of actual-state scope before any new calculation"
+    "Nonauthor scope review of joint-received-source-screen",
+    "A materially new actual mixed-state input; no qualified calculation candidate yet"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "previous_completed_release": "ReverseNS-20260909-DifferenceSupplyObstruction",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T18:15:25.272291+00:00",
+  "updated_at": "2026-09-08T18:27:35.143592+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -503,7 +513,7 @@
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "90f2312c70432e9b77b81c5670768a6f1933cabd",
+  "current_analysis_source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -741,9 +751,8 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/received-state-reuse/acceptance.json",
-    "research/reverse/cyclic-sum-chain/QUESTION.md",
-    "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md"
+    "research/reverse/cyclic-sum-chain/freeze.json",
+    "research/reverse/joint-received-source-screen/SCREEN.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -915,7 +924,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T18:15:25.272291+00:00",
+  "last_checkpoint_utc": "2026-09-08T18:27:35.143592+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1557,7 +1566,7 @@
     "separate_formal_release": false
   },
   "cyclic_sum_chain_evidence": {
-    "status": "PROOFS_ACCEPTED_FINAL_SCOPE_PENDING",
+    "status": "FROZEN_AND_SENT_ONCE",
     "question": "research/reverse/cyclic-sum-chain/QUESTION.md",
     "question_sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
     "root": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
@@ -1570,6 +1579,20 @@
     "review_sha256": "36e1bf016559d48bca680c57247b819b8defeb4330e395bac82fe8f6a1466d3a",
     "candidate_release": "ReverseNS-20260909-CyclicSumChainViscosity",
     "release_set": "research/reverse/cyclic-sum-chain/release-set.json",
-    "final_scope_accepted": false
+    "final_scope_accepted": true,
+    "final_scope_sha256": "fc619e5770b50bfc2cad19d6fec1990fe71b85dee33ac5fc8cc77654f42e7598",
+    "source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+    "freeze_commit": "0ef3aeafeecf0ea898fc65291f5b627ce3788f6f",
+    "freeze_sha256": "2ca0e59fac0f115bb99267032889bed285baa6d0e19066a36955c86e1d160a9d",
+    "handoff_entry": 26,
+    "source_objects_verified": 35
+  },
+  "joint_received_source_screen_evidence": {
+    "status": "ROOT_SCREEN_STOPPED_NONAUTHOR_REVIEW_PENDING",
+    "screen": "research/reverse/joint-received-source-screen/SCREEN.md",
+    "screen_sha256": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
+    "scientific_executions": 0,
+    "excluded_from_release_26": true,
+    "new_theorem": false
   }
 }
