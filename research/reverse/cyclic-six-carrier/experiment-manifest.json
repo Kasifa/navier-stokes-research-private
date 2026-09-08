@@ -1,0 +1,119 @@
+{
+  "classification": "PRIVATE_CORE",
+  "type": "FIXED_CONTRACT_EXPERIMENT_LEDGER",
+  "contract_sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
+  "scientific_stages": [
+    {
+      "stage": "A",
+      "script": "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+      "script_sha256": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64",
+      "pre_run_source_commit": "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+      "output": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "output_sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+      "output_bytes": 469369,
+      "executions": 1,
+      "execution_status": "completed",
+      "scientific_stage_completed": true,
+      "resources_after_first_full_serialization": {
+        "RSS_conversion": "Darwin ru_maxrss is bytes",
+        "maximum_RSS_SELF_bytes": 19709952,
+        "system_CPU_seconds_SELF": 0.011293,
+        "user_CPU_seconds_SELF": 0.177036,
+        "wall_seconds_since_module_start": 0.174760334
+      },
+      "resource_checks": [
+        "PASS"
+      ],
+      "reported_command": [
+        "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+        "--source-commit",
+        "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+        "--contract-sha",
+        "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b"
+      ]
+    },
+    {
+      "stage": "B",
+      "script": "research/reverse/cyclic-six-carrier/exact_roots.py",
+      "script_sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
+      "pre_run_source_commit": "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
+      "output": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "output_sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+      "output_bytes": 139696,
+      "executions": 1,
+      "execution_status": "completed",
+      "scientific_stage_completed": true,
+      "resources_after_first_full_serialization": {
+        "RSS_conversion": "Darwin ru_maxrss is bytes",
+        "maximum_RSS_SELF_bytes": 19841024,
+        "system_CPU_seconds_SELF": 0.012211,
+        "user_CPU_seconds_SELF": 0.07208099999999999,
+        "wall_seconds_since_module_start": 0.069373958
+      },
+      "resource_checks": [
+        "PASS"
+      ],
+      "reported_command": [
+        "research/reverse/cyclic-six-carrier/exact_roots.py",
+        "--source-commit",
+        "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
+        "--contract-sha",
+        "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
+        "--a-input-sha",
+        "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
+      ]
+    },
+    {
+      "stage": "C",
+      "script": "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+      "script_sha256": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec",
+      "pre_run_source_commit": "2b1c213ba5ff7a259a2a5655eb0c9cf4d9615db9",
+      "output": "research/reverse/cyclic-six-carrier/verify-cyclic-output.json",
+      "output_sha256": "8e996350ed8702c17c6dcdd1f80f2f08b57a7a90c43b43d3e78ec348697e1268",
+      "output_bytes": 140790,
+      "executions": 1,
+      "execution_status": "completed",
+      "scientific_stage_completed": true,
+      "resources_after_first_full_serialization": {
+        "RSS_conversion": "Darwin ru_maxrss is bytes",
+        "maximum_RSS_SELF_bytes": 21807104,
+        "system_CPU_seconds_SELF": 0.014726999999999999,
+        "user_CPU_seconds_SELF": 0.971714,
+        "wall_seconds_since_module_start": 0.9627792500000001
+      },
+      "resource_checks": [
+        "PASS"
+      ],
+      "reported_command": [
+        "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+        "--run-once-after-parent-authorization",
+        "--reviewer-source-commit",
+        "2b1c213ba5ff7a259a2a5655eb0c9cf4d9615db9"
+      ]
+    }
+  ],
+  "scientific_runs_total": 3,
+  "each_stage_run_once": true,
+  "scientific_float": false,
+  "new_scientific_runs_after_resume": 0,
+  "formal_eight_leaf_or_next_generation_run": false,
+  "original_C_output_saved_commit": "436482f3365e36186ea2dc9b4024dc8dc4ea6d41",
+  "metadata_only_comparisons": [
+    "stage-a-transcription-check.json",
+    "stage-b-transcription-check.json",
+    "compare_saved_records.py -> root-output-comparison.json"
+  ],
+  "failures_not_hidden": "A pre-run metadata correction before its only execution; separate post-B checkpoint encoding parse error repaired without science; exact details EXPERIMENTS.md. No A/B/C rerun.",
+  "limits_each_stage": {
+    "seconds": 60,
+    "scientific_workers": 1,
+    "SELF_RSS_target_bytes": 268435456,
+    "output_bytes_strictly_below": 1048576,
+    "root_depth_maximum": 128
+  },
+  "resource_scope": "Each original Python process, time-import module point through first full serialization. Final fields/final serialization/write/exit and startup before that point excluded. SELF is not whole process tree or full lifecycle.",
+  "figures": [],
+  "new_pdf": false,
+  "English_translation": false,
+  "final_scope_acceptance": "PENDING_SEPARATE_FINAL_REVIEW"
+}

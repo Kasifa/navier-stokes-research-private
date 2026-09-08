@@ -1,0 +1,224 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ROOT_ACCEPTS_BOUNDED_RESULT_FINAL_COMBINED_SCOPE_PENDING",
+  "files": [
+    {
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+      "sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b",
+      "bytes": 12493
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
+      "sha256": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
+      "bytes": 13267
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4",
+      "bytes": 5994
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f",
+      "bytes": 6809
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/CONTRACT.md",
+      "sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
+      "bytes": 7586
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/CONTRACT_REVIEW.md",
+      "sha256": "4cc9bef66eb0b6a7c5569fd9a995be655f4c0dd25217dc8a1f5735bdcdc36a4e",
+      "bytes": 10236
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/EXPERIMENTS.md",
+      "sha256": "9fd433fc84b3d2e03ce17905c0446d48a9429a3370d6c6b57f03ba021a70155e",
+      "bytes": 9245
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/INDEPENDENT_REVIEW.md",
+      "sha256": "d7545558fbc538b1be80f33ea1d30d3684f455aa72029c9ab7089796604ea902",
+      "bytes": 14545
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/OUTCOME.md",
+      "sha256": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630",
+      "bytes": 2304
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md",
+      "sha256": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03",
+      "bytes": 14588
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
+      "sha256": "b479558770bd53c0a37a0fa98c7b9085b5aafeb3461a24148219a839b9073746",
+      "bytes": 7678
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
+      "sha256": "2fb88e7166ee62fa1b3df24415542970580bb3d520971386b482f5a5db80453a",
+      "bytes": 14117
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/SOURCES.md",
+      "sha256": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074",
+      "bytes": 8852
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
+      "sha256": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992",
+      "bytes": 8955
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md",
+      "sha256": "3362ca3f5c79d7e7c86581b942ef3dea627535b856f414f5974f9c8e7fc5f482",
+      "bytes": 2929
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md",
+      "sha256": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
+      "bytes": 13661
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md",
+      "sha256": "7353d8262ae4d962ebca2d0dba7b9e8e06e83afb19e3aa4ffe383a5d26a530a8",
+      "bytes": 8500
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
+      "sha256": "af692a572eee828b7415e29fb784197c10329e3c98cdf0a5a765ec6b884fe39f",
+      "bytes": 3236
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md",
+      "sha256": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734",
+      "bytes": 3306
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_CODE_REVIEW.md",
+      "sha256": "8854c440d796c4bf1edac9820fc66cbb7db264839d11436ee97068e6a4b12e54",
+      "bytes": 13955
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md",
+      "sha256": "b67654b7603fba0bce451783d2218ddcb8b21012b7045eb3d0335229f9c2328a",
+      "bytes": 14295
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_INDEPENDENT.md",
+      "sha256": "d143b9ba531926723dd13c132e88c64faf672c7412a6ae44b2b35c8f1f1cb60f",
+      "bytes": 8073
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_ROOT_READ.md",
+      "sha256": "61b20faec206fedf7308e35b3d54dffeb29895c0253ebbf3c9d953f77452486e",
+      "bytes": 3067
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/compare_saved_records.py",
+      "sha256": "25f2128fa3811391664515f0a15d8750a497ae85219532dc31ea9c725d89f4a9",
+      "bytes": 4725
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+      "bytes": 469369
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+      "bytes": 139696
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+      "sha256": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64",
+      "bytes": 26488
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact_roots.py",
+      "sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
+      "bytes": 45240
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/experiment-manifest.json",
+      "sha256": "7c1d507b193fd9244f55ba8369c6d19551a286a2370d88bc868c30b2a90535df",
+      "bytes": 5149
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/root-output-comparison.json",
+      "sha256": "94721565171510c84752fc13fe2c07353de1b013065d965b388ec7f40fc67500",
+      "bytes": 1616
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json",
+      "sha256": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a",
+      "bytes": 509
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json",
+      "sha256": "1ae170485778ce696d20060d214118b774d91bde3948935d2dc0ff79aaa9c36c",
+      "bytes": 733
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/verify-cyclic-output.json",
+      "sha256": "8e996350ed8702c17c6dcdd1f80f2f08b57a7a90c43b43d3e78ec348697e1268",
+      "bytes": 140790
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+      "sha256": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec",
+      "bytes": 70249
+    }
+  ],
+  "result": "Fixed single algebraic datum in full unforced periodic NS at nu=1; actual initially empty first band and three nonzero target pairs with actual source ratio <=1/7 on the original positive rational window. FINITE_TWO_LAYER_THREE_DIRECTION_SOURCE_ONLY; NOT CLAY.",
+  "root_reading": "Actual scope and prior full reading recorded in ROOT_COMPARISON and source-specific review notes. No claim of manually recomputing every rational coefficient.",
+  "independent_execution": "A subset recursion and C explicit five trees/all 24 permutations; B root certificate and C complete certificate identities. Nonblind provenance disclosed; each A/B/C once.",
+  "program_source_objects_checked": true,
+  "original_C_saved_commit": "436482f3365e36186ea2dc9b4024dc8dc4ea6d41",
+  "three_scientific_stages_only": true,
+  "original_main_T_identical": true,
+  "smaller_window_substituted": false,
+  "root_existing_record_comparison_not_new_experiment": true,
+  "full_process_tree_resource_certificate": false,
+  "old_failed_evidence_repaired": false,
+  "new_regeneration_or_singularity_candidate": false,
+  "excluded_later_work": [
+    "research/reverse/cyclic-receiver-supply-preflight",
+    "research/reverse/strategy-20260908"
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/cyclic-six-carrier-preflight/ROOT_QUESTION.md",
+      "sha256": "05a07d4afd968d4c9cb214bc2c17cf75e0fef2a14b6b9898db115661be275826",
+      "bytes": 3682
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f",
+      "bytes": 17707
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
+      "sha256": "1d958d2515e38bf2082a0f52eb04c31c2cb522d3c99d554125c62fa23006114d",
+      "bytes": 8618
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196",
+      "bytes": 10538
+    }
+  ]
+}

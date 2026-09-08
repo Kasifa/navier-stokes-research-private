@@ -1,0 +1,35 @@
+{
+  "status": "PASS_EXISTING_RECORD_COMPARISON",
+  "classification": "PRIVATE_CORE",
+  "not_a_new_scientific_experiment": true,
+  "scope": "Representation equality of saved A/C roots and five shapes; saved B/C normalization, root order and original window. No regenerated coefficients, determinant, roots or constants.",
+  "input_sha256": {
+    "exact-coefficients-output.json": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+    "exact-roots-output.json": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+    "verify-cyclic-output.json": "8e996350ed8702c17c6dcdd1f80f2f08b57a7a90c43b43d3e78ec348697e1268"
+  },
+  "source_objects": [
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+      "source_commit": "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+      "sha256": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64"
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/exact_roots.py",
+      "source_commit": "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
+      "sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80"
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+      "source_commit": "2b1c213ba5ff7a259a2a5655eb0c9cf4d9615db9",
+      "sha256": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec"
+    }
+  ],
+  "comparison_counts": {
+    "root_vectors": 60,
+    "shape_vectors": 60,
+    "root_normalized_vectors": 4
+  },
+  "original_main_T_identical": true,
+  "script_sha256": "25f2128fa3811391664515f0a15d8750a497ae85219532dc31ea9c725d89f4a9"
+}
