@@ -1,0 +1,13 @@
+{
+  "scope": "Existing-record transcription comparison only. No Fourier generation, root search, determinant calculation or new NS window computation. Not stage C independent verification.",
+  "status": "PASS",
+  "algebra_B_display_fractions_compared": 17,
+  "algebra_B_table_values_found": 6,
+  "proof_display_fractions_compared": 5,
+  "bindings": {
+    "ALGEBRA_B.md": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
+    "PROOF.md": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+    "exact-coefficients-output.json": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+    "exact-roots-output.json": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb"
+  }
+}
