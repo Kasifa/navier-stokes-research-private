@@ -6,27 +6,33 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Do not repeat completed source reads or the rejected old-shape/Taylor/three-pair variants. Identify a specified actual same-orbit dynamic object with a new checkable input before fixing another bounded mechanism contract. Research authority remains active; no confirmation is pending.",
+  "next_action": "Complete independent derivations and separate non-author reviews for support-invariance and its explicit POLARIZATION_CONTRACT; root compare final texts. Only then decide a combined private freeze. No old three-pair scan or finite-step mechanism is accepted.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-DynamicInputScreen",
-  "scientific_status": "NINETEENTH_FORMAL_PACKAGE_FROZEN_SENT_ONCE; SUBSEQUENT_SOURCE_READING_COMPLETE_NO_NEW_PAID_INPUT; NOT_CLAY",
-  "accepted": "Nineteenth private package source-frozen and once handed off. Bounded dynamic-input screening with inherited conditional endpoints preserved; NO_NEW_THEOREM; NO_CANDIDATE.",
+  "scientific_status": "NEW_BOUNDED_SYMBOLIC_CONTRACTS_ACTIVE; SUPPORT_MAIN_REVIEW_PASS; INDEPENDENT_AND_POLARIZATION_REVIEWS_PENDING; NOT_CLAY",
+  "accepted": "Nineteenth formal package remains last frozen sent-once result. New support main proof has a non-author PASS; no final combined acceptance yet.",
   "required_files": [
+    "research/reverse/support-invariance/CONTRACT.md",
+    "research/reverse/support-invariance/PROOF.md",
+    "research/reverse/support-invariance/MAIN_REVIEW.md",
+    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
+    "research/reverse/support-invariance/POLARIZATION_PROOF.md",
+    "research/reverse/support-invariance/SOURCES.md",
     "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/local-occupation/freeze.json",
-    "research/reverse/atom-pressure-input/source-review-record.json",
-    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
-    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
+    "research/reverse/atom-pressure-input/source-review-record.json"
   ],
   "required_file_sha256": {
+    "research/reverse/support-invariance/CONTRACT.md": "6e1762229978d3238772594a7d0b87ee902c6002925a2b4ce1098c3382305b0c",
+    "research/reverse/support-invariance/PROOF.md": "0757f3859ff4ecd09cae33326593599c1603be7ef28c294444f8115ee19fa356",
+    "research/reverse/support-invariance/MAIN_REVIEW.md": "8fa537041efc80cfb2b7debe3c29fee3e47abf1ca2220ed648c7c2fce88bbdbe",
+    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md": "de3df9e8df78d42f619996c411425b6ce6c66bedaf1a8285bbfc4e29076d7483",
+    "research/reverse/support-invariance/POLARIZATION_PROOF.md": "07cb56f95ba62ad2c6e8677f1e5568567ca5552466133db3f668e6a8268d8b43",
+    "research/reverse/support-invariance/SOURCES.md": "ac892ad6362ceb0a89ec860e42a84d215d9676985e4a9055e772416f4bf4bf81",
     "research/reverse/dynamic-input-screen/freeze.json": "6921107a3a339d8785b7f8af357f220cf37ff22abfa56071ec8635e799bd3338",
-    "research/reverse/local-occupation/freeze.json": "6a452aab8e2fc931ddd6e669c4b27bca708cffd293ea582f1b1459b6c6cf3408",
-    "research/reverse/atom-pressure-input/source-review-record.json": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186",
-    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md": "6f91be318150415b8687f70eeda81d91baeecb7b6b25d9f06e4070f400e9686a",
-    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md": "6a0a1c89067438ec5987b942fc4e34ff6661122e84b9d93c8a701c51a2084e57"
+    "research/reverse/atom-pressure-input/source-review-record.json": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-DynamicInputScreen",
@@ -34,28 +40,29 @@
   "freeze_manifest": "research/reverse/dynamic-input-screen/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
-    "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
+    "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "e704d12903c8cb2c0bc3dcf336de880f5d3b16a7aaf2e5ded5603f1e8d5bbf57",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
-    "AGENTS.md": "f59ef66f8c91fb040b6304dcb1f7fd63d35fe02a829a9f266a7068743aef6146"
+    "AGENTS.md": "01de3ccca6826934a15614866bdb5f3bc55dd559d6b4458c59d06ab4432eae15"
   },
   "freeze_commit": "20b34a5949df6d03b310e6ceb83adfc58646c0d1",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Authorized continued reverse research; current bounded source review completed with no new paid mechanism input",
-  "current_topic_directory": "research/reverse/atom-pressure-input",
+  "current_topic": "Full-polarization support closure and common-axis projected polarization: bounded symbolic full-NS invariance tests",
+  "current_topic_directory": "research/reverse/support-invariance",
   "pending": [
-    "No new mechanism has passed screening. Actual second-generation net supply or a dynamic profile update remains unpaid.",
-    "Uniform iteration, one fixed initial datum across infinitely many scales, cross-generation infinite-dimensional error and finite total time remain open."
+    "Finish two bounded independent derivations and non-author reviews; no twentieth formal package yet.",
+    "No new actual datum or regeneration candidate; actual second-generation net supply and dynamic profile update remain unpaid.",
+    "Uniform iteration, fixed-datum infinite scales, cross-generation error and finite total time remain open."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
   "previous_completed_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
-  "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
-  "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T09:07:50.861584+00:00",
-  "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
-  "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
+  "platform_goal_state_last_observed": "active; actual get_goal in current continuation, no goal mutation or reset consumption",
+  "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
+  "updated_at": "2026-09-08T10:52:15.391235+00:00",
+  "protocol_read_scope_latest": "2026-09-08 current changed workflow opening (lines 1-75) and applicable research/ownership sections (76-160) read; not claiming entire changed protocol reread. Dual-track strategy read in full. Latest local48h/publicweekly-paused/private-immediate/no-new-English and publisher-only repository decisions apply; research does not inspect publishing state.",
+  "previous_goal_turn_classification": "PROGRESS: prior continuation completed reviewed LocalL2ResidenceAndOccupation and DynamicInputScreen freezes with once-only handoffs, then source-reading addendum at 9b076e35; no twentieth reading-only package. Current continuation has new precisely contracted support and polarization proof work, awaiting final reviews.",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -338,11 +345,14 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
+    "research/reverse/support-invariance/CONTRACT.md",
+    "research/reverse/support-invariance/PROOF.md",
+    "research/reverse/support-invariance/MAIN_REVIEW.md",
+    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
+    "research/reverse/support-invariance/POLARIZATION_PROOF.md",
+    "research/reverse/support-invariance/SOURCES.md",
     "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/local-occupation/freeze.json",
-    "research/reverse/atom-pressure-input/source-review-record.json",
-    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
-    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
+    "research/reverse/atom-pressure-input/source-review-record.json"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -761,7 +771,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T09:07:50.861584+00:00",
+  "last_checkpoint_utc": "2026-09-08T10:52:15.391235+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1001,12 +1011,11 @@
     "scientific_programs_run": 0
   },
   "platform_goal_current_observation_20260908": {
-    "status": "usageLimited",
-    "tokensUsed": 12691685,
-    "timeUsedSeconds": 37935,
-    "source": "get_goal tool actual read during current continuation",
-    "no_reset_or_goal_mutation": true,
-    "note": "Read-only platform observation; not a mathematical result or inferred task pause."
+    "status": "active",
+    "tokensUsed": 12790136,
+    "timeUsedSeconds": 38509,
+    "source": "actual get_goal at current bounded continuation before new support proof",
+    "no_reset_or_goal_mutation": true
   },
   "source_reading_addendum_20260908": {
     "source_commit": "9b076e356222c24fa10f0c14916d54350923e7d9",
@@ -1019,5 +1028,14 @@
     "new_candidate": false,
     "publication_handoff": "NONE_NO_DUPLICATE_RELEASE",
     "next_substantive_freeze_may_include_working_records": true
+  },
+  "support_invariance_evidence": {
+    "status": "TWO_BOUND_CONTRACTS_AND_MAIN_DERIVATIONS_SAVED_REVIEW_IN_PROGRESS",
+    "scientific_programs_run": 0,
+    "actual_numeric_datum_selected": false,
+    "formal_release": false,
+    "candidate": false,
+    "core_main_review": "PASS",
+    "independent_final_pending": true
   }
 }

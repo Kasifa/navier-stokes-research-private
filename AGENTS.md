@@ -1,5 +1,11 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Current bounded continuation and protocol refresh (2026-09-08)
+
+The user's continuing research instruction remains active; no routine confirmation is pending. The latest central protocol's changed opening and applicable research sections were actually read on 2026-09-08. PRIVATE_CORE archival is immediate through the fixed publisher; local reader work is batched every 48 hours; public summaries are weekly and paused; new English translation is deferred. Future repository cleanup, visibility/history changes, public relaunch and all reader operations belong to the fixed publisher under their own exact approvals. This research task performs none of them and does not inspect their state. Older contradictory privacy/publication statements below are history.
+
+The next actual bounded scientific contract is research/reverse/support-invariance/CONTRACT.md: classify fixed Fourier support sets preserved for every transverse polarization by full real unforced NS, including collinear exceptions and a rigorous same-solution local leakage remainder. This is a new symbolic support test, not a restart of old three-pair Taylor/root scans or the selection of a singularity datum. Its author/review/acceptance status is recorded in the reverse checkpoint. The preceding symmetry-source-preflight texts are scope and duplicate-parity records, not a mechanism. Earlier contracts' bans constrain their old objects; they do not prevent autonomously fixing a new justified bounded contract. No scientific program, numeric datum or parameter scan is part of this contract.
+
 ## Latest user scope and resumed review (2026-09-08)
 
 The user's latest replacement workspace instructions and management dispatch explicitly continue this existing reverse task from its own actual files. Keep complete new research PRIVATE_CORE in the private repository and the owner's LOCAL FULL READER; only the fixed publisher owns either reader output. Any future public summary, user-designated exact paper files or audited aggregate statistics remains subject to the central protocol and current public pause. Older historical-fulltext, password/encryption and automatic-publication wording below is history, never current permission. Do not edit/read publication state, repeat migration, or monitor the readers.
