@@ -1,0 +1,66 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_EXACT_SINGLE_HELICITY_JOINT_TREE_OBSTRUCTION",
+  "files": [
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_CONTRACT.md",
+      "sha256": "b64a3142fb6e0d261ece899e5b5f4c767d0ed89e1ae0083637b0f4acac3f2e05",
+      "bytes": 1899
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_PROOF.md",
+      "sha256": "b262dd4316dd8a1e626bb1b41cf0be11591277ca5b20d55afb09ac70c7554ae5",
+      "bytes": 7557
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT.md",
+      "sha256": "7125955d59a14a5c55b7c4616ea1f242b52db0c17bc7e1be30b992c0b6a304a5",
+      "bytes": 12443
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_REVIEW.md",
+      "sha256": "23ef87cf790f05bd815d5b16e9b6d0d3bfbecf4bdcba9317a8a331ab0d4c02d1",
+      "bytes": 10111
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT_REVIEW.md",
+      "sha256": "d1859a26c79fcdcb78b4c5c01579f2fb6033b81b70253c4a0e95ec9de7a5e641",
+      "bytes": 9789
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_HELICAL_REVIEW.md",
+      "sha256": "5213d8eb071962a96686f33811c4c82dff755533bcfbb3f495adeaf759fce686",
+      "bytes": 5601
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HISTORY_JOINT_HELICAL_SCOPE.md",
+      "sha256": "5be620f1a0ad3cdd852b2a038d89a3fd10e164c9112af219b931f0f91f118d98",
+      "bytes": 2327
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/OUTCOME.md",
+      "sha256": "8c33e9b3c01d794d0f9c18721dcc0fbf67bbbdc9b5072b3b8ce0319a31e760b9",
+      "bytes": 2839
+    }
+  ],
+  "root_actual_full_read": true,
+  "independent_derivation": "Pascal; no main/joint draft read before own derivation",
+  "main_non_author_review": "Pauli; no new independent helical proof read",
+  "independent_proof_non_author_review": "Rawls; no main helical proof or Pauli review read",
+  "correction": "Undefined scalar e in main H.2 replaced by explicit sender normal coefficient; final line actually reread by root and Pauli; no formula change.",
+  "scope": "Independent different-length three seed pairs, any individual helicity signs and nonzero complex amplitudes, at least one nonorthogonal edge, all compatible orthogonal template transforms and all positive times. Exact pure w22 six-mode return impossible already by direction.",
+  "not_claimed": [
+    "General mixed-helicity polarization exclusion",
+    "Equal lengths or linearly dependent seeds",
+    "Other targets or approximate return",
+    "Full NS mixed-tree or supply/remainder certificate",
+    "Single fixed-datum infinite-scale iteration or singularity"
+  ],
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "full_ns_remainder_paid": false,
+  "figures": []
+}

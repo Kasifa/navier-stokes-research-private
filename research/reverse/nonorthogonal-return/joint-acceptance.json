@@ -1,0 +1,49 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_EXACT_JOINT_RECEIVER_PHASE_GATE_AND_CONDITIONAL_AMPLITUDE_INTERFACE",
+  "files": [
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_CONTRACT.md",
+      "sha256": "cc3cd571b87cde40488345d8d8faa6ac774892701f30869ee479c3d82088e23c",
+      "bytes": 3211
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_PROOF.md",
+      "sha256": "057381db9781ad59d8957282f02b9c917d2a3901dcc0ca1ec0b881c1db115808",
+      "bytes": 5923
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_SYMMETRY_REDUCTION.md",
+      "sha256": "bd5db3d7963e38afd5b08a5c59ea35826a439f2a4b425bbfe59c2812581421b2",
+      "bytes": 9616
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_REVIEW.md",
+      "sha256": "1fbbaf9aa845ab74c1dd6eb3e519dce5f89aec460484f8831a0127321fbdaaa5",
+      "bytes": 7921
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_JOINT_REVIEW.md",
+      "sha256": "1071b1c99e5c29d09001c4907185ba4636a268daf7e6eb5bfbcd46f3b8fa709b",
+      "bytes": 3397
+    }
+  ],
+  "root_actual_full_read": true,
+  "independent_joint_derivation": "Pauli; contract and own pair sources only",
+  "independent_symmetry_reduction": "Rawls; before reading main joint proof",
+  "main_non_author_review": "Rawls; prior independent symmetry work disclosed; did not read Pauli joint proof",
+  "root_extra_checks": "Independent full 144 ordered-pair partition and all target-exterior formulas; shared cross-edge coordinates; not attributed to Rawls.",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "full_ns_remainder_paid": false,
+  "figures": [],
+  "scope": "Exact six-mode projection of pure w22 only; time-independent row-phase failure excludes fixed shapes/allowed O at all positive times and amplitudes; generic six-nonzero-defect case has exact positive amplitude cycle and common modulus test. No generic existence/exclusion claim."
+}
