@@ -11,7 +11,7 @@
   "classification": ["SIGNED ORIGINAL-PRESSURE PAIRING COUNTEREXAMPLE", "SMOOTH PERIODIC INITIAL DATA", "ZERO-SET INITIAL-TIME LIMIT", "NOT CLAY"],
   "claims": [
     "存在光滑、无散、均值零的三维周期初值族，使用同一速度自己的 B0=G/|G| 和规范压力，|integral B0:(G²+H)|≥c log(1/delta)，而 ||G||2≤C sqrt(log(1/delta))、0<||d||2≤C。故原整胞联合源的统一线性缺陷界不成立；不是仅否定压力L1加强版。",
-    "固定零梯度角区和幅度delta的无散应变探针给非零角系数 J=-2sqrt(2)sin(2alpha)。周期压力的完整内外层余项为O(1)，探针压力修正为o(1)，二维无散块的惯性配对逐点为零；三维积分与两个范数乘相同总因子。",
+    "固定零梯度角区和幅度delta的无散应变探针给非零角系数 J=-2sqrt(2)sin(2alpha)。周期压力的完整内外层余项为O(1)，探针压力修正为o(1)，二维无散块的惯性配对逐点为零；三维积分与两个L2范数的乘积均乘2pi，各范数各乘sqrt(2pi)。",
     "B0在零梯度集不连续。两条独立初值u0与-u0的原NS解给初端极限 I(u0)-J0 与 -I(u0)-J0，J0=integral_{G0=0}|H0|。因此只要求全体局部光滑解的严格正时间也不能恢复统一界；不声称反检时刻有共同正下界。",
     "本族完整静态黏性成本 Lambda_delta=-integral B0:Delta G 包含正则化的全部零集贡献，满足 Lambda_delta约为delta^-1，故 |I|/(nu Lambda_delta)趋零。此反例不否定原黏性吸收，也不是一般吸收定理。"
   ],
