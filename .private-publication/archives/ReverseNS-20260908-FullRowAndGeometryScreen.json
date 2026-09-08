@@ -1,0 +1,232 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_CONDITIONAL_FULL_HIGH_ROW_INTERFACE_AND_PAIRED_IMAGINARY_OBSTRUCTION; REAL_NECESSARY_BAND_COMPATIBLE; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No integer or full shared seed realization, no accepted finite two-step candidate. A continuous real Gram region is not a torus Fourier initial datum.",
+      "Negative rho1 is not entirely excluded. Product identity or necessary band alone is not sufficient for the original two imaginary equations or complete high rows.",
+      "Actual common positive amplitude, area squares and all remaining equations still require simultaneous same-data realization; other C directions and common template amplitude remain unpaid. Next lowest-amplitude and area-square work is excluded.",
+      "Zero leading mixed-source M0=0 is a specific finite screening target, not a requirement asserted for all positive-tolerance or finite-time mechanisms.",
+      "No new NS time window, local or uniform cross-generation infinite-dimensional bound, uniform iteration, one fixed datum infinitely many scales, finite total time, singularity or global regularity.",
+      "No repair of prior failed computation, external novelty, human peer review or proof-assistant certification."
+    ],
+    "proved": [
+      "Actual shared sender changes of coordinates preserve both complex coherence and squared amplitude; under the specified same-data lowest and projection assumptions the two complete high rows vanish iff four explicit real residuals vanish.",
+      "With accepted shared projection conditions, this is a conditional existence interface for complete M0=0 and lowest C nonzero original direction, for fixed geometry, lowest real representative and higher projections.",
+      "Common imaginary sign is removable without extra roots. The paired imaginary equations are equivalent to their product identity plus the actual shared T equation, and give a strict two-sided necessary interval excluding the former rho1>2 branch.",
+      "Lowest beta-zero geometry fixes a precise length domain and actual mu functions. Positive and negative rho1 branches have exact sign-preserving polynomial tests using the same c12 squared.",
+      "The direct necessary interval cannot exclude the entire real Gram domain: a symbolic forbidden-endpoint continuation gives uniform strict compatibility on a nonempty normalized real open region, also allowing nonzero cross-products and the lowest necessary sign. No actual frequency was selected."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/two-elliptic-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+      "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+      "use": "Accepted lowest complete conditions, actual shared higher projections, common amplitude and area contracts."
+    },
+    {
+      "manifest": "research/reverse/three-edge-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+      "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+      "use": "Accepted shared unit-coordinate maps and strict longer-receiver ratios; no new NS time statement."
+    },
+    {
+      "manifest": "research/reverse/net-mixed-cancellation/freeze.json",
+      "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+      "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "use": "Accepted complete coherent Fourier-Leray Z and C pair maps."
+    }
+  ],
+  "dependency_commits": [
+    "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+    "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+    "13e8f0779558004f6e12f30b6fc15eae67e8ffa5"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 1990,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/CONTRACT.md",
+      "sha256": "8f1dd745dc12409f3e49b7b56073b3fb38fca4a26d23774f0df4ea12292ecc6e"
+    },
+    {
+      "bytes": 3229,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/FINAL_OUTCOME.md",
+      "sha256": "eee2fad58ba1fa17d96fe7735ab087dafc7eb705b8a955d1553cb37532c89ff7"
+    },
+    {
+      "bytes": 12156,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/FINAL_SCOPE_REVIEW.md",
+      "sha256": "6350487967e2d1f36803da2a54affd09593a6c26b02f1893bbec9270ebf9ee2b"
+    },
+    {
+      "bytes": 1623,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_CONTRACT.md",
+      "sha256": "c1bf6459ce84b4edc0289d5e5d7b89a8a41b00ad57f573bcf935d4bea3cdfb4f"
+    },
+    {
+      "bytes": 13152,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_INDEPENDENT.md",
+      "sha256": "cd35706f9c77a556ce7258afb81703c3c48b35a4be96c64abc52441e6a9b2ec4"
+    },
+    {
+      "bytes": 10899,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_INDEPENDENT_REVIEW.md",
+      "sha256": "4b2e4d037efc81d4b3cd9f088b06172b24f480871d85686d10a72f568edb9995"
+    },
+    {
+      "bytes": 4704,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_PROOF.md",
+      "sha256": "cb09fcd044125fb78e19f34fd80198112379d94ab9e0ec7f37cfba4f9476205c"
+    },
+    {
+      "bytes": 9217,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_REVIEW.md",
+      "sha256": "daee52ae8840928b07f2cb29a90faddc6cf40e3a3081e5b5333bbc4d52f98149"
+    },
+    {
+      "bytes": 16347,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/INDEPENDENT.md",
+      "sha256": "42581306cb064f24514a4b6a690e2e91e098ce2d125c454d92562b1956ec1446"
+    },
+    {
+      "bytes": 10876,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/INDEPENDENT_REVIEW.md",
+      "sha256": "7317def2e712959b7908a998976bcd86372b46703bd3cc38656cace1cdf99cec"
+    },
+    {
+      "bytes": 1607,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/OUTCOME.md",
+      "sha256": "9961385a52e39f3d9c9d25ddc7642665b1aa631d59b3502450056e837501deea"
+    },
+    {
+      "bytes": 1630,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md",
+      "sha256": "fb4550856c200bac96616202ac0e3974851c2bbe6b45e8814bb670d38b1d67ec"
+    },
+    {
+      "bytes": 9915,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_INDEPENDENT.md",
+      "sha256": "91d52a158b5bd28241ce6463dd79414d5b3a50932e9eeac9efcd19298504f3f0"
+    },
+    {
+      "bytes": 8381,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_INDEPENDENT_REVIEW.md",
+      "sha256": "1726e1f3489c2ad533d6d37022ac4d1bbab06fee681d9f86891e1d73e9465444"
+    },
+    {
+      "bytes": 4163,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_PROOF.md",
+      "sha256": "104bf55d5d5ac3e4897e8d2549ae4cbef70ea8955d26b82e9a9471fd958d89b4"
+    },
+    {
+      "bytes": 7742,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_REVIEW.md",
+      "sha256": "168167a82338d058c252fbc560a847daba2a27d9bf7234e367b442b0a45b4f52"
+    },
+    {
+      "bytes": 8848,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/PROOF.md",
+      "sha256": "3d02da817e164bbf8f75bdddfea74a4e0d2b14c12d890952aeeb727866cc3c6b"
+    },
+    {
+      "bytes": 12036,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/REVIEW.md",
+      "sha256": "4e9647c130c3db20c2b1836d54649cb2e3125a65840487f9d10ec92afdf06be0"
+    },
+    {
+      "bytes": 6581,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/ROOT_COMPARISON.md",
+      "sha256": "2db0a233d25cab2041712f640d65cf3419f0f1dcbad9b4b6fa678048fdec4b1d"
+    },
+    {
+      "bytes": 7527,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/ROOT_FOLLOWUP_REVIEW.md",
+      "sha256": "e21f2bb35c5370d3f1787e3d93cdc2089fcc6e7ba8e7ddebf72967cebec8407d"
+    },
+    {
+      "bytes": 3167,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/acceptance.json",
+      "sha256": "78f6428b2cb7001677cb386b25eadd1a56bf8bdf97d42a0635afc31dadf9ce32"
+    },
+    {
+      "bytes": 4204,
+      "commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "path": "research/reverse/full-high-row-reduction/followup-acceptance.json",
+      "sha256": "f79a125457826ded276f17ceeafa89ffb8f811716fe001865c5e8cda46eb0e86"
+    },
+    {
+      "bytes": 10944,
+      "commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
+      "path": "research/reverse/full-high-row-reduction/freeze.json",
+      "sha256": "dadfc5d6c7555a24c0a961531b17086f84227d8e0b47b47ace4c15694d80c8e0"
+    }
+  ],
+  "freeze_commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained symbolic continuation of accepted maps with explicitly stated direct algebraic inputs. Actual source reads and boundaries recorded per proof/review; no new external theorem or novelty claim.",
+  "milestone_scope": "One combined stage: exact complete higher-row conditions, shared imaginary elimination and actual real-geometry limitations of the necessary interval.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+  "private_milestone_record": "research/reverse/full-high-row-reduction/FINAL_OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "d59cbe9932539132b960a1fbad7a90c6fabcce9b",
+    "2be9deaf5fc8d15a1b6028c6c39c55c4485cb914",
+    "650216c9e989ee31b806e0da7b3de305e8dda961"
+  ],
+  "scientific_source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+  "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+  "source_ledger": "research/reverse/full-high-row-reduction/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_review": "research/reverse/full-high-row-reduction/FINAL_SCOPE_REVIEW.md",
+    "independence": "Base and geometry authors formed before reading corresponding other text. Paired root disclosed later inspiration for the stronger bound. Each pair has separate written non-author reviews; paired and geometry reviews each used one reviewer sequentially, with later-read history disclosed. Real-region existence is in the independent geometry proof, supported by its non-author review and root manual verification; final scope reviewer disclosed authorship.",
+    "new_NS_time_window_paid": false,
+    "new_actual_datum_selected": false,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 22 files matched final source Git objects. Both acceptance sets bound 18 distinct current texts with matching SHA-256; these are file counts, not proof or reviewer counts.",
+    "stage_acceptances": [
+      "research/reverse/full-high-row-reduction/acceptance.json",
+      "research/reverse/full-high-row-reduction/followup-acceptance.json"
+    ],
+    "status": "PASS_DERIVATIONS_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_AND_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
