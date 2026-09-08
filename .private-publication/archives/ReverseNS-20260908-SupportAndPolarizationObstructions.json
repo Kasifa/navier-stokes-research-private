@@ -1,0 +1,259 @@
+{
+  "attached_prior_reading": {
+    "directory": "research/reverse/atom-pressure-input",
+    "scope": "Prior completed source reading only; no new theorem and no separate release.",
+    "seven_files_unchanged": true,
+    "source_commit": "9b076e356222c24fa10f0c14916d54350923e7d9"
+  },
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_BOUNDED_INVARIANCE_OBSTACLES; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No exclusion of each special datum, constrained trajectory, low-rank polarization space, arbitrary bundle, geometric symmetry or approximate closure.",
+      "No import into Miller restricted-shell/odd/permutation/mirror data without qualification, and no judgment of that model theorem.",
+      "No explicit or uniform numerical time window, actual numeric datum, singularity or two-step regeneration candidate.",
+      "No uniform iteration, one fixed initial datum across infinite scales, cross-generation infinite-dimensional remainder or finite-total-time mechanism.",
+      "No external novelty, human peer review or proof-assistant certification; no repair of older failed evidence."
+    ],
+    "proved": [
+      "For all transverse polarizations on symmetric N, full-NS support invariance is equivalent to closure of noncollinear sums. For real span dimension at least two this is equivalent to N union zero being an additive subgroup. Collinear and empty exceptions are retained. Failure has a fixed smooth real finite datum and actual local NS leakage with strict o(t).",
+      "For each fixed nonzero real sigma and full-rank integer subgroup L, the free scalar-coefficient class in C P_k sigma is not full-NS invariant. A fixed symbolic finite datum has actual local off-line leakage with strict o(t)."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "use": "Full Fourier-Leray local-solution and regularity methods; exact dependence differs between derivations as disclosed."
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "use": "Full Fourier-Leray local-solution and regularity methods; exact dependence differs between derivations as disclosed."
+    }
+  ],
+  "dependency_commits": [
+    "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 3776,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/CONTRACT.md",
+      "sha256": "6e1762229978d3238772594a7d0b87ee902c6002925a2b4ce1098c3382305b0c"
+    },
+    {
+      "bytes": 11943,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
+      "sha256": "e1cecf4cb055a7f754c3f1f2fdc52e9ec5d183e36bbc5e5535bfb478746ab95e"
+    },
+    {
+      "bytes": 18031,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/INDEPENDENT.md",
+      "sha256": "1dc367a1f2480bf43e9df1a5ff50ae2cf86c74c8d858ffa26a7361c649b02a79"
+    },
+    {
+      "bytes": 10629,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/INDEPENDENT_REVIEW.md",
+      "sha256": "1871956fec27d6a459b49594b059842318a234e74af29e3ae94a6bb1e1415259"
+    },
+    {
+      "bytes": 6873,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/MAIN_REVIEW.md",
+      "sha256": "8fa537041efc80cfb2b7debe3c29fee3e47abf1ca2220ed648c7c2fce88bbdbe"
+    },
+    {
+      "bytes": 3152,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/OUTCOME.md",
+      "sha256": "171284640b744d03bc677e0b976e3693e88a5856f5857f595be2f4abbf894d69"
+    },
+    {
+      "bytes": 3077,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
+      "sha256": "de3df9e8df78d42f619996c411425b6ce6c66bedaf1a8285bbfc4e29076d7483"
+    },
+    {
+      "bytes": 8699,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/POLARIZATION_INDEPENDENT.md",
+      "sha256": "21758a8ad18606f8cea2158a7a1cda3ab62976da530d1a395ab7fd8e618ce57e"
+    },
+    {
+      "bytes": 10057,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/POLARIZATION_INDEPENDENT_REVIEW.md",
+      "sha256": "11adce431ffab2f537e4fff88a67250d9cb8339ed4e1dcbbfd51d0380c12636c"
+    },
+    {
+      "bytes": 6367,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/POLARIZATION_PROOF.md",
+      "sha256": "07cb56f95ba62ad2c6e8677f1e5568567ca5552466133db3f668e6a8268d8b43"
+    },
+    {
+      "bytes": 6647,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/POLARIZATION_REVIEW.md",
+      "sha256": "0d5addda90800ab58e6bc8583c24ce26d85f2f31181dd43776f102dba0dc3870"
+    },
+    {
+      "bytes": 10003,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/PROOF.md",
+      "sha256": "0757f3859ff4ecd09cae33326593599c1603be7ef28c294444f8115ee19fa356"
+    },
+    {
+      "bytes": 6035,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/ROOT_COMPARISON.md",
+      "sha256": "ad2a4f0de0a91ab23800a2b5cbb18e0753d7350c0e91040c305202fabfd520a0"
+    },
+    {
+      "bytes": 6533,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/SOURCES.md",
+      "sha256": "ac892ad6362ceb0a89ec860e42a84d215d9676985e4a9055e772416f4bf4bf81"
+    },
+    {
+      "bytes": 4982,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/support-invariance/acceptance.json",
+      "sha256": "6b9b1c4464fa678767b2fc83f05f0a2d293b8a43af6489cac61125d1633af9e6"
+    },
+    {
+      "bytes": 5470,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/symmetry-source-preflight/INDEPENDENT_PREFLIGHT.md",
+      "sha256": "ebf24f46a42e1cc5314385121e86855c83072fc1f46d99897cb9a18bb47de592"
+    },
+    {
+      "bytes": 7130,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/symmetry-source-preflight/PRIMARY_SCOPE.md",
+      "sha256": "5200cfc99a1fd2f4b88528e9a523628a0505e7496b8e65c730b24512558ddda3"
+    },
+    {
+      "bytes": 2457,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/CONTRACT.md",
+      "sha256": "7ae5f3b1d31f0b38c788c42b561a0a6ad7a31eb7c903a57e569d6dd306704155"
+    },
+    {
+      "bytes": 8598,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/FULL_TAIL_SOURCE_READ.md",
+      "sha256": "6cb169074e22c7a03572d358e02844506db41ce6bec22dc4cd6818eab2027fa0"
+    },
+    {
+      "bytes": 11946,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/PRESSURE_SOURCE_READ.md",
+      "sha256": "d6d67d144bcf84b1b758dbdf84a0d50887609f6104ba2b2f1e3c1a7773d0fcb7"
+    },
+    {
+      "bytes": 4077,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
+      "sha256": "6f91be318150415b8687f70eeda81d91baeecb7b6b25d9f06e4070f400e9686a"
+    },
+    {
+      "bytes": 14157,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/SCOPE_REVIEW.md",
+      "sha256": "6a0a1c89067438ec5987b942fc4e34ff6661122e84b9d93c8a701c51a2084e57"
+    },
+    {
+      "bytes": 2561,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/inherited-inputs.json",
+      "sha256": "c54c41393b10d0ba4b7c9ac30fc8133462e8bd56cacb593eab59bf4d94319750"
+    },
+    {
+      "bytes": 2735,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/atom-pressure-input/source-review-record.json",
+      "sha256": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186"
+    },
+    {
+      "bytes": 10994,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "use": "Full Fourier-Leray local-solution and regularity methods; exact dependence differs between derivations as disclosed."
+    },
+    {
+      "bytes": 20130,
+      "commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+      "use": "Full Fourier-Leray local-solution and regularity methods; exact dependence differs between derivations as disclosed."
+    },
+    {
+      "bytes": 10437,
+      "commit": "18fc343fe725bb49cb01fb931448f66bec670e2d",
+      "path": "research/reverse/support-invariance/freeze.json",
+      "sha256": "1729c69b8e1f40cf3be6196c27458f7097fdc05e9bf9dd1f2540cca25ff2fbe5"
+    }
+  ],
+  "freeze_commit": "18fc343fe725bb49cb01fb931448f66bec670e2d",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Directed original-source and local-history deduplication, not whole-paper revalidation. Nunez PDF text read but byte hash unavailable due recorded TLS failures; not a proof premise. Prior atom readings and symmetry source preflights are attached records, not new theorems.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "numerical_certificate": "NOT_APPLICABLE_SYMBOLIC_PROOFS_ONLY",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-DynamicInputScreen",
+  "primary_source_urls": [
+    "https://arxiv.org/pdf/2307.03434v5",
+    "https://arxiv.org/pdf/2404.01505v3",
+    "https://uvadoc.uva.es/handle/10324/39594",
+    "https://arxiv.org/abs/2110.08039",
+    "https://doi.org/10.1007/s00021-022-00703-5"
+  ],
+  "private_milestone_record": "research/reverse/support-invariance/OUTCOME.md",
+  "public_export_authorization": "No public core export; private archive only under existing owner-local-reader cadence. No new English translation requested.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-SupportAndPolarizationObstructions",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "917be43ed0f2187173943945c2480837bb3181cf",
+    "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6"
+  ],
+  "scientific_source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+  "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+  "source_ledger": "research/reverse/support-invariance/SOURCES.md",
+  "status": "RESEARCH_COMPLETE_PROVED_BOUNDED_INVARIANCE_OBSTACLES_NO_CANDIDATE",
+  "validation": {
+    "acceptance_history": "acceptance.json records FINAL_SCOPE_PENDING before the final review; the exact bound FINAL_SCOPE_REVIEW.md completes that gate without rewriting historical bytes.",
+    "actual_local_infinite_dimensional_solution_bridge": true,
+    "actual_numeric_datum_selected": false,
+    "final_scope_review": "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
+    "independence": "Per-file contacts and prior authorship disclosed; counterparts unread during respective independent derivations. Root precontract reasoning disclosed. Final review is nonblind scope comparison, not an additional proof.",
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "prior_reading_validation": "Previously accepted full reading; current seven-file Git-byte and six-binding checks only, not a claim of new full rereading.",
+    "root_actual_full_read_new_final_texts": true,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 24 listed files equal source Git objects; fifteen acceptance bindings and six old reading bindings match. Seven old reading files also equal 9b076e35 objects. Counts are provenance only.",
+    "status": "PASS_TWO_DERIVATIONS_PER_CONTRACT_FOUR_NONAUTHOR_REVIEWS_ROOT_COMPARISON_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "uniform_time_window_claimed": false,
+    "unresolved_within_accepted_scope": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
