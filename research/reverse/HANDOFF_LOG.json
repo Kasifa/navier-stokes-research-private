@@ -131,6 +131,19 @@
       "sent_time_note": "Successful send_message tool preceded this receipt; this records success, not an asserted exact dispatch timestamp. No resend.",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+      "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+      "freeze_commit": "8a03284f8183803d5583299078f1a4e2150c52ac",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T05:14:56.285546+00:00",
+      "sent_time_note": "Successful send_message tool preceded this receipt; record time is not an asserted exact dispatch timestamp. No resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
