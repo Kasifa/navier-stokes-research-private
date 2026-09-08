@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPTED_COMPLETE_FOUR_LEAF_RECEIVERS_AND_MIXED_ROOT_SHORT_WINDOW_OBSTRUCTION",
+  "files_sha256": {
+    "research/reverse/mixed-polarization/MIXED_ROOT_CONTRACT.md": "4922918d272558efb8ddc9c05012acbffe9d497c2baf11a63b6027fc24e44bb1",
+    "research/reverse/mixed-polarization/MIXED_ROOT_PROOF.md": "3e540dccc41dcf99b79b1a72cf5bff0e5d58331c4ad4ecf961ac783fd3bf1832",
+    "research/reverse/mixed-polarization/MIXED_ROOT_INDEPENDENT.md": "cad93f863ad371723d4510f20588a0f7abcee3e4f8e2984010f88ebcb2fc2dbf",
+    "research/reverse/mixed-polarization/MIXED_ROOT_REVIEW.md": "58ffce36f2e99010ea2977d077e6703a5a51b06048905e923085d2fc668dd6cd",
+    "research/reverse/mixed-polarization/MIXED_ROOT_INDEPENDENT_REVIEW.md": "8a9e211a795916e95c5075c6791bb38ae98588fb1626a7f469f0c74dc939986a",
+    "research/reverse/mixed-polarization/ROOT_MIXED_ROOT_REVIEW.md": "f8fc30c5ad243664c4b6d13a96309b52f4c4d254f2d3e36ae13171ead803c640",
+    "research/reverse/mixed-polarization/MIXED_ROOT_OUTCOME.md": "220356307485d789dd28becd5d2d7b57acaaa421523b31cd8cf0de89abcf29bc"
+  },
+  "root_actual_full_read": true,
+  "main_author": "root",
+  "independent_author": "coherence_independent_resumed",
+  "main_non_author_review": "coherence_review_resumed",
+  "independent_non_author_review": "coherence_independent_audit",
+  "unresolved_issues": [],
+  "interpretation": "MI.53 uses the signed scalar ratio beyond the smaller window; positivity and equality with the norm ratio are asserted only within MI.48. Root additional projection interface is separately non-author reviewed, not attributed to the independent derivation.",
+  "scope": "All doubled receivers of the defined complete four-leaf trees; nondegenerate larger-receiver pair cannot make seed mixed roots relatively vanish by small time. Three-pair vector cancellation and actual NS remainder not paid by this acceptance.",
+  "scientific_programs_run": 0,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "full_ns_remainder_paid": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "figures": []
+}
