@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "scope": "Four fixed same-input finite Galerkin trajectories plus one bounded comparison; no true NS error or source-gate certificate",
+  "bindings": [
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md",
+      "sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md",
+      "sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md",
+      "sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_reference.py",
+      "sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_experiment.py",
+      "sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_numerical.py",
+      "sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_DESIGN.md",
+      "sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_REVIEW.md",
+      "sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md",
+      "sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md",
+      "sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md",
+      "sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md",
+      "sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT_DRAFT.md",
+      "sha256": "3390f029044bfcf06422461747e9bac6a95e3120041befd3e0fc50c18104e0d0"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT_REVIEW.md",
+      "sha256": "213837825b8354c9b83c6e8a46d90d3655baafe64ec44092547e197935ed7be3"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_ROOT_ASSESSMENT.md",
+      "sha256": "a6a76c4ed9bc9c61c25331c93ac0db1e3e3b8df612e4d02086aaf7e7af20820a"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_FINAL_REVIEW.md",
+      "sha256": "168dee59e856f1baf76bb8f1b27a150f7fba1dd8bc6de22b6d1a2f1d6f4ebd98"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_TRAJECTORY_STATIC.md",
+      "sha256": "b1c92b7c12049e24628042592fde1609f7f3e4adce82f5b3ab20768f16f25fd4"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/compare_trajectories.py",
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_trajectory.py",
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-source-lock.json",
+      "sha256": "060e72f189c2b6ecade7b6425509f68c2efb6d056b4f71e25b76c91fdb5ce3d2"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-acceptance.json",
+      "sha256": "dceb856c85a109ccbf5e3b204ca29d36f37793125bade90cade3bf4150ffae97"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_RESULT.md",
+      "sha256": "e6220f0612140ea64cbdb0b7acd016542cb22de55dc2de321468c695521ebda3"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_RESULT_REVIEW.md",
+      "sha256": "c5c2fe53c32c898d1236211d03d76f897fb55aaed39066262d1c1fe2b2450d43"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-pre-run.json",
+      "sha256": "ab195ce392d69c6cb0ca988638bbffe1a2aa6a41d9bcb7b2f72f5de0ab2e1615"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-cost-launch.json",
+      "sha256": "6876748e8ca981d3a88df7eab7a39561491b7bd899ed9c1dd09ffc13c6541439"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/result.json",
+      "sha256": "ec959e7f2ab3ac1f96f95bafbd0a13f3ff39748793914e35861d1b80ec3c61fe"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/execution.json",
+      "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/result.json",
+      "sha256": "253b55106075cec07f42c74d8a386a46e12a935b8427e75a7766ecaad10dbdb1"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/execution.json",
+      "sha256": "ed8089868b3bcc916b0b66e936a5d7ce5cb7ead48234fb6dac878dbbf2442e8f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/result.json",
+      "sha256": "0afbed14a4e863b987c3bf723dda084a891f309a4a2924efebae6919a23fc4f1"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/execution.json",
+      "sha256": "377af0bb2d4d0657ffd47ab1370e2f099181274ad0b24921528289b521d61f6f"
+    }
+  ]
+}
