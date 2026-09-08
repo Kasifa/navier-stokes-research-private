@@ -1,0 +1,51 @@
+{
+  "schema": "ReverseNS-internal-followup-acceptance-v1",
+  "status": "ACCEPTED_PAIRED_IMAGINARY_OBSTRUCTION_AND_REAL_GEOMETRY_COMPATIBILITY",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md": "fb4550856c200bac96616202ac0e3974851c2bbe6b45e8814bb670d38b1d67ec",
+    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_PROOF.md": "104bf55d5d5ac3e4897e8d2549ae4cbef70ea8955d26b82e9a9471fd958d89b4",
+    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_INDEPENDENT.md": "91d52a158b5bd28241ce6463dd79414d5b3a50932e9eeac9efcd19298504f3f0",
+    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_REVIEW.md": "168167a82338d058c252fbc560a847daba2a27d9bf7234e367b442b0a45b4f52",
+    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_INDEPENDENT_REVIEW.md": "1726e1f3489c2ad533d6d37022ac4d1bbab06fee681d9f86891e1d73e9465444",
+    "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_CONTRACT.md": "c1bf6459ce84b4edc0289d5e5d7b89a8a41b00ad57f573bcf935d4bea3cdfb4f",
+    "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_PROOF.md": "cb09fcd044125fb78e19f34fd80198112379d94ab9e0ec7f37cfba4f9476205c",
+    "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_INDEPENDENT.md": "cd35706f9c77a556ce7258afb81703c3c48b35a4be96c64abc52441e6a9b2ec4",
+    "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_REVIEW.md": "daee52ae8840928b07f2cb29a90faddc6cf40e3a3081e5b5333bbc4d52f98149",
+    "research/reverse/full-high-row-reduction/GEOMETRY_SCREEN_INDEPENDENT_REVIEW.md": "4b2e4d037efc81d4b3cd9f088b06172b24f480871d85686d10a72f568edb9995",
+    "research/reverse/full-high-row-reduction/ROOT_FOLLOWUP_REVIEW.md": "e21f2bb35c5370d3f1787e3d93cdc2089fcc6e7ba8e7ddebf72967cebec8407d"
+  },
+  "root_actual_full_read": [
+    "PAIRED_IMAGINARY_CONTRACT.md",
+    "PAIRED_IMAGINARY_PROOF.md",
+    "PAIRED_IMAGINARY_INDEPENDENT.md",
+    "PAIRED_IMAGINARY_REVIEW.md",
+    "PAIRED_IMAGINARY_INDEPENDENT_REVIEW.md",
+    "GEOMETRY_SCREEN_CONTRACT.md",
+    "GEOMETRY_SCREEN_PROOF.md",
+    "GEOMETRY_SCREEN_INDEPENDENT.md",
+    "GEOMETRY_SCREEN_REVIEW.md",
+    "GEOMETRY_SCREEN_INDEPENDENT_REVIEW.md",
+    "ROOT_FOLLOWUP_REVIEW.md"
+  ],
+  "claims": [
+    "Exact shared T equation plus the paired product identity is equivalent to the two remaining imaginary residuals being zero; product identity alone is only necessary.",
+    "The strict actual-geometry double-sided interval excludes the former rho1>2 branch; the negative branch is not entirely excluded.",
+    "Lowest beta-zero constraints fix the length domain and actual mu functions; the two high-ratio branches have exact sign-preserving polynomial tests.",
+    "The direct necessary interval has a compatible nonempty open region in normalized real Gram coordinates, even with nonzero cross-products and the lowest necessary geometric sign. This does not establish integer or full-equation realization."
+  ],
+  "independence": "Paired root formed core identity before independent message and then used its stronger-bound inspiration, disclosed. Paired independent formed without root text. Geometry authors formed before reading each other. Each pair has separately written non-author reviews by the same reviewer in sequence; later reads disclosed, not two distinct reviewers. Geometry real-region conclusion has independent proof, non-author review and root manual verification; it is not in the original root geometry proof.",
+  "unresolved_within_accepted_claims": [],
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "next_stage_excluded": "research/reverse/lowest-amplitude-compatibility",
+  "scope": "Finite zero-leading-mixed-source screening only. Positive tolerance and arbitrary finite-time mechanisms not excluded. Integer/full shared equation realization and actual NS two-step/infinite iteration remain OPEN / NOT CLAY."
+}
