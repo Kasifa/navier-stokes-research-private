@@ -6,38 +6,28 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Sixteenth formal package sent once; finish combined higher-pure-direction and short-window-source-amplitude final scope, source freeze and one-time private handoff. Read earlier concentration obstacles before selecting a substantively new bounded test. No actual candidate or parameter selected.",
+  "next_action": "Seventeenth package frozen and sent once; no resend or archive observation. Finish actual weak-local-exit independent derivation, separate non-author reviews and root comparison. New question lowers old fixed-shape C3 hypothesis to local velocity L2, retaining full rescaled NS; not yet accepted.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-JointFullRowCriterion",
-  "scientific_status": "CONDITIONAL_JOINT_FULL_ROW_CRITERION_FROZEN; PURE_DIRECTION_AND_SHORT_WINDOW_AMPLITUDE_OBSTRUCTION_ACCEPTED; NO_CANDIDATE; NOT_CLAY",
-  "accepted": "Joint full-row conditional criterion frozen and sent once. Pure direction and actual source short-window amplitude bounds independently reviewed and root accepted; combined final scope pending.",
+  "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+  "scientific_status": "PURE_DIRECTION_AND_SHORT_WINDOW_OBSTRUCTION_FROZEN_SENT_ONCE; LOCAL_L2_EXIT_UNDER_REVIEW; NO_CANDIDATE; NOT_CLAY",
+  "accepted": "Seventeenth package accepted, frozen and once privately handed off. Conditional shape directions and actual short-window nonamplification exclusions remain distinct.",
   "required_files": [
-    "research/reverse/joint-direction-compatibility/freeze.json",
-    "research/reverse/higher-pure-direction/acceptance.json",
-    "research/reverse/higher-pure-direction/ROOT_COMPARISON.md",
-    "research/reverse/higher-pure-direction/OUTCOME.md",
-    "research/reverse/short-window-source-amplitude/acceptance.json",
-    "research/reverse/short-window-source-amplitude/ROOT_COMPARISON.md",
-    "research/reverse/short-window-source-amplitude/OUTCOME.md",
-    "research/reverse/short-window-source-amplitude/FINAL_OUTCOME.md"
+    "research/reverse/short-window-source-amplitude/freeze.json",
+    "research/reverse/weak-local-exit/CONTRACT.md",
+    "research/reverse/weak-local-exit/PROOF.md"
   ],
   "required_file_sha256": {
-    "research/reverse/joint-direction-compatibility/freeze.json": "061825057d7884b622e92632f450e418641f7e06ea836d9e6c9eb8024e6d7894",
-    "research/reverse/higher-pure-direction/acceptance.json": "6257a0803b6a05d88220ae865cc4954eaf5ef8efb1e613348ea5cb5384615838",
-    "research/reverse/higher-pure-direction/ROOT_COMPARISON.md": "117418b820d1580bbbab1e1a234af1a1a641bf075aeaf4b02fbf71e76510e6bc",
-    "research/reverse/higher-pure-direction/OUTCOME.md": "33f25999f7644331efb1c742b0ef23e943ab98fb33e6bbb580fa7679d94b6187",
-    "research/reverse/short-window-source-amplitude/acceptance.json": "9b9ed931eaef3719a8727b9907d43fb5ba7aab307e0bdaca392fae67aff82c00",
-    "research/reverse/short-window-source-amplitude/ROOT_COMPARISON.md": "a1f02b8b1c9cb9b8bdaeae06a7c2e41ae5702d716be88cc9915766cc18430164",
-    "research/reverse/short-window-source-amplitude/OUTCOME.md": "269bbe7f6449d23d6fc787bcf335fe8cef2aaee2a36e6977923018328fefb5d3",
-    "research/reverse/short-window-source-amplitude/FINAL_OUTCOME.md": "14612e7cb05fbf0a7e09212027a90942a1f9cadc0a11024172c4b7805fd7bfd4"
+    "research/reverse/short-window-source-amplitude/freeze.json": "6793fd3cac9c1f34939b1b6998ec9e3014bf83b539bbbd597c332aea5e60e3c5",
+    "research/reverse/weak-local-exit/CONTRACT.md": "2eba0d26399480d98c1d29e288b0f1726b33ca14dc103092936e20749689664f",
+    "research/reverse/weak-local-exit/PROOF.md": "fb94de563dc2a95dad6cd21209724239c5b924ac27097f3610448d37e718a54d"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-JointFullRowCriterion",
-  "source_commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
-  "freeze_manifest": "research/reverse/joint-direction-compatibility/freeze.json",
+  "last_completed_release": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+  "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
+  "freeze_manifest": "research/reverse/short-window-source-amplitude/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
@@ -333,14 +323,9 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "research/reverse/joint-direction-compatibility/freeze.json",
-    "research/reverse/higher-pure-direction/acceptance.json",
-    "research/reverse/higher-pure-direction/ROOT_COMPARISON.md",
-    "research/reverse/higher-pure-direction/OUTCOME.md",
-    "research/reverse/short-window-source-amplitude/acceptance.json",
-    "research/reverse/short-window-source-amplitude/ROOT_COMPARISON.md",
-    "research/reverse/short-window-source-amplitude/OUTCOME.md",
-    "research/reverse/short-window-source-amplitude/FINAL_OUTCOME.md"
+    "research/reverse/short-window-source-amplitude/freeze.json",
+    "research/reverse/weak-local-exit/CONTRACT.md",
+    "research/reverse/weak-local-exit/PROOF.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -756,7 +741,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T07:32:27.970596+00:00",
+  "last_checkpoint_utc": "2026-09-08T07:40:42.014747+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -917,21 +902,37 @@
     "manifest": "research/reverse/joint-direction-compatibility/freeze.json"
   },
   "higher_pure_direction_evidence": {
-    "status": "ACCEPTED_TWO_DERIVATIONS_SEPARATE_REVIEWS_ROOT_FULL_COMPARISON",
+    "status": "ACCEPTED_FROZEN_SENT_ONCE",
     "directory": "research/reverse/higher-pure-direction",
     "acceptance": "research/reverse/higher-pure-direction/acceptance.json",
     "actual_candidate": false,
     "scientific_programs_run": 0,
-    "formal_release": false,
-    "combined_final_scope": "IN_PROGRESS"
+    "formal_release": true,
+    "combined_final_scope": "ROOT_FULL_READ_PASS",
+    "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+    "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
+    "freeze_commit": "7860958843621443efc0d4292947575860c44374",
+    "manifest": "research/reverse/short-window-source-amplitude/freeze.json"
   },
   "short_window_source_amplitude_evidence": {
-    "status": "ACCEPTED_TWO_DERIVATIONS_SEPARATE_REVIEWS_ROOT_FULL_COMPARISON",
+    "status": "ACCEPTED_FROZEN_SENT_ONCE",
     "directory": "research/reverse/short-window-source-amplitude",
     "acceptance": "research/reverse/short-window-source-amplitude/acceptance.json",
     "actual_candidate": false,
     "scientific_programs_run": 0,
-    "formal_release": false,
-    "combined_final_scope": "IN_PROGRESS"
+    "formal_release": true,
+    "combined_final_scope": "ROOT_FULL_READ_PASS",
+    "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+    "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
+    "freeze_commit": "7860958843621443efc0d4292947575860c44374",
+    "manifest": "research/reverse/short-window-source-amplitude/freeze.json"
+  },
+  "weak_local_exit_evidence": {
+    "status": "MAIN_STOPPED_ROOT_FULL_READ_INDEPENDENT_AND_NONAUTHOR_REVIEW_IN_PROGRESS",
+    "directory": "research/reverse/weak-local-exit",
+    "accepted": false,
+    "scientific_programs_run": 0,
+    "actual_new_datum": false,
+    "scope": "Only fixed shape, fixed rescaled coordinates, one continuous local L2 neighborhood residence interval; no derivative-smallness assumption or weak-solution extension."
   }
 }

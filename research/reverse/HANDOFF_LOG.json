@@ -196,6 +196,19 @@
       "sent_time_note": "Successful send_message tool preceded context compaction; this records confirmed dispatch, not an asserted exact timestamp. No resend.",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+      "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
+      "freeze_commit": "7860958843621443efc0d4292947575860c44374",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T07:40:42.014747+00:00",
+      "sent_time_note": "Successful send_message tool immediately preceded this checkpoint; record time is not asserted exact dispatch time. No resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
