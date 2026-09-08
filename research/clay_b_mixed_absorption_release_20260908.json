@@ -1,0 +1,125 @@
+{
+  "release_id": "ClayB-MixedAbsorptionCalibration-20260908",
+  "logical_predecessor": "ClayB-NearPressureEntropy-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "74c8d586467164543dbf295afcf945eb47a8c7a0",
+  "source_commit": "226dbe4522533ede3b47664f903d15ff39920068",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "EXACT MIXED-ABSORPTION COEFFICIENT CALIBRATION",
+    "SMOOTH INITIAL-TIME WEIGHTED-REMAINDER OBSTRUCTION",
+    "NO UNCONDITIONAL CRITICAL ESTIMATE",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For the explicit NE initial family u=(A U0,b v0), the full original spatial dissipation equals integral [A^2(X+16Y)+5b^2L]/q_AB. Including it in P<=delta*nu*D+C_delta(M_AB)*Q still requires liminf_(A->infty) C_delta(M_AB)/A >= kappa0^2/(200*pi^3*delta*nu*D0) after fixing b=2*delta*nu*D0/kappa0. The amplitude family has growing energy; integer-frequency and full NS periodic-replication scaling are distinguished.",
+    "The regularized local full-gradient entropy equation exactly combines transport, inertia and pressure into integral a_i*partial_j(phi*B_kappa,ij), retaining both slices, cutoff terms and original zero-set dissipation. Spatial constant vectors may be subtracted without time derivatives. Direct Young absorption produces the additional nonnegative integral phi*|a-c|^2/q_kappa with coefficient 3/(4*delta*nu), not an a priori bound.",
+    "A specified real mean-zero divergence-free trigonometric initial field has quadratic gradient zeros on two lines and canonical-pressure acceleration values plus/minus (36/65)e1. Consequently integral |a-c|^2/|G| is infinite for every spatial constant c on that initial slice.",
+    "A smooth local flattening of that field creates two positive-volume gradient-zero regions while preserving separated initial pressure gradients. After fixing the flattening, classical smooth local NS existence gives q(t)<=C*t and an acceleration-variance lower bound for every spatial constant c(t). The weighted remainder is at least v/(C*t), and its regularized time integral is at least (v/C)*arsinh(C*T/kappa). Thus the initial-time-window remainder diverges while original dissipation and signed source remain finite."
+  ],
+  "limitations": [
+    "No scale-small or summable remainder for general mixed absorption by original mu_G has been proved. The exact joint rewrite and its Young inequality do not supply critical gain.",
+    "The amplitude lower bound is not a counterexample to coefficients depending on one fixed local A+E+D cap. No sufficient or optimal coefficient is established.",
+    "The weighted-remainder obstruction concerns a nonnegative upper bound on an initial-time window. It does not imply solution singularity, divergence of the signed pairing, or divergence on every fixed positive-age interval; spatially varying references and time cutoffs are not excluded.",
+    "The same-solution path from arbitrary NS evolution to a prescribed-centre good scale with the required common energy-pressure cap remains open.",
+    "Novelty certification, human peer review and general three-dimensional regularity remain open. Finite Fourier checks do not certify the flat cutoff, local existence proof or continuum divergence.",
+    "Participating AI module reviews are not wholly nonauthor or human peer review. No comprehensive novelty audit."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_mixed_absorption_calibration_20260908.md",
+      "bytes": 12164,
+      "sha256": "8afd642f0b8b7fe774a952cc69bb4f89a5c3b0a989b178db4668499855a175db"
+    },
+    {
+      "path": "research/clay_b_mixed_absorption_checks_20260908.py",
+      "bytes": 5247,
+      "sha256": "ec1489c2da50a4074a1971289b818e087c05235c2a39797af574322f6112c700"
+    },
+    {
+      "path": "research/clay_b_mixed_absorption_audit_20260908.md",
+      "bytes": 3420,
+      "sha256": "75f8614e38f96405bcebfea54f32f315a55cf890ea67e9b1746215ef350972dd"
+    },
+    {
+      "path": "research/clay_b_mixed_absorption_checkpoint_20260908.json",
+      "bytes": 4724,
+      "sha256": "05190370db6f55fc9d6989115026a0f16f82f5dd3e3f146dfacb08d75fd0f1aa"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_near_pressure_entropy_20260908.md",
+      "sha256": "4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808",
+      "bytes": 11860,
+      "source_commit": "74c8d586467164543dbf295afcf945eb47a8c7a0",
+      "read_scope": "full",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "bytes": 11939,
+      "source_commit": "74c8d586467164543dbf295afcf945eb47a8c7a0",
+      "read_scope": "full",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_radial_log_source_check_20260908.md",
+      "sha256": "ae603068c8c37a2ea7178d666fa30114a86aaf283dd3559ee8cef3f905c1d64c",
+      "bytes": 3581,
+      "source_commit": "74c8d586467164543dbf295afcf945eb47a8c7a0",
+      "read_scope": "full",
+      "kind": "FROZEN_SCOPE_DEPENDENCY"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://terrytao.wordpress.com/2018/09/16/254a-notes-1-local-well-posedness-of-the-navier-stokes-equations/",
+      "title": "Terence Tao, 254A Notes 1: Local well-posedness of the Navier-Stokes equations",
+      "scope": "Root targeted Corollary 40 and proof, displayed lines914-920; C also read this interface. Classical smooth periodic local existence including the initial slice only. Not a whole-paper or recursive dependency audit.",
+      "whole_paper_certified": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_mixed_absorption_audit_20260908.md",
+    "mathematical_review": "Root independent derivation, full initial183-line12112B main and151-line5247B code readback, plus52B C>0 clarification. A actual full final183-line12164B main SHA8afd642f0b8b7fe774a952cc69bb4f89a5c3b0a989b178db4668499855a175db PASS without mandatory changes. C actual full initial main and code PASS, then inverse-verified52B final main clarification. Both participated in modules; not wholly nonauthor or human review.",
+    "record_review": "Root full audit/checkpoint readback and semantic/hash checks. C actual full final25-line3420B audit SHA75f8614e38f96405bcebfea54f32f315a55cf890ea67e9b1746215ef350972dd and initial41-line4690B checkpoint SHA37fe1f32712353531446479cedc56def02eb5104d4007fdb596fabfc2fa3de85. Strict JSON/no duplicate keys and4 claims/5 open PASS. Root implemented C's sole requested next-action clarification,34B, separating exploratory testing from acceptance; final41-line4724B SHA05190370db6f55fc9d6989115026a0f16f82f5dd3e3f146dfacb08d75fd0f1aa. No additional full C review of that final34B is claimed.",
+    "finite_symbolic_checks": {
+      "script": "research/clay_b_mixed_absorption_checks_20260908.py",
+      "sha256": "ec1489c2da50a4074a1971289b818e087c05235c2a39797af574322f6112c700",
+      "passed": true,
+      "method": "Standard-library Gaussian rational Fourier coefficients; exact Poisson and derivative checks.",
+      "negative_controls_rejected": 3,
+      "negative_residual_mode_counts": [
+        16,
+        8,
+        16
+      ],
+      "review": "Root full read and actual run plus two deterministic repeats; C full code read/run and explicit exact residual inspection. Independent analytic recomputation, not a second code implementation.",
+      "independent_implementation": false,
+      "scope": "Finite Fourier algebra only; no cutoff flatness, evolution, parameter-limit or continuum integral certification."
+    },
+    "structural_checks": "18 ordered unique MA tags, paired displays and no abnormal controls; staged whitespace PASS. Four source files25555B match source git objects and local hashes. Three full-read frozen dependencies27380B match base git objects. New234-line workflow policy read after scope change; current scientific source and next action preserved.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytic coefficient and smooth-solution countercheck; no simulation or new scientific figure.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Scoped elimination of an incorrect estimate, not arbitrary-evolution good-scale or global regularity."
+  },
+  "publication_boundary": "Once-only PRIVATE_ARCHIVE handoff to the fixed publisher. No public overview, paper selection, aggregate statistic, reader build or site relaunch is requested. The publisher independently owns local full-reader work under the user's current scope. Research does not push or inspect archival/public execution.",
+  "next_research_plan": "Do not try to close the full-gradient entropy through the disproved raw nonnegative acceleration-square-over-gradient remainder, even after subtracting spatial constants. Return to the original signed near-field pairing on a fixed positive-age local cylinder, retaining both slices, cutoffs, transport equivalence and harmonic pressure. A bounded next check may derive the derivative terms of a spatially varying reference and test whether they can be controlled by the same solution; compare those costs with AH and require such control before adopting the estimate. Require a scale-small or summable remainder with a stated common A+E+D dependency. If the calculation only recovers C*E(r), stop this absorption subbranch and compare the existing prescribed-centre routes instead of renaming weights. Do not repeat the completed amplitude calibration or initial-time Young obstruction. No publication or reverse-runtime inspection."
+}
