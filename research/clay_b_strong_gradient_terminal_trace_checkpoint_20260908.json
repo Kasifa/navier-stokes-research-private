@@ -1,0 +1,59 @@
+{
+  "release_id": "ClayB-StrongGradientTerminalTrace-20260908",
+  "logical_predecessor": "ClayB-EmptyWedgePressureObstruction-20260908",
+  "status": "RESEARCH_SOURCE_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "base_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+  "main": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+  "main_sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+  "classification": [
+    "PROVED IN STATED SCOPE",
+    "STRONG L1 GRADIENT TERMINAL TRACE",
+    "STRONG W1,1 VELOCITY TERMINAL TRACE",
+    "NO CRITICAL RATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "在固定2pi三维环面、nu>0、同一无外力NS解于[0,T*)光滑且T*有限的范围内，对任意0<a<T*，完整梯度G(t)在t趋于T*时强L1收敛；速度强W1,1收敛到唯一u*属于W1,1交L2且无散，G*=grad u*。不预设终端光滑或可延拓。",
+    "对同一光滑前终端无散漂移b属于L2时空、可积源f属于L1时空的向量输运扩散方程，光滑有界截源辅助解有强L2终端迹，全时间一致Kato逼近给原场强L1终端迹。辅助场不要求是梯度或NS解。",
+    "q、d、d²/q、|adj G|²/q³、|adj G|/q强L1收敛到G*的相同连续线性增长函数；Theta=d(G)G/q^(3/2)强L2收敛。因此此周期光滑前终端范围内，CD/LK相关弱终端测度没有额外奇异集中质量；不删除时空零集熵耗散。"
+  ],
+  "open_items": [
+    "没有获得仅依赖能量的源截断尾、辅助通量Fourier尾或终端连续模量；现有结论依赖固定解且没有临界速率。",
+    "未证明r^(-1)integral_Br |G*|趋零、r^(-1)integral_Qr |grad Theta|²小量，或指定中心共同A/E界与小K尺度；PF所需的无条件动力学输入仍开放。",
+    "未证明G*属于L2、速度强L2收敛、终端光滑、经典延拓、一般三维正则性或奇性；一般NS/Clay仍OPEN / NOT CLAY。",
+    "没有把结论推广到任意局部能量弱解、非周期全空间或任意外力；没有排除梯度平方和时空熵耗散的临界集中或识别全部零集缺陷。",
+    "本地证明使用已冻结GD周期Hardy接口及标准最大值、Kato、Fourier逼近机制；限定检索和AI复核不认证新颖性、期刊价值或真人同行评审。"
+  ],
+  "next_action": "以TG同一漂移截源为具体输入，推导指定中心、缩小前终端柱上的完整局部比较式；保留两时间切片、截止输运/扩散、原压力及近远分解、源截断尾和辅助通量尾，明确各项临界归一化及常数依赖。只有原NS结构给出强于定性L1迹的临界速率或联合好尺度，才算新的关键进展。不得任意交换R与r的极限，不复活已停的无新增控制直接不变密度改写，不将初端小例子或旧条件出口重复计为成果。不检查发布或反向执行。",
+  "new_scoped_positive_theorem": true,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "next_test_selected": true,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap": {
+    "update_required": true,
+    "path": "research/clay_b_strong_gradient_terminal_trace_recap_20260908.md",
+    "coverage": [
+      "GD terminal-gradient boundary",
+      "CD/LK weak terminal measures",
+      "WE Theta observation",
+      "TG strong terminal identification"
+    ],
+    "reason": "此正面终端迹结论改变旧终端拓扑边界，附一份范围明确的私有小阶段回顾；不重写旧总回顾，也不要求公开或即时本地重建。"
+  },
+  "preserved_history": "旧冻结主稿、内部ID/IDC检查及其未解的临界问题原样保留；TG在明确范围内加强CD/LK的终端迹，不重写历史文件。",
+  "incoming_reverse_interface": "已收到ReverseNS-20260908-LocalL2ResidenceAndOccupation冻结指针，尚未阅读或采用；不构成TG依赖。"
+}
