@@ -1,0 +1,102 @@
+{
+  "check_id": "ClayB-GradientRecordPressureHistory-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "62642f77b23eb1fb2ad3ae27e4745e4d79d87328",
+  "main": "research/clay_b_gradient_record_pressure_history_20260908.md",
+  "main_sha256": "d8c548e6c139f388d4d14fa51417266313a8efa30f0e82d9b760a5c3b742c904",
+  "main_bytes": 11388,
+  "main_lines": 180,
+  "classification": [
+    "EXACT SOURCE IDENTITY",
+    "NONCRITICAL HISTORY AND TAIL BOUNDS",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "GPH.1–3：对真实梯度纪录序列，累计STF压力Hessian减去其psi平均后，在固定球的L2空间振荡为O(h)。平均只得min(2+Ch,Ch(1+log L_n))；这不是其统一短时间模量，也不能作为删除二次压力的规范变换。",
+    "GPH.4–8：精确Poisson源演化保留三次项、S:H和有符号的sum tr((partial_k G)^2)。兼容性将最后一项变成partial_i partial_j(GG^T)_ij；固定平滑核两次移导使黏性贡献统一O(nu)，远区为O(nu R^-2)。不是非负耗散；输运、三次项与真实压力反馈的所需联合时间控制仍未取得。",
+    "GPH.9–10：同一原解的固定物理远场，在完整实际历史的压力累计量不超过C rho^-3 r_n^2 D_a并趋零。固定放大近场则有Ch(1+log R)界。必须先固定rho再n趋无穷，其后rho下降；没有证明中间尺度真实集中或消失。",
+    "GPH.11–15：在未减中心速度的原周期缩放U_n上用L_n E_a能量，再沿实际移动点评价完整梯度Oseen式。旧尾界为CE_a(nu^-5/2 L_n A^-3/2+(T*-a)L_n^-2)。A_n=L_n^(2/3+eta),0<eta<4/3时尾趋零，但窗口增长且原时间宽趋零。固定n近对角用速度核L1和光滑源解释，不冒称n一致小量。此为BI速度历史核的微分量化，不是新临界机制。"
+  ],
+  "outcome": "AVERAGED_STRAIN_TIME_MODULUS_AND_AFFINE_EXCLUSION_STILL_OPEN",
+  "next_action": "GPH已完成GRC真实平均压力时间项的源演化与完整历史核算：空间振荡O(h)、兼容黏性项及固定物理远场可控，梯度Oseen尾只在增长窗口之外趋零；中间时空尺度有符号压力反馈仍未给平均应变时间模量或非零仿射排除。停止仅凭现有梯度上界、能量和定性迹继续改写此具体入口，不增加同义低频条件、相邻对数估计或宽仿射例子计数；不是整个方法不可能性结论。下一步从同一任意初值原NS的原结构中选择不同的、能直接约束中间尺度贡献或绕开此强紧性缺项的机制，先按实际旧稿去重后推导。新的具体替代目标尚未选定或接受。保留固定正龄、完整历史、压力/边界和真实缩放；TG仍为最后独立冻结，无新release、重复交接、发布或反向执行查询。",
+  "current_candidate_status": "DIRECT_PRESSURE_TIME_ENTRY_CHECKED_NOT_CLOSED_STOP_ADJACENT_REWRITES",
+  "next_replacement_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_gradient_record_compactness_20260908.md",
+      "sha256": "8031860bdcab3bdb29c0fef384defc949a964ca214f09c2b66cfb1157a9e1583",
+      "bytes": 14431,
+      "lines": 227
+    },
+    {
+      "path": "research/clay_b_fixed_history_mild_preflight_20260906.md",
+      "sha256": "6889ac3d6297c651b37a0292867b9706fd028bd03f65564857054b75ec5c2fb4",
+      "bytes": 9809,
+      "lines": 287
+    },
+    {
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "bytes": 11723,
+      "lines": 214
+    }
+  ],
+  "review": {
+    "type": "PARTICIPATING_AI_REVIEW",
+    "root": "全文读GRC227行、BI287行、AH214行；独立推导GPH各式。实际全文读179行10883B初稿，后核固定rho顺序、增长窗措辞及固定n近对角解释三个实际改动。",
+    "ma_freeze_review": "实际全文核179行10883B/7c14f42b6f18f37a684113dda29866c838b83529c06f9a1c4300c51b1ffd526e及GPH.1–15；再核三个实际改动，逆向恢复已审前版哈希。最终180行11388B/d8c548e6c139f388d4d14fa51417266313a8efa30f0e82d9b760a5c3b742c904限定PASS。外部来源只核稿内准入边界，不重认证原文。",
+    "good_scale_route_comparison": "初稿实际读1–35、77–159、163–179行，认证限所需定义、§3–4与§6；继而实际核三个改动并绑定终稿限定PASS，不扩大到§2或外部证明。另独立推导完整历史/物理远场，全文读AH并定点核已读BH/BI/BJ。",
+    "variable_reference_check": "实际读初稿1–35、161–168行，空间振荡和外部准入限定PASS；未核其余章节及最终三个改动，不计终稿全文审读。独立完成源文范围核对。",
+    "corrections": "固定rho的物理外半径并不随n缩小，已按审查改为明确迭代极限；增长窗与固定窗的尾小性区分已澄清；完整mild式近对角解释限于每个固定n。",
+    "dependency_git_objects_match_base": true,
+    "structural": {
+      "equation_tags": 15,
+      "tags_sequential": true,
+      "display_pairs": [
+        15,
+        15
+      ],
+      "math_aware_link_scan": true,
+      "local_links": 3,
+      "external_links": 2,
+      "missing_local_links": [],
+      "trailing_whitespace": false
+    },
+    "structural_recheck": "初始朴素链接扫描将display公式中的](Y_n(s))误判成三条链接；已改用先排除数学段的扫描，正文无缺失本地链接。不将误判修复计数学进展。",
+    "human_peer_review": false
+  },
+  "literature_scope": {
+    "root_ordinary_queries": 2,
+    "collaborator_targeted_queries": true,
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/html/2001.10436v1",
+        "scope": "根读Theorems1–2陈述；B读陈述、§5证明和Proposition4.1。加权L2前提未从GRC取得，不作可用正则性输入。"
+      },
+      {
+        "url": "https://arxiv.org/html/2105.03257v1",
+        "scope": "根读Theorem4.1、Remark4.2及§4所印证明，未重审其上游Euler引理；B同读。L2_tLinf_x与低频条件仍需保留。B另核v2相关段落，只用于不混用Euler范围。"
+      }
+    ],
+    "new_external_proof_input": false,
+    "deep_research_used": false,
+    "exhaustive_search": false
+  },
+  "previous_turn_classification": "PROGRESS",
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "is_clay_result": false
+}
