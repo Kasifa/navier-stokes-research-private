@@ -1,0 +1,41 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_SAME_DATA_AMPLITUDE_ELIMINATION_AND_NONDEGENERACY",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md": "50c69862e48753368b012e7df43e9af4ba3c4ceec0375b0e7c3d8fc06bb74b6a",
+    "research/reverse/lowest-amplitude-compatibility/PROOF.md": "0ea9eb4f24cc5d40c70e8155239b574040f967a878cd1707545fff9accd92682",
+    "research/reverse/lowest-amplitude-compatibility/INDEPENDENT.md": "9f4bf7ed5cd9b7dcea92576f9f0b262139451881f05956d329fc69203661962e",
+    "research/reverse/lowest-amplitude-compatibility/REVIEW.md": "71ddb8058c63f9799330cbeedbe8689b89831b9f7908b09e60759c84676170be",
+    "research/reverse/lowest-amplitude-compatibility/INDEPENDENT_REVIEW.md": "6c9e32582fc16523222ba1add3c27038b1a00700fa62384bb159ca54ce04de81",
+    "research/reverse/lowest-amplitude-compatibility/ROOT_COMPARISON.md": "94efe4555112045e10014057eec085e6baae633459a21649b79b6cbb519cae61",
+    "research/reverse/lowest-amplitude-compatibility/OUTCOME.md": "2da5d62d0cadce81f4861c6cd7482c2da261ad199eaf6ebdb139aa57910d016d"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Same-data signed sender ratio elimination and exact conditional reconstruction, with distinct narrower main and outer independent domains preserved.",
+    "Independent additional proof: actual reverse-beta alpha is positive, C0 nonzero gives exact cubic with nonzero constant; C0 zero gives a nonidentically-zero at-most-linear gate after excluding r zero.",
+    "At most three or one real direction roots per fixed geometry respectively, each still subject to all original denominator and positivity conditions."
+  ],
+  "independence": "Main formed affine and cubic structure before receiving independent structure/nondegeneracy status. Independent formed without main. One non-author reviewer wrote two separate sequential reviews; second read history disclosed. Root verified additional independent proof; it was not backfilled into main.",
+  "unresolved_within_accepted_claims": [],
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Finite conditional direction/common required amplitude only. Actual area squares, complete high rows, full template, NS two-step and fixed-datum infinite iteration remain unpaid. NO-CANDIDATE / NOT CLAY."
+}

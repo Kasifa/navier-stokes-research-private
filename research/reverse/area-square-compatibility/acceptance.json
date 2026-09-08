@@ -1,0 +1,47 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_AREA_SQUARE_POLYNOMIAL_AND_EXPLICIT_REMAINDER",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/area-square-compatibility/CONTRACT.md": "8de0828beaa6b82c9984850b81008d3c0adabffac3bf7ba89172047ff3228c19",
+    "research/reverse/area-square-compatibility/PROOF.md": "8e60b6b44307f45c980423753b789d396cfffbbaa41f09181b2c6ad92478d866",
+    "research/reverse/area-square-compatibility/INDEPENDENT.md": "489fd488a5dbc8dcdc1336904a16d8dcbe3817077ec74137ead1706f545d4acc",
+    "research/reverse/area-square-compatibility/REVIEW.md": "21fa504de9620866b643567b3355e1b977bffd75424be0805131f1871d26e8e3",
+    "research/reverse/area-square-compatibility/INDEPENDENT_REVIEW.md": "301127c65d73b1a09882b98133f9e2f25838691f09fbb8a22476d782217d3c6b",
+    "research/reverse/area-square-compatibility/ROOT_COMPARISON.md": "ba32caac18010056b8e58e296b06b4d18aa29f08514e59ed58397f0c57b5c46e",
+    "research/reverse/area-square-compatibility/OUTCOME.md": "2525ff313b9ca57ed292e1f4320a8e8d285f29e49ae472e011ac3740f0280364"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Exact actual area-square compatibility is an at-most-sixth-degree polynomial plus one strict positivity condition, with true signed k restoration.",
+    "Same-data cubic direction polynomial has a paid nonzero leading coefficient; explicit at-most-quadratic remainder preserves the joint zero set and all original denominator/sign restrictions.",
+    "Together with true sender-square sign and common positive h, conditional reconstruction pays the complete lowest interface and the two specified higher complex projections, not the complete higher rows."
+  ],
+  "independence": "Two new derivations formed without reading each other, prior authorship disclosed. Different non-author reviewers checked each new text without its counterpart. Independent reviewer received root conversion message after draft, did not use it as proof; disclosed. Root actually read all final texts and checked scaling, coefficients and reconstruction.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": [
+    "legal geometry common root",
+    "geometric feasibility of identically-zero quadratic remainder",
+    "remaining full high equations and original-template compatibility"
+  ],
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "excluded_followup": "research/reverse/remaining-imaginary-compatibility",
+  "scope": "Finite same-data algebra only; no candidate, NS two-step, infinite iteration or Clay result."
+}
