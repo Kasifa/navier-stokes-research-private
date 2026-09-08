@@ -1,0 +1,156 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_FIXED_INTEGER_RECOVERY_AND_ODD_LENGTH_SUBDOMAIN_OBSTRUCTION; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No actual lowest integer vector or higher frequency, complete initial datum, amplitude or time selected.",
+      "No executed divisor/lattice enumeration, scientific program, array, numeric example or scan.",
+      "No existence or global exclusion for larger odd or even lowest squared lengths. Scalar or Gram data are not accepted as actual integer vectors without exact lattice recovery.",
+      "No same-data polarization, complete pure directions, common template or accepted mechanism. Other current joint/pure-direction followups excluded.",
+      "No new NS time window, two-step generation, uniform cross-generation estimate, fixed datum infinitely many scales, uniform iteration, finite total time, singularity or global regularity.",
+      "No repair of old failed evidence, external novelty, human peer review or proof-assistant certification."
+    ],
+    "proved": [
+      "Exact finite set of real integer higher vectors at each fixed lowest integer vector, via signed factor pairs and affine lattice recovery.",
+      "Independent gcd divisibility, positive-definite representation with both recovery congruences, elementary necessary three-square and odd-A parity gates.",
+      "For odd A, m distinct allowed higher squared lengths require A>(17+sqrt(33))*m/2; the two-distinct-length target is impossible throughout odd A<=17+sqrt(33)."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/area-square-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+      "source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "use": "Lowest beta-zero scalar identity and exact length domain, read through the frozen lowest-amplitude source."
+    },
+    {
+      "manifest": "research/reverse/three-edge-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+      "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+      "use": "Independent original TE.6 source identity and its strict scope."
+    }
+  ],
+  "dependency_commits": [
+    "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+    "0f573d05d3bd2ab1a6371713550f729103e69e0f"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 964,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/CONTRACT.md",
+      "sha256": "22242f2dae92ebcb8654c9ba95ba603385585622088731766fbda1d456884e17"
+    },
+    {
+      "bytes": 5570,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/PROOF.md",
+      "sha256": "8b2bdd8ae3ac6533140ec23bed545021e4c520410badf4aefbe13237bb57a002"
+    },
+    {
+      "bytes": 13758,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/INDEPENDENT.md",
+      "sha256": "fa4201cf70dba8eb64a5044d930bfb29b21dd923d442bfba3e619dc0e0bdba06"
+    },
+    {
+      "bytes": 8722,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/REVIEW.md",
+      "sha256": "5bee5423f5f7943e92ab5f5c56ca60c53ba788f22c5c58260345079f1c1169ac"
+    },
+    {
+      "bytes": 11063,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "92a0c617237082c70106fae6a2e2c721a842e474b4561f7b768b985234dff526"
+    },
+    {
+      "bytes": 2579,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/ODD_LENGTH_OBSTRUCTION.md",
+      "sha256": "a12f92dbd58cb84021486d31610b2737b43d6ea00f4eaeb648539547417b60e8"
+    },
+    {
+      "bytes": 5917,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/ODD_LENGTH_REVIEW.md",
+      "sha256": "23fafd52508f148a16ada0b15e457b94e50ccdd6b1903dcd823a62d4ecb32cbe"
+    },
+    {
+      "bytes": 6712,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/ROOT_COMPARISON.md",
+      "sha256": "51f7149e352333a934d2b88301472fd2640f7c5472221b1f3d259d9b1e2b815c"
+    },
+    {
+      "bytes": 1737,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/OUTCOME.md",
+      "sha256": "db6b2e6914c1c1312a97d69f607bed775c94973a3796d7b270da4ce9829b218f"
+    },
+    {
+      "bytes": 3278,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/acceptance.json",
+      "sha256": "85d21bf75d815afbf43657b6ac98aa7501f6703c7d6ff0b20c98714d3a068da5"
+    },
+    {
+      "bytes": 11195,
+      "commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+      "path": "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md",
+      "sha256": "264dfb0e152817202fbbb8671d51770f2e3387aa57f57c89d6f79b2359bd7fcd"
+    },
+    {
+      "bytes": 7188,
+      "commit": "f7f45dece7cbbc19ca0c99379aa5befa8f2c639b",
+      "path": "research/reverse/integer-beta-compatibility/freeze.json",
+      "sha256": "e98c6ed659ebde27d69d79c4b041834064d141155c6655c623e716ef9919e420"
+    }
+  ],
+  "freeze_commit": "f7f45dece7cbbc19ca0c99379aa5befa8f2c639b",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained symbolic arithmetic continuation. Source identity and actual reading scopes recorded; no new external theorem or novelty claim.",
+  "milestone_scope": "Exact fixed-low-frequency integer recovery and a proved odd-low-length subdomain obstruction.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+  "private_milestone_record": "research/reverse/integer-beta-compatibility/OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-IntegerBetaLatticeObstruction",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "a75d1774d3a90bb5b61c82c92976d7caa9a9e7ac",
+    "ec6dbaed96fadde60c5c324af9ad19884da7b51d"
+  ],
+  "scientific_source_commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+  "source_commit": "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+  "source_ledger": "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_review": "research/reverse/integer-beta-compatibility/FINAL_SCOPE_REVIEW.md",
+    "format_exception": "Preserved independently reviewed TeX control-space at INDEPENDENT.md line 220; diff --check reported trailing whitespace, not claimed clean.",
+    "independence": "Main and independent formed without the other new text; separate non-author reviewers initially read only their assigned new draft. Root odd-length supplement formed after reading independent parity argument, then separately reviewed by that independent-text reviewer. Prior contact and extra result ownership disclosed.",
+    "new_NS_time_window_paid": false,
+    "new_actual_datum_selected": false,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 11 final files match scientific source Git objects; 9 distinct acceptance-bound texts verified. Counts are file bindings, not quality or theorem counts.",
+    "stage_acceptances": [
+      "research/reverse/integer-beta-compatibility/acceptance.json"
+    ],
+    "status": "PASS_DERIVATIONS_SEPARATE_REVIEWS_ROOT_COMPARISON_FINAL_SCOPE_WITH_DISCLOSED_FORMAT_EXCEPTION",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
