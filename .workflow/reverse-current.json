@@ -6,57 +6,57 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish combined final scope of accepted local L2 continuous residence and occupation bounds, then source-object freeze and one-time private handoff. Read bounded next dynamic applicability screen separately; no new mechanism accepted.",
+  "next_action": "Complete bounded nonblind review and root comparison of the two next-family NO-CANDIDATE screens. Preserve actual same-solution state/window evidence; do not repackage missing source lower bounds or dynamic object as assumed success.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
-  "scientific_status": "LOCAL_L2_EXIT_AND_LOG_TIME_OCCUPATION_ACCEPTED_FINAL_SCOPE_IN_PROGRESS; NO_CANDIDATE; NOT_CLAY",
-  "accepted": "Seventeenth package accepted, frozen and once privately handed off. Conditional shape directions and actual short-window nonamplification exclusions remain distinct.",
+  "release_id": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+  "scientific_status": "LOCAL_L2_RESIDENCE_AND_LOG_TIME_OCCUPATION_FROZEN_SENT_ONCE; NEXT_TWO_FAMILY_SCREENS_NO_CANDIDATE_UNDER_REVIEW; NOT_CLAY",
+  "accepted": "Eighteenth private package accepted, source-frozen and once handed off. Fixed-shape local strong-L2 residence and same-datum energy logarithmic occupation bounds remain conditional, not a candidate.",
   "required_files": [
-    "research/reverse/short-window-source-amplitude/freeze.json",
-    "research/reverse/weak-local-exit/acceptance.json",
-    "research/reverse/weak-local-exit/ROOT_COMPARISON.md",
-    "research/reverse/local-occupation/acceptance.json",
-    "research/reverse/local-occupation/ROOT_COMPARISON.md",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/local-occupation/FINAL_OUTCOME.md",
+    "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
+    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
+    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md"
   ],
   "required_file_sha256": {
-    "research/reverse/short-window-source-amplitude/freeze.json": "6793fd3cac9c1f34939b1b6998ec9e3014bf83b539bbbd597c332aea5e60e3c5",
-    "research/reverse/weak-local-exit/acceptance.json": "4f00c055c95d3292b80e5e578cfe1c9b3c1c5571e9ea2c134d0b3acea76d8207",
-    "research/reverse/weak-local-exit/ROOT_COMPARISON.md": "b917a7529f6932cae6b8246917146907c70da22c95745ec78e999ff972bca856",
-    "research/reverse/local-occupation/acceptance.json": "1a670a45783aad07eb23805f2c2c6e7e444edeb6dd72cae0687ae949672cdeaa",
-    "research/reverse/local-occupation/ROOT_COMPARISON.md": "b3dd31384dab5838df298f9acb46078e772fdf32a772c8bee71c852e88e3039e",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md": "2148279981f5a7c09bd634d5ae723fcf6195d532ee8588ac1c59fbf5f4f95650"
+    "research/reverse/local-occupation/freeze.json": "6a452aab8e2fc931ddd6e669c4b27bca708cffd293ea582f1b1459b6c6cf3408",
+    "research/reverse/local-occupation/FINAL_OUTCOME.md": "2148279981f5a7c09bd634d5ae723fcf6195d532ee8588ac1c59fbf5f4f95650",
+    "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md": "d405f7984918982fd5f1c1fe05729056cb4760ae91d381931676995960c31804",
+    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md": "b591d1ff9021c076cd38eb451ab1c2c39eb6d6b2deacdfe08e286389eab7525d",
+    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md": "93120caf889af4978e12d6014198d2aa0f0285de13429f4bd46718c92ce3e59e",
+    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md": "8bc6545454dbb8ea5169bf606946acb2e1258964967bf234a57531253d6c3cac"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
-  "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
-  "freeze_manifest": "research/reverse/short-window-source-amplitude/freeze.json",
+  "last_completed_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+  "source_commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+  "freeze_manifest": "research/reverse/local-occupation/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "f59ef66f8c91fb040b6304dcb1f7fd63d35fe02a829a9f266a7068743aef6146"
   },
-  "freeze_commit": "f7f45dece7cbbc19ca0c99379aa5befa8f2c639b",
+  "freeze_commit": "d379f15058e37c7b21b831c8c2b2a1b42e5e4b43",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same-data complete-row joint direction and fixed-integer-geometry constraints",
-  "current_topic_directory": "research/reverse/joint-direction-compatibility",
+  "current_topic": "Review next same-orbit true-supply and dynamic-concentration screens after completed local package",
+  "current_topic_directory": "research/reverse",
   "pending": [
-    "Combined joint-direction final scope and source-object freeze; no handoff before complete.",
-    "Higher-pure-direction main review in progress, independent-text non-author review to dispatch, actual root scale/condition comparison pending.",
-    "Legal geometry and same-direction realization, all pure rows nonzero, common template and actual NS mechanism remain open."
+    "Two-family next-question screening review and root comparison.",
+    "No new formal proof or computation contract accepted; future concrete same-orbit structure must supply a nontrivial finite target and checkable full remainder.",
+    "Actual two-step regeneration, fixed-datum infinite scales, cross-generation uniform infinite-dimensional remainder, finite total time and singularity remain open."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
+  "previous_completed_release": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T07:07:46.832406+00:00",
+  "updated_at": "2026-09-08T08:15:37.102404+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -329,16 +329,16 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "research/reverse/short-window-source-amplitude/freeze.json",
-    "research/reverse/weak-local-exit/acceptance.json",
-    "research/reverse/weak-local-exit/ROOT_COMPARISON.md",
-    "research/reverse/local-occupation/acceptance.json",
-    "research/reverse/local-occupation/ROOT_COMPARISON.md",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/local-occupation/FINAL_OUTCOME.md",
+    "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
+    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
+    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+  "current_analysis_source_commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -577,8 +577,12 @@
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
     ".workflow/reverse-current.json",
-    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
-    "research/reverse/area-square-compatibility/CONTRACT.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/local-occupation/FINAL_OUTCOME.md",
+    "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
+    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
+    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -750,7 +754,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T08:00:16.294867+00:00",
+  "last_checkpoint_utc": "2026-09-08T08:15:37.102404+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -943,7 +947,8 @@
     "scientific_programs_run": 0,
     "actual_new_datum": false,
     "scope": "Only fixed shape, fixed rescaled coordinates, one continuous local L2 neighborhood residence interval; no derivative-smallness assumption or weak-solution extension.",
-    "acceptance": "research/reverse/weak-local-exit/acceptance.json"
+    "acceptance": "research/reverse/weak-local-exit/acceptance.json",
+    "formal_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation"
   },
   "local_occupation_evidence": {
     "status": "ACCEPTED_TWO_DERIVATIONS_SEPARATE_NONAUTHOR_REVIEWS_ROOT_COMPARISON",
@@ -951,7 +956,20 @@
     "accepted": true,
     "scientific_programs_run": 0,
     "actual_new_datum": false,
-    "scope": "Actual same-datum energy gives logarithmic-time integral and outside-neighborhood occupation constraints; conditional, under review.",
-    "acceptance": "research/reverse/local-occupation/acceptance.json"
+    "scope": "Actual same-datum energy gives accepted finite logarithmic-time error-integral and outside-neighborhood occupation bounds; asymptotic density requires actual smooth existence for all t<Tstar.",
+    "acceptance": "research/reverse/local-occupation/acceptance.json",
+    "formal_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+    "final_scope": "research/reverse/local-occupation/FINAL_SCOPE_REVIEW.md"
+  },
+  "next_family_screen_evidence": {
+    "status": "AUTHORS_STOPPED_ROOT_READ_REVIEW_IN_PROGRESS",
+    "files": [
+      "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
+      "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md"
+    ],
+    "candidate_accepted": false,
+    "new_formal_contract": false,
+    "scientific_programs_run": 0,
+    "scope": "Only current specified-input insufficiency; not universal mechanism exclusion."
   }
 }
