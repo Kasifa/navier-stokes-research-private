@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "A once output saved1865656c; ALGEBRA_A tables and saved determinant transcription match. Root/full NS conditional application review PASS. B Sturm/gcd method2fb88e71 root full read, fixed implementation gateaf692a57 under nonauthor review; Gauss prepares B code without executing. Hume prepares C different tree organization and A adapter without executing. No roots or candidate yet; final source/pre-review/Git before B and C each single run.",
+  "next_action": "Final B source4206577c (995 lines), nonauthor static review8960aa23, implementation review7353d826 root fully read PASS. Save this pre-run source commit then explicitly authorize Gauss one B execution with fixed contract/A hash. Stage A never rerun. No root output exists yet. C3dd76eea A-adapter prepared, full root read; B adapter and all C execution still pending.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -35,7 +35,11 @@
     "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
     "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
     "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
-    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json"
+    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json",
+    "research/reverse/cyclic-six-carrier/exact_roots.py",
+    "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -58,7 +62,11 @@
     "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md": "2fb88e7166ee62fa1b3df24415542970580bb3d520971386b482f5a5db80453a",
     "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md": "af692a572eee828b7415e29fb784197c10329e3c98cdf0a5a765ec6b884fe39f",
     "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md": "621e5a5c226ce2e3ff8f3b0f6b0a8b6d549db8104c014e1f96f2afe0cdebbcfa",
-    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a"
+    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a",
+    "research/reverse/cyclic-six-carrier/exact_roots.py": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
+    "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
+    "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md": "7353d8262ae4d962ebca2d0dba7b9e8e06e83afb19e3aa4ffe383a5d26a530a8",
+    "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -72,7 +80,7 @@
   },
   "freeze_commit": "a856a0f311aba7caa9311ae649f1ce83a74e0ff7",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "C3 stage-A six-target coefficients saved; exact real-root stage-B method preparation",
+  "current_topic": "C3 exact all-real-root stage B: final source and static reviews passed before unique execution",
   "current_topic_directory": "research/reverse/cyclic-six-carrier",
   "pending": [
     "Read final C3 contract pre-review and stop code",
@@ -1204,9 +1212,12 @@
     "stage_B_method": "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
     "stage_B_method_root_full_read": true,
     "stage_B_implementation_gate": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
-    "stage_B_code_status": "AUTHOR_PREPARING_NOT_EXECUTED",
+    "stage_B_code_status": "FINAL_CODE_AND_NONAUTHOR_STATIC_REVIEW_PASS_ROOT_FULL_READ_NOT_EXECUTED",
     "application_conditional_review": "PASS_909e9fab_ROOT_FULL_READ",
-    "stage_C_code_status": "PREPARED_COEFFICIENT_CORE_READ_BY_ROOT_ADAPTERS_PENDING_NOT_EXECUTED",
-    "root_comparison": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md"
+    "stage_C_code_status": "A_ADAPTER_PREPARED_3dd76eea_ROOT_FULL_READ_B_ADAPTER_PENDING_NOT_EXECUTED",
+    "root_comparison": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
+    "stage_B_code_sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
+    "stage_B_static_review_sha256": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
+    "stage_B_executions": 0
   }
 }
