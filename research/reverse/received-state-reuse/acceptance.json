@@ -1,0 +1,65 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_ACTUAL_COMPLEX_STATE_AND_COMPLETE_ENERGY_INTERFACE",
+  "separate_formal_release": false,
+  "excluded_from_difference_freeze": true,
+  "bound_files": [
+    {
+      "path": "research/reverse/received-state-reuse/QUESTION.md",
+      "sha256": "88e5af500d2d07928695653e12db9ac456bdc9d9489587561aad70ed9821f067",
+      "bytes": 2233
+    },
+    {
+      "path": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+      "sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8",
+      "bytes": 4428
+    },
+    {
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+      "bytes": 14127
+    },
+    {
+      "path": "research/reverse/received-state-reuse/REVIEW.md",
+      "sha256": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4",
+      "bytes": 11776
+    },
+    {
+      "path": "research/reverse/received-state-reuse/ROOT_COMPARISON.md",
+      "sha256": "c9f5accdda3d2d971f9044c9aa0d2ffe7b61702578feafed97ce8b06dd2496c8",
+      "bytes": 2728
+    }
+  ],
+  "root_actual_full_read": [
+    "QUESTION.md",
+    "ROOT_ANALYSIS.md",
+    "PREFLIGHT.md",
+    "REVIEW.md",
+    "ROOT_COMPARISON.md"
+  ],
+  "review_table_bindings_verified": [
+    "research/reverse/received-state-reuse/QUESTION.md",
+    "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+    "research/reverse/received-state-reuse/PREFLIGHT.md",
+    "research/reverse/received-state-reuse/../cyclic-six-carrier/PROOF.md",
+    "research/reverse/received-state-reuse/../cyclic-six-carrier-preflight/PREFLIGHT.md",
+    "research/reverse/received-state-reuse/../cyclic-receiver-supply-preflight/PREFLIGHT.md",
+    "research/reverse/received-state-reuse/../four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+    "research/reverse/received-state-reuse/../support-invariance/PROOF.md",
+    "research/reverse/received-state-reuse/../support-invariance/CONTRACT.md"
+  ],
+  "claims": [
+    "RI.1-4 and conditional fixed-complex-line criterion on an existing nondegenerate classical interval",
+    "RU.1-22 complete complex state, exact mixed-input localization, two-sided energy ledger, and actual exterior source decomposition"
+  ],
+  "limits": [
+    "No favorable flux or actual fixed polarization",
+    "No closed finite-dimensional system or realized repeatable input class",
+    "NO-CANDIDATE means no qualified new coefficient computation from this interface",
+    "No exclusion of general regeneration or singularity"
+  ],
+  "scientific_executions": 0,
+  "figures": [],
+  "new_reader_pdf": false,
+  "independence": "Two hand drafts with shared prior insight; one nonauthor comparative review; historical source roles and actual reads disclosed"
+}

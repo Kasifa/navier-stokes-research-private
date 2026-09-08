@@ -1,13 +1,13 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_RELEASE_25_SENT_ONCE_RECEIVED_STATE_REUSE_PREFLIGHT",
+  "status": "RESEARCH_ACTIVE_RELEASE_25_SENT_ONCE_CYCLIC_SUM_CHAIN_HAND_AUDIT",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Complete bounded received-state-reuse hand preflight and independent review. Do not rerun old kernels, add 41-leaf computations or monitor archival/publication.",
-  "resume_action": "Read current reverse checkpoint/index and received-state-reuse question; use frozen proofs only where needed. Release 25 already sent once.",
+  "next_action": "Read stopped contract review and independent hand proof, complete nonauthor comparison and exact scope acceptance. No scientific execution, old-kernel rerun or publication monitoring.",
+  "resume_action": "Read stopped contract review and independent hand proof, complete nonauthor comparison and exact scope acceptance. No scientific execution, old-kernel rerun or publication monitoring.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
@@ -78,11 +78,17 @@
     "research/reverse/cyclic-difference-response/root-source-binding-check.json",
     "research/reverse/cyclic-difference-response/freeze.json",
     "research/reverse/received-state-reuse/QUESTION.md",
-    "research/reverse/received-state-reuse/ROOT_ANALYSIS.md"
+    "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+    "research/reverse/received-state-reuse/PREFLIGHT.md",
+    "research/reverse/received-state-reuse/REVIEW.md",
+    "research/reverse/received-state-reuse/ROOT_COMPARISON.md",
+    "research/reverse/received-state-reuse/acceptance.json",
+    "research/reverse/cyclic-sum-chain/QUESTION.md",
+    "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
-    "research/reverse/CHECKPOINT.md": "a95c0c5067428fd10db95d220e66a40a6c7f685364fb3b72f455a168b6cf1bcc",
+    "research/reverse/CHECKPOINT.md": "1e9dc7a6fad5b53da0b1e31c9ec92f9e2d02931dea17b6d87eda4ea1079cac9c",
     "research/reverse/HANDOFF_LOG.json": "a30f66ac29673a8fb67c49c4b7d9c710a9b3ff5de36fc6eccf72a0180387d52f",
     "research/reverse/cyclic-six-carrier/freeze.json": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
     "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a",
@@ -144,7 +150,13 @@
     "research/reverse/cyclic-difference-response/root-source-binding-check.json": "60f95ae8c92dc51e4d6582487892926f27f08cf3e62b60e5a272657d5976747d",
     "research/reverse/cyclic-difference-response/freeze.json": "e7d1a6833fc6338f37149b2c95df7d9c9dc3f2eddb4ca45ece382d0e5d52e8f8",
     "research/reverse/received-state-reuse/QUESTION.md": "88e5af500d2d07928695653e12db9ac456bdc9d9489587561aad70ed9821f067",
-    "research/reverse/received-state-reuse/ROOT_ANALYSIS.md": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8"
+    "research/reverse/received-state-reuse/ROOT_ANALYSIS.md": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8",
+    "research/reverse/received-state-reuse/PREFLIGHT.md": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+    "research/reverse/received-state-reuse/REVIEW.md": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4",
+    "research/reverse/received-state-reuse/ROOT_COMPARISON.md": "c9f5accdda3d2d971f9044c9aa0d2ffe7b61702578feafed97ce8b06dd2496c8",
+    "research/reverse/received-state-reuse/acceptance.json": "d38caabe1e339e72778b0851d41b46c0b653866afa6c4719a30098e243d897ac",
+    "research/reverse/cyclic-sum-chain/QUESTION.md": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
+    "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md": "0bd2c34ef1b53742ed3c22d1f6976b581ccf91ec7114832905ff98e965401066"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260909-DifferenceSupplyObstruction",
@@ -158,8 +170,8 @@
   },
   "freeze_commit": "b9452a6c0ac0a9297861541811262b977e2b0964",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Actual received C3 field: complete complex state, projected evolution and energy/source qualification",
-  "current_topic_directory": "research/reverse/received-state-reuse",
+  "current_topic": "Same-solution cyclic pair-sum path: uniform viscous supply gate and conditional spatial gradient series",
+  "current_topic_directory": "research/reverse/cyclic-sum-chain",
   "pending": [
     "Received-state-reuse independent hand preflight and root comparison",
     "Nonauthor review of actual-state scope before any new calculation"
@@ -171,7 +183,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T17:39:14.748714+00:00",
+  "updated_at": "2026-09-08T18:00:31.409923+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -709,7 +721,9 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    ".workflow/reverse-current.json"
+    "research/reverse/received-state-reuse/acceptance.json",
+    "research/reverse/cyclic-sum-chain/QUESTION.md",
+    "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -881,7 +895,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T12:19:06.575766+00:00",
+  "last_checkpoint_utc": "2026-09-08T18:00:31.409923+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1509,13 +1523,28 @@
   },
   "received_state_reuse_evidence": {
     "question": "research/reverse/received-state-reuse/QUESTION.md",
-    "status": "ROOT_HAND_PREFLIGHT_STOPPED_INDEPENDENT_AND_REVIEW_PENDING",
+    "status": "ACCEPTED_PRIVATE_WORK_RECORD_NO_QUALIFIED_REGENERATION",
     "scientific_executions": 0,
     "no_new_initial_datum_or_window": true,
     "root_draft": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
     "root_draft_sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8",
-    "root_draft_final_acceptance": false,
+    "root_draft_final_acceptance": true,
     "independent_author": "coherence_independent_resumed",
-    "reviewer": "coherence_review_resumed"
+    "reviewer": "coherence_review_resumed",
+    "acceptance": "research/reverse/received-state-reuse/acceptance.json",
+    "independent_sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+    "review_sha256": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4",
+    "separate_formal_release": false
+  },
+  "cyclic_sum_chain_evidence": {
+    "status": "ROOT_STOPPED_CONTRACT_INDEPENDENT_AND_NONAUTHOR_REVIEW_PENDING",
+    "question": "research/reverse/cyclic-sum-chain/QUESTION.md",
+    "question_sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642",
+    "root": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+    "root_sha256": "0bd2c34ef1b53742ed3c22d1f6976b581ccf91ec7114832905ff98e965401066",
+    "scientific_executions": 0,
+    "same_fixed_datum": true,
+    "source_gates_actually_established": false,
+    "scope": "A specific changing-frequency path, with full original-source remainder; no full-NS conclusion"
   }
 }
