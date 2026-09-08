@@ -300,6 +300,22 @@
       "sent_time_note": "Successful send_message tool preceded this checkpoint; record time is not exact dispatch time. No resend.",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260909-DifferenceSupplyObstruction",
+      "source_commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "freeze_commit": "b9452a6c0ac0a9297861541811262b977e2b0964",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T17:26:32.983214+00:00",
+      "sent_time_note": "Tool returned matching publisher threadId; exact dispatch timestamp not supplied",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      },
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
