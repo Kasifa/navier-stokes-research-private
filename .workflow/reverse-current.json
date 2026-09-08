@@ -1,18 +1,18 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_DIFFERENCE_TWO_RUNS_COMPLETE_FINAL_SCOPE_PENDING",
+  "status": "RESEARCH_ACTIVE_DIFFERENCE_RESEARCH_COMPLETE_FREEZE_PENDING",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Do not rerun either stage. Read verifier interpretation and obtain final nonauthor scope review, then private freeze and one-time handoff; continue separate geometry acceptance.",
+  "next_action": "Freeze accepted difference package and send once for private archival; then examine actual received D-profile as a repeatable input class before any higher-order computation.",
   "resume_action": "Use actual cyclic-difference-response files and execution receipts; do not rerun a completed stage.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
-  "scientific_status": "RELEASE_24_SENT_ONCE; DIFFERENCE_ORIGINAL_WINDOW_CERTIFIED_BY_TWO_UNIQUE_RUNS; FINAL_SCOPE_PENDING",
+  "scientific_status": "DIFFERENCE_FINAL_SCOPE_ACCEPTED_FIXED_ORIGINAL_WINDOW; NO_REGENERATION_CANDIDATE",
   "accepted": "Fixed single datum, full unforced viscous NS on fixed torus: finite two-layer three-direction actual source with ratio <=1/7 on original positive window. Separate exact minimum-leaf support bridge accepted; no new dynamic input or regeneration.",
   "required_files": [
     "AGENTS.md",
@@ -70,7 +70,12 @@
     "research/reverse/receiver-lattice-return/REVIEW.md",
     "research/reverse/receiver-lattice-return/ROOT_ANALYSIS.md",
     "research/reverse/receiver-lattice-return/ROOT_COMPARISON.md",
-    "research/reverse/receiver-lattice-return/acceptance.json"
+    "research/reverse/receiver-lattice-return/acceptance.json",
+    "research/reverse/cyclic-difference-response/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/cyclic-difference-response/ROOT_FINAL_SCOPE.md",
+    "research/reverse/cyclic-difference-response/acceptance.json",
+    "research/reverse/cyclic-difference-response/root-final-binding-check.json",
+    "research/reverse/cyclic-difference-response/root-source-binding-check.json"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
@@ -128,7 +133,12 @@
     "research/reverse/receiver-lattice-return/REVIEW.md": "7e69788425398aeca8dbe6a96f33ed19cb2c767361f86dbbef0ad9297ef45ef7",
     "research/reverse/receiver-lattice-return/ROOT_ANALYSIS.md": "ca35ac8aaa52e464a097afedc268de6e31625deb266e47b84c2747560d038766",
     "research/reverse/receiver-lattice-return/ROOT_COMPARISON.md": "3f00df50d74b89f5a53bf95ba0f7a9ee09c9b0c4499da7fc6675c614d3710f9e",
-    "research/reverse/receiver-lattice-return/acceptance.json": "7220257eeae6fcd344dc9e77482a261f3390c715b0c328a6af69fe2e9fc4aeff"
+    "research/reverse/receiver-lattice-return/acceptance.json": "7220257eeae6fcd344dc9e77482a261f3390c715b0c328a6af69fe2e9fc4aeff",
+    "research/reverse/cyclic-difference-response/FINAL_SCOPE_REVIEW.md": "8e6eab007c2d7a7e7efc9972b3c93f00306542a9a7f92dd178704003ceccba82",
+    "research/reverse/cyclic-difference-response/ROOT_FINAL_SCOPE.md": "82509832e897040da9b5a3d5debe75f738a029fe0e60aa95bac7205063663d45",
+    "research/reverse/cyclic-difference-response/acceptance.json": "81fdc5359eb1e5d27657743cd617ea8e3d8ea985c41ad3a17dee17b9b763c596",
+    "research/reverse/cyclic-difference-response/root-final-binding-check.json": "128b0edfd69a6b9ff8fbce6e0ba4b38ac52cd8fd2123f03c7391d5fd5140fedf",
+    "research/reverse/cyclic-difference-response/root-source-binding-check.json": "60f95ae8c92dc51e4d6582487892926f27f08cf3e62b60e5a272657d5976747d"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
@@ -145,9 +155,9 @@
   "current_topic": "Same fixed six-carrier datum: actual received-field difference-channel supply comparison",
   "current_topic_directory": "research/reverse/cyclic-difference-response",
   "pending": [
-    "Final independent result reading and nonauthor scope review",
-    "Private freeze and one-time handoff",
-    "Separate receiver geometry acceptance and next input qualification"
+    "Scientific source commit and freeze manifest",
+    "One-time private handoff",
+    "Next actual received-state input-class preflight"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -156,7 +166,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T17:19:32.226421+00:00",
+  "updated_at": "2026-09-08T17:23:02.457565+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -1452,9 +1462,9 @@
     "conditional_acceptance": "research/reverse/cyclic-difference-response/conditional-acceptance.json",
     "conditional_acceptance_sha256": "dd80dc52e2437cf166eda35ae5de4d9080b3e7e8a39b6c8c03693aae96dab084",
     "scientific_execution_count": 2,
-    "actual_window_status": "ORIGINAL_DR8_VERIFIED_FINAL_SCOPE_PENDING",
+    "actual_window_status": "ACCEPTED_ORIGINAL_WINDOW_ALL_ACCOUNTING_STARTS",
     "protected_legacy_fields_equal_557ee": true,
-    "next_action": "Do not rerun either stage. Read verifier interpretation and obtain final nonauthor scope review, then private freeze and one-time handoff; continue separate geometry acceptance.",
+    "next_action": "Freeze accepted difference package and send once for private archival; then examine actual received D-profile as a repeatable input class before any higher-order computation.",
     "primary_source_commit": "668b18916d33b2832fc46b68e00184ce37c62738",
     "primary_output": "research/reverse/cyclic-difference-response/exact-difference-output.json",
     "primary_output_sha256": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
@@ -1468,7 +1478,10 @@
     "independent_source_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae",
     "independent_output": "research/reverse/cyclic-difference-response/review-difference-output.json",
     "independent_output_sha256": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75",
-    "verifier_result_author_note_root_full_read": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b"
+    "verifier_result_author_note_root_full_read": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b",
+    "final_acceptance": "research/reverse/cyclic-difference-response/acceptance.json",
+    "final_acceptance_sha256": "81fdc5359eb1e5d27657743cd617ea8e3d8ea985c41ad3a17dee17b9b763c596",
+    "final_scope_review_sha256": "8e6eab007c2d7a7e7efc9972b3c93f00306542a9a7f92dd178704003ceccba82"
   },
   "receiver_input_geometry_evidence": {
     "status": "ACCEPTED_FIXED_SUPPORT_GEOMETRY_AND_PER_PAIR_SOURCE_OBSTRUCTION",

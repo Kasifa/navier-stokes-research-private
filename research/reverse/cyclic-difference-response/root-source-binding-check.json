@@ -1,0 +1,210 @@
+{
+  "schema": "reverse-byte-binding-check-v1",
+  "classification": "PRIVATE_CORE",
+  "type": "METADATA_ONLY_NO_SCIENTIFIC_RECOMPUTATION",
+  "source_commits_verified_in_local_git": true,
+  "current_input_binding_records": [
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS.md",
+      "sha256": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367",
+      "bytes": 5873,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS_REVIEW.md",
+      "sha256": "02288305451808829feace3ac1f97480ee7cf1f918e011cbbe5a2c9f1cc7080c",
+      "bytes": 10334,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT.md",
+      "sha256": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+      "bytes": 4521,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT_REVIEW.md",
+      "sha256": "791c80270135a1a08e6aea43840cdde8dd5faa0ddc71c6c767d8f3efcc892a73",
+      "bytes": 13150,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT.md",
+      "sha256": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
+      "bytes": 11523,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md",
+      "sha256": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
+      "bytes": 11163,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md",
+      "sha256": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
+      "bytes": 17718,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+      "bytes": 469369,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "exact-difference-output.json",
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+      "bytes": 139696,
+      "matches_pre_run_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS.md",
+      "sha256": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367",
+      "bytes": 5873,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS_REVIEW.md",
+      "sha256": "02288305451808829feace3ac1f97480ee7cf1f918e011cbbe5a2c9f1cc7080c",
+      "bytes": 10334,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT.md",
+      "sha256": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+      "bytes": 4521,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT_REVIEW.md",
+      "sha256": "791c80270135a1a08e6aea43840cdde8dd5faa0ddc71c6c767d8f3efcc892a73",
+      "bytes": 13150,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT.md",
+      "sha256": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
+      "bytes": 11523,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md",
+      "sha256": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
+      "bytes": 11163,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md",
+      "sha256": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
+      "bytes": 17718,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_DESIGN.md",
+      "sha256": "cb991c6e2c82b729424323bae90a673adaecf7253091533d6b0a13e7ff89ccd3",
+      "bytes": 6269,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/exact-difference-output.json",
+      "sha256": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
+      "bytes": 269258,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/exact_difference.py",
+      "sha256": "842679b23991ae2f3f5a5cd76903e9abf4ebd7a71a230829f99697612ad66030",
+      "bytes": 35480,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+      "bytes": 469369,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+      "bytes": 139696,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    },
+    {
+      "stage_output": "review-difference-output.json",
+      "path": "research/reverse/cyclic-difference-response/verify_core_pre_output.py.txt",
+      "sha256": "d65938f58fa364e3da172ed7d98af81c05ee5a80a4c3f5b251005dbe59e3decb",
+      "bytes": 23548,
+      "matches_pre_run_git_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae"
+    }
+  ],
+  "historical_conditional_acceptance_bindings": [
+    {
+      "path": "research/reverse/cyclic-difference-response/CONTRACT.md",
+      "sha256": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/CONTRACT_REVIEW.md",
+      "sha256": "791c80270135a1a08e6aea43840cdde8dd5faa0ddc71c6c767d8f3efcc892a73",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS.md",
+      "sha256": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS_REVIEW.md",
+      "sha256": "02288305451808829feace3ac1f97480ee7cf1f918e011cbbe5a2c9f1cc7080c",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT.md",
+      "sha256": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md",
+      "sha256": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md",
+      "sha256": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    },
+    {
+      "path": "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md",
+      "sha256": "2715ee51ad70665fc68c7eead1a7aa256a364acceb9c972f675c5da900bb60c2",
+      "git_commit": "668b18916d33b2832fc46b68e00184ce37c62738"
+    }
+  ],
+  "historical_root_comparison_not_required_equal_current": true,
+  "raw_output_hashes": {
+    "exact-difference-output.json": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
+    "review-difference-output.json": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75"
+  },
+  "checks": "All records passed; no scientific source imported, compiled or executed"
+}
