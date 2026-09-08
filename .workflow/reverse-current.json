@@ -1,18 +1,18 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_RELEASE_26_SENT_ONCE_JOINT_SOURCE_SCREEN_ACCEPTED",
+  "status": "RESEARCH_ACTIVE_RELEASE_27_SENT_ONCE_MIXED_TRAJECTORY_OBSERVATION_PREFLIGHT",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "From the accepted joint-source screen, identify a concrete actual mixed-state source and checkable remainder before any new calculation. A bounded old-source check of JI.7 cross-edge output is possible, but no new candidate or execution contract is accepted. Do not rerun closed kernels, reopen old pressure screens or monitor publication.",
-  "resume_action": "From the accepted joint-source screen, identify a concrete actual mixed-state source and checkable remainder before any new calculation. A bounded old-source check of JI.7 cross-edge output is possible, but no new candidate or execution contract is accepted. Do not rerun closed kernels, reopen old pressure screens or monitor publication.",
+  "next_action": "Lock one useful actual mixed-state source observation and complete remainder contract; reuse existing general H3 error interface with correct normalization, then preflight bounded computation value/cost. Do not rerun old short-window gates or create adjacent sparse-path variants. No numerical execution contract is accepted.",
+  "resume_action": "Lock one useful actual mixed-state source observation and complete remainder contract; reuse existing general H3 error interface with correct normalization, then preflight bounded computation value/cost. Do not rerun old short-window gates or create adjacent sparse-path variants. No numerical execution contract is accepted.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260909-CyclicSumChainViscosity",
-  "scientific_status": "ACCEPTED_CONDITIONAL_CYCLIC_SUM_PATH_VISCOSITY_OBSTRUCTION; GENERAL_REGENERATION_OPEN_NOT_CLAY",
+  "release_id": "ReverseNS-20260909-CrossEdgeSourceGates",
+  "scientific_status": "CONDITIONAL_CROSS_EDGE_PATH_OBSTRUCTION_COMPLETE; ACTUAL_REGENERATION_OPEN; NOT_CLAY",
   "accepted": "Same release-24 actual NS projections; uniform true self-supply upper bound, conditional discrete received-layer gradient decay and same-time all-layer C1 sum with explicit tail. Higher-layer source gates and full-state recurrence remain unpaid.",
   "required_files": [
     "AGENTS.md",
@@ -102,12 +102,28 @@
     "research/reverse/joint-received-source-screen/SCREEN.md",
     "research/reverse/joint-received-source-screen/acceptance.json",
     "research/reverse/joint-received-source-screen/ROOT_COMPARISON.md",
-    "research/reverse/joint-received-source-screen/REVIEW.md"
+    "research/reverse/joint-received-source-screen/REVIEW.md",
+    "research/reverse/cross-edge-source-gates/CONTRACT.md",
+    "research/reverse/cross-edge-source-gates/CONTRACT_REVIEW.md",
+    "research/reverse/cross-edge-source-gates/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/cross-edge-source-gates/INDEPENDENT.md",
+    "research/reverse/cross-edge-source-gates/OUTCOME.md",
+    "research/reverse/cross-edge-source-gates/REVIEW.md",
+    "research/reverse/cross-edge-source-gates/ROOT_ANALYSIS.md",
+    "research/reverse/cross-edge-source-gates/ROOT_COMPARISON.md",
+    "research/reverse/cross-edge-source-gates/SOURCES.md",
+    "research/reverse/cross-edge-source-gates/acceptance.json",
+    "research/reverse/cross-edge-source-gates/certificate-manifest.json",
+    "research/reverse/cross-edge-source-gates/freeze.json",
+    "research/reverse/cross-edge-source-gates/release-set.json",
+    "research/reverse/cross-edge-source-gates/source-table-check.json",
+    "research/reverse/mixed-trajectory-preflight/SOURCE_SCREEN.md",
+    "research/reverse/mixed-trajectory-preflight/METHOD_REUSE.md"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
-    "research/reverse/CHECKPOINT.md": "e8ab6c0f50ca2fddaa9725ba20c95d3e5f49690bcbc43068b44df15474eb99b0",
-    "research/reverse/HANDOFF_LOG.json": "dd758770d01854e1b56c5c2cf9455cafe3da0047749f1d34ccf7477f734858c4",
+    "research/reverse/CHECKPOINT.md": "4cfaab89cd28fd8e8101abb08110afb5aad281210652186138d738a26eb8a3b7",
+    "research/reverse/HANDOFF_LOG.json": "94e385774b16a49ff73642f4fe59c7ecb082b40db8cf4036a36fe687418d63b9",
     "research/reverse/cyclic-six-carrier/freeze.json": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
     "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a",
     "research/reverse/cyclic-six-carrier/OUTCOME.md": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630",
@@ -192,33 +208,49 @@
     "research/reverse/joint-received-source-screen/SCREEN.md": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
     "research/reverse/joint-received-source-screen/acceptance.json": "57861df513be6574e437b7ce4126311bb933d9cb2d06cd08c3c216cb32fa5fb9",
     "research/reverse/joint-received-source-screen/ROOT_COMPARISON.md": "37a8af913ea35598b70991a47db00fd208677a5cc36a8ba6004c97ea2b743101",
-    "research/reverse/joint-received-source-screen/REVIEW.md": "9eb818001a7c3bd76febc081621a07db7f2225ddcaa879146bc1e823590fefee"
+    "research/reverse/joint-received-source-screen/REVIEW.md": "9eb818001a7c3bd76febc081621a07db7f2225ddcaa879146bc1e823590fefee",
+    "research/reverse/cross-edge-source-gates/CONTRACT.md": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+    "research/reverse/cross-edge-source-gates/CONTRACT_REVIEW.md": "e24492eac85e9de239fb0e99f0916827d2134997e21d3592cc5b7ff0443d8c86",
+    "research/reverse/cross-edge-source-gates/FINAL_SCOPE_REVIEW.md": "a77c52fc14bf811d29a9623bc84303d77b54ace30d1dde8c92cb6227d00f1477",
+    "research/reverse/cross-edge-source-gates/INDEPENDENT.md": "7aeb5f3d31ec9120fdd427df314602c7c66a3840d5b001aaecca61b78c59ff5c",
+    "research/reverse/cross-edge-source-gates/OUTCOME.md": "f73333cf9490174e6c6585d24fe5903083a4271a2f3cba25f00aeb06243e97f9",
+    "research/reverse/cross-edge-source-gates/REVIEW.md": "90c7a3ee5d995534599c1b828900f79eb6a7eea48daacc885c8a5f52a83536ee",
+    "research/reverse/cross-edge-source-gates/ROOT_ANALYSIS.md": "8d0a67f2d8d371d06081093755e978ab4e3f0d45eedc9a16416aa4ded18b0e82",
+    "research/reverse/cross-edge-source-gates/ROOT_COMPARISON.md": "57ef29200dce22b152b9acd006130c75a00b853c10d1194c9bf45c859728c7aa",
+    "research/reverse/cross-edge-source-gates/SOURCES.md": "03dd1447a75fce80294943c6a6ee7d2980c5401e1c203f4efe1a4687d2900847",
+    "research/reverse/cross-edge-source-gates/acceptance.json": "ab86bc9451e8414339a9608f6b2998f904d09fc1dfe91e723e2ec79120281343",
+    "research/reverse/cross-edge-source-gates/certificate-manifest.json": "c8ee57d7ca7621d849df79903a82dadc13dabae4d8da140d125724abd5bc23be",
+    "research/reverse/cross-edge-source-gates/freeze.json": "94fdc17e02ba6405d667a2e3fad09e2aab536879fcc5157e5305fda1a832e1da",
+    "research/reverse/cross-edge-source-gates/release-set.json": "344e48b868a142c294c6ad58f4c52dbde328d9ddc58ea3015cf43430719b1c40",
+    "research/reverse/cross-edge-source-gates/source-table-check.json": "1b6a75f2cce923ddd430d85455a9bd8e55193cf5e31e6d2f156cd48bd0f4beff",
+    "research/reverse/mixed-trajectory-preflight/SOURCE_SCREEN.md": "235a3829c2192023fa2b6bdfc1e9b9bf470e6af9ed4cd8f91cc9b2b50efa87ee",
+    "research/reverse/mixed-trajectory-preflight/METHOD_REUSE.md": "0015fa48e524d423d4301adfefbd9f69b93b6329b09fbde56153ed982d79cd15"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260909-CyclicSumChainViscosity",
-  "source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
-  "freeze_manifest": "research/reverse/cyclic-sum-chain/freeze.json",
+  "last_completed_release": "ReverseNS-20260909-CrossEdgeSourceGates",
+  "source_commit": "6b9222e252251cb625037c06d703e7e366e6e93d",
+  "freeze_manifest": "research/reverse/cross-edge-source-gates/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "e704d12903c8cb2c0bc3dcf336de880f5d3b16a7aaf2e5ded5603f1e8d5bbf57",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "01de3ccca6826934a15614866bdb5f3bc55dd559d6b4458c59d06ab4432eae15"
   },
-  "freeze_commit": "0ef3aeafeecf0ea898fc65291f5b627ce3788f6f",
+  "freeze_commit": "567b948f7feb81308e02e1bbaf796d61a07e009e",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Qualify a materially new actual mixed-state input after closed sum-chain and pure doubled-target tests",
-  "current_topic_directory": "research/reverse/joint-received-source-screen",
+  "current_topic": "Qualify a materially useful actual mixed-state observation and its continuous source-error budget",
+  "current_topic_directory": "research/reverse/mixed-trajectory-preflight",
   "pending": [
-    "A materially new actual mixed-state input and remainder contract; no accepted computation candidate"
+    "A concrete actual mixed-state observation, source-history error transfer, and bounded cost/value contract; no numerical candidate or execution is yet accepted"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
-  "pause_authority": "Latest direct user instruction: 先暂停一下",
+  "pause_authority": "Latest direct user instruction: \u5148\u6682\u505c\u4e00\u4e0b",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260909-DifferenceSupplyObstruction",
+  "previous_completed_release": "ReverseNS-20260909-CyclicSumChainViscosity",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T18:33:01.360370+00:00",
+  "updated_at": "2026-09-08T19:08:29.274134+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -518,7 +550,7 @@
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+  "current_analysis_source_commit": "6b9222e252251cb625037c06d703e7e366e6e93d",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -756,9 +788,9 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/joint-received-source-screen/acceptance.json",
-    "research/reverse/joint-received-source-screen/SCREEN.md",
-    "research/reverse/cyclic-sum-chain/OUTCOME.md"
+    "research/reverse/mixed-trajectory-preflight/SOURCE_SCREEN.md",
+    "research/reverse/mixed-trajectory-preflight/METHOD_REUSE.md",
+    "research/reverse/cross-edge-source-gates/OUTCOME.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -930,7 +962,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T18:33:01.360370+00:00",
+  "last_checkpoint_utc": "2026-09-08T19:08:29.274134+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1404,7 +1436,7 @@
     "overall_goal_state_observed": "blocked",
     "goal_state_changed_by_this_turn": false,
     "status": "COMPLETED_AFTER_LATEST_DIRECT_RESTORE",
-    "latest_direct_user_instruction": "恢复"
+    "latest_direct_user_instruction": "\u6062\u590d"
   },
   "index_snapshot_before_cyclic_final_closure": {
     "status": "BOUNDED_RESEARCH_RESUME_AFTER_USER_PAUSE",
@@ -1611,5 +1643,39 @@
     "read_only": true,
     "objective_stale_segment": "LocalPressureScreen already completed; use actual reverse checkpoint",
     "no_goal_status_or_budget_change": true
+  },
+  "cross_edge_source_gates_evidence": {
+    "status": "RESEARCH_COMPLETE_FROZEN_SENT_ONCE",
+    "release_id": "ReverseNS-20260909-CrossEdgeSourceGates",
+    "source_commit": "6b9222e252251cb625037c06d703e7e366e6e93d",
+    "freeze_commit": "567b948f7feb81308e02e1bbaf796d61a07e009e",
+    "freeze_manifest": "research/reverse/cross-edge-source-gates/freeze.json",
+    "freeze_manifest_sha256": "94fdc17e02ba6405d667a2e3fad09e2aab536879fcc5157e5305fda1a832e1da",
+    "acceptance": "research/reverse/cross-edge-source-gates/acceptance.json",
+    "acceptance_sha256": "ab86bc9451e8414339a9608f6b2998f904d09fc1dfe91e723e2ec79120281343",
+    "final_scope_review_sha256": "a77c52fc14bf811d29a9623bc84303d77b54ace30d1dde8c92cb6227d00f1477",
+    "root_actual_final_scope_full_read_lines": 28,
+    "source_and_dependency_Git_objects_verified": 32,
+    "source_table_bindings_verified": 22,
+    "final_scope_table_bindings_verified": 6,
+    "scientific_executions": 0,
+    "actual_source_gates_certified": false,
+    "full_NS_regular_or_singular_claim": false
+  },
+  "mixed_trajectory_preflight_evidence": {
+    "status": "SOURCE_AND_METHOD_HISTORY_SCREENED_NO_NUMERICAL_EXECUTION_CONTRACT",
+    "source_screen": "research/reverse/mixed-trajectory-preflight/SOURCE_SCREEN.md",
+    "method_reuse": "research/reverse/mixed-trajectory-preflight/METHOD_REUSE.md",
+    "root_full_read_current_data_sources": [
+      "cyclic-six-carrier/PROOF.md",
+      "cyclic-six-carrier/APPLICATION_PROOF.md"
+    ],
+    "root_full_read_old_general_error_interface": "fixed-seed-global-screen/SOURCE_PREFLIGHT.md",
+    "agent_data_read_limit_and_actual": 5,
+    "agent_method_read_limit_and_actual": 3,
+    "scientific_executions": 0,
+    "new_root_or_time_evaluation": false,
+    "outside_release_27": true,
+    "old_short_window_difference_gate_not_reopened": true
   }
 }
