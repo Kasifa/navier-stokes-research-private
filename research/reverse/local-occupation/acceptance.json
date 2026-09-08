@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_FIXED_DATUM_ENERGY_LOCAL_ERROR_INTEGRAL_AND_LOG_TIME_OCCUPATION",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/local-occupation/CONTRACT.md": "368fc878d7f35223b5ebe96dee84cd99b33573cb9ba0208e7e795c0214bd1485",
+    "research/reverse/local-occupation/PROOF.md": "5195d555303bb3eea702045f7b38e46ab8a73b1c32eeedb9614ff2dad310e22a",
+    "research/reverse/local-occupation/INDEPENDENT.md": "81fe49793284e79f3a54e7efb52fa6de80c965901e96cd6136017c9cbd2f6f1e",
+    "research/reverse/local-occupation/REVIEW.md": "5a2ad398db5561d958a964183d7d3cfed9760945e637ab3d6c9d01824e266894",
+    "research/reverse/local-occupation/INDEPENDENT_REVIEW.md": "a598a86a876084d8d9f0bc17262a69517d6da0148a75b42cdf96e9fff6d2b5c4",
+    "research/reverse/local-occupation/ROOT_COMPARISON.md": "b3dd31384dab5838df298f9acb46078e772fdf32a772c8bee71c852e88e3039e",
+    "research/reverse/local-occupation/OUTCOME.md": "fa94bd4c850c539ed531af55215abb96ea369db6ef3cbd33250d34467711cb2b"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Actual same-datum energy exactly controls unnormalized L2 norm on the expanding rescaled periodic cell and local non-small errors.",
+    "Full compact divergence-free momentum test gives finite-interval error integral and outside-neighborhood logarithmic-time measure lower bounds with both endpoints and all quadratic terms.",
+    "Independent additionally pays viscosity by its finite time integral, retaining nonlinear threshold and occupation formula separately from main constants.",
+    "Positive logarithmic-time outside lower density only conditional on actual smooth existence for all t<Tstar; no visits count or absolute finite occupation conclusion."
+  ],
+  "independence": "Authors formed without each other; independent also unread previous new L2 stage. Root precontract preflight disclosed. Different non-author reviewers each initially unread other new draft, with previous roles disclosed. Root comparison nonblind; additional results separately attributed.",
+  "unresolved_within_accepted_claims": [],
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_datum": false,
+  "new_test_or_tolerance_selected": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Fixed coordinates, fixed comparison shape and actual same-datum energy only; weighted log time is not ordinary physical time. No weak-solution trace, arbitrary modulation, realization, regeneration, regularity or singularity. NO-CANDIDATE / NOT CLAY."
+}
