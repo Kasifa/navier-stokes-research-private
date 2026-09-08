@@ -1,0 +1,193 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-TrueBandSupply",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE",
+  "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+  "scientific_commits": [
+    "5dafd716ce6fddf5504d28b03928545b39e45f3d",
+    "66297886dc1415a92b2d4cbe4e07801698a61b7f",
+    "fc33da98680c58143fd2836bf8a3893b0c2684c2",
+    "1329086efe155c741e2916259de17567aa4c567e"
+  ],
+  "predecessor_release": "ReverseNS-20260908-HelicalJointReturn",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/mixed-polarization/COHERENCE_CONTRACT.md",
+      "sha256": "ef0172d56243edea9f4014acb57c05c877ab4bd6fe147ab42fe6237073441643",
+      "bytes": 1414
+    },
+    {
+      "path": "research/reverse/mixed-polarization/COHERENCE_PROOF.md",
+      "sha256": "94d68f7b0303794e703cf6733dc9a2015a69b711a174831a6dc0b1a3093f8ce7",
+      "bytes": 3579
+    },
+    {
+      "path": "research/reverse/mixed-polarization/COHERENCE_INDEPENDENT.md",
+      "sha256": "886c5ff2822942b3ee5fd791ea2eb24477220c7a61213b9030b80861f834cb32",
+      "bytes": 13191
+    },
+    {
+      "path": "research/reverse/mixed-polarization/COHERENCE_REVIEW.md",
+      "sha256": "66509b2954809c4303f9961997113f71201baaf5009eb23a6e500f3f95bd4302",
+      "bytes": 6760
+    },
+    {
+      "path": "research/reverse/mixed-polarization/COHERENCE_INDEPENDENT_REVIEW.md",
+      "sha256": "61dbc60c3e47fe5b673e8de7b30c82490beb403c8838b6617b1955450e126369",
+      "bytes": 10734
+    },
+    {
+      "path": "research/reverse/mixed-polarization/ROOT_COHERENCE_REVIEW.md",
+      "sha256": "9240d517ae3da5ae75aaaadd77692d8f6b3dde073f829ee2dc12b540102c18ea",
+      "bytes": 3494
+    },
+    {
+      "path": "research/reverse/mixed-polarization/coherence-acceptance.json",
+      "sha256": "13e65bc1158622ec162d9c0fb4c2ca9cd259fd46cbeed6ef83fe9627017bbad8",
+      "bytes": 1592
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_CONTRACT.md",
+      "sha256": "4922918d272558efb8ddc9c05012acbffe9d497c2baf11a63b6027fc24e44bb1",
+      "bytes": 2992
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_PROOF.md",
+      "sha256": "3e540dccc41dcf99b79b1a72cf5bff0e5d58331c4ad4ecf961ac783fd3bf1832",
+      "bytes": 11357
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_INDEPENDENT.md",
+      "sha256": "cad93f863ad371723d4510f20588a0f7abcee3e4f8e2984010f88ebcb2fc2dbf",
+      "bytes": 19459
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_REVIEW.md",
+      "sha256": "58ffce36f2e99010ea2977d077e6703a5a51b06048905e923085d2fc668dd6cd",
+      "bytes": 13628
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_INDEPENDENT_REVIEW.md",
+      "sha256": "8a9e211a795916e95c5075c6791bb38ae98588fb1626a7f469f0c74dc939986a",
+      "bytes": 13499
+    },
+    {
+      "path": "research/reverse/mixed-polarization/ROOT_MIXED_ROOT_REVIEW.md",
+      "sha256": "f8fc30c5ad243664c4b6d13a96309b52f4c4d254f2d3e36ae13171ead803c640",
+      "bytes": 4122
+    },
+    {
+      "path": "research/reverse/mixed-polarization/MIXED_ROOT_OUTCOME.md",
+      "sha256": "220356307485d789dd28becd5d2d7b57acaaa421523b31cd8cf0de89abcf29bc",
+      "bytes": 1476
+    },
+    {
+      "path": "research/reverse/mixed-polarization/mixed-root-acceptance.json",
+      "sha256": "45232fb91f75de629185e5998d4a4be5376a03bc766f2dcc43fe7b638ea8918f",
+      "bytes": 2090
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_CONTRACT.md",
+      "sha256": "32e6c8152c8b42592d84b9c5809654b9a7528d96d4231bcfe9f2351ebc01ba37",
+      "bytes": 2965
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_PROOF.md",
+      "sha256": "b6085eb219e5872ec1e5b3e990fdb5c3b6c7a4f7dc75e265f4adb19cd871d4a4",
+      "bytes": 9263
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "bytes": 20130
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "95cf10aca1f75ce446e0685a615aea6a4e78fe349190d041218d128d295a627b",
+      "bytes": 11309
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT_REVIEW.md",
+      "sha256": "2215fb5a51d39ae2b6245fcec719f60272d96ab621399152335f2a25927793e8",
+      "bytes": 11964
+    },
+    {
+      "path": "research/reverse/mixed-polarization/ROOT_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "ce3dad3d013c4bd635bf62473a75de877741312fd5f043140aa9b466829bfb91",
+      "bytes": 5127
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_OUTCOME.md",
+      "sha256": "c23e4c4fa9c22ac028c239e5ad2c286b8d577eeb5820289197108c4a11054a8e",
+      "bytes": 2420
+    },
+    {
+      "path": "research/reverse/mixed-polarization/source-bridge-acceptance.json",
+      "sha256": "3db1c69a1f04966630548255bb7daa56522f3a8c1cfaba9f12467f3f77ef4f98",
+      "bytes": 2213
+    },
+    {
+      "path": "research/reverse/mixed-polarization/FINAL_SCOPE_REVIEW.md",
+      "sha256": "232039bd82d5d36efff85cf9f6a0896e0a8bc035d2525e7dc72ff8fb090f3493",
+      "bytes": 7886
+    }
+  ],
+  "dependencies": [
+    {
+      "release_id": "ReverseNS-20260908-HelicalJointReturn",
+      "source_commit": "c6900720c065c94217d3f269eafe20592b00058e",
+      "manifest": "research/reverse/nonorthogonal-return/freeze.json",
+      "use": "Previously accepted shared nonorthogonal pair maps; no repeated release or universal template inference."
+    }
+  ],
+  "claims": {
+    "classification": "PROVED_COHERENT_INPUT_AND_COMPLETE_ROOT_MAP; PROVED_FIXED_DATA_LOCAL_NS_TRUE_BAND_SUPPLY_ERRORS; NO_CANDIDATE_ACCEPTED; NOT_CLAY",
+    "proved": [
+      "Sender covariance cross terms are essential for deterministic mixed polarization.",
+      "All doubled four-leaf receivers include full mixed roots; a nondegenerate larger-receiver pair has a nonvanishing relative short-time mixed-root contribution.",
+      "For each single fixed finite independent three-pair datum, all-leaf Fourier responses converge on an explicit common smooth local NS window, with full periodic pressure and fifth-order error bounds relating true first-band self-supply to the pure four-leaf tree.",
+      "Same-data complete vector-sum conditional source test and, when W0 is nonzero, actual source ratio limit norm(M0)/norm(W0)."
+    ],
+    "not_claimed": [
+      "Any selected actual datum or evaluated three-pair total-vector gap.",
+      "Generic total mixed-root cancellation existence or exclusion.",
+      "Template regeneration, full two-step mechanism, uniform iteration, one fixed datum at infinite scales, finite total time or singularity.",
+      "Repair of older failed computing/resource evidence or the old fixed physical datum full-window certificate.",
+      "External novelty, human peer review or formal proof-assistant verification."
+    ]
+  },
+  "validation": {
+    "status": "PASS_ANALYTIC_PROOFS_SEPARATE_REVIEWS_AND_FINAL_SCOPE",
+    "stage_acceptances": [
+      "research/reverse/mixed-polarization/coherence-acceptance.json",
+      "research/reverse/mixed-polarization/mixed-root-acceptance.json",
+      "research/reverse/mixed-polarization/source-bridge-acceptance.json"
+    ],
+    "independence": "Each stage has root main proof, independent derivation without root proof, separate non-author reviews, and root full comparison. Latest final-scope reviewer subsequently read the independent bridge; disclosed, not a third blind proof.",
+    "final_scope_review": "research/reverse/mixed-polarization/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "Every included source object and all three bound acceptance maps matched current bytes before manifest creation.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "local_infinite_dimensional_remainder_paid": true,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_computations_repaired": false,
+    "unresolved_within_accepted_interfaces": []
+  },
+  "literature_boundary": "Local history and exact reading ranges are recorded in the stage proofs and reviews. Old Wiener existence and source-splitting principles are reused without novelty claims. No new external theorem is invoked.",
+  "source_ledger": "research/reverse/mixed-polarization/ROOT_SOURCE_BRIDGE_REVIEW.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/mixed-polarization/SOURCE_BRIDGE_OUTCOME.md",
+  "milestone_scope": "Coherent inputs, complete four-leaf sources and same-solution local infinite-dimensional bridge, one combined stage.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
