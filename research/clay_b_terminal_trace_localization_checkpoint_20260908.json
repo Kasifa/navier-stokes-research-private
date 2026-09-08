@@ -1,0 +1,116 @@
+{
+  "check_id": "ClayB-TerminalTraceLocalization-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383",
+  "main": "research/clay_b_terminal_trace_localization_20260908.md",
+  "main_sha256": "34898829b9fac2b53028ee1496708724702d8c09a4ea460516762f824681852b",
+  "classification": [
+    "INTERNAL FORMULA AND RATE CHECK",
+    "EXACT ADJOINT TERMINAL IDENTITIES",
+    "CLASSICAL NASH APPLICATION",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "固定截止的差值Kato保留两切片和r^-1源、r^-3时间/扩散、r^-2输运项；原压力近远分解仍给旧WE/AH/NE同尺度成本，不能拆换非线性截源。",
+    "固定a的临界上界要求同时控制R(r)r²和delta_R/r；尺度重启保留r²||G(T-r²)||infty和Rr⁴。差值初始为零不删除辅助初值成本。",
+    "同一真实漂移的终端伴随权可由L2收缩构造到T；TG强迹与有限完整mu_G给矩阵及完整熵的精确加权终端式，不删除零集。权重只有质量/高度/能量控制，没有已证指定柱统一下界，也没有加权局部Hardy压力定理。",
+    "旧Nash工具用于真实梯度源后给K_r(tau)=min(1,C|Br|[V^-1+(nu tau)^-3/2])的时间卷积质量界。J_F(h)=o(sqrt(nu h))足以使该临界上界趋零，但现有能量+Hardy只给o(1)；该条件未被证明；本稿只使用其对上述上界的充分性，不声称与指定中心正则性等价。",
+    "全胞enstrophy平方根尾若被另行假设为小量，已与标准H1最大奇异端点的y>=c nu^(3/2)/sqrt(T-t)下界相冲突，不能包装为新判据。完整联合源F的L1尾不等于该全胞能量尾。"
+  ],
+  "open_items": [
+    "没有带符号原源响应的新临界估计；Nash质量核不控制原强L1时间连续性的统一模量。",
+    "没有自动指定中心共同A/E与小K，也没有伴随权在原柱的统一正下界或加权压力局部化。",
+    "结论只说明已检查绝对值估计链未闭合，不否定更细的抵消、伴随或NS机制；一般NS/Clay仍OPEN / NOT CLAY。"
+  ],
+  "next_action": "LT已完成TG后的固定截止、同漂移终端伴随和Nash时间源核检查：它们没有给新的临界速率。停止仅调整R(r)、正权或以全胞enstrophy平方根尾代替待证输入。下一项只检验同一实际NS漂移的带符号矩阵响应 D_{a,t}=integral_a^t S^u(t,s)(G²+H)(s)ds，先读NE的Hardy/零均值结构和IDC交换子范围去重，再推导压力算子与实际传播的完整时间交换子，核查是否能在原形状耗散、时间顺序和非局部尾全部保留时减少临界源成本。候选已经具体选定，但无新临界估计被接受；若只得到恒等式、经典Hardy原子工具或C E(r)，不算新临界进展，不另建release或重复交接。不检查发布或反向执行。",
+  "next_test_selected": true,
+  "next_unconditional_critical_input_accepted": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "last_independent_source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "last_independent_freeze_commit": "93965a9c3cf8ccb3e61aad637a2f736c8d0fd5fd",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_near_pressure_entropy_20260908.md",
+      "sha256": "4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_common_adjoint_full_tail_20260906.md",
+      "sha256": "c924ec592db62dfc5975e4848230fddb14849119f7c914a0056ce9d50ad9ec64",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    },
+    {
+      "path": "research/clay_b_physical_adjoint_budget_20260905.md",
+      "sha256": "71bea08e6eba0a042ead57f1ef985de9b9d9aaa09968a7ae03a8cc2fae9f2430",
+      "source_commit": "b1ef03b6b281b9b7eff9dc68bc6bafa8a2add383"
+    }
+  ],
+  "review": {
+    "status": "PASS_WITH_SCOPED_INTERNAL_CHECK",
+    "root": "主任务实际全文读回202行主稿并核算局部/压力、终端测度极限、Nash临界分部积分和标准enstrophy下界；对第177行唯一措辞修订再逐行读回并核验最终12565B及SHA256。",
+    "module_reviews": "A核对固定a/尺度重启及WE/AH成本；B核对伴随终端构造、完整熵与逃逸；C核对Nash、Duhamel时间核和平方根源条件。三者均全文读最终TG，不把模块回执当作新LT全文审读。全部为参与式AI，非真人同行评审。",
+    "structural": {
+      "status": "PASS",
+      "ordered_unique_tags": 17,
+      "display_pairs": 19,
+      "inline_pairs": 110,
+      "abnormal_controls": false,
+      "trailing_whitespace": false
+    },
+    "dependency_objects_match_base": true,
+    "final_main_review": {
+      "reviewer": "ma_freeze_review",
+      "type": "PARTICIPATING_AI_FULL_READ_PLUS_SINGLE_DELTA_VERIFICATION",
+      "full_read_sha256": "153821c8fb23e07f755156094600f73eec8edfb22ff48fbfaa32232bc57dcac3",
+      "full_read_lines": 202,
+      "full_read_bytes": 12512,
+      "only_required_change": "第177行不再将未证明必要性误写成已证明非必要性；现只陈述额外源尾条件对该上界的充分性，不声称与指定中心正则性等价。",
+      "final_sha256": "34898829b9fac2b53028ee1496708724702d8c09a4ea460516762f824681852b",
+      "final_lines": 202,
+      "final_bytes": 12565,
+      "delta_verification": "实际读回第177行，反向替换精确恢复已全文审读版本的字节数和SHA；确认无其他改动。",
+      "verdict": "PASS",
+      "human_peer_review": false
+    }
+  },
+  "literature_scope": "一次普通查询；主任务定向读Albritton–Dong2107.12511v1导言与1.23附近，不采用未读定理证明/粗漂移反例。Nash本体在旧BP.11与physical-adjoint B.14去重，非新成果。",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false,
+  "main_bytes": 12565,
+  "main_lines": 202
+}
