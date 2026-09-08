@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Stage A contract/code/non-author static review and root full read PASS. This checkpoint precedes source-save commit and one explicit author execution; no coefficients or parameters yet. After source commit, run stage A once under final contract a441be9b and preserve output before stage B.",
+  "next_action": "Stage A executed exactly once after 9e606f2d source save; output9329464c full six-target coefficients and nonconstant degree6 P saved, no roots or datum yet. Complete text-only Sturm/gcd method preflight then prepare/review/save stage-B code for exactly this recorded P. Stage C independent exact verification and application proof review remain required. Never rerun stage A.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -28,7 +28,8 @@
     "research/reverse/cyclic-six-carrier/exact_coefficients.py",
     "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md",
     "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
-    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md"
+    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -44,7 +45,8 @@
     "research/reverse/cyclic-six-carrier/exact_coefficients.py": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64",
     "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md": "3362ca3f5c79d7e7c86581b942ef3dea627535b856f414f5974f9c8e7fc5f482",
     "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4",
-    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992"
+    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992",
+    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -58,7 +60,7 @@
   },
   "freeze_commit": "a856a0f311aba7caa9311ae649f1ce83a74e0ff7",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "C3 six-carrier stage-A final source audit before single exact coefficient execution",
+  "current_topic": "C3 stage-A six-target coefficients saved; exact real-root stage-B method preparation",
   "current_topic_directory": "research/reverse/cyclic-six-carrier",
   "pending": [
     "Read final C3 contract pre-review and stop code",
@@ -369,7 +371,7 @@
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1",
+  "current_analysis_source_commit": "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -1151,15 +1153,15 @@
     "candidate_accepted": false
   },
   "cyclic_six_carrier_evidence": {
-    "status": "STAGE_A_PRE_RUN_CODE_AND_CONTRACT_PASS_NOT_EXECUTED",
+    "status": "STAGE_A_ONCE_COMPLETE_DEGREE_SIX_ROOT_STAGE_PENDING",
     "preflight": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
     "structural_review": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
     "root_actual_full_read_both": true,
     "contract": "research/reverse/cyclic-six-carrier/CONTRACT.md",
     "contract_sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
     "root_prior_handwork": "C3 geometry/support/degrees and first-band r coefficient (1+alpha^2)e3; disclosed before any unknown four-leaf coefficient computation.",
-    "unknown_four_leaf_coefficients_computed": false,
-    "scientific_programs_run": 0,
+    "unknown_four_leaf_coefficients_computed": true,
+    "scientific_programs_run": 1,
     "parameters_selected": false,
     "actual_new_datum": false,
     "formal_release": false,
@@ -1172,6 +1174,20 @@
     "root_final_A_code_full_read": true,
     "stage_A_static_review": "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
     "stage_A_static_review_sha256": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992",
-    "root_final_static_review_full_read": true
+    "root_final_static_review_full_read": true,
+    "stage_A_output": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+    "stage_A_output_sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+    "stage_A_source_commit": "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+    "stage_A_output_bytes": 469369,
+    "stage_A_resources": {
+      "RSS_conversion": "Darwin ru_maxrss is bytes",
+      "maximum_RSS_SELF_bytes": 19709952,
+      "system_CPU_seconds_SELF": 0.011293,
+      "user_CPU_seconds_SELF": 0.177036,
+      "wall_seconds_since_module_start": 0.174760334
+    },
+    "determinant_degree": 6,
+    "all_real_roots_certified": false,
+    "stage_C_independent_verification_complete": false
   }
 }
