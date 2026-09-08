@@ -1,0 +1,56 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_FIXED_SUPPORT_GEOMETRY_AND_PER_PAIR_SOURCE_OBSTRUCTION",
+  "separate_formal_release": false,
+  "excluded_from_difference_freeze": true,
+  "bound_files": [
+    {
+      "path": "research/reverse/receiver-input-geometry/QUESTION.md",
+      "sha256": "5c5f92f0a134147f21ea88bdc6b567560820fcbe67cdfe3880ee0369c49a6e44",
+      "bytes": 3240
+    },
+    {
+      "path": "research/reverse/receiver-input-geometry/ROOT_GEOMETRY.md",
+      "sha256": "8ead58816acc6b0415eba6240338b72ba07dafb1947f3b3c6339746f4adc73b1",
+      "bytes": 4201
+    },
+    {
+      "path": "research/reverse/receiver-input-geometry/PREFLIGHT.md",
+      "sha256": "6ad40abc638cdc1832b33fe0c127148fb5d2bcd9e62e41a26119d1a8074acdd4",
+      "bytes": 13643
+    },
+    {
+      "path": "research/reverse/receiver-input-geometry/REVIEW.md",
+      "sha256": "80bcdf0215f87ae767231a11381d00d705ad22bedeab7650f43b9942c7f5f506",
+      "bytes": 8793
+    },
+    {
+      "path": "research/reverse/receiver-input-geometry/ROOT_COMPARISON.md",
+      "sha256": "09fccadfb8eab3e493e6cd431ab811ab54865dfad2b89a464c94d898bae3dcb0",
+      "bytes": 2523
+    }
+  ],
+  "root_actual_full_read": [
+    "QUESTION.md",
+    "ROOT_GEOMETRY.md",
+    "PREFLIGHT.md",
+    "REVIEW.md",
+    "ROOT_COMPARISON.md"
+  ],
+  "claims": [
+    "Fixed 18-point/9-line support and complete Gram",
+    "Sharp minimum maximum absolute pair cosine 1/2; rank-three geometric attainers only",
+    "Heat carry plus one actual internal quadratic source cannot satisfy all three nonzero per-pair gates for a strictly near-orthogonal target triple"
+  ],
+  "limits": [
+    "Only intervals where original classical solution already exists",
+    "No unknown coefficient nonzero claim",
+    "No aggregate-band source exclusion",
+    "No exclusion of multi-stage internal generation, real external assistance or other input classes",
+    "No singularity or global regularity claim"
+  ],
+  "scientific_executions": 0,
+  "figures": [],
+  "new_reader_pdf": false,
+  "independence": "Two hand derivations with root prior insight and progress-summary contact disclosed; one nonauthor comparative review, not three blind proofs"
+}

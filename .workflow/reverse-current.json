@@ -58,11 +58,23 @@
     "research/reverse/cyclic-difference-response/figures-manifest.json",
     "research/reverse/cyclic-difference-response/review-difference-output.json",
     "research/reverse/cyclic-difference-response/verifier-execution.json",
-    "research/reverse/cyclic-difference-response/VERIFY_RESULT.md"
+    "research/reverse/cyclic-difference-response/VERIFY_RESULT.md",
+    "research/reverse/receiver-input-geometry/PREFLIGHT.md",
+    "research/reverse/receiver-input-geometry/QUESTION.md",
+    "research/reverse/receiver-input-geometry/REVIEW.md",
+    "research/reverse/receiver-input-geometry/ROOT_COMPARISON.md",
+    "research/reverse/receiver-input-geometry/ROOT_GEOMETRY.md",
+    "research/reverse/receiver-input-geometry/acceptance.json",
+    "research/reverse/receiver-lattice-return/PREFLIGHT.md",
+    "research/reverse/receiver-lattice-return/QUESTION.md",
+    "research/reverse/receiver-lattice-return/REVIEW.md",
+    "research/reverse/receiver-lattice-return/ROOT_ANALYSIS.md",
+    "research/reverse/receiver-lattice-return/ROOT_COMPARISON.md",
+    "research/reverse/receiver-lattice-return/acceptance.json"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
-    "research/reverse/CHECKPOINT.md": "7812c42434180f31563c12c6b8d7c59cbb7648828f739af57af0ea3b39462917",
+    "research/reverse/CHECKPOINT.md": "ccc0721b26e74be1ea49abd79e1db7d0411ad729729ea99544a575f4439842c5",
     "research/reverse/HANDOFF_LOG.json": "1091fe07d3fc9c01208184b9340dc9c8bfa8377f602bcdd961e0872ade7adea0",
     "research/reverse/cyclic-six-carrier/freeze.json": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
     "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a",
@@ -104,7 +116,19 @@
     "research/reverse/cyclic-difference-response/figures-manifest.json": "4a261db924a9143aedf73d34cdf0c6c60f032bf50217b66fe8e66c2143cafbda",
     "research/reverse/cyclic-difference-response/review-difference-output.json": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75",
     "research/reverse/cyclic-difference-response/verifier-execution.json": "42adefd2427d40195a733eabf5eb061b165017a1a13f772b2dba8c0887b43f63",
-    "research/reverse/cyclic-difference-response/VERIFY_RESULT.md": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b"
+    "research/reverse/cyclic-difference-response/VERIFY_RESULT.md": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b",
+    "research/reverse/receiver-input-geometry/PREFLIGHT.md": "6ad40abc638cdc1832b33fe0c127148fb5d2bcd9e62e41a26119d1a8074acdd4",
+    "research/reverse/receiver-input-geometry/QUESTION.md": "5c5f92f0a134147f21ea88bdc6b567560820fcbe67cdfe3880ee0369c49a6e44",
+    "research/reverse/receiver-input-geometry/REVIEW.md": "80bcdf0215f87ae767231a11381d00d705ad22bedeab7650f43b9942c7f5f506",
+    "research/reverse/receiver-input-geometry/ROOT_COMPARISON.md": "09fccadfb8eab3e493e6cd431ab811ab54865dfad2b89a464c94d898bae3dcb0",
+    "research/reverse/receiver-input-geometry/ROOT_GEOMETRY.md": "8ead58816acc6b0415eba6240338b72ba07dafb1947f3b3c6339746f4adc73b1",
+    "research/reverse/receiver-input-geometry/acceptance.json": "b661469151f3f24eee567d2a03efa7c32c830a67193ae1a5f847d13ce38a01e5",
+    "research/reverse/receiver-lattice-return/PREFLIGHT.md": "8457b90de85e006f9305650ef8ae71f69d0ae5cac25d48d53ccc67bdce913c07",
+    "research/reverse/receiver-lattice-return/QUESTION.md": "c3fce9826c959ec5e0bd566f0e69ffbff438516d11a126bc9fbae94d3e06cb89",
+    "research/reverse/receiver-lattice-return/REVIEW.md": "7e69788425398aeca8dbe6a96f33ed19cb2c767361f86dbbef0ad9297ef45ef7",
+    "research/reverse/receiver-lattice-return/ROOT_ANALYSIS.md": "ca35ac8aaa52e464a097afedc268de6e31625deb266e47b84c2747560d038766",
+    "research/reverse/receiver-lattice-return/ROOT_COMPARISON.md": "3f00df50d74b89f5a53bf95ba0f7a9ee09c9b0c4499da7fc6675c614d3710f9e",
+    "research/reverse/receiver-lattice-return/acceptance.json": "7220257eeae6fcd344dc9e77482a261f3390c715b0c328a6af69fe2e9fc4aeff"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
@@ -132,7 +156,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T17:04:20.960694+00:00",
+  "updated_at": "2026-09-08T17:19:32.226421+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -1445,5 +1469,21 @@
     "independent_output": "research/reverse/cyclic-difference-response/review-difference-output.json",
     "independent_output_sha256": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75",
     "verifier_result_author_note_root_full_read": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b"
+  },
+  "receiver_input_geometry_evidence": {
+    "status": "ACCEPTED_FIXED_SUPPORT_GEOMETRY_AND_PER_PAIR_SOURCE_OBSTRUCTION",
+    "acceptance": "research/reverse/receiver-input-geometry/acceptance.json",
+    "acceptance_sha256": "b661469151f3f24eee567d2a03efa7c32c830a67193ae1a5f847d13ce38a01e5",
+    "scientific_executions": 0,
+    "separate_formal_release": false,
+    "excluded_from_difference_freeze": true
+  },
+  "receiver_lattice_return_evidence": {
+    "status": "ACCEPTED_FIXED_LATTICE_ARITHMETIC_APPLICATION",
+    "acceptance": "research/reverse/receiver-lattice-return/acceptance.json",
+    "acceptance_sha256": "7220257eeae6fcd344dc9e77482a261f3390c715b0c328a6af69fe2e9fc4aeff",
+    "scientific_executions": 0,
+    "separate_formal_release": false,
+    "excluded_from_difference_freeze": true
   }
 }

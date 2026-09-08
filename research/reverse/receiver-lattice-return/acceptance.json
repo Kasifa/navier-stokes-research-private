@@ -1,0 +1,57 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_FIXED_LATTICE_ARITHMETIC_APPLICATION",
+  "separate_formal_release": false,
+  "excluded_from_difference_freeze": true,
+  "bound_files": [
+    {
+      "path": "research/reverse/receiver-lattice-return/QUESTION.md",
+      "sha256": "c3fce9826c959ec5e0bd566f0e69ffbff438516d11a126bc9fbae94d3e06cb89",
+      "bytes": 2674
+    },
+    {
+      "path": "research/reverse/receiver-lattice-return/ROOT_ANALYSIS.md",
+      "sha256": "ca35ac8aaa52e464a097afedc268de6e31625deb266e47b84c2747560d038766",
+      "bytes": 4264
+    },
+    {
+      "path": "research/reverse/receiver-lattice-return/PREFLIGHT.md",
+      "sha256": "8457b90de85e006f9305650ef8ae71f69d0ae5cac25d48d53ccc67bdce913c07",
+      "bytes": 12133
+    },
+    {
+      "path": "research/reverse/receiver-lattice-return/REVIEW.md",
+      "sha256": "7e69788425398aeca8dbe6a96f33ed19cb2c767361f86dbbef0ad9297ef45ef7",
+      "bytes": 10586
+    },
+    {
+      "path": "research/reverse/receiver-lattice-return/ROOT_COMPARISON.md",
+      "sha256": "3f00df50d74b89f5a53bf95ba0f7a9ee09c9b0c4499da7fc6675c614d3710f9e",
+      "bytes": 3001
+    }
+  ],
+  "root_full_read": [
+    "QUESTION.md",
+    "ROOT_ANALYSIS.md",
+    "PREFLIGHT.md",
+    "REVIEW.md",
+    "ROOT_COMPARISON.md"
+  ],
+  "claims": [
+    "Exact index-91 lattice and two congruence membership conditions",
+    "All finite pure-D heat-Leray trees stay in the lattice; only already proved coefficientwise limits inherit this",
+    "Existential set of common lengths of integer orthogonal equal-length triples in L is 91 times the positive integers",
+    "Minimum geometric length 91; coordinate attainers have shortest signed additive leaf words of length 41 only",
+    "Failure of a necessary per-pair source gate for target triples that fail the scale condition"
+  ],
+  "limits": [
+    "No active 41-leaf tree assertion or new high-order calculation",
+    "No direction-uniform sufficiency from scale alone",
+    "No sum-of-trees convergence or representation of full original u proved",
+    "No total-band, viscous dominance, true regeneration or singularity conclusion"
+  ],
+  "scientific_executions": 0,
+  "figures": [],
+  "new_reader_pdf": false,
+  "source_novelty_claim": false
+}
