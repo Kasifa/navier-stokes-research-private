@@ -1,0 +1,38 @@
+{
+  "internal_id": "ClayB-QuantitativePressureSourceCheck-20260908",
+  "base_commit": "3f2f714d625195c72e5016c2a9e999f8e59a90ea",
+  "status": "INTERNAL_ROUTE_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_quantitative_pressure_source_check_20260908.md",
+  "main_sha256": "8386201a1de32419722e48fa90162e95183d9467f18d3fda37810c0eb684e2c7",
+  "audit": "research/clay_b_quantitative_pressure_source_audit_20260908.md",
+  "logical_context": "ClayB-PressureFreeShapeCriterion-20260908",
+  "classification": ["STRONG PRESSURE-SOURCE UPGRADE REFUTED IN STATED SCOPE", "INTERNAL ROUTE CHECK", "NO NEW CRITICAL INPUT", "NOT CLAY"],
+  "completed_scope": [
+    "固定切片速度L2上界且完整gradTheta的L2趋零时，trG²减去任意局部调和函数后的每个强Lq范数（1≤q≤∞）仍可发散；精确旋转剪切加横向微扰给全部指数和调和测试。未预设统一切片G2。",
+    "同一特殊族的真实NS解由小有效系数a=A/n的全时同指数加权收缩构造。完整gradTheta的弱导数由非零秩一附近光滑最佳投影控制，未漏长时归一化尾部；P=a*pi和物理p=A²*pi严格区分。",
+    "取epsilon=n^(-3/4)，在底部前n^(-2)启动的闭柱邻域内，A+E有共同上界、K≤C A n^(-1/2)趋零，但母柱压力源L2≥c A²n^(1/4)发散。压力梯度全时累计平方≤C A⁴epsilon²趋零；离底部任何固定正时间后源趋零。",
+    "PF只要求极限源的控制，不给原序列的强源控制；强源反例不否定负阶源或压力梯度。一般有限A/E/K即给压力梯度L2的无小量估计会是实质性未证正则输入，不是可自动采用的能量事实。",
+    "静态余项k^alpha*g^b在alpha,b≥0时仅给时间指数2/(alpha+b)；现有L2力链直接适用需alpha+b≤1。共同r^(-1)的非负截止差仍只给theta^(-1)损失，没有跨尺度收缩。"
+  ],
+  "open_items": [
+    "没有同一候选终端、同一初值的反例或无条件估计；实际NS高频例只否定整个母柱的强源加强，不排除固定内柱或终端控制。",
+    "没有从任意实际演化生成共同A+E上界及小K尺度，未建立严格尺度增益或独立不可求和成本；当前无新的具体动力学候选。",
+    "未证明新颖性、真人同行评审、一般三维NS正则性或奇性；旧旋转剪切种子不认领为新构造。"
+  ],
+  "next_action": "停止强压力源定量化及其初端频率变体，保留本次否定的准确量词。回到同一候选终端的联合好尺度缺口；先选择一个真正不同于AP原差分、共同伴随、q×d、Young平方商和变参考核算的带符号压力—输运机制，写出原方程、全部两端切片与边界项以及可证伪的具体估计，再继续推导。不能将未证压力梯度L2、小K、共同速度L∞或初端平移模量当自动输入；只接受严格尺度增益或独立不可求和成本为一般正则性进展。当前NO-CANDIDATE，不检查发布或反向执行。",
+  "new_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "previous_goal_turn_classification": "PROGRESS: EWT same-family initial-time scope calibration saved and verified at base commit"
+}
