@@ -1,0 +1,101 @@
+{
+  "schema": "ReverseNS-budget-floor-local-acceptance-v1",
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_CONDITIONAL_SPECIFIC_BUDGET_LOWER_BOUND",
+  "accepted_at_utc": "2026-09-08T23:38:44.952900+00:00",
+  "files": [
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/CONTRACT.md",
+      "sha256": "df3f7c168c98cc7ac07764b4825ad31da80bd759130eda691985465441ec68f3",
+      "bytes": 1853
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/PROOF.md",
+      "sha256": "1ab573bbc9bdc16445964cc65245182357b14327dea8df0a8f070e72bbde81d1",
+      "bytes": 9500
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_DERIVATION.md",
+      "sha256": "efbb256522d6d343e1dc4b5ea2cb6edd2565ae50f654be115f250f1c756a9732",
+      "bytes": 3437
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_DERIVATION_REVIEW.md",
+      "sha256": "5963defd67fdb7184aea98bc3c26c0cf43687d34403253b4335829eb60d75e2f",
+      "bytes": 4362
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/PROOF_REVIEW.md",
+      "sha256": "a1476677612aba21dde7d6a44b31562fb84618aa9b8f44f890cef32c8b1c5a5b",
+      "bytes": 5708
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_COMPARISON.md",
+      "sha256": "dbcd424885769cea0844c1c83f1df38c54cba2189b665fe1d825d25a73137a5d",
+      "bytes": 3156
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_SOURCE_CHECK.md",
+      "sha256": "fb89544ffd46b12bac7caa9076d18eb7233e9a7a4ec0a7a39d3c34d60ccf6d1b",
+      "bytes": 866
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/OUTCOME.md",
+      "sha256": "225f629d1bea97c26172f36bb40cb8aa2ad672e5312815089e2d03deeff311b4",
+      "bytes": 1652
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/relative-energy-error-preflight/PROOF.md",
+      "sha256": "d1484629cbc592f2cdd14c7d86a370bc7fc915172f2d7a553285675a564c811f",
+      "bytes": 9576
+    },
+    {
+      "path": "research/reverse/relative-energy-error-preflight/freeze.json",
+      "sha256": "40ad11b7eaad5dbf60917e321583633c251b3a2f3d8d8bb57b69b33c9fa3bdf1",
+      "bytes": 11448
+    },
+    {
+      "path": "research/reverse/relative-energy-error-preflight/RESIDUAL_FLOOR_HISTORY.md",
+      "sha256": "519c49c9516fc9776283165a2ea567e352b0037975e35e52741e655ff41af3da",
+      "bytes": 4339
+    }
+  ],
+  "root_final_author_proof_full_read": true,
+  "root_non_author_reviews_full_read": true,
+  "formation": "Root and sole author stopped their derivations without reading each other, sharing the contract and orthogonal-polynomial direction. Reviewer sequentially read root and author stopped texts. Root raised one endpoint-scope wording issue, reviewer confirmed and author corrected; final proof and review actually read. No discovery or human peer review claim.",
+  "proof_certificate": "Self-contained Rodrigues/orthogonality/endpoint derivations, physical-time and full-residual algebra, and non-author AI formula reviews. No proof-assistant or numerical certificate.",
+  "accepted": [
+    "Hilbert-valued polynomial endpoint integral inequality; sharp only for the unrestricted nonzero Hilbert polynomial class",
+    "Degree6 complete finite-support cubic reconstruction residual with normalized H-minus-one weights",
+    "Specific RE.5 budget floor including previous E(b)^2; full off-support/center/zero branches"
+  ],
+  "scientific_executions": 0,
+  "arrays_opened": 0,
+  "actual_reconstruction_or_endpoint_evaluated": false,
+  "actual_NS_error_lower_bound": false,
+  "actual_NS_gate_certified": false,
+  "actual_NS_existence_through_T_certified": false,
+  "finite_time_singularity": false,
+  "external_novelty_review": false,
+  "formal_machine_proof": false,
+  "human_peer_review": false,
+  "figures": [],
+  "new_reader_pdf": false,
+  "formal_release": false,
+  "publication_handoff": false,
+  "excluded_next_work": [
+    "APPLICATION_PREFLIGHT_CONTRACT.md",
+    "APPLICATION_DATA_PREFLIGHT.md",
+    "ROOT_APPLICATION_PREFLIGHT.md",
+    "APPLICATION_REVIEW.md",
+    "Any endpoint/norm/reconstruction computation or gate inference"
+  ],
+  "primary_source_urls": [
+    "https://dlmf.nist.gov/18.3#T1",
+    "https://dlmf.nist.gov/18.5#ii",
+    "https://dlmf.nist.gov/18.6#T1"
+  ],
+  "source_reading_scope": "Individual proof and ROOT_SOURCE_CHECK record distinct actual author/root reading. Binding a source is not claiming reviewer reread or external novelty."
+}
