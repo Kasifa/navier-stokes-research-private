@@ -1,0 +1,127 @@
+{
+  "release_id": "ClayB-PressureFreeShapeCriterion-20260908",
+  "logical_predecessor": "ClayB-MixedAbsorptionCalibration-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+  "source_commit": "76e125cbcb5c41c1bfcee46a963a325b2ef56377",
+  "is_clay_result": false,
+  "scientific_classification": [
+    "LOCAL CONDITIONAL EPSILON REGULARITY",
+    "NO COMMON ORIGINAL-PRESSURE CAP",
+    "INTERNAL VARIABLE-REFERENCE CHECK",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For every finite M>0, there is a new epsilon_PF(M)>0 such that a local suitable weak solution defined near the closed unit cylinder with A(1)+E(1)<=M and integral_Q1 |grad Theta(grad u)|^2<epsilon_PF(M) is regular at the centre. Each solution retains its own locally L^(3/2) pressure; no common original-pressure D(1) bound is assumed.",
+    "Kwon's localized Leray decomposition supplies time-compact corrected velocities and bounded spatially smooth harmonic parts, with all corrected pressure and force terms retained. Time-slice rank-one/affine classification yields the selection-independent bound |tr((grad v)^2)|<=C(M)(1+|grad v|). This gives an L2 corrected-pressure source, the stated L2-force integrability bootstrap and velocity-only transfer to the original suitable solutions.",
+    "The accompanying VR.1-9 internal check retains original norm dissipation, zero-set defect, both slices and every variable-reference derivative. Perfect matching cancels the original directional dissipation through the new derivative term; the relative-direction rewrite introduces an uncontrolled radial pairing. This closes only the checked formal absorption subbranch and is not a separately counted completed research section."
+  ],
+  "limitations": [
+    "No same-solution argument yet produces a prescribed-centre scale with A+E<=M and K<epsilon_PF(M) for arbitrary smooth initial data.",
+    "No effective epsilon_PF(M), regularity-radius modulus, strict cross-scale contraction or nonsummable concentration cost is established.",
+    "Deleting a common pressure cap is not deleting suitable-solution pressure integrability, nor a claim that the corrected limit v+h solves the original unforced NS system.",
+    "The variable-reference calculation does not rule out all reference methods or signed estimates; it supplies no new automatic radial budget or scale gain.",
+    "Novelty, human peer review and the general three-dimensional Navier-Stokes/Clay problem remain open."
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "bytes": 13023,
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520"
+    },
+    {
+      "path": "research/clay_b_variable_reference_check_20260908.md",
+      "bytes": 3689,
+      "sha256": "15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585"
+    },
+    {
+      "path": "research/clay_b_pressure_free_shape_audit_20260908.md",
+      "bytes": 4215,
+      "sha256": "a5c61db9d0ceaf346e24bf66e7672006e3e62299c9c23d2a1f3c9e607a73fe4e"
+    },
+    {
+      "path": "research/clay_b_pressure_free_shape_checkpoint_20260908.json",
+      "bytes": 3883,
+      "sha256": "9741b81fd78203bb7e34809e66eae0e4a59d6e49b0e66a58e1f4adfc8bf0c61e"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_shape_dissipation_compactness_20260908.md",
+      "sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586",
+      "bytes": 15252,
+      "source_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+      "read_scope": "full",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_rank_one_squared_compactness_20260908.md",
+      "sha256": "d13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b",
+      "bytes": 14595,
+      "source_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+      "read_scope": "full",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "bytes": 14138,
+      "source_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+      "read_scope": "full",
+      "kind": "FROZEN_PROOF_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0",
+      "bytes": 11723,
+      "source_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+      "read_scope": "full",
+      "kind": "FROZEN_INTERNAL_CHECK_DEPENDENCY"
+    },
+    {
+      "path": "research/clay_b_mixed_absorption_calibration_20260908.md",
+      "sha256": "8afd642f0b8b7fe774a952cc69bb4f89a5c3b0a989b178db4668499855a175db",
+      "bytes": 12164,
+      "source_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+      "read_scope": "full",
+      "kind": "FROZEN_INTERNAL_CHECK_DEPENDENCY"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/html/2104.03160v3",
+      "title": "Hyunju Kwon, The role of the pressure in the regularity theory for the Navier-Stokes equations",
+      "version": "arXiv:2104.03160v3",
+      "scope": "Root read relevant introductory definitions and full Sections2-4. Imports Lemma2.5 and Theorem1.4 at r=m=3, not a new result or recursive literature audit. Participant reviewers read the stated module sections; the non-conception reviewer checked targeted definitions, decomposition bounds and epsilon interface.",
+      "whole_paper_certified": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_pressure_free_shape_audit_20260908.md",
+    "mathematical_review": "Root independently derived and fully read final PF173lines13023B and VR71lines3689B. good_scale_route_comparison and variable_reference_check participated in modules and both actually fully reread final PF SHAa470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520 PASS. ma_freeze_review did not participate in PF conception and actually fully reread final PF, SC and RS, with targeted WE and Kwon input checks, PASS. variable_reference_check also actually fully reread final VR SHA15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585 PASS. All AI; no human peer review or novelty certification.",
+    "record_review": "Root and ma_freeze_review actually fully read audit32lines4215B SHAa5c61db9d0ceaf346e24bf66e7672006e3e62299c9c23d2a1f3c9e607a73fe4e and checkpoint41lines3883B SHA9741b81fd78203bb7e34809e66eae0e4a59d6e49b0e66a58e1f4adfc8bf0c61e. Reviewer also fully read VR. Three claims, five open boundaries, next action and exact main hashes PASS; strict JSON with no duplicate keys PASS.",
+    "structural_checks": "PF19 ordered unique tags/19 display pairs, VR9 ordered unique tags/9 display pairs; no abnormal controls. Staged whitespace PASS. Four source files24810B and five frozen dependency files67872B match their bound git objects and local SHA256. New workflow translation-pause addition read; removing precisely its two new lines restores previously read238-line policy hash. Research and private archival authority unchanged.",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "Pure analytical proof and internal reference check; no simulation or scientific figure required.",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "Scoped removal of a conditional criterion assumption; no automatic good scale or global regularity."
+  },
+  "internal_check_counting": "VR is preserved in this single freeze, not a separate release or completed scientific section.",
+  "publication_boundary": "Once-only PRIVATE_ARCHIVE handoff to fixed publisher. No public overview, selected-paper approval, reader PDF/HTML, translation, statistics or site relaunch is requested. The latest workflow pauses new English translation; existing material stays preserved. Research neither pushes nor inspects archival/public execution.",
+  "next_research_plan": "Return to the prescribed-centre joint good-scale problem with the improved A+E-only cap. Do not repeat the completed pressure-cap deletion or variable-reference algebra as new progress. On the same smooth preterminal NS solution, start from the full original mu_G entropy and local energy identities and compare two concentric scales, preserving both slices, cutoffs, transport and full pressure; suitable weak extensions retain the local energy inequality or defect. Require a genuinely derived strict scale gain or independent nonsummable concentration cost, not another C(M) bound or an assumed common-M small sequence. No new concrete dynamical input has been selected at this checkpoint; select and test one before further adjacent variants. No publication or reverse-runtime inspection.",
+  "next_concrete_dynamical_input_selected": false
+}
