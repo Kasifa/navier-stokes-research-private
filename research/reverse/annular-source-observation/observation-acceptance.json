@@ -1,0 +1,34 @@
+{
+  "status": "ACCEPTED_CONDITIONAL_OBSERVATION_INTERFACE_ONLY",
+  "classification": "PRIVATE_CORE",
+  "files": [
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "bytes": 3162
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+      "bytes": 12610
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de",
+      "bytes": 4523
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_OBSERVATION_CHECK.md",
+      "sha256": "eb92acd1622bc2724c1370530076ae290b9dce8b70bc0cc2a5c8bc2422b4ea66",
+      "bytes": 1742
+    }
+  ],
+  "root_full_read_error_lines": 320,
+  "root_full_read_review_lines": 21,
+  "scientific_executions_for_interface": 0,
+  "H3_certificate_already_constructed": false,
+  "real_NS_existence_through_T_certified": false,
+  "actual_source_gates_certified": false,
+  "FFT_execution_authorized": false,
+  "separate_formal_release": false
+}
