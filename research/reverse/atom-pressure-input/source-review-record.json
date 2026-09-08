@@ -1,0 +1,54 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "SOURCE_READING_RECORD_COMPLETE_NO_NEW_FORMAL_RELEASE",
+  "decision": "NO_NEW_PAID_INPUT; NO_CANDIDATE; NO_NEW_THEOREM; NOT_CLAY",
+  "recorded_at_utc": "2026-09-08T09:06:29.748533+00:00",
+  "files": [
+    {
+      "path": "research/reverse/atom-pressure-input/CONTRACT.md",
+      "sha256": "7ae5f3b1d31f0b38c788c42b561a0a6ad7a31eb7c903a57e569d6dd306704155",
+      "bytes": 2457
+    },
+    {
+      "path": "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
+      "sha256": "6f91be318150415b8687f70eeda81d91baeecb7b6b25d9f06e4070f400e9686a",
+      "bytes": 4077
+    },
+    {
+      "path": "research/reverse/atom-pressure-input/inherited-inputs.json",
+      "sha256": "c54c41393b10d0ba4b7c9ac30fc8133462e8bd56cacb593eab59bf4d94319750",
+      "bytes": 2561
+    },
+    {
+      "path": "research/reverse/atom-pressure-input/PRESSURE_SOURCE_READ.md",
+      "sha256": "d6d67d144bcf84b1b758dbdf84a0d50887609f6104ba2b2f1e3c1a7773d0fcb7",
+      "bytes": 11946
+    },
+    {
+      "path": "research/reverse/atom-pressure-input/FULL_TAIL_SOURCE_READ.md",
+      "sha256": "6cb169074e22c7a03572d358e02844506db41ce6bec22dc4cd6818eab2027fa0",
+      "bytes": 8598
+    },
+    {
+      "path": "research/reverse/atom-pressure-input/SCOPE_REVIEW.md",
+      "sha256": "6a0a1c89067438ec5987b942fc4e34ff6661122e84b9d93c8a701c51a2084e57",
+      "bytes": 14157
+    }
+  ],
+  "non_author_scope_review": "research/reverse/atom-pressure-input/SCOPE_REVIEW.md",
+  "root_actual_full_read_of_both_final_author_texts_and_final_scope": true,
+  "root_historical_objects_verified_against_baseline": "d58abdd9390ef8ced52f1807a956a663853f7680",
+  "reviewer_independence": "Nonblind non-author scope review with previous related authorship disclosed; not a new blind derivation or external whole-proof audit.",
+  "figure_inventory": [],
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "new_datum_or_parameters": false,
+  "unresolved_within_source_reading_scope": [],
+  "mathematical_inputs_not_paid": [
+    "Actual endpoint atom from the current fixed allowed datum.",
+    "Actual second-generation net source gap or dynamic profile update.",
+    "Uniform iteration, one fixed-datum infinite scales, infinite-dimensional cross-generation remainder and finite total time."
+  ],
+  "handoff": "No new result package generated from duplicate reading; nineteen prior formal handoffs remain once only. Preserve these local private working notes for subsequent substantive source freeze.",
+  "resume": "Do not repeat these source reads or revive historical uncompleted labels; resume only with a nonduplicative actual dynamic input and a bounded checkable target. No user confirmation is pending."
+}
