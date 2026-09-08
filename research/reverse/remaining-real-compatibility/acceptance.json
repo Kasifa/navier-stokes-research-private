@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_EXACT_REMAINING_REAL_CUBICS",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/remaining-real-compatibility/CONTRACT.md": "541f3f7662460b4782c5bcbb0f1afacc5ab55368b06dc495142053b720bb9d53",
+    "research/reverse/remaining-real-compatibility/PROOF.md": "2bcb5d50c635c3a74057f52a81bb43f5eba00739f61d8cf050be905555dd370a",
+    "research/reverse/remaining-real-compatibility/INDEPENDENT.md": "df69ea23d67efa7b970010327833480435867cad305b665e077930e7ae71725f",
+    "research/reverse/remaining-real-compatibility/REVIEW.md": "dedce30f8d3ae1578234e04ca0606d9fc0b2d9881b253a0e54b0b4d3f3831c9a",
+    "research/reverse/remaining-real-compatibility/INDEPENDENT_REVIEW.md": "2b06655388280f068fa331bc99c2d4e1a4439facffac53b109c7daec2727a65d",
+    "research/reverse/remaining-real-compatibility/ROOT_COMPARISON.md": "f517c9538858ce84cc4cd6c96330ced99449fc59fee3209f85fd76608055b699",
+    "research/reverse/remaining-real-compatibility/OUTCOME.md": "4f0b50ff0b570a5f63f7dbe378f54f3da69dbe00e9c259cacd4d54d5cfe4e392"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Actual shared sender real coherence reduces without loss using Xj/Mj=-mu_j/(2Bj).",
+    "Two remaining real equations are equivalent to explicit at-most-cubic polynomials and, on the genuine direction cubic, to at-most-quadratic remainders with every zero-leading and zero-coherence branch retained.",
+    "Independent additional necessary strict BG interval and accurate G_i zero branch: longest G2 zero excluded, middle G1 zero only subject to exact equation and necessary open range."
+  ],
+  "independence": "Two new authors formed before reading each other; different non-author reviewers each read only assigned new proof. Prior contact disclosed. Root checked full scaling, coefficients and extra interval; extra independent statements not attributed to main.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Actual real equations only; joint same-r imaginary/area realization, other C directions, template and NS mechanism not paid. NO-CANDIDATE / NOT CLAY."
+}

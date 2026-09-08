@@ -6,8 +6,8 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Fourteenth formal private package sent once; never resend or observe archive. Finish separate independent-text reviews and root comparisons for remaining imaginary/real same-data gates. Finish general fixed-p0 integer-beta factor/lattice theorem reviews without selecting or enumerating values. Then jointly check complete higher equations; no actual candidate or NS two-step accepted.",
-  "resume_action": "Resume from current top checkpoint and two-elliptic-compatibility actual files; do not revive historical next-actions.",
+  "next_action": "Finish integer-beta root comparison and separate odd-length non-author review; finish joint-direction independent-text review and actual root comparison. Freeze only after final scope and source-byte checks. Fourteen previous releases each sent once: no resend or archive observation. No actual candidate or new NS window.",
+  "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
@@ -16,29 +16,33 @@
   "accepted": "Eleventh formal private package accepted, frozen and sent once. Exact two-linear branch has nonzero total M0,W0 and same-data local source-ratio obstruction; no general mechanism exclusion.",
   "required_files": [
     "research/reverse/area-square-compatibility/freeze.json",
-    "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
-    "research/reverse/remaining-imaginary-compatibility/PROOF.md",
-    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md",
-    "research/reverse/remaining-imaginary-compatibility/REVIEW.md",
-    "research/reverse/remaining-real-compatibility/CONTRACT.md",
-    "research/reverse/remaining-real-compatibility/PROOF.md",
-    "research/reverse/remaining-real-compatibility/INDEPENDENT.md",
-    "research/reverse/remaining-real-compatibility/REVIEW.md",
+    "research/reverse/remaining-imaginary-compatibility/acceptance.json",
+    "research/reverse/remaining-real-compatibility/acceptance.json",
     "research/reverse/integer-beta-compatibility/CONTRACT.md",
-    "research/reverse/integer-beta-compatibility/PROOF.md"
+    "research/reverse/integer-beta-compatibility/PROOF.md",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT.md",
+    "research/reverse/integer-beta-compatibility/REVIEW.md",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT_REVIEW.md",
+    "research/reverse/integer-beta-compatibility/ODD_LENGTH_OBSTRUCTION.md",
+    "research/reverse/joint-direction-compatibility/CONTRACT.md",
+    "research/reverse/joint-direction-compatibility/PROOF.md",
+    "research/reverse/joint-direction-compatibility/INDEPENDENT.md",
+    "research/reverse/joint-direction-compatibility/REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/area-square-compatibility/freeze.json": "e74a975ccbbf819f811f57c39efb8ffed87160e3d7ab9bf37e74b4c9fe51dfd4",
-    "research/reverse/remaining-imaginary-compatibility/CONTRACT.md": "bf60c8c709f6345560862ee877dc82d8865ef41d04c3c0dc7d0cf4543e6bdbd8",
-    "research/reverse/remaining-imaginary-compatibility/PROOF.md": "638ef8812fad8bf3337ecf1c6bd73a4fb73e34843eaa94a2b6a1cb8daff3fdef",
-    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md": "9cbc38468e54690015f4e144ed98e4c720103305af8b2a87e7c23c38088f4bb6",
-    "research/reverse/remaining-imaginary-compatibility/REVIEW.md": "3a2f6f2706d16444f045d56e7932e50a480682bf832aab82b42100f5746ff0d4",
-    "research/reverse/remaining-real-compatibility/CONTRACT.md": "541f3f7662460b4782c5bcbb0f1afacc5ab55368b06dc495142053b720bb9d53",
-    "research/reverse/remaining-real-compatibility/PROOF.md": "2bcb5d50c635c3a74057f52a81bb43f5eba00739f61d8cf050be905555dd370a",
-    "research/reverse/remaining-real-compatibility/INDEPENDENT.md": "df69ea23d67efa7b970010327833480435867cad305b665e077930e7ae71725f",
-    "research/reverse/remaining-real-compatibility/REVIEW.md": "dedce30f8d3ae1578234e04ca0606d9fc0b2d9881b253a0e54b0b4d3f3831c9a",
+    "research/reverse/remaining-imaginary-compatibility/acceptance.json": "dcc5f7ca2cfe0d53c19acb3d0b67dd08d54e556835fe8a24b74d568d30ad202c",
+    "research/reverse/remaining-real-compatibility/acceptance.json": "ea7669c2c1882caa074cc4e639b96ed1b358f35755e1dff884d570c9efe81d5a",
     "research/reverse/integer-beta-compatibility/CONTRACT.md": "22242f2dae92ebcb8654c9ba95ba603385585622088731766fbda1d456884e17",
-    "research/reverse/integer-beta-compatibility/PROOF.md": "8b2bdd8ae3ac6533140ec23bed545021e4c520410badf4aefbe13237bb57a002"
+    "research/reverse/integer-beta-compatibility/PROOF.md": "8b2bdd8ae3ac6533140ec23bed545021e4c520410badf4aefbe13237bb57a002",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT.md": "fa4201cf70dba8eb64a5044d930bfb29b21dd923d442bfba3e619dc0e0bdba06",
+    "research/reverse/integer-beta-compatibility/REVIEW.md": "5bee5423f5f7943e92ab5f5c56ca60c53ba788f22c5c58260345079f1c1169ac",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT_REVIEW.md": "92a0c617237082c70106fae6a2e2c721a842e474b4561f7b768b985234dff526",
+    "research/reverse/integer-beta-compatibility/ODD_LENGTH_OBSTRUCTION.md": "a12f92dbd58cb84021486d31610b2737b43d6ea00f4eaeb648539547417b60e8",
+    "research/reverse/joint-direction-compatibility/CONTRACT.md": "5b8dc82300556766260a13c1f9124d7a02989ec14e242cf5aad8b49fc5d16ad3",
+    "research/reverse/joint-direction-compatibility/PROOF.md": "5e3a9708fb07f396a161dc333312d8a310dfb36d5d3d685eb8c2089b80931e62",
+    "research/reverse/joint-direction-compatibility/INDEPENDENT.md": "4ed20002939dbafce9f20955dbcf3a0efde1da8aa2ad1f040ce474b9c5861c26",
+    "research/reverse/joint-direction-compatibility/REVIEW.md": "d5d160fdf4137e9f1345d46b13aa14f0310bfe2637254838b5aee3e68b77fe38"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
@@ -52,8 +56,8 @@
   },
   "freeze_commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Only shortest seed linear: complete lowest mixed-source row and original-direction conditions",
-  "current_topic_directory": "research/reverse/two-elliptic-compatibility",
+  "current_topic": "Same-data complete-row joint direction and fixed-integer-geometry constraints",
+  "current_topic_directory": "research/reverse/joint-direction-compatibility",
   "pending": [
     "Amplitude independent final review actual read and root comparison",
     "Area-square independent derivation and separate non-author reviews",
@@ -68,7 +72,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T04:47:37.838709+00:00",
+  "updated_at": "2026-09-08T06:52:39.608508+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -767,7 +771,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T06:35:52.127386+00:00",
+  "last_checkpoint_utc": "2026-09-08T06:52:39.608508+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -885,29 +889,28 @@
     "publication_observed": false
   },
   "remaining_imaginary_evidence": {
-    "status": "TWO_DERIVATIONS_AND_MAIN_REVIEW_ROOT_FULL_READ_INDEPENDENT_REVIEW_RUNNING",
-    "contract": "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
-    "main": "research/reverse/remaining-imaginary-compatibility/PROOF.md",
-    "accepted": false,
-    "candidate_accepted": false,
-    "scientific_programs_run": 0
+    "status": "ACCEPTED_EXACT_REMAINING_IMAGINARY_QUARTICS",
+    "acceptance": "research/reverse/remaining-imaginary-compatibility/acceptance.json",
+    "root_actual_full_comparison": true,
+    "formal_release": false,
+    "actual_candidate": false
   },
   "remaining_real_evidence": {
-    "status": "TWO_DERIVATIONS_AND_MAIN_REVIEW_ROOT_FULL_READ_INDEPENDENT_REVIEW_PENDING",
-    "contract": "research/reverse/remaining-real-compatibility/CONTRACT.md",
-    "main": "research/reverse/remaining-real-compatibility/PROOF.md",
-    "accepted": false,
-    "candidate_accepted": false,
-    "scientific_programs_run": 0
+    "status": "ACCEPTED_EXACT_REMAINING_REAL_CUBICS",
+    "acceptance": "research/reverse/remaining-real-compatibility/acceptance.json",
+    "root_actual_full_comparison": true,
+    "formal_release": false,
+    "actual_candidate": false
   },
   "integer_beta_evidence": {
-    "status": "ROOT_GENERAL_SYMBOLIC_PROOF_FULL_READ_INDEPENDENT_AND_MAIN_REVIEW_RUNNING",
-    "contract": "research/reverse/integer-beta-compatibility/CONTRACT.md",
-    "main": "research/reverse/integer-beta-compatibility/PROOF.md",
-    "accepted": false,
-    "candidate_accepted": false,
+    "status": "TWO_DERIVATIONS_AND_TWO_REVIEWS_ROOT_READ_EXTRA_ODD_BOUND_REVIEW_PENDING",
+    "directory": "research/reverse/integer-beta-compatibility",
     "actual_frequency_selected": false,
-    "divisor_enumeration_performed": false,
-    "scientific_programs_run": 0
+    "enumeration_performed": false
+  },
+  "joint_direction_evidence": {
+    "status": "TWO_DERIVATIONS_AND_MAIN_REVIEW_ROOT_READ_INDEPENDENT_REVIEW_PENDING",
+    "directory": "research/reverse/joint-direction-compatibility",
+    "actual_geometry_rank_or_common_root_verified": false
   }
 }

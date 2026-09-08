@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_EXACT_REMAINING_IMAGINARY_QUARTICS",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/remaining-imaginary-compatibility/CONTRACT.md": "bf60c8c709f6345560862ee877dc82d8865ef41d04c3c0dc7d0cf4543e6bdbd8",
+    "research/reverse/remaining-imaginary-compatibility/PROOF.md": "638ef8812fad8bf3337ecf1c6bd73a4fb73e34843eaa94a2b6a1cb8daff3fdef",
+    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md": "9cbc38468e54690015f4e144ed98e4c720103305af8b2a87e7c23c38088f4bb6",
+    "research/reverse/remaining-imaginary-compatibility/REVIEW.md": "3a2f6f2706d16444f045d56e7932e50a480682bf832aab82b42100f5746ff0d4",
+    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT_REVIEW.md": "534555de0ff0a0b65a082db1e343fb1927c9519574af0e9332f67c79d64eddef",
+    "research/reverse/remaining-imaginary-compatibility/ROOT_COMPARISON.md": "85b787791a8239af977cefb685b6d6ca10b272d6bd1ce53e93f21d18caa847c6",
+    "research/reverse/remaining-imaginary-compatibility/OUTCOME.md": "a705c27e38582ff6e4ed530f170d10060924931dd23dd6d1f3727b154ac79bee"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Two actual remaining imaginary equations are equivalent to two at-most-quartic polynomials in the same complete area/amplitude restoration domain.",
+    "The actual shared T is retained; the product relation alone is insufficient. Longest equation implies a strict same-r sign gate; main adds equivalent area sign intervals within that gate.",
+    "Explicit at-most-quadratic remainders on the genuine cubic direction gate preserve the joint zero set, all nonzero restrictions and degeneracies."
+  ],
+  "independence": "Two new authors formed before reading each other; prior experience disclosed. Two different non-author reviewers each read only the assigned new proof; root compared final scales and coefficients. Main sign-interval detail is not attributed to independent proof.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Actual imaginary conditions only; remaining real parts, other C directions, template and NS mechanism not paid. NO-CANDIDATE / NOT CLAY."
+}
