@@ -1,0 +1,138 @@
+{
+  "type": "METADATA_ONLY_NOT_SCIENTIFIC_EXECUTION",
+  "checked_table_entries": [
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT.md",
+      "sha256": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+      "bytes": 3908
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+      "sha256": "73957154ebb32e26ccbc4b6f2ef2f7a8e9553580f516150568dee0f90524ed2d",
+      "bytes": 7436
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/joint-direction-compatibility/CONTRACT.md",
+      "sha256": "5b8dc82300556766260a13c1f9124d7a02989ec14e242cf5aad8b49fc5d16ad3",
+      "bytes": 1120
+    },
+    {
+      "table": "CONTRACT_REVIEW.md",
+      "path": "research/reverse/joint-received-source-screen/SCREEN.md",
+      "sha256": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
+      "bytes": 4035
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT.md",
+      "sha256": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+      "bytes": 3908
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-sum-chain/INDEPENDENT.md",
+      "sha256": "530686376b920004e525e24c84f7050e80a009a6d8fe565c4bdbb52b08811c40",
+      "bytes": 14357
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+      "bytes": 14127
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    },
+    {
+      "table": "INDEPENDENT.md",
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT.md",
+      "sha256": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+      "bytes": 3908
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cross-edge-source-gates/ROOT_ANALYSIS.md",
+      "sha256": "8d0a67f2d8d371d06081093755e978ab4e3f0d45eedc9a16416aa4ded18b0e82",
+      "bytes": 7540
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cross-edge-source-gates/INDEPENDENT.md",
+      "sha256": "7aeb5f3d31ec9120fdd427df314602c7c66a3840d5b001aaecca61b78c59ff5c",
+      "bytes": 15374
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f",
+      "bytes": 17707
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+      "sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8",
+      "bytes": 4428
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+      "sha256": "73957154ebb32e26ccbc4b6f2ef2f7a8e9553580f516150568dee0f90524ed2d",
+      "bytes": 7436
+    },
+    {
+      "table": "REVIEW.md",
+      "path": "research/reverse/joint-received-source-screen/SCREEN.md",
+      "sha256": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
+      "bytes": 4035
+    }
+  ],
+  "unique_table_files": 14
+}

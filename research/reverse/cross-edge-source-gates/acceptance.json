@@ -1,0 +1,94 @@
+{
+  "release_id": "ReverseNS-20260909-CrossEdgeSourceGates",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_CROSS_EDGE_PATH_OBSTRUCTION",
+  "accepted": [
+    "ROOT_ANALYSIS CE.1-14",
+    "INDEPENDENT CE.1-32"
+  ],
+  "bound_files": [
+    {
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT.md",
+      "sha256": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+      "bytes": 3908
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT_REVIEW.md",
+      "sha256": "e24492eac85e9de239fb0e99f0916827d2134997e21d3592cc5b7ff0443d8c86",
+      "bytes": 10611
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/FINAL_SCOPE_REVIEW.md",
+      "sha256": "a77c52fc14bf811d29a9623bc84303d77b54ace30d1dde8c92cb6227d00f1477",
+      "bytes": 4779
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/INDEPENDENT.md",
+      "sha256": "7aeb5f3d31ec9120fdd427df314602c7c66a3840d5b001aaecca61b78c59ff5c",
+      "bytes": 15374
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/OUTCOME.md",
+      "sha256": "f73333cf9490174e6c6585d24fe5903083a4271a2f3cba25f00aeb06243e97f9",
+      "bytes": 2903
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/REVIEW.md",
+      "sha256": "90c7a3ee5d995534599c1b828900f79eb6a7eea48daacc885c8a5f52a83536ee",
+      "bytes": 13105
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/ROOT_ANALYSIS.md",
+      "sha256": "8d0a67f2d8d371d06081093755e978ab4e3f0d45eedc9a16416aa4ded18b0e82",
+      "bytes": 7540
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/ROOT_COMPARISON.md",
+      "sha256": "57ef29200dce22b152b9acd006130c75a00b853c10d1194c9bf45c859728c7aa",
+      "bytes": 2526
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/SOURCES.md",
+      "sha256": "03dd1447a75fce80294943c6a6ee7d2980c5401e1c203f4efe1a4687d2900847",
+      "bytes": 2956
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/certificate-manifest.json",
+      "sha256": "c8ee57d7ca7621d849df79903a82dadc13dabae4d8da140d125724abd5bc23be",
+      "bytes": 590
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/release-set.json",
+      "sha256": "344e48b868a142c294c6ad58f4c52dbde328d9ddc58ea3015cf43430719b1c40",
+      "bytes": 5664
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/source-table-check.json",
+      "sha256": "1b6a75f2cce923ddd430d85455a9bd8e55193cf5e31e6d2f156cd48bd0f4beff",
+      "bytes": 4962
+    }
+  ],
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "ROOT_ANALYSIS.md",
+    "INDEPENDENT.md",
+    "CONTRACT_REVIEW.md",
+    "REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md",
+    "SOURCES.md",
+    "FINAL_SCOPE_REVIEW.md"
+  ],
+  "root_final_scope_full_read_lines": 28,
+  "candidate_and_dependency_checks": 29,
+  "final_scope_table_checks": 6,
+  "original_source_table_checks": 22,
+  "scientific_executions": 0,
+  "actual_source_gates_certified": false,
+  "actual_nonzero_reception_certified": false,
+  "full_NS_regular_or_singular_claim": false,
+  "conditional_same_time_projection_tail_proved": true,
+  "historical_pending": "Stopped author and candidate manifest pending labels preserve formation order; discharged only for the stated conditional scope.",
+  "excluded_followup": "research/reverse/mixed-trajectory-preflight",
+  "source_and_freeze_binding": "To be recorded only after actual Git commits"
+}

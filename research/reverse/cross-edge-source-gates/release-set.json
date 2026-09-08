@@ -1,0 +1,153 @@
+{
+  "release_id": "ReverseNS-20260909-CrossEdgeSourceGates",
+  "status": "PROOFS_REVIEWED_FINAL_SCOPE_PENDING",
+  "files": [
+    {
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT.md",
+      "sha256": "a38451c9996081eb736249954edde6c73bbe31f6354ed823e0e11b4a3f9b9d44",
+      "bytes": 3908
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/CONTRACT_REVIEW.md",
+      "sha256": "e24492eac85e9de239fb0e99f0916827d2134997e21d3592cc5b7ff0443d8c86",
+      "bytes": 10611
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/INDEPENDENT.md",
+      "sha256": "7aeb5f3d31ec9120fdd427df314602c7c66a3840d5b001aaecca61b78c59ff5c",
+      "bytes": 15374
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/OUTCOME.md",
+      "sha256": "f73333cf9490174e6c6585d24fe5903083a4271a2f3cba25f00aeb06243e97f9",
+      "bytes": 2903
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/REVIEW.md",
+      "sha256": "90c7a3ee5d995534599c1b828900f79eb6a7eea48daacc885c8a5f52a83536ee",
+      "bytes": 13105
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/ROOT_ANALYSIS.md",
+      "sha256": "8d0a67f2d8d371d06081093755e978ab4e3f0d45eedc9a16416aa4ded18b0e82",
+      "bytes": 7540
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/ROOT_COMPARISON.md",
+      "sha256": "57ef29200dce22b152b9acd006130c75a00b853c10d1194c9bf45c859728c7aa",
+      "bytes": 2526
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/SOURCES.md",
+      "sha256": "03dd1447a75fce80294943c6a6ee7d2980c5401e1c203f4efe1a4687d2900847",
+      "bytes": 2956
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/certificate-manifest.json",
+      "sha256": "c8ee57d7ca7621d849df79903a82dadc13dabae4d8da140d125724abd5bc23be",
+      "bytes": 590
+    },
+    {
+      "path": "research/reverse/cross-edge-source-gates/source-table-check.json",
+      "sha256": "1b6a75f2cce923ddd430d85455a9bd8e55193cf5e31e6d2f156cd48bd0f4beff",
+      "bytes": 4962
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
+      "bytes": 11766
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4",
+      "bytes": 5994
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f",
+      "bytes": 6809
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f",
+      "bytes": 17707
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196",
+      "bytes": 10538
+    },
+    {
+      "path": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+      "sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8",
+      "bytes": 4428
+    },
+    {
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462",
+      "bytes": 14127
+    },
+    {
+      "path": "research/reverse/received-state-reuse/REVIEW.md",
+      "sha256": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4",
+      "bytes": 11776
+    },
+    {
+      "path": "research/reverse/received-state-reuse/acceptance.json",
+      "sha256": "d38caabe1e339e72778b0851d41b46c0b653866afa6c4719a30098e243d897ac",
+      "bytes": 2796
+    },
+    {
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "path": "research/reverse/joint-received-source-screen/SCREEN.md",
+      "sha256": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
+      "bytes": 4035
+    },
+    {
+      "path": "research/reverse/joint-received-source-screen/REVIEW.md",
+      "sha256": "9eb818001a7c3bd76febc081621a07db7f2225ddcaa879146bc1e823590fefee",
+      "bytes": 6680
+    },
+    {
+      "path": "research/reverse/joint-received-source-screen/acceptance.json",
+      "sha256": "57861df513be6574e437b7ce4126311bb933d9cb2d06cd08c3c216cb32fa5fb9",
+      "bytes": 1497
+    },
+    {
+      "path": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+      "sha256": "73957154ebb32e26ccbc4b6f2ef2f7a8e9553580f516150568dee0f90524ed2d",
+      "bytes": 7436
+    },
+    {
+      "path": "research/reverse/cyclic-sum-chain/INDEPENDENT.md",
+      "sha256": "530686376b920004e525e24c84f7050e80a009a6d8fe565c4bdbb52b08811c40",
+      "bytes": 14357
+    },
+    {
+      "path": "research/reverse/cyclic-sum-chain/freeze.json",
+      "sha256": "2ca0e59fac0f115bb99267032889bed285baa6d0e19066a36955c86e1d160a9d",
+      "bytes": 10420
+    }
+  ]
+}

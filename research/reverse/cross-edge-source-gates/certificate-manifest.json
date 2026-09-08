@@ -1,0 +1,22 @@
+{
+  "classification": "PRIVATE_CORE",
+  "type": "HAND_PROOF_WITH_SEPARATE_DERIVATION_AND_NONAUTHOR_REVIEW",
+  "scientific_executions": 0,
+  "scientific_reruns": 0,
+  "parameter_scans": 0,
+  "formal_machine_proof": false,
+  "proofs": [
+    "ROOT_ANALYSIS.md",
+    "INDEPENDENT.md"
+  ],
+  "reviews": [
+    "CONTRACT_REVIEW.md",
+    "REVIEW.md"
+  ],
+  "formation_nonblind_disclosure": true,
+  "actual_source_gates_certified": false,
+  "actual_nonzero_reception_certified": false,
+  "figures": [],
+  "new_reader_pdf": false,
+  "resource_measurement": "NOT_APPLICABLE_NO_SCIENTIFIC_EXECUTION"
+}
