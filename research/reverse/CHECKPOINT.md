@@ -1,5 +1,23 @@
 # 反向研究恢复检查点
 
+## 当前入口：第二十三接收秩障碍已冻结交接，C3六载波合同预审及阶段A代码准备中
+
+用户持续研究授权有效，无需例行确认。仅本工作树codex/ns-reverse科学与Git；不读取/修改正向索引、共享队列、发布/读者状态。最近实查平台goal active，无预算变更、重置或目标修改。下方历史待办不覆盖当前入口。
+
+第二十三包ReverseNS-20260908-FixedReceiverRankObstruction已完整：科学45c83844ad686f4409bf7faa7023c02321188bd1，冻结a856a0f311aba7caa9311ae649f1ce83a74e0ff7，four-carrier-band-extension/freeze.json SHA c8a99aec270304275e8e5a91ae6c6d3de31b86669ff19735f7edd45d4468a432。19件包对象、17绑定与4直接依赖实核；最终范围4b374637 PASS。已成功一次交固定发布任务PRIVATE_ARCHIVE，HANDOFF_LOG第23项，不重发、不观察归档。第二十二固定初值有限两层来源也已一次交接，原1/7界保留。
+
+本项完整16接收仅±(3,4,6)过预定1/8首项门，G秩1；七失败对不等于全时实际1/4失败。主与独立显式五树各一次，全部五向量、判号、秩与主有理窗核验一致。真实共线投影内部自作用逐时零，逐种子非零复缩放不改四叶门，均为旧方法复用。NO-CANDIDATE-FOR-THIS-CONTRACT；不是模板再生成或奇性。两程序与主/审查文字根全文实读，Hume最终稿为静态全文+最终完整diff；原JSON数组阅读范围精确列ROOT_COMPARISON，不冒称根逐行全读。旧失败和SELF资源边界保持。
+
+后续独立结构cyclic-six-carrier-preflight已完成：ROOT_QUESTION05a07d4a、PREFLIGHT39cabe5e、STRUCTURAL_REVIEW1d958d25，根全文读三件。完整12模C3协变、目标det91秩3、目标≤4叶唯一表示和L不交F已付；新有长度8关系，不沿用旧最短11。此为不同候选图，不能与旧a拼成一解。未知四叶C/Z、det、实根、参数点与时间均未算未选。
+
+新cyclic-six-carrier/CONTRACT当前a441be9b：阶段A系数/至多6次det，阶段B全部精确实根与预锁核规范/首个合格根/新A和逐对同解窗口，阶段C一次非作者复核。P恒零停止为DEGENERATE/NO-CERTIFICATE；认证det根若出现rank2则INCONSISTENT/NOT-CERTIFIED停止，不跳根。根额外手算r第一带(1+alpha²)e3并在合同披露；非作者已手核。Hume正终核最终合同字节，Gauss只准备exact_coefficients.py，不导入/编译/执行。先读预审最终稿、源码全文自读停改与hash，根保存运行前提交后才授权A一次；不能先算未知系数或按结果改合同。
+
+六项保护失败字段已与557ee实核相同，legacy ledger保留；原物理初值仍NO-CERTIFICATE-YET-FOR-FIXED-a，23和新结构均不修复它。C3未并入23冻结。正式包各一次交接后继续研究，无发布依赖。
+
+## 以下为历史检查点，不是当前待办
+
+# 反向研究恢复检查点
+
 ## 当前入口：第二十二有限来源包已冻结并一次交接；同一初值多方向检验已通过合同预审
 
 用户持续研究授权有效，无需例行确认。科学与 Git 仅本工作树；不读取或修改正向/共享发布状态，不等待归档。第二十二包 ReverseNS-20260908-FixedDatumTwoLayerSupply，科学 d86c80b7c3b2f9784855dd35446dff8304f58dc1，冻结 f4af5e966674a4b60674d5f02977b4984c8d68d2，清单 four-carrier-source-test/freeze.json SHA 20e78c169751fe851fa39019d6a5facd7b3dfb3fc63c9944d8c62a3f8802f679。最终范围与全部源对象实际核验完成，固定发布任务成功一次发送；HANDOFF_LOG 第22项，不重发、不观察归档。
