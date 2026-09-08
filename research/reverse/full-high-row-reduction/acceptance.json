@@ -1,0 +1,52 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_CONDITIONAL_FULL_HIGH_ROW_INTERFACE",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/full-high-row-reduction/CONTRACT.md": "8f1dd745dc12409f3e49b7b56073b3fb38fca4a26d23774f0df4ea12292ecc6e",
+    "research/reverse/full-high-row-reduction/PROOF.md": "3d02da817e164bbf8f75bdddfea74a4e0d2b14c12d890952aeeb727866cc3c6b",
+    "research/reverse/full-high-row-reduction/INDEPENDENT.md": "42581306cb064f24514a4b6a690e2e91e098ce2d125c454d92562b1956ec1446",
+    "research/reverse/full-high-row-reduction/REVIEW.md": "4e9647c130c3db20c2b1836d54649cb2e3125a65840487f9d10ec92afdf06be0",
+    "research/reverse/full-high-row-reduction/INDEPENDENT_REVIEW.md": "7317def2e712959b7908a998976bcd86372b46703bd3cc38656cace1cdf99cec",
+    "research/reverse/full-high-row-reduction/ROOT_COMPARISON.md": "2db0a233d25cab2041712f640d65cf3419f0f1dcbad9b4b6fa678048fdec4b1d",
+    "research/reverse/full-high-row-reduction/OUTCOME.md": "9961385a52e39f3d9c9d25ddc7642665b1aa631d59b3502450056e837501deea"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Actual shared sender rotation retains complex coherence and squared amplitude together.",
+    "Given same-data lowest conditions and two higher specified projections, complete higher rows vanish iff the four explicit real residuals vanish.",
+    "Together with the accepted shared projection conditions, this is a conditional existence iff for complete M0=0 and lowest C nonzero original direction, for fixed geometry, lowest real representative and higher projections.",
+    "Common imaginary sign can be eliminated without extra solutions; beta zero and the root middle coefficient-ratio band [4/mu1,2] are excluded."
+  ],
+  "independence": "Independent author formed FH without reading FR; each non-author reviewer did not read the other new scientific derivation. Prior related authorship/reviews disclosed. Root comparison explicitly reconciles distinct normalizations and statement domains. No all-topic blind or human peer review claim.",
+  "corrections": [
+    {
+      "type": "wording_only",
+      "detail": "Root changed positive last two terms to positive sum of last two terms; formulas unchanged; final version fully reread by root and non-author reviewer."
+    }
+  ],
+  "unresolved_within_accepted_claims": [],
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "excluded_followups": [
+    "PAIRED_IMAGINARY_*",
+    "GEOMETRY_SCREEN_*"
+  ],
+  "scope": "Finite conditional algebra only; actual integer realization, other C directions, common template amplitude, NS finite two-step mechanism, one fixed datum infinite scales and finite total time remain OPEN / NOT CLAY."
+}
