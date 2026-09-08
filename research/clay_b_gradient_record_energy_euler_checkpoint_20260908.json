@@ -1,0 +1,170 @@
+{
+  "check_id": "ClayB-GradientRecordEnergyEuler-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_COMPARISON_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "d19f8507b70c25c0d7692d24933c6f3ee60ecacb",
+  "main": "research/clay_b_gradient_record_energy_euler_20260908.md",
+  "main_sha256": "48ac312d6062d19c7d54b155b23b47ba51bc35387a7fa7a07278f010aa0b7635",
+  "main_bytes": 10565,
+  "main_lines": 222,
+  "source_record": {
+    "path": "research/gradient_record_route_screen_20260908/report-source.md",
+    "sha256": "5e268aec60d74da00e326f91672c0430ed9ac52cb577566580535428c22acb36",
+    "bytes": 6527,
+    "lines": 74
+  },
+  "classification": [
+    "LOCAL PROOF",
+    "CONDITIONAL RATIO DICHOTOMY",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "GRE.1–5：同一固定周期NS、正龄a的梯度纪录N_n，能量Euler尺度ell=N^-2/5、A=N^3/5、时间N^-1、nu_n=nu N^-1/5。纪录直接给局部梯度帽，但顶端是t_n而非T*；全历史未加权耗散仍有N^1/5因子。",
+    "GRE.6–12：峰点球上界给全部过去全域速度界；完整周期零均值压力经Fourier有统一L2界。局部H^-1时间导数与空间Lipschitz给含顶端C0紧性（时间2/7）。极限为有规范L2压力、全域速度有界的有限能量Euler，局部等式及远场O(R^-1)通量给包括顶端的全空间能量守恒。没有全胞能量强收敛或梯度强紧性。",
+    "GRE.13–14：纪录时刻kappa=M_n/N_n^(3/5)的正下界子列，可在同一时刻速度峰重居中得到非零Euler；原球能量至少(pi/24)kappa_0^5，推出|u(t)|²dx终端测度的正原子。不是终端速度的原子；不保留新中心单位梯度，不排除原子。",
+    "GRE.15：kappa_n→0时所有任意中心的Euler极限顶端速度为零，全空间能量守恒迫使整个古老极限为零。峰值重居中反证又给每个固定过去窗口全胞速度一致趋零，仍不传递原单位梯度。",
+    "新核查Pan–Li、Lei–Zhang–Zhao、Encinas-Bartos–Haller的指定原文条件，没有得到当前同源任意数据可直接使用的额外估计。此为有界适用性筛选，不是文献穷尽或所有方法不可能性。"
+  ],
+  "outcome": "RECORD_ENERGY_EULER_COMPARISON_COMPLETE_BOTH_REGULARITY_EXITS_OPEN",
+  "next_action": "GRE已核清梯度纪录在能量Euler尺度上的闭顶端紧性与比率二分：正比率给非零Euler及终端动能原子；零比率给全部固定过去窗口的全胞速度趋零，但单位梯度仍未传递。停止仅用现有能量、纪录梯度上界继续改写这一尺度或重做宽Euler全零刚性。三篇定向原文筛选均未提供当前原解可直接使用的新估计；不重扫相同次线性/轴对称/轨迹对齐条件。下一步从同一任意初值原NS选择能实质改善梯度非退化或原子排除的不同动力学机制，先按实际旧稿去重；新的具体无条件机制尚未选定。保留固定正龄、实际完整历史、原压力规范和中心/时间量词；GRC/GPH原缺口不因本次二分而关闭。TG仍为最后独立冻结，无新release、重复交接、发布或反向执行查询。",
+  "next_replacement_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_gradient_record_compactness_20260908.md",
+      "sha256": "8031860bdcab3bdb29c0fef384defc949a964ca214f09c2b66cfb1157a9e1583",
+      "bytes": 14431,
+      "lines": 227,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_gradient_record_pressure_history_20260908.md",
+      "sha256": "d8c548e6c139f388d4d14fa51417266313a8efa30f0e82d9b760a5c3b742c904",
+      "bytes": 11388,
+      "lines": 180,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_critical_euler_compactness_20260906.md",
+      "sha256": "69f34722f1158324610b18e94e611ace714424dc506254afcacd4bd37a057954",
+      "bytes": 11207,
+      "lines": 268,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "sha256": "e023ac8a8140dcf523a1a6bee70a810b6f58041529e34f79c94df89f1355b907",
+      "bytes": 5741,
+      "lines": 125,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_periodic_no_atom_endpoint_20260906.md",
+      "sha256": "11d2133b8c4cd0de6242bff03d1c2c8e4d5d6e12237e3da2cc4c35bb1e6d5b5c",
+      "bytes": 5208,
+      "lines": 125,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_energy_atom_dissipation_20260906.md",
+      "sha256": "efd0eca624055fd6e825aa1f85602f3815a1ea20e6f257263d64f0021c5a5bac",
+      "bytes": 8641,
+      "lines": 220,
+      "matches_base": true
+    },
+    {
+      "path": "research/clay_b_record_time_history_preflight_20260906.md",
+      "sha256": "a5a066edbbdaec0c7b046f0741414ef68c3915faba55f8a7470da66ac96119b3",
+      "bytes": 10089,
+      "lines": 382,
+      "matches_base": true
+    }
+  ],
+  "review": {
+    "type": "PARTICIPATING_AI_REVIEW",
+    "root": "实际全文读科学初稿219行10300B与来源初稿74行6445B；独立核算GRE各式，实际核四处数学补明及Pan–Li来源条件的抛物型/径向/绝对值修改，终稿222行10565B与74行6527B已按字节和结构校验。完整读取BL/BM/BN/BO及两份原文范围旧记录。",
+    "ma_freeze_review": "实际全文审读初稿219行10300B/bd7ed84dbd50853de07bb63cf1f39bd1b3b6e503983e7f1c64d0ffcab7a77050，GRE.1–15限定PASS；实际核四处修改并逆向恢复原稿，终稿222行10565B/48ac312d6062d19c7d54b155b23b47ba51bc35387a7fa7a07278f010aa0b7635增量PASS。未重认证全部旧依赖。",
+    "good_scale_route_comparison": "独立推导缩放、GN上界、顶端C0、正比率原子与零Euler极限；实际定向读BL9–61/158–205/230–268、BM59–125、BJ35–44/209–227/239–287。未审GRE终稿全文；GRE.15全胞强化由root/A另核。",
+    "variable_reference_check": "来源初稿全文读取，但认证仅两篇增长来源及检索停止等指定模块；核抛物型增长与径向修正至74行6518B/b64df69d389a46ad0951b31422346a4232d5139cd1cbb453912d5f71fc63115e，随后要求补明绝对值，由root实际改读绑定74行6527B。不认证Haller来源或GRE数学全文。",
+    "corrections": [
+      "明确E只是上界",
+      "注明时间模量取小时间差",
+      "全空间速度界来自纪录选择",
+      "明确定义平方速度终端测度",
+      "Pan–Li条件是抛物型增长和相对轴值径向Lipschitz，速度分量取绝对值"
+    ],
+    "structural": {
+      "equation_tags": 15,
+      "tags_sequential": true,
+      "display_pairs": [
+        15,
+        15
+      ],
+      "math_aware_link_scan": true,
+      "local_links": 7,
+      "external_links": 3,
+      "missing_local_links": [],
+      "dependencies_match_base": true,
+      "trailing_whitespace": false,
+      "browser_visual_qa": false
+    },
+    "human_peer_review": false
+  },
+  "literature_scope": {
+    "deep_research_used": true,
+    "mode": "CURRENT_CONVERSATION_BOUNDED_PRIMARY_READING",
+    "plan_tool": "UNAVAILABLE_DISCOVERED_NOT_CALLED",
+    "root_discovery_queries": 6,
+    "agent_discovery_queries": 6,
+    "new_external_proof_input": false,
+    "exhaustive_search": false,
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/html/1908.11591v2",
+        "version": "v2 2019-09-04",
+        "root_scope": "Theorem1.1, growth conditions, section2 proof through harmonic conclusion",
+        "native_references": [
+          "turn7447view0",
+          "turn7448view0",
+          "turn7449view1"
+        ]
+      },
+      {
+        "url": "https://arxiv.org/html/1701.00868v1",
+        "version": "v1 2017-01-03",
+        "root_scope": "Ancient mild definition, Theorem1.2, section4 main proof",
+        "native_references": [
+          "turn7448view1",
+          "turn7448view2",
+          "turn7449view0"
+        ]
+      },
+      {
+        "url": "https://arxiv.org/html/2310.17267v1",
+        "version": "v1 2023-10-26",
+        "root_scope": "Section5 eq38–51 and Theorem2; appendix eq68–78 forcing bound and infinite-time use",
+        "native_references": [
+          "turn7448view3",
+          "turn7449view3",
+          "turn7450view1"
+        ]
+      }
+    ],
+    "stop": "Each admitted interface has precise primary-source conditions and an explicit unresolved assumption; no broad follow-up searches after synthesis."
+  },
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "novelty_established": false,
+  "is_clay_result": false
+}
