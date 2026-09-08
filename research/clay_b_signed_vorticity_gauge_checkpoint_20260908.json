@@ -1,0 +1,59 @@
+{
+  "check_id": "ClayB-SignedVorticityGauge-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "ddb7b3207a7d802c93c1841f06829cd0515efc53",
+  "main": "research/clay_b_signed_vorticity_gauge_check_20260908.md",
+  "main_sha256": "a8945c765a241b36abb3f47f0f9ac1c462b3a46691f01b3010f870ec81569b8b",
+  "main_bytes": 9129,
+  "main_lines": 125,
+  "classification": ["CLASSICAL REPRESENTATION CHECK", "NONCRITICAL TRACE COROLLARY", "OPEN", "NOT CLAY"],
+  "results": [
+    "SVG.2–5：固定M=||omega(a)||infinity>0的光滑正则化保留有符号方向耗散及零点邻域；真实反向标记扩散给精确Feynman–Kac表示，M H_M<=r_M<=sqrt(2) M H_M。因此一致指数矩与该固定解的一致涡量点态上界等价，未提供新的控制估计。M=0为独立常速度分支。",
+    "SVG.6：除以r_M消去反应后漂移为u-2nu grad log r_M，一般不无散；比值最大值界不控制原幅度，不能套用无散Nash常数。",
+    "SVG.7：VB原预算给真实源V_M H_M的时空L1界，TG同漂移引理进而给H_M强L1终端迹。这是旧引理的非临界推论，未给空间最大值或临界柱估计。",
+    "SVG.8–10：绝对值核保留tau^(-3/4)的时间奇性；TG/能量插值仍在临界线之外。完整截源残差出现min(h,b-sigma)的精确权重，近对角为tau^(-1/2)||e_R||1；delta_R趋零不控制该加权尾。普通L4不足只针对所写卷积估计，不否定原NS其他正则性准则。",
+    "未删零集耗散或局部侧边界值；未采用无散漂移无关Gaussian定位下界、桥核上界或无成本反射边界。"
+  ],
+  "next_action": "SVG已核算固定正则化的有符号涡量指数矩；两侧比较把其一致空间上界仍归于原涡量上界，TG仅给非临界强L1迹，实际截源核尾仍有对角奇性。停止这些具体表示、正部Nash和同范数插值的相邻改写，不宣布整个随机方法无效。下一具体替代机制未选定；应从尚未核算的原NS时空相关性提出明确目标式，再实际检验能否减少指定中心共同A/E、小K或直接排奇点的缺项。保持任意原初值、固定正龄、同一实际解、零点与完整压力/边界。未证估计可以探索，等价重写和旧文献不计新输入。TG仍为最后独立冻结；无新release、重复交接、发布或反向执行查询。",
+  "new_unconditional_critical_input": false,
+  "next_replacement_candidate_selected": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {"path": "research/clay_b_vorticity_direction_budget_20260907.md", "sha256": "05d84b2efc720c136d10b0c34b933b984f32270137617066b54eea847c0aa647", "bytes": 8270},
+    {"path": "research/clay_b_strong_gradient_terminal_trace_20260908.md", "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c", "bytes": 10696},
+    {"path": "research/clay_b_terminal_trace_localization_20260908.md", "sha256": "34898829b9fac2b53028ee1496708724702d8c09a4ea460516762f824681852b", "bytes": 12565},
+    {"path": "research/clay_b_clock_stochastic_report-source_20260907.md", "sha256": "0bc14ab22af8030b96752a285beb68daf26bfa18caaa7ccc3d7bc5d5d177502c", "bytes": 2477},
+    {"path": "research/clay_b_dynamic_budget_selection_20260908.md", "sha256": "02e78cbc998c5703f8a7a68b74a3f1380f7fd956b10dc6f223103406fd72bcb3", "bytes": 11823}
+  ],
+  "review": {
+    "type": "PARTICIPATING_AI_REVIEW",
+    "root": "全文读125行8902B初稿，独立推导全部公式，再实际核四处增量：HM强L1迹、theta=0端点、L4卷积限定、有限体积项。",
+    "main_reviewer": "ma_freeze_review全文读125行8902B/c0758d89a1f7f01ab75e5f629816cd1794e5c42a3ad2dab0db51c9b1f1cba3e0；随后两次各核两处实际增量并逆向匹配前版哈希。最终125行9129B/a8945c765a241b36abb3f47f0f9ac1c462b3a46691f01b3010f870ec81569b8b限定PASS，无必改项。不计多次全文审读。",
+    "kernel_reviewer": "variable_reference_check实际读初稿1–32、78–110、117–125及68行定义，SVG8–10限定PASS；第二版只复读92–97行theta=0括注，绑定8972B/9c1491df7de83221a82e062a3534530262d9e6c4fb74dcd6c9756d35d0c2df4d。最后两处澄清由根任务和主审检查，不冒称其接受最终完整稿。",
+    "vorticity_module": "good_scale_route_comparison全文读VB163行8270B，独立核正则化、Itô符号、固定M两侧比较、真实源L1、零集和局部侧边界；没有实际审读本稿全文。",
+    "dependency_git_objects_match_base": true,
+    "structural": {"equation_tags": 10, "display_pairs": [12, 12], "missing_local_links": [], "trailing_whitespace": false},
+    "human_peer_review": false
+  },
+  "literature_scope": {
+    "ordinary_queries": 3,
+    "new_external_proof_input": false,
+    "deduplicated_primary_url": "https://arxiv.org/abs/2503.16723",
+    "read_scope": "摘要及出版社预览用于确认全空间/环面边界；具体基础工具沿用已读本地证明，不重新认证整篇外部证明。",
+    "deep_research_used": false,
+    "exhaustive_search": false
+  },
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "is_clay_result": false
+}
