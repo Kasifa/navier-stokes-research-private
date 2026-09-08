@@ -1,0 +1,15 @@
+# 两个观测误差接口的来源与去重
+
+2026-09-09，PRIVATE_CORE。本次合并此前尚未正式冻结的dissipation-tail-preflight与本目录相对能量接口。它们都是已有基础估计的条件应用，不是实际来源门、NS强延续或奇性证书。
+
+尾界的数学来源、限定历史检索及非盲形成次序见该目录HISTORY、INDEPENDENT、ROOT_ANALYSIS、REVIEW和acceptance。相对能量作者的实际来源范围见PROOF末表，非作者逐式审读见PROOF_REVIEW；根实际阅读和唯一量词改句的字节接合见ROOT_REVIEW及root-read-evidence。不将哈希核同、代理摘要或审查通过计作未读文献的全文复证。
+
+完整有序Leray、归一化能量和有限带历史沿GENERAL_SOURCE_BRIDGE、received-state-reuse/PREFLIGHT及OBSERVATION_ERROR的既有规范。新相对能量式从完整差方程、H⁻¹对偶及Young不等式直接手推，不使用旧外引K₃/G₃数值，也不据能量级范数推H³延续。强延续适用边界定向复读SOURCE_PREFLIGHT与R0.73O/R，具体行范围见CONTINUATION_SCOPE及SCOPE_REVIEW。
+
+NEXT_ERROR_HISTORY只记录限定来源未定位完整同式，不宣称全库或外部不存在相对能量原理。旧R0.73O/Q的全局强参考、R0.73R的充分热入口、旧特殊六模与其数值参数均没有移入当前a_*。当前单个原初值仍来自第24包；第28包四轨迹的固定数值NO-CANDIDATE没有被本包重新提升为真实门排除。
+
+本次没有新增外部原文检索、新外部定理应用、数据或参数求值，科学worker0；旧10次数值执行保持关闭，不计入本次。L²/H⁻¹全部为归一化Haar，旧未归一化H³框架仅用于适用边界。来源非零、完整时间历史、准确时标和无限维误差的区别保持原合同。
+
+早期稿头pending、尾界局部formal_release=false及尚无第29等句是形成历史，原字节保留，最终合并冻结规定当前范围。后续RESIDUAL_FLOOR_HISTORY只准备新的必要性筛查，明确排除在本次数学接纳和冻结之外；它没有重开任何旧失败worker。
+
+无图、无新PDF；无人工同行评审或新颖性主张。私有冻结的准确文件与源码绑定单列，不请求公共研究细节导出。
