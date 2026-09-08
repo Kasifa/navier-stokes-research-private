@@ -1,0 +1,155 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-DynamicInputScreen",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_BOUNDED_NO_CANDIDATE_RECORD",
+  "source_commit": "2c45b76d63708e6eba3ce2e6b9fef8c5ffa2f19e",
+  "scientific_commits": [
+    "0a3747ebce9e50167daee53c67b7596a64ada7a6",
+    "543d09c6378520439b5be3ccc22a7a78a18675f5",
+    "d6a054fb0b544da4043a9f009db3521d3c8fed69",
+    "2ea73a0fec37c4ff997d956de952d1b97aa7e369",
+    "2c45b76d63708e6eba3ce2e6b9fef8c5ffa2f19e"
+  ],
+  "predecessor_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/NEXT_DYNAMIC_SCOPE_SCREEN.md",
+      "sha256": "190bc3af417f4af60f8e325d01ccd9646c5331fe2a07a776a90ce105d9fb2384",
+      "bytes": 9158
+    },
+    {
+      "path": "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
+      "sha256": "b591d1ff9021c076cd38eb451ab1c2c39eb6d6b2deacdfe08e286389eab7525d",
+      "bytes": 2391
+    },
+    {
+      "path": "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
+      "sha256": "93120caf889af4978e12d6014198d2aa0f0285de13429f4bd46718c92ce3e59e",
+      "bytes": 8546
+    },
+    {
+      "path": "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md",
+      "sha256": "8bc6545454dbb8ea5169bf606946acb2e1258964967bf234a57531253d6c3cac",
+      "bytes": 6988
+    },
+    {
+      "path": "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
+      "sha256": "3b88a33a243008feb152a0b7ed4b2ec8bacc57a4a89af451fe9583b343113d56",
+      "bytes": 12912
+    },
+    {
+      "path": "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
+      "sha256": "fa28fcf84f33922fcda5a426db814f09d6a046527d860d9fad649b44cf894a71",
+      "bytes": 4715
+    },
+    {
+      "path": "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md",
+      "sha256": "e2d50b1584d816f549b67e1e8ebe7f71b5e50d29a55b156cf0c3619dba94e285",
+      "bytes": 15707
+    },
+    {
+      "path": "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md",
+      "sha256": "3275112213f77961d3496a3b00942ee729095d56dcbe7ddc50a6357fc3356cfb",
+      "bytes": 7184
+    },
+    {
+      "path": "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
+      "sha256": "5239a137448b4b6027dcf004d2a7db3fd5ffe9c54006c735ab2b3bf162fb4dbf",
+      "bytes": 2704
+    },
+    {
+      "path": "research/reverse/dynamic-input-screen/FINAL_SCOPE_REVIEW.md",
+      "sha256": "3c1c9bef4c09f349304ee684b4af99ea802e48ba81e284d86a0b90531e3edeaf",
+      "bytes": 14353
+    }
+  ],
+  "dependencies": [
+    {
+      "release_id": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+      "source_commit": "53d26acf2a321b9c05579db985f38dc25a08510f",
+      "manifest": "research/reverse/local-occupation/freeze.json",
+      "use": "Keep exact accepted fixed-shape and actual-solution limits; no theorem expansion or refreeze."
+    },
+    {
+      "release_id": "ReverseNS-20260908-TrueBandSupply",
+      "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+      "manifest": "research/reverse/mixed-polarization/freeze.json",
+      "use": "Keep paid same-original-solution state/window and source bridge; not a new actual regeneration claim."
+    }
+  ],
+  "inherited_input_objects": [
+    {
+      "path": "research/clay_b_periodic_no_atom_endpoint_20260906.md",
+      "sha256": "11d2133b8c4cd0de6242bff03d1c2c8e4d5d6e12237e3da2cc4c35bb1e6d5b5c",
+      "source_commit": "d58abdd9390ef8ced52f1807a956a663853f7680"
+    },
+    {
+      "path": "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "sha256": "e023ac8a8140dcf523a1a6bee70a810b6f58041529e34f79c94df89f1355b907",
+      "source_commit": "d58abdd9390ef8ced52f1807a956a663853f7680"
+    },
+    {
+      "path": "research/clay_b_energy_atom_internal_audit_20260906.md",
+      "sha256": "04897f8a0a9a9f120d5399d7c5af7c7f409c7cbf447ca6d0656352b5e981a321",
+      "source_commit": "d58abdd9390ef8ced52f1807a956a663853f7680"
+    },
+    {
+      "path": "research/clay_b_source_enstrophy_reading_20260907.md",
+      "sha256": "b3486a49e85723d2c8967bffe52cbfd1ae232518b66cb5c249fa539d5a421c7a",
+      "source_commit": "d58abdd9390ef8ced52f1807a956a663853f7680"
+    }
+  ],
+  "claims": {
+    "classification": "BOUNDED_INPUT_SUFFICIENCY_AND_PRIMARY_SOURCE_APPLICABILITY_SCREEN; NO_NEW_THEOREM; NO_CANDIDATE; NOT_CLAY",
+    "proved": [],
+    "accepted_screening_findings": [
+      "Actual receiver-band self-supply into the next observation set retains all same-orbit memory and ordered sources, but specified inputs do not yield an executable nonzero-source and net-source-gap contract. Previously paid actual state, all-order norms and legal continuation remain valid.",
+      "Fixed-shape L2 residence/occupation and local initial swirl do not supply a defined dynamic shape or pay all-time axisymmetry/boundary hypotheses of angular-momentum tools. No generic dynamic concentration exclusion.",
+      "Energy-concentration primary sources have extra integrability hypotheses. Inherited periodic strong L11/3 endpoint and terminal measure already exist and are preserved; current energy and critical scaling have not automatically paid that endpoint. A nonintegrable upper envelope is not evidence of actual divergence."
+    ],
+    "not_claimed": [
+      "No new theorem, mechanism, actual datum, frequency, amplitude, time, test or tolerance; no new proof or scientific-computation contract.",
+      "No universal no-candidate or no-regeneration result, all-shape exclusion, regularity or singularity.",
+      "No first-discovery, comprehensive literature review, human peer review, proof-assistant certification, visual PDF QA or full external proof revalidation.",
+      "No existing conditional endpoint erased, current physical solution reset, old failed evidence repaired or public export permission.",
+      "No uniform iteration, one fixed-datum infinite-scale construction, uniform infinite-dimensional remainder or finite-total-time singularity mechanism."
+    ]
+  },
+  "validation": {
+    "status": "PASS_BOUNDED_SCREENS_ROOT_ORIGINAL_SOURCE_CHECKS_NONBLIND_REVIEW_FINAL_SCOPE",
+    "final_scope_review": "research/reverse/dynamic-input-screen/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "All ten final texts equal source Git objects. Nine final-scope table bindings match. Four specified inherited texts equal baseline objects. Counts are provenance only.",
+    "independence": "Screen authors and root roles are disclosed in each file. Two-family non-author review and final scope are nonblind, with reviewer prior authorship disclosed. Root energy applicability comments and historical-input correction occurred before author stop and are explicitly recorded; no additional blind proof count.",
+    "root_actual_full_read_all_final_files": true,
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "new_actual_datum_selected": false,
+    "new_NS_time_window_paid": false,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_computations_repaired": false,
+    "unresolved_within_accepted_screening_scope": []
+  },
+  "literature_boundary": "Four directed primary-source readings across angular momentum and energy concentration, with exact stated sections and inherited deduplication. Two later preprints only had official metadata identities checked; their theorems are not imported. No third-party PDF copies in package.",
+  "primary_source_urls": [
+    "https://msp.org/pjm/2017/289-1/pjm-v289-n1-p06-s.pdf",
+    "https://www-users.cse.umn.edu/~sverak/publications/liouville.pdf",
+    "https://arxiv.org/pdf/1205.1544v2",
+    "https://arxiv.org/pdf/1705.04420v4"
+  ],
+  "source_ledger": "research/reverse/dynamic-input-screen/FINAL_SCOPE_REVIEW.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
+  "milestone_scope": "A reviewed no-candidate screening record, not another proved mechanism or a repetition of the preceding L2 theorem package.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; immediate private archive and owner local full reader only.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
