@@ -1,0 +1,402 @@
+{
+  "branch": "codex/ns-reverse",
+  "certificate": {
+    "formal_machine_proof": false,
+    "manifest": "research/reverse/cyclic-sum-chain/certificate-manifest.json",
+    "scientific_executions": 0,
+    "scientific_reruns": 0,
+    "source_and_dependency_Git_objects_verified": 35,
+    "type": "HAND_PROOF_TWO_DERIVATIONS_WITH_NONAUTHOR_REVIEW"
+  },
+  "claim_boundaries": {
+    "accepted": "Full original NS, same release-24 datum, fixed unit viscosity and torus: all-layer true self-supply upper bound O(L^-2) on every existing classical interval. Under the specified per-pair source gates, newly received individual layers have gradient O(L^-1) at their own reception times. Same-time all-layer gates yield an explicitly summable C1 projection chain. Conditional path obstruction; OPEN / NOT CLAY.",
+    "actual_full_NS_projections": true,
+    "actual_high_layer_nonzero_certified": false,
+    "actual_source_dominance_certified": false,
+    "conditional_infinite_projection_series_proved": true,
+    "cross_generation_remainder_paid": false,
+    "discrete_reception_only_controls_corresponding_layer": true,
+    "domain": "fixed standard 2pi three-torus",
+    "external_novelty_or_human_peer_review_claim": false,
+    "finite_total_time_singularity": false,
+    "fixed_positive_viscosity": 1,
+    "full_NS_classical_extension": false,
+    "new_initial_datum": false,
+    "old_failures_repaired": false,
+    "same_one_fixed_initial_datum_as_release_24": true,
+    "same_time_quantifier_required_for_chain": true,
+    "unforced": true,
+    "uniform_NS_iteration": false,
+    "whole_NS_regular_or_singular_claim": false
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [],
+  "direct_dependencies": [
+    {
+      "bytes": 11766,
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 6673,
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "bytes": 5994,
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4"
+    },
+    {
+      "bytes": 6809,
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f"
+    },
+    {
+      "bytes": 13988,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 17707,
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f"
+    },
+    {
+      "bytes": 9705,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58"
+    },
+    {
+      "bytes": 11641,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/REVIEW.md",
+      "sha256": "960cdc0517b1ac3c36b1cf6ca1ca5d9599876705c553a825fc076ea4f5e16be7"
+    },
+    {
+      "bytes": 3561,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/acceptance.json",
+      "sha256": "d726744179811f0d1ca6e79d8414de91593a3b32d02f8ffc8d0bd71271b010c0"
+    },
+    {
+      "bytes": 6996,
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc"
+    },
+    {
+      "bytes": 13643,
+      "path": "research/reverse/receiver-input-geometry/PREFLIGHT.md",
+      "sha256": "6ad40abc638cdc1832b33fe0c127148fb5d2bcd9e62e41a26119d1a8074acdd4"
+    },
+    {
+      "bytes": 12133,
+      "path": "research/reverse/receiver-lattice-return/PREFLIGHT.md",
+      "sha256": "8457b90de85e006f9305650ef8ae71f69d0ae5cac25d48d53ccc67bdce913c07"
+    },
+    {
+      "bytes": 8132,
+      "path": "research/reverse/strategy-20260908/STRATEGY.md",
+      "sha256": "6bee8ae3d335d8064055f2022978958897bffd05896ab03f5096a8e87ced8a42"
+    },
+    {
+      "bytes": 2233,
+      "path": "research/reverse/received-state-reuse/QUESTION.md",
+      "sha256": "88e5af500d2d07928695653e12db9ac456bdc9d9489587561aad70ed9821f067"
+    },
+    {
+      "bytes": 4428,
+      "path": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+      "sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8"
+    },
+    {
+      "bytes": 14127,
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462"
+    },
+    {
+      "bytes": 11776,
+      "path": "research/reverse/received-state-reuse/REVIEW.md",
+      "sha256": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4"
+    },
+    {
+      "bytes": 2728,
+      "path": "research/reverse/received-state-reuse/ROOT_COMPARISON.md",
+      "sha256": "c9f5accdda3d2d971f9044c9aa0d2ffe7b61702578feafed97ce8b06dd2496c8"
+    },
+    {
+      "bytes": 2796,
+      "path": "research/reverse/received-state-reuse/acceptance.json",
+      "sha256": "d38caabe1e339e72778b0851d41b46c0b653866afa6c4719a30098e243d897ac"
+    }
+  ],
+  "excluded_later_work": [
+    "research/reverse/joint-received-source-screen"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 11546,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/CONTRACT_REVIEW.md",
+      "sha256": "8b6203720d872aab297554c87d2574c775ed26161d9a52e37a5e04f2abdc0466"
+    },
+    {
+      "bytes": 17705,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/FINAL_SCOPE_REVIEW.md",
+      "sha256": "fc619e5770b50bfc2cad19d6fec1990fe71b85dee33ac5fc8cc77654f42e7598"
+    },
+    {
+      "bytes": 14357,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/INDEPENDENT.md",
+      "sha256": "530686376b920004e525e24c84f7050e80a009a6d8fe565c4bdbb52b08811c40"
+    },
+    {
+      "bytes": 3846,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/OUTCOME.md",
+      "sha256": "634279f47876104e324a53c6dd0003890a278a647cf6e514fc7891a9c33b6a52"
+    },
+    {
+      "bytes": 3818,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/QUESTION.md",
+      "sha256": "de917604a5b7a1cae6006405dc0a4e0f2012307f03adbd9260209ec2ce91b642"
+    },
+    {
+      "bytes": 12779,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/REVIEW.md",
+      "sha256": "36e1bf016559d48bca680c57247b819b8defeb4330e395bac82fe8f6a1466d3a"
+    },
+    {
+      "bytes": 7436,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_ANALYSIS.md",
+      "sha256": "73957154ebb32e26ccbc4b6f2ef2f7a8e9553580f516150568dee0f90524ed2d"
+    },
+    {
+      "bytes": 2782,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_COMPARISON.md",
+      "sha256": "034e5ff5b6df4f800f66d4fedc777ff682a3b1f178fcd6f6694f294ba263236d"
+    },
+    {
+      "bytes": 1836,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/ROOT_FINAL_SCOPE.md",
+      "sha256": "fb8792bbc94c00ad0bb892c42f84457d41cbe2bf0077c77118dfafde0a61894d"
+    },
+    {
+      "bytes": 4436,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/SOURCES.md",
+      "sha256": "fce7865f3102cc2139b25929083c52f2f94f8c787385c56c9fd22f1db31d97c1"
+    },
+    {
+      "bytes": 3865,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/acceptance.json",
+      "sha256": "47a18908d070220c00bdcd502a0cd49f06eac075e447ec632ca4faa31fdf0dea"
+    },
+    {
+      "bytes": 805,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/certificate-manifest.json",
+      "sha256": "3d2ab7bd2bd4486fdc847a1b74bf4b8b695e6cf015aade557dcda6ef9acf261d"
+    },
+    {
+      "bytes": 214,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/figures-manifest.json",
+      "sha256": "a32de1509e5fa609744c3e8c811d72d3129c0b2e586bdd93d6c3b4a90ab66109"
+    },
+    {
+      "bytes": 6978,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/release-set.json",
+      "sha256": "dfa29ee3e0bf33b3febeabfcd576881b519038290b5da254f9f3c862a798e0e8"
+    },
+    {
+      "bytes": 4408,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-sum-chain/source-table-check.json",
+      "sha256": "234361e23b39361f1c1e92c58ef9b367df803a4888a7c1cb75caa3ef728af188"
+    },
+    {
+      "bytes": 11766,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 6673,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "bytes": 5994,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4"
+    },
+    {
+      "bytes": 6809,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f"
+    },
+    {
+      "bytes": 13988,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 17707,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f"
+    },
+    {
+      "bytes": 9705,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58"
+    },
+    {
+      "bytes": 11641,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/REVIEW.md",
+      "sha256": "960cdc0517b1ac3c36b1cf6ca1ca5d9599876705c553a825fc076ea4f5e16be7"
+    },
+    {
+      "bytes": 3561,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/acceptance.json",
+      "sha256": "d726744179811f0d1ca6e79d8414de91593a3b32d02f8ffc8d0bd71271b010c0"
+    },
+    {
+      "bytes": 6996,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc"
+    },
+    {
+      "bytes": 13643,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/receiver-input-geometry/PREFLIGHT.md",
+      "sha256": "6ad40abc638cdc1832b33fe0c127148fb5d2bcd9e62e41a26119d1a8074acdd4"
+    },
+    {
+      "bytes": 12133,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/receiver-lattice-return/PREFLIGHT.md",
+      "sha256": "8457b90de85e006f9305650ef8ae71f69d0ae5cac25d48d53ccc67bdce913c07"
+    },
+    {
+      "bytes": 8132,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/strategy-20260908/STRATEGY.md",
+      "sha256": "6bee8ae3d335d8064055f2022978958897bffd05896ab03f5096a8e87ced8a42"
+    },
+    {
+      "bytes": 2233,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/QUESTION.md",
+      "sha256": "88e5af500d2d07928695653e12db9ac456bdc9d9489587561aad70ed9821f067"
+    },
+    {
+      "bytes": 4428,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/ROOT_ANALYSIS.md",
+      "sha256": "c491c1c9974231fe21bc9ca854c658dde94c61e42945137e9c4495d54552d1a8"
+    },
+    {
+      "bytes": 14127,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/PREFLIGHT.md",
+      "sha256": "ec8b135412146869a68e12791f6b0d91cc38e93c4ce3510b41b3a8bf75a44462"
+    },
+    {
+      "bytes": 11776,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/REVIEW.md",
+      "sha256": "2548ec174501f824d6fe9ed1c557a21973c855df758d1f528d4a96b6378aa0e4"
+    },
+    {
+      "bytes": 2728,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/ROOT_COMPARISON.md",
+      "sha256": "c9f5accdda3d2d971f9044c9aa0d2ffe7b61702578feafed97ce8b06dd2496c8"
+    },
+    {
+      "bytes": 2796,
+      "commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+      "path": "research/reverse/received-state-reuse/acceptance.json",
+      "sha256": "d38caabe1e339e72778b0851d41b46c0b653866afa6c4719a30098e243d897ac"
+    },
+    {
+      "bytes": 10420,
+      "commit": "0ef3aeafeecf0ea898fc65291f5b627ce3788f6f",
+      "path": "research/reverse/cyclic-sum-chain/freeze.json",
+      "sha256": "2ca0e59fac0f115bb99267032889bed285baa6d0e19066a36955c86e1d160a9d"
+    }
+  ],
+  "freeze_commit": "0ef3aeafeecf0ea898fc65291f5b627ce3788f6f",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff",
+  "mathematical_base_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "milestone_condition": "A bounded changing-frequency source contract is resolved; no general research recap or new public permission",
+  "new_reader_pdf": false,
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260909-DifferenceSupplyObstruction",
+  "primary_source_urls": [],
+  "private_milestone_record": "research/reverse/cyclic-sum-chain/OUTCOME.md",
+  "public_export_authorization": "Private archive only; no core public export or website/reader operation authorized by this handoff",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260909-CyclicSumChainViscosity",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "review": {
+    "final_scope": {
+      "bytes": 17705,
+      "path": "research/reverse/cyclic-sum-chain/FINAL_SCOPE_REVIEW.md",
+      "sha256": "fc619e5770b50bfc2cad19d6fec1990fe71b85dee33ac5fc8cc77654f42e7598"
+    },
+    "final_scope_current_table_checks": 32,
+    "nonblind_provenance_disclosed": true,
+    "root_final_scope": {
+      "bytes": 1836,
+      "path": "research/reverse/cyclic-sum-chain/ROOT_FINAL_SCOPE.md",
+      "sha256": "fb8792bbc94c00ad0bb892c42f84457d41cbe2bf0077c77118dfafde0a61894d"
+    },
+    "root_final_scope_full_read": true,
+    "source_current_table_checks": 19
+  },
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "2c345b34b09d5cb48f990245af3acabc8d43ac87",
+    "1405a8e5ca7fca7729b40c26fd4b06b95d987cb1",
+    "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc"
+  ],
+  "scientific_source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+  "source_commit": "eabe0f84802eaba04cf7cb3565d7ef42a954c9bc",
+  "source_ledger": "research/reverse/cyclic-sum-chain/SOURCES.md",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_CYCLIC_SUM_PATH_OBSTRUCTION",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
