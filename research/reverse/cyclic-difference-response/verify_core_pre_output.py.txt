@@ -1,0 +1,584 @@
+#!/usr/bin/env python3
+"""UNEXECUTED reviewer core; no main-output adapter or authorized runner yet.
+
+Organization fixed before reading exact_difference.py or any new result:
+six targets, two ordered contributions each, sparse (v,w) coefficients,
+double-cross Leray, then ordinary Euclidean gcd and certificate identities.
+No old A/B/C module is imported or called.  No root search, new refinement,
+alternative lower bound, DI window, or scientific floating point is present.
+
+Exposure: author of GS, old C verifier, current method and independent review;
+has read DI and DR, so this is a non-author different organization, not a third
+blind derivation.  During this core preparation the main author sent a schema
+description but no results.  It is not adapted here.  An adapter may only be
+written against the stopped actual output and must account for every field.
+
+All functions below are inert definitions.  This file must not be run, imported,
+compiled or probed now.  Final adaptation, full reread, independent static review,
+parent source commit and a specific one-run authorization are separate gates.
+"""
+
+EXECUTION_READY = False
+
+if __name__ == "__main__" and not EXECUTION_READY:
+    raise SystemExit("NOT-CERTIFIED: unexecuted core; adapter and run gates absent")
+
+from dataclasses import dataclass
+from fractions import Fraction
+
+
+BINDINGS = {
+    "CONTRACT.md": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+    "METHOD_PREFLIGHT.md": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
+    "INDEPENDENT.md": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
+    "ANALYSIS.md": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367",
+    "old_B_json": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
+}
+MAX_NEW_BISECTIONS = 32
+MAX_WALL_SECONDS = 60
+MAX_SELF_RSS_BYTES = 256 * 1024 * 1024
+MAX_OUTPUT_BYTES_EXCLUSIVE = 1024 * 1024
+SCIENTIFIC_WORKERS = 1
+SCIENTIFIC_THREADS = 1
+_budget = None
+
+
+class NotCertified(Exception):
+    pass
+
+
+class InconsistentCertificate(NotCertified):
+    pass
+
+
+def require(condition, reason):
+    if not condition:
+        raise InconsistentCertificate(reason)
+
+
+class Budget:
+    """Runner must supply its entry timestamp and actual SELF RSS reader.
+
+    This is not a process-tree measurement or a claim of a hard OS RSS limit.
+    The eventual runner must also check after the first complete serialization.
+    """
+
+    def __init__(self, entry_time, clock, self_rss_bytes):
+        self.entry_time = entry_time
+        self.clock = clock
+        self.self_rss_bytes = self_rss_bytes
+
+    def check(self):
+        if self.clock() - self.entry_time > MAX_WALL_SECONDS:
+            raise NotCertified("60-second deadline exceeded")
+        if self.self_rss_bytes() > MAX_SELF_RSS_BYTES:
+            raise NotCertified("SELF RSS target exceeded")
+
+
+def tick():
+    if _budget is None:
+        raise NotCertified("no authorized runner budget installed")
+    _budget.check()
+
+
+def read_rational(text):
+    """Canonical Fraction string only: no float, decimal, NaN or infinity."""
+    require(type(text) is str, "rational must be a string")
+    try:
+        value = Fraction(text)
+    except (ValueError, ZeroDivisionError):
+        raise InconsistentCertificate("invalid rational string")
+    require(str(value) == text, "noncanonical rational string")
+    return value
+
+
+# Private representation: univariate polynomial is an ascending Fraction tuple.
+# Zero is (); the stopped main-output adapter must translate its own zero form.
+def trim(values):
+    out = list(values)
+    require(all(type(x) is Fraction for x in out), "non-Fraction coefficient")
+    while out and not out[-1]:
+        out.pop()
+    return tuple(out)
+
+
+def pconstant(value):
+    require(type(value) in (int, Fraction), "inexact polynomial constant")
+    return trim((Fraction(value),))
+
+
+def padd(a, b):
+    tick()
+    out = [Fraction(0)] * max(len(a), len(b))
+    for i, x in enumerate(a):
+        out[i] += x
+    for i, x in enumerate(b):
+        out[i] += x
+    return trim(out)
+
+
+def pscale(a, scalar):
+    tick()
+    require(type(scalar) in (int, Fraction), "inexact scalar")
+    return trim(x * scalar for x in a)
+
+
+def psub(a, b):
+    return padd(a, pscale(b, -1))
+
+
+def pmul(a, b):
+    tick()
+    if not a or not b:
+        return ()
+    out = [Fraction(0)] * (len(a) + len(b) - 1)
+    for i, x in enumerate(a):
+        tick()
+        for j, y in enumerate(b):
+            out[i + j] += x * y
+    return trim(out)
+
+
+def ppow(a, exponent):
+    require(type(exponent) is int and 0 <= exponent <= 2, "power outside two-leaf scope")
+    out = pconstant(1)
+    for _ in range(exponent):
+        out = pmul(out, a)
+    return out
+
+
+def pdivmod(a, b):
+    """Ordinary exact Euclidean long division, no pseudo-remainder scaling."""
+    tick()
+    require(bool(b), "polynomial division by zero")
+    remainder = a
+    quotient = [Fraction(0)] * max(0, len(a) - len(b) + 1)
+    while remainder and len(remainder) >= len(b):
+        tick()
+        old_degree = len(remainder) - 1
+        shift = len(remainder) - len(b)
+        factor = remainder[-1] / b[-1]
+        quotient[shift] += factor
+        subtractand = (Fraction(0),) * shift + pscale(b, factor)
+        remainder = psub(remainder, subtractand)
+        require(len(remainder) - 1 < old_degree, "division did not lower degree")
+    return trim(quotient), remainder
+
+
+def pgcd(a, b):
+    tick()
+    while b:
+        _, remainder = pdivmod(a, b)
+        a, b = b, remainder
+    if not a:
+        return ()
+    return pscale(a, 1 / a[-1])
+
+
+def pderivative(a):
+    return trim(Fraction(i) * a[i] for i in range(1, len(a)))
+
+
+def peval(a, x):
+    tick()
+    require(type(x) is Fraction, "inexact evaluation point")
+    value = Fraction(0)
+    for coefficient in reversed(a):
+        value = value * x + coefficient
+    return value
+
+
+# Sparse bivariate polynomials: {(v_power, w_power): Fraction}, no alpha input.
+def sclean(values):
+    out = {}
+    for powers, coefficient in values.items():
+        require(len(powers) == 2 and all(type(e) is int and e >= 0 for e in powers),
+                "invalid sparse powers")
+        require(type(coefficient) is Fraction, "inexact sparse coefficient")
+        if coefficient:
+            out[powers] = coefficient
+    return out
+
+
+def sadd(a, b):
+    tick()
+    out = dict(a)
+    for powers, coefficient in b.items():
+        out[powers] = out.get(powers, Fraction(0)) + coefficient
+    return sclean(out)
+
+
+def sscale(a, scalar):
+    require(type(scalar) in (int, Fraction), "inexact sparse scalar")
+    return sclean({powers: coefficient * scalar for powers, coefficient in a.items()})
+
+
+def ssub(a, b):
+    return sadd(a, sscale(b, -1))
+
+
+def smul(a, b):
+    tick()
+    out = {}
+    for (av, aw), ac in a.items():
+        for (bv, bw), bc in b.items():
+            powers = (av + bv, aw + bw)
+            require(sum(powers) <= 2, "higher-than-two-leaf monomial")
+            out[powers] = out.get(powers, Fraction(0)) + ac * bc
+    return sclean(out)
+
+
+def rotate(vector, count=1):
+    out = tuple(vector)
+    for _ in range(count % 3):
+        out = (out[2], out[0], out[1])
+    return out
+
+
+def frequency_scale(vector, scalar):
+    require(type(scalar) is int, "noninteger frequency multiplier")
+    return tuple(scalar * x for x in vector)
+
+
+def vector_add(a, b):
+    require(len(a) == len(b) == 3, "vector length")
+    return tuple(sadd(x, y) for x, y in zip(a, b))
+
+
+def vector_scale(a, scalar):
+    require(len(a) == 3, "vector length")
+    return tuple(sscale(x, scalar) for x in a)
+
+
+def frequency_dot(k, vector):
+    require(len(k) == len(vector) == 3, "dot product length")
+    out = {}
+    for ki, vi in zip(k, vector):
+        out = sadd(out, sscale(vi, ki))
+    return out
+
+
+def cross_frequency_vector(k, vector):
+    require(len(k) == len(vector) == 3, "cross product length")
+    return (
+        ssub(sscale(vector[2], k[1]), sscale(vector[1], k[2])),
+        ssub(sscale(vector[0], k[2]), sscale(vector[2], k[0])),
+        ssub(sscale(vector[1], k[0]), sscale(vector[0], k[1])),
+    )
+
+
+def ordered_gate_plus_i(left_k, right_k, left_v, right_v):
+    """Return G with physical B=iG, using k x (k x right_v)/|k|^2.
+
+    P_k b=-k x (k x b)/|k|^2; the additional -i changes the sign again.
+    Inputs have the fixed real-even Fourier phase, including negative modes.
+    """
+    tick()
+    target = tuple(x + y for x, y in zip(left_k, right_k))
+    norm_squared = sum(x * x for x in target)
+    require(norm_squared > 0, "unexpected zero output")
+    require(not frequency_dot(left_k, left_v), "left leaf is not transverse")
+    require(not frequency_dot(right_k, right_v), "right leaf is not transverse")
+    derivative = frequency_dot(right_k, left_v)
+    cross_twice = cross_frequency_vector(target, cross_frequency_vector(target, right_v))
+    output = tuple(sscale(smul(derivative, component), Fraction(1, norm_squared))
+                   for component in cross_twice)
+    require(not frequency_dot(target, output), "full gate lost transversality")
+    return output
+
+
+def fixed_six_coefficients():
+    """Rebuild twelve actual ordered gates; never use the known J factorization."""
+    tick()
+    vv = {(1, 0): Fraction(1)}
+    ww = {(0, 1): Fraction(1)}
+    high_vector = (sadd(sscale(vv, 3), sscale(ww, 5)),
+                   sscale(vv, -2), sscale(ww, -2))
+    high_frequency = (2, 3, 5)
+    rows = {}
+    gates = []
+    for j in range(3):
+        pk = rotate(high_frequency, j)
+        sk = rotate(high_frequency, j + 1)
+        av = rotate(high_vector, j)
+        bv = rotate(high_vector, j + 1)
+        for sign in (1, -1):
+            left = frequency_scale(pk, sign)
+            right = frequency_scale(sk, -sign)
+            target = tuple(x + y for x, y in zip(left, right))
+            require(target not in rows, "repeated target")
+            forward = ordered_gate_plus_i(left, right, av, bv)
+            backward = ordered_gate_plus_i(right, left, bv, av)
+            total = vector_add(forward, backward)
+            require(all(all(sum(power) == 2 for power in component) for component in total),
+                    "nonquadratic total")
+            rows[target] = total
+            gates.append((target, left, right, forward))
+            gates.append((target, right, left, backward))
+    require(len(rows) == 6 and len(gates) == 12, "six-target/two-gate count")
+    base = rows[(-3, 1, 2)]
+    for j in range(3):
+        positive = rotate((-3, 1, 2), j)
+        negative = frequency_scale(positive, -1)
+        require(rows[positive] == rotate(base, j), "cyclic vector mismatch")
+        require(rows[negative] == vector_scale(rows[positive], -1), "conjugate phase mismatch")
+    return rows, tuple(gates)
+
+
+def substitute_original(sparse, original_r, original_s):
+    """v=-s, w=r.  No row rescaling, quotient-field inversion or normalization."""
+    tick()
+    require(len(original_r) <= 4 and len(original_s) <= 4, "old row degree")
+    vpoly = pscale(original_s, -1)
+    result = ()
+    for (vpower, wpower), coefficient in sparse.items():
+        term = pmul(ppow(vpoly, vpower), ppow(original_r, wpower))
+        result = padd(result, pscale(term, coefficient))
+    require(len(result) <= 7, "new normalized coefficient exceeds degree six")
+    return result
+
+
+def verify_decoded_coefficients(rows, gates, original_r, original_s,
+                                saved_formal, saved_normalized, saved_phases,
+                                saved_ordered_gates):
+    """Private parsed mappings; the future adapter must decode every raw row."""
+    targets = set(rows)
+    require(set(saved_formal) == targets and set(saved_normalized) == targets
+            and set(saved_phases) == targets, "missing/extra six-vector record")
+    normalized = {}
+    for target in rows:
+        require(saved_phases[target] == "+i", "wrong physical phase convention")
+        require(saved_formal[target] == rows[target], "complete formal vector mismatch")
+        independent = tuple(substitute_original(component, original_r, original_s)
+                            for component in rows[target])
+        require(saved_normalized[target] == independent, "original r/s substitution mismatch")
+        normalized[target] = independent
+    expected_gates = {(target, left, right): vector for target, left, right, vector in gates}
+    require(len(expected_gates) == 12 and saved_ordered_gates == expected_gates,
+            "missing/extra/incorrect complete ordered contribution")
+    return normalized
+
+
+def verify_reduction(original, modulus, quotient, remainder):
+    require(len(remainder) < len(modulus), "remainder degree")
+    require(padd(pmul(modulus, quotient), remainder) == original, "reduction identity")
+    require(pdivmod(original, modulus) == (quotient, remainder), "independent division")
+
+
+def verify_gcd_bezout(q, f, d, q_div_d, f_div_d, bezout_a, bezout_b):
+    require(bool(q) and bool(d) and d[-1] == 1, "gcd zero or not monic")
+    require(pmul(d, q_div_d) == q, "gcd does not divide Q")
+    require(pmul(d, f_div_d) == f, "gcd does not divide f")
+    require(padd(pmul(bezout_a, q), pmul(bezout_b, f)) == d, "Bezout identity")
+    require(pgcd(q, f) == d, "ordinary Euclidean gcd mismatch")
+
+
+def verify_division_step(left, right, quotient, remainder):
+    """For every recorded ordinary Euclid step, including an explicit zero end."""
+    require(pdivmod(left, right) == (quotient, remainder), "stored Euclid division step")
+
+
+def verify_sturm(q, chain, derivative_multiplier, negative_remainder_multipliers):
+    tick()
+    require(bool(q) and bool(chain) and chain[0] == q, "Sturm initial polynomial")
+    if len(q) == 1:
+        require(len(chain) == 1 and not negative_remainder_multipliers,
+                "constant Sturm chain")
+        require(derivative_multiplier is None, "constant has derivative multiplier")
+        return tuple(chain)
+    require(2 <= len(chain) <= len(q), "Sturm length")
+    require(type(derivative_multiplier) is Fraction and derivative_multiplier > 0,
+            "nonpositive derivative multiplier")
+    require(chain[1] == pscale(pderivative(q), derivative_multiplier), "Sturm derivative")
+    require(len(negative_remainder_multipliers) == len(chain) - 2, "Sturm step count")
+    for i, scalar in enumerate(negative_remainder_multipliers):
+        require(type(scalar) is Fraction and scalar > 0, "nonpositive Sturm scaling")
+        _, remainder = pdivmod(chain[i], chain[i + 1])
+        require(bool(remainder), "Sturm continued after zero remainder")
+        require(chain[i + 2] == pscale(remainder, -scalar), "negative remainder identity")
+    require(len(chain[-1]) == 1, "nonconstant final Sturm term")
+    require(not pdivmod(chain[-2], chain[-1])[1], "Sturm terminal remainder")
+    return tuple(chain)
+
+
+def verify_sturm_quotients(chain, saved_step_quotients, saved_terminal_quotient):
+    if len(chain) == 1:
+        require(not saved_step_quotients and saved_terminal_quotient is None,
+                "extra constant-chain division evidence")
+        return
+    require(len(saved_step_quotients) == len(chain) - 2, "Sturm quotient count")
+    for i, quotient in enumerate(saved_step_quotients):
+        require(pdivmod(chain[i], chain[i + 1])[0] == quotient, "stored Sturm quotient")
+    require(pdivmod(chain[-2], chain[-1]) == (saved_terminal_quotient, ()),
+            "stored Sturm terminal quotient/remainder")
+
+
+def endpoint_evidence(chain, point):
+    values = tuple(peval(poly, point) for poly in chain)
+    signs = tuple((value > 0) - (value < 0) for value in values)
+    nonzero = tuple(sign for sign in signs if sign)
+    variations = sum(left != right for left, right in zip(nonzero, nonzero[1:]))
+    return values, signs, nonzero, variations
+
+
+def root_count(chain, left, right):
+    require(type(left) is Fraction and type(right) is Fraction and left < right,
+            "invalid half-open interval")
+    return endpoint_evidence(chain, left)[3] - endpoint_evidence(chain, right)[3]
+
+
+def verify_root_zero(q, f, d, verified_d_chain, interval, claimed_zero):
+    """Caller must first verify gcd and this chain; no label is accepted on faith."""
+    require(type(claimed_zero) is bool, "nonboolean zero claim")
+    require(verified_d_chain[0] == d, "zero test references wrong gcd chain")
+    require(not pdivmod(q, d)[1] and not pdivmod(f, d)[1], "zero-test divisibility")
+    count = root_count(verified_d_chain, *interval)
+    require(count in (0, 1), "gcd has invalid count in the fixed root interval")
+    require(claimed_zero == (count == 1), "wrong specified-root zero claim")
+    return count
+
+
+def verify_zero_prefix(flags, first_nonzero_coordinate):
+    require(1 <= len(flags) <= 3 and all(type(x) is bool for x in flags), "zero prefix")
+    if first_nonzero_coordinate is None:
+        require(len(flags) == 3 and all(flags), "uncertified all-zero vector")
+    else:
+        require(type(first_nonzero_coordinate) is int and 1 <= first_nonzero_coordinate <= 3,
+                "coordinate outside fixed order")
+        require(len(flags) == first_nonzero_coordinate, "extra or missing coordinate test")
+        require(all(flags[:-1]) and flags[-1] is False, "not the first nonzero coordinate")
+
+
+def interval_multiply(a, b):
+    require(a[0] <= a[1] and b[0] <= b[1], "reversed closed enclosure")
+    products = (a[0] * b[0], a[0] * b[1], a[1] * b[0], a[1] * b[1])
+    return min(products), max(products)
+
+
+def horner_enclosure(poly, domain):
+    tick()
+    value = (Fraction(0), Fraction(0))
+    trace = []
+    for coefficient in reversed(poly):
+        product = interval_multiply(value, domain)
+        after = (product[0] + coefficient, product[1] + coefficient)
+        trace.append((value, domain, product, coefficient, after))
+        value = after
+    return value, tuple(trace)
+
+
+def avoids_zero(enclosure):
+    return enclosure[0] > 0 or enclosure[1] < 0
+
+
+@dataclass(frozen=True)
+class RootFrame:
+    """Private normalized interface, NOT a guess at the future raw JSON schema.
+
+    interval retains half-open ownership even when its right root is represented
+    as an exact point.  The adapter must preserve original node/field provenance.
+    left_count/right_count describe the transition from the preceding frame.
+    """
+    interval: tuple
+    point: object
+    new_depth: int
+    combined_depth: int
+    enclosure: tuple
+    horner_trace: tuple
+    left_count: object = None
+    right_count: object = None
+
+
+def verify_saved_path(q, verified_q_chain, original_f, frames):
+    """Only replay saved nodes.  This function never proposes a new bisection."""
+    tick()
+    require(verified_q_chain[0] == q, "path references a different Q")
+    require(1 <= len(frames) <= MAX_NEW_BISECTIONS + 1, "path budget")
+    initial = (Fraction(-75, 32), Fraction(-125, 64))
+    require(frames[0].interval == initial, "path does not start at old root 0")
+    for index, frame in enumerate(frames):
+        tick()
+        require(type(frame.new_depth) is int and frame.new_depth == index, "reset/skipped depth")
+        require(frame.combined_depth == 7 + index, "old depth lost")
+        a, b = frame.interval
+        require(root_count(verified_q_chain, a, b) == 1, "path is not a single-root interval")
+        if index == 0:
+            require(frame.left_count is None and frame.right_count is None, "spurious first split")
+        else:
+            parent = frames[index - 1]
+            require(parent.point is None, "refinement after an exact point")
+            require(not avoids_zero(parent.enclosure), "refinement after the first valid lower bound")
+            pa, pb = parent.interval
+            mid = (pa + pb) / 2
+            lc = root_count(verified_q_chain, pa, mid)
+            rc = root_count(verified_q_chain, mid, pb)
+            require((lc, rc) in ((1, 0), (0, 1)), "invalid bisection counts")
+            require((frame.left_count, frame.right_count) == (lc, rc), "saved split counts")
+            expected = (pa, mid) if lc == 1 else (mid, pb)
+            require(frame.interval == expected, "wrong root branch or midpoint")
+        right_is_root = peval(q, b) == 0
+        if frame.point is not None:
+            require(type(frame.point) is Fraction and frame.point == b and right_is_root,
+                    "unjustified exact point")
+            evaluation_domain = (b, b)
+        else:
+            require(not right_is_root, "unrecorded detected right-endpoint root")
+            evaluation_domain = (a, b)
+        enclosure, trace = horner_enclosure(original_f, evaluation_domain)
+        require(frame.enclosure == enclosure, "saved Horner enclosure mismatch")
+        require(frame.horner_trace == trace, "saved Horner operations mismatch")
+    last = frames[-1]
+    require(last.point is None or avoids_zero(last.enclosure),
+            "claimed nonzero coordinate vanishes at an exact point")
+    if not avoids_zero(last.enclosure):
+        raise NotCertified("nonzero identity may hold; saved lower bound is unresolved")
+    delta = min(abs(last.enclosure[0]), abs(last.enclosure[1]))
+    require(delta > 0, "nonpositive coordinate bound")
+    return delta, 2 * delta
+
+
+def verify_original_dr8_window(abar, bbar, old_t, d, saved):
+    """Compare parsed private records with the ORIGINAL main DR.8 window.
+
+    No DI.15 formula and no smaller replacement window occur in this core.
+    Adapter must link all four raw budget records to these exact tuples.
+    """
+    tick()
+    require(all(type(x) is Fraction and x > 0 for x in (abar, bbar, old_t, d)),
+            "window input is not positive rational")
+    require(bbar == 28 * abar, "old bbar identity")
+    q0 = 315 * abar * abar + 2 * abar * bbar * bbar
+    c0 = Fraction(32, 7) * abar * abar * bbar ** 6
+    candidates = (old_t, Fraction(1), d / (2 * q0), d / (8 * c0))
+    tau = min(candidates)
+    attain = tuple(i for i, value in enumerate(candidates) if value == tau)
+    budgets = ((tau, old_t, old_t - tau), (tau, Fraction(1), 1 - tau),
+               (q0 * tau, d / 2, d / 2 - q0 * tau),
+               (c0 * tau, d / 8, d / 8 - c0 * tau))
+    require(all(left <= right and slack >= 0 for left, right, slack in budgets),
+            "DR.8 budget failure")
+    expected = {"Abar": abar, "bbar": bbar, "T_star": old_t, "d": d,
+                "Q0": q0, "C0": c0, "candidates": candidates,
+                "tau": tau, "attaining_indices": attain, "budgets": budgets}
+    require(saved == expected, "main original window/candidate/budget mismatch")
+    return expected
+
+
+def stopped_main_adapter(*_args, **_kwargs):
+    """Not implemented: actual stopped bytes must be read before adaptation."""
+    raise NotCertified("main-output schema has not been adapted from stopped bytes")
+
+
+def authorized_once_runner(*_args, **_kwargs):
+    """Deliberately absent; core preparation gives no execution authority.
+
+    Final runner must: reject an existing output (exclusive xb creation); bind
+    final source/input/review hashes and parent 40-character source commit;
+    start its deadline at entry; count science 0 then 1 at the exact invocation;
+    retain completed separately from certified; recheck hashes after science;
+    serialize fully before measuring the stated resource boundary; enforce
+    output bytes <1 MiB (otherwise emit only a bounded NOT-CERTIFIED record);
+    preserve failure/exit/stdout/stderr without rerun or altered parameters.
+    A killed process with no JSON is not to be rewritten as completed.
+    """
+    raise NotCertified("final source review/commit/specific one-run gate absent")
