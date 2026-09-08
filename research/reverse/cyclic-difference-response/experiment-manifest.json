@@ -1,0 +1,108 @@
+{
+  "classification": "PRIVATE_CORE",
+  "type": "FIXED_CONTRACT_EXPERIMENT_LEDGER",
+  "contract_sha256": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+  "scientific_stages": [
+    {
+      "stage": "main",
+      "script": "research/reverse/cyclic-difference-response/exact_difference.py",
+      "script_sha256": "842679b23991ae2f3f5a5cd76903e9abf4ebd7a71a230829f99697612ad66030",
+      "pre_run_source_commit": "668b18916d33b2832fc46b68e00184ce37c62738",
+      "output": "research/reverse/cyclic-difference-response/exact-difference-output.json",
+      "output_sha256": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
+      "output_bytes": 269258,
+      "receipt": "research/reverse/cyclic-difference-response/primary-execution.json",
+      "receipt_sha256": "a16d978a4599bc55ebeac80bda83d9f0858d35c1892983572e86cb1fd98b4c26",
+      "executions": 1,
+      "execution_status": "completed",
+      "certificate_status": "DIFFERENCE-WINDOW-CERTIFIED",
+      "scientific_stage_completed": true,
+      "resources_after_first_full_serialization": {
+        "RSS_SELF_bytes": 20840448,
+        "system_CPU_seconds": 0.013486999999999999,
+        "user_CPU_seconds": 0.047045,
+        "wall_seconds_since_entry": 0.053049874999999996
+      },
+      "resource_scope": "SELF only. Deadline starts just after importing time at entry and includes input reading, science, rechecks and first full serialization. Final resource fields, final serialization and disk write are excluded. RSS is sampled with a high-water SELF value, not a full-lifecycle hard memory guarantee.",
+      "environment": {
+        "external_processes_started": 0,
+        "os_uname": {
+          "machine": "arm64",
+          "nodename": "Wool.local",
+          "release": "25.6.0",
+          "sysname": "Darwin",
+          "version": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050"
+        },
+        "python_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "python_version": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+        "scientific_threads": 1,
+        "scientific_workers": 1,
+        "third_party_libraries": [],
+        "visible_logical_CPUs": 18
+      }
+    },
+    {
+      "stage": "independent",
+      "script": "research/reverse/cyclic-difference-response/verify_difference.py",
+      "script_sha256": "87fd73e0b5a7235f4ff083741c96332e4b663706e5aad492d0a9a32f4b30294a",
+      "pre_run_source_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae",
+      "output": "research/reverse/cyclic-difference-response/review-difference-output.json",
+      "output_sha256": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75",
+      "output_bytes": 188785,
+      "receipt": "research/reverse/cyclic-difference-response/verifier-execution.json",
+      "receipt_sha256": "42adefd2427d40195a733eabf5eb061b165017a1a13f772b2dba8c0887b43f63",
+      "executions": 1,
+      "execution_status": "completed",
+      "certificate_status": "DIFFERENCE-CERTIFICATE-VERIFIED",
+      "scientific_stage_completed": true,
+      "resources_after_first_full_serialization": {
+        "RSS_SELF_bytes": 23396352,
+        "system_CPU_seconds": 0.014643999999999999,
+        "user_CPU_seconds": 0.057579,
+        "wall_seconds_since_entry": 0.053112625
+      },
+      "resource_scope": "SELF only; invocation deadline starts immediately after importing time. Input reading, verification, source rechecks and first full serialization are included. Added final resource fields, final serialization and disk write are excluded. High-water SELF RSS samples are not a hard whole-lifecycle or whole-process-tree guarantee.",
+      "environment": {
+        "external_processes_started": 0,
+        "os_uname": {
+          "machine": "arm64",
+          "nodename": "Wool.local",
+          "release": "25.6.0",
+          "sysname": "Darwin",
+          "version": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050"
+        },
+        "python_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "python_version": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+        "scientific_threads": 1,
+        "scientific_workers": 1,
+        "third_party_libraries": [],
+        "visible_logical_CPUs": 18
+      }
+    }
+  ],
+  "scientific_runs_total": 2,
+  "each_stage_run_once": true,
+  "reruns": 0,
+  "scientific_float": false,
+  "old_A_B_C_runs": 0,
+  "primary_new_bisections": 5,
+  "old_bisection_depth_separate": 7,
+  "independent_new_bisections": 0,
+  "independent_replayed_saved_bisections": 5,
+  "original_delta_d_tau_verified_identical": true,
+  "alternative_DI_window_evaluated": false,
+  "formal_seven_or_eight_leaf_evaluated": false,
+  "limits_each_stage": {
+    "seconds_from_time_import": 60,
+    "scientific_workers": 1,
+    "scientific_threads": 1,
+    "RSS_SELF_target_bytes": 268435456,
+    "output_bytes_strictly_below": 1048576
+  },
+  "metadata_only_comparisons": "Saved field string and JSON-object equality, hashes and Git objects; no third scientific reconstruction",
+  "failures_not_hidden": "No scientific failure. Metadata KeyError, failed text context and reading truncation recorded in EXPERIMENTS.md",
+  "figures": [],
+  "new_pdf": false,
+  "new_English_translation": false,
+  "final_scope_acceptance": "PENDING_SEPARATE_FINAL_REVIEW"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "reverse-scientific-execution-receipt-v1",
+  "stage": "independent-difference-verifier",
+  "pre_run_commit": "76cfd7a0d35e229a51f4aa2385add468cb637fae",
+  "command": "/usr/bin/python3 research/reverse/cyclic-difference-response/verify_difference.py --run-once-after-parent-authorization --reviewer-source-commit 76cfd7a0d35e229a51f4aa2385add468cb637fae",
+  "cwd": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "source_sha256": "87fd73e0b5a7235f4ff083741c96332e4b663706e5aad492d0a9a32f4b30294a",
+  "outer_binding": {
+    "current_files_equal_git_objects": 28,
+    "independent_output_absent_before_run": true
+  },
+  "actual_tool_result": {
+    "chunk_id": "e8d1ee",
+    "wall_time_seconds": 0.000003792,
+    "exit_code": 0,
+    "original_token_count": 152,
+    "output": "{\"certificate_status\": \"DIFFERENCE-CERTIFICATE-VERIFIED\", \"execution_status\": \"completed\", \"output\": \"/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-difference-response/review-difference-output.json\", \"output_bytes\": 188785, \"output_sha256\": \"e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75\", \"resources_at_recorded_boundary\": {\"RSS_SELF_bytes\": 23396352, \"system_CPU_seconds\": 0.014643999999999999, \"user_CPU_seconds\": 0.057579, \"wall_seconds_since_entry\": 0.053112625}, \"scientific_execution_count_in_this_invocation\": 1, \"scientific_stage_completed\": true}\n"
+  },
+  "rerun_allowed": false,
+  "resource_note": "Tool wall_time_seconds is transport metadata; scientific sampled resources are in the unmodified raw output. Final resource fields, final serialization and write are outside the sample boundary."
+}
