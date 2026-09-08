@@ -1,0 +1,41 @@
+{
+  "release_id": "ClayB-PressureFreeShapeCriterion-20260908",
+  "logical_predecessor": "ClayB-MixedAbsorptionCalibration-20260908",
+  "status": "RESEARCH_COMPLETE_IN_STATED_SCOPE",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "base_commit": "92db0401aad2ab47dd9a39215c29a8ad88a117ed",
+  "main": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+  "main_sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520",
+  "internal_check": "research/clay_b_variable_reference_check_20260908.md",
+  "internal_check_sha256": "15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585",
+  "classification": [
+    "LOCAL CONDITIONAL EPSILON REGULARITY",
+    "NO COMMON ORIGINAL-PRESSURE CAP",
+    "INTERNAL VARIABLE-REFERENCE CHECK",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For every finite M>0, there is a new epsilon_PF(M)>0 such that a local suitable weak solution defined near the closed unit cylinder with A(1)+E(1)<=M and integral_Q1 |grad Theta(grad u)|^2<epsilon_PF(M) is regular at the centre. Each solution retains its own locally L^(3/2) pressure; no common original-pressure D(1) bound is assumed.",
+    "Kwon's localized Leray decomposition supplies time-compact corrected velocities and bounded spatially smooth harmonic parts, with all corrected pressure and force terms retained. Time-slice rank-one/affine classification yields the selection-independent bound |tr((grad v)^2)|<=C(M)(1+|grad v|). This gives an L2 corrected-pressure source, the stated L2-force integrability bootstrap and velocity-only transfer to the original suitable solutions.",
+    "The accompanying VR.1-9 internal check retains original norm dissipation, zero-set defect, both slices and every variable-reference derivative. Perfect matching cancels the original directional dissipation through the new derivative term; the relative-direction rewrite introduces an uncontrolled radial pairing. This closes only the checked formal absorption subbranch and is not a separately counted completed research section."
+  ],
+  "open_items": [
+    "No same-solution argument yet produces a prescribed-centre scale with A+E<=M and K<epsilon_PF(M) for arbitrary smooth initial data.",
+    "No effective epsilon_PF(M), regularity-radius modulus, strict cross-scale contraction or nonsummable concentration cost is established.",
+    "Deleting a common pressure cap is not deleting suitable-solution pressure integrability, nor a claim that the corrected limit v+h solves the original unforced NS system.",
+    "The variable-reference calculation does not rule out all reference methods or signed estimates; it supplies no new automatic radial budget or scale gain.",
+    "Novelty, human peer review and the general three-dimensional Navier-Stokes/Clay problem remain open."
+  ],
+  "next_action": "Return to the prescribed-centre joint good-scale problem with the improved A+E-only cap. Do not repeat the completed pressure-cap deletion or variable-reference algebra as new progress. On the same smooth preterminal NS solution, start from the full original mu_G entropy and local energy identities and compare two concentric scales, preserving both slices, cutoffs, transport and full pressure; suitable weak extensions retain the local energy inequality or defect. Require a genuinely derived strict scale gain or independent nonsummable concentration cost, not another C(M) bound or an assumed common-M small sequence. No new concrete dynamical input has been selected at this checkpoint; select and test one before further adjacent variants. No publication or reverse-runtime inspection.",
+  "next_concrete_dynamical_input_selected": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "finite_symbolic_checks_run": false,
+  "recap_required": false,
+  "is_clay_result": false
+}
