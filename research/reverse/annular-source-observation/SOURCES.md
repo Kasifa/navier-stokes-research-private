@@ -1,0 +1,15 @@
+# 本次来源、去重和证书范围
+
+2026-09-09，PRIVATE_CORE。终点为本目录TRAJECTORY_RESULT，不是NS奇性或真实来源门排除。此前输入、数值资格和本次四轨迹属于同一有界环带问题；早期pending和局部阶段formal_release=false是形成历史，以本次最终接纳及冻结为准，旧原字节保留。
+
+同一原初值来自第24包ReverseNS-20260908-FixedDatumThreeDirectionSupply的cyclic-six-carrier/PROOF、APPLICATION_PROOF及freeze。ALGEBRA_A/B提供唯一原根、多项式和精确参数，输入主核与不同组织的核验各执行一次；q36近似未替代原初值。第26/27包的稀疏路径条件障碍不自动排完整环带；VALUE_PREFLIGHT只记录未求值T2的条件短时障碍，不重开系数树。
+
+CONTRACT固定原解对象、全有序来源和两个门。OBSERVATION_ERROR是在OE.1全窗齐次H³误差前提下的本地手推条件接口；ROOT_OBSERVATION_CHECK限定接纳已有非作者审读，不重新宣称外部后验常数或经典延拓已付。其来源fixed-seed-global-screen/SOURCE_PREFLIGHT中的旧特殊种子数据不移入本题。完整周期Fourier–Leray桥的既有来源为four-leaf-preflight/GENERAL_SOURCE_BRIDGE及其审读。
+
+TIME_METHOD_NOTE手工核增广Lawson更新及整数半程分段，NUMERICAL_EXECUTION_CONTRACT和四轨迹合同分开冻结。每个阶段来自同一Galerkin速度，第二来源不是G；这个实现资格不认证真实NS历史。原44个实现算例、两个成本和四轨迹/一次比较的有限数值结果各按自己的原合同与独立审查记录接纳；成本的后段状态不是真实U(a)。
+
+根与各作者、AI审查者的实际全文/定向阅读范围、前序接触和非盲身份保留于原审查及ROOT记录，不将哈希或JSON元数据核验计作全文科学复核。本轮根实际全文读最终TRAJECTORY_RESULT_REVIEW，全文自读根报告并读取最终四处范围修正；最终范围审查另列。结果审读未另解码NPZ或重算差异；字节归档的逐件实际解压校验属于数据保全，不是独立数值重算。
+
+本题没有新增外部定理应用、新外部原文检索或新颖性认定。Clay-B、FA/FCB和两类机制的全局边界仍沿原研究协议及既有来源审读；此有限计算不改变那些边界。没有将外部Euler/Boussinesq/边界模型、不同初值族或有限模输出移作固定黏性、无外力、固定三维环面的单个原解奇性。
+
+本包的10次科学worker为输入2、实现/成本3、完整轨迹4、固定比较1；科学重跑0。只读元数据、SHA、Git对象读取及无损压缩不计科学worker。保存的原始58份NPZ（旧资格6、新轨迹52）均留原目录；私有Git保存58份无损gzip、对应还原清单和全部原日志/源码/回执。无新图或PDF，无公共输出授权。

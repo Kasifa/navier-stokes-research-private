@@ -1,0 +1,1759 @@
+{
+  "archive_wall_seconds_to_manifest": 63.18366670794785,
+  "created_utc": "2026-09-08T22:18:06.855632+00:00",
+  "files": [
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000000.npz.gz",
+      "archive_record": {
+        "bytes": 443057,
+        "sha256": "56363dfe9f6b2bb4caafbc4c30a2edd42b787f1a753628157740214416c113cf"
+      },
+      "file_wall_seconds": 0.3360126249026507,
+      "j": 0,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 110398718,
+        "sha256": "8415c716ebb7df1715b3fb96c41ec95e37f45bdcc35f3fcb6780f6c8b570541c"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110398718,
+        "sha256": "8415c716ebb7df1715b3fb96c41ec95e37f45bdcc35f3fcb6780f6c8b570541c"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000032.npz.gz",
+      "archive_record": {
+        "bytes": 29661448,
+        "sha256": "65989814a8a38f8d8fd8e3d152b4c37f4f52ca1cb1c0522b023797414e5bd953"
+      },
+      "file_wall_seconds": 0.8145392499864101,
+      "j": 32,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 110403014,
+        "sha256": "aeae8e444255aa38d39255bc82672396f282c428a4e5aa650d0a79e572bb034b"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403014,
+        "sha256": "aeae8e444255aa38d39255bc82672396f282c428a4e5aa650d0a79e572bb034b"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000064.npz.gz",
+      "archive_record": {
+        "bytes": 29703921,
+        "sha256": "00cf79db014c5ceab9975c0a8b772212c35a615057e7256125bb03f242ef3b1b"
+      },
+      "file_wall_seconds": 0.8090313328430057,
+      "j": 64,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 110403030,
+        "sha256": "4153d5b35778e9e5730edfad719d204bf8f1b36814ff505340c12e00edf0cd09"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403030,
+        "sha256": "4153d5b35778e9e5730edfad719d204bf8f1b36814ff505340c12e00edf0cd09"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000096.npz.gz",
+      "archive_record": {
+        "bytes": 29767212,
+        "sha256": "a2ed2a42567a169c9e4e630e5e7d64c1338894deb6d7178e55723721da2b8f5a"
+      },
+      "file_wall_seconds": 0.8013036670163274,
+      "j": 96,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 110403042,
+        "sha256": "6e388b7cab68a04e245b603d6d2f46475f0f4c16bfaf459ebc7348415d4d61c8"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403042,
+        "sha256": "6e388b7cab68a04e245b603d6d2f46475f0f4c16bfaf459ebc7348415d4d61c8"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000128.npz.gz",
+      "archive_record": {
+        "bytes": 29844094,
+        "sha256": "597cf2294a432597bbb4ad9a63eadc732c230bfdcbfbd4d9f446016bbaf34b90"
+      },
+      "file_wall_seconds": 0.7960014999844134,
+      "j": 128,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 110403054,
+        "sha256": "af20dae8bf138e1456d95c1801dffe798a51c8289b523f8d5a3def2749dd5866"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403054,
+        "sha256": "af20dae8bf138e1456d95c1801dffe798a51c8289b523f8d5a3def2749dd5866"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000160.npz.gz",
+      "archive_record": {
+        "bytes": 35534209,
+        "sha256": "53e17944eb87515f04903be80847b7345b8c31e3b9a2fa4f708edc003d50ebf6"
+      },
+      "file_wall_seconds": 0.8817175829317421,
+      "j": 160,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 110403078,
+        "sha256": "ea0b63ddb1eeccb250f656800d6e0c53123876e9cdc88d79a94036e9716b2e45"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403078,
+        "sha256": "ea0b63ddb1eeccb250f656800d6e0c53123876e9cdc88d79a94036e9716b2e45"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000192.npz.gz",
+      "archive_record": {
+        "bytes": 35611279,
+        "sha256": "79bea3ef1bb1cbc2d2ea1fa958fac4c0992ee8ececd47177fef40c0b118a4e1c"
+      },
+      "file_wall_seconds": 0.8742778329178691,
+      "j": 192,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 110403074,
+        "sha256": "456eea9abed7e005a9569864ea76e07d8b3b3fb2d5c7ee703ebb094901f59d6c"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403074,
+        "sha256": "456eea9abed7e005a9569864ea76e07d8b3b3fb2d5c7ee703ebb094901f59d6c"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000224.npz.gz",
+      "archive_record": {
+        "bytes": 35673969,
+        "sha256": "1c4b75d0bc52ef8bfe0c8573066b10e6321c10786a48f71e8a04f4d41dc5b85a"
+      },
+      "file_wall_seconds": 0.856010708026588,
+      "j": 224,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 110403066,
+        "sha256": "8c62967edc231787d47083e960f05cd8249e8026d17b26a2d11099020060c52d"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403066,
+        "sha256": "8c62967edc231787d47083e960f05cd8249e8026d17b26a2d11099020060c52d"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000256.npz.gz",
+      "archive_record": {
+        "bytes": 35728079,
+        "sha256": "2af2f93b9789bc2c862142bc9be2621ac4765e765dc77bd2e7f52752eb39d0ef"
+      },
+      "file_wall_seconds": 0.8575174170546234,
+      "j": 256,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 110403082,
+        "sha256": "81bd509b251f5dc947daf16e9d344de38dbd793dde82415e9e907009c8db6251"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403082,
+        "sha256": "81bd509b251f5dc947daf16e9d344de38dbd793dde82415e9e907009c8db6251"
+      },
+      "run_id": "trajectory128_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000000.npz.gz",
+      "archive_record": {
+        "bytes": 535611,
+        "sha256": "65ae9cba9b765682f1d2c794cb8fde7e0669e876ba2ec732895515faeb61dff0"
+      },
+      "file_wall_seconds": 0.6012177909724414,
+      "j": 0,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 206343422,
+        "sha256": "2a97fff5750e75a8b01fe3003e39dde501381b581ff2438359d2804760c5b70c"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206343422,
+        "sha256": "2a97fff5750e75a8b01fe3003e39dde501381b581ff2438359d2804760c5b70c"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000032.npz.gz",
+      "archive_record": {
+        "bytes": 58108083,
+        "sha256": "5f22224ce83430afc7bf02f0fb33cd6e0da37fda4677a682a38ec3bda98a502f"
+      },
+      "file_wall_seconds": 1.570983124896884,
+      "j": 32,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 206347718,
+        "sha256": "56d88c0e6b466744dcb5234caf7dc48f39a879c7dec56f37758268deabaeaad0"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347718,
+        "sha256": "56d88c0e6b466744dcb5234caf7dc48f39a879c7dec56f37758268deabaeaad0"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000064.npz.gz",
+      "archive_record": {
+        "bytes": 58123690,
+        "sha256": "4a1dca1ffa9581cdc9394e5ef49b9afe00b7c9f6d70b1c4de6562d022a63dd41"
+      },
+      "file_wall_seconds": 1.5716273749712855,
+      "j": 64,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 206347734,
+        "sha256": "ba8e0c9e59733652b4edb56f815e0c33450b4ce4241bbc3c41b5c42005d211a6"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347734,
+        "sha256": "ba8e0c9e59733652b4edb56f815e0c33450b4ce4241bbc3c41b5c42005d211a6"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000096.npz.gz",
+      "archive_record": {
+        "bytes": 58199931,
+        "sha256": "8c37bdf8f057521ba77eb1b87c6bb03e124cca0ff8404f98d3f6c3d37903a6eb"
+      },
+      "file_wall_seconds": 1.5573864160105586,
+      "j": 96,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 206347746,
+        "sha256": "3bfcf2c0a2537df9edc9c9a4ae7e476fe0a859fb261feb50451c7b62b0a045d6"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347746,
+        "sha256": "3bfcf2c0a2537df9edc9c9a4ae7e476fe0a859fb261feb50451c7b62b0a045d6"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000128.npz.gz",
+      "archive_record": {
+        "bytes": 58307823,
+        "sha256": "0a65b1b85849042bfc8ee8ed8bd1e224674d5d75054013ccbda033706fbff713"
+      },
+      "file_wall_seconds": 1.548767208820209,
+      "j": 128,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 206347758,
+        "sha256": "d34cab2bb1831576479a3872de0fc48d57911e12d348dd46126f76148cb77ec5"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347758,
+        "sha256": "d34cab2bb1831576479a3872de0fc48d57911e12d348dd46126f76148cb77ec5"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000160.npz.gz",
+      "archive_record": {
+        "bytes": 64053446,
+        "sha256": "49ad2c336e126e3240adfff0016397e9545d3385f81bba4682961b8b362c208b"
+      },
+      "file_wall_seconds": 1.6432598331011832,
+      "j": 160,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 206347782,
+        "sha256": "de7fa05ed39eb63d45e09043b77ea84ea2d3270d54cfa4050798507ce3ebe55d"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347782,
+        "sha256": "de7fa05ed39eb63d45e09043b77ea84ea2d3270d54cfa4050798507ce3ebe55d"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000192.npz.gz",
+      "archive_record": {
+        "bytes": 64206888,
+        "sha256": "537e69cea87ca9951748510acc2572b75d3bb421d0e8d09234c5081e62397aeb"
+      },
+      "file_wall_seconds": 1.6154997500125319,
+      "j": 192,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 206347778,
+        "sha256": "2bb25bb2d0fec9177ba016b9bd160b6aac5840a19a98c658ae74a26c5e859e2f"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347778,
+        "sha256": "2bb25bb2d0fec9177ba016b9bd160b6aac5840a19a98c658ae74a26c5e859e2f"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000224.npz.gz",
+      "archive_record": {
+        "bytes": 64370152,
+        "sha256": "40430e1d194460e92e530bc155bc2e7fcd23182019a08816b729a4e911f93ef7"
+      },
+      "file_wall_seconds": 1.5924240830354393,
+      "j": 224,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 206347770,
+        "sha256": "6221a911eea924e51a45d1d45adadc2c5fb3119d377bc0ccf7ea9f08fd9f7def"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347770,
+        "sha256": "6221a911eea924e51a45d1d45adadc2c5fb3119d377bc0ccf7ea9f08fd9f7def"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000256.npz.gz",
+      "archive_record": {
+        "bytes": 64505196,
+        "sha256": "360e2f80300a4ab6f9fabc34becda736e18479f8464bfce3316c7cae2be59bfa"
+      },
+      "file_wall_seconds": 1.5827392910141498,
+      "j": 256,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 206347786,
+        "sha256": "5db76b48cd6612e545e56f0aee234e0b2fd41e2ee8a49d68d809ca8deb2b0952"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347786,
+        "sha256": "5db76b48cd6612e545e56f0aee234e0b2fd41e2ee8a49d68d809ca8deb2b0952"
+      },
+      "run_id": "trajectory160_256",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000000.npz.gz",
+      "archive_record": {
+        "bytes": 443059,
+        "sha256": "5733c367dc4090fcdedfd6ca3139d274398abcff24be66c6ff0fa6045fa351bf"
+      },
+      "file_wall_seconds": 0.34144720900803804,
+      "j": 0,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 110398726,
+        "sha256": "e61de3094c1dc68687eb41af90b264f864f2824c865f7e340973579ce647dc8b"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110398726,
+        "sha256": "e61de3094c1dc68687eb41af90b264f864f2824c865f7e340973579ce647dc8b"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000032.npz.gz",
+      "archive_record": {
+        "bytes": 29702128,
+        "sha256": "e55edb5673e3628ea0c99b3e0010baf53bdb9d6e7444ec06926d4163cc51ab14"
+      },
+      "file_wall_seconds": 0.8241817089729011,
+      "j": 32,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 110403030,
+        "sha256": "7f0092f3d4982a7bf90fa4bd0a06e6f01d6bdfa47a736749137c7c4debb4f6f2"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403030,
+        "sha256": "7f0092f3d4982a7bf90fa4bd0a06e6f01d6bdfa47a736749137c7c4debb4f6f2"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000064.npz.gz",
+      "archive_record": {
+        "bytes": 29685849,
+        "sha256": "22f485e9f179ffb3cf3254c80e2e736a649821a25be510e64944e6c968b3fcdb"
+      },
+      "file_wall_seconds": 0.8209998330567032,
+      "j": 64,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 110403034,
+        "sha256": "85cd54ea0af4d81ef85e73a634e4528a5606d63786329a3e9bf4c045240605d9"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403034,
+        "sha256": "85cd54ea0af4d81ef85e73a634e4528a5606d63786329a3e9bf4c045240605d9"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000096.npz.gz",
+      "archive_record": {
+        "bytes": 29696194,
+        "sha256": "46983be857450fe5dcfdab8c904ac25b3121ef94fa52299fa20ee419c502bd70"
+      },
+      "file_wall_seconds": 0.8143018339760602,
+      "j": 96,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 110403058,
+        "sha256": "b227e0c1b68e6c318d50ae4c4e210d991c0558f06795efb9ac76e22655866f77"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403058,
+        "sha256": "b227e0c1b68e6c318d50ae4c4e210d991c0558f06795efb9ac76e22655866f77"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000128.npz.gz",
+      "archive_record": {
+        "bytes": 29717051,
+        "sha256": "581234a845669037811161d2c628edab6af0c6db8b1efc9e030b3cb527256072"
+      },
+      "file_wall_seconds": 0.8160636671818793,
+      "j": 128,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 110403082,
+        "sha256": "534dcb144702268041beb66ae9eaf1f802bcd7c9bf6f70bdc4ecfd1a66631dc0"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403082,
+        "sha256": "534dcb144702268041beb66ae9eaf1f802bcd7c9bf6f70bdc4ecfd1a66631dc0"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000160.npz.gz",
+      "archive_record": {
+        "bytes": 29744410,
+        "sha256": "94b383977eaa05664115026edd95a08a6c37dc99139585473792891269781ad1"
+      },
+      "file_wall_seconds": 0.8170839999802411,
+      "j": 160,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 110403094,
+        "sha256": "17f1b5236a4bdd89ac1a6f720b22b9e37992f528878523f26c12194d243d9498"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403094,
+        "sha256": "17f1b5236a4bdd89ac1a6f720b22b9e37992f528878523f26c12194d243d9498"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000192.npz.gz",
+      "archive_record": {
+        "bytes": 29776962,
+        "sha256": "d9c42b61a6909864517a35405fc6a3538ac7e458372f6ed15b79450f93041893"
+      },
+      "file_wall_seconds": 0.8067492919508368,
+      "j": 192,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 110403086,
+        "sha256": "43ff57193d7ab00eaea97c9cfb85f7c0f1cb5b905c68220e6ccf07fcdfadeeba"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403086,
+        "sha256": "43ff57193d7ab00eaea97c9cfb85f7c0f1cb5b905c68220e6ccf07fcdfadeeba"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000224.npz.gz",
+      "archive_record": {
+        "bytes": 29815325,
+        "sha256": "ff0c4248de3ecb20c4f12976c388bd092130f804c5833448b17299df8210d1ca"
+      },
+      "file_wall_seconds": 0.799039209028706,
+      "j": 224,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 110403090,
+        "sha256": "3a4e17ee9c7802be7917e201225e26555aede80cd6550e16013b43be9b2d742f"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403090,
+        "sha256": "3a4e17ee9c7802be7917e201225e26555aede80cd6550e16013b43be9b2d742f"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000256.npz.gz",
+      "archive_record": {
+        "bytes": 29849691,
+        "sha256": "73e9e35920f647fddc4c77a4c88ca84b91adc461bea734a09b1448312ac7e4ac"
+      },
+      "file_wall_seconds": 0.7949322080239654,
+      "j": 256,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 110403086,
+        "sha256": "4534b2fc25b678e9d6f774290dd8f5373ac96e5bfdecc2f03643404c760af004"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403086,
+        "sha256": "4534b2fc25b678e9d6f774290dd8f5373ac96e5bfdecc2f03643404c760af004"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000288.npz.gz",
+      "archive_record": {
+        "bytes": 35507640,
+        "sha256": "8e4a7191c5fa59692eed71d3133386a0c6b7835ca3a72d5346757780548e38bb"
+      },
+      "file_wall_seconds": 0.8885454579722136,
+      "j": 288,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000288.npz",
+      "original_record": {
+        "bytes": 110403126,
+        "sha256": "205c8119fb9c46f7879b4ed63925321c0c2504039ca6a75c5afb0d161635fdcb"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403126,
+        "sha256": "205c8119fb9c46f7879b4ed63925321c0c2504039ca6a75c5afb0d161635fdcb"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000320.npz.gz",
+      "archive_record": {
+        "bytes": 35543480,
+        "sha256": "50dbf287323ea4af229135235c86d8008829b142cf9ea22497903975507fad13"
+      },
+      "file_wall_seconds": 0.8795369588769972,
+      "j": 320,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000320.npz",
+      "original_record": {
+        "bytes": 110403114,
+        "sha256": "17054a9a554bd515dc935871b73a4aea6a1872696b457d42ef73a9d8efa6399e"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403114,
+        "sha256": "17054a9a554bd515dc935871b73a4aea6a1872696b457d42ef73a9d8efa6399e"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000352.npz.gz",
+      "archive_record": {
+        "bytes": 35581258,
+        "sha256": "4212126542d91e33d24c621b00f78ef3e629740690ce92c75b2353112c43ace7"
+      },
+      "file_wall_seconds": 0.8905310828704387,
+      "j": 352,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000352.npz",
+      "original_record": {
+        "bytes": 110403090,
+        "sha256": "76a137181924e2f993298f0c375714c9f2e353c27d60e37d81a408eb13b303a3"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403090,
+        "sha256": "76a137181924e2f993298f0c375714c9f2e353c27d60e37d81a408eb13b303a3"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000384.npz.gz",
+      "archive_record": {
+        "bytes": 35617201,
+        "sha256": "a82d8a440d5ba85a814369e1511efc8769da96e3b27fd8dfda237aa7b8a91667"
+      },
+      "file_wall_seconds": 0.8776023748796433,
+      "j": 384,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000384.npz",
+      "original_record": {
+        "bytes": 110403110,
+        "sha256": "0bd0ccbccbfd178a204ec9c185a0d26ac8a1a60a0a2de83c6f402fefce2fb842"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403110,
+        "sha256": "0bd0ccbccbfd178a204ec9c185a0d26ac8a1a60a0a2de83c6f402fefce2fb842"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000416.npz.gz",
+      "archive_record": {
+        "bytes": 35648825,
+        "sha256": "4623519daed92754f9b1054a0f4d0315292af6f14f0a43c63a07a04e9f5c296d"
+      },
+      "file_wall_seconds": 0.868385500041768,
+      "j": 416,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000416.npz",
+      "original_record": {
+        "bytes": 110403118,
+        "sha256": "e40d68d1662c3cc3c1e6eeeea51c6e4a3cb58bc4747bf27ac2ced292623b54d9"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403118,
+        "sha256": "e40d68d1662c3cc3c1e6eeeea51c6e4a3cb58bc4747bf27ac2ced292623b54d9"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000448.npz.gz",
+      "archive_record": {
+        "bytes": 35678553,
+        "sha256": "ab44029a2571ac83d2c40dc1b608634ce0eb3bc5c1b962b79133fefd774dff14"
+      },
+      "file_wall_seconds": 0.8626580839045346,
+      "j": 448,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000448.npz",
+      "original_record": {
+        "bytes": 110403114,
+        "sha256": "57b59e261c2705bde6b9379c17d42de57dbbd5d0f2c1e350fbf0190b264d7324"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403114,
+        "sha256": "57b59e261c2705bde6b9379c17d42de57dbbd5d0f2c1e350fbf0190b264d7324"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000480.npz.gz",
+      "archive_record": {
+        "bytes": 35707316,
+        "sha256": "12e888bd0df0efe6c6056429a6dce48a766e355a6a3e6b82c9be90477285bb5b"
+      },
+      "file_wall_seconds": 0.8594906670041382,
+      "j": 480,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000480.npz",
+      "original_record": {
+        "bytes": 110403134,
+        "sha256": "5a85913f3e7674d6751b95e249f27ac6baf1c391884874b0e27254aff7d25436"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403134,
+        "sha256": "5a85913f3e7674d6751b95e249f27ac6baf1c391884874b0e27254aff7d25436"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000512.npz.gz",
+      "archive_record": {
+        "bytes": 35730052,
+        "sha256": "fb224d926a193f3d086c1637b90912b82ec30794a34e133e370761c0184cdf70"
+      },
+      "file_wall_seconds": 0.8607752500101924,
+      "j": 512,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000512.npz",
+      "original_record": {
+        "bytes": 110403110,
+        "sha256": "dc8ad9cdcaa37e4670c898f119b4ce06bbd94457f9244cfd044f6b753d425d91"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 110403110,
+        "sha256": "dc8ad9cdcaa37e4670c898f119b4ce06bbd94457f9244cfd044f6b753d425d91"
+      },
+      "run_id": "trajectory128_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000000.npz.gz",
+      "archive_record": {
+        "bytes": 535608,
+        "sha256": "075a5a7e8ab496d17b8b8d6a17f9dbc9db52fed5ce0ccf5041e04d91e4f2a6aa"
+      },
+      "file_wall_seconds": 0.6204058330040425,
+      "j": 0,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 206343430,
+        "sha256": "1fd52e997d7f1fff87fdbbe3aaf3141ed8d0ad05a740f776e92117ff1b38d417"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206343430,
+        "sha256": "1fd52e997d7f1fff87fdbbe3aaf3141ed8d0ad05a740f776e92117ff1b38d417"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000032.npz.gz",
+      "archive_record": {
+        "bytes": 58276692,
+        "sha256": "96f7366728fd66d56c376680bdd8530fed5565f69d2fd2debde8de43ee8c9aa4"
+      },
+      "file_wall_seconds": 1.5720538331661373,
+      "j": 32,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 206347734,
+        "sha256": "976d99d0a2c36d717f90342c927c76540f4e4cb376a13339b931a1a0725b3719"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347734,
+        "sha256": "976d99d0a2c36d717f90342c927c76540f4e4cb376a13339b931a1a0725b3719"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000064.npz.gz",
+      "archive_record": {
+        "bytes": 58183687,
+        "sha256": "97559aca4651e3d0396d476573b555f092c826edecdb2597986d4d7ac39404e0"
+      },
+      "file_wall_seconds": 1.5731156249530613,
+      "j": 64,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 206347738,
+        "sha256": "f2cc452cf84041614a9ad02c879d74e45dc7a00a694b94cf6b5b65728b1faff6"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347738,
+        "sha256": "f2cc452cf84041614a9ad02c879d74e45dc7a00a694b94cf6b5b65728b1faff6"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000096.npz.gz",
+      "archive_record": {
+        "bytes": 58163112,
+        "sha256": "825670fa64ee901740031a71e63a56dc0951f9d20342ecca7e4b29e889da4bdf"
+      },
+      "file_wall_seconds": 1.600821082945913,
+      "j": 96,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 206347762,
+        "sha256": "ae989b9560d7adccc1f97bcc60b58a952259a881344edb089bb2fe673729e20d"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347762,
+        "sha256": "ae989b9560d7adccc1f97bcc60b58a952259a881344edb089bb2fe673729e20d"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000128.npz.gz",
+      "archive_record": {
+        "bytes": 58171808,
+        "sha256": "0a289bae6dfc1047d7e5e0c53417a9837295a89f7ef638533d1ab2884406c163"
+      },
+      "file_wall_seconds": 1.5968929170630872,
+      "j": 128,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 206347786,
+        "sha256": "4fb0ddf437f678f3d104f8bbb8d4c6da8287c996ed2ff35ee9453a0c631dad9c"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347786,
+        "sha256": "4fb0ddf437f678f3d104f8bbb8d4c6da8287c996ed2ff35ee9453a0c631dad9c"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000160.npz.gz",
+      "archive_record": {
+        "bytes": 58194392,
+        "sha256": "ca8da18b31b745d4db411a3cbe0b17c409a4fed046050492d95dbca1dab4f76f"
+      },
+      "file_wall_seconds": 1.5936147919856012,
+      "j": 160,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 206347798,
+        "sha256": "31e5282718b2f731e6d8b110edad2625b2c1d43c2c90ead10bf726068eb3b92f"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347798,
+        "sha256": "31e5282718b2f731e6d8b110edad2625b2c1d43c2c90ead10bf726068eb3b92f"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000192.npz.gz",
+      "archive_record": {
+        "bytes": 58228829,
+        "sha256": "90c2dcfd2f542918a40eb412ae7497bbbc96b9f1988519e721b1ea03a5c762b2"
+      },
+      "file_wall_seconds": 1.582136084092781,
+      "j": 192,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 206347790,
+        "sha256": "9c8da8b8f57672d3eeb8ab72ac5d065293e99a098c847685652274e9391ae390"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347790,
+        "sha256": "9c8da8b8f57672d3eeb8ab72ac5d065293e99a098c847685652274e9391ae390"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000224.npz.gz",
+      "archive_record": {
+        "bytes": 58275952,
+        "sha256": "48dd128d39585852e44787a0da31032ee55853137cfc3e2c6abbb683e975224b"
+      },
+      "file_wall_seconds": 1.5768244999926537,
+      "j": 224,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 206347794,
+        "sha256": "a1c1d8dc9703bffec26233a3a5793f737d6d7c17160343ca3f25ecb1aaf5df8c"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347794,
+        "sha256": "a1c1d8dc9703bffec26233a3a5793f737d6d7c17160343ca3f25ecb1aaf5df8c"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000256.npz.gz",
+      "archive_record": {
+        "bytes": 58330139,
+        "sha256": "79a6e10513f336a445c5377394c4d89b7dce4e72fead0604dd01b87c249fdba3"
+      },
+      "file_wall_seconds": 1.5469732091296464,
+      "j": 256,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 206347790,
+        "sha256": "05d16280c03c5177d6cec7eb3e6f42c4d9f7cf2a33c5aec3e38aaa56788f52ca"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347790,
+        "sha256": "05d16280c03c5177d6cec7eb3e6f42c4d9f7cf2a33c5aec3e38aaa56788f52ca"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000288.npz.gz",
+      "archive_record": {
+        "bytes": 64011743,
+        "sha256": "c05648d9c4418803a2f85a8b98c032771138259936c386448446a03e5778f0cc"
+      },
+      "file_wall_seconds": 1.6375302080996335,
+      "j": 288,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000288.npz",
+      "original_record": {
+        "bytes": 206347830,
+        "sha256": "842aeed2d6c55c3d3d4e6e9a7662f914538881929ba1cab43a0da83824855cd1"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347830,
+        "sha256": "842aeed2d6c55c3d3d4e6e9a7662f914538881929ba1cab43a0da83824855cd1"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000320.npz.gz",
+      "archive_record": {
+        "bytes": 64074828,
+        "sha256": "bb4d6fbe2c08fd9cd73f67caa7effde068ff957208ff899922decb98caebedcd"
+      },
+      "file_wall_seconds": 1.645571291912347,
+      "j": 320,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000320.npz",
+      "original_record": {
+        "bytes": 206347818,
+        "sha256": "b0942e7ed3df0eb44900a6b4ba4bcee7e0c2c9905a41efe3a145f10662526604"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347818,
+        "sha256": "b0942e7ed3df0eb44900a6b4ba4bcee7e0c2c9905a41efe3a145f10662526604"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000352.npz.gz",
+      "archive_record": {
+        "bytes": 64145459,
+        "sha256": "7fc6332e20c9634dbb7119636e14351d6afef2c0a2f5d12095152d37be71ffca"
+      },
+      "file_wall_seconds": 1.6212175420951098,
+      "j": 352,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000352.npz",
+      "original_record": {
+        "bytes": 206347794,
+        "sha256": "4048394320b3d8abc0e61c0fecd389b5ab4e1b3766a485720f89ffd24aae2ec8"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347794,
+        "sha256": "4048394320b3d8abc0e61c0fecd389b5ab4e1b3766a485720f89ffd24aae2ec8"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000384.npz.gz",
+      "archive_record": {
+        "bytes": 64221739,
+        "sha256": "a0d157c1e280e2363ee5808a361fd37e649b5fce116f3a6ed9cd34f956daa2ab"
+      },
+      "file_wall_seconds": 1.602636249968782,
+      "j": 384,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000384.npz",
+      "original_record": {
+        "bytes": 206347814,
+        "sha256": "1760201165ef4349afa8fc805c6050e0a6e55176e0d20dbe8dd5f5e241da4d44"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347814,
+        "sha256": "1760201165ef4349afa8fc805c6050e0a6e55176e0d20dbe8dd5f5e241da4d44"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000416.npz.gz",
+      "archive_record": {
+        "bytes": 64301652,
+        "sha256": "cf7b4031b2de3c13e4a32cdcb53236dc9dbac06ffbcc5cc6dc4e6c3bc83287f8"
+      },
+      "file_wall_seconds": 1.5944549581035972,
+      "j": 416,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000416.npz",
+      "original_record": {
+        "bytes": 206347822,
+        "sha256": "e1f2ce3b21d1883bd3bf004e24ab74a0dda30ecc8d9f2c346ac4ab7794a4eccd"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347822,
+        "sha256": "e1f2ce3b21d1883bd3bf004e24ab74a0dda30ecc8d9f2c346ac4ab7794a4eccd"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000448.npz.gz",
+      "archive_record": {
+        "bytes": 64378907,
+        "sha256": "aafb79f348e53db492fd6a823dec0dc4a1a3a065a59f7f3d13e20873fb48f09b"
+      },
+      "file_wall_seconds": 1.5827095829881728,
+      "j": 448,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000448.npz",
+      "original_record": {
+        "bytes": 206347818,
+        "sha256": "5afc228f088c63b5a9c1ab987672e6d9491a783926e53b44171b9fcd0bead15d"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347818,
+        "sha256": "5afc228f088c63b5a9c1ab987672e6d9491a783926e53b44171b9fcd0bead15d"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000480.npz.gz",
+      "archive_record": {
+        "bytes": 64448665,
+        "sha256": "be9235e30267513b87e9e6bd7fea975ef6952981d1bbe3e45b2be9de37bc674d"
+      },
+      "file_wall_seconds": 1.5714189591817558,
+      "j": 480,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000480.npz",
+      "original_record": {
+        "bytes": 206347838,
+        "sha256": "4c404085048d517672950dd006b0bbad384c0d08c205f82fe5abfc4c993f68f6"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347838,
+        "sha256": "4c404085048d517672950dd006b0bbad384c0d08c205f82fe5abfc4c993f68f6"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000512.npz.gz",
+      "archive_record": {
+        "bytes": 64510727,
+        "sha256": "3240b617fe1d7315010c24fae7900b424a6d1240eb757d4ae5b46bd9e0d20da7"
+      },
+      "file_wall_seconds": 1.5699322090949863,
+      "j": 512,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000512.npz",
+      "original_record": {
+        "bytes": 206347814,
+        "sha256": "f0bbb17fd6f48f0c095a12210ca61a15f46eb04bb716115c500048666bbf894d"
+      },
+      "restoration_verified": true,
+      "restored_record": {
+        "bytes": 206347814,
+        "sha256": "f0bbb17fd6f48f0c095a12210ca61a15f46eb04bb716115c500048666bbf894d"
+      },
+      "run_id": "trajectory160_512",
+      "status": "VERIFIED"
+    }
+  ],
+  "gzip_bytes_recorded": 2256277021,
+  "gzip_compresslevel": 6,
+  "gzip_filename_header": "",
+  "gzip_mtime": 0,
+  "original_files_preserved": true,
+  "prerequisites": [
+    {
+      "completion_counts": {
+        "checkpoint_count": 9,
+        "completed_steps": 256,
+        "expected_steps": 256,
+        "fft_batched_api_calls": 9216,
+        "fft_scalar_3d_transforms": 27648,
+        "node_count": 257
+      },
+      "execution": {
+        "bytes": 33381,
+        "sha256": "7d9c115bb50900cb618b633bb55990d55658bd5aa6d3af2284232e0936eec408"
+      },
+      "result": {
+        "bytes": 28308,
+        "sha256": "58e599d3e45e2699b3eaed95b4be904ec8015d17159218e33d30d94db833c85a"
+      },
+      "run_id": "trajectory128_256",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "completion_counts": {
+        "checkpoint_count": 9,
+        "completed_steps": 256,
+        "expected_steps": 256,
+        "fft_batched_api_calls": 9216,
+        "fft_scalar_3d_transforms": 27648,
+        "node_count": 257
+      },
+      "execution": {
+        "bytes": 33385,
+        "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+      },
+      "result": {
+        "bytes": 28292,
+        "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+      },
+      "run_id": "trajectory160_256",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "completion_counts": {
+        "checkpoint_count": 17,
+        "completed_steps": 512,
+        "expected_steps": 512,
+        "fft_batched_api_calls": 18432,
+        "fft_scalar_3d_transforms": 55296,
+        "node_count": 513
+      },
+      "execution": {
+        "bytes": 35888,
+        "sha256": "e8ceb73f0dde7ee507869e14f59e074c4ba4b2a87a85315e590396762bbee99a"
+      },
+      "result": {
+        "bytes": 29393,
+        "sha256": "0acf9cc4fd925185e78d640ee7142e9d7de666d681440489de568bdccb907caa"
+      },
+      "run_id": "trajectory128_512",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "completion_counts": {
+        "checkpoint_count": 17,
+        "completed_steps": 512,
+        "expected_steps": 512,
+        "fft_batched_api_calls": 18432,
+        "fft_scalar_3d_transforms": 55296,
+        "node_count": 513
+      },
+      "execution": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "result": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      },
+      "run_id": "trajectory160_512",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "completion_counts": {
+        "checkpoint_pairs": 44,
+        "comparison_groups": 4,
+        "fft_batched_api_calls": 0,
+        "fft_scalar_3d_transforms": 0,
+        "scalar_node_pairs": 1284
+      },
+      "execution": {
+        "bytes": 34519,
+        "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+      },
+      "result": {
+        "bytes": 29455,
+        "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+      },
+      "run_id": "trajectory_comparison",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "resource_scope": "one byte-archive process, no child; wall starts after stdlib imports and ends before final manifest serialization; SELF CPU/RSS sampled there, RSS is process lifetime peak in Darwin bytes, not a full lifecycle or concurrent-process peak certificate",
+  "restoration": "Stream gzip to the listed original path only when absent; verify original SHA/bytes. Never overwrite existing originals. Archives are byte copies, not array or NS certificates.",
+  "schema": 1,
+  "scientific_worker_invocations": 0,
+  "scope": "LOSSLESS_BYTE_ARCHIVE_ONLY_NO_SCIENTIFIC_EXECUTION",
+  "script_end": {
+    "bytes": 15998,
+    "sha256": "e92974dccf0e7d1664a887080e33ae100c9c9b1ea3844a9750b71c54ab377a7d"
+  },
+  "script_start": {
+    "bytes": 15998,
+    "sha256": "e92974dccf0e7d1664a887080e33ae100c9c9b1ea3844a9750b71c54ab377a7d"
+  },
+  "selected": [
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000000.npz.gz",
+      "j": 0,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 110398718,
+        "sha256": "8415c716ebb7df1715b3fb96c41ec95e37f45bdcc35f3fcb6780f6c8b570541c"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000032.npz.gz",
+      "j": 32,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 110403014,
+        "sha256": "aeae8e444255aa38d39255bc82672396f282c428a4e5aa650d0a79e572bb034b"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000064.npz.gz",
+      "j": 64,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 110403030,
+        "sha256": "4153d5b35778e9e5730edfad719d204bf8f1b36814ff505340c12e00edf0cd09"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000096.npz.gz",
+      "j": 96,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 110403042,
+        "sha256": "6e388b7cab68a04e245b603d6d2f46475f0f4c16bfaf459ebc7348415d4d61c8"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000128.npz.gz",
+      "j": 128,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 110403054,
+        "sha256": "af20dae8bf138e1456d95c1801dffe798a51c8289b523f8d5a3def2749dd5866"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000160.npz.gz",
+      "j": 160,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 110403078,
+        "sha256": "ea0b63ddb1eeccb250f656800d6e0c53123876e9cdc88d79a94036e9716b2e45"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000192.npz.gz",
+      "j": 192,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 110403074,
+        "sha256": "456eea9abed7e005a9569864ea76e07d8b3b3fb2d5c7ee703ebb094901f59d6c"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000224.npz.gz",
+      "j": 224,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 110403066,
+        "sha256": "8c62967edc231787d47083e960f05cd8249e8026d17b26a2d11099020060c52d"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_256-checkpoint-000256.npz.gz",
+      "j": 256,
+      "original": "numerical-runs/trajectory128_256/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 110403082,
+        "sha256": "81bd509b251f5dc947daf16e9d344de38dbd793dde82415e9e907009c8db6251"
+      },
+      "run_id": "trajectory128_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000000.npz.gz",
+      "j": 0,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 206343422,
+        "sha256": "2a97fff5750e75a8b01fe3003e39dde501381b581ff2438359d2804760c5b70c"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000032.npz.gz",
+      "j": 32,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 206347718,
+        "sha256": "56d88c0e6b466744dcb5234caf7dc48f39a879c7dec56f37758268deabaeaad0"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000064.npz.gz",
+      "j": 64,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 206347734,
+        "sha256": "ba8e0c9e59733652b4edb56f815e0c33450b4ce4241bbc3c41b5c42005d211a6"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000096.npz.gz",
+      "j": 96,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 206347746,
+        "sha256": "3bfcf2c0a2537df9edc9c9a4ae7e476fe0a859fb261feb50451c7b62b0a045d6"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000128.npz.gz",
+      "j": 128,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 206347758,
+        "sha256": "d34cab2bb1831576479a3872de0fc48d57911e12d348dd46126f76148cb77ec5"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000160.npz.gz",
+      "j": 160,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 206347782,
+        "sha256": "de7fa05ed39eb63d45e09043b77ea84ea2d3270d54cfa4050798507ce3ebe55d"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000192.npz.gz",
+      "j": 192,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 206347778,
+        "sha256": "2bb25bb2d0fec9177ba016b9bd160b6aac5840a19a98c658ae74a26c5e859e2f"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000224.npz.gz",
+      "j": 224,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 206347770,
+        "sha256": "6221a911eea924e51a45d1d45adadc2c5fb3119d377bc0ccf7ea9f08fd9f7def"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_256-checkpoint-000256.npz.gz",
+      "j": 256,
+      "original": "numerical-runs/trajectory160_256/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 206347786,
+        "sha256": "5db76b48cd6612e545e56f0aee234e0b2fd41e2ee8a49d68d809ca8deb2b0952"
+      },
+      "run_id": "trajectory160_256"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000000.npz.gz",
+      "j": 0,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 110398726,
+        "sha256": "e61de3094c1dc68687eb41af90b264f864f2824c865f7e340973579ce647dc8b"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000032.npz.gz",
+      "j": 32,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 110403030,
+        "sha256": "7f0092f3d4982a7bf90fa4bd0a06e6f01d6bdfa47a736749137c7c4debb4f6f2"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000064.npz.gz",
+      "j": 64,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 110403034,
+        "sha256": "85cd54ea0af4d81ef85e73a634e4528a5606d63786329a3e9bf4c045240605d9"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000096.npz.gz",
+      "j": 96,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 110403058,
+        "sha256": "b227e0c1b68e6c318d50ae4c4e210d991c0558f06795efb9ac76e22655866f77"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000128.npz.gz",
+      "j": 128,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 110403082,
+        "sha256": "534dcb144702268041beb66ae9eaf1f802bcd7c9bf6f70bdc4ecfd1a66631dc0"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000160.npz.gz",
+      "j": 160,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 110403094,
+        "sha256": "17f1b5236a4bdd89ac1a6f720b22b9e37992f528878523f26c12194d243d9498"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000192.npz.gz",
+      "j": 192,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 110403086,
+        "sha256": "43ff57193d7ab00eaea97c9cfb85f7c0f1cb5b905c68220e6ccf07fcdfadeeba"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000224.npz.gz",
+      "j": 224,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 110403090,
+        "sha256": "3a4e17ee9c7802be7917e201225e26555aede80cd6550e16013b43be9b2d742f"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000256.npz.gz",
+      "j": 256,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 110403086,
+        "sha256": "4534b2fc25b678e9d6f774290dd8f5373ac96e5bfdecc2f03643404c760af004"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000288.npz.gz",
+      "j": 288,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000288.npz",
+      "original_record": {
+        "bytes": 110403126,
+        "sha256": "205c8119fb9c46f7879b4ed63925321c0c2504039ca6a75c5afb0d161635fdcb"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000320.npz.gz",
+      "j": 320,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000320.npz",
+      "original_record": {
+        "bytes": 110403114,
+        "sha256": "17054a9a554bd515dc935871b73a4aea6a1872696b457d42ef73a9d8efa6399e"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000352.npz.gz",
+      "j": 352,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000352.npz",
+      "original_record": {
+        "bytes": 110403090,
+        "sha256": "76a137181924e2f993298f0c375714c9f2e353c27d60e37d81a408eb13b303a3"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000384.npz.gz",
+      "j": 384,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000384.npz",
+      "original_record": {
+        "bytes": 110403110,
+        "sha256": "0bd0ccbccbfd178a204ec9c185a0d26ac8a1a60a0a2de83c6f402fefce2fb842"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000416.npz.gz",
+      "j": 416,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000416.npz",
+      "original_record": {
+        "bytes": 110403118,
+        "sha256": "e40d68d1662c3cc3c1e6eeeea51c6e4a3cb58bc4747bf27ac2ced292623b54d9"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000448.npz.gz",
+      "j": 448,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000448.npz",
+      "original_record": {
+        "bytes": 110403114,
+        "sha256": "57b59e261c2705bde6b9379c17d42de57dbbd5d0f2c1e350fbf0190b264d7324"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000480.npz.gz",
+      "j": 480,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000480.npz",
+      "original_record": {
+        "bytes": 110403134,
+        "sha256": "5a85913f3e7674d6751b95e249f27ac6baf1c391884874b0e27254aff7d25436"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory128_512-checkpoint-000512.npz.gz",
+      "j": 512,
+      "original": "numerical-runs/trajectory128_512/checkpoint-000512.npz",
+      "original_record": {
+        "bytes": 110403110,
+        "sha256": "dc8ad9cdcaa37e4670c898f119b4ce06bbd94457f9244cfd044f6b753d425d91"
+      },
+      "run_id": "trajectory128_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000000.npz.gz",
+      "j": 0,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000000.npz",
+      "original_record": {
+        "bytes": 206343430,
+        "sha256": "1fd52e997d7f1fff87fdbbe3aaf3141ed8d0ad05a740f776e92117ff1b38d417"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000032.npz.gz",
+      "j": 32,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000032.npz",
+      "original_record": {
+        "bytes": 206347734,
+        "sha256": "976d99d0a2c36d717f90342c927c76540f4e4cb376a13339b931a1a0725b3719"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000064.npz.gz",
+      "j": 64,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000064.npz",
+      "original_record": {
+        "bytes": 206347738,
+        "sha256": "f2cc452cf84041614a9ad02c879d74e45dc7a00a694b94cf6b5b65728b1faff6"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000096.npz.gz",
+      "j": 96,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000096.npz",
+      "original_record": {
+        "bytes": 206347762,
+        "sha256": "ae989b9560d7adccc1f97bcc60b58a952259a881344edb089bb2fe673729e20d"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000128.npz.gz",
+      "j": 128,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000128.npz",
+      "original_record": {
+        "bytes": 206347786,
+        "sha256": "4fb0ddf437f678f3d104f8bbb8d4c6da8287c996ed2ff35ee9453a0c631dad9c"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000160.npz.gz",
+      "j": 160,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000160.npz",
+      "original_record": {
+        "bytes": 206347798,
+        "sha256": "31e5282718b2f731e6d8b110edad2625b2c1d43c2c90ead10bf726068eb3b92f"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000192.npz.gz",
+      "j": 192,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000192.npz",
+      "original_record": {
+        "bytes": 206347790,
+        "sha256": "9c8da8b8f57672d3eeb8ab72ac5d065293e99a098c847685652274e9391ae390"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000224.npz.gz",
+      "j": 224,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000224.npz",
+      "original_record": {
+        "bytes": 206347794,
+        "sha256": "a1c1d8dc9703bffec26233a3a5793f737d6d7c17160343ca3f25ecb1aaf5df8c"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000256.npz.gz",
+      "j": 256,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000256.npz",
+      "original_record": {
+        "bytes": 206347790,
+        "sha256": "05d16280c03c5177d6cec7eb3e6f42c4d9f7cf2a33c5aec3e38aaa56788f52ca"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000288.npz.gz",
+      "j": 288,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000288.npz",
+      "original_record": {
+        "bytes": 206347830,
+        "sha256": "842aeed2d6c55c3d3d4e6e9a7662f914538881929ba1cab43a0da83824855cd1"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000320.npz.gz",
+      "j": 320,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000320.npz",
+      "original_record": {
+        "bytes": 206347818,
+        "sha256": "b0942e7ed3df0eb44900a6b4ba4bcee7e0c2c9905a41efe3a145f10662526604"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000352.npz.gz",
+      "j": 352,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000352.npz",
+      "original_record": {
+        "bytes": 206347794,
+        "sha256": "4048394320b3d8abc0e61c0fecd389b5ab4e1b3766a485720f89ffd24aae2ec8"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000384.npz.gz",
+      "j": 384,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000384.npz",
+      "original_record": {
+        "bytes": 206347814,
+        "sha256": "1760201165ef4349afa8fc805c6050e0a6e55176e0d20dbe8dd5f5e241da4d44"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000416.npz.gz",
+      "j": 416,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000416.npz",
+      "original_record": {
+        "bytes": 206347822,
+        "sha256": "e1f2ce3b21d1883bd3bf004e24ab74a0dda30ecc8d9f2c346ac4ab7794a4eccd"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000448.npz.gz",
+      "j": 448,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000448.npz",
+      "original_record": {
+        "bytes": 206347818,
+        "sha256": "5afc228f088c63b5a9c1ab987672e6d9491a783926e53b44171b9fcd0bead15d"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000480.npz.gz",
+      "j": 480,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000480.npz",
+      "original_record": {
+        "bytes": 206347838,
+        "sha256": "4c404085048d517672950dd006b0bbad384c0d08c205f82fe5abfc4c993f68f6"
+      },
+      "run_id": "trajectory160_512"
+    },
+    {
+      "archive": "trajectory-data-archive/trajectory160_512-checkpoint-000512.npz.gz",
+      "j": 512,
+      "original": "numerical-runs/trajectory160_512/checkpoint-000512.npz",
+      "original_record": {
+        "bytes": 206347814,
+        "sha256": "f0bbb17fd6f48f0c095a12210ca61a15f46eb04bb716115c500048666bbf894d"
+      },
+      "run_id": "trajectory160_512"
+    }
+  ],
+  "selected_count": 52,
+  "self_at_pre_manifest_serialization": {
+    "peak_rss_bytes": 30113792,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 2.600048,
+    "user_seconds": 60.189136
+  },
+  "self_before": {
+    "peak_rss_bytes": 22183936,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 0.013368999999999999,
+    "user_seconds": 0.01685
+  },
+  "single_gzip_required_strictly_below_bytes": 104857600,
+  "status": "PASS",
+  "verified_files": 52,
+  "verified_original_bytes": 8235505024,
+  "zlib_runtime_version": "1.2.12",
+  "zlib_version": "1.2.12"
+}

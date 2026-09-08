@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "status": "LOSSLESS_ARCHIVE_BYTES_ACCEPTED",
+  "manifest": {
+    "bytes": 65401,
+    "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+  },
+  "progress": {
+    "bytes": 26559,
+    "sha256": "c2bac5396bc6162994cef94ebaa536379cad730aa9e7179594f285a95b7c6f71"
+  },
+  "script": {
+    "bytes": 15998,
+    "sha256": "e92974dccf0e7d1664a887080e33ae100c9c9b1ea3844a9750b71c54ab377a7d"
+  },
+  "files": 52,
+  "original_bytes": 8235505024,
+  "gzip_bytes": 2256277021,
+  "largest_gzip_bytes": 64510727,
+  "by_run": {
+    "trajectory128_256": {
+      "files": 9,
+      "original_bytes": 993623158,
+      "gzip_bytes": 261967268
+    },
+    "trajectory160_256": {
+      "files": 9,
+      "original_bytes": 1857125494,
+      "gzip_bytes": 490410820
+    },
+    "trajectory128_512": {
+      "files": 17,
+      "original_bytes": 1876848202,
+      "gzip_bytes": 523444994
+    },
+    "trajectory160_512": {
+      "files": 17,
+      "original_bytes": 3507908170,
+      "gzip_bytes": 980453939
+    }
+  },
+  "original_and_archive_hashes_root_rechecked": true,
+  "all_streamed_restoration_records_match_originals": true,
+  "root_did_not_repeat_decompression": true,
+  "scientific_worker_invocations": 0,
+  "archive_seconds_to_manifest": 63.18366670794785,
+  "archive_self_pre_manifest": {
+    "peak_rss_bytes": 30113792,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 2.600048,
+    "user_seconds": 60.189136
+  },
+  "resource_scope": "one byte-archive process, no child; wall starts after stdlib imports and ends before final manifest serialization; SELF CPU/RSS sampled there, RSS is process lifetime peak in Darwin bytes, not a full lifecycle or concurrent-process peak certificate"
+}

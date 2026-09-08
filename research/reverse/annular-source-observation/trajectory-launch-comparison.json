@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-09-08T22:13:46.423418+00:00",
+  "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+  "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+  "memory_pressure_command": [
+    "memory_pressure",
+    "-Q"
+  ],
+  "memory_pressure_stdout": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 58%\n",
+  "memory_pressure_stderr": "",
+  "actual_free_percentage": 58,
+  "required_free_percentage": 40,
+  "actual_disk_free_bytes": 1326952456192,
+  "required_disk_free_bytes": 1073741824,
+  "parallel_supervisors": 1,
+  "runs": [
+    "trajectory_comparison"
+  ],
+  "completed_trajectories": [
+    {
+      "run_id": "trajectory128_256",
+      "execution": {
+        "bytes": 33381,
+        "sha256": "7d9c115bb50900cb618b633bb55990d55658bd5aa6d3af2284232e0936eec408"
+      },
+      "result": {
+        "bytes": 28308,
+        "sha256": "58e599d3e45e2699b3eaed95b4be904ec8015d17159218e33d30d94db833c85a"
+      },
+      "complete_directory_manifest_sha256": "17801d40b146de9b0e8dbd4677e54bd538346acf4129f007b84e8c05d160c894"
+    },
+    {
+      "run_id": "trajectory160_256",
+      "execution": {
+        "bytes": 33385,
+        "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+      },
+      "result": {
+        "bytes": 28292,
+        "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+      },
+      "complete_directory_manifest_sha256": "e6ddda89527973a47bf8bc3874fd84889f52373908958fbd88323ff57710c659"
+    },
+    {
+      "run_id": "trajectory128_512",
+      "execution": {
+        "bytes": 35888,
+        "sha256": "e8ceb73f0dde7ee507869e14f59e074c4ba4b2a87a85315e590396762bbee99a"
+      },
+      "result": {
+        "bytes": 29393,
+        "sha256": "0acf9cc4fd925185e78d640ee7142e9d7de666d681440489de568bdccb907caa"
+      },
+      "complete_directory_manifest_sha256": "36ad3fded3dafb2ad6cdc7fe4f46fd20fe18c96eb331a5c5d5cee4d7e7a601f5"
+    },
+    {
+      "run_id": "trajectory160_512",
+      "execution": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "result": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      },
+      "complete_directory_manifest_sha256": "04e0885ee6f802a04407c71adf485e88b9e7f85b6cefdb16c9248d8dfcc67042"
+    }
+  ],
+  "new_scientific_workers_completed_before_gate": 4,
+  "gate_pass": true
+}

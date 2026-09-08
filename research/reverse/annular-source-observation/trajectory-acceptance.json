@@ -1,0 +1,223 @@
+{
+  "schema": "ReverseNS-annular-trajectory-acceptance-v1",
+  "status": "ACCEPTED_FINITE_NUMERICAL_NO_CANDIDATE_NOT_REAL_NS_GATE_EXCLUSION",
+  "classification": "PRIVATE_CORE",
+  "accepted_at_utc": "2026-09-08T22:33:09.179776+00:00",
+  "trajectory_source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+  "trajectory_source_lock": {
+    "path": "research/reverse/annular-source-observation/trajectory-source-lock.json",
+    "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+    "bytes": 7813
+  },
+  "original_datum_is_unchanged": true,
+  "same_q36_input_all_four": true,
+  "runs": [
+    {
+      "schema": 1,
+      "status": "COMPLETE_EXECUTION_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+      "run_id": "trajectory128_256",
+      "checked_at_utc": "2026-09-08T21:46:43.014818+00:00",
+      "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "execution": {
+        "bytes": 33381,
+        "sha256": "7d9c115bb50900cb618b633bb55990d55658bd5aa6d3af2284232e0936eec408"
+      },
+      "result": {
+        "bytes": 28308,
+        "sha256": "58e599d3e45e2699b3eaed95b4be904ec8015d17159218e33d30d94db833c85a"
+      },
+      "complete_directory_manifest_sha256": "17801d40b146de9b0e8dbd4677e54bd538346acf4129f007b84e8c05d160c894",
+      "complete_directory_bytes": 996261910,
+      "complete_file_count": 16,
+      "child_wall_seconds": 392.0178605,
+      "child_peak_rss_bytes": 1167949824,
+      "actual_completion_counts": {
+        "checkpoint_count": 9,
+        "completed_steps": 256,
+        "expected_steps": 256,
+        "fft_batched_api_calls": 9216,
+        "fft_scalar_3d_transforms": 27648,
+        "node_count": 257
+      },
+      "byte_verification_only_no_new_scientific_execution": true,
+      "actual_NS_error_or_source_gate_certified": false
+    },
+    {
+      "schema": 1,
+      "status": "COMPLETE_EXECUTION_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+      "run_id": "trajectory160_256",
+      "checked_at_utc": "2026-09-08T21:50:34.644229+00:00",
+      "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "execution": {
+        "bytes": 33385,
+        "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+      },
+      "result": {
+        "bytes": 28292,
+        "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+      },
+      "complete_directory_manifest_sha256": "e6ddda89527973a47bf8bc3874fd84889f52373908958fbd88323ff57710c659",
+      "complete_directory_bytes": 1859763730,
+      "complete_file_count": 16,
+      "child_wall_seconds": 629.237791666,
+      "child_peak_rss_bytes": 2198126592,
+      "actual_completion_counts": {
+        "checkpoint_count": 9,
+        "completed_steps": 256,
+        "expected_steps": 256,
+        "fft_batched_api_calls": 9216,
+        "fft_scalar_3d_transforms": 27648,
+        "node_count": 257
+      },
+      "byte_verification_only_no_new_scientific_execution": true,
+      "actual_NS_error_or_source_gate_certified": false
+    },
+    {
+      "schema": 1,
+      "status": "COMPLETE_EXECUTION_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+      "run_id": "trajectory128_512",
+      "checked_at_utc": "2026-09-08T22:05:15.804340+00:00",
+      "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "execution": {
+        "bytes": 35888,
+        "sha256": "e8ceb73f0dde7ee507869e14f59e074c4ba4b2a87a85315e590396762bbee99a"
+      },
+      "result": {
+        "bytes": 29393,
+        "sha256": "0acf9cc4fd925185e78d640ee7142e9d7de666d681440489de568bdccb907caa"
+      },
+      "complete_directory_manifest_sha256": "36ad3fded3dafb2ad6cdc7fe4f46fd20fe18c96eb331a5c5d5cee4d7e7a601f5",
+      "complete_directory_bytes": 1882075330,
+      "complete_file_count": 24,
+      "child_wall_seconds": 759.938623208,
+      "child_peak_rss_bytes": 1212858368,
+      "actual_completion_counts": {
+        "checkpoint_count": 17,
+        "completed_steps": 512,
+        "expected_steps": 512,
+        "fft_batched_api_calls": 18432,
+        "fft_scalar_3d_transforms": 55296,
+        "node_count": 513
+      },
+      "byte_verification_only_no_new_scientific_execution": true,
+      "actual_NS_error_or_source_gate_certified": false
+    },
+    {
+      "schema": 1,
+      "status": "COMPLETE_EXECUTION_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+      "run_id": "trajectory160_512",
+      "checked_at_utc": "2026-09-08T22:13:19.067616+00:00",
+      "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "execution": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "result": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      },
+      "complete_directory_manifest_sha256": "04e0885ee6f802a04407c71adf485e88b9e7f85b6cefdb16c9248d8dfcc67042",
+      "complete_directory_bytes": 3513135402,
+      "complete_file_count": 24,
+      "child_wall_seconds": 1239.593121,
+      "child_peak_rss_bytes": 2227109888,
+      "actual_completion_counts": {
+        "checkpoint_count": 17,
+        "completed_steps": 512,
+        "expected_steps": 512,
+        "fft_batched_api_calls": 18432,
+        "fft_scalar_3d_transforms": 55296,
+        "node_count": 513
+      },
+      "byte_verification_only_no_new_scientific_execution": true,
+      "actual_NS_error_or_source_gate_certified": false
+    },
+    {
+      "schema": 1,
+      "status": "COMPLETE_FIXED_COMPARISON_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+      "run_id": "trajectory_comparison",
+      "checked_at_utc": "2026-09-08T22:16:23.901981+00:00",
+      "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+      "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "execution": {
+        "bytes": 34519,
+        "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+      },
+      "result": {
+        "bytes": 29455,
+        "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+      },
+      "complete_directory_manifest_sha256": "934fd4b397145997a51b7b066749a874976b74d8a083259859e9156c568cddee",
+      "complete_directory_bytes": 7734312,
+      "complete_file_count": 8,
+      "input_files_independently_byte_checked": 123,
+      "child_wall_seconds": 24.166101083,
+      "child_peak_rss_bytes": 1497366528,
+      "actual_completion_counts": {
+        "comparison_groups": 4,
+        "checkpoint_pairs": 44,
+        "scalar_node_pairs": 1284,
+        "fft_batched_api_calls": 0,
+        "fft_scalar_3d_transforms": 0
+      },
+      "byte_verification_only_no_new_scientific_execution": true,
+      "actual_NS_error_or_source_gate_certified": false
+    }
+  ],
+  "all_five_runs_closed": true,
+  "all_scientific_runs_closed": 10,
+  "scientific_reruns": 0,
+  "scientific_worker_counts": {
+    "input": 2,
+    "implementation_and_cost": 3,
+    "trajectories": 4,
+    "comparison": 1
+  },
+  "fft_scalar_3d_transforms": 166194,
+  "comparison_FFT": 0,
+  "result_review": {
+    "path": "research/reverse/annular-source-observation/TRAJECTORY_RESULT_REVIEW.md",
+    "sha256": "3afe126a1d2230a1779463334b9293b92df8a64c39a783e089df8c8252fa4cff",
+    "bytes": 14590
+  },
+  "root_full_read_final_result_review": true,
+  "root_report": {
+    "path": "research/reverse/annular-source-observation/TRAJECTORY_RESULT.md",
+    "sha256": "c82aedc328b5c5bdd132fdfbbe98a7e9361320f8c40175d027e012e45068babd",
+    "bytes": 9848
+  },
+  "actual_NS_existence_through_T_certified": false,
+  "actual_NS_gate_failure_certified": false,
+  "continuous_first_gate_certified": false,
+  "actual_nonzero_certified": false,
+  "uniform_iteration": false,
+  "fixed_datum_infinite_scales": false,
+  "infinite_dimensional_errors_paid": false,
+  "finite_time_singularity": false,
+  "formal_machine_proof": false,
+  "human_peer_review": false,
+  "raw_data_preservation": {
+    "path": "research/reverse/annular-source-observation/trajectory-archive-acceptance.json",
+    "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c",
+    "bytes": 1720
+  },
+  "gzip_git_preservation": {
+    "path": "research/reverse/annular-source-observation/trajectory-data-git-preservation.json",
+    "sha256": "53b35bc384bbe1a60238f6719d158badd0b7bcafa7d415d1258bfbd84c73367f",
+    "bytes": 1059
+  },
+  "new_figures": [],
+  "new_reader_pdf": false,
+  "scope": "Execution, byte, resource and final scope accepted for the fixed finite numerical observation only; no true NS error, gate exclusion or convergence certificate.",
+  "root_report_full_read_plus_four_final_scope_replacements": true,
+  "final_scope_review": {
+    "path": "research/reverse/annular-source-observation/FINAL_SCOPE_REVIEW.md",
+    "sha256": "edafd4eb9fdf08f98eb09746c4618ac334c922b3f7b04d9354b011c11864c440",
+    "bytes": 4575
+  },
+  "root_full_read_final_scope_review": true
+}

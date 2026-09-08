@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "status": "FIVE_RUNS_CLOSED_ARCHIVE_SOURCE_READY",
+  "checked_at_utc": "2026-09-08T22:18:06.759345+00:00",
+  "archive_script_source_commit": "ca51ad43f282a1b091b088bc2e71f405ff627f74",
+  "archive_script_sha256": "e92974dccf0e7d1664a887080e33ae100c9c9b1ea3844a9750b71c54ab377a7d",
+  "archive_script_bytes": 15998,
+  "script_git_object_verified": true,
+  "prerequisites": [
+    {
+      "run_id": "trajectory128_256",
+      "execution": {
+        "bytes": 33381,
+        "sha256": "7d9c115bb50900cb618b633bb55990d55658bd5aa6d3af2284232e0936eec408"
+      },
+      "result": {
+        "bytes": 28308,
+        "sha256": "58e599d3e45e2699b3eaed95b4be904ec8015d17159218e33d30d94db833c85a"
+      }
+    },
+    {
+      "run_id": "trajectory160_256",
+      "execution": {
+        "bytes": 33385,
+        "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+      },
+      "result": {
+        "bytes": 28292,
+        "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+      }
+    },
+    {
+      "run_id": "trajectory128_512",
+      "execution": {
+        "bytes": 35888,
+        "sha256": "e8ceb73f0dde7ee507869e14f59e074c4ba4b2a87a85315e590396762bbee99a"
+      },
+      "result": {
+        "bytes": 29393,
+        "sha256": "0acf9cc4fd925185e78d640ee7142e9d7de666d681440489de568bdccb907caa"
+      }
+    },
+    {
+      "run_id": "trajectory160_512",
+      "execution": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "result": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      }
+    },
+    {
+      "run_id": "trajectory_comparison",
+      "execution": {
+        "bytes": 34519,
+        "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+      },
+      "result": {
+        "bytes": 29455,
+        "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+      }
+    }
+  ],
+  "all_originals_retained": true,
+  "expected_npz_count": 52,
+  "additional_scientific_worker_invocations": 0,
+  "disk_free_bytes": 1326961664000,
+  "resource_scope": "byte archive only; script records its actual SELF RSS and stated timing cutoff, not full child lifecycle"
+}

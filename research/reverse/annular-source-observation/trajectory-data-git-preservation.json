@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "scope": "Local Git preservation only; byte reads, no scientific executions",
+  "archive_manifest_sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61",
+  "groups": [
+    {
+      "run_id": "trajectory128_256",
+      "commit": "0313ba64e64c7af7a7f31e60365a0b2805df2384",
+      "files": 9,
+      "gzip_bytes": 261967268,
+      "actual_git_blob_bytes_sha256_verified": true
+    },
+    {
+      "run_id": "trajectory160_256",
+      "commit": "b92bb902809d0d96fa006b3a8397aaf7d8d619b2",
+      "files": 9,
+      "gzip_bytes": 490410820,
+      "actual_git_blob_bytes_sha256_verified": true
+    },
+    {
+      "run_id": "trajectory128_512",
+      "commit": "516821042f838bc4e4f8a380151b83efec70a9b7",
+      "files": 17,
+      "gzip_bytes": 523444994,
+      "actual_git_blob_bytes_sha256_verified": true
+    },
+    {
+      "run_id": "trajectory160_512",
+      "commit": "2e68e2eaa92a21bf368f5da6dfd6932c567ddddd",
+      "files": 17,
+      "gzip_bytes": 980453939,
+      "actual_git_blob_bytes_sha256_verified": true
+    }
+  ]
+}
