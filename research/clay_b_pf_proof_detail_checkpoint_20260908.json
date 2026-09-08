@@ -1,0 +1,82 @@
+{
+  "internal_id": "ClayB-PFProofDetailAudit-20260908",
+  "base_commit": "7c216e458e478f6bfd51529d886e4ba1f55f5e57",
+  "status": "BOUNDED_PROOF_DETAIL_AUDIT_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_pf_proof_detail_audit_20260908.md",
+  "main_sha256": "479945ee6a3144b1c6a10ee07e23c93ff35e8e015c9836311c94b6e5fa8b840e",
+  "main_lines": 159,
+  "main_bytes": 10089,
+  "logical_context": "ClayB-PressureFreeShapeCriterion-20260908",
+  "classification": [
+    "LOCAL CONDITIONAL PROOF DETAIL AUDIT",
+    "NO NEW THEOREM",
+    "NO NEW UNCONDITIONAL CRITICAL INPUT",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "共同第一子列后逐片选取，rank-one二阶子式以强L2速度/弱L2梯度传极限；非零Theta均值分支用测度收敛和L2界识别常梯度，不排除二次能量集中。",
+    "极限标量tr((grad v)^2)的L2界只用共同切片动能和调和校正空间界，无需可测选择H_t；不是原梯度强L2、grad v的L4或原序列压力源统一L2界。",
+    "固定delta后将非散度对流N作为L5/4函数去卷积，测试强L5通过；再delta降零，精确扩散系数8/9、统一Young余项和几乎处处顶端切片给小幂能量估计。",
+    "三次严格强指数提升10/3到15/4到9/2到21/4，弱端点和r^(1/7)核算成立；沿用原文速度小量接口传回原解，不设调和校正时间强紧。"
+  ],
+  "limitations": [
+    "这是原PF证明细化，不增加独立研究小节、release或新无条件临界输入；历史冻结原件未改。",
+    "WE及Kwon全部上游证明没有在本轮独立重新认证；没有充分查新或真人同行评审。",
+    "任意演化的联合好尺度、统一能量帽与未知阈值匹配仍开放；新动力学候选未选定，不把审计数量当数学进展。"
+  ],
+  "next_action": "停止追加相邻PF条件准则审计。回到任意原初值、候选首次奇时及指定中心的联合好尺度问题；当前尚未选定新的动力学候选。下一项实质探索须先明确不同于已完成MPS/AP/MA及随机投影重写的具体带符号估计，在同一实际前终端解上保留所有端点、尺度、截止、压力和参考变化成本，并列明真实已有输入，再检验联合好尺度、严格尺度增益或独立不可求和成本。允许探索未证估计，但在闭合前不视作已付临界输入。不得以初始时间窗反例或条件准则补充审计冒充终端结论；不重复发布交接，不检查发布或反向执行。",
+  "new_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "artifact_scope": "LOCAL PRIVATE RESEARCH SOURCE ONLY; not a reader or publication release",
+  "source_access": {
+    "title": "The role of the pressure in the regularity theory for the Navier-Stokes equations",
+    "author": "Hyunju Kwon",
+    "version": "arXiv2104.03160v3",
+    "url": "https://arxiv.org/html/2104.03160v3",
+    "access_date": "2026-09-08",
+    "read_scope": "Definition1.1,Theorem1.4,Definition2.1,Remarks2.2-2.3,Definition2.4,Lemma2.5 statement and full proof,Remarks2.6-2.7,Section4 full; not full Section3 or its external defect-measure lemma"
+  },
+  "dependencies": [
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520"
+    },
+    {
+      "path": "research/clay_b_shape_dissipation_compactness_20260908.md",
+      "sha256": "7507cc923589036ed31834051f0d7fcfe5955d4e365b998b230ae5a250161586"
+    },
+    {
+      "path": "research/clay_b_rank_one_squared_compactness_20260908.md",
+      "sha256": "d13288339378b2abeae5e8dbcf31953e3e470e6a31661e5776a37e68c665163b"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9"
+    }
+  ],
+  "review_scope": {
+    "root": "Full PF/SC/RS/WE read; independent PFA derivations; full initial159-line9985B source readback and exact two-line final clarifications, final159-line10089B SHA479945ee accepted. Rational arithmetic assertions and structural checks only, not a numerical proof certificate.",
+    "good_scale_route_comparison": "PF/SC full read and independent spatial proof. PFA initial full read plus both final changes actually read; inverse replacement recovered initialffb51121 hash. Final479945ee accepted; review limited to PFA1-8 and scope, not an independent small-power or external-source audit.",
+    "ma_freeze_review": "RS full and PF34-165 actually read; independent small-power and force-calibration module passed. Participated in the supplemental argument, did not read the final PFA manuscript.",
+    "variable_reference_check": "Did not participate in this supplemental derivation. Actually read final159-line10089B SHA479945ee6a3144b1c6a10ee07e23c93ff35e8e015c9836311c94b6e5fa8b840e in full and independently checked PFA1-17, especially weak small-power limits,8/9,top slices and strict exponents. PASS with no mandatory changes. No renewed external-source audit.",
+    "all": "AI-assisted checks only, not human peer review or novelty certification."
+  },
+  "verification": {
+    "rational_arithmetic": "Exact Fractions assertions passed:19/20,8/9,35/9,55/12,65/12,strict upgrades and1/7.",
+    "source_structure": "17 ordered unique tags;17 paired displays;32 paired inline math delimiters;no abnormal controls;4 existing local source links.",
+    "freeze_preservation": "No historical tracked source changed at the base commit; main PF Git object and local SHA match. This checkpoint and the supplement are the only intended new source files."
+  }
+}
