@@ -1,0 +1,369 @@
+{
+  "branch": "codex/ns-reverse",
+  "certificate": {
+    "complete_all_real_root_classification": true,
+    "complete_five_ordered_trees_and_all_leaf_orders": true,
+    "evidence_ledger": "research/reverse/cyclic-six-carrier/experiment-manifest.json",
+    "executions_each": 1,
+    "original_main_window_verified": true,
+    "original_row_normalization": true,
+    "resource_scope": "SELF and module time through first full serialization only; not full process tree or full lifecycle.",
+    "scientific_reruns": 0,
+    "smaller_window_substituted": false,
+    "stages": 3
+  },
+  "claim_boundaries": {
+    "accepted": "Fixed single algebraic datum in full unforced periodic NS at nu=1; actual initially empty first band and three nonzero target pairs with actual source ratio <=1/7 on the original positive rational window. FINITE_TWO_LAYER_THREE_DIRECTION_SOURCE_ONLY; NOT CLAY.",
+    "actual_full_NS": true,
+    "amplification": false,
+    "complete_regeneration": false,
+    "cross_generation_infinite_tail_paid": false,
+    "domain": "fixed standard 2pi three-torus",
+    "external_novelty_or_human_peer_review_claim": false,
+    "finite_total_time_singularity": false,
+    "fixed_datum_infinite_scales": false,
+    "local_infinite_tail_paid": true,
+    "next_generation": false,
+    "not_same_datum_as_packages_22_23": true,
+    "old_failures_repaired": false,
+    "one_fixed_new_initial_datum": true,
+    "original_positive_viscosity": 1,
+    "unforced": true,
+    "uniform_iteration": false
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "e4ff066ace8d80ca7dda9c369f5c37832dba0158"
+  ],
+  "direct_dependencies": [
+    {
+      "bytes": 3682,
+      "path": "research/reverse/cyclic-six-carrier-preflight/ROOT_QUESTION.md",
+      "sha256": "05a07d4afd968d4c9cb214bc2c17cf75e0fef2a14b6b9898db115661be275826"
+    },
+    {
+      "bytes": 17707,
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f"
+    },
+    {
+      "bytes": 8618,
+      "path": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
+      "sha256": "1d958d2515e38bf2082a0f52eb04c31c2cb522d3c99d554125c62fa23006114d"
+    },
+    {
+      "bytes": 13988,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    }
+  ],
+  "excluded_later_work": [
+    "research/reverse/cyclic-receiver-supply-preflight",
+    "research/reverse/strategy-20260908"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 12493,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+      "sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b"
+    },
+    {
+      "bytes": 13267,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
+      "sha256": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499"
+    },
+    {
+      "bytes": 5994,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4"
+    },
+    {
+      "bytes": 6809,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f"
+    },
+    {
+      "bytes": 7586,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/CONTRACT.md",
+      "sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b"
+    },
+    {
+      "bytes": 10236,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/CONTRACT_REVIEW.md",
+      "sha256": "4cc9bef66eb0b6a7c5569fd9a995be655f4c0dd25217dc8a1f5735bdcdc36a4e"
+    },
+    {
+      "bytes": 9245,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/EXPERIMENTS.md",
+      "sha256": "9fd433fc84b3d2e03ce17905c0446d48a9429a3370d6c6b57f03ba021a70155e"
+    },
+    {
+      "bytes": 14545,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/INDEPENDENT_REVIEW.md",
+      "sha256": "d7545558fbc538b1be80f33ea1d30d3684f455aa72029c9ab7089796604ea902"
+    },
+    {
+      "bytes": 2304,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/OUTCOME.md",
+      "sha256": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630"
+    },
+    {
+      "bytes": 6673,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "bytes": 14588,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md",
+      "sha256": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03"
+    },
+    {
+      "bytes": 7678,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
+      "sha256": "b479558770bd53c0a37a0fa98c7b9085b5aafeb3461a24148219a839b9073746"
+    },
+    {
+      "bytes": 14117,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
+      "sha256": "2fb88e7166ee62fa1b3df24415542970580bb3d520971386b482f5a5db80453a"
+    },
+    {
+      "bytes": 8852,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/SOURCES.md",
+      "sha256": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074"
+    },
+    {
+      "bytes": 8955,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
+      "sha256": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992"
+    },
+    {
+      "bytes": 2929,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md",
+      "sha256": "3362ca3f5c79d7e7c86581b942ef3dea627535b856f414f5974f9c8e7fc5f482"
+    },
+    {
+      "bytes": 13661,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md",
+      "sha256": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15"
+    },
+    {
+      "bytes": 8500,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md",
+      "sha256": "7353d8262ae4d962ebca2d0dba7b9e8e06e83afb19e3aa4ffe383a5d26a530a8"
+    },
+    {
+      "bytes": 3236,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
+      "sha256": "af692a572eee828b7415e29fb784197c10329e3c98cdf0a5a765ec6b884fe39f"
+    },
+    {
+      "bytes": 3306,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md",
+      "sha256": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734"
+    },
+    {
+      "bytes": 13955,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_CODE_REVIEW.md",
+      "sha256": "8854c440d796c4bf1edac9820fc66cbb7db264839d11436ee97068e6a4b12e54"
+    },
+    {
+      "bytes": 14295,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md",
+      "sha256": "b67654b7603fba0bce451783d2218ddcb8b21012b7045eb3d0335229f9c2328a"
+    },
+    {
+      "bytes": 8073,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_INDEPENDENT.md",
+      "sha256": "d143b9ba531926723dd13c132e88c64faf672c7412a6ae44b2b35c8f1f1cb60f"
+    },
+    {
+      "bytes": 3067,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/STAGE_C_ROOT_READ.md",
+      "sha256": "61b20faec206fedf7308e35b3d54dffeb29895c0253ebbf3c9d953f77452486e"
+    },
+    {
+      "bytes": 4725,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/compare_saved_records.py",
+      "sha256": "25f2128fa3811391664515f0a15d8750a497ae85219532dc31ea9c725d89f4a9"
+    },
+    {
+      "bytes": 469369,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
+    },
+    {
+      "bytes": 139696,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb"
+    },
+    {
+      "bytes": 26488,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+      "sha256": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64"
+    },
+    {
+      "bytes": 45240,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/exact_roots.py",
+      "sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80"
+    },
+    {
+      "bytes": 5149,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/experiment-manifest.json",
+      "sha256": "7c1d507b193fd9244f55ba8369c6d19551a286a2370d88bc868c30b2a90535df"
+    },
+    {
+      "bytes": 1616,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/root-output-comparison.json",
+      "sha256": "94721565171510c84752fc13fe2c07353de1b013065d965b388ec7f40fc67500"
+    },
+    {
+      "bytes": 509,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json",
+      "sha256": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a"
+    },
+    {
+      "bytes": 733,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json",
+      "sha256": "1ae170485778ce696d20060d214118b774d91bde3948935d2dc0ff79aaa9c36c"
+    },
+    {
+      "bytes": 140790,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/verify-cyclic-output.json",
+      "sha256": "8e996350ed8702c17c6dcdd1f80f2f08b57a7a90c43b43d3e78ec348697e1268"
+    },
+    {
+      "bytes": 70249,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/verify_cyclic.py",
+      "sha256": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec"
+    },
+    {
+      "bytes": 9079,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/acceptance.json",
+      "sha256": "2ad9ed3695a64a1c925f9a4f6d6291d10bbeb400267b9b60186770749883a1bd"
+    },
+    {
+      "bytes": 19584,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md",
+      "sha256": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a"
+    },
+    {
+      "bytes": 3682,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier-preflight/ROOT_QUESTION.md",
+      "sha256": "05a07d4afd968d4c9cb214bc2c17cf75e0fef2a14b6b9898db115661be275826"
+    },
+    {
+      "bytes": 17707,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
+      "sha256": "39cabe5efa8e32f7475bd9974bc91bfa38a0db16cfb7b3c4c87cd91977a8437f"
+    },
+    {
+      "bytes": 8618,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
+      "sha256": "1d958d2515e38bf2082a0f52eb04c31c2cb522d3c99d554125c62fa23006114d"
+    },
+    {
+      "bytes": 13988,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 11766,
+      "commit": "9b05501c4076744781e26f49c12a52cc6c4cfe6e",
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    }
+  ],
+  "freeze_commit": "9b05501c4076744781e26f49c12a52cc6c4cfe6e",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in the once-only handoff.",
+  "milestone_condition": "Bounded fixed-datum three-direction source result completed; no public recap or novelty count implied.",
+  "new_reader_pdf": false,
+  "normalization_note": "Private transport envelope: 37 frozen source files, 5 direct dependencies at the stated scientific source, and original immutable manifest. Publisher checks transport integrity only, not mathematical proof. No public core, reader operation, new PDF or rerun.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
+  "primary_source_urls": [],
+  "private_milestone_record": "research/reverse/cyclic-six-carrier/OUTCOME.md",
+  "public_export_authorization": "Private archive only. This handoff gives no permission to export core details or operate readers.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "review": {
+    "final_scope": {
+      "bytes": 19584,
+      "path": "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md",
+      "sha256": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a"
+    },
+    "historical_status_note": "Earlier pending labels describe formation-time states; actual C and final scope discharge their stated conditions without rewriting original bytes.",
+    "nonblind_provenance_disclosed": true,
+    "root_final_scope_full_read": true
+  },
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "9e606f2d7d39969eb39b7e9088903c75a6909ee8",
+    "f49ebe2a6ed7b7111ade1effaf3be253807e08e0",
+    "2b1c213ba5ff7a259a2a5655eb0c9cf4d9615db9",
+    "436482f3365e36186ea2dc9b4024dc8dc4ea6d41",
+    "e4ff066ace8d80ca7dda9c369f5c37832dba0158"
+  ],
+  "scientific_source_commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+  "source_commit": "e4ff066ace8d80ca7dda9c369f5c37832dba0158",
+  "source_ledger": "research/reverse/cyclic-six-carrier/SOURCES.md",
+  "status": "RESEARCH_COMPLETE_FIXED_DATUM_FINITE_TWO_LAYER_THREE_DIRECTION_SOURCE",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
