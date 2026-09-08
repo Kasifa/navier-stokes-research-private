@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-InvariantDensityEntropy-20260908",
+  "date": "2026-09-08",
+  "role": "forward research",
+  "privacy": "PRIVATE_CORE",
+  "input_source_commit": "94ab0975c9816986fd5fe1186cfce13b658beb66",
+  "main": "research/clay_b_invariant_density_entropy_20260908.md",
+  "main_sha256": "b45c12e98f3712e5657c928fe7925ed5a039763f8f1df01674e17b24e5eda58b",
+  "main_lines": 191,
+  "main_bytes": 11934,
+  "status": "BOUNDED_CANDIDATE_CALCULATION_COMPLETE",
+  "classification": [
+    "LOCAL PROVED SPATIAL CONSTRUCTION",
+    "SMOOTH WEIGHTED ENTROPY IDENTITIES",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "candidate_selected": true,
+  "completed_scope": [
+    "On the same smooth unforced periodic NS trajectory, fixed positive-age closed preterminal interval and fixed kappa>0, A=I+alpha sym(G/q_kappa) is uniformly elliptic for all 0<alpha<=1.",
+    "Trace-free Fourier norm c*=sqrt(2/3) gives a normalized unique L2 elliptic adjoint density by a Neumann series; an explicit maximum-principle argument proves nonnegativity for the smooth coefficients.",
+    "Mean orthogonality yields ||rho||_2<=sqrt(V/(1-alpha^2 c*^2))<=sqrt(3V), without a pointwise lower bound.",
+    "The exact global pressure replacement alpha^-1 integral rho tr(G^2) converges to the original unweighted pressure pairing as alpha decreases to zero at a fixed smooth slice and fixed kappa.",
+    "Full time derivative, global and prescribed-centre localized entropy identities retain all endpoint, pressure-cutoff, transport and diffusion-weight terms; pressure explicitly reappears in rho_t.",
+    "Pressure gauge invariance and cancellation among the localized alpha^-1 source and boundary terms were independently checked."
+  ],
+  "limitations": [
+    "Known elliptic invariant-density theory is background; no exhaustive novelty search or claim of a new mathematical theorem in the literature.",
+    "Uniform L2 density and nonnegativity do not supply a common pointwise lower bound on a prescribed inner ball or control the original unweighted dissipation.",
+    "Time/spatial density derivatives are smooth at fixed parameters but are not controlled by basic energy uniformly near a terminal time.",
+    "No kappa-zero limit of density-weighted zero-set defect, no interchanging kappa/alpha/r/terminal-time limits, no new PF good scale or general NS regularity.",
+    "The material-derivative/commutator combination is the next bounded question and has not been performed in this record."
+  ],
+  "scientific_section_complete": false,
+  "new_unconditional_critical_estimate": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "own_release_created": false,
+  "separate_handoff_sent": false,
+  "public_overview_requested": false,
+  "public_statistics_changed": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "source_scope": {
+    "queries": [
+      "periodic elliptic nondivergence invariant measure Cordes condition invariant density positivity adjoint",
+      "periodic invariant measure nondivergence elliptic equation double divergence normalized positive density"
+    ],
+    "primary_context": [
+      {
+        "url": "https://epubs.siam.org/doi/10.1137/23M1580279",
+        "scope": "Official HTML abstract and metadata only; no original theorem/proof certification."
+      },
+      {
+        "url": "https://arxiv.org/html/2601.14548v1",
+        "scope": "Root read section3 assumptions, near-operator derivation, Lemma3.1/Theorem3.1 statements and printed arguments. Nonnegativity proof explicitly omitted by that source; this note supplies its own smooth-coefficient proof.",
+        "version_caveat": "HTML header v1 date and internal manuscript date disagree; exact version URL retained, not all versions verified."
+      }
+    ],
+    "ordinary_targeted_browsing": true,
+    "deep_research_skill_used_this_check": false,
+    "not_exhaustive": true,
+    "human_peer_review": false
+  },
+  "dependencies": [
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9"
+    },
+    {
+      "path": "research/clay_b_affine_reference_pressure_20260908.md",
+      "sha256": "31cb4da6202704925c3f5d40d821566a37c038bf48db0573df4038fd5bd1f1e0"
+    },
+    {
+      "path": "research/clay_b_variable_reference_check_20260908.md",
+      "sha256": "15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585"
+    },
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520"
+    }
+  ],
+  "review_scope": {
+    "root": "Independently derived the identities and elementary density construction, read the complete initial191-line11934B source, and verified18 ordered unique tags, paired displays/inlines,4 local dependency links, and source identity/read-scope labels. Full WE/AH/VR reread in this turn; no new PF proof certification.",
+    "variable_reference_check": "Independently recomputed global weighted entropy, density time/spatial derivatives and pressure re-entry; then the exact local cutoff identity, endpoint signs, pressure gauge, alpha^-1 collective cancellation and lack of unweighted coercivity. Did not read final manuscript.",
+    "all": "Participating AI mathematical checks only, not human peer review, independent publication review, or novelty certification.",
+    "ma_freeze_review": "Independently derived the spatial inverse, trace-free constant, positivity and small-alpha pressure limit, then actually read the entire final191-line11934B b45c12e98 source and checked ID.1-18. Limited PASS with no required changes; confirmed isolated pressure derivative is not trace-free, local signs/endpoints/gauge, and no unproved lower bound or limit. Did not independently certify external source access records or general elliptic literature."
+  },
+  "verification": {
+    "source_structure": {
+      "tags": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "links": [
+        "https://epubs.siam.org/doi/10.1137/23M1580279",
+        "https://arxiv.org/html/2601.14548v1",
+        "clay_b_weak_gradient_entropy_20260908.md",
+        "clay_b_affine_reference_pressure_20260908.md",
+        "clay_b_variable_reference_check_20260908.md",
+        "clay_b_pressure_free_shape_criterion_20260908.md"
+      ],
+      "displays": {
+        "open": 18,
+        "close": 18
+      },
+      "inlines": {
+        "open": 90,
+        "close": 90
+      },
+      "badHeading": [],
+      "abnormalControls": false
+    },
+    "preservation": "All184 prior required source hashes verified unchanged before writing checkpoint; only the new private source/checkpoint are intended tracked changes.",
+    "simulation": "No simulation or numerical certificate; all stated bounds are analytic."
+  },
+  "next_action": "沿用PF指定中心联合好尺度问题。ID已完成椭圆密度构造及全局/局部光滑熵核算，不重做其非负性、L2界、alpha小参数极限或分项截止审计。下一项仅对同一任意数据NS轨道的固定正龄前终端区间，把rho_t+u·grad rho合并为物质导数，完整推导[u·grad,Q]交换子和扩散乘积项，检查带符号组合是否给额外动态控制并能处理指定中心密度退化。保留所有端点、局部压力、尺度与kappa零集极限成本；尚未执行，不能写成已有估计。若仍只是原压力改写且无新增控制，停止直接不变密度支路，不扩充相邻审计或完成小节计数。旧条件出口/初端例子不再重复；不新建release、不重发交接，不查看发布或反向执行。"
+}
