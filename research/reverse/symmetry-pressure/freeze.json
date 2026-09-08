@@ -1,0 +1,150 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-SymmetricPressureLocalInputObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_PROVED_BOUNDED_LOCAL_INPUT_OBSTRUCTION_NO_CANDIDATE",
+  "source_commit": "61bca9279e16aef4deb796e771e054d4c48bdea6",
+  "scientific_commits": [
+    "27a119579bc7adc513bd19302ba9d90ded8afe69",
+    "037dfb0e26f3fd529646c5f8d06bc9631b385f39",
+    "9e0611e83817aa7533ec3b7e49675892ff69014b",
+    "c57f39c4f3ae2c443ebdf2853471b892e6b30e5d",
+    "32a38bab761205324ef6ce31ff1d36c96f603e7c",
+    "61bca9279e16aef4deb796e771e054d4c48bdea6"
+  ],
+  "predecessor_release": "ReverseNS-20260908-SupportAndPolarizationObstructions",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/symmetry-pressure/CONTRACT.md",
+      "sha256": "be413616aa81f63f6bf7584c7dc41926fc721f8c845278df4164edc6f39d0124",
+      "bytes": 4935
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/FINAL_SCOPE_REVIEW.md",
+      "sha256": "9476ddf7ee632c99a49ca408da6e9d0c2d3879a65e9b5b8f14b339ec7cd127b9",
+      "bytes": 10993
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/INDEPENDENT.md",
+      "sha256": "c5c6d5cc0099d92270cb541173bcd0c8f04e083d2d1a840dc8b73ceec57996c1",
+      "bytes": 17245
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/INDEPENDENT_REVIEW.md",
+      "sha256": "02e0eaec16763d847b39cf8743d7f542424924513d6e16f726fc62911f5c55cf",
+      "bytes": 10992
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/MAIN_REVIEW.md",
+      "sha256": "5bc7f56d1d45c9f81e21309c0505295681d827e367bfd77e7be6b4d3a323ed35",
+      "bytes": 9337
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/OUTCOME.md",
+      "sha256": "0ba73c06edd7dbe223fe9a4f7199196bc51bb313b66cad6d5056048a806f5086",
+      "bytes": 2799
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/PROOF.md",
+      "sha256": "4ba474f1d6735bed9e9ccc60783ef002a7e13b9442a12d1e0db17364bc9aea14",
+      "bytes": 12624
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/ROOT_COMPARISON.md",
+      "sha256": "7ecb3e4fe6fc1b3f316fa9bd522e2ac85add49a7aa6831d69a3918525b899a53",
+      "bytes": 5549
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/SOURCES.md",
+      "sha256": "35d5a20a4b7d1dd9e5e02691d964ef56684a94ecaab99a879c2051dddfc82ff9",
+      "bytes": 4133
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/acceptance.json",
+      "sha256": "eb9f39b2fcd9ee595e8f660249006af9d390f69dcfbbca3617bd3ca3dca94e3f",
+      "bytes": 3556
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md",
+      "sha256": "abf66039c0c6d158d88c3b293c7bffbd93d9ebc043a327fe357dc9f84f867150",
+      "bytes": 11366
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/PREFLIGHT_REVIEW.md",
+      "sha256": "6c71b9682f58fa1d0aa808548bad08aafdbf959b4136e8eb8919c5b4a7643b99",
+      "bytes": 8758
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md",
+      "sha256": "bbd8c3d57ad138a123f5dcb32e5599ac013bf7442636e3a01ed31bd96edf350b",
+      "bytes": 1513
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/reverse/exterior-pressure/PROOF.md",
+      "sha256": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
+      "source_commit": "61bca9279e16aef4deb796e771e054d4c48bdea6",
+      "use": "Sections 1-2 full periodic Green pressure and smooth correction; no reuse of old numerical datum, sharpness or NON-NS path."
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "source_commit": "61bca9279e16aef4deb796e771e054d4c48bdea6",
+      "use": "Full Fourier-Leray local existence, uniqueness and same-window smooth regularity, fixed arbitrary positive viscosity."
+    }
+  ],
+  "claims": {
+    "classification": "PROVED_BOUNDED_LOCAL_INPUT_OBSTRUCTION; NO_CANDIDATE; NOT_CLAY",
+    "proved": [
+      "For fixed positive viscosity on the unforced standard three-torus, allowed smooth real divergence-free zero-mean data satisfying every coordinate permutation equivariance and central oddness can agree on an entire origin neighborhood but have different full periodic mixed pressure Hessian.",
+      "Each derivation connects its own fixed comparison data to their actual complete infinite-dimensional NS solutions. Origin strain difference equals d t plus o(t), d nonzero, with a rigorous per-datum positive window."
+    ],
+    "preserved_interfaces": [
+      "Full geometric covariance and classical uniqueness preserve the stipulated symmetries. The strain equation retains viscosity and full pressure; shape of origin gradient and general pressure nonlocality are previously known interfaces."
+    ],
+    "not_claimed": [
+      "Not every local-data fiber, arbitrary pressure values/signs or trajectories; no splicing of the two constructions or their distinct signs/constants.",
+      "No universal exclusion of nonlocal closure, extra global inputs, special trajectories, additional mirror classes, dynamic mechanisms or singularity.",
+      "No numerical datum or evaluated time certificate, all-data uniform window or proof-assistant/human peer review certification.",
+      "No true two-step regeneration, uniform iteration, one fixed-datum infinite-scale process, cross-generation infinite-dimensional remainder or finite-total-time singularity.",
+      "No repair of old failed evidence or reset of the original physical datum; no external novelty claim."
+    ]
+  },
+  "validation": {
+    "status": "PASS_TWO_DERIVATIONS_TWO_NONAUTHOR_REVIEWS_ROOT_FULL_COMPARISON_FINAL_SCOPE",
+    "final_scope_review": "research/reverse/symmetry-pressure/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "All 13 final listed files equal source Git objects; eleven acceptance SHA/byte bindings and two direct dependencies match. Counts are provenance only.",
+    "root_actual_full_read_all_new_final_files": true,
+    "independence": "Counterparts unread during derivation; root precontract reasoning and sign correction disclosed. Separate non-author reviews each unread counterpart. Prior roles and later sequential comparison disclosed; not a third independent proof.",
+    "historical_pending_labels": "Author-time pending labels and acceptance FINAL_SCOPE_PENDING are superseded by the bound final review without rewriting historical evidence.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "actual_numeric_datum_selected": false,
+    "actual_symbolic_comparison_data_constructed": true,
+    "actual_local_infinite_dimensional_solution_bridge": true,
+    "uniform_time_window_claimed": false,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_evidence_repaired": false,
+    "unresolved_within_accepted_scope": []
+  },
+  "literature_boundary": "Precise local history and official Miller v3 source scope recorded. Root completed section 3.1 text reading only after main proof stopped; no whole-paper or external blowup proof certification. Whole-space instantaneous integral and additional mirror symmetry are not imported. Preflight files are provenance records, not extra theorems.",
+  "primary_source_urls": [
+    "https://arxiv.org/pdf/2404.01505v3"
+  ],
+  "source_ledger": "research/reverse/symmetry-pressure/SOURCES.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "numerical_certificate": "NOT_APPLICABLE_SYMBOLIC_PROOFS_ONLY",
+  "private_milestone_record": "research/reverse/symmetry-pressure/OUTCOME.md",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "Private archive only; no public core export. Existing local-reader cadence and deferred new English translation remain.",
+  "excluded_later_work": "research/reverse/dynamic-sign-preflight is ongoing separate reading, not part of this freeze.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
