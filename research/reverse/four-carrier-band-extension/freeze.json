@@ -1,0 +1,189 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-FixedReceiverRankObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_EXACT_FIXED_RECEIVER_CLASSIFICATION_AND_RANK_OBSTRUCTION",
+  "source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1",
+  "scientific_commits": [
+    "1dea1d349b6073bec9e2afacff927044184b2586",
+    "4c82bb1529fd469dffea75da5ed771b7964d431a",
+    "27b818d7f7bde3517fb0618460bd8ff6e3a90f79",
+    "34493446b8821c6112b6f99744da25e77807e046",
+    "45c83844ad686f4409bf7faa7023c02321188bd1"
+  ],
+  "predecessor_release": "ReverseNS-20260908-FixedDatumTwoLayerSupply",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/four-carrier-band-extension/CONTRACT.md",
+      "sha256": "8687b89a22dd0788e826453f143d8aaef2fd566446f23319cfdb734a3494225e",
+      "bytes": 6510
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/CONTRACT_REVIEW.md",
+      "sha256": "af2758df8c1fdf0b2d9360c475bb79dfc6aed2514bae33d3b5ec00e9688317e9",
+      "bytes": 14458
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/SOURCE_WINDOW.md",
+      "sha256": "16a38027facd09455fb9e9b241a377e5867d82664d4367f5fe7dc7d279ed9285",
+      "bytes": 2886
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/exact_band.py",
+      "sha256": "2498b4d0ad430f467a48c15e5ca7d7891cbf44b97e35e506ba8d8642f1a8dc2c",
+      "bytes": 24870
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/exact-band-output.json",
+      "sha256": "672265033fcbc05fb7881374d703a673bc2779d20b0612e67adb14f4dd068668",
+      "bytes": 131875
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/ALGEBRA.md",
+      "sha256": "1874c7c34d24c52572f2d046d0786a853942e15f6acd28b8c9bb25b80d4262e7",
+      "bytes": 16298
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/PROOF.md",
+      "sha256": "ef58ab47c42ecb77d1854b7af56ec371dc06f44cbbeedaa971ad8f0b4546705c",
+      "bytes": 4927
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/PROOF_REVIEW.md",
+      "sha256": "30bcc2acf215c6654d59b4ae8730486ac62cf9eaa8438cd353e93c91a04945d8",
+      "bytes": 10220
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/BAND_SCOPE_NOTE.md",
+      "sha256": "e49d298c04d2a7f47caf84762ed9510235dd0bd5916e6c7641b02748d2ff7779",
+      "bytes": 12978
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/OUTCOME.md",
+      "sha256": "98211024b66cac8d5e1050a26b65ba45fa83807359941405f7dd172e0d863eb7",
+      "bytes": 2132
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/SOURCES.md",
+      "sha256": "cab14c17b22a58633c246916628602d21064e1cd58c2f01898af8e248338f2d9",
+      "bytes": 2096
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/experiment-manifest.json",
+      "sha256": "cc2747d386f305f16ce37a5451000b1fe651c65d3427dc05f07ff1b038c04bdc",
+      "bytes": 4005
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/review_band.py",
+      "sha256": "8bda24ef7cf580b7e81e08fadefcb57ccbf6666eb1eaccf7e2fd75f58bf5157a",
+      "bytes": 26733
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/review-band-output.json",
+      "sha256": "9c880d482f7f2b9abfde436db2d84b96d555914f24b826c3d8a7c9e84cdba250",
+      "bytes": 97197
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/INDEPENDENT_REVIEW.md",
+      "sha256": "c5b69ba546576207712f897324de473f0f98e73f4026e9a4deacfacf47bbf39e",
+      "bytes": 13203
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/ROOT_COMPARISON.md",
+      "sha256": "cfa507e51f93dfa300fdb73cda1dfd6ac96034e2d58e5cce0814adbef6118e8d",
+      "bytes": 5326
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/root-output-comparison.json",
+      "sha256": "02e88797187ce33bd2a91a09ac2c4d165a504507d34871fd93de7c1169868d51",
+      "bytes": 1300
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/acceptance.json",
+      "sha256": "a180c9e7a19e80555cce9d867584290776ac1b5f1da18128d23d56a7cd9b5390",
+      "bytes": 4940
+    },
+    {
+      "path": "research/reverse/four-carrier-band-extension/FINAL_SCOPE_REVIEW.md",
+      "sha256": "4b374637c8acd239195c06654ebe72a52650f786b18a952fd34e6ead0c5b5a36",
+      "bytes": 11947
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/reverse/four-carrier-source-test/PROOF.md",
+      "sha256": "38668542aa347bca09537312a964125c52ec31f34ed335807c5914fae1014164",
+      "source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1"
+    },
+    {
+      "path": "research/reverse/four-carrier-source-test/INDEPENDENT_ALGEBRA.md",
+      "sha256": "a87cdef2cc2517e391ee193c3ad17b0e6776af3d7b8dff8f0427c2b063e08d1a",
+      "source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1"
+    },
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1"
+    },
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "source_commit": "45c83844ad686f4409bf7faa7023c02321188bd1"
+    }
+  ],
+  "claims": {
+    "classification": "NO-CANDIDATE-FOR-THIS-CONTRACT; NOT CLAY",
+    "proved": [
+      "For the same already fixed four-carrier datum, all sixteen predeclared four-distinct-leaf receivers are classified at the one-eighth Hermitian leading-source gate. Exactly +/- (3,4,6) pass; complete accepted frequency rank is one.",
+      "An explicit common rational original-NS source window is independently certified; its weaker five-thirty-firsts bound is an application, not an improvement over the previously frozen single-pair one-seventh result.",
+      "The rank-one actual projection has identically zero internal self-action throughout the existing classical interval; nonzero scalar/phase changes do not repair this four-distinct-leaf gate. Both are credited applications of existing geometry/multilinearity."
+    ],
+    "not_claimed": [
+      "The seven pair gate failures do not prove all-time actual one-quarter-source failure or exclude other targets, later times or general mechanisms.",
+      "No template regeneration, actual further supply, amplification, uniform iteration, one-datum infinite scales, cross-generation infinite remainders, finite-total-time singularity or global regularity.",
+      "No independent recomputation of all H1/H2 or outside-K4 full arrays, no third blind construction, proof assistant certification or human peer review.",
+      "No new theorem count for the existing single-pair source bound, common-line lemma or scalar/phase observation."
+    ]
+  },
+  "validation": {
+    "status": "PASS_MAIN_ALGEBRA_NONSOLVER_PROOF_REVIEW_INDEPENDENT_EXACT_CERTIFICATE_ROOT_COMPARISON_FINAL_SCOPE",
+    "final_scope_review": "research/reverse/four-carrier-band-extension/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "19 package objects equal source Git objects; all 17 acceptance bindings and four direct dependencies match. Counts are provenance only.",
+    "scientific_stages": 2,
+    "each_run_once": true,
+    "exact_arithmetic": true,
+    "formal_self_interaction_executed": false,
+    "root_reading": "Full main and verifier sources and proof texts; Hume final review read as full static version plus exact final diff; raw-field scopes are precisely ROOT_COMPARISON, not full raw-array reading.",
+    "full_process_tree_resource_certificate": false,
+    "old_failed_evidence_repaired": false,
+    "unresolved_within_accepted_scope": [],
+    "historical_pending_labels": "Author-time pending and conditional labels remain original bytes; actual final nonauthor and combined reviews supersede them only in their stated scopes."
+  },
+  "numerical_certificate": {
+    "primary": "research/reverse/four-carrier-band-extension/exact-band-output.json",
+    "independent": "research/reverse/four-carrier-band-extension/review-band-output.json",
+    "same_run_primary_T_G": "31058644197216930893482616803633/3894295636046685722459420013338596457856729600",
+    "independent_smaller_window_not_substitute": true,
+    "analytic_original_NS_bridge": "research/reverse/four-carrier-band-extension/SOURCE_WINDOW.md",
+    "resource_scope": "SELF and wall through first serialization; no complete process-tree or final-write lifetime measurement."
+  },
+  "source_ledger": "research/reverse/four-carrier-band-extension/SOURCES.md",
+  "primary_source_urls": [],
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "new_reader_pdf": false,
+  "private_milestone_record": "research/reverse/four-carrier-band-extension/OUTCOME.md",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "Private archive only; no public core or reader operation authorized.",
+  "excluded_later_work": [
+    "research/reverse/cyclic-six-carrier-preflight",
+    "research/reverse/cyclic-six-carrier"
+  ],
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
