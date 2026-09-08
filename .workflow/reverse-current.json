@@ -6,14 +6,14 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Continue actual STAR_CENTER_ANALYSIS and VISCOUS_SPLITTING under existing bounded contract; read final texts, separate non-author reviews and root comparison before acceptance. Base total-cancellation interfaces and necessary star linear polarization accepted at f3ea93389e131d4f9f6d3e88d0bcc77b2c898397. General exceptional-set feasibility remains OPEN. No actual parameters/programs/arrays/scan; no repeat handoff/reset.",
-  "resume_action": "Continue actual STAR_CENTER_ANALYSIS and VISCOUS_SPLITTING under existing bounded contract; read final texts, separate non-author reviews and root comparison before acceptance. Base total-cancellation interfaces and necessary star linear polarization accepted at f3ea93389e131d4f9f6d3e88d0bcc77b2c898397. General exceptional-set feasibility remains OPEN. No actual parameters/programs/arrays/scan; no repeat handoff/reset.",
+  "next_action": "Actually read three-edge-compatibility final main and independent derivations, complete separate non-author reviews and root comparison. Main scalar reduction is written; independent shared-polarization classification is still in progress. Ten formal packages are sent once, never resend. No star parameter search, scientific programs, arrays, numerical selection, reset or publication observation.",
+  "resume_action": "Actually read three-edge-compatibility final main and independent derivations, complete separate non-author reviews and root comparison. Main scalar reduction is written; independent shared-polarization classification is still in progress. Ten formal packages are sent once, never resend. No star parameter search, scientific programs, arrays, numerical selection, reset or publication observation.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-TrueBandSupply",
-  "scientific_status": "TOTAL_CANCELLATION_INTERFACES_AND_STAR_LINEAR_POLARIZATION_ACCEPTED; CENTER_GEOMETRY_AND_VISCOUS_SPLITTING_ACTUALLY_IN_PROGRESS",
-  "accepted": "Coherent input, full four-leaf sources and same-solution full Fourier local bridge accepted and privately handed off once. General regeneration and total mixed cancellation still unresolved.",
+  "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+  "scientific_status": "MIXED_SOURCE_STAR_OBSTRUCTION_FROZEN_AND_SENT_ONCE; THREE_EDGE_COMPATIBILITY_IN_PROGRESS",
+  "accepted": "MixedSourceStarObstruction package accepted, frozen and sent once for private archival. Conditional original-direction obstruction only; general three-edge compatibility and regeneration remain unresolved.",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
     "research/reverse/fixed-seed-global-screen/ROOT_REVIEW.md",
@@ -298,7 +298,20 @@
     "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md",
     "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md",
     "research/reverse/net-mixed-cancellation/OUTCOME.md",
-    "research/reverse/net-mixed-cancellation/acceptance.json"
+    "research/reverse/net-mixed-cancellation/acceptance.json",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_CONTRACT.md",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_PROOF.md",
+    "research/reverse/net-mixed-cancellation/STAR_CENTER_ANALYSIS.md",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING.md",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/ROOT_FOLLOWUP_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md",
+    "research/reverse/net-mixed-cancellation/followup-acceptance.json",
+    "research/reverse/net-mixed-cancellation/template-acceptance.json",
+    "research/reverse/three-edge-compatibility/CONTRACT.md",
+    "research/reverse/net-mixed-cancellation/freeze.json",
+    "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/three-edge-compatibility/PROOF.md"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -445,7 +458,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "d9047e524a2dc0f6e7e34eb69a6a558c2093b6d42e044951f5ab7163373bec4c",
+    "research/reverse/CHECKPOINT.md": "538c81f6d54b3f52dba165041201dfa11bdcd3f395288ea4e4d5386c521f718f",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -506,7 +519,7 @@
     "research/reverse/unequal-axis-return/HEAT_TRANSFER_PREFLIGHT.md": "efe1b7313abaee0d1cd986da6ffdba38ff818eb8707b0cdda003f66eee18f369",
     "research/reverse/unequal-axis-return/HEAT_ORDER_CONTRACT.md": "a65d7ffb1350e7cb2a6ee20cc5be80eae41d4ac2544c163e9fc7765d1bacf9ad",
     "research/reverse/unequal-axis-return/HEAT_ORDER_PROOF.md": "2d4196425bf443fb113c34a4102a08fa089e5ac3956cebae4a86b5a159d4b32b",
-    "research/reverse/HANDOFF_LOG.json": "845adbfb3f030194464d500664d769d5a72bdb9d99510ecbce9b7326358318df",
+    "research/reverse/HANDOFF_LOG.json": "b8d671d4e5b9a45528f335cfcdfb53aee0a0bbc8645e925e439deb689c9196a6",
     "research/reverse/checkpoint-history/20260908-before-unequal-axis-return.md": "5adc99fbb4d5e5b371f8ec5d36c8a692dea6db6e93ea4abce63c63a5d974f1c8",
     "research/reverse/unequal-axis-return/HEAT_ORDER_INDEPENDENT.md": "80b3b7dc3565bc8fbc8328e501c4f1a17b2d2929c82bb1863c39690793ddafc9",
     "research/reverse/unequal-axis-return/HEAT_ORDER_REVIEW.md": "366c1ea933c121ed67b9eca20dd1dc90af3a0d745b65194e5d9550dc356384c3",
@@ -554,7 +567,7 @@
     "research/reverse/mixed-polarization/COHERENCE_CONTRACT.md": "ef0172d56243edea9f4014acb57c05c877ab4bd6fe147ab42fe6237073441643",
     "research/reverse/mixed-polarization/INTERRUPTION_RECOVERY.md": "d4e2213293da88b0946007dc4797bb06df3143bd7e768819d4395fddfb8208a8",
     "research/reverse/mixed-polarization/COHERENCE_PROOF.md": "94d68f7b0303794e703cf6733dc9a2015a69b711a174831a6dc0b1a3093f8ce7",
-    "AGENTS.md": "6160116ce40303e2eccfc0ffa12c29bcefd8bf835f4a7f635db4f99718645539",
+    "AGENTS.md": "747941069f6e2d57dac28df306a03af7a1cff417890fdaa92a650f72c3db592e",
     "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md": "1dff4c4c64f015eb8082079f4705549d41e798848e92f38fee31b3d0582c9216",
     "research/reverse/mixed-polarization/COHERENCE_INDEPENDENT.md": "886c5ff2822942b3ee5fd791ea2eb24477220c7a61213b9030b80861f834cb32",
     "research/reverse/mixed-polarization/COHERENCE_REVIEW.md": "66509b2954809c4303f9961997113f71201baaf5009eb23a6e500f3f95bd4302",
@@ -588,11 +601,22 @@
     "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md": "605c13fe871451704a3ab629bfb8b8756a848cf10d68914e015cefe2552ba231",
     "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md": "a580fbf33a14f555d248e8d4d71750adf54913846363d843b4ba08f2ce55e8cc",
     "research/reverse/net-mixed-cancellation/OUTCOME.md": "fdab182a0d95927235eb8ea717a3c40dcab33b82dc30f03f68c652062838ad89",
-    "research/reverse/net-mixed-cancellation/acceptance.json": "414047ab848e73465146449b3687b5e7d63a08ef448cf6a170a2f56150e69569"
+    "research/reverse/net-mixed-cancellation/acceptance.json": "414047ab848e73465146449b3687b5e7d63a08ef448cf6a170a2f56150e69569",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_CONTRACT.md": "b7543164be08ff3b625e45745b7f9aab4b81d74f082f4f71cbb1f220f62e7ad0",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_PROOF.md": "214ccd8197923dc5039a452beaa4111b80292cd6ac22f9491b1487e0cd42e46d",
+    "research/reverse/net-mixed-cancellation/STAR_CENTER_ANALYSIS.md": "09afd62b2dd3075560abaa5b0ac474ec10ea1b23cb540ad73535a9af39e7c814",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING.md": "82b94019b867fc049a2e334a1b51f9034a18257792ba7da19c6185767b5a1702",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING_REVIEW.md": "f25b7c53158eb6200899b5a082b1458ece914fb2b61baeebca38f304ff1aa86a",
+    "research/reverse/net-mixed-cancellation/ROOT_FOLLOWUP_REVIEW.md": "636c4d485c3a2f24f9b3a9254bd502ecd679bebdc17a2e51037d58bb9dc1ff91",
+    "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md": "cc899178d3c02e060ea067baae126484f19ba53b7f8c4d9b13a91ff389843530",
+    "research/reverse/three-edge-compatibility/CONTRACT.md": "51909466ff2baf93b83d419775b0fbd2f1ceff4dec59c785358401d80ff01143",
+    "research/reverse/net-mixed-cancellation/freeze.json": "d05cfb0732d0ce915876476942b37f18a98afb091c22252fdcb3b5cedc8999ea",
+    "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md": "0c5d7d6ea71e6dc09ac918f6607ecdee613ba3efa769b77266b194ef535eb3e0",
+    "research/reverse/three-edge-compatibility/PROOF.md": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-TrueBandSupply",
-  "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+  "last_completed_release": "ReverseNS-20260908-MixedSourceStarObstruction",
+  "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
   "freeze_manifest": "research/reverse/mixed-polarization/freeze.json",
   "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
   "protocol_hashes": {
@@ -600,7 +624,7 @@
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "353d5fbc2dc853c8a08c6a934b4286ed79332840c3864201cad945d33e1257ae"
   },
-  "freeze_commit": "a5f2496c98456853721e5779626e7f6d6b887c78",
+  "freeze_commit": "b1a0f750be93f0107f8abcc4878b99b6b60c8dc6",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
   "current_topic": "Same fixed-data classical NS series and explicit true first-band self-supply remainder",
   "current_topic_directory": "research/reverse/mixed-polarization",
@@ -614,7 +638,7 @@
   "resumed_at": "2026-09-07T20:25:31+08:00",
   "previous_completed_release": "ReverseNS-20260908-HelicalJointReturn",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
-  "platform_goal_state_last_observed": "usageLimited; get_goal observed this turn, current tools and replacement agents successfully executing; no reset consumed",
+  "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
   "updated_at": "2026-09-08T02:25:22.728967+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
@@ -1137,10 +1161,8 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/net-mixed-cancellation/CONTRACT.md",
-    "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md",
-    "research/reverse/net-mixed-cancellation/OUTCOME.md",
-    "research/reverse/net-mixed-cancellation/acceptance.json"
+    "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md",
+    "research/reverse/three-edge-compatibility/CONTRACT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1312,20 +1334,48 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T03:11:53.959101+00:00",
+  "last_checkpoint_utc": "2026-09-08T03:48:19.924782+00:00",
   "net_mixed_cancellation_evidence": {
-    "status": "ACCEPTED_INTERNAL_SCIENTIFIC_CHECKPOINT",
+    "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
     "acceptance": "research/reverse/net-mixed-cancellation/acceptance.json",
     "accepted": true,
     "scientific_programs_run": 0,
     "actual_new_initial_datum": false,
-    "formal_release": false,
-    "publication_handoff_performed": false,
+    "formal_release": true,
+    "publication_handoff_performed": true,
     "scope": "Generic real-algebraic thinness, exact zero branches and two-way obstruction, genuine cross-edge cancellation necessary, shared-shape positive amplitude interface, and necessary star linear polarization. No general feasibility or candidate.",
-    "subsequent_work_pending": [
-      "STAR_CENTER_ANALYSIS.md",
-      "VISCOUS_SPLITTING.md"
-    ]
+    "subsequent_work_pending": [],
+    "final_source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+    "freeze_commit": "b1a0f750be93f0107f8abcc4878b99b6b60c8dc6",
+    "manifest": "research/reverse/net-mixed-cancellation/freeze.json",
+    "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED"
+  },
+  "star_template_evidence": {
+    "status": "ACCEPTED_MAIN_INDEPENDENT_SEPARATE_REVIEWS_ROOT_COMPARISON",
+    "contract": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_CONTRACT.md",
+    "main": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_PROOF.md",
+    "accepted": true,
+    "scientific_programs_run": 0,
+    "scope": "Conditional two-edge star original-template directions and explicit local true-NS distance only; no general geometry or mechanism exclusion.",
+    "source_commit": "74f9b82a",
+    "acceptance": "research/reverse/net-mixed-cancellation/template-acceptance.json"
+  },
+  "star_followup_evidence": {
+    "status": "ACCEPTED_CONDITIONAL_CENTER_AND_VISCOUS_SPLITTING",
+    "source_commit": "74f9b82a",
+    "acceptance": "research/reverse/net-mixed-cancellation/followup-acceptance.json",
+    "integer_source_cancellation_feasibility": "OPEN",
+    "scientific_programs_run": 0,
+    "candidate_accepted": false
+  },
+  "three_edge_evidence": {
+    "status": "MAIN_FINAL_WRITTEN_NON_AUTHOR_REVIEW_RUNNING_INDEPENDENT_STILL_RUNNING",
+    "contract": "research/reverse/three-edge-compatibility/CONTRACT.md",
+    "accepted": false,
+    "candidate_accepted": false,
+    "scientific_programs_run": 0,
+    "main": "research/reverse/three-edge-compatibility/PROOF.md",
+    "main_sha256": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3"
   }
 }
