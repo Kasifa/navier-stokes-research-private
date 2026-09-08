@@ -1,10 +1,12 @@
 # Reverse research ownership and resumption (2026-09-07)
 
-## Current energy-observation freeze and residual-budget review (2026-09-09)
+## Current energy-observation freeze and first-gate budget question (2026-09-09)
 
-EnergyObservationInterfaces is research-complete at source 8c63de4f / freeze 3120f75e and was sent once for PRIVATE_ARCHIVE. Releases1–29 are closed handoffs; never resend or observe publication. Its 20 core plus11 dependency Git objects and freeze object were actually read and byte-verified. It accepts conditional dissipative-tail and full-residual relative-L2 finite-source observation interfaces only: the same original smooth solution interval and all concrete reconstruction, strain/residual, history/reading and lifespan inputs remain unpaid. No actual NS gate, continuation, candidate or singularity result is new.
+EnergyObservationInterfaces is research-complete at source 8c63de4f / freeze 3120f75e and was sent once for PRIVATE_ARCHIVE. Releases1–29 are closed handoffs; never resend or observe publication. Its 20 core plus11 dependency Git objects and freeze object were actually read and byte-verified. Same-solution lifespan and all actual reconstruction, strain/residual and source-history certification inputs remain unpaid; no actual NS gate, continuation, candidate or singularity result is new.
 
-Current bounded work is residual-budget-floor-preflight/CONTRACT.md, separate from package29. The root endpoint polynomial derivation and its non-author review are stopped; the author proof is undergoing one off-support endpoint-error scope clarification before final review. Scientific worker budget0: no arrays, endpoint selection, parameter evaluation or old worker rerun. Use the latest reverse CHECKPOINT/index, preserve all six legacy failure fields, and keep the user's continuous authority active unless a later pause arrives.
+The subsequent polynomial residual endpoint floor is accepted locally at 9a7b1437 (12 Git objects actually verified), including E(t+)²>=E(b)²+h L²/49 only for the specific RE.5 budget. Conditional exact-projection/shared-slope Hermite reconstruction and saved-state qualification are recorded at 144c37de (10 Git objects verified). Existing trajectory160_512 has17 complete checkpoints, naturally16 stored-endpoint segments, not513 complete endpoints. No array was opened or new scientific worker run. These local records are not a formal package30.
+
+Current precise question is residual-budget-floor-preflight/FIRST_GATE_TARGET_CONTRACT.md. First determine a useful necessary certificate budget for the first source gate at the fixed T, keeping its exact continuous history and the original solution lifespan premise. An endpoint lower bound cannot be reused as a lower bound over earlier history. Scientific worker budget0; no new array/endpoint/parameter evaluation, changed datum or old worker rerun. All child work is stopped. Continue autonomously from the reverse checkpoint; a later pause takes precedence. Preserve all six legacy failure fields and existing goal/budget/reset/automation state.
 
 ## Current continuous-goal continuation (2026-09-09)
 
