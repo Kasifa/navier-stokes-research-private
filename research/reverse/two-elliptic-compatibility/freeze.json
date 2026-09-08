@@ -1,0 +1,229 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE",
+  "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+  "scientific_commits": [
+    "3e539e2e3c84253710fae65ff51da46772234591",
+    "dcffd2ae6ba73275174fa67820c168facd932d78",
+    "40ecba70080d51d05c2ce23d51b8e306c27d4264"
+  ],
+  "predecessor_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/two-elliptic-compatibility/CONTRACT.md",
+      "sha256": "ee05b39370f178cac5aebcf3c3046478c848c74b0078ee26edafb3282029ad52",
+      "bytes": 2417
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/FINAL_OUTCOME.md",
+      "sha256": "00f71aff0287a292cfdeb6e545306529ae2096c59282a7e6780662690f6b6457",
+      "bytes": 3388
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md",
+      "sha256": "e4006594b3471367cdb416d0c27f5e4adff2b6a53116f2375acc22ad40d7aba2",
+      "bytes": 14451
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_AREA_CONTRACT.md",
+      "sha256": "25b207f2212904a1bd58a430f8d39d1d93c3bc9a28e957a260316975b41e5f4f",
+      "bytes": 1256
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_AREA_INDEPENDENT.md",
+      "sha256": "7f9dc41b4890da165c300feae320ded8f5617eee8e49580c10b1bc5b95569834",
+      "bytes": 14925
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_AREA_INDEPENDENT_REVIEW.md",
+      "sha256": "037f7ae2580bc8db24956ce6eb72ac11d27ff99b4d948511898b902f34b56cf3",
+      "bytes": 9266
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_AREA_PROOF.md",
+      "sha256": "6a85859a138ee52d6f0dcb39c87a2ab0c5f2924ea9478f3e1e072d381ad9f03c",
+      "bytes": 6485
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_AREA_REVIEW.md",
+      "sha256": "bb2b71ec4e037a12a9ab90cf3a6476553601951770c1c4555cd76b720553c00c",
+      "bytes": 11428
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_ROW_CONTRACT.md",
+      "sha256": "5ee395fc46c92b9161bafec1fdf9e690456526e9038b7c1efed540ffff56b1ad",
+      "bytes": 1550
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_ROW_INDEPENDENT.md",
+      "sha256": "ab7df7bbf6d698c2ee6bb223c06fe478cc34ecc37db1806bc8a774a9c037d9e0",
+      "bytes": 13259
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_ROW_INDEPENDENT_REVIEW.md",
+      "sha256": "3b23c3a02713f40a212555178127243bf0bfc6943e15d78759231805690379cf",
+      "bytes": 11463
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_ROW_PROJECTION.md",
+      "sha256": "899d55c613adce0de8b3e9f7b482d36d09f7ce83e176c97a70d9c1f196cb2cdb",
+      "bytes": 5437
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/HIGHER_ROW_REVIEW.md",
+      "sha256": "e273e78033535bb2fc16bb2c130d14446768c6d110954d764e8d4c9a1c83f1d8",
+      "bytes": 9043
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/INDEPENDENT.md",
+      "sha256": "9a39799e39b9ec40e4ae61e86f3b0dda0dabc0885dcbea17febd91b868524da9",
+      "bytes": 12920
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "0b90a09c971ef82bfd7fe0bb62cd90890491872fb2a2028bfc1c204c49035520",
+      "bytes": 8867
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/LOWEST_FEASIBILITY.md",
+      "sha256": "4773975ee41c567a8ccb1f6ad2bcc0daa45751a78419b782f0f3038d5ee280dd",
+      "bytes": 12703
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/LOWEST_FEASIBILITY_CONTRACT.md",
+      "sha256": "7b08814a9fb5e06705d717c660cfa7efdf3e312e481c6fb296e226586c6bbf8a",
+      "bytes": 1793
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/LOWEST_FEASIBILITY_REVIEW.md",
+      "sha256": "4cb1dc1b1ff435d8c1907377c3197bebad23cb07fc61af5f01abee1d833f8243",
+      "bytes": 8897
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/OUTCOME.md",
+      "sha256": "c236f6796cd1134a513b13b3dfedcacad8ab7ab87ecff485a8db868d7c126bfe",
+      "bytes": 1779
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROJECTED_PAIR_CONTRACT.md",
+      "sha256": "1974afe029ad619aa1bccc43e1ecef1ed2ca454a47c20f43ed78952159d3b3a0",
+      "bytes": 1793
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROJECTED_PAIR_INDEPENDENT.md",
+      "sha256": "44c1f7fd6b616bd3bc1313c8b08607331f641f805329070ea4f93db5e72d8eef",
+      "bytes": 13855
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROJECTED_PAIR_INDEPENDENT_REVIEW.md",
+      "sha256": "bf19f8aa439e70971779c5a3eee3336b6a578c5642b2a5bc681ae2e185e102bb",
+      "bytes": 10522
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROJECTED_PAIR_PROOF.md",
+      "sha256": "369295d4f6828211c74457201deeef446bfa4b70c7272500c22a422ba604cba1",
+      "bytes": 6889
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROJECTED_PAIR_REVIEW.md",
+      "sha256": "9b74ecb6cbbe2a9199de63c73dd68f62cae944d407e0489e29f3b39e426e784c",
+      "bytes": 11079
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/PROOF.md",
+      "sha256": "8961c72504eb7d60f35ee53050c99a2a25203ad539f85a9135ca16706dcc1cba",
+      "bytes": 16208
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/REVIEW.md",
+      "sha256": "b53e49da4054e74a165e0eb78c9c966183c54beb1cf8e6000187f998926face8",
+      "bytes": 11787
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/ROOT_COMPARISON.md",
+      "sha256": "7510cbcb75d0dd668422c6a1b937c7b08c080f667ee2b9666244598d1fa7e525",
+      "bytes": 5544
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/ROOT_FOLLOWUP_REVIEW.md",
+      "sha256": "3237145356086997fe19ed5963d27e4a758305a087494d3c38664b90dbe0d3d4",
+      "bytes": 8450
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/acceptance.json",
+      "sha256": "37ec6472dff2928baba0625eade0e257f3cdcc470c64277a9839a8a996c64fef",
+      "bytes": 2252
+    },
+    {
+      "path": "research/reverse/two-elliptic-compatibility/followup-acceptance.json",
+      "sha256": "9dcf3dce9a80d928480e4a9ece2d274b1595c4cf584b61028398976b25eda2ec",
+      "bytes": 5418
+    }
+  ],
+  "dependencies": [
+    {
+      "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+      "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+      "manifest": "research/reverse/three-edge-compatibility/freeze.json",
+      "use": "Accepted shared three-edge maps, linear/area type restrictions and longest receiver ratios; no new NS time statement."
+    },
+    {
+      "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+      "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "manifest": "research/reverse/net-mixed-cancellation/freeze.json",
+      "use": "Accepted complete Fourier-Leray pair maps with coherent Z and C contributions."
+    }
+  ],
+  "claims": {
+    "classification": "PROVED_LOWEST_INTERFACE_AND_SHARED_HIGHER_ROW_NECESSARY_CONDITIONS; NO_CANDIDATE; NOT_CLAY",
+    "proved": [
+      "For the original only-shortest-linear type, the complete lowest Z zero row uniquely fixes two sender real parts; complete lowest C is nonzero and has the original direction exactly under a real cubic and signed area relation.",
+      "For every assumed admissible fixed geometry and given nonzero sender projections, the lowest conditions have a conditional solution with opposite nonzero sender areas. No admissible integer geometry is exhibited or asserted nonempty.",
+      "Each higher zero row must pass a real quadratic projection condition with nonreal actual receiver ratio; its coefficients and both shared weights come from the same three seeds.",
+      "The complete longest zero row forces the two higher seed areas to have the same sign. Together with the lowest complete C direction this requires c01*c02*C0<0, excluding the opposite-area branch and C0=0 but not all lowest roots.",
+      "Given fixed geometry, a fixed lowest real representative and fixed higher projections satisfying the lowest real conditions, explicit positive area-square, signed-ratio-square and common positive lowest-amplitude equalities are equivalent to lowest complete conditions plus the two specified higher projections."
+    ],
+    "not_claimed": [
+      "No realization of an integer geometry and shared data satisfying all conditions; no accepted finite two-step candidate.",
+      "The two remaining independent higher complex components, other C directions and common template amplitude are not paid; next full-high-row-reduction work is excluded from this freeze.",
+      "No new NS time window, local or uniform cross-generation infinite-dimensional error bound, uniform iteration, one fixed datum at infinitely many scales, finite total time, singularity or global regularity.",
+      "Real-frequency finite algebra extensions are not arbitrary real-frequency Fourier data on the fixed torus; no exchange of forall N exists u0_N with exists u0 forall N.",
+      "No repair of older failed computations, external novelty claim, human peer review or proof-assistant certification."
+    ]
+  },
+  "validation": {
+    "status": "PASS_DERIVATIONS_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_AND_FINAL_SCOPE",
+    "stage_acceptances": [
+      "research/reverse/two-elliptic-compatibility/acceptance.json",
+      "research/reverse/two-elliptic-compatibility/followup-acceptance.json"
+    ],
+    "independence": "Actual author and reading histories disclosed per text. Lowest main received a root normalization suggestion; high projection, area and paired independent authors formed before reading corresponding root texts. Non-author reviews and root comparisons completed. Final scope reviewer discloses prior authorship and later reads; no all-topic blind-review claim.",
+    "final_scope_review": "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "All 30 listed files matched final source Git objects; both acceptance sets bound 26 distinct current texts with matching SHA-256. Counts are file objects, not proofs or scientific quality.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "new_actual_datum_selected": false,
+    "new_NS_time_window_paid": false,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_computations_repaired": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "literature_boundary": "Self-contained symbolic continuation of accepted maps. Actual reads and source boundaries in proofs/reviews; no newly invoked external theorem or novelty claim.",
+  "source_ledger": "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/two-elliptic-compatibility/FINAL_OUTCOME.md",
+  "milestone_scope": "One combined stage: exact lowest interface, conditional lowest feasibility, shared higher projections, longest-area obstruction and paired common-amplitude elimination.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
