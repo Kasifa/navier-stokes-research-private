@@ -1,0 +1,41 @@
+{
+  "release_id": "ClayB-MixedAbsorptionCalibration-20260908",
+  "logical_predecessor": "ClayB-NearPressureEntropy-20260908",
+  "status": "RESEARCH_COMPLETE_IN_STATED_SCOPE",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "base_commit": "74c8d586467164543dbf295afcf945eb47a8c7a0",
+  "main": "research/clay_b_mixed_absorption_calibration_20260908.md",
+  "main_sha256": "8afd642f0b8b7fe774a952cc69bb4f89a5c3b0a989b178db4668499855a175db",
+  "finite_symbolic_check_script": "research/clay_b_mixed_absorption_checks_20260908.py",
+  "finite_symbolic_check_sha256": "ec1489c2da50a4074a1971289b818e087c05235c2a39797af574322f6112c700",
+  "classification": [
+    "EXACT MIXED-ABSORPTION COEFFICIENT CALIBRATION",
+    "SMOOTH INITIAL-TIME WEIGHTED-REMAINDER OBSTRUCTION",
+    "NO UNCONDITIONAL CRITICAL ESTIMATE",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "For the explicit NE initial family u=(A U0,b v0), the full original spatial dissipation equals integral [A^2(X+16Y)+5b^2L]/q_AB. Including it in P<=delta*nu*D+C_delta(M_AB)*Q still requires liminf_(A->infty) C_delta(M_AB)/A >= kappa0^2/(200*pi^3*delta*nu*D0) after fixing b=2*delta*nu*D0/kappa0. The amplitude family has growing energy; integer-frequency and full NS periodic-replication scaling are distinguished.",
+    "The regularized local full-gradient entropy equation exactly combines transport, inertia and pressure into integral a_i*partial_j(phi*B_kappa,ij), retaining both slices, cutoff terms and original zero-set dissipation. Spatial constant vectors may be subtracted without time derivatives. Direct Young absorption produces the additional nonnegative integral phi*|a-c|^2/q_kappa with coefficient 3/(4*delta*nu), not an a priori bound.",
+    "A specified real mean-zero divergence-free trigonometric initial field has quadratic gradient zeros on two lines and canonical-pressure acceleration values plus/minus (36/65)e1. Consequently integral |a-c|^2/|G| is infinite for every spatial constant c on that initial slice.",
+    "A smooth local flattening of that field creates two positive-volume gradient-zero regions while preserving separated initial pressure gradients. After fixing the flattening, classical smooth local NS existence gives q(t)<=C*t and an acceleration-variance lower bound for every spatial constant c(t). The weighted remainder is at least v/(C*t), and its regularized time integral is at least (v/C)*arsinh(C*T/kappa). Thus the initial-time-window remainder diverges while original dissipation and signed source remain finite."
+  ],
+  "open_items": [
+    "No scale-small or summable remainder for general mixed absorption by original mu_G has been proved. The exact joint rewrite and its Young inequality do not supply critical gain.",
+    "The amplitude lower bound is not a counterexample to coefficients depending on one fixed local A+E+D cap. No sufficient or optimal coefficient is established.",
+    "The weighted-remainder obstruction concerns a nonnegative upper bound on an initial-time window. It does not imply solution singularity, divergence of the signed pairing, or divergence on every fixed positive-age interval; spatially varying references and time cutoffs are not excluded.",
+    "The same-solution path from arbitrary NS evolution to a prescribed-centre good scale with the required common energy-pressure cap remains open.",
+    "Novelty certification, human peer review and general three-dimensional regularity remain open. Finite Fourier checks do not certify the flat cutoff, local existence proof or continuum divergence."
+  ],
+  "next_action": "Do not try to close the full-gradient entropy through the disproved raw nonnegative acceleration-square-over-gradient remainder, even after subtracting spatial constants. Return to the original signed near-field pairing on a fixed positive-age local cylinder, retaining both slices, cutoffs, transport equivalence and harmonic pressure. A bounded next check may derive the derivative terms of a spatially varying reference and test whether they can be controlled by the same solution; compare those costs with AH and require such control before adopting the estimate. Require a scale-small or summable remainder with a stated common A+E+D dependency. If the calculation only recovers C*E(r), stop this absorption subbranch and compare the existing prescribed-centre routes instead of renaming weights. Do not repeat the completed amplitude calibration or initial-time Young obstruction. No publication or reverse-runtime inspection.",
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "finite_symbolic_checks_run": true,
+  "recap_required": false,
+  "is_clay_result": false
+}
