@@ -1,0 +1,77 @@
+{
+  "internal_id": "ClayB-MaterialPressureEligibility-20260908",
+  "base_commit": "a260a76ce3de4bac198ed6f670cbff764b5850fc",
+  "status": "BOUNDED_SOURCE_AND_IDENTITY_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_material_pressure_20260908/report-source.md",
+  "main_sha256": "5556ecd2fcfc95863c121fba07e9cbfb438f9b34fd1aa0cba26d07752bfc1aaf",
+  "audit": "research/clay_b_material_pressure_20260908/audit.md",
+  "logical_context": "ClayB-PressureFreeShapeCriterion-20260908",
+  "classification": [
+    "LITERATURE ELIGIBILITY SCREEN",
+    "SMOOTH ORIGINAL-NS IDENTITY CHECK",
+    "NO NEW CRITICAL INPUT",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "completed_scope": [
+    "MPS.2–3 在光滑原周期NS上等价，保留零均值压力、投影非线性项、黏性交叉和非局部压力反馈。没有把投影项a等同物质加速度。",
+    "能量类给p在L5/3、gradp和a在L5/4；已知范数不足以保证u*gradp或u*a为L1。交换项有L_t^(10/9)W_x^(-1,10/9)分布界，但未完成整式的弱解乘积极限。",
+    "单壳核差直接给grad u乘F的范数界，无额外逆频率。对u*u给g³，仅能量g²时间积分不够；不声称所有更细抵消均不可能。",
+    "局部Bernoulli式保留两端和截止；p_t换D_tp准确恢复压力输运项，未给新耗散估计。固定分离球远压仍可估计，缺的是目标临界小量。",
+    "原始来源核读确认Isett沿流压力增益的Euler和一致Holder条件；弱耗散NS文献不含标准Laplacian。其定理未移植，旧凸熵/方差/随机投影路线不重命名计数。"
+  ],
+  "limitations": [
+    "新具体动力学候选未选定，没有无条件临界控制、联合好尺度、一般三维正则性或奇性。",
+    "本轮未构造真实NS乘积不可积反例，未否定所有压力时空结构，只判定当前直接估计未闭合。",
+    "有限文献定位不等于全文认证、穷尽查新或真人同行评审；严格区分实际阅读范围。"
+  ],
+  "next_action": "停止以物质压力导数重命名普通压力时间项、直接逐壳绝对值估计和已有随机投影重写来宣称新进展。Isett 的一致空间 Holder／Euler 条件及弱耗散文献的模型范围均不可自动移植。若再用压力方向，须先写出不同于 MPS.2–10、AP/MA 与既有压力方差方法的具体带符号估计，保留同一解、全部端点、局部尾项和真实已有输入，再检验是否产生指定中心的联合好尺度、严格尺度增益或独立不可求和成本。当前新动力学候选未选定；不制造相邻反例版本，不把未证临界范数当假设已付。不检查发布或反向执行。",
+  "new_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "artifact_scope": "PRIVATE_RESEARCH_MARKDOWN_ONLY; no reader production or publication",
+  "source_access": [
+    {
+      "title": "Regularity in time along the coarse scale flow for the incompressible Euler equations",
+      "author": "Philip Isett",
+      "version": "arXiv1307.0565v9",
+      "date": "2022-08-11",
+      "url": "https://arxiv.org/html/1307.0565v9",
+      "access_date": "2026-09-08",
+      "read_scope": "共同假设及Theorem1.5陈述；§4全部497–722；§5.1全部725–802；没有认证上游§2或全篇",
+      "native_refs": [
+        "turn7358view0",
+        "turn7360view0",
+        "turn7360view1",
+        "turn7360view2",
+        "turn7361view0",
+        "turn7361view1",
+        "turn7361view2",
+        "turn7362view0"
+      ]
+    },
+    {
+      "title": "Regularity in Time of Holder Solutions of Euler and Hypodissipative Navier--Stokes Equations",
+      "authors": "Maria Colombo; Luigi De Rosa",
+      "date": "2020-01-14",
+      "url": "https://epubs.siam.org/doi/10.1137/19M1259900",
+      "access_date": "2026-09-08",
+      "read_scope": "摘要和出版元数据，未读全文",
+      "native_refs": [
+        "turn7362view1"
+      ]
+    }
+  ],
+  "review_status": "A and C accepted final main bytes; scopes in audit.md; AI assistance, not human peer review"
+}
