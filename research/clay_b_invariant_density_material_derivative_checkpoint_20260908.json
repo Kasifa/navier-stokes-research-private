@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-InvariantDensityMaterialDerivative-20260908",
+  "date": "2026-09-08",
+  "role": "forward research",
+  "privacy": "PRIVATE_CORE",
+  "input_source_commit": "924dbe5660c743056ecd99c7b0822f4b509e00bd",
+  "main": "research/clay_b_invariant_density_material_derivative_20260908.md",
+  "main_sha256": "15ebddb311dec1b4b4c402a0148af6aebbfc76a1415aa9c3e5811f6108ee8bc1",
+  "main_lines": 163,
+  "main_bytes": 9867,
+  "status": "BOUNDED_DYNAMIC_COMBINATION_COMPLETE",
+  "classification": [
+    "SMOOTH EXACT MATERIAL-DERIVATIVE IDENTITIES",
+    "FIXED-KAPPA LOW-AMPLITUDE CANCELLATION",
+    "DIRECT WEIGHTING BRANCH STOPPED PENDING SUBSTANTIVE NEW INPUT",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "previous_goal_turn_classification": "PROGRESS: ID spatial construction and full fixed-parameter entropy were proved and privately recorded, changing the next action; no Clay result.",
+  "completed_scope": [
+    "Exact material derivative of the elliptic density with negative-sign [u.grad,Q] commutator; mean preservation is distinguished from K1=1, which is generally false.",
+    "Full second derivative of the regularized normalized gradient and its decomposition into radial-direction and original-dissipation parts.",
+    "Exact constrained first variation of the density-weighted entropy. Isolated pressure pairing is representative-dependent; scalar and Hessian additions require respecting the entire NS evolution.",
+    "Global nonlinear/transport/viscous combination removes explicit G_t, Delta G and grad rho from the global viscous block, while retaining nonlocal W and first spatial derivative costs.",
+    "Viscous regrouping identifies unknown-sign coefficient 2-(kappa+chi)/q and the precise Young remainder integral rho q |grad(W/q)|^2; no absorption asserted.",
+    "Localized identity retains full endpoints, explicit cutoff products and nonlocal multiplier tails; H remains inside N, so converted-pressure boundary terms are not added twice.",
+    "Compatible small-amplitude expansion has rho-1=O(epsilon^3); the epsilon^2 Hessian multiplier contribution at nonlinear order epsilon^4 cancels against the transport commutator."
+  ],
+  "limitations": [
+    "No common control of the combined production, coercivity of the global viscous form, weighted Young remainder, or prescribed-centre density degeneration.",
+    "Low-amplitude expansion holds only for fixed smooth seed and fixed positive kappa; it is not a terminal NS example, new solution family, uniform small-data theorem, or kappa-zero estimate.",
+    "No zero-defect limit, arbitrary-scale good point, PF joint-good-scale improvement, or solution of the Clay quantifiers.",
+    "Stopping the direct weighting branch is a research allocation decision after the bounded test, not an impossibility theorem about all invariant-density or signed-cancellation methods.",
+    "No replacement concrete dynamical estimate has been selected yet."
+  ],
+  "scientific_section_complete": false,
+  "new_unconditional_critical_estimate": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "next_replacement_candidate_selected": false,
+  "own_release_created": false,
+  "separate_handoff_sent": false,
+  "public_overview_requested": false,
+  "public_statistics_changed": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "dependencies": [
+    {
+      "path": "research/clay_b_invariant_density_entropy_20260908.md",
+      "sha256": "b45c12e98f3712e5657c928fe7925ed5a039763f8f1df01674e17b24e5eda58b",
+      "scope": "Complete163-line continuation derives from the actually reread full191-line ID note; fixed-parameter elliptic density and normalization retained."
+    }
+  ],
+  "review_scope": {
+    "root": "Independently derived first variation, material derivative, viscous regrouping, localized identity and low-amplitude joint cancellation; read full initial163-line9867B manuscript and checked structure/claim boundaries.",
+    "variable_reference_check": "Actually read full191-line ID source. Independently derived material-derivative signs/constant modes, second chain rule, global viscous simplification and then verified the precise local formula, Young constant, and unknown coercivity. Did not read final IDC manuscript.",
+    "all": "Participating AI mathematical cross-checks only, not human peer review, novelty certification, or complete external elliptic-theory audit.",
+    "ma_freeze_review": "Actually read ID1-191, independently derived constrained variation, small-amplitude expansion and joint cancellation, then read final IDC1-163 in full and checked IDC.1-14 at163lines9867B SHA15ebddb311. Limited PASS without mandatory changes; verified scalar/Hessian representative scope, local endpoints/tails, quartic coefficient and O(epsilon^5) density contribution. No new literature or human review."
+  },
+  "verification": {
+    "source_structure": {
+      "tags": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "display_open": 14,
+      "display_close": 14,
+      "inline_open": 84,
+      "inline_close": 84,
+      "links": [
+        "clay_b_invariant_density_entropy_20260908.md"
+      ],
+      "bad_heading_spacing": [],
+      "abnormal_controls": false
+    },
+    "preservation": "All186 previously required source hashes verified unchanged before checkpoint write; no historical frozen file edited.",
+    "external_sources": "No new literature claim, search, or external proof reliance in this continuation; only the linked ID source and direct calculations.",
+    "artifact_scope": "Only private mathematical source and compact checkpoint; no HTML/PDF/translation/deployment."
+  },
+  "next_action": "IDC已经完成ID遗留的物质导数/交换子及完整局部式，减少了粗高阶导数成本并确认固定kappa低幅非局部抵消，但没有获得联合源控制、黏性强制性、加权余项界或指定中心密度非退化。停止直接不变密度加权支路的相邻改写、分项压力判断、小参数核算及小例子计数；只有新的实质估计能处理明确缺项时才重开。回到同一任意数据原NS轨道的固定正龄、指定中心联合好尺度问题，先从现有数学问题清单选择不同的具体前终端动力学输入，核对旧稿避免重复，再实际推导；替代候选尚未选定。不能把方向意向、已知条件出口或初端例子当作终端增益。不新建release、不重发交接，不查看发布或反向执行。"
+}
