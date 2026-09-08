@@ -1,0 +1,108 @@
+{
+  "schema": "ReverseNS-bounded-analytic-acceptance-v1",
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_DERIVATIONS_AND_FOUR_NONAUTHOR_REVIEWS_ROOT_FULL_COMPARISON_FINAL_SCOPE_PENDING",
+  "recorded_at_utc": "2026-09-08T11:02:46.281356+00:00",
+  "files": [
+    {
+      "path": "research/reverse/support-invariance/CONTRACT.md",
+      "sha256": "6e1762229978d3238772594a7d0b87ee902c6002925a2b4ce1098c3382305b0c",
+      "bytes": 3776
+    },
+    {
+      "path": "research/reverse/support-invariance/PROOF.md",
+      "sha256": "0757f3859ff4ecd09cae33326593599c1603be7ef28c294444f8115ee19fa356",
+      "bytes": 10003
+    },
+    {
+      "path": "research/reverse/support-invariance/INDEPENDENT.md",
+      "sha256": "1dc367a1f2480bf43e9df1a5ff50ae2cf86c74c8d858ffa26a7361c649b02a79",
+      "bytes": 18031
+    },
+    {
+      "path": "research/reverse/support-invariance/MAIN_REVIEW.md",
+      "sha256": "8fa537041efc80cfb2b7debe3c29fee3e47abf1ca2220ed648c7c2fce88bbdbe",
+      "bytes": 6873
+    },
+    {
+      "path": "research/reverse/support-invariance/INDEPENDENT_REVIEW.md",
+      "sha256": "1871956fec27d6a459b49594b059842318a234e74af29e3ae94a6bb1e1415259",
+      "bytes": 10629
+    },
+    {
+      "path": "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
+      "sha256": "de3df9e8df78d42f619996c411425b6ce6c66bedaf1a8285bbfc4e29076d7483",
+      "bytes": 3077
+    },
+    {
+      "path": "research/reverse/support-invariance/POLARIZATION_PROOF.md",
+      "sha256": "07cb56f95ba62ad2c6e8677f1e5568567ca5552466133db3f668e6a8268d8b43",
+      "bytes": 6367
+    },
+    {
+      "path": "research/reverse/support-invariance/POLARIZATION_INDEPENDENT.md",
+      "sha256": "21758a8ad18606f8cea2158a7a1cda3ab62976da530d1a395ab7fd8e618ce57e",
+      "bytes": 8699
+    },
+    {
+      "path": "research/reverse/support-invariance/POLARIZATION_REVIEW.md",
+      "sha256": "0d5addda90800ab58e6bc8583c24ce26d85f2f31181dd43776f102dba0dc3870",
+      "bytes": 6647
+    },
+    {
+      "path": "research/reverse/support-invariance/POLARIZATION_INDEPENDENT_REVIEW.md",
+      "sha256": "11adce431ffab2f537e4fff88a67250d9cb8339ed4e1dcbbfd51d0380c12636c",
+      "bytes": 10057
+    },
+    {
+      "path": "research/reverse/support-invariance/SOURCES.md",
+      "sha256": "ac892ad6362ceb0a89ec860e42a84d215d9676985e4a9055e772416f4bf4bf81",
+      "bytes": 6533
+    },
+    {
+      "path": "research/reverse/support-invariance/ROOT_COMPARISON.md",
+      "sha256": "ad2a4f0de0a91ab23800a2b5cbb18e0753d7350c0e91040c305202fabfd520a0",
+      "bytes": 6035
+    },
+    {
+      "path": "research/reverse/support-invariance/OUTCOME.md",
+      "sha256": "171284640b744d03bc677e0b976e3693e88a5856f5857f595be2f4abbf894d69",
+      "bytes": 3152
+    },
+    {
+      "path": "research/reverse/symmetry-source-preflight/PRIMARY_SCOPE.md",
+      "sha256": "5200cfc99a1fd2f4b88528e9a523628a0505e7496b8e65c730b24512558ddda3",
+      "bytes": 7130
+    },
+    {
+      "path": "research/reverse/symmetry-source-preflight/INDEPENDENT_PREFLIGHT.md",
+      "sha256": "ebf24f46a42e1cc5314385121e86855c83072fc1f46d99897cb9a18bb47de592",
+      "bytes": 5470
+    }
+  ],
+  "scope": [
+    "Full transverse-polarization support A/C/I equivalence, collinear and empty exceptions, rank>=2 additive subgroup classification, actual fixed-datum local leakage with o(t).",
+    "For each fixed real nonzero sigma and full-rank integer subgroup L, free scalar coefficients in C P_k sigma do not define a full-NS invariant space; actual per-datum off-line leakage with o(t)."
+  ],
+  "independence": "Two derivations per bounded contract formed without reading their counterpart; root precontract observations disclosed. Main proofs reviewed by Pasteur. Support independent reviewed by Hume; polarization independent reviewed by Gauss. Prior related roles and incidental SAL search fragments disclosed. Not topic-blind, external human peer review or proof-assistant certification.",
+  "root_actual_full_read_of_new_final_texts": true,
+  "numerical_certificate": "NOT_APPLICABLE_SYMBOLIC_PROOFS_ONLY",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "actual_numeric_datum_selected": false,
+  "uniform_time_window_claimed": false,
+  "figures": [],
+  "candidate_accepted": false,
+  "two_step_regeneration_accepted": false,
+  "older_failed_evidence_repaired": false,
+  "unresolved_mathematical_issues_within_contracts": [],
+  "next_gate": "Final combined scope review of claims, sources and exact bindings; then source commit and private freeze.",
+  "attached_previous_reading_record": {
+    "path": "research/reverse/atom-pressure-input/source-review-record.json",
+    "sha256": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186",
+    "source_commit": "9b076e356222c24fa10f0c14916d54350923e7d9",
+    "current_seven_files_equal_source_objects": true,
+    "six_previous_final_bindings_match": true,
+    "scope": "Unchanged prior completed source reading; no new theorem or separate formal release."
+  }
+}
