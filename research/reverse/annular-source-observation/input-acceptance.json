@@ -1,0 +1,123 @@
+{
+  "status": "INPUT_VERIFIED",
+  "classification": "FINITE_EXACT_INPUT_PREPARATION_NOT_NS_MECHANISM",
+  "primary_source_commit": "c37b516bf668a8b600b084dde91f94b7fe27ddb8",
+  "verifier_source_commit": "9d5a7de892cccbfb98b93f2df231c68551631961",
+  "scientific_execution_count": 2,
+  "primary_invocations": 1,
+  "verifier_invocations": 1,
+  "fft_or_trajectory_invocations": 0,
+  "verified_categories": [
+    "original_P_r_s_and_five_composed_polynomials",
+    "all_80_midpoints_or_exact_root_early_stop",
+    "all_five_contract_interval_Horner_traces",
+    "q36_integer_distance_and_even_ties",
+    "all_twelve_modes_and_53_bit_intermediates",
+    "all_physical_binary64_values_and_exact_readbacks",
+    "three_initial_error_bounds_and_original_norm_intervals",
+    "same_C_T_a_and_binary64_time_conversion_errors"
+  ],
+  "actual_root_exactly_80_bisections": true,
+  "old_single_root_uniqueness_inherited": true,
+  "same_original_datum": true,
+  "approximation_replaces_original_datum": false,
+  "actual_NS_existence_to_T_certified": false,
+  "actual_NS_source_gates_certified": false,
+  "independent_readback_scope": "Reviewed core performed all exact comparisons; root checked actual completion, resources, byte bindings and category records without rerunning arithmetic",
+  "files": [
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "bytes": 3162
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "bytes": 4491
+    },
+    {
+      "path": "research/reverse/annular-source-observation/prepare_input.py",
+      "sha256": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1",
+      "bytes": 18212
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_input.py",
+      "sha256": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028",
+      "bytes": 8422
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_REVIEW.md",
+      "sha256": "e2dec4c38f671fb63f9b0a833cdf3dcb8c1975fde8cc510ef2bd115df57d29c6",
+      "bytes": 10628
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_INPUT_CHECK.md",
+      "sha256": "45bca9b746436b6122ecc211926c3bc97093ceecab5729aeced6c028db1675cc",
+      "bytes": 2635
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-pre-run-binding.json",
+      "sha256": "01c247abee4e01904aa374b4158b3278f9817a208257add252db71679c3e7248",
+      "bytes": 4421
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "bytes": 133961
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "bytes": 2935
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_METHOD.md",
+      "sha256": "f0798c5d4fa8b798af3c59d8159e150ac6e30950a95a064253f8da3f7d81a3d6",
+      "bytes": 14970
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verify_input.py",
+      "sha256": "f9696e242d1eed0a2135870730d5100731dc80283f13fd8cdc0547e20eea04b0",
+      "bytes": 48687
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_ADAPTATION.md",
+      "sha256": "ea450c56d61866da5334127fdaeff0aadad1dec43717fdb1c6c745e950861252",
+      "bytes": 11921
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_CODE_REVIEW.md",
+      "sha256": "54cd54b0aa40a240318e60c7947ba283d61ed58066253e48c17fbcb8c9a3759b",
+      "bytes": 9508
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_VERIFY_READ.md",
+      "sha256": "3baf7e6bdfae5e5047a731749eb74f38b1e22cb79800ac560e441d3f9d8e3d17",
+      "bytes": 2818
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verifier-pre-run-binding.json",
+      "sha256": "bbe3aaf3fe3a7febd894d1eb33d6a13ef344be0e1693f8ea424117f43165c564",
+      "bytes": 3263
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verify-input-output.json",
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1",
+      "bytes": 293865
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verifier-execution.json",
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f",
+      "bytes": 8480
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "bytes": 3579
+    }
+  ],
+  "figures": [],
+  "new_pdf": false,
+  "separate_formal_release": false,
+  "publication_handoff": false
+}

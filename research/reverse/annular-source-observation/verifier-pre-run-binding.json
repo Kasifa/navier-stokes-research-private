@@ -1,0 +1,89 @@
+{
+  "status": "PRE_RUN_SOURCE_BINDING_PASS",
+  "source_commit": "9d5a7de892cccbfb98b93f2df231c68551631961",
+  "files": [
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "bytes": 3162,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "bytes": 4491,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_METHOD.md",
+      "sha256": "f0798c5d4fa8b798af3c59d8159e150ac6e30950a95a064253f8da3f7d81a3d6",
+      "bytes": 14970,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/prepare_input.py",
+      "sha256": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1",
+      "bytes": 18212,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_input.py",
+      "sha256": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028",
+      "bytes": 8422,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verify_input.py",
+      "sha256": "f9696e242d1eed0a2135870730d5100731dc80283f13fd8cdc0547e20eea04b0",
+      "bytes": 48687,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_ADAPTATION.md",
+      "sha256": "ea450c56d61866da5334127fdaeff0aadad1dec43717fdb1c6c745e950861252",
+      "bytes": 11921,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "bytes": 133961,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "bytes": 2935,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_VERIFY_READ.md",
+      "sha256": "3baf7e6bdfae5e5047a731749eb74f38b1e22cb79800ac560e441d3f9d8e3d17",
+      "bytes": 2818,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/annular-source-observation/VERIFY_CODE_REVIEW.md",
+      "sha256": "54cd54b0aa40a240318e60c7947ba283d61ed58066253e48c17fbcb8c9a3759b",
+      "bytes": 9508,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+      "sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b",
+      "bytes": 12493,
+      "matches_git_object": true
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
+      "sha256": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
+      "bytes": 13267,
+      "matches_git_object": true
+    }
+  ],
+  "outputs_absent": [
+    "verify-input-output.json",
+    "verifier-execution.json"
+  ],
+  "scope": "metadata only; primary once and independent not yet invoked"
+}

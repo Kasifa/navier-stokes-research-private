@@ -1,0 +1,170 @@
+{
+  "RSS_limit_bytes": 268435456,
+  "RSS_posthoc_budget_pass": true,
+  "child_pid": 42855,
+  "child_reported_status": "VERIFIED",
+  "command_argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/verify_input.py",
+    "--worker",
+    "--authorized-run",
+    "--supervisor-pid",
+    "42853",
+    "--input",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-preparation.json",
+    "--input-sha",
+    "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+    "--producer-receipt",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-execution.json",
+    "--producer-receipt-sha",
+    "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+    "--source-sha",
+    "f9696e242d1eed0a2135870730d5100731dc80283f13fd8cdc0547e20eea04b0",
+    "--adaptation-sha",
+    "ea450c56d61866da5334127fdaeff0aadad1dec43717fdb1c6c745e950861252",
+    "--source-commit",
+    "9d5a7de892cccbfb98b93f2df231c68551631961"
+  ],
+  "exit_code": 0,
+  "independent_output": {
+    "bytes": 293865,
+    "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/verify-input-output.json",
+    "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+  },
+  "maximum_RSS_CHILDREN_bytes": 19644416,
+  "resource_scope": "One fresh child. Wall: before Popen through communicate/wait return. Darwin RUSAGE_CHILDREN peak RSS is posthoc child-only measurement; not a runtime RSS hard limit or parent/whole-task measurement.",
+  "scientific_child_launch_attempted": true,
+  "scientific_execution_count_in_this_invocation": 1,
+  "source_commit_parent_supplied_not_git_verified": "9d5a7de892cccbfb98b93f2df231c68551631961",
+  "sources_after": {
+    "adaptation": {
+      "bytes": 11921,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/VERIFY_ADAPTATION.md",
+      "sha256": "ea450c56d61866da5334127fdaeff0aadad1dec43717fdb1c6c745e950861252"
+    },
+    "algebra_A": {
+      "bytes": 12493,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+      "sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b"
+    },
+    "algebra_B": {
+      "bytes": 13267,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
+      "sha256": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499"
+    },
+    "input_contract": {
+      "bytes": 4491,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    "method": {
+      "bytes": 14970,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/VERIFY_METHOD.md",
+      "sha256": "f0798c5d4fa8b798af3c59d8159e150ac6e30950a95a064253f8da3f7d81a3d6"
+    },
+    "observation_contract": {
+      "bytes": 3162,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    "primary_execution": {
+      "bytes": 2935,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+    },
+    "primary_output": {
+      "bytes": 133961,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    "producer_source": {
+      "bytes": 18212,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/prepare_input.py",
+      "sha256": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1"
+    },
+    "producer_supervisor": {
+      "bytes": 8422,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/run_input.py",
+      "sha256": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028"
+    },
+    "verifier_source": {
+      "bytes": 48687,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/verify_input.py",
+      "sha256": "f9696e242d1eed0a2135870730d5100731dc80283f13fd8cdc0547e20eea04b0"
+    }
+  },
+  "sources_before": {
+    "adaptation": {
+      "bytes": 11921,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/VERIFY_ADAPTATION.md",
+      "sha256": "ea450c56d61866da5334127fdaeff0aadad1dec43717fdb1c6c745e950861252"
+    },
+    "algebra_A": {
+      "bytes": 12493,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+      "sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b"
+    },
+    "algebra_B": {
+      "bytes": 13267,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
+      "sha256": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499"
+    },
+    "input_contract": {
+      "bytes": 4491,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    "method": {
+      "bytes": 14970,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/VERIFY_METHOD.md",
+      "sha256": "f0798c5d4fa8b798af3c59d8159e150ac6e30950a95a064253f8da3f7d81a3d6"
+    },
+    "observation_contract": {
+      "bytes": 3162,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    "primary_execution": {
+      "bytes": 2935,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+    },
+    "primary_output": {
+      "bytes": 133961,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    "producer_source": {
+      "bytes": 18212,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/prepare_input.py",
+      "sha256": "7010b49e1d13693a963963824d2c6b00ada707b197e899806a719fc4f4dc5cf1"
+    },
+    "producer_supervisor": {
+      "bytes": 8422,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/run_input.py",
+      "sha256": "ee83bb8f6c0ce50aae9e45553ce7e9e59d84bb641aed5b3fd9ed9c080c74f028"
+    },
+    "verifier_source": {
+      "bytes": 48687,
+      "path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/verify_input.py",
+      "sha256": "f9696e242d1eed0a2135870730d5100731dc80283f13fd8cdc0547e20eea04b0"
+    }
+  },
+  "status": "VERIFIED_WITHIN_RESOURCE_BOUNDARY",
+  "stderr": "",
+  "stdout": "",
+  "supervisor_self_usage_before_receipt_serialization": {
+    "RSS_raw_unit": "Darwin bytes",
+    "maximum_RSS_bytes": 19398656,
+    "pid": 42853,
+    "scope": "Cumulative supervisor SELF usage sampled immediately before receipt serialization. Excludes later serialization, write, close and exit; not the full parent lifecycle or a simultaneous parent-child peak. Never added to child RSS.",
+    "system_CPU_seconds": 0.013861,
+    "user_CPU_seconds": 0.028813
+  },
+  "system_CPU_CHILDREN_seconds": 0.006983,
+  "timed_out": false,
+  "timeout_seconds": 5.0,
+  "user_CPU_CHILDREN_seconds": 0.031951,
+  "wall_budget_pass": true,
+  "wall_seconds_Popen_to_wait": 0.04064770799999999
+}
