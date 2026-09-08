@@ -1,0 +1,78 @@
+{
+  "schema": "ReverseNS-bounded-analytic-acceptance-v1",
+  "classification": "PRIVATE_CORE",
+  "status": "TWO_DERIVATIONS_TWO_NONAUTHOR_REVIEWS_ROOT_COMPARISON_PASS_FINAL_SCOPE_PENDING",
+  "recorded_at_utc": "2026-09-08T11:36:38.362714+00:00",
+  "files": [
+    {
+      "path": "research/reverse/symmetry-pressure/CONTRACT.md",
+      "sha256": "be413616aa81f63f6bf7584c7dc41926fc721f8c845278df4164edc6f39d0124",
+      "bytes": 4935
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/INDEPENDENT.md",
+      "sha256": "c5c6d5cc0099d92270cb541173bcd0c8f04e083d2d1a840dc8b73ceec57996c1",
+      "bytes": 17245
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/INDEPENDENT_REVIEW.md",
+      "sha256": "02e0eaec16763d847b39cf8743d7f542424924513d6e16f726fc62911f5c55cf",
+      "bytes": 10992
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/MAIN_REVIEW.md",
+      "sha256": "5bc7f56d1d45c9f81e21309c0505295681d827e367bfd77e7be6b4d3a323ed35",
+      "bytes": 9337
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/OUTCOME.md",
+      "sha256": "0ba73c06edd7dbe223fe9a4f7199196bc51bb313b66cad6d5056048a806f5086",
+      "bytes": 2799
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/PROOF.md",
+      "sha256": "4ba474f1d6735bed9e9ccc60783ef002a7e13b9442a12d1e0db17364bc9aea14",
+      "bytes": 12624
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/ROOT_COMPARISON.md",
+      "sha256": "7ecb3e4fe6fc1b3f316fa9bd522e2ac85add49a7aa6831d69a3918525b899a53",
+      "bytes": 5549
+    },
+    {
+      "path": "research/reverse/symmetry-pressure/SOURCES.md",
+      "sha256": "35d5a20a4b7d1dd9e5e02691d964ef56684a94ecaab99a879c2051dddfc82ff9",
+      "bytes": 4133
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md",
+      "sha256": "abf66039c0c6d158d88c3b293c7bffbd93d9ebc043a327fe357dc9f84f867150",
+      "bytes": 11366
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/PREFLIGHT_REVIEW.md",
+      "sha256": "6c71b9682f58fa1d0aa808548bad08aafdbf959b4136e8eb8919c5b4a7643b99",
+      "bytes": 8758
+    },
+    {
+      "path": "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md",
+      "sha256": "bbd8c3d57ad138a123f5dcb32e5599ac013bf7442636e3a01ed31bd96edf350b",
+      "bytes": 1513
+    }
+  ],
+  "scope": "Existence of allowed permutation-equivariant centrally odd smooth real divergence-free zero-mean comparison data equal on an origin neighborhood but with different full periodic mixed pressure Hessian and actual NS origin-strain initial derivative, with rigorous per-datum dt+o(t).",
+  "independence": "Root main and Gauss independent derivations formed without reading counterparts; precontract reasoning disclosed. Pasteur reviewed main without independent, Hume reviewed independent without main. Related earlier roles disclosed. Root actual full comparison is not a third proof.",
+  "root_actual_full_read_final_texts": true,
+  "numerical_certificate": "NOT_APPLICABLE_SYMBOLIC_PROOFS_ONLY",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "actual_numeric_datum_selected": false,
+  "actual_symbolic_comparison_data_constructed": true,
+  "uniform_time_window_claimed": false,
+  "figures": [],
+  "candidate_accepted": false,
+  "two_step_regeneration_accepted": false,
+  "older_failed_evidence_repaired": false,
+  "unresolved_mathematical_issues_within_contract": [],
+  "next_gate": "Final combined scope, sources, exact binding review; preserve author-time pending labels as historical states."
+}
