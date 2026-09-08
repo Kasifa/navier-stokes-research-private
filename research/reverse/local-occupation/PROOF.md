@@ -157,7 +157,7 @@ e 连续，故该集合可测。以 |·| 表示 s 的 Lebesgue 测度，LO.3 给
 
 \[
 |\mathcal B_\delta|
-=\int_{\{t:e(-\log(T_*-t))>\delta\}}
+=\int_{\{t\in[t_0,t_1]:e(-\log(T_*-t))>\delta\}}
 \frac{dt}{T_*-t},
 \quad
 \ell=\log\frac{T_*-t_0}{T_*-t_1}.

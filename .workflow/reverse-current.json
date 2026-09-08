@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Seventeenth package frozen and sent once; no resend or archive observation. Finish actual weak-local-exit independent derivation, separate non-author reviews and root comparison. New question lowers old fixed-shape C3 hypothesis to local velocity L2, retaining full rescaled NS; not yet accepted.",
+  "next_action": "Complete actual local-occupation independent text and separate reviews, root comparison, then combined local-L2/occupation final scope and private freeze. Seventeen packages already sent once; no resend or archive observation.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -16,13 +16,17 @@
   "accepted": "Seventeenth package accepted, frozen and once privately handed off. Conditional shape directions and actual short-window nonamplification exclusions remain distinct.",
   "required_files": [
     "research/reverse/short-window-source-amplitude/freeze.json",
-    "research/reverse/weak-local-exit/CONTRACT.md",
-    "research/reverse/weak-local-exit/PROOF.md"
+    "research/reverse/weak-local-exit/acceptance.json",
+    "research/reverse/weak-local-exit/ROOT_COMPARISON.md",
+    "research/reverse/local-occupation/CONTRACT.md",
+    "research/reverse/local-occupation/PROOF.md"
   ],
   "required_file_sha256": {
     "research/reverse/short-window-source-amplitude/freeze.json": "6793fd3cac9c1f34939b1b6998ec9e3014bf83b539bbbd597c332aea5e60e3c5",
-    "research/reverse/weak-local-exit/CONTRACT.md": "2eba0d26399480d98c1d29e288b0f1726b33ca14dc103092936e20749689664f",
-    "research/reverse/weak-local-exit/PROOF.md": "fb94de563dc2a95dad6cd21209724239c5b924ac27097f3610448d37e718a54d"
+    "research/reverse/weak-local-exit/acceptance.json": "4f00c055c95d3292b80e5e578cfe1c9b3c1c5571e9ea2c134d0b3acea76d8207",
+    "research/reverse/weak-local-exit/ROOT_COMPARISON.md": "b917a7529f6932cae6b8246917146907c70da22c95745ec78e999ff972bca856",
+    "research/reverse/local-occupation/CONTRACT.md": "368fc878d7f35223b5ebe96dee84cd99b33573cb9ba0208e7e795c0214bd1485",
+    "research/reverse/local-occupation/PROOF.md": "5195d555303bb3eea702045f7b38e46ab8a73b1c32eeedb9614ff2dad310e22a"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
@@ -324,8 +328,10 @@
   },
   "resume_read_set": [
     "research/reverse/short-window-source-amplitude/freeze.json",
-    "research/reverse/weak-local-exit/CONTRACT.md",
-    "research/reverse/weak-local-exit/PROOF.md"
+    "research/reverse/weak-local-exit/acceptance.json",
+    "research/reverse/weak-local-exit/ROOT_COMPARISON.md",
+    "research/reverse/local-occupation/CONTRACT.md",
+    "research/reverse/local-occupation/PROOF.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -741,7 +747,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T07:40:42.014747+00:00",
+  "last_checkpoint_utc": "2026-09-08T07:48:45.039986+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -928,11 +934,20 @@
     "manifest": "research/reverse/short-window-source-amplitude/freeze.json"
   },
   "weak_local_exit_evidence": {
-    "status": "MAIN_STOPPED_ROOT_FULL_READ_INDEPENDENT_AND_NONAUTHOR_REVIEW_IN_PROGRESS",
+    "status": "ACCEPTED_TWO_DERIVATIONS_SEQUENTIAL_NONAUTHOR_REVIEWS_ROOT_COMPARISON",
     "directory": "research/reverse/weak-local-exit",
+    "accepted": true,
+    "scientific_programs_run": 0,
+    "actual_new_datum": false,
+    "scope": "Only fixed shape, fixed rescaled coordinates, one continuous local L2 neighborhood residence interval; no derivative-smallness assumption or weak-solution extension.",
+    "acceptance": "research/reverse/weak-local-exit/acceptance.json"
+  },
+  "local_occupation_evidence": {
+    "status": "MAIN_STOPPED_ROOT_FULL_READ_INDEPENDENT_AND_SEPARATE_REVIEW_IN_PROGRESS",
+    "directory": "research/reverse/local-occupation",
     "accepted": false,
     "scientific_programs_run": 0,
     "actual_new_datum": false,
-    "scope": "Only fixed shape, fixed rescaled coordinates, one continuous local L2 neighborhood residence interval; no derivative-smallness assumption or weak-solution extension."
+    "scope": "Actual same-datum energy gives logarithmic-time integral and outside-neighborhood occupation constraints; conditional, under review."
   }
 }

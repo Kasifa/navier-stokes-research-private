@@ -1,0 +1,41 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_LOCAL_VELOCITY_L2_CONTINUOUS_RESIDENCE_OBSTRUCTION",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/weak-local-exit/CONTRACT.md": "2eba0d26399480d98c1d29e288b0f1726b33ca14dc103092936e20749689664f",
+    "research/reverse/weak-local-exit/PROOF.md": "fb94de563dc2a95dad6cd21209724239c5b924ac27097f3610448d37e718a54d",
+    "research/reverse/weak-local-exit/INDEPENDENT.md": "fd9b40918c527ba2e07c54b497bbb7cff4aaddff02ec16eee394dbd237aa436e",
+    "research/reverse/weak-local-exit/REVIEW.md": "de57fb3c89a95c7dba14e29f5336985f8afc76f1ab9c2f72c2847595e70f8daa",
+    "research/reverse/weak-local-exit/INDEPENDENT_REVIEW.md": "aaaa7719beec4a166be5a6438712c51c5c82f7eb1ff9d1869d65dd6a3938257d",
+    "research/reverse/weak-local-exit/ROOT_COMPARISON.md": "b917a7529f6932cae6b8246917146907c70da22c95745ec78e999ff972bca856",
+    "research/reverse/weak-local-exit/OUTCOME.md": "db8ff819f25c43dd9747e7c68d1142b5bdf03f2f843e67792806226de5c7dc99"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Same-original-solution fixed-shape continuous local strong-L2 residence has explicit finite logarithmic-time bound without perturbation derivative smallness.",
+    "All-B-star nonlinear sign, arbitrary angular cutoff, exact pressure elimination, retained viscosity and full linear plus quadratic error with both time endpoints.",
+    "Independent additionally supplies exact meridional test formula, whole-ball rational bound and general positive-gap residence formula; constants remain separately defined."
+  ],
+  "independence": "Authors formed without reading each other; root precontract path preflight disclosed. One non-author reviewed main then independent sequentially; root comparison nonblind. Extra results separately attributed.",
+  "unresolved_within_accepted_claims": [],
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_actual_datum": false,
+  "new_test_or_tolerance_selected": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "One continuous residence in fixed coordinates only; no visits count, cumulative occupation, arbitrary modulation, weak-solution trace, realization, regularity or singularity. NO-CANDIDATE / NOT CLAY."
+}
