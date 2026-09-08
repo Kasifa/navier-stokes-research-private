@@ -6,25 +6,27 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read the two contracted preprint arguments and inherited duplicates, check same-parent and restart quantifiers, and independently review whether any actual dynamic input is paid. Do not assume an atom or import unread proofs.",
+  "next_action": "Do not repeat completed source reads or the rejected old-shape/Taylor/three-pair variants. Identify a specified actual same-orbit dynamic object with a new checkable input before fixing another bounded mechanism contract. Research authority remains active; no confirmation is pending.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-DynamicInputScreen",
-  "scientific_status": "DYNAMIC_INPUT_SCREEN_FROZEN_SENT_ONCE; TWO_PRIMARY_PREPRINT_INPUT_READS_CONTRACTED; NOT_CLAY",
+  "scientific_status": "NINETEENTH_FORMAL_PACKAGE_FROZEN_SENT_ONCE; SUBSEQUENT_SOURCE_READING_COMPLETE_NO_NEW_PAID_INPUT; NOT_CLAY",
   "accepted": "Nineteenth private package source-frozen and once handed off. Bounded dynamic-input screening with inherited conditional endpoints preserved; NO_NEW_THEOREM; NO_CANDIDATE.",
   "required_files": [
     "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
-    "research/reverse/atom-pressure-input/CONTRACT.md",
-    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/atom-pressure-input/source-review-record.json",
+    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
+    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/dynamic-input-screen/freeze.json": "6921107a3a339d8785b7f8af357f220cf37ff22abfa56071ec8635e799bd3338",
-    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md": "5239a137448b4b6027dcf004d2a7db3fd5ffe9c54006c735ab2b3bf162fb4dbf",
-    "research/reverse/atom-pressure-input/CONTRACT.md": "040348066cb081fbadd2628c55ee365bd180e06f7930da25579497fe56e54b29",
-    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md": "e2d50b1584d816f549b67e1e8ebe7f71b5e50d29a55b156cf0c3619dba94e285"
+    "research/reverse/local-occupation/freeze.json": "6a452aab8e2fc931ddd6e669c4b27bca708cffd293ea582f1b1459b6c6cf3408",
+    "research/reverse/atom-pressure-input/source-review-record.json": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186",
+    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md": "6f91be318150415b8687f70eeda81d91baeecb7b6b25d9f06e4070f400e9686a",
+    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md": "6a0a1c89067438ec5987b942fc4e34ff6661122e84b9d93c8a701c51a2084e57"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-DynamicInputScreen",
@@ -38,11 +40,11 @@
   },
   "freeze_commit": "20b34a5949df6d03b310e6ceb83adfc58646c0d1",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Bounded original-source audit of atom-forced pressure response and full-tail necessary rigidity",
+  "current_topic": "Authorized continued reverse research; current bounded source review completed with no new paid mechanism input",
   "current_topic_directory": "research/reverse/atom-pressure-input",
   "pending": [
-    "Two directed primary preprint readings under atom-pressure-input/CONTRACT.md, historical deduplication and non-author scope review.",
-    "No new candidate or proof/computation contract. Six older failed evidence objects remain unchanged."
+    "No new mechanism has passed screening. Actual second-generation net supply or a dynamic profile update remains unpaid.",
+    "Uniform iteration, one fixed initial datum across infinitely many scales, cross-generation infinite-dimensional error and finite total time remain open."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -51,7 +53,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T08:47:43.041696+00:00",
+  "updated_at": "2026-09-08T09:07:50.861584+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -337,13 +339,14 @@
   },
   "resume_read_set": [
     "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
-    "research/reverse/atom-pressure-input/CONTRACT.md",
-    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/atom-pressure-input/source-review-record.json",
+    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
+    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "2c45b76d63708e6eba3ce2e6b9fef8c5ffa2f19e",
+  "current_analysis_source_commit": "9b076e356222c24fa10f0c14916d54350923e7d9",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -583,9 +586,10 @@
     "research/reverse/CHECKPOINT.md",
     ".workflow/reverse-current.json",
     "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
-    "research/reverse/atom-pressure-input/CONTRACT.md",
-    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md"
+    "research/reverse/local-occupation/freeze.json",
+    "research/reverse/atom-pressure-input/source-review-record.json",
+    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
+    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -757,7 +761,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T08:47:43.041696+00:00",
+  "last_checkpoint_utc": "2026-09-08T09:07:50.861584+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1003,5 +1007,17 @@
     "source": "get_goal tool actual read during current continuation",
     "no_reset_or_goal_mutation": true,
     "note": "Read-only platform observation; not a mathematical result or inferred task pause."
+  },
+  "source_reading_addendum_20260908": {
+    "source_commit": "9b076e356222c24fa10f0c14916d54350923e7d9",
+    "record": "research/reverse/atom-pressure-input/source-review-record.json",
+    "status": "COMPLETE_READING_ONLY_NO_NEW_FORMAL_RELEASE",
+    "root_final_texts_read": true,
+    "non_author_scope_review": "PASS_NONBLIND_WITH_DISCLOSED_PRIOR_ROLES",
+    "new_paid_input": false,
+    "new_theorem": false,
+    "new_candidate": false,
+    "publication_handoff": "NONE_NO_DUPLICATE_RELEASE",
+    "next_substantive_freeze_may_include_working_records": true
   }
 }
