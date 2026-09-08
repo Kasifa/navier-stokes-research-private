@@ -1,0 +1,33 @@
+{
+  "release_id": "ClayB-DisjointShearRankGeneration-20260908",
+  "logical_predecessor": "ClayB-PressureFreeShapeCriterion-20260908",
+  "status": "RESEARCH_COMPLETE_IN_STATED_SCOPE",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": ["PRIVATE_ARCHIVE"],
+  "public_overview_requested": false,
+  "base_commit": "27728afac997a846c7b7073f49451fa2a4eb7979",
+  "main": "research/clay_b_disjoint_shear_rank_generation_20260908.md",
+  "main_sha256": "850c9461bb90dde06938247e13e5c71be5db4b1a513e141fa55d8d1d738e6a1b",
+  "classification": ["SMOOTH ORIGINAL-NS RANK GENERATION", "SIGNED FULL VISCOSITY OBSTRUCTION", "NOT CLAY"],
+  "claims": [
+    "固定 nu>0、0<tau<T 及一对分离支撑剪切初值形状，存在统一 epsilon0,c,C，使每个 0<epsilon≤epsilon0 的同一光滑无外力周期 NS 解初始梯度处处秩至多一，而整个 [tau,T] 内固定正体积集合上梯度秩至少二，且缺陷质量 c epsilon≤m_epsilon≤C epsilon。",
+    "原 NS 解在 C([0,T];C1) 中等于 epsilon 倍热轨道加 O(epsilon²)。包含全部零集余项的 CD 有符号黏性测度满足 nu mu_f(T³×(0,t))=-epsilon m_H(t)+O(epsilon²)<0，对固定 [tau,T] 统一成立。",
+    "不存在幅度一致的有限常数，以零初始缺陷、初始动能及累计 q²+|H| 等纯二阶成本控制上述一阶缺陷质量并另加非负耗散；这是 SRG.20 的指定估计障碍。"
+  ],
+  "open_items": [
+    "未获得任意光滑初值沿同一演化的指定中心共同 A+E 上界及足够小形状耗散尺度，PF 条件出口仍缺这一动力学输入。",
+    "不排除初始 integral|G|、独立扩散生成、线性成本、带符号抵消或混合估计；负 mu_f 不是负能量耗散。",
+    "固定 epsilon 的任意小正时间统一下界、真实梯度恰为秩二、正涡伸长及奇性均未证明。",
+    "有限本地去重与局部理论核验不证明新颖性、期刊价值或真人同行评审；一般三维 NS / Clay 仍开放。"
+  ],
+  "next_action": "有界检验原整胞联合源候选 |integral B0:(G²+H)|≤C||G||2||d(G)||2，B0=G/|G|且零处取零，H 为同一规范周期压力 Hessian，常数只依赖固定周期胞。先确定全体光滑无散周期初值的量词和可反检族，再独立处理压力配对；惯性项已由 |G²|≤C|G|d 控制。不得用不保持梯度/无散结构的逐点秩一投影直接套 CLMS，不将加强 Hardy 界当已知。候选尚未通过证明或反证；即使整胞界成立，局部截止、调和压力尾和指定中心好尺度仍须另证。不重复 SRG/MA/VR/旧 Piola 抵消，不检查发布或反向执行。",
+  "next_test_candidate_selected": true,
+  "next_concrete_dynamical_input_accepted": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "is_clay_result": false
+}
