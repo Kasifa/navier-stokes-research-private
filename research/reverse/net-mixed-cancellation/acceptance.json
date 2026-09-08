@@ -1,0 +1,40 @@
+{
+  "status": "ACCEPTED_GENERIC_TOTAL_SOURCE_OBSTRUCTION_AND_EXACT_CANCELLATION_INTERFACES",
+  "files_sha256": {
+    "research/reverse/net-mixed-cancellation/CONTRACT.md": "8ec55579d3288a15e47f2b1af17a2d981ac174fb649dc496fb6d5ac0d9b2e7e8",
+    "research/reverse/net-mixed-cancellation/PROOF.md": "2f0584ae5776ac3eb02318cc7353a70b0a6e0ab39bb6419b5b9217eff529e327",
+    "research/reverse/net-mixed-cancellation/REVIEW.md": "8543b35df5157bc1e94da36ad9e323712580cc49339303d5d69a4721f8b313f3",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT.md": "25111397d32eef2751a91b1ad1ab6a446794742874b97bf6b0b73b3964d11a58",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT_REVIEW.md": "06d934da4887797e0eacf8c70358af4a0fdb1eff5264aa1ceae8565799e8da3d",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION.md": "84463afc66b0447db1c507eb805f4cf0df423634e809ec3367600d18ca8ba82c",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md": "605c13fe871451704a3ab629bfb8b8756a848cf10d68914e015cefe2552ba231",
+    "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md": "a580fbf33a14f555d248e8d4d71750adf54913846363d843b4ba08f2ce55e8cc",
+    "research/reverse/net-mixed-cancellation/OUTCOME.md": "fdab182a0d95927235eb8ea717a3c40dcab33b82dc30f03f68c652062838ad89"
+  },
+  "root_actual_final_full_read": true,
+  "main_author": "root",
+  "main_non_author_review": "coherence_independent_audit",
+  "independent_author": "coherence_independent_resumed",
+  "independent_non_author_review": "coherence_review_resumed",
+  "star_polarization_author": "coherence_independent_audit",
+  "star_non_author_review": "coherence_review_resumed",
+  "independence_scope": "Main and independent proofs address complementary parts. Star author did not read new independent proof; star reviewer had already reviewed it and discloses that. Root is main author, not blind reviewer.",
+  "unresolved_issues_within_accepted_claims": [],
+  "remaining_scientific_questions": [
+    "General M0=0 with W0 nonzero existence on one shared integer geometry and full complex shapes.",
+    "Two-edge star central cancellation after necessary linear polarization.",
+    "Remaining degenerate edge combinations and all-positive-time or iterative mechanism."
+  ],
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "new_actual_initial_datum": false,
+  "candidate_accepted": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "figures": [],
+  "subsequent_work_not_accepted_here": [
+    "STAR_CENTER_ANALYSIS.md",
+    "VISCOUS_SPLITTING.md"
+  ]
+}
