@@ -1,0 +1,21 @@
+{
+  "status": "ACCEPTED_ANALYTIC_CONDITIONAL_RESULTS",
+  "files_sha256": {
+    "research/reverse/net-mixed-cancellation/STAR_CENTER_ANALYSIS.md": "09afd62b2dd3075560abaa5b0ac474ec10ea1b23cb540ad73535a9af39e7c814",
+    "research/reverse/net-mixed-cancellation/STAR_CENTER_REVIEW.md": "edecd3608bc852b12f264d3c7649e000c10f3de2482d9c9119f9b083c63ca6b2",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING.md": "82b94019b867fc049a2e334a1b51f9034a18257792ba7da19c6185767b5a1702",
+    "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING_REVIEW.md": "f25b7c53158eb6200899b5a082b1458ece914fb2b61baeebca38f304ff1aa86a",
+    "research/reverse/net-mixed-cancellation/ROOT_FOLLOWUP_REVIEW.md": "636c4d485c3a2f24f9b3a9254bd502ecd679bebdc17a2e51037d58bb9dc1ff91"
+  },
+  "root_actual_final_text_read": true,
+  "non_author_reviews_passed": true,
+  "unresolved_within_accepted_claims": [],
+  "scope": "Conditional linear-star center geometry and full viscosity kernel splitting; exact same-NS short-window leaf ratio; integer realizability OPEN.",
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "actual_new_initial_datum": false,
+  "old_failed_evidence_repaired": false,
+  "figures": [],
+  "formal_release": false
+}

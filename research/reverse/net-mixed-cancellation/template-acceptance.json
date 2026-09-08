@@ -1,0 +1,22 @@
+{
+  "status": "ACCEPTED_ANALYTIC_CONDITIONAL_RESULTS",
+  "files_sha256": {
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_CONTRACT.md": "b7543164be08ff3b625e45745b7f9aab4b81d74f082f4f71cbb1f220f62e7ad0",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_PROOF.md": "214ccd8197923dc5039a452beaa4111b80292cd6ac22f9491b1487e0cd42e46d",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_REVIEW.md": "24d3b857efa0ba5dcb78d15bac4bb17ca6fc8e4581d101ecaaf7f14de7866707",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_INDEPENDENT.md": "02294b86121f4fc4a4cc3dcbf0ef05f4cc5ca2709b25f4a71d7fec11cfbd30e7",
+    "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_INDEPENDENT_REVIEW.md": "24ee4dbc398b462e840f67e1436385b05dc54fe1f9f0cdae942c60b83621e79a",
+    "research/reverse/net-mixed-cancellation/ROOT_STAR_TEMPLATE_REVIEW.md": "a28794dd887f21b2d7df1b8cdf9235c08b59eae6bdf64737ffec6a4c4d8d480a"
+  },
+  "root_actual_final_text_read": true,
+  "non_author_reviews_passed": true,
+  "unresolved_within_accepted_claims": [],
+  "scope": "Conditional nonorthogonal distinct-length two-edge star original-direction obstruction: finite pure W all positive times, same-data full NS only explicit short window.",
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "actual_new_initial_datum": false,
+  "old_failed_evidence_repaired": false,
+  "figures": [],
+  "formal_release": false
+}
