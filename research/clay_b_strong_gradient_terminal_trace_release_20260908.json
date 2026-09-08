@@ -1,0 +1,155 @@
+{
+  "release_id": "ClayB-StrongGradientTerminalTrace-20260908",
+  "logical_predecessor": "ClayB-EmptyWedgePressureObstruction-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+  "source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "is_clay_result": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "scientific_classification": [
+    "PROVED IN STATED SCOPE",
+    "STRONG L1 GRADIENT TERMINAL TRACE",
+    "STRONG W1,1 VELOCITY TERMINAL TRACE",
+    "NO CRITICAL RATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "在固定2pi三维环面、nu>0、同一无外力NS解于[0,T*)光滑且T*有限的范围内，对任意0<a<T*，完整梯度G(t)在t趋于T*时强L1收敛；速度强W1,1收敛到唯一u*属于W1,1交L2且无散，G*=grad u*。不预设终端光滑或可延拓。",
+    "对同一光滑前终端无散漂移b属于L2时空、可积源f属于L1时空的向量输运扩散方程，光滑有界截源辅助解有强L2终端迹，全时间一致Kato逼近给原场强L1终端迹。辅助场不要求是梯度或NS解。",
+    "q、d、d²/q、|adj G|²/q³、|adj G|/q强L1收敛到G*的相同连续线性增长函数；Theta=d(G)G/q^(3/2)强L2收敛。因此此周期光滑前终端范围内，CD/LK相关弱终端测度没有额外奇异集中质量；不删除时空零集熵耗散。"
+  ],
+  "limitations": [
+    "没有获得仅依赖能量的源截断尾、辅助通量Fourier尾或终端连续模量；现有结论依赖固定解且没有临界速率。",
+    "未证明r^(-1)integral_Br |G*|趋零、r^(-1)integral_Qr |grad Theta|²小量，或指定中心共同A/E界与小K尺度；PF所需的无条件动力学输入仍开放。",
+    "未证明G*属于L2、速度强L2收敛、终端光滑、经典延拓、一般三维正则性或奇性；一般NS/Clay仍OPEN / NOT CLAY。",
+    "没有把结论推广到任意局部能量弱解、非周期全空间或任意外力；没有排除梯度平方和时空熵耗散的临界集中或识别全部零集缺陷。",
+    "本地证明使用已冻结GD周期Hardy接口及标准最大值、Kato、Fourier逼近机制；限定检索和AI复核不认证新颖性、期刊价值或真人同行评审。"
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "bytes": 10696,
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_audit_20260908.md",
+      "bytes": 5690,
+      "sha256": "c3bbe41fa3e34e3dc61bc49c18f1172e08d0be779c25c1f520393028666599e5"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_checkpoint_20260908.json",
+      "bytes": 4156,
+      "sha256": "630a87d37f91d40f4490feec2f0be5b0d990d8a28c6edfc1aaee3f7bc9995f65"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_recap_20260908.md",
+      "bytes": 2772,
+      "sha256": "f2e5cb6b5e00a83cf8f613ad40d97fa8c07fa58a80de23e41120702798bc86c9"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "bytes": 11939,
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+      "kind": "MATHEMATICAL_INPUT",
+      "scope": "GD §2周期Hardy压力接口与完整梯度方程；继承其已冻结假设。主任务全文阅读，C复核1–125；未重新认证全部上游文献。"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "bytes": 14138,
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+      "kind": "OBSERVATION_DEFINITION_AND_SCOPE_CONTEXT",
+      "scope": "Theta定义及原弱导数/临界条件的范围；主任务全文阅读，C读1–44。TG强迹直接由矩阵连续性与增长界证明，不导入WE一般弱解结论到终端。"
+    },
+    {
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "bytes": 12210,
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+      "kind": "HISTORICAL_TERMINAL_TRACE_CONTEXT",
+      "scope": "CD定义和§5弱终端测度。TG在其明确光滑周期前终端范围内加强拓扑；旧字节不改。主任务定向读定义和弱迹，C读1–35及143–170。"
+    },
+    {
+      "path": "research/clay_b_linear_cofactor_kato_20260908.md",
+      "bytes": 15553,
+      "sha256": "3fd124ffb95574d16a08491172a954900f7532996e10c79feb7106ee59e34018",
+      "source_commit": "c0106d383d0b65092c5ed431ad4124463c85da44",
+      "kind": "HISTORICAL_TERMINAL_TRACE_CONTEXT",
+      "scope": "LK定义和弱终端迹，非时空耗散浓缩排除。主任务读定义、115–151及后部限定段；C读1–31及120–129。"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/html/1601.02903v1",
+      "title": "Massaccesi–Vittone, An elementary proof of the rank-one theorem for BV functions",
+      "scope": "实际读简短稿所印定理、引理及证明；最初候选背景，最终TG证明不采用Alberti定理。",
+      "proof_dependency": false,
+      "whole_upstream_chain_certified": false
+    },
+    {
+      "url": "https://doi.org/10.1016/j.matpur.2025.103777",
+      "title": "Moerschell–Sorella, Non-uniqueness of parabolic solutions for advection-diffusion equation",
+      "scope": "期刊摘要，只作L2漂移能量类范围背景；不采用该文证明。",
+      "proof_dependency": false,
+      "whole_paper_read": false
+    },
+    {
+      "url": "https://arxiv.org/html/1010.0242v2",
+      "title": "Rindler, Lower semicontinuity and Young measures in BV without Alberti's Rank-One Theorem",
+      "scope": "只读导言，非TG证明输入。",
+      "proof_dependency": false,
+      "whole_paper_read": false
+    },
+    {
+      "url": "https://arxiv.org/html/1108.1165v4",
+      "title": "Tao, Localisation and compactness properties of the Navier-Stokes global regularity problem",
+      "scope": "本次仅定点文字检索；未发现精确TG句式不构成原创性证据。",
+      "proof_dependency": false,
+      "whole_paper_read_this_round": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_strong_gradient_terminal_trace_audit_20260908.md",
+    "mathematical_review": "主任务与A/B参与截源及端点模块；A全文审读10694B主稿与检查点/回顾。C未参与最初TG核心构思，全文独立复核10694B主稿TG.1–14，PASS。其唯一建议为两处TeX花括号转义，主任务修正并以反向还原哈希验证最终10696B仅差两字符。全部AI辅助，非真人同行评审；实际各人读源范围见审查记录。",
+    "record_review": "主任务全文读回主稿、审查记录、检查点及小阶段回顾，核对3 claims/5 open/next；严格JSON无重复键。A实际全文核对检查点初版和回顾，PASS；最终检查点只同步主稿哈希和源完成状态，不将初版回执称为终版全文审读。",
+    "structural_checks": "14个顺序唯一TG标号、14对展示公式、69对行内公式；无异常控制字符或行末空白。两字符逆向还原匹配独立审读版SHA。仅结构/记录检查，不计数学案例。",
+    "source_files_match_commit": true,
+    "dependency_files_match_bound_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "纯解析终端迹证明，无仿真或需归档科学附图。",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": true,
+    "path": "research/clay_b_strong_gradient_terminal_trace_recap_20260908.md",
+    "coverage": [
+      "GD terminal-gradient boundary",
+      "CD/LK weak terminal measures",
+      "WE Theta observation",
+      "TG strong terminal identification"
+    ],
+    "reason": "此正面终端迹结论改变旧终端拓扑边界，附一份范围明确的私有小阶段回顾；不重写旧总回顾，也不要求公开或即时本地重建。"
+  },
+  "preservation_note": "188个既有required_files及其冻结对象原样保留；内部ID/IDC等检查不另计完成小节。TG只在明确范围内加强CD/LK终端拓扑。收到但未审读的反向LocalL2ResidenceAndOccupation不是依赖。",
+  "publication_boundary": "仅一次交固定发布任务作PRIVATE_ARCHIVE，不请求公开概要、论文选择、翻译、统计、读者HTML/PDF、即时本地重建、重上线或仓库变更。本地48小时、公开168小时且暂停、私有即时归档保持现行规则；研究不push、不检查归档或发布执行。",
+  "next_research_plan": "以TG同一漂移截源为具体输入，推导指定中心、缩小前终端柱上的完整局部比较式；保留两时间切片、截止输运/扩散、原压力及近远分解、源截断尾和辅助通量尾，明确各项临界归一化及常数依赖。只有原NS结构给出强于定性L1迹的临界速率或联合好尺度，才算新的关键进展。不得任意交换R与r的极限，不复活已停的无新增控制直接不变密度改写，不将初端小例子或旧条件出口重复计为成果。不检查发布或反向执行。",
+  "next_test_candidate_selected": true,
+  "new_scoped_positive_theorem": true,
+  "new_unconditional_critical_estimate": false,
+  "new_automatic_good_scale": false
+}
