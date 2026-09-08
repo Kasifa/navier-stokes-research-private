@@ -1,0 +1,214 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_CONDITIONAL_AMPLITUDE_AND_AREA_POLYNOMIAL_INTERFACES; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No legal geometry common-root instance, no geometric realization or exclusion of identically-zero area remainder.",
+      "No complete higher rows, other C directions, common template amplitude or accepted mechanism. Remaining-imaginary, remaining-real and integer-beta followups are excluded.",
+      "No new actual frequency, initial datum, amplitude or time selected; no scientific program, arrays, numerical evaluation or parameter scan.",
+      "Exact zero leading mixed source is a bounded screening target, not exclusion of every positive tolerance or arbitrary finite-time mechanism.",
+      "No new NS time or infinite-dimensional estimate, no uniform cross-generation bound, one fixed datum infinitely many scales, uniform iteration, finite total time, singularity or global regularity.",
+      "No repair of old failed resource/computation evidence, external novelty, human peer review or proof-assistant certification."
+    ],
+    "proved": [
+      "True signed sender-square ratio elimination in one fixed geometry, retaining distinct narrower main and outer required-amplitude domains.",
+      "Actual geometric alpha positivity and nondegeneracy: C0 nonzero gives a genuine cubic direction polynomial with nonzero constant; C0 zero gives a nonidentically-zero at-most-linear gate after excluding inactive r zero. At most three or one formal real directions respectively, each still subject to original conditions.",
+      "Actual area-square compatibility is an at-most-sixth-degree polynomial plus one strict positivity test and true signed k reconstruction. A fully specified at-most-quadratic remainder is equivalent on the nonzero cubic direction gate.",
+      "Together with the true sender-square sign, all original denominators and common positive h, this conditionally reconstructs the complete lowest interface and the two specified higher complex projections."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/full-high-row-reduction/freeze.json",
+      "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
+      "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "use": "Complete higher-row framework and precise separation of stronger full-row domain from weaker amplitude screening."
+    },
+    {
+      "manifest": "research/reverse/two-elliptic-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+      "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+      "use": "Actual lowest complete interface and same-data higher specified projections, required area and amplitude reconstruction."
+    },
+    {
+      "manifest": "research/reverse/three-edge-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+      "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+      "use": "Shared coordinate framework and strict longer-receiver ratios."
+    },
+    {
+      "manifest": "research/reverse/net-mixed-cancellation/freeze.json",
+      "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+      "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "use": "Complete coherent Fourier-Leray pair maps and actual coefficient definitions."
+    }
+  ],
+  "dependency_commits": [
+    "650216c9e989ee31b806e0da7b3de305e8dda961",
+    "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+    "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+    "13e8f0779558004f6e12f30b6fc15eae67e8ffa5"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 2592,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
+      "sha256": "50c69862e48753368b012e7df43e9af4ba3c4ceec0375b0e7c3d8fc06bb74b6a"
+    },
+    {
+      "bytes": 14528,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/INDEPENDENT.md",
+      "sha256": "9f4bf7ed5cd9b7dcea92576f9f0b262139451881f05956d329fc69203661962e"
+    },
+    {
+      "bytes": 12606,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "6c9e32582fc16523222ba1add3c27038b1a00700fa62384bb159ca54ce04de81"
+    },
+    {
+      "bytes": 1402,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/OUTCOME.md",
+      "sha256": "2da5d62d0cadce81f4861c6cd7482c2da261ad199eaf6ebdb139aa57910d016d"
+    },
+    {
+      "bytes": 6389,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/PROOF.md",
+      "sha256": "0ea9eb4f24cc5d40c70e8155239b574040f967a878cd1707545fff9accd92682"
+    },
+    {
+      "bytes": 10298,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/REVIEW.md",
+      "sha256": "71ddb8058c63f9799330cbeedbe8689b89831b9f7908b09e60759c84676170be"
+    },
+    {
+      "bytes": 3814,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/ROOT_COMPARISON.md",
+      "sha256": "94efe4555112045e10014057eec085e6baae633459a21649b79b6cbb519cae61"
+    },
+    {
+      "bytes": 2799,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/lowest-amplitude-compatibility/acceptance.json",
+      "sha256": "c1287cd1571f7625cffb72df5b333d0b7b7cca07440d0ad088abea1b3607005a"
+    },
+    {
+      "bytes": 2324,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/CONTRACT.md",
+      "sha256": "8de0828beaa6b82c9984850b81008d3c0adabffac3bf7ba89172047ff3228c19"
+    },
+    {
+      "bytes": 2290,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/FINAL_OUTCOME.md",
+      "sha256": "11b74dc04559f4143852acc842f5425413c0859ba52bc9cd399edf88d1ff29ef"
+    },
+    {
+      "bytes": 13652,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/FINAL_SCOPE_REVIEW.md",
+      "sha256": "1ed108a3040d0f3736201ad836d9e7700e01fa45276196f66207328879197c60"
+    },
+    {
+      "bytes": 14479,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/INDEPENDENT.md",
+      "sha256": "489fd488a5dbc8dcdc1336904a16d8dcbe3817077ec74137ead1706f545d4acc"
+    },
+    {
+      "bytes": 12384,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "301127c65d73b1a09882b98133f9e2f25838691f09fbb8a22476d782217d3c6b"
+    },
+    {
+      "bytes": 1381,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/OUTCOME.md",
+      "sha256": "2525ff313b9ca57ed292e1f4320a8e8d285f29e49ae472e011ac3740f0280364"
+    },
+    {
+      "bytes": 6099,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/PROOF.md",
+      "sha256": "8e60b6b44307f45c980423753b789d396cfffbbaa41f09181b2c6ad92478d866"
+    },
+    {
+      "bytes": 10532,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/REVIEW.md",
+      "sha256": "21fa504de9620866b643567b3355e1b977bffd75424be0805131f1871d26e8e3"
+    },
+    {
+      "bytes": 4465,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/ROOT_COMPARISON.md",
+      "sha256": "ba32caac18010056b8e58e296b06b4d18aa29f08514e59ed58397f0c57b5c46e"
+    },
+    {
+      "bytes": 3021,
+      "commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "path": "research/reverse/area-square-compatibility/acceptance.json",
+      "sha256": "deea4d49f1b130599a296631961bc0788df139b3bc2ae3976f327a63cd201d5e"
+    },
+    {
+      "bytes": 9803,
+      "commit": "44bb8fcfb23e9b5b4313b7afcb03c5e3cdc8db18",
+      "path": "research/reverse/area-square-compatibility/freeze.json",
+      "sha256": "e74a975ccbbf819f811f57c39efb8ffed87160e3d7ab9bf37e74b4c9fe51dfd4"
+    }
+  ],
+  "freeze_commit": "44bb8fcfb23e9b5b4313b7afcb03c5e3cdc8db18",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained symbolic continuation of accepted source maps. Actual reads and scope recorded in each proof/review; no new external theorem or novelty claim.",
+  "milestone_scope": "One combined same-data direction, common required amplitude and actual area-square reconstruction stage.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-FullRowAndGeometryScreen",
+  "private_milestone_record": "research/reverse/area-square-compatibility/FINAL_OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "bae060c7be830ff2fc6c631483678833d7b03f11",
+    "5eaf91160ce67687d8b1f1a26333ad0a2c4a77f1",
+    "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64"
+  ],
+  "scientific_source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+  "source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+  "source_ledger": "research/reverse/area-square-compatibility/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_review": "research/reverse/area-square-compatibility/FINAL_SCOPE_REVIEW.md",
+    "independence": "Amplitude main disclosed later structural/nondegeneracy-status message; independent formed without main; one non-author reviewer wrote two sequential reviews. Area authors formed without each other; two different non-author reviewers each initially read only the assigned new text. Later root message and final nonblind scope comparison disclosed. Additional nondegeneracy is not backfilled into main.",
+    "new_NS_time_window_paid": false,
+    "new_actual_datum_selected": false,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 18 files match final scientific source Git objects; 14 distinct acceptance-bound texts verified. Counts are file bindings, not scientific quality or theorem counts.",
+    "stage_acceptances": [
+      "research/reverse/lowest-amplitude-compatibility/acceptance.json",
+      "research/reverse/area-square-compatibility/acceptance.json"
+    ],
+    "status": "PASS_DERIVATIONS_SEPARATE_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
