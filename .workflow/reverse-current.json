@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_CONDITIONAL_DIFFERENCE_RESPONSE_ACCEPTED",
+  "status": "RESEARCH_ACTIVE_PRIMARY_DIFFERENCE_CERTIFICATE_COMPLETE_VERIFY_PENDING",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Complete stopped primary source read and nonauthor static review, commit before the unique primary execution; independently organized verifier source then reviewed and committed before its unique execution. No reruns of A/B/C, no new root or DI replacement window.",
+  "next_action": "Do not rerun primary: output 2ecedeb13 exists from 668b1891, run count one. Finish independent verifier source adaptation, full reads and nonauthor static review, commit before its single execution. Review separate original-window restart lemma; then fixed-data scope acceptance.",
   "resume_action": "Use actual cyclic-difference-response files and execution receipts; do not rerun a completed stage.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
@@ -35,11 +35,18 @@
     "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md",
     "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md",
     "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md",
-    "research/reverse/cyclic-difference-response/conditional-acceptance.json"
+    "research/reverse/cyclic-difference-response/conditional-acceptance.json",
+    "research/reverse/cyclic-difference-response/PRIMARY_ROOT_READ.md",
+    "research/reverse/cyclic-difference-response/PRIMARY_CODE_REVIEW.md",
+    "research/reverse/cyclic-difference-response/exact_difference.py",
+    "research/reverse/cyclic-difference-response/exact-difference-output.json",
+    "research/reverse/cyclic-difference-response/primary-execution.json",
+    "research/reverse/cyclic-difference-response/SOURCES.md",
+    "research/reverse/cyclic-difference-response/RESTART_QUESTION.md"
   ],
   "required_file_sha256": {
     "AGENTS.md": "fb491b6b90d00a89772c6f7e6cc22af0341ea8c77dff7add5ca26fbc124fb127",
-    "research/reverse/CHECKPOINT.md": "cbcb16d4688f8987d88258dc08fca64574a31c9860ab8b923213e908482c41f5",
+    "research/reverse/CHECKPOINT.md": "3c2b0b4d36478eefe393aeb3fa11923606910090f64e89a62d57d8e62c708975",
     "research/reverse/HANDOFF_LOG.json": "1091fe07d3fc9c01208184b9340dc9c8bfa8377f602bcdd961e0872ade7adea0",
     "research/reverse/cyclic-six-carrier/freeze.json": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
     "research/reverse/cyclic-six-carrier/FINAL_SCOPE_REVIEW.md": "a41937d22cbe1915f8771da75a2c04153b33eb71f850b33ddf691d640e8a2b1a",
@@ -57,8 +64,15 @@
     "research/reverse/cyclic-difference-response/INDEPENDENT.md": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
     "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
     "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
-    "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md": "2715ee51ad70665fc68c7eead1a7aa256a364acceb9c972f675c5da900bb60c2",
-    "research/reverse/cyclic-difference-response/conditional-acceptance.json": "36866a1a0a88c9726d0b0e39ead4bdf8f0e08739cd5ccb6c8dc1dfd9df9e84a9"
+    "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md": "fe5112120220990b7cf4cdde43bf92030ad10cf6acfcbdf2d8e110f1794f4bb9",
+    "research/reverse/cyclic-difference-response/conditional-acceptance.json": "dd80dc52e2437cf166eda35ae5de4d9080b3e7e8a39b6c8c03693aae96dab084",
+    "research/reverse/cyclic-difference-response/PRIMARY_ROOT_READ.md": "e4e9d7ec242da5ff306c901761943281556843a3c458a3efd3d296fd9419cd1e",
+    "research/reverse/cyclic-difference-response/PRIMARY_CODE_REVIEW.md": "e3371c5491d9b38dbbeb4fc8a2c69655dceed7a7828e6dfa6a5aa2b193c0cd6d",
+    "research/reverse/cyclic-difference-response/exact_difference.py": "842679b23991ae2f3f5a5cd76903e9abf4ebd7a71a230829f99697612ad66030",
+    "research/reverse/cyclic-difference-response/exact-difference-output.json": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
+    "research/reverse/cyclic-difference-response/primary-execution.json": "a16d978a4599bc55ebeac80bda83d9f0858d35c1892983572e86cb1fd98b4c26",
+    "research/reverse/cyclic-difference-response/SOURCES.md": "a4a6e0d9c2889f3f99482835d7ec879326bcec1339236fa257b50977a4feff8a",
+    "research/reverse/cyclic-difference-response/RESTART_QUESTION.md": "7a67359779a29280bbd3e61abba420f051a863f1cc50d20bfa313039ca987bca"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
@@ -75,11 +89,10 @@
   "current_topic": "Same fixed six-carrier datum: actual received-field difference-channel supply comparison",
   "current_topic_directory": "research/reverse/cyclic-difference-response",
   "pending": [
-    "New root zero test",
-    "Positive rational lower bound",
-    "Actual original DR.8 new window arithmetic",
-    "Unique reviewed primary and independently organized verification executions",
-    "Final fixed-data acceptance and release freeze"
+    "Independent verifier final source and static review",
+    "Unique independent scientific execution and raw certificate",
+    "Separate original-window restart conditional lemma review",
+    "Final fixed-data scope acceptance and freeze"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -88,7 +101,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T16:24:42.895596+00:00",
+  "updated_at": "2026-09-08T16:34:21.143397+00:00",
   "protocol_read_scope_latest": "2026-09-09 central workflow opening and applicable research/freeze sections, current dual-track strategy; no publication state inspection. Latest alignment received and answered once.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -1382,10 +1395,15 @@
   },
   "cyclic_difference_response_evidence": {
     "conditional_acceptance": "research/reverse/cyclic-difference-response/conditional-acceptance.json",
-    "conditional_acceptance_sha256": "36866a1a0a88c9726d0b0e39ead4bdf8f0e08739cd5ccb6c8dc1dfd9df9e84a9",
-    "scientific_execution_count": 0,
-    "actual_window_status": "NOT_CERTIFIED",
+    "conditional_acceptance_sha256": "dd80dc52e2437cf166eda35ae5de4d9080b3e7e8a39b6c8c03693aae96dab084",
+    "scientific_execution_count": 1,
+    "actual_window_status": "PRIMARY_REPORTED_CERTIFIED_INDEPENDENT_PENDING",
     "protected_legacy_fields_equal_557ee": true,
-    "next_action": "Complete stopped primary source read and nonauthor static review, commit before the unique primary execution; independently organized verifier source then reviewed and committed before its unique execution. No reruns of A/B/C, no new root or DI replacement window."
+    "next_action": "Do not rerun primary: output 2ecedeb13 exists from 668b1891, run count one. Finish independent verifier source adaptation, full reads and nonauthor static review, commit before its single execution. Review separate original-window restart lemma; then fixed-data scope acceptance.",
+    "primary_source_commit": "668b18916d33b2832fc46b68e00184ce37c62738",
+    "primary_output": "research/reverse/cyclic-difference-response/exact-difference-output.json",
+    "primary_output_sha256": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b",
+    "primary_completed": true,
+    "independent_execution_count": 0
   }
 }

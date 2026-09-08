@@ -1,0 +1,16 @@
+{
+  "schema": "reverse-cyclic-difference-primary-invocation-v1",
+  "source_commit": "668b18916d33b2832fc46b68e00184ce37c62738",
+  "command": "/usr/bin/python3 research/reverse/cyclic-difference-response/exact_difference.py --source-commit 668b18916d33b2832fc46b68e00184ce37c62738 --contract-sha a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+  "working_directory": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "actual_exec_tool_result": {
+    "chunk_id": "3f6e15",
+    "wall_time_seconds": 0.00000375,
+    "exit_code": 0,
+    "original_token_count": 107,
+    "output": "{\"certificate_status\": \"DIFFERENCE-WINDOW-CERTIFIED\", \"execution_status\": \"completed\", \"output_bytes\": 269258, \"output_path\": \"/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/cyclic-difference-response/exact-difference-output.json\", \"output_sha256\": \"2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b\", \"scientific_execution_count_in_this_invocation\": 1, \"scientific_stage_completed\": true}\n"
+  },
+  "run_count": 1,
+  "rerun": false,
+  "interpretation": "Primary output only; independent verification and final scope acceptance pending. Tool wall_time_seconds is transport metadata, not the program's reported resource measurement."
+}

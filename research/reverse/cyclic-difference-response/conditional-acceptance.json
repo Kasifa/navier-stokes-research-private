@@ -25,5 +25,7 @@
     "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
     "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
     "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md": "2715ee51ad70665fc68c7eead1a7aa256a364acceb9c972f675c5da900bb60c2"
-  }
+  },
+  "bound_file_git_commit": "668b18916d33b2832fc46b68e00184ce37c62738",
+  "bound_file_scope": "Pre-execution stopped sources; hashes refer to Git objects at this commit. Later ROOT_COMPARISON additions record actual execution and are not retroactively included in the conditional mathematics acceptance."
 }
