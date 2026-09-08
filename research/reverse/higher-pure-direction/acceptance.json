@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_EXACT_TOTAL_HIGHER_PURE_DIRECTION_AND_SINGLE_LOW_EDGE_DEFECT",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/higher-pure-direction/CONTRACT.md": "cdda8089bdfedd67d090634ca91fc25e83c33cd0072bd60235c98e5f11d55187",
+    "research/reverse/higher-pure-direction/PROOF.md": "b5eedc38fb528bbb48e2ae51012742612a64edb87f88d22223b55d7a2b7ac488",
+    "research/reverse/higher-pure-direction/INDEPENDENT.md": "66aac8470f43aa84b04509c843551457c29414e7f9851bf507bde70a9d612363",
+    "research/reverse/higher-pure-direction/REVIEW.md": "34f6b58ac28601a9afcfd5388be0b30b3d2216a4b633b565bed398c47c4f9598",
+    "research/reverse/higher-pure-direction/INDEPENDENT_REVIEW.md": "356fffcadcf54430d2f931e89478f52b71b52aeec11e06f3a5caa8292ccf6449",
+    "research/reverse/higher-pure-direction/ROOT_COMPARISON.md": "117418b820d1580bbbab1e1a234af1a1a641bf075aeaf4b02fbf71e76510e6bc",
+    "research/reverse/higher-pure-direction/OUTCOME.md": "33f25999f7644331efb1c742b0ef23e943ab98fb33e6bbb580fa7679d94b6187"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Complete same-data pure C coefficients and two total complex direction determinants, retaining receiver cubic phase and actual sender covariance.",
+    "Conditional exact four-real test, with separate total-row nonzero coordinate condition and all allowed zero branches.",
+    "Independent necessary nonzero direction defect for the single lowest sender, and accurate common-area flip, individual phase and overall positive-scale invariance of zero tests."
+  ],
+  "independence": "New authors formed without each other; one non-author reviewed main then independent sequentially, not mutually blind. Root reconciles raw weights and narrower projection-domain reductions; extra independent results separately attributed.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Actual geometry, total-row nonzero realization, common template amplitude and NS mechanism remain open. NO-CANDIDATE / NOT CLAY."
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_ACTUAL_SHORT_WINDOW_AMPLITUDE_OBSTRUCTION",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/short-window-source-amplitude/CONTRACT.md": "d0e42e518d8b5d4c3d13511fe79f6903f46d7c6d31910702f19282e1907e14de",
+    "research/reverse/short-window-source-amplitude/PROOF.md": "172b9486124f5de61d63e16f0a6b1a3f6df5acae542d2e4ddae21fa440ba14dc",
+    "research/reverse/short-window-source-amplitude/INDEPENDENT.md": "c5acd2adbd3683b102d61320a68985c8d52738b2f88379a8002873a5e9ad3072",
+    "research/reverse/short-window-source-amplitude/REVIEW.md": "4a0e15027fa07034029810943f8f80667a5640729f5190e2b39a8440d83a8ef3",
+    "research/reverse/short-window-source-amplitude/INDEPENDENT_REVIEW.md": "fe7008918f57c56dcce81730c70f6166c9855030ca22566eccfef609045254ae",
+    "research/reverse/short-window-source-amplitude/ROOT_COMPARISON.md": "a1f02b8b1c9cb9b8bdaeae06a7c2e41ae5702d716be88cc9915766cc18430164",
+    "research/reverse/short-window-source-amplitude/OUTCOME.md": "269bbe7f6449d23d6fc787bcf335fe8cef2aaee2a36e6977923018328fefb5d3"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Actual source satisfies norm S < A F(q) <=353 A/80640 at every positive time in the original fixed-data q<=1/2 window; strict integral refinement belongs to independent.",
+    "Main additionally proves full actual receiver norm <=Aq^3/(1-q^2)<=A/6 without a source-dominance assumption.",
+    "Distinct source/receiver template errors and actual eta source condition give necessary copy-amplitude bounds and stated nonamplification domains; corresponding strict source bounds retain equality tolerances. Alternate initial-A normalization is kept separate."
+  ],
+  "independence": "Root precontract hand value preflight disclosed and not treated as accepted proof. New authors formed without each other or exchange of preflight formulas; separate non-author reviewers each read only assigned new draft. Strict source and main full-receiver extras separately attributed.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "One original fixed-data short window and stated templates/errors only; no reset, later-time/general cascade exclusion or actual mechanism. NO-CANDIDATE / NOT CLAY."
+}
