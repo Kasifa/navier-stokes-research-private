@@ -1,0 +1,126 @@
+{
+  "check_id": "ClayB-SignedSourcePropagation-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "84d39450e60affd367512ff705396b2b3d176b08",
+  "previous_goal_turn_classification": "PROGRESS: LT completed the full localization check and changed the next test to signed source propagation.",
+  "main": "research/clay_b_signed_source_propagation_20260908.md",
+  "main_sha256": "31c83385cb3151e8076b695419324933092c235294a5acc039ed405b7e697f75",
+  "main_bytes": 13212,
+  "main_lines": 243,
+  "classification": [
+    "INTERNAL PROPAGATION AND CANCELLATION CHECK",
+    "EXACT TIME COMMUTATOR",
+    "CLASSICAL BERNSTEIN APPLICATION",
+    "OLD NS FAMILY RESPONSE TEST",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "完整响应D=Z−Q*z+E，E为正号的双时间交换项；[S,Q*]为负号Duhamel式。保留初值、零模、原压力和时间顺序，没有双时间尺度小因子。",
+    "频率差及Young给M(u)的L2交换子界。实际f只有L1已知预算，需用旧Nash后仍保留未控的M时间成本；不把该充分成本当作必要或最优成本。",
+    "精确有效时间A_{s,t}配合后向Bernstein给零均值小支撑输入的L1抵消因子min(1,ell/sqrt(2nu A))。固定s<T时A_{s,T}>0且由TG通过终端，不要求全区间Lip可积；s趋T的尺度比和实际源原子长度分布仍未控制。",
+    "旧NE实际光滑2.5维NS轨道上，完整响应第12分量的cos y系数为epsilon J(a,t)+O(epsilon²)，J=e^(−nu t)(e^(−8nu a)−e^(−8nu t))/(8nu)>0（t>a），保持在固定正时间窗。",
+    "该族否定无其他补偿的完整响应L1纯d²上界；一阶D1只有第一行且秩至多一，不否定投影、参考补偿、原耗散吸收或一般正则性。此为旧轨道对新表达式的内部反检。",
+    "下一对象为原伴随梯度—应变配对。标准能量插值仍要求未付的integral ||G||2^4；本轮未证明形状耗散能替代它。"
+  ],
+  "open_items": [
+    "未证明实际源响应在指定中心的临界小量，未取得PF共同A/E与小K，也未得到NS延拓。",
+    "Z、z和完整D的强L1迹不赋予Q*z、E单项强L1迹；后两者只在分布层面识别终端。",
+    "零均值抵消不自动保留CLMS乘积表示或提供实际原子长度分布；分解可测可和性在SP.13中显式作为前提。",
+    "没有以能量/原形状耗散控制临界有效时钟或实际伴随梯度配对；所有失败边界仅限所列估计链。"
+  ],
+  "next_action": "SP已完成LT.17的压力双时间交换、实际畸变时钟抵消界及旧NE轨道的完整响应反检，没有新的无条件临界增益。下一项只核验SP.18同一实际NS漂移的伴随梯度—应变配对：完整推导指定中心局部梯度能量式，保留两时间切片、截止输运/扩散、压力在原梯度方程的作用及原零集耗散，检验兼容性与原形状耗散能否替代当前未付的integral ||G||2^4时间成本，并连接实际源响应所需的尺度。先对照VR/AH和旧physical-adjoint已定位的参考/中心预算去重；不将参考相对耗散替代原耗散，不只重做Hölder/Gronwall、均值零恒等式或固定小例子。新的具体测试已选定但估计未证明；无实质临界改进不另计独立小节或release，不重复交接，不查发布或反向执行。",
+  "next_test_selected": true,
+  "next_unconditional_critical_input_accepted": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "last_independent_source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "last_independent_freeze_commit": "93965a9c3cf8ccb3e61aad637a2f736c8d0fd5fd",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_terminal_trace_localization_20260908.md",
+      "sha256": "34898829b9fac2b53028ee1496708724702d8c09a4ea460516762f824681852b",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    },
+    {
+      "path": "research/clay_b_near_pressure_entropy_20260908.md",
+      "sha256": "4ac279db32d4d1b796ddf7a7af7140fba7d44cc11fb631288022e79c476d8808",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    },
+    {
+      "path": "research/clay_b_invariant_density_material_derivative_20260908.md",
+      "sha256": "15ebddb311dec1b4b4c402a0148af6aebbfc76a1415aa9c3e5811f6108ee8bc1",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    },
+    {
+      "path": "research/clay_b_variable_reference_check_20260908.md",
+      "sha256": "15d7e07a5f40c940edf410c50f2222377b27f8e46df494e78892109038a1f585",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    },
+    {
+      "path": "research/clay_b_material_pressure_20260908/report-source.md",
+      "sha256": "5556ecd2fcfc95863c121fba07e9cbfb438f9b34fd1aa0cba26d07752bfc1aaf",
+      "source_commit": "84d39450e60affd367512ff705396b2b3d176b08"
+    }
+  ],
+  "review": {
+    "status": "PASS_WITH_SCOPED_INTERNAL_CHECK",
+    "root": "主任务实际全文读回243行初稿并独立核算各模块；逐式读回SP.16唯一t>a增量，反向替换精确恢复已全文读取版本，最终243行13212B、SHA已核。",
+    "module_reviews": {
+      "A": "ma_freeze_review: 独立核时间交换子、零模、差分核/Fourier估计、Nash输入与终端单项边界；定向读IDC§1/6、LT§5/6、MPS.6–8。",
+      "B": "variable_reference_check: 独立核有效时钟、后向Bernstein、L1对偶抵消与固定起点T极限；实读NE1–110和LT1–202；未联网或核读Bernicot–Keraani。",
+      "C": "good_scale_route_comparison: 全文实读NE1–198和LT1–202，独立核实际NE轨道完整压力块、一阶Fourier系数、O(epsilon²)余项、正时间窗与秩一限制。"
+    },
+    "structural": {
+      "status": "PASS",
+      "ordered_unique_tags": 18,
+      "display_pairs": 25,
+      "inline_pairs": 71,
+      "abnormal_controls": false,
+      "trailing_whitespace": false
+    },
+    "dependency_objects_match_base": true,
+    "review_type": "PARTICIPATING_AI_NOT_HUMAN_PEER_REVIEW",
+    "final_main_review": {
+      "reviewer": "ma_freeze_review",
+      "type": "PARTICIPATING_AI_FULL_READ_PLUS_SINGLE_DELTA_VERIFICATION",
+      "full_read_sha256": "d91d97d1d2e8bd51d4aa9f7ba7fff80b1e1f7d7dfc8a6846180d92ca765504e8",
+      "full_read_lines": 243,
+      "full_read_bytes": 13202,
+      "source_crosscheck": "定向实读NE.11–19的原定义和统一余项。",
+      "only_required_change": "SP.16显式限定J(a,t)>0须t>a；a=t时为零。",
+      "final_sha256": "31c83385cb3151e8076b695419324933092c235294a5acc039ed405b7e697f75",
+      "final_lines": 243,
+      "final_bytes": 13212,
+      "delta_verification": "实际核单行增量，反向替换精确恢复全文审读版本的字节数与SHA，确认无其他变更。",
+      "verdict": "PASS",
+      "human_peer_review": false
+    }
+  },
+  "literature_scope": {
+    "discovery": "两项普通查询，非Deep Research，非全面查新。",
+    "source": "https://arxiv.org/html/1204.6008v1",
+    "actual_reading": "主任务定向读导言、Theorem1/Corollary1、几何Lemma1、Theorem2证明及输运应用相关段；仅引用经典全空间体积保持双Lipschitz组合BMO/Hardy成本log K的范围事实。",
+    "not_adopted": "未认证周期黏性推广、随机表示、文中其他结果或任何原NS临界畸变控制。"
+  },
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false
+}
