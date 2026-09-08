@@ -1,0 +1,42 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_EXACT_JOINT_SAME_DIRECTION_FULL_MIXED_ROW_CRITERION",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/joint-direction-compatibility/CONTRACT.md": "5b8dc82300556766260a13c1f9124d7a02989ec14e242cf5aad8b49fc5d16ad3",
+    "research/reverse/joint-direction-compatibility/PROOF.md": "5e3a9708fb07f396a161dc333312d8a310dfb36d5d3d685eb8c2089b80931e62",
+    "research/reverse/joint-direction-compatibility/INDEPENDENT.md": "4ed20002939dbafce9f20955dbcf3a0efde1da8aa2ad1f040ce474b9c5861c26",
+    "research/reverse/joint-direction-compatibility/REVIEW.md": "d5d160fdf4137e9f1345d46b13aa14f0310bfe2637254838b5aee3e68b77fe38",
+    "research/reverse/joint-direction-compatibility/INDEPENDENT_REVIEW.md": "7ead088d7ebbf315423af27a2e5240d10dc0b73858bbac82f8e8e58cb232d3f0",
+    "research/reverse/joint-direction-compatibility/ROOT_COMPARISON.md": "35e915cb8acab0b3847f90bf1c7c5e55794e7b2fd167ed72d7cd985e607cb232",
+    "research/reverse/joint-direction-compatibility/OUTCOME.md": "57f0e956a7dcd28bd3bd1f19c5db9f0e51c7e175013449a2c11b616e5ee9e42f"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Five same-data remainder equations, genuine direction cubic and original strict restoration domain are conditionally equivalent to complete M0 zero and the lowest C nonzero original direction in the stated branch.",
+    "All coefficient ranks and degree degeneracies retained, with explicit main rank-one elimination.",
+    "Independent companion-operator maximal invariant kernel gives exact common real roots as real spectrum, still subject to all strict original signs."
+  ],
+  "independence": "Two new authors formed without reading each other. One non-author reviewer subsequently reviewed main then independent; sequential, not mutually blind. Root actual comparison reconciles column reversal and -2p3 last-row scaling. Additional methods separately attributed.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "scope": "Exact conditional criterion within one C0 nonzero, lowest-linear, two-nonzero-area branch. No actual rank/common root or legal frequency instance, other C directions, common template or NS mechanism. NO-CANDIDATE / NOT CLAY."
+}

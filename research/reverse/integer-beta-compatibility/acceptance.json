@@ -1,0 +1,47 @@
+{
+  "schema": "ReverseNS-internal-acceptance-v1",
+  "status": "ACCEPTED_FIXED_INTEGER_RECOVERY_AND_ODD_LENGTH_SUBDOMAIN_OBSTRUCTION",
+  "classification": "PRIVATE_CORE",
+  "files_sha256": {
+    "research/reverse/integer-beta-compatibility/CONTRACT.md": "22242f2dae92ebcb8654c9ba95ba603385585622088731766fbda1d456884e17",
+    "research/reverse/integer-beta-compatibility/PROOF.md": "8b2bdd8ae3ac6533140ec23bed545021e4c520410badf4aefbe13237bb57a002",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT.md": "fa4201cf70dba8eb64a5044d930bfb29b21dd923d442bfba3e619dc0e0bdba06",
+    "research/reverse/integer-beta-compatibility/REVIEW.md": "5bee5423f5f7943e92ab5f5c56ca60c53ba788f22c5c58260345079f1c1169ac",
+    "research/reverse/integer-beta-compatibility/INDEPENDENT_REVIEW.md": "92a0c617237082c70106fae6a2e2c721a842e474b4561f7b768b985234dff526",
+    "research/reverse/integer-beta-compatibility/ODD_LENGTH_OBSTRUCTION.md": "a12f92dbd58cb84021486d31610b2737b43d6ea00f4eaeb648539547417b60e8",
+    "research/reverse/integer-beta-compatibility/ODD_LENGTH_REVIEW.md": "23fafd52508f148a16ada0b15e457b94e50ccdd6b1903dcd823a62d4ecb32cbe",
+    "research/reverse/integer-beta-compatibility/ROOT_COMPARISON.md": "51f7149e352333a934d2b88301472fd2640f7c5472221b1f3d259d9b1e2b815c",
+    "research/reverse/integer-beta-compatibility/OUTCOME.md": "db6b2e6914c1c1312a97d69f607bed775c94973a3796d7b270da4ce9829b218f"
+  },
+  "root_actual_full_read": [
+    "CONTRACT.md",
+    "PROOF.md",
+    "INDEPENDENT.md",
+    "REVIEW.md",
+    "INDEPENDENT_REVIEW.md",
+    "ODD_LENGTH_OBSTRUCTION.md",
+    "ODD_LENGTH_REVIEW.md",
+    "ROOT_COMPARISON.md",
+    "OUTCOME.md"
+  ],
+  "claims": [
+    "Exact finite set of real integer higher vectors at each fixed lowest integer vector, via signed factor pairs and affine lattice recovery.",
+    "Independent gcd divisibility, positive-definite representation with both recovery congruences, elementary necessary three-square and odd-A parity gates.",
+    "For odd A, m distinct allowed higher squared lengths require A>(17+sqrt(33))*m/2; the two-distinct-length target is impossible throughout odd A<=17+sqrt(33)."
+  ],
+  "independence": "Main and independent formed without the other new text; separate non-author reviewers initially read only their assigned new draft. Root odd-length supplement formed after reading independent parity argument, then separately reviewed by that independent-text reviewer. Prior contact and extra result ownership disclosed.",
+  "unresolved_within_accepted_claims": [],
+  "realization_open": true,
+  "new_actual_datum": false,
+  "candidate_accepted": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "parameter_scan": false,
+  "new_NS_time_window_paid": false,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "format_exception": "Preserved independently reviewed TeX control-space at INDEPENDENT.md line 220; diff --check reported trailing whitespace, not claimed clean.",
+  "scope": "Fixed-integer-vector exact interface and stated odd-length subdomain only. No actual frequency choice, enumeration, global geometry exclusion, template or NS mechanism. NO-CANDIDATE / NOT CLAY."
+}
