@@ -1,0 +1,45 @@
+{
+  "internal_id": "ClayB-DynamicalInputScreen-20260908",
+  "status": "BOUNDED_SOURCE_SCREEN_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "dea84fd36c3b1697c42fb5c598911eff044007aa",
+  "scientific_section_completed": false,
+  "new_scientific_freeze": false,
+  "handoff_sent": false,
+  "last_scientific_release_unchanged": "ClayB-PressureFreeShapeCriterion-20260908",
+  "report_source": "research/clay_b_dynamical_input_screen_20260908/report-source.md",
+  "report_source_sha256": "0130c45e0389456a3c42f658ba877ad44062206eff1029c4fc87f34ca375a56c",
+  "research_note": "research/clay_b_dynamical_input_screen_20260908/research-note.md",
+  "research_note_sha256": "5561af21016b8e4179093c7558b84c828de5059af01c44d65265153b52d555b5",
+  "sources": [
+    {"arxiv": "2209.15627v1", "version_date": "2022-09-30"},
+    {
+      "arxiv": "2510.20757v3",
+      "version_date": "2026-08-11",
+      "pdf_path": "research/source-pdfs/barker_2510.20757v3.pdf",
+      "pdf_bytes": 496127,
+      "pdf_sha256": "e04702b4179f6c91de9ad6e6d3c918f05b7fce79efd22174ff98371c4ad7ad90",
+      "root_and_nonconception_reviewer_visual_pages_one_based": [4, 5, 37, 38]
+    }
+  ],
+  "decisions": [
+    "局部 L3 limsup 不提供持留时长；已有涡量逆传播另需共同全尺度上界，其所保证的 dyadic 壳下界仍可求和。",
+    "径向加权初值扩展不可遗漏；完整全空间定理与可局部限制的环域传播模块必须区分。",
+    "v3 所示 (6.12) 下界不足以推出 (1.17) 的范数指数 1/2；暂不采用该指数，不断言定理为假。"
+  ],
+  "next_concrete_unconditional_dynamical_input_accepted": false,
+  "next_test_object": "Barker 2510.20757v3 Proposition 18 的有限环柱局部模块前提",
+  "next_action": "列出同一周期解、同一指定中心附近的全部有限环柱、稍大邻域、定量正则性上界与集中种子及其真实来源；对照两尺度原始局部能量式和完整梯度熵式，保留时间片、输运、压力、截断和缺陷。检查是否能导出真实尺度增益或独立不可求和代价。不能把预设共同 M、C(M) 界、单独 limsup 或本文末步的 1/2 指数当作已获得输入。不重复本次文献筛选，不检查发布或反向运行。",
+  "open_items": [
+    "PF 判据的指定中心共同 A+E 上界与小 K 尺度尚未从一般解推出。",
+    "局部传播模块所需输入及从涡量集中到形状耗散的动态估计未证明。",
+    "两篇文献的全部外部证明依赖未全文重审；有关指数没有作者确认或正式勘误。",
+    "一般三维 Navier-Stokes 与 Clay 问题未解决。"
+  ],
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "new_reader_pdf": false,
+  "recap_required": false,
+  "is_clay_result": false
+}
