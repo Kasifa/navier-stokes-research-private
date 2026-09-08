@@ -6,61 +6,59 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Complete independent derivations and separate non-author reviews for support-invariance and its explicit POLARIZATION_CONTRACT; root compare final texts. Only then decide a combined private freeze. No old three-pair scan or finite-step mechanism is accepted.",
+  "next_action": "Read non-author preflight review; if no duplicate or scope blocker, lock a bounded symbolic comparison of two allowed symmetric data identical on an origin neighborhood and their actual local NS pressure/strain derivatives. No numerical parameters or scans.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-DynamicInputScreen",
-  "scientific_status": "NEW_BOUNDED_SYMBOLIC_CONTRACTS_ACTIVE; SUPPORT_MAIN_REVIEW_PASS; INDEPENDENT_AND_POLARIZATION_REVIEWS_PENDING; NOT_CLAY",
-  "accepted": "Nineteenth formal package remains last frozen sent-once result. New support main proof has a non-author PASS; no final combined acceptance yet.",
+  "release_id": "ReverseNS-20260908-SupportAndPolarizationObstructions",
+  "scientific_status": "TWO_PROVED_BOUNDED_INVARIANCE_OBSTACLES_FROZEN_SENT_ONCE; SYMMETRY_PRESSURE_PREFLIGHT_ACTIVE; NO_CANDIDATE; NOT_CLAY",
+  "accepted": "Twentieth formal package: two exact invariance obstacles, two derivations each, four non-author reviews, root full comparison and final scope PASS. Not a regeneration or singularity candidate.",
   "required_files": [
-    "research/reverse/support-invariance/CONTRACT.md",
-    "research/reverse/support-invariance/PROOF.md",
-    "research/reverse/support-invariance/MAIN_REVIEW.md",
-    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
-    "research/reverse/support-invariance/POLARIZATION_PROOF.md",
-    "research/reverse/support-invariance/SOURCES.md",
-    "research/reverse/dynamic-input-screen/freeze.json",
+    "research/reverse/support-invariance/freeze.json",
+    "research/reverse/support-invariance/OUTCOME.md",
+    "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md",
+    "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md",
+    "research/reverse/exterior-pressure/PROOF.md",
     "research/reverse/atom-pressure-input/source-review-record.json"
   ],
   "required_file_sha256": {
-    "research/reverse/support-invariance/CONTRACT.md": "6e1762229978d3238772594a7d0b87ee902c6002925a2b4ce1098c3382305b0c",
-    "research/reverse/support-invariance/PROOF.md": "0757f3859ff4ecd09cae33326593599c1603be7ef28c294444f8115ee19fa356",
-    "research/reverse/support-invariance/MAIN_REVIEW.md": "8fa537041efc80cfb2b7debe3c29fee3e47abf1ca2220ed648c7c2fce88bbdbe",
-    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md": "de3df9e8df78d42f619996c411425b6ce6c66bedaf1a8285bbfc4e29076d7483",
-    "research/reverse/support-invariance/POLARIZATION_PROOF.md": "07cb56f95ba62ad2c6e8677f1e5568567ca5552466133db3f668e6a8268d8b43",
-    "research/reverse/support-invariance/SOURCES.md": "ac892ad6362ceb0a89ec860e42a84d215d9676985e4a9055e772416f4bf4bf81",
-    "research/reverse/dynamic-input-screen/freeze.json": "6921107a3a339d8785b7f8af357f220cf37ff22abfa56071ec8635e799bd3338",
+    "research/reverse/support-invariance/freeze.json": "1729c69b8e1f40cf3be6196c27458f7097fdc05e9bf9dd1f2540cca25ff2fbe5",
+    "research/reverse/support-invariance/OUTCOME.md": "171284640b744d03bc677e0b976e3693e88a5856f5857f595be2f4abbf894d69",
+    "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md": "e1cecf4cb055a7f754c3f1f2fdc52e9ec5d183e36bbc5e5535bfb478746ab95e",
+    "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md": "abf66039c0c6d158d88c3b293c7bffbd93d9ebc043a327fe357dc9f84f867150",
+    "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md": "bbd8c3d57ad138a123f5dcb32e5599ac013bf7442636e3a01ed31bd96edf350b",
+    "research/reverse/exterior-pressure/PROOF.md": "50df7a60076567acac9cbad6588132c3e0f49e77f84f17ee68e740a8a32478b9",
     "research/reverse/atom-pressure-input/source-review-record.json": "b9d75aea83aa5b67b03bad8768df6e2dacfd0f45c96b90224ab5064f0c46f186"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-DynamicInputScreen",
-  "source_commit": "2c45b76d63708e6eba3ce2e6b9fef8c5ffa2f19e",
-  "freeze_manifest": "research/reverse/dynamic-input-screen/freeze.json",
+  "last_completed_release": "ReverseNS-20260908-SupportAndPolarizationObstructions",
+  "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+  "freeze_manifest": "research/reverse/support-invariance/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED_BY_RESEARCH",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "e704d12903c8cb2c0bc3dcf336de880f5d3b16a7aaf2e5ded5603f1e8d5bbf57",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "01de3ccca6826934a15614866bdb5f3bc55dd559d6b4458c59d06ab4432eae15"
   },
-  "freeze_commit": "20b34a5949df6d03b310e6ceb83adfc58646c0d1",
+  "freeze_commit": "18fc343fe725bb49cb01fb931448f66bec670e2d",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Full-polarization support closure and common-axis projected polarization: bounded symbolic full-NS invariance tests",
-  "current_topic_directory": "research/reverse/support-invariance",
+  "current_topic": "Permutation-equivariant centrally odd periodic original NS: whether complete local initial velocity determines pressure-induced origin strain derivative",
+  "current_topic_directory": "research/reverse/symmetry-pressure-preflight",
   "pending": [
-    "Finish two bounded independent derivations and non-author reviews; no twentieth formal package yet.",
-    "No new actual datum or regeneration candidate; actual second-generation net supply and dynamic profile update remain unpaid.",
-    "Uniform iteration, fixed-datum infinite scales, cross-generation error and finite total time remain open."
+    "Precise symmetry-compatible local-data pressure question not yet proved.",
+    "Actual second-generation net supply and dynamic profile update remain unpaid.",
+    "Uniform iteration, one fixed initial datum across infinite scales, cross-generation error and finite total time remain open."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
+  "previous_completed_release": "ReverseNS-20260908-DynamicInputScreen",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; actual get_goal in current continuation, no goal mutation or reset consumption",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-08T10:52:15.391235+00:00",
+  "updated_at": "2026-09-08T11:15:31.781431+00:00",
   "protocol_read_scope_latest": "2026-09-08 current changed workflow opening (lines 1-75) and applicable research/ownership sections (76-160) read; not claiming entire changed protocol reread. Dual-track strategy read in full. Latest local48h/publicweekly-paused/private-immediate/no-new-English and publisher-only repository decisions apply; research does not inspect publishing state.",
   "previous_goal_turn_classification": "PROGRESS: prior continuation completed reviewed LocalL2ResidenceAndOccupation and DynamicInputScreen freezes with once-only handoffs, then source-reading addendum at 9b076e35; no twentieth reading-only package. Current continuation has new precisely contracted support and polarization proof work, awaiting final reviews.",
   "completed_unreleased_audits": [
@@ -345,13 +343,12 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "research/reverse/support-invariance/CONTRACT.md",
-    "research/reverse/support-invariance/PROOF.md",
-    "research/reverse/support-invariance/MAIN_REVIEW.md",
-    "research/reverse/support-invariance/POLARIZATION_CONTRACT.md",
-    "research/reverse/support-invariance/POLARIZATION_PROOF.md",
-    "research/reverse/support-invariance/SOURCES.md",
-    "research/reverse/dynamic-input-screen/freeze.json",
+    "research/reverse/support-invariance/freeze.json",
+    "research/reverse/support-invariance/OUTCOME.md",
+    "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md",
+    "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md",
+    "research/reverse/exterior-pressure/PROOF.md",
     "research/reverse/atom-pressure-input/source-review-record.json"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
@@ -595,11 +592,11 @@
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
     ".workflow/reverse-current.json",
-    "research/reverse/dynamic-input-screen/freeze.json",
-    "research/reverse/local-occupation/freeze.json",
-    "research/reverse/atom-pressure-input/source-review-record.json",
-    "research/reverse/atom-pressure-input/ROOT_HISTORY_AND_SCOPE.md",
-    "research/reverse/atom-pressure-input/SCOPE_REVIEW.md"
+    "research/reverse/support-invariance/freeze.json",
+    "research/reverse/support-invariance/OUTCOME.md",
+    "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
+    "research/reverse/symmetry-pressure-preflight/PREFLIGHT.md",
+    "research/reverse/symmetry-pressure-preflight/ROOT_SOURCE_LOCATOR.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -771,7 +768,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T10:52:15.391235+00:00",
+  "last_checkpoint_utc": "2026-09-08T11:15:31.781431+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1030,12 +1027,30 @@
     "next_substantive_freeze_may_include_working_records": true
   },
   "support_invariance_evidence": {
-    "status": "TWO_BOUND_CONTRACTS_AND_MAIN_DERIVATIONS_SAVED_REVIEW_IN_PROGRESS",
+    "status": "PROVED_BOUNDED_OBSTACLES_FROZEN_SENT_ONCE",
+    "source_commit": "68023ae73d7c3a547dcf20a8da3fd2b292ce5df6",
+    "freeze_commit": "18fc343fe725bb49cb01fb931448f66bec670e2d",
+    "manifest": "research/reverse/support-invariance/freeze.json",
+    "manifest_sha256": "1729c69b8e1f40cf3be6196c27458f7097fdc05e9bf9dd1f2540cca25ff2fbe5",
+    "final_scope_review": "research/reverse/support-invariance/FINAL_SCOPE_REVIEW.md",
     "scientific_programs_run": 0,
     "actual_numeric_datum_selected": false,
-    "formal_release": false,
+    "formal_release": true,
     "candidate": false,
-    "core_main_review": "PASS",
-    "independent_final_pending": true
+    "four_non_author_reviews": "PASS",
+    "independent_final_pending": false
+  },
+  "symmetry_pressure_preflight_evidence": {
+    "directory": "research/reverse/symmetry-pressure-preflight",
+    "status": "AUTHOR_PREFLIGHT_STOPPED_NONAUTHOR_REVIEW_RUNNING",
+    "root_actual_read": [
+      "PREFLIGHT.md",
+      "ROOT_SOURCE_LOCATOR.md",
+      "research/reverse/exterior-pressure/PROOF.md (full)",
+      "research/reverse/exterior-pressure/OUTCOME.md (full)",
+      "research/clay_b_longitudinal_strain_preflight_20260906.md lines 1-153"
+    ],
+    "new_proof_accepted": false,
+    "scientific_programs_run": 0
   }
 }
