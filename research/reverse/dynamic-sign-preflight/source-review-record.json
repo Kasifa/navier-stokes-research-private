@@ -1,0 +1,36 @@
+{
+  "schema": "ReverseNS-source-review-record-v1",
+  "classification": "PRIVATE_CORE",
+  "status": "SOURCE_SCREEN_COMPLETE_ROOT_READ_NONAUTHOR_REVIEW_PASS_NO_CANDIDATE",
+  "recorded_at_utc": "2026-09-08T11:46:19.067786+00:00",
+  "files": [
+    {
+      "path": "research/reverse/dynamic-sign-preflight/PREFLIGHT.md",
+      "sha256": "0cd71811d0ec086fde7f7bf9d53ed18d5159aa688f4cfb4bc0628161bd9dbaf5",
+      "bytes": 10509
+    },
+    {
+      "path": "research/reverse/dynamic-sign-preflight/REVIEW.md",
+      "sha256": "2f62d6fb7272e611f68ffdb528b588549746d4aefe723f9d0e682456730708f2",
+      "bytes": 8562
+    },
+    {
+      "path": "research/reverse/dynamic-sign-preflight/ROOT_SCOPE.md",
+      "sha256": "b178efd7de9d601e88da44b38384da637cc6f1b8c22bcba4166dc8e69f3cf607",
+      "bytes": 2512
+    }
+  ],
+  "root_actual_full_read_final_record_texts": true,
+  "root_external_read_scope": "Section 2.3 opening 2.123, selected statements and tool contexts only; do not inherit author/reviewer full-section reading as root reading.",
+  "external_source": "https://arxiv.org/pdf/2404.01505v3",
+  "paid_new_dynamic_input": false,
+  "new_theorem": false,
+  "formal_release": false,
+  "scope": "Specified source does not supply current periodic positive-viscosity dynamic sign preservation and signed strain feedback; not a universal no-go.",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "actual_numeric_datum_selected": false,
+  "figures": [],
+  "older_failed_evidence_repaired": false,
+  "next_action": "Do not repeat local closure, initial strain sign, extra mirror, coordinate-polynomial or arbitrary static variants. A further bounded mechanism contract requires an actual same-original-solution dynamic input and new checkable source or profile control."
+}
