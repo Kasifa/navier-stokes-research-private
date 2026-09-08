@@ -1,0 +1,172 @@
+{
+  "check_id": "ClayB-DynamicBudgetSelection-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CANDIDATE_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e",
+  "previous_goal_turn_classification": "PROGRESS: JC completed the full source compensation check, recorded a fractional estimate and a scoped static refutation, and stopped the current source-algebra-only branch.",
+  "main": "research/clay_b_dynamic_budget_selection_20260908.md",
+  "main_sha256": "02e78cbc998c5703f8a7a68b74a3f1380f7fd956b10dc6f223103406fd72bcb3",
+  "main_bytes": 11823,
+  "main_lines": 184,
+  "classification": [
+    "INTERNAL CANDIDATE CHECK",
+    "CLASSICAL DYADIC PRODUCT ADAPTATION",
+    "EXACT MATERIAL FLOW IDENTITIES",
+    "NO NEW ADMITTED CRITICAL INPUT",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "DBS.2–5：TG强W1,1只识别弱L2终端速度，完整能量测度仍为|u*|²dx+lambda*且lambda*>=0。完整终端局部能量式保留该二次缺陷、初端、黏性环层、全部压力和输运；正原子的最后阈值/可和成本已在BM/BO完成，没有新无原子定理。",
+    "DBS.6–8：完整周期非零平滑LP分解、守恒均值及全部有序输入给sum 2^(-j/2)||Pj P div(w tensor w)||2 <= C||G||2²；从而有加权线性幅度正变差和含初端尾的TV预算。它是经典Bony机制的细化，不是新的频率动力学；仍允许所获保证费用沿dyadic尺度求和，不是NS级联构造或延拓准则。",
+    "DBS.9–10：同一原解的经典物质坐标保留detF=1、逐分量变形扩散、Piola压力项、原梯度耗散及初端物质包；显式对流消去不消除变形和压力费用。",
+    "DBS.11–13：反向首次触边停止、体积保持与Cauchy给退出和累计梯度坏标签的相对体积界C[A(2r)+E(2r)/L²]，好轨迹变形只能由exp(L)控制。没有整域统一椭圆性、指定标签控制、合法好集截止或自动共同A/E与小K。",
+    "三个候选均未改变关键临界缺项；只有内部核算和去重边界，没有新独立研究小节。四条普通网页查询未提供被接受的新证明输入；Nunez仅出版社预览，两个高相关arXiv标识已有记录。"
+  ],
+  "open_items": [
+    "一般三维NS/Clay、指定中心共同A/E及小K仍OPEN。",
+    "速度的强W1,1终端迹（梯度的强L1迹）不排除速度平方的终端二次缺陷；无原子本身也不是任意奇点排除。",
+    "线性幅度变差的半阶频率权仍可和，不是强向量场时间BV或无权事件成本。",
+    "物质流在整个标签域的变形系数、压力边界功和光滑好集截断成本未支付；每个母柱有限不等于共同上界。",
+    "替代具体动态机制尚未选定；本次NO-CANDIDATE只限被核算的三个入口，不是所有方法的否定。",
+    "没有充分查新、真人同行评审、新的无条件临界估计或Clay结果。"
+  ],
+  "next_action": "DBS已实际核算三个原NS动态入口：TG后局部能量仍有二次缺陷并回到BM/BO；完整LP线性幅度变差成立但仍带可和的2^(-j/2)权；停止物质流的坏标签占据界仍需A+E/L²，且变形扩散与压力边界功未付。三者均未产生新的无条件临界输入，停止这些具体候选的相邻重写或条件版本。下一步必须从尚未核算的真实时空耦合机制提出一个可能减少明确缺项的目标式并实际检验；具体替代候选尚未选定，不能把选择意向或同一旧文献摘要当作新输入。保持任意原初值、固定正龄、同一实际解与完整尺度/端点/压力成本；允许探索未证估计，不预设其成立。DBS为内部记录，TG最后独立冻结与一次交接不变；不新建release、不重发交接，不查看发布或反向执行。",
+  "next_test_selected": false,
+  "next_unconditional_critical_input_accepted": false,
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "last_independent_source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "last_independent_freeze_commit": "93965a9c3cf8ccb3e61aad637a2f736c8d0fd5fd",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520",
+      "bytes": 13023,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_pf_proof_detail_audit_20260908.md",
+      "sha256": "479945ee6a3144b1c6a10ee07e23c93ff35e8e015c9836311c94b6e5fa8b840e",
+      "bytes": 10089,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+      "bytes": 10696,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_terminal_fourier_flux_20260907.md",
+      "sha256": "1513edc738ffdf868abe5c7fe3363541f00bd67b520bfcfa5f286d6d8b716767",
+      "bytes": 7984,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "sha256": "e023ac8a8140dcf523a1a6bee70a810b6f58041529e34f79c94df89f1355b907",
+      "bytes": 5741,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_energy_atom_dissipation_20260906.md",
+      "sha256": "efd0eca624055fd6e825aa1f85602f3815a1ea20e6f257263d64f0021c5a5bac",
+      "bytes": 8641,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_frequency_activation_20260907.md",
+      "sha256": "42bbc2ba3abae7aa1eeb25ee0b29f896d7d8ddcafccb0da518dded4851dd897a",
+      "bytes": 12364,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_frequency_cascade_budget_20260907.md",
+      "sha256": "4fd0439ba472ec383325ec2706614ddfade372e72ab69e3ed18d6761a267ac15",
+      "bytes": 13572,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_dynamic_strategy_review_20260906.md",
+      "sha256": "acfb4d8587a7942784df344b060a72fd20faf18ac013c3f0ed4a20f48f293255",
+      "bytes": 6324,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_inverse_cascade_strategy_20260907.md",
+      "sha256": "179e6e91ecd2af97a23d397de22628f06fbdd61105b478322eb39e05359a563b",
+      "bytes": 8747,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    },
+    {
+      "path": "research/clay_b_joint_source_compensation_20260908.md",
+      "sha256": "437d8d133c9dc9c8d5656aa8327bfdd1b497a93eae63d56754dd2b0414eb265d",
+      "bytes": 14262,
+      "source_commit": "8bd9d9dedb51c0765c5940e35580a5b7d553b66e"
+    }
+  ],
+  "review": {
+    "status": "PARTICIPATING_AI_REVIEW_PASS",
+    "root": "实际全文读184行11319B初稿并独立推导三个模块；随后实际核六处定义/规范明确化。最终184行11823B SHA绑定主稿，不称又一次全文审读。",
+    "final_main_review": {
+      "reviewer": "ma_freeze_review",
+      "type": "FULL_READ_PLUS_SIX_DELTA_VERIFICATION",
+      "full_read_sha256": "b54ae404a2697c9377af2a7b1173b7faad97675750746f659ed7c2773cbecf8e",
+      "full_read_lines": 184,
+      "full_read_bytes": 11319,
+      "delta": "补G定义、PF单位黏性规范、s>0、具体实偶chi/P0/Pj分解、固定Bony整数L>=4、扩散逐分量指标；逆向还原精确匹配全文审读SHA。",
+      "final_sha256": "02e78cbc998c5703f8a7a68b74a3f1380f7fd956b10dc6f223103406fd72bcb3",
+      "final_lines": 184,
+      "final_bytes": 11823,
+      "verdict": "PASS_NO_REQUIRED_CHANGES",
+      "external_full_proof_certified": false
+    },
+    "modules": {
+      "C": "good_scale_route_comparison独立核终端动能模块：实读PF9–32/154–173、PFA9–72/145–159、TG7–33/96–149、LT7–52/96–125/154–202、BM45–125及BO全文。未全文审读本稿，也未重审外部依赖。",
+      "B": "variable_reference_check独立推导完整Bony及幅度TV：实读FCB全文314行、FA1–88/265–283、BCS全文119行及BTS全文105行。终版DBS实际读取1–18、62–112行，§1/3限定PASS，绑定184行11823B及最终SHA；不构成全文审查。",
+      "A": "ma_freeze_review实读两份策略记录全文，并参与物质流模块；最终全稿及增量审查范围单列。"
+    },
+    "structural": {
+      "tags": 13,
+      "display_pairs": [
+        20,
+        20
+      ],
+      "inline_pairs": [
+        71,
+        71
+      ],
+      "trailing_whitespace": false,
+      "missing_local_links": []
+    },
+    "dependency_git_objects_match_base": true,
+    "human_peer_review": false
+  },
+  "literature_scope": {
+    "ordinary_queries": 4,
+    "deep_research": false,
+    "new_proof_input_admitted": false,
+    "exhaustive_search": false,
+    "preview_url": "https://doi.org/10.1016/S0167-2789(02)00770-4",
+    "preview_scope": "仅出版社摘要、导论和可见预览；不认证完整论文或采用未读Gevrey证明。",
+    "deduplicated_arxiv_ids": [
+      "2608.04138",
+      "1705.04420"
+    ],
+    "upstream_recertification": false
+  },
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false
+}
