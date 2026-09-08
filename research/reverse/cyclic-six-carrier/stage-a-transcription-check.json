@@ -1,0 +1,9 @@
+{
+  "scope": "Existing-record transcription comparison only; no Fourier generation, determinant calculation, factorization or root experiment. Not stage C independent verification.",
+  "ALGEBRA_A_sha256": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b",
+  "stage_A_output_sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+  "complete_polynomial_rows_compared": 24,
+  "coefficients_per_row": 4,
+  "saved_determinant_coefficients_compared": 7,
+  "status": "PASS"
+}

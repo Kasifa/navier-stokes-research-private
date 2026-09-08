@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Stage A executed exactly once after 9e606f2d source save; output9329464c full six-target coefficients and nonconstant degree6 P saved, no roots or datum yet. Complete text-only Sturm/gcd method preflight then prepare/review/save stage-B code for exactly this recorded P. Stage C independent exact verification and application proof review remain required. Never rerun stage A.",
+  "next_action": "A once output saved1865656c; ALGEBRA_A tables and saved determinant transcription match. Root/full NS conditional application review PASS. B Sturm/gcd method2fb88e71 root full read, fixed implementation gateaf692a57 under nonauthor review; Gauss prepares B code without executing. Hume prepares C different tree organization and A adapter without executing. No roots or candidate yet; final source/pre-review/Git before B and C each single run.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -29,7 +29,13 @@
     "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md",
     "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
     "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
-    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json"
+    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+    "research/reverse/cyclic-six-carrier/ALGEBRA_A.md",
+    "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
+    "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
+    "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
+    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -46,7 +52,13 @@
     "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md": "3362ca3f5c79d7e7c86581b942ef3dea627535b856f414f5974f9c8e7fc5f482",
     "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4",
     "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992",
-    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
+    "research/reverse/cyclic-six-carrier/exact-coefficients-output.json": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6",
+    "research/reverse/cyclic-six-carrier/ALGEBRA_A.md": "a5dad046a56e3f6d6a9a417304635c23c9e84871528baffbfd5dbedf6cfea32b",
+    "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f",
+    "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md": "2fb88e7166ee62fa1b3df24415542970580bb3d520971386b482f5a5db80453a",
+    "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md": "af692a572eee828b7415e29fb784197c10329e3c98cdf0a5a765ec6b884fe39f",
+    "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md": "621e5a5c226ce2e3ff8f3b0f6b0a8b6d549db8104c014e1f96f2afe0cdebbcfa",
+    "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -1188,6 +1200,13 @@
     },
     "determinant_degree": 6,
     "all_real_roots_certified": false,
-    "stage_C_independent_verification_complete": false
+    "stage_C_independent_verification_complete": false,
+    "stage_B_method": "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md",
+    "stage_B_method_root_full_read": true,
+    "stage_B_implementation_gate": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
+    "stage_B_code_status": "AUTHOR_PREPARING_NOT_EXECUTED",
+    "application_conditional_review": "PASS_909e9fab_ROOT_FULL_READ",
+    "stage_C_code_status": "PREPARED_COEFFICIENT_CORE_READ_BY_ROOT_ADAPTERS_PENDING_NOT_EXECUTED",
+    "root_comparison": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md"
   }
 }
