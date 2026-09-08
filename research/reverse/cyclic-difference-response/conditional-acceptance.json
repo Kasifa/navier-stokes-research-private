@@ -1,0 +1,29 @@
+{
+  "schema": "reverse-cyclic-difference-conditional-acceptance-v1",
+  "status": "CONDITIONAL_MATHEMATICS_ACCEPTED_NOT_NEW_DATUM_CERTIFIED",
+  "actual_root_read": "Full final new main and independent proofs, both final nonauthor reviews, contract review, method and root comparison; explicit read scopes in those records.",
+  "scientific_executions_at_this_checkpoint": 0,
+  "fixed_datum": "Same release-24 selected root and unscaled r/s normalization; viscosity 1; unforced standard 2pi T3.",
+  "accepted": [
+    "Complete six signed two-ordered Fourier-Leray coefficients and exact heat response",
+    "DR.1-9 and DI.1-20 with their distinct conditional positive-lower-bound interfaces",
+    "MP.1-11 one-root method; only DR.8 window for new arithmetic"
+  ],
+  "unpaid": [
+    "New root zero test",
+    "Positive rational lower bound",
+    "Actual original DR.8 new window arithmetic",
+    "Unique reviewed primary and independently organized verification executions",
+    "Final fixed-data acceptance and release freeze"
+  ],
+  "files": {
+    "research/reverse/cyclic-difference-response/CONTRACT.md": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6",
+    "research/reverse/cyclic-difference-response/CONTRACT_REVIEW.md": "791c80270135a1a08e6aea43840cdde8dd5faa0ddc71c6c767d8f3efcc892a73",
+    "research/reverse/cyclic-difference-response/ANALYSIS.md": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367",
+    "research/reverse/cyclic-difference-response/ANALYSIS_REVIEW.md": "02288305451808829feace3ac1f97480ee7cf1f918e011cbbe5a2c9f1cc7080c",
+    "research/reverse/cyclic-difference-response/INDEPENDENT.md": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4",
+    "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04",
+    "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316",
+    "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md": "2715ee51ad70665fc68c7eead1a7aa256a364acceb9c972f675c5da900bb60c2"
+  }
+}

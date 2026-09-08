@@ -1,5 +1,9 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Current continuous-goal continuation (2026-09-09)
+
+The current user-provided active goal explicitly continues the full reverse research objective after the completed bounded closure. The previous turn is PROGRESS: release 24 was reviewed, frozen and sent once, and the separate structural bridge was accepted. LocalPressureScreen in the goal wording is already historical completed work; do not reopen it. Continue from the actual next unpaid input: the same selected six-carrier datum's complete two-leaf difference response and a full-NS source comparison. Fix a new bounded contract before any new scientific program. The earlier bounded-turn stopping text records that turn, not a new user pause. No goal status, budget, reset or automation change is needed.
+
 ## Latest direct resume after the second pause (2026-09-08)
 
 The user directly said “恢复” after the most recent “暂停”. Resume from actual stopped files to finish the authorized six-carrier review/freeze and the separately bounded receiver-support/strategy bridge. A/B/C have each already run once; do not rerun. The structural minimum-leaf calculation is independent of the six-carrier package and does not certify actual short-response coefficients or a next generation. Finish these bounded sections, save their actual review and source checkpoint, and report the precise open input. Do not activate goal runners or automations or silently expand to an eight-leaf scan. Historical pending/paused labels below do not override this direct resume or saved results.
