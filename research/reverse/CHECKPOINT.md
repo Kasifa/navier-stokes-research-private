@@ -1,3 +1,19 @@
+# 反向研究恢复检查点
+
+## 当前入口：2026-09-08 三边障碍已冻结，最低线性接收行在审
+
+用户持续研究授权有效；无须例行确认。只在本工作树 codex/ns-reverse 工作。以下历史段落的旧“下一步”不是当前待办；当前入口以本节和 reverse-current 顶层字段为准。
+
+第十一份正式包 ReverseNS-20260908-TwoLinearSourceObstruction：科学源码 0f573d05d3bd2ab1a6371713550f729103e69e0f，冻结 12a943e7c75d9227e04b28b41a17789e0ce837ef，清单 three-edge-compatibility/freeze.json。23 份文本逐份匹配源码 Git 对象，19 项直接绑定通过，最终范围实读审查通过。已经一次交给固定发布任务 PRIVATE_ARCHIVE，工具成功记录为 HANDOFF_LOG 第十一条；不重发、不等待、不观察归档。
+
+已接受完整共享三边相消接口及两线性发送最长接收行障碍；原非正交互异长度三活跃边合同中恰两个线性种子必有 M0、W0 非零，对每份固定数据真实 NS 来源比短窗趋 m/w>0。没有跨数据统一间隙，不排除任意正容限或有限时占优。M0=0 的剩余必要类型为全线性、全面积非零、仅最短线性；共同实现性均未判定。没有有限两步候选或 Clay 结论。
+
+当前工作 two-elliptic-compatibility/CONTRACT.md 已先锁：只检验仅最短种子线性的最低完整 Z/C 行。PROOF.md（8961c725）与 INDEPENDENT.md（9a39799e）均已实际形成并停改；根已全文读主稿，另一稿待根全文读。主稿非作者审查由 coherence_independent_audit 执行；独立稿非作者审查由主稿作者 coherence_independent_resumed 执行并披露身份及读稿时序。暂未接纳新结果。初步唯一消元、完整输出非零及原方向三次式/面积平衡只属于最低行，两个较高行和同一整数实例没有支付。
+
+接下来完成两审查与根最终全文比较，再判断最低行接口有无实际障碍，按另锁的有界纯手工合同前进。禁止科学程序、数组、数值求值、实际选参、扫描、旧失败运行重做或自动额度重置。旧失败证据六对象原样保留，原固定物理初值仍 NO-CERTIFICATE-YET-FOR-FIXED-a。以下保留历史恢复正文，不将旧工作描述重新当待办。
+
+## 历史恢复正文
+
 # Reverse research checkpoint
 
 2026-09-08。用户持续研究授权有效，不需例行确认。本次get_goal实际返回usageLimited、无token预算；当前根工具与替代子代理调用成功。该平台状态与用户授权分别记录，不消费reset或擅改目标状态。全部科学写入与Git只在 /Users/kasifa/Documents/Math/navier-stokes-reverse、codex/ns-reverse。旧暂停和目标文字里的LocalPressureScreen“待冻结”均为已完成的历史状态。不得改正向索引、共享入口或发布队列，不push、改remote/可见性、部署或监督发布。十个正式包均已一次交接，不重发。

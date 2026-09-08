@@ -6,14 +6,14 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish actual two one-elliptic proofs and separate non-author reviews, plus root MAX_RECEIVER_EXTENSION review and root full comparison. Base three-edge scalar/type stage accepted at7161a05e. General ratio lemma reviewed; no followup accepted until final reads. Ten formal handoffs already sent once. No science programs/arrays/parameters/scans/reset/publication observation.",
-  "resume_action": "Finish actual two one-elliptic proofs and separate non-author reviews, plus root MAX_RECEIVER_EXTENSION review and root full comparison. Base three-edge scalar/type stage accepted at7161a05e. General ratio lemma reviewed; no followup accepted until final reads. Ten formal handoffs already sent once. No science programs/arrays/parameters/scans/reset/publication observation.",
+  "next_action": "Read both stopped lowest-row proofs and separate non-author reviews in full, compare exact coordinate systems and zero branches; only then accept. Further bounded symbolic feasibility test requires its own contract. No numerical work, old reruns or publication observation. Eleven handoffs already sent once.",
+  "resume_action": "Resume from current top checkpoint and two-elliptic-compatibility actual files; do not revive historical next-actions.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
-  "scientific_status": "THREE_EDGE_BASE_ACCEPTED; ONE_ELLIPTIC_AND_GENERAL_MAXIMUM_ROW_FOLLOWUPS_IN_PROGRESS",
-  "accepted": "MixedSourceStarObstruction package accepted, frozen and sent once for private archival. Conditional original-direction obstruction only; general three-edge compatibility and regeneration remain unresolved.",
+  "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+  "scientific_status": "THREE_EDGE_TWO_LINEAR_OBSTRUCTION_ACCEPTED; LOWEST_LINEAR_ROW_UNDER_REVIEW; NO_CANDIDATE; NOT_CLAY",
+  "accepted": "Eleventh formal private package accepted, frozen and sent once. Exact two-linear branch has nonzero total M0,W0 and same-data local source-ratio obstruction; no general mechanism exclusion.",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
     "research/reverse/fixed-seed-global-screen/ROOT_REVIEW.md",
@@ -629,32 +629,32 @@
     "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md": "3dba89eec10784edf5ab45bd3019bce131795d0bd0b7f705ca95a08f4a03a322"
   },
   "classification": "PRIVATE_CORE",
-  "last_completed_release": "ReverseNS-20260908-MixedSourceStarObstruction",
-  "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
-  "freeze_manifest": "research/reverse/mixed-polarization/freeze.json",
+  "last_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
+  "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+  "freeze_manifest": "research/reverse/three-edge-compatibility/freeze.json",
   "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
     "AGENTS.md": "353d5fbc2dc853c8a08c6a934b4286ed79332840c3864201cad945d33e1257ae"
   },
-  "freeze_commit": "b1a0f750be93f0107f8abcc4878b99b6b60c8dc6",
+  "freeze_commit": "12a943e7c75d9227e04b28b41a17789e0ce837ef",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same fixed-data classical NS series and explicit true first-band self-supply remainder",
-  "current_topic_directory": "research/reverse/mixed-polarization",
+  "current_topic": "Only shortest seed linear: complete lowest mixed-source row and original-direction conditions",
+  "current_topic_directory": "research/reverse/two-elliptic-compatibility",
   "pending": [
-    "Actual source-bridge independent proof and separate non-author reviews",
-    "Concrete same-data total-vector attribution or regeneration gate, not yet selected",
-    "Uniform iteration, fixed-datum infinite scales and finite total time"
+    "Actual non-author lowest-row reviews and root full comparison",
+    "Conditional feasibility or obstruction of lowest-row interface, then higher full rows",
+    "Uniform iteration, one fixed datum infinitely many scales, finite total time"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
   "resumed_at": "2026-09-07T20:25:31+08:00",
-  "previous_completed_release": "ReverseNS-20260908-HelicalJointReturn",
+  "previous_completed_release": "ReverseNS-20260908-MixedSourceStarObstruction",
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T02:25:22.728967+00:00",
+  "updated_at": "2026-09-08T04:29:26.760890+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -937,7 +937,7 @@
   ],
   "resume_read_note": "HelicalJointReturn is complete and sent once. Read actual mixed-coherence draft and replacement result files; missing or partial old agent outputs are not accepted. Do not reactivate historical pending helical, orthogonal or closed numerical steps. No publisher/reader observation or reset-credit consumption.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
+  "current_analysis_source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -1175,9 +1175,9 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/three-edge-compatibility/acceptance.json",
-    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md",
-    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md"
+    "research/reverse/two-elliptic-compatibility/CONTRACT.md",
+    "research/reverse/two-elliptic-compatibility/PROOF.md",
+    "research/reverse/two-elliptic-compatibility/INDEPENDENT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1349,7 +1349,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T04:04:05.420836+00:00",
+  "last_checkpoint_utc": "2026-09-08T04:29:26.760890+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1385,21 +1385,15 @@
     "candidate_accepted": false
   },
   "three_edge_evidence": {
-    "status": "ACCEPTED_INTERNAL_BASE_FOLLOWUPS_PENDING",
-    "contract": "research/reverse/three-edge-compatibility/CONTRACT.md",
-    "accepted": true,
+    "status": "FROZEN_SENT_ONCE",
+    "release_id": "ReverseNS-20260908-TwoLinearSourceObstruction",
+    "source_commit": "0f573d05d3bd2ab1a6371713550f729103e69e0f",
+    "freeze_commit": "12a943e7c75d9227e04b28b41a17789e0ce837ef",
+    "manifest": "research/reverse/three-edge-compatibility/freeze.json",
+    "files": 23,
+    "direct_acceptance_bindings": 19,
     "candidate_accepted": false,
-    "scientific_programs_run": 0,
-    "main": "research/reverse/three-edge-compatibility/PROOF.md",
-    "main_sha256": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3",
-    "source_commit": "7161a05e",
-    "acceptance": "research/reverse/three-edge-compatibility/acceptance.json",
-    "scope": "Complete shared scalar systems; linear/area-nonzero type ordering and cross beta=0 gates; mixed-type full W0 nonzero. No feasibility or new positive-time theorem.",
-    "subsequent_pending": [
-      "ONE_ELLIPTIC_ANALYSIS.md",
-      "ONE_ELLIPTIC_INDEPENDENT.md",
-      "MAX_RECEIVER_RATIO.md",
-      "MAX_RECEIVER_EXTENSION.md"
-    ]
+    "final_scope_sha256": "3e428368afa03c27ce5d59d0a58f3c809895dd44bfaa0e16361181fa023dd95a",
+    "scope": "Exactly two linear seeds excluded from complete M0=0 in original active triangle; per-datum W0,M0 nonzero and explicit local NS source ratio, not uniform or general mechanism exclusion."
   }
 }
