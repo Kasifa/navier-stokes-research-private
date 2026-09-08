@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish final scope audit for combined amplitude and area package, verify source objects and freeze then send once to fixed publisher. Continue same-data remaining imaginary quartics, independent proof and separate reviews. No actual datum or candidate; no science programs or publication observation.",
+  "next_action": "Fourteenth formal private package sent once; never resend or observe archive. Finish separate independent-text reviews and root comparisons for remaining imaginary/real same-data gates. Finish general fixed-p0 integer-beta factor/lattice theorem reviews without selecting or enumerating values. Then jointly check complete higher equations; no actual candidate or NS two-step accepted.",
   "resume_action": "Resume from current top checkpoint and two-elliptic-compatibility actual files; do not revive historical next-actions.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -15,20 +15,30 @@
   "scientific_status": "THREE_EDGE_TWO_LINEAR_OBSTRUCTION_ACCEPTED; LOWEST_LINEAR_ROW_UNDER_REVIEW; NO_CANDIDATE; NOT_CLAY",
   "accepted": "Eleventh formal private package accepted, frozen and sent once. Exact two-linear branch has nonzero total M0,W0 and same-data local source-ratio obstruction; no general mechanism exclusion.",
   "required_files": [
-    "research/reverse/full-high-row-reduction/freeze.json",
-    "research/reverse/lowest-amplitude-compatibility/acceptance.json",
-    "research/reverse/area-square-compatibility/acceptance.json",
-    "research/reverse/area-square-compatibility/FINAL_OUTCOME.md",
+    "research/reverse/area-square-compatibility/freeze.json",
     "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
-    "research/reverse/remaining-imaginary-compatibility/PROOF.md"
+    "research/reverse/remaining-imaginary-compatibility/PROOF.md",
+    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md",
+    "research/reverse/remaining-imaginary-compatibility/REVIEW.md",
+    "research/reverse/remaining-real-compatibility/CONTRACT.md",
+    "research/reverse/remaining-real-compatibility/PROOF.md",
+    "research/reverse/remaining-real-compatibility/INDEPENDENT.md",
+    "research/reverse/remaining-real-compatibility/REVIEW.md",
+    "research/reverse/integer-beta-compatibility/CONTRACT.md",
+    "research/reverse/integer-beta-compatibility/PROOF.md"
   ],
   "required_file_sha256": {
-    "research/reverse/full-high-row-reduction/freeze.json": "dadfc5d6c7555a24c0a961531b17086f84227d8e0b47b47ace4c15694d80c8e0",
-    "research/reverse/lowest-amplitude-compatibility/acceptance.json": "c1287cd1571f7625cffb72df5b333d0b7b7cca07440d0ad088abea1b3607005a",
-    "research/reverse/area-square-compatibility/acceptance.json": "deea4d49f1b130599a296631961bc0788df139b3bc2ae3976f327a63cd201d5e",
-    "research/reverse/area-square-compatibility/FINAL_OUTCOME.md": "11b74dc04559f4143852acc842f5425413c0859ba52bc9cd399edf88d1ff29ef",
+    "research/reverse/area-square-compatibility/freeze.json": "e74a975ccbbf819f811f57c39efb8ffed87160e3d7ab9bf37e74b4c9fe51dfd4",
     "research/reverse/remaining-imaginary-compatibility/CONTRACT.md": "bf60c8c709f6345560862ee877dc82d8865ef41d04c3c0dc7d0cf4543e6bdbd8",
-    "research/reverse/remaining-imaginary-compatibility/PROOF.md": "638ef8812fad8bf3337ecf1c6bd73a4fb73e34843eaa94a2b6a1cb8daff3fdef"
+    "research/reverse/remaining-imaginary-compatibility/PROOF.md": "638ef8812fad8bf3337ecf1c6bd73a4fb73e34843eaa94a2b6a1cb8daff3fdef",
+    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md": "9cbc38468e54690015f4e144ed98e4c720103305af8b2a87e7c23c38088f4bb6",
+    "research/reverse/remaining-imaginary-compatibility/REVIEW.md": "3a2f6f2706d16444f045d56e7932e50a480682bf832aab82b42100f5746ff0d4",
+    "research/reverse/remaining-real-compatibility/CONTRACT.md": "541f3f7662460b4782c5bcbb0f1afacc5ab55368b06dc495142053b720bb9d53",
+    "research/reverse/remaining-real-compatibility/PROOF.md": "2bcb5d50c635c3a74057f52a81bb43f5eba00739f61d8cf050be905555dd370a",
+    "research/reverse/remaining-real-compatibility/INDEPENDENT.md": "df69ea23d67efa7b970010327833480435867cad305b665e077930e7ae71725f",
+    "research/reverse/remaining-real-compatibility/REVIEW.md": "dedce30f8d3ae1578234e04ca0606d9fc0b2d9881b253a0e54b0b4d3f3831c9a",
+    "research/reverse/integer-beta-compatibility/CONTRACT.md": "22242f2dae92ebcb8654c9ba95ba603385585622088731766fbda1d456884e17",
+    "research/reverse/integer-beta-compatibility/PROOF.md": "8b2bdd8ae3ac6533140ec23bed545021e4c520410badf4aefbe13237bb57a002"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
@@ -331,12 +341,17 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "research/reverse/full-high-row-reduction/freeze.json",
-    "research/reverse/lowest-amplitude-compatibility/acceptance.json",
-    "research/reverse/area-square-compatibility/acceptance.json",
-    "research/reverse/area-square-compatibility/FINAL_OUTCOME.md",
+    "research/reverse/area-square-compatibility/freeze.json",
     "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
-    "research/reverse/remaining-imaginary-compatibility/PROOF.md"
+    "research/reverse/remaining-imaginary-compatibility/PROOF.md",
+    "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md",
+    "research/reverse/remaining-imaginary-compatibility/REVIEW.md",
+    "research/reverse/remaining-real-compatibility/CONTRACT.md",
+    "research/reverse/remaining-real-compatibility/PROOF.md",
+    "research/reverse/remaining-real-compatibility/INDEPENDENT.md",
+    "research/reverse/remaining-real-compatibility/REVIEW.md",
+    "research/reverse/integer-beta-compatibility/CONTRACT.md",
+    "research/reverse/integer-beta-compatibility/PROOF.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -752,7 +767,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T06:21:35.370206+00:00",
+  "last_checkpoint_utc": "2026-09-08T06:35:52.127386+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -838,31 +853,61 @@
     "publication_observed": false
   },
   "lowest_amplitude_evidence": {
-    "status": "ACCEPTED_INTERNAL_FINAL_SCOPE_RUNNING",
+    "status": "ACCEPTED_FROZEN_AND_SENT_ONCE",
     "contract": "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
     "accepted": true,
     "candidate_accepted": false,
     "scientific_programs_run": 0,
     "acceptance": "research/reverse/lowest-amplitude-compatibility/acceptance.json",
     "root_actual_full_read": true,
-    "formal_release": false
+    "formal_release": true,
+    "release_id": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+    "source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+    "freeze_commit": "44bb8fcfb23e9b5b4313b7afcb03c5e3cdc8db18",
+    "manifest": "research/reverse/area-square-compatibility/freeze.json",
+    "formal_handoff_count": 14,
+    "publication_observed": false
   },
   "area_square_evidence": {
-    "status": "ACCEPTED_INTERNAL_FINAL_SCOPE_RUNNING",
+    "status": "ACCEPTED_FROZEN_AND_SENT_ONCE",
     "contract": "research/reverse/area-square-compatibility/CONTRACT.md",
     "accepted": true,
     "candidate_accepted": false,
     "scientific_programs_run": 0,
     "acceptance": "research/reverse/area-square-compatibility/acceptance.json",
     "root_actual_full_read": true,
-    "formal_release": false
+    "formal_release": true,
+    "release_id": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+    "source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+    "freeze_commit": "44bb8fcfb23e9b5b4313b7afcb03c5e3cdc8db18",
+    "manifest": "research/reverse/area-square-compatibility/freeze.json",
+    "formal_handoff_count": 14,
+    "publication_observed": false
   },
   "remaining_imaginary_evidence": {
-    "status": "ROOT_PROOF_STOPPED_FULL_READ_MAIN_REVIEW_AND_INDEPENDENT_RUNNING",
+    "status": "TWO_DERIVATIONS_AND_MAIN_REVIEW_ROOT_FULL_READ_INDEPENDENT_REVIEW_RUNNING",
     "contract": "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
     "main": "research/reverse/remaining-imaginary-compatibility/PROOF.md",
     "accepted": false,
     "candidate_accepted": false,
+    "scientific_programs_run": 0
+  },
+  "remaining_real_evidence": {
+    "status": "TWO_DERIVATIONS_AND_MAIN_REVIEW_ROOT_FULL_READ_INDEPENDENT_REVIEW_PENDING",
+    "contract": "research/reverse/remaining-real-compatibility/CONTRACT.md",
+    "main": "research/reverse/remaining-real-compatibility/PROOF.md",
+    "accepted": false,
+    "candidate_accepted": false,
+    "scientific_programs_run": 0
+  },
+  "integer_beta_evidence": {
+    "status": "ROOT_GENERAL_SYMBOLIC_PROOF_FULL_READ_INDEPENDENT_AND_MAIN_REVIEW_RUNNING",
+    "contract": "research/reverse/integer-beta-compatibility/CONTRACT.md",
+    "main": "research/reverse/integer-beta-compatibility/PROOF.md",
+    "accepted": false,
+    "candidate_accepted": false,
+    "actual_frequency_selected": false,
+    "divisor_enumeration_performed": false,
     "scientific_programs_run": 0
   }
 }
