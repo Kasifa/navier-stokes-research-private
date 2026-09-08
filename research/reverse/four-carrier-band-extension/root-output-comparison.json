@@ -1,0 +1,18 @@
+{
+  "classification": "PRIVATE_CORE",
+  "type": "Root comparison of existing exact records only, not a new Fourier/root computation",
+  "main_sha256": "672265033fcbc05fb7881374d703a673bc2779d20b0612e67adb14f4dd068668",
+  "review_sha256": "9c880d482f7f2b9abfde436db2d84b96d555914f24b826c3d8a7c9e84cdba250",
+  "status": "PASS_EXISTING_RECORD_COMPARISON",
+  "all_16_keys": true,
+  "stored_C_Z_component_pairs_equal": true,
+  "stored_norms_and_margins_equal": true,
+  "stored_gate_sign_and_G_equal": true,
+  "rank": 1,
+  "M13_M31_H3_scope": "Verified by the independently executed reviewer adapter whose complete final source root read; not separately re-added by this comparison",
+  "root_raw_reading": "All main sign/interval/status/bounds/resources fields displayed; reviewer G, both time budgets, comparison and resources displayed. Raw intermediate and all tree arrays not claimed root full read.",
+  "new_scientific_program_or_recurrence": false,
+  "primary_T_G": "31058644197216930893482616803633/3894295636046685722459420013338596457856729600",
+  "independent_more_conservative_T_G": "31058644197216930893482616803633/7788591272093371444918840026677192915713459200",
+  "time_scope": "Both existing same-run certificate records read; smaller independent window does not replace primary window."
+}

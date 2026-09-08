@@ -34,9 +34,35 @@
         "measurement_boundary": "after one complete result serialization, before adding this metadata and final write"
       },
       "scientific_outcome": "THREE_DIMENSIONAL_RECEIVER_PREMISE_NOT_PASSED"
+    },
+    {
+      "role": "nonauthor_explicit_ordered_tree_certificate",
+      "source_commit": "27b818d7f7bde3517fb0618460bd8ff6e3a90f79",
+      "program": "research/reverse/four-carrier-band-extension/review_band.py",
+      "program_sha256": "8bda24ef7cf580b7e81e08fadefcb57ccbf6666eb1eaccf7e2fd75f58bf5157a",
+      "output": "research/reverse/four-carrier-band-extension/review-band-output.json",
+      "output_sha256": "9c880d482f7f2b9abfde436db2d84b96d555914f24b826c3d8a7c9e84cdba250",
+      "output_bytes": 97197,
+      "runs": 1,
+      "command_argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/reverse/four-carrier-band-extension/review_band.py",
+        "--run-once-after-parent-authorization",
+        "--reviewer-source-commit",
+        "27b818d7f7bde3517fb0618460bd8ff6e3a90f79"
+      ],
+      "execution_status": "completed",
+      "resources": {
+        "wall_from_main_seconds": 0.526131125,
+        "self_user_cpu_seconds": 0.543976,
+        "self_system_cpu_seconds": 0.011417,
+        "self_peak_resident_bytes": 15695872,
+        "scope": "RUSAGE_SELF only; through first serialization; excludes final write and children"
+      },
+      "scope": "Complete K4 five-vector/real-sign/rank/pair-lower/primary-window verification; no independent H1/H2 or outside-K4 full-array recomputation."
     }
   ],
-  "independent_certificate_stage": "PREPARING_NOT_RUN_NOT_ACCEPTED",
+  "independent_certificate_stage": "ONE_RUN_COMPLETED_PASS_FINAL_REVIEW_STOPPED",
   "formal_self_interaction": "STRICTLY_SKIPPED_RANK_ONE_PER_CONTRACT",
   "scientific_arithmetic": "Integers/Fraction quadratic field; no scientific floats, random draws or parameter/root changes",
   "resource_scope": "One science worker, os.uname metadata with no external commands in source. RUSAGE_SELF and wall through first serialization, excluding startup/imports from wall and final metadata/write. No complete external process-tree resource census.",
@@ -44,5 +70,5 @@
   "new_figures": false,
   "new_PDF": false,
   "original_failed_evidence_repaired": false,
-  "scope": "Finite exact coefficient calculation; original infinite-dimensional NS and full heat remainder are analytic SOURCE_WINDOW plus frozen prior proof. Main calculation alone is not final acceptance."
+  "scope": "Two once-only exact stages; root existing-record comparison adds no Fourier/root experiment. Final nonauthor review PASS; combined final scope remains pending."
 }
