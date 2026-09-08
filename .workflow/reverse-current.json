@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "C3 structural/history preflight and root full comparison passed, coefficient contract a441be9b awaiting Hume final byte binding; Gauss prepares stage-A exact_coefficients.py without execution. Do not run before final pre-review PASS and source commit. No unknown four-leaf C/Z or roots calculated yet.",
+  "next_action": "Stage A contract/code/non-author static review and root full read PASS. This checkpoint precedes source-save commit and one explicit author execution; no coefficients or parameters yet. After source commit, run stage A once under final contract a441be9b and preserve output before stage B.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -23,7 +23,12 @@
     "research/reverse/four-carrier-band-extension/FINAL_SCOPE_REVIEW.md",
     "research/reverse/four-carrier-band-extension/ROOT_COMPARISON.md",
     "research/reverse/four-carrier-source-test/freeze.json",
-    "research/reverse/HANDOFF_LOG.json"
+    "research/reverse/HANDOFF_LOG.json",
+    "research/reverse/cyclic-six-carrier/CONTRACT_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+    "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md",
+    "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -34,7 +39,12 @@
     "research/reverse/four-carrier-band-extension/FINAL_SCOPE_REVIEW.md": "4b374637c8acd239195c06654ebe72a52650f786b18a952fd34e6ead0c5b5a36",
     "research/reverse/four-carrier-band-extension/ROOT_COMPARISON.md": "cfa507e51f93dfa300fdb73cda1dfd6ac96034e2d58e5cce0814adbef6118e8d",
     "research/reverse/four-carrier-source-test/freeze.json": "20e78c169751fe851fa39019d6a5facd7b3dfb3fc63c9944d8c62a3f8802f679",
-    "research/reverse/HANDOFF_LOG.json": "05f14eeec821e9601709b8742efdf4a4380d34521eaba068925d708cb6865996"
+    "research/reverse/HANDOFF_LOG.json": "05f14eeec821e9601709b8742efdf4a4380d34521eaba068925d708cb6865996",
+    "research/reverse/cyclic-six-carrier/CONTRACT_REVIEW.md": "4cc9bef66eb0b6a7c5569fd9a995be655f4c0dd25217dc8a1f5735bdcdc36a4e",
+    "research/reverse/cyclic-six-carrier/exact_coefficients.py": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64",
+    "research/reverse/cyclic-six-carrier/STAGE_A_ROOT_READ.md": "3362ca3f5c79d7e7c86581b942ef3dea627535b856f414f5974f9c8e7fc5f482",
+    "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4",
+    "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -48,7 +58,7 @@
   },
   "freeze_commit": "a856a0f311aba7caa9311ae649f1ce83a74e0ff7",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "C3 six-carrier finite three-direction source test, contract pre-review and stage-A code preparation",
+  "current_topic": "C3 six-carrier stage-A final source audit before single exact coefficient execution",
   "current_topic_directory": "research/reverse/cyclic-six-carrier",
   "pending": [
     "Read final C3 contract pre-review and stop code",
@@ -1141,7 +1151,7 @@
     "candidate_accepted": false
   },
   "cyclic_six_carrier_evidence": {
-    "status": "STRUCTURE_AND_HISTORY_PREFLIGHT_COMPLETE_CONTRACT_FINAL_REVIEW_PENDING",
+    "status": "STAGE_A_PRE_RUN_CODE_AND_CONTRACT_PASS_NOT_EXECUTED",
     "preflight": "research/reverse/cyclic-six-carrier-preflight/PREFLIGHT.md",
     "structural_review": "research/reverse/cyclic-six-carrier-preflight/STRUCTURAL_REVIEW.md",
     "root_actual_full_read_both": true,
@@ -1154,6 +1164,14 @@
     "actual_new_datum": false,
     "formal_release": false,
     "not_a_continuation_of_old_four_carrier_solution": true,
-    "contract_revision": "A rank-two matrix at a certified determinant root is inconsistent/NOT-CERTIFIED and must stop, never skip the root."
+    "contract_revision": "A rank-two matrix at a certified determinant root is inconsistent/NOT-CERTIFIED and must stop, never skip the root.",
+    "contract_review": "research/reverse/cyclic-six-carrier/CONTRACT_REVIEW.md",
+    "contract_review_sha256": "4cc9bef66eb0b6a7c5569fd9a995be655f4c0dd25217dc8a1f5735bdcdc36a4e",
+    "stage_A_code": "research/reverse/cyclic-six-carrier/exact_coefficients.py",
+    "stage_A_code_sha256": "7ce63da05ad2d2e51acfdc7cd51f6630191734574f62af000f3edba7221d9a64",
+    "root_final_A_code_full_read": true,
+    "stage_A_static_review": "research/reverse/cyclic-six-carrier/STAGE_A_CODE_REVIEW.md",
+    "stage_A_static_review_sha256": "259f445a99ada729f4e32ef05f39af2b45a875f46519c9ec99ca0ac380c1d992",
+    "root_final_static_review_full_read": true
   }
 }
