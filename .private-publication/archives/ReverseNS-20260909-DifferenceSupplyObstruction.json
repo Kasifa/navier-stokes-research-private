@@ -1,0 +1,443 @@
+{
+  "branch": "codex/ns-reverse",
+  "certificate": {
+    "alternative_DI_window_computed": false,
+    "complete_six_signed_vectors_and_all_ordered_pairs": true,
+    "evidence_ledger": "research/reverse/cyclic-difference-response/experiment-manifest.json",
+    "executions_each": 1,
+    "independent_new_bisections": 0,
+    "original_main_window_verified": true,
+    "original_window_all_starts_analytic_lemma": "RESTART_LEMMA.md",
+    "primary_new_bisections": 5,
+    "resource_scope": "SELF from time import through first full serialization only; not whole-process-tree or complete-lifecycle guarantee.",
+    "same_root_and_original_normalization": true,
+    "scientific_reruns": 0,
+    "smaller_window_substituted": false,
+    "stages": 2
+  },
+  "claim_boundaries": {
+    "accepted": "Same release-24 fixed datum, full unforced viscous periodic NS; for all 0<=s<t<=the original certified tau, each difference target pair and their union is nonzero and actual received-field self-supply has norm <= target/4. Other sources have norm >=3 times supply, with zero supply handled separately. Finite original-window source obstruction only; NOT CLAY.",
+    "actual_full_NS": true,
+    "amplification": false,
+    "arbitrary_later_restart_excluded": false,
+    "complete_regeneration": false,
+    "cross_generation_infinite_tail_paid": false,
+    "domain": "fixed standard 2pi three-torus",
+    "external_novelty_or_human_peer_review_claim": false,
+    "finite_total_time_singularity": false,
+    "fixed_datum_infinite_scales": false,
+    "general_mechanism_excluded": false,
+    "local_infinite_tail_paid": true,
+    "new_initial_datum": false,
+    "old_failures_repaired": false,
+    "original_positive_viscosity": 1,
+    "same_one_fixed_initial_datum_as_release_24": true,
+    "unforced": true,
+    "uniform_iteration": false
+  },
+  "classification": "PRIVATE_CORE",
+  "dependency_commits": [
+    "67c2af17d2bea0887d8012777d885e7c1ef913fa"
+  ],
+  "direct_dependencies": [
+    {
+      "bytes": 11766,
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 6673,
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "bytes": 5994,
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4"
+    },
+    {
+      "bytes": 6809,
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f"
+    },
+    {
+      "bytes": 469369,
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
+    },
+    {
+      "bytes": 139696,
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb"
+    },
+    {
+      "bytes": 13988,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 9705,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58"
+    },
+    {
+      "bytes": 11641,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/REVIEW.md",
+      "sha256": "960cdc0517b1ac3c36b1cf6ca1ca5d9599876705c553a825fc076ea4f5e16be7"
+    },
+    {
+      "bytes": 3561,
+      "path": "research/reverse/cyclic-receiver-supply-preflight/acceptance.json",
+      "sha256": "d726744179811f0d1ca6e79d8414de91593a3b32d02f8ffc8d0bd71271b010c0"
+    }
+  ],
+  "excluded_later_work": [
+    "research/reverse/receiver-input-geometry",
+    "research/reverse/receiver-lattice-return"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 11869,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/ALGEBRA.md",
+      "sha256": "3ec995558d2ece57fcab1fe00ad4a3a0fa7e211bbd988024344a8a24f80901de"
+    },
+    {
+      "bytes": 5873,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS.md",
+      "sha256": "fdf1a250da8a8f02e3343000f206e9f4f45fe159fb7b7352171d4e08b0fe3367"
+    },
+    {
+      "bytes": 10334,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/ANALYSIS_REVIEW.md",
+      "sha256": "02288305451808829feace3ac1f97480ee7cf1f918e011cbbe5a2c9f1cc7080c"
+    },
+    {
+      "bytes": 4521,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT.md",
+      "sha256": "a1b50ab4293c9d6132a874ed574b7843d0deae672a8928f73d1b9dcc7c09fed6"
+    },
+    {
+      "bytes": 13150,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/CONTRACT_REVIEW.md",
+      "sha256": "791c80270135a1a08e6aea43840cdde8dd5faa0ddc71c6c767d8f3efcc892a73"
+    },
+    {
+      "bytes": 2287,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/EXPERIMENTS.md",
+      "sha256": "10008fe798f05870bb5fb004e282d556de5e036195f69808ce87f06ec22ac42c"
+    },
+    {
+      "bytes": 24757,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/FINAL_SCOPE_REVIEW.md",
+      "sha256": "8e6eab007c2d7a7e7efc9972b3c93f00306542a9a7f92dd178704003ceccba82"
+    },
+    {
+      "bytes": 11523,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT.md",
+      "sha256": "68957784dd943eca6968973aeb61a49e4453a3410b816c67e59d4f61384eedc4"
+    },
+    {
+      "bytes": 11163,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/INDEPENDENT_REVIEW.md",
+      "sha256": "f8db95b2549d02c9f28fc84fa8d78ef65c235c646743015194a452a18b4a8b04"
+    },
+    {
+      "bytes": 17718,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/METHOD_PREFLIGHT.md",
+      "sha256": "f2c7d90186f083601cab5bc5411d5c60826b963d6ed29efe9e4dfde5e149c316"
+    },
+    {
+      "bytes": 3671,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/OUTCOME.md",
+      "sha256": "e0c52ec7ca97a75c01e62ad3968df450b4e548d3415db23c75743fa79196ecea"
+    },
+    {
+      "bytes": 14106,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/PRIMARY_CODE_REVIEW.md",
+      "sha256": "e3371c5491d9b38dbbeb4fc8a2c69655dceed7a7828e6dfa6a5aa2b193c0cd6d"
+    },
+    {
+      "bytes": 2659,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/PRIMARY_ROOT_READ.md",
+      "sha256": "e4e9d7ec242da5ff306c901761943281556843a3c458a3efd3d296fd9419cd1e"
+    },
+    {
+      "bytes": 7456,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/RESTART_LEMMA.md",
+      "sha256": "c9e0170bb8787bfa1a629485c50b69e46dd9bcc53b485d9f411fe8649c4eb474"
+    },
+    {
+      "bytes": 1625,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/RESTART_QUESTION.md",
+      "sha256": "7a67359779a29280bbd3e61abba420f051a863f1cc50d20bfa313039ca987bca"
+    },
+    {
+      "bytes": 8160,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/RESTART_REVIEW.md",
+      "sha256": "928e645788d53cf6606bb808307eef6bdf866ce5cc6f15fcaf6ef59b3887ca54"
+    },
+    {
+      "bytes": 9891,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/ROOT_COMPARISON.md",
+      "sha256": "d7696cf1573a041813213e7fbd8b8622d106bd156652a8a2ecec52225397d3ba"
+    },
+    {
+      "bytes": 2505,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/ROOT_FINAL_SCOPE.md",
+      "sha256": "82509832e897040da9b5a3d5debe75f738a029fe0e60aa95bac7205063663d45"
+    },
+    {
+      "bytes": 2770,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/SOURCES.md",
+      "sha256": "eacfef8a09427cbc1ce3719c61ab60cab8dc721f6e541357210a2c556f303b74"
+    },
+    {
+      "bytes": 11543,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_ADAPTATION.md",
+      "sha256": "19a6a49237e049352e5878959cf19e4d1e358a8cf97f568116cdd75f156a7a7a"
+    },
+    {
+      "bytes": 14421,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_CODE_REVIEW.md",
+      "sha256": "b69df555e3125b4ea7dcbf46fd04a2c101a4bba0755b526b2cf65130f8836f47"
+    },
+    {
+      "bytes": 6269,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_DESIGN.md",
+      "sha256": "cb991c6e2c82b729424323bae90a673adaecf7253091533d6b0a13e7ff89ccd3"
+    },
+    {
+      "bytes": 11353,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_RESULT.md",
+      "sha256": "23c5a17d0f237042dbaef06bd7f4d6fb569588b8fc99d1629a9d3fa39778235b"
+    },
+    {
+      "bytes": 2316,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/VERIFY_ROOT_READ.md",
+      "sha256": "353e6b6db295ef52bfed9f3664497935408aa258fb52f44165b1ac79cda4e456"
+    },
+    {
+      "bytes": 9375,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/acceptance.json",
+      "sha256": "81fdc5359eb1e5d27657743cd617ea8e3d8ea985c41ad3a17dee17b9b763c596"
+    },
+    {
+      "bytes": 2443,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/conditional-acceptance.json",
+      "sha256": "dd80dc52e2437cf166eda35ae5de4d9080b3e7e8a39b6c8c03693aae96dab084"
+    },
+    {
+      "bytes": 269258,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/exact-difference-output.json",
+      "sha256": "2ecedeb13a1b7f521e286d520e28245964b01a6cde1d3c56232ddb9ae67eff7b"
+    },
+    {
+      "bytes": 35480,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/exact_difference.py",
+      "sha256": "842679b23991ae2f3f5a5cd76903e9abf4ebd7a71a230829f99697612ad66030"
+    },
+    {
+      "bytes": 5475,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/experiment-manifest.json",
+      "sha256": "1456b10cf38b52ab2fa0ecc9fc8bac504043d70676b7feefb007dd2b47f97ce4"
+    },
+    {
+      "bytes": 236,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/figures-manifest.json",
+      "sha256": "4a261db924a9143aedf73d34cdf0c6c60f032bf50217b66fe8e66c2143cafbda"
+    },
+    {
+      "bytes": 1294,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/primary-execution.json",
+      "sha256": "a16d978a4599bc55ebeac80bda83d9f0858d35c1892983572e86cb1fd98b4c26"
+    },
+    {
+      "bytes": 188785,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/review-difference-output.json",
+      "sha256": "e2d266940b4e98423af01ab6bcaf756d5c2255123cfeb9ab7d587e8c903f5e75"
+    },
+    {
+      "bytes": 8497,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/root-final-binding-check.json",
+      "sha256": "128b0edfd69a6b9ff8fbce6e0ba4b38ac52cd8fd2123f03c7391d5fd5140fedf"
+    },
+    {
+      "bytes": 9889,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/root-source-binding-check.json",
+      "sha256": "60f95ae8c92dc51e4d6582487892926f27f08cf3e62b60e5a272657d5976747d"
+    },
+    {
+      "bytes": 1684,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/verifier-execution.json",
+      "sha256": "42adefd2427d40195a733eabf5eb061b165017a1a13f772b2dba8c0887b43f63"
+    },
+    {
+      "bytes": 23548,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/verify_core_pre_output.py.txt",
+      "sha256": "d65938f58fa364e3da172ed7d98af81c05ee5a80a4c3f5b251005dbe59e3decb"
+    },
+    {
+      "bytes": 75887,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-difference-response/verify_difference.py",
+      "sha256": "87fd73e0b5a7235f4ff083741c96332e4b663706e5aad492d0a9a32f4b30294a"
+    },
+    {
+      "bytes": 11766,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 6673,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "bytes": 5994,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_PROOF.md",
+      "sha256": "096f626a754654039922eae0b13354e27e870ef113ee0967ffaebd29713955d4"
+    },
+    {
+      "bytes": 6809,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md",
+      "sha256": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f"
+    },
+    {
+      "bytes": 469369,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/exact-coefficients-output.json",
+      "sha256": "9329464c09faa50558bc090b3af8c3ec6f074619e01a9fe2d5eb6d0f1c079ae6"
+    },
+    {
+      "bytes": 139696,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-six-carrier/exact-roots-output.json",
+      "sha256": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb"
+    },
+    {
+      "bytes": 13988,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 9705,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58"
+    },
+    {
+      "bytes": 11641,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/REVIEW.md",
+      "sha256": "960cdc0517b1ac3c36b1cf6ca1ca5d9599876705c553a825fc076ea4f5e16be7"
+    },
+    {
+      "bytes": 3561,
+      "commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+      "path": "research/reverse/cyclic-receiver-supply-preflight/acceptance.json",
+      "sha256": "d726744179811f0d1ca6e79d8414de91593a3b32d02f8ffc8d0bd71271b010c0"
+    },
+    {
+      "bytes": 13745,
+      "commit": "b9452a6c0ac0a9297861541811262b977e2b0964",
+      "path": "research/reverse/cyclic-difference-response/freeze.json",
+      "sha256": "e7d1a6833fc6338f37149b2c95df7d9c9dc3f2eddb4ca45ece382d0e5d52e8f8"
+    }
+  ],
+  "freeze_commit": "b9452a6c0ac0a9297861541811262b977e2b0964",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in the once-only handoff.",
+  "milestone_condition": "Bounded actual received-field difference-supply contract resolved with explicit obstruction; no new mechanism or novelty-count claim.",
+  "new_reader_pdf": false,
+  "normalization_note": "Private transport envelope: 37 frozen source files, 11 direct dependencies at the stated scientific source, and original immutable manifest. Publisher checks transport integrity only, not mathematical proof. No public core, reader operation, new PDF or rerun.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "primary_source_urls": [],
+  "private_milestone_record": "research/reverse/cyclic-difference-response/OUTCOME.md",
+  "public_export_authorization": "Private archive only. No core public export, website/reader operations or repository mutation authorized by this handoff.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260909-DifferenceSupplyObstruction",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "review": {
+    "final_scope": {
+      "bytes": 24757,
+      "path": "research/reverse/cyclic-difference-response/FINAL_SCOPE_REVIEW.md",
+      "sha256": "8e6eab007c2d7a7e7efc9972b3c93f00306542a9a7f92dd178704003ceccba82"
+    },
+    "historical_status_note": "Formation-time pending conditions are discharged in final acceptance only; raw outputs and historical conditional bindings are unchanged.",
+    "nonblind_provenance_disclosed": true,
+    "root_final_scope": {
+      "bytes": 2505,
+      "path": "research/reverse/cyclic-difference-response/ROOT_FINAL_SCOPE.md",
+      "sha256": "82509832e897040da9b5a3d5debe75f738a029fe0e60aa95bac7205063663d45"
+    },
+    "root_final_scope_full_read": true,
+    "source_table_current_bindings_checked": 41
+  },
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "668b18916d33b2832fc46b68e00184ce37c62738",
+    "76cfd7a0d35e229a51f4aa2385add468cb637fae",
+    "67c2af17d2bea0887d8012777d885e7c1ef913fa"
+  ],
+  "scientific_source_commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+  "source_commit": "67c2af17d2bea0887d8012777d885e7c1ef913fa",
+  "source_ledger": "research/reverse/cyclic-difference-response/SOURCES.md",
+  "status": "RESEARCH_COMPLETE_FIXED_DATUM_ORIGINAL_WINDOW_SOURCE_OBSTRUCTION",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
