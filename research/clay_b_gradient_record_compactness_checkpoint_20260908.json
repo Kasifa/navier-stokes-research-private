@@ -1,0 +1,107 @@
+{
+  "check_id": "ClayB-GradientRecordCompactness-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_EXTRACTION_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "ce3eaa911f95e4c6f569f131c339d4371fa5beaf",
+  "main": "research/clay_b_gradient_record_compactness_20260908.md",
+  "main_sha256": "8031860bdcab3bdb29c0fef384defc949a964ca214f09c2b66cfb1157a9e1583",
+  "main_bytes": 14431,
+  "main_lines": 227,
+  "classification": [
+    "LOCAL PROOF WITH CLASSICAL TOOLS",
+    "SCOPED AFFINE COUNTERCHECK",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "GRC.1–4：同一固定周期光滑NS原解、固定正龄a和原黏性。梯度历史纪录归一化并跟随真实粒子，保留参考系加速的线性压力；扩张胞中v_n(0,s)=0、|G_n|<=1、|G_n(0,0)|=1和|v_n(y,s)|<=|y|。这给固定移动柱的共同局部能量/耗散界，不给全空间有界速度或有限能量。",
+    "GRC.5–15：局部热势在实际过去给包括纪录顶端的涡量强紧性；完整周期Biot–Savart空间差用接触项、四次幂差核尾与先n后R极限得到强收敛。减去中心对称迹零应变S_n(s)y后，速度及一阶空间导数在紧柱一致强收敛；剩余S_n只有时间L infinity弱星紧性。",
+    "GRC.16–17：纯对称仿射项的非线性散度缺陷是二次势梯度，投影分布NS可传递。该缺陷势不必调和；重建压力中的S'二次势才因迹零调和。未得压力L3/2、suitable能量不等式、bounded-mild或光滑古老解，未传递终端单位梯度。",
+    "GRC.18–20：明确仿射场精确满足全空间无外力NS，具有严格唯一历史梯度峰、中心为零及有界涡量，但对称应变可快振荡。该类非周期且无限能量，不能冒称同一固定周期NS来源的反例；时间常仿射场还说明单补时间紧性不足以完成刚性。",
+    "GRC.21–23：剩余量定位到真实平均压力Hessian的对称迹零部分，绝对核界为C(1+log L_n)，不是发散下界。TG定性强迹和原耗散保留r_n^-1缩放损失；完整左端随n逃向无限过去，原初端小量不能直接传成古老限消失条件。"
+  ],
+  "next_action": "GRC已证明同一固定周期原解的梯度纪录序列在中心对称应变之外强紧；剩余五个时间函数只有弱星紧性，单位峰值未传递，非零仿射历史未排除。下一项仅检验GRC.21中真实平均压力Hessian的对称迹零部分，能否从同一原解的演化取得短时间有符号积分的一致连续模量，并判断约束能否同时限制非零仿射极限；该目标尚未证明。保留完整周期压力、固定正龄左端、扩张胞和移动中心；不把宽无限能量仿射场当作同源反例。若所得仅为等价恒等式、log L粗界或额外假设，则停止此具体入口，不以相邻版本递增代替研究。TG仍为最后独立冻结；无新release、重复交接、发布或反向执行查询。",
+  "remaining_target": "对每个固定I=[-H,0]，检验lim_{h->0} sup_n sup_{s,t in I, |t-s|<=h} |integral_s^t STF(integral psi Hess pi_n) d tau|=0；同时仍须从同一原解排除非零仿射历史。只列探索目标，没有证明它成立。",
+  "new_unconditional_critical_input": false,
+  "next_replacement_candidate_selected": true,
+  "candidate_status": "SPECIFIC_EXPLORATORY_TARGET_SELECTED_NOT_PROVED",
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_ancient_constant_sequence_preflight_20260906.md",
+      "sha256": "b945d23de1829d220e2fee7d4c18a8732622d16b428a8f85dda1216a4ec7e1a0",
+      "bytes": 8575,
+      "lines": 258
+    },
+    {
+      "path": "research/clay_b_critical_euler_compactness_20260906.md",
+      "sha256": "69f34722f1158324610b18e94e611ace714424dc506254afcacd4bd37a057954",
+      "bytes": 11207,
+      "lines": 268
+    },
+    {
+      "path": "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "sha256": "e023ac8a8140dcf523a1a6bee70a810b6f58041529e34f79c94df89f1355b907",
+      "bytes": 5741,
+      "lines": 125
+    },
+    {
+      "path": "research/clay_b_fixed_history_mild_preflight_20260906.md",
+      "sha256": "6889ac3d6297c651b37a0292867b9706fd028bd03f65564857054b75ec5c2fb4",
+      "bytes": 9809,
+      "lines": 287
+    },
+    {
+      "path": "research/clay_b_record_time_history_preflight_20260906.md",
+      "sha256": "a5a066edbbdaec0c7b046f0741414ef68c3915faba55f8a7470da66ac96119b3",
+      "bytes": 10089,
+      "lines": 382
+    },
+    {
+      "path": "research/clay_b_strong_gradient_terminal_trace_20260908.md",
+      "sha256": "79136a19aae45b076e1cbe99bd7a013529bbf2e5929f1cff53760257165c189c",
+      "bytes": 10696,
+      "lines": 149
+    }
+  ],
+  "review": {
+    "type": "PARTICIPATING_AI_REVIEW",
+    "root": "全文读初稿219行13521B，并实际全文复读227行14113B；再实际核第209行耗散/Theta澄清。核全部GRC.1–23。当前轮全文读BH/BL/BM，复用已核TG，另实际读TG100–149及WE1–100核定义。未重审BI/BJ或上游全部外部理论。",
+    "ma_freeze_review": "全文审读219行13521B/0ed3923026aa15e90cc68893570f1b5561b7effe6b4a437dac879ec94b979859；实际核五函数非闭合ODE、同源左端关系及耗散/Theta三处增量，逆向恢复原稿哈希。绑定最终227行14431B/8031860bdcab3bdb29c0fef384defc949a964ca214f09c2b66cfb1157a9e1583，限定PASS。另读BL1–118和TG.12，不计重复全文审读。",
+    "good_scale_route_comparison": "全文审读同一219行13521B初稿；实际核终稿135、209、211–217行，撤去三处增量精确恢复初稿，终稿限定PASS。独立核完整周期差核及提取接口，实际全文读BH/BL/BI/BJ去重。参与式AI核验，不冒称非参与作者或真人审稿。",
+    "variable_reference_check": "实际读初稿1–83、182–219行，热势顶端与剩余压力量范围限定PASS；未完整读第3–6节、未核最终三处增量，不计终稿全文接受。",
+    "dependency_git_objects_match_base": true,
+    "structural": {
+      "equation_tags": 23,
+      "tags_sequential": true,
+      "display_pairs": [
+        24,
+        24
+      ],
+      "missing_local_links": [],
+      "trailing_whitespace": false
+    },
+    "human_peer_review": false
+  },
+  "literature_scope": {
+    "ordinary_queries": 2,
+    "primary_locator": "https://arxiv.org/abs/0709.3599",
+    "new_external_proof_input": false,
+    "read_scope": "定向网页结果仅定位已知古老解文献；不冒称本轮全文重审其证明，不认领经典工具的新颖性。",
+    "deep_research_used": false,
+    "exhaustive_search": false
+  },
+  "previous_turn_classification": "PROGRESS",
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "is_clay_result": false
+}
