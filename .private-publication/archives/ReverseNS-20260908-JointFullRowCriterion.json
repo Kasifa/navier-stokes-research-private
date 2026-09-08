@@ -1,0 +1,256 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_CONDITIONAL_JOINT_SAME_DATA_FULL_ROW_CRITERION; NO_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No actual integer geometry rank, common root, initial datum, amplitude or time selected or certified; realization and general geometry exclusion remain open.",
+      "No other two C directions, common template amplitude or accepted mechanism. Integer-beta, higher-pure-direction and short-window-source-amplitude followups excluded.",
+      "No scientific program, matrix execution, arrays, numerical evaluation or scan.",
+      "No new mechanism NS window, two-step generation, uniform cross-generation estimate, one fixed datum infinitely many scales, uniform iteration, finite total time, singularity or global regularity. Older accepted source-bridge theorem remains unchanged.",
+      "Exact mixed leading zero screening does not exclude every positive tolerance or arbitrary finite-time mechanism. No old failed evidence repaired.",
+      "No external novelty claim, human peer review or proof-assistant certification."
+    ],
+    "proved": [
+      "Exact two remaining imaginary quartics retain the true same-sender ratio; product relation alone is insufficient. Strict necessary sign and area intervals are preserved.",
+      "Exact two remaining real cubics retain actual sender real coherence and every allowed zero-coherence/leading-coefficient branch, including the independent necessary BG interval.",
+      "Same fixed geometry, genuine direction cubic, five at-most-quadratic remainders and all original strict signs conditionally reconstruct complete M0 zero and lowest C nonzero original direction in the stated C0 nonzero lowest-linear/two-area branch.",
+      "All coefficient-rank branches are explicit; independent companion maximal invariant kernel identifies common real roots exactly as the restricted real spectrum, still requiring the strict original domain."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/area-square-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-AmplitudeAreaPolynomial",
+      "source_commit": "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+      "use": "True direction polynomial nondegeneracy, same-data area, amplitude and strict restoration interface."
+    },
+    {
+      "manifest": "research/reverse/full-high-row-reduction/freeze.json",
+      "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
+      "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+      "use": "Full higher-row residual equations and accurate geometric ratio domain."
+    },
+    {
+      "manifest": "research/reverse/two-elliptic-compatibility/freeze.json",
+      "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+      "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+      "use": "Complete lowest mixed row, nonzero original pure direction and specified higher projections."
+    }
+  ],
+  "dependency_commits": [
+    "a7d4b8830a8d2b05f88eeddb2b3e42838efb8b64",
+    "650216c9e989ee31b806e0da7b3de305e8dda961",
+    "40ecba70080d51d05c2ce23d51b8e306c27d4264"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 1458,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/CONTRACT.md",
+      "sha256": "bf60c8c709f6345560862ee877dc82d8865ef41d04c3c0dc7d0cf4543e6bdbd8"
+    },
+    {
+      "bytes": 6447,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/PROOF.md",
+      "sha256": "638ef8812fad8bf3337ecf1c6bd73a4fb73e34843eaa94a2b6a1cb8daff3fdef"
+    },
+    {
+      "bytes": 14893,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/INDEPENDENT.md",
+      "sha256": "9cbc38468e54690015f4e144ed98e4c720103305af8b2a87e7c23c38088f4bb6"
+    },
+    {
+      "bytes": 11064,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/REVIEW.md",
+      "sha256": "3a2f6f2706d16444f045d56e7932e50a480682bf832aab82b42100f5746ff0d4"
+    },
+    {
+      "bytes": 10792,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "534555de0ff0a0b65a082db1e343fb1927c9519574af0e9332f67c79d64eddef"
+    },
+    {
+      "bytes": 2855,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/ROOT_COMPARISON.md",
+      "sha256": "85b787791a8239af977cefb685b6d6ca10b272d6bd1ce53e93f21d18caa847c6"
+    },
+    {
+      "bytes": 865,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/OUTCOME.md",
+      "sha256": "a705c27e38582ff6e4ed530f170d10060924931dd23dd6d1f3727b154ac79bee"
+    },
+    {
+      "bytes": 2707,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-imaginary-compatibility/acceptance.json",
+      "sha256": "dcc5f7ca2cfe0d53c19acb3d0b67dd08d54e556835fe8a24b74d568d30ad202c"
+    },
+    {
+      "bytes": 1347,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/CONTRACT.md",
+      "sha256": "541f3f7662460b4782c5bcbb0f1afacc5ab55368b06dc495142053b720bb9d53"
+    },
+    {
+      "bytes": 5369,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/PROOF.md",
+      "sha256": "2bcb5d50c635c3a74057f52a81bb43f5eba00739f61d8cf050be905555dd370a"
+    },
+    {
+      "bytes": 15845,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/INDEPENDENT.md",
+      "sha256": "df69ea23d67efa7b970010327833480435867cad305b665e077930e7ae71725f"
+    },
+    {
+      "bytes": 7387,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/REVIEW.md",
+      "sha256": "dedce30f8d3ae1578234e04ca0606d9fc0b2d9881b253a0e54b0b4d3f3831c9a"
+    },
+    {
+      "bytes": 11029,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "2b06655388280f068fa331bc99c2d4e1a4439facffac53b109c7daec2727a65d"
+    },
+    {
+      "bytes": 2845,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/ROOT_COMPARISON.md",
+      "sha256": "f517c9538858ce84cc4cd6c96330ced99449fc59fee3209f85fd76608055b699"
+    },
+    {
+      "bytes": 947,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/OUTCOME.md",
+      "sha256": "4f0b50ff0b570a5f63f7dbe378f54f3da69dbe00e9c259cacd4d54d5cfe4e392"
+    },
+    {
+      "bytes": 2661,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/remaining-real-compatibility/acceptance.json",
+      "sha256": "ea7669c2c1882caa074cc4e639b96ed1b358f35755e1dff884d570c9efe81d5a"
+    },
+    {
+      "bytes": 1120,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/CONTRACT.md",
+      "sha256": "5b8dc82300556766260a13c1f9124d7a02989ec14e242cf5aad8b49fc5d16ad3"
+    },
+    {
+      "bytes": 7469,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/PROOF.md",
+      "sha256": "5e3a9708fb07f396a161dc333312d8a310dfb36d5d3d685eb8c2089b80931e62"
+    },
+    {
+      "bytes": 18913,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/INDEPENDENT.md",
+      "sha256": "4ed20002939dbafce9f20955dbcf3a0efde1da8aa2ad1f040ce474b9c5861c26"
+    },
+    {
+      "bytes": 10222,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/REVIEW.md",
+      "sha256": "d5d160fdf4137e9f1345d46b13aa14f0310bfe2637254838b5aee3e68b77fe38"
+    },
+    {
+      "bytes": 11995,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/INDEPENDENT_REVIEW.md",
+      "sha256": "7ead088d7ebbf315423af27a2e5240d10dc0b73858bbac82f8e8e58cb232d3f0"
+    },
+    {
+      "bytes": 5682,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/ROOT_COMPARISON.md",
+      "sha256": "35e915cb8acab0b3847f90bf1c7c5e55794e7b2fd167ed72d7cd985e607cb232"
+    },
+    {
+      "bytes": 1576,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/OUTCOME.md",
+      "sha256": "57f0e956a7dcd28bd3bd1f19c5db9f0e51c7e175013449a2c11b616e5ee9e42f"
+    },
+    {
+      "bytes": 2770,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/acceptance.json",
+      "sha256": "4fe31b9213c630d6b74705eb9cec01b2f90ac1452a29f396939bf79c6d28cc05"
+    },
+    {
+      "bytes": 2158,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/FINAL_OUTCOME.md",
+      "sha256": "03f0a10c224e587c89652a1caa0d288d95744e91f27764a837e42308ae929954"
+    },
+    {
+      "bytes": 18287,
+      "commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "path": "research/reverse/joint-direction-compatibility/FINAL_SCOPE_REVIEW.md",
+      "sha256": "65e9e2dc77f29b85ca76c6a0998bbd010bbcd8bd2e027fda0b41b3e916b74a63"
+    },
+    {
+      "bytes": 10983,
+      "commit": "2aa634c5e83850ad925c88b777063dbd96bf0df6",
+      "path": "research/reverse/joint-direction-compatibility/freeze.json",
+      "sha256": "061825057d7884b622e92632f450e418641f7e06ea836d9e6c9eb8024e6d7894"
+    }
+  ],
+  "freeze_commit": "2aa634c5e83850ad925c88b777063dbd96bf0df6",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained same-data symbolic continuation of accepted maps; actual source reading scopes recorded. No new external applicability or novelty claim.",
+  "milestone_scope": "Joint exact same-direction full mixed-row conditional restoration from actual imaginary, real and area gates.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-IntegerBetaLatticeObstruction",
+  "private_milestone_record": "research/reverse/joint-direction-compatibility/FINAL_OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-JointFullRowCriterion",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "a75d1774d3a90bb5b61c82c92976d7caa9a9e7ac",
+    "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+    "17ed6ef7ed6213598e2f681713b8e14a98f36367"
+  ],
+  "scientific_source_commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+  "source_commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+  "source_ledger": "research/reverse/joint-direction-compatibility/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_review": "research/reverse/joint-direction-compatibility/FINAL_SCOPE_REVIEW.md",
+    "independence": "New authors formed without each other, prior contacts disclosed. Imaginary and real stages had separate non-author reviewers. Joint main then independent were reviewed sequentially by one non-author, not mutually blind. Final scope reviewer has disclosed earlier author/reviewer roles. Additional methods and coefficient normalizations separately attributed.",
+    "new_NS_time_window_paid": false,
+    "new_actual_datum_selected": false,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 26 final files match scientific source Git objects; 21 distinct acceptance-bound texts verified. File counts do not imply scientific quality.",
+    "stage_acceptances": [
+      "research/reverse/remaining-imaginary-compatibility/acceptance.json",
+      "research/reverse/remaining-real-compatibility/acceptance.json",
+      "research/reverse/joint-direction-compatibility/acceptance.json"
+    ],
+    "status": "PASS_DERIVATIONS_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
