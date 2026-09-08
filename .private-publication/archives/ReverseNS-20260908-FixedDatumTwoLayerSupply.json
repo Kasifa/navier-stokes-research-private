@@ -1,0 +1,278 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_FINITE_TWO_LAYER_SOURCE_ATTRIBUTION; NO_REGENERATION_OR_SINGULARITY_CANDIDATE; NOT_CLAY",
+    "not_claimed": [
+      "No template or structure regeneration, multi-directional receiver readiness, amplification, net-energy cascade, subsequent supply or stable/uniform iteration.",
+      "No one-datum infinite-scale process, cross-generation infinite-dimensional remainder, finite-total-time singularity or global regularity conclusion.",
+      "Finite exact coefficient programs are not a Galerkin substitute for the original PDE, a proof-assistant certificate or human peer review.",
+      "The two real roots and scaling family are not spliced into one solution; the original failed physical datum and its resource evidence remain unrepaired.",
+      "No external novelty claim for four carriers, ordered trees, Wiener local existence or this explicit local example; history and conditional module are not separate new results."
+    ],
+    "proved": [
+      "One explicitly fixed real-algebraic smooth real divergence-free zero-mean four-carrier initial datum on the unforced viscosity-one standard three-torus has actual initially empty first-band birth.",
+      "The complete mixed four-leaf leading vector vanishes and the complete first-band self-supply leading vector is nonzero at the target pair +/- (3,4,6).",
+      "On every 0<t<=the explicit positive rational T_star, the unique complete infinite-dimensional classical NS solution has nonzero target and actual other-source/self-source A0 ratio <=1/7<1/4. Full viscosity, Leray, conjugacy, phase, feedback and infinite tails are retained."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "use": "SB.1-4 finite-support all-leaf convergence, same-window complete classical NS, pressure and uniqueness; no three-frequency parity tail."
+    },
+    {
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "use": "General Wiener local solution/source principles, as specifically read and credited by the independent module; no unexplained dynamical input."
+    }
+  ],
+  "dependency_commits": [
+    "d86c80b7c3b2f9784855dd35446dff8304f58dc1"
+  ],
+  "excluded_later_work": "research/reverse/four-carrier-band-extension is ongoing separately contracted same-datum work, not included in this freeze.",
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 5564,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/CONTRACT.md",
+      "sha256": "7b8769fe6eb84fcaad86cde7b65e5debf79801b30f9c2ae41e0e2758c0968456"
+    },
+    {
+      "bytes": 12683,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/CONTRACT_REVIEW.md",
+      "sha256": "8b61a03b9e94987ccf8f7ce5d167e992107927989382448f682d66f8b2583c7f"
+    },
+    {
+      "bytes": 16314,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/INDEPENDENT_ALGEBRA.md",
+      "sha256": "a87cdef2cc2517e391ee193c3ad17b0e6776af3d7b8dff8f0427c2b063e08d1a"
+    },
+    {
+      "bytes": 13099,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/INDEPENDENT_ALGEBRA_REVIEW.md",
+      "sha256": "4b9523bb7983afe4f3d7a679cf19c0aec672b602b07fa26d72e5fa8919d2e55e"
+    },
+    {
+      "bytes": 15179,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/MAIN_REVIEW.md",
+      "sha256": "fa1a1353fa63f453caa782fdff3c9b84d1d0b7d897aa8250bafa5e189460073d"
+    },
+    {
+      "bytes": 2262,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/OUTCOME.md",
+      "sha256": "c4c645981dfef3b64a6062d636334b59b5cb0f6940370e33f8044ef6eb01acb3"
+    },
+    {
+      "bytes": 9869,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/PROOF.md",
+      "sha256": "38668542aa347bca09537312a964125c52ec31f34ed335807c5914fae1014164"
+    },
+    {
+      "bytes": 6484,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/ROOT_COMPARISON.md",
+      "sha256": "b0b82d5dc418bf873e0232ef3060044ab872c19177f87b0f6ea008db8ed4c59c"
+    },
+    {
+      "bytes": 3959,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/SOURCES.md",
+      "sha256": "2fd1b594c3a53c3b5a421fe0dcc1df155299ee4df936e2f9cf37413802866770"
+    },
+    {
+      "bytes": 5312,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/certify_root.py",
+      "sha256": "cfcf64e4798bf160a1b45d1423dff6ec688c253c33c9e0c771d3b81b289afb17"
+    },
+    {
+      "bytes": 4937,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/exact-output.json",
+      "sha256": "f1e7b55f085bd6979f7655647b32d1acdd931d441cca003527924d77c14e8923"
+    },
+    {
+      "bytes": 4981,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/exact_screen.py",
+      "sha256": "d313ad88b121c1840ff52ba2aa4c57aed53f6b85822278e58eaca4d8abc697b8"
+    },
+    {
+      "bytes": 4307,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/experiment-manifest.json",
+      "sha256": "6d83335aa59343ac66bf23849fcd78324196de6b407723a7744818a72f1160b8"
+    },
+    {
+      "bytes": 41797,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/independent-output.json",
+      "sha256": "de084e897e08c7faa48dd49dbb00af61f0449587b34e8a4890711c4a176a0bc7"
+    },
+    {
+      "bytes": 1999,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/independent_review_verify-output.json",
+      "sha256": "587aeae1ac4ddd0be8eb299ab5a7e1115f009baf741206f709b19c4602e14001"
+    },
+    {
+      "bytes": 12709,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/independent_review_verify.py",
+      "sha256": "7a6be585eb6d678ec77076b3ec9a806d112e27b4a59e157dcf145884e7fceb13"
+    },
+    {
+      "bytes": 16195,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/independent_subset.py",
+      "sha256": "e588da476addd56f092fea94b8f0315a0eb7df3e304d9fba3e51071d17c35f6c"
+    },
+    {
+      "bytes": 5419,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/review-verification.json",
+      "sha256": "6441dc69326a018a4aa3ba6f7b4522c71f1161c8488bc09c4fbbee089076824a"
+    },
+    {
+      "bytes": 14306,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/review_verify.py",
+      "sha256": "ba07306654a61c96ee5f4c5d46c5aee1be45be250d33475ccc342ad73c20b01a"
+    },
+    {
+      "bytes": 6169,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/root-certificate.json",
+      "sha256": "f8d9268b54b0fe7499d5c3f6dcdf17a654de401aa97fc7e56579b4a412faad4e"
+    },
+    {
+      "bytes": 987,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/root-output-comparison.json",
+      "sha256": "aa76f556269ff76851d2b8e97f15018010530bdef4a14fddd92b5fa1e54d99ef"
+    },
+    {
+      "bytes": 13988,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe"
+    },
+    {
+      "bytes": 10538,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE_REVIEW.md",
+      "sha256": "d1501ef46d0e4b126f3c659ace9c40fcfb40bce52536b3cd1f466ed26488b196"
+    },
+    {
+      "bytes": 18751,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-leaf-preflight/HISTORY_SCOPE.md",
+      "sha256": "2defac57333290c574f9cb1f1e16adb4905d1baa918a6d513fd023faf847b19d"
+    },
+    {
+      "bytes": 7366,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/acceptance.json",
+      "sha256": "fd9ea2003968a4a78bbd1115d09e63bb2a0a20574d1c97d5f20ef20b6fec7949"
+    },
+    {
+      "bytes": 14846,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/four-carrier-source-test/FINAL_SCOPE_REVIEW.md",
+      "sha256": "56c6f984db69b879b2826436dab47741cf496978b9cc184cd7c33253e21b9316"
+    },
+    {
+      "bytes": 20130,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/mixed-polarization/SOURCE_BRIDGE_INDEPENDENT.md",
+      "sha256": "1d3d33fbb8fcc17ac1266f2ee88c88eebe328867f385277a0a684cfa2247630a",
+      "source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "use": "SB.1-4 finite-support all-leaf convergence, same-window complete classical NS, pressure and uniqueness; no three-frequency parity tail."
+    },
+    {
+      "bytes": 10994,
+      "commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "path": "research/reverse/reconnection-preflight/SOURCE_ATTRIBUTION_LEMMA.md",
+      "sha256": "d22bcca237977647b54ebbe13288c63a24a7c610a52a7c2265f4e3cfe366607a",
+      "source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+      "use": "General Wiener local solution/source principles, as specifically read and credited by the independent module; no unexplained dynamical input."
+    },
+    {
+      "bytes": 11974,
+      "commit": "f4af5e966674a4b60674d5f02977b4984c8d68d2",
+      "path": "research/reverse/four-carrier-source-test/freeze.json",
+      "sha256": "20e78c169751fe851fa39019d6a5facd7b3dfb3fc63c9944d8c62a3f8802f679"
+    }
+  ],
+  "freeze_commit": "f4af5e966674a4b60674d5f02977b4984c8d68d2",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in the once-only handoff.",
+  "new_reader_pdf": false,
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "numerical_certificate": {
+    "independent_algebra": "research/reverse/four-carrier-source-test/independent-output.json",
+    "non_author_verification": [
+      "research/reverse/four-carrier-source-test/review-verification.json",
+      "research/reverse/four-carrier-source-test/independent_review_verify-output.json"
+    ],
+    "primary": "research/reverse/four-carrier-source-test/root-certificate.json",
+    "resource_scope": "Scientific worker counts and parent SELF statistics; metadata helper subprocesses may be outside measured scope. No complete process-tree resource accounting or guessed child costs.",
+    "type": "Exact rational/algebraic Fourier coefficient and rational time-inequality certificates with separately proved full NS analytic remainder."
+  },
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-SymmetricPressureLocalInputObstruction",
+  "primary_source_urls": [],
+  "private_milestone_record": "research/reverse/four-carrier-source-test/OUTCOME.md",
+  "public_export_authorization": "Private archive only; no public core export, reader operation or repository mutation authorized.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-FixedDatumTwoLayerSupply",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "7233ed3c807034f6f61228968e65f0e8ec78a10a",
+    "5df7a1f54355a898f3865a0cc4a46a78b03f65dc",
+    "1e597ac469d58394984e36a7ad124a26812a4566",
+    "f2964f3e0c82863b6ec9374626e34526390b7072",
+    "cf49993b360f4a4058fb2a57b1c0dc35ae37b37d",
+    "d86c80b7c3b2f9784855dd35446dff8304f58dc1"
+  ],
+  "scientific_source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+  "source_commit": "d86c80b7c3b2f9784855dd35446dff8304f58dc1",
+  "source_ledger": "research/reverse/four-carrier-source-test/SOURCES.md",
+  "status": "RESEARCH_COMPLETE_PROVED_FIXED_DATUM_FINITE_TWO_LAYER_SOURCE_ATTRIBUTION",
+  "validation": {
+    "actual_fixed_datum_selected": true,
+    "actual_local_infinite_dimensional_solution_bridge": true,
+    "each_program_run_once": true,
+    "exact_arithmetic": true,
+    "final_scope_review": "research/reverse/four-carrier-source-test/FINAL_SCOPE_REVIEW.md",
+    "full_process_tree_resource_certificate": false,
+    "historical_pending_labels": "Author-time pending/ALGEBRA_PASS_ONLY labels and acceptance FINAL_SCOPE_PENDING are superseded only by the bound final combined review; original bytes are retained.",
+    "independence": "Root complete signed Fourier recursion; Gauss independently formed labelled-subset algebra unread root code/results; Hume independently formed general source bridge unread concrete root contract/data/proof. Separate nonauthor main, algebra and bridge reviews; later root full comparison. The two independent modules are not a claim that one agent separately built the whole numerical certificate.",
+    "original_failed_evidence_repaired": false,
+    "resolved_review_issues": [
+      "FCA.19 real-algebraic scaling domain clarified, selected data and outputs unchanged.",
+      "Root final-reading description narrowed to actual original-full plus exact-diff sequence."
+    ],
+    "root_reading": "Full proof/review/code and certificate scope recorded in ROOT_COMPARISON and final review; independent algebra original full text plus final wording diff, intermediate subset arrays audited by independent author/reviewer rather than claimed root full-array reading.",
+    "scientific_program_stages": 5,
+    "source_byte_check": "All 26 package objects equal frozen source Git objects; 24 acceptance bindings and two direct dependency objects match. Counts are provenance only.",
+    "status": "PASS_MAIN_PROOF_INDEPENDENT_MODULES_THREE_NONAUTHOR_REVIEWS_ROOT_COMPARISON_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_scope": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
