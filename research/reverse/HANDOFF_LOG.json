@@ -248,6 +248,19 @@
       "sent_time_note": "Successful send_message tool preceded this checkpoint. Record time is not asserted exact dispatch time. No resend.",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-SymmetricPressureLocalInputObstruction",
+      "source_commit": "61bca9279e16aef4deb796e771e054d4c48bdea6",
+      "freeze_commit": "16809df587d3847780ceab1f703204d8b76c1c9f",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T11:47:51.313455+00:00",
+      "sent_time_note": "Successful send_message tool preceded this checkpoint. Record time is not asserted exact dispatch time. No resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
