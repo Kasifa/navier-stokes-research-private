@@ -1,0 +1,26 @@
+{
+  "status": "ACCEPTED_EXACT_COHERENT_SINGLE_PAIR_INTERFACE",
+  "files_sha256": {
+    "research/reverse/mixed-polarization/COHERENCE_CONTRACT.md": "ef0172d56243edea9f4014acb57c05c877ab4bd6fe147ab42fe6237073441643",
+    "research/reverse/mixed-polarization/COHERENCE_PROOF.md": "94d68f7b0303794e703cf6733dc9a2015a69b711a174831a6dc0b1a3093f8ce7",
+    "research/reverse/mixed-polarization/COHERENCE_INDEPENDENT.md": "886c5ff2822942b3ee5fd791ea2eb24477220c7a61213b9030b80861f834cb32",
+    "research/reverse/mixed-polarization/COHERENCE_REVIEW.md": "66509b2954809c4303f9961997113f71201baaf5009eb23a6e500f3f95bd4302",
+    "research/reverse/mixed-polarization/COHERENCE_INDEPENDENT_REVIEW.md": "61dbc60c3e47fe5b673e8de7b30c82490beb403c8838b6617b1955450e126369",
+    "research/reverse/mixed-polarization/ROOT_COHERENCE_REVIEW.md": "9240d517ae3da5ae75aaaadd77692d8f6b3dde073f829ee2dc12b540102c18ea"
+  },
+  "main_author": "root",
+  "independent_author": "coherence_independent_resumed",
+  "main_non_author_review": "coherence_review_resumed",
+  "independent_non_author_review": "coherence_independent_audit",
+  "root_actual_full_read": true,
+  "unresolved_issues": [],
+  "old_interrupted_partial_messages_admitted": false,
+  "scope": "Complete ordered single-pair w22 covariance interface and two exact same-helicity-intensity counterexamples; generic joint return unresolved.",
+  "scientific_programs_run": 0,
+  "new_actual_initial_datum": false,
+  "full_ns_remainder_paid": false,
+  "candidate_accepted": false,
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "figures": []
+}
