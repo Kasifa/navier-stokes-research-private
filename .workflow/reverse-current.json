@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Continue actual net-mixed-cancellation contract and compare independent proof plus separate non-author reviews. Test complete M0=0 with W0 nonzero; no single-edge substitution. Root algebraic exceptional-set proof is pending, not accepted. No actual new parameters, scientific program, arrays or scan. TrueBandSupply formally frozen and sent once; never resend. No reset credit.",
-  "resume_action": "Continue actual net-mixed-cancellation contract and compare independent proof plus separate non-author reviews. Test complete M0=0 with W0 nonzero; no single-edge substitution. Root algebraic exceptional-set proof is pending, not accepted. No actual new parameters, scientific program, arrays or scan. TrueBandSupply formally frozen and sent once; never resend. No reset credit.",
+  "next_action": "Continue actual STAR_CENTER_ANALYSIS and VISCOUS_SPLITTING under existing bounded contract; read final texts, separate non-author reviews and root comparison before acceptance. Base total-cancellation interfaces and necessary star linear polarization accepted at f3ea93389e131d4f9f6d3e88d0bcc77b2c898397. General exceptional-set feasibility remains OPEN. No actual parameters/programs/arrays/scan; no repeat handoff/reset.",
+  "resume_action": "Continue actual STAR_CENTER_ANALYSIS and VISCOUS_SPLITTING under existing bounded contract; read final texts, separate non-author reviews and root comparison before acceptance. Base total-cancellation interfaces and necessary star linear polarization accepted at f3ea93389e131d4f9f6d3e88d0bcc77b2c898397. General exceptional-set feasibility remains OPEN. No actual parameters/programs/arrays/scan; no repeat handoff/reset.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-TrueBandSupply",
-  "scientific_status": "LOCAL_TRUE_BAND_SUPPLY_BRIDGE_ACCEPTED_AND_FROZEN; TOTAL_MIXED_CANCELLATION_ACTUALLY_UNDER_REVIEW",
+  "scientific_status": "TOTAL_CANCELLATION_INTERFACES_AND_STAR_LINEAR_POLARIZATION_ACCEPTED; CENTER_GEOMETRY_AND_VISCOUS_SPLITTING_ACTUALLY_IN_PROGRESS",
   "accepted": "Coherent input, full four-leaf sources and same-solution full Fourier local bridge accepted and privately handed off once. General regeneration and total mixed cancellation still unresolved.",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -290,7 +290,15 @@
     "research/reverse/mixed-polarization/FINAL_SCOPE_REVIEW.md",
     "research/reverse/mixed-polarization/freeze.json",
     "research/reverse/net-mixed-cancellation/CONTRACT.md",
-    "research/reverse/net-mixed-cancellation/PROOF.md"
+    "research/reverse/net-mixed-cancellation/PROOF.md",
+    "research/reverse/net-mixed-cancellation/REVIEW.md",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT.md",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION.md",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/OUTCOME.md",
+    "research/reverse/net-mixed-cancellation/acceptance.json"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -572,7 +580,15 @@
     "research/reverse/mixed-polarization/FINAL_SCOPE_REVIEW.md": "232039bd82d5d36efff85cf9f6a0896e0a8bc035d2525e7dc72ff8fb090f3493",
     "research/reverse/mixed-polarization/freeze.json": "d0724cf912623efae9e9522fe1a0c5b2dd447d62dfaabcbeb14205be1f3f419a",
     "research/reverse/net-mixed-cancellation/CONTRACT.md": "8ec55579d3288a15e47f2b1af17a2d981ac174fb649dc496fb6d5ac0d9b2e7e8",
-    "research/reverse/net-mixed-cancellation/PROOF.md": "2f0584ae5776ac3eb02318cc7353a70b0a6e0ab39bb6419b5b9217eff529e327"
+    "research/reverse/net-mixed-cancellation/PROOF.md": "2f0584ae5776ac3eb02318cc7353a70b0a6e0ab39bb6419b5b9217eff529e327",
+    "research/reverse/net-mixed-cancellation/REVIEW.md": "8543b35df5157bc1e94da36ad9e323712580cc49339303d5d69a4721f8b313f3",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT.md": "25111397d32eef2751a91b1ad1ab6a446794742874b97bf6b0b73b3964d11a58",
+    "research/reverse/net-mixed-cancellation/INDEPENDENT_REVIEW.md": "06d934da4887797e0eacf8c70358af4a0fdb1eff5264aa1ceae8565799e8da3d",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION.md": "84463afc66b0447db1c507eb805f4cf0df423634e809ec3367600d18ca8ba82c",
+    "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md": "605c13fe871451704a3ab629bfb8b8756a848cf10d68914e015cefe2552ba231",
+    "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md": "a580fbf33a14f555d248e8d4d71750adf54913846363d843b4ba08f2ce55e8cc",
+    "research/reverse/net-mixed-cancellation/OUTCOME.md": "fdab182a0d95927235eb8ea717a3c40dcab33b82dc30f03f68c652062838ad89",
+    "research/reverse/net-mixed-cancellation/acceptance.json": "414047ab848e73465146449b3687b5e7d63a08ef448cf6a170a2f56150e69569"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-TrueBandSupply",
@@ -883,7 +899,7 @@
   ],
   "resume_read_note": "HelicalJointReturn is complete and sent once. Read actual mixed-coherence draft and replacement result files; missing or partial old agent outputs are not accepted. Do not reactivate historical pending helical, orthogonal or closed numerical steps. No publisher/reader observation or reset-credit consumption.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+  "current_analysis_source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -1122,9 +1138,9 @@
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
     "research/reverse/net-mixed-cancellation/CONTRACT.md",
-    "research/reverse/net-mixed-cancellation/PROOF.md",
-    "research/reverse/mixed-polarization/ROOT_SOURCE_BRIDGE_REVIEW.md",
-    "research/reverse/mixed-polarization/freeze.json"
+    "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md",
+    "research/reverse/net-mixed-cancellation/OUTCOME.md",
+    "research/reverse/net-mixed-cancellation/acceptance.json"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1296,13 +1312,20 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T02:49:51.064226+00:00",
+  "last_checkpoint_utc": "2026-09-08T03:11:53.959101+00:00",
   "net_mixed_cancellation_evidence": {
-    "status": "CONTRACT_LOCKED_MAIN_DRAFT_AND_ACTUAL_INDEPENDENT_REVIEW_RUNNING",
-    "contract": "research/reverse/net-mixed-cancellation/CONTRACT.md",
-    "main": "research/reverse/net-mixed-cancellation/PROOF.md",
-    "accepted": false,
+    "status": "ACCEPTED_INTERNAL_SCIENTIFIC_CHECKPOINT",
+    "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
+    "acceptance": "research/reverse/net-mixed-cancellation/acceptance.json",
+    "accepted": true,
     "scientific_programs_run": 0,
-    "actual_new_initial_datum": false
+    "actual_new_initial_datum": false,
+    "formal_release": false,
+    "publication_handoff_performed": false,
+    "scope": "Generic real-algebraic thinness, exact zero branches and two-way obstruction, genuine cross-edge cancellation necessary, shared-shape positive amplitude interface, and necessary star linear polarization. No general feasibility or candidate.",
+    "subsequent_work_pending": [
+      "STAR_CENTER_ANALYSIS.md",
+      "VISCOUS_SPLITTING.md"
+    ]
   }
 }
