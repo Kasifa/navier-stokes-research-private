@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "internal_id": "ClayB-DynamicInputRefresh-20260908",
+  "date": "2026-09-08",
+  "role": "forward research",
+  "privacy": "PRIVATE_CORE",
+  "input_source_commit": "59207be3fa274e69ac184e1f39ba4d513fd53ab5",
+  "report": "research/clay_b_dynamic_input_refresh_20260908/report-source.md",
+  "report_sha256": "39c7df458b122d2db2e5a76f17296bbbd3b738cb326af30e0fc5c3b6dd815985",
+  "status": "BOUNDED_SOURCE_SCREEN_COMPLETE",
+  "classification": [
+    "LITERATURE SCOPE SCREEN",
+    "NO-NEW-ADMITTED-SOURCE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "scientific_outcome": "No newly admitted unconditional dynamical estimate. Existing PF/GL scope unchanged. No next concrete terminal estimate selected.",
+  "scientific_section_complete": false,
+  "new_mathematical_result": false,
+  "new_unconditional_critical_estimate": false,
+  "new_candidate_selected": false,
+  "own_release_created": false,
+  "separate_handoff_sent": false,
+  "public_overview_requested": false,
+  "public_statistics_changed": false,
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "recap_required": false,
+  "search_record": {
+    "query_count": 9,
+    "quantitative_lane": [
+      "site.arxiv.org 2026 \"Navier-Stokes\" \"quantitative\" \"regularity\"",
+      "site.arxiv.org 2025 \"Navier-Stokes\" \"concentration\" \"singular\"",
+      "site.arxiv.org 2024 2025 \"Navier-Stokes\" \"blow-up\" \"critical norm\""
+    ],
+    "geometric_lane": [
+      "site.arxiv.org 2024 2025 2026 Navier Stokes geometric sparseness regularity energy Grujic",
+      "site.arxiv.org 2024 2025 2026 Navier Stokes spatial sparsity self improvement energy",
+      "site.arxiv.org 2024 2025 2026 Navier Stokes \"geometric depletion\" \"energy\""
+    ],
+    "root_observation_lane": [
+      "\"Determining functionals and data assimilation and a novel regularity criterion\" arxiv",
+      "\"Navier Stokes\" \"finite observations\" \"2025\" regularity",
+      "\"Navier Stokes\" \"determining wavenumber\" \"2025\" energy"
+    ],
+    "stop_reason": "One initial batch per lane. High-relevance quantitative and observation candidates were already covered; newly inspected geometric journal interface remained conditional or hyperdissipative. No broad restart or new synonym wave.",
+    "not_exhaustive": true
+  },
+  "source_provenance": {
+    "ledger": "report-source.md section 3 is the sole claim-to-source ledger.",
+    "root_gx_html_references": [
+      "turn7388view0",
+      "turn7390view0",
+      "turn7390view1",
+      "turn7391view0",
+      "turn7391view1",
+      "turn7391view2"
+    ],
+    "root_gx_read_scope": "Official HTML introductory excerpts, Theorem2.15 and4.1 statements, Theorems4.3 and4.5 statements plus complete printed short proofs, section5. Not all upstream existence, classification or long4.1 proof.",
+    "root_observation_html_reference": "turn7382view0",
+    "root_observation_read_scope": "Official HTML introduction and main statements, then exact local deduplication and full old report. No new PDF reading or complete proof review.",
+    "agent_a_read_scope": "Three discovery queries; arXiv2602.09951 and2606.08352 abstracts/metadata plus scoped local records; no current-turn original theorem/proof reread.",
+    "agent_b_read_scope": "Three discovery queries; local exact-ID deduplication; official GX2.15 energy branch,4.1 statement,4.3/4.5 statements and complete printed short proofs,section5 and relevant introduction; not complete4.1 long proof.",
+    "primary_proof_certification": false,
+    "novelty_established": false,
+    "human_peer_review": false,
+    "no_separate_deep_research_backend": true
+  },
+  "local_context_bindings": [
+    {
+      "path": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520"
+    },
+    {
+      "path": "research/clay_b_terminal_mechanism_screen_20260907/report-source.md",
+      "sha256": "b09a1f9a8bca2ddea260be9b1f119c9220b7afe1f1aa4866657aae63152cf642"
+    },
+    {
+      "path": "research/clay_b_localisation_force_ledger_20260905.md",
+      "sha256": "1ec3130bca9f519d73488820295e2cc8f1a069b7b8969ab5d7155ca9aee7110b"
+    },
+    {
+      "path": "research/clay_b_frequency_component_screen_20260907.md",
+      "sha256": "87dd245252935e94bacb5e1c1fcfbee7057f444687bee8fb5d334e54697bcc14"
+    },
+    {
+      "path": "research/r070a_literature_collision_matrix.md",
+      "sha256": "d0f01014b8478eeed836e6c12f7848bf04f1481d33d3a55a2ac3d5352db68d19"
+    }
+  ],
+  "review_scope": "Root independently verified consequential GX source boundaries after lane B, read the complete initial51-line report and the exact final scope clarification. Five local links, heading spacing and table shape verified. An optional additional nonparticipant scope review was stopped without a returned usable verdict and is not counted as PASS. All completed checks are AI-assisted source/scope checks, not human peer review or full-paper proof certification.",
+  "next_action": "不重开本轮已去重的同版本条件出口或泛检索。PF指定中心联合好尺度仍是当前问题；下一项先选定一个不同于既有核算的具体原NS前终端动力学估计，明确原初值、同轨道、固定正龄、临界尺度及完整端点/截止/压力/参考误差，再探索其严格尺度增益。新具体估计尚未确定。内部筛查不新建release、不重发交接、不查看发布或反向执行。",
+  "workflow_note": "Deep Research skill applied within the current research role. update_plan unavailable in active metadata, so the actual scoped plan was kept in conversation state; no simulated tool success. Private source records only; no reader/PDF/HTML/translation/hosting."
+}
