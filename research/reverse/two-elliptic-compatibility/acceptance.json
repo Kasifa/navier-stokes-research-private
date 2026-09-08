@@ -1,0 +1,36 @@
+{
+  "status": "ACCEPTED_EXACT_LOWEST_ROW_CONDITIONS",
+  "files_sha256": {
+    "research/reverse/two-elliptic-compatibility/CONTRACT.md": "ee05b39370f178cac5aebcf3c3046478c848c74b0078ee26edafb3282029ad52",
+    "research/reverse/two-elliptic-compatibility/PROOF.md": "8961c72504eb7d60f35ee53050c99a2a25203ad539f85a9135ca16706dcc1cba",
+    "research/reverse/two-elliptic-compatibility/REVIEW.md": "b53e49da4054e74a165e0eb78c9c966183c54beb1cf8e6000187f998926face8",
+    "research/reverse/two-elliptic-compatibility/INDEPENDENT.md": "9a39799e39b9ec40e4ae61e86f3b0dda0dabc0885dcbea17febd91b868524da9",
+    "research/reverse/two-elliptic-compatibility/INDEPENDENT_REVIEW.md": "0b90a09c971ef82bfd7fe0bb62cd90890491872fb2a2028bfc1c204c49035520",
+    "research/reverse/two-elliptic-compatibility/ROOT_COMPARISON.md": "7510cbcb75d0dd668422c6a1b937c7b08c080f667ee2b9666244598d1fa7e525",
+    "research/reverse/two-elliptic-compatibility/OUTCOME.md": "c236f6796cd1134a513b13b3dfedcacad8ab7ab87ecff485a8db868d7c126bfe"
+  },
+  "root_actual_final_full_read": true,
+  "main_author": "coherence_independent_resumed",
+  "independent_author": "coherence_review_resumed",
+  "main_non_author_review": "coherence_independent_audit",
+  "independent_non_author_review": "coherence_independent_resumed",
+  "independence_scope": "Main received root equivalent-normalization suggestion; disclosed in review and root comparison. Independent did not read main or root suggestion. Independent reviewer is main author, disclosed non-blind topic familiarity.",
+  "unresolved_within_accepted_claims": [],
+  "scope": "Exact lowest Z unique real-part elimination and nonzero complete C original-direction iff real cubic plus signed area balance.",
+  "realization_of_joint_conditions": "NOT_ADMITTED_HERE_PENDING_SEPARATE_FOLLOWUP",
+  "higher_rows": "OPEN",
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "new_actual_initial_datum": false,
+  "new_true_ns_window_claim": false,
+  "old_failed_evidence_repaired": false,
+  "candidate_accepted": false,
+  "figures": [],
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "followups_not_accepted_here": [
+    "LOWEST_FEASIBILITY.md",
+    "HIGHER_ROW_PROJECTION.md",
+    "HIGHER_ROW_INDEPENDENT.md"
+  ]
+}
