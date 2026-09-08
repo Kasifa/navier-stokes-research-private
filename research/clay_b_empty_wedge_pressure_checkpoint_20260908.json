@@ -1,0 +1,36 @@
+{
+  "release_id": "ClayB-EmptyWedgePressureObstruction-20260908",
+  "logical_predecessor": "ClayB-DisjointShearRankGeneration-20260908",
+  "status": "RESEARCH_COMPLETE_IN_STATED_SCOPE",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": ["PRIVATE_ARCHIVE"],
+  "public_overview_requested": false,
+  "base_commit": "4ba3c32b84235d55ec417c131b8e94f7fc3ca35b",
+  "main": "research/clay_b_empty_wedge_pressure_obstruction_20260908.md",
+  "main_sha256": "fe400890986f594f446544a0f7567d05170be54f2026819666b25943cb541636",
+  "classification": ["SIGNED ORIGINAL-PRESSURE PAIRING COUNTEREXAMPLE", "SMOOTH PERIODIC INITIAL DATA", "ZERO-SET INITIAL-TIME LIMIT", "NOT CLAY"],
+  "claims": [
+    "存在光滑、无散、均值零的三维周期初值族，使用同一速度自己的 B0=G/|G| 和规范压力，|integral B0:(G²+H)|≥c log(1/delta)，而 ||G||2≤C sqrt(log(1/delta))、0<||d||2≤C。故原整胞联合源的统一线性缺陷界不成立；不是仅否定压力L1加强版。",
+    "固定零梯度角区和幅度delta的无散应变探针给非零角系数 J=-2sqrt(2)sin(2alpha)。周期压力的完整内外层余项为O(1)，探针压力修正为o(1)，二维无散块的惯性配对逐点为零；三维积分与两个范数乘相同总因子。",
+    "B0在零梯度集不连续。两条独立初值u0与-u0的原NS解给初端极限 I(u0)-J0 与 -I(u0)-J0，J0=integral_{G0=0}|H0|。因此只要求全体局部光滑解的严格正时间也不能恢复统一界；不声称反检时刻有共同正下界。",
+    "本族完整静态黏性成本 Lambda_delta=-integral B0:Delta G 包含正则化的全部零集贡献，满足 Lambda_delta约为delta^-1，故 |I|/(nu Lambda_delta)趋零。此反例不否定原黏性吸收，也不是一般吸收定理。"
+  ],
+  "open_items": [
+    "未证明任意三维初值正则性、奇性或沿同一演化的指定中心共同 A+E 与小 K 尺度；PF仍仅是条件出口。",
+    "反例改变初值和内核尺度，不是单解奇异终端，也未证明固定共同正龄窗口或全时间累计反例。",
+    "含原完整耗散、导数、局部截止与真实时间演化的估计未被排除；EWP静态成本校准不能代替累计控制。",
+    "有限检索和AI审查不是原创性、期刊价值或真人同行评审认证。"
+  ],
+  "candidate_tested": "|integral B0:(G²+H)|≤C||G||2||d(G)||2，常数与光滑初值无关",
+  "candidate_status": "REFUTED_IN_STATED_SCOPE",
+  "next_action": "从实际演化检验含原完整mu_G耗散的时间累计式。EWP.22–23的静态Lambda约delta^-1已经完成，不重复核算为新小节。先在EWP同一解上区分小内核快速扩散时段与外尺度时段，保留原梯度模长平衡的两切片、完整压力、输运和零集，核查对数源能持续多久；不把初始静态下界直接乘固定时间，不默认共同正龄窗口。不得重提已否定的不含耗散q×d源界、自动兼容投影或MA已失败的加速度平方余项。若只是重现已有累计预算且没有新的严格尺度增益，记录缺口并重选动力学输入；不检查发布或反向执行。",
+  "next_test_selected": true,
+  "new_unconditional_critical_input": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "is_clay_result": false
+}
