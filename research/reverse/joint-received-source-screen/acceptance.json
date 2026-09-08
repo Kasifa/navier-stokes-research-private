@@ -1,0 +1,38 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_OLD_INTERFACE_APPLICATION_NO_NEW_PURE_TWO_STEP_TEST",
+  "bound_files": [
+    {
+      "path": "research/reverse/joint-received-source-screen/SCREEN.md",
+      "sha256": "f161f752121e0ff8742ef97d82afbe62dd8fa883065fb80e4494feaad1fdd422",
+      "bytes": 4035
+    },
+    {
+      "path": "research/reverse/joint-received-source-screen/REVIEW.md",
+      "sha256": "9eb818001a7c3bd76febc081621a07db7f2225ddcaa879146bc1e823590fefee",
+      "bytes": 6680
+    },
+    {
+      "path": "research/reverse/joint-received-source-screen/ROOT_COMPARISON.md",
+      "sha256": "37a8af913ea35598b70991a47db00fd208677a5cc36a8ba6004c97ea2b743101",
+      "bytes": 1373
+    }
+  ],
+  "root_actual_full_read": [
+    "SCREEN.md",
+    "REVIEW.md",
+    "ROOT_COMPARISON.md"
+  ],
+  "review_current_hashes_verified": [
+    "research/reverse/joint-received-source-screen/SCREEN.md",
+    "research/reverse/joint-received-source-screen/../return-interface/INDEPENDENT_INTERFACE.md",
+    "research/reverse/joint-received-source-screen/../nonorthogonal-return/JOINT_INDEPENDENT.md",
+    "research/reverse/joint-received-source-screen/../cyclic-receiver-supply-preflight/PREFLIGHT.md"
+  ],
+  "scientific_executions": 0,
+  "separate_formal_release": false,
+  "excluded_from_release_26": true,
+  "general_new_theorem": false,
+  "full_NS_singularity_claim": false,
+  "unpaid": "Actual mixed-state deviation provenance, useful flux, magnitude and repeated input qualification"
+}
