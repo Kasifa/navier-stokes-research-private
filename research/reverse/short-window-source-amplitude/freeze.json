@@ -1,0 +1,169 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-PureDirectionAndShortWindowObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE",
+  "source_commit": "75114244ef8e0f72caa43425d9813129edaf6701",
+  "scientific_commits": [
+    "ec6dbaed96fadde60c5c324af9ad19884da7b51d",
+    "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+    "75114244ef8e0f72caa43425d9813129edaf6701"
+  ],
+  "predecessor_release": "ReverseNS-20260908-JointFullRowCriterion",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/higher-pure-direction/CONTRACT.md",
+      "sha256": "cdda8089bdfedd67d090634ca91fc25e83c33cd0072bd60235c98e5f11d55187",
+      "bytes": 1631
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/PROOF.md",
+      "sha256": "b5eedc38fb528bbb48e2ae51012742612a64edb87f88d22223b55d7a2b7ac488",
+      "bytes": 7086
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/INDEPENDENT.md",
+      "sha256": "66aac8470f43aa84b04509c843551457c29414e7f9851bf507bde70a9d612363",
+      "bytes": 15520
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/REVIEW.md",
+      "sha256": "34f6b58ac28601a9afcfd5388be0b30b3d2216a4b633b565bed398c47c4f9598",
+      "bytes": 9623
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/INDEPENDENT_REVIEW.md",
+      "sha256": "356fffcadcf54430d2f931e89478f52b71b52aeec11e06f3a5caa8292ccf6449",
+      "bytes": 11881
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/ROOT_COMPARISON.md",
+      "sha256": "117418b820d1580bbbab1e1a234af1a1a641bf075aeaf4b02fbf71e76510e6bc",
+      "bytes": 4989
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/OUTCOME.md",
+      "sha256": "33f25999f7644331efb1c742b0ef23e943ab98fb33e6bbb580fa7679d94b6187",
+      "bytes": 1300
+    },
+    {
+      "path": "research/reverse/higher-pure-direction/acceptance.json",
+      "sha256": "6257a0803b6a05d88220ae865cc4954eaf5ef8efb1e613348ea5cb5384615838",
+      "bytes": 2578
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/CONTRACT.md",
+      "sha256": "d0e42e518d8b5d4c3d13511fe79f6903f46d7c6d31910702f19282e1907e14de",
+      "bytes": 2299
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/PROOF.md",
+      "sha256": "172b9486124f5de61d63e16f0a6b1a3f6df5acae542d2e4ddae21fa440ba14dc",
+      "bytes": 6497
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/INDEPENDENT.md",
+      "sha256": "c5acd2adbd3683b102d61320a68985c8d52738b2f88379a8002873a5e9ad3072",
+      "bytes": 10507
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/REVIEW.md",
+      "sha256": "4a0e15027fa07034029810943f8f80667a5640729f5190e2b39a8440d83a8ef3",
+      "bytes": 11519
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/INDEPENDENT_REVIEW.md",
+      "sha256": "fe7008918f57c56dcce81730c70f6166c9855030ca22566eccfef609045254ae",
+      "bytes": 8196
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/ROOT_COMPARISON.md",
+      "sha256": "a1f02b8b1c9cb9b8bdaeae06a7c2e41ae5702d716be88cc9915766cc18430164",
+      "bytes": 4883
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/OUTCOME.md",
+      "sha256": "269bbe7f6449d23d6fc787bcf335fe8cef2aaee2a36e6977923018328fefb5d3",
+      "bytes": 1657
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/acceptance.json",
+      "sha256": "9b9ed931eaef3719a8727b9907d43fb5ba7aab307e0bdaca392fae67aff82c00",
+      "bytes": 2799
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/FINAL_OUTCOME.md",
+      "sha256": "14612e7cb05fbf0a7e09212027a90942a1f9cadc0a11024172c4b7805fd7bfd4",
+      "bytes": 2136
+    },
+    {
+      "path": "research/reverse/short-window-source-amplitude/FINAL_SCOPE_REVIEW.md",
+      "sha256": "257d9c87daf180bda053396655369f9385daf6717ec7a9a626aa9eeabf0fa8b6",
+      "bytes": 16400
+    }
+  ],
+  "dependencies": [
+    {
+      "release_id": "ReverseNS-20260908-TrueBandSupply",
+      "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+      "manifest": "research/reverse/mixed-polarization/freeze.json",
+      "use": "Previously accepted same-original-solution all-Fourier short window and true source decomposition; not a new existence claim."
+    },
+    {
+      "release_id": "ReverseNS-20260908-JointFullRowCriterion",
+      "source_commit": "17ed6ef7ed6213598e2f681713b8e14a98f36367",
+      "manifest": "research/reverse/joint-direction-compatibility/freeze.json",
+      "use": "Prior same-data restoration gates and their source chain; no actual common root realization."
+    }
+  ],
+  "claims": {
+    "classification": "EXACT_CONDITIONAL_PURE_DIRECTION_INTERFACE_AND_ACTUAL_SHORT_WINDOW_AMPLITUDE_OBSTRUCTION; NO_CANDIDATE; NOT_CLAY",
+    "proved": [
+      "Complete same-data higher pure C direction determinants, exact four-real reduction in the stated domain, separate total-row nonzero gate and necessary nonzero single-low-sender direction defect.",
+      "Within original q<=1/2 window, actual first-band source S has strict norm <353 A/80640 at every positive time; full actual receiver separately has non-strict norm <=A/6.",
+      "Distinct source and receiver templates, relative-output or initial-A error norms and additional actual eta source condition yield the stated amplitude bounds and precisely bounded nonamplification exclusions, with justified equality endpoints."
+    ],
+    "not_claimed": [
+      "No actual geometry, common roots, initial datum, amplitude, time, template phase or tolerance selected or certified.",
+      "No common three-row template, positive-time direction realization or actual two-step regeneration candidate.",
+      "No automatic eta source-dominance evidence; S-W bound is not the full receiver-minus-source bound.",
+      "No later-time, other-shape or general cascade exclusion, derivative-norm monotonicity, NS singularity or global regularity.",
+      "No scientific programs, numerical arrays, evaluations or scans; no old failed evidence repaired.",
+      "No new NS existence/window, fixed-datum infinite-scale iteration, uniform cross-generation remainder or finite total time.",
+      "No external novelty, human peer review or proof-assistant claim. weak-local-exit and subsequent work excluded."
+    ]
+  },
+  "validation": {
+    "status": "PASS_DERIVATIONS_SEPARATE_NON_AUTHOR_REVIEWS_ROOT_COMPARISONS_FINAL_SCOPE",
+    "stage_acceptances": [
+      "research/reverse/higher-pure-direction/acceptance.json",
+      "research/reverse/short-window-source-amplitude/acceptance.json"
+    ],
+    "independence": "New derivations formed without reading each other. Pure direction non-author reviews sequential by one reviewer; short-window non-author reviews by different people each initially unread other text. Root precontract hand preflight disclosed; final scope nonblind with author/reviewer history disclosed. Added results separately attributed.",
+    "final_scope_review": "research/reverse/short-window-source-amplitude/FINAL_SCOPE_REVIEW.md",
+    "source_byte_check": "All 18 final files match scientific Git source objects; all 14 distinct acceptance bindings verified. Counts are provenance, not scientific quality.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "new_actual_datum_selected": false,
+    "new_NS_time_window_paid": false,
+    "uniform_cross_generation_remainder_paid": false,
+    "older_failed_computations_repaired": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "literature_boundary": "Self-contained continuation of accepted Fourier-Leray maps and same-solution short window. No new external theorem applicability or novelty claim.",
+  "source_ledger": "research/reverse/short-window-source-amplitude/FINAL_SCOPE_REVIEW.md",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/short-window-source-amplitude/FINAL_OUTCOME.md",
+  "milestone_scope": "Conditional shape-direction gates and actual short-window amplitude obstruction are distinct; their conjunction is not a candidate.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff."
+}
