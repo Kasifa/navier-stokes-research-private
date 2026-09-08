@@ -1,0 +1,7 @@
+{"event": "imports_completed", "worker_elapsed_seconds": 0.09301279089413583}
+{"event": "source_test_start", "worker_elapsed_seconds": 0.09305325010791421, "label": "H0"}
+{"event": "source_test_start", "worker_elapsed_seconds": 0.11374050006270409, "label": "H1"}
+{"event": "joint_test_start", "worker_elapsed_seconds": 0.19432737492024899, "N": 128, "K": 42}
+{"event": "shear_test_start", "worker_elapsed_seconds": 0.8394960830919445}
+{"event": "toy_tests_start", "worker_elapsed_seconds": 0.8431357080116868}
+{"event": "worker_finishing", "worker_elapsed_seconds": 0.8464636660646647, "status": "PASS"}

@@ -1,0 +1,435 @@
+{
+  "artifact_inventory_before_receipt": [
+    {
+      "bytes": 55919,
+      "path": "H0-exact-reference.json",
+      "sha256": "a95c7ca9602f78645a3dc30fafd4e9f15ffb157d04ab48bb44f49c40bfb9c377"
+    },
+    {
+      "bytes": 5078838,
+      "path": "H0-source.npz",
+      "sha256": "43e0abf52b7f1d8489a7b4a474c9548007538b3503188ca145647d77367aaed9"
+    },
+    {
+      "bytes": 56237,
+      "path": "H1-exact-reference.json",
+      "sha256": "6da8e0f14fc65dcb9b3e1fff9a64a69457a26e8f5bc0059ec80667c05fd06ab2"
+    },
+    {
+      "bytes": 40629462,
+      "path": "H1-source.npz",
+      "sha256": "9b63c04c944ec0fe464973c143123904b6d23cff2f811b142351203f27802759"
+    },
+    {
+      "bytes": 207962,
+      "path": "joint-exact-reference.json",
+      "sha256": "5369ddbb57e1842aaf0f1e5f8717b8d87079de911c6572dd26b61a2ab461af46"
+    },
+    {
+      "bytes": 110381428,
+      "path": "joint-source.npz",
+      "sha256": "074eb5687342a6d74f5fa1d7919ab1ccef5db505a0bc8178c6088d172f08c066"
+    },
+    {
+      "bytes": 605,
+      "path": "progress.jsonl",
+      "sha256": "0645f11158ec1ea07496376a56e826d534e92834c204aa34efccfb84472f7c09"
+    },
+    {
+      "bytes": 22684,
+      "path": "result.json",
+      "sha256": "ec959e7f2ab3ac1f96f95bafbd0a13f3ff39748793914e35861d1b80ec3c61fe"
+    },
+    {
+      "bytes": 590570,
+      "path": "shear.npz",
+      "sha256": "0094b63bea71eae89a1fddd740f3b5a1034dc4b45ad171a763316dad47948346"
+    },
+    {
+      "bytes": 248,
+      "path": "stderr.log",
+      "sha256": "1d1a1113a48e28c7b63e687688e37e09a3c9aec2067cf24f6d8c753c6fd71f66"
+    },
+    {
+      "bytes": 43,
+      "path": "stdout.log",
+      "sha256": "fd6fde528dbb38b0d0a7b384714f4a651dd19926a5e9fbb9ccaa247e171314ff"
+    },
+    {
+      "bytes": 52701,
+      "path": "toy-evidence.json",
+      "sha256": "d4262f0cbee25ac6fdfbb32467697095519363904f64d129ae33f72fa5f83f8f"
+    }
+  ],
+  "artifact_inventory_scope": "All regular run files before final execution.json serialization; execution.json excludes its own hash. Final stdout hashes the complete directory.",
+  "budget": {
+    "output_bytes": 268435456,
+    "rss_bytes": 2147483648,
+    "seconds": 45
+  },
+  "budget_pass": {
+    "output_bytes": true,
+    "rss": true,
+    "wall_time": true
+  },
+  "child_reaped": true,
+  "child_wall_seconds": 0.957062708,
+  "children_after_reap": {
+    "peak_rss_bytes": 989593600,
+    "ru_maxrss_raw": 989593600,
+    "ru_maxrss_unit": "bytes",
+    "system_seconds": 0.119016,
+    "user_seconds": 0.676361
+  },
+  "children_before": {
+    "peak_rss_bytes": 0,
+    "ru_maxrss_raw": 0,
+    "ru_maxrss_unit": "bytes",
+    "system_seconds": 0.0,
+    "user_seconds": 0.0
+  },
+  "command": [
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/numerical_experiment.py",
+    "--run-id",
+    "validation",
+    "--output-dir",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/numerical-runs/validation",
+    "--source-lock",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/numerical-source-lock.json"
+  ],
+  "external_cost_memory_gate": "root must separately check the contract's live memory-pressure gate before launching either cost supervisor; this supervisor launches no extra process to measure it",
+  "non_output_gates_pass": true,
+  "output_total_bytes_including_execution_receipt": 157095072,
+  "parent_measurement_cutoff": "after source/result checks, before final artifact hashing and receipt serialization; not a measurement of the full supervisor lifecycle",
+  "parent_self_at_pre_serialization": {
+    "peak_rss_bytes": 15155200,
+    "ru_maxrss_raw": 15155200,
+    "ru_maxrss_unit": "bytes",
+    "system_seconds": 0.01398,
+    "user_seconds": 0.025525
+  },
+  "parent_wall_to_pre_serialization_seconds": 0.960878291,
+  "pid": 47184,
+  "resource_scope": "one fresh supervisor and exactly one possible scientific child; CHILDREN is sampled after reap; SELF is separate, never added as a simultaneous peak",
+  "returncode": 0,
+  "run_id": "validation",
+  "schema": 1,
+  "scientific_execution_count": 1,
+  "source_commit_claim": "c8f2712fe0cc06d5ec91c014d5030f7f45889c90",
+  "source_commit_verification": "external root gate; no Git call by supervisor",
+  "source_lock_after_sha256": "060e72f189c2b6ecade7b6425509f68c2efb6d056b4f71e25b76c91fdb5ce3d2",
+  "source_lock_path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/annular-source-observation/numerical-source-lock.json",
+  "source_lock_sha256": "060e72f189c2b6ecade7b6425509f68c2efb6d056b4f71e25b76c91fdb5ce3d2",
+  "sources_after": [
+    {
+      "bytes": 6693,
+      "expected_sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md",
+      "sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052"
+    },
+    {
+      "bytes": 13250,
+      "expected_sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md",
+      "sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55"
+    },
+    {
+      "bytes": 4273,
+      "expected_sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md",
+      "sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232"
+    },
+    {
+      "bytes": 12305,
+      "expected_sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_reference.py",
+      "sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c"
+    },
+    {
+      "bytes": 14407,
+      "expected_sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 20606,
+      "expected_sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_experiment.py",
+      "sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee"
+    },
+    {
+      "bytes": 18082,
+      "expected_sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/run_numerical.py",
+      "sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987"
+    },
+    {
+      "bytes": 3162,
+      "expected_sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "bytes": 4491,
+      "expected_sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "bytes": 3579,
+      "expected_sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 4968,
+      "expected_sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "bytes": 133961,
+      "expected_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "bytes": 12610,
+      "expected_sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "bytes": 4523,
+      "expected_sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de"
+    },
+    {
+      "bytes": 3193,
+      "expected_sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_DESIGN.md",
+      "sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e"
+    },
+    {
+      "bytes": 4445,
+      "expected_sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_REVIEW.md",
+      "sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138"
+    },
+    {
+      "bytes": 1206,
+      "expected_sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md",
+      "sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075"
+    },
+    {
+      "bytes": 11981,
+      "expected_sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "bytes": 6738,
+      "expected_sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md",
+      "sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5"
+    },
+    {
+      "bytes": 1884,
+      "expected_sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md",
+      "sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe"
+    },
+    {
+      "bytes": 2751,
+      "expected_sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md",
+      "sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+    }
+  ],
+  "sources_before": [
+    {
+      "bytes": 6693,
+      "expected_sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md",
+      "sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052"
+    },
+    {
+      "bytes": 13250,
+      "expected_sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md",
+      "sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55"
+    },
+    {
+      "bytes": 4273,
+      "expected_sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md",
+      "sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232"
+    },
+    {
+      "bytes": 12305,
+      "expected_sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_reference.py",
+      "sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c"
+    },
+    {
+      "bytes": 14407,
+      "expected_sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 20606,
+      "expected_sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_experiment.py",
+      "sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee"
+    },
+    {
+      "bytes": 18082,
+      "expected_sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/run_numerical.py",
+      "sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987"
+    },
+    {
+      "bytes": 3162,
+      "expected_sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "bytes": 4491,
+      "expected_sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "bytes": 3579,
+      "expected_sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 4968,
+      "expected_sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "bytes": 133961,
+      "expected_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "bytes": 12610,
+      "expected_sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "bytes": 4523,
+      "expected_sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de"
+    },
+    {
+      "bytes": 3193,
+      "expected_sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_DESIGN.md",
+      "sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e"
+    },
+    {
+      "bytes": 4445,
+      "expected_sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_REVIEW.md",
+      "sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138"
+    },
+    {
+      "bytes": 1206,
+      "expected_sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md",
+      "sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075"
+    },
+    {
+      "bytes": 11981,
+      "expected_sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "bytes": 6738,
+      "expected_sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md",
+      "sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5"
+    },
+    {
+      "bytes": 1884,
+      "expected_sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md",
+      "sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe"
+    },
+    {
+      "bytes": 2751,
+      "expected_sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md",
+      "sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+    }
+  ],
+  "sources_unchanged": true,
+  "started_utc": "2026-09-08T20:43:40.928329+00:00",
+  "status": "PASS",
+  "supervisor_runtime": {
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "pid": 47182,
+    "platform": "darwin",
+    "version": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "timed_out": false,
+  "worker_identity_and_source_maps_match": true,
+  "worker_output_status": "PASS"
+}

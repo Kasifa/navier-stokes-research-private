@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "run_id": "bench128",
+  "status": "PASS",
+  "pid": 47363,
+  "supervisor_pid": 47358,
+  "scientific_worker_invocations": 1,
+  "source_lock_sha256": "060e72f189c2b6ecade7b6425509f68c2efb6d056b4f71e25b76c91fdb5ce3d2",
+  "source_hashes_start": {
+    "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052",
+    "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55",
+    "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232",
+    "research/reverse/annular-source-observation/numerical_reference.py": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c",
+    "research/reverse/annular-source-observation/numerical_kernel.py": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+    "research/reverse/annular-source-observation/numerical_experiment.py": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee",
+    "research/reverse/annular-source-observation/run_numerical.py": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987",
+    "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+    "research/reverse/annular-source-observation/INPUT_CONTRACT.md": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+    "research/reverse/annular-source-observation/INPUT_RESULT.md": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+    "research/reverse/annular-source-observation/input-acceptance.json": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+    "research/reverse/annular-source-observation/input-preparation.json": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+    "research/reverse/annular-source-observation/OBSERVATION_ERROR.md": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+    "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de",
+    "research/reverse/annular-source-observation/KERNEL_DESIGN.md": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e",
+    "research/reverse/annular-source-observation/KERNEL_REVIEW.md": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138",
+    "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075",
+    "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c",
+    "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5",
+    "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe",
+    "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+  },
+  "import_completed_worker_seconds": 0.03021249989978969,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "sys_platform": "darwin",
+    "uname": [
+      "Darwin",
+      "Wool.local",
+      "25.6.0",
+      "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050",
+      "arm64"
+    ],
+    "numpy_version": "2.3.5",
+    "numpy_configuration": "{\n  \"Compilers\": {\n    \"c\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"cc\"\n    },\n    \"cython\": {\n      \"name\": \"cython\",\n      \"linker\": \"cython\",\n      \"version\": \"3.2.1\",\n      \"commands\": \"cython\"\n    },\n    \"c++\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"c++\"\n    }\n  },\n  \"Machine Information\": {\n    \"host\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    },\n    \"build\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    }\n  },\n  \"Build Dependencies\": {\n    \"blas\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    },\n    \"lapack\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    }\n  },\n  \"Python Information\": {\n    \"path\": \"/private/var/folders/8s/1jkm89h96qjdtjr7q3bll2vh0000gn/T/build-env-zbmksv9_/bin/python\",\n    \"version\": \"3.12\"\n  },\n  \"SIMD Extensions\": {\n    \"baseline\": [\n      \"NEON\",\n      \"NEON_FP16\",\n      \"NEON_VFPV4\",\n      \"ASIMD\"\n    ],\n    \"found\": [\n      \"ASIMDHP\"\n    ],\n    \"not found\": [\n      \"ASIMDFHM\"\n    ]\n  }\n}\n",
+    "cpu_count": 18,
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null
+    },
+    "fft_function_module": "numpy.fft",
+    "dtype": "complex128",
+    "fft_normalization_both_directions": "forward"
+  },
+  "scope": "COST_ONLY_NONPHYSICAL_SEGMENT_STATE",
+  "N": 128,
+  "K": 42,
+  "input_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+  "step": {
+    "exact": {
+      "numerator": "26160486070437665594306205451543882147249039428142004486073102362903409632634470400",
+      "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999"
+    },
+    "float_hex": "0x1.9c6f0ce172674p-21",
+    "readback": {
+      "numerator": "1813902992460189",
+      "denominator": "2361183241434822606848"
+    },
+    "signed_conversion_error": {
+      "numerator": "-1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+      "denominator": "80406495902969885508735730621085905161062089500507757847839084095125688412057987533649022661395781050435633152"
+    },
+    "absolute_conversion_error": {
+      "numerator": "1297041539804380241794450246455226730127726805580620856143426121528045350987687762189389",
+      "denominator": "80406495902969885508735730621085905161062089500507757847839084095125688412057987533649022661395781050435633152"
+    }
+  },
+  "index": 128,
+  "nsteps": 256,
+  "physical_state_warning": "Original approximate initial state used in post-a cost branch; not U(a) or original source integral.",
+  "diagnostics": {
+    "finite": true,
+    "mean_hermitian_norm": 0.0,
+    "divergence_max_abs": 1.4210854715202004e-14,
+    "conjugacy_component_max_abs": 4.440972397532596e-16,
+    "c3_component_max_abs": 3.57780915552654e-16,
+    "energy_normalized": 1617101.297259487,
+    "viscous_dissipation_normalized": 122899426.68613121,
+    "a0": 4433.503792321631,
+    "off_cube_a0": 0.0,
+    "cube_face_a0": 3.9894802524241214e-14
+  },
+  "passive_block_diagnostics": [
+    {
+      "finite": true,
+      "a0": 7.913499637500279,
+      "max_component_abs": 1.1402213296103911
+    },
+    {
+      "finite": true,
+      "a0": 8.650784289640902e-06,
+      "max_component_abs": 1.0265825769561248e-06
+    }
+  ],
+  "fft_actual_counts_by_grid": {
+    "ifftn:128x128x128": {
+      "batched_api_calls": 8,
+      "scalar_3d_transforms": 24
+    },
+    "fftn:128x128x128": {
+      "batched_api_calls": 4,
+      "scalar_3d_transforms": 12
+    },
+    "ifftn:32x32x32": {
+      "batched_api_calls": 8,
+      "scalar_3d_transforms": 24
+    },
+    "fftn:32x32x32": {
+      "batched_api_calls": 4,
+      "scalar_3d_transforms": 12
+    },
+    "ifftn:64x64x64": {
+      "batched_api_calls": 8,
+      "scalar_3d_transforms": 24
+    },
+    "fftn:64x64x64": {
+      "batched_api_calls": 4,
+      "scalar_3d_transforms": 12
+    }
+  },
+  "source_hashes_end": {
+    "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052",
+    "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55",
+    "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232",
+    "research/reverse/annular-source-observation/numerical_reference.py": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c",
+    "research/reverse/annular-source-observation/numerical_kernel.py": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+    "research/reverse/annular-source-observation/numerical_experiment.py": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee",
+    "research/reverse/annular-source-observation/run_numerical.py": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987",
+    "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+    "research/reverse/annular-source-observation/INPUT_CONTRACT.md": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+    "research/reverse/annular-source-observation/INPUT_RESULT.md": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+    "research/reverse/annular-source-observation/input-acceptance.json": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+    "research/reverse/annular-source-observation/input-preparation.json": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+    "research/reverse/annular-source-observation/OBSERVATION_ERROR.md": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05",
+    "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de",
+    "research/reverse/annular-source-observation/KERNEL_DESIGN.md": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e",
+    "research/reverse/annular-source-observation/KERNEL_REVIEW.md": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138",
+    "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075",
+    "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c",
+    "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5",
+    "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe",
+    "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+  },
+  "checks": [
+    {
+      "name": "cost_four_stages",
+      "passed": true,
+      "rhs_seconds": [
+        0.37645250000059605,
+        0.35595462494529784,
+        0.31748795812018216,
+        0.3254910421092063
+      ]
+    },
+    {
+      "name": "cost_output_finite",
+      "passed": true
+    },
+    {
+      "name": "cost_actual_transform_counts",
+      "passed": true,
+      "batched_api_calls": 36,
+      "scalar_3d_transforms": 108
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "cost-output.npz",
+      "bytes": 110381362,
+      "sha256": "879abfcf02088573f4294006b1ad49607399dcc33c6f607e2b4cd156914723ae",
+      "format": "lossless uncompressed npz"
+    }
+  ],
+  "timings": {
+    "worker_start_to_step_seconds": 0.03917787503451109,
+    "complete_augmented_step_seconds": 1.4676454169675708,
+    "diagnostics_seconds": 0.11150933313183486,
+    "cost-output.npz_write_and_hash_seconds": 0.08296012505888939
+  },
+  "worker_elapsed_before_result_serialization_seconds": 1.7028735419735312,
+  "worker_process_cpu_seconds": 1.683157
+}

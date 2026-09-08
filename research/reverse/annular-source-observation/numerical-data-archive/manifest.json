@@ -1,0 +1,119 @@
+{
+  "scope": "LOSSLESS_BYTE_ARCHIVE_ONLY_NO_SCIENTIFIC_EXECUTION",
+  "created_utc": "2026-09-08T20:47:04.995056+00:00",
+  "script": {
+    "bytes": 3910,
+    "sha256": "6c79ca98093a1d0435e7269e23967a059843ad68f4d7e9c1dd2ba7d762724d6c"
+  },
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "zlib_version": "1.2.12",
+  "zlib_runtime_version": "1.2.12",
+  "gzip_compresslevel": 6,
+  "gzip_mtime": 0,
+  "files": [
+    {
+      "original": "numerical-runs/validation/H0-source.npz",
+      "original_record": {
+        "bytes": 5078838,
+        "sha256": "43e0abf52b7f1d8489a7b4a474c9548007538b3503188ca145647d77367aaed9"
+      },
+      "archive": "numerical-data-archive/validation-H0-source.npz.gz",
+      "archive_record": {
+        "bytes": 452933,
+        "sha256": "deae86e4a8f9380dc0b7d754c0644efb042ba8489f17a7adb042f31f6ed71c49"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 18375,
+        "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+      }
+    },
+    {
+      "original": "numerical-runs/validation/H1-source.npz",
+      "original_record": {
+        "bytes": 40629462,
+        "sha256": "9b63c04c944ec0fe464973c143123904b6d23cff2f811b142351203f27802759"
+      },
+      "archive": "numerical-data-archive/validation-H1-source.npz.gz",
+      "archive_record": {
+        "bytes": 3610059,
+        "sha256": "5b639e3bea2e100350bbfbc2a54fd2d8fbed03a16d6e447aa75684736b13e545"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 18375,
+        "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+      }
+    },
+    {
+      "original": "numerical-runs/validation/joint-source.npz",
+      "original_record": {
+        "bytes": 110381428,
+        "sha256": "074eb5687342a6d74f5fa1d7919ab1ccef5db505a0bc8178c6088d172f08c066"
+      },
+      "archive": "numerical-data-archive/validation-joint-source.npz.gz",
+      "archive_record": {
+        "bytes": 10993258,
+        "sha256": "15fb7d167bfcfc617887ac01c4220d53a5d837b0410bb396e10b15e91c0533ad"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 18375,
+        "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+      }
+    },
+    {
+      "original": "numerical-runs/validation/shear.npz",
+      "original_record": {
+        "bytes": 590570,
+        "sha256": "0094b63bea71eae89a1fddd740f3b5a1034dc4b45ad171a763316dad47948346"
+      },
+      "archive": "numerical-data-archive/validation-shear.npz.gz",
+      "archive_record": {
+        "bytes": 1093,
+        "sha256": "10fb2a7a20e6da46d4ded463d88becd8d5a33f517ab83c41cc511cc771f072ae"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 18375,
+        "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+      }
+    },
+    {
+      "original": "numerical-runs/bench128/cost-output.npz",
+      "original_record": {
+        "bytes": 110381362,
+        "sha256": "879abfcf02088573f4294006b1ad49607399dcc33c6f607e2b4cd156914723ae"
+      },
+      "archive": "numerical-data-archive/bench128-cost-output.npz.gz",
+      "archive_record": {
+        "bytes": 35450209,
+        "sha256": "86fd05fe009108f6dbd5a37978474ccea2a6209784c60cb3c8c0008e4c80876a"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 17681,
+        "sha256": "ed8089868b3bcc916b0b66e936a5d7ce5cb7ead48234fb6dac878dbbf2442e8f"
+      }
+    },
+    {
+      "original": "numerical-runs/bench160/cost-output.npz",
+      "original_record": {
+        "bytes": 206326066,
+        "sha256": "89ea8e404a4d5659b12b9e7a31d7b106a2f8fc0d84f62cbecb7d78ff20add3e2"
+      },
+      "archive": "numerical-data-archive/bench160-cost-output.npz.gz",
+      "archive_record": {
+        "bytes": 64176946,
+        "sha256": "6847e3b55a1856bf1e6889be8eeba5d23c30185ee1c67c8bf655461221176e16"
+      },
+      "restoration_verified": true,
+      "execution_receipt": {
+        "bytes": 17681,
+        "sha256": "377af0bb2d4d0657ffd47ab1370e2f099181274ad0b24921528289b521d61f6f"
+      }
+    }
+  ],
+  "archive_wall_seconds": 3.253250333,
+  "restoration": "gzip-decompress each archive to original path only when absent; verify original byte count and SHA256. Never overwrite an existing run file."
+}

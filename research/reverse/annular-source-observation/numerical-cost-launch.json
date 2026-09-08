@@ -1,0 +1,18 @@
+{
+  "status": "COST_LAUNCH_GATES_ACCEPTED",
+  "checked_at_utc": "2026-09-08T20:44:35.928202+00:00",
+  "validation_execution_sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4",
+  "validation_result_sha256": "ec959e7f2ab3ac1f96f95bafbd0a13f3ff39748793914e35861d1b80ec3c61fe",
+  "validation_complete_directory_manifest_sha256": "1a457a2881d5e1fbcbd4ec4b99d9c15985e8d385d34f8a11e247028c758b6b33",
+  "root_actual_artifact_hashes_checked": true,
+  "memory_pressure_command": "memory_pressure -Q",
+  "actual_output": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 58%\n",
+  "required_free_percentage": 40,
+  "actual_free_percentage": 58,
+  "parallel_supervisors": 2,
+  "runs": [
+    "bench128",
+    "bench160"
+  ],
+  "science_count_completed_before_launch": 1
+}

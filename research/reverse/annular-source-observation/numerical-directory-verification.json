@@ -1,0 +1,23 @@
+{
+  "scope": "byte integrity metadata only",
+  "runs": [
+    {
+      "run_id": "validation",
+      "tool_stdout_complete_directory_manifest_sha256": "1a457a2881d5e1fbcbd4ec4b99d9c15985e8d385d34f8a11e247028c758b6b33",
+      "actual_rechecked_equal": true,
+      "total_bytes": 157095072
+    },
+    {
+      "run_id": "bench128",
+      "tool_stdout_complete_directory_manifest_sha256": "f265444718462266e815e286df02427ab774fd2f9aae1b229c3d937e89d140c5",
+      "actual_rechecked_equal": true,
+      "total_bytes": 110413073
+    },
+    {
+      "run_id": "bench160",
+      "tool_stdout_complete_directory_manifest_sha256": "a21e800f69ef05b9b39f703238659be6d9c12d594d7ea4b787d3440b2b8a170f",
+      "actual_rechecked_equal": true,
+      "total_bytes": 206357774
+    }
+  ]
+}

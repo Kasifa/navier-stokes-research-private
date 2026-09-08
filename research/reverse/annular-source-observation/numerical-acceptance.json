@@ -1,0 +1,300 @@
+{
+  "status": "ACCEPTED_FIXED_TESTS_AND_COST_ONLY",
+  "accepted_at_utc": "2026-09-08T20:56:29.633369+00:00",
+  "source_commit": "c8f2712fe0cc06d5ec91c014d5030f7f45889c90",
+  "root_review": "Root fully read final NUMERICAL_RESULT_REVIEW 57 lines, checked its source hashes and actual results against raw receipts; accepts its stated scope. Raw forming pending clauses are superseded by this record, not rewritten.",
+  "scientific_worker_executions": 3,
+  "prior_input_worker_executions": 2,
+  "total_annular_scientific_worker_executions": 5,
+  "trajectory_worker_executions": 0,
+  "science_reruns": 0,
+  "all_three_runs_closed": true,
+  "implementation_checks_passed": 44,
+  "FFT_batched_api_calls": 102,
+  "FFT_scalar_3d_transforms": 306,
+  "no_actual_NS_gate_or_error_certificate": true,
+  "cost_only_nonphysical_segment_state": true,
+  "independent_audit_is_not_blind_or_new_scientific_recomputation": true,
+  "raw_npz_preserved_locally_with_git_tracked_lossless_gzip": true,
+  "formal_release": false,
+  "new_figures": 0,
+  "new_pdfs": 0,
+  "bindings": [
+    {
+      "path": "research/reverse/annular-source-observation/.gitignore",
+      "bytes": 126,
+      "sha256": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "bytes": 3162,
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "bytes": 4491,
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "bytes": 3579,
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md",
+      "bytes": 1206,
+      "sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_DESIGN.md",
+      "bytes": 3193,
+      "sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_REVIEW.md",
+      "bytes": 4445,
+      "sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md",
+      "bytes": 2751,
+      "sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md",
+      "bytes": 6693,
+      "sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_RESULT.md",
+      "bytes": 4313,
+      "sha256": "e6220f0612140ea64cbdb0b7acd016542cb22de55dc2de321468c695521ebda3"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_RESULT_REVIEW.md",
+      "bytes": 8191,
+      "sha256": "c5c2fe53c32c898d1236211d03d76f897fb55aaed39066262d1c1fe2b2450d43"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md",
+      "bytes": 13250,
+      "sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "bytes": 12610,
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "bytes": 4523,
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md",
+      "bytes": 4273,
+      "sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md",
+      "bytes": 1884,
+      "sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "bytes": 11981,
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md",
+      "bytes": 6738,
+      "sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/archive_numerical_data.py",
+      "bytes": 3910,
+      "sha256": "6c79ca98093a1d0435e7269e23967a059843ad68f4d7e9c1dd2ba7d762724d6c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "bytes": 4968,
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "bytes": 133961,
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-cost-launch.json",
+      "bytes": 841,
+      "sha256": "6876748e8ca981d3a88df7eab7a39561491b7bd899ed9c1dd09ffc13c6541439"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/bench128-cost-output.npz.gz",
+      "bytes": 35450209,
+      "sha256": "86fd05fe009108f6dbd5a37978474ccea2a6209784c60cb3c8c0008e4c80876a"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/bench160-cost-output.npz.gz",
+      "bytes": 64176946,
+      "sha256": "6847e3b55a1856bf1e6889be8eeba5d23c30185ee1c67c8bf655461221176e16"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/manifest.json",
+      "bytes": 4382,
+      "sha256": "dd68302f7125cc7de04e26aa7c526a2bad9ea7de31f90b3c59fd2ec08f72bd9a"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/validation-H0-source.npz.gz",
+      "bytes": 452933,
+      "sha256": "deae86e4a8f9380dc0b7d754c0644efb042ba8489f17a7adb042f31f6ed71c49"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/validation-H1-source.npz.gz",
+      "bytes": 3610059,
+      "sha256": "5b639e3bea2e100350bbfbc2a54fd2d8fbed03a16d6e447aa75684736b13e545"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/validation-joint-source.npz.gz",
+      "bytes": 10993258,
+      "sha256": "15fb7d167bfcfc617887ac01c4220d53a5d837b0410bb396e10b15e91c0533ad"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-data-archive/validation-shear.npz.gz",
+      "bytes": 1093,
+      "sha256": "10fb2a7a20e6da46d4ded463d88becd8d5a33f517ab83c41cc511cc771f072ae"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-directory-verification.json",
+      "bytes": 766,
+      "sha256": "7e131fe3177ac67d80551101fa717b8dcfb9377166cc35dc0a9867da04c5f9b7"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-pre-run.json",
+      "bytes": 4285,
+      "sha256": "ab195ce392d69c6cb0ca988638bbffe1a2aa6a41d9bcb7b2f72f5de0ab2e1615"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/execution.json",
+      "bytes": 17681,
+      "sha256": "ed8089868b3bcc916b0b66e936a5d7ce5cb7ead48234fb6dac878dbbf2442e8f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/progress.jsonl",
+      "bytes": 1142,
+      "sha256": "bd74ed0cdcf1984cd13da26b6831bb9eadf501bfecb2fca85c3090542fce7830"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/result.json",
+      "bytes": 12599,
+      "sha256": "253b55106075cec07f42c74d8a386a46e12a935b8427e75a7766ecaad10dbdb1"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/stderr.log",
+      "bytes": 248,
+      "sha256": "1d1a1113a48e28c7b63e687688e37e09a3c9aec2067cf24f6d8c753c6fd71f66"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench128/stdout.log",
+      "bytes": 41,
+      "sha256": "5ad05264139fcc4f295aa9c9b5dd3e830e5f52fb52d3a6da4218aeeeb57552e3"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/execution.json",
+      "bytes": 17681,
+      "sha256": "377af0bb2d4d0657ffd47ab1370e2f099181274ad0b24921528289b521d61f6f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/progress.jsonl",
+      "bytes": 1142,
+      "sha256": "9d236fc5377185ec95c49780b20f91931640806eaeae14da64fc51c19e375aa4"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/result.json",
+      "bytes": 12596,
+      "sha256": "0afbed14a4e863b987c3bf723dda084a891f309a4a2924efebae6919a23fc4f1"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/stderr.log",
+      "bytes": 248,
+      "sha256": "1d1a1113a48e28c7b63e687688e37e09a3c9aec2067cf24f6d8c753c6fd71f66"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/bench160/stdout.log",
+      "bytes": 41,
+      "sha256": "2447b1241c2d54a2850318362a9fae745361f1c2bb97c6b25a64079655daefaf"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/H0-exact-reference.json",
+      "bytes": 55919,
+      "sha256": "a95c7ca9602f78645a3dc30fafd4e9f15ffb157d04ab48bb44f49c40bfb9c377"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/H1-exact-reference.json",
+      "bytes": 56237,
+      "sha256": "6da8e0f14fc65dcb9b3e1fff9a64a69457a26e8f5bc0059ec80667c05fd06ab2"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/execution.json",
+      "bytes": 18375,
+      "sha256": "1f200a6d622dd79c515b8aa73e457fbb1089a4679d42d9b844717da217a71ff4"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/joint-exact-reference.json",
+      "bytes": 207962,
+      "sha256": "5369ddbb57e1842aaf0f1e5f8717b8d87079de911c6572dd26b61a2ab461af46"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/progress.jsonl",
+      "bytes": 605,
+      "sha256": "0645f11158ec1ea07496376a56e826d534e92834c204aa34efccfb84472f7c09"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/result.json",
+      "bytes": 22684,
+      "sha256": "ec959e7f2ab3ac1f96f95bafbd0a13f3ff39748793914e35861d1b80ec3c61fe"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/stderr.log",
+      "bytes": 248,
+      "sha256": "1d1a1113a48e28c7b63e687688e37e09a3c9aec2067cf24f6d8c753c6fd71f66"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/stdout.log",
+      "bytes": 43,
+      "sha256": "fd6fde528dbb38b0d0a7b384714f4a651dd19926a5e9fbb9ccaa247e171314ff"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/validation/toy-evidence.json",
+      "bytes": 52701,
+      "sha256": "d4262f0cbee25ac6fdfbb32467697095519363904f64d129ae33f72fa5f83f8f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-source-lock.json",
+      "bytes": 3884,
+      "sha256": "060e72f189c2b6ecade7b6425509f68c2efb6d056b4f71e25b76c91fdb5ce3d2"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_experiment.py",
+      "bytes": 20606,
+      "sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "bytes": 14407,
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_reference.py",
+      "bytes": 12305,
+      "sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_numerical.py",
+      "bytes": 18082,
+      "sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987"
+    }
+  ],
+  "next_scope": "Review and finalize separate four-trajectory contract and implementation; existing closed run contract gives no permission to reuse these run IDs."
+}

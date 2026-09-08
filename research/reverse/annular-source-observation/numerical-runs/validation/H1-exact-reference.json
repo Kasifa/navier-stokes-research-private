@@ -1,0 +1,2795 @@
+{
+  "scope": "fixed-fixture ordered convolution reference, no NS certificate",
+  "arithmetic": "Fraction real/imaginary pairs until final complex conversion",
+  "ordered_pair_count": 16,
+  "input_modes": [
+    {
+      "k": [
+        -15,
+        -1,
+        0
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-1",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-15",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "15",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-1",
+            "denominator": "32"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        -14,
+        0,
+        -1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-7",
+            "denominator": "8"
+          },
+          "imaginary": {
+            "numerator": "-7",
+            "denominator": "32"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        14,
+        0,
+        1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-7",
+            "denominator": "8"
+          },
+          "imaginary": {
+            "numerator": "7",
+            "denominator": "32"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        15,
+        1,
+        0
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-15",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-15",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "32"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    }
+  ],
+  "all_ordered_terms": [
+    {
+      "p": [
+        -15,
+        -1,
+        0
+      ],
+      "q": [
+        -15,
+        -1,
+        0
+      ],
+      "k": [
+        -30,
+        -2,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 904,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -15,
+        -1,
+        0
+      ],
+      "q": [
+        -14,
+        0,
+        -1
+      ],
+      "k": [
+        -29,
+        -1,
+        -1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "-15",
+          "denominator": "16"
+        },
+        "imaginary": {
+          "numerator": "15",
+          "denominator": "32"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "-135",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "15",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-135",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "15",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "945",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-105",
+            "denominator": "512"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "135",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "-15",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 843,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "-17055",
+            "denominator": "575488"
+          },
+          "imaginary": {
+            "numerator": "1895",
+            "denominator": "287744"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-37215",
+            "denominator": "575488"
+          },
+          "imaginary": {
+            "numerator": "4135",
+            "denominator": "287744"
+          }
+        },
+        {
+          "real": {
+            "numerator": "265905",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-29545",
+            "denominator": "143872"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "1895",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "17055",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "4135",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "37215",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-29545",
+            "denominator": "143872"
+          },
+          "imaginary": {
+            "numerator": "-265905",
+            "denominator": "287744"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -15,
+        -1,
+        0
+      ],
+      "q": [
+        14,
+        0,
+        1
+      ],
+      "k": [
+        -1,
+        -1,
+        1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "15",
+          "denominator": "16"
+        },
+        "imaginary": {
+          "numerator": "-15",
+          "denominator": "32"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "105",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "105",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-735",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "315",
+            "denominator": "512"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "-105",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "45",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 3,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "-455",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-455",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-455",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "512"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "455",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "455",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "512"
+          },
+          "imaginary": {
+            "numerator": "455",
+            "denominator": "1024"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -15,
+        -1,
+        0
+      ],
+      "q": [
+        15,
+        1,
+        0
+      ],
+      "k": [
+        0,
+        0,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 0,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -14,
+        0,
+        -1
+      ],
+      "q": [
+        -15,
+        -1,
+        0
+      ],
+      "k": [
+        -29,
+        -1,
+        -1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "-1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "-1",
+          "denominator": "4"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "-9",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "135",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "-15",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-9",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "135",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "-15",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 843,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "-153",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "17",
+            "denominator": "2248"
+          }
+        },
+        {
+          "real": {
+            "numerator": "9495",
+            "denominator": "8992"
+          },
+          "imaginary": {
+            "numerator": "-1055",
+            "denominator": "4496"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-621",
+            "denominator": "8992"
+          },
+          "imaginary": {
+            "numerator": "69",
+            "denominator": "4496"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "17",
+            "denominator": "2248"
+          },
+          "imaginary": {
+            "numerator": "153",
+            "denominator": "4496"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-1055",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "-9495",
+            "denominator": "8992"
+          }
+        },
+        {
+          "real": {
+            "numerator": "69",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "621",
+            "denominator": "8992"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -14,
+        0,
+        -1
+      ],
+      "q": [
+        -14,
+        0,
+        -1
+      ],
+      "k": [
+        -28,
+        0,
+        -2
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 788,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -14,
+        0,
+        -1
+      ],
+      "q": [
+        14,
+        0,
+        1
+      ],
+      "k": [
+        0,
+        0,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 0,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        -14,
+        0,
+        -1
+      ],
+      "q": [
+        15,
+        1,
+        0
+      ],
+      "k": [
+        1,
+        1,
+        -1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "1",
+          "denominator": "4"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "7",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "3",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-105",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "7",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "3",
+            "denominator": "64"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "-105",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "-45",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 3,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "21",
+            "denominator": "64"
+          },
+          "imaginary": {
+            "numerator": "9",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-35",
+            "denominator": "64"
+          },
+          "imaginary": {
+            "numerator": "-15",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-7",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "-3",
+            "denominator": "16"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "9",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "-21",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-15",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "35",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-3",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "7",
+            "denominator": "32"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        14,
+        0,
+        1
+      ],
+      "q": [
+        -15,
+        -1,
+        0
+      ],
+      "k": [
+        -1,
+        -1,
+        1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "-1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "1",
+          "denominator": "4"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "-7",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "3",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "105",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-7",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "3",
+            "denominator": "64"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "-105",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "45",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 3,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "-21",
+            "denominator": "64"
+          },
+          "imaginary": {
+            "numerator": "9",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "35",
+            "denominator": "64"
+          },
+          "imaginary": {
+            "numerator": "-15",
+            "denominator": "32"
+          }
+        },
+        {
+          "real": {
+            "numerator": "7",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "-3",
+            "denominator": "16"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "9",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "21",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-15",
+            "denominator": "32"
+          },
+          "imaginary": {
+            "numerator": "-35",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-3",
+            "denominator": "16"
+          },
+          "imaginary": {
+            "numerator": "-7",
+            "denominator": "32"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        14,
+        0,
+        1
+      ],
+      "q": [
+        -14,
+        0,
+        -1
+      ],
+      "k": [
+        0,
+        0,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 0,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        14,
+        0,
+        1
+      ],
+      "q": [
+        14,
+        0,
+        1
+      ],
+      "k": [
+        28,
+        0,
+        2
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 788,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        14,
+        0,
+        1
+      ],
+      "q": [
+        15,
+        1,
+        0
+      ],
+      "k": [
+        29,
+        1,
+        1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "-1",
+          "denominator": "4"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "9",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-135",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "-15",
+            "denominator": "64"
+          }
+        },
+        {
+          "real": {
+            "numerator": "9",
+            "denominator": "128"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "135",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "15",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 843,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "153",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "17",
+            "denominator": "2248"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-9495",
+            "denominator": "8992"
+          },
+          "imaginary": {
+            "numerator": "-1055",
+            "denominator": "4496"
+          }
+        },
+        {
+          "real": {
+            "numerator": "621",
+            "denominator": "8992"
+          },
+          "imaginary": {
+            "numerator": "69",
+            "denominator": "4496"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "17",
+            "denominator": "2248"
+          },
+          "imaginary": {
+            "numerator": "-153",
+            "denominator": "4496"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-1055",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "9495",
+            "denominator": "8992"
+          }
+        },
+        {
+          "real": {
+            "numerator": "69",
+            "denominator": "4496"
+          },
+          "imaginary": {
+            "numerator": "-621",
+            "denominator": "8992"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        15,
+        1,
+        0
+      ],
+      "q": [
+        -15,
+        -1,
+        0
+      ],
+      "k": [
+        0,
+        0,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 0,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        15,
+        1,
+        0
+      ],
+      "q": [
+        -14,
+        0,
+        -1
+      ],
+      "k": [
+        1,
+        1,
+        -1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "-15",
+          "denominator": "16"
+        },
+        "imaginary": {
+          "numerator": "-15",
+          "denominator": "32"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "-105",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-105",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "-45",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "735",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "315",
+            "denominator": "512"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "-105",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "-45",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 3,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "455",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "455",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "455",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "195",
+            "denominator": "512"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-455",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-455",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "195",
+            "denominator": "512"
+          },
+          "imaginary": {
+            "numerator": "-455",
+            "denominator": "1024"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        15,
+        1,
+        0
+      ],
+      "q": [
+        14,
+        0,
+        1
+      ],
+      "k": [
+        29,
+        1,
+        1
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "15",
+          "denominator": "16"
+        },
+        "imaginary": {
+          "numerator": "15",
+          "denominator": "32"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "135",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "15",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "135",
+            "denominator": "2048"
+          },
+          "imaginary": {
+            "numerator": "15",
+            "denominator": "1024"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-945",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-105",
+            "denominator": "512"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "135",
+          "denominator": "128"
+        },
+        "imaginary": {
+          "numerator": "15",
+          "denominator": "64"
+        }
+      },
+      "k_squared": 843,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "17055",
+            "denominator": "575488"
+          },
+          "imaginary": {
+            "numerator": "1895",
+            "denominator": "287744"
+          }
+        },
+        {
+          "real": {
+            "numerator": "37215",
+            "denominator": "575488"
+          },
+          "imaginary": {
+            "numerator": "4135",
+            "denominator": "287744"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-265905",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-29545",
+            "denominator": "143872"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "1895",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-17055",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "4135",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-37215",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-29545",
+            "denominator": "143872"
+          },
+          "imaginary": {
+            "numerator": "265905",
+            "denominator": "287744"
+          }
+        }
+      ]
+    },
+    {
+      "p": [
+        15,
+        1,
+        0
+      ],
+      "q": [
+        15,
+        1,
+        0
+      ],
+      "k": [
+        30,
+        2,
+        0
+      ],
+      "bilinear_fp_dot_q": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "raw_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_raw": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "k_squared": 904,
+      "Leray_projected_vector": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "minus_i_projected_term": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "output_exact": [
+    {
+      "k": [
+        -30,
+        -2,
+        0
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        -29,
+        -1,
+        -1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "4071",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "36639",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-63385",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-570465",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-27337",
+            "denominator": "143872"
+          },
+          "imaginary": {
+            "numerator": "-246033",
+            "denominator": "287744"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        -28,
+        0,
+        -2
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        -1,
+        -1,
+        1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "483",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "1127",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-285",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-665",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "99",
+            "denominator": "512"
+          },
+          "imaginary": {
+            "numerator": "231",
+            "denominator": "1024"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        1,
+        1,
+        -1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "483",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "-1127",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-285",
+            "denominator": "1024"
+          },
+          "imaginary": {
+            "numerator": "665",
+            "denominator": "2048"
+          }
+        },
+        {
+          "real": {
+            "numerator": "99",
+            "denominator": "512"
+          },
+          "imaginary": {
+            "numerator": "-231",
+            "denominator": "1024"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        28,
+        0,
+        2
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        29,
+        1,
+        1
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "4071",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "-36639",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-63385",
+            "denominator": "287744"
+          },
+          "imaginary": {
+            "numerator": "570465",
+            "denominator": "575488"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-27337",
+            "denominator": "143872"
+          },
+          "imaginary": {
+            "numerator": "246033",
+            "denominator": "287744"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    },
+    {
+      "k": [
+        30,
+        2,
+        0
+      ],
+      "coefficient": [
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "k_dot_coefficient": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      }
+    }
+  ],
+  "zero_mode_convention": "explicitly zero",
+  "unlisted_output_labels": "exactly zero",
+  "floating_output_is_not_an_interval_enclosure": true
+}

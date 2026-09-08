@@ -1,0 +1,2 @@
+# Immutable raw arrays are retained locally; lossless gzip copies and restoration hashes are tracked.
+/numerical-runs/*/*.npz
