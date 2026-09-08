@@ -1,0 +1,40 @@
+{
+  "status": "ACCEPTED_TWO_LINEAR_BRANCH_OBSTRUCTION_AND_SAME_DATA_LOCAL_SOURCE_RATIO",
+  "files_sha256": {
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md": "e8816e54ced5050ca5e2736f081825237edc828b71096a4a4241f660c330089d",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_ANALYSIS.md": "54a62b99cb646d78bc42e8dc8829fa09e82625c623ee71bc416fa789c01d8b60",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_REVIEW.md": "cb2b0dcae50aa917c6f0468427093083b0fe0c1ae4cbae654567aaa133200dfe",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_INDEPENDENT.md": "3c13790314a2785b4d4ba8edd88555b6c50f86211093e22f128b937932a874a5",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_INDEPENDENT_REVIEW.md": "05941b915b8c6e2d5a52206d248ed5d61b2dc4e78b0f8128452e181d487aaf01",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO.md": "ff52531d6e1b5563c99504aba8e6b6e4e5afce77b76e7e286e74d397c3d610c5",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO_REVIEW.md": "7efeab3289aecebd1fb5d69551585d63497c1dbd48557a18154c0d3c6a26419e",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md": "3dba89eec10784edf5ab45bd3019bce131795d0bd0b7f705ca95a08f4a03a322",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION_REVIEW.md": "a19a631ff650c4dce7160fa672caf6d2e772c618414370e7c4f3544a37c59f1a",
+    "research/reverse/three-edge-compatibility/TWO_LINEAR_SOURCE_COROLLARY.md": "4824a946c9301fcfe9fbf02629d30dc54d396927c010f665043b3ca890461009",
+    "research/reverse/three-edge-compatibility/TWO_LINEAR_SOURCE_REVIEW.md": "8f7892d0033d43edeb0ccf1ad6cce9e75345ec8c208ab7b2b69106f7fe5223a5",
+    "research/reverse/three-edge-compatibility/ROOT_FOLLOWUP_REVIEW.md": "79aed0d1172e92b90b1fc8aea33aa65b92619f58ca4207d91a4ee628880c1264"
+  },
+  "root_actual_final_full_read": true,
+  "one_elliptic_main_author": "coherence_independent_resumed",
+  "one_elliptic_independent_author": "coherence_review_resumed",
+  "one_elliptic_non_author_reviews": "The two authors reviewed the other final proof only after independently completing their own; identities and later reads disclosed.",
+  "ratio_extension_corollary_author": "root",
+  "ratio_extension_corollary_non_author_review": "coherence_independent_audit",
+  "unresolved_within_accepted_claims": [],
+  "scope": "Exactly two linear seeds are excluded from total cubic mixed cancellation in the original nonorthogonal distinct-length active triangle. A more general two-linear-sender longest-row lemma uses no reverse-beta constraint. Each datum in exactly-two-linear branch has complete W0,M0 nonzero and explicit same-solution local source ratio bound.",
+  "remaining_types": [
+    "all linear",
+    "all polarization areas nonzero",
+    "only shortest seed linear"
+  ],
+  "scientific_programs_run": 0,
+  "new_actual_initial_datum": false,
+  "numerical_arrays_read": false,
+  "candidate_accepted": false,
+  "local_infinite_dimensional_remainder_paid": true,
+  "uniform_cross_generation_remainder_paid": false,
+  "old_failed_evidence_repaired": false,
+  "figures": [],
+  "formal_release": false,
+  "publication_handoff_performed": false
+}
