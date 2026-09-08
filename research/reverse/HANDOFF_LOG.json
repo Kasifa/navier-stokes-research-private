@@ -79,6 +79,32 @@
       "sent_time_note": "Actual tool confirmed earlier in this goal turn; exact dispatch timestamp was not retained in this receipt. This is a record, not a resend.",
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-HelicalJointReturn",
+      "source_commit": "c6900720c065c94217d3f269eafe20592b00058e",
+      "freeze_commit": "4cde694e4c0d13980c54a00dea45f258c171a1df",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T00:06:18.380959+00:00",
+      "sent_time_note": "Actual send_message tool success in this goal turn; record timestamp is not asserted to be exact dispatch timestamp. No resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260908-TrueBandSupply",
+      "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+      "freeze_commit": "a5f2496c98456853721e5779626e7f6d6b887c78",
+      "target": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-08T02:49:51.064226+00:00",
+      "sent_time_note": "Successful send_message tool immediately preceded this receipt; exact tool dispatch timestamp not asserted. No resend.",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
