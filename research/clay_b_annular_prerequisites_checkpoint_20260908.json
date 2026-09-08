@@ -1,0 +1,40 @@
+{
+  "internal_id": "ClayB-AnnularPrerequisites-20260908",
+  "status": "PREREQUISITE_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "f4ae4217fd7c783613abceab0fe93e35edf7ff2d",
+  "previous_goal_turn_classification": "PROGRESS",
+  "previous_progress_evidence": "Bounded two-source screen committed at the base commit and forward resume index verified.",
+  "scientific_section_completed": false,
+  "new_scientific_freeze": false,
+  "handoff_sent": false,
+  "last_scientific_release_unchanged": "ClayB-PressureFreeShapeCriterion-20260908",
+  "note": "research/clay_b_annular_propagation_prerequisites_20260908.md",
+  "note_sha256": "160bd1c01520c55a435a847a321b2b800e58f52b384666340528690333c603f7",
+  "source": "https://arxiv.org/html/2510.20757v3#S4",
+  "source_read_scope": "Propositions 16 and 17 complete statements; Proposition 18 complete statement and proof through (4.50) and its ending; not all external Carleman or bootstrap proofs.",
+  "findings": [
+    "A sufficient finite regularity envelope for the local proof was explicitly checked; the original solution's quantitative bounds and seed have not been derived.",
+    "Fixed M and beta with unmodified output-to-seed recursion allow only finitely many geometrically admissible steps; this does not rule out reseeding or other parameter choices.",
+    "The outer annulus grows while the inner radius shrinks and the forward clock grows; periodic lifting remains a local PDE solution but can count single-cell costs repeatedly.",
+    "Full original two-scale energy and gradient entropy balances do not acquire a contraction merely by subtraction; both slices, transport, pressure, cutoffs and appropriate defects remain.",
+    "The previously established fixed thin regular annulus is not a new result and does not supply the quantitative wide-envelope conditions."
+  ],
+  "unconditional_dynamical_input_accepted": false,
+  "candidate_status": "NO-CANDIDATE",
+  "next_action": "Perform one bounded mechanism-selection check on the still uncontrolled signed terms of the same original NS evolution. Require a specific estimate with actual solution, centre, time, scale and parameter quantifiers and an explicit success/failure test that differs from previously checked branches before beginning a new derivation. Any new literature input must reduce an unpaid condition, not assume critical bounds, persistence or regularity envelopes again. Do not repeat the completed Prop18 fixed-parameter recursion, MA acceleration-square/q, VR normalized reference absorption, old fixed thin annulus, common-adjoint or persistence rewrites, or the previous exponent check. No new candidate is accepted by this checkpoint, and no unexecuted plan counts as progress.",
+  "open_items": [
+    "Produce a prescribed-centre joint A+E bound and sufficiently small K scale for arbitrary admissible evolution.",
+    "No derived quantitative annular regularity envelope, seed or independent nonsummable shape cost is available from this local propagation check.",
+    "No new unconditional dynamical input has yet passed the stated selection test.",
+    "General three-dimensional Navier-Stokes and the Clay problem remain unresolved."
+  ],
+  "finite_arithmetic_check_count": 40,
+  "finite_arithmetic_scope": "Four exact rational geometry identities and twelve finite recurrence evaluations of three formulas; not a proof for all indices, a PDE computation or a scientific-case count.",
+  "simulation": false,
+  "dgx": false,
+  "scientific_figures": [],
+  "new_reader_pdf": false,
+  "recap_required": false,
+  "is_clay_result": false
+}
