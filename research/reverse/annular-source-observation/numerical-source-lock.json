@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "scope": "Fixed implementation validation and two separately gated cost workers; no trajectory authorization",
+  "bindings": [
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_EXECUTION_CONTRACT.md",
+      "sha256": "eee7c787aa17a939da9adb6fdab72a83e053e50d1d3f10e8a757287240382052"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/NUMERICAL_REVIEW.md",
+      "sha256": "0f1ccdee4c4a9128706f2191e9f4a271d1a4350f1649a61dae11b71f0506fb55"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_NUMERICAL_STATIC.md",
+      "sha256": "0dc1d7459fbc3ec7b333d8ad48ba89d3274a4849bcf565a94eb6094b581ca232"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_reference.py",
+      "sha256": "ebc936f5eefd5804ace40c7e821e424aa6b703294ebbe259fbad2c7e4848d46c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_experiment.py",
+      "sha256": "f5c4900d33f710e836d09187c5a10bb229d2932c724d2287a05a7259620f8cee"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_numerical.py",
+      "sha256": "0ed3c383fca00253af2970665078be9e390da36fb21c684d67a92b75aeacc987"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/OBSERVATION_REVIEW.md",
+      "sha256": "fd7e99903e975fdf987d6649e6c9b9ace96b03482804c7a8afe7dab52c12a3de"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_DESIGN.md",
+      "sha256": "5ca6765e3f2b31ac0a7a21dba8156cc94d1e3610802338e2879abc6691e7223e"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_REVIEW.md",
+      "sha256": "40b7086b0c7095e8c54bb1fea51caaf6261da726de7a9b0bf6b81494232ea138"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_ACCEPTANCE.md",
+      "sha256": "7a455035feace94c077fced56407a71487900567402e8a67e2009a31801f3075"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_REVIEW.md",
+      "sha256": "496c075e5ad2ad4aa9fdf618fe235b97694bc98cc39c6c8f0c92ce3fbc64eab5"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/ROOT_TIME_SELECTION.md",
+      "sha256": "8402b3854342062c4c3347a58f4dbf130ccac268ed1767318199375634b86dbe"
+    },
+    {
+      "path": "research/reverse/annular-source-observation/KERNEL_TEST_DRAFT.md",
+      "sha256": "ebfb3ba36d8773cffe4569045b984104d115afdae88e3b8160a4a250d547c66d"
+    }
+  ]
+}
