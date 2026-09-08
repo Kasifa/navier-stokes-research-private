@@ -1,0 +1,90 @@
+{
+  "release_id": "ClayB-EmptyWedgePressureObstruction-20260908",
+  "logical_predecessor": "ClayB-DisjointShearRankGeneration-20260908",
+  "privacy": "PRIVATE_CORE",
+  "requested_channels": ["PRIVATE_ARCHIVE"],
+  "public_overview_requested": false,
+  "status": "RESEARCH_FREEZE_COMPLETE",
+  "base_commit": "4ba3c32b84235d55ec417c131b8e94f7fc3ca35b",
+  "source_commit": "ba15b9850d487edf22dc70a3219d52baad528ccb",
+  "is_clay_result": false,
+  "candidate_status": "REFUTED_IN_STATED_SCOPE",
+  "scientific_classification": [
+    "SIGNED ORIGINAL-PRESSURE PAIRING COUNTEREXAMPLE",
+    "SMOOTH PERIODIC INITIAL DATA",
+    "ZERO-SET INITIAL-TIME LIMIT",
+    "NOT CLAY"
+  ],
+  "claims": [
+    "存在光滑、无散、均值零的三维周期初值族，使用同一速度自己的 B0=G/|G| 和规范压力，|integral B0:(G²+H)|≥c log(1/delta)，而 ||G||2≤C sqrt(log(1/delta))、0<||d||2≤C。故原整胞联合源的统一线性缺陷界不成立；不是仅否定压力L1加强版。",
+    "固定零梯度角区和幅度delta的无散应变探针给非零角系数 J=-2sqrt(2)sin(2alpha)。周期压力的完整内外层余项为O(1)，探针压力修正为o(1)，二维无散块的惯性配对逐点为零；三维积分与两个L2范数的乘积均乘2pi，各范数各乘sqrt(2pi)。",
+    "B0在零梯度集不连续。两条独立初值u0与-u0的原NS解给初端极限 I(u0)-J0 与 -I(u0)-J0，J0=integral_{G0=0}|H0|。因此只要求全体局部光滑解的严格正时间也不能恢复统一界；不声称反检时刻有共同正下界。",
+    "本族完整静态黏性成本 Lambda_delta=-integral B0:Delta G 包含正则化的全部零集贡献，满足 Lambda_delta约为delta^-1，故 |I|/(nu Lambda_delta)趋零。此反例不否定原黏性吸收，也不是一般吸收定理。"
+  ],
+  "limitations": [
+    "未证明任意三维初值正则性、奇性或沿同一演化的指定中心共同 A+E 与小 K 尺度；PF仍仅是条件出口。",
+    "反例改变初值和内核尺度，不是单解奇异终端，也未证明固定共同正龄窗口或全时间累计反例。",
+    "含原完整耗散、导数、局部截止与真实时间演化的估计未被排除；EWP静态成本校准不能代替累计控制。",
+    "有限检索和AI审查不是原创性、期刊价值或真人同行评审认证。"
+  ],
+  "files": [
+    {
+      "path": "research/clay_b_empty_wedge_pressure_obstruction_20260908.md",
+      "bytes": 14377,
+      "sha256": "fe400890986f594f446544a0f7567d05170be54f2026819666b25943cb541636"
+    },
+    {
+      "path": "research/clay_b_empty_wedge_pressure_audit_20260908.md",
+      "bytes": 5263,
+      "sha256": "a7fe6aa3e4814fa34f59a737a4043f510017fd6e0e5c35f12012fcbdbbaa640f"
+    },
+    {
+      "path": "research/clay_b_empty_wedge_pressure_checkpoint_20260908.json",
+      "bytes": 3437,
+      "sha256": "e32e0f6b791c9a4313001d3c57694d6dbc97ca5e8d08f61864f1218506678d9d"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/clay_b_disjoint_shear_rank_generation_20260908.md",
+      "bytes": 11939,
+      "sha256": "850c9461bb90dde06938247e13e5c71be5db4b1a513e141fa55d8d1d738e6a1b",
+      "source_commit": "bd4fba22fe2a9573179a14aca10a80a3cfa3ab1d",
+      "kind": "LOGICAL_CONTEXT_ONLY",
+      "scope": "前节提出本次待检源界，既有冻结原样保留。EWP不导入其秩生成或缺陷测度结论作为证明引理；新主稿自证构造、压力、初端极限和静态成本。"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/html/1108.1165v4#S5",
+      "title": "Terence Tao, Localisation and compactness properties of the Navier-Stokes global regularity problem",
+      "version": "arXiv:1108.1165v4",
+      "scope": "主任务、good_scale_route_comparison、variable_reference_check实际核读Theorem 5.1全部陈述及证明；仅用经典周期局部存在、唯一性和闭初端光滑性，不认证整篇论文。ma_freeze_review未认领本轮新增原文阅读。",
+      "whole_paper_certified": false
+    }
+  ],
+  "qa": {
+    "status": "PASS_IN_STATED_SCOPE",
+    "audit": "research/clay_b_empty_wedge_pressure_audit_20260908.md",
+    "mathematical_review": "主任务与variable_reference_check参与核心构造，good_scale_route_comparison复算关键模块后全文读初稿；三者的初稿全文及最终增量审查范围见审查记录。ma_freeze_review未参与开楔探针核心构思，全文读初稿并核对最终全部差异，绑定最终252行14377 B主稿SHAfe400890986f594f446544a0f7567d05170be54f2026819666b25943cb541636，PASS；其本人提出§8量词引理，因此整稿不能称完全非参与者审查。全部为AI辅助，不是真人同行评审。",
+    "record_review": "主任务与ma_freeze_review全文核对审查记录、检查点和初版清单，严格JSON无重复键，4 claims/4 open及下一步一致，3源与1上下文对象匹配。随后按建议把claim 2明确成两个L2范数的乘积同乘2pi、各范数各乘sqrt(2pi)，主稿和审查记录原已准确；最终差异与清单绑定复核保存于一次移交记录，不预写未执行回执。",
+    "structural_checks": "23个顺序唯一公式标号、25对展示公式，无异常控制字符；三个科学源文件的staged whitespace检查通过。结构检查不替代数学证明，不是数值证书或科学案例。",
+    "source_files_match_commit": true,
+    "numerical_certificate_required": false,
+    "numerical_certificate_run": false,
+    "new_output_visual_qa": false
+  },
+  "scientific_figures": [],
+  "figure_reason": "纯解析反例及成本校准，没有需要归档的数值实验或科学图。",
+  "simulation": false,
+  "dgx": false,
+  "recap": {
+    "update_required": false,
+    "reason": "完成一个具体源界的否定与适用范围校准，未得到自动好尺度或全局结论，不强写逐节回顾。"
+  },
+  "preservation_note": "既有PF、SRG及其他冻结原样保留；纯径向旋流、兼容距离与新文献筛选是本候选的内部检验过程，不另计科学小节或重复移交。",
+  "publication_boundary": "仅一次交固定发布任务作PRIVATE_ARCHIVE。无公开概要、论文选择、翻译、统计、读者HTML/PDF、重上线或仓库权限请求；研究不push、不检查归档或发布执行。本地48小时、公开168小时且暂停、私有即时归档的三渠道安排保持不变。",
+  "next_research_plan": "从实际演化检验含原完整mu_G耗散的时间累计式。EWP.22–23的静态Lambda约delta^-1已经完成，不重复核算为新小节。先在EWP同一解上区分小内核快速扩散时段与外尺度时段，保留原梯度模长平衡的两切片、完整压力、输运和零集，核查对数源能持续多久；不把初始静态下界直接乘固定时间，不默认共同正龄窗口。不得重提已否定的不含耗散q×d源界、自动兼容投影或MA已失败的加速度平方余项。若只是重现已有累计预算且没有新的严格尺度增益，记录缺口并重选动力学输入；不检查发布或反向执行。",
+  "next_test_candidate_selected": true,
+  "next_concrete_dynamical_input_accepted": false
+}
