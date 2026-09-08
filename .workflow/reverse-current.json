@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "B once completed after f49ebe2a, raw6fd933eb saved cf524c65: two simple real roots, both rank1/fullC nonzero; fixed root0 in(-75/32,-125/64] selected. New original-row amplitudes and positive rational mainT certified by primary. C must independently recompute all six root coefficients and verify every gcd/Sturm/root/normalization/mainT certificate. C3dd76eea+design4ca0 saved as preparation in cf524c65. Hume authorized only to read B and prepare final C adapter, no execution. Final C source/static review/Git and unique run still required. Never rerun A/B.",
+  "next_action": "C final source4ba2278b and static review8854c440 author/nonauthor/root fully read. This checkpoint precedes its sole run. Save final code and review in Git, verify objects, then separately authorize one C run with that source commit. No A/B rerun. C failure stops without replacement. Next structural-only question1841a9e2 is separate, no coefficients/8-leaf run and excluded from current package.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
@@ -47,7 +47,12 @@
     "research/reverse/cyclic-six-carrier/PROOF.md",
     "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json",
     "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md",
-    "research/reverse/cyclic-six-carrier/SOURCES.md"
+    "research/reverse/cyclic-six-carrier/SOURCES.md",
+    "research/reverse/cyclic-six-carrier/STAGE_C_INDEPENDENT.md",
+    "research/reverse/cyclic-six-carrier/STAGE_C_ROOT_READ.md",
+    "research/reverse/CHECKPOINT.md",
+    "research/reverse/cyclic-six-carrier/EXPERIMENTS.md",
+    "research/reverse/cyclic-six-carrier/STAGE_C_CODE_REVIEW.md"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -76,13 +81,18 @@
     "research/reverse/cyclic-six-carrier/STAGE_B_GATE_REVIEW.md": "7353d8262ae4d962ebca2d0dba7b9e8e06e83afb19e3aa4ffe383a5d26a530a8",
     "research/reverse/cyclic-six-carrier/STAGE_B_ROOT_READ.md": "9f9e152732f0d712dfbbaf3baa19c9c542d9801d80999aaa5db4d8aec4753734",
     "research/reverse/cyclic-six-carrier/exact-roots-output.json": "6fd933ebd18bdf8b129f7cabdbf1f02438de3fd95f9720b18e41887815f31bcb",
-    "research/reverse/cyclic-six-carrier/verify_cyclic.py": "3dd76eea01c80ad425f85686526185b30d00b7afc25096bb5b0c0434ffaad450",
-    "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md": "4ca0d90f34de8204a4663572c3374581fa4c74203c62ea904b9d74866cdc186b",
+    "research/reverse/cyclic-six-carrier/verify_cyclic.py": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec",
+    "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md": "b67654b7603fba0bce451783d2218ddcb8b21012b7045eb3d0335229f9c2328a",
     "research/reverse/cyclic-six-carrier/ALGEBRA_B.md": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
     "research/reverse/cyclic-six-carrier/PROOF.md": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
     "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json": "1ae170485778ce696d20060d214118b774d91bde3948935d2dc0ff79aaa9c36c",
     "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03",
-    "research/reverse/cyclic-six-carrier/SOURCES.md": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074"
+    "research/reverse/cyclic-six-carrier/SOURCES.md": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074",
+    "research/reverse/cyclic-six-carrier/STAGE_C_INDEPENDENT.md": "d143b9ba531926723dd13c132e88c64faf672c7412a6ae44b2b35c8f1f1cb60f",
+    "research/reverse/cyclic-six-carrier/STAGE_C_ROOT_READ.md": "61b20faec206fedf7308e35b3d54dffeb29895c0253ebbf3c9d953f77452486e",
+    "research/reverse/CHECKPOINT.md": "ef32b92ced7ab9d8af4ab7f421ad9e49f286c81cd25fc347169e1ce1b14beaf8",
+    "research/reverse/cyclic-six-carrier/EXPERIMENTS.md": "9fd433fc84b3d2e03ce17905c0446d48a9429a3370d6c6b57f03ba021a70155e",
+    "research/reverse/cyclic-six-carrier/STAGE_C_CODE_REVIEW.md": "8854c440d796c4bf1edac9820fc66cbb7db264839d11436ee97068e6a4b12e54"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -1230,7 +1240,7 @@
     "stage_B_implementation_gate": "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md",
     "stage_B_code_status": "EXECUTED_ONCE_COMPLETED",
     "application_conditional_review": "PASS_909e9fab_ROOT_FULL_READ",
-    "stage_C_code_status": "A_ADAPTER_PREPARED_3dd76eea_ROOT_FULL_READ_B_ADAPTER_PENDING_NOT_EXECUTED",
+    "stage_C_code_status": "FINAL_STATIC_PASS_8854c440_ROOT_FULL_READ_PRE_RUN_SAVE_NOT_EXECUTED",
     "root_comparison": "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md",
     "stage_B_code_sha256": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
     "stage_B_static_review_sha256": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
@@ -1271,7 +1281,11 @@
     "concrete_proof_review_sha256": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03",
     "root_proof_review_full_read": true,
     "sources_note": "research/reverse/cyclic-six-carrier/SOURCES.md",
-    "sources_note_sha256": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074"
+    "sources_note_sha256": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074",
+    "stage_C_code_sha256": "4ba2278bb372383cc8e6cfe8f8006f051271898cc8b11279828a73ce5a06e6ec",
+    "stage_C_root_read": "research/reverse/cyclic-six-carrier/STAGE_C_ROOT_READ.md",
+    "stage_C_static_review_sha256": "8854c440d796c4bf1edac9820fc66cbb7db264839d11436ee97068e6a4b12e54",
+    "stage_C_executions": 0
   },
   "cyclic_checkpoint_write_note": "An earlier metadata-only stdin script failed parsing before any writes; cf524c65 nevertheless saved B raw output and prepared C files. This ASCII-only metadata repair does not execute science or change A/B evidence."
 }
