@@ -45,7 +45,9 @@
     "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md",
     "research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
     "research/reverse/cyclic-six-carrier/PROOF.md",
-    "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json"
+    "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json",
+    "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md",
+    "research/reverse/cyclic-six-carrier/SOURCES.md"
   ],
   "required_file_sha256": {
     "research/reverse/cyclic-six-carrier/CONTRACT.md": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
@@ -67,7 +69,7 @@
     "research/reverse/cyclic-six-carrier/APPLICATION_REVIEW.md": "909e9fab28529f74aa66dc92a9790a3669b791a55ffd2b7709e3ff412b515c1f",
     "research/reverse/cyclic-six-carrier/ROOT_METHOD_PREFLIGHT.md": "2fb88e7166ee62fa1b3df24415542970580bb3d520971386b482f5a5db80453a",
     "research/reverse/cyclic-six-carrier/STAGE_B_IMPLEMENTATION_GATE.md": "af692a572eee828b7415e29fb784197c10329e3c98cdf0a5a765ec6b884fe39f",
-    "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md": "ee1e8fe4209dab309d7aa93edc579216aae7a6c74b2d2fedb2a1afd9b35a1649",
+    "research/reverse/cyclic-six-carrier/ROOT_COMPARISON.md": "e3e105c49f079bcd70d06dfdd1c453bf546ad2ebbcbf9c58ed03095901f7286d",
     "research/reverse/cyclic-six-carrier/stage-a-transcription-check.json": "9a11fc64f897151c31f1a48747e0b96ce0430e662e9962867b2f8c3301e5d99a",
     "research/reverse/cyclic-six-carrier/exact_roots.py": "4206577cf1464207899b7fa47741c2cff7ffac843221fb140d7f172a4b75de80",
     "research/reverse/cyclic-six-carrier/STAGE_B_CODE_REVIEW.md": "8960aa23e146123274295ddc92b64ff29c55b3c797afc62e342c2c32e6ce8c15",
@@ -78,7 +80,9 @@
     "research/reverse/cyclic-six-carrier/STAGE_C_DESIGN.md": "4ca0d90f34de8204a4663572c3374581fa4c74203c62ea904b9d74866cdc186b",
     "research/reverse/cyclic-six-carrier/ALGEBRA_B.md": "2321cea6a0b066e5356b98c22198bf389180e4a53181c4e5bb3ab9825093c499",
     "research/reverse/cyclic-six-carrier/PROOF.md": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
-    "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json": "1ae170485778ce696d20060d214118b774d91bde3948935d2dc0ff79aaa9c36c"
+    "research/reverse/cyclic-six-carrier/stage-b-transcription-check.json": "1ae170485778ce696d20060d214118b774d91bde3948935d2dc0ff79aaa9c36c",
+    "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03",
+    "research/reverse/cyclic-six-carrier/SOURCES.md": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-FixedReceiverRankObstruction",
@@ -1262,7 +1266,12 @@
     "algebra_B_note": "research/reverse/cyclic-six-carrier/ALGEBRA_B.md",
     "concrete_proof": "research/reverse/cyclic-six-carrier/PROOF.md",
     "concrete_proof_sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
-    "concrete_proof_status": "SYMBOL_COLLISION_FIXED_REVIEW_PENDING_C_NOT_EXECUTED"
+    "concrete_proof_status": "CONDITIONAL_PROOF_PASS_FINAL_C_NOT_EXECUTED",
+    "concrete_proof_review": "research/reverse/cyclic-six-carrier/PROOF_REVIEW.md",
+    "concrete_proof_review_sha256": "8be1ab702c3c29d95cd243c63947cf37815bd1de8f271e0f73614f7b3702da03",
+    "root_proof_review_full_read": true,
+    "sources_note": "research/reverse/cyclic-six-carrier/SOURCES.md",
+    "sources_note_sha256": "b92dba7deca47304a1f308f1389932a5a2a67ea4986203a16380d324567c9074"
   },
   "cyclic_checkpoint_write_note": "An earlier metadata-only stdin script failed parsing before any writes; cf524c65 nevertheless saved B raw output and prepared C files. This ASCII-only metadata repair does not execute science or change A/B evidence."
 }
