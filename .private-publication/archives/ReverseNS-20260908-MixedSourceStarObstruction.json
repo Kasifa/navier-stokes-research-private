@@ -1,0 +1,236 @@
+{
+  "branch": "codex/ns-reverse",
+  "claims": {
+    "classification": "PROVED_GENERIC_TOTAL_SOURCE_AND_EXACT_EXCEPTION_INTERFACES; PROVED_CONDITIONAL_STAR_ORIGINAL_DIRECTION_OBSTRUCTION; NO_CANDIDATE_ACCEPTED; NOT_CLAY",
+    "not_claimed": [
+      "No selected actual datum or accepted finite two-step mechanism.",
+      "No proof of star center integer feasibility or infeasibility; no general three-edge or alternative-template exclusion.",
+      "No all-positive-time NS result, cross-data uniform gap, uniform iteration, one fixed datum at infinitely many scales, finite total time, singularity or global regularity.",
+      "No repair of older failed computing/resource evidence or the original physical datum full-window certificate.",
+      "No external novelty, human peer review or proof-assistant verification."
+    ],
+    "proved": [
+      "For every fixed independent integer three-frequency geometry with not all equal lengths, total M0 and W0 are nontrivial real polynomial maps in full complex transverse shapes. Each zero set is a proper relative real algebraic exception with empty interior and measure zero; same-data nonzero totals give an explicit local source ratio bound.",
+      "Exact coherent single-pair zero branches, two-way zero obstruction, real cross-edge cancellation necessity and shared-shape positive amplitude cycle interface.",
+      "For the nonorthogonal distinct-length two-edge star cancellation branch, linear polarization is necessary. Center cancellation has an explicit conditional geometric reduction; integer realizability remains open.",
+      "In that nondegenerate star branch, distinct viscous mixed-root kernels split spatial cubic cancellation at quartic order; actual local other/self leaf supply ratio is comparable to t and tends to zero. This alone is not a regeneration obstruction.",
+      "The same star branch cannot recover all original seed complex directions: exact finite W fails at every positive time, while same-data full NS has a positive relative target-distance lower bound only on an explicit short window."
+    ]
+  },
+  "classification": "PRIVATE_CORE",
+  "dependencies": [
+    {
+      "manifest": "research/reverse/mixed-polarization/freeze.json",
+      "release_id": "ReverseNS-20260908-TrueBandSupply",
+      "source_commit": "1329086efe155c741e2916259de17567aa4c567e",
+      "use": "Accepted complete coherent four-leaf maps and same-fixed-data full Fourier local NS bridge. This package does not re-release that dependency."
+    }
+  ],
+  "dependency_commits": [
+    "1329086efe155c741e2916259de17567aa4c567e"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 2267,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/CONTRACT.md",
+      "sha256": "8ec55579d3288a15e47f2b1af17a2d981ac174fb649dc496fb6d5ac0d9b2e7e8"
+    },
+    {
+      "bytes": 3835,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md",
+      "sha256": "cc899178d3c02e060ea067baae126484f19ba53b7f8c4d9b13a91ff389843530"
+    },
+    {
+      "bytes": 11033,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md",
+      "sha256": "0c5d7d6ea71e6dc09ac918f6607ecdee613ba3efa769b77266b194ef535eb3e0"
+    },
+    {
+      "bytes": 15892,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/INDEPENDENT.md",
+      "sha256": "25111397d32eef2751a91b1ad1ab6a446794742874b97bf6b0b73b3964d11a58"
+    },
+    {
+      "bytes": 11270,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/INDEPENDENT_REVIEW.md",
+      "sha256": "06d934da4887797e0eacf8c70358af4a0fdb1eff5264aa1ceae8565799e8da3d"
+    },
+    {
+      "bytes": 2778,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/OUTCOME.md",
+      "sha256": "fdab182a0d95927235eb8ea717a3c40dcab33b82dc30f03f68c652062838ad89"
+    },
+    {
+      "bytes": 8180,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/PROOF.md",
+      "sha256": "2f0584ae5776ac3eb02318cc7353a70b0a6e0ab39bb6419b5b9217eff529e327"
+    },
+    {
+      "bytes": 10014,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/REVIEW.md",
+      "sha256": "8543b35df5157bc1e94da36ad9e323712580cc49339303d5d69a4721f8b313f3"
+    },
+    {
+      "bytes": 7025,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/ROOT_FOLLOWUP_REVIEW.md",
+      "sha256": "636c4d485c3a2f24f9b3a9254bd502ecd679bebdc17a2e51037d58bb9dc1ff91"
+    },
+    {
+      "bytes": 7569,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/ROOT_REVIEW.md",
+      "sha256": "a580fbf33a14f555d248e8d4d71750adf54913846363d843b4ba08f2ce55e8cc"
+    },
+    {
+      "bytes": 4584,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/ROOT_STAR_TEMPLATE_REVIEW.md",
+      "sha256": "a28794dd887f21b2d7df1b8cdf9235c08b59eae6bdf64737ffec6a4c4d8d480a"
+    },
+    {
+      "bytes": 14114,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_CENTER_ANALYSIS.md",
+      "sha256": "09afd62b2dd3075560abaa5b0ac474ec10ea1b23cb540ad73535a9af39e7c814"
+    },
+    {
+      "bytes": 8150,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_CENTER_REVIEW.md",
+      "sha256": "edecd3608bc852b12f264d3c7649e000c10f3de2482d9c9119f9b083c63ca6b2"
+    },
+    {
+      "bytes": 9015,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_POLARIZATION.md",
+      "sha256": "84463afc66b0447db1c507eb805f4cf0df423634e809ec3367600d18ca8ba82c"
+    },
+    {
+      "bytes": 7357,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_POLARIZATION_REVIEW.md",
+      "sha256": "605c13fe871451704a3ab629bfb8b8756a848cf10d68914e015cefe2552ba231"
+    },
+    {
+      "bytes": 1787,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_CONTRACT.md",
+      "sha256": "b7543164be08ff3b625e45745b7f9aab4b81d74f082f4f71cbb1f220f62e7ad0"
+    },
+    {
+      "bytes": 11355,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_INDEPENDENT.md",
+      "sha256": "02294b86121f4fc4a4cc3dcbf0ef05f4cc5ca2709b25f4a71d7fec11cfbd30e7"
+    },
+    {
+      "bytes": 9833,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_INDEPENDENT_REVIEW.md",
+      "sha256": "24ee4dbc398b462e840f67e1436385b05dc54fe1f9f0cdae942c60b83621e79a"
+    },
+    {
+      "bytes": 5286,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_PROOF.md",
+      "sha256": "214ccd8197923dc5039a452beaa4111b80292cd6ac22f9491b1487e0cd42e46d"
+    },
+    {
+      "bytes": 6392,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/STAR_TEMPLATE_REVIEW.md",
+      "sha256": "24d3b857efa0ba5dcb78d15bac4bb17ca6fc8e4581d101ecaaf7f14de7866707"
+    },
+    {
+      "bytes": 9822,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING.md",
+      "sha256": "82b94019b867fc049a2e334a1b51f9034a18257792ba7da19c6185767b5a1702"
+    },
+    {
+      "bytes": 8329,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/VISCOUS_SPLITTING_REVIEW.md",
+      "sha256": "f25b7c53158eb6200899b5a082b1458ece914fb2b61baeebca38f304ff1aa86a"
+    },
+    {
+      "bytes": 2617,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/acceptance.json",
+      "sha256": "414047ab848e73465146449b3687b5e7d63a08ef448cf6a170a2f56150e69569"
+    },
+    {
+      "bytes": 1270,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/followup-acceptance.json",
+      "sha256": "66cfcfef655ebe3ca148bf2dc1b7ec8c0c84a1e79a04bece5a55a2c0c2c68e35"
+    },
+    {
+      "bytes": 1457,
+      "commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+      "path": "research/reverse/net-mixed-cancellation/template-acceptance.json",
+      "sha256": "541e52e6d2ddc09e46b954f0530ca016c14b5453c021119b1cddc125bf3fc355"
+    },
+    {
+      "bytes": 10438,
+      "commit": "b1a0f750be93f0107f8abcc4878b99b6b60c8dc6",
+      "path": "research/reverse/net-mixed-cancellation/freeze.json",
+      "sha256": "d05cfb0732d0ce915876476942b37f18a98afb091c22252fdcb3b5cedc8999ea"
+    }
+  ],
+  "freeze_commit": "b1a0f750be93f0107f8abcc4878b99b6b60c8dc6",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff.",
+  "literature_boundary": "Self-contained symbolic continuation of previously accepted exact maps and local bridge. Actual source reading and hashes are recorded in proofs/reviews. No newly invoked external theorem or novelty claim.",
+  "milestone_scope": "One combined stage: full total-source cancellation interfaces, star center/viscosity followups and conditional original-direction obstruction.",
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260908-TrueBandSupply",
+  "private_milestone_record": "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md",
+  "public_export_authorization": "No public core export; immediate private archive and owner local-reader archival only.",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
+    "74f9b82a77f2972c4e7ba7fd1b82b757e96199d7",
+    "13e8f0779558004f6e12f30b6fc15eae67e8ffa5"
+  ],
+  "scientific_source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+  "source_commit": "13e8f0779558004f6e12f30b6fc15eae67e8ffa5",
+  "source_ledger": "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md",
+  "status": "RESEARCH_COMPLETE",
+  "validation": {
+    "final_scope_correction": "Final outcome viscosity claim explicitly restricted to the nonorthogonal distinct-length two-edge star branch; reviewer reread final full text and closed the issue.",
+    "final_scope_review": "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md",
+    "independence": "Base main and independent proofs have complementary scopes and separate non-author reviews; star direction has two derivations and each a separate non-author review. Center and viscosity followups each have non-author review. Root read and compared actual final texts. Final scope reviewer disclosed subsequent reads as non-blind synthesis.",
+    "local_infinite_dimensional_remainder_paid": true,
+    "numerical_arrays_read": false,
+    "older_failed_computations_repaired": false,
+    "parameter_scan": false,
+    "scientific_programs_run": 0,
+    "source_byte_check": "All 25 listed files matched actual final source Git objects, and all 20 direct acceptance bindings matched actual bytes.",
+    "stage_acceptances": [
+      "research/reverse/net-mixed-cancellation/acceptance.json",
+      "research/reverse/net-mixed-cancellation/followup-acceptance.json",
+      "research/reverse/net-mixed-cancellation/template-acceptance.json"
+    ],
+    "status": "PASS_ANALYTIC_PROOFS_SEPARATE_REVIEWS_ROOT_COMPARISONS_AND_FINAL_SCOPE",
+    "uniform_cross_generation_remainder_paid": false,
+    "unresolved_within_accepted_claims": []
+  },
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
