@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_SHARED_SHAPE_SCALAR_SYSTEM_AND_MIXED_POLARIZATION_NECESSARY_GATES",
+  "files_sha256": {
+    "research/reverse/three-edge-compatibility/CONTRACT.md": "51909466ff2baf93b83d419775b0fbd2f1ceff4dec59c785358401d80ff01143",
+    "research/reverse/three-edge-compatibility/PROOF.md": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3",
+    "research/reverse/three-edge-compatibility/REVIEW.md": "430068964d6802ba31e2ef4bcad03dcaed0811a9678e25bf3046030b970fce2f",
+    "research/reverse/three-edge-compatibility/INDEPENDENT.md": "dceb5ad9feb87bb569760bf1d428e098c77b253cf9cc75fa18dfd327fd46185b",
+    "research/reverse/three-edge-compatibility/INDEPENDENT_REVIEW.md": "e511ae917ad60b93f1698c6fc7e0c2641132dfb75d0197c7da5fd3dd3f954a05",
+    "research/reverse/three-edge-compatibility/ROOT_REVIEW.md": "d35904fd734037a4787c6ef678e921da973bfaa7435ea3643b7d23763ad27858",
+    "research/reverse/three-edge-compatibility/OUTCOME.md": "4026d68b925174e3e6cf956d41b18d7564f295b5ecf8d17248e2e52c60d5391f"
+  },
+  "root_actual_final_full_read": true,
+  "main_author": "coherence_independent_audit",
+  "independent_author": "coherence_independent_resumed",
+  "main_non_author_review": "coherence_review_resumed",
+  "independent_non_author_review": "coherence_independent_audit",
+  "independence_scope": "Independent derivation did not read main proof. Independent non-author reviewer is main author and discloses non-blind topic familiarity. Main and independent claims are complementary.",
+  "unresolved_within_accepted_claims": [],
+  "general_three_edge_feasibility": "OPEN",
+  "new_actual_initial_datum": false,
+  "scientific_programs_run": 0,
+  "numerical_arrays_read": false,
+  "new_true_ns_window_claim": false,
+  "old_failed_evidence_repaired": false,
+  "candidate_accepted": false,
+  "figures": [],
+  "formal_release": false,
+  "publication_handoff_performed": false,
+  "subsequent_work_not_accepted_here": [
+    "ONE_ELLIPTIC_CONTRACT.md",
+    "ONE_ELLIPTIC_ANALYSIS.md",
+    "ONE_ELLIPTIC_INDEPENDENT.md",
+    "MAX_RECEIVER_RATIO.md"
+  ]
+}
