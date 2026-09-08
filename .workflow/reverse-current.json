@@ -6,31 +6,27 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read the bounded energy-concentration primary-source screen after author stops; independently verify exact original hypotheses and compare to paid same-solution energy. No generic exclusion, added assumptions or new proof/compute contract inferred.",
+  "next_action": "Complete actual final nonblind scope review of nine bounded screening/source/history texts, then source-object freeze and one-time private handoff. This is a NO-CANDIDATE record, not a new theorem or generic mechanism exclusion.",
   "resume_action": "Read current checkpoint header and reverse-owned accepted/current files; historical next-actions are not current.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
-  "scientific_status": "LOCAL_L2_PACKAGE_FROZEN_SENT_ONCE; TWO_FAMILY_SCREENS_REVIEWED_NO_CANDIDATE; BOUNDED_NEW_SOURCE_SCREEN_IN_PROGRESS; NOT_CLAY",
+  "scientific_status": "LOCAL_L2_PACKAGE_FROZEN_SENT_ONCE; DYNAMIC_INPUT_SCREEN_NO_CANDIDATE_FINAL_SCOPE_IN_PROGRESS; NOT_CLAY",
   "accepted": "Eighteenth private package accepted, source-frozen and once handed off. Fixed-shape local strong-L2 residence and same-datum energy logarithmic occupation bounds remain conditional, not a candidate.",
   "required_files": [
     "research/reverse/local-occupation/freeze.json",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md",
-    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
-    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
-    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md",
-    "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
-    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md"
+    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
+    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
+    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md",
+    "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md"
   ],
   "required_file_sha256": {
     "research/reverse/local-occupation/freeze.json": "6a452aab8e2fc931ddd6e669c4b27bca708cffd293ea582f1b1459b6c6cf3408",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md": "2148279981f5a7c09bd634d5ae723fcf6195d532ee8588ac1c59fbf5f4f95650",
-    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md": "b591d1ff9021c076cd38eb451ab1c2c39eb6d6b2deacdfe08e286389eab7525d",
-    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md": "93120caf889af4978e12d6014198d2aa0f0285de13429f4bd46718c92ce3e59e",
-    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md": "8bc6545454dbb8ea5169bf606946acb2e1258964967bf234a57531253d6c3cac",
-    "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md": "3b88a33a243008feb152a0b7ed4b2ec8bacc57a4a89af451fe9583b343113d56",
-    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md": "fa28fcf84f33922fcda5a426db814f09d6a046527d860d9fad649b44cf894a71"
+    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md": "5239a137448b4b6027dcf004d2a7db3fd5ffe9c54006c735ab2b3bf162fb4dbf",
+    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md": "fa28fcf84f33922fcda5a426db814f09d6a046527d860d9fad649b44cf894a71",
+    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md": "e2d50b1584d816f549b67e1e8ebe7f71b5e50d29a55b156cf0c3619dba94e285",
+    "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md": "3275112213f77961d3496a3b00942ee729095d56dcbe7ddc50a6357fc3356cfb"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-LocalL2ResidenceAndOccupation",
@@ -44,11 +40,11 @@
   },
   "freeze_commit": "d379f15058e37c7b21b831c8c2b2a1b42e5e4b43",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Bounded primary-source applicability of energy concentration to dynamic rescaled NS shapes",
-  "current_topic_directory": "research/reverse",
+  "current_topic": "Final scope and source freeze of bounded dynamic-input no-candidate screening",
+  "current_topic_directory": "research/reverse/dynamic-input-screen",
   "pending": [
-    "Bounded energy-concentration primary-source applicability screen and root verification; no new mechanism accepted.",
-    "Actual two-step regeneration, fixed-datum infinite scales, cross-generation uniform infinite-dimensional remainder, finite total time and singularity remain open."
+    "Bounded dynamic-input screening combined final scope, source-object freeze and once-only private handoff.",
+    "No new mechanism or proof/compute contract accepted. Re-entry needs a specified actual dynamic object and a nonduplicative checkable input."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -57,7 +53,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "usageLimited; fresh get_goal recheck in current continued run confirms it, while root and child tools execute normally; no reset consumed",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed.",
-  "updated_at": "2026-09-08T08:20:12.428764+00:00",
+  "updated_at": "2026-09-08T08:35:04.574998+00:00",
   "protocol_read_scope_latest": "2026-09-08 updated central workflow actually read in full after hash changed to f66b0543; latest complete local reader/private research and public selected-paper/aggregate-statistics scope owned solely by fixed publisher; research continues, public pause unchanged. Own AGENTS updated with actual interrupted-review recovery and no auto reset.",
   "previous_goal_turn_classification": "PROGRESS: completed joint phase and amplitude interfaces and exact all-positive-time single-helicity subclass obstruction with independent derivation/separate reviews; sciencec6900720, freeze4cde694e and eighth one-time private handoff. Continued to actual mixed-coherence symbolic counterexample; its old independent/review agents then failed on usage limits without final files. This interrupted review was not accepted. Current user/management continuation has started replacement bounded agents; no reset credit consumed.",
   "completed_unreleased_audits": [
@@ -343,12 +339,10 @@
   },
   "resume_read_set": [
     "research/reverse/local-occupation/freeze.json",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md",
-    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
-    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
-    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md",
-    "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
-    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md"
+    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
+    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
+    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md",
+    "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -592,12 +586,10 @@
     "research/reverse/CHECKPOINT.md",
     ".workflow/reverse-current.json",
     "research/reverse/local-occupation/freeze.json",
-    "research/reverse/local-occupation/FINAL_OUTCOME.md",
-    "research/reverse/ROOT_NEXT_DYNAMIC_SCOPE_REVIEW.md",
-    "research/reverse/NEXT_TRUE_SUPPLY_SCREEN_20260908.md",
-    "research/reverse/NEXT_DYNAMIC_CONCENTRATION_SCREEN_20260908.md",
-    "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
-    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md"
+    "research/reverse/dynamic-input-screen/FINAL_OUTCOME.md",
+    "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
+    "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md",
+    "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -769,7 +761,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T08:20:12.428764+00:00",
+  "last_checkpoint_utc": "2026-09-08T08:35:04.574998+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -988,5 +980,32 @@
     "scope": "Only current specified-input insufficiency; not universal mechanism exclusion.",
     "review": "research/reverse/NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md",
     "root_comparison": "research/reverse/ROOT_NEXT_TWO_FAMILY_SCREEN_REVIEW_20260908.md"
+  },
+  "energy_concentration_source_screen_evidence": {
+    "status": "AUTHOR_STOPPED_ROOT_ORIGINAL_SOURCE_AND_HISTORY_COMPARISON_COMPLETE",
+    "screen": "research/reverse/ENERGY_CONCENTRATION_SOURCE_SCREEN_20260908.md",
+    "root_review": "research/reverse/ROOT_ENERGY_CONCENTRATION_SOURCE_REVIEW_20260908.md",
+    "result": "NO_NEW_AUTOMATIC_INPUT; EXISTING_PERIODIC_BN_CONDITIONAL_ENDPOINT_PRESERVED; NO_CANDIDATE",
+    "primary_sources": [
+      "https://arxiv.org/pdf/1205.1544v2",
+      "https://arxiv.org/pdf/1705.04420v4"
+    ],
+    "inherited_objects_byte_equal_baseline": [
+      "research/clay_b_periodic_no_atom_endpoint_20260906.md",
+      "research/clay_b_euler_rigidity_energy_atom_20260906.md",
+      "research/clay_b_energy_atom_internal_audit_20260906.md",
+      "research/clay_b_source_enstrophy_reading_20260907.md"
+    ],
+    "new_formal_proof_or_compute_contract": false,
+    "actual_new_datum": false,
+    "scientific_programs_run": 0
+  },
+  "platform_goal_current_observation_20260908": {
+    "status": "usageLimited",
+    "tokensUsed": 12691685,
+    "timeUsedSeconds": 37935,
+    "source": "get_goal tool actual read during current continuation",
+    "no_reset_or_goal_mutation": true,
+    "note": "Read-only platform observation; not a mathematical result or inferred task pause."
   }
 }
