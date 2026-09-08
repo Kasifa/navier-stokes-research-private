@@ -1,0 +1,214 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260908-HelicalJointReturn",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE",
+  "source_commit": "c6900720c065c94217d3f269eafe20592b00058e",
+  "scientific_commits": [
+    "3a6ef9afc98985a133a04a9bc1416ebaec8f5060",
+    "c6900720c065c94217d3f269eafe20592b00058e"
+  ],
+  "predecessor_release": "ReverseNS-20260908-HeatWeightedAxialReturn",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_CONTRACT.md",
+      "sha256": "b64a3142fb6e0d261ece899e5b5f4c767d0ed89e1ae0083637b0f4acac3f2e05",
+      "bytes": 1899
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT.md",
+      "sha256": "7125955d59a14a5c55b7c4616ea1f242b52db0c17bc7e1be30b992c0b6a304a5",
+      "bytes": 12443
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT_REVIEW.md",
+      "sha256": "d1859a26c79fcdcb78b4c5c01579f2fb6033b81b70253c4a0e95ec9de7a5e641",
+      "bytes": 9789
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_PROOF.md",
+      "sha256": "b262dd4316dd8a1e626bb1b41cf0be11591277ca5b20d55afb09ac70c7554ae5",
+      "bytes": 7557
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HELICAL_REVIEW.md",
+      "sha256": "23ef87cf790f05bd815d5b16e9b6d0d3bfbecf4bdcba9317a8a331ab0d4c02d1",
+      "bytes": 10111
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/HISTORY_JOINT_HELICAL_SCOPE.md",
+      "sha256": "5be620f1a0ad3cdd852b2a038d89a3fd10e164c9112af219b931f0f91f118d98",
+      "bytes": 2327
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/INDEPENDENT_PREFLIGHT.md",
+      "sha256": "679ce998bd78f2203232e6404df376eb94a2a19419c6ae3fdb82b25dbf823f65",
+      "bytes": 7630
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_CONTRACT.md",
+      "sha256": "cc3cd571b87cde40488345d8d8faa6ac774892701f30869ee479c3d82088e23c",
+      "bytes": 3211
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_INDEPENDENT.md",
+      "sha256": "30fe0231fad9def413e0d468d88cbe8a4c8b537d54e3df89b962cd996f0df215",
+      "bytes": 14714
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_PROOF.md",
+      "sha256": "057381db9781ad59d8957282f02b9c917d2a3901dcc0ca1ec0b881c1db115808",
+      "bytes": 5923
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_REVIEW.md",
+      "sha256": "1fbbaf9aa845ab74c1dd6eb3e519dce5f89aec460484f8831a0127321fbdaaa5",
+      "bytes": 7921
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/JOINT_SYMMETRY_REDUCTION.md",
+      "sha256": "bd5db3d7963e38afd5b08a5c59ea35826a439f2a4b425bbfe59c2812581421b2",
+      "bytes": 9616
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/OUTCOME.md",
+      "sha256": "8c33e9b3c01d794d0f9c18721dcc0fbf67bbbdc9b5072b3b8ce0319a31e760b9",
+      "bytes": 2839
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/PREFLIGHT_CONTRACT.md",
+      "sha256": "cf60ed5f76911da486656f8cf6543bd0822980f2990129c52c3b733300e03684",
+      "bytes": 1807
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/PREFLIGHT_REVIEW.md",
+      "sha256": "cb60331e1ecf368eec48e2dcdef578b73689e7eadcab7ef4aba249dbba2fdbfb",
+      "bytes": 8102
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_HELICAL_REVIEW.md",
+      "sha256": "5213d8eb071962a96686f33811c4c82dff755533bcfbb3f495adeaf759fce686",
+      "bytes": 5601
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_JOINT_REVIEW.md",
+      "sha256": "1071b1c99e5c29d09001c4907185ba4636a268daf7e6eb5bfbcd46f3b8fa709b",
+      "bytes": 3397
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_PREFLIGHT_REVIEW.md",
+      "sha256": "b87ae9e6668209adeaa4b7ad10c44c65a13bb7baf517494c08bc5ea05e465fb0",
+      "bytes": 2258
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/ROOT_SPATIAL_REVIEW.md",
+      "sha256": "0e300c6b239dde79452e99d17cfb32558dcdf4a075c356e3c885e770a1d71355",
+      "bytes": 4097
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SOURCE_AND_HEAT_PREFLIGHT.md",
+      "sha256": "cd0206ef0164387d41e246485d1f4a3a0815fef42ed45163816d21ac4e6fdbe0",
+      "bytes": 5132
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_CONTRACT.md",
+      "sha256": "ba31859d9b2e2654c8cf8e00bf64da3b54070c93e9fa036594a96e3d3f70fb1d",
+      "bytes": 1489
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_INDEPENDENT.md",
+      "sha256": "d8413facd655e775e7e3582b45947be92a3c0f60387b966625475088ff3703f8",
+      "bytes": 9050
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_PROOF.md",
+      "sha256": "50510f2b1b2bee2ed3739bd9a5a1276f16056e244f5b71192b9a39b8066190a5",
+      "bytes": 4470
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/SPATIAL_REVIEW.md",
+      "sha256": "d3a3f52265b2c2fa1b4fe5ed42b86b2ac42d969c60d573499614312da5dd67b2",
+      "bytes": 5621
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/helical-acceptance.json",
+      "sha256": "fc61d09ca50bc51cbaf13f7af48d6a006bf0363dbf5c890008f09c199f920d65",
+      "bytes": 2923
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/joint-acceptance.json",
+      "sha256": "53c1e407d49c6054e530072da351b63aeeb79c8557f2b1b7177567da190de3e3",
+      "bytes": 2268
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/preflight-acceptance.json",
+      "sha256": "48d9cb3c3832a46e14c05d39a32ac92f560b289830ebfb0efd6ccc378ff47e64",
+      "bytes": 1796
+    },
+    {
+      "path": "research/reverse/nonorthogonal-return/spatial-acceptance.json",
+      "sha256": "15a3dbf96dfb5ef1dcb620a1473caae9ee60d591520051f435d6a136972634ce",
+      "bytes": 2123
+    }
+  ],
+  "source_ledger": "research/reverse/nonorthogonal-return/HISTORY_JOINT_HELICAL_SCOPE.md",
+  "claims": {
+    "classification": "PROVED_EXACT_PAIR_AND_JOINT_INTERFACES; PROVED_SINGLE_HELICITY_SUBCLASS_OBSTRUCTION; NO-CANDIDATE_FOR_THIS_SUBCLASS; NOT_CLAY",
+    "proved": [
+      "Exact shared nonorthogonal pair heat factors, complete ordered quartic spatial map and nonorthogonal zero branches.",
+      "Exhaustive three-pair joint receiver map, Gram-compatible template transforms, common translation phase elimination, all-positive-time row-phase obstruction and conditional positive amplitude cycle/common-modulus interface.",
+      "For three independent integer wave pairs with distinct lengths and at least one nonorthogonal pair, all individual single-helicity signs and nonzero complex amplitudes fail the specified pure w22 doubled original-template return at all positive times and every compatible orthogonal template transform. Full exact distinct heat weights are retained; the contradiction is at the direction gate."
+    ],
+    "not_claimed": [
+      "Generic mixed-helicity polarization existence or exclusion",
+      "Equal lengths, linearly dependent seeds, other templates or approximate return",
+      "Full NS two-step true supply, mixed trees or infinite-dimensional remainder",
+      "A newly chosen physical datum, fixed-datum infinite-scale iteration, finite total time, singularity or global regularity",
+      "External novelty, human peer review or proof-assistant verification"
+    ]
+  },
+  "validation": {
+    "status": "PASS_EXACT_ANALYTIC_DERIVATIONS_AND_SEPARATE_REVIEWS",
+    "stage_acceptances": [
+      "research/reverse/nonorthogonal-return/preflight-acceptance.json",
+      "research/reverse/nonorthogonal-return/spatial-acceptance.json",
+      "research/reverse/nonorthogonal-return/joint-acceptance.json",
+      "research/reverse/nonorthogonal-return/helical-acceptance.json"
+    ],
+    "independent_helical_proof": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT.md",
+    "main_non_author_review": "research/reverse/nonorthogonal-return/HELICAL_REVIEW.md",
+    "independent_proof_non_author_review": "research/reverse/nonorthogonal-return/HELICAL_INDEPENDENT_REVIEW.md",
+    "root_full_comparison": "research/reverse/nonorthogonal-return/ROOT_HELICAL_REVIEW.md",
+    "independence": "Pascal independently derived from contracts and old accepted pair formula, without current root/joint drafts. Pauli reviewed root helical proof without Pascal proof; Rawls reviewed Pascal proof without root helical proof/Pauli review. Prior pair/joint involvement disclosed. Root actually read both proofs and final reviews.",
+    "final_scope_review": {
+      "reviewer": "Pascal / driver_independent_certificate; independent-proof author, AI scope review not human peer review",
+      "actual_full_read_sha256": {
+        "ROOT_HELICAL_REVIEW.md": "5213d8eb071962a96686f33811c4c82dff755533bcfbb3f495adeaf759fce686",
+        "OUTCOME.md": "8c33e9b3c01d794d0f9c18721dcc0fbf67bbbdc9b5072b3b8ce0319a31e760b9",
+        "HISTORY_JOINT_HELICAL_SCOPE.md": "5be620f1a0ad3cdd852b2a038d89a3fd10e164c9112af219b931f0f91f118d98"
+      },
+      "accepted": true
+    },
+    "source_byte_check": "All 28 included texts and acceptance records matched exact scientific source objects and current bytes. Four accepted-stage manifests matched their actual bound files. Staged whitespace check passed. These are provenance checks, not scientific numerical runs.",
+    "scientific_programs_run": 0,
+    "numerical_arrays_read": false,
+    "parameter_scan": false,
+    "analytic_remainder": "All stated finite-tree formulas exact. Direction obstruction uses strict positive exact heat weights and finite-dimensional algebra; no unestimated asymptotic or numerical error. Full NS remainder remains unpaid.",
+    "unresolved_items_within_single_helicity_gate": [],
+    "older_failed_computations_repaired": false
+  },
+  "literature_boundary": "Local R0.2 section6 and R0.3 sections1-4 actually reread; prior R0.11-12 scope retained. New proof elementary and self-contained; no external Waleffe theorem or dynamics is newly invoked or claimed reread. No novelty claim.",
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_SCIENTIFIC_FIGURES",
+  "private_milestone_record": "research/reverse/nonorthogonal-return/OUTCOME.md",
+  "milestone_scope": "One coherent nonorthogonal shared-pair and joint-return screen ending in a full single-helicity subclass obstruction; general mixed polarization remains open.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "No public core export; private archival only.",
+  "freeze_commit_binding": "Containing manifest commit supplied separately in the once-only handoff; research continues without publication observation."
+}
