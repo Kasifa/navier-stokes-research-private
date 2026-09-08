@@ -1,0 +1,50 @@
+{
+  "review_source_sha256": "7a6be585eb6d678ec77076b3ec9a806d112e27b4a59e157dcf145884e7fceb13",
+  "input_bindings": {
+    "CONTRACT.md": "7b8769fe6eb84fcaad86cde7b65e5debf79801b30f9c2ae41e0e2758c0968456",
+    "INDEPENDENT_ALGEBRA.md": "a87cdef2cc2517e391ee193c3ad17b0e6776af3d7b8dff8f0427c2b063e08d1a",
+    "independent_subset.py": "e588da476addd56f092fea94b8f0315a0eb7df3e304d9fba3e51071d17c35f6c",
+    "independent-output.json": "de084e897e08c7faa48dd49dbb00af61f0449587b34e8a4890711c4a176a0bc7"
+  },
+  "command": "/usr/bin/python3 research/reverse/four-carrier-source-test/independent_review_verify.py",
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "uname": [
+      "Darwin",
+      "Wool.local",
+      "25.6.0",
+      "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050",
+      "arm64"
+    ],
+    "logical_cpu_count": 18,
+    "scientific_workers": 1,
+    "scientific_threads": 1,
+    "arithmetic": "Fraction and exact integers",
+    "third_party_libraries": [],
+    "subprocesses_started_by_verifier": 0
+  },
+  "scope": "One fixed stopped certificate; no new probes, chart or timestep",
+  "verification": {
+    "verdict": "PASS_FIXED_CERTIFICATE_ONLY",
+    "counts": {
+      "subset_records": 90,
+      "shape_records": 138,
+      "ordered_terms": 1104
+    },
+    "all_six_probe_records_exact": true,
+    "both_full_matrices_exact": true,
+    "irreducible_two_root_certificate_exact": true,
+    "both_normalized_kernels_and_full_W_exact": true,
+    "no_positive_time_NS_claim": true
+  },
+  "execution_status": "completed",
+  "resources": {
+    "wall_seconds_before_serialization": 0.098920875,
+    "self_user_cpu_seconds": 0.117464,
+    "self_system_cpu_seconds": 0.010961,
+    "self_peak_resident_bytes": 13680640,
+    "metadata_only": true,
+    "not_process_tree_resource_accounting": true
+  }
+}
