@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "status": "COMPLETE_EXECUTION_AND_BYTES_ACCEPTED_NOT_NS_GATE",
+  "run_id": "trajectory160_256",
+  "checked_at_utc": "2026-09-08T21:50:34.644229+00:00",
+  "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+  "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+  "execution": {
+    "bytes": 33385,
+    "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+  },
+  "result": {
+    "bytes": 28292,
+    "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+  },
+  "complete_directory_manifest_sha256": "e6ddda89527973a47bf8bc3874fd84889f52373908958fbd88323ff57710c659",
+  "complete_directory_bytes": 1859763730,
+  "complete_file_count": 16,
+  "child_wall_seconds": 629.237791666,
+  "child_peak_rss_bytes": 2198126592,
+  "actual_completion_counts": {
+    "checkpoint_count": 9,
+    "completed_steps": 256,
+    "expected_steps": 256,
+    "fft_batched_api_calls": 9216,
+    "fft_scalar_3d_transforms": 27648,
+    "node_count": 257
+  },
+  "byte_verification_only_no_new_scientific_execution": true,
+  "actual_NS_error_or_source_gate_certified": false
+}

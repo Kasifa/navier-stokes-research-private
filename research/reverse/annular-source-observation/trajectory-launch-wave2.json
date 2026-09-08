@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-09-08T21:51:03.074376+00:00",
+  "source_commit": "3922902291f1d3992d5568a2730391c9633cbfed",
+  "source_lock_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+  "memory_pressure_command": [
+    "memory_pressure",
+    "-Q"
+  ],
+  "memory_pressure_stdout": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 56%\n",
+  "memory_pressure_stderr": "",
+  "actual_free_percentage": 56,
+  "required_free_percentage": 40,
+  "actual_disk_free_bytes": 1332368048128,
+  "required_disk_free_bytes": 21474836480,
+  "parallel_supervisors": 2,
+  "runs": [
+    "trajectory128_512",
+    "trajectory160_512"
+  ],
+  "completed_coarse_trajectories": [
+    {
+      "run_id": "trajectory128_256",
+      "execution": {
+        "bytes": 33381,
+        "sha256": "7d9c115bb50900cb618b633bb55990d55658bd5aa6d3af2284232e0936eec408"
+      },
+      "result": {
+        "bytes": 28308,
+        "sha256": "58e599d3e45e2699b3eaed95b4be904ec8015d17159218e33d30d94db833c85a"
+      },
+      "complete_directory_manifest_sha256": "17801d40b146de9b0e8dbd4677e54bd538346acf4129f007b84e8c05d160c894"
+    },
+    {
+      "run_id": "trajectory160_256",
+      "execution": {
+        "bytes": 33385,
+        "sha256": "6d52d6c837589bda5cd66c1331f3c12765188895c2a2a186592cb2048c8163fa"
+      },
+      "result": {
+        "bytes": 28292,
+        "sha256": "eed52911b9552974bd4e27a6889f843bfa0953c64f33cc6f57338a2d37577614"
+      },
+      "complete_directory_manifest_sha256": "e6ddda89527973a47bf8bc3874fd84889f52373908958fbd88323ff57710c659"
+    }
+  ],
+  "new_scientific_workers_completed_before_gate": 2,
+  "gate_pass": true
+}
