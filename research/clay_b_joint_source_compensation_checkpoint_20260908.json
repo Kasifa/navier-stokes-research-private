@@ -1,0 +1,156 @@
+{
+  "check_id": "ClayB-JointSourceCompensation-Internal-20260908",
+  "status": "REVIEWED_INTERNAL_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "base_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d",
+  "previous_goal_turn_classification": "PROGRESS: AG completed the actual bounded scalar adjoint-gradient budget and selected the complete signed source pairing as the next bounded test.",
+  "main": "research/clay_b_joint_source_compensation_20260908.md",
+  "main_sha256": "437d8d133c9dc9c8d5656aa8327bfdd1b497a93eae63d56754dd2b0414eb265d",
+  "main_bytes": 14262,
+  "main_lines": 265,
+  "classification": [
+    "INTERNAL JOINT SOURCE CHECK",
+    "CLASSICAL FRACTIONAL DIV CURL ADAPTATION",
+    "SCOPED STATIC CANDIDATE REFUTATION",
+    "NO NEW UNCONDITIONAL CRITICAL ESTIMATE",
+    "OPEN",
+    "NOT CLAY"
+  ],
+  "results": [
+    "JC.1–3：对同一光滑原NS及实际光滑标量伴随，Leray投影测试保留完整压力交换子，恰回到原梯度的两端配对恒等式；没有新增源估计。",
+    "JC.4–6：完整极化符号保留原压力；压力非零的高频相消实例仍饱和一阶输出导数。旧PGR的L2正交式不消除未知源L2预算。只检查符号阶数，不是原NS动态不可能性定理。",
+    "JC.7–10：直接证明周期、零均值完整源N=G²+H的负阶Besov预算：0<alpha<1时，||N||B^(-alpha)_(1,1) <= C_alpha ||Lambda^(1-alpha/2)u||2² <= C_alpha U^alpha g^(2-alpha)，从而时间指数为2/(2-alpha)。低高频几何求和、全部近邻高高频低输出及局部化压力乘子均保留。这是经典散度旋度机制的直接适配，非新临界机制。",
+    "JC.11–13：实际伴随的非零B^alpha_(infinity,infinity)半范数由M^(1-2alpha)||Hess h||2^(2alpha)控制，适用0<alpha<=1/2。AG的Hessian时间L2只给伴随时间指数1/alpha，而源的对偶指数需要2/alpha；Holder倒数和为1+alpha/2。只否定这条已有范数链的闭合，没有否定其他联合动态补偿或实际配对可积性。",
+    "JC.14–15：对所选实际源分量的绝对可和零均值原子分解，H^-2原子成本为ell^(1/2)，另有ell^(1/4)的W^(1,4)配对。局部尺度率保留标准光滑终端eta_r、终端梯度成本、I_r、B4r缓冲、额外共同母帽、仿射项和球外原子；所需长度矩的更强时间范数仍未支付，不是响应L1范数定理。",
+    "JC.16–17：光滑紧支散度零长管族否定||v||6² <= C||cof grad v||1的全族线性候选；缩放后即使固定支撑球和共同H1上界，比值仍发散。仅为静态候选反例，不是NS轨道或奇性构造，也不否定定性紧性。"
+  ],
+  "open_items": [
+    "一般三维NS、Clay、指定中心共同A/E与小K以及临界源响应仍OPEN。",
+    "JC分数源预算支付空间负阶范数，但尚不能与已有实际伴随预算形成临界时间配对；alpha端点不提供免费增益。",
+    "局部原子尺度条件含明确额外母帽和终端测试成本；Hardy L1时间预算及原mu含零集测度，不自动控制原子长度矩。",
+    "长管排除的只是所写静态线性余子式不等式，不能扩大成几何方法不可能或原NS反例。",
+    "直接源代数支路在当前已付范数下停止扩展；下一项非重复动态候选尚未选定。",
+    "没有全面查新、学术新颖性认证、真人同行评审或新的无条件临界估计。"
+  ],
+  "next_action": "JC已完成AG.22完整有符号源的联合补偿检查：周期负阶Besov预算成立，但现有实际伴随Hessian预算留下时间指数缺口；投影只是完整端点恒等式，静态线性余子式控制已被长管反例否定。停止仅用现有范数的相邻源代数改写，也不自动改试相邻余子式幂次不等式。回到PF固定正龄、指定中心的未闭合命题；下一轮对照已完成的动态输入和终端集中记录，选定一个非重复的原NS时间演化量并实际推导预算。替代具体候选尚未选定或接受；不预设共同A/E、小K或额外临界源范数。TG仍为最后独立冻结小节；不建release、不重发交接，不查看发布或反向执行。",
+  "next_test_selected": false,
+  "next_unconditional_critical_input_accepted": false,
+  "tested_static_candidate_status": "REFUTED_IN_STATED_STATIC_SCOPE",
+  "direct_source_algebra_branch": "STOP_ADJACENT_REWRITES_WITH_ONLY_CURRENT_BUDGETS",
+  "new_independent_research_section": false,
+  "new_release": false,
+  "handoff_required": false,
+  "publication_execution_checked": false,
+  "reverse_execution_checked": false,
+  "last_independent_release": "ClayB-StrongGradientTerminalTrace-20260908",
+  "last_independent_source_commit": "0d916d57db8d69e67cd253a1f3e5ce07bd8ae1a7",
+  "last_independent_freeze_commit": "93965a9c3cf8ccb3e61aad637a2f736c8d0fd5fd",
+  "existing_handoff_receipt": "research/clay_b_strong_gradient_terminal_trace_dispatch_20260908.md",
+  "dependencies": [
+    {
+      "path": "research/clay_b_adjoint_gradient_check_20260908.md",
+      "sha256": "e7bd01654dc3abde374db3c4ecd77f6ac15f4e3c10be063af9190181fe2acbb3",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_signed_source_propagation_20260908.md",
+      "sha256": "31c83385cb3151e8076b695419324933092c235294a5acc039ed405b7e697f75",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_terminal_trace_localization_20260908.md",
+      "sha256": "34898829b9fac2b53028ee1496708724702d8c09a4ea460516762f824681852b",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_cofactor_defect_dynamics_20260908.md",
+      "sha256": "4801f6344ea988818682de7becfce2e31426dbadc6309eb44491bfd91e1979f6",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_piola_gradient_remainder_20260907.md",
+      "sha256": "9b57c0228517efb0653b7be41dbb39ff98de6f3e9607ecc037a52b2e91114813",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_invariant_density_material_derivative_20260908.md",
+      "sha256": "15ebddb311dec1b4b4c402a0148af6aebbfc76a1415aa9c3e5811f6108ee8bc1",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_material_pressure_20260908/report-source.md",
+      "sha256": "5556ecd2fcfc95863c121fba07e9cbfb438f9b34fd1aa0cba26d07752bfc1aaf",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_gradient_rank_one_defect_20260908.md",
+      "sha256": "78cdf5afa278894aa74cecc0cfd707bfba6b2148b1383c5cad8e5fa978c21b1a",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_weak_gradient_entropy_20260908.md",
+      "sha256": "47b761d5683bab022b963466e1f3f22c5ce8c6d0372d106f46902564e61fc8b9",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/clay_b_pressure_regularity_literature_check_20260906.md",
+      "sha256": "07f06834e90e13b584a1f19faec7eb4d947713804fcda3a206e4566c0c795820",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    },
+    {
+      "path": "research/energy_stress_commutator_note.md",
+      "sha256": "1c3207f95691f1028c5b8863ee52082df10ae5ca6f79dbed6a7a3909938cf71c",
+      "source_commit": "e07252b0662269e12ad614e2abaf296e7fb0643d"
+    }
+  ],
+  "review": {
+    "status": "PASS_WITH_SCOPED_INTERNAL_CHECK",
+    "root": "实际全文读回终版265行14262B，独立核算完整投影、极化符号、周期分数估计、伴随时间缺口、原子配对与长管缩放。最终SHA绑定主稿；不认证未读的外部全篇证明。",
+    "final_main_review": {
+      "reviewer": "ma_freeze_review",
+      "type": "PARTICIPATING_AI_FULL_FINAL_READ",
+      "final_sha256": "437d8d133c9dc9c8d5656aa8327bfdd1b497a93eae63d56754dd2b0414eb265d",
+      "final_lines": 265,
+      "final_bytes": 14262,
+      "verdict": "PASS_NO_REQUIRED_CHANGES",
+      "external_full_proof_certified": false
+    },
+    "module_reviews": {
+      "B": "variable_reference_check：终版实际读1–43、84–176行，核smooth real terminal eta、完整投影及周期分数估计和时间配对模块；限定PASS。不是全稿审读，未认证Li–Zhang全篇。",
+      "C": "good_scale_route_comparison：终版实际读1–23、171–265行，完整覆盖§5–7；核标准eta_r、Ir、B4r母帽/缓冲、原子局部仿射和球外成本、长管双边阶。限定PASS，参与长管构造，不是全稿审读。"
+    },
+    "structural": {
+      "status": "PASS",
+      "ordered_unique_tags": 17,
+      "display_pairs": [
+        27,
+        27
+      ],
+      "inline_pairs": [
+        101,
+        101
+      ],
+      "abnormal_controls": false,
+      "trailing_whitespace": false
+    },
+    "dependency_objects_match_base": true,
+    "review_type": "PARTICIPATING_AI_NOT_HUMAN_PEER_REVIEW"
+  },
+  "literature_scope": {
+    "source": "https://arxiv.org/html/2106.11852v1",
+    "title": "Dong Li and Xiaoyi Zhang, A regularity upgrade of pressure",
+    "actual_reading": "本轮直接打开原文，阅读导论/主定理，实际读Theorem 1.3陈述及页面534–563行所列完整证明；没有逐一重读全部上游引理或全篇。",
+    "adoption_boundary": "该原文是全空间Schwartz散度旋度负阶Hardy估计。JC给独立的周期Besov分块证明；没有把全空间定理无条件移植周期域，亦未认领该经典机制为新发现。",
+    "local_reading": "本轮全文读IDC、MPS、CD及旧压力文献核对稿；AG244–304和R0.69N前175行定点读取。其余依赖为已记录上游来源，绑定字节不等于本轮全篇重审。",
+    "deep_research": false,
+    "exhaustive_novelty_search": false
+  },
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "novelty_established": false,
+  "human_peer_review": false,
+  "is_clay_result": false
+}
