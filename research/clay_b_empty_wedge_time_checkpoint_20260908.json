@@ -1,0 +1,37 @@
+{
+  "internal_id": "ClayB-EmptyWedgeTimeCalibration-20260908",
+  "parent_release": "ClayB-EmptyWedgePressureObstruction-20260908",
+  "base_commit": "02aed33044a0cd1f89063debe9209388820262d3",
+  "status": "INTERNAL_SCOPE_CHECK_COMPLETE",
+  "privacy": "PRIVATE_CORE",
+  "main": "research/clay_b_empty_wedge_time_calibration_20260908.md",
+  "main_sha256": "78a774c6447cbe770d6aa334b35138c2b4a5a66c608a5a338b4e1c819b73d936",
+  "audit": "research/clay_b_empty_wedge_time_audit_20260908.md",
+  "classification": ["ORIGINAL-NS INITIAL-TIME SCOPE CALIBRATION", "UNIFORM IN THE EWP FAMILY", "NO NEW CRITICAL INPUT", "NOT CLAY"],
+  "completed_scope": [
+    "EWP实际同一初值族具有共同短时光滑窗；真实梯度L2平方由C ell_delta(t)控制，ell_delta=1+log_+(1/(delta+sqrt(nu t)))。使用平滑周期Leray核、统一初始速度L∞及带权Volterra，不使用非统一H1寿命。",
+    "完整规范压力Hessian及其实际B0配对的空间绝对值累计不超过C h ell_delta(h)，固定nu时为O(h(1+|log h|))；二维惯性配对沿解处处为零。",
+    "初始梯度平移模量和原两个时间切片给完整nu mu_G累计O_nu(sqrt(h)(1+|log h|))，保留零集。h_delta=delta²/nu时压力累计O_nu(delta² log(1/delta))，完整nu mu_G≤C_nu delta。",
+    "零角区精确初导数保留−delta²I2；同一正初值解有定性保号时间s_delta，但与内核时间h_delta不同，没有统一速率。热剪切对照说明W^{1,p}或速度Lipschitz有界不能单独给完整mu的初端一致趋零。"
+  ],
+  "open_items": [
+    "这些是特定初值族的初端模量，不能自动在一般三维候选奇异终端重启；未产生指定中心共同A+E与小K尺度。",
+    "没有证明精确对数寿命、固定共同正龄反例、全时间累计反例或一般含耗散吸收定理。",
+    "没有新的无条件临界估计、一般三维正则性、奇性、新颖性或真人同行评审认证。"
+  ],
+  "next_action": "结束EWP初端族的参数与热时间变体，返回PF的同一候选终端联合好尺度缺口。下一轮先从已保存的PF、AP两尺度原式和既有失败接口选择一个具体跨尺度命题；新命题不得预设共同速度L∞、初始梯度平移模量或已经足够小的K，不重做AP原差分及已失败的q×d、Young平方商、变参考核算。只有产生可核验的严格尺度增益或独立不可求和成本才接受为一般正则性输入；当前新候选未选定，不能把内部初端校准改称临界成果。不检查发布或反向执行。",
+  "new_candidate_selected": false,
+  "new_unconditional_critical_input": false,
+  "new_automatic_good_scale": false,
+  "is_clay_result": false,
+  "scientific_section_completed": false,
+  "new_release_created": false,
+  "new_handoff_sent": false,
+  "scientific_figures": [],
+  "simulation": false,
+  "dgx": false,
+  "numerical_certificate_required": false,
+  "numerical_certificate_run": false,
+  "recap_required": false,
+  "previous_goal_turn_classification": "PROGRESS: EWP proof freeze and one-time handoff verified at base commit"
+}
