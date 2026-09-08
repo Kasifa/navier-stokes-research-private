@@ -6,51 +6,52 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read final full-high independent review and compare actual coordinate normalizations; accept precise conditional four-real interface only after review. Complete paired-imaginary independent/main proofs and reviews, then inspect retained geometric domain. Twelve formal private handoffs sent once. No scans, actual data selection, old reruns, resets or publication observation.",
+  "next_action": "Read final amplitude independent review and compare the exact statement domains, accepting nondegeneracy only with its actual proof/review. Finish area-square two derivations and separate reviews, compare explicit numerator and remainder scales. Then test remaining shared conditions; no actual datum or candidate accepted. Thirteen formal private handoffs sent once; no publication observation.",
   "resume_action": "Resume from current top checkpoint and two-elliptic-compatibility actual files; do not revive historical next-actions.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
-  "release_id": "ReverseNS-20260908-LowestRowAndAreaCompatibility",
+  "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
   "scientific_status": "THREE_EDGE_TWO_LINEAR_OBSTRUCTION_ACCEPTED; LOWEST_LINEAR_ROW_UNDER_REVIEW; NO_CANDIDATE; NOT_CLAY",
   "accepted": "Eleventh formal private package accepted, frozen and sent once. Exact two-linear branch has nonzero total M0,W0 and same-data local source-ratio obstruction; no general mechanism exclusion.",
   "required_files": [
-    "research/reverse/two-elliptic-compatibility/freeze.json",
-    "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md",
-    "research/reverse/full-high-row-reduction/CONTRACT.md",
-    "research/reverse/full-high-row-reduction/PROOF.md",
-    "research/reverse/full-high-row-reduction/INDEPENDENT.md",
-    "research/reverse/full-high-row-reduction/REVIEW.md",
-    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md"
+    "research/reverse/full-high-row-reduction/freeze.json",
+    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
+    "research/reverse/lowest-amplitude-compatibility/PROOF.md",
+    "research/reverse/lowest-amplitude-compatibility/INDEPENDENT.md",
+    "research/reverse/lowest-amplitude-compatibility/REVIEW.md",
+    "research/reverse/area-square-compatibility/CONTRACT.md",
+    "research/reverse/area-square-compatibility/PROOF.md"
   ],
   "required_file_sha256": {
-    "research/reverse/two-elliptic-compatibility/freeze.json": "825273fede22a73aafa17711fc0bbabce96ef2b57e19bece794f9c798a9ea3a8",
-    "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md": "e4006594b3471367cdb416d0c27f5e4adff2b6a53116f2375acc22ad40d7aba2",
-    "research/reverse/full-high-row-reduction/CONTRACT.md": "8f1dd745dc12409f3e49b7b56073b3fb38fca4a26d23774f0df4ea12292ecc6e",
-    "research/reverse/full-high-row-reduction/PROOF.md": "3d02da817e164bbf8f75bdddfea74a4e0d2b14c12d890952aeeb727866cc3c6b",
-    "research/reverse/full-high-row-reduction/INDEPENDENT.md": "42581306cb064f24514a4b6a690e2e91e098ce2d125c454d92562b1956ec1446",
-    "research/reverse/full-high-row-reduction/REVIEW.md": "4e9647c130c3db20c2b1836d54649cb2e3125a65840487f9d10ec92afdf06be0",
-    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md": "fb4550856c200bac96616202ac0e3974851c2bbe6b45e8814bb670d38b1d67ec"
+    "research/reverse/full-high-row-reduction/freeze.json": "dadfc5d6c7555a24c0a961531b17086f84227d8e0b47b47ace4c15694d80c8e0",
+    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md": "50c69862e48753368b012e7df43e9af4ba3c4ceec0375b0e7c3d8fc06bb74b6a",
+    "research/reverse/lowest-amplitude-compatibility/PROOF.md": "0ea9eb4f24cc5d40c70e8155239b574040f967a878cd1707545fff9accd92682",
+    "research/reverse/lowest-amplitude-compatibility/INDEPENDENT.md": "9f4bf7ed5cd9b7dcea92576f9f0b262139451881f05956d329fc69203661962e",
+    "research/reverse/lowest-amplitude-compatibility/REVIEW.md": "71ddb8058c63f9799330cbeedbe8689b89831b9f7908b09e60759c84676170be",
+    "research/reverse/area-square-compatibility/CONTRACT.md": "8de0828beaa6b82c9984850b81008d3c0adabffac3bf7ba89172047ff3228c19",
+    "research/reverse/area-square-compatibility/PROOF.md": "8e60b6b44307f45c980423753b789d396cfffbbaa41f09181b2c6ad92478d866"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-TwoLinearSourceObstruction",
-  "source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+  "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
   "freeze_manifest": "research/reverse/three-edge-compatibility/freeze.json",
   "handoff_state": "SENT_ONCE_DO_NOT_RESEND",
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "f66b0543cd9351c0460a39f779ffa3500061d59b89800fa69821032f1a5b2912",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "dca42bb37a15b0be04bec955dde16467fb315fab7a97eb7fba9853e9a638386e",
-    "AGENTS.md": "489507a7469fed7567e381ba30c8bda5b5e099b5a412eb26c647b06195f64381"
+    "AGENTS.md": "f59ef66f8c91fb040b6304dcb1f7fd63d35fe02a829a9f266a7068743aef6146"
   },
-  "freeze_commit": "8a03284f8183803d5583299078f1a4e2150c52ac",
+  "freeze_commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
   "current_topic": "Only shortest seed linear: complete lowest mixed-source row and original-direction conditions",
   "current_topic_directory": "research/reverse/two-elliptic-compatibility",
   "pending": [
-    "Full-high independent non-author review and root comparison",
-    "Paired-imaginary elimination two texts and separate reviews",
-    "Actual common-data full-row feasibility and other C directions",
-    "Uniform iteration, one fixed datum infinitely many scales and finite total time"
+    "Amplitude independent final review actual read and root comparison",
+    "Area-square independent derivation and separate non-author reviews",
+    "Root comparison and coherent freeze after all same-data scope gates",
+    "Integer common-root realization, remaining high conditions and other C directions",
+    "One fixed datum infinite scales, uniform errors and finite total time"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -332,17 +333,17 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "research/reverse/two-elliptic-compatibility/freeze.json",
-    "research/reverse/two-elliptic-compatibility/FINAL_SCOPE_REVIEW.md",
-    "research/reverse/full-high-row-reduction/CONTRACT.md",
-    "research/reverse/full-high-row-reduction/PROOF.md",
-    "research/reverse/full-high-row-reduction/INDEPENDENT.md",
-    "research/reverse/full-high-row-reduction/REVIEW.md",
-    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md"
+    "research/reverse/full-high-row-reduction/freeze.json",
+    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
+    "research/reverse/lowest-amplitude-compatibility/PROOF.md",
+    "research/reverse/lowest-amplitude-compatibility/INDEPENDENT.md",
+    "research/reverse/lowest-amplitude-compatibility/REVIEW.md",
+    "research/reverse/area-square-compatibility/CONTRACT.md",
+    "research/reverse/area-square-compatibility/PROOF.md"
   ],
   "resume_read_note": "Current active text pointers only. Actual mathematical reading is required wherever used; hashes are not proof or review. Historical evidence fields remain unchanged.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "40ecba70080d51d05c2ce23d51b8e306c27d4264",
+  "current_analysis_source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -581,8 +582,8 @@
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
     ".workflow/reverse-current.json",
-    "research/reverse/full-high-row-reduction/CONTRACT.md",
-    "research/reverse/full-high-row-reduction/PAIRED_IMAGINARY_CONTRACT.md"
+    "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
+    "research/reverse/area-square-compatibility/CONTRACT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -754,7 +755,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T05:14:56.285546+00:00",
+  "last_checkpoint_utc": "2026-09-08T05:50:12.961605+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -826,10 +827,29 @@
     "publication_observed": false
   },
   "full_high_row_evidence": {
-    "status": "TWO_DERIVATIONS_READ_MAIN_REVIEW_PASS_INDEPENDENT_REVIEW_PENDING",
-    "contract": "research/reverse/full-high-row-reduction/CONTRACT.md",
-    "main_sha256": "3d02da817e164bbf8f75bdddfea74a4e0d2b14c12d890952aeeb727866cc3c6b",
-    "independent_sha256": "42581306cb064f24514a4b6a690e2e91e098ce2d125c454d92562b1956ec1446",
+    "status": "ACCEPTED_FROZEN_AND_SENT_ONCE",
+    "release_id": "ReverseNS-20260908-FullRowAndGeometryScreen",
+    "source_commit": "650216c9e989ee31b806e0da7b3de305e8dda961",
+    "freeze_commit": "1fdcd13b76dccd21b2ac56b44ab74f5c4b9703fc",
+    "manifest": "research/reverse/full-high-row-reduction/freeze.json",
+    "files": 22,
+    "direct_acceptance_bindings": 18,
+    "candidate_accepted": false,
+    "new_actual_datum": false,
+    "scientific_programs_run": 0,
+    "formal_handoff_count": 13,
+    "publication_observed": false
+  },
+  "lowest_amplitude_evidence": {
+    "status": "TWO_DERIVATIONS_READ_MAIN_REVIEW_READ_INDEPENDENT_REVIEW_RETURNED_PENDING_ROOT_READ",
+    "contract": "research/reverse/lowest-amplitude-compatibility/CONTRACT.md",
+    "accepted": false,
+    "candidate_accepted": false,
+    "scientific_programs_run": 0
+  },
+  "area_square_evidence": {
+    "status": "ROOT_PROOF_WRITTEN_AND_FULL_READ_INDEPENDENT_AND_REVIEWS_RUNNING",
+    "contract": "research/reverse/area-square-compatibility/CONTRACT.md",
     "accepted": false,
     "candidate_accepted": false,
     "scientific_programs_run": 0
