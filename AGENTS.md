@@ -1,5 +1,11 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Current energy-observation freeze and residual-budget review (2026-09-09)
+
+EnergyObservationInterfaces is research-complete at source 8c63de4f / freeze 3120f75e and was sent once for PRIVATE_ARCHIVE. Releases1–29 are closed handoffs; never resend or observe publication. Its 20 core plus11 dependency Git objects and freeze object were actually read and byte-verified. It accepts conditional dissipative-tail and full-residual relative-L2 finite-source observation interfaces only: the same original smooth solution interval and all concrete reconstruction, strain/residual, history/reading and lifespan inputs remain unpaid. No actual NS gate, continuation, candidate or singularity result is new.
+
+Current bounded work is residual-budget-floor-preflight/CONTRACT.md, separate from package29. The root endpoint polynomial derivation and its non-author review are stopped; the author proof is undergoing one off-support endpoint-error scope clarification before final review. Scientific worker budget0: no arrays, endpoint selection, parameter evaluation or old worker rerun. Use the latest reverse CHECKPOINT/index, preserve all six legacy failure fields, and keep the user's continuous authority active unless a later pause arrives.
+
 ## Current continuous-goal continuation (2026-09-09)
 
 The user's continuous reverse research authority remains active. Resume from this tree's current CHECKPOINT and reverse-current. Releases 1–28 were sent once and remain closed. AnnularSourceObservation is frozen at source 9abbaf67 / freeze d498eda5 and has been handed off once for private archival; never resend or observe publication. All ten annular scientific workers have completed once: input2, implementation/cost3, four trajectories and one fixed comparison. No worker or tool session is running; never restart any of these IDs or old A/B/C. All four finite trajectories miss both numerical terminal gates. This is NO-CANDIDATE for the fixed numerical screen only, with no certified actual NS gate exclusion, full-window error, uniform iteration or singularity. Four trajectories share the same q36 approximation to the same original datum and fixed T; do not silently vary data, T or thresholds.
