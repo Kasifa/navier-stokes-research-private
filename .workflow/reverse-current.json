@@ -6,13 +6,13 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Actually read three-edge-compatibility final main and independent derivations, complete separate non-author reviews and root comparison. Main scalar reduction is written; independent shared-polarization classification is still in progress. Ten formal packages are sent once, never resend. No star parameter search, scientific programs, arrays, numerical selection, reset or publication observation.",
-  "resume_action": "Actually read three-edge-compatibility final main and independent derivations, complete separate non-author reviews and root comparison. Main scalar reduction is written; independent shared-polarization classification is still in progress. Ten formal packages are sent once, never resend. No star parameter search, scientific programs, arrays, numerical selection, reset or publication observation.",
+  "next_action": "Finish actual two one-elliptic proofs and separate non-author reviews, plus root MAX_RECEIVER_EXTENSION review and root full comparison. Base three-edge scalar/type stage accepted at7161a05e. General ratio lemma reviewed; no followup accepted until final reads. Ten formal handoffs already sent once. No science programs/arrays/parameters/scans/reset/publication observation.",
+  "resume_action": "Finish actual two one-elliptic proofs and separate non-author reviews, plus root MAX_RECEIVER_EXTENSION review and root full comparison. Base three-edge scalar/type stage accepted at7161a05e. General ratio lemma reviewed; no followup accepted until final reads. Ten formal handoffs already sent once. No science programs/arrays/parameters/scans/reset/publication observation.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct continued-research instruction and management dispatch from 019fbdba-295b-7c30-a74a-b843f7558d54; preserve original task/worktree/model, finish actual interrupted review, no automatic reset credit.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260908-MixedSourceStarObstruction",
-  "scientific_status": "MIXED_SOURCE_STAR_OBSTRUCTION_FROZEN_AND_SENT_ONCE; THREE_EDGE_COMPATIBILITY_IN_PROGRESS",
+  "scientific_status": "THREE_EDGE_BASE_ACCEPTED; ONE_ELLIPTIC_AND_GENERAL_MAXIMUM_ROW_FOLLOWUPS_IN_PROGRESS",
   "accepted": "MixedSourceStarObstruction package accepted, frozen and sent once for private archival. Conditional original-direction obstruction only; general three-edge compatibility and regeneration remain unresolved.",
   "required_files": [
     "research/reverse/fixed-seed-global-screen/OUTCOME.md",
@@ -311,7 +311,14 @@
     "research/reverse/three-edge-compatibility/CONTRACT.md",
     "research/reverse/net-mixed-cancellation/freeze.json",
     "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md",
-    "research/reverse/three-edge-compatibility/PROOF.md"
+    "research/reverse/three-edge-compatibility/PROOF.md",
+    "research/reverse/three-edge-compatibility/acceptance.json",
+    "research/reverse/three-edge-compatibility/ROOT_REVIEW.md",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_ANALYSIS.md",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO.md",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO_REVIEW.md",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md"
   ],
   "required_file_sha256": {
     "research/reverse/fixed-seed-global-screen/OUTCOME.md": "c082641275c6d329ee68ee36382ee9f0936245788d356b3f474be4c94ce63f5c",
@@ -458,7 +465,7 @@
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61",
     "research/reverse/fixed-seed-global-screen/control-and-increment-root-bindings.json": "d10c286499e8c26a811b150b202dac83e4026405a7cb3ec42ff95479578da4c2",
     "research/reverse/fixed-seed-global-screen/one-segment-denominator-root-acceptance.json": "faedd5aa722f51541afc38ffe7a42f5ab323b22f9a8e73933f21ad2a48a63f63",
-    "research/reverse/CHECKPOINT.md": "538c81f6d54b3f52dba165041201dfa11bdcd3f395288ea4e4d5386c521f718f",
+    "research/reverse/CHECKPOINT.md": "743afc3870cac1e755ece49d294138f4eea590c7896fff3bf002b14c345418ce",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_CONTRACT.md": "e6a39b644953609429d5d2560dad500026f2db31dca6f40bd52dfe47bccc86db",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_COMPARISON_INDEPENDENT_REVIEW.md": "76be831347a8dcd4e4cf16721ad695497e88ab98d8a4c19f4a2fe91a20a6ac4e",
     "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_EXECUTION_CONTRACT.md": "7687786631b17cb9f8e21b3f9723f3eeb8d6e16cf3415a246544cb5c4df9d8eb",
@@ -612,7 +619,14 @@
     "research/reverse/three-edge-compatibility/CONTRACT.md": "51909466ff2baf93b83d419775b0fbd2f1ceff4dec59c785358401d80ff01143",
     "research/reverse/net-mixed-cancellation/freeze.json": "d05cfb0732d0ce915876476942b37f18a98afb091c22252fdcb3b5cedc8999ea",
     "research/reverse/net-mixed-cancellation/FINAL_SCOPE_REVIEW.md": "0c5d7d6ea71e6dc09ac918f6607ecdee613ba3efa769b77266b194ef535eb3e0",
-    "research/reverse/three-edge-compatibility/PROOF.md": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3"
+    "research/reverse/three-edge-compatibility/PROOF.md": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3",
+    "research/reverse/three-edge-compatibility/acceptance.json": "7e7fbdc964b59e7911994b5335163d9feb5a351bdcb9bd39eea091ff0045333d",
+    "research/reverse/three-edge-compatibility/ROOT_REVIEW.md": "d35904fd734037a4787c6ef678e921da973bfaa7435ea3643b7d23763ad27858",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md": "e8816e54ced5050ca5e2736f081825237edc828b71096a4a4241f660c330089d",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_ANALYSIS.md": "54a62b99cb646d78bc42e8dc8829fa09e82625c623ee71bc416fa789c01d8b60",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO.md": "ff52531d6e1b5563c99504aba8e6b6e4e5afce77b76e7e286e74d397c3d610c5",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_RATIO_REVIEW.md": "7efeab3289aecebd1fb5d69551585d63497c1dbd48557a18154c0d3c6a26419e",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md": "3dba89eec10784edf5ab45bd3019bce131795d0bd0b7f705ca95a08f4a03a322"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260908-MixedSourceStarObstruction",
@@ -1161,8 +1175,9 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/net-mixed-cancellation/FINAL_OUTCOME.md",
-    "research/reverse/three-edge-compatibility/CONTRACT.md"
+    "research/reverse/three-edge-compatibility/acceptance.json",
+    "research/reverse/three-edge-compatibility/ONE_ELLIPTIC_CONTRACT.md",
+    "research/reverse/three-edge-compatibility/MAX_RECEIVER_EXTENSION.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1334,7 +1349,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-08T03:48:19.924782+00:00",
+  "last_checkpoint_utc": "2026-09-08T04:04:05.420836+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -1370,12 +1385,21 @@
     "candidate_accepted": false
   },
   "three_edge_evidence": {
-    "status": "MAIN_FINAL_WRITTEN_NON_AUTHOR_REVIEW_RUNNING_INDEPENDENT_STILL_RUNNING",
+    "status": "ACCEPTED_INTERNAL_BASE_FOLLOWUPS_PENDING",
     "contract": "research/reverse/three-edge-compatibility/CONTRACT.md",
-    "accepted": false,
+    "accepted": true,
     "candidate_accepted": false,
     "scientific_programs_run": 0,
     "main": "research/reverse/three-edge-compatibility/PROOF.md",
-    "main_sha256": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3"
+    "main_sha256": "d712401ccdd2f94e05762d2e07622e7aa8e77da70c556d8219dfec060125d4b3",
+    "source_commit": "7161a05e",
+    "acceptance": "research/reverse/three-edge-compatibility/acceptance.json",
+    "scope": "Complete shared scalar systems; linear/area-nonzero type ordering and cross beta=0 gates; mixed-type full W0 nonzero. No feasibility or new positive-time theorem.",
+    "subsequent_pending": [
+      "ONE_ELLIPTIC_ANALYSIS.md",
+      "ONE_ELLIPTIC_INDEPENDENT.md",
+      "MAX_RECEIVER_RATIO.md",
+      "MAX_RECEIVER_EXTENSION.md"
+    ]
   }
 }
