@@ -1,5 +1,11 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Latest direct resume after the second pause (2026-09-08)
+
+The user directly said “恢复” after the most recent “暂停”. Resume from actual stopped files to finish the authorized six-carrier review/freeze and the separately bounded receiver-support/strategy bridge. A/B/C have each already run once; do not rerun. The structural minimum-leaf calculation is independent of the six-carrier package and does not certify actual short-response coefficients or a next generation. Finish these bounded sections, save their actual review and source checkpoint, and report the precise open input. Do not activate goal runners or automations or silently expand to an eight-leaf scan. Historical pending/paused labels below do not override this direct resume or saved results.
+
+The central workflow's current opening and applicable research/freeze sections were read again at this resume. Reader, website, repository identity/visibility and cadence operations remain the fixed publisher's responsibility. This task neither inspects nor reports their execution state; the scientific worktree isolation and private-only once-per-release handoff remain unchanged.
+
 ## Latest bounded authorization after the pause (2026-09-08)
 
 The user paused this task after the sole six-carrier C verification. On 2026-09-08 the paper task relayed explicit authorization first to evaluate a strategy report, then to finish the actually unfinished sections and one concrete bridge to the optimized strategy. This authorizes the six-carrier final review/acceptance/freeze without rerunning A/B/C, plus a separately bounded receiver-supply bridge and strategy/checkpoint updates. It does not restart unlimited research, scans, automations or the overall goal runner. Finish this bounded scope, save the checkpoint and report; continued broader work still needs user authority. The latest checkpoint overrides older next-action text below.

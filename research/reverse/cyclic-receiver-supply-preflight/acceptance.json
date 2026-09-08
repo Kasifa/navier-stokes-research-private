@@ -1,0 +1,74 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_BOUNDED_STRUCTURAL_BRIDGE_AND_STRATEGY_WORKING_RECORD",
+  "files": [
+    {
+      "path": "research/reverse/cyclic-receiver-supply-preflight/ROOT_QUESTION.md",
+      "sha256": "1841a9e29ab0c0fbbd06ffdc51736f9ddb4c0889a8fefbf3210f8615895d7b97",
+      "bytes": 2312
+    },
+    {
+      "path": "research/reverse/cyclic-receiver-supply-preflight/ROOT_SUPPORT_NOTE.md",
+      "sha256": "1162f1402043ee57feb2866d68379b5519d19a63f2da19f38e85fefdb1fbe2d8",
+      "bytes": 2787
+    },
+    {
+      "path": "research/reverse/cyclic-receiver-supply-preflight/PREFLIGHT.md",
+      "sha256": "841cc7e26a4d8b8c3e8f930e2a2da47824fdcba43cee1fd37e40864a32cf5b58",
+      "bytes": 9705
+    },
+    {
+      "path": "research/reverse/cyclic-receiver-supply-preflight/REVIEW.md",
+      "sha256": "960cdc0517b1ac3c36b1cf6ca1ca5d9599876705c553a825fc076ea4f5e16be7",
+      "bytes": 11641
+    },
+    {
+      "path": "research/reverse/strategy-20260908/STRATEGY.md",
+      "sha256": "6bee8ae3d335d8064055f2022978958897bffd05896ab03f5096a8e87ced8a42",
+      "bytes": 8132
+    },
+    {
+      "path": "research/reverse/strategy-20260908/STATUS_AND_BRIDGE.md",
+      "sha256": "165b4497bf7ba74bb5e6a4f8a864d6624581c7f1859bd8d54885afa3ced3e378",
+      "bytes": 6534
+    },
+    {
+      "path": "research/reverse/strategy-20260908/SOURCES.md",
+      "sha256": "3e815bc3847acf77e212edce89b684b121e418f2e42ca427def932bc6b6bcc33",
+      "bytes": 11355
+    }
+  ],
+  "result": "All 18 nonzero D+D frequencies classified; six doubled outputs vanish for every divergence-free D-field self-action; difference outputs have minimum two F leaves, sum and doubled outputs minimum seven. Support alone cannot isolate eight-leaf receiver self-supply. No actual early coefficient or dynamic failure is certified.",
+  "root_actual_reading": "All seven final texts read in full; integer minimum-leaf proof and both sets of witnesses hand checked; reviewer state-table clarification closed. Earlier PDF and manuscript reading remains exactly scoped in SOURCES, not whole-paper reproof.",
+  "independent_derivation": "Root support note and Gauss preflight formed without reading each other; both have prior project context. Hume nonauthor nonblind review, final bytes read by root.",
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/four-leaf-preflight/GENERAL_SOURCE_BRIDGE.md",
+      "sha256": "59354781b8d04087cf1d5383824dbe741d24b3c0fae8798caa6c50cae24a3ebe",
+      "bytes": 13988
+    },
+    {
+      "path": "research/reverse/route-screen/ENERGY_SCREEN.md",
+      "sha256": "12e1ad7ec85b2e46c91bc6dc525c88d4ab688ffcd1b556ab96004125573ec6cc",
+      "bytes": 6996
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    }
+  ],
+  "new_scientific_program_runs": 0,
+  "actual_next_generation_or_eight_leaf_computation": false,
+  "new_dynamic_input": false,
+  "singularity_candidate": false,
+  "uniform_iteration": false,
+  "external_full_proof_or_novelty_certification": false,
+  "not_a_new_formal_result_package": true,
+  "excluded_from_six_carrier_freeze": true,
+  "figures": [],
+  "new_pdf": false,
+  "new_English_translation": false,
+  "bounded_scope_completed": true,
+  "next_scientific_input": "Future separately contracted check of complete two-leaf difference outputs at the same selected datum, with full heat response and infinite-tail comparison; no new coefficient execution in this bounded closure."
+}
