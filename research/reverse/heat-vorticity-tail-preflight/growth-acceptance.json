@@ -1,0 +1,170 @@
+{
+  "schema": "ReverseNS-growth-acceptance-v1",
+  "release_id": "ReverseNS-20260909-FixedHeatVorticityCompletion",
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_CONDITIONAL_FIXED_HEAT_GROWTH_AND_FULL_VORTICITY_SUPPORT",
+  "created_utc": "2026-09-09T05:25:46.330473+00:00",
+  "source_status": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+  "fixed_object": "Same original external unit-torus U, V_h=exp((1-t)Delta_T)U, rho=1-t, tau=lambda_p^2(1-t); no changed source choices",
+  "accepted": [
+    "Existing heat contract items1-3 and Gaussian growth contract steps1-2, composed under explicit external-source hypotheses",
+    "Full actual error bound C tau^(-A+h/4), including all axis, wave/mean/curl/cutoff and all periodic images",
+    "Same-point normalized velocity limit lambda_p I>0; I is the original fixed positive Gaussian direction integral, not a computed value",
+    "Late nonzero field with no nonempty open set of identically zero vorticity; individual vorticity zeros are allowed",
+    "Existing full pressure/residual identity and finite-energy, explicit L1_t H^-1 budget preserved without upgrade"
+  ],
+  "files_read_and_bound": [
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/AXIS_LABEL_SOURCE.md",
+      "sha256": "b9a48de47b0def307f5c76822bac28cb788d454f968ec39561708a126b18276d",
+      "bytes": 8215
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
+      "sha256": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
+      "bytes": 3230
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE.md",
+      "sha256": "661db82179c30dfce91117fbb61aa64bfd0ed60926a144fb3ce129a53d89c638",
+      "bytes": 3496
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "f7cf1ea7e98eff8e4816b88a0a478897a7d7a89432413995e0a1e732ef32cd78",
+      "bytes": 6050
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
+      "sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+      "bytes": 2933
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md",
+      "sha256": "767df015e79b72cda73202bdc289e8822d294704680a7ec5bfed3fae0d5aaef0",
+      "bytes": 7200
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SYNTHESIS.md",
+      "sha256": "7c58beaccd8bbca46844c2d0972aafc66039fd195b7b7c21db3976102e8bcb21",
+      "bytes": 5180
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md",
+      "sha256": "bf3a8c2a2fe330cdf930877222f349f52b85ceab6f0c410aabecff5bf43fbcff",
+      "bytes": 9814
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md",
+      "sha256": "786fa46ee37a6b78fa5e291907999194b80366efcb5c294aea23ac82b9dbae0a",
+      "bytes": 7505
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_AND_IMAGES.md",
+      "sha256": "bb25839f76bfab719b3bca7afed9a724c624a4a172a1fc55bff684975cc3fc7a",
+      "bytes": 6582
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_REVIEW.md",
+      "sha256": "8c80d0380e8a8d2e88c945caca6e2f305e099dba7106ce58fcf33a7e0822a130",
+      "bytes": 6300
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_COMPARISON.md",
+      "sha256": "1af4717bac70c2ce1393639ea5f24db6e6d4090233c3a56309ac249468f34dc9",
+      "bytes": 2554
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+      "sha256": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491",
+      "bytes": 5855
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/SOURCES_AND_HISTORY.md",
+      "sha256": "2535ae2bb9ae51f3fdccb2eb8ddc5f53c11d7049cedff7cd18f7268d990d0ab3",
+      "bytes": 4668
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/WEIGHTED_ERROR_INDEPENDENT.md",
+      "sha256": "fb7a2f8284f2f1a838306e3a68f9a2ae7cb6cf76a9a63b574d05832eb8f38018",
+      "bytes": 12126
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/WEIGHTED_ERROR_REVIEW.md",
+      "sha256": "f9a173d816fbb35379f02d8baa06f0a0be9788173d48ebf0604788cf8ed03c8d",
+      "bytes": 6603
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+      "sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+      "bytes": 3561
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/reading-evidence/MAIN_TERM_REVIEWED_9a85.md",
+      "sha256": "9a85d8647a8a330da2b0d2a64b7810dba0d25ebe6c5ba0aa068d2ff7412c228f",
+      "bytes": 6585
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/reading-evidence/pdf058-tail-exponent-spans.json",
+      "sha256": "692eb7e66acee14541574394cead536eb2e488644927abcd05a31f8b6aea4c1c",
+      "bytes": 5477
+    }
+  ],
+  "actual_growth_accepted_conditionally": true,
+  "unforced_candidate_accepted": false,
+  "entire_unforced_tail_excluded": false,
+  "force_nonzero_lower_bound": false,
+  "strong_stability_smallness_paid": false,
+  "same_original_a_star_unchanged": true,
+  "external_full_proof_verified": false,
+  "local_Clay_solution": false,
+  "historical_scope": {
+    "old_acceptance": {
+      "path": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+      "sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+      "bytes": 3561
+    },
+    "old_growth_NOT_QUALIFIED_was_correct_at_that_stage": true,
+    "old_interface_and_growth_draft_statuses_are_formation_history": "Later synthesis and this acceptance govern the new conditional composition; no rewrite of old stopped text",
+    "previous_main_snapshot": {
+      "path": "research/reverse/heat-vorticity-tail-preflight/reading-evidence/MAIN_TERM_REVIEWED_9a85.md",
+      "sha256": "9a85d8647a8a330da2b0d2a64b7810dba0d25ebe6c5ba0aa068d2ff7412c228f",
+      "bytes": 6585
+    },
+    "previous_main_reconstruction": "Recovered by reversing the single containment wording patch; SHA exactly equals the stopped MAIN_TERM_REVIEW binding. Not the accepted final main.",
+    "final_main": {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_AND_IMAGES.md",
+      "sha256": "bb25839f76bfab719b3bca7afed9a724c624a4a172a1fc55bff684975cc3fc7a",
+      "bytes": 6582
+    },
+    "last_correction_closure": {
+      "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "f7cf1ea7e98eff8e4816b88a0a478897a7d7a89432413995e0a1e732ef32cd78",
+      "bytes": 6050
+    }
+  },
+  "root_actual_full_read_lines": {
+    "AXIS_LABEL_SOURCE.md": 78,
+    "WEIGHTED_ERROR_INDEPENDENT.md": 132,
+    "WEIGHTED_ERROR_REVIEW.md": 29,
+    "MAIN_TERM_AND_IMAGES.md": 80,
+    "MAIN_TERM_REVIEW.md": 26,
+    "GROWTH_SYNTHESIS.md": 54,
+    "FINAL_SCOPE.md": 22,
+    "SOURCES_AND_HISTORY.md": 27,
+    "FINAL_SCOPE_REVIEW.md": 35
+  },
+  "formation": "Nonblind AI derivation, original-source qualification and non-author component/scope audits; root has read stopped texts. No human peer review or machine mathematical certificate.",
+  "scientific_executions": 0,
+  "scientific_arrays_decoded": 0,
+  "new_source_page_renders": 0,
+  "new_scientific_figures": 0,
+  "new_reader_pdf": false,
+  "unpaid": [
+    "Same original a_star NS dynamics and lifespan",
+    "Full G_h cancellation or strong residual control with viscosity, wave quadratic means and periodic pressure",
+    "Uniform iteration, same datum infinite scales, infinite dimensional error and finite total time",
+    "External full construction and formalization verification"
+  ],
+  "formal_source_commit_and_freeze": "Bound separately in freeze.json after actual Git blob verification"
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "ReverseNS-analytic-certificate-manifest-v1",
+  "release_id": "ReverseNS-20260909-FixedHeatVorticityCompletion",
+  "status": "MANUAL_ANALYTIC_AND_NON_AUTHOR_REVIEW_RECORD",
+  "source_records": [
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/AXIS_LABEL_SOURCE.md",
+      "sha256": "b9a48de47b0def307f5c76822bac28cb788d454f968ec39561708a126b18276d",
+      "bytes": 8215
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
+      "sha256": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
+      "bytes": 3230
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE.md",
+      "sha256": "661db82179c30dfce91117fbb61aa64bfd0ed60926a144fb3ce129a53d89c638",
+      "bytes": 3496
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "f7cf1ea7e98eff8e4816b88a0a478897a7d7a89432413995e0a1e732ef32cd78",
+      "bytes": 6050
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
+      "sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+      "bytes": 2933
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md",
+      "sha256": "767df015e79b72cda73202bdc289e8822d294704680a7ec5bfed3fae0d5aaef0",
+      "bytes": 7200
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SYNTHESIS.md",
+      "sha256": "7c58beaccd8bbca46844c2d0972aafc66039fd195b7b7c21db3976102e8bcb21",
+      "bytes": 5180
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md",
+      "sha256": "bf3a8c2a2fe330cdf930877222f349f52b85ceab6f0c410aabecff5bf43fbcff",
+      "bytes": 9814
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md",
+      "sha256": "786fa46ee37a6b78fa5e291907999194b80366efcb5c294aea23ac82b9dbae0a",
+      "bytes": 7505
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_AND_IMAGES.md",
+      "sha256": "bb25839f76bfab719b3bca7afed9a724c624a4a172a1fc55bff684975cc3fc7a",
+      "bytes": 6582
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_REVIEW.md",
+      "sha256": "8c80d0380e8a8d2e88c945caca6e2f305e099dba7106ce58fcf33a7e0822a130",
+      "bytes": 6300
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_COMPARISON.md",
+      "sha256": "1af4717bac70c2ce1393639ea5f24db6e6d4090233c3a56309ac249468f34dc9",
+      "bytes": 2554
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+      "sha256": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491",
+      "bytes": 5855
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/SOURCES_AND_HISTORY.md",
+      "sha256": "2535ae2bb9ae51f3fdccb2eb8ddc5f53c11d7049cedff7cd18f7268d990d0ab3",
+      "bytes": 4668
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/WEIGHTED_ERROR_INDEPENDENT.md",
+      "sha256": "fb7a2f8284f2f1a838306e3a68f9a2ae7cb6cf76a9a63b574d05832eb8f38018",
+      "bytes": 12126
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/WEIGHTED_ERROR_REVIEW.md",
+      "sha256": "f9a173d816fbb35379f02d8baa06f0a0be9788173d48ebf0604788cf8ed03c8d",
+      "bytes": 6603
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+      "sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+      "bytes": 3561
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/growth-acceptance.json",
+      "sha256": "ab03ddfa4ecbad010efff537eaece31917d6af85b70ff915383de8e167bec8a7",
+      "bytes": 7928
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/reading-evidence/MAIN_TERM_REVIEWED_9a85.md",
+      "sha256": "9a85d8647a8a330da2b0d2a64b7810dba0d25ebe6c5ba0aa068d2ff7412c228f",
+      "bytes": 6585
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/reading-evidence/pdf058-tail-exponent-spans.json",
+      "sha256": "692eb7e66acee14541574394cead536eb2e488644927abcd05a31f8b6aea4c1c",
+      "bytes": 5477
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/PROOF.md",
+      "sha256": "545fee812f2b7ef96c51029e9234b9869815c4a8312236e5726b54a482042453",
+      "bytes": 8872
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/SOURCE_QUALIFICATION.md",
+      "sha256": "c7c11fd2bef0ad8a16c39ce98e21d0af729e45dae8d9a440640d62b0b96595c0",
+      "bytes": 8392
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/freeze.json",
+      "sha256": "89b43d71f8332a4baad45bd458c1474ab5f7ef3d34817f87e9220c8cc17cdeee",
+      "bytes": 18689
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+      "bytes": 613667
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+      "bytes": 571
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
+      "sha256": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
+      "bytes": 236048
+    }
+  ],
+  "accepted_scope": {
+    "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE.md",
+    "sha256": "661db82179c30dfce91117fbb61aa64bfd0ed60926a144fb3ce129a53d89c638",
+    "bytes": 3496
+  },
+  "composition_review": {
+    "path": "research/reverse/heat-vorticity-tail-preflight/FINAL_SCOPE_REVIEW.md",
+    "sha256": "f7cf1ea7e98eff8e4816b88a0a478897a7d7a89432413995e0a1e732ef32cd78",
+    "bytes": 6050
+  },
+  "acceptance": {
+    "path": "research/reverse/heat-vorticity-tail-preflight/growth-acceptance.json",
+    "sha256": "ab03ddfa4ecbad010efff537eaece31917d6af85b70ff915383de8e167bec8a7",
+    "bytes": 7928
+  },
+  "scientific_executions": 0,
+  "numerical_arrays_decoded": 0,
+  "mathematical_machine_certificate": false,
+  "external_full_proof_verified": false,
+  "parameter_or_tolerance_changes": false,
+  "figure_status": "No new scientific figures or source renderings; one reused page33 image dependency and one page58 glyph-layout JSON. Historical reviewed-main snapshot retained with exact old hash.",
+  "Git_verification": "Not yet claimed here; final freeze must read every listed source/dependency blob and compare SHA/length.",
+  "publication": "PRIVATE_ARCHIVE only through the fixed publisher; no automatic public permission"
+}
