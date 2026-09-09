@@ -1,0 +1,129 @@
+{
+  "schema": "ReverseNS-report-evidence-v1",
+  "classification": "PRIVATE_CORE",
+  "created_utc": "2026-09-09T02:30:50.682728+00:00",
+  "status": "QUALIFIED_NUMERICAL_REPORT_AND_BYTE_PRESERVATION",
+  "evidence": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE.md",
+      "sha256": "44bf796612712fd630fd068cf6d714189acd5e52a7a89a60e3591b770ac7a28b",
+      "bytes": 4981
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "019c8d15370d07d532c5e4abd982c7170885d0916bfbbc28e3edc7f33d4e848d",
+      "bytes": 4359
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/SOURCES.md",
+      "sha256": "eb37a7aaee46b3035cdb2667c3ddf205afcac45abe77582a94140213b702b485",
+      "bytes": 2008
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md",
+      "sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
+      "bytes": 6790
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/result-acceptance.json",
+      "sha256": "50e690c2736d12c46ae30de68d868b737ac906471cab97f2b3a8faa9045358fe",
+      "bytes": 1751
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_RESULT_REVIEW.md",
+      "sha256": "08eb660405df8fc9fe2e89ab57317b39c041fcfa6199f0378550f284c6a89fc7",
+      "bytes": 5546
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-acceptance.json",
+      "sha256": "f83175658fc7deb496cdea04012b69dbafb9d785eddaefbd8a2441018f1bba77",
+      "bytes": 2280
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json",
+      "sha256": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13",
+      "bytes": 1477
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_OBSERVATION.json",
+      "sha256": "e4355653c975a3e9512a205b175d100727e6164a253dfcab401d6f48bc77dff8",
+      "bytes": 2291
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DATA_GIT_VERIFICATION.json",
+      "sha256": "0ed0c2a5ccdc9ae0d524fc762bc071dc1f7d354876b3ef1a0a141501e545f356",
+      "bytes": 6862
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/source-lock.json",
+      "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e",
+      "bytes": 10163
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-source-lock.json",
+      "sha256": "71e7619e824e48fdbbda293f9b6ef60d1c8cbc9b4d0cf551ede7ceaf7e568da4",
+      "bytes": 13711
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json",
+      "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252",
+      "bytes": 67590
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json",
+      "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007",
+      "bytes": 40208
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/manifest.json",
+      "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41",
+      "bytes": 31514
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/execution.json",
+      "sha256": "bab27692ddbbee63edf467f4613c4af5c364beb8d6e80d807434a718964854d2",
+      "bytes": 30896
+    }
+  ],
+  "scientific_execution": {
+    "count": 1,
+    "reruns": 0,
+    "id": "value-scout-160-512",
+    "source_commit": "97cdd8ca4cb849802709d283aba28ca344bfef8c",
+    "source_lock_commit": "43231b9866e56cc6202a93b0602409ae4016d8eb",
+    "exact_configuration_preserved": true,
+    "actual_fft_batches": 54,
+    "actual_scalar_3d_ffts": 162,
+    "input_hash_passes": 34,
+    "whole_child_seconds": 17.748699583113194,
+    "whole_child_peak_rss_bytes": 4496424960,
+    "root_actual_exit_receipt_terminal_observed": true
+  },
+  "byte_archive": {
+    "count": 1,
+    "reruns": 0,
+    "source_commit": "37bdca0bce1c7493a101ec8a95fff6a5153a8164",
+    "lock_commit": "9f17cb0c5c400d01004c9f75b44a6d97979c86a1",
+    "actual_stream_restore_passes": 1,
+    "root_second_restore": false,
+    "four_originals_preserved": true,
+    "gzip_blocks": 23,
+    "actual_gzip_Git_blobs_verified": 23,
+    "data_commit": "2e05dbf889d8cde49e345d441ae2a3f15d7de81f",
+    "whole_child_seconds": 16.542058124905452,
+    "whole_child_peak_rss_bytes": 30179328
+  },
+  "numerical_consistency_scope": "Complete programmed vectors and differences retained; no independent post-run array decoding, no retroactive tolerance, no independent numerical implementation",
+  "not_certified": [
+    "Single-sided floating or quadrature errors",
+    "Exact Mminus lower bound",
+    "Actual NS existence through T",
+    "Actual first or second source gate",
+    "Accepted finite two-step mechanism",
+    "Uniform iteration and one datum across all scales",
+    "Infinite-dimensional remainder or finite-time singularity"
+  ],
+  "review": "Disclosed sequential nonblind AI authors and non-author scope reviews; no human peer review/formal machine proof/newness certification",
+  "figures": [],
+  "new_pdf": false
+}

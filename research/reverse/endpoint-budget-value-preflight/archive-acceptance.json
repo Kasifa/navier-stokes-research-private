@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "status": "LOSSLESS_BYTE_ARCHIVE_AND_GIT_PRESERVATION_ACCEPTED",
+  "classification": "PRIVATE_CORE",
+  "utc": "2026-09-09T02:27:43.899027+00:00",
+  "scope": "One actual stream restoration plus actual Git-blob byte identity and nonblind metadata review; not an independent second restoration or scientific certificate",
+  "bindings": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_RESULT_REVIEW.md",
+      "bytes": 5546,
+      "sha256": "08eb660405df8fc9fe2e89ab57317b39c041fcfa6199f0378550f284c6a89fc7"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_OBSERVATION.json",
+      "bytes": 2291,
+      "sha256": "e4355653c975a3e9512a205b175d100727e6164a253dfcab401d6f48bc77dff8"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DATA_GIT_VERIFICATION.json",
+      "bytes": 6862,
+      "sha256": "0ed0c2a5ccdc9ae0d524fc762bc071dc1f7d354876b3ef1a0a141501e545f356"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/manifest.json",
+      "bytes": 31514,
+      "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/execution.json",
+      "bytes": 30896,
+      "sha256": "bab27692ddbbee63edf467f4613c4af5c364beb8d6e80d807434a718964854d2"
+    }
+  ],
+  "root_read_review": "Complete stopped ARCHIVE_RESULT_REVIEW28 lines",
+  "original_count": 4,
+  "original_bytes": 675685780,
+  "gzip_count": 23,
+  "gzip_bytes": 640192569,
+  "max_gzip_bytes": 32688734,
+  "new_output_bytes": 640273806,
+  "actual_stream_restoration_passes": 1,
+  "root_second_decompression_passes": 0,
+  "actual_gzip_Git_blobs_verified": 23,
+  "data_commit": "2e05dbf889d8cde49e345d441ae2a3f15d7de81f",
+  "byte_child_seconds": 16.542058124905452,
+  "byte_child_peak_rss_bytes": 30179328,
+  "byte_session_id": 67319,
+  "session_closed": true,
+  "automatic_rerun": false,
+  "scientific_worker_invocations": 0,
+  "raw_originals_preserved": true,
+  "historical_pending_note": "ROOT_ARCHIVE_OBSERVATION formal_Git_blob_preservation_pending is closed by DATA_GIT_VERIFICATION and this acceptance; original observation remains unchanged"
+}

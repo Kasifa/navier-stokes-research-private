@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "status": "VERIFIED_GIT_BLOB_BYTE_PRESERVATION",
+  "utc": "2026-09-09T02:22:13.204717+00:00",
+  "data_commit": "2e05dbf889d8cde49e345d441ae2a3f15d7de81f",
+  "scope": "Actual current gzip bytes and streamed Git blobs compared to prior archive manifest. No NPZ decoding, scientific recomputation or second decompression.",
+  "gzip_git_blobs": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0000.gz",
+      "bytes": 32364311,
+      "sha256": "7d85fd9ba2147dc78c724ff68154c619246dff0caad59160f7f6e9db54caf6ba"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0001.gz",
+      "bytes": 32316692,
+      "sha256": "4a3c598f5ebb18835ad00af87c22019086502088ae754a2e13b2b07d1ab02428"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0002.gz",
+      "bytes": 32209528,
+      "sha256": "a747c1a780d58255625a105d8a454ddc986a100c2aab027a913e49f0660ec38b"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0003.gz",
+      "bytes": 32348063,
+      "sha256": "9943f0fdfb025cd64489f77b1b7d61d5cfc1b6946d686d0568cbee1ee0014ccc"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0004.gz",
+      "bytes": 32451187,
+      "sha256": "eb5fd817673e01a80d42cf9c34843b2629ca08e58e88afe2e55fa7279fd599fb"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0005.gz",
+      "bytes": 32422685,
+      "sha256": "2455efd19b4065f0a0eeb6c4a1d83267f41019489d6b27648259a3337fe1f216"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0006.gz",
+      "bytes": 32303343,
+      "sha256": "7207ff8049d4e087c93c93790b2194d587b02d387e3cd9b777a5870d75e458c8"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0007.gz",
+      "bytes": 32239953,
+      "sha256": "b2ddd89c031396033bf4f22250f734f0f4d17b797eeb31c4165b5626f8a45bf2"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0008.gz",
+      "bytes": 32385786,
+      "sha256": "ce0262b0d6b89c06ff8941c5a6d0b5e7103373c4885066537e9a4eae63192ffb"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0009.gz",
+      "bytes": 32430073,
+      "sha256": "3e747672d80963fbb3c69e4e5b23d0cd1b38564ae7b81f42b5a7a543ffb46cf4"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0010.gz",
+      "bytes": 32421673,
+      "sha256": "99096ee4a79e16ba660691d74d47f1ac9a6fc35854aba3abe441665e504bc12f"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0011.gz",
+      "bytes": 32278790,
+      "sha256": "53d980929c52a14e6f8f4566bbc49006cd1fcbc554bc17baef0bc485c4a2573e"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0012.gz",
+      "bytes": 32269538,
+      "sha256": "5d3d871891fbb339440008c02179557697484b352f360f0246b6de209bf65de2"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0013.gz",
+      "bytes": 32417042,
+      "sha256": "718a7325edf499225a5be4d6bd5be2beb49bc9524337c123c540c229e7980131"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0014.gz",
+      "bytes": 13500765,
+      "sha256": "fbbf067282731356ea821a7d185373dc4257e6223d0750942764fa55c51cdc8c"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/quadrature.npz.part0000.gz",
+      "bytes": 9268,
+      "sha256": "9e6d7e74eeddec95c6fe8070919c768bde99de14fa7b6bdfe92440019718965b"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/reconstruction.npz.part0000.gz",
+      "bytes": 7473499,
+      "sha256": "523063ae4584ed606a0050c90b683e9a421fcfceebcbaa50a70ddfc9224b4eff"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0000.gz",
+      "bytes": 32685443,
+      "sha256": "ef6312af01fb8325c5975d152c4fee1d7fa09e6a03b2460a1ece15abe05a25c9"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0001.gz",
+      "bytes": 32688734,
+      "sha256": "29429c51b19c0a34b9843853701df03deeebc01da5909a06ff71441f4b7177c1"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0002.gz",
+      "bytes": 32648536,
+      "sha256": "352dd839dec54f00200394fcb570f324ef27a636d8dd9a6237e3ba287d454c2c"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0003.gz",
+      "bytes": 31091155,
+      "sha256": "fa1f232c9d42d8b0119dd1a9ab0280c488f4767a341bef5ccb89ca09d7709455"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0004.gz",
+      "bytes": 29615210,
+      "sha256": "cc6d79d86775b8a9102d022ab61b72e995507d1808f1a5f438760eff2951e61d"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0005.gz",
+      "bytes": 7621295,
+      "sha256": "6f5daff1fe5444678f92b892ee4df997cd1b3ab33ffb66fac7f5bfbdc0eefba3"
+    }
+  ],
+  "small_git_blobs_verified": [
+    "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/manifest.json",
+    "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/progress.jsonl",
+    "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/execution.json",
+    "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/stdout.log",
+    "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/stderr.log",
+    "research/reverse/endpoint-budget-value-preflight/archive-live-gate.json",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_OBSERVATION.json"
+  ],
+  "raw_originals_preserved": true,
+  "scientific_worker_invocations": 0,
+  "new_decompression_passes": 0,
+  "wall_to_record_seconds": 11.860087041,
+  "self_peak_rss_bytes_Darwin": 15908864,
+  "children_peak_rss_bytes_Darwin": 42254336,
+  "resource_note": "Byte hashing plus git add/commit/read, sampled before this JSON serialization; SELF/CHILDREN are separate, not a simultaneous sum"
+}

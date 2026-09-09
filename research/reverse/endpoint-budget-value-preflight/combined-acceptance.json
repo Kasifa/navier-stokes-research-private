@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "classification": "PRIVATE_CORE_NUMERICAL_VALUE_ONLY_NO_NEW_CANDIDATE_NOT_CLAY",
+  "created_utc": "2026-09-09T02:30:50.682728+00:00",
+  "status": "REPORT_SCOPE_AND_EVIDENCE_ACCEPTED_FOR_FREEZE",
+  "certificate": {
+    "path": "research/reverse/endpoint-budget-value-preflight/certificate-manifest.json",
+    "sha256": "820dbd2a85a24c9203dfac548700fc28c0da5ec7df870c89d92b4483b9086aa4",
+    "bytes": 5362
+  },
+  "final_scope": {
+    "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE.md",
+    "sha256": "44bf796612712fd630fd068cf6d714189acd5e52a7a89a60e3591b770ac7a28b",
+    "bytes": 4981
+  },
+  "final_review": {
+    "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE_REVIEW.md",
+    "sha256": "019c8d15370d07d532c5e4abd982c7170885d0916bfbbc28e3edc7f33d4e848d",
+    "bytes": 4359
+  },
+  "root_read_final_review": "Complete stopped22 lines",
+  "accepted": [
+    "Single fixed endpoint postprocessing report only",
+    "Recorded exact source/input/operation identities and complete lifecycle resource gates",
+    "All four original outputs retained and losslessly restored by one reviewed byte process",
+    "Actual compressed Git blobs preserve all restored data",
+    "Fixed floating budget comparison not satisfied; no new NS conclusion"
+  ],
+  "formation_scope": "Old source-preparation/run-observation pending fields and local zero-execution counts remain historical; later result/byte/Git acceptances close only their named scope. None retroactively claims independent scientific computation.",
+  "formal_freeze_still_requires": "Exact source commit and all core/dependency Git-object byte verification followed by separate manifest commit; once-only private handoff",
+  "overall_goal_complete": false,
+  "new_public_permission": false,
+  "figures": [],
+  "new_reader_pdf": false
+}
