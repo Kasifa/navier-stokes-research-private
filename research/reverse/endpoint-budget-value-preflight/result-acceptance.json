@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "classification": "PRIVATE_CORE_NUMERICAL_VALUE_ONLY",
+  "status": "RESULT_METADATA_AND_REPORTED_SCOPE_ACCEPTED",
+  "recorded_utc": "2026-09-09T02:10:38.666223+00:00",
+  "review": {
+    "path": "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md",
+    "sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
+    "root_read_scope": "Complete stopped 32 lines"
+  },
+  "outcome_sha256": "d9fc8771ee5496c49828516e5e275d201444d5d25e9f7f3061a7177761f7607a",
+  "formation_note": "OUTCOME pending-result-review statement is closed by this acceptance; original reviewed bytes retained",
+  "actual_run_count": 1,
+  "scientific_reruns": 0,
+  "raw_NPZ_independently_decoded": false,
+  "independent_scientific_recomputation": false,
+  "bound_direction_or_quadrature_error_certified": false,
+  "actual_NS_gate_lifespan_or_singularity_certified": false,
+  "recorded_M2_lower_conversion_error": {
+    "denominator": "824136020966684923798969476522574629512967280867164577837939983307538067510497256769491349198603234582673324763053806142237431031888099406660182013848532815101915299840000",
+    "numerator": "166828583596532225480287216082627604883119017701927099482989858025558566638998488724547631849213963545796319656566503858337108783497416953468747654106532091907011"
+  },
+  "M_minus_num_is_certified_lower_bound": false,
+  "claim": "Only fixed floating comparison and recorded run completion/source/resource are accepted; no new candidate or mathematical method obstruction",
+  "pending": [
+    "Stopped archival source/contract and review",
+    "Bounded byte archival with actual decompression SHA/length",
+    "Final frozen manifest and scope review"
+  ],
+  "figures": [],
+  "new_pdf": false
+}

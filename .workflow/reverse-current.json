@@ -6,7 +6,7 @@
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Complete stopped result metadata/scope review; review and lock independent byte archival source/contract, then preserve all 4 outputs losslessly. Unique scientific run is closed and must never rerun.",
+  "next_action": "Read stopped archive source/contract, perform non-author source review and bind byte-operation sources; no scientific reruns. Result metadata/scope review is accepted.",
   "resume_action": "Read completed-run checkpoint and OUTCOME/ROOT_RUN_OBSERVATION. All scientific runs closed; no terminal to resume.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
@@ -417,11 +417,13 @@
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json",
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/progress.jsonl",
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stdout.log",
-    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log"
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log",
+    "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/result-acceptance.json"
   ],
   "required_file_sha256": {
     "AGENTS.md": "2f691971227f017dcc0dc2731747228417473f6dfaea87cfb77bca531cd91f0f",
-    "research/reverse/CHECKPOINT.md": "92df14cad12618b989c8a54bb18ea51f21750683b25c74732465389ea0c3935b",
+    "research/reverse/CHECKPOINT.md": "b10bef7c0cd9e02f541312a0af3a70da540d76a3c841496194874fee5c62d39c",
     "research/reverse/HANDOFF_LOG.json": "49985bd9a753ba9758d36634f7b2b6268079fd8ecae67ebdc054199af1ebb530",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -822,7 +824,9 @@
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252",
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/progress.jsonl": "575926a06c1a2a582ae72fbbcb7a63ae9fd80a332ba71c493cd84cdf9a3d283d",
     "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stdout.log": "6a9abe7c49eaf51d37e0c771a26faad8a041137beb39d9e703b12548a4d4f602",
-    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
+    "research/reverse/endpoint-budget-value-preflight/result-acceptance.json": "50e690c2736d12c46ae30de68d868b737ac906471cab97f2b3a8faa9045358fe"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260909-ResidualBudgetGateFilter",
@@ -839,7 +843,6 @@
   "current_topic": "Fixed endpoint residual-budget value scout",
   "current_topic_directory": "research/reverse/endpoint-budget-value-preflight",
   "pending": [
-    "Result metadata and scope review",
     "Bounded archive source/contract review and byte execution",
     "Final scientific scope/freeze only after actual data preservation"
   ],
@@ -850,7 +853,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T02:07:40.037025+00:00",
+  "updated_at": "2026-09-09T02:10:38.666223+00:00",
   "protocol_read_scope_latest": "2026-09-09 refreshed central opening and research/freeze sections 163-209, current dual-track strategy including priority update; no publication state inspection.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -2436,6 +2439,9 @@
     "classification": "NUMERICAL_VALUE_ONLY_NO_NEW_CANDIDATE",
     "run_directory": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512",
     "automatic_rerun": false,
-    "actual_NS_gate_or_lifespan_certified": false
+    "actual_NS_gate_or_lifespan_certified": false,
+    "result_metadata_review_sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
+    "result_metadata_review_status": "ACCEPTED_LIMITED_SCOPE",
+    "raw_npz_independently_decoded": false
   }
 }
