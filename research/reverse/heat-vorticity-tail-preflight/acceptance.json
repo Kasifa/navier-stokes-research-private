@@ -1,0 +1,87 @@
+{
+  "schema": "ReverseNS-local-working-record-acceptance-v1",
+  "status": "ACCEPTED_CONDITIONAL_HEAT_INTERFACE_GROWTH_INPUT_NOT_QUALIFIED",
+  "created_utc": "2026-09-09T04:50:51.413487+00:00",
+  "core_files": [
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
+      "sha256": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
+      "bytes": 3230,
+      "lines": 22
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+      "sha256": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491",
+      "bytes": 5855,
+      "lines": 80
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md",
+      "sha256": "bf3a8c2a2fe330cdf930877222f349f52b85ceab6f0c410aabecff5bf43fbcff",
+      "bytes": 9814,
+      "lines": 140
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md",
+      "sha256": "767df015e79b72cda73202bdc289e8822d294704680a7ec5bfed3fae0d5aaef0",
+      "bytes": 7200,
+      "lines": 51
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_COMPARISON.md",
+      "sha256": "1af4717bac70c2ce1393639ea5f24db6e6d4090233c3a56309ac249468f34dc9",
+      "bytes": 2554,
+      "lines": 13
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md",
+      "sha256": "786fa46ee37a6b78fa5e291907999194b80366efcb5c294aea23ac82b9dbae0a",
+      "bytes": 7505,
+      "lines": 32
+    }
+  ],
+  "core_file_count": 6,
+  "accepted_contract_items": [
+    1,
+    2,
+    3
+  ],
+  "growth_contract_item4": "KinematicGrowthInput_NOT_QUALIFIED",
+  "accepted": [
+    "Nonzero original slice implies no nonempty open set of identically zero vorticity after the fixed full heat completion",
+    "Complete pressure, rho_prime=-1 residual, exact heat covariance/gradient integral and full-frequency H^-1 bounds",
+    "Explicit Gaussian-lattice bound and L1_tH^-1 terminal integral budget, not strong stability smallness",
+    "Bounded original-source qualification identifies usable finite-stage/tail inputs but has not closed the actual vector Gaussian-growth proof"
+  ],
+  "actual_growth_proven": false,
+  "growth_failure_proven": false,
+  "unforced_candidate_accepted": false,
+  "general_NO_CANDIDATE": false,
+  "actual_norms_evaluated": false,
+  "same_original_a_star_unchanged": true,
+  "source_status": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+  "root_actual_full_read": {
+    "independent_lines": 140,
+    "source_lines": 51,
+    "joint_review_lines": 32,
+    "saved_root_proof_lines": 80
+  },
+  "formation": "Independent author did not read root proof; root saw independent stopped-message identities and bound before its own formal draft. Root then fully compared stopped files. Nonblind AI non-author audit corrected one absolute-continuity wording; no formula changed.",
+  "scientific_executions": 0,
+  "arrays_opened": 0,
+  "new_source_page_renders": 0,
+  "new_scientific_figures": 0,
+  "new_reader_pdf": false,
+  "formal_release": false,
+  "private_handoff": false,
+  "excluded_from_release33": true,
+  "next_contract": {
+    "path": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
+    "sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+    "bytes": 2933,
+    "lines": 16
+  },
+  "next_contract_status": "PROSPECTIVE_NOT_PROVEN_OR_REVIEWED",
+  "next_contract_excluded_from_current_review": true,
+  "machine_mathematical_certificate": false
+}
