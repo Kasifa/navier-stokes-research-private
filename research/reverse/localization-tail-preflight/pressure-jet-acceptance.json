@@ -1,0 +1,66 @@
+{
+  "status": "ACCEPTED_CONDITIONAL_LOCAL_WORKING_RECORD_NOT_RELEASE33",
+  "scientific_status": "PROJECTED_JETS_UNEVALUATED / CONDITIONAL_REMAINDER_ONLY",
+  "core_files": [
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_CONTRACT.md",
+      "sha256": "7b435aa8db7ed4fec63f50b0adbb0d9dd7f1c9ec59867afbc4ceecabd042639a",
+      "bytes": 2360,
+      "lines": 11
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_HISTORY.md",
+      "sha256": "6a628fe96393c2901b97ac6d678ca5fb52e5e71b692b8d11cd18e43cf1797e79",
+      "bytes": 2324,
+      "lines": 13
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_INDEPENDENT.md",
+      "sha256": "9f51e7097c9bbba06c8c77d95ffef1870f48bed6c043f919c6c7900b646f97e9",
+      "bytes": 10975,
+      "lines": 129
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_PROOF.md",
+      "sha256": "10953e75adba6b068cb958b2637cd711aabe0c0ca1934371fe2036081bb29c4f",
+      "bytes": 5710,
+      "lines": 48
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_REVIEW.md",
+      "sha256": "83d8852d740b12619a4be10ecc00b714e032e864b2236cbff839fdc98b00a334",
+      "bytes": 4473,
+      "lines": 28
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_ROOT_ACCEPTANCE.md",
+      "sha256": "e2dcb19db3c33005b040ae77d7295b112fd0474d150392887f4b794d9c0aed33",
+      "bytes": 2909,
+      "lines": 15
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_SOURCE_AUDIT.md",
+      "sha256": "3da6060a20533e92eb256540a50b46d96ec4b5444dbe3f58678c3ec6e5a9250f",
+      "bytes": 5460,
+      "lines": 34
+    }
+  ],
+  "core_file_count": 7,
+  "root_read_completed_independent_lines": 129,
+  "root_read_completed_review_lines": 28,
+  "root_read_completed_source_audit_lines": 34,
+  "independent_formation": "same contract and historical context; no root new proof read before writing",
+  "non_author_review": "Hume reviewed root proof only; root reviewed independent after author stopped",
+  "actual_force_moments_evaluated": false,
+  "actual_remainder_norms_evaluated": false,
+  "unforced_candidate_accepted": false,
+  "scientific_executions": 0,
+  "arrays_opened": 0,
+  "new_renderings": 0,
+  "new_scientific_figures": 0,
+  "new_reader_pdf": 0,
+  "formal_release": false,
+  "private_handoff": false,
+  "excluded_from_release32": true,
+  "next_input": "First b/B moment qualification for the same complete periodic force from explicit full-field identities, without changing any data or parameters."
+}
