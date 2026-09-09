@@ -399,6 +399,23 @@
       },
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260909-EndpointBudgetValueScreen",
+      "source_commit": "c80b1b4e3ada0f74a8ecf3682d53f9c205feb1ee",
+      "freeze_commit": "c3d7fa6a5a0c16435984c3459f37da25cf38af6d",
+      "freeze_manifest_sha256": "c7a9f215adc7e291a9a809f41bd9566f5d73d049bb0721a2070fb5e1d1278368",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-09T02:36:59.099067+00:00",
+      "sent_time_note": "Tool returned matching publisher threadId; exact dispatch timestamp not supplied",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      },
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"

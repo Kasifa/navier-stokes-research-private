@@ -1,12 +1,12 @@
 # Reverse research ownership and resumption (2026-09-07)
 
-## Current fixed endpoint value scout completed (2026-09-09)
+## Current endpoint value freeze and annular coefficient preflight (2026-09-09)
 
-Releases1–30 are frozen and sent exactly once; never resend or observe publication. The fixed endpoint value scout has now run exactly once and completed. Source97cdd8ca, lock43231b98 / SHA99908cbb remain immutable. Session28105 exited0 and is CLOSED; never poll or rerun it. Existing numerical-runs/value-scout-160-512 is permanent evidence, not a restart point.
+EndpointBudgetValueScreen is frozen at sourcec80b1b4e / freezec3d7fa6a, manifestc7a9f215, sent exactly once for PRIVATE_ARCHIVE. Releases1–31 are closed handoffs; never resend or observe publication. Root actually read84 core and37 dependency Git blobs and the freeze blob. Only a fixed numerical report/no new candidate, not an actual NS gate/lifespan or singularity conclusion.
 
-Root observed parent exit0, receipt PASS670d621d and successful terminal manifest09bf2f43. Child17.748699583s, peak4496424960B,54 batches/162 scalar FFTs; full directory675803770B. Only NUMERICAL_VALUE_ONLY: Ubar81170397.46015947 versus B_PH69.33584473015269 fails the chosen floating blocking comparison. No actual NS gate/lifespan/singularity or new candidate is certified. See OUTCOME and ROOT_RUN_OBSERVATION.
+Scientific session28105, byte archive session67319 and local Git session15656/66235 are all exited and closed. No reruns. Four raw NPZ remain locally intact;23 lossless gzip objects are actually restored/hashed and preserved in Git. Original and archive source locks stay byte-identical; no post hoc numerical tolerances or independent-array-recompute claims.
 
-Result metadata/scope review5cb45f22 is stopped, root-read and accepted at32bf3533. Next complete independent bounded byte archival. All four raw NPZ must remain intact; do not directly Git-add the large originals. Archival scripts/contracts still being prepared and are not execution authority. No additional scientific run, scan, refinement or full-window certificate follows automatically. Preserve all six legacy failure fields and goal/budget/reset/automation state. A later pause overrides immediately.
+Next bounded work is annular-third-order-preflight/HISTORY.md c4438406. Same original datum, no new parameters or scans. The entire H2 early-failure argument conditional on T2 nonzero already exists; only exact qualification of the full three-leaf coefficient at 2p+Rp is open in the read scope. Fix a contract before new derivation/computation; do not substitute wavevector matching for nonzero Leray output or extend a local-time result to fixed T. Root has actually read the history25, old VALUE_PREFLIGHT13 and same-datum PROOF122. Preserve all six legacy failure fields and active goal/budget/reset/automation state. Later pause overrides immediately.
 
 ## Current energy-observation freeze and first-gate budget question (2026-09-09)
 
