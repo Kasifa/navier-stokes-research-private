@@ -1,0 +1,12 @@
+{
+  "original": "/Users/kasifa/Documents/Math/.workflow/strategy-openai-ns-20260909/sources/navier-stokes.pdf",
+  "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+  "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+  "bytes": 2959204,
+  "pages": 166,
+  "extractor": "PyMuPDF 1.28.2",
+  "text_sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+  "extraction_is_not_reading": true,
+  "lean_version_reference": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "lean_run": false
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "ReverseNS-bounded-analytic-acceptance-v1",
+  "status": "ACCEPTED_FOR_PRIVATE_RESEARCH_FREEZE",
+  "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
+  "created_utc": "2026-09-09T03:11:46.000299+00:00",
+  "scope": {
+    "path": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+    "sha256": "ca0a9d4d8b8a8e07f5e2e95f73d29de3a83ae46e3e383bca08346ee8c8c97416",
+    "bytes": 3914
+  },
+  "root_non_author_review": {
+    "path": "research/reverse/forced-tail-audit/ROOT_PROOF_REVIEW.md",
+    "sha256": "c083ecb8bc05756595ebe48ccb611ba5016f56c2fef6ba6fe2fe8390bf9746e7",
+    "bytes": 6094
+  },
+  "final_scope_review": {
+    "path": "research/reverse/forced-tail-audit/FINAL_SCOPE_REVIEW.md",
+    "sha256": "6dd9c84a4c66d519e700a05e24ad0812d40911936250d32bbb966ed8059adb43",
+    "bytes": 6219
+  },
+  "root_actual_full_read_final_scope_review_lines": 30,
+  "root_actual_full_read_proof_review_lines": 36,
+  "certificate": {
+    "path": "research/reverse/forced-tail-audit/certificate-manifest.json",
+    "sha256": "736dbf16dd7435d2fcfb696b9fe6d839200d6386b3d70836d41238399f3224e5",
+    "bytes": 6050
+  },
+  "accepted": "Conditional full-domain analytic-tail obstruction for the same localized trajectory; periodic zero-mode/curl qualification; localization-tail input gap only",
+  "external_result_status": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+  "local_Clay_solution": false,
+  "scientific_executions": 0,
+  "new_datum_or_numerical_scan": false,
+  "formation": "Independent analytic author was prompted with the idea and wrote before reading root proof; subsequent root proof review and scope review are disclosed nonblind AI non-author audits. Earlier source-only NOT ESTABLISHED and root periodic-pending formation are preserved; stopped later application closes the bounded claim."
+}

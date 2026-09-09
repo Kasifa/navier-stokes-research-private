@@ -1,0 +1,157 @@
+{
+  "schema": "ReverseNS-analytic-evidence-v1",
+  "scientific_executions": 0,
+  "machine_mathematical_certificate": "NOT_APPLICABLE_MANUAL_ANALYTIC_PROOF",
+  "formal_external_proof_checked": false,
+  "items": {
+    "contract": [
+      {
+        "path": "research/reverse/forced-tail-audit/CONTRACT.md",
+        "sha256": "267f6257dbda8ed0db49d0bff7c3cff29b98455d89c8a51d557d54fcc40104c9",
+        "bytes": 2893
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/ANALYTIC_TAIL_CONTRACT.md",
+        "sha256": "c2bbe821ec6d1799bad051a40461e37c0c9c635b77ac240541cfe5557798f500",
+        "bytes": 2141
+      }
+    ],
+    "proof": [
+      {
+        "path": "research/reverse/forced-tail-audit/ROOT_ANALYTIC_PROOF.md",
+        "sha256": "dccd2cfd8d9cbe61597074d2391fc59d3d983de685bf1f2bfbc19b72120e5abf",
+        "bytes": 5336
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/INDEPENDENT_ANALYTIC_CHECK.md",
+        "sha256": "e4ced73340f903eb81055f45415ddc7f9b7eb3df24285fbd1759149b5b3f689a",
+        "bytes": 6421
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/APPLICATION_AND_GAP.md",
+        "sha256": "f77fc095f7d23a1376a1bfae764573320fdcc2b4889068b7b897ecef9dac3a90",
+        "bytes": 4382
+      }
+    ],
+    "review": [
+      {
+        "path": "research/reverse/forced-tail-audit/ROOT_INDEPENDENT_REVIEW.md",
+        "sha256": "7dd96aca46c2e7810358a757f2cea2b4232327249c8dc62a6a0322a6b6dfbdf5",
+        "bytes": 2259
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/ROOT_PROOF_REVIEW.md",
+        "sha256": "c083ecb8bc05756595ebe48ccb611ba5016f56c2fef6ba6fe2fe8390bf9746e7",
+        "bytes": 6094
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/ROOT_SOURCE_REVIEW.md",
+        "sha256": "1fba2a934fc9c59b4fc6ac97019465d30da87a9554f357dc71e9341b6092fab6",
+        "bytes": 2498
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/FINAL_SCOPE_REVIEW.md",
+        "sha256": "6dd9c84a4c66d519e700a05e24ad0812d40911936250d32bbb966ed8059adb43",
+        "bytes": 6219
+      }
+    ],
+    "source": [
+      {
+        "path": "research/reverse/forced-tail-audit/SOURCE_FORCE_MAP.md",
+        "sha256": "56c5d7bf1ae9ecb4e77dc765478f96bb33d433c3de08312bf5783bbd3f8fd729",
+        "bytes": 9003
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/PERIODIC_FORCE_AUDIT.md",
+        "sha256": "37734f594c9471cc2011c8c0216589d1f9777898981d211336769a8d85e7935f",
+        "bytes": 9787
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/SOURCES_AND_HISTORY.md",
+        "sha256": "55966c575b02c9bc8090a80100392a7a3a9db33f3fc466eb84718b1ec5ae780f",
+        "bytes": 3196
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+        "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+        "bytes": 571
+      }
+    ],
+    "scope": [
+      {
+        "path": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+        "sha256": "ca0a9d4d8b8a8e07f5e2e95f73d29de3a83ae46e3e383bca08346ee8c8c97416",
+        "bytes": 3914
+      },
+      {
+        "path": "research/reverse/forced-tail-audit/OUTCOME.md",
+        "sha256": "95fe7b0ccea942b369307116bc39c4178887d62c9a52eedcc66dc4bb9f1f2904",
+        "bytes": 1292
+      }
+    ]
+  },
+  "reading_evidence": [
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-006.png",
+      "sha256": "b003bd62bc6274ea4b35048c54b75d29bdf161d18f29e185b2458e874dd6945a",
+      "bytes": 245306
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-015.png",
+      "sha256": "716657afa6c2612565f4fe76345e0a9ca2a36607efce41bb146da92f959d934f",
+      "bytes": 156362
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-016.png",
+      "sha256": "be6f83a43a7c0a134c2160ac4c0ffab26c24e75dd447af846654f70ef85e435d",
+      "bytes": 216966
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-102.png",
+      "sha256": "fee9fc751228d2b6ae20f67015a5b8a0e3cdcf4fca497ed6cc7cf6a5cf0294ea",
+      "bytes": 197581
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-118.png",
+      "sha256": "8266b9e0c505827c53b72db0694127e12a50f7946ecfb2caae56766782483806",
+      "bytes": 180831
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-119.png",
+      "sha256": "a40785d63ec2015b8d1497c77cb40abee9c64e23aa89725718e8f5560091b5b0",
+      "bytes": 223186
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-120.png",
+      "sha256": "45ccf92eedfa5eade26fb1226cf83fe8aa2e6c82c41708ad7519ccf98389945d",
+      "bytes": 183036
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-124.png",
+      "sha256": "fabeaf52e9f148cf6c9d945492c863a3b7dae42dcb2c0098fff874aff1e42a46",
+      "bytes": 188916
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p015.png",
+      "sha256": "8d01befb474abd8fa1e99777ff89462e072eb78553e55755d2e3caf12784fa08",
+      "bytes": 262983
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p118.png",
+      "sha256": "8fd08cffbd474028a4e87f82429175ae8d04d69500532bbb4bda65588021e56d",
+      "bytes": 295087
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p125.png",
+      "sha256": "83477bd8db72c07550f3967aa5d9a8e5a4aa2d728f180e53555772ed3bcd6530",
+      "bytes": 296040
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p126.png",
+      "sha256": "3b66008a35860d661a7a2219dd16e31ea710e81e6e3fd224eae0627253adae77",
+      "bytes": 342277
+    }
+  ],
+  "reading_evidence_scope": "12 independently saved original-page renders covering10 distinct pages; not new scientific figures",
+  "figures": []
+}
