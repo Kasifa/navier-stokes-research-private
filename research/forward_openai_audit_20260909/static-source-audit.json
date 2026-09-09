@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "status": "STATIC_SOURCE_AUDIT_ONLY",
+  "commit": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "reconstructed_tree": "8163a2fac282a90cc60b5afbc1f0dc7b2e5c6755",
+  "snapshot": "/Users/kasifa/Documents/Math/tmp/wechat-openai-ns-20260909/formal-audit/snapshot",
+  "checked_blob_count": 589,
+  "solution_local_modules": 580,
+  "solution_local_lines": 379522,
+  "solution_local_bytes": 20226808,
+  "closure_module_blob_sha256": "4d7f15ca8395cde0a841baf6100307a51699935c2a4227f5a94e058a4d37fd9b",
+  "external_mathlib_import_count": 209,
+  "external_dependency_closure_checked": false,
+  "reference_imported_by_solution": false,
+  "selected_token_scan_hits": [],
+  "challenge_sorry_lines": [
+    277,
+    284
+  ],
+  "anchors": [
+    {
+      "path": "README.md",
+      "git_blob": "7605002090afc6e2603ba2f624d41af1c6da5149",
+      "sha256": "2ca277a62b6bb6ce34686303c9c777e56d5b460160004a49a28e4e72086d781e",
+      "bytes": 2018
+    },
+    {
+      "path": "formalization.yaml",
+      "git_blob": "01270e9f666b0400b60d032204e02e6d684cee98",
+      "sha256": "6c6d30c58c70a0a04fa41a08a50ba7eb7e8a96a7f604a30b4bec6b921ea87dc3",
+      "bytes": 4379
+    },
+    {
+      "path": "NavierStokes.lean",
+      "git_blob": "40970393bdbd8c884e9a95f82a1a80452da5ce12",
+      "sha256": "ebe2349ab5b76f4f8b5d1e88a629337fb6bc59e2c5ef62a6f8fcf247b1be4e07",
+      "bytes": 39
+    },
+    {
+      "path": "NavierStokes/ComparatorSolution.lean",
+      "git_blob": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227",
+      "bytes": 1359
+    },
+    {
+      "path": "NavierStokes/ComparatorDefinitions.lean",
+      "git_blob": "d92c81ac99c1139e54c181c97d9021e975e23b7a",
+      "sha256": "8d90e0f9eee14f8b01773852083a02fd58bda59d4de2abb60d1787bbc9f6ebf4",
+      "bytes": 10979
+    },
+    {
+      "path": "NavierStokes/ComparatorR3Theorem.lean",
+      "git_blob": "eb98522380b91b209421bf7519f34bc68ba95c1d",
+      "sha256": "bcf984eb9f9b70d2f0a3850b146bccef918b36d27831f607b5c1aed14aab92a3",
+      "bytes": 2000
+    },
+    {
+      "path": "NavierStokes/ComparatorTheorem.lean",
+      "git_blob": "8105493534a5007c689c59e22bc252623bcbe901",
+      "sha256": "94b2218013c242e55b8726523ca1151bc1bd5e2b55a5d6d0909cd867bf5e1f59",
+      "bytes": 2818
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.lean",
+      "git_blob": "673fb19e26e60818d446363afd953f618719f99b",
+      "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61",
+      "bytes": 13031
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.json",
+      "git_blob": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+      "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+      "bytes": 375
+    },
+    {
+      "path": "ComparatorChallenges/README.md",
+      "git_blob": "bbe080b9fa8fd091617914290eb815e831cf16b2",
+      "sha256": "f28c5f581d7bbc9504db467b88686a89ad5a94e4fd38b48a1866ae6224b5a1d8",
+      "bytes": 665
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+      "sha256": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09",
+      "bytes": 662
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+      "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
+      "bytes": 3810
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob": "b814d987e0c93cb99938be934d9b277778495ba1",
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "bytes": 29
+    }
+  ],
+  "limits": [
+    "Explicit lexical imports only; not a Lean parser or elaborator.",
+    "No Mathlib/Lean transitive implementation audit.",
+    "No compilation, kernel axiom extraction, Comparator or nanoda run.",
+    "Absence of selected source tokens is not proof or security certification."
+  ]
+}
