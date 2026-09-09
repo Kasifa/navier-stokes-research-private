@@ -434,6 +434,24 @@
         "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
       },
       "sent_time_note": "Tool returned matching threadId; exact dispatch timestamp not supplied"
+    },
+    {
+      "release_id": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
+      "source_commit": "3a13c931ec4560244589222b978baec0bf544ef8",
+      "freeze_commit": "6b9e6df1315e507e81cd2b2c0120a4083ddc0a7c",
+      "freeze_manifest_sha256": "89b43d71f8332a4baad45bd458c1474ab5f7ef3d34817f87e9220c8cc17cdeee",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "intent_at_utc": "2026-09-09T04:40:34.890871+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true,
+      "recorded_at_utc": "2026-09-09T04:42:24.369833+00:00",
+      "sent_at_utc": null,
+      "sent_time_note": "Tool returned matching threadId; exact dispatch timestamp not supplied",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      }
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency",
