@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "scope": "READ_ONLY_INPUT_IDENTITY_NOT_EXECUTION_APPROVAL",
+  "original_mapping": {
+    "path": "research/reverse/endpoint-budget-value-preflight/bindings.json",
+    "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab",
+    "bytes": 45351
+  },
+  "run_id": "value-scout-160-512",
+  "trajectory_run_id": "trajectory160_512",
+  "checkpoints": [
+    {
+      "endpoint_index": 0,
+      "original_step_j": 0,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000000.npz",
+      "bytes": 206343430,
+      "sha256": "1fd52e997d7f1fff87fdbbe3aaf3141ed8d0ad05a740f776e92117ff1b38d417",
+      "time_exact": {
+        "denominator": "1",
+        "numerator": "0"
+      }
+    },
+    {
+      "endpoint_index": 1,
+      "original_step_j": 32,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000032.npz",
+      "bytes": 206347734,
+      "sha256": "976d99d0a2c36d717f90342c927c76540f4e4cb376a13339b931a1a0725b3719",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "418567777127002649508899287224702114355984630850272071777169637806454554122151526400"
+      }
+    },
+    {
+      "endpoint_index": 2,
+      "original_step_j": 64,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000064.npz",
+      "bytes": 206347738,
+      "sha256": "f2cc452cf84041614a9ad02c879d74e45dc7a00a694b94cf6b5b65728b1faff6",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "837135554254005299017798574449404228711969261700544143554339275612909108244303052800"
+      }
+    },
+    {
+      "endpoint_index": 3,
+      "original_step_j": 96,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000096.npz",
+      "bytes": 206347762,
+      "sha256": "ae989b9560d7adccc1f97bcc60b58a952259a881344edb089bb2fe673729e20d",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "1255703331381007948526697861674106343067953892550816215331508913419363662366454579200"
+      }
+    },
+    {
+      "endpoint_index": 4,
+      "original_step_j": 128,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000128.npz",
+      "bytes": 206347786,
+      "sha256": "4fb0ddf437f678f3d104f8bbb8d4c6da8287c996ed2ff35ee9453a0c631dad9c",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "1674271108508010598035597148898808457423938523401088287108678551225818216488606105600"
+      }
+    },
+    {
+      "endpoint_index": 5,
+      "original_step_j": 160,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000160.npz",
+      "bytes": 206347798,
+      "sha256": "31e5282718b2f731e6d8b110edad2625b2c1d43c2c90ead10bf726068eb3b92f",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "2092838885635013247544496436123510571779923154251360358885848189032272770610757632000"
+      }
+    },
+    {
+      "endpoint_index": 6,
+      "original_step_j": 192,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000192.npz",
+      "bytes": 206347790,
+      "sha256": "9c8da8b8f57672d3eeb8ab72ac5d065293e99a098c847685652274e9391ae390",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "2511406662762015897053395723348212686135907785101632430663017826838727324732909158400"
+      }
+    },
+    {
+      "endpoint_index": 7,
+      "original_step_j": 224,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000224.npz",
+      "bytes": 206347794,
+      "sha256": "a1c1d8dc9703bffec26233a3a5793f737d6d7c17160343ca3f25ecb1aaf5df8c",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "2929974439889018546562295010572914800491892415951904502440187464645181878855060684800"
+      }
+    },
+    {
+      "endpoint_index": 8,
+      "original_step_j": 256,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000256.npz",
+      "bytes": 206347790,
+      "sha256": "05d16280c03c5177d6cec7eb3e6f42c4d9f7cf2a33c5aec3e38aaa56788f52ca",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "3348542217016021196071194297797616914847877046802176574217357102451636432977212211200"
+      }
+    },
+    {
+      "endpoint_index": 9,
+      "original_step_j": 288,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000288.npz",
+      "bytes": 206347830,
+      "sha256": "842aeed2d6c55c3d3d4e6e9a7662f914538881929ba1cab43a0da83824855cd1",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "3767109994143023845580093585022319029203861677652448645994526740258090987099363737600"
+      }
+    },
+    {
+      "endpoint_index": 10,
+      "original_step_j": 320,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000320.npz",
+      "bytes": 206347818,
+      "sha256": "b0942e7ed3df0eb44900a6b4ba4bcee7e0c2c9905a41efe3a145f10662526604",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "4185677771270026495088992872247021143559846308502720717771696378064545541221515264000"
+      }
+    },
+    {
+      "endpoint_index": 11,
+      "original_step_j": 352,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000352.npz",
+      "bytes": 206347794,
+      "sha256": "4048394320b3d8abc0e61c0fecd389b5ab4e1b3766a485720f89ffd24aae2ec8",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "4604245548397029144597892159471723257915830939352992789548866015871000095343666790400"
+      }
+    },
+    {
+      "endpoint_index": 12,
+      "original_step_j": 384,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000384.npz",
+      "bytes": 206347814,
+      "sha256": "1760201165ef4349afa8fc805c6050e0a6e55176e0d20dbe8dd5f5e241da4d44",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "5022813325524031794106791446696425372271815570203264861326035653677454649465818316800"
+      }
+    },
+    {
+      "endpoint_index": 13,
+      "original_step_j": 416,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000416.npz",
+      "bytes": 206347822,
+      "sha256": "e1f2ce3b21d1883bd3bf004e24ab74a0dda30ecc8d9f2c346ac4ab7794a4eccd",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "5441381102651034443615690733921127486627800201053536933103205291483909203587969843200"
+      }
+    },
+    {
+      "endpoint_index": 14,
+      "original_step_j": 448,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000448.npz",
+      "bytes": 206347818,
+      "sha256": "5afc228f088c63b5a9c1ab987672e6d9491a783926e53b44171b9fcd0bead15d",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "5859948879778037093124590021145829600983784831903809004880374929290363757710121369600"
+      }
+    },
+    {
+      "endpoint_index": 15,
+      "original_step_j": 480,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000480.npz",
+      "bytes": 206347838,
+      "sha256": "4c404085048d517672950dd006b0bbad384c0d08c205f82fe5abfc4c993f68f6",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "6278516656905039742633489308370531715339769462754081076657544567096818311832272896000"
+      }
+    },
+    {
+      "endpoint_index": 16,
+      "original_step_j": 512,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000512.npz",
+      "bytes": 206347814,
+      "sha256": "f0bbb17fd6f48f0c095a12210ca61a15f46eb04bb716115c500048666bbf894d",
+      "time_exact": {
+        "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+        "numerator": "6697084434032042392142388595595233829695754093604353148434714204903272865954424422400"
+      }
+    }
+  ],
+  "N": 160,
+  "K": 53,
+  "segments": 16,
+  "U_shape": [
+    3,
+    160,
+    160,
+    160
+  ],
+  "U_dtype": "<c16",
+  "U_fortran_order": false,
+  "npz_members": [
+    "U.npy",
+    "G.npy",
+    "W.npy",
+    "band1_modes.npy",
+    "band2_modes.npy",
+    "metadata_json.npy"
+  ],
+  "input_preparation": "research/reverse/annular-source-observation/input-preparation.json",
+  "input_verifier": "research/reverse/annular-source-observation/verify-input-output.json",
+  "T": {
+    "denominator": "34053475601541703673068973007408753493466993860043330978465568760502656495267420991129999",
+    "numerator": "6697084434032042392142388595595233829695754093604353148434714204903272865954424422400"
+  },
+  "M2_interval": [
+    {
+      "denominator": "824136020966684923798969476522574629512967280867164577837939983307538067510497256769491349198603234582673324763053806142237431031888099406660182013848532815101915299840000",
+      "numerator": "2665578480243585041491827970245197057156496735531280520655123100500072910777142750579998556929566353940596207682820496437676408691755624602082820728631517533346568972323710972989"
+    },
+    {
+      "denominator": "206034005241671230949742369130643657378241820216791144459484995826884516877624314192372837299650808645668331190763451535559357757972024851665045503462133203775478824960000",
+      "numerator": "666394620060896260372958205164703805953021327763532719667144766688669475906909401807961811190727559438751457429956335102942561465789279641165097758914243353908505668661565836821"
+    }
+  ],
+  "sources": [
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "bytes": 3162
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "bytes": 4491
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "bytes": 3579
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "bytes": 4968
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "bytes": 133961
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "bytes": 2935
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verify-input-output.json",
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1",
+      "bytes": 293865
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verifier-execution.json",
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f",
+      "bytes": 8480
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b",
+      "bytes": 8056
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7",
+      "bytes": 27740
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "bytes": 14407
+    },
+    {
+      "path": "research/reverse/annular-source-observation/compare_trajectories.py",
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76",
+      "bytes": 53876
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_trajectory.py",
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d",
+      "bytes": 23383
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-source-lock.json",
+      "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "bytes": 7813
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908",
+      "bytes": 29395
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7",
+      "bytes": 35887
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2",
+      "bytes": 2290
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61",
+      "bytes": 65401
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-archive-acceptance.json",
+      "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c",
+      "bytes": 1720
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json",
+      "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c",
+      "bytes": 29455
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json",
+      "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178",
+      "bytes": 34519
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json",
+      "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1",
+      "bytes": 264217
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json",
+      "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87",
+      "bytes": 23381
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
+      "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6",
+      "bytes": 2630
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
+      "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
+      "bytes": 13569
+    }
+  ],
+  "note": "Derived only by metadata copying; no binary opened/hashed, no rational arithmetic or scientific evaluation."
+}
