@@ -1,0 +1,724 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260909-EndpointBudgetValueScreen",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_FIXED_NUMERICAL_VALUE_SCREEN_NO_NEW_CANDIDATE",
+  "created_utc": "2026-09-09T02:32:54.590185+00:00",
+  "source_commit": "c80b1b4e3ada0f74a8ecf3682d53f9c205feb1ee",
+  "scientific_commits": [
+    "97cdd8ca4cb849802709d283aba28ca344bfef8c",
+    "37bdca0bce1c7493a101ec8a95fff6a5153a8164",
+    "2e05dbf889d8cde49e345d441ae2a3f15d7de81f",
+    "c80b1b4e3ada0f74a8ecf3682d53f9c205feb1ee"
+  ],
+  "predecessor_release": "ReverseNS-20260909-ResidualBudgetGateFilter",
+  "mathematical_base_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "upstream_release_dependencies": [
+    "ReverseNS-20260909-AnnularSourceObservation",
+    "ReverseNS-20260909-EnergyObservationInterfaces",
+    "ReverseNS-20260909-ResidualBudgetGateFilter"
+  ],
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md",
+      "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf",
+      "bytes": 6117
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_PREFLIGHT.md",
+      "sha256": "c0a3ba5182436fe10c654f313ed6e28ddd136fc41350fefd7d9e886c882dfb06",
+      "bytes": 4325
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_RESULT_REVIEW.md",
+      "sha256": "08eb660405df8fc9fe2e89ab57317b39c041fcfa6199f0378550f284c6a89fc7",
+      "bytes": 5546
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SOURCE_REVIEW.md",
+      "sha256": "82582be90d6c1d37658e4a88644c329f7eec74450e94e52d23b3d71b47d724fe",
+      "bytes": 5626
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_NOTE.md",
+      "sha256": "487ab43998957c740bbfdd0c7db63cd07139de625ebbf4e137deac7da8eda82c",
+      "bytes": 1761
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_REVIEW.md",
+      "sha256": "dcb35527aaaeeb613d21e1b1977bf5a97355c5a5860cd5be1fcfe5927d80be43",
+      "bytes": 3736
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
+      "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6",
+      "bytes": 2630
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DATA_GIT_VERIFICATION.json",
+      "sha256": "0ed0c2a5ccdc9ae0d524fc762bc071dc1f7d354876b3ef1a0a141501e545f356",
+      "bytes": 6862
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
+      "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
+      "bytes": 13569
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md",
+      "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e",
+      "bytes": 6336
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md",
+      "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0",
+      "bytes": 7390
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md",
+      "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6",
+      "bytes": 5987
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md",
+      "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb",
+      "bytes": 6432
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE.md",
+      "sha256": "44bf796612712fd630fd068cf6d714189acd5e52a7a89a60e3591b770ac7a28b",
+      "bytes": 4981
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "019c8d15370d07d532c5e4abd982c7170885d0916bfbbc28e3edc7f33d4e848d",
+      "bytes": 4359
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md",
+      "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864",
+      "bytes": 5499
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md",
+      "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e",
+      "bytes": 6762
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md",
+      "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a",
+      "bytes": 7240
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/OUTCOME.md",
+      "sha256": "d9fc8771ee5496c49828516e5e275d201444d5d25e9f7f3061a7177761f7607a",
+      "bytes": 3377
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md",
+      "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc",
+      "bytes": 5406
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md",
+      "sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
+      "bytes": 6790
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_OBSERVATION.json",
+      "sha256": "e4355653c975a3e9512a205b175d100727e6164a253dfcab401d6f48bc77dff8",
+      "bytes": 2291
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_REVIEW.md",
+      "sha256": "003b08cbd836b0e98349d42df25cbfdd17c7f6e8a0dd86c5907f39969865df91",
+      "bytes": 2202
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md",
+      "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
+      "bytes": 2863
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md",
+      "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
+      "bytes": 3755
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json",
+      "sha256": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13",
+      "bytes": 1477
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md",
+      "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c",
+      "bytes": 3612
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md",
+      "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494",
+      "bytes": 2968
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md",
+      "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da",
+      "bytes": 2667
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/SOURCES.md",
+      "sha256": "eb37a7aaee46b3035cdb2667c3ddf205afcac45abe77582a94140213b702b485",
+      "bytes": 2008
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md",
+      "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30",
+      "bytes": 4355
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md",
+      "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782",
+      "bytes": 5915
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md",
+      "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f",
+      "bytes": 8797
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md",
+      "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78",
+      "bytes": 5371
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-acceptance.json",
+      "sha256": "f83175658fc7deb496cdea04012b69dbafb9d785eddaefbd8a2441018f1bba77",
+      "bytes": 2280
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-live-gate.json",
+      "sha256": "754d982cadb25dd6ac534bb7d683a849bf2bcf1ae6d709cef8fa4326b1ede1dd",
+      "bytes": 1468
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-source-admission.json",
+      "sha256": "1870fa4e8c2c652e0b4a6d73569ec8fffc86fc6bd8abdee1137091829374236d",
+      "bytes": 2242
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-source-lock.json",
+      "sha256": "71e7619e824e48fdbbda293f9b6ef60d1c8cbc9b4d0cf551ede7ceaf7e568da4",
+      "bytes": 13711
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/execution.json",
+      "sha256": "bab27692ddbbee63edf467f4613c4af5c364beb8d6e80d807434a718964854d2",
+      "bytes": 30896
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive-supervision-v1/stdout.log",
+      "sha256": "b9f094196014f1ad770be406d66ae35c5be47db5f7c97568ea4f28b0756599b5",
+      "bytes": 403
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive_value_data.py",
+      "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf",
+      "bytes": 13291
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/bindings.json",
+      "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab",
+      "bytes": 45351
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/budget_formulas.py",
+      "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883",
+      "bytes": 3201
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/certificate-manifest.json",
+      "sha256": "820dbd2a85a24c9203dfac548700fc28c0da5ec7df870c89d92b4483b9086aa4",
+      "bytes": 5362
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/combined-acceptance.json",
+      "sha256": "2885d4a1b542d25525106426be0ea30f1e5adaa12c721c6d0e01268196e4b2af",
+      "bytes": 1843
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/input-bindings.json",
+      "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6",
+      "bytes": 16492
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/live-launch-gate.json",
+      "sha256": "8eeba79d80ff552bd92527b404f897cfc4fffd1fba6c9e3ae4f99de236b538f6",
+      "bytes": 4256
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json",
+      "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007",
+      "bytes": 40208
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/progress.jsonl",
+      "sha256": "575926a06c1a2a582ae72fbbcb7a63ae9fd80a332ba71c493cd84cdf9a3d283d",
+      "bytes": 10082
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json",
+      "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252",
+      "bytes": 67590
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stdout.log",
+      "sha256": "6a9abe7c49eaf51d37e0c771a26faad8a041137beb39d9e703b12548a4d4f602",
+      "bytes": 110
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/result-acceptance.json",
+      "sha256": "50e690c2736d12c46ae30de68d868b737ac906471cab97f2b3a8faa9045358fe",
+      "bytes": 1751
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/run_archive_value.py",
+      "sha256": "142b41a6580cc30ee79425f7699755183b3075555f853e262702a4fc5acd8e2f",
+      "bytes": 7139
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/run_value.py",
+      "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c",
+      "bytes": 18872
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/source-admission.json",
+      "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2",
+      "bytes": 2436
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/source-lock.json",
+      "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e",
+      "bytes": 10163
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0000.gz",
+      "sha256": "7d85fd9ba2147dc78c724ff68154c619246dff0caad59160f7f6e9db54caf6ba",
+      "bytes": 32364311
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0001.gz",
+      "sha256": "4a3c598f5ebb18835ad00af87c22019086502088ae754a2e13b2b07d1ab02428",
+      "bytes": 32316692
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0002.gz",
+      "sha256": "a747c1a780d58255625a105d8a454ddc986a100c2aab027a913e49f0660ec38b",
+      "bytes": 32209528
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0003.gz",
+      "sha256": "9943f0fdfb025cd64489f77b1b7d61d5cfc1b6946d686d0568cbee1ee0014ccc",
+      "bytes": 32348063
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0004.gz",
+      "sha256": "eb5fd817673e01a80d42cf9c34843b2629ca08e58e88afe2e55fa7279fd599fb",
+      "bytes": 32451187
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0005.gz",
+      "sha256": "2455efd19b4065f0a0eeb6c4a1d83267f41019489d6b27648259a3337fe1f216",
+      "bytes": 32422685
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0006.gz",
+      "sha256": "7207ff8049d4e087c93c93790b2194d587b02d387e3cd9b777a5870d75e458c8",
+      "bytes": 32303343
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0007.gz",
+      "sha256": "b2ddd89c031396033bf4f22250f734f0f4d17b797eeb31c4165b5626f8a45bf2",
+      "bytes": 32239953
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0008.gz",
+      "sha256": "ce0262b0d6b89c06ff8941c5a6d0b5e7103373c4885066537e9a4eae63192ffb",
+      "bytes": 32385786
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0009.gz",
+      "sha256": "3e747672d80963fbb3c69e4e5b23d0cd1b38564ae7b81f42b5a7a543ffb46cf4",
+      "bytes": 32430073
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0010.gz",
+      "sha256": "99096ee4a79e16ba660691d74d47f1ac9a6fc35854aba3abe441665e504bc12f",
+      "bytes": 32421673
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0011.gz",
+      "sha256": "53d980929c52a14e6f8f4566bbc49006cd1fcbc554bc17baef0bc485c4a2573e",
+      "bytes": 32278790
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0012.gz",
+      "sha256": "5d3d871891fbb339440008c02179557697484b352f360f0246b6de209bf65de2",
+      "bytes": 32269538
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0013.gz",
+      "sha256": "718a7325edf499225a5be4d6bd5be2beb49bc9524337c123c540c229e7980131",
+      "bytes": 32417042
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/full-B216.npz.part0014.gz",
+      "sha256": "fbbf067282731356ea821a7d185373dc4257e6223d0750942764fa55c51cdc8c",
+      "bytes": 13500765
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/manifest.json",
+      "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41",
+      "bytes": 31514
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/progress.jsonl",
+      "sha256": "ff140211bf1195eb17c8f9699e9224ee859f8c9ce193886d2f76065119eaa899",
+      "bytes": 18424
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/quadrature.npz.part0000.gz",
+      "sha256": "9e6d7e74eeddec95c6fe8070919c768bde99de14fa7b6bdfe92440019718965b",
+      "bytes": 9268
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/reconstruction.npz.part0000.gz",
+      "sha256": "523063ae4584ed606a0050c90b683e9a421fcfceebcbaa50a70ddfc9224b4eff",
+      "bytes": 7473499
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0000.gz",
+      "sha256": "ef6312af01fb8325c5975d152c4fee1d7fa09e6a03b2460a1ece15abe05a25c9",
+      "bytes": 32685443
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0001.gz",
+      "sha256": "29429c51b19c0a34b9843853701df03deeebc01da5909a06ff71441f4b7177c1",
+      "bytes": 32688734
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0002.gz",
+      "sha256": "352dd839dec54f00200394fcb570f324ef27a636d8dd9a6237e3ba287d454c2c",
+      "bytes": 32648536
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0003.gz",
+      "sha256": "fa1f232c9d42d8b0119dd1a9ab0280c488f4767a341bef5ccb89ca09d7709455",
+      "bytes": 31091155
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0004.gz",
+      "sha256": "cc6d79d86775b8a9102d022ab61b72e995507d1808f1a5f438760eff2951e61d",
+      "bytes": 29615210
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/terminal-compact.npz.part0005.gz",
+      "sha256": "6f5daff1fe5444678f92b892ee4df997cd1b3ab33ffb66fac7f5bfbdc0eefba3",
+      "bytes": 7621295
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/value_worker.py",
+      "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0",
+      "bytes": 28515
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "bytes": 3162
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "bytes": 4491
+    },
+    {
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "bytes": 3579
+    },
+    {
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b",
+      "bytes": 8056
+    },
+    {
+      "path": "research/reverse/annular-source-observation/compare_trajectories.py",
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76",
+      "bytes": 53876
+    },
+    {
+      "path": "research/reverse/annular-source-observation/freeze.json",
+      "sha256": "13e187e55d2632c05412f7f07031a6803470dfe08d0596b41cbfd6b968952ca2",
+      "bytes": 52913
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "bytes": 4968
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "bytes": 2935
+    },
+    {
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "bytes": 133961
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2",
+      "bytes": 2290
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7",
+      "bytes": 35887
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908",
+      "bytes": 29395
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json",
+      "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178",
+      "bytes": 34519
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json",
+      "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87",
+      "bytes": 23381
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json",
+      "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c",
+      "bytes": 29455
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json",
+      "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1",
+      "bytes": 264217
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "bytes": 14407
+    },
+    {
+      "path": "research/reverse/annular-source-observation/run_trajectory.py",
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d",
+      "bytes": 23383
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-archive-acceptance.json",
+      "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c",
+      "bytes": 1720
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61",
+      "bytes": 65401
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory-source-lock.json",
+      "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "bytes": 7813
+    },
+    {
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7",
+      "bytes": 27740
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verifier-execution.json",
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f",
+      "bytes": 8480
+    },
+    {
+      "path": "research/reverse/annular-source-observation/verify-input-output.json",
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1",
+      "bytes": 293865
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725",
+      "bytes": 6673
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67",
+      "bytes": 11766
+    },
+    {
+      "path": "research/reverse/relative-energy-error-preflight/PROOF.md",
+      "sha256": "d1484629cbc592f2cdd14c7d86a370bc7fc915172f2d7a553285675a564c811f",
+      "bytes": 9576
+    },
+    {
+      "path": "research/reverse/relative-energy-error-preflight/freeze.json",
+      "sha256": "40ad11b7eaad5dbf60917e321583633c251b3a2f3d8d8bb57b69b33c9fa3bdf1",
+      "bytes": 11448
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/APPLICATION_DATA_PREFLIGHT.md",
+      "sha256": "496b8e68d85706394763d699a152e50a5e7bbb42a2f8959f718c3d5f3c732d7a",
+      "bytes": 6462
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "83ecabf3b22315be482b82522cdc64fac762780fbfb98bcc9febe8d6ec720068",
+      "bytes": 5808
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/FIRST_GATE_TARGET_PROOF.md",
+      "sha256": "e8697f04790ccaa9461263b29cd30bec5b8ac80836fa1197343dbc6ffe5a85dc",
+      "bytes": 7492
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/PREFIX_HISTORY_PROOF.md",
+      "sha256": "755f3c3ca96d2a4197873b9b3019a34ad515165edab037d039a8de84f026cddd",
+      "bytes": 5092
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/PROOF.md",
+      "sha256": "1ab573bbc9bdc16445964cc65245182357b14327dea8df0a8f070e72bbde81d1",
+      "bytes": 9500
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_APPLICATION_PREFLIGHT.md",
+      "sha256": "e361e0fa8c2db879906b60ca7901f295c38fe643d5d3ffd49b37678c17a0dddb",
+      "bytes": 3909
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/certificate-manifest.json",
+      "sha256": "2a424c6100d1198a0f43af739ea266beaaef69837fb056551ef991100a184be9",
+      "bytes": 10748
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/combined-acceptance.json",
+      "sha256": "0ecdc2e47b3090a20e580ce6da32b3d8fbb0d04b4b297ea9c6a37ab8034c138b",
+      "bytes": 12039
+    },
+    {
+      "path": "research/reverse/residual-budget-floor-preflight/freeze.json",
+      "sha256": "89c0738f3bac8e8de9f2dbad6a9533737d356c0721cc175f3dd1cf34eed4d5a9",
+      "bytes": 14962
+    }
+  ],
+  "accepted": [
+    "One fixed floating endpoint budget report; selected floating blocking comparison not met",
+    "Complete recorded source/input/count and resource acceptance",
+    "All four raw outputs preserved through actual lossless stream restoration and verified Git gzip blobs"
+  ],
+  "claim_boundaries": {
+    "classification": "FINITE COMPUTATION / NUMERICAL_VALUE_ONLY / NO-NEW-CANDIDATE / NOT CLAY",
+    "same_original_datum_preserved": true,
+    "fixed_viscosity": 1,
+    "unforced_fixed_2pi_three_torus": true,
+    "complete_Fourier_Leray_and_viscosity_in_computation": true,
+    "exact_original_solution_or_reconstruction_qualified": false,
+    "single_sided_numerical_or_quadrature_bounds": false,
+    "M_minus_num_certified_lower_bound": false,
+    "actual_NS_existence_through_T_certified": false,
+    "actual_NS_gate_success_certified": false,
+    "actual_NS_gate_failure_certified": false,
+    "certified_RE_method_obstruction": false,
+    "finite_two_step_mechanism_accepted": false,
+    "uniform_iteration": false,
+    "single_datum_infinite_scales": false,
+    "infinite_dimensional_error_paid": false,
+    "finite_time_singularity": false,
+    "human_peer_review": false,
+    "formal_machine_proof": false
+  },
+  "unpaid": [
+    "Exact reconstructed-to-NS error, full residual/strain and source histories",
+    "Existence of original smooth solution through fixed T",
+    "Single-sided arithmetic and quadrature control",
+    "Full independent array consistency recomputation",
+    "Fixed-datum infinite scales, uniform iteration and finite total time"
+  ],
+  "review": {
+    "combined_scope": {
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "019c8d15370d07d532c5e4abd982c7170885d0916bfbbc28e3edc7f33d4e848d",
+      "bytes": 4359
+    },
+    "root_final_scope_full_read": true,
+    "formation": "Sequential disclosed nonblind AI author/non-author reviews. Root did not independently decode numerical NPZ or decompress gzip again. Root did actually read all final source and dependency Git blobs. Historical pending fields retain their local formation scope."
+  },
+  "certificate": {
+    "manifest": {
+      "path": "research/reverse/endpoint-budget-value-preflight/certificate-manifest.json",
+      "sha256": "820dbd2a85a24c9203dfac548700fc28c0da5ec7df870c89d92b4483b9086aa4",
+      "bytes": 5362
+    },
+    "acceptance": {
+      "path": "research/reverse/endpoint-budget-value-preflight/combined-acceptance.json",
+      "sha256": "2885d4a1b542d25525106426be0ea30f1e5adaa12c721c6d0e01268196e4b2af",
+      "bytes": 1843
+    },
+    "scientific_executions": 1,
+    "scientific_reruns": 0,
+    "lossless_byte_executions": 1,
+    "source_and_dependency_Git_objects_verified": 121,
+    "Git_verification_scope": "All listed core/dependency blobs actually streamed from this source commit and hashed/length checked; 23 gzip identities also matched actual restoration manifest",
+    "Git_verification_wall_seconds": 2.14143875
+  },
+  "source_ledger": "research/reverse/endpoint-budget-value-preflight/SOURCES.md",
+  "raw_data": {
+    "new_raw_npz_count": 4,
+    "new_raw_bytes": 675685780,
+    "raw_originals_preserved_locally": true,
+    "included_lossless_gzip_blocks": 23,
+    "included_gzip_bytes": 640192569,
+    "restoration_manifest": {
+      "path": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1/manifest.json",
+      "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41",
+      "bytes": 31514
+    },
+    "input_raw_npz_count": 17,
+    "input_provenance": "research/reverse/endpoint-budget-value-preflight/input-bindings.json",
+    "upstream_original_archives": "AnnularSourceObservation input map and trajectory archive manifest; do not duplicate or rerun",
+    "all_scientific_and_byte_run_ids_closed": true
+  },
+  "figures": [],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "new_reader_pdf": false,
+  "private_milestone_record": "research/reverse/endpoint-budget-value-preflight/FINAL_SCOPE.md",
+  "milestone_condition": "Bounded numerical value report closed; no new mechanism/positive theorem or mandatory major recap",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "Private archival only; no public core, reader/website/translation or deployment instruction",
+  "excluded_later_work": [
+    "research/reverse/annular-third-order-preflight/"
+  ],
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff"
+}
