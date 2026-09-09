@@ -1,0 +1,491 @@
+{
+  "accepted": [
+    "Hilbert polynomial endpoint residual integral floor and specific RE.5 budget floor",
+    "Conditional exact-projection and shared-Galerkin-slope cubic reconstruction from17 complete checkpoints",
+    "Same-reconstruction first-gate upper cap and necessary RE.12 strict-failure budget",
+    "Fixed residual polynomial prefix-time budget and partial-history lower bound; combined Ubar <= Bstar blocks this sufficient method only"
+  ],
+  "branch": "codex/ns-reverse",
+  "certificate": {
+    "Git_verification_scope": "Root actually read29 core and18 direct dependency Git blobs at source_commit and verified SHA256/length; byte verification is not mathematical rereading or a scientific rerun.",
+    "acceptance": {
+      "bytes": 12039,
+      "path": "research/reverse/residual-budget-floor-preflight/combined-acceptance.json",
+      "sha256": "0ecdc2e47b3090a20e580ce6da32b3d8fbb0d04b4b297ea9c6a37ab8034c138b"
+    },
+    "arrays_opened": 0,
+    "manifest": {
+      "bytes": 10748,
+      "path": "research/reverse/residual-budget-floor-preflight/certificate-manifest.json",
+      "sha256": "2a424c6100d1198a0f43af739ea266beaaef69837fb056551ef991100a184be9"
+    },
+    "old_scientific_workers_closed": true,
+    "scientific_executions": 0,
+    "scientific_reruns": 0,
+    "source_and_dependency_Git_objects_verified": 47
+  },
+  "claim_boundaries": {
+    "actual_NS_existence_through_T_certified": false,
+    "actual_NS_gate_failure_certified": false,
+    "actual_NS_gate_success_certified": false,
+    "actual_error_lower_bound": false,
+    "actual_reconstruction_or_endpoint_evaluated": false,
+    "classification": "CONDITIONAL / OPEN / NOT CLAY",
+    "complete_Fourier_Leray_and_residual": true,
+    "external_novelty_review": false,
+    "finite_time_singularity": false,
+    "fixed_viscosity": 1,
+    "formal_machine_proof": false,
+    "human_peer_review": false,
+    "infinite_dimensional_error_paid": false,
+    "same_original_datum_preserved": true,
+    "single_datum_infinite_scales": false,
+    "unforced_fixed_2pi_three_torus": true,
+    "uniform_iteration": false
+  },
+  "classification": "PRIVATE_CORE",
+  "created_utc": "2026-09-09T00:17:40.642150+00:00",
+  "dependency_commits": [],
+  "direct_dependencies": [
+    {
+      "bytes": 9576,
+      "path": "research/reverse/relative-energy-error-preflight/PROOF.md",
+      "sha256": "d1484629cbc592f2cdd14c7d86a370bc7fc915172f2d7a553285675a564c811f"
+    },
+    {
+      "bytes": 11448,
+      "path": "research/reverse/relative-energy-error-preflight/freeze.json",
+      "sha256": "40ad11b7eaad5dbf60917e321583633c251b3a2f3d8d8bb57b69b33c9fa3bdf1"
+    },
+    {
+      "bytes": 12610,
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "bytes": 8056,
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    {
+      "bytes": 15773,
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT_DRAFT.md",
+      "sha256": "3390f029044bfcf06422461747e9bac6a95e3120041befd3e0fc50c18104e0d0"
+    },
+    {
+      "bytes": 3579,
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 11981,
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "bytes": 27740,
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    {
+      "bytes": 14407,
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 29395,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+    },
+    {
+      "bytes": 35887,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+    },
+    {
+      "bytes": 2290,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+    },
+    {
+      "bytes": 65401,
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+    },
+    {
+      "bytes": 52913,
+      "path": "research/reverse/annular-source-observation/freeze.json",
+      "sha256": "13e187e55d2632c05412f7f07031a6803470dfe08d0596b41cbfd6b968952ca2"
+    },
+    {
+      "bytes": 11766,
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 7072,
+      "path": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
+      "sha256": "59d06565ff7cb693b6e5a63eb306b25b2009b4cb19ed5914c7453bb118ad8439"
+    },
+    {
+      "bytes": 19122,
+      "path": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
+      "sha256": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61"
+    },
+    {
+      "bytes": 5719,
+      "path": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
+      "sha256": "de6b150813559e6d0856b3df8db77491c9a3da4cad1f07a3d94282cd29642104"
+    }
+  ],
+  "excluded_later_work": [
+    "research/reverse/endpoint-budget-value-preflight/",
+    "Any actual endpoint computation, trajectory rerun or numerical recertification"
+  ],
+  "figure_qa": "NOT_APPLICABLE_NO_FIGURES",
+  "figures": [],
+  "files": [
+    {
+      "bytes": 6462,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/APPLICATION_DATA_PREFLIGHT.md",
+      "sha256": "496b8e68d85706394763d699a152e50a5e7bbb42a2f8959f718c3d5f3c732d7a"
+    },
+    {
+      "bytes": 2424,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/APPLICATION_OUTCOME.md",
+      "sha256": "f57f778b3c0321beeeea17d7098f24329cf341fc128fa795f5379abac401ca24"
+    },
+    {
+      "bytes": 1542,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/APPLICATION_PREFLIGHT_CONTRACT.md",
+      "sha256": "7c2bf275ec39ca76c52da55bd0a4496395ce8850fb719fdad47f8ca67729acae"
+    },
+    {
+      "bytes": 3549,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/APPLICATION_REVIEW.md",
+      "sha256": "fa9385e694e1e19b7ce8e34019523314bd61621df6817dd3a95bfa7503f47cce"
+    },
+    {
+      "bytes": 1853,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/CONTRACT.md",
+      "sha256": "df3f7c168c98cc7ac07764b4825ad31da80bd759130eda691985465441ec68f3"
+    },
+    {
+      "bytes": 2231,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FILTER_OUTCOME.md",
+      "sha256": "db0d413a5d47ccecdaa1b2e82bc1cbb6953086636ffd2416ec286f2fa26d1496"
+    },
+    {
+      "bytes": 2661,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FILTER_SOURCES.md",
+      "sha256": "f5f2a1245ad1a57ba890eea2c0eb4667a66d39ff015dd813bd8bb34ac856497f"
+    },
+    {
+      "bytes": 5808,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "83ecabf3b22315be482b82522cdc64fac762780fbfb98bcc9febe8d6ec720068"
+    },
+    {
+      "bytes": 1583,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FIRST_GATE_TARGET_CONTRACT.md",
+      "sha256": "b55d2d9b7b70afd0699feef821f04472082e9c43cf67fceaaf8ff64fb90471f3"
+    },
+    {
+      "bytes": 3134,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FIRST_GATE_TARGET_HISTORY.md",
+      "sha256": "fa789a4a34c1dddcc94b1ff1b16ecac1b222751e70530d490ec2f72526f378cf"
+    },
+    {
+      "bytes": 7492,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FIRST_GATE_TARGET_PROOF.md",
+      "sha256": "e8697f04790ccaa9461263b29cd30bec5b8ac80836fa1197343dbc6ffe5a85dc"
+    },
+    {
+      "bytes": 4533,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/FIRST_GATE_TARGET_REVIEW.md",
+      "sha256": "bac16ee38a70962f3207fee88f8037a07b31d5ead68cb4e055fbfc17eebf8a8c"
+    },
+    {
+      "bytes": 1652,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/OUTCOME.md",
+      "sha256": "225f629d1bea97c26172f36bb40cb8aa2ad672e5312815089e2d03deeff311b4"
+    },
+    {
+      "bytes": 1201,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/PREFIX_HISTORY_CONTRACT.md",
+      "sha256": "b50d1e8c69b777fc142d2a47bdf15fbc69f6a56b9c7a04279cc5af36e7a3ed8e"
+    },
+    {
+      "bytes": 5092,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/PREFIX_HISTORY_PROOF.md",
+      "sha256": "755f3c3ca96d2a4197873b9b3019a34ad515165edab037d039a8de84f026cddd"
+    },
+    {
+      "bytes": 5030,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/PREFIX_HISTORY_REVIEW.md",
+      "sha256": "5086fd56d600372d845eb149a4e61e23cb6b46c8f029ddafdb1b35e58de69931"
+    },
+    {
+      "bytes": 9500,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/PROOF.md",
+      "sha256": "1ab573bbc9bdc16445964cc65245182357b14327dea8df0a8f070e72bbde81d1"
+    },
+    {
+      "bytes": 5708,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/PROOF_REVIEW.md",
+      "sha256": "a1476677612aba21dde7d6a44b31562fb84618aa9b8f44f890cef32c8b1c5a5b"
+    },
+    {
+      "bytes": 3909,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_APPLICATION_PREFLIGHT.md",
+      "sha256": "e361e0fa8c2db879906b60ca7901f295c38fe643d5d3ffd49b37678c17a0dddb"
+    },
+    {
+      "bytes": 3156,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_COMPARISON.md",
+      "sha256": "dbcd424885769cea0844c1c83f1df38c54cba2189b665fe1d825d25a73137a5d"
+    },
+    {
+      "bytes": 3437,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_DERIVATION.md",
+      "sha256": "efbb256522d6d343e1dc4b5ea2cb6edd2565ae50f654be115f250f1c756a9732"
+    },
+    {
+      "bytes": 4362,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_DERIVATION_REVIEW.md",
+      "sha256": "5963defd67fdb7184aea98bc3c26c0cf43687d34403253b4335829eb60d75e2f"
+    },
+    {
+      "bytes": 2827,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_FILTER_COMPARISON.md",
+      "sha256": "aba8bc47776790790a17f3f654581ed7d3134d826e9747cb521560f5305d45e9"
+    },
+    {
+      "bytes": 866,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/ROOT_SOURCE_CHECK.md",
+      "sha256": "fb89544ffd46b12bac7caa9076d18eb7233e9a7a4ec0a7a39d3c34d60ccf6d1b"
+    },
+    {
+      "bytes": 4527,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/acceptance.json",
+      "sha256": "f8a31d3e88a80c85b54d683c81642b2972dfffd869e8a7615c97064d9952247c"
+    },
+    {
+      "bytes": 3340,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/application-acceptance.json",
+      "sha256": "1bb3754137d8a663695b4163ec854999dc89a01690d197defe437e4c85fe5333"
+    },
+    {
+      "bytes": 4339,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/relative-energy-error-preflight/RESIDUAL_FLOOR_HISTORY.md",
+      "sha256": "519c49c9516fc9776283165a2ea567e352b0037975e35e52741e655ff41af3da"
+    },
+    {
+      "bytes": 12039,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/combined-acceptance.json",
+      "sha256": "0ecdc2e47b3090a20e580ce6da32b3d8fbb0d04b4b297ea9c6a37ab8034c138b"
+    },
+    {
+      "bytes": 10748,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/residual-budget-floor-preflight/certificate-manifest.json",
+      "sha256": "2a424c6100d1198a0f43af739ea266beaaef69837fb056551ef991100a184be9"
+    },
+    {
+      "bytes": 9576,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/relative-energy-error-preflight/PROOF.md",
+      "sha256": "d1484629cbc592f2cdd14c7d86a370bc7fc915172f2d7a553285675a564c811f"
+    },
+    {
+      "bytes": 11448,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/relative-energy-error-preflight/freeze.json",
+      "sha256": "40ad11b7eaad5dbf60917e321583633c251b3a2f3d8d8bb57b69b33c9fa3bdf1"
+    },
+    {
+      "bytes": 12610,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/OBSERVATION_ERROR.md",
+      "sha256": "5823a2e03e4e176eb2ab444f58fce1797ebef6aafc5f84ada594b359e44c1b05"
+    },
+    {
+      "bytes": 8056,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    {
+      "bytes": 15773,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT_DRAFT.md",
+      "sha256": "3390f029044bfcf06422461747e9bac6a95e3120041befd3e0fc50c18104e0d0"
+    },
+    {
+      "bytes": 3579,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 11981,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/TIME_METHOD_NOTE.md",
+      "sha256": "29b45404e330f36c86a2b840a92c556f6128ef6196ba04b641b7eda648cf1c9c"
+    },
+    {
+      "bytes": 27740,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    {
+      "bytes": 14407,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 29395,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+    },
+    {
+      "bytes": 35887,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+    },
+    {
+      "bytes": 2290,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+    },
+    {
+      "bytes": 65401,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+    },
+    {
+      "bytes": 52913,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/annular-source-observation/freeze.json",
+      "sha256": "13e187e55d2632c05412f7f07031a6803470dfe08d0596b41cbfd6b968952ca2"
+    },
+    {
+      "bytes": 11766,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/cyclic-six-carrier/freeze.json",
+      "sha256": "87b3057ec368f083bb8a78973c6ca930e491addaa535e178560a2e1ff5f95d67"
+    },
+    {
+      "bytes": 7072,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/fixed-seed-global-screen/NODAL_VS_CONTROL_INTERFACE.md",
+      "sha256": "59d06565ff7cb693b6e5a63eb306b25b2009b4cb19ed5914c7453bb118ad8439"
+    },
+    {
+      "bytes": 19122,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_INCREMENT_PREFLIGHT.md",
+      "sha256": "9934d16ec106aa99739f70cfa5d643840322f12766faf2f3f2b979f20ae46c61"
+    },
+    {
+      "bytes": 5719,
+      "commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "path": "research/reverse/fixed-seed-global-screen/ONE_SEGMENT_RESIDUAL_DENOMINATOR_LEMMA.md",
+      "sha256": "de6b150813559e6d0856b3df8db77491c9a3da4cad1f07a3d94282cd29642104"
+    },
+    {
+      "bytes": 14962,
+      "commit": "682b0e8289646f993d6413a69bb362ec2c23ea38",
+      "path": "research/reverse/residual-budget-floor-preflight/freeze.json",
+      "sha256": "89c0738f3bac8e8de9f2dbad6a9533737d356c0721cc175f3dd1cf34eed4d5a9"
+    }
+  ],
+  "freeze_commit": "682b0e8289646f993d6413a69bb362ec2c23ea38",
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff",
+  "mathematical_base_release": "ReverseNS-20260908-FixedDatumThreeDirectionSupply",
+  "milestone_condition": "One bounded methodological milestone: endpoint and prefix-history floors paired with the same-reconstruction gate cap; no new mechanism or actual numerical input.",
+  "new_reader_pdf": false,
+  "normalization_note": "Private transport envelope: new source files, exact direct dependency objects, and original immutable manifest. Predecessor already archived, not reissued. Publisher verifies frozen bytes and transport only, not mathematical proof. No public/shared-detail export.",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "predecessor_release": "ReverseNS-20260909-EnergyObservationInterfaces",
+  "primary_source_urls": [
+    "https://dlmf.nist.gov/18.3#T1",
+    "https://dlmf.nist.gov/18.5#ii",
+    "https://dlmf.nist.gov/18.6#T1",
+    "https://dlmf.nist.gov/18.2.E13",
+    "https://dlmf.nist.gov/18.2.E14"
+  ],
+  "private_milestone_record": "research/reverse/residual-budget-floor-preflight/FILTER_OUTCOME.md",
+  "public_export_authorization": "Private archive only; no public core, reader, website or translation instruction",
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "raw_data": {
+    "new": false,
+    "old_arrays_read_for_new_evaluation": false,
+    "old_frozen_arrays_unchanged": true
+  },
+  "release_id": "ReverseNS-20260909-ResidualBudgetGateFilter",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "review": {
+    "combined_scope": {
+      "bytes": 5808,
+      "path": "research/reverse/residual-budget-floor-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "83ecabf3b22315be482b82522cdc64fac762780fbfb98bcc9febe8d6ec720068"
+    },
+    "formation": "Nonblind disclosed AI authors and non-author reviews. Root PH stopped before reading FG; BF shared contract with separately stopped derivations; actual endpoint-scope correction retained. No external novelty, human peer review or proof-assistant claim.",
+    "historical_fields": "Old local formal_release=false and pending fields remain byte-preserved formation history; this combined acceptance supersedes them only for the listed conditional mathematical scope.",
+    "root_final_scope_full_read": true
+  },
+  "schema": "ReverseNS-private-freeze-v1",
+  "scientific_commits": [
+    "9a7b14373c6732f5026a6582cfa14f58476d831b",
+    "144c37def75889f063ba6201ed469893958aa869",
+    "04a286ef41414222e4bbbd52aed7eda21acd0058"
+  ],
+  "scientific_source_commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+  "source_commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+  "source_ledger": "research/reverse/residual-budget-floor-preflight/FILTER_SOURCES.md",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_RESIDUAL_BUDGET_GATE_FILTER",
+  "unpaid": [
+    "Actual reconstruction and exact time/read qualifications",
+    "Certified endpoint L, Ubar and any positive c_b",
+    "Same original solution lifespan through T",
+    "Full residual/strain/source-history and report error inputs"
+  ],
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse"
+}
