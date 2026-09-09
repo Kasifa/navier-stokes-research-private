@@ -1,0 +1,304 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_DIRECT_RESTART_OBSTRUCTION",
+  "created_utc": "2026-09-09T03:13:18.282933+00:00",
+  "source_commit": "0b332514c316873916777f60ec6f2138e56022df",
+  "scientific_commits": [
+    "49e08d9d94fdd04980c7814281403736b9c045b3",
+    "0b332514c316873916777f60ec6f2138e56022df"
+  ],
+  "predecessor_release": "ReverseNS-20260909-EndpointBudgetValueScreen",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/forced-tail-audit/ANALYTIC_TAIL_CONTRACT.md",
+      "sha256": "c2bbe821ec6d1799bad051a40461e37c0c9c635b77ac240541cfe5557798f500",
+      "bytes": 2141
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/APPLICATION_AND_GAP.md",
+      "sha256": "f77fc095f7d23a1376a1bfae764573320fdcc2b4889068b7b897ecef9dac3a90",
+      "bytes": 4382
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/CONTRACT.md",
+      "sha256": "267f6257dbda8ed0db49d0bff7c3cff29b98455d89c8a51d557d54fcc40104c9",
+      "bytes": 2893
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+      "sha256": "ca0a9d4d8b8a8e07f5e2e95f73d29de3a83ae46e3e383bca08346ee8c8c97416",
+      "bytes": 3914
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/FINAL_SCOPE_REVIEW.md",
+      "sha256": "6dd9c84a4c66d519e700a05e24ad0812d40911936250d32bbb966ed8059adb43",
+      "bytes": 6219
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/INDEPENDENT_ANALYTIC_CHECK.md",
+      "sha256": "e4ced73340f903eb81055f45415ddc7f9b7eb3df24285fbd1759149b5b3f689a",
+      "bytes": 6421
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/OUTCOME.md",
+      "sha256": "95fe7b0ccea942b369307116bc39c4178887d62c9a52eedcc66dc4bb9f1f2904",
+      "bytes": 1292
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/PERIODIC_FORCE_AUDIT.md",
+      "sha256": "37734f594c9471cc2011c8c0216589d1f9777898981d211336769a8d85e7935f",
+      "bytes": 9787
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_ANALYTIC_PROOF.md",
+      "sha256": "dccd2cfd8d9cbe61597074d2391fc59d3d983de685bf1f2bfbc19b72120e5abf",
+      "bytes": 5336
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_INDEPENDENT_REVIEW.md",
+      "sha256": "7dd96aca46c2e7810358a757f2cea2b4232327249c8dc62a6a0322a6b6dfbdf5",
+      "bytes": 2259
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_PROOF_REVIEW.md",
+      "sha256": "c083ecb8bc05756595ebe48ccb611ba5016f56c2fef6ba6fe2fe8390bf9746e7",
+      "bytes": 6094
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_SOURCE_REVIEW.md",
+      "sha256": "1fba2a934fc9c59b4fc6ac97019465d30da87a9554f357dc71e9341b6092fab6",
+      "bytes": 2498
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/SOURCES_AND_HISTORY.md",
+      "sha256": "55966c575b02c9bc8090a80100392a7a3a9db33f3fc466eb84718b1ec5ae780f",
+      "bytes": 3196
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/SOURCE_FORCE_MAP.md",
+      "sha256": "56c5d7bf1ae9ecb4e77dc765478f96bb33d433c3de08312bf5783bbd3f8fd729",
+      "bytes": 9003
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/acceptance.json",
+      "sha256": "b2577c48b25c81b148d5d5a87cbc9ef4f3eb70f386f771074d8d987d2c7fdf33",
+      "bytes": 1838
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/certificate-manifest.json",
+      "sha256": "736dbf16dd7435d2fcfb696b9fe6d839200d6386b3d70836d41238399f3224e5",
+      "bytes": 6050
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-006.png",
+      "sha256": "b003bd62bc6274ea4b35048c54b75d29bdf161d18f29e185b2458e874dd6945a",
+      "bytes": 245306
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-015.png",
+      "sha256": "716657afa6c2612565f4fe76345e0a9ca2a36607efce41bb146da92f959d934f",
+      "bytes": 156362
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-016.png",
+      "sha256": "be6f83a43a7c0a134c2160ac4c0ffab26c24e75dd447af846654f70ef85e435d",
+      "bytes": 216966
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-102.png",
+      "sha256": "fee9fc751228d2b6ae20f67015a5b8a0e3cdcf4fca497ed6cc7cf6a5cf0294ea",
+      "bytes": 197581
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-118.png",
+      "sha256": "8266b9e0c505827c53b72db0694127e12a50f7946ecfb2caae56766782483806",
+      "bytes": 180831
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-119.png",
+      "sha256": "a40785d63ec2015b8d1497c77cb40abee9c64e23aa89725718e8f5560091b5b0",
+      "bytes": 223186
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-120.png",
+      "sha256": "45ccf92eedfa5eade26fb1226cf83fe8aa2e6c82c41708ad7519ccf98389945d",
+      "bytes": 183036
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-124.png",
+      "sha256": "fabeaf52e9f148cf6c9d945492c863a3b7dae42dcb2c0098fff874aff1e42a46",
+      "bytes": 188916
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p015.png",
+      "sha256": "8d01befb474abd8fa1e99777ff89462e072eb78553e55755d2e3caf12784fa08",
+      "bytes": 262983
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p118.png",
+      "sha256": "8fd08cffbd474028a4e87f82429175ae8d04d69500532bbb4bda65588021e56d",
+      "bytes": 295087
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p125.png",
+      "sha256": "83477bd8db72c07550f3967aa5d9a8e5a4aa2d728f180e53555772ed3bcd6530",
+      "bytes": 296040
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p126.png",
+      "sha256": "3b66008a35860d661a7a2219dd16e31ea710e81e6e3fd224eae0627253adae77",
+      "bytes": 342277
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+      "bytes": 571
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+      "bytes": 613667
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/support-invariance/PROOF.md",
+      "sha256": "0757f3859ff4ecd09cae33326593599c1603be7ef28c294444f8115ee19fa356",
+      "bytes": 10003
+    },
+    {
+      "path": "research/reverse/relative-energy-error-preflight/PROOF.md",
+      "sha256": "d1484629cbc592f2cdd14c7d86a370bc7fc915172f2d7a553285675a564c811f",
+      "bytes": 9576
+    }
+  ],
+  "direct_dependency_scope": "Historical Wiener/support and residual/energy interfaces only; new analytic proof is self-contained and does not import their unread references",
+  "accepted": [
+    "Complete conditional full-frequency local spatial analyticity and same-solution identification",
+    "Original claimed localized R3 and periodic trajectories cannot have a fixed full-domain zero-projected-force tail",
+    "Actual periodic force has zero mean; nonoverlapping periodicization gives the stated curl criterion",
+    "Only localization tail and global pressure coupling retained as a necessary unfilled input"
+  ],
+  "claim_boundaries": {
+    "external_result": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+    "external_Clay_scope": "Smooth forced C/D is within accepted Clay alternatives; not recategorized as non-Clay because forced",
+    "local_Clay_solution": false,
+    "same_original_a_star_unchanged": true,
+    "original_target_fixed_viscosity": 1,
+    "original_target_unforced_2pi_three_torus": true,
+    "comparison_domains_distinguished": [
+      "R3",
+      "fixed unit torus in Cor10.6",
+      "arbitrary fixed L in local lemma"
+    ],
+    "whole_tail_Pf_zero_of_original_trajectory_excluded_conditionally": true,
+    "force_nonzero_at_every_time": false,
+    "quantitative_force_lower_bound": false,
+    "external_existence_proof_fully_verified": false,
+    "Lean_or_Comparator_run": false,
+    "modified_unforced_trajectory_constructed": false,
+    "blowup_stability_certified": false,
+    "general_unforced_regularity_or_singularity": false,
+    "new_fixed_datum_or_parameter_scan": false,
+    "finite_two_step_success": false,
+    "uniform_iteration": false,
+    "single_datum_infinite_scales": false,
+    "infinite_dimensional_construction_error_paid": false,
+    "finite_time_singularity": false,
+    "novelty_priority_claim": false,
+    "human_peer_review": false,
+    "formal_machine_proof": false
+  },
+  "unpaid": [
+    "External full proof and formalization validation",
+    "Noncompact/open-gap-free full-domain velocity tail with compatible periodic pressure",
+    "Same-datum nonlinear tail/core control and lifespan",
+    "Blowup stability or any unforced singularity transfer",
+    "Uniform iteration, single-datum infinite scales and finite total time"
+  ],
+  "review": {
+    "proof": {
+      "path": "research/reverse/forced-tail-audit/ROOT_PROOF_REVIEW.md",
+      "sha256": "c083ecb8bc05756595ebe48ccb611ba5016f56c2fef6ba6fe2fe8390bf9746e7",
+      "bytes": 6094
+    },
+    "independent": {
+      "path": "research/reverse/forced-tail-audit/ROOT_INDEPENDENT_REVIEW.md",
+      "sha256": "7dd96aca46c2e7810358a757f2cea2b4232327249c8dc62a6a0322a6b6dfbdf5",
+      "bytes": 2259
+    },
+    "final_scope": {
+      "path": "research/reverse/forced-tail-audit/FINAL_SCOPE_REVIEW.md",
+      "sha256": "6dd9c84a4c66d519e700a05e24ad0812d40911936250d32bbb966ed8059adb43",
+      "bytes": 6219
+    },
+    "root_source_comparison": {
+      "path": "research/reverse/forced-tail-audit/ROOT_SOURCE_REVIEW.md",
+      "sha256": "1fba2a934fc9c59b4fc6ac97019465d30da87a9554f357dc71e9341b6092fab6",
+      "bytes": 2498
+    },
+    "formation": "Stopped nonblind AI authors and non-author reviews; source-only NOT ESTABLISHED and early periodic-pending texts remain formation records; root actually read final reviewers"
+  },
+  "certificate": {
+    "manifest": {
+      "path": "research/reverse/forced-tail-audit/certificate-manifest.json",
+      "sha256": "736dbf16dd7435d2fcfb696b9fe6d839200d6386b3d70836d41238399f3224e5",
+      "bytes": 6050
+    },
+    "acceptance": {
+      "path": "research/reverse/forced-tail-audit/acceptance.json",
+      "sha256": "b2577c48b25c81b148d5d5a87cbc9ef4f3eb70f386f771074d8d987d2c7fdf33",
+      "bytes": 1838
+    },
+    "scientific_executions": 0,
+    "numerical_arrays_decoded": 0,
+    "source_and_dependency_Git_objects_verified": 33,
+    "Git_verification_wall_seconds": 0.35082341600000005,
+    "Git_verification_scope": "Every listed core and dependency blob actually read from final source commit and SHA/length compared; no old scientific array or gzip re-read"
+  },
+  "source_ledger": "research/reverse/forced-tail-audit/SOURCES_AND_HISTORY.md",
+  "external_source": {
+    "pdf": {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204
+    },
+    "text_extraction": {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+      "bytes": 613667
+    },
+    "manifest": {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+      "bytes": 571
+    },
+    "external_repo_version_reference": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+    "version_is_not_a_local_Lean_verification": true
+  },
+  "figures": [],
+  "figure_qa": "NO_NEW_SCIENTIFIC_FIGURES; 12 original-paper renders of10 distinct pages retained as reading evidence",
+  "new_reader_pdf": false,
+  "private_milestone_record": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+  "milestone_condition": "Bounded source compatibility route narrowed; no separate major recap or original-paper claim",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "Private archival only; no public core, reader/website/translation or deployment instruction",
+  "excluded_later_work": [
+    "research/reverse/annular-third-order-preflight/",
+    "research/reverse/localization-tail-preflight/"
+  ],
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff"
+}
