@@ -1,18 +1,18 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_LOCALIZATION_INPUT_SELECTION",
+  "status": "RESEARCH_ACTIVE_PERIODIC_FORCE_LOW_JET_INPUT_QUALIFICATION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Choose one complete 3D periodic tail/pressure input with full residual and error contract; do not repeat the closed original-trajectory restart or direct face-identification proposals.",
-  "resume_action": "Continue scientific input selection from current reverse checkpoint and accepted localization-tail record. No old workers or handoffs may be restarted.",
+  "next_action": "Check whether explicit full-field identities for the same actual periodic force qualify b=(PF)(0,1) and B=D(PF)(0,1); do not infer them from background symmetry, finite radial moments or unevaluated cutoffs. No new data, numerical scan or release32 re-opening.",
+  "resume_action": "Continue from the accepted pressure-jet local working record and its unevaluated actual-input boundary. No old scientific workers or handoffs may be restarted.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
-  "scientific_status": "CONDITIONAL_UNFORCED_TAIL_OBSTRUCTION_FROZEN_SENT_ONCE; EXACT_DIRECT_FACE_IDENTIFICATION_OBSTRUCTION_ACCEPTED_LOCAL_RECORD; UNFORCED_SINGULARITY_OPEN",
+  "scientific_status": "Release32 conditional direct-restart obstruction and direct-face local test closed; periodic-force jet/remainder interface accepted conditionally, actual jets and unforced singularity OPEN.",
   "accepted": "Release32 closed; exact heat-exterior opposite-face obstruction accepted locally, not formal release33.",
   "required_files": [
     "AGENTS.md",
@@ -487,11 +487,19 @@
     "research/reverse/localization-tail-preflight/REVIEW.md",
     "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png",
     "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
-    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png"
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_CONTRACT.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_HISTORY.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_INDEPENDENT.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_PROOF.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_REVIEW.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_ROOT_ACCEPTANCE.md",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_SOURCE_AUDIT.md",
+    "research/reverse/localization-tail-preflight/pressure-jet-acceptance.json"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "323feeed9d944eff36eba71dc3797f9a3d16e41ef441684df54bc0c28501c537",
-    "research/reverse/CHECKPOINT.md": "c9679e1c2b3a4c9bd05048530c57e37d20beec53ef9ceda7ce0d0bb7cfbedd41",
+    "AGENTS.md": "2ea9882de43a4abbe05c8447298cb64f1f6086f7b0f98c6ade0199f96bc9e815",
+    "research/reverse/CHECKPOINT.md": "589e766c57959057535ce231214b7bf1cca6a27a4dfda3ff581963a57ce201ba",
     "research/reverse/HANDOFF_LOG.json": "7da8a2150be31f5331641ddfeb280b918397c38fe92f2da309548fa697f2e9f3",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -962,7 +970,15 @@
     "research/reverse/localization-tail-preflight/REVIEW.md": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
     "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png": "343088136f8ab436c1c4e2e1582c0a26e13a0963737e76293108c61b86d2c7e8",
     "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
-    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc"
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_CONTRACT.md": "7b435aa8db7ed4fec63f50b0adbb0d9dd7f1c9ec59867afbc4ceecabd042639a",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_HISTORY.md": "6a628fe96393c2901b97ac6d678ca5fb52e5e71b692b8d11cd18e43cf1797e79",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_INDEPENDENT.md": "9f51e7097c9bbba06c8c77d95ffef1870f48bed6c043f919c6c7900b646f97e9",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_PROOF.md": "10953e75adba6b068cb958b2637cd711aabe0c0ca1934371fe2036081bb29c4f",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_REVIEW.md": "83d8852d740b12619a4be10ecc00b714e032e864b2236cbff839fdc98b00a334",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_ROOT_ACCEPTANCE.md": "e2dcb19db3c33005b040ae77d7295b112fd0474d150392887f4b794d9c0aed33",
+    "research/reverse/localization-tail-preflight/PRESSURE_JET_SOURCE_AUDIT.md": "3da6060a20533e92eb256540a50b46d96ec4b5444dbe3f58678c3ec6e5a9250f",
+    "research/reverse/localization-tail-preflight/pressure-jet-acceptance.json": "a8c6c32cc158f51639dd43571c4378924232d50dfe1b1c96f1b71879c30f9bfb"
   },
   "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
@@ -972,15 +988,15 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "61bd47ea95e13dfb6e1e74bf56132a89ca6e5362d2df29da057839fc5cbbd47f",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "8b1182ec67f1bd4f14082f069a91fef5a44bcad5f661e49517e4370cadcd9289",
-    "AGENTS.md": "323feeed9d944eff36eba71dc3797f9a3d16e41ef441684df54bc0c28501c537",
+    "AGENTS.md": "2ea9882de43a4abbe05c8447298cb64f1f6086f7b0f98c6ade0199f96bc9e815",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_STRATEGY_AFTER_OPENAI_2026-09-09.md": "f54307d9a855e3a19116745b409c3510846670e0416172afd7c2f3f88acc5d58"
   },
   "freeze_commit": "a8fef322ebee7ffc84a363be9bf4f62dcf2b8324",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Complete three-dimensional periodic exterior and pressure input selection",
+  "current_topic": "Lowest-order actual full-periodic-force moment qualification",
   "current_topic_directory": "research/reverse/localization-tail-preflight",
   "pending": [
-    "A concrete complete-domain 3D tail/pressure input and a useful bounded contract; no candidate accepted"
+    "Actual full-periodic-force b/B structural qualification; all actual moment values and full-frequency remainder constants remain unevaluated. No unforced candidate accepted."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -989,9 +1005,9 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T03:26:48.038715+00:00",
+  "updated_at": "2026-09-09T03:45:59.559399+00:00",
   "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
-  "previous_goal_turn_classification": "PROGRESS: one fixed scientific run, accepted result metadata and preserved checkpoint; current turn lossless archive/freeze/once-only handoff",
+  "previous_goal_turn_classification": "PROGRESS: release32 conditional obstruction freeze/once-only handoff plus exact local face-identification test.",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -2653,5 +2669,39 @@
     "review_sha256": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
     "formal_release": false,
     "private_handoff": false
+  },
+  "current_turn_progress": "PROGRESS: source/history deduplication, conditional full-periodic-force jet/remainder proof, independent formation and non-author review accepted; 8 actual Git blobs verified.",
+  "pressure_jet_local_evidence": {
+    "status": "ACCEPTED_CONDITIONAL_LOCAL_WORKING_RECORD_NOT_RELEASE33",
+    "source_commit": "c2e4b657157fde8c26bfd537e0245f61b45da64f",
+    "acceptance": "research/reverse/localization-tail-preflight/pressure-jet-acceptance.json",
+    "acceptance_sha256": "a8c6c32cc158f51639dd43571c4378924232d50dfe1b1c96f1b71879c30f9bfb",
+    "actual_git_blobs_read_and_matched": 8,
+    "root_proof_lines": 48,
+    "independent_lines": 129,
+    "review_lines": 28,
+    "source_audit_lines": 34,
+    "actual_force_moments_evaluated": false,
+    "actual_remainder_norms_evaluated": false,
+    "scientific_executions": 0,
+    "arrays_opened": 0,
+    "new_renderings": 0,
+    "new_scientific_figures": 0,
+    "new_reader_pdf": 0,
+    "formal_release": false,
+    "private_handoff": false,
+    "excluded_from_release32": true,
+    "root_original_text_full_pdf_pages": [
+      118,
+      119,
+      120
+    ],
+    "root_original_text_partial_pdf_pages": [
+      117
+    ],
+    "root_visual_reused_pdf_pages": [
+      118
+    ],
+    "nonblind_scope": "Root read stopped independent, source and reviewer texts; Hume reviewed root proof only; Gauss formed from shared contract without seeing root new proof."
   }
 }
