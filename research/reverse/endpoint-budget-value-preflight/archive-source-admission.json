@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "status": "STATIC_BYTE_ARCHIVE_ADMISSION_ACCEPTED_LIVE_GATES_PENDING",
+  "scope": "No science/array decoding; nonblind AI source review and exact byte preservation task",
+  "utc": "2026-09-09T02:18:58.204401+00:00",
+  "bindings": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/archive_value_data.py",
+      "bytes": 13291,
+      "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md",
+      "bytes": 6117,
+      "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/run_archive_value.py",
+      "bytes": 7139,
+      "sha256": "142b41a6580cc30ee79425f7699755183b3075555f853e262702a4fc5acd8e2f"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_NOTE.md",
+      "bytes": 1761,
+      "sha256": "487ab43998957c740bbfdd0c7db63cd07139de625ebbf4e137deac7da8eda82c"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SOURCE_REVIEW.md",
+      "bytes": 5626,
+      "sha256": "82582be90d6c1d37658e4a88644c329f7eec74450e94e52d23b3d71b47d724fe"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_REVIEW.md",
+      "bytes": 3736,
+      "sha256": "dcb35527aaaeeb613d21e1b1977bf5a97355c5a5860cd5be1fcfe5927d80be43"
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_REVIEW.md",
+      "bytes": 2202,
+      "sha256": "003b08cbd836b0e98349d42df25cbfdd17c7f6e8a0dd86c5907f39969865df91"
+    }
+  ],
+  "root_read_scope": "archive205 + contract31 + source review27 + supervisor review26 complete; parent119 author full self read plus final changed line",
+  "scientific_runs_this_archive": 0,
+  "byte_archive_runs": 0,
+  "pending": [
+    "Source Git objects and separate new lock actually verified",
+    "Immediate disk>=2GiB, fixed interpreter, no existing archive/control directories or own archive process",
+    "Exactly one bounded byte child and complete terminal/source/resource acceptance"
+  ],
+  "figures": [],
+  "new_pdf": false
+}
