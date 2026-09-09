@@ -1,18 +1,18 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_FIXED_HEAT_VORTICITY_TAIL_PREFLIGHT",
+  "status": "RESEARCH_ACTIVE_GAUSSIAN_WEIGHTED_GROWTH_QUALIFICATION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish and independently review the fixed V_h=exp((1-t)Delta_T)U full-domain interface and bounded actual growth-source qualification; do not tune rho, data, lambda or cutoffs, reopen old numerical runs or re-dispatch releases1–33.",
-  "resume_action": "Continue from canonical-periodic-tail-preflight/CONTRACT.md, which is prospective and not yet proven/reviewed. Complete the same whole-domain object and its five contract items; preserve full P0=I for force.",
+  "next_action": "Read the accepted heat interface/source boundary and the fixed GAUSSIAN_GROWTH_CONTRACT; prove or narrow its first actual full-field weighted-error qualification using original finite-stage/realization controls, then independently audit. Do not treat the prospective main integral as proved, tune heat time or data, scan parameters or reopen releases1–33.",
+  "resume_action": "Resume directly from reverse-owned heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md and acceptance.json. The fixed heat residual interface is accepted but growth is not; no old source/queue/index or numerical restart.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
-  "scientific_status": "Canonical completion conditionally ruled out for an entire unforced terminal tail; release33 frozen and sent once. Fixed heat completion is prospective, no growth or unforced candidate accepted.",
+  "scientific_status": "Release33 conditional canonical-tail obstacle closed. Heat contract1–3 accepted, including explicit integrable weak residual; actual heat-growth input remains NOT_QUALIFIED. No unforced candidate accepted.",
   "accepted": "All five canonical completion items accepted within conditional source scope; three older source screens bundled as history, not new mechanisms.",
   "required_files": [
     "AGENTS.md",
@@ -521,11 +521,18 @@
     "research/reverse/canonical-periodic-tail-preflight/freeze.json",
     "research/reverse/canonical-periodic-tail-preflight/SOURCES_AND_HISTORY.md",
     "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md",
-    "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md"
+    "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
+    "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md",
+    "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md",
+    "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+    "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+    "research/reverse/heat-vorticity-tail-preflight/ROOT_COMPARISON.md",
+    "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md",
+    "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "03e1c1de78101d3b8b48671f077795c70018402123ac496410916dcfffed6310",
-    "research/reverse/CHECKPOINT.md": "e42355478128982da30739c8aeb654da956389a265f6ca9c3fd40f96b08edf38",
+    "AGENTS.md": "ec288c0d11c3d40244ca25203662554150f1c6b98b21a9d0cf9231c6829355b5",
+    "research/reverse/CHECKPOINT.md": "8cbcfafb3276f2ae328caa958d9b1e5dc31127c6c19cd227aeb005bb83512c90",
     "research/reverse/HANDOFF_LOG.json": "8c80cdeacd4d66028237500e5064317482054b0fff0d40e4be4b8644a9b0e166",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -1030,7 +1037,14 @@
     "research/reverse/canonical-periodic-tail-preflight/freeze.json": "89b43d71f8332a4baad45bd458c1474ab5f7ef3d34817f87e9220c8cc17cdeee",
     "research/reverse/canonical-periodic-tail-preflight/SOURCES_AND_HISTORY.md": "7be4d7c8a22614d15bdff5e6d05362d9593b14007fc291dfb9ed9d6777a8afe8",
     "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md": "82bc9d0785d3944a834b89b03af62bcafdad9b1e1865d650a153108e087c4b28",
-    "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b"
+    "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
+    "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md": "bf3a8c2a2fe330cdf930877222f349f52b85ceab6f0c410aabecff5bf43fbcff",
+    "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md": "767df015e79b72cda73202bdc289e8822d294704680a7ec5bfed3fae0d5aaef0",
+    "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491",
+    "research/reverse/heat-vorticity-tail-preflight/acceptance.json": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+    "research/reverse/heat-vorticity-tail-preflight/ROOT_COMPARISON.md": "1af4717bac70c2ce1393639ea5f24db6e6d4090233c3a56309ac249468f34dc9",
+    "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md": "786fa46ee37a6b78fa5e291907999194b80366efcb5c294aea23ac82b9dbae0a",
+    "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d"
   },
   "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
@@ -1040,17 +1054,16 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "61bd47ea95e13dfb6e1e74bf56132a89ca6e5362d2df29da057839fc5cbbd47f",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "8b1182ec67f1bd4f14082f069a91fef5a44bcad5f661e49517e4370cadcd9289",
-    "AGENTS.md": "0d48f5670758dc0aabb4f610f304cb61105074a16ccf5fd0fc867d0d3c339d2c",
+    "AGENTS.md": "ec288c0d11c3d40244ca25203662554150f1c6b98b21a9d0cf9231c6829355b5",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_STRATEGY_AFTER_OPENAI_2026-09-09.md": "f54307d9a855e3a19116745b409c3510846670e0416172afd7c2f3f88acc5d58"
   },
   "freeze_commit": "6b9e6df1315e507e81cd2b2c0120a4083ddc0a7c",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Fixed remaining-time full-periodic heat completion: exact residual and actual growth-source qualification",
+  "current_topic": "Actual Gaussian-weighted full-field growth qualification for the same fixed heat completion",
   "current_topic_directory": "research/reverse/heat-vorticity-tail-preflight",
   "pending": [
-    "Fixed heat contract items1–3 independent interface proof is in progress, not yet read or accepted by root.",
-    "Fixed heat contract item4 actual Gaussian-convolution growth qualification is in progress, not yet read or accepted by root.",
-    "Actual original-force b/B and all same-a_star transfer/lifespan/construction inputs remain unpaid."
+    "Next Gaussian growth contract is prospective: complete actual full-field weighted error and nonzero vector main integral at the original fixed path before accepting growth.",
+    "Actual projected force moments, strong residual/stability and all original-a_star trajectory/infinite-scale inputs remain unpaid."
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -1059,9 +1072,9 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T04:42:24.369833+00:00",
+  "updated_at": "2026-09-09T04:52:13.129293+00:00",
   "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
-  "previous_goal_turn_classification": "PROGRESS: conditional full-periodic-force jet/remainder proof, independent formation, non-author review and source/checkpoint commits completed.",
+  "previous_goal_turn_classification": "PROGRESS: release33 proof/freeze/once-only handoff complete; fixed heat interface and explicit integrable weak budget accepted locally, actual growth source gap narrowed, source and checkpoint saved.",
   "completed_unreleased_audits": [
     {
       "directory": "research/reverse/return-interface",
@@ -1345,12 +1358,14 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/localization-tail-preflight/CONTRACT.md",
-    "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md"
+    "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+    "research/reverse/heat-vorticity-tail-preflight/GROWTH_SOURCE_QUALIFICATION.md",
+    "research/reverse/heat-vorticity-tail-preflight/JOINT_REVIEW.md",
+    "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md"
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "3a13c931ec4560244589222b978baec0bf544ef8",
+  "current_analysis_source_commit": "724ac55fa2a43ddcbbd8f6c0d70e3eca4d49be83",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -1588,7 +1603,8 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/localization-tail-preflight/CONTRACT.md"
+    "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+    "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1760,7 +1776,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-09T04:42:24.369833+00:00",
+  "last_checkpoint_utc": "2026-09-09T04:52:13.129293+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -2724,7 +2740,7 @@
     "formal_release": false,
     "private_handoff": false
   },
-  "current_turn_progress": "PROGRESS: canonical full-field conditional obstacle proved and independently reviewed, formal33 actual Git blobs verified and handed off once; next exact heat input underway.",
+  "current_turn_progress": "PROGRESS: no block, no new scientific computations or arrays; accepted bounded analytic work and exact next contract.",
   "pressure_jet_local_evidence": {
     "status": "ACCEPTED_CONDITIONAL_LOCAL_WORKING_RECORD_NOT_RELEASE33",
     "source_commit": "c2e4b657157fde8c26bfd537e0245f61b45da64f",
@@ -2808,7 +2824,7 @@
     "final_scope_review_root_full_read_lines": 28
   },
   "heat_vorticity_tail_evidence": {
-    "status": "PROSPECTIVE_CONTRACT_WITH_INDEPENDENT_WORK_IN_PROGRESS_NOT_ACCEPTED",
+    "status": "ACCEPTED_CONDITIONAL_INTERFACE_GROWTH_INPUT_NOT_QUALIFIED_LOCAL_WORKING_RECORD",
     "contract": "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
     "contract_sha256": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
     "fixed_heat_time": "rho(t)=1-t, original unit torus, viscosity1",
@@ -2816,6 +2832,29 @@
     "unforced_candidate_accepted": false,
     "scientific_executions": 0,
     "source_scope": "Same external U only, never substitutes for original2pi/a_star",
-    "excluded_from_release33": true
+    "excluded_from_release33": true,
+    "source_commit": "724ac55fa2a43ddcbbd8f6c0d70e3eca4d49be83",
+    "acceptance": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+    "acceptance_sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+    "accepted_contract_items": [
+      1,
+      2,
+      3
+    ],
+    "growth_item4": "KinematicGrowthInput_NOT_QUALIFIED",
+    "growth_failure_proven": false,
+    "integrable_full_weak_residual_proven_conditionally": true,
+    "strong_stability_smallness_paid": false,
+    "root_independent_full_read_lines": 140,
+    "root_source_full_read_lines": 51,
+    "root_joint_review_full_read_lines": 32,
+    "source_Git_blobs_actually_verified": 8,
+    "formal_release": false,
+    "private_handoff": false,
+    "next_contract": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
+    "next_contract_sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+    "next_contract_proven_or_reviewed": false,
+    "authors_and_reviewers": "All stopped; no live scientific process",
+    "formation": "Root precontract informal ideas disclosed; root saw independent status formulas before formal drafting; nonblind AI non-author audit and separate source reading."
   }
 }
