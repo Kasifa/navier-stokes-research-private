@@ -1,10 +1,12 @@
 # Reverse research ownership and resumption (2026-09-07)
 
-## Current residual-budget freeze and fixed-endpoint value design (2026-09-09)
+## Current fixed endpoint value execution preparation (2026-09-09)
 
-ResidualBudgetGateFilter is research-complete at science04a286ef / freeze682b0e82, sent exactly once for PRIVATE_ARCHIVE; releases1–30 are closed handoffs. The root actually read and byte-verified29 core plus18 dependency Git blobs and the freeze blob, and read final combined scope83ecabf3. This is only a conditional obstruction to the specified RE.12 certification method; actual NS gates, lifespan and infinite-scale/singularity inputs remain unpaid.
+Releases1–30 are frozen and sent exactly once; never resend or observe publication. ResidualBudgetGateFilter remains only a conditional restriction on the specified RE method, with no actual NS gate/lifespan or singularity certificate.
 
-Current work is endpoint-budget-value-preflight/CONTRACT.md and stopped DESIGN.md9c6a9e66, with root formula5a564d12 and non-author review983ee5dd. Only fixed trajectory160_512's17 original checkpoints, same datum/T, are under consideration. Whole-design, quadrature and input metadata reviews are complete for implementation preparation. The helper and new supervisor have non-author static reviews; the main worker is still being written and is not reviewed. Scientific workers0, arrays0; draft120s/6GiB/1GiB is not an executable contract. Do not run or decode inputs before a new stopped implementation/resource contract and review. All old workers remain closed. This next design is excluded from package30. Resume autonomously from this tree; a later pause overrides immediately. Preserve all six legacy failure fields and existing goal/budget/reset/automation state.
+Main worker, helper, supervisor, input mapping and final execution contract are stopped and statically reviewed, including final review505bff88. Source97cdd8ca and separate lock43231b98 bind48 actual Git blobs; lock SHA99908cbb. Root actually read each source blob and the lock blob. The author task was interrupted after saved source was fixed; this was not a numerical execution or user pause.
+
+Next run only endpoint-budget-value-preflight/run_value.py under its final EXECUTION_CONTRACT.md and source-lock.json, run ID value-scout-160-512. Scientific executions0 and arrays0 at this checkpoint. First pay live free-memory>=40%, disk>=8GiB, interpreter/17-file size and no-other-own-worker gates. One child,120s/6GiB/1GiB; existing run directory means permanently closed ID, not a retry opportunity. Do not import scientific modules as probes or rerun old workers. Results will be NUMERICAL_VALUE_ONLY. Preserve all original arrays and six legacy failure fields. Goal/budgets/resets/automations unchanged; a later pause overrides immediately.
 
 ## Current energy-observation freeze and first-gate budget question (2026-09-09)
 
