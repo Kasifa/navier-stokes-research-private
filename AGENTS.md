@@ -6,7 +6,7 @@ Releases1–30 are frozen and sent exactly once; never resend or observe publica
 
 Root observed parent exit0, receipt PASS670d621d and successful terminal manifest09bf2f43. Child17.748699583s, peak4496424960B,54 batches/162 scalar FFTs; full directory675803770B. Only NUMERICAL_VALUE_ONLY: Ubar81170397.46015947 versus B_PH69.33584473015269 fails the chosen floating blocking comparison. No actual NS gate/lifespan/singularity or new candidate is certified. See OUTCOME and ROOT_RUN_OBSERVATION.
 
-Next complete stopped non-author result metadata/scope review and independent bounded byte archival. All four raw NPZ must remain intact; do not directly Git-add the large originals. Archival scripts/contracts still being prepared and are not execution authority. No additional scientific run, scan, refinement or full-window certificate follows automatically. Preserve all six legacy failure fields and goal/budget/reset/automation state. A later pause overrides immediately.
+Result metadata/scope review5cb45f22 is stopped, root-read and accepted at32bf3533. Next complete independent bounded byte archival. All four raw NPZ must remain intact; do not directly Git-add the large originals. Archival scripts/contracts still being prepared and are not execution authority. No additional scientific run, scan, refinement or full-window certificate follows automatically. Preserve all six legacy failure fields and goal/budget/reset/automation state. A later pause overrides immediately.
 
 ## Current energy-observation freeze and first-gate budget question (2026-09-09)
 

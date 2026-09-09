@@ -14,6 +14,8 @@
 
 结果/来源元数据审查5cb45f22已停，根全文读32行并限定接纳于result-acceptance.json；其中原M²下端转换有正向舍入，M_minus_num仍非严格下界。完整NPZ差未另行解码，不宣称独立科学复算。Pasteur在按已停ARCHIVE_PREFLIGHT c0a3ba51准备32MiB原字节分块gzip与真实流式恢复核对源码/合同。归档未运行，也不准仅据草稿执行。根仍需读停稿及非作者/自身源码审查、独立字节资源/源锁准入。原件不改，失败临存保留，不把字节恢复当科学证书。根未额外解码新NPZ的完整Hermite/Gram差，不声称独立数值一致性复算。
 
+归档作者当前明确接口：archive_value_data.py无参数，固定value-data-archive-v1，progress.jsonl/各gzip/manifest.json和PASS/FAIL终端；自身消费原48项source-lock。根还须准备新的短标准库外层监督及archive-source-lock，完整Popen→reap180秒、事后256MiB与新输出1GiB；不能把子内部计时当完整硬限。当前这些仅形成中，严禁直接执行。结果审读接纳已于32bf35334a3e146843194b3b1ebeab2da0d51c6a保存并实际核四个小Git对象。
+
 所有科学进程/终端已关闭；科学运行累计本题1，无新图/PDF。六保护历史字段与557ee保持相等，goal/预算/reset/自动化不改。先读本节、OUTCOME、ROOT_RUN_OBSERVATION及两份审查/归档停稿；旧运行待准入文字为历史，绝不能重启已存在ID。
 
 ## 最新实际保存点：第29包已交接，预算下界与应用预审已保存

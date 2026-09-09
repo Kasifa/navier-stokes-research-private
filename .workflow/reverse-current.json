@@ -422,8 +422,8 @@
     "research/reverse/endpoint-budget-value-preflight/result-acceptance.json"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "2f691971227f017dcc0dc2731747228417473f6dfaea87cfb77bca531cd91f0f",
-    "research/reverse/CHECKPOINT.md": "b10bef7c0cd9e02f541312a0af3a70da540d76a3c841496194874fee5c62d39c",
+    "AGENTS.md": "7b277ef72b8104e5f87766fe7d68810a772f0d1ea1ff2521bd9031402ea07a23",
+    "research/reverse/CHECKPOINT.md": "af592f7f64503c4adbf840da595cf05a3ab581dd56cea6900d71555fa904e91a",
     "research/reverse/HANDOFF_LOG.json": "49985bd9a753ba9758d36634f7b2b6268079fd8ecae67ebdc054199af1ebb530",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -853,7 +853,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T02:10:38.666223+00:00",
+  "updated_at": "2026-09-09T02:11:45.061732+00:00",
   "protocol_read_scope_latest": "2026-09-09 refreshed central opening and research/freeze sections 163-209, current dual-track strategy including priority update; no publication state inspection.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -2442,6 +2442,20 @@
     "actual_NS_gate_or_lifespan_certified": false,
     "result_metadata_review_sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20",
     "result_metadata_review_status": "ACCEPTED_LIMITED_SCOPE",
-    "raw_npz_independently_decoded": false
+    "raw_npz_independently_decoded": false,
+    "archive_preparation": {
+      "status": "AUTHOR_WRITING_NO_BYTE_EXECUTION",
+      "author_agent": "coherence_independent_audit",
+      "script": "research/reverse/endpoint-budget-value-preflight/archive_value_data.py",
+      "contract": "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md",
+      "directory": "research/reverse/endpoint-budget-value-preflight/value-data-archive-v1",
+      "root_external_supervisor_and_new_source_lock_required": true,
+      "byte_run_budget": {
+        "whole_child_seconds": 180,
+        "child_rss_bytes": 268435456,
+        "all_new_output_bytes": 1073741824
+      },
+      "raw_NPZ_preserved": true
+    }
   }
 }
