@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_ANNULAR_THIRD_ORDER_PREFLIGHT",
+  "status": "RESEARCH_ACTIVE_FORCED_TAIL_SOURCE_AUDIT",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Fix exact single-mode full three-leaf coefficient contract from stopped history and original same-datum sources. No mode scan, old run or publisher observation.",
+  "next_action": "Read actual forced construction and periodicization; test a fixed t_* with P f identically zero over the whole tail and domain; no numerical expansion.",
   "resume_action": "Read latest reverse checkpoint and annular-third-order-preflight/HISTORY; then fixed contract and exact original data. All previous run IDs are closed.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
@@ -892,7 +892,7 @@
   },
   "freeze_commit": "c3d7fa6a5a0c16435984c3459f37da25cf38af6d",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "Same-datum H2 three-leaf coefficient qualification preflight",
+  "current_topic": "Fixed-source whole-domain tail Leray-force audit",
   "current_topic_directory": "research/reverse/annular-third-order-preflight",
   "pending": [
     "Single-mode exact coefficient contract and bounded algebraic derivation/review",
@@ -1438,7 +1438,7 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/annular-third-order-preflight/HISTORY.md"
+    "research/reverse/forced-tail-audit/CONTRACT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -2522,10 +2522,20 @@
     "final_scope_review_sha256": "019c8d15370d07d532c5e4abd982c7170885d0916bfbbc28e3edc7f33d4e848d"
   },
   "annular_third_order_evidence": {
-    "status": "HISTORY_READ_CONTRACT_PENDING",
+    "status": "UNREVIEWED_SCRATCH_DEFERRED_FOR_NEW_SOURCE_PRIORITY",
     "history_sha256": "c4438406c9aa4ee5c22f75e6f342fc4fc58aaae960a67a5723a018d55610a601",
     "new_scientific_executions": 0,
     "unknown_coefficient_evaluated": false,
-    "excluded_from_release31": true
+    "excluded_from_release31": true,
+    "scratch": "research/reverse/annular-third-order-preflight/UNREVIEWED_SCRATCH.md",
+    "informal_precontract_derivation_disclosed": true
+  },
+  "forced_tail_audit_evidence": {
+    "status": "CONTRACT_FIXED_SOURCE_READ_PENDING",
+    "contract": "research/reverse/forced-tail-audit/CONTRACT.md",
+    "scientific_executions": 0,
+    "full_external_proof_verified": false,
+    "new_management_dispatch_source": "019fbdba-295b-7c30-a74a-b843f7558d54",
+    "release31_remains_sent_once": true
   }
 }

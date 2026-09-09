@@ -1,5 +1,12 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## 最新衔接：新受迫构造的后段零投影外力检验（2026-09-09）
+
+用户经管理任务新近要求按 OpenAI 9月8日原论文调整近期研究。已实读管理策略记录，外部声明属于带力 Clay C/D，全文证明与 Lean 重检未验收；本任务固定正黏性、无外力、固定环面合同不变。先按 forced-tail-audit/CONTRACT.md 检查是否存在固定 t_*<T，在整个物理域、整段 [t_*,T) 上 P f=0，周期零模必须保留。全空间和周期分开，紧支撑/很小/终端平坦不替代零性。科学执行预算0，不扩大已失败数值配置。
+
+第31包保持已冻结/已唯一交接，所有旧运行均关闭。annular-third-order-preflight/UNREVIEWED_SCRATCH.md 保存合同前非正式推导，未接受、未独立审查、未数值认证；因新近优先级暂缓此小题，不能丢失或虚称预注册。没有用户暂停整体研究。只读新原文/对应证明并做有界非作者复核，不重复正向负责的 Lean 定义审计，不等待或观察发布。六项旧失败证据保持557ee逐值不变。
+
+
 ## Current endpoint value freeze and annular coefficient preflight (2026-09-09)
 
 EndpointBudgetValueScreen is frozen at sourcec80b1b4e / freezec3d7fa6a, manifestc7a9f215, sent exactly once for PRIVATE_ARCHIVE. Releases1–31 are closed handoffs; never resend or observe publication. Root actually read84 core and37 dependency Git blobs and the freeze blob. Only a fixed numerical report/no new candidate, not an actual NS gate/lifespan or singularity conclusion.
