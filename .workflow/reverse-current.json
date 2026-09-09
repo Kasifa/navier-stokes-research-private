@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_ENDPOINT_VALUE_DESIGN_REVIEW",
+  "status": "RESEARCH_ACTIVE_ENDPOINT_VALUE_SOURCE_PREPARATION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish non-author design and quadrature reviews; then fix one stopped implementation/resource contract before any array read or numerical evaluation. All old workers closed.",
+  "next_action": "Wait for stopped main value_worker.py, then root and non-author full source/interface/memory review. Final execution contract, source-lock/Git binding and live resource gates remain required before the unique run. No old worker reruns.",
   "resume_action": "Read latest reverse CHECKPOINT and stopped endpoint-budget-value-preflight contract/design/formula review, then completed design reviews. Never reopen old runs or publication state.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
@@ -386,11 +386,24 @@
     "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
     "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
     "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md",
-    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md"
+    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md",
+    "research/reverse/endpoint-budget-value-preflight/budget_formulas.py",
+    "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md",
+    "research/reverse/endpoint-budget-value-preflight/bindings.json",
+    "research/reverse/endpoint-budget-value-preflight/input-bindings.json",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md",
+    "research/reverse/endpoint-budget-value-preflight/run_value.py",
+    "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md",
+    "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "4775fcb552f839c67d153d270d575439fd5ed1147f51e23cac5816106fe9569b",
-    "research/reverse/CHECKPOINT.md": "d2b692d04a25cd2acae15fab667d2257b897f18e6b8593993f02a85655411ef8",
+    "AGENTS.md": "849d367d23e7b472dd914d72a64ff4cc307738008d93e4790afed37e8de9c919",
+    "research/reverse/CHECKPOINT.md": "91d642c3d793677a4a12d0bb4a0373a35156902c9f459dd0bc48d6c4be866806",
     "research/reverse/HANDOFF_LOG.json": "49985bd9a753ba9758d36634f7b2b6268079fd8ecae67ebdc054199af1ebb530",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -760,7 +773,20 @@
     "research/reverse/endpoint-budget-value-preflight/CONTRACT.md": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6",
     "research/reverse/endpoint-budget-value-preflight/DESIGN.md": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
     "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
-    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
+    "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e",
+    "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc",
+    "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6",
+    "research/reverse/endpoint-budget-value-preflight/budget_formulas.py": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883",
+    "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864",
+    "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a",
+    "research/reverse/endpoint-budget-value-preflight/bindings.json": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab",
+    "research/reverse/endpoint-budget-value-preflight/input-bindings.json": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c",
+    "research/reverse/endpoint-budget-value-preflight/run_value.py": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c",
+    "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494",
+    "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260909-ResidualBudgetGateFilter",
@@ -770,16 +796,16 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "61bd47ea95e13dfb6e1e74bf56132a89ca6e5362d2df29da057839fc5cbbd47f",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "8b1182ec67f1bd4f14082f069a91fef5a44bcad5f661e49517e4370cadcd9289",
-    "AGENTS.md": "4775fcb552f839c67d153d270d575439fd5ed1147f51e23cac5816106fe9569b"
+    "AGENTS.md": "849d367d23e7b472dd914d72a64ff4cc307738008d93e4790afed37e8de9c919"
   },
   "freeze_commit": "682b0e8289646f993d6413a69bb362ec2c23ea38",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
   "current_topic": "Fixed endpoint residual-budget value design",
   "current_topic_directory": "research/reverse/endpoint-budget-value-preflight",
   "pending": [
-    "Whole-design resource/admission review",
-    "Fixed64-point quadrature source/formula review",
-    "Separate stopped implementation and execution contract if qualified"
+    "Main worker source stop and non-author complete review",
+    "Final execution contract and source-lock/Git verification",
+    "Actual live resource admission before unique numerical value scout"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -788,7 +814,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T00:19:31.598199+00:00",
+  "updated_at": "2026-09-09T00:55:01.212542+00:00",
   "protocol_read_scope_latest": "2026-09-09 refreshed central opening and research/freeze sections 163-209, current dual-track strategy including priority update; no publication state inspection.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -1083,7 +1109,7 @@
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
-  "current_analysis_source_commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+  "current_analysis_source_commit": "023212efb2bc25e9c450534d3d95a3266ac07a60",
   "control_family_endpoint_evidence": {
     "status": "PASS_NONAUTHOR_ANALYTIC_REVIEW",
     "source_commit": "772ebb645f580cf5f771716b24d1134ba4654dfc",
@@ -2341,13 +2367,21 @@
     "handoff": "SENT_ONCE_TOOL_CONFIRMED"
   },
   "endpoint_budget_value_evidence": {
-    "status": "DESIGN_REVIEW_PENDING_NO_EXECUTION_CONTRACT",
+    "status": "DESIGN_INPUT_HELPER_AND_SUPERVISOR_STATIC_REVIEWED_MAIN_WORKER_FORMING",
     "contract": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
     "design_sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
     "root_formula_sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
     "root_formula_review_sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
     "scientific_executions": 0,
     "arrays_opened": 0,
-    "excluded_from_release30": true
+    "excluded_from_release30": true,
+    "preparation_source_commit": "023212efb2bc25e9c450534d3d95a3266ac07a60",
+    "preparation_Git_blobs_verified": 9,
+    "input_bindings_sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6",
+    "input_review_sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e",
+    "supervisor_sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c",
+    "supervisor_root_review_sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494",
+    "execution_contract": "DRAFT_ONLY",
+    "source_lock_exists": false
   }
 }
