@@ -1,0 +1,419 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_CANONICAL_UNFORCED_TAIL_OBSTRUCTION",
+  "created_utc": "2026-09-09T04:40:01.573344+00:00",
+  "source_commit": "3a13c931ec4560244589222b978baec0bf544ef8",
+  "scientific_commits": [
+    "4fc04d6fa5954eeb3e9dc77ebf97e9f5609b37b7",
+    "c2e4b657157fde8c26bfd537e0245f61b45da64f",
+    "04aed130d4e61fa58dcd48035ae1d04500017196",
+    "3a13c931ec4560244589222b978baec0bf544ef8"
+  ],
+  "predecessor_release": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/CONTRACT.md",
+      "sha256": "3005cf028be47e53a574ffc27d6862da1543f4522f23cb517dd84720df722634",
+      "bytes": 4688
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE.md",
+      "sha256": "62631a701375209e6a506db8527d6e6af2c9b1a32b479529a09adaa02adec89e",
+      "bytes": 3508
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "82bc9d0785d3944a834b89b03af62bcafdad9b1e1865d650a153108e087c4b28",
+      "bytes": 5438
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/HISTORY.md",
+      "sha256": "24e548ed2efc3e284407db74916b91ab5d3fe2439b8d9e47c771358bbf55e32c",
+      "bytes": 1484
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/INDEPENDENT.md",
+      "sha256": "559a1aeac55066f001beaa25995ce71cc0ed5d2f1922189fa1d0284541ca5375",
+      "bytes": 11412
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/PROOF.md",
+      "sha256": "545fee812f2b7ef96c51029e9234b9869815c4a8312236e5726b54a482042453",
+      "bytes": 8872
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/PROOF_REVIEW.md",
+      "sha256": "b7f1c7ae22012e6d0cba0a82a071b15bb40a6711ebe1421c22b5c871ccfb8c3b",
+      "bytes": 7044
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/ROOT_COMPARISON.md",
+      "sha256": "c4e2ff051a0569acac74bb412aad931ed1445bda092b0b4d8790a7fc80824472",
+      "bytes": 3319
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/SOURCES_AND_HISTORY.md",
+      "sha256": "7be4d7c8a22614d15bdff5e6d05362d9593b14007fc291dfb9ed9d6777a8afe8",
+      "bytes": 3472
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/SOURCE_QUALIFICATION.md",
+      "sha256": "c7c11fd2bef0ad8a16c39ce98e21d0af729e45dae8d9a440640d62b0b96595c0",
+      "bytes": 8392
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/acceptance.json",
+      "sha256": "4e2820af20c7b3f76dbbdab46470543bcd7e06cc17bdf9707062d28a86fc435b",
+      "bytes": 2327
+    },
+    {
+      "path": "research/reverse/canonical-periodic-tail-preflight/certificate-manifest.json",
+      "sha256": "0f5487b201dda4fbbc553f862c7208c404ec260de456f21e40f2c04beff237e6",
+      "bytes": 5414
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/CONTRACT.md",
+      "sha256": "71f5fef23e6e29ab6cc8362d6372f81f646a611174ac5a1f4e9400276cb567f1",
+      "bytes": 1744
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/INDEPENDENT_CHECK.md",
+      "sha256": "73abc0054c21f13e02d350e7bb2724befcdd13b85fa2fa256cc666621101628e",
+      "bytes": 4517
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_BACKGROUND_AUDIT.md",
+      "sha256": "11bd98539a75a65c772cd6ea1a4ba2f11b81dda2ecedade5427c722f2f91ca3e",
+      "bytes": 5039
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_FINAL_REVIEW.md",
+      "sha256": "6184f4db2e3f43361979fe59a687752a15a2e8f448655d02937447eb60fa6626",
+      "bytes": 5209
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_GROUP_CHECK.md",
+      "sha256": "7863edd4d03d41f74ec35064a54840aea7a17850c55a0ed784bff4d79ad8a463",
+      "bytes": 5769
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_INPUT_CONTRACT.md",
+      "sha256": "e4cb7621eb5c686e640b7631f3ea1ec423f5bc459fc809dca28e93a559923e2f",
+      "bytes": 1831
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_ROOT_ACCEPTANCE.md",
+      "sha256": "90f33a0554e4ced41b34667e0d2777c08453ec1e151dc6c505ccd736f5261726",
+      "bytes": 2837
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/LOW_JET_WAVE_SYMMETRY_AUDIT.md",
+      "sha256": "4aa700dfeba34d8b3d7ea033a81470981db80e87aa531b88fce81c991c5109ef",
+      "bytes": 7175
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_CONTRACT.md",
+      "sha256": "7b435aa8db7ed4fec63f50b0adbb0d9dd7f1c9ec59867afbc4ceecabd042639a",
+      "bytes": 2360
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_HISTORY.md",
+      "sha256": "6a628fe96393c2901b97ac6d678ca5fb52e5e71b692b8d11cd18e43cf1797e79",
+      "bytes": 2324
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_INDEPENDENT.md",
+      "sha256": "9f51e7097c9bbba06c8c77d95ffef1870f48bed6c043f919c6c7900b646f97e9",
+      "bytes": 10975
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_PROOF.md",
+      "sha256": "10953e75adba6b068cb958b2637cd711aabe0c0ca1934371fe2036081bb29c4f",
+      "bytes": 5710
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_REVIEW.md",
+      "sha256": "83d8852d740b12619a4be10ecc00b714e032e864b2236cbff839fdc98b00a334",
+      "bytes": 4473
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_ROOT_ACCEPTANCE.md",
+      "sha256": "e2dcb19db3c33005b040ae77d7295b112fd0474d150392887f4b794d9c0aed33",
+      "bytes": 2909
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/PRESSURE_JET_SOURCE_AUDIT.md",
+      "sha256": "3da6060a20533e92eb256540a50b46d96ec4b5444dbe3f58678c3ec6e5a9250f",
+      "bytes": 5460
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/REVIEW.md",
+      "sha256": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
+      "bytes": 3068
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/ROOT_ACCEPTANCE.md",
+      "sha256": "eb3b14a5c8356992ffc63d8cc772c83e246b9a330f449f1bdd58661305cd0f84",
+      "bytes": 1447
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md",
+      "sha256": "1740800fcd4a5260757d9c3addf8f5940cf59a9a5e490516cac0ba7835ddaed7",
+      "bytes": 2506
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/acceptance.json",
+      "sha256": "84fcf90d7d6be58f1225fe454c17c09781e9095d698f6efaf16ccb65da819f3b",
+      "bytes": 2459
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/low-jet-acceptance.json",
+      "sha256": "f4c9087c4a21e74e369eb83773d9c52d8eecf2162f381cfe8c38f2a65313ce9a",
+      "bytes": 3847
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/pressure-jet-acceptance.json",
+      "sha256": "a8c6c32cc158f51639dd43571c4378924232d50dfe1b1c96f1b71879c30f9bfb",
+      "bytes": 2633
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
+      "sha256": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
+      "bytes": 236048
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png",
+      "sha256": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc",
+      "bytes": 194700
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/low-jet-p037.png",
+      "sha256": "c916e95f5512e9db4bd1fd78507e12e731e7acfe31442dea50018abe9b014bd3",
+      "bytes": 224227
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/low-jet-p144.png",
+      "sha256": "84ee58a1bc81c89106da32ca1df28270096b7e5c5b5a69bd6fc1cc49bb7eb23c",
+      "bytes": 230880
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png",
+      "sha256": "343088136f8ab436c1c4e2e1582c0a26e13a0963737e76293108c61b86d2c7e8",
+      "bytes": 212473
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-074.png",
+      "sha256": "e47f8b217840dec060a2e136ca16fcf461b6122fb684eb6af8e408dd3592439d",
+      "bytes": 234894
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-086.png",
+      "sha256": "8ea87b8c5a7f000dd188edc3c3536d6092a43e8b7c8b08f29d5759fd80dbc5a4",
+      "bytes": 230221
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-115.png",
+      "sha256": "12da1ee05a6ede13faba81c1c7ceb133f8e20bd55da36cfc7192e4df1aefc1ea",
+      "bytes": 245212
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_ANALYTIC_PROOF.md",
+      "sha256": "dccd2cfd8d9cbe61597074d2391fc59d3d983de685bf1f2bfbc19b72120e5abf",
+      "bytes": 5336
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/ROOT_PROOF_REVIEW.md",
+      "sha256": "c083ecb8bc05756595ebe48ccb611ba5016f56c2fef6ba6fe2fe8390bf9746e7",
+      "bytes": 6094
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/APPLICATION_AND_GAP.md",
+      "sha256": "f77fc095f7d23a1376a1bfae764573320fdcc2b4889068b7b897ecef9dac3a90",
+      "bytes": 4382
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/SOURCE_FORCE_MAP.md",
+      "sha256": "56c5d7bf1ae9ecb4e77dc765478f96bb33d433c3de08312bf5783bbd3f8fd729",
+      "bytes": 9003
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/PERIODIC_FORCE_AUDIT.md",
+      "sha256": "37734f594c9471cc2011c8c0216589d1f9777898981d211336769a8d85e7935f",
+      "bytes": 9787
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/SOURCES_AND_HISTORY.md",
+      "sha256": "55966c575b02c9bc8090a80100392a7a3a9db33f3fc466eb84718b1ec5ae780f",
+      "bytes": 3196
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+      "sha256": "ca0a9d4d8b8a8e07f5e2e95f73d29de3a83ae46e3e383bca08346ee8c8c97416",
+      "bytes": 3914
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/freeze.json",
+      "sha256": "3b3c3e28b1ba937846b676b1e834dc3889c59640b1c4b4d87a0ee6a46250afc8",
+      "bytes": 13149
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+      "bytes": 613667
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+      "bytes": 571
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-118.png",
+      "sha256": "8266b9e0c505827c53b72db0694127e12a50f7946ecfb2caae56766782483806",
+      "bytes": 180831
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/force-map/pdf-page-119.png",
+      "sha256": "a40785d63ec2015b8d1497c77cb40abee9c64e23aa89725718e8f5560091b5b0",
+      "bytes": 223186
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/reading-evidence/periodic-p125.png",
+      "sha256": "83477bd8db72c07550f3967aa5d9a8e5a4aa2d728f180e53555772ed3bcd6530",
+      "bytes": 296040
+    }
+  ],
+  "direct_dependency_scope": "Previously frozen release32 source and accepted analytic part only; existing source-page images remain reading evidence. Previous release is referenced, not re-frozen or re-dispatched.",
+  "accepted": [
+    "Fixed full-periodic canonical velocity completion and original cutoff-commutator endpoint qualification, conditional on external construction statements",
+    "Kinematic growth and finite energy, full periodic pressure/residual and finite full-frequency H^-1 upper bound",
+    "NO-CANDIDATE for an entire unforced terminal tail of this fixed canonical completion because an open zero-vorticity region survives",
+    "Three previously accepted local source screens bundled once as history: direct face identification fails, projected jets unevaluated, low-jet symmetry input not qualified"
+  ],
+  "claim_boundaries": {
+    "external_result": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+    "external_Clay_scope": "Forced C/D are admissible Clay alternatives; this package does not certify their proof",
+    "original_target_viscosity": 1,
+    "original_target_unforced_2pi_torus": true,
+    "same_original_a_star_unchanged": true,
+    "comparison_domain": "original fixed unit three-torus, not the original a_star solution",
+    "entire_unforced_terminal_tail_of_fixed_completion_excluded_conditionally": true,
+    "residual_nonzero_at_every_time": false,
+    "quantitative_force_floor": false,
+    "actual_H_or_velocity_tail_nonzero_proven": false,
+    "actual_force_moments_evaluated": false,
+    "small_or_strong_residual_certified": false,
+    "unforced_candidate_accepted": false,
+    "general_NS_regularity_or_singularity": false,
+    "local_Clay_solution": false,
+    "external_full_proof_verified": false,
+    "Lean_run": false,
+    "novelty_priority_claim": false,
+    "human_peer_review": false,
+    "formal_machine_proof": false,
+    "finite_two_step_success": false,
+    "uniform_iteration": false,
+    "single_datum_infinite_scales": false,
+    "infinite_dimensional_error_paid": false,
+    "finite_total_time_singularity": false
+  },
+  "unpaid": [
+    "External full construction and formalization verification",
+    "Actual full-domain vorticity tail plus complete viscous/pressure/nonlinear coupling",
+    "Actual projected force moments and remainder norms",
+    "Same-original-datum trajectory control, lifespan and blowup stability",
+    "Uniform iteration, single-datum infinite scales, infinite-dimensional errors and finite total time"
+  ],
+  "review": {
+    "proof": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/PROOF_REVIEW.md",
+      "sha256": "b7f1c7ae22012e6d0cba0a82a071b15bb40a6711ebe1421c22b5c871ccfb8c3b",
+      "bytes": 7044
+    },
+    "independent": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/INDEPENDENT.md",
+      "sha256": "559a1aeac55066f001beaa25995ce71cc0ed5d2f1922189fa1d0284541ca5375",
+      "bytes": 11412
+    },
+    "source": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/SOURCE_QUALIFICATION.md",
+      "sha256": "c7c11fd2bef0ad8a16c39ce98e21d0af729e45dae8d9a440640d62b0b96595c0",
+      "bytes": 8392
+    },
+    "root_comparison": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/ROOT_COMPARISON.md",
+      "sha256": "c4e2ff051a0569acac74bb412aad931ed1445bda092b0b4d8790a7fc80824472",
+      "bytes": 3319
+    },
+    "final_scope": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md",
+      "sha256": "82bc9d0785d3944a834b89b03af62bcafdad9b1e1865d650a153108e087c4b28",
+      "bytes": 5438
+    },
+    "formation": "Disclosed nonblind AI independent derivation and non-author proof/scope audits. Root read all stopped records; final scope reviewer directly read the initially unreviewed source qualification."
+  },
+  "certificate": {
+    "manifest": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/certificate-manifest.json",
+      "sha256": "0f5487b201dda4fbbc553f862c7208c404ec260de456f21e40f2c04beff237e6",
+      "bytes": 5414
+    },
+    "acceptance": {
+      "path": "research/reverse/canonical-periodic-tail-preflight/acceptance.json",
+      "sha256": "4e2820af20c7b3f76dbbdab46470543bcd7e06cc17bdf9707062d28a86fc435b",
+      "bytes": 2327
+    },
+    "scientific_executions": 0,
+    "numerical_arrays_decoded": 0,
+    "source_and_dependency_Git_objects_verified": 55,
+    "Git_verification_wall_seconds": 0.45804333399999997,
+    "Git_verification_scope": "Every listed41 core and14 dependency blob actually read from the final source commit and SHA/length compared. No old NPZ or gzip read; not a mathematical machine certificate."
+  },
+  "source_ledger": "research/reverse/canonical-periodic-tail-preflight/SOURCES_AND_HISTORY.md",
+  "external_source": {
+    "pdf": {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204
+    },
+    "text_extraction": {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
+      "bytes": 613667
+    },
+    "manifest": {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+      "bytes": 571
+    },
+    "external_repo_version_reference": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+    "version_is_not_local_Lean_verification": true
+  },
+  "figures": [],
+  "figure_qa": "NO_NEW_SCIENTIFIC_FIGURES. Core contains8 prior original-page PNG objects covering7 distinct pages; canonical proof has0 new renders. Three release32 reading images are dependency references, not new figures.",
+  "new_reader_pdf": false,
+  "private_milestone_record": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE.md",
+  "milestone_condition": "Bounded full-field completion proposal conditionally ruled out; no original-a_star or general unforced NS breakthrough",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": "Private archival only; no public core, reader update, translation or deployment instruction",
+  "excluded_later_work": [
+    "research/reverse/heat-vorticity-tail-preflight/",
+    "research/reverse/annular-third-order-preflight/",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/"
+  ],
+  "freeze_commit_binding": "Manifest-containing commit supplied separately in once-only handoff"
+}
