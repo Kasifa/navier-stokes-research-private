@@ -382,6 +382,23 @@
       },
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260909-ResidualBudgetGateFilter",
+      "source_commit": "04a286ef41414222e4bbbd52aed7eda21acd0058",
+      "freeze_commit": "682b0e8289646f993d6413a69bb362ec2c23ea38",
+      "freeze_manifest_sha256": "89c0738f3bac8e8de9f2dbad6a9533737d356c0721cc175f3dd1cf34eed4d5a9",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-09T00:19:31.598199+00:00",
+      "sent_time_note": "Tool returned matching publisher threadId; exact dispatch timestamp not supplied",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      },
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"

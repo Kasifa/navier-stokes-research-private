@@ -1,5 +1,11 @@
 # Reverse research ownership and resumption (2026-09-07)
 
+## Current residual-budget freeze and fixed-endpoint value design (2026-09-09)
+
+ResidualBudgetGateFilter is research-complete at science04a286ef / freeze682b0e82, sent exactly once for PRIVATE_ARCHIVE; releases1–30 are closed handoffs. The root actually read and byte-verified29 core plus18 dependency Git blobs and the freeze blob, and read final combined scope83ecabf3. This is only a conditional obstruction to the specified RE.12 certification method; actual NS gates, lifespan and infinite-scale/singularity inputs remain unpaid.
+
+Current work is endpoint-budget-value-preflight/CONTRACT.md and stopped DESIGN.md9c6a9e66, with root formula5a564d12 and non-author review983ee5dd. Only fixed trajectory160_512's17 original checkpoints, same datum/T, are under consideration. Whole-design and quadrature formula reviews are in progress. Scientific workers0, arrays0; suggested120s/6GiB/1GiB is not an executable contract. Do not run or decode inputs before a new stopped implementation/resource contract and review. All old workers remain closed. This next design is excluded from package30. Resume autonomously from this tree; a later pause overrides immediately. Preserve all six legacy failure fields and existing goal/budget/reset/automation state.
+
 ## Current energy-observation freeze and first-gate budget question (2026-09-09)
 
 EnergyObservationInterfaces is research-complete at source 8c63de4f / freeze 3120f75e and was sent once for PRIVATE_ARCHIVE. Releases1–29 are closed handoffs; never resend or observe publication. Its 20 core plus11 dependency Git objects and freeze object were actually read and byte-verified. Same-solution lifespan and all actual reconstruction, strain/residual and source-history certification inputs remain unpaid; no actual NS gate, continuation, candidate or singularity result is new.
