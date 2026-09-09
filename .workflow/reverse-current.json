@@ -12,8 +12,8 @@
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
-  "scientific_status": "FIXED_NUMERICAL_VALUE_SCREEN_FROZEN_NO_NEW_CANDIDATE; ACTUAL_NS_GATES_LIFESPAN_AND_SINGULARITY_OPEN",
-  "accepted": "One fixed numerical report and lossless output preservation accepted/frozen; no actual NS or strict budget obstruction. Next single-mode three-leaf qualification remains unproved.",
+  "scientific_status": "CONDITIONAL_SAME_LOCALIZED_TRAJECTORY_UNFORCED_TAIL_OBSTRUCTION_FROZEN; NEW_EXACT_FACE_TEST_UNDER_REVIEW; UNFORCED_SINGULARITY_OPEN",
+  "accepted": "Release32 conditional analytic-tail obstruction and source applicability accepted/frozen/sent once; current face test is not accepted yet.",
   "required_files": [
     "AGENTS.md",
     "research/reverse/CHECKPOINT.md",
@@ -948,7 +948,7 @@
     "research/reverse/forced-tail-audit/sources/paper-text.txt": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
     "research/reverse/localization-tail-preflight/CONTRACT.md": "71f5fef23e6e29ab6cc8362d6372f81f646a611174ac5a1f4e9400276cb567f1"
   },
-  "classification": "PRIVATE_CORE",
+  "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
   "source_commit": "0b332514c316873916777f60ec6f2138e56022df",
   "freeze_manifest": "research/reverse/forced-tail-audit/freeze.json",
@@ -956,7 +956,8 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "61bd47ea95e13dfb6e1e74bf56132a89ca6e5362d2df29da057839fc5cbbd47f",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "8b1182ec67f1bd4f14082f069a91fef5a44bcad5f661e49517e4370cadcd9289",
-    "AGENTS.md": "849d367d23e7b472dd914d72a64ff4cc307738008d93e4790afed37e8de9c919"
+    "AGENTS.md": "9aa96d122fc0ad0e0229a0305d56b1410b714c9551c60d37c592b0f9bd64c0e2",
+    "/Users/kasifa/Documents/Math/NAVIER_STOKES_STRATEGY_AFTER_OPENAI_2026-09-09.md": "f54307d9a855e3a19116745b409c3510846670e0416172afd7c2f3f88acc5d58"
   },
   "freeze_commit": "a8fef322ebee7ffc84a363be9bf4f62dcf2b8324",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
@@ -974,7 +975,7 @@
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
   "updated_at": "2026-09-09T03:16:30.091951+00:00",
-  "protocol_read_scope_latest": "2026-09-09 refreshed central opening and research/freeze sections 163-209, current dual-track strategy including priority update; no publication state inspection.",
+  "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
   "previous_goal_turn_classification": "PROGRESS: one fixed scientific run, accepted result metadata and preserved checkpoint; current turn lossless archive/freeze/once-only handoff",
   "completed_unreleased_audits": [
     {
@@ -1258,13 +1259,9 @@
     "scope": "Reuse certified C0 and complete phased nodal residual; full six tensor increments, original exact linear term, all Fourier outputs, whole-theta rounding error and degree12 Bernstein interface only"
   },
   "resume_read_set": [
-    "AGENTS.md",
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
-    "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
-    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md",
-    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md",
-    "research/reverse/residual-budget-floor-preflight/FILTER_OUTCOME.md"
+    "research/reverse/localization-tail-preflight/CONTRACT.md",
+    "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md"
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -2619,9 +2616,21 @@
     "private_handoff": "SENT_ONCE_TOOL_CONFIRMED"
   },
   "localization_tail_preflight_evidence": {
-    "status": "CONTRACT_FIXED_SOURCE_READING_PENDING",
+    "status": "ROOT_EXACT_FACE_TEST_WRITTEN_INDEPENDENT_REVIEW_RUNNING",
     "contract": "research/reverse/localization-tail-preflight/CONTRACT.md",
     "scientific_executions": 0,
-    "excluded_from_release32": true
+    "excluded_from_release32": true,
+    "root_proof": "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md",
+    "root_proof_sha256": "1740800fcd4a5260757d9c3addf8f5940cf59a9a5e490516cac0ba7835ddaed7",
+    "new_root_full_PDF_pages": [
+      138
+    ],
+    "new_root_partial_PDF_pages": [
+      137,
+      139
+    ],
+    "new_root_visual_pages": [
+      138
+    ]
   }
 }
