@@ -416,7 +416,34 @@
       },
       "archive_status": "NOT_OBSERVED_BY_RESEARCH",
       "do_not_resend": true
+    },
+    {
+      "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
+      "source_commit": "0b332514c316873916777f60ec6f2138e56022df",
+      "freeze_commit": "a8fef322ebee7ffc84a363be9bf4f62dcf2b8324",
+      "freeze_manifest_sha256": "3b3c3e28b1ba937846b676b1e834dc3889c59640b1c4b4d87a0ee6a46250afc8",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "intent_at_utc": "2026-09-09T03:14:29.758442+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true,
+      "sent_at_utc": null,
+      "recorded_at_utc": "2026-09-09T03:16:30.091951+00:00",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      },
+      "sent_time_note": "Tool returned matching threadId; exact dispatch timestamp not supplied"
     }
   ],
-  "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency"
+  "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency",
+  "bounded_peer_exchanges": [
+    {
+      "topic": "ForcedTailLocalizationObstruction",
+      "target": "019fb8c8-96a8-7320-bb59-3ab9e8b7e29e",
+      "status": "SENT_ONCE_TOOL_CONFIRMED",
+      "recorded_at_utc": "2026-09-09T03:16:30.091951+00:00",
+      "response_dependency": false
+    }
+  ]
 }
