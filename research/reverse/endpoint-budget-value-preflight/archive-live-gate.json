@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "utc": "2026-09-09T02:19:39.104089+00:00",
+  "status": "PASS",
+  "scope": "Live metadata/stat only; zero raw NPZ/gzip bytes read",
+  "gates": {
+    "disk_ge2GiB": true,
+    "four_regular_sizes": true,
+    "new_archive_directory": true,
+    "new_control_directory": true,
+    "no_own_python_script": true,
+    "interpreter": true
+  },
+  "disk_free_bytes": 1319855468544,
+  "input_stats": [
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/reconstruction.npz",
+      "regular": true,
+      "bytes": 15531558,
+      "expected": 15531558
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/terminal-compact.npz",
+      "regular": true,
+      "bytes": 176408080,
+      "expected": 176408080
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/full-B216.npz",
+      "regular": true,
+      "bytes": 483731652,
+      "expected": 483731652
+    },
+    {
+      "path": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/quadrature.npz",
+      "regular": true,
+      "bytes": 14490,
+      "expected": 14490
+    }
+  ],
+  "own_processes": [],
+  "source_commit": "37bdca0bce1c7493a101ec8a95fff6a5153a8164",
+  "lock_commit": "9f17cb0c5c400d01004c9f75b44a6d97979c86a1",
+  "lock_sha256": "71e7619e824e48fdbbda293f9b6ef60d1c8cbc9b4d0cf551ede7ceaf7e568da4"
+}

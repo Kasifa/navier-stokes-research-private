@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-09-09T02:20:48.431406+00:00",
+  "scope": "Root actual archive terminal observation plus manifest metadata checks; no second decompression or scientific evaluation",
+  "session_id": 67319,
+  "session_status": "EXITED_CLOSED_DO_NOT_RERUN",
+  "supervisor_tool_exit_code": 0,
+  "successful_terminal_summary": {
+    "byte_child_invocations": 1,
+    "complete_output_bytes": 640273806,
+    "execution": {
+      "bytes": 30896,
+      "sha256": "bab27692ddbbee63edf467f4613c4af5c364beb8d6e80d807434a718964854d2"
+    },
+    "scientific_worker_invocations": 0,
+    "scope": "LOSSLESS_BYTES_AND_RESOURCE_ONLY",
+    "status": "PASS"
+  },
+  "manifest_record": {
+    "bytes": 31514,
+    "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41"
+  },
+  "byte_child_wall_seconds": 16.542058124905452,
+  "byte_child_peak_rss_bytes": 30179328,
+  "file_restoration_records": [
+    {
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/full-B216.npz",
+      "raw_bytes": 483731652,
+      "chunks": 15,
+      "gzip_bytes": 466359429,
+      "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+    },
+    {
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/quadrature.npz",
+      "raw_bytes": 14490,
+      "chunks": 1,
+      "gzip_bytes": 9268,
+      "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+    },
+    {
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/reconstruction.npz",
+      "raw_bytes": 15531558,
+      "chunks": 1,
+      "gzip_bytes": 7473499,
+      "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+    },
+    {
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/terminal-compact.npz",
+      "raw_bytes": 176408080,
+      "chunks": 6,
+      "gzip_bytes": 166350373,
+      "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+    }
+  ],
+  "all_four_recorded_restore_identities_match": true,
+  "all_chunk_ranges_exhaust_originals": true,
+  "scientific_worker_invocations": 0,
+  "formal_Git_blob_preservation_pending": true
+}

@@ -1,0 +1,848 @@
+{
+  "archive_sources_end": {
+    "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md": {
+      "bytes": 6117,
+      "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf"
+    },
+    "research/reverse/endpoint-budget-value-preflight/archive_value_data.py": {
+      "bytes": 13291,
+      "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf"
+    }
+  },
+  "archive_sources_start": {
+    "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md": {
+      "bytes": 6117,
+      "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf"
+    },
+    "research/reverse/endpoint-budget-value-preflight/archive_value_data.py": {
+      "bytes": 13291,
+      "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf"
+    }
+  },
+  "automatic_retry": false,
+  "chunk_bytes": 33554432,
+  "files": [
+    {
+      "after": {
+        "bytes": 483731652,
+        "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+      },
+      "before": {
+        "bytes": 483731652,
+        "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+      },
+      "chunks": [
+        {
+          "compressed": {
+            "bytes": 32364311,
+            "sha256": "7d85fd9ba2147dc78c724ff68154c619246dff0caad59160f7f6e9db54caf6ba"
+          },
+          "gzip": "full-B216.npz.part0000.gz",
+          "index": 0,
+          "offset": 0,
+          "raw_bytes": 33554432,
+          "raw_sha256": "575896dae6c4f7052fd82edce49beae6b4d5b7bd004ab395b6733e8b506a9503",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "575896dae6c4f7052fd82edce49beae6b4d5b7bd004ab395b6733e8b506a9503"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32316692,
+            "sha256": "4a3c598f5ebb18835ad00af87c22019086502088ae754a2e13b2b07d1ab02428"
+          },
+          "gzip": "full-B216.npz.part0001.gz",
+          "index": 1,
+          "offset": 33554432,
+          "raw_bytes": 33554432,
+          "raw_sha256": "7c9df832116c9845b322d276f2eec0f09d1a167917dbdaadbb4c5a23594b60c8",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "7c9df832116c9845b322d276f2eec0f09d1a167917dbdaadbb4c5a23594b60c8"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32209528,
+            "sha256": "a747c1a780d58255625a105d8a454ddc986a100c2aab027a913e49f0660ec38b"
+          },
+          "gzip": "full-B216.npz.part0002.gz",
+          "index": 2,
+          "offset": 67108864,
+          "raw_bytes": 33554432,
+          "raw_sha256": "e07134a755e8a73d0b934e34b79f0160ec4201ddb3c7a543c6994238cc915aff",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "e07134a755e8a73d0b934e34b79f0160ec4201ddb3c7a543c6994238cc915aff"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32348063,
+            "sha256": "9943f0fdfb025cd64489f77b1b7d61d5cfc1b6946d686d0568cbee1ee0014ccc"
+          },
+          "gzip": "full-B216.npz.part0003.gz",
+          "index": 3,
+          "offset": 100663296,
+          "raw_bytes": 33554432,
+          "raw_sha256": "bd6d7ac1117e98801545c2d93d393bcdaa120c39bedc1f9fedf4f890d98a035d",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "bd6d7ac1117e98801545c2d93d393bcdaa120c39bedc1f9fedf4f890d98a035d"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32451187,
+            "sha256": "eb5fd817673e01a80d42cf9c34843b2629ca08e58e88afe2e55fa7279fd599fb"
+          },
+          "gzip": "full-B216.npz.part0004.gz",
+          "index": 4,
+          "offset": 134217728,
+          "raw_bytes": 33554432,
+          "raw_sha256": "e239a1eb17cb4c9edcc2f839afade6c2eeee376c0599e3d37ab23b3b0710b6d2",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "e239a1eb17cb4c9edcc2f839afade6c2eeee376c0599e3d37ab23b3b0710b6d2"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32422685,
+            "sha256": "2455efd19b4065f0a0eeb6c4a1d83267f41019489d6b27648259a3337fe1f216"
+          },
+          "gzip": "full-B216.npz.part0005.gz",
+          "index": 5,
+          "offset": 167772160,
+          "raw_bytes": 33554432,
+          "raw_sha256": "536f2d46374220d5934f9947bca38131fa26f7c0aadd8a083a4858b0ac56ff14",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "536f2d46374220d5934f9947bca38131fa26f7c0aadd8a083a4858b0ac56ff14"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32303343,
+            "sha256": "7207ff8049d4e087c93c93790b2194d587b02d387e3cd9b777a5870d75e458c8"
+          },
+          "gzip": "full-B216.npz.part0006.gz",
+          "index": 6,
+          "offset": 201326592,
+          "raw_bytes": 33554432,
+          "raw_sha256": "fd15ea0a3fe7d922050540ce67ba248078dfd4cfb1f67ed36cba12eca5dd2b23",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "fd15ea0a3fe7d922050540ce67ba248078dfd4cfb1f67ed36cba12eca5dd2b23"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32239953,
+            "sha256": "b2ddd89c031396033bf4f22250f734f0f4d17b797eeb31c4165b5626f8a45bf2"
+          },
+          "gzip": "full-B216.npz.part0007.gz",
+          "index": 7,
+          "offset": 234881024,
+          "raw_bytes": 33554432,
+          "raw_sha256": "72b045c2871326876d4cfaca90c693946ac3f282f272b06ca2e3cde637fa901a",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "72b045c2871326876d4cfaca90c693946ac3f282f272b06ca2e3cde637fa901a"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32385786,
+            "sha256": "ce0262b0d6b89c06ff8941c5a6d0b5e7103373c4885066537e9a4eae63192ffb"
+          },
+          "gzip": "full-B216.npz.part0008.gz",
+          "index": 8,
+          "offset": 268435456,
+          "raw_bytes": 33554432,
+          "raw_sha256": "86c31864b1433a54f4277afd8fcb1faa19f22f9e745803758b29c17b022cc5d4",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "86c31864b1433a54f4277afd8fcb1faa19f22f9e745803758b29c17b022cc5d4"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32430073,
+            "sha256": "3e747672d80963fbb3c69e4e5b23d0cd1b38564ae7b81f42b5a7a543ffb46cf4"
+          },
+          "gzip": "full-B216.npz.part0009.gz",
+          "index": 9,
+          "offset": 301989888,
+          "raw_bytes": 33554432,
+          "raw_sha256": "da520c8d73a678106ee676831735602905dd4472652f3abe232cf86fe69e0d2f",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "da520c8d73a678106ee676831735602905dd4472652f3abe232cf86fe69e0d2f"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32421673,
+            "sha256": "99096ee4a79e16ba660691d74d47f1ac9a6fc35854aba3abe441665e504bc12f"
+          },
+          "gzip": "full-B216.npz.part0010.gz",
+          "index": 10,
+          "offset": 335544320,
+          "raw_bytes": 33554432,
+          "raw_sha256": "13f1f80f5b03c73b5d2f565aaec0a8c3caf1f3b61bddb659829bed09b97edd04",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "13f1f80f5b03c73b5d2f565aaec0a8c3caf1f3b61bddb659829bed09b97edd04"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32278790,
+            "sha256": "53d980929c52a14e6f8f4566bbc49006cd1fcbc554bc17baef0bc485c4a2573e"
+          },
+          "gzip": "full-B216.npz.part0011.gz",
+          "index": 11,
+          "offset": 369098752,
+          "raw_bytes": 33554432,
+          "raw_sha256": "07fcee2073bf4d0cabdf918cb4ec91eee2790fd77da3495cb5fd2b299ac6301c",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "07fcee2073bf4d0cabdf918cb4ec91eee2790fd77da3495cb5fd2b299ac6301c"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32269538,
+            "sha256": "5d3d871891fbb339440008c02179557697484b352f360f0246b6de209bf65de2"
+          },
+          "gzip": "full-B216.npz.part0012.gz",
+          "index": 12,
+          "offset": 402653184,
+          "raw_bytes": 33554432,
+          "raw_sha256": "75cbcda8bb77bc6ed9c13952751b5b80166353683f51ab47af535332dc094148",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "75cbcda8bb77bc6ed9c13952751b5b80166353683f51ab47af535332dc094148"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32417042,
+            "sha256": "718a7325edf499225a5be4d6bd5be2beb49bc9524337c123c540c229e7980131"
+          },
+          "gzip": "full-B216.npz.part0013.gz",
+          "index": 13,
+          "offset": 436207616,
+          "raw_bytes": 33554432,
+          "raw_sha256": "92f1be4a6e58a33f6aff894d1c57ac973130061fded46ccdb1747b847c7e1e7d",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "92f1be4a6e58a33f6aff894d1c57ac973130061fded46ccdb1747b847c7e1e7d"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 13500765,
+            "sha256": "fbbf067282731356ea821a7d185373dc4257e6223d0750942764fa55c51cdc8c"
+          },
+          "gzip": "full-B216.npz.part0014.gz",
+          "index": 14,
+          "offset": 469762048,
+          "raw_bytes": 13969604,
+          "raw_sha256": "eefd5c0e3522f8b92feda458638229b7992a93a72f1197909ec6228a15dec8bb",
+          "restored": {
+            "bytes": 13969604,
+            "sha256": "eefd5c0e3522f8b92feda458638229b7992a93a72f1197909ec6228a15dec8bb"
+          },
+          "status": "VERIFIED"
+        }
+      ],
+      "expected": {
+        "bytes": 483731652,
+        "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+      },
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/full-B216.npz",
+      "restored": {
+        "bytes": 483731652,
+        "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+      },
+      "status": "VERIFIED",
+      "stream": {
+        "bytes": 483731652,
+        "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+      }
+    },
+    {
+      "after": {
+        "bytes": 14490,
+        "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+      },
+      "before": {
+        "bytes": 14490,
+        "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+      },
+      "chunks": [
+        {
+          "compressed": {
+            "bytes": 9268,
+            "sha256": "9e6d7e74eeddec95c6fe8070919c768bde99de14fa7b6bdfe92440019718965b"
+          },
+          "gzip": "quadrature.npz.part0000.gz",
+          "index": 0,
+          "offset": 0,
+          "raw_bytes": 14490,
+          "raw_sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2",
+          "restored": {
+            "bytes": 14490,
+            "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+          },
+          "status": "VERIFIED"
+        }
+      ],
+      "expected": {
+        "bytes": 14490,
+        "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+      },
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/quadrature.npz",
+      "restored": {
+        "bytes": 14490,
+        "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+      },
+      "status": "VERIFIED",
+      "stream": {
+        "bytes": 14490,
+        "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+      }
+    },
+    {
+      "after": {
+        "bytes": 15531558,
+        "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+      },
+      "before": {
+        "bytes": 15531558,
+        "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+      },
+      "chunks": [
+        {
+          "compressed": {
+            "bytes": 7473499,
+            "sha256": "523063ae4584ed606a0050c90b683e9a421fcfceebcbaa50a70ddfc9224b4eff"
+          },
+          "gzip": "reconstruction.npz.part0000.gz",
+          "index": 0,
+          "offset": 0,
+          "raw_bytes": 15531558,
+          "raw_sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85",
+          "restored": {
+            "bytes": 15531558,
+            "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+          },
+          "status": "VERIFIED"
+        }
+      ],
+      "expected": {
+        "bytes": 15531558,
+        "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+      },
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/reconstruction.npz",
+      "restored": {
+        "bytes": 15531558,
+        "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+      },
+      "status": "VERIFIED",
+      "stream": {
+        "bytes": 15531558,
+        "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+      }
+    },
+    {
+      "after": {
+        "bytes": 176408080,
+        "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+      },
+      "before": {
+        "bytes": 176408080,
+        "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+      },
+      "chunks": [
+        {
+          "compressed": {
+            "bytes": 32685443,
+            "sha256": "ef6312af01fb8325c5975d152c4fee1d7fa09e6a03b2460a1ece15abe05a25c9"
+          },
+          "gzip": "terminal-compact.npz.part0000.gz",
+          "index": 0,
+          "offset": 0,
+          "raw_bytes": 33554432,
+          "raw_sha256": "524cd3db40695f22cb3e1555747a3613db9d104a1ba7d053bbb22f68bf70d717",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "524cd3db40695f22cb3e1555747a3613db9d104a1ba7d053bbb22f68bf70d717"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32688734,
+            "sha256": "29429c51b19c0a34b9843853701df03deeebc01da5909a06ff71441f4b7177c1"
+          },
+          "gzip": "terminal-compact.npz.part0001.gz",
+          "index": 1,
+          "offset": 33554432,
+          "raw_bytes": 33554432,
+          "raw_sha256": "34380794e1834634b85b366c177eb92582c3ad32e81e64aeb3d1da2814b0e09a",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "34380794e1834634b85b366c177eb92582c3ad32e81e64aeb3d1da2814b0e09a"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 32648536,
+            "sha256": "352dd839dec54f00200394fcb570f324ef27a636d8dd9a6237e3ba287d454c2c"
+          },
+          "gzip": "terminal-compact.npz.part0002.gz",
+          "index": 2,
+          "offset": 67108864,
+          "raw_bytes": 33554432,
+          "raw_sha256": "b53132b88ab2012d568469198081eb361679ce4e8f84b2fda13a540aaa9d0c78",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "b53132b88ab2012d568469198081eb361679ce4e8f84b2fda13a540aaa9d0c78"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 31091155,
+            "sha256": "fa1f232c9d42d8b0119dd1a9ab0280c488f4767a341bef5ccb89ca09d7709455"
+          },
+          "gzip": "terminal-compact.npz.part0003.gz",
+          "index": 3,
+          "offset": 100663296,
+          "raw_bytes": 33554432,
+          "raw_sha256": "565b679a04893099b17b5447b440d4a5c9ed3c8981d727c55eb452847bc32b36",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "565b679a04893099b17b5447b440d4a5c9ed3c8981d727c55eb452847bc32b36"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 29615210,
+            "sha256": "cc6d79d86775b8a9102d022ab61b72e995507d1808f1a5f438760eff2951e61d"
+          },
+          "gzip": "terminal-compact.npz.part0004.gz",
+          "index": 4,
+          "offset": 134217728,
+          "raw_bytes": 33554432,
+          "raw_sha256": "ac422138381d0bf8113be83a3b10bee3b9a37dac2094a88d59a0cdd311e926c8",
+          "restored": {
+            "bytes": 33554432,
+            "sha256": "ac422138381d0bf8113be83a3b10bee3b9a37dac2094a88d59a0cdd311e926c8"
+          },
+          "status": "VERIFIED"
+        },
+        {
+          "compressed": {
+            "bytes": 7621295,
+            "sha256": "6f5daff1fe5444678f92b892ee4df997cd1b3ab33ffb66fac7f5bfbdc0eefba3"
+          },
+          "gzip": "terminal-compact.npz.part0005.gz",
+          "index": 5,
+          "offset": 167772160,
+          "raw_bytes": 8635920,
+          "raw_sha256": "6e43d17df535019d429740104bc1d54af29054ffcf3a942be40d69abaf3eedbe",
+          "restored": {
+            "bytes": 8635920,
+            "sha256": "6e43d17df535019d429740104bc1d54af29054ffcf3a942be40d69abaf3eedbe"
+          },
+          "status": "VERIFIED"
+        }
+      ],
+      "expected": {
+        "bytes": 176408080,
+        "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+      },
+      "original": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/terminal-compact.npz",
+      "restored": {
+        "bytes": 176408080,
+        "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+      },
+      "status": "VERIFIED",
+      "stream": {
+        "bytes": 176408080,
+        "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+      }
+    }
+  ],
+  "gzip": {
+    "filename": "",
+    "level": 6,
+    "mtime": 0,
+    "strict_size_limit": 41943040
+  },
+  "inventory_before_manifest": [
+    {
+      "bytes": 32364311,
+      "path": "full-B216.npz.part0000.gz"
+    },
+    {
+      "bytes": 32316692,
+      "path": "full-B216.npz.part0001.gz"
+    },
+    {
+      "bytes": 32209528,
+      "path": "full-B216.npz.part0002.gz"
+    },
+    {
+      "bytes": 32348063,
+      "path": "full-B216.npz.part0003.gz"
+    },
+    {
+      "bytes": 32451187,
+      "path": "full-B216.npz.part0004.gz"
+    },
+    {
+      "bytes": 32422685,
+      "path": "full-B216.npz.part0005.gz"
+    },
+    {
+      "bytes": 32303343,
+      "path": "full-B216.npz.part0006.gz"
+    },
+    {
+      "bytes": 32239953,
+      "path": "full-B216.npz.part0007.gz"
+    },
+    {
+      "bytes": 32385786,
+      "path": "full-B216.npz.part0008.gz"
+    },
+    {
+      "bytes": 32430073,
+      "path": "full-B216.npz.part0009.gz"
+    },
+    {
+      "bytes": 32421673,
+      "path": "full-B216.npz.part0010.gz"
+    },
+    {
+      "bytes": 32278790,
+      "path": "full-B216.npz.part0011.gz"
+    },
+    {
+      "bytes": 32269538,
+      "path": "full-B216.npz.part0012.gz"
+    },
+    {
+      "bytes": 32417042,
+      "path": "full-B216.npz.part0013.gz"
+    },
+    {
+      "bytes": 13500765,
+      "path": "full-B216.npz.part0014.gz"
+    },
+    {
+      "bytes": 18424,
+      "path": "progress.jsonl"
+    },
+    {
+      "bytes": 9268,
+      "path": "quadrature.npz.part0000.gz"
+    },
+    {
+      "bytes": 7473499,
+      "path": "reconstruction.npz.part0000.gz"
+    },
+    {
+      "bytes": 32685443,
+      "path": "terminal-compact.npz.part0000.gz"
+    },
+    {
+      "bytes": 32688734,
+      "path": "terminal-compact.npz.part0001.gz"
+    },
+    {
+      "bytes": 32648536,
+      "path": "terminal-compact.npz.part0002.gz"
+    },
+    {
+      "bytes": 31091155,
+      "path": "terminal-compact.npz.part0003.gz"
+    },
+    {
+      "bytes": 29615210,
+      "path": "terminal-compact.npz.part0004.gz"
+    },
+    {
+      "bytes": 7621295,
+      "path": "terminal-compact.npz.part0005.gz"
+    }
+  ],
+  "original_files_preserved": true,
+  "pid": 1909,
+  "prerequisites": {
+    "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json": {
+      "bytes": 1477,
+      "sha256": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13"
+    },
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json": {
+      "bytes": 40208,
+      "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007"
+    },
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json": {
+      "bytes": 67590,
+      "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252"
+    },
+    "research/reverse/endpoint-budget-value-preflight/source-lock.json": {
+      "bytes": 10163,
+      "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "schema": 1,
+  "scientific_worker_invocations": 0,
+  "scope": "LOSSLESS_BYTES_ONLY_NOT_SCIENCE",
+  "scope_of_samples": "Entry after time import to sample before manifest; not full Popen-to-reap. Root outer 180s supervision required.",
+  "seconds_pre_manifest": 16.484661125112325,
+  "selected": {
+    "full-B216.npz": {
+      "bytes": 483731652,
+      "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+    },
+    "quadrature.npz": {
+      "bytes": 14490,
+      "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+    },
+    "reconstruction.npz": {
+      "bytes": 15531558,
+      "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+    },
+    "terminal-compact.npz": {
+      "bytes": 176408080,
+      "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+    }
+  },
+  "self_pre_manifest": {
+    "peak_rss_bytes": 29900800,
+    "system_seconds": 0.461375,
+    "user_seconds": 15.958553
+  },
+  "source_records": {
+    "research/reverse/annular-source-observation/CONTRACT.md": {
+      "bytes": 3162,
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    "research/reverse/annular-source-observation/INPUT_CONTRACT.md": {
+      "bytes": 4491,
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    "research/reverse/annular-source-observation/INPUT_RESULT.md": {
+      "bytes": 3579,
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md": {
+      "bytes": 8056,
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    "research/reverse/annular-source-observation/compare_trajectories.py": {
+      "bytes": 53876,
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+    },
+    "research/reverse/annular-source-observation/input-acceptance.json": {
+      "bytes": 4968,
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    "research/reverse/annular-source-observation/input-execution.json": {
+      "bytes": 2935,
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+    },
+    "research/reverse/annular-source-observation/input-preparation.json": {
+      "bytes": 133961,
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl": {
+      "bytes": 2290,
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json": {
+      "bytes": 35887,
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json": {
+      "bytes": 29395,
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json": {
+      "bytes": 34519,
+      "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json": {
+      "bytes": 23381,
+      "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json": {
+      "bytes": 29455,
+      "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+    },
+    "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json": {
+      "bytes": 264217,
+      "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1"
+    },
+    "research/reverse/annular-source-observation/numerical_kernel.py": {
+      "bytes": 14407,
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    "research/reverse/annular-source-observation/run_trajectory.py": {
+      "bytes": 23383,
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+    },
+    "research/reverse/annular-source-observation/trajectory-archive-acceptance.json": {
+      "bytes": 1720,
+      "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c"
+    },
+    "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json": {
+      "bytes": 65401,
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+    },
+    "research/reverse/annular-source-observation/trajectory-source-lock.json": {
+      "bytes": 7813,
+      "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    "research/reverse/annular-source-observation/trajectory_driver.py": {
+      "bytes": 27740,
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    "research/reverse/annular-source-observation/verifier-execution.json": {
+      "bytes": 8480,
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f"
+    },
+    "research/reverse/annular-source-observation/verify-input-output.json": {
+      "bytes": 293865,
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+    },
+    "research/reverse/endpoint-budget-value-preflight/CONTRACT.md": {
+      "bytes": 2630,
+      "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6"
+    },
+    "research/reverse/endpoint-budget-value-preflight/DESIGN.md": {
+      "bytes": 13569,
+      "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd"
+    },
+    "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md": {
+      "bytes": 6336,
+      "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e"
+    },
+    "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md": {
+      "bytes": 7390,
+      "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0"
+    },
+    "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md": {
+      "bytes": 5987,
+      "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6"
+    },
+    "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md": {
+      "bytes": 6432,
+      "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+    },
+    "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md": {
+      "bytes": 5499,
+      "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864"
+    },
+    "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md": {
+      "bytes": 6762,
+      "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
+    },
+    "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md": {
+      "bytes": 7240,
+      "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a"
+    },
+    "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md": {
+      "bytes": 5406,
+      "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc"
+    },
+    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md": {
+      "bytes": 2863,
+      "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6"
+    },
+    "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md": {
+      "bytes": 3755,
+      "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+    },
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md": {
+      "bytes": 3612,
+      "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c"
+    },
+    "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md": {
+      "bytes": 2968,
+      "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494"
+    },
+    "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md": {
+      "bytes": 2667,
+      "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da"
+    },
+    "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md": {
+      "bytes": 4355,
+      "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30"
+    },
+    "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md": {
+      "bytes": 5915,
+      "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782"
+    },
+    "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md": {
+      "bytes": 8797,
+      "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f"
+    },
+    "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md": {
+      "bytes": 5371,
+      "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78"
+    },
+    "research/reverse/endpoint-budget-value-preflight/bindings.json": {
+      "bytes": 45351,
+      "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab"
+    },
+    "research/reverse/endpoint-budget-value-preflight/budget_formulas.py": {
+      "bytes": 3201,
+      "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883"
+    },
+    "research/reverse/endpoint-budget-value-preflight/input-bindings.json": {
+      "bytes": 16492,
+      "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6"
+    },
+    "research/reverse/endpoint-budget-value-preflight/run_value.py": {
+      "bytes": 18872,
+      "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c"
+    },
+    "research/reverse/endpoint-budget-value-preflight/source-admission.json": {
+      "bytes": 2436,
+      "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2"
+    },
+    "research/reverse/endpoint-budget-value-preflight/value_worker.py": {
+      "bytes": 28515,
+      "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0"
+    }
+  },
+  "status": "PASS",
+  "supervisor_pid": 1907,
+  "zlib_runtime": "1.2.12"
+}

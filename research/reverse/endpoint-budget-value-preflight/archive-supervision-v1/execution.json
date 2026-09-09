@@ -1,0 +1,689 @@
+{
+  "byte_child_invocations": 1,
+  "child_cpu_seconds": {
+    "system": 0.461989,
+    "user": 15.960961
+  },
+  "child_exit_code": 0,
+  "child_peak_rss_bytes": 30179328,
+  "child_pid": 1909,
+  "child_reaped": true,
+  "child_terminal": {
+    "manifest": {
+      "bytes": 31514,
+      "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41"
+    },
+    "output_bytes": 640242507,
+    "pid": 1909,
+    "rss_after_manifest": 30130176,
+    "scientific_worker_invocations": 0,
+    "scope": "Internal closure only; root must observe exit0 and full 180s Popen-to-reap separately",
+    "seconds_after_manifest": 16.485494208987802,
+    "status": "PASS",
+    "supervisor_pid": 1907
+  },
+  "child_wall_seconds": 16.542058124905452,
+  "command": [
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/endpoint-budget-value-preflight/archive_value_data.py"
+  ],
+  "manifest_record": {
+    "bytes": 31514,
+    "sha256": "5222ffe99e18ca9720886c69d219b2392e766b658076b654ed383136b314ef41"
+  },
+  "output_inventory_before_receipt": [
+    {
+      "bytes": 0,
+      "path": "archive-supervision-v1/stderr.log"
+    },
+    {
+      "bytes": 403,
+      "path": "archive-supervision-v1/stdout.log"
+    },
+    {
+      "bytes": 32364311,
+      "path": "value-data-archive-v1/full-B216.npz.part0000.gz"
+    },
+    {
+      "bytes": 32316692,
+      "path": "value-data-archive-v1/full-B216.npz.part0001.gz"
+    },
+    {
+      "bytes": 32209528,
+      "path": "value-data-archive-v1/full-B216.npz.part0002.gz"
+    },
+    {
+      "bytes": 32348063,
+      "path": "value-data-archive-v1/full-B216.npz.part0003.gz"
+    },
+    {
+      "bytes": 32451187,
+      "path": "value-data-archive-v1/full-B216.npz.part0004.gz"
+    },
+    {
+      "bytes": 32422685,
+      "path": "value-data-archive-v1/full-B216.npz.part0005.gz"
+    },
+    {
+      "bytes": 32303343,
+      "path": "value-data-archive-v1/full-B216.npz.part0006.gz"
+    },
+    {
+      "bytes": 32239953,
+      "path": "value-data-archive-v1/full-B216.npz.part0007.gz"
+    },
+    {
+      "bytes": 32385786,
+      "path": "value-data-archive-v1/full-B216.npz.part0008.gz"
+    },
+    {
+      "bytes": 32430073,
+      "path": "value-data-archive-v1/full-B216.npz.part0009.gz"
+    },
+    {
+      "bytes": 32421673,
+      "path": "value-data-archive-v1/full-B216.npz.part0010.gz"
+    },
+    {
+      "bytes": 32278790,
+      "path": "value-data-archive-v1/full-B216.npz.part0011.gz"
+    },
+    {
+      "bytes": 32269538,
+      "path": "value-data-archive-v1/full-B216.npz.part0012.gz"
+    },
+    {
+      "bytes": 32417042,
+      "path": "value-data-archive-v1/full-B216.npz.part0013.gz"
+    },
+    {
+      "bytes": 13500765,
+      "path": "value-data-archive-v1/full-B216.npz.part0014.gz"
+    },
+    {
+      "bytes": 31514,
+      "path": "value-data-archive-v1/manifest.json"
+    },
+    {
+      "bytes": 18424,
+      "path": "value-data-archive-v1/progress.jsonl"
+    },
+    {
+      "bytes": 9268,
+      "path": "value-data-archive-v1/quadrature.npz.part0000.gz"
+    },
+    {
+      "bytes": 7473499,
+      "path": "value-data-archive-v1/reconstruction.npz.part0000.gz"
+    },
+    {
+      "bytes": 32685443,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0000.gz"
+    },
+    {
+      "bytes": 32688734,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0001.gz"
+    },
+    {
+      "bytes": 32648536,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0002.gz"
+    },
+    {
+      "bytes": 31091155,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0003.gz"
+    },
+    {
+      "bytes": 29615210,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0004.gz"
+    },
+    {
+      "bytes": 7621295,
+      "path": "value-data-archive-v1/terminal-compact.npz.part0005.gz"
+    }
+  ],
+  "parent_seconds_to_receipt": 16.553325165994465,
+  "parent_self_pre_receipt_rss_bytes": 22839296,
+  "resource_scope": "Popen-before to reap child; CHILDREN full peak, not RSS hard limit. Parent SELF separate pre-receipt sample, not concurrent sum.",
+  "scientific_worker_invocations": 0,
+  "scope": "LOSSLESS_BYTES_AND_RESOURCE_ONLY",
+  "sources_end": {
+    "lock": {
+      "bytes": 13711,
+      "sha256": "71e7619e824e48fdbbda293f9b6ef60d1c8cbc9b4d0cf551ede7ceaf7e568da4"
+    },
+    "sources": {
+      "research/reverse/annular-source-observation/CONTRACT.md": {
+        "bytes": 3162,
+        "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+      },
+      "research/reverse/annular-source-observation/INPUT_CONTRACT.md": {
+        "bytes": 4491,
+        "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+      },
+      "research/reverse/annular-source-observation/INPUT_RESULT.md": {
+        "bytes": 3579,
+        "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+      },
+      "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md": {
+        "bytes": 8056,
+        "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+      },
+      "research/reverse/annular-source-observation/compare_trajectories.py": {
+        "bytes": 53876,
+        "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+      },
+      "research/reverse/annular-source-observation/input-acceptance.json": {
+        "bytes": 4968,
+        "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+      },
+      "research/reverse/annular-source-observation/input-execution.json": {
+        "bytes": 2935,
+        "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+      },
+      "research/reverse/annular-source-observation/input-preparation.json": {
+        "bytes": 133961,
+        "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl": {
+        "bytes": 2290,
+        "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json": {
+        "bytes": 34519,
+        "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json": {
+        "bytes": 23381,
+        "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json": {
+        "bytes": 29455,
+        "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json": {
+        "bytes": 264217,
+        "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1"
+      },
+      "research/reverse/annular-source-observation/numerical_kernel.py": {
+        "bytes": 14407,
+        "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+      },
+      "research/reverse/annular-source-observation/run_trajectory.py": {
+        "bytes": 23383,
+        "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+      },
+      "research/reverse/annular-source-observation/trajectory-archive-acceptance.json": {
+        "bytes": 1720,
+        "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c"
+      },
+      "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json": {
+        "bytes": 65401,
+        "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+      },
+      "research/reverse/annular-source-observation/trajectory-source-lock.json": {
+        "bytes": 7813,
+        "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+      },
+      "research/reverse/annular-source-observation/trajectory_driver.py": {
+        "bytes": 27740,
+        "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+      },
+      "research/reverse/annular-source-observation/verifier-execution.json": {
+        "bytes": 8480,
+        "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f"
+      },
+      "research/reverse/annular-source-observation/verify-input-output.json": {
+        "bytes": 293865,
+        "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md": {
+        "bytes": 6117,
+        "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_PREFLIGHT.md": {
+        "bytes": 4325,
+        "sha256": "c0a3ba5182436fe10c654f313ed6e28ddd136fc41350fefd7d9e886c882dfb06"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SOURCE_REVIEW.md": {
+        "bytes": 5626,
+        "sha256": "82582be90d6c1d37658e4a88644c329f7eec74450e94e52d23b3d71b47d724fe"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_NOTE.md": {
+        "bytes": 1761,
+        "sha256": "487ab43998957c740bbfdd0c7db63cd07139de625ebbf4e137deac7da8eda82c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_REVIEW.md": {
+        "bytes": 3736,
+        "sha256": "dcb35527aaaeeb613d21e1b1977bf5a97355c5a5860cd5be1fcfe5927d80be43"
+      },
+      "research/reverse/endpoint-budget-value-preflight/CONTRACT.md": {
+        "bytes": 2630,
+        "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/DESIGN.md": {
+        "bytes": 13569,
+        "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd"
+      },
+      "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md": {
+        "bytes": 6336,
+        "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md": {
+        "bytes": 7390,
+        "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0"
+      },
+      "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md": {
+        "bytes": 5987,
+        "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md": {
+        "bytes": 6432,
+        "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+      },
+      "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md": {
+        "bytes": 5499,
+        "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864"
+      },
+      "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md": {
+        "bytes": 6762,
+        "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md": {
+        "bytes": 7240,
+        "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a"
+      },
+      "research/reverse/endpoint-budget-value-preflight/OUTCOME.md": {
+        "bytes": 3377,
+        "sha256": "d9fc8771ee5496c49828516e5e275d201444d5d25e9f7f3061a7177761f7607a"
+      },
+      "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md": {
+        "bytes": 5406,
+        "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc"
+      },
+      "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md": {
+        "bytes": 6790,
+        "sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_REVIEW.md": {
+        "bytes": 2202,
+        "sha256": "003b08cbd836b0e98349d42df25cbfdd17c7f6e8a0dd86c5907f39969865df91"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md": {
+        "bytes": 2863,
+        "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md": {
+        "bytes": 3755,
+        "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json": {
+        "bytes": 1477,
+        "sha256": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md": {
+        "bytes": 3612,
+        "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md": {
+        "bytes": 2968,
+        "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md": {
+        "bytes": 2667,
+        "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da"
+      },
+      "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md": {
+        "bytes": 4355,
+        "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md": {
+        "bytes": 5915,
+        "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md": {
+        "bytes": 8797,
+        "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md": {
+        "bytes": 5371,
+        "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78"
+      },
+      "research/reverse/endpoint-budget-value-preflight/archive-source-admission.json": {
+        "bytes": 2242,
+        "sha256": "1870fa4e8c2c652e0b4a6d73569ec8fffc86fc6bd8abdee1137091829374236d"
+      },
+      "research/reverse/endpoint-budget-value-preflight/archive_value_data.py": {
+        "bytes": 13291,
+        "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf"
+      },
+      "research/reverse/endpoint-budget-value-preflight/bindings.json": {
+        "bytes": 45351,
+        "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab"
+      },
+      "research/reverse/endpoint-budget-value-preflight/budget_formulas.py": {
+        "bytes": 3201,
+        "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883"
+      },
+      "research/reverse/endpoint-budget-value-preflight/input-bindings.json": {
+        "bytes": 16492,
+        "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/live-launch-gate.json": {
+        "bytes": 4256,
+        "sha256": "8eeba79d80ff552bd92527b404f897cfc4fffd1fba6c9e3ae4f99de236b538f6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json": {
+        "bytes": 40208,
+        "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007"
+      },
+      "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json": {
+        "bytes": 67590,
+        "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252"
+      },
+      "research/reverse/endpoint-budget-value-preflight/result-acceptance.json": {
+        "bytes": 1751,
+        "sha256": "50e690c2736d12c46ae30de68d868b737ac906471cab97f2b3a8faa9045358fe"
+      },
+      "research/reverse/endpoint-budget-value-preflight/run_archive_value.py": {
+        "bytes": 7139,
+        "sha256": "142b41a6580cc30ee79425f7699755183b3075555f853e262702a4fc5acd8e2f"
+      },
+      "research/reverse/endpoint-budget-value-preflight/run_value.py": {
+        "bytes": 18872,
+        "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/source-admission.json": {
+        "bytes": 2436,
+        "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2"
+      },
+      "research/reverse/endpoint-budget-value-preflight/source-lock.json": {
+        "bytes": 10163,
+        "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/value_worker.py": {
+        "bytes": 28515,
+        "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0"
+      }
+    }
+  },
+  "sources_start": {
+    "lock": {
+      "bytes": 13711,
+      "sha256": "71e7619e824e48fdbbda293f9b6ef60d1c8cbc9b4d0cf551ede7ceaf7e568da4"
+    },
+    "sources": {
+      "research/reverse/annular-source-observation/CONTRACT.md": {
+        "bytes": 3162,
+        "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+      },
+      "research/reverse/annular-source-observation/INPUT_CONTRACT.md": {
+        "bytes": 4491,
+        "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+      },
+      "research/reverse/annular-source-observation/INPUT_RESULT.md": {
+        "bytes": 3579,
+        "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+      },
+      "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md": {
+        "bytes": 8056,
+        "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+      },
+      "research/reverse/annular-source-observation/compare_trajectories.py": {
+        "bytes": 53876,
+        "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+      },
+      "research/reverse/annular-source-observation/input-acceptance.json": {
+        "bytes": 4968,
+        "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+      },
+      "research/reverse/annular-source-observation/input-execution.json": {
+        "bytes": 2935,
+        "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+      },
+      "research/reverse/annular-source-observation/input-preparation.json": {
+        "bytes": 133961,
+        "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl": {
+        "bytes": 2290,
+        "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json": {
+        "bytes": 35887,
+        "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json": {
+        "bytes": 29395,
+        "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json": {
+        "bytes": 34519,
+        "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json": {
+        "bytes": 23381,
+        "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json": {
+        "bytes": 29455,
+        "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+      },
+      "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json": {
+        "bytes": 264217,
+        "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1"
+      },
+      "research/reverse/annular-source-observation/numerical_kernel.py": {
+        "bytes": 14407,
+        "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+      },
+      "research/reverse/annular-source-observation/run_trajectory.py": {
+        "bytes": 23383,
+        "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+      },
+      "research/reverse/annular-source-observation/trajectory-archive-acceptance.json": {
+        "bytes": 1720,
+        "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c"
+      },
+      "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json": {
+        "bytes": 65401,
+        "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+      },
+      "research/reverse/annular-source-observation/trajectory-source-lock.json": {
+        "bytes": 7813,
+        "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+      },
+      "research/reverse/annular-source-observation/trajectory_driver.py": {
+        "bytes": 27740,
+        "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+      },
+      "research/reverse/annular-source-observation/verifier-execution.json": {
+        "bytes": 8480,
+        "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f"
+      },
+      "research/reverse/annular-source-observation/verify-input-output.json": {
+        "bytes": 293865,
+        "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_CONTRACT.md": {
+        "bytes": 6117,
+        "sha256": "897c47339041f627c775dc91a067ffd9fbef1200b494a202900a193b449562bf"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_PREFLIGHT.md": {
+        "bytes": 4325,
+        "sha256": "c0a3ba5182436fe10c654f313ed6e28ddd136fc41350fefd7d9e886c882dfb06"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SOURCE_REVIEW.md": {
+        "bytes": 5626,
+        "sha256": "82582be90d6c1d37658e4a88644c329f7eec74450e94e52d23b3d71b47d724fe"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_NOTE.md": {
+        "bytes": 1761,
+        "sha256": "487ab43998957c740bbfdd0c7db63cd07139de625ebbf4e137deac7da8eda82c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ARCHIVE_SUPERVISOR_REVIEW.md": {
+        "bytes": 3736,
+        "sha256": "dcb35527aaaeeb613d21e1b1977bf5a97355c5a5860cd5be1fcfe5927d80be43"
+      },
+      "research/reverse/endpoint-budget-value-preflight/CONTRACT.md": {
+        "bytes": 2630,
+        "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/DESIGN.md": {
+        "bytes": 13569,
+        "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd"
+      },
+      "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md": {
+        "bytes": 6336,
+        "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md": {
+        "bytes": 7390,
+        "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0"
+      },
+      "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md": {
+        "bytes": 5987,
+        "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md": {
+        "bytes": 6432,
+        "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+      },
+      "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md": {
+        "bytes": 5499,
+        "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864"
+      },
+      "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md": {
+        "bytes": 6762,
+        "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md": {
+        "bytes": 7240,
+        "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a"
+      },
+      "research/reverse/endpoint-budget-value-preflight/OUTCOME.md": {
+        "bytes": 3377,
+        "sha256": "d9fc8771ee5496c49828516e5e275d201444d5d25e9f7f3061a7177761f7607a"
+      },
+      "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md": {
+        "bytes": 5406,
+        "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc"
+      },
+      "research/reverse/endpoint-budget-value-preflight/RESULT_METADATA_REVIEW.md": {
+        "bytes": 6790,
+        "sha256": "5cb45f228fd88cbc00009530d9698900ae4a7860dd0d92fcb7eac880123fab20"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_ARCHIVE_REVIEW.md": {
+        "bytes": 2202,
+        "sha256": "003b08cbd836b0e98349d42df25cbfdd17c7f6e8a0dd86c5907f39969865df91"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md": {
+        "bytes": 2863,
+        "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md": {
+        "bytes": 3755,
+        "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json": {
+        "bytes": 1477,
+        "sha256": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md": {
+        "bytes": 3612,
+        "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md": {
+        "bytes": 2968,
+        "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494"
+      },
+      "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md": {
+        "bytes": 2667,
+        "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da"
+      },
+      "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md": {
+        "bytes": 4355,
+        "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md": {
+        "bytes": 5915,
+        "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md": {
+        "bytes": 8797,
+        "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f"
+      },
+      "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md": {
+        "bytes": 5371,
+        "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78"
+      },
+      "research/reverse/endpoint-budget-value-preflight/archive-source-admission.json": {
+        "bytes": 2242,
+        "sha256": "1870fa4e8c2c652e0b4a6d73569ec8fffc86fc6bd8abdee1137091829374236d"
+      },
+      "research/reverse/endpoint-budget-value-preflight/archive_value_data.py": {
+        "bytes": 13291,
+        "sha256": "9dc9b3228859b977be164eb34dd87954b73e37d77682342a66ec5ea532608daf"
+      },
+      "research/reverse/endpoint-budget-value-preflight/bindings.json": {
+        "bytes": 45351,
+        "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab"
+      },
+      "research/reverse/endpoint-budget-value-preflight/budget_formulas.py": {
+        "bytes": 3201,
+        "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883"
+      },
+      "research/reverse/endpoint-budget-value-preflight/input-bindings.json": {
+        "bytes": 16492,
+        "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/live-launch-gate.json": {
+        "bytes": 4256,
+        "sha256": "8eeba79d80ff552bd92527b404f897cfc4fffd1fba6c9e3ae4f99de236b538f6"
+      },
+      "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json": {
+        "bytes": 40208,
+        "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007"
+      },
+      "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json": {
+        "bytes": 67590,
+        "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252"
+      },
+      "research/reverse/endpoint-budget-value-preflight/result-acceptance.json": {
+        "bytes": 1751,
+        "sha256": "50e690c2736d12c46ae30de68d868b737ac906471cab97f2b3a8faa9045358fe"
+      },
+      "research/reverse/endpoint-budget-value-preflight/run_archive_value.py": {
+        "bytes": 7139,
+        "sha256": "142b41a6580cc30ee79425f7699755183b3075555f853e262702a4fc5acd8e2f"
+      },
+      "research/reverse/endpoint-budget-value-preflight/run_value.py": {
+        "bytes": 18872,
+        "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c"
+      },
+      "research/reverse/endpoint-budget-value-preflight/source-admission.json": {
+        "bytes": 2436,
+        "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2"
+      },
+      "research/reverse/endpoint-budget-value-preflight/source-lock.json": {
+        "bytes": 10163,
+        "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+      },
+      "research/reverse/endpoint-budget-value-preflight/value_worker.py": {
+        "bytes": 28515,
+        "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0"
+      }
+    }
+  },
+  "status": "PASS",
+  "supervisor_pid": 1907,
+  "timed_out": false
+}
