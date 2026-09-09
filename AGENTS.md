@@ -1,12 +1,12 @@
 # Reverse research ownership and resumption (2026-09-07)
 
-## Current fixed endpoint value execution preparation (2026-09-09)
+## Current fixed endpoint value scout completed (2026-09-09)
 
-Releases1–30 are frozen and sent exactly once; never resend or observe publication. ResidualBudgetGateFilter remains only a conditional restriction on the specified RE method, with no actual NS gate/lifespan or singularity certificate.
+Releases1–30 are frozen and sent exactly once; never resend or observe publication. The fixed endpoint value scout has now run exactly once and completed. Source97cdd8ca, lock43231b98 / SHA99908cbb remain immutable. Session28105 exited0 and is CLOSED; never poll or rerun it. Existing numerical-runs/value-scout-160-512 is permanent evidence, not a restart point.
 
-Main worker, helper, supervisor, input mapping and final execution contract are stopped and statically reviewed, including final review505bff88. Source97cdd8ca and separate lock43231b98 bind48 actual Git blobs; lock SHA99908cbb. Root actually read each source blob and the lock blob. The author task was interrupted after saved source was fixed; this was not a numerical execution or user pause.
+Root observed parent exit0, receipt PASS670d621d and successful terminal manifest09bf2f43. Child17.748699583s, peak4496424960B,54 batches/162 scalar FFTs; full directory675803770B. Only NUMERICAL_VALUE_ONLY: Ubar81170397.46015947 versus B_PH69.33584473015269 fails the chosen floating blocking comparison. No actual NS gate/lifespan/singularity or new candidate is certified. See OUTCOME and ROOT_RUN_OBSERVATION.
 
-Next run only endpoint-budget-value-preflight/run_value.py under its final EXECUTION_CONTRACT.md and source-lock.json, run ID value-scout-160-512. Scientific executions0 and arrays0 at this checkpoint. First pay live free-memory>=40%, disk>=8GiB, interpreter/17-file size and no-other-own-worker gates. One child,120s/6GiB/1GiB; existing run directory means permanently closed ID, not a retry opportunity. Do not import scientific modules as probes or rerun old workers. Results will be NUMERICAL_VALUE_ONLY. Preserve all original arrays and six legacy failure fields. Goal/budgets/resets/automations unchanged; a later pause overrides immediately.
+Next complete stopped non-author result metadata/scope review and independent bounded byte archival. All four raw NPZ must remain intact; do not directly Git-add the large originals. Archival scripts/contracts still being prepared and are not execution authority. No additional scientific run, scan, refinement or full-window certificate follows automatically. Preserve all six legacy failure fields and goal/budget/reset/automation state. A later pause overrides immediately.
 
 ## Current energy-observation freeze and first-gate budget question (2026-09-09)
 

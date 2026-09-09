@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-09-09T02:04:05.479620+00:00",
+  "scope": "Root actual terminal observation and small metadata checks; no new array decoding or scientific rerun",
+  "execution_session_id": 28105,
+  "session_status": "EXITED_CLOSED_DO_NOT_RESTART",
+  "supervisor_tool_exit_code": 0,
+  "successful_terminal_summary": {
+    "complete_directory_logical_bytes": 675803770,
+    "complete_directory_manifest_sha256": "09bf2f43a170d3718111b0979bd320bd5be6559c2bc90bbacf2bbc955568c680",
+    "execution": {
+      "bytes": 40208,
+      "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007"
+    },
+    "run_id": "value-scout-160-512",
+    "scientific_execution_count": 1,
+    "scope": "COMPLETION_SOURCE_AND_RESOURCE_ONLY_NOT_A_NUMERICAL_OR_NS_CERTIFICATE",
+    "status": "PASS"
+  },
+  "execution_record": {
+    "bytes": 40208,
+    "sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007"
+  },
+  "result_record": {
+    "bytes": 67590,
+    "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252"
+  },
+  "root_checks": {
+    "parent_exit0_receiptPASS_terminalPASS": true,
+    "all48_source_maps_start_end": true,
+    "parent_source_identity_checks": true,
+    "same_parent_child_pids": true,
+    "before_after17_input_records_present": true
+  },
+  "scientific_executions": 1,
+  "automatic_rerun": false,
+  "mathematical_status": "NUMERICAL_VALUE_ONLY",
+  "actual_NS_gate_or_lifespan_certified": false
+}

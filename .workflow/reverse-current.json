@@ -1,13 +1,13 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_ENDPOINT_VALUE_READY_FOR_LIVE_GATE",
+  "status": "RESEARCH_ACTIVE_ENDPOINT_VALUE_COMPLETED_REVIEW_ARCHIVE_PENDING",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Pay final live resource/input-stat gate; if passed run unique locked supervisor once. Existing run directory permanently closes ID; preserve failure and never rerun.",
-  "resume_action": "Read current reverse checkpoint, final execution contract and source-lock. Inspect run-directory existence before any execution. No old worker reruns.",
+  "next_action": "Complete stopped result metadata/scope review; review and lock independent byte archival source/contract, then preserve all 4 outputs losslessly. Unique scientific run is closed and must never rerun.",
+  "resume_action": "Read completed-run checkpoint and OUTCOME/ROOT_RUN_OBSERVATION. All scientific runs closed; no terminal to resume.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
@@ -409,11 +409,19 @@
     "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md",
     "research/reverse/endpoint-budget-value-preflight/ARCHIVE_PREFLIGHT.md",
     "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md",
-    "research/reverse/endpoint-budget-value-preflight/source-lock.json"
+    "research/reverse/endpoint-budget-value-preflight/source-lock.json",
+    "research/reverse/endpoint-budget-value-preflight/live-launch-gate.json",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json",
+    "research/reverse/endpoint-budget-value-preflight/OUTCOME.md",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/progress.jsonl",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stdout.log",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "de191a890e2bf569e43b2ae33803ebea87469e0e6d29f2230b465410f2a6e9c4",
-    "research/reverse/CHECKPOINT.md": "14ef00a8f6f003cad56e45f76796ca58894588c1cd01d08370a2105108d02843",
+    "AGENTS.md": "2f691971227f017dcc0dc2731747228417473f6dfaea87cfb77bca531cd91f0f",
+    "research/reverse/CHECKPOINT.md": "92df14cad12618b989c8a54bb18ea51f21750683b25c74732465389ea0c3935b",
     "research/reverse/HANDOFF_LOG.json": "49985bd9a753ba9758d36634f7b2b6268079fd8ecae67ebdc054199af1ebb530",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -806,7 +814,15 @@
     "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782",
     "research/reverse/endpoint-budget-value-preflight/ARCHIVE_PREFLIGHT.md": "c0a3ba5182436fe10c654f313ed6e28ddd136fc41350fefd7d9e886c882dfb06",
     "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f",
-    "research/reverse/endpoint-budget-value-preflight/source-lock.json": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+    "research/reverse/endpoint-budget-value-preflight/source-lock.json": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e",
+    "research/reverse/endpoint-budget-value-preflight/live-launch-gate.json": "8eeba79d80ff552bd92527b404f897cfc4fffd1fba6c9e3ae4f99de236b538f6",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json": "8496f6a0e32e09f23556edc82af0d45cc686a2b607f483940bbc822f0fc2cb13",
+    "research/reverse/endpoint-budget-value-preflight/OUTCOME.md": "d9fc8771ee5496c49828516e5e275d201444d5d25e9f7f3061a7177761f7607a",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/execution.json": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/result.json": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/progress.jsonl": "575926a06c1a2a582ae72fbbcb7a63ae9fd80a332ba71c493cd84cdf9a3d283d",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stdout.log": "6a9abe7c49eaf51d37e0c771a26faad8a041137beb39d9e703b12548a4d4f602",
+    "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "classification": "PRIVATE_CORE",
   "last_completed_release": "ReverseNS-20260909-ResidualBudgetGateFilter",
@@ -823,9 +839,9 @@
   "current_topic": "Fixed endpoint residual-budget value scout",
   "current_topic_directory": "research/reverse/endpoint-budget-value-preflight",
   "pending": [
-    "Immediate external launch gates",
-    "Unique numerical execution and actual result/resource review",
-    "Separate bounded lossless archival after actual outputs"
+    "Result metadata and scope review",
+    "Bounded archive source/contract review and byte execution",
+    "Final scientific scope/freeze only after actual data preservation"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -834,7 +850,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T02:01:36.556762+00:00",
+  "updated_at": "2026-09-09T02:07:40.037025+00:00",
   "protocol_read_scope_latest": "2026-09-09 refreshed central opening and research/freeze sections 163-209, current dual-track strategy including priority update; no publication state inspection.",
   "previous_goal_turn_classification": "PROGRESS",
   "completed_unreleased_audits": [
@@ -1367,8 +1383,8 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md",
-    "research/reverse/endpoint-budget-value-preflight/source-lock.json"
+    "research/reverse/endpoint-budget-value-preflight/OUTCOME.md",
+    "research/reverse/endpoint-budget-value-preflight/ROOT_RUN_OBSERVATION.json"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -1540,7 +1556,7 @@
     "handoff_status": "SENT_ONCE_TOOL_CONFIRMED_NOT_OBSERVED",
     "scope": "Same fixed finite three-pair datum on explicit local smooth NS window with true-band self-supply fifth-order error; no evaluated total-vector gap or regeneration."
   },
-  "last_checkpoint_utc": "2026-09-09T02:01:36.556762+00:00",
+  "last_checkpoint_utc": "2026-09-09T02:07:40.037025+00:00",
   "net_mixed_cancellation_evidence": {
     "status": "ACCEPTED_AND_FORMALLY_FROZEN_SENT_ONCE",
     "source_commit": "f3ea93389e131d4f9f6d3e88d0bcc77b2c898397",
@@ -2387,13 +2403,13 @@
     "handoff": "SENT_ONCE_TOOL_CONFIRMED"
   },
   "endpoint_budget_value_evidence": {
-    "status": "SOURCE_LOCKED_STATIC_ADMISSION_COMPLETE_LIVE_GATE_PENDING",
+    "status": "SINGLE_SCIENTIFIC_RUN_COMPLETED_NUMERICAL_VALUE_ONLY",
     "contract": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
     "design_sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
     "root_formula_sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
     "root_formula_review_sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
-    "scientific_executions": 0,
-    "arrays_opened": 0,
+    "scientific_executions": 1,
+    "arrays_opened": 17,
     "excluded_from_release30": true,
     "preparation_source_commit": "023212efb2bc25e9c450534d3d95a3266ac07a60",
     "preparation_Git_blobs_verified": 9,
@@ -2408,6 +2424,18 @@
     "source_lock_sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e",
     "source_Git_blobs_verified": 48,
     "execution_contract_sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0",
-    "final_review_sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+    "final_review_sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb",
+    "arrays_opened_scope": "17 original U arrays by the unique worker; no root extra scientific decoding; newly generated arrays retained",
+    "execution_session_id": 28105,
+    "session_status": "EXITED_CLOSED",
+    "execution_sha256": "670d621d6bc0f4c90f84c22d4cbb86e388c9339f6b0a2b084ae6cad419050007",
+    "result_sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252",
+    "child_seconds": 17.748699583113194,
+    "child_peak_rss_bytes": 4496424960,
+    "complete_run_bytes": 675803770,
+    "classification": "NUMERICAL_VALUE_ONLY_NO_NEW_CANDIDATE",
+    "run_directory": "research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512",
+    "automatic_rerun": false,
+    "actual_NS_gate_or_lifespan_certified": false
   }
 }

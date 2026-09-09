@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "utc": "2026-09-09T02:02:17.935050+00:00",
+  "scope": "Read-only live resource and file-stat admission; no input bytes hashed or arrays decoded",
+  "status": "PASS",
+  "checks": {
+    "memory_free_ge40": true,
+    "disk_free_ge8GiB": true,
+    "interpreter_exists_executable": true,
+    "all17_regular_sizes": true,
+    "no_other_own_python_script": true,
+    "run_directory_absent": true
+  },
+  "memory_pressure_output": "The system has 38654705664 (2359296 pages with a page size of 16384).\nSystem-wide memory free percentage: 55%\n",
+  "free_percent": 55,
+  "disk_free_bytes": 1320958500864,
+  "hardware": {
+    "hw.model": "Mac17,7",
+    "hw.ncpu": "18",
+    "hw.memsize": "38654705664",
+    "machdep.cpu.brand_string": "Apple M5 Max"
+  },
+  "matching_own_processes": [],
+  "input_stats": [
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000000.npz",
+      "bytes": 206343430,
+      "expected_bytes": 206343430
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000032.npz",
+      "bytes": 206347734,
+      "expected_bytes": 206347734
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000064.npz",
+      "bytes": 206347738,
+      "expected_bytes": 206347738
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000096.npz",
+      "bytes": 206347762,
+      "expected_bytes": 206347762
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000128.npz",
+      "bytes": 206347786,
+      "expected_bytes": 206347786
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000160.npz",
+      "bytes": 206347798,
+      "expected_bytes": 206347798
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000192.npz",
+      "bytes": 206347790,
+      "expected_bytes": 206347790
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000224.npz",
+      "bytes": 206347794,
+      "expected_bytes": 206347794
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000256.npz",
+      "bytes": 206347790,
+      "expected_bytes": 206347790
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000288.npz",
+      "bytes": 206347830,
+      "expected_bytes": 206347830
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000320.npz",
+      "bytes": 206347818,
+      "expected_bytes": 206347818
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000352.npz",
+      "bytes": 206347794,
+      "expected_bytes": 206347794
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000384.npz",
+      "bytes": 206347814,
+      "expected_bytes": 206347814
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000416.npz",
+      "bytes": 206347822,
+      "expected_bytes": 206347822
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000448.npz",
+      "bytes": 206347818,
+      "expected_bytes": 206347818
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000480.npz",
+      "bytes": 206347838,
+      "expected_bytes": 206347838
+    },
+    {
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoint-000512.npz",
+      "bytes": 206347814,
+      "expected_bytes": 206347814
+    }
+  ],
+  "source_commit": "97cdd8ca4cb849802709d283aba28ca344bfef8c",
+  "source_lock_commit": "43231b9866e56cc6202a93b0602409ae4016d8eb",
+  "source_lock_sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+}

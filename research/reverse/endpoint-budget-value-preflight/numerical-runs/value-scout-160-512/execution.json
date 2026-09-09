@@ -1,0 +1,937 @@
+{
+  "artifact_inventory_before_receipt": [
+    {
+      "bytes": 483731652,
+      "path": "full-B216.npz",
+      "sha256": "bf8ee1402dcf1c69bf1f1d1b0bdd13de268fb2eff0ac3aa0a26112fdbb75ec60"
+    },
+    {
+      "bytes": 10082,
+      "path": "progress.jsonl",
+      "sha256": "575926a06c1a2a582ae72fbbcb7a63ae9fd80a332ba71c493cd84cdf9a3d283d"
+    },
+    {
+      "bytes": 14490,
+      "path": "quadrature.npz",
+      "sha256": "225d39de3be8ced28812cfe4c76144d7a41e6e6c3fa1d13aa96676d6d9be0cc2"
+    },
+    {
+      "bytes": 15531558,
+      "path": "reconstruction.npz",
+      "sha256": "a2676b5b028ba780e72ea426716d7d5d8a5c496dcb53385ccc6b2ea2aae12e85"
+    },
+    {
+      "bytes": 67590,
+      "path": "result.json",
+      "sha256": "a2092ea5fbf9eff92afc43616bf60938a94a6a8a6ab804b5aa5b4b9ff48c7252"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 110,
+      "path": "stdout.log",
+      "sha256": "6a9abe7c49eaf51d37e0c771a26faad8a041137beb39d9e703b12548a4d4f602"
+    },
+    {
+      "bytes": 176408080,
+      "path": "terminal-compact.npz",
+      "sha256": "739532d39cb410eafa9d3f996750effec02f8ab852afcf87004f997bf4586e1d"
+    }
+  ],
+  "artifact_inventory_scope": "All run artifacts including logs and failure temporaries; excludes only the parent-owned execution.json.tmp, whose final bytes are added exactly once. execution.json has no self-hash; final stdout gives its hash.",
+  "budget": {
+    "json_bytes": 16777216,
+    "output_bytes": 1073741824,
+    "rss_bytes": 6442450944,
+    "seconds": 120
+  },
+  "budget_pass": {
+    "json_bytes": true,
+    "output_bytes": true,
+    "rss": true,
+    "wall_time": true
+  },
+  "child_reaped": true,
+  "child_wall_seconds": 17.748699583113194,
+  "children_after_reap": {
+    "peak_rss_bytes": 4496424960,
+    "ru_maxrss_raw": 4496424960,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 1.557574,
+    "user_seconds": 15.916623
+  },
+  "children_before": {
+    "peak_rss_bytes": 0,
+    "ru_maxrss_raw": 0,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 0.0,
+    "user_seconds": 0.0
+  },
+  "command": [
+    "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/endpoint-budget-value-preflight/value_worker.py",
+    "--run-id",
+    "value-scout-160-512",
+    "--output-dir",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/endpoint-budget-value-preflight/numerical-runs/value-scout-160-512",
+    "--source-lock",
+    "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/endpoint-budget-value-preflight/source-lock.json"
+  ],
+  "expected_worker_runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "verification": "worker checks actual versions and reports them"
+  },
+  "external_launch_gates": "root checks live free memory >=40%, disk >=8GiB, 17 regular input files/sizes and no concurrent task worker before this parent",
+  "json_bytes_including_execution_receipt": 117880,
+  "non_output_gates_pass": true,
+  "output_total_bytes_including_execution_receipt": 675803770,
+  "parent_measurement_cutoff": "After source/result checks and artifact hashing, before receipt serialization, publication and final inventory; not the complete parent lifecycle or a concurrent peak.",
+  "parent_self_at_pre_serialization": {
+    "peak_rss_bytes": 24051712,
+    "ru_maxrss_raw": 24051712,
+    "ru_maxrss_unit": "Darwin bytes",
+    "system_seconds": 0.06138,
+    "user_seconds": 0.238922
+  },
+  "parent_wall_to_pre_serialization_seconds": 18.001250124769285,
+  "pid": 97788,
+  "popen_attempts": 1,
+  "resource_scope": "one fresh parent and at most one scientific child; Popen-to-reap wall limit; Darwin CHILDREN peak after reap is posthoc, not an RSS hard cap; SELF is separate and is never added to CHILDREN as a concurrent peak",
+  "returncode": 0,
+  "run_id": "value-scout-160-512",
+  "schema": 1,
+  "scientific_execution_count": 1,
+  "scope": "COMPLETION_SOURCE_AND_RESOURCE_ONLY_NOT_A_NUMERICAL_OR_NS_CERTIFICATE",
+  "source_commit_claim": "97cdd8ca4cb849802709d283aba28ca344bfef8c",
+  "source_commit_verification": "external root Git-object gate; not checked here",
+  "source_lock_after": {
+    "bytes": 10163,
+    "sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e"
+  },
+  "source_lock_path": "/Users/kasifa/Documents/Math/navier-stokes-reverse/research/reverse/endpoint-budget-value-preflight/source-lock.json",
+  "source_lock_sha256": "99908cbb6de3512db00feb819220ae958277fadc190a52549fb0ba73914bae7e",
+  "sources_after": [
+    {
+      "bytes": 3162,
+      "expected_bytes": 3162,
+      "expected_sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "bytes": 4491,
+      "expected_bytes": 4491,
+      "expected_sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "bytes": 3579,
+      "expected_bytes": 3579,
+      "expected_sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 8056,
+      "expected_bytes": 8056,
+      "expected_sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    {
+      "bytes": 53876,
+      "expected_bytes": 53876,
+      "expected_sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/compare_trajectories.py",
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+    },
+    {
+      "bytes": 4968,
+      "expected_bytes": 4968,
+      "expected_sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "bytes": 2935,
+      "expected_bytes": 2935,
+      "expected_sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+    },
+    {
+      "bytes": 133961,
+      "expected_bytes": 133961,
+      "expected_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "bytes": 2290,
+      "expected_bytes": 2290,
+      "expected_sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+    },
+    {
+      "bytes": 35887,
+      "expected_bytes": 35887,
+      "expected_sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+    },
+    {
+      "bytes": 29395,
+      "expected_bytes": 29395,
+      "expected_sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+    },
+    {
+      "bytes": 34519,
+      "expected_bytes": 34519,
+      "expected_sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json",
+      "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+    },
+    {
+      "bytes": 23381,
+      "expected_bytes": 23381,
+      "expected_sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json",
+      "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87"
+    },
+    {
+      "bytes": 29455,
+      "expected_bytes": 29455,
+      "expected_sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json",
+      "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+    },
+    {
+      "bytes": 264217,
+      "expected_bytes": 264217,
+      "expected_sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json",
+      "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1"
+    },
+    {
+      "bytes": 14407,
+      "expected_bytes": 14407,
+      "expected_sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 23383,
+      "expected_bytes": 23383,
+      "expected_sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/run_trajectory.py",
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+    },
+    {
+      "bytes": 1720,
+      "expected_bytes": 1720,
+      "expected_sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-archive-acceptance.json",
+      "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c"
+    },
+    {
+      "bytes": 65401,
+      "expected_bytes": 65401,
+      "expected_sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+    },
+    {
+      "bytes": 7813,
+      "expected_bytes": 7813,
+      "expected_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-source-lock.json",
+      "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "bytes": 27740,
+      "expected_bytes": 27740,
+      "expected_sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    {
+      "bytes": 8480,
+      "expected_bytes": 8480,
+      "expected_sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/verifier-execution.json",
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f"
+    },
+    {
+      "bytes": 293865,
+      "expected_bytes": 293865,
+      "expected_sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/verify-input-output.json",
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+    },
+    {
+      "bytes": 2630,
+      "expected_bytes": 2630,
+      "expected_sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
+      "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6"
+    },
+    {
+      "bytes": 13569,
+      "expected_bytes": 13569,
+      "expected_sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
+      "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd"
+    },
+    {
+      "bytes": 6336,
+      "expected_bytes": 6336,
+      "expected_sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md",
+      "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e"
+    },
+    {
+      "bytes": 7390,
+      "expected_bytes": 7390,
+      "expected_sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md",
+      "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0"
+    },
+    {
+      "bytes": 5987,
+      "expected_bytes": 5987,
+      "expected_sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md",
+      "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6"
+    },
+    {
+      "bytes": 6432,
+      "expected_bytes": 6432,
+      "expected_sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md",
+      "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+    },
+    {
+      "bytes": 5499,
+      "expected_bytes": 5499,
+      "expected_sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md",
+      "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864"
+    },
+    {
+      "bytes": 6762,
+      "expected_bytes": 6762,
+      "expected_sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md",
+      "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
+    },
+    {
+      "bytes": 7240,
+      "expected_bytes": 7240,
+      "expected_sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md",
+      "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a"
+    },
+    {
+      "bytes": 5406,
+      "expected_bytes": 5406,
+      "expected_sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md",
+      "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc"
+    },
+    {
+      "bytes": 2863,
+      "expected_bytes": 2863,
+      "expected_sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md",
+      "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6"
+    },
+    {
+      "bytes": 3755,
+      "expected_bytes": 3755,
+      "expected_sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md",
+      "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+    },
+    {
+      "bytes": 3612,
+      "expected_bytes": 3612,
+      "expected_sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md",
+      "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c"
+    },
+    {
+      "bytes": 2968,
+      "expected_bytes": 2968,
+      "expected_sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md",
+      "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494"
+    },
+    {
+      "bytes": 2667,
+      "expected_bytes": 2667,
+      "expected_sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md",
+      "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da"
+    },
+    {
+      "bytes": 4355,
+      "expected_bytes": 4355,
+      "expected_sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md",
+      "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30"
+    },
+    {
+      "bytes": 5915,
+      "expected_bytes": 5915,
+      "expected_sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md",
+      "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782"
+    },
+    {
+      "bytes": 8797,
+      "expected_bytes": 8797,
+      "expected_sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md",
+      "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f"
+    },
+    {
+      "bytes": 5371,
+      "expected_bytes": 5371,
+      "expected_sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md",
+      "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78"
+    },
+    {
+      "bytes": 45351,
+      "expected_bytes": 45351,
+      "expected_sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/bindings.json",
+      "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab"
+    },
+    {
+      "bytes": 3201,
+      "expected_bytes": 3201,
+      "expected_sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/budget_formulas.py",
+      "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883"
+    },
+    {
+      "bytes": 16492,
+      "expected_bytes": 16492,
+      "expected_sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/input-bindings.json",
+      "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6"
+    },
+    {
+      "bytes": 18872,
+      "expected_bytes": 18872,
+      "expected_sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/run_value.py",
+      "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c"
+    },
+    {
+      "bytes": 2436,
+      "expected_bytes": 2436,
+      "expected_sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/source-admission.json",
+      "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2"
+    },
+    {
+      "bytes": 28515,
+      "expected_bytes": 28515,
+      "expected_sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/value_worker.py",
+      "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0"
+    }
+  ],
+  "sources_before": [
+    {
+      "bytes": 3162,
+      "expected_bytes": 3162,
+      "expected_sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/CONTRACT.md",
+      "sha256": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8"
+    },
+    {
+      "bytes": 4491,
+      "expected_bytes": 4491,
+      "expected_sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_CONTRACT.md",
+      "sha256": "2d02549be48f26001c794b06f8d7ecb74e46be3ed051e72019860a56eab6768d"
+    },
+    {
+      "bytes": 3579,
+      "expected_bytes": 3579,
+      "expected_sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/INPUT_RESULT.md",
+      "sha256": "2a8cba5e128124c24614c56a51796a53e9e3a42c9eefcc6091afcaa7c17bc781"
+    },
+    {
+      "bytes": 8056,
+      "expected_bytes": 8056,
+      "expected_sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/TRAJECTORY_CONTRACT.md",
+      "sha256": "0886f1f992e7a6285e02ffd3c48650dca197d9ced3c1f8bd21a021711307447b"
+    },
+    {
+      "bytes": 53876,
+      "expected_bytes": 53876,
+      "expected_sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/compare_trajectories.py",
+      "sha256": "d159f451ca441b2073f6e752b0d646f71a0af26d888bf9abdeef822a5aa1fe76"
+    },
+    {
+      "bytes": 4968,
+      "expected_bytes": 4968,
+      "expected_sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-acceptance.json",
+      "sha256": "dbd34732c073507b6162a273fcf1ff6100cc3f723c24487ede079fba3f22d827"
+    },
+    {
+      "bytes": 2935,
+      "expected_bytes": 2935,
+      "expected_sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-execution.json",
+      "sha256": "a1557535b1beec08f1a80e22444e811bff78a4dba91a5ea7adbfe267f3fed13b"
+    },
+    {
+      "bytes": 133961,
+      "expected_bytes": 133961,
+      "expected_sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/input-preparation.json",
+      "sha256": "3f51705fbd934ce76d503c1c856566405ee3deb1760474b1c73ef6a6f481c61f"
+    },
+    {
+      "bytes": 2290,
+      "expected_bytes": 2290,
+      "expected_sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/checkpoints.jsonl",
+      "sha256": "c09ec65bb333d80622e80820ca3d6fe6f1b4a4e49e298681bd84df0eeb3128e2"
+    },
+    {
+      "bytes": 35887,
+      "expected_bytes": 35887,
+      "expected_sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/execution.json",
+      "sha256": "893190eacb324b0c4e2dd8c62da6da0e3c02de51084257a8e2cc8a5e53ef21f7"
+    },
+    {
+      "bytes": 29395,
+      "expected_bytes": 29395,
+      "expected_sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory160_512/result.json",
+      "sha256": "f2f7cae23b0770a97ffa32706fdedb666bbead7461d956e45e3a83e652027908"
+    },
+    {
+      "bytes": 34519,
+      "expected_bytes": 34519,
+      "expected_sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/execution.json",
+      "sha256": "4476d74a53abb317b5e21c909a4784e7d15946160aad9b19801cb7f57686f178"
+    },
+    {
+      "bytes": 23381,
+      "expected_bytes": 23381,
+      "expected_sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/input-byte-evidence.json",
+      "sha256": "3e7cbd0272ad23d872d784604ff2db165dbbbbe3688583526b08cac4e40a9f87"
+    },
+    {
+      "bytes": 29455,
+      "expected_bytes": 29455,
+      "expected_sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/result.json",
+      "sha256": "68dbe1228ffaf7870bccce7b74908779f72c62fda4192fcc186028ffc18d745c"
+    },
+    {
+      "bytes": 264217,
+      "expected_bytes": 264217,
+      "expected_sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical-runs/trajectory_comparison/vector-comparisons.json",
+      "sha256": "54b10d02c711086e838633b371eb601732f2bcd6a86ac02beeb99eee0cd650e1"
+    },
+    {
+      "bytes": 14407,
+      "expected_bytes": 14407,
+      "expected_sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/numerical_kernel.py",
+      "sha256": "1b29e919cf5faefe1e4a5193fee0f7e0fdd11901d8aed7b3e5ade752cd23f175"
+    },
+    {
+      "bytes": 23383,
+      "expected_bytes": 23383,
+      "expected_sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/run_trajectory.py",
+      "sha256": "1ca483526338a3fc843403fec9e163bc06ab93cbc1a9b7ca4ab1e1704ed3cf5d"
+    },
+    {
+      "bytes": 1720,
+      "expected_bytes": 1720,
+      "expected_sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-archive-acceptance.json",
+      "sha256": "4ed22a75d682107e11597057736227221276aa7c10379eb1963290016079013c"
+    },
+    {
+      "bytes": 65401,
+      "expected_bytes": 65401,
+      "expected_sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-data-archive/manifest.json",
+      "sha256": "3b6405f0b35983a0906dc4838e0d5d2b769ffbf07f7bb5ac1e528db7763e1f61"
+    },
+    {
+      "bytes": 7813,
+      "expected_bytes": 7813,
+      "expected_sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory-source-lock.json",
+      "sha256": "1db9488f94d01200377ac94cc57e17161091a87f7b0632ba03dc85b6924fa354"
+    },
+    {
+      "bytes": 27740,
+      "expected_bytes": 27740,
+      "expected_sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/trajectory_driver.py",
+      "sha256": "36d143eb65b267e890f37666ac0688963c0f0ed1d706f23b7923d7d652e173e7"
+    },
+    {
+      "bytes": 8480,
+      "expected_bytes": 8480,
+      "expected_sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/verifier-execution.json",
+      "sha256": "cffd0d17a4d7959cd06c7ace685ebcfd1951d16fe22b522c550f4ecf9d5c5a1f"
+    },
+    {
+      "bytes": 293865,
+      "expected_bytes": 293865,
+      "expected_sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1",
+      "match": true,
+      "path": "research/reverse/annular-source-observation/verify-input-output.json",
+      "sha256": "4ef16c30bb85b24f5ed6f6be973106764df26b33c3da0180ba4c531954fc32f1"
+    },
+    {
+      "bytes": 2630,
+      "expected_bytes": 2630,
+      "expected_sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/CONTRACT.md",
+      "sha256": "320a7da8e24af51b106d07a54fae7383e05351f2ccbce5571da4b4d520118ae6"
+    },
+    {
+      "bytes": 13569,
+      "expected_bytes": 13569,
+      "expected_sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN.md",
+      "sha256": "9c6a9e660f2c1179b2ccf9dd79364b06e1ccfa65912bc9150ee1846325a0d7fd"
+    },
+    {
+      "bytes": 6336,
+      "expected_bytes": 6336,
+      "expected_sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/DESIGN_REVIEW.md",
+      "sha256": "d9edb04b57fcb2ca73ac10391fbca8f1cc2a55937ba42ba521eb4a6bc9e4f81e"
+    },
+    {
+      "bytes": 7390,
+      "expected_bytes": 7390,
+      "expected_sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT.md",
+      "sha256": "52faced4e6f1630ff592f96ec487c73770f137cb13d3128ed1a5169ae5610dc0"
+    },
+    {
+      "bytes": 5987,
+      "expected_bytes": 5987,
+      "expected_sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/EXECUTION_CONTRACT_DRAFT.md",
+      "sha256": "b44b689db1066ced1632be7fd033ead81fa398b89f1194249190b0b00f0936f6"
+    },
+    {
+      "bytes": 6432,
+      "expected_bytes": 6432,
+      "expected_sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/FINAL_EXECUTION_REVIEW.md",
+      "sha256": "505bff88eb5a15a5ee8699dccf20a211864860cc7b8529f051bd7f32dea6a6eb"
+    },
+    {
+      "bytes": 5499,
+      "expected_bytes": 5499,
+      "expected_sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/FORMULA_SOURCE_REVIEW.md",
+      "sha256": "8e0de4c73c505821201b27d87d09654383970655bd47263626e3fd9e0adc6864"
+    },
+    {
+      "bytes": 6762,
+      "expected_bytes": 6762,
+      "expected_sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_AND_CONTRACT_REVIEW.md",
+      "sha256": "5e5016865a29f8ad68672a5e9837d6a65d0d303aa919981cdd1a1e82fc06d26e"
+    },
+    {
+      "bytes": 7240,
+      "expected_bytes": 7240,
+      "expected_sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/INPUT_MAP.md",
+      "sha256": "c098a6cd92976b269d1290223a86353d4798a108cabd857ecc836711425fe58a"
+    },
+    {
+      "bytes": 5406,
+      "expected_bytes": 5406,
+      "expected_sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/QUADRATURE_FORMULA_REVIEW.md",
+      "sha256": "0674aa1863cb36620501619cdfdce4a7afffc7e26b26f53100b478afb90fdcfc"
+    },
+    {
+      "bytes": 2863,
+      "expected_bytes": 2863,
+      "expected_sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_CHECK.md",
+      "sha256": "5a564d12f2b07a5a4534087034ea0556470ff247f8794b95c30ed040f68830a6"
+    },
+    {
+      "bytes": 3755,
+      "expected_bytes": 3755,
+      "expected_sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_FORMULA_REVIEW.md",
+      "sha256": "983ee5ddce59a01d9d90216873c9538b0d43dbb753a74413c9443865d98bc52d"
+    },
+    {
+      "bytes": 3612,
+      "expected_bytes": 3612,
+      "expected_sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SOURCE_PREPARATION.md",
+      "sha256": "81ab5eb34abdaa40568cd6c6b0ad4447660f9b5c58f81a0cd1b36b194090108c"
+    },
+    {
+      "bytes": 2968,
+      "expected_bytes": 2968,
+      "expected_sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_SUPERVISOR_REVIEW.md",
+      "sha256": "71ec766f2bb06ba098dceff44c3b0b1fc0cd92c55ff7250cabf99e747d91f494"
+    },
+    {
+      "bytes": 2667,
+      "expected_bytes": 2667,
+      "expected_sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/ROOT_WORKER_REVIEW.md",
+      "sha256": "16980c385776d65025d4ec519d027013194fdbc7168d49b04ce6eb179224f3da"
+    },
+    {
+      "bytes": 4355,
+      "expected_bytes": 4355,
+      "expected_sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/SUPERVISOR_SOURCE_NOTE.md",
+      "sha256": "9c6627929f4d2c43211f15919e77ac6436de985863c7f183e492a2593c328f30"
+    },
+    {
+      "bytes": 5915,
+      "expected_bytes": 5915,
+      "expected_sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_RESOURCE_REVIEW.md",
+      "sha256": "f3f054f0b26559e8f127e0a652bde4c94a6ae725a9409b7099c58c9cf501e782"
+    },
+    {
+      "bytes": 8797,
+      "expected_bytes": 8797,
+      "expected_sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SCIENCE_REVIEW.md",
+      "sha256": "4061080edcdd134a07b57f27954f68a756541c275eef903a782d573e6366a14f"
+    },
+    {
+      "bytes": 5371,
+      "expected_bytes": 5371,
+      "expected_sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/WORKER_SOURCE_NOTE.md",
+      "sha256": "7b0ea8a00a60087519285cac6062faf2242c6399a51225f82b48c32bee939f78"
+    },
+    {
+      "bytes": 45351,
+      "expected_bytes": 45351,
+      "expected_sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/bindings.json",
+      "sha256": "4e9755de7e6c1fdfac25d1e6f589e0acfb3374553d1f50d93bc02e3a865e9fab"
+    },
+    {
+      "bytes": 3201,
+      "expected_bytes": 3201,
+      "expected_sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/budget_formulas.py",
+      "sha256": "e16b4a3d5eb32bcb578ebd01731d38a83c7374eec90b500324811d07ea79d883"
+    },
+    {
+      "bytes": 16492,
+      "expected_bytes": 16492,
+      "expected_sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/input-bindings.json",
+      "sha256": "4285c18b4def69ac450cb0c7f10f44f640aa34ce4364241fdb3dabf2a413ccd6"
+    },
+    {
+      "bytes": 18872,
+      "expected_bytes": 18872,
+      "expected_sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/run_value.py",
+      "sha256": "7bd7d434aff19dd004503d400ab0146669d96dec950b3916001583e543b50d2c"
+    },
+    {
+      "bytes": 2436,
+      "expected_bytes": 2436,
+      "expected_sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/source-admission.json",
+      "sha256": "02cec3bf94d4e8f571650036f76f4ec8cb74dbf5e66e77a837598eda3367e9f2"
+    },
+    {
+      "bytes": 28515,
+      "expected_bytes": 28515,
+      "expected_sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0",
+      "match": true,
+      "path": "research/reverse/endpoint-budget-value-preflight/value_worker.py",
+      "sha256": "ea70c183436f6afa85a9b50bfe75d17f1807acd181fbd0a49c564a3487568af0"
+    }
+  ],
+  "sources_unchanged": true,
+  "started_utc": "2026-09-09T02:02:29.742887+00:00",
+  "status": "PASS",
+  "supervisor_runtime": {
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "pid": 97786,
+    "platform": "darwin",
+    "version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "timed_out": false,
+  "worker_completion_counts": {
+    "fft_batched_api_calls": 54,
+    "fft_scalar_3d_transforms": 162,
+    "processed_checkpoints": 17,
+    "rhs160_calls": 17,
+    "rhs216_calls": 1
+  },
+  "worker_completion_counts_match": true,
+  "worker_environment": {
+    "executable": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "numpy_file": "/Users/kasifa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/__init__.py",
+    "numpy_version": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "uname": [
+      "Darwin",
+      "Wool.local",
+      "25.6.0",
+      "Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050",
+      "arm64"
+    ]
+  },
+  "worker_identity_and_source_maps_match": true,
+  "worker_output_status": "COMPLETED_NUMERICAL_VALUE_ONLY"
+}
