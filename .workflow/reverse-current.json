@@ -1,19 +1,19 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_LOCALIZATION_TAIL_PREFLIGHT",
+  "status": "RESEARCH_ACTIVE_LOCALIZATION_INPUT_SELECTION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_DRIVER_DOMINANCE_20260907.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Read the exact heat exterior positivity/limit source and test only the two fixed opposite face representatives under the new contract; no numerical expansion.",
-  "resume_action": "Continue from reverse-owned localization-tail-preflight/CONTRACT.md; release32 is closed and sent once.",
+  "next_action": "Choose one complete 3D periodic tail/pressure input with full residual and error contract; do not repeat the closed original-trajectory restart or direct face-identification proposals.",
+  "resume_action": "Continue scientific input selection from current reverse checkpoint and accepted localization-tail record. No old workers or handoffs may be restarted.",
   "forward_pause_applies": false,
   "resume_authority": "Latest direct user restore and continuing reverse-research authorization; 2026-09-09 priority alignment does not reset completed work.",
   "governance_commit": "d16d669123c2965694e4203a7618dc569da51438",
   "release_id": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
-  "scientific_status": "CONDITIONAL_SAME_LOCALIZED_TRAJECTORY_UNFORCED_TAIL_OBSTRUCTION_FROZEN; NEW_EXACT_FACE_TEST_UNDER_REVIEW; UNFORCED_SINGULARITY_OPEN",
-  "accepted": "Release32 conditional analytic-tail obstruction and source applicability accepted/frozen/sent once; current face test is not accepted yet.",
+  "scientific_status": "CONDITIONAL_UNFORCED_TAIL_OBSTRUCTION_FROZEN_SENT_ONCE; EXACT_DIRECT_FACE_IDENTIFICATION_OBSTRUCTION_ACCEPTED_LOCAL_RECORD; UNFORCED_SINGULARITY_OPEN",
+  "accepted": "Release32 closed; exact heat-exterior opposite-face obstruction accepted locally, not formal release33.",
   "required_files": [
     "AGENTS.md",
     "research/reverse/CHECKPOINT.md",
@@ -479,11 +479,19 @@
     "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
     "research/reverse/forced-tail-audit/sources/manifest.json",
     "research/reverse/forced-tail-audit/sources/paper-text.txt",
-    "research/reverse/localization-tail-preflight/CONTRACT.md"
+    "research/reverse/localization-tail-preflight/CONTRACT.md",
+    "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md",
+    "research/reverse/localization-tail-preflight/acceptance.json",
+    "research/reverse/localization-tail-preflight/INDEPENDENT_CHECK.md",
+    "research/reverse/localization-tail-preflight/ROOT_ACCEPTANCE.md",
+    "research/reverse/localization-tail-preflight/REVIEW.md",
+    "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png",
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png"
   ],
   "required_file_sha256": {
-    "AGENTS.md": "9aa96d122fc0ad0e0229a0305d56b1410b714c9551c60d37c592b0f9bd64c0e2",
-    "research/reverse/CHECKPOINT.md": "13a2b593597e671313297c262fbd660c3e6fbe3485b10f63fc40569909d2955c",
+    "AGENTS.md": "323feeed9d944eff36eba71dc3797f9a3d16e41ef441684df54bc0c28501c537",
+    "research/reverse/CHECKPOINT.md": "c9679e1c2b3a4c9bd05048530c57e37d20beec53ef9ceda7ce0d0bb7cfbedd41",
     "research/reverse/HANDOFF_LOG.json": "7da8a2150be31f5331641ddfeb280b918397c38fe92f2da309548fa697f2e9f3",
     "research/reverse/annular-source-observation/.gitignore": "00035ee746b0dcacf769d4bec51654ae81d7b26d79c141070123226de8e5ecc8",
     "research/reverse/annular-source-observation/CONTRACT.md": "4ae019c3aac7d23a2392273a8cfb52ba08cf5131c35f8bc9e56918dae41c68d8",
@@ -946,7 +954,15 @@
     "research/reverse/forced-tail-audit/sources/navier-stokes.pdf": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
     "research/reverse/forced-tail-audit/sources/manifest.json": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
     "research/reverse/forced-tail-audit/sources/paper-text.txt": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26",
-    "research/reverse/localization-tail-preflight/CONTRACT.md": "71f5fef23e6e29ab6cc8362d6372f81f646a611174ac5a1f4e9400276cb567f1"
+    "research/reverse/localization-tail-preflight/CONTRACT.md": "71f5fef23e6e29ab6cc8362d6372f81f646a611174ac5a1f4e9400276cb567f1",
+    "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md": "1740800fcd4a5260757d9c3addf8f5940cf59a9a5e490516cac0ba7835ddaed7",
+    "research/reverse/localization-tail-preflight/acceptance.json": "84fcf90d7d6be58f1225fe454c17c09781e9095d698f6efaf16ccb65da819f3b",
+    "research/reverse/localization-tail-preflight/INDEPENDENT_CHECK.md": "73abc0054c21f13e02d350e7bb2724befcdd13b85fa2fa256cc666621101628e",
+    "research/reverse/localization-tail-preflight/ROOT_ACCEPTANCE.md": "eb3b14a5c8356992ffc63d8cc772c83e246b9a330f449f1bdd58661305cd0f84",
+    "research/reverse/localization-tail-preflight/REVIEW.md": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
+    "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png": "343088136f8ab436c1c4e2e1582c0a26e13a0963737e76293108c61b86d2c7e8",
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
+    "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc"
   },
   "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-ForcedTailLocalizationObstruction",
@@ -956,16 +972,15 @@
   "protocol_hashes": {
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "61bd47ea95e13dfb6e1e74bf56132a89ca6e5362d2df29da057839fc5cbbd47f",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_DUAL_TRACK_STRATEGY_2026-09-07.md": "8b1182ec67f1bd4f14082f069a91fef5a44bcad5f661e49517e4370cadcd9289",
-    "AGENTS.md": "9aa96d122fc0ad0e0229a0305d56b1410b714c9551c60d37c592b0f9bd64c0e2",
+    "AGENTS.md": "323feeed9d944eff36eba71dc3797f9a3d16e41ef441684df54bc0c28501c537",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_STRATEGY_AFTER_OPENAI_2026-09-09.md": "f54307d9a855e3a19116745b409c3510846670e0416172afd7c2f3f88acc5d58"
   },
   "freeze_commit": "a8fef322ebee7ffc84a363be9bf4f62dcf2b8324",
   "handoff_log": "research/reverse/HANDOFF_LOG.json",
-  "current_topic": "One exact periodic face compatibility test for the uncut heat exterior",
+  "current_topic": "Complete three-dimensional periodic exterior and pressure input selection",
   "current_topic_directory": "research/reverse/localization-tail-preflight",
   "pending": [
-    "Exact old heat exterior source qualification and opposite face test",
-    "Independent review before accepting the small working record"
+    "A concrete complete-domain 3D tail/pressure input and a useful bounded contract; no candidate accepted"
   ],
   "paused_at": "2026-09-07T20:02:53+08:00",
   "pause_authority": "Latest direct user instruction: 先暂停一下",
@@ -974,7 +989,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T03:16:30.091951+00:00",
+  "updated_at": "2026-09-09T03:26:48.038715+00:00",
   "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
   "previous_goal_turn_classification": "PROGRESS: one fixed scientific run, accepted result metadata and preserved checkpoint; current turn lossless archive/freeze/once-only handoff",
   "completed_unreleased_audits": [
@@ -2616,7 +2631,7 @@
     "private_handoff": "SENT_ONCE_TOOL_CONFIRMED"
   },
   "localization_tail_preflight_evidence": {
-    "status": "ROOT_EXACT_FACE_TEST_WRITTEN_INDEPENDENT_REVIEW_RUNNING",
+    "status": "ACCEPTED_EXACT_LOCAL_WORKING_RECORD_NOT_RELEASE33",
     "contract": "research/reverse/localization-tail-preflight/CONTRACT.md",
     "scientific_executions": 0,
     "excluded_from_release32": true,
@@ -2631,6 +2646,12 @@
     ],
     "new_root_visual_pages": [
       138
-    ]
+    ],
+    "acceptance": "research/reverse/localization-tail-preflight/acceptance.json",
+    "acceptance_sha256": "84fcf90d7d6be58f1225fe454c17c09781e9095d698f6efaf16ccb65da819f3b",
+    "independent_sha256": "73abc0054c21f13e02d350e7bb2724befcdd13b85fa2fa256cc666621101628e",
+    "review_sha256": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
+    "formal_release": false,
+    "private_handoff": false
   }
 }

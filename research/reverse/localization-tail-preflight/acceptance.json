@@ -1,0 +1,60 @@
+{
+  "schema": "ReverseNS-local-working-record-acceptance-v1",
+  "status": "ACCEPTED_EXACT_FACE_COMPATIBILITY_OBSTRUCTION",
+  "created_utc": "2026-09-09T03:26:48.038715+00:00",
+  "files": [
+    {
+      "path": "research/reverse/localization-tail-preflight/CONTRACT.md",
+      "sha256": "71f5fef23e6e29ab6cc8362d6372f81f646a611174ac5a1f4e9400276cb567f1",
+      "bytes": 1744
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/INDEPENDENT_CHECK.md",
+      "sha256": "73abc0054c21f13e02d350e7bb2724befcdd13b85fa2fa256cc666621101628e",
+      "bytes": 4517
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/REVIEW.md",
+      "sha256": "a3dce6879b12b861d764d3bc555e2d27dd5a2ca24852656c01bbe1a4998d9891",
+      "bytes": 3068
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/ROOT_ACCEPTANCE.md",
+      "sha256": "eb3b14a5c8356992ffc63d8cc772c83e246b9a330f449f1bdd58661305cd0f84",
+      "bytes": 1447
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/ROOT_FACE_TEST.md",
+      "sha256": "1740800fcd4a5260757d9c3addf8f5940cf59a9a5e490516cac0ba7835ddaed7",
+      "bytes": 2506
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
+      "sha256": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
+      "bytes": 236048
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png",
+      "sha256": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc",
+      "bytes": 194700
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png",
+      "sha256": "343088136f8ab436c1c4e2e1582c0a26e13a0963737e76293108c61b86d2c7e8",
+      "bytes": 212473
+    }
+  ],
+  "direct_source_binding": {
+    "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+    "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e",
+    "bytes": 571
+  },
+  "source_freeze": "a8fef322ebee7ffc84a363be9bf4f62dcf2b8324",
+  "scientific_executions": 0,
+  "formal_release": false,
+  "private_handoff": false,
+  "no_NS_construction_claim": true,
+  "root_actual_independent_full_read_lines": 34,
+  "root_actual_review_full_read_lines": 23,
+  "next": "Select one complete 3D tail/pressure input contract; do not repeat closed direct-restart or direct-face-identification tests."
+}
