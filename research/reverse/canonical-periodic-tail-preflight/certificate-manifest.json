@@ -1,0 +1,133 @@
+{
+  "schema": "ReverseNS-analytic-evidence-v1",
+  "release_id": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
+  "scientific_executions": 0,
+  "numerical_arrays_decoded": 0,
+  "machine_mathematical_certificate": "NOT_APPLICABLE_MANUAL_ANALYTIC_PROOF",
+  "external_full_proof_verified": false,
+  "formal_machine_proof": false,
+  "items": {
+    "contract": [
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/CONTRACT.md",
+        "sha256": "3005cf028be47e53a574ffc27d6862da1543f4522f23cb517dd84720df722634",
+        "bytes": 4688
+      },
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/HISTORY.md",
+        "sha256": "24e548ed2efc3e284407db74916b91ab5d3fe2439b8d9e47c771358bbf55e32c",
+        "bytes": 1484
+      }
+    ],
+    "proof": [
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/PROOF.md",
+        "sha256": "545fee812f2b7ef96c51029e9234b9869815c4a8312236e5726b54a482042453",
+        "bytes": 8872
+      },
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/INDEPENDENT.md",
+        "sha256": "559a1aeac55066f001beaa25995ce71cc0ed5d2f1922189fa1d0284541ca5375",
+        "bytes": 11412
+      }
+    ],
+    "review": [
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/PROOF_REVIEW.md",
+        "sha256": "b7f1c7ae22012e6d0cba0a82a071b15bb40a6711ebe1421c22b5c871ccfb8c3b",
+        "bytes": 7044
+      },
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/ROOT_COMPARISON.md",
+        "sha256": "c4e2ff051a0569acac74bb412aad931ed1445bda092b0b4d8790a7fc80824472",
+        "bytes": 3319
+      },
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md",
+        "sha256": "82bc9d0785d3944a834b89b03af62bcafdad9b1e1865d650a153108e087c4b28",
+        "bytes": 5438
+      }
+    ],
+    "source": [
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/SOURCE_QUALIFICATION.md",
+        "sha256": "c7c11fd2bef0ad8a16c39ce98e21d0af729e45dae8d9a440640d62b0b96595c0",
+        "bytes": 8392
+      },
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/SOURCES_AND_HISTORY.md",
+        "sha256": "7be4d7c8a22614d15bdff5e6d05362d9593b14007fc291dfb9ed9d6777a8afe8",
+        "bytes": 3472
+      }
+    ],
+    "scope": [
+      {
+        "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE.md",
+        "sha256": "62631a701375209e6a506db8527d6e6af2c9b1a32b479529a09adaa02adec89e",
+        "bytes": 3508
+      }
+    ]
+  },
+  "historical_accepted_components": [
+    {
+      "path": "research/reverse/localization-tail-preflight/acceptance.json",
+      "sha256": "84fcf90d7d6be58f1225fe454c17c09781e9095d698f6efaf16ccb65da819f3b",
+      "bytes": 2459
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/pressure-jet-acceptance.json",
+      "sha256": "a8c6c32cc158f51639dd43571c4378924232d50dfe1b1c96f1b71879c30f9bfb",
+      "bytes": 2633
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/low-jet-acceptance.json",
+      "sha256": "f4c9087c4a21e74e369eb83773d9c52d8eecf2162f381cfe8c38f2a65313ce9a",
+      "bytes": 3847
+    }
+  ],
+  "reading_evidence": [
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-033.png",
+      "sha256": "f54f3937ea11ca9fd87c2c576e22515eb9c354328f1b5e360fe2b9cbd64ae5fd",
+      "bytes": 236048
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/independent/pdf-page-138.png",
+      "sha256": "9484a38c0284c547e5e6b3cb5983522c91c079b630b0813376347717e0d96dcc",
+      "bytes": 194700
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/low-jet-p037.png",
+      "sha256": "c916e95f5512e9db4bd1fd78507e12e731e7acfe31442dea50018abe9b014bd3",
+      "bytes": 224227
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/low-jet-p144.png",
+      "sha256": "84ee58a1bc81c89106da32ca1df28270096b7e5c5b5a69bd6fc1cc49bb7eb23c",
+      "bytes": 230880
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/pdf-page-138.png",
+      "sha256": "343088136f8ab436c1c4e2e1582c0a26e13a0963737e76293108c61b86d2c7e8",
+      "bytes": 212473
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-074.png",
+      "sha256": "e47f8b217840dec060a2e136ca16fcf461b6122fb684eb6af8e408dd3592439d",
+      "bytes": 234894
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-086.png",
+      "sha256": "8ea87b8c5a7f000dd188edc3c3536d6092a43e8b7c8b08f29d5759fd80dbc5a4",
+      "bytes": 230221
+    },
+    {
+      "path": "research/reverse/localization-tail-preflight/reading-evidence/wave-audit/pdf-page-115.png",
+      "sha256": "12da1ee05a6ede13faba81c1c7ceb133f8e20bd55da36cfc7192e4df1aefc1ea",
+      "bytes": 245212
+    }
+  ],
+  "reading_evidence_scope": "8 previously rendered original-paper PNG objects covering7 distinct page numbers; no new rendering in canonical test; not scientific figures",
+  "figures": [],
+  "formation": "Root informal algebra and later pre-proof contract addition disclosed; independent derivation, source audit, nonblind AI non-author proof/scope reviews; no human peer review"
+}

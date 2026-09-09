@@ -1,0 +1,49 @@
+{
+  "schema": "ReverseNS-bounded-analytic-acceptance-v1",
+  "status": "ACCEPTED_FOR_PRIVATE_RESEARCH_FREEZE",
+  "release_id": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
+  "created_utc": "2026-09-09T04:38:32.118719+00:00",
+  "scope": {
+    "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE.md",
+    "sha256": "62631a701375209e6a506db8527d6e6af2c9b1a32b479529a09adaa02adec89e",
+    "bytes": 3508
+  },
+  "root_comparison": {
+    "path": "research/reverse/canonical-periodic-tail-preflight/ROOT_COMPARISON.md",
+    "sha256": "c4e2ff051a0569acac74bb412aad931ed1445bda092b0b4d8790a7fc80824472",
+    "bytes": 3319
+  },
+  "proof_review": {
+    "path": "research/reverse/canonical-periodic-tail-preflight/PROOF_REVIEW.md",
+    "sha256": "b7f1c7ae22012e6d0cba0a82a071b15bb40a6711ebe1421c22b5c871ccfb8c3b",
+    "bytes": 7044
+  },
+  "final_scope_review": {
+    "path": "research/reverse/canonical-periodic-tail-preflight/FINAL_SCOPE_REVIEW.md",
+    "sha256": "82bc9d0785d3944a834b89b03af62bcafdad9b1e1865d650a153108e087c4b28",
+    "bytes": 5438
+  },
+  "certificate": {
+    "path": "research/reverse/canonical-periodic-tail-preflight/certificate-manifest.json",
+    "sha256": "0f5487b201dda4fbbc553f862c7208c404ec260de456f21e40f2c04beff237e6",
+    "bytes": 5414
+  },
+  "root_full_reads": {
+    "independent_lines": 127,
+    "source_qualification_lines": 56,
+    "proof_review_lines": 29,
+    "final_scope_review_lines": 28
+  },
+  "accepted": "Conditional full-domain canonical completion, endpoint qualification, complete residual and weak bound; NO-CANDIDATE for an entire unforced terminal tail of that fixed completion only",
+  "actual_H_or_force_moments_evaluated": false,
+  "residual_smallness_certified": false,
+  "unforced_candidate_accepted": false,
+  "same_original_a_star_unchanged": true,
+  "external_status": "AUTHOR_CLAIM_STATEMENT_CHECKED_FULL_VERIFICATION_PENDING",
+  "local_Clay_solution": false,
+  "scientific_executions": 0,
+  "arrays_opened": 0,
+  "new_reader_pdf": false,
+  "historical_components_checked": "All 26 payload entries in three older acceptance records matched current SHA and byte length; their three acceptance JSON are preserved as historical records",
+  "scope_review_scope": "Nonblind AI non-author scope audit; not a new blind mathematical proof or Git-byte audit"
+}
