@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-09-20",
+  "privacy": "PRIVATE_CORE",
+  "kind": "INTERNAL_SOURCE_AND_FEEDBACK_AUDIT_NOT_RELEASE_MANIFEST",
+  "forward_input_commit": "426d04f8efd0b0381d693682d1e7d48685571e86",
+  "strategy": "/Users/kasifa/Documents/Math/NAVIER_STOKES_AB_STRATEGY_2026-09-19.md",
+  "papers": [
+    {
+      "id": "C1",
+      "arxiv_version": "2609.20803v1",
+      "title": "Regularity of asymptotically axisymmetric solutions to the 3D Navier-Stokes equations with analytic forcing",
+      "authors": ["Peter Constantin", "Mihaela Ignatova", "Vlad Vicol"],
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/pdf/2609.20803v1",
+      "html": "https://arxiv.org/html/2609.20803v1",
+      "file": "sources/2609.20803v1.pdf",
+      "sha256": "292c343b4779ecf933966ced892410df6120e21b495374c5217236bb657e7fef",
+      "pages": 34,
+      "bytes": 588724,
+      "root_read": "All 34 pages; main proof sections 2-5 and Appendix A actually read. Visual checks pages 10, 16 and 23.",
+      "limit": "Reading and scoped computation checks are not independent reproof of all cited results or certification of the external OpenAI construction. No Lean or comparator run."
+    },
+    {
+      "id": "C2",
+      "arxiv_version": "2609.20762v1",
+      "title": "Regularity for axisymmetric Navier-Stokes with an Euler length",
+      "authors": ["Peter Constantin", "Mihaela Ignatova", "Vlad Vicol"],
+      "date": "2026-09-17",
+      "url": "https://arxiv.org/pdf/2609.20762v1",
+      "html": "https://arxiv.org/html/2609.20762v1",
+      "file": "sources/2609.20762v1.pdf",
+      "sha256": "6ed01f71250d0b7f867df13cff0af5ba1c08d303ec0ecad36fafb4a9e9026290",
+      "pages": 24,
+      "bytes": 483887,
+      "root_read": "All 24 pages; main proof sections 2-5 and Euler-profile section 6 actually read. Visual check page 2.",
+      "limit": "CKN, referenced pressure decay, local Serrin and other external dependencies were not independently reproved."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "file": "research/clay_b_pressure_free_shape_criterion_20260908.md",
+      "repository": "/Users/kasifa/Documents/Math/navier-stokes-r074m",
+      "sha256": "a470dbc768ea472660695835e14096653bded7e3fb13ae388b9e8f7c1337d520",
+      "use": "Existing prescribed-centre common-M PF target; does not re-audit all upstream PF dependencies."
+    }
+  ],
+  "reverse_definition_snapshot": {
+    "repository": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+    "observed_commit": "5e62aa79a9afff3af5a54ad2ec37af1b5a123c35",
+    "dirty_status_for_listed_paths": "clean at snapshot",
+    "scope": "Read-only definition and quantifier alignment. No acceptance of unreviewed reverse residual theorem, no execution, no reverse checkpoint or index edits. The owner is active; this is a pinned snapshot, not a current completion claim.",
+    "files": [
+      {
+        "file": "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+        "sha256": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491",
+        "use": "Fixed V_h, rho=1-t, full periodic heat and Leray operators, residual identity, kinematic versus dynamical qualification."
+      },
+      {
+        "file": "research/reverse/heat-residual-transfer-preflight/CONTRACT.md",
+        "sha256": "17e94e397c9832de1c3e9fe5c49038403cffef564da01dd92e88365dd98c427f",
+        "use": "Precise object and stopping scope only; no theorem acceptance by this note."
+      },
+      {
+        "file": "research/reverse/heat-residual-transfer-preflight/ROOT_INPUT_CHECK.md",
+        "sha256": "bc0d50ba62c9a3c6f7c45259a7f8b9e33967b758249c3eb4d19c3259d0d352a0",
+        "use": "Insufficient upper estimates are not nonzero lower estimates for actual signed residual."
+      },
+      {
+        "file": "research/reverse/cyclic-six-carrier/CONTRACT.md",
+        "sha256": "a441be9b7adf0ee900eeaa786119e7c6f8fecb4c3a01bc4678f1c23fddad1a9b",
+        "use": "One fixed datum and fixed finite-window contract, not infinite iteration."
+      },
+      {
+        "file": "research/reverse/cyclic-six-carrier/OUTCOME.md",
+        "sha256": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630",
+        "use": "Existing finite two-layer three-direction conclusion and its explicit non-blowup boundary; certificates not rerun here."
+      }
+    ]
+  },
+  "scientific_computation": false,
+  "simulation": false,
+  "dgx": false,
+  "formal_kernel_recheck": false,
+  "new_unconditional_critical_estimate": false,
+  "novelty_established": false,
+  "release_created": false,
+  "publication_handoff": false
+}
