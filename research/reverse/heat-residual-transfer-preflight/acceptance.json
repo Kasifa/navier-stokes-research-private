@@ -1,0 +1,52 @@
+{
+  "schema": "ReverseNS-local-working-record-acceptance-v1",
+  "status": "ACCEPTED_CONDITIONAL_TRANSFER_INTERFACE_NONLINEAR_INPUT_NOT_QUALIFIED",
+  "created_utc": "2026-09-19T16:50:17.636971+00:00",
+  "core_files": [
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/CONTRACT.md",
+      "sha256": "17e94e397c9832de1c3e9fe5c49038403cffef564da01dd92e88365dd98c427f",
+      "bytes": 2580,
+      "lines": 17
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/ROOT_INPUT_CHECK.md",
+      "sha256": "bc0d50ba62c9a3c6f7c45259a7f8b9e33967b758249c3eb4d19c3259d0d352a0",
+      "bytes": 4559,
+      "lines": 51
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/INDEPENDENT.md",
+      "sha256": "d0da8a4c48ff1881121b310244b04f2470dabeadcc00e90f6cb1f7072db4ff4b",
+      "bytes": 8209,
+      "lines": 116
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/REVIEW.md",
+      "sha256": "2684b5d9a951b98545f02aa2e4eaeb43bb11867179b7a7a2470de645cbfe8398",
+      "bytes": 5716,
+      "lines": 39
+    }
+  ],
+  "accepted": [
+    "Complete periodic Pdiv heat covariance transfer with all BE/EB/EE and heat-after products",
+    "Linear viscosity error and conditionally smooth original source are small at tau^(A+1) scale",
+    "Current velocity margin gives insufficient nonlinear upper bounds; no conclusion on the actual signed remainder"
+  ],
+  "actual_residual_nonzero_proven": false,
+  "actual_residual_small_proven": false,
+  "unforced_candidate_accepted": false,
+  "source_assumptions_remain_conditional": true,
+  "same_original_a_star_unchanged": true,
+  "root_full_read_review_lines": 39,
+  "root_full_read_independent_lines": 116,
+  "formation": "September9 three stopped drafts preserved byte-for-byte; interrupted non-author review completed September20 after explicit resume. Root had shared precontract algebra and read independent status; not mutually blind.",
+  "scientific_executions": 0,
+  "arrays_opened": 0,
+  "new_figures": 0,
+  "formal_release": false,
+  "private_handoff": false,
+  "excluded_from_release34": true,
+  "next_priority": "CIV v1 applicability screen before any new signed-residual contract",
+  "mathematical_machine_certificate": false
+}
