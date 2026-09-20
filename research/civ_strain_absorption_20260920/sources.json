@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "classification": "PRIVATE_CORE_INTERNAL_CHECKPOINT",
+  "input_source_commit": "e268a9e06f668864c450a84b6864c03b73812a4c",
+  "scope": "Two bounded candidate checks; direct derivations, no new unconditional regularity theorem, no novelty certification, no independent research release.",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "b78f97562a576a84fafb1aaf4d22003465304f4d180d51ef9b539395a074053b",
+    "lines": 210,
+    "bytes": 11250
+  },
+  "local_sources": [
+    {
+      "id": "CF",
+      "path": "research/civ_feedback_20260920/research-note.md",
+      "sha256": "016ded9fe0bb464ab5ee92bfb087f0f43b779c2a87d280932879f2c10f03f55f",
+      "read_scope": "Root read all 239 lines; uses CF.2 and CF.14-15 as accepted inputs. Does not reopen the preceding source audit or retitle it as new research."
+    },
+    {
+      "id": "OLD_SPHERICAL",
+      "path": "research/clay_b_spherical_moment_dynamics_20260908.md",
+      "sha256": "3d87b1e0c4f90b9e19966a8d07a63154e499d4932a326f0a1b2c935a7d610857",
+      "read_scope": "Root lines 225-282 for bounded local deduplication only."
+    },
+    {
+      "id": "OLD_DIRECTION",
+      "path": "research/clay_b_pressure_geometry_20260906.md",
+      "sha256": "a608bdf61adcdf3b080e8be3efed495dd2d1b5c289551a7774bfaf5ea3732db5",
+      "read_scope": "Root lines 40-85; velocity-direction angular dissipation is not cylindrical Fourier angular dissipation."
+    },
+    {
+      "id": "OLD_WEIGHT",
+      "path": "research/clay_b_invariant_density_entropy_20260908.md",
+      "sha256": "b45c12e98f3712e5657c928fe7925ed5a039763f8f1df01674e17b24e5eda58b",
+      "read_scope": "Root lines 125-177; neighboring scalar-weight pressure and degeneracy issue, not the present D(t) identity."
+    }
+  ],
+  "web_sources": [
+    {
+      "id": "LZ",
+      "authors": "Yanlin Liu; Ping Zhang",
+      "title": "On the global stability of large Fourier mode for 3-D Navier-Stokes equations",
+      "url": "https://arxiv.org/html/2305.05272v1",
+      "version": "v1",
+      "accessed": "2026-09-20",
+      "read_scope": "Root and dedup agent checked main theorem hypotheses, Theorems 1.1-1.2, Remarks 1.1-1.3 and Theorem 2.1; not the full proof.",
+      "used_for": "Known high-angular-mode mechanism and restricted initial-data scope only.",
+      "local_full_text_archived": false,
+      "independent_full_proof_verification": false
+    },
+    {
+      "id": "LLZ",
+      "authors": "Ning Liu; Yanlin Liu; Ping Zhang",
+      "title": "Global stability of large Fourier mode for 3-D anisotropic Navier-Stokes equations in cylindrical domain",
+      "url": "https://arxiv.org/html/2406.05329v1",
+      "version": "v1",
+      "accessed": "2026-09-20",
+      "read_scope": "Root checked equations 1.2-1.11, Theorem 1.1 hypotheses and beginning of conclusion. Dedup agent additionally checked relevant weighted modal estimates and domain qualifications. No claim of full proof verification.",
+      "used_for": "Known special high-mode family and distinction between anisotropic viscosity and a time-degenerate energy metric.",
+      "local_full_text_archived": false,
+      "independent_full_proof_verification": false
+    }
+  ],
+  "limitations": [
+    "Fixed local rotational ball, not a new torus rotational symmetry.",
+    "CIV mean bounds are conditional structural inputs, not established for arbitrary unforced solutions.",
+    "No terminal regularity or common-M prescribed-centre PF scales obtained.",
+    "No DGX, simulations, new PDF, publisher handoff, public release, or reverse-index change."
+  ],
+  "novelty_established": false,
+  "scientific_computation": false
+}
