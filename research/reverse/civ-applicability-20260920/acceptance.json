@@ -1,0 +1,68 @@
+{
+  "status": "ACCEPTED_CONDITIONAL_SCREEN_NOT_NS_CANDIDATE",
+  "accepted_utc": "2026-09-20T01:20:42.287898+00:00",
+  "root_full_reads": {
+    "PAPER_20762_AUDIT.md": 116,
+    "PAPER_20803_AUDIT.md": 89,
+    "STRUCTURAL_REVIEW.md": 42,
+    "FOUR_OBJECT_SCREEN.md": 59,
+    "FINAL_REVIEW.md": 41
+  },
+  "accepted": [
+    "CIV specified proof/hypothesis source audits within listed standard dependencies",
+    "CS1-8 exact fixed-heat core failure and actual Hessian-product lower bound",
+    "four-object conditional matrix including local-pressure and original-a-star boundaries"
+  ],
+  "not_proven": [
+    "Gh zero or nonzero",
+    "unforced tail exclusion for V_h",
+    "strong reconstruction",
+    "general B or A",
+    "full external166page or Lean verification"
+  ],
+  "scientific_executions": 0,
+  "new_scientific_figures": 0,
+  "source_reading_images": 7,
+  "files": [
+    {
+      "path": "research/reverse/civ-applicability-20260920/CONTRACT.md",
+      "sha256": "6687e6a64e749ab85f89ca12b6fdc2f30f83f9bde4f4833ecfe7631a62f11b2b",
+      "bytes": 2797
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FIXED_HEAT_STRUCTURAL_TEST.md",
+      "sha256": "85b46bba996909be83074fb7b75f0c3f516c57838504d2d9b7078d42390ee591",
+      "bytes": 6328
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/STRUCTURAL_REVIEW.md",
+      "sha256": "3927698ec2cd0db3935a2de823885f2d6b52ec2278ccbc3e5f621691e7b79116",
+      "bytes": 6340
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/PAPER_20762_AUDIT.md",
+      "sha256": "0d611a64df31c4dcb30e299d69622a88c1323a217b9f775abc64a2891dedc0b3",
+      "bytes": 19310
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/PAPER_20803_AUDIT.md",
+      "sha256": "502e5555fbc9ce8a9fb02df1dc2e70fbce88aa12062c29369aa1044a1346743e",
+      "bytes": 16083
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/SOURCE_ACQUISITION_CORRECTION.md",
+      "sha256": "d1efe6a7e35a52263e7875beb10cefc82d587b259529bf8c55c78adafec0a3b2",
+      "bytes": 2112
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FOUR_OBJECT_SCREEN.md",
+      "sha256": "62260ea715da0092a928597f670cf09299bf7760bf81c998bb5d17c2326323bf",
+      "bytes": 7906
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FINAL_REVIEW.md",
+      "sha256": "80daa21c3edcba7f6348accebf41f1deeb8a85584af341a56c91d8f711b7b05c",
+      "bytes": 7307
+    }
+  ]
+}

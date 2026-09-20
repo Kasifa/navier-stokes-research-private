@@ -1,0 +1,1195 @@
+=== PDF PAGE 1 ===
+  Regularity for axisymmetric Navier-Stokes with an Euler length
+
+                                  Peter Constantin, Mihaela Ignatova, and Vlad Vicol
+
+
+           Abstract.We prove local regularity for axisymmetric suitable weak solutions of the 3D Navier-
+           Stokes equations, which are smooth before the terminal timet= 0, and satisfy Type II pointwise
+           boundsatavanishinglengthscaleℓ(t). Wesayℓ(t)isanEuler lengthifitisnon-increasing,satisfies
+           a doubling condition, and ifℓ(t)→0 and (−t)/ℓ(t)                                   2 →0 ast→0          −.  This includes power laws
+           ℓ(t) = (−t)           γ with 0< γ <1/2, and logarithmic enlargements of the parabolic length.  Our main
+           result shows that local bounds of the type|u(·,t)|≤Cℓ(t)/(−t) and|∇                                              2u(·,t)|≤C/((−t)ℓ(t)) for
+           allt∈(−1,0) imply regularity. The proof adapts the circulation and potential-vorticity argument
+           of our earlier paper [4] to ancient limits obtained from the rescaled vorticity system by zooming in.
+           We show that the second derivative a priori assumption may be replaced by a H¨older bound on the
+           azimuthal vorticity and a corresponding bound on its potential vorticity.
+
+
+
+                                                            1. Introduction
+     Whether an axisymmetric finite energy solution of the unforced 3D Navier-Stokes equations,
+arising from smooth and decaying initial data, can develop a finite time singularity remains an
+open problem.
+     In this paper, we consider the 3D Navier-Stokes equations without external forcing
+                                                  ∂tu+(u·∇)u−∆u+∇π= 0,                                          (1.1a)
+                                                                                 divu= 0,                                          (1.1b)
+whereu:Q→R                        3 is the velocity,π:Q→Ris the pressure, andQ=B(1)×(−1,0) is an open unit
+parabolic cylinder.1  Throughout the paper we take (u,π) to be a suitable weak solution of (1.1)
+in the sense of Caffarelli, Kohn, and Nirenberg [1], withπ∈L                  3/2  (Q), which is smooth on compact
+subsets ofQ. We assume no regularity at timet= 0. Moreover, we assume throughout the paper
+that the solution (u,π) of (1.1) is axisymmetric about thez-axis. Withx= (x                           ′,z),r=|x         ′|, and
+the usual cylindrical frame (e r,eθ,ez), we set
+                                               u=u     rer +u   θeθ +u   zez =b+u        θeθ,
+whereu           r,uθ,uz depend only on (r,z,t). We denote bybthe meridional velocity.
+     1.1. Main result.In order to state our main result, we introduce:
+     Definition1.1 (Euler length).A continuous functionℓ: (−1,0)→(0,∞)is called anEuler
+lengthif it is non-increasing, it satisfies the doubling property
+                                           ℓ(2t)≤Dℓ(t),       for allt∈(−1/2,0),                                   (1.2a)
+
+     2020Mathematics Subject Classification.Primary 35Q30; Secondary 35B44, 35Q31.
+     Key words and phrases.Navier-Stokes equations, local regularity, axial symmetry, ancient vorticity limits.
+     1Here and throughout this paper, we use the notationB(ρ) ={x∈R                                         3 :|x|<ρ}andQ(ρ) =B(ρ)×(−ρ                                                       2,0).
+
+
+
+
+                                                                        1
+=== PDF PAGE 2 ===
+2                                         PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+for a suitable constantD∈[1,∞), it asymptotically vanishes
+                                                              limt↑0   ℓ(t) = 0,                                                         (1.2b)
+
+and it satisfies
+                                                             lim   (−t)
+                                                              t↑0  ℓ(t)     2 = 0.                                                        (1.2c)
+     The term “Euler length” is motivated in part by the requirement (1.2c) that the viscosity
+coefficient under Euler rescaling vanishes asymptotically, so formally the Euler behavior emerges
+in the limit.
+     Examples of Euler lengths areℓ(t) = (−t)                 γ forγ∈(0,1/2) andℓ(t) = (−t)                                         1/2  (log(e/(−t)))            a
+with 0<a≤1/2.
+     Recall that the point (0,0) is calledregularif
+                                               esssup                ρ>0.                                           (1.3)
+                                                 Q(ρ)      |u|<∞for some
+More generally, forx     0 ∈B(1) the point (x        0,0) is calledregularif (1.3) holds withQ(ρ) replaced
+byB(x       0,ρ)×(−ρ             2,0)⊂Q, andsingularotherwise. The simplest way to state the main result of
+this paper is:
+     Theorem1.2 (Local regularity under Type II bounds at an Euler length).Let(u,π)
+be a suitable weak solution of(1.1)inQ, which is smooth on compact subsets ofQ, and is axisym-
+metric.  Letℓ=ℓ(t)be an Euler length, in the sense of Definition1.1.  Suppose that there exist
+constantsC                0,C2 >0such that
+
+                      ∥u(·,t)∥           L∞(B(1))   ≤C   0 ℓ(t)(−t)      ,  ∇2u(·,t)  L∞(B(1))   ≤C   2     1(−t)ℓ(t)           ,                (1.4)
+
+for allt∈(−1,0). Then,(0,0)is a regular point.
+     Remark1.3.The following comments on the hypotheses of Theorem1.2are in order:
+(a)For the power lawℓ(t) = (−t)                    γ withγ∈(0,1/2), the two Type II bounds in (1.4) say that the
+      natural self-similar Euler rescalingU(y,t) := (−t)                               1−γ   u((−t)           γy,t) satisfies∥U(·,t)∥                           L∞ ≤C   0
+      and∇2yU(·,t)  L∞ ≤C   2, where theL     ∞ norm is taken on the expanding ballB((−t)               −γ  ).
+(b)If the first bound in (1.4) holds with the parabolic length scaleℓ(t) = (−t)                                   1/2  , then we have
+      a standard Type I bound. In that case, regularity is known due to the works of Chen, Strain,
+      Tsai, and Yau [2,3], Koch, Nadirashvili, Seregin, and       ˇSver´ak [9], or Seregin and    ˇSver´ak [21].
+ (c)The Type II assumption made in (1.4) is more restrictive than necessary, and the bounds on
+      the second derivative can be relaxed. In Section5we prove the same regularity result under
+      weaker hypotheses:  a H¨older seminorm bound on the azimuthal vorticityω  θ =∂   zur−∂   ruz
+      and a supremum bound for the potential vorticity Ω =ω   θ/r, at the Euler length. Precisely, in
+      Theorem5.1we assume, for some 0<α≤1, the velocityL                           ∞ bound in (1.4) together with
+
+                         [ω θ(·,t)]    Cα(B(1))   ≤      Cα(−t)ℓ(t)             α ,     ∥Ω(·,t)∥            L∞(B(1))   ≤    CH(−t)ℓ(t)           ,
+
+      for some constantsC   α,CH >0.
+(d)The same weakening of regularity assumptions from Theorem5.1also applies to the main
+      result of [4, Section 4].   Theorem 4.5 in [4] excludes nontrivialC                    2 axisymmetric globally
+      self-similar Euler profiles with similarity exponentγ <1/2 which obey the natural far-field
+      bounds [4, (3.8)].  In Proposition6.1we extend this result to continuous self-similar profiles
+      which vanish at the origin and are sublinear at infinity, whose azimuthal vorticity is locally
+      H¨older continuous, and whose potential vorticity is locally bounded; no far-field decay beyond
+      sublinearity is assumed.
+=== PDF PAGE 3 ===
+                            AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                          3
+
+    1.2. Prior results.In the absence of swirl, global regularity for the axisymmetric 3D Navier-
+Stokes equations was established by Ladyzhenskaya [10] and by Ukhovskii and Yudovich [26].
+    In the presence of swirl, the regularity of axisymmetric solutions to 3D Navier-Stokes has been
+established under the additional hypothesis of a Type I bound, an assumption which is invariant
+under parabolic scaling.   Chen, Strain, Yau, and Tsai [2] proved regularity of the solution at
+t= 0 assuming the pointwise bound|u| ≤C(r                        2−t)    −1/2     .  Chen, Strain, Tsai, and Yau [3] and
+Koch, Nadirashvili, Seregin, and ˇSver´ak [9] proved regularity assuming thatr|u|≤C. Seregin and
+ˇSver´ak [21] imposed a temporal Type I bound on the meridional velocity alone:|b|≤C(−t)                           −1/2     .
+All of these proofs rely on the structure of the equations satisfied by the circulation and by the
+potential vorticity Ω =ω   θ/r. We refer to the book of Tsai [25, Chapter 10] for a detailed account
+of the many conditional regularity results for solutions of 3D axisymmetric Navier-Stokes.
+    Escauriaza,Seregin,andˇSver´ak[6,Theorem1.4]provedtheregularityofsuitableweaksolutions
+which are bounded in the scale-invariant normL        ∞t L3x; their argument is by contradiction and gives
+no quantitative bound.  Tao [24] made this result quantitative for classical solutions onR           3 and
+obtained a quantitative lower bound, of triple logarithmic type, for the blowup rate of theL      3 norm
+at a finite time singularity, along a sequence of times approaching that singularity. Subsequently,
+Palasek [14] replaced the triple logarithm by a double logarithm, for the weighted critical norms
+∥r  1−3/q    u∥  Lq,bothforaxisymmetricsolutionswithq∈(2,3]andforsolutionswithoutanysymmetry
+withq∈(3,∞).  O˙za´nski and Palasek [13] then bounded every derivative of an axisymmetric
+solution by a double exponential of its weakL      3 norm. Seregin [15] proved that at a singular axis
+point the three scale-invariant local energy quantities arising in the theory of partial regularity
+all have an infinite upper limit, so that an axisymmetric singularity must be Type II also in the
+local-energy sense. Seregin also formulated Type II blowup scenarios through such weighted scale-
+invariant quantities and studied them in [16,17,18,19].
+    The argument in this paper is inspired by the axisymmetric Euler profile theorem that we
+have established in our earlier work [4, Theorem 4.5]. We adapt the potential-vorticity transport
+along backward meridional trajectories, from the proof of [4, Theorem 4.5], to ancient limits of the
+rescaled vorticity system; here the circulation is eliminated by the rescaling instead.  The type of
+argument employed here, in which we zoom in at a sequence of points and times where a desired
+bound fails, and apply a rigidity statement to the resulting ancient limit, is the one through which
+Type I singularities were excluded previously [9,21]. We emphasize that in this paper we do not
+assume a self-similar ansatz for the solution.
+    1.3. Main ideas of the proof.The proof of Theorem1.2has two parts. First, we show that
+the gradient of the meridional velocity becomes small compared with its scale-invariant bound,
+namely
+                   lim
+                   t↑0   (−t)∥∇b(·,t)∥                      L∞(B(ρ       0)) = 0   on a fixed ballB(ρ            0),   0<ρ     0 <1.              (1.5)
+Second, we show that (1.5) implies regularity at (0,0).
+    For the first part we argue by contradiction. If (1.5) fails, we zoom in at the lengthℓ(t) along
+a sequence of times and points at which (−t)|∇b|stays bounded away from zero, and we ask what
+thelimit satisfies. In thecontextofType IIweightedscale-invariantboundson shrinkingcylinders,
+thisapproachwasconsideredbySeregin[16,17,18,19]. Atalengthlargerthantheparabolicone
+thepressure isnotcontrolledafterthe zoom, so wepass tothelimit inthevorticityequationrather
+thaninthemomentumone. Twofactsmakethelimittractable. First, thecirculationΓisbounded
+on a fixed ball, by partial regularity and the maximum principle for (2.3). A bounded circulation
+is subcritical for the rescaling by an Euler length: after the zoom-in, it is bounded by a multiple of
+(−t)/ℓ(t)                2, which tends to zero ast↑0. The swirl of every limit therefore vanishes, and with it the
+source∂            z(u 2θ/r2) of the potential vorticity equation (2.5) vanishes as well.  For the ancient limits
+arising in his Type II scenarios, Seregin [17, Section 2] observed in the same way that the swirl
+=== PDF PAGE 4 ===
+4                                         PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+vanishes. Since the swirl source vanishes, the limiting potential vorticity is transported by a locally
+bounded, divergence free field which is Lipschitz in space with constantC 1/|τ|(see (3.3)); here
+τ∈(−∞,−1] is the rescaled time of the ancient limit of the vorticity system. The second is that
+along the backward characteristics of that limiting divergence free field the potential vorticity is
+constant,andattimeτitinheritstheboundC/|τ|fromthehypotheses(1.4). Thereforethelimiting
+azimuthal vorticity vanishes atτ=−1: in the finite-axis case through the potential vorticity, and
+in the receding-axis case by transporting the azimuthal vorticity itself.   This is the content of
+Lemmas3.2and3.3. The limiting meridional velocity atτ=−1 is then curl-free, divergence-free,
+andboundedonR    3, henceconstant. Ontheotherhand, theselectionofthecontradictionsequence
+forcesthegradientofthelimitingmeridionalvelocitytobenonzeroatonepoint. Thiscontradiction
+proves (1.5); see Proposition3.1.
+    For the second part, we apply the maximum principle in the swirl equation (2.3) to (−t)              ηuθ
+and obtain|u             θ|≤C   η(−t)     −η   on a smaller fixed ball, for everyη >0. A localized enstrophy estimate
+then givesu∈L         4tL6x on a fixed parabolic cylinder with top (0,0). Regularity then follows from the
+localized version of the Ladyzhenskaya-Prodi-Serrin criterion; see Section4.
+    Remark1.4 (Whatisspecialaboutaxisymmetry?).TheexclusionofTypeIsingularities
+isnotknownwithouttheassumptionofaxisymmetry,andwedonotknowhowtoproveTheorem1.2
+without it whenℓ(t) = (−t)                      γ with 2/5≤γ <1/2, or whenℓis a logarithmic enlargement of the
+parabolic length.   What this rotational invariance supplies is not merely the reduction to the
+variables (r,z), which leaves vortex stretching intact, but the two identities (2.3) and (2.5).  The
+circulationobeysadrift-diffusionequationwithnozerothorderterm,sothatitsatisfiesamaximum
+principle.  Moreover, the circulation scales like viscosity:  an axisymmetric solution carries an a
+priori bounded critical quantity, and we know of none for (1.1) in the general setting of flows on
+R3. The potential vorticity obeys a transport-diffusion equation whose only other term is the swirl
+source∂            z(Γ2/r4); without swirl this is the global regularity of [10,26], and with swirl the Liouville
+theorems of [9] are proved through the same two equations.
+    Remark1.5 (Euler profiles and the viscous question).Consider a putative 3D Navier-
+Stokessingularityintheabsenceofexternalforces, constructedfromaself-similarEulersingularity
+by treating the viscosity as an asymptotic perturbation.  With the singular time att= 0, the
+similarity ansatzu(x,t) = (−t)                        γ−1   U(x/(−t)                γ,−log(−t)) carries the viscosity coefficient (−t)                  1−2γ     ,
+which tends to zero ast↑0 precisely whenγ <1/2. These are the power laws of Definition1.1. In
+essence, Theorem1.2shows what such a construction has to give up in the axisymmetric setting:
+the viscous solution cannot remain bounded inC    2 in similarity variables, on a fixed ball in the
+original variables, no matter what profile it is meant to approach at the blowup time.
+    Organization of the paper.In Section2we record the axisymmetric identities, a regular
+annulus obtained from partial regularity, and a transport lemma.  In Section3we prove the two
+ancient-limitlemmasanddeduceProposition3.1fromthem. InSection4wegivethelocalregularity
+conclusion and the logarithmic examples. In Sections5and6we prove the regularity statements
+for Navier-Stokes solutions and for Euler self-similar profiles under weaker assumptions.
+
+                           2. Axisymmetric identities and auxiliary results
+    In this section we record the axisymmetric identities (see e.g. [25, Chapter 10]) and a few
+technical lemmas which will be used later in the proof.  We decompose the velocity field into its
+meridional and swirl components
+                                u=b+w,       b:=u                 rer +u   zez,       w:=u       θeθ,                              (2.1)
+and note that bothbandware divergence free. For the azimuthal component of the vorticity we
+denote
+                                  ωθ := (curlu)           θ =∂   zur−∂   ruz,      Ω :=  ωθr  ,
+=== PDF PAGE 5 ===
+                              AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                          5
+
+and note that
+                                                            curlb=ω            θeθ.
+We refer to Ω as thepotential vorticity: denotingω= curluwe have Ω =ω·∇θ, which is Ertel’s
+potential vorticity associated with the azimuthal angleθ, andθis materially conserved precisely
+when the swirl vanishes.
+     For a vector fieldFwe write|∇F|to denote the Euclidean norm of the Jacobian matrix, so
+that|curlF|≤          √2|∇F|. Lipschitz and H¨older seminorms of rotation-invariant scalars are taken in
+the Euclidean distance.
+     2.1. Axisymmetric identities.For smooth axisymmetric solutions, the meridional projec-
+tion of (1.1) is given by
+                                       ∂tb+div(b⊗b)+∇π= ∆b−div(w⊗w),                                 (2.2a)
+                                                               divb= 0,                                                          (2.2b)
+with the swirl velocity contributing the Reynolds stress
+
+                                                     div(w⊗w) =−           u2θr er.                                                 (2.2c)
+The swirl velocityu  θ and the circulation Γ =ru   θ satisfy
+
+                  ∂tuθ +b·∇u         θ + urr uθ =      ∆−    1r2    uθ,       ∂tΓ+b·∇Γ =               ∆−    2r∂r    Γ.            (2.3)
+The azimuthal vorticity obeys
+                                 ∂tωθ +b·∇ω         θ =     ∆−    1     ωθ + ur                       .                             (2.4)
+                                                                   r2            r ωθ + 1r ∂z u2θ
+Dividing (2.4) byr, and usingr                 −1  (∆−r       −2  )(rg) = (∆+2r      −1  ∂r)gfor axisymmetric scalarsg, we
+obtain                                                                                    u2θ
+
+                                        ∂tΩ+b·∇Ω =               ∆+ 2r ∂r      Ω+∂   z     r2    .                                     (2.5)
+     We recall the standard fact that near the axis of symmetry, the components of a smooth
+axisymmetric vector fieldutake the formu              r =ra(r       2,z,t),u    θ =rc(r       2,z,t),u    z =d(r       2,z,t) for
+some smooth functionsa,c,d; thus, Ω andu                            2θ/r2 extend smoothly to the axis, and (2.5) holds on
+the whole domain.
+     The following lemma records bounds for Ω in terms of the Hessian ofu.
+     Lemma2.1 (Pointwise bounds across the axis).Letube a smooth axisymmetric vector
+field, not necessarily a solution of(1.1), defined on an open axisymmetric setU ⊂R                      3 which meets
+the axis of symmetry.
+(a)We have  ωθ/r≤√2|∇  2u|at every point ofUoff the axis, whereω            θ =∂   zur−∂   ruz and|∇       2u|
+      denotes the Euclidean norm of the full tensor(∂             i∂juk)i,j,k.
+ (b)With meridional partb=u                rer+u   zez and swirl partw=u            θeθ, we have|∇        ju|  2 =|∇   jb| 2+|∇   jw|   2
+      pointwise inUforj= 0,1,2, and|∇ω                                  θ|≤√2|∇  2u|off the axis. In particular,ω                     θ, extended by
+      zero to the axis, is Lipschitz on every open convex setK⊆U, with constant        √2∥∇  2u∥  L∞(K)   .
+     Proof of Lemma2.1.Every quantity in the lemma is invariant under rotations about the
+axis; thus, it suffices to work at a pointx 0 = (x 1,0,z)∈ U, withx                   1 =r >0.  In Cartesian
+components, an axisymmetric fieldF=F              rer+F   θeθ+F   zez, withF        r,Fθ,Fz functions of (r,z), reads
+                       F1 =F   r x1r −F   θ x2r ,       F2 =F   r x2r  +F   θ x1r ,       Fz =F   z(r,z).                 (2.6)
+=== PDF PAGE 6 ===
+6                                         PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+Differentiating (2.6) and evaluating atx           0, we obtain
+
+                                                      ∂2F1(x 0) =−   Fθr (x 0).                                                   (2.7)
+Inordertoproveitem(a), weapply(2.7)tothesmoothaxisymmetricfieldF=ω:= curlu. Onthe
+half-plane{x                      2 = 0, x  1 >0}, whereu                    1 =u   r andr=x             1, by (2.6) we haveω         2 =∂   zu1−∂   1uz =ω   θ.
+Sinceω          1 =∂   2uz−∂   zu2, it follows thatωθ≤√ω        θ/r=−∂           2ω1(x 0) =∂   2∂zu2−∂   22uz, and hence
+                                      r          2 |∂ 2∂zu2|2+|∂     22uz|21/2   ≤√2|∇  2u|,
+because the two derivatives are distinct entries of the tensor (∂ i∂juk)i,j,k.
+     In order to prove item (b), letSbe the reflection (x         1,x2,z)7→(x          1,−x    2,z), which preserves
+U.  By (2.6), the Cartesian componentsb= (u                 rx1r , urx2r , uz) andw= (−u               θx2 u+Su(S·)    andw=            1r , uθx1 u−Su(S·)    r ,0) satisfy
+b(Sx) =Sb(x)andw(Sx) =−Sw(x)offtheaxis. Henceb=                                                              12        2
+extendsmoothlytoU, andb              1,b z,w 2 areeveninx   2, whileb          2,w 1 areodd. On{x        2 = 0}, aderivative
+of an even function vanishes when∂          2 occurs in it an odd number of times, and a derivative of an
+odd function vanishes when∂          2 occurs an even number of times.   Thus, for each componentk
+and eachj≤2, the entries of∇           jbk and of∇   jwk which do not vanish atx    0 occupy disjoint
+index sets.  Therefore, when contracting the tensors we obtain∇            jb:∇   jw= 0 atx       0, and thus
+|∇ju|  2 =|∇   jb| 2 +|∇   jw|   2 there.  By rotation invariance the identity holds at every point off the
+axis, and on the axis by continuity.
+     We recall thatω        θ =∂   zu1−∂   1uz on the half-plane{x                      2 = 0, x  1 >0}.  Differentiating this
+identity along the half-plane, and evaluating at a pointx 0 = (x 1,0,z) withx              1 >0, we have that
+∂1ωθ =∂   1∂zu1−∂   21uz and∂       zωθ =∂   2zu1−∂   1∂zuz, while∂          2ωθ = 0 becauseω            θ is constant on the
+circle about the axis throughx         0, to whiche  2 is tangent. Thus|∇ω         θ(x 0)| 2≤2 |∂ 1∂zu1|2+|∂     21uz|2+
+|∂ 2zu1|2+|∂    1∂zuz|2≤2|∇     2u(x    0)| 2. The bound holds off the axis by rotation invariance.
+     Lastly, by item (a) we have|ω   θ| ≤ √2r|∇    2u|off the axis, so that the extension ofω       θ by
+zero to the axis is continuous onU.   LetK⊂ Ube open and convex, letx,y∈K, and let
+M=    √2∥∇  2u∥  L∞(K)   .  If the segment [x,y] lies in the axis, both values vanish.  Otherwise the
+segment meets the axis in at most one point,ω   θ is continuous on [x,y], andC           1 with|∇ω             θ|≤M
+off that axis point. The desired bound follows by the mean value theorem, applied on each side of
+that point if there is one.                                                                            □
+     2.2. A regular annulus and bounded circulation.By partial regularity, there exists a
+sphere about the origin which contains no terminal singular point, and on the ball bounded by
+this sphere the maximum principle bounds the circulation Γ =ru   θ.  These statements are used
+in the proof as follows:  the bounded circulation is what makes the swirl of every limit vanish in
+Section3, and the regular annulus is where the cutoff errors of the enstrophy estimate of Section4
+are supported.
+     Lemma2.2 (A regular annulus and bounded local circulation).For every0≤R                                                              1 <
+R0 <1there existR               1 < R− < R+ < R0 andt       0 <0such thatuand all its spatial derivatives are
+bounded on the cylindrical annulus domain{R             − <|x|<R        +}×(t     0,0). For any fixedR     ∗∈(R   −,R+)
+there is a constantC              Γ <∞such that
+                                                   ∥Γ∥    L∞(B(R    ∗)×(t       0,0)) ≤C   Γ.                                                (2.8)
+
+     Proof of Lemma2.2.LetS                              0⊂B(R     0) be the set ofxfor which (x,0) is a singular point. By
+partial regularity [1,12,11],S                    0 has zero one-dimensional Hausdorff measure, so that its image
+under the Lipschitz mapx7→ |x|has zero Lebesgue measure and we may chooseR∈(R                               1,R0)
+for which∂B(R) carries no point ofS               0. Every point (x,0) withx∈∂B(R) is regular, so that by
+compactness of∂B(R) there areδ >0, withR                               1 < R−δ < R+δ < R              0, andt       0 <0 such thatu
+is bounded on{R−δ <|x|< R+δ}×(t                                     0,0).  We fixR−δ < R          − < R+ < R+δand bound
+=== PDF PAGE 7 ===
+                               AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                          7
+
+all spatial derivatives ofuon{R          − <|x|<R        +}×(t     0,0), uniformly up to time zero, after possibly
+increasingt                    0.  For this purpose, we apply theε-regularity theorem in the form stated by Seregin
+and ˇSver´ak [20, Lemma 1.2] (see also [6, Lemma 2.2 and Remark 2.3]), which asks that the two
+scale-invariant quantities               Z                                                Z
+
+                       Cζ(ρ) :=     1ρ2                                               ρ2
+                                           Q(ζ,ρ)    |u|   3dxdt,       Dζ(ρ) :=     1      Q(ζ,ρ)    |π|   3/2   dxdt,
+add up to less than a universal constantε ∗ >0 at a single scaleρ; here we denote spacetime
+cylinders byQ(ζ,ρ) :=B(x,ρ)×(s−ρ                                   2,s), forζ= (x,s). Two scales enter, and the order in which
+they are fixed is what makes the argument work: firstρ       0, using only the supremum of|u|on the
+annulus, and thenρ<ρ         0, at the value ofD   ζ(ρ 0) that the first choice determines.
+     LetM:= sup        {R−δ<|x|<R+δ}×(t                                        0,0) |u|, and letρ          0 ∈(0,1], withρ                 20 <−t       0, be so small that
+Q(ζ,ρ     0)⊂ {R−δ  <|x|< R+δ}×(t                                  0,0) for everyζ= (x,s) withR                 − ≤ |x| ≤R       + and
+t0 +ρ   20  < s <0.   For suchζand 0< ρ≤ρ                0 the cylinderQ(ζ,ρ) lies in the region where
+|u|≤M, so thatC                   ζ(ρ)≤        4π3 M3ρ30. Using the pressure decay estimate of Seregin and ˇSver´ak [20,
+Lemma 2.1] (withα=               12, and after a parabolic rescaling ofQ(ζ,ρ         0) to a unit cylinder), we obtain
+thatD        ζ(ρ)≤c(            ρρ0)1/2  Dζ(ρ 0)+cM    3ρ30 for a universal constantc >0.  Neither of the two terms
+4π
+ 3 M3ρ30 andcM       3ρ30 depends onρ, so that both are made small by the choice ofρ           0 alone, which
+depends only onM, onc, and onε                ∗; this is the first choice, and it fixesρ        0.  Onceρ          0 is fixed,
+Dζ(ρ 0) is bounded uniformly inζ, sinceD               ζ(ρ 0)≤ρ    −20  ∥π∥    3/2L3/2   (Q)   , and the one term which remains,
+c(   ρρ0)1/2  Dζ(ρ 0), is made small by lettingρ<ρ             0 be sufficiently small; this is the second choice. The
+two cannot be made in the other order, because the bound onD    ζ(ρ 0) degenerates asρ    0→0. We
+thus obtainC            ζ(ρ)+D       ζ(ρ)< ε    ∗ for everyζ= (x,s) withR                − ≤ |x| ≤R       + andt       0 +ρ   20 < s <0.
+Therefore, byε-regularity we have|∇      ku(x,s)|≤c           kρ−k−1       for allk≥0 with universal constantsc             k,
+for allR   −≤|x|≤R       +, and allt    0+ρ   20 <s<0; replacingt                     0 byt  0+ρ   20 gives the desired bounds on
+the cylindrical annulus.
+     We fixR   ∗ ∈(R   −,R+).  By (2.3), the circulation Γ satisfies a drift-diffusion equation with
+no zeroth order term, and it vanishes on the axis.  For everys <0, the maximum principle on
+B(R    ∗)×[t      0,s], where Γ is smooth, bounds|Γ|by its values at timet                  0 and on∂B(R       ∗)×(t       0,s).
+The former are bounded sinceuis smooth at timet                     0, the latter byR ∗ times the bound onuin the
+annulus; neither bound depends ons. Although the coefficient 2r       −1   of∂   rΓ in (2.3) is singular on
+the axis, Γ vanishes there, so that a positive maximum or a negative minimum of Γ which is not
+attained on the parabolic boundary is attained off the axis, where the classical argument applies.
+Lettings↑0, we obtain (2.8).                                                                         □
+     2.3. Transport.Inourproofwearguethatcertainlimitsofthevorticityobtainedbyzooming
+in solve in the weak sense a transport equation whose drift is itself only a weak-∗limit.  For this
+purpose, we recall that for a divergence free drift which is bounded and Lipschitz in space on com-
+pact sets, with a Lipschitz constant which is locally integrable in time, a continuous distributional
+solution of the transport equation is constant along the characteristics of the drift. We state here
+a version adapted to our setting:
+     Lemma2.3 (Constancy along characteristics).LetU ⊂R                                                           3×(−∞,−1]be relatively open.
+LetB:U →R             3 be bounded on compact sets, measurable inτ, Lipschitz inyon compact sets with a
+Lipschitz constantλ(τ)which is locally integrable in time, and divergence free inyfor almost every
+τ.  LetΛ:U →Rbe a continuousweak solutionof the transport equation∂                                                              τΛ+divy(BΛ) = 0in
+theinteriorofU.                       2 LetX: (−∞,−1]→R                              3 be absolutely continuous on compact subintervals, with
+
+     2That is,R
+                  U Λ ∂τφ+B·∇φ   dydτ= 0 for everyφ∈C            ∞0 (intU).
+=== PDF PAGE 8 ===
+8                                         PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+ ˙X(τ) =B(X(τ),τ)for almost everyτ, and suppose that{(X(τ),τ):τ                                                                   0 ≤τ≤ −1}is a compact
+subset ofUfor everyτ                 0 <−1. Thenτ7→Λ(X(τ),τ)is constant on(−∞,−1].
+     The proof of the above result is standard:  with the notation of Lemma2.3, it mollifies the
+solution in space, bounds the commutator of DiPerna and Lions [5, Lemma II.1] uniformly on
+compactsetsbyaconstantmultipleofλ(τ)timesthemodulusofcontinuityofΛatthemollification
+scale (this uses the continuity of Λ), and integrates the mollified equation in time alongX.  This
+commutator bound is written out, in a stationary setting, in Step 3 of the proof of Proposition6.1.
+We omit further details.
+
+                                     3. Ancient limits at the Euler length
+     In this section we construct ancient limits at the Euler length, and use them to prove that on a
+fixedballthemeridionalgradientbecomessmallcomparedwiththescale-invariantboundC          1/(−t),
+whichourhypothesesgivedirectly, see(3.3)below. InSection4weshowthatthissmallnessimplies
+regularity, and thus Theorem1.2.
+     Proposition3.1 (Smallness of the meridional gradient).Letℓbe an Euler length, in the
+sense of Definition1.1, and assume that the bounds(1.4)hold for allt∈(−1,0). Then
+                                           limt↑0   (−t)∥∇b(·,t)∥                      L∞(B(1/2))        = 0.                                           (3.1)
+
+     We prove Proposition3.1by contradiction.  If (3.1) fails, there are timest                                    n ↑0 and points
+xn ∈B(1/2) at which (−t                 n)|∇b(x          n,tn)|stays bounded away from zero.  We zoom in at timet           n
+about a base point built fromx       n, in space using the Euler lengthℓ(t               n), and in time using|t           n|itself.
+Our goal is to analyze the ancient limits of the rescaled solution.  A priori these limits are not
+known to solve the Euler equations in their momentum form: at a length larger than the parabolic
+one the pressure is not controlled after the zoom-in, so that we cannot pass to the limit in the
+momentum equation. Instead, we pass to the limit in the vorticity equation.
+     Two facts make analyzing the limit tractable, and both were described in Section1.3:  by
+Lemma2.2the circulation is bounded on a fixed ball, and a bounded circulation is subcritical for
+this rescaling by (1.2c), so that the swirl of every limit vanishes together with the swirl source
+∂z(u 2θ/r2) of (2.5); and Lemma2.3makes the limiting vorticity constant along the backward char-
+acteristicsofthelimitingdrift,sothattheboundC/|τ|itinheritsfrom(1.4)forcesittovanish. The
+two eliminations, first of the circulation and then of the potential vorticity, each along backward
+meridional trajectories, are the main idea of the proof of [4, Theorem 4.5].  Here the circulation
+is eliminated instead by the rescaling, as observed for the ancient limits of an Euler scaling by
+Seregin [17, Section 2].  What is new here is that the potential vorticity is transported along the
+trajectories of a time-dependent field which is only a weak-∗limit, for which the transport equation
+holds only weakly and only off the axis (we keep these trajectories off the axis through a quantita-
+tive lower bound on their distance to it), and that the potential vorticity vanishes because of the
+boundC/|τ|inherited from (1.4), rather than because of an exponential weight as in [4].
+     ThemainresultoftheconstructionisthepairofLemmas3.2and3.3: alongasubsequence, the
+rescaled azimuthal vorticity converges locally uniformly to a limit which vanishes atτ=−1, and
+the rescaled meridional velocity atτ=−1 converges inC                 1 on compact sets to a field which is curl
+free, divergence free, and bounded on all ofR   3. Thus each component is bounded and harmonic,
+hence constant by Liouville’s theorem.  The selection of the pointsx   n forces the gradient of this
+limit to be bounded away from zero at one point, which provides the desired contradiction.  In
+Section3.1we define the zoom-in and record the bounds it inherits from (1.4), in Section3.2we
+prove the two lemmas, and in Section3.3we select the sequencest                                      n andx       n and complete the proof
+of Proposition3.1.
+=== PDF PAGE 9 ===
+                                 AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                          9
+
+     3.1. The rescaled fields and bounds uniform in the zoom-in.Throughout this subsec-
+tion we assume thatℓis an Euler length and that the bounds in (1.4) hold at everyt∈(−1,0).
+We takeT  1∈(0,1] so small that
+
+                                                     ℓ(t)≤       14       (−T     1 <t<0).                                               (3.2)
+Applying Taylor’s formula along segments of lengthℓ(t) insideB(1), we deduce from (1.4), (3.2),
+and Lemma2.1(b) that fort∈(−T                                    1,0)
+
+                                ∥∇b(·,t)∥              L∞(B(3/4))      ≤  C1(−t)      ,       C1 :=√32C  0+ C22     .                        (3.3)
+
+Note that the length scaleℓcancels in this balance, so that the two hypotheses in (1.4) interpolate
+to a gradient of the scale-invariant size 1/(−t), whateverℓis. Lemma2.1(a) in addition gives√
+                                                     ∥Ω(·,t)∥           L∞(B(1))   ≤   2C  2
+                                                                                  (−t)ℓ(t)           .                                              (3.4)
+     We consider a sequencet                n↑0 witht          n∈(−T        1,0), and we let
+
+                                                    ℓn :=ℓ(t        n),       ε n := (−t     n)ℓ2n   ,
+
+so thatε        n →0 by (1.2c). We also leta                  n ∈R   3 be such that|a         n|<   12; we calla      n thebase pointof
+the zoom, since (3.5) below rescales about the pointa         n. The sequences{t   n}n≥1     and{a         n}n≥1     are
+arbitrary both here and in Section3.2; only in the proof of Proposition3.1do we build them from
+times and points at which the contradiction ansatz (3.19) holds.
+     Upon recalling the decompositionu=b+wfrom (2.1), we define
+
+                                              Bn(y,τ) =    (−t     n)ℓn   b an+ℓ   ny, tn|τ|,                                       (3.5a)
+
+                                              Zn(y,τ) =    (−t     n)ℓn   w an+ℓ   ny, tn|τ|,                                      (3.5b)
+
+                                              Pn(y,τ) =    (−t     n)2ℓ2n    π an+ℓ   ny, tn|τ|,                                     (3.5c)
+
+                                              Θn(y,τ) = (−t        n)ω θ an+ℓ   ny,tn|τ|,                                      (3.5d)
+for allτ <0 with (−t             n)|τ|<1 and ally∈D                n, where                              .
+                                        Dn :={y:a          n+ℓ   ny∈B(1)}=B      − anℓn,  1ℓn
+These are exactly the (y,τ) for whicha      n +ℓ   ny∈B(1) andt               n|τ|∈(−1,0), so that the right sides
+of (3.5) are well-defined. We also introduce a smaller ballD              ♭n⊂Dn, defined as.
+                                      D♭n :={y:a          n+ℓ   ny∈B(3/4)}=B       − anℓn,   34ℓ n
+See Figure1.  This smaller ball plays no role in definition (3.5); instead, this is the set on which
+the gradient bound (3.3) is available after the zoom (see (3.8c) below).  Since|a                            n|<   12, we have
+D♭n⊃B(ρ        n) withρ        n :=   14ℓ n →∞, so that every compact subset ofR        3 is contained inD   ♭n for alln
+sufficiently large.
+     With the definitions in (3.5), we return to (2.2) and obtain that
+                               ∂τBn+div(B n⊗B   n)+∇P       n =ε   n∆B   n−div(Z     n⊗Z   n),                      (3.6a)
+                                                                  divB      n = 0,                                                         (3.6b)
+holds onD    n. We set
+                                                     Ln(τ) =    ℓ(t   n|τ|)ℓn     = ℓ(t   n|τ|)ℓ(t   n)  ,
+=== PDF PAGE 10 ===
+                                                   10                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Figure 1.The domainsD                   n andD      ♭n are centered at−a      n/ℓn, with radii 1/ℓ  n and 3/(4ℓ       n). The
+                                                                dashed line is the rescaled axis. In (a),y= 0 lies on the axis and the imagey               ∗n of the selected point,
+                                                                defined in Section3.3, remains at bounded distance from it.  In (b),y                  ∗n = 0 and the axis recedes.
+                                                                The dotted ballB(ρ           n) is centered aty= 0, and its radiusρ                n = 1/(4ℓ       n) tends to infinity.
+
+                                                   sothatL        n(−1) = 1. Forτ≤−1, themonotonicityofℓgivesL                       n(τ)≥1, andthedoublingcondition
+                                                   in (1.2a) gives
+                                                                                    1≤L     n(τ)≤C        T :=D   ⌈log  2T⌉  ,      for all   τ∈[−T,−1],                       (3.7)
+                                                   once 2⌈log  2T⌉ (−t     n)<1, which is what the iteration requires.
+                                                         We now change variables in (1.4), (2.8), (3.3), and in (3.4), and we obtain, for every compact
+                                                   set of (y,τ) withτ≤−1 and allnlarge depending on it,
+
+                                                                          max|B n(y,τ)|,|Z         n(y,τ)| 	≤ C0Ln(τ)|τ|       ,                                  y∈D  n,           (3.8a)
+
+                                                                                                  |∇2Bn(y,τ)|≤         C2|τ|L    n(τ)   ≤ C2|τ|   ,                         y∈D  n,           (3.8b)
+
+                                                                                                   |∇B    n(y,τ)|≤     C1|τ|   ,                                          y∈D  ♭n,           (3.8c)
+                                                                                                                             √2C  2           √2C  2
+                                                                                                      |Ω n(y,τ)|≤          |τ|L    n(τ)   ≤      |τ|     ,                    y∈D  n,           (3.8d)
+
+                                                                                            Rn(y)|Z      n(y,τ)|≤C         Γεn,                                       y∈D  ♭n,           (3.8e)
+                                                   where
+                 {y ′ =−a    ′n/ℓn}{y ′ = 0}                                                                       Rn(y) :=   |a ′n+ℓ   ny′|
+                                                                                                                                         ℓn
+DnDn
+
+
+
+
+                                y=y   ∗n = 0
+          dn =r  n/ℓn
+                            −a  n/ℓnB(ρ    n)
+
+       1/ℓ n1/ℓ n                D♭n: all of the bounds (3.8a)–(3.8e3/(4ℓ       n)3/(4ℓ       n)), on compact sets and fornlarge
+                                 Dn\D♭n: the bounds (3.8a), (3.8b), and (3.8d)
+                            |a n|/ℓ n
+                            −a  n/ℓn
+
+       D♭nD♭n
+                  y= 0
+                              y∗n
+     B(ρ    n)
+
+
+
+
+
+               (b) receding axis(a) finite axis
+=== PDF PAGE 11 ===
+                               AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        11
+
+is the rescaled distance to the original axis, and we have defined
+
+                                  Ωn(y,τ) :=    Θn(y,τ)Rn(y)      = (−t     n)ℓ nΩ an+ℓ   ny,tn|τ|.                             (3.9)
+
+SinceR          n(y)|Z      n(y,τ)|=ε          n|Γ(a     n +ℓ   ny,tn|τ|)|, the bound (3.8e) is precisely estimate (2.8).  Here
+Lemma2.2is applied withR                             1 = 3/4, someR            0 ∈(3/4,1),R              ∗ ∈(R   −,R+), andt       0 <0, so that
+an+ℓ   ny∈B(3/4)⊂B(R                      ∗) for ally∈D      ♭n; the timet        n|τ|lies in (t      0,0) for allnlarge depending on
+τ, becauset              n→0.
+     We note that the base pointsa   n occur in two configurations, according to their position relative
+to the axis of symmetry:
+   •In thefinite-axisconfigurationa                                     n lies on the axis, so thatR        n(y) =|y       ′|.  The quotient Ω n =
+      (curlB         n)θ/|y  ′|is the potential vorticity ofB    n with respect to the rescaled axis{y        ′ = 0}.
+   •In thereceding-axisconfigurationd                                                  n :=r    n/ℓn→∞, wherer               n :=|a    ′n|. ThenR           n(y)≥d         n−|y ′|,
+      and we do not use the quotient Ωn. After a rotation about the axis, we identifya     ′n = (r n,0).
+     3.2. Two ancient-limit lemmas.Lemmas3.2and3.3below are at the heart of the limit
+argument. They differ in whether the axis is present in the limit, and in which scalar we transport;
+everything else is common to them.
+     Lemma3.2 (Ancient limits, the axis present).Lett                         n,a n, and the fields(3.5)be as in
+Section¯L: (−∞3.1, with everya                         n lying on the axis of symmetry.  DefineO:=R                     3×(−∞,−1], and let
+  ,−1]→[1,∞)be non-decreasing in|τ|, bounded on bounded sets, and such that
+                                    limsup                   Ln(τ)                   T >1.                            (3.10)
+                                      n→∞        sup−T≤τ≤−1   ¯L(τ)      ≤1      for every
+
+Then, there exists a continuousΘ:O→R, with|Θ(y,τ)|≤                              √2C  1/|τ|onO, and
+                                                      Θ(·,−1) = 0      onR                  3,                                                (3.11)
+such that after passing to a subsequence we have
+                                   Θn−→Θ    uniformly on compact subsets ofO.                           (3.12)
+Moreover, along a further subsequence,B   n(·,−1)→B             ∗ inC    1 on compact subsets ofR   3, whereB ∗
+is divergence free, curl free, and bounded byC    0, so that each of its components is harmonic.
+     Lemma3.3 (Ancient limits, the axis receding).Lett                                          n,a n, and the fields(3.5)be as in
+Section3.1, witha                   ′n = (r n,0)andd            n =r   n/ℓn →∞.  LetOand           ¯Lbe as in Lemma3.2.  Then the
+conclusions of Lemma3.2all hold.
+     Proof of Lemma3.2.For convenience, we break down the argument into five steps.
+     Step 1: compactness of the azimuthal vorticity.Since curlb=ω                     θeθ, by (3.5) we have that
+                                                  curlB       n(y,τ) = Θ   n(y,τ)e     θ(y)
+for allyoff the axis. Here we have used thate              θ(a n+ℓ   ny) =e     θ(y) becausea                n lies on the axis. For
+yon the axis, both Θ  n and curlB       n vanish, and we deduce that
+                                                            |curlB        n|=|Θ     n|
+holds at every point ofD   n.   Since|curlB                  n| ≤ √2|∇B       n|,  the bound (3.8c) gives|curlB                  n| ≤
+√2C  1/|τ| ≤    √2C  1 on every compact subset ofO, for allnlarge depending on the set.   The
+
+bound (3.8b) makes curlB                 n Lipschitz iny, with constant    √2C  2, on every closed ball contained
+inD   n.  By Lemma2.1(b) applied tou(·,t) on the convex axisymmetric ballB(1), and using the
+change of variables in (3.5), the scalars Θ       n(·,τ) are Lipschitz onD         n with the same constant√2C  2.
+We use both Lipschitz bounds only on the closed balls appearing in the next paragraph.
+=== PDF PAGE 12 ===
+12                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+     Taking the curl of (3.6), we obtain for every ¯y∈R               3,ρ >0,τ        a < τb≤−1, 1< p <∞, and all
+nlarge depending on these,
+                                        ∥∂  τcurlB       n∥L∞(τ a,τb;W −2,p    (B(¯y,ρ)))      ≤C   τa,ρ,p.
+
+HereW       −2,p   (B(¯y,ρ)) denotes the dual ofW              2,p ′0   (B(¯y,ρ)), and we used the fact that the quadratic
+terms are two derivatives of tensor fields bounded by (3.8a), the viscous term isε            n∆curlB           n with
+curlB       n andε       n bounded, and the pressure term is gone.  Since the embeddingC         0,1  (B(¯y,ρ)),→
+C0(B(¯y,ρ)) is compact andC                0(B(¯y,ρ)) embeds continuously and injectively intoW          −2,p   (B(¯y,ρ)),
+a standard compactness argument gives, for everyη >0, a constantC           η with
+          ∥F∥     C0(B(¯y,ρ))     ≤η∥F∥          C0,1  (B(¯y,ρ))      +C   η∥F∥     W−2,p    (B(¯y,ρ))              for allF∈C           0,1  (B(¯y,ρ)).
+ApplyingthisboundtoF= curlB              n(τ)−curlB                n(τ ′),using(3.8b),(3.8c),andthepreviousestimate
+for∂     τcurlB       n, we find that the mapsτ7→curlB                       n(τ) are equicontinuous with values inC        0(B(¯y,ρ)).
+The unit vectore         θ(a n +ℓ   ny) does not depend onτ, so that the scalars Θ        n are equicontinuous
+inτas well, and they are equicontinuous inyby the Lipschitz bound recorded in the previous
+paragraph. Every compact subset ofOlies in one such product, being bounded inyand inτ, and
+Ois the union of the products                B(0,k)×[−k,−1] withk≥1; applying the Arzel`a-Ascoli theorem
+on each of these and extracting diagonally, we obtain (3.12), where Θ is continuous onO.  The
+bound|Θ(y,τ)|≤             √2C  1/|τ|is inherited from (3.8c).
+     The quotients Ωn = Θn/|y  ′|converge uniformly on compact subsets ofO∩{y     ′̸= 0}to Ω   ∞ :=
+Θ/|y     ′|, and by (3.8d) we have                                         √
+                                                        |Ω ∞(y,τ)|≤           2C  2
+                                                                             |τ|     .
+     Step 2:  the limiting meridional velocity.By (3.8a) and (3.8c), the fieldsB                                     n and∇B          n are
+bounded on every compact subset ofO. After a further diagonal extraction we haveB         n ⇀Band
+∇B   n ⇀∇Bweakly-∗inL                       ∞ on every such set, with∇Bthe distributional spatial gradient ofB.
+The limit satisfies divB= 0, curlB= Θe                       θ, and due to (3.8c), (3.8a), and (3.10) it obeys
+
+                 |∇B(y,τ)|≤           C1|τ|   ,     |B(y,τ)|≤         C0 ¯L(τ)|τ|              for almost every (y,τ)∈O.        (3.13)
+
+SinceBis defined only up to a null set, for almost everyτwe replaceB(·,τ) by its continuous
+representative, which is divergence free, Lipschitz onR     3 with constantC 1/|τ|, and bounded by
+C0¯L(τ)/|τ|at everyy∈R                           3. On the exceptional null set of times we setB(·,τ) = 0. The resulting
+fieldiscontinuousinyateveryτbyconstruction,andmeasurableinτateveryy. TheCarath´eodory
+solutions of  ˙X(τ) =B(X(τ),τ), that is, the absolutely continuousXwhich satisfy the equation in
+integral form, do not see the exceptional set.  The fieldsB         n are axisymmetric and swirl free, and
+thus so isB.  SinceBis continuous iny, its radial componentB                           r vanishes on the axis, and the
+Lipschitz bound gives|B    r(y,τ)|≤C         1|y ′|/|τ|.
+     Step 3:  the transport equation for the potential vorticity.From (2.5), the change of vari-
+ables (3.5), and divB             n = 0, we obtain that the potential vorticity Ωn satisfies
+                                                                              |Z n|2
+       ∂τΩn+div          BnΩn        =ε   n   ∆+  2|y ′|∂|y′|    Ωn+∂   z       |y ′|2         on{y∈D         n, y′̸= 0}.      (3.14)
+
+Wefixφ∈C        ∞0  compactlysupportedintheinteriorofO∩{y    ′̸= 0}andtest(3.14)againstφ. Forall
+large enoughn, we have supp(φ)⊂D                      ♭n. The viscous term contributes at mostε n∥Ω  n∥L∞R(|∆φ|+
+2|y  ′|−1 |∂ |y′|φ|), which tends to zero asn→ ∞in light of (3.8d).  The swirl source contributes
+−R |y ′|−2 |Z n|2∂zφ, which tends to zero asn→ ∞because|Z                           n| ≤C   Γεn/|y  ′|on the support ofφ
+=== PDF PAGE 13 ===
+                                AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        13
+
+by (3.8e). For the drift term, we have Ω         n∇φ→Ω        ∞∇φinL          1 byStep 1, andB           n ⇀Bweakly-∗in
+L∞ byStep 2. Passingn→∞we therefore obtainZ
+
+
+
+                                             O∩{y ′̸=0}    Ω∞ ∂τφ+B·∇φ   dydτ= 0,                                   (3.15)
+for everyφ∈C         ∞0   compactly supported in the interior ofO∩{y    ′ ̸= 0}. In (3.15) the transported
+function Ω∞ is continuous and bounded on its domain, and the velocity is bounded on compact
+subsets ofO, divergence free, measurable in time, and Lipschitz in space on compact sets.
+     Step 4:  characteristics and the vanishing of the limit vorticity.We fix a pointy                   0 ∈R   3 off
+the axis. SinceB(·,τ) is Lipschitz onR                        3 with constantC 1/|τ|and is bounded byC         0¯L(τ)/|τ|, the
+equation  ˙X(τ) =B(X(τ),τ) withX(−1) =y                                                  0 has a unique solutionXon (−∞,−1], absolutely
+continuous on compact subintervals. In order to apply Lemma2.3onU:=O∩{y                            ′̸= 0}, we need
+the graph ofXover [τ        0,−1] to be a compact subset ofUfor everyτ                 0 <−1. This follows from two
+a priori bounds. First, the velocity bound in (3.13) givesZ −1
+                                                |X(τ)|≤|y            0|+C    0      ¯L(¯τ)
+
+                                                                              τ      |¯τ|      d¯τ,                                         (3.16)
+whose right side is finite on [τ 0,−1], since     ¯Lis bounded on bounded sets.  The path’s distance
+to the axis, denoted byϱ(τ) :=|X          ′(τ)|, is absolutely continuous.   SinceBis swirl free with
+|B ′(y,τ)|=|B           r(y,τ)| ≤C         1|y ′|/|τ|byStep 2, it follows that|˙ϱ| ≤ |B                  ′(X,τ)| ≤C         1ϱ/|τ|almost
+everywhere. Gr¨onwall’s inequality on [τ,−1] then yieldsϱ(−1)≤ϱ(τ)|τ|                                          C1, that is,
+                                            ϱ(τ)≥|y       ′0||τ|  −C   1,      for  τ≤−1.
+Hence, the graph ofXover [τ        0,−1] lies in{(y,τ):τ                0 ≤τ≤−1,|y|≤M(τ                          0),|y   ′|≥|y ′0||τ 0|−C   1},
+whereM(τ                  0) is the right side of (3.16) evaluated atτ=τ                   0; this is a compact subset ofU.
+     By (3.15) andStep 2, the pair (Ω               ∞,B) onU=O∩{y             ′ ̸= 0}satisfies the hypotheses of
+Lemma2.3, withλ(τ) =C                                        1/|τ|. From the last estimate inStep 1, we therefore have√
+                              |Ω ∞(y 0,−1)|=   lim τ→−∞ |Ω ∞(X(τ),τ)|≤lim         τ→−∞               2C  2
+                                                                                                    |τ|      = 0,
+which implies Ω∞(·,−1)  =  0 on{y∈R                    3:|y  ′| >0}.   This proves (3.11),  since Θ(·,−1)  =
+|y ′|Ω ∞(·,−1) off the axis and Θ is continuous.
+     Step 5: extracting the limit at the terminal time.Being a weak-∗limit inL                   ∞ of the sequence
+Bn (seeStep 2), the fieldBis determined only up to null sets ofO, and the slice{τ=−1}is one.
+In order to obtain a limit for the fieldsB         n(·,−1), we appeal to a compactness argument rooted
+in the convergence of the curl of these fields to Θe   θ (seeStep 1). By (3.8a), (3.8b), and (3.8c) at
+τ=−1, whereL                    n(−1) = 1, the fieldsB               n(·,−1) are bounded inC            1,1   on every compact subset of
+R3 and satisfy|B             n(·,−1)|≤C               0 there. Passing to a further subsequence, we obtainB            n(·,−1)→B             ∗
+inC    1 on compact subsets ofR   3.  It automatically holds that divB     ∗ = 0 and|B      ∗| ≤C   0.  This
+subsequence refines the one ofStep 1, and|curlB                     n|=|Θ     n|pointwise, so that|curlB             ∗|=|Θ(·,−1)|.
+Due to (3.11) we thus obtain also curlB              ∗ = 0. By elliptic regularityB  ∗ is smooth and each of its
+components is harmonic.                                                                      □
+     Proof of Lemma3.3.WefollowthefivestepsoftheproofofLemma3.2, andweonlyrecord
+the necessary changes.
+     Step 1: compactness of the azimuthal vorticity.Since curlb=ω                     θeθ, by (3.5) we now have
+                                             curlB       n(y,τ) = Θ   n(y,τ)e     θ(a n+ℓ   ny)
+whereverR   n(y) =|a      ′n+ℓ   ny′|/ℓ n >0. Sincea             n does not lie on the symmetry axis we cannot equate
+eθ(a n +ℓ   ny) withe          θ(y); however, becaused                n → ∞anda         ′n = (r n,0) we havee   θ(a n +ℓ   ny)→e        2
+uniformly on compact subsets ofR   3.   SinceR          n(y)≥r         n/ℓn −|y ′| ≥d   n −|y|, we deduce that
+=== PDF PAGE 14 ===
+14                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+|curlB        n|=|Θ     n|on every compact subset ofR     3, for allnlarge depending on the set. The bounds
+on curlB       n and on Θn, the negative-norm estimate for∂     τcurlB       n, and the compactness argument
+ofStep 1of the proof of Lemma3.2apply verbatim, and give (3.12), where Θ is continuous onO
+with|Θ(y,τ)|≤            √2C  1/|τ|. Here we do not consider the limit of the potential vorticities Ω      n.
+     Step 2: the limiting meridional velocity.Exactly as inStep 2of the proof of Lemma3.2, after
+a further diagonal extraction we haveB  n ⇀Band∇B              n ⇀∇Bweakly-∗inL                       ∞ on every compact
+subset ofO, the limit satisfies divB= 0, curlB= Θe                           2, and the bounds in (3.13).  We fix a
+representative in the same way.
+     Step 3: the transport equation for the azimuthal vorticity.In this proof we transport Θ                 n itself.
+From (2.4) and the change of variables (3.5) we obtain
+
+   ∂τΘn+B   n·∇Θ   n = (B n)rRn  Θn+  1Rn∂z |Z n|2+ε   n                    ∆−     1R2n   Θn       on{y∈D         n:R n(y)>0},
+                                                                                                                                     (3.17)
+where (B n)r is the radial component with respect to the original axis. We fixφ∈C         ∞0   compactly
+supported in the interior ofOand test (3.17) againstφ. On suppφwe haveR                                               n(y)≥d         n−|y|→∞
+and|∂        z(φ/R n)|≤C/(d         n−|y|), so that every term on the right side tends to zero asn→∞, by
+the vanishingε                n→0 and the bounds (3.8a) and (3.8c) onB                            n,Z n, and Θn. Here the receding axis,
+namely the fact thatR        n(y)→ ∞, plays the same role as the circulation bound inStep 3of the
+proof of Lemma3.2: it removes the stretching term and the swirl source, while the viscous terms
+vanish becauseε n→0. Passingn→∞in the drift term as in that step, we obtainZ
+
+
+
+                                                 OΘ ∂τφ+B·∇φ   dydτ= 0,                                          (3.18)
+for everyφ∈C         ∞0   compactly supported in the interior ofO.  Here too the transported function
+is continuous and bounded on its domain, and the velocity is bounded on compact subsets ofO,
+divergence free, measurable in time, and Lipschitz in space on compact sets.
+     Step 4: characteristics and the vanishing of the limit vorticity.We fix a pointy                   0 ∈R   3. As in
+Step 4of the proof of Lemma3.2, the equation                    ˙X(τ) =B(X(τ),τ) withX(−1) =y                                                  0 has a unique
+solutionXon (−∞,−1], absolutely continuous on compact subintervals, and the displacement
+bound (3.16) holds. Since hereU=O, that bound alone confines the graph ofXover [τ                                     0,−1] to
+a compact subset ofU, and we need no lower bound on the distance to the axis.  By (3.18) and
+Step 2, the pair (Θ,B) satisfies the hypotheses of Lemma2.3, withλ(τ) =C                                                   1/|τ|, so that√
+                                |Θ(y      0,−1)|=   lim τ→−∞ |Θ(X(τ),τ)|≤lim             τ→−∞  2C  1
+                                                                                               |τ|      = 0,
+which proves (3.11).
+     Step 5: extracting the limit at the terminal time.As inStep 5of the proof of Lemma3.2, the
+weak-∗convergencetothefieldBgivesnolimitforthefieldsB                               n(·,−1). By(3.8a),(3.8b),and(3.8c)
+atτ=−1, whereL                        n(−1) = 1, the fieldsB               n(·,−1) are bounded inC            1,1   on every compact subset of
+R3 and satisfy|B             n(·,−1)|≤C               0 there. Passing to a further subsequence, we obtainB            n(·,−1)→B             ∗
+inC    1 on compact subsets ofR   3, with divB     ∗ = 0 and|B      ∗|≤C   0. This subsequence refines the one
+ofStep 1. Since|curlB                        n|=|Θ     n|oncompactsetsfornlarge, weobtain|curlB                        ∗|=|Θ(·,−1)|, which
+vanishes by (3.11). By elliptic regularityB         ∗ is smooth and each of its components is harmonic.□
+     3.3. Proof of Proposition3.1.Sinceℓ(t)→0, we may fixT                                                   1∈(0,1] for which (3.2) holds,
+so that the fields and the bounds of Section3.1are available.   In particular, (3.3) shows that
+supt∈(−T          1,0)(−t)∥∇b(·,t)∥                      L∞(B(1/2))      ≤C   1.
+=== PDF PAGE 15 ===
+                                AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        15
+
+     Suppose by contradiction that (3.1) fails.  Then there existc                 0 >0, timest             n ↑0 witht          n ∈
+(−T     1,0), and pointsx    n∈B(1/2) with
+                                                        (−t     n)|∇b(x          n,tn)|≥c     0.                                                 (3.19)
+Byrotationalinvariancewemaywithoutlossofgeneralitytakex ′n = (r n,0). Recallthatℓ         n =ℓ(t       n).
+Afterpassingtoasubsequence, eitherr n/ℓn isbounded(finite-axis), orr   n/ℓn→∞(receding-axis).
+These are the two configurations discussed in Section3.1, and we choose the pointsa                       n from (3.5)
+accordingly: in the finite-axis configuration we definea           n := (0,0,x       n·e z), while in the receding-axis
+configuration we definea           n :=x    n. In both cases|a          n|≤|x n|<   12, and the imagey         ∗n := (x n−a   n)/ℓ n
+ofx   n under the zoom-in from (3.5) is (r         n/ℓn,0,0) and (0,0,0) respectively, hence bounded.
+     In terms of the doubling constantD≥1 from (1.2a), we define                ¯L: (−∞,−1]→[1,∞) by
+                                                            ¯L(τ) :=D         ⌈log  2|τ|⌉  .
+
+This function is non-decreasing in|τ|and satisfies        ¯L(τ)≤C           T  for−T≤τ≤ −1, withC                            T  as
+in (3.7).  By monotonicity and doubling,L                  n(τ)≤D        k for allτ∈[−2              k,−2    k−1   )∩[−T,−1] and
+0≤k≤⌈log          2T⌉, for all largen(depending onT). Therefore,L                                           n≤ ¯Lon [−T,−1] for everyT >1,
+and allnlarge enough depending onT. Thus, we have verified assumption (3.10).
+     We apply Lemma3.2in the finite-axis configuration and Lemma3.3in the receding-axis con-
+figuration.  In both cases, along a subsequenceB                       n(·,−1)→B             ∗ inC    1 on compact subsets ofR   3,
+with each component ofB   ∗ being harmonic. Moreover,|B     ∗|≤C   0. A bounded harmonic function
+onR    3 is constant, and thus∇B      ∗≡0.
+     Sincey        ∗n is bounded, after passing to a further subsequence we havey ∗n →y   ∗.  Differentiat-
+ing (3.5), we obtain∇B                       n(y ∗n,−1) = (−t         n)∇b(x         n,tn), and since∇B             n(·,−1)→∇B            ∗ uniformly on
+compact sets, passing to the limit in (3.19) yields|∇B                    ∗(y ∗)|≥c     0. This contradicts∇B               ∗≡0, and
+Proposition3.1is proved.                                                                             □
+
+                                            4. The local regularity conclusion
+     In this section we use the asymptotic vanishing statement (1.5) (which forρ             0 = 1/2 is (3.1)) to
+prove regularity of the flow on a smaller fixed ball, which completes the proof of Theorem1.2.
+     Proposition4.1 (Smallness of(−t)∥∇b(·,t)∥                                                 L∞ implies regularity).Suppose that(1.5)
+holds for someρ          0∈(0,1). Then(0,0)is a regular point.
+     Proof of Proposition4.1.WefixaregularannulusforuinsideB(ρ                                                       0),asinLemma2.2; we
+also fix the timet        0 and the radiiR       − < R+ this lemma supplies, together with anR   ∗∈(R   −,R+).
+Letχbe a smooth radial cutoff supported inB(R              ∗), equal to one onB(ρ) for someρ∈(R                     −,R∗),
+so that the derivatives ofχare supported in the regular annulus{R             − <|x|<R        +}ofu.
+     We writeG(t) =∥∇b(·,t)∥                                  L∞(B(ρ       0)), and for eachη >0 we fixt          η∈(t    0,0) so close to zero that
+
+                                                  G(t)≤          η(−t)             on       (t η,0).                                            (4.1)
+
+Notethatsincetheradialcomponentb r =u   r ofbvanishesontheaxiswehave|b        r/r|≤G. Moreover,
+the azimuthal velocityu  θ vanishes on the axis of symmetry, is bounded on∂B(R        ∗)×(t       0,0) and
+on the initial time-sliceB(R                  ∗)×{t   η}.  From the swirl equation (2.3) we have that the function
+ψ= (−t)         ηuθ satisfies
+                                     ∂tψ+b·∇ψ−∆ψ+                       r−2   + brr +   η(−t)     ψ= 0.
+Since|b           r/r|≤G(t)≤η/(−t), the zeroth order coefficient satisfies
+
+                                                     r−2   + brr +   η(−t)     ≥r  −2  ≥0
+=== PDF PAGE 16 ===
+16                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+onB(R       ∗)×(t      η,0).  Although the coefficientr  −2   is singular on the axis,ψvanishes there, since
+uθ does, so that a positive maximum or a negative minimum ofψwhich is not attained on the
+parabolic boundary is attained off the axis, where the classical argument applies.  Applying the
+maximum principle, we obtain a constantC η >0 such that|ψ| ≤C                   η onB(R       ∗)×(t      η,0), and
+therefore
+                          W(t) :=∥u              θ(·,t)∥      L∞(B(R    ∗)) =∥w(·,t)∥               L∞(B(R    ∗))≤C   η(−t)     −η  .                    (4.2)
+     We let
+                                   Y(t) =∥χω(·,t)∥                     2L2,       M(t) =∥χ∇ω(·,t)∥                              2L2,
+whereasusual,ω= curlu. Takingthecurlof (1.1),andsplittingtheadvectingvelocityasu=b+w
+(cf. (2.1)), we obtain
+                                   ∂tω−∆ω+curl    (b·∇)u  +curl (w·∇)u   = 0.
+We test this equation againstχ              2ω.  Becauseuand all its spatial derivatives are bounded on the
+regular annulus, and thus on supp(∇χ), every term in which a derivative falls onχis bounded
+by a constant depending only onχand theu-bounds.  The diffusion term therefore yieldsMup
+to such an a priori bounded term. For the nonlinear contribution from the meridional term, since
+divb= 0 we have the identity curl (b·∇)u  
+
+                                                            i =∂   j(b jωi)+ε   ikℓ(∂ kbj)(∂   juℓ),
+whereε           ikℓ is the Levi-Civita symbol. By the definitions ofGandY, the second term is bounded
+byG∥χ∇u∥                 L2Y 1/2  .  The first term contributes only a priori bounded terms which contain∇χR b·∇|ω|          2χ2−2 R b·∇χ|ω|            2χ=− R b·∇χ|ω|            2χ. For
+because divb= 0 implies R ∂j(b jωi)ω iχ2 =−    12
+the contribution from the nonlinear swirl term, we move the curl ontoχ    2ω, and by the definition
+ofWthis contributes an a priori bounded term and a term bounded by 2W∥χ∇u∥                         L2M1/2  .  We
+have thus shown that there existsC≥1, which depends on the bounds ofuand its derivatives on
+the regular annulus, such that
+                             1  d
+                             2 dtY+M≤G∥χ∇u∥                            L2Y 1/2   +2W∥χ∇u∥                 L2M1/2   +C.
+It remains to bound∥χ∇u∥                    L2.  The whole-space div-curl identity, applied to the compactly sup-
+ported fieldχu, together with divu= 0, gives
+                                                     ∥∇(χu)∥               2L2 ≤C(Y+1),
+upon possibly enlarging the constantC; since∇χis supported in the regular annulus, the same
+bound holds for∥χ∇u∥                 2L2. AbsorbingM                     1/2    into the dissipation by Young’s inequality, we arrive at
+                                            d
+                                           dtY+M≤C           ∗ G+W       2+1(Y+1),                                       (4.3)
+for a constantC ∗≥1.
+     At this point we fixη= 1/(16C              ∗)≤1/16; this choice is permissible becauseC                 ∗ depends only
+on the cutoffχand on the bounds onuon the regular annulus, and these were fixed beforeηwas
+chosen. Combining (4.3) with the bounds in (4.1) and (4.2), with the above choice ofηwe obtain
+from Gr¨onwall’s inequality that                      Z t                                        !
+                                                             C∗η
+                    Y(t)≤(Y(t                 η)+1)exp         (−s)       +  C∗C2η(−s)       2η  +C  ∗ds≤C   ′η(−t)     −C  ∗η
+                                                          tη
+for allt∈(t          η,0), for a suitable constantC  ′η >0. The div-curl estimate above and the homogeneous
+Sobolev inequality therefore give
+                                  ∥u(·,t)∥           L6(B(ρ))     ≤∥χu(·,t)∥             L6(R 3)≤C   ′′η(−t)     −C  ∗η/2  ,
+=== PDF PAGE 17 ===
+                                AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        17
+
+for allt∈(t          η,0).  HereB(ρ) is the fixed ball on whichχ≡1.  Since 2C                       ∗η= 1/8<1, the above
+boundimpliesalocalLadyzhenskaya-Prodi-Serrinregularitycondition(cf.Serrin[22]foru∈L                 qtLpx
+with 3/p+2/q <1, and Struwe [23, Theorem 3.1] for 3/p+2/q= 1)
+                                                       u∈L     4(t η,0;L    6(B(ρ))).
+ThespecificformoflocalregularityweneedheremaybefoundforinstanceinGustafson,Kang,and
+Tsai [8, Corollary 1.2(i)]: ifu∈L            4((−r       2,0);L      6(B(r))) for somer >0, then the top of the cylinder
+(0,0) is a regular point in the sense of (1.3). Here we apply this result withr= min{ρ,|t                                     η|1/2  }. □
+     Proof of Theorem1.2.By Proposition3.1, the bounds (1.4) give (3.1), which is (1.5) with
+ρ0 = 1/2, and Proposition4.1makes (0,0) a regular point.                                         □
+     Note that Theorem1.2gives regularity not just forℓ(t) = (−t)                                        γ withγ∈(0,1/2), but also for
+power laws with a logarithmic correction.
+     Corollary4.2 (Local power laws and logarithmic corrections).Let(u,π)be as in
+Theorem1.2, with(1.4)being replaced by the two local bounds
+                                                            a,  ∇2u(·,t)  L∞(B(1))   ≤C(−t)          −1−γ                            −a  ,
+  ∥u(·,t)∥           L∞(B(1))   ≤C(−t)             γ−1  log   e(−t)                                                        log   e(−t)
+                                                                                                                                          (4.4)
+for allt<0sufficiently close to zero, with
+   •either0<γ <1/2anda∈R,
+   •orγ= 1/2anda>0.
+Then(0,0)is a regular point of the Navier-Stokes solution(u,π).
+     Proof of Corollary4.2.We takeℓ(t) = (−t)                        γ(log(e/(−t)))            a. Its logarithmic derivative is
+                                                      tℓ′(t)
+                                                       ℓ(t)      =γ−             alog(e/(−t))          .
+Sincet <0, in each stated rangeℓis non-increasing near zero, is doubling, and tends to zero. We
+also have                                                                            −2a
+                                            (−t)                       log   e              −→0.
+                                            ℓ(t)     2 = (−t)       1−2γ     (−t)
+Thus, for some 0<T  1≪1, the functionℓsatisfies the requirements of Definition1.1with (−T                                                      1,0)
+and (−T     1/2,0) in place of (−1,0) and (−1/2,0), and on (−T                                  1,0) the bounds (4.4) hold and are
+nothing but (1.4). Applying Theorem1.2tou                                  λ(x,t) =λu(λx,λ              2t),π    λ(x,t) =λ       2π(λx,λ    2t), with
+λ=T      1/21     and the Euler lengthλ         −1  ℓ(λ   2t), for which (1.4) holds with the same constants, we
+conclude.                                                                                                   □
+
+                                             5. Weaker vorticity assumptions
+     ThesecondderivativeboundinTheorem1.2ismorethantheproofuses. Inthissectionwestate
+the form of the theorem which the proof actually gives, with a H¨older seminorm of the azimuthal
+vorticity and a bound on the potential vorticity in place of∇   2u. The only additional ingredient we
+need is an interior div-curl estimate.
+     Theorem5.1 (Local regularity under matched vorticity bounds).Let0< α≤1.  Let
+(u,π)andℓbe as in Theorem1.2, with(1.4)being replaced by the assumptions
+
+ ∥u(·,t)∥           L∞(B(1))   ≤C   0 ℓ(t)(−t)      ,   [ω  θ(·,t)]    Cα(B(1))   ≤      Cα(−t)ℓ(t)             α ,  ∥Ω(·,t)∥            L∞(B(1))   ≤    CH(−t)ℓ(t)           ,(5.1)
+=== PDF PAGE 18 ===
+18                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+for allt∈(−1,0).                   3  Then(0,0)is a regular point.  Whenα= 1the third bound follows from the
+second, and may be omitted.
+      For the power lawℓ(t) = (−t)               γ, the three upper bounds in (5.1) are (−t)              γ−1   , (−t)     −1−αγ      , and
+(−t)     −1−γ      . That is, the rescaled fieldU(y,t) = (−t)                      1−γ   u((−t)           γy,t) is bounded, hasC        α azimuthal
+vorticity, and has bounded potential vorticity on the expanding ballB(1/(−t)                       γ).  Lemma2.1(b)
+turns the Hessian bound in (1.4) into the second bound in (5.1) atα= 1, and Lemma2.1(a) turns
+it into the third. Theorem1.2is therefore the caseα= 1 of Theorem5.1.
+      5.1. Interior div-curl estimates.The bounds in (5.1) control the velocity and the H¨older
+seminorm of the azimuthal vorticity.  The following lemma converts them into a gradient bound,
+and after the zoom-in into a uniformC                1,β  bound. Part (a) passes from the scalarω           θ to the vector
+ωθeθ, and part (b) records the interior Schauder estimates for the div-curl system, as used here.
+      Lemma5.2 (Interior div-curl estimates).Let0<α≤1.
+(a)Letϖ∈C                α(B(R))be invariant under rotations about thez-axis and equal to zero on it. Then,
+       withϖe        θ extended by zero to the axis, we have
+                                                      [ϖe θ]Cα(B(R))     ≤3[ϖ]        Cα(B(R))      .                                            (5.2)
+ (b)LetFbe a smooth divergence-free field on a ballB(x                  0,R), and letS=∥F∥                    L∞(B(x       0,R))    and
+       K= [curlF]               Cα(B(x       0,R))   . Then
+
+                                                                                                     α         1
+                                      ∥∇F∥        L∞(B(x       0,R/2))  ≤C(α)      SR−1   +S        1+α   K  1+α     ,                             (5.3)
+
+       and, for every0<β <α,
+                                              ∥F∥     C1,β (B(x       0,R/2))  ≤C(R,α,β)(S+K).                                     (5.4)
+      Proof of Lemma5.2.For part (a), setM= [ϖ]                                     Cα(B(R))      .  If one of the pointsx,y∈B(R)
+lies on the axis, then the vanishing ofϖon the axis gives
+                                                |ϖ(x)e          θ(x)−ϖ(y)e                  θ(y)|≤M|x−y|                      α.
+Suppose now that both points are off the axis. After interchanging them if necessary, assume that
+0<r  y ≤r   x, and letd=|x−y|. The projections onto the axis belong toB(R), so|ϖ(y)|≤Mr                                                   αy.
+Moreover,                                                                               n          o
+                                                      |e θ(x)−e         θ(y)|≤min          2,  2dry  .
+
+It follows that
+                          |ϖ(x)e          θ(x)−ϖ(y)e                  θ(y)|≤|ϖ(x)−ϖ(y)|+|ϖ(y)||e                                             θ(x)−e         θ(y)|
+                                                                  ≤Md   α+2Mr  αy min{1,d/r           y}≤3Md     α,
+where the last inequality follows separately fromd≥r              y andd<r       y. This proves (5.2).
+      For part (b), we writeG= curlF. Since divF= 0, we have−∆F= curlG, so that for every
+x1 ∈B(x        0,R) each component ofFsolves the Poisson equation−∆F                                 j =∂   k εjkℓ(G ℓ−G   ℓ(x 1)).
+On a ballB(x            1,2h)⊂B(x                 0,R) the interior Schauder estimate [7, Theorem 8.32], applied after
+rescaling to the unit ball, gives for every 0<β <α
+                ∥∇F∥        L∞(B(x       1,h))   +h   β[∇F]       Cβ(B(x       1,h))  ≤C(α,β) h−1  ∥F∥     L∞(B(x       1,2h))    +h   αK   .       (5.5)
+
+Here we used that|G−G(x                      1)| ≤(2h)           αKand that [G]        Cβ(B(x       1,2h))    ≤(4h)         α−β    KonB(x              1,2h).
+For (5.3) we takeβ=α/2,x                     1∈B(x        0,R/2), andh= min{R/4,(S/K)                                    1/(1+α)       }, withh=R/4 when
+K= 0. The right side of (5.5) is then at mostC(α,β)(S/h+h                                       αK), which is bounded by the right
+
+      3Hereω        θ is viewed as a rotation-invariant scalar function onB(1), equal to zero on the axis, and the H¨older
+seminorm is taken with respect to the Euclidean distance.
+=== PDF PAGE 19 ===
+                               AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        19
+
+side of (5.3) after enlargingC(α).  For (5.4) we takeh=R/4 in (5.5) at everyx                                                                  1 ∈B(x        0,R/2);
+pairs of points at distance at leastR/4 are handled by the bound on∥∇F∥                        L∞(B(x       0,R/2)) .       □
+     5.2. Proof of Theorem5.1.
+     Proof of Theorem5.1.The last assertion of the theorem is immediate: whenα= 1, since
+ωθ vanishes on the axis, the second bound in (5.1) gives|ω            θ(x,t)|≤C        αr/((−t)ℓ(t)), which is the
+third bound withC        H =C   α.
+     By Proposition4.1, it suffices to prove that (3.1) holds under the assumption (5.1). The proof
+of Proposition3.1uses the hypotheses (1.4) only through the bounds (3.3) and (3.4), through the
+rescaled bounds (3.8), and through Lemmas3.2and3.3.  We first show that (3.3) and (3.4) hold
+under the assumption (5.1).  Then, we record what replaces the Hessian bound (3.8b) after the
+zoom, and we verify that the two lemmas survive the replacement.
+     The gradient and potential vorticity bounds.We fixt∈(−T                            1,0), withT          1 as in (3.2), and we
+apply Lemma5.2(a) onB(1): the second bound in (5.1) gives
+
+                                 [curlb(·,t)]               Cα(B(1))    = [ω θ(·,t)e      θ]Cα(B(1))   ≤     3C  α(−t)ℓ(t)             α .                           (5.6)
+
+Forx∈B(3/4) we apply (5.3) tob(·,t) onB(x,1/4)⊂B(1), withS≤C                                                                                    0ℓ(t)/(−t) by the first
+bound in (5.1), and withK≤3C                         α/((−t)ℓ(t)                 α) by (5.6).  The lengthℓ(t) cancels in the product
+Sα/(1+α)         K1/(1+α)         , while 4ℓ(t)≤1 by (3.2).   Taking the supremum overx∈B(3/4) therefore
+gives (3.3) with constant
+                                                                             α             1
+                                              C1 :=C(α)         C0+C       1+α0    (3C   α)1+α   .
+
+The bound (3.4) is the third bound in (5.1), withC                       H in place of√2C  2.
+     The rescaled bounds.The fields and the domains of Section3.1are defined as before.  The
+bounds (3.8a), (3.8c), and (3.8e) hold as stated, and (3.8d) holds withC                                              H in place of √2C  2.  In
+placeoftheHessianbound(3.8b), thechangeofvariables(3.5)appliedtothesecondboundin(5.1)
+and to (5.6) gives, for everyτ≤−1 and allnlarge depending onτ,
+
+        [Θn(·,τ)]    Cα(D n)≤      Cα|τ|L    n(τ)   α ≤ Cα|τ|   ,      [curlB         n(·,τ)]    Cα(D n)≤     3C  α|τ|L    n(τ)   α ≤ 3C  α|τ|    .       (5.7)
+
+Here we used thatL        n≥1 forτ≤−1.
+     The two lemmas.We claim that the conclusions of Lemmas3.2and3.3remain valid when the
+Hessian bound (3.8b) is replaced by (5.7), with the other rescaled bounds retained as described
+above. Indeed, the Hessian bound enters the proofs of the two lemmas inStep 1andStep 5only:
+Steps 2, 3, and 4use,besidesthehypothesesofthetwolemmas,onlythebounds(3.8a),(3.8c),(3.8d),
+and (3.8e), the vanishing ofε            n, and the conclusions ofStep 1.
+     InStep 1itmakescurlB             n andΘn Lipschitziny, uniformlyinnoncompactsets. Thisinforma-
+tion is used twice: in the compactness inequality, through the compact embeddingC             0,1  (B(¯y,ρ)),→
+C0(B(¯y,ρ)), andfortheequicontinuityinyofthescalarsΘ             n. Under(5.7)thetwofieldsareinstead
+H¨older continuous inywith exponentα, uniformly innon compact sets.  Since the embedding
+C0,α (B(¯y,ρ)),→C                  0(B(¯y,ρ)) is compact as well, the compactness inequality holds with theC               0,α
+norm in place of theC      0,1   norm, and the equicontinuity inyfollows from the H¨older bound. The
+rest ofStep 1is unchanged. In particular,|Θ|≤                    √2C  1/|τ|, and in Lemma3.2the limit Ω                     ∞ inherits
+the boundC         H/|τ|from (3.8d), so that the bound           √2C  2/|τ|used inStep 4becomesC                        H/|τ|.
+     InStep 5, the bounds (3.8a) and (5.7) atτ=−1, whereL                                  n(−1) = 1, together with (5.4) on
+unit balls, which lie inD   n fornlarge, boundB                 n(·,−1) inC            1,β   on every compact subset ofR   3,
+for everyβ < α.  This replaces theC                1,1   bound.  A further subsequence again converges inC    1 on
+compact sets, and the rest ofStep 5is unchanged. This proves the claim.
+=== PDF PAGE 20 ===
+20                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+     Conclusion.The proof in Section3.3then gives (3.1) under the weaker assumption (5.1), and
+thus Proposition4.1proves Theorem5.1.                                                             □
+
+                            6. Sublinear Euler profiles under weaker regularity
+     In this section we carry out, for the self-similar Euler profiles of [4, Section 4], the weakening
+of regularity hypotheses announced in Remark1.3(d).  In Section 4 of our previous paper [4], we
+considered axisymmetric, globally self-similar solutions of the 3D Euler equations, with self-similar
+profileUand similarity exponentγ >0. Constantin, Ignatova, and Vicol [4, Theorem 4.5] proved
+thatγ≥            12 foreverynonzeroC                2 profilesatisfyingU(0) = 0, sublinearityatinfinity, andthefar-field
+bounds
+                           |U(y)|≤C|y|⟨y⟩                    −1/γ   ,     |∇U(y)|+|curlU(y)|≤C⟨y⟩                                      −1/γ   .
+That paper also fixes the spatial units by the normalization∥∇                           2U∥   L∞ = 1.  The normalization
+does not enter the argument below. Here we retainU(0) = 0, continuity, sublinearity, local H¨older
+regularity of the azimuthal vorticity, and local boundedness of the potential vorticity, but impose
+no far-field decay beyond sublinearity. We use the pressure-free weak form of the self-similar Euler
+equation (1−γ)U+γy·∇U+U·∇U+∇P= 0. The identityy·∇U= div(y⊗U)−3Ugives (6.1)
+below.
+     Proposition6.1 (Sublinear self-similar Euler profiles).Letγ >0and letU∈C(R                                                                      3;R 3)
+be axisymmetric, withZdivU= 0inD                  ′(R 3),U(0) = 0,|U(y)|/|y|→0as|y|→∞, and
+
+                                  (1−4γ)U·Ξ−γ(y⊗U) :∇Ξ−(U⊗U) :∇Ξ                                          dy= 0,                    (6.1)
+                            R3
+for allΞ∈C     ∞0 (R 3;R 3)withdivΞ = 0.   LetU=b                     U +U   θeθ,  withb        U  =U   rer +U   zez,  be the
+decomposition ofUin the cylindrical frame of the variabley, wherer=|y                          ′|. Assume thatcurlb                U =
+ωθeθ  inD   ′(R 3), whereω   θ  is an axisymmetric scalar which vanishes on the axis and belongs to
+C0,αloc(R 3)for someα∈(0,1]. Also assume that the potential vorticityω                                         θ/ris bounded onB(ρ)∩{r >
+0}for everyρ>0; this is automatic whenα= 1. IfU̸≡0, thenγ≥                                                             12. IfU   θ≡0, thenU≡0for
+everyγ >0.
+     Proof of Proposition6.1.The proof is carried out in six steps.
+     Step 1: regularity of the meridional part.Since a continuous axisymmetric field is parallel toe          z
+on the axis,U        r andU       θ vanish there, andb       U is continuous onR    3. The identity div(U θeθ) = 0 holds
+inD   ′(R 3): away from the axis it follows from the cylindrical divergence formula, while integration
+over the angular variable and the identity (U θeθ)·e  r = 0 exclude an axis contribution.  Hence
+divb      U = 0 inD   ′(R 3).
+     Wefixρ>0,andfor0<ε≤ρ/2setb                         ε =b   U∗η  ε,whereηisaradialmollifiersupportedinB(1).
+Radialconvolutionpreservesrotationequivarianceandreflectionsymmetryacrossplanescontaining
+theaxis. Thusb    ε issmooth, axisymmetric, andmeridional, withdivb      ε = 0andcurlb       ε = (ω θeθ)∗η   ε.
+By (5.2),
+                     [curlb        ε]Cα(B(ρ/2))      ≤3[ω      θ]Cα(B(ρ))     ,     ∥b   ε∥L∞(B(ρ/2))      ≤∥b  U∥L∞(B(ρ))      .
+The bound (5.4) onB(ρ/2) therefore boundsb                                 ε inC    1,β (B(ρ/4)) uniformly inε, for everyβ < α.
+For a fixedβ < α, we apply this statement with an exponent strictly betweenβandα.  Since
+bε →b    U  uniformly on compact sets, compactness givesb   U ∈C   1,βloc(R 3) andb       ε →b    U  inC    1 on
+compact sets. In particular,V:=γy+b                                 U is locally Lipschitz, with divV= 3γ.
+     Step 2:  characteristics.SinceVis locally Lipschitz, the equation                              ˙Y=V(Y) has unique
+solutions. ByStep 1,U         r = 0 on the axis, so thatVis parallel toe              z there, the axis is invariant, and,
+by uniqueness, a solution which starts off the axis stays off it. By sublinearity we may fixR    ♭ with
+|U(y)|≤           γ2|y|for|y|≥R                ♭; since|b          U|≤|U|, we then have        ddτ|Y|   2 = 2γ|Y|        2 +2Y·b      U(Y)≥γ|Y|                2
+whenever|Y|≥R          ♭,sothat|Y(τ)|≤max{|Y(0)|,R                                         ♭}forτ≤0. Thestandardcontinuationcriterion
+=== PDF PAGE 21 ===
+                                AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        21
+
+for locally Lipschitz ordinary differential equations now shows that the backward characteristic
+startingatapointy 0offtheaxisexistson(−∞,0],staysinthecompactsetK                0 :=                                    B(max{|y                 0|,R ♭}),
+and stays off the axis.
+     Step 3:  a stationary form of Lemma2.3. LetE ⊂R                              3 be open,V:E →R              3 locally Lipschitz
+with divV=c,f∈C(E),κ∈R, and   Z
+
+
+
+                                      Ef κψ−V·∇ψ    dy= 0       for allψ∈C            ∞0 (E).                             (6.2)
+Equation (6.2) is the weak form ofV·∇f+µf= 0, forµ:=κ+c.  IfY: [τ                                                         0,τ1]→ Esolves
+˙Y=V(Y), thene                     µτf(Y(τ)) is constant. In order to prove this fact, we letN⊂Ebe a compact
+neighborhood ofY([τ         0,τ1]), we takeδ <dist(N,E            ∁), and we setf     δ =f∗η       δ onN.  Testing (6.2)
+withψ=η              δ(y−·) and using R(V(y)−V(ζ))·(∇η                             δ)(y−ζ)dζ=−c, due to divV=c, we obtain
+that onN:                           Z f(ζ)−f(y)     V(y)−V(ζ)     ·(∇η      δ)(y−ζ)dζ+c(f                        δ−f) =:e          δ.
+          V·∇f      δ +µf   δ =
+
+The error terme         δ may be directly bounded as|e     δ|≤Cν(δ)(L           N +|c|), whereνis the modulus of
+continuity off, andL            N is the Lipschitz constant ofV, both on the closedδ-neighborhood ofN,
+which is a compact subset ofE. Up to sign,e              δ is the commutator (V·∇f)∗η              δ−V·∇f          δ of DiPerna eµτfδ(Y(τ))   =e   µτeδ(Y(τ)), letting
+and Lions [5, Lemma II.1]. Since      ddτ                                                       δ→0 proves the claim.
+     Weshallalsousethisstatementwhenthescalaridentityisinitiallyknownonlyforaxisymmetric
+test functions. Suppose thatEis invariant under rotationsR                           ϑ about thez-axis,fis axisymmetric,
+andV(R           ϑy) =R     ϑV(y). For an arbitraryψ∈C                        ∞0 (E), define
+                                                                      Z  2π
+                                                      ψ(y) =        12π
+                                                                        0   ψ(R    ϑy)dϑ.
+A change of variables shows that the left side of (6.2) has the same value atψand at                                            ψ. Therefore,
+validity for all axisymmetric test functions implies validity for all test functions.
+     Step 4:  the swirl.We set Γ :=rU               θ  =y   1U2 −y   2U1, which is continuous onR    3.   For an
+axisymmetricψ∈C                          ∞0 (R 3), the test function Ξ =ψ(e        z×y) =ψre         θ is divergence free, and satisfies
+∂iΞj =∂   iψ(e    z×y)     j +ψε   j3i  . Moreover,U·∇ψ=b                 U ·∇ψbecauseψis axisymmetric. With this
+test function Ξ, equation (6.1) gives                         Z           Z
+
+                                                 (1−5γ)           Γψ−          ΓV·∇ψ= 0.
+
+By the rotational averaging observation inStep 3, this identity holds for everyψ∈C              ∞0 (R 3). Step 3
+withE=R               3,κ= 1−5γ,c= 3γ, andµ= 1−2γgivese                                               (1−2γ)τ         Γ(Y(τ)) = Γ(y               0) forτ≤0. Since Γ
+is bounded onK    0, ifγ <    12, then lettingτ→−∞gives Γ(y                            0) = 0 for everyy      0 off the axis, so that
+Uθ≡0 andU=b                 U.
+     Step 5:  the potential vorticity.AssumeU=b                                      U, and letχ∈C        ∞0 ({r >0}) be axisymmetric.
+Set Ξ = curl(χe θ),ψ:=rχ, andq:=ω                           θ/r, which is continuous on{r >0}. We identify the three
+terms of (6.1). First,          Z                                      Z             Z
+                                                          bU·Ξ =           ωθχ=          qψ.
+To justify the next two identities at the stated regularity, we write curlb       ε =ω   θ,εeθ.  ByStep 1,
+bε→b    U inC    1 on the compact support ofχ, and henceω                 θ,ε→ω    θ uniformly there. Using curl(y·
+=== PDF PAGE 22 ===
+22                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+∇b   ε) = curlb       ε+y·∇curlb            ε andy·∇e             θ = 0, we obtainZZ
+
+                         −     (y⊗b       U) :∇Ξ = limε→0     (3b   ε+y·∇b         ε)·Ξ
+                                                           Z
+                                                  = limε→0    (4ω   θ,ε+y·∇ω         θ,ε)χ
+                                                     Z                           Z
+                                                  =      ωθ(χ−y·∇χ) =               q(2ψ−y·∇ψ).
+
+Similarly, since divb      ε = 0,b   ε·∇b   ε = curlZb       ε×b   ε+∇(|b          ε|2/2), and divΞ = 0, we haveZ
+
+                      −     (b U⊗b   U) :∇Ξ = limε→0        (b ε·∇b   ε)·Ξ
+                                                         Z
+                                                = limε→0    (ω θ,εeθ×b   ε)·curl(χe    θ)
+                                                    Z                                       Z
+                                                =      (ω θeθ×b   U)·curl(χe    θ) =−           qbU·∇ψ,
+
+where the last equality uses the pointwise identity
+                                       (e θ×b   U)·curl(χe    θ) =−r     −1  bU·∇(rχ).
+Summing the three terms gives                          Z          Z
+
+                                            (1−2γ)         qψ−        qV·∇ψ= 0
+
+for every axisymmetricψ∈C                          ∞0 ({r >0}), since any suchψhas the formψ=rχwithχ=ψ/r∈
+C∞0 ({r >0}). By the rotational averaging observation inStep 3, the identity holds for every test
+function inC   ∞0 ({r >0}).  Step 3 withE={r >0},κ= 1−2γ,c= 3γ, andµ= 1+γgives
+e(1+γ)τ       q(Y(τ)) =q(y                 0) forτ≤0.  Sinceqis bounded onK                            0∩{r >0}by hypothesis, letting
+τ→−∞givesq(y                  0) = 0. Thusω    θ≡0 on{r >0}, hence onR                       3 by continuity.
+     Step 6:  conclusion.We have shown that curlU= curlb                                     U = 0 and divU= 0 inD          ′(R 3), so
+∆U= 0 in distributions.   Thus, each component ofUis smooth and harmonic.   A harmonic
+function with sublinear growth is constant, andU(0) = 0 givesU≡0.  The assumptionγ <                                              12
+was used inStep 4only; therefore, this proof also shows that a swirl-free profile vanishes for every
+γ >0.                                                                                                        □
+
+                                                   Acknowledgments
+     The work of P.C. was partially supported by NSF grant DMS-2606072. The work of M.I. was
+partially supported by NSF grant DMS-2204614. The work of V.V. was partially supported by the
+Collaborative NSF grant DMS-2307681 and by a Simons Investigator Award.
+
+                                     Disclaimer on the use of AI systems
+     PubliclyavailableversionsofClaude(Opus5andFable5.1,withinClaudeCode)andChatGPT
+(SolandAstra, withinCodex)wereusedinthepreparationofthismanuscript. Thesesystemswere
+givenaccesstoourpaper[4](whichwaswrittenwithouttheuseofAIsystems),fromwhichthecore
+idea of the proof is taken, and to an early draft of this manuscript, written entirely by the authors,
+which contained the whole proof at the level of an eight-page sketch. Claude and ChatGPT were
+used to fill in the proofs of routine lemmas and arguments in that draft, to perform an extended
+bibliographic search, and to produce the TikZ figure. Over the course of two extended sessions of
+Claude Code and Codex, the manuscript was then polished, in its exposition and in the verification
+of its mathematical computations, under the close guidance and supervision of the authors. Every
+suggestion, computation, and reference produced by these systems was independently verified and,
+=== PDF PAGE 23 ===
+                               AXISYMMETRIC NAVIER-STOKES WITH AN EULER LENGTH                                        23
+
+where necessary, corrected or reformulated by the authors, who take full responsibility for the
+manuscript as it is presently written.
+
+                                                              References
+
+ [1]L. Caffarelli, R. Kohn, and L. Nirenberg, Partial regularity of suitable weak solutions of the Navier-Stokes
+     equations,Comm. Pure Appl. Math.35(1982), no. 6, 771–831.doi:10.1002/cpa.3160350604.
+ [2]C.-C.  Chen,  R.  M.  Strain,  H.-T.  Yau,  and  T.-P.  Tsai,  Lower  bound  on  the  blow-up  rate  of  the  ax-
+     isymmetric  Navier-Stokes  equations,Int.  Math.  Res.  Not.  IMRN(2008),  no.  9,  Art.  ID  rnn016,  31  pp.
+     doi:10.1093/imrn/rnn016.
+ [3]C.-C.  Chen,  R.  M.  Strain,  T.-P.  Tsai,  and  H.-T.  Yau,  Lower  bounds  on  the  blow-up  rate  of  the  ax-
+     isymmetric  Navier-Stokes  equations  II,Comm.  Partial  Differential  Equations34(2009),  no.  3,  203–232.
+     doi:10.1080/03605300902793956.
+ [4]P. Constantin, M. Ignatova, and V. Vicol, On putative self-similarity for incompressible 3D Euler,Courant
+     Journal of Pure and Applied Mathematics, to appear.arXiv:2602.17570v3.
+ [5]R. J. DiPerna and P.-L. Lions, Ordinary differential equations, transport theory and Sobolev spaces,Invent.
+     Math.98(1989), no. 3, 511–547.doi:10.1007/BF01393835.
+ [6]L. Escauriaza, G. A. Seregin, and V.     ˇSver´ak,L      3,∞  -solutions of the Navier-Stokes equations and backward
+     uniqueness,Uspekhi Mat. Nauk58(2003), no. 2, 3–44; English transl. inRussian Math. Surveys58(2003),
+     no. 2, 211–250.doi:10.1070/RM2003v058n02ABEH000609.
+ [7]D. Gilbarg and N. S. Trudinger,Elliptic partial differential equations of second order, Classics in Mathematics,
+     Springer-Verlag, Berlin, 2001. Reprint of the 1998 edition.doi:10.1007/978-3-642-61798-0.
+ [8]S.Gustafson,K.Kang,andT.-P.Tsai,InteriorregularitycriteriaforsuitableweaksolutionsoftheNavier-Stokes
+     equations,Comm. Math. Phys.273(2007), no. 1, 161–176.doi:10.1007/s00220-007-0214-6.
+ [9]G. Koch, N. Nadirashvili, G. A. Seregin, and V.     ˇSver´ak, Liouville theorems for the Navier-Stokes equations and
+     applications,Acta Math.203(2009), no. 1, 83–105.doi:10.1007/s11511-009-0039-6.
+[10]O. A. Ladyzhenskaya, On unique solvability “in the large” of three-dimensional Cauchy problem for Navier-
+     Stokes equations with axial symmetry,Zap. Nauchn. Sem. LOMI7(1968), 155–177 (Russian).Math-Net.Ru:
+     znsl2240.
+[11]O.A.LadyzhenskayaandG.A.Seregin, Onpartialregularityofsuitableweaksolutionstothethree-dimensional
+     Navier-Stokes equations,J. Math. Fluid Mech.1(1999), no. 4, 356–387.doi:10.1007/s000210050015.
+[12]F.-H. Lin, A new proof of the Caffarelli-Kohn-Nirenberg theorem,Comm. Pure Appl. Math.51(1998), no. 3,
+     241–257.doi:10.1002/(SICI)1097-0312(199803)51:3<241::AID-CPA2>3.0.CO;2-A.
+[13]W. S. O˙za´nski and S. Palasek, Quantitative control of solutions to the axisymmetric Navier-Stokes equations in
+     terms of the weakL       3 norm,Ann. PDE9(2023), no. 2, Paper No. 15.doi:10.1007/s40818-023-00156-7.
+[14]S. Palasek, Improved quantitative regularity for the Navier-Stokes equations in a scale of critical spaces,Arch.
+     Ration. Mech. Anal.242(2021), no. 3, 1479–1531.doi:10.1007/s00205-021-01709-5.
+[15]G. Seregin, Local regularity of axisymmetric solutions to the Navier-Stokes equations,Anal. Math. Phys.10
+     (2020), no. 4, Paper No. 46.doi:10.1007/s13324-020-00392-1.
+[16]G.Seregin, RemarksonTypeIIblowupsofsolutionstotheNavier-Stokesequations,Commun. Pure Appl. Anal.
+     23(2024), no. 10, 1389–1406.doi:10.3934/cpaa.2023108.
+[17]G. Seregin, A note on potential Type II blowups of axisymmetric solutions to the Navier-Stokes equations,
+     arXiv:2402.13229v3(2026).
+[18]G. Seregin, A note on certain scenarios of Type II blowups of suitable weak solutions to the Navier-Stokes
+     equations,arXiv:2507.08733v2(2026).
+[19]G. Seregin, On potential Type II blowups for the Navier-Stokes equations,arXiv:2606.29468(2026).
+[20]G.SereginandV.      ˇSver´ak,OnsmoothnessofsuitableweaksolutionstotheNavier-Stokesequations,Zap. Nauchn.
+     Sem. S.-Peterburg. Otdel. Mat. Inst. Steklov. (POMI)306(2003), 186–198; also inJ. Math. Sci. (N.Y.)130
+     (2005), no. 4, 4884–4892.doi:10.1007/s10958-005-0383-9.
+[21]G. Seregin and V.       ˇSver´ak, On Type I singularities of the local axi-symmetric solutions of the Navier-Stokes
+     equations,Comm. Partial Differential Equations34(2009), no. 2, 171–201.doi:10.1080/03605300802683687.
+[22]J. Serrin, On the interior regularity of weak solutions of the Navier-Stokes equations,Arch. Ration. Mech. Anal.
+     9(1962), 187–195.doi:10.1007/BF00253344.
+[23]M. Struwe, On partial regularity results for the Navier-Stokes equations,Comm. Pure Appl. Math.41(1988),
+     no. 4, 437–458.doi:10.1002/cpa.3160410404.
+[24]T. Tao, Quantitative bounds for critically bounded solutions to the Navier-Stokes equations, inNine mathe-
+     matical challenges, Proc. Sympos. Pure Math., vol. 104, Amer. Math. Soc., Providence, RI, 2021, pp. 149–193.
+     doi:10.1090/pspum/104/01874.
+=== PDF PAGE 24 ===
+24                                       PETER CONSTANTIN, MIHAELA IGNATOVA, AND VLAD VICOL
+
+[25]T.-P. Tsai,Lectures on Navier-Stokes equations, Graduate Studies in Mathematics, vol. 192, American Mathe-
+     matical Society, Providence, RI, 2018, xii+224 pp.doi:10.1090/gsm/192.
+[26]M. R. Ukhovskii and V. I. Yudovich, Axially symmetric flows of ideal and viscous fluids filling the whole space,
+     J. Appl. Math. Mech.32(1968), no. 1, 52–62.doi:10.1016/0021-8928(68)90147-0.
+
+     Department of Mathematics, Princeton University, Princeton, NJ 08540
+     Email address:const@math.princeton.edu
+     URL:https://web.math.princeton.edu/~const/
+
+     Department of Mathematics, Temple University, Philadelphia, PA 19122
+     Email address:ignatova@temple.edu
+     URL:https://sites.temple.edu/ignatova/
+
+     Department of Mathematics, Courant Institute, New York University, New York, NY, 10012
+     Email address:vicol@cims.nyu.edu
+     URL:https://cims.nyu.edu/~vicol/

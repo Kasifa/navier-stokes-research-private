@@ -1,0 +1,682 @@
+Regularity for axisymmetric Navier-Stokes with an Euler length
+Peter Constantin
+Address: Department of Mathematics, Princeton University, Princeton, NJ 08540
+Email address: const@math.princeton.edu
+URL: https://web.math.princeton.edu/˜const/
+,
+Mihaela Ignatova
+Address: Department of Mathematics, Temple University, Philadelphia, PA 19122
+Email address: ignatova@temple.edu
+URL: https://sites.temple.edu/ignatova/
+and
+Vlad Vicol
+Address: Department of Mathematics, Courant Institute, New York University, New York, NY, 10012
+Email address: vicol@cims.nyu.edu
+URL: https://cims.nyu.edu/˜vicol/
+Abstract.
+We prove local regularity for axisymmetric suitable weak solutions of the 3D Navier-Stokes equations, which are smooth before the terminal time $t=0$ , and satisfy Type II pointwise bounds at a vanishing length scale $\ell(t)$ . We say $\ell(t)$ is an Euler length if it is non-increasing, satisfies a doubling condition, and if $\ell(t)\to 0$ and $(-t)/\ell(t)^{2}\to 0$ as $t\to 0^{-}$ . This includes power laws $\ell(t)=(-t)^{\gamma}$ with $0<\gamma<1/2$ , and logarithmic enlargements of the parabolic length. Our main result shows that local bounds of the type $|u(\cdot,t)|\leq C\ell(t)/(-t)$ and $|\nabla^{2}u(\cdot,t)|\leq C/((-t)\ell(t))$ for all $t\in(-1,0)$ imply regularity. The proof adapts the circulation and potential-vorticity argument of our earlier paper [4] to ancient limits obtained from the rescaled vorticity system by zooming in. We show that the second derivative a priori assumption may be replaced by a Hölder bound on the azimuthal vorticity and a corresponding bound on its potential vorticity.
+Key words and phrases: Navier-Stokes equations, local regularity, axial symmetry, ancient vorticity limits.
+2020 Mathematics Subject ClassificationPrimary 35Q30; Secondary 35B44, 35Q31
+1. Introduction
+Whether an axisymmetric finite energy solution of the unforced 3D Navier-Stokes equations, arising from smooth and decaying initial data, can develop a finite time singularity remains an open problem.
+In this paper, we consider the 3D Navier-Stokes equations without external forcing
+(1.1a)
+$\displaystyle\partial_{t}u+(u\cdot\nabla)u-\Delta u+\nabla\pi=0\,,$
+(1.1b)
+$\displaystyle\mathrm{div\,}u=0\,,$
+where $u\colon Q\to\mathbb{R}^{3}$ is the velocity, $\pi\colon Q\to\mathbb{R}$ is the pressure, and $Q=B(1)\times(-1,0)$ is an open unit parabolic cylinder.11
+1
+Here and throughout this paper, we use the notation $B(\rho)=\{x\in\mathbb{R}^{3}:|x|<\rho\}$ and $Q(\rho)=B(\rho)\times(-\rho^{2},0)$ .
+Throughout the paper we take $(u,\pi)$ to be a suitable weak solution of (1.1) in the sense of Caffarelli, Kohn, and Nirenberg [1], with $\pi\in L^{3/2}(Q)$ , which is smooth on compact subsets of $Q$ . We assume no regularity at time $t=0$ . Moreover, we assume throughout the paper that the solution $(u,\pi)$ of (1.1) is axisymmetric about the $z$ -axis. With $x=(x^{\prime},z)$ , $r=|x^{\prime}|$ , and the usual cylindrical frame $(e_{r},e_{\theta},e_{z})$ , we set
+$u=u_{r}e_{r}+u_{\theta}e_{\theta}+u_{z}e_{z}=b+u_{\theta}e_{\theta}\,,$
+where $u_{r},u_{\theta},u_{z}$ depend only on $(r,z,t)$ . We denote by $b$ the meridional velocity.
+1.1. Main result
+In order to state our main result, we introduce:
+Definition 1.1 (Euler length).
+A continuous function $\ell\colon(-1,0)\to(0,\infty)$ is called an Euler length if it is non-increasing, it satisfies the doubling property
+(1.2a)
+$\ell(2t)\leq D\ell(t)\,,\qquad\mbox{for all }t\in(-1/2,0)\,,$
+for a suitable constant $D\in[1,\infty)$ , it asymptotically vanishes
+(1.2b)
+$\lim_{t\uparrow 0}\ell(t)=0\,,$
+and it satisfies
+(1.2c)
+$\lim_{t\uparrow 0}\frac{(-t)}{\ell(t)^{2}}=0.$
+The term “Euler length” is motivated in part by the requirement (1.2c) that the viscosity coefficient under Euler rescaling vanishes asymptotically, so formally the Euler behavior emerges in the limit.
+Examples of Euler lengths are $\ell(t)=(-t)^{\gamma}$ for $\gamma\in(0,1/2)$ and $\ell(t)=(-t)^{1/2}(\log(e/(-t)))^{a}$ with $0<a\leq 1/2$ .
+Recall that the point $(0,0)$ is called regular if
+(1.3)
+$\displaystyle\operatorname*{ess\,sup}_{Q(\rho)}|u|<\infty\quad\mbox{for some }\rho>0\,.$
+More generally, for $x_{0}\in B(1)$ the point $(x_{0},0)$ is called regular if (1.3) holds with $Q(\rho)$ replaced by $B(x_{0},\rho)\times(-\rho^{2},0)\subset Q$ , and singular otherwise.
+The simplest way to state the main result of this paper is:
+Theorem 1.2 (Local regularity under Type II bounds at an Euler length).
+Let $(u,\pi)$ be a suitable weak solution of (1.1) in $Q$ , which is smooth on compact subsets of $Q$ , and is axisymmetric. Let $\ell=\ell(t)$ be an Euler length, in the sense of Definition 1.1. Suppose that there exist constants $C_{0},C_{2}>0$ such that
+(1.4)
+$\displaystyle\left\|u(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq C_{0}\frac{\ell(t)}{(-t)}\,,\qquad\left\|\nabla^{2}u(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq C_{2}\frac{1}{(-t)\ell(t)}\,,$
+for all $t\in(-1,0)$ . Then, $(0,0)$ is a regular point.
+Remark 1.3.
+The following comments on the hypotheses of Theorem 1.2 are in order:
+(a)
+For the power law $\ell(t)=(-t)^{\gamma}$ with $\gamma\in(0,1/2)$ , the two Type II bounds in (1.4) say that the natural self-similar Euler rescaling $U(y,t):=(-t)^{1-\gamma}u((-t)^{\gamma}y,t)$ satisfies $\left\|U(\cdot,t)\right\|_{L^{\infty}}\leq C_{0}$ and $\left\|\nabla^{2}_{y}U(\cdot,t)\right\|_{L^{\infty}}\leq C_{2}$ , where the $L^{\infty}$ norm is taken on the expanding ball $B((-t)^{-\gamma})$ .
+(b)
+If the first bound in (1.4) holds with the parabolic length scale $\ell(t)=(-t)^{1/2}$ , then we have a standard Type I bound. In that case, regularity is known due to the works of Chen, Strain, Tsai, and Yau [2, 3], Koch, Nadirashvili, Seregin, and Šverák [9], or Seregin and Šverák [21].
+(c)
+The Type II assumption made in (1.4) is more restrictive than necessary, and the bounds on the second derivative can be relaxed. In Section 5 we prove the same regularity result under weaker hypotheses: a Hölder seminorm bound on the azimuthal vorticity $\omega_{\theta}=\partial_{z}u_{r}-\partial_{r}u_{z}$ and a supremum bound for the potential vorticity $\Omega=\omega_{\theta}/r$ , at the Euler length. Precisely, in Theorem 5.1 we assume, for some $0<\alpha\leq 1$ , the velocity $L^{\infty}$ bound in (1.4) together with
+$\displaystyle[\omega_{\theta}(\cdot,t)]_{C^{\alpha}(B(1))}\leq\frac{C_{\alpha}}{(-t)\ell(t)^{\alpha}}\,,\qquad\left\|\Omega(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq\frac{C_{H}}{(-t)\ell(t)}\,,$
+for some constants $C_{\alpha},C_{H}>0$ .
+(d)
+The same weakening of regularity assumptions from Theorem 5.1 also applies to the main result of [4, Section 4]. Theorem 4.5 in [4] excludes nontrivial $C^{2}$ axisymmetric globally self-similar Euler profiles with similarity exponent $\gamma<1/2$ which obey the natural far-field bounds [4, (3.8)]. In Proposition 6.1 we extend this result to continuous self-similar profiles which vanish at the origin and are sublinear at infinity, whose azimuthal vorticity is locally Hölder continuous, and whose potential vorticity is locally bounded; no far-field decay beyond sublinearity is assumed.
+1.2. Prior results
+In the absence of swirl, global regularity for the axisymmetric 3D Navier-Stokes equations was established by
+Ladyzhenskaya [10] and by Ukhovskii and Yudovich [26].
+In the presence of swirl, the regularity of axisymmetric solutions to 3D Navier-Stokes has been established under the additional hypothesis of a Type I bound, an assumption which is invariant under parabolic scaling. Chen, Strain, Yau, and Tsai [2] proved regularity of the solution at $t=0$ assuming the pointwise bound $|u|\leq C(r^{2}-t)^{-1/2}$ . Chen, Strain, Tsai, and Yau [3] and Koch, Nadirashvili, Seregin, and Šverák [9] proved regularity assuming that $r|u|\leq C$ . Seregin and Šverák [21] imposed a temporal Type I bound on the meridional velocity alone: $|b|\leq C(-t)^{-1/2}$ . All of these proofs rely on the structure of the equations satisfied by the circulation and by the potential vorticity $\Omega=\omega_{\theta}/r$ . We refer to the book of Tsai [25, Chapter 10] for a detailed account of the many conditional regularity results for solutions of 3D axisymmetric Navier-Stokes.
+Escauriaza, Seregin, and Šverák [6, Theorem 1.4] proved the regularity of suitable weak solutions which are bounded in the scale-invariant norm $L^{\infty}_{t}L^{3}_{x}$ ; their argument is by contradiction and gives no quantitative bound. Tao [24] made this result quantitative for classical solutions on $\mathbb{R}^{3}$ and obtained a quantitative lower bound, of triple logarithmic type, for the blowup rate of the $L^{3}$ norm at a finite time singularity, along a sequence of times approaching that singularity. Subsequently, Palasek [14] replaced the triple logarithm by a double logarithm, for the weighted critical norms $\|r^{1-3/q}u\|_{L^{q}}$ , both for axisymmetric solutions with $q\in(2,3]$ and for solutions without any symmetry with $q\in(3,\infty)$ . Ożański and Palasek [13] then bounded every derivative of an axisymmetric solution by a double exponential of its weak $L^{3}$ norm. Seregin [15] proved that at a singular axis point the three scale-invariant local energy quantities arising in the theory of partial regularity all have an infinite upper limit, so that an axisymmetric singularity must be Type II also in the local-energy sense. Seregin also formulated Type II blowup scenarios through such weighted scale-invariant quantities and studied them in [16, 17, 18, 19].
+The argument in this paper is inspired by the axisymmetric Euler profile theorem that we have established in our earlier work [4, Theorem 4.5]. We adapt the potential-vorticity transport along backward meridional trajectories, from the proof of [4, Theorem 4.5], to ancient limits of the rescaled vorticity system; here the circulation is eliminated by the rescaling instead. The type of argument employed here, in which we zoom in at a sequence of points and times where a desired bound fails, and apply a rigidity statement to the resulting ancient limit, is the one through which Type I singularities were excluded previously [9, 21]. We emphasize that in this paper we do not assume a self-similar ansatz for the solution.
+1.3. Main ideas of the proof
+The proof of Theorem 1.2 has two parts. First, we show that the gradient of the meridional velocity becomes small compared with its scale-invariant bound, namely
+(1.5)
+$\displaystyle\lim_{t\uparrow 0}(-t)\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}(B(\rho_{0}))}=0\quad\mbox{on a fixed ball }B(\rho_{0})\,,\quad 0<\rho_{0}<1\,.$
+Second, we show that (1.5) implies regularity at $(0,0)$ .
+For the first part we argue by contradiction. If (1.5) fails, we zoom in at the length $\ell(t)$ along a sequence of times and points at which $(-t)|\nabla b|$ stays bounded away from zero, and we ask what the limit satisfies. In the context of Type II weighted scale-invariant bounds on shrinking cylinders, this approach was considered by Seregin [16, 17, 18, 19]. At a length larger than the parabolic one the pressure is not controlled after the zoom, so we pass to the limit in the vorticity equation rather than in the momentum one. Two facts make the limit tractable. First, the circulation $\Gamma$ is bounded on a fixed ball, by partial regularity and the maximum principle for (2.3). A bounded circulation is subcritical for the rescaling by an Euler length: after the zoom-in, it is bounded by a multiple of $(-t)/\ell(t)^{2}$ , which tends to zero as $t\uparrow 0$ . The swirl of every limit therefore vanishes, and with it the source $\partial_{z}(u_{\theta}^{2}/r^{2})$ of the potential vorticity equation (2.5) vanishes as well. For the ancient limits arising in his Type II scenarios, Seregin [17, Section 2] observed in the same way that the swirl vanishes. Since the swirl source vanishes, the limiting potential vorticity is transported by a locally bounded, divergence free field which is Lipschitz in space with constant $C_{1}/|\tau|$ (see (3.3)); here $\tau\in(-\infty,-1]$ is the rescaled time of the ancient limit of the vorticity system. The second is that along the backward characteristics of that limiting divergence free field the potential vorticity is constant, and at time $\tau$ it inherits the bound $C/|\tau|$ from the hypotheses (1.4). Therefore the limiting azimuthal vorticity vanishes at $\tau=-1$ : in the finite-axis case through the potential vorticity, and in the receding-axis case by transporting the azimuthal vorticity itself. This is the content of Lemmas 3.2 and 3.3. The limiting meridional velocity at $\tau=-1$ is then curl-free, divergence-free, and bounded on $\mathbb{R}^{3}$ , hence constant. On the other hand, the selection of the contradiction sequence forces the gradient of the limiting meridional velocity to be nonzero at one point. This contradiction proves (1.5); see Proposition 3.1.
+For the second part, we apply the maximum principle in the swirl equation (2.3) to $(-t)^{\eta}u_{\theta}$ and obtain $|u_{\theta}|\leq C_{\eta}(-t)^{-\eta}$ on a smaller fixed ball, for every $\eta>0$ . A localized enstrophy estimate then gives $u\in L^{4}_{t}L^{6}_{x}$ on a fixed parabolic cylinder with top $(0,0)$ . Regularity then follows from the localized version of the Ladyzhenskaya-Prodi-Serrin criterion; see Section 4.
+Remark 1.4 (What is special about axisymmetry?).
+The exclusion of Type I singularities is not known without the assumption of axisymmetry, and we do not know how to prove Theorem 1.2 without it when $\ell(t)=(-t)^{\gamma}$ with $2/5\leq\gamma<1/2$ , or when $\ell$ is a logarithmic enlargement of the parabolic length. What this rotational invariance supplies is not merely the reduction to the variables $(r,z)$ , which leaves vortex stretching intact, but the two identities (2.3) and (2.5). The circulation obeys a drift-diffusion equation with no zeroth order term, so that it satisfies a maximum principle. Moreover, the circulation scales like viscosity: an axisymmetric solution carries an a priori bounded critical quantity, and we know of none for (1.1) in the general setting of flows on $\mathbb{R}^{3}$ . The potential vorticity obeys a transport-diffusion equation whose only other term is the swirl source $\partial_{z}(\Gamma^{2}/r^{4})$ ; without swirl this is the global regularity of [10, 26], and with swirl the Liouville theorems of [9] are proved through the same two equations.
+Remark 1.5 (Euler profiles and the viscous question).
+Consider a putative 3D Navier-Stokes singularity in the absence of external forces, constructed from a self-similar Euler singularity by treating the viscosity as an asymptotic perturbation. With the singular time at $t=0$ , the similarity ansatz $u(x,t)=(-t)^{\gamma-1}U(x/(-t)^{\gamma},-\log(-t))$ carries the viscosity coefficient $(-t)^{1-2\gamma}$ , which tends to zero as $t\uparrow 0$ precisely when $\gamma<1/2$ . These are the power laws of Definition 1.1. In essence, Theorem 1.2 shows what such a construction has to give up in the axisymmetric setting: the viscous solution cannot remain bounded in $C^{2}$ in similarity variables, on a fixed ball in the original variables, no matter what profile it is meant to approach at the blowup time.
+Organization of the paper
+In Section 2 we record the axisymmetric identities, a regular annulus obtained from partial regularity, and a transport lemma. In Section 3 we prove the two ancient-limit lemmas and deduce Proposition 3.1 from them. In Section 4 we give the local regularity conclusion and the logarithmic examples. In Sections 5 and 6 we prove the regularity statements for Navier-Stokes solutions and for Euler self-similar profiles under weaker assumptions.
+2. Axisymmetric identities and auxiliary results
+In this section we record the axisymmetric identities (see e.g. [25, Chapter 10]) and a few technical lemmas which will be used later in the proof.
+We decompose the velocity field into its meridional and swirl components
+(2.1)
+$u=b+w\,,\qquad b:=u_{r}e_{r}+u_{z}e_{z}\,,\qquad w:=u_{\theta}e_{\theta}\,,$
+and note that both $b$ and $w$ are divergence free.
+For the azimuthal component of the vorticity we denote
+$\omega_{\theta}:=(\mathrm{curl\,}u)_{\theta}=\partial_{z}u_{r}-\partial_{r}u_{z}\,,\qquad\Omega:=\frac{\omega_{\theta}}{r}\,,$
+and note that
+$\mathrm{curl\,}b=\omega_{\theta}e_{\theta}\,.$
+We refer to $\Omega$ as the potential vorticity: denoting $\omega=\mathrm{curl\,}u$ we have $\Omega=\omega\cdot\nabla\theta$ , which is Ertel’s potential vorticity associated with the azimuthal angle $\theta$ , and $\theta$ is materially conserved precisely when the swirl vanishes.
+For a vector field $F$ we write $|\nabla F|$ to denote the Euclidean norm of the Jacobian matrix, so that $|\mathrm{curl\,}F|\leq\sqrt{2}\,|\nabla F|$ . Lipschitz and Hölder seminorms of rotation-invariant scalars are taken in the Euclidean distance.
+2.1. Axisymmetric identities
+For smooth axisymmetric solutions, the meridional projection of (1.1) is given by
+(2.2a)
+$\displaystyle\partial_{t}b+\mathrm{div\,}(b\otimes b)+\nabla\pi$
+$\displaystyle=\Delta b-\mathrm{div\,}(w\otimes w)\,,$
+(2.2b)
+$\displaystyle\mathrm{div\,}b$
+$\displaystyle=0\,,$
+with the swirl velocity contributing the Reynolds stress
+(2.2c)
+$\displaystyle\mathrm{div\,}(w\otimes w)=-\frac{u_{\theta}^{2}}{r}\,e_{r}\,.$
+The swirl velocity $u_{\theta}$ and the circulation $\Gamma=ru_{\theta}$ satisfy
+(2.3)
+$\displaystyle\partial_{t}u_{\theta}+b\cdot\nabla u_{\theta}+\frac{u_{r}}{r}u_{\theta}=\Big(\Delta-\frac{1}{r^{2}}\Big)u_{\theta}\,,\qquad\partial_{t}\Gamma+b\cdot\nabla\Gamma=\Big(\Delta-\frac{2}{r}\partial_{r}\Big)\Gamma\,.$
+The azimuthal vorticity obeys
+(2.4)
+$\displaystyle\partial_{t}\omega_{\theta}+b\cdot\nabla\omega_{\theta}=\Big(\Delta-\frac{1}{r^{2}}\Big)\omega_{\theta}+\frac{u_{r}}{r}\,\omega_{\theta}+\frac{1}{r}\,\partial_{z}\big(u_{\theta}^{2}\big)\,.$
+Dividing (2.4) by $r$ , and using $r^{-1}(\Delta-r^{-2})(rg)=(\Delta+2r^{-1}\partial_{r})g$ for axisymmetric scalars $g$ , we obtain
+(2.5)
+$\displaystyle\partial_{t}\Omega+b\cdot\nabla\Omega=\Big(\Delta+\frac{2}{r}\,\partial_{r}\Big)\Omega+\partial_{z}\Big(\frac{u_{\theta}^{2}}{r^{2}}\Big)\,.$
+We recall the standard fact that near the axis of symmetry, the components of a smooth axisymmetric vector field $u$ take the form $u_{r}=r\,a(r^{2},z,t)$ , $u_{\theta}=r\,c(r^{2},z,t)$ , $u_{z}=d(r^{2},z,t)$ for some smooth functions $a,c,d$ ; thus, $\Omega$ and $u_{\theta}^{2}/r^{2}$ extend smoothly to the axis, and (2.5) holds on the whole domain.
+The following lemma records bounds for $\Omega$ in terms of the Hessian of $u$ .
+Lemma 2.1 (Pointwise bounds across the axis).
+Let $u$ be a smooth axisymmetric vector field, not necessarily a solution of (1.1), defined on an open axisymmetric set $\mathcal{U}\subset\mathbb{R}^{3}$ which meets the axis of symmetry.
+(a)
+We have $\big|\omega_{\theta}/r\big|\leq\sqrt{2}\,|\nabla^{2}u|$ at every point of $\mathcal{U}$ off the axis, where $\omega_{\theta}=\partial_{z}u_{r}-\partial_{r}u_{z}$ and $|\nabla^{2}u|$ denotes the Euclidean norm of the full tensor $(\partial_{i}\partial_{j}u_{k})_{i,j,k}$ .
+(b)
+With meridional part $b=u_{r}e_{r}+u_{z}e_{z}$ and swirl part $w=u_{\theta}e_{\theta}$ , we have $|\nabla^{j}u|^{2}=|\nabla^{j}b|^{2}+|\nabla^{j}w|^{2}$ pointwise in $\mathcal{U}$ for $j=0,1,2$ , and $|\nabla\omega_{\theta}|\leq\sqrt{2}\,|\nabla^{2}u|$ off the axis. In particular, $\omega_{\theta}$ , extended by zero to the axis, is Lipschitz on every open convex set $K\subseteq\mathcal{U}$ , with constant $\sqrt{2}\|\nabla^{2}u\|_{L^{\infty}(K)}$ .
+Proof of Lemma 2.1.
+Every quantity in the lemma is invariant under rotations about the axis; thus, it suffices to work at a point $x_{0}=(x_{1},0,z)\in\mathcal{U}$ , with $x_{1}=r>0$ . In Cartesian components, an axisymmetric field $F=F_{r}e_{r}+F_{\theta}e_{\theta}+F_{z}e_{z}$ , with $F_{r},F_{\theta},F_{z}$ functions of $(r,z)$ , reads
+(2.6)
+$\displaystyle F_{1}=F_{r}\,\frac{x_{1}}{r}-F_{\theta}\,\frac{x_{2}}{r}\,,\qquad F_{2}=F_{r}\,\frac{x_{2}}{r}+F_{\theta}\,\frac{x_{1}}{r}\,,\qquad F_{z}=F_{z}(r,z)\,.$
+Differentiating (2.6) and evaluating at $x_{0}$ , we obtain
+(2.7)
+$\displaystyle\partial_{2}F_{1}(x_{0})=-\frac{F_{\theta}}{r}(x_{0})\,.$
+In order to prove item (a), we apply (2.7) to the smooth axisymmetric field $F=\omega:=\mathrm{curl\,}u$ . On the half-plane $\{x_{2}=0,\,x_{1}>0\}$ , where $u_{1}=u_{r}$ and $r=x_{1}$ , by (2.6) we have $\omega_{2}=\partial_{z}u_{1}-\partial_{1}u_{z}=\omega_{\theta}$ . Since $\omega_{1}=\partial_{2}u_{z}-\partial_{z}u_{2}$ , it follows that $\omega_{\theta}/r=-\partial_{2}\omega_{1}(x_{0})=\partial_{2}\partial_{z}u_{2}-\partial_{2}^{2}u_{z}$ , and hence
+$\Big|\frac{\omega_{\theta}}{r}\Big|\leq\sqrt{2}\big(|\partial_{2}\partial_{z}u_{2}|^{2}+|\partial_{2}^{2}u_{z}|^{2}\big)^{1/2}\leq\sqrt{2}\,|\nabla^{2}u|\,,$
+because the two derivatives are distinct entries of the tensor $(\partial_{i}\partial_{j}u_{k})_{i,j,k}$ .
+In order to prove item (b), let $S$ be the reflection $(x_{1},x_{2},z)\mapsto(x_{1},-x_{2},z)$ , which preserves $\mathcal{U}$ . By (2.6), the Cartesian components $b=(u_{r}\frac{x_{1}}{r},\,u_{r}\frac{x_{2}}{r},\,u_{z})$ and $w=(-u_{\theta}\frac{x_{2}}{r},\,u_{\theta}\frac{x_{1}}{r},\,0)$ satisfy $b(Sx)=Sb(x)$ and $w(Sx)=-Sw(x)$ off the axis. Hence $b=\frac{1}{2}\big(u+S\,u(S\,\cdot)\big)$ and $w=\frac{1}{2}\big(u-S\,u(S\,\cdot)\big)$ extend smoothly to $\mathcal{U}$ , and $b_{1}$ , $b_{z}$ , $w_{2}$ are even in $x_{2}$ , while $b_{2}$ , $w_{1}$ are odd. On $\{x_{2}=0\}$ , a derivative of an even function vanishes when $\partial_{2}$ occurs in it an odd number of times, and a derivative of an odd function vanishes when $\partial_{2}$ occurs an even number of times. Thus, for each component $k$ and each $j\leq 2$ , the entries of $\nabla^{j}b_{k}$ and of $\nabla^{j}w_{k}$ which do not vanish at $x_{0}$ occupy disjoint index sets. Therefore, when contracting the tensors we obtain $\nabla^{j}b:\nabla^{j}w=0$ at $x_{0}$ , and thus $|\nabla^{j}u|^{2}=|\nabla^{j}b|^{2}+|\nabla^{j}w|^{2}$ there. By rotation invariance the identity holds at every point off the axis, and on the axis by continuity.
+We recall that $\omega_{\theta}=\partial_{z}u_{1}-\partial_{1}u_{z}$ on the half-plane $\{x_{2}=0,\,x_{1}>0\}$ . Differentiating this identity along the half-plane, and evaluating at a point $x_{0}=(x_{1},0,z)$ with $x_{1}>0$ , we have that $\partial_{1}\omega_{\theta}=\partial_{1}\partial_{z}u_{1}-\partial_{1}^{2}u_{z}$ and $\partial_{z}\omega_{\theta}=\partial_{z}^{2}u_{1}-\partial_{1}\partial_{z}u_{z}$ , while $\partial_{2}\omega_{\theta}=0$ because $\omega_{\theta}$ is constant on the circle about the axis through $x_{0}$ , to which $e_{2}$ is tangent. Thus $|\nabla\omega_{\theta}(x_{0})|^{2}\leq 2\big(|\partial_{1}\partial_{z}u_{1}|^{2}+|\partial_{1}^{2}u_{z}|^{2}+|\partial_{z}^{2}u_{1}|^{2}+|\partial_{1}\partial_{z}u_{z}|^{2}\big)\leq 2|\nabla^{2}u(x_{0})|^{2}$ . The bound holds off the axis by rotation invariance.
+Lastly, by item (a) we have $|\omega_{\theta}|\leq\sqrt{2}\,r\,|\nabla^{2}u|$ off the axis, so that the extension of $\omega_{\theta}$ by zero to the axis is continuous on $\mathcal{U}$ . Let $K\subset\mathcal{U}$ be open and convex, let $x,y\in K$ , and let $M=\sqrt{2}\|\nabla^{2}u\|_{L^{\infty}(K)}$ . If the segment $[x,y]$ lies in the axis, both values vanish. Otherwise the segment meets the axis in at most one point, $\omega_{\theta}$ is continuous on $[x,y]$ , and $C^{1}$ with $|\nabla\omega_{\theta}|\leq M$ off that axis point. The desired bound follows by the mean value theorem, applied on each side of that point if there is one.
+∎
+2.2. A regular annulus and bounded circulation
+By partial regularity, there exists a sphere about the origin which contains no terminal singular point, and on the ball bounded by this sphere the maximum principle bounds the circulation $\Gamma=ru_{\theta}$ . These statements are used in the proof as follows: the bounded circulation is what makes the swirl of every limit vanish in Section 3, and the regular annulus is where the cutoff errors of the enstrophy estimate of Section 4 are supported.
+Lemma 2.2 (A regular annulus and bounded local circulation).
+For every $0\leq R_{1}<R_{0}<1$ there exist $R_{1}<R_{-}<R_{+}<R_{0}$ and $t_{0}<0$
+such that $u$ and all its spatial derivatives are bounded on the cylindrical annulus domain
+$\{R_{-}<|x|<R_{+}\}\times(t_{0},0)$ . For any fixed
+$R_{*}\in(R_{-},R_{+})$ there is a constant $C_{\Gamma}<\infty$ such that
+(2.8)
+$\displaystyle\left\|\Gamma\right\|_{L^{\infty}(B(R_{*})\times(t_{0},0))}\leq C_{\Gamma}\,.$
+Proof of Lemma 2.2.
+Let $S_{0}\subset\overline{B(R_{0})}$ be the set of $x$ for which $(x,0)$ is a singular point. By partial regularity [1, 12, 11], $S_{0}$ has zero one-dimensional Hausdorff measure, so that its image under the Lipschitz map $x\mapsto|x|$ has zero Lebesgue measure and we may choose $R\in(R_{1},R_{0})$ for which $\partial B(R)$ carries no point of $S_{0}$ . Every point $(x,0)$ with $x\in\partial B(R)$ is regular, so that by compactness of $\partial B(R)$ there are $\delta>0$ , with $R_{1}<R-\delta<R+\delta<R_{0}$ , and $t_{0}<0$ such that $u$ is bounded on $\{R-\delta<|x|<R+\delta\}\times(t_{0},0)$ . We fix $R-\delta<R_{-}<R_{+}<R+\delta$ and bound all spatial derivatives of $u$ on $\{R_{-}<|x|<R_{+}\}\times(t_{0},0)$ , uniformly up to time zero, after possibly increasing $t_{0}$ . For this purpose, we apply the $\varepsilon$ -regularity theorem in the form stated by Seregin and Šverák [20, Lemma 1.2] (see also [6, Lemma 2.2 and Remark 2.3]), which asks that the two scale-invariant quantities
+$C_{\zeta}(\rho):=\frac{1}{\rho^{2}}\int_{Q(\zeta,\rho)}|u|^{3}\,dx\,dt\,,\qquad D_{\zeta}(\rho):=\frac{1}{\rho^{2}}\int_{Q(\zeta,\rho)}|\pi|^{3/2}\,dx\,dt\,,$
+add up to less than a universal constant $\varepsilon_{*}>0$ at a single scale $\rho$ ; here we denote spacetime cylinders by $Q(\zeta,\rho):=B(x,\rho)\times(s-\rho^{2},s)$ , for $\zeta=(x,s)$ . Two scales enter, and the order in which they are fixed is what makes the argument work: first $\rho_{0}$ , using only the supremum of $|u|$ on the annulus, and then $\rho<\rho_{0}$ , at the value of $D_{\zeta}(\rho_{0})$ that the first choice determines.
+Let $M:=\sup_{\{R-\delta<|x|<R+\delta\}\times(t_{0},0)}|u|$ , and let $\rho_{0}\in(0,1]$ , with $\rho_{0}^{2}<-t_{0}$ , be so small that $Q(\zeta,\rho_{0})\subset\{R-\delta<|x|<R+\delta\}\times(t_{0},0)$ for every $\zeta=(x,s)$ with $R_{-}\leq|x|\leq R_{+}$ and $t_{0}+\rho_{0}^{2}<s<0$ . For such $\zeta$ and $0<\rho\leq\rho_{0}$ the cylinder $Q(\zeta,\rho)$ lies in the region where $|u|\leq M$ , so that $C_{\zeta}(\rho)\leq\frac{4\pi}{3}M^{3}\rho_{0}^{3}$ . Using the pressure decay estimate of Seregin and Šverák [20, Lemma 2.1] (with $\alpha=\frac{1}{2}$ , and after a parabolic rescaling of $Q(\zeta,\rho_{0})$ to a unit cylinder), we obtain that
+$D_{\zeta}(\rho)\leq c(\frac{\rho}{\rho_{0}})^{1/2}D_{\zeta}(\rho_{0})+cM^{3}\rho_{0}^{3}$
+for a universal constant $c>0$ . Neither of the two terms $\frac{4\pi}{3}M^{3}\rho_{0}^{3}$ and $cM^{3}\rho_{0}^{3}$ depends on $\rho$ , so that both are made small by the choice of $\rho_{0}$ alone, which depends only on $M$ , on $c$ , and on $\varepsilon_{*}$ ; this is the first choice, and it fixes $\rho_{0}$ . Once $\rho_{0}$ is fixed, $D_{\zeta}(\rho_{0})$ is bounded uniformly in $\zeta$ , since $D_{\zeta}(\rho_{0})\leq\rho_{0}^{-2}\left\|\pi\right\|_{L^{3/2}(Q)}^{3/2}$ , and the one term which remains, $c(\frac{\rho}{\rho_{0}})^{1/2}D_{\zeta}(\rho_{0})$ , is made small by letting $\rho<\rho_{0}$ be sufficiently small; this is the second choice. The two cannot be made in the other order, because the bound on $D_{\zeta}(\rho_{0})$ degenerates as $\rho_{0}\to 0$ . We thus obtain $C_{\zeta}(\rho)+D_{\zeta}(\rho)<\varepsilon_{*}$ for every $\zeta=(x,s)$ with $R_{-}\leq|x|\leq R_{+}$ and $t_{0}+\rho_{0}^{2}<s<0$ . Therefore, by $\varepsilon$ -regularity we have $|\nabla^{k}u(x,s)|\leq c_{k}\rho^{-k-1}$ for all $k\geq 0$ with universal constants $c_{k}$ , for all $R_{-}\leq|x|\leq R_{+}$ , and all $t_{0}+\rho_{0}^{2}<s<0$ ; replacing $t_{0}$ by $t_{0}+\rho_{0}^{2}$ gives the desired bounds on the cylindrical annulus.
+We fix $R_{*}\in(R_{-},R_{+})$ . By (2.3), the circulation $\Gamma$ satisfies a drift-diffusion equation with no zeroth order term, and it vanishes on the axis. For every $s<0$ , the maximum principle on $\overline{B(R_{*})}\times[t_{0},s]$ , where $\Gamma$ is smooth, bounds $|\Gamma|$ by its values at time $t_{0}$ and on $\partial B(R_{*})\times(t_{0},s)$ . The former are bounded since $u$ is smooth at time $t_{0}$ , the latter by $R_{*}$ times the bound on $u$ in the annulus; neither bound depends on $s$ . Although the coefficient $2r^{-1}$ of $\partial_{r}\Gamma$ in (2.3) is singular on the axis, $\Gamma$ vanishes there, so that a positive maximum or a negative minimum of $\Gamma$ which is not attained on the parabolic boundary is attained off the axis, where the classical argument applies. Letting $s\uparrow 0$ , we obtain (2.8).
+∎
+2.3. Transport
+In our proof we argue that certain limits of the vorticity obtained by zooming in solve in the weak sense a transport equation whose drift is itself only a weak- $*$ limit. For this purpose, we recall that for a divergence free drift which is bounded and Lipschitz in space on compact sets, with a Lipschitz constant which is locally integrable in time, a continuous distributional solution of the transport equation is constant along the characteristics of the drift. We state here a version adapted to our setting:
+Lemma 2.3 (Constancy along characteristics).
+Let $\mathcal{U}\subset\mathbb{R}^{3}\times(-\infty,-1]$ be relatively open. Let $B\colon\mathcal{U}\to\mathbb{R}^{3}$ be bounded on compact sets, measurable in $\tau$ , Lipschitz in $y$ on compact sets with a Lipschitz constant $\lambda(\tau)$ which is locally integrable in time, and divergence free in $y$ for almost every $\tau$ . Let $\Lambda\colon\mathcal{U}\to\mathbb{R}$ be a continuous weak solution of the transport equation $\partial_{\tau}\Lambda+\mathrm{div\,}_{\!\!y}(B\Lambda)=0$ in the interior of $\mathcal{U}$ .22
+2
+That is,
+$\int_{\mathcal{U}}\Lambda\big(\partial_{\tau}\varphi+B\cdot\nabla\varphi\big)\,dy\,d\tau=0$ for every $\varphi\in C^{\infty}_{0}(\mathrm{int}\,\mathcal{U})$ .
+Let $X\colon(-\infty,-1]\to\mathbb{R}^{3}$ be absolutely continuous on compact subintervals, with $\dot{X}(\tau)=B(X(\tau),\tau)$ for almost every $\tau$ , and suppose that $\{(X(\tau),\tau)\colon\tau_{0}\leq\tau\leq-1\}$ is a compact subset of $\mathcal{U}$ for every $\tau_{0}<-1$ . Then $\tau\mapsto\Lambda(X(\tau),\tau)$ is constant on $(-\infty,-1]$ .
+The proof of the above result is standard: with the notation of Lemma 2.3, it mollifies the solution in space, bounds the commutator of DiPerna and Lions [5, Lemma II.1] uniformly on compact sets by a constant multiple of $\lambda(\tau)$ times the modulus of continuity of $\Lambda$ at the mollification scale (this uses the continuity of $\Lambda$ ), and integrates the mollified equation in time along $X$ . This commutator bound is written out, in a stationary setting, in Step 3 of the proof of Proposition 6.1. We omit further details.
+3. Ancient limits at the Euler length
+In this section we construct ancient limits at the Euler length, and use them to prove that on a fixed ball the meridional gradient becomes small compared with the scale-invariant bound $C_{1}/(-t)$ , which our hypotheses give directly, see (3.3) below. In Section 4 we show that this smallness implies regularity, and thus Theorem 1.2.
+Proposition 3.1 (Smallness of the meridional gradient).
+Let $\ell$ be an Euler length, in the sense of Definition 1.1, and assume that the bounds (1.4) hold for all $t\in(-1,0)$ . Then
+(3.1)
+$\displaystyle\lim_{t\uparrow 0}(-t)\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}(B(1/2))}=0\,.$
+We prove Proposition 3.1 by contradiction. If (3.1) fails, there are times $t_{n}\uparrow 0$ and points $x_{n}\in B(1/2)$ at which $(-t_{n})|\nabla b(x_{n},t_{n})|$ stays bounded away from zero. We zoom in at time $t_{n}$ about a base point built from $x_{n}$ , in space using the Euler length $\ell(t_{n})$ , and in time using $|t_{n}|$ itself. Our goal is to analyze the ancient limits of the rescaled solution. A priori these limits are not known to solve the Euler equations in their momentum form: at a length larger than the parabolic one the pressure is not controlled after the zoom-in, so that we cannot pass to the limit in the momentum equation. Instead, we pass to the limit in the vorticity equation.
+Two facts make analyzing the limit tractable, and both were described in Section 1.3: by Lemma 2.2 the circulation is bounded on a fixed ball, and a bounded circulation is subcritical for this rescaling by (1.2c), so that the swirl of every limit vanishes together with the swirl source $\partial_{z}(u_{\theta}^{2}/r^{2})$ of (2.5); and Lemma 2.3 makes the limiting vorticity constant along the backward characteristics of the limiting drift, so that the bound $C/|\tau|$ it inherits from (1.4) forces it to vanish. The two eliminations, first of the circulation and then of the potential vorticity, each along backward meridional trajectories, are the main idea of the proof of [4, Theorem 4.5]. Here the circulation is eliminated instead by the rescaling, as observed for the ancient limits of an Euler scaling by Seregin [17, Section 2]. What is new here is that the potential vorticity is transported along the trajectories of a time-dependent field which is only a weak- $*$ limit, for which the transport equation holds only weakly and only off the axis (we keep these trajectories off the axis through a quantitative lower bound on their distance to it), and that the potential vorticity vanishes because of the bound $C/|\tau|$ inherited from (1.4), rather than because of an exponential weight as in [4].
+The main result of the construction is the pair of Lemmas 3.2 and 3.3: along a subsequence, the rescaled azimuthal vorticity converges locally uniformly to a limit which vanishes at $\tau=-1$ , and the rescaled meridional velocity at $\tau=-1$ converges in $C^{1}$ on compact sets to a field which is curl free, divergence free, and bounded on all of $\mathbb{R}^{3}$ . Thus each component is bounded and harmonic, hence constant by Liouville’s theorem. The selection of the points $x_{n}$ forces the gradient of this limit to be bounded away from zero at one point, which provides the desired contradiction. In Section 3.1 we define the zoom-in and record the bounds it inherits from (1.4), in Section 3.2 we prove the two lemmas, and in Section 3.3 we select the sequences $t_{n}$ and $x_{n}$ and complete the proof of Proposition 3.1.
+3.1. The rescaled fields and bounds uniform in the zoom-in
+Throughout this subsection we assume that $\ell$ is an Euler length and that the bounds in (1.4) hold at every $t\in(-1,0)$ . We take $T_{1}\in(0,1]$ so small that
+(3.2)
+$\displaystyle\ell(t)\leq\frac{1}{4}\qquad(-T_{1}<t<0)\,.$
+Applying Taylor’s formula along segments of length $\ell(t)$ inside $B(1)$ , we deduce from (1.4), (3.2), and Lemma 2.1(b) that for $t\in(-T_{1},0)$
+(3.3)
+$\displaystyle\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}(B(3/4))}\leq\frac{C_{1}}{(-t)}\,,\qquad C_{1}:=\sqrt{3}\Big(2C_{0}+\frac{C_{2}}{2}\Big)\,.$
+Note that the length scale $\ell$ cancels in this balance, so that the two hypotheses in (1.4) interpolate to a gradient of the scale-invariant size $1/(-t)$ , whatever $\ell$ is. Lemma 2.1(a) in addition gives
+(3.4)
+$\displaystyle\left\|\Omega(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq\frac{\sqrt{2}\,C_{2}}{(-t)\ell(t)}\,.$
+We consider a sequence $t_{n}\uparrow 0$ with $t_{n}\in(-T_{1},0)$ , and we let
+$\ell_{n}:=\ell(t_{n})\,,\qquad\varepsilon_{n}:=\frac{(-t_{n})}{\ell_{n}^{2}}\,,$
+so that $\varepsilon_{n}\to 0$ by (1.2c). We also let $a_{n}\in\mathbb{R}^{3}$ be such that $|a_{n}|<\frac{1}{2}$ ; we call $a_{n}$ the base point of the zoom, since (3.5) below rescales about the point $a_{n}$ . The sequences $\{t_{n}\}_{n\geq 1}$ and $\{a_{n}\}_{n\geq 1}$ are arbitrary both here and in Section 3.2; only in the proof of Proposition 3.1 do we build them from times and points at which the contradiction ansatz (3.19) holds.
+Upon recalling the decomposition $u=b+w$ from (2.1), we define
+(3.5a)
+$\displaystyle B_{n}(y,\tau)$
+$\displaystyle=\frac{(-t_{n})}{\ell_{n}}\,b\big(a_{n}+\ell_{n}y,\,t_{n}|\tau|\big)\,,$
+(3.5b)
+$\displaystyle Z_{n}(y,\tau)$
+$\displaystyle=\frac{(-t_{n})}{\ell_{n}}\,w\big(a_{n}+\ell_{n}y,\,t_{n}|\tau|\big)\,,$
+(3.5c)
+$\displaystyle P_{n}(y,\tau)$
+$\displaystyle=\frac{(-t_{n})^{2}}{\ell_{n}^{2}}\,\pi\big(a_{n}+\ell_{n}y,\,t_{n}|\tau|\big)\,,$
+(3.5d)
+$\displaystyle\Theta_{n}(y,\tau)$
+$\displaystyle=(-t_{n})\,\omega_{\theta}\big(a_{n}+\ell_{n}y,t_{n}|\tau|\big)\,,$
+for all $\tau<0$ with $(-t_{n})|\tau|<1$ and all $y\in\mathcal{D}_{n}$ , where
+$\displaystyle\mathcal{D}_{n}:=\{y\colon a_{n}+\ell_{n}y\in B(1)\}=B\big(-\tfrac{a_{n}}{\ell_{n}},\tfrac{1}{\ell_{n}}\big)\,.$
+These are exactly the $(y,\tau)$ for which $a_{n}+\ell_{n}y\in B(1)$ and $t_{n}|\tau|\in(-1,0)$ , so that the right sides of (3.5) are well-defined. We also introduce a smaller ball $\mathcal{D}_{n}^{\flat}\subset\mathcal{D}_{n}$ , defined as
+$\mathcal{D}_{n}^{\flat}:=\{y\colon a_{n}+\ell_{n}y\in B(3/4)\}=B\big(-\tfrac{a_{n}}{\ell_{n}},\tfrac{3}{4\ell_{n}}\big)\,.$
+See Figure 1.
+This smaller ball plays no role in definition (3.5); instead, this is the set on which the gradient bound (3.3) is available after the zoom (see (3.8c) below). Since $|a_{n}|<\frac{1}{2}$ , we have $\mathcal{D}_{n}^{\flat}\supset B(\rho_{n})$ with $\rho_{n}:=\frac{1}{4\ell_{n}}\to\infty$ , so that every compact subset of $\mathbb{R}^{3}$ is contained in $\mathcal{D}_{n}^{\flat}$ for all $n$ sufficiently large.
+$\{y^{\prime}=0\}$ $\mathcal{D}_{n}$ $\mathcal{D}_{n}^{\flat}$ $1/\ell_{n}$ $3/(4\ell_{n})$ $-a_{n}/\ell_{n}$ $|a_{n}|/\ell_{n}$ $B(\rho_{n})$ $y=0$ $y_{n}^{*}$ (a) finite axis
+$\{y^{\prime}=-a_{n}^{\prime}/\ell_{n}\}$ $\mathcal{D}_{n}$ $\mathcal{D}_{n}^{\flat}$ $1/\ell_{n}$ $3/(4\ell_{n})$ $-a_{n}/\ell_{n}$ $d_{n}=r_{n}/\ell_{n}$ $B(\rho_{n})$ $y=y_{n}^{*}=0$ (b) receding axis
+$\mathcal{D}_{n}^{\flat}$ : all of the bounds (3.8a)–(3.8e), on compact sets and for $n$ large $\mathcal{D}_{n}\setminus\mathcal{D}_{n}^{\flat}$ : the bounds (3.8a), (3.8b), and (3.8d)
+Figure 1. The domains $\mathcal{D}_{n}$ and $\mathcal{D}_{n}^{\flat}$ are centered at $-a_{n}/\ell_{n}$ , with radii $1/\ell_{n}$ and $3/(4\ell_{n})$ . The dashed line is the rescaled axis. In (a), $y=0$ lies on the axis and the image $y_{n}^{*}$ of the selected point, defined in Section 3.3, remains at bounded distance from it. In (b), $y_{n}^{*}=0$ and the axis recedes. The dotted ball $B(\rho_{n})$ is centered at $y=0$ , and its radius $\rho_{n}=1/(4\ell_{n})$ tends to infinity.
+With the definitions in (3.5), we return to (2.2) and obtain that
+(3.6a)
+$\displaystyle\partial_{\tau}B_{n}+\mathrm{div\,}(B_{n}\otimes B_{n})+\nabla P_{n}$
+$\displaystyle=\varepsilon_{n}\Delta B_{n}-\mathrm{div\,}(Z_{n}\otimes Z_{n})\,,$
+(3.6b)
+$\displaystyle\mathrm{div\,}B_{n}$
+$\displaystyle=0\,,$
+holds on $\mathcal{D}_{n}$ .
+We set
+$L_{n}(\tau)=\frac{\ell(t_{n}|\tau|)}{\ell_{n}}=\frac{\ell(t_{n}|\tau|)}{\ell(t_{n})}\,,$
+so that $L_{n}(-1)=1$ . For $\tau\leq-1$ , the monotonicity of $\ell$ gives $L_{n}(\tau)\geq 1$ , and the doubling condition in (1.2a) gives
+(3.7)
+$\displaystyle 1\leq L_{n}(\tau)\leq C_{T}:=D^{\lceil\log_{2}T\rceil}\,,\qquad\mbox{for all}\qquad\tau\in[-T,-1]\,,$
+once $2^{\lceil\log_{2}T\rceil}(-t_{n})<1$ , which is what the iteration requires.
+We now change variables in (1.4), (2.8), (3.3), and in (3.4), and we obtain, for every compact set of $(y,\tau)$ with $\tau\leq-1$ and all $n$ large depending on it,
+(3.8a)
+$\displaystyle\max\big\{|B_{n}(y,\tau)|,|Z_{n}(y,\tau)|\big\}$
+$\displaystyle\leq\frac{C_{0}L_{n}(\tau)}{|\tau|}\,,$
+$\displaystyle y\in\mathcal{D}_{n}\,,$
+(3.8b)
+$\displaystyle|\nabla^{2}B_{n}(y,\tau)|$
+$\displaystyle\leq\frac{C_{2}}{|\tau|L_{n}(\tau)}\leq\frac{C_{2}}{|\tau|}\,,$
+$\displaystyle y\in\mathcal{D}_{n}\,,$
+(3.8c)
+$\displaystyle|\nabla B_{n}(y,\tau)|$
+$\displaystyle\leq\frac{C_{1}}{|\tau|}\,,$
+$\displaystyle y\in\mathcal{D}_{n}^{\flat}\,,$
+(3.8d)
+$\displaystyle|\Omega_{n}(y,\tau)|$
+$\displaystyle\leq\frac{\sqrt{2}C_{2}}{|\tau|L_{n}(\tau)}\leq\frac{\sqrt{2}C_{2}}{|\tau|}\,,$
+$\displaystyle y\in\mathcal{D}_{n}\,,$
+(3.8e)
+$\displaystyle R_{n}(y)\,|Z_{n}(y,\tau)|$
+$\displaystyle\leq C_{\Gamma}\varepsilon_{n}\,,$
+$\displaystyle y\in\mathcal{D}_{n}^{\flat}\,,$
+where
+$R_{n}(y):=\frac{|a_{n}^{\prime}+\ell_{n}y^{\prime}|}{\ell_{n}}$
+is the rescaled distance to the original axis, and we have defined
+(3.9)
+$\displaystyle\Omega_{n}(y,\tau)$
+$\displaystyle:=\frac{\Theta_{n}(y,\tau)}{R_{n}(y)}=(-t_{n})\ell_{n}\,\Omega\big(a_{n}+\ell_{n}y,t_{n}|\tau|\big)\,.$
+Since $R_{n}(y)|Z_{n}(y,\tau)|=\varepsilon_{n}|\Gamma(a_{n}+\ell_{n}y,t_{n}|\tau|)|$ ,
+the bound (3.8e) is precisely estimate (2.8). Here Lemma 2.2 is applied with $R_{1}=3/4$ , some $R_{0}\in(3/4,1)$ , $R_{*}\in(R_{-},R_{+})$ , and $t_{0}<0$ , so that $a_{n}+\ell_{n}y\in B(3/4)\subset B(R_{*})$ for all $y\in\mathcal{D}_{n}^{\flat}$ ; the time $t_{n}|\tau|$ lies in $(t_{0},0)$ for all $n$ large depending on $\tau$ , because $t_{n}\to 0$ .
+We note that the base points $a_{n}$ occur in two configurations, according to their position relative to the axis of symmetry:
+•
+In the finite-axis configuration $a_{n}$ lies on the axis, so that $R_{n}(y)=|y^{\prime}|$ . The quotient $\Omega_{n}=(\mathrm{curl\,}B_{n})_{\theta}/|y^{\prime}|$ is the potential vorticity of $B_{n}$ with respect to the rescaled axis $\{y^{\prime}=0\}$ .
+•
+In the receding-axis configuration $d_{n}:=r_{n}/\ell_{n}\to\infty$ , where $r_{n}:=|a_{n}^{\prime}|$ . Then $R_{n}(y)\geq d_{n}-|y^{\prime}|$ , and we do not use the quotient $\Omega_{n}$ . After a rotation about the axis, we identify $a_{n}^{\prime}=(r_{n},0)$ .
+3.2. Two ancient-limit lemmas
+Lemmas 3.2 and 3.3 below are at the heart of the limit argument. They differ in whether the axis is present in the limit, and in which scalar we transport; everything else is common to them.
+Lemma 3.2 (Ancient limits, the axis present).
+Let $t_{n}$ , $a_{n}$ , and the fields (3.5) be as in Section 3.1, with every $a_{n}$ lying on the axis of symmetry. Define $\mathcal{O}:=\mathbb{R}^{3}\times(-\infty,-1]$ , and let $\bar{L}\colon(-\infty,-1]\to[1,\infty)$ be non-decreasing in $|\tau|$ , bounded on bounded sets, and such that
+(3.10)
+$\displaystyle\limsup_{n\to\infty}\,\sup_{-T\leq\tau\leq-1}\frac{L_{n}(\tau)}{\bar{L}(\tau)}\leq 1\qquad\mbox{for every }T>1\,.$
+Then, there exists a continuous $\Theta\colon\mathcal{O}\to\mathbb{R}$ , with $|\Theta(y,\tau)|\leq\sqrt{2}\,C_{1}/|\tau|$ on $\mathcal{O}$ , and
+(3.11)
+$\displaystyle\Theta(\cdot,-1)=0\qquad\mbox{on }\mathbb{R}^{3}\,,$
+such that after passing to a subsequence we have
+(3.12)
+$\displaystyle\Theta_{n}\longrightarrow\Theta\qquad\mbox{uniformly on compact subsets of }\mathcal{O}\,.$
+Moreover, along a further subsequence, $B_{n}(\cdot,-1)\to B^{*}$ in $C^{1}$ on compact subsets of $\mathbb{R}^{3}$ , where $B^{*}$ is divergence free, curl free, and bounded by $C_{0}$ , so that each of its components is harmonic.
+Lemma 3.3 (Ancient limits, the axis receding).
+Let $t_{n}$ , $a_{n}$ , and the fields (3.5) be as in Section 3.1, with $a_{n}^{\prime}=(r_{n},0)$ and $d_{n}=r_{n}/\ell_{n}\to\infty$ . Let $\mathcal{O}$ and $\bar{L}$ be as in Lemma 3.2. Then the conclusions of Lemma 3.2 all hold.
+Proof of Lemma 3.2.
+For convenience, we break down the argument into five steps.
+Step 1: compactness of the azimuthal vorticity.
+Since $\mathrm{curl\,}b=\omega_{\theta}e_{\theta}$ , by (3.5)
+we have that
+$\mathrm{curl\,}B_{n}(y,\tau)=\Theta_{n}(y,\tau)\,e_{\theta}(y)$
+for all $y$ off the axis. Here we have used that $e_{\theta}(a_{n}+\ell_{n}y)=e_{\theta}(y)$ because $a_{n}$ lies on the axis. For $y$ on the axis, both $\Theta_{n}$ and $\mathrm{curl\,}B_{n}$ vanish, and we deduce that
+$|\mathrm{curl\,}B_{n}|=|\Theta_{n}|$
+holds at every point of $\mathcal{D}_{n}$ . Since $|\mathrm{curl\,}B_{n}|\leq\sqrt{2}\,|\nabla B_{n}|$ , the bound (3.8c) gives $|\mathrm{curl\,}B_{n}|\leq\sqrt{2}C_{1}/|\tau|\leq\sqrt{2}C_{1}$ on every compact subset of $\mathcal{O}$ , for all $n$ large depending on the set. The bound (3.8b) makes $\mathrm{curl\,}B_{n}$ Lipschitz in $y$ , with constant $\sqrt{2}C_{2}$ , on every closed ball contained in $\mathcal{D}_{n}$ . By Lemma 2.1(b) applied to $u(\cdot,t)$ on the convex axisymmetric ball $B(1)$ , and using the change of variables in (3.5), the scalars $\Theta_{n}(\cdot,\tau)$ are Lipschitz on $\mathcal{D}_{n}$ with the same constant $\sqrt{2}C_{2}$ . We use both Lipschitz bounds only on the closed balls appearing in the next paragraph.
+Taking the curl of (3.6), we obtain for every $\bar{y}\in\mathbb{R}^{3}$ , $\rho>0$ , $\tau_{a}<\tau_{b}\leq-1$ , $1<p<\infty$ , and all $n$ large depending on these,
+$\displaystyle\left\|\partial_{\tau}\mathrm{curl\,}B_{n}\right\|_{L^{\infty}(\tau_{a},\tau_{b};W^{-2,p}(B(\bar{y},\rho)))}\leq C_{\tau_{a},\rho,p}\,.$
+Here $W^{-2,p}(B(\bar{y},\rho))$ denotes the dual of $W^{2,p^{\prime}}_{0}(B(\bar{y},\rho))$ , and we used the fact that the quadratic terms are two derivatives of tensor fields bounded by (3.8a), the viscous term is $\varepsilon_{n}\Delta\mathrm{curl\,}B_{n}$ with $\mathrm{curl\,}B_{n}$ and $\varepsilon_{n}$ bounded, and the pressure term is gone.
+Since the embedding $C^{0,1}(\overline{B(\bar{y},\rho)})\hookrightarrow C^{0}(\overline{B(\bar{y},\rho)})$ is compact and $C^{0}(\overline{B(\bar{y},\rho)})$ embeds continuously and injectively into $W^{-2,p}(B(\bar{y},\rho))$ , a standard compactness argument gives, for every $\eta>0$ , a constant $C_{\eta}$ with
+$\left\|F\right\|_{C^{0}(\overline{B(\bar{y},\rho)})}\leq\eta\left\|F\right\|_{C^{0,1}(\overline{B(\bar{y},\rho)})}+C_{\eta}\left\|F\right\|_{W^{-2,p}(B(\bar{y},\rho))}\qquad\mbox{for all }F\in C^{0,1}(\overline{B(\bar{y},\rho)})\,.$
+Applying this bound to $F=\mathrm{curl\,}B_{n}(\tau)-\mathrm{curl\,}B_{n}(\tau^{\prime})$ , using (3.8b), (3.8c), and the previous estimate for $\partial_{\tau}\mathrm{curl\,}B_{n}$ , we find that the maps $\tau\mapsto\mathrm{curl\,}B_{n}(\tau)$ are equicontinuous with values in $C^{0}(\overline{B(\bar{y},\rho)})$ . The unit vector $e_{\theta}(a_{n}+\ell_{n}y)$ does not depend on $\tau$ , so that the scalars $\Theta_{n}$ are equicontinuous in $\tau$ as well, and they are equicontinuous in $y$ by the Lipschitz bound recorded in the previous paragraph. Every compact subset of $\mathcal{O}$ lies in one such product, being bounded in $y$ and in $\tau$ , and $\mathcal{O}$ is the union of the products $\overline{B(0,k)}\times[-k,-1]$ with $k\geq 1$ ; applying the Arzelà-Ascoli theorem on each of these and extracting diagonally, we obtain (3.12), where $\Theta$ is continuous on $\mathcal{O}$ . The bound $|\Theta(y,\tau)|\leq\sqrt{2}\,C_{1}/|\tau|$ is inherited from (3.8c).
+The quotients $\Omega_{n}=\Theta_{n}/|y^{\prime}|$ converge uniformly on compact subsets of $\mathcal{O}\cap\{y^{\prime}\neq 0\}$ to $\Omega_{\infty}:=\Theta/|y^{\prime}|$ , and by (3.8d) we have
+$|\Omega_{\infty}(y,\tau)|\leq\frac{\sqrt{2}C_{2}}{|\tau|}\,.$
+Step 2: the limiting meridional velocity.
+By (3.8a) and (3.8c), the fields $B_{n}$ and $\nabla B_{n}$ are bounded on every compact subset of $\mathcal{O}$ . After a further diagonal extraction we have $B_{n}\rightharpoonup B$ and $\nabla B_{n}\rightharpoonup\nabla B$ weakly- $*$ in $L^{\infty}$ on every such set, with $\nabla B$ the distributional spatial gradient of $B$ . The limit satisfies $\mathrm{div\,}B=0$ , $\mathrm{curl\,}B=\Theta\,e_{\theta}$ , and due to (3.8c), (3.8a), and (3.10) it obeys
+(3.13)
+$\displaystyle|\nabla B(y,\tau)|\leq\frac{C_{1}}{|\tau|}\,,\qquad|B(y,\tau)|\leq\frac{C_{0}\,\bar{L}(\tau)}{|\tau|}\qquad\mbox{for almost every }(y,\tau)\in\mathcal{O}\,.$
+Since $B$ is defined only up to a null set, for almost every $\tau$ we replace $B(\cdot,\tau)$ by its continuous representative, which is divergence free, Lipschitz on $\mathbb{R}^{3}$ with constant $C_{1}/|\tau|$ , and bounded by $C_{0}\bar{L}(\tau)/|\tau|$ at every $y\in\mathbb{R}^{3}$ . On the exceptional null set of times we set $B(\cdot,\tau)=0$ . The resulting field is continuous in $y$ at every $\tau$ by construction, and measurable in $\tau$ at every $y$ . The Carathéodory solutions of $\dot{X}(\tau)=B(X(\tau),\tau)$ , that is, the absolutely continuous $X$ which satisfy the equation in integral form, do not see the exceptional set. The fields $B_{n}$ are axisymmetric and swirl free, and thus so is $B$ . Since $B$ is continuous in $y$ , its radial component $B_{r}$ vanishes on the axis, and the Lipschitz bound gives $|B_{r}(y,\tau)|\leq C_{1}|y^{\prime}|/|\tau|$ .
+Step 3: the transport equation for the potential vorticity.
+From (2.5), the change of variables (3.5), and $\mathrm{div\,}B_{n}=0$ , we obtain that the potential vorticity $\Omega_{n}$ satisfies
+(3.14)
+$\displaystyle\partial_{\tau}\Omega_{n}+\mathrm{div\,}\Bigl(B_{n}\,\Omega_{n}\Bigr)=\varepsilon_{n}\Big(\Delta+\frac{2}{|y^{\prime}|}\partial_{|y^{\prime}|}\Big)\Omega_{n}+\partial_{z}\Big(\frac{|Z_{n}|^{2}}{|y^{\prime}|^{2}}\Big)\qquad\mbox{on }\{y\in\mathcal{D}_{n},\ y^{\prime}\neq 0\}\,.$
+We fix $\varphi\in C^{\infty}_{0}$ compactly supported in the interior of $\mathcal{O}\cap\{y^{\prime}\neq 0\}$ and test (3.14) against $\varphi$ . For all large enough $n$ , we have $\mathrm{supp\,}(\varphi)\subset\mathcal{D}_{n}^{\flat}$ . The viscous term contributes at most $\varepsilon_{n}\left\|\Omega_{n}\right\|_{L^{\infty}}\int(|\Delta\varphi|+2|y^{\prime}|^{-1}|\partial_{|y^{\prime}|}\varphi|)$ , which tends to zero as $n\to\infty$ in light of (3.8d). The swirl source contributes $-\int|y^{\prime}|^{-2}|Z_{n}|^{2}\partial_{z}\varphi$ , which tends to zero as $n\to\infty$ because $|Z_{n}|\leq C_{\Gamma}\varepsilon_{n}/|y^{\prime}|$ on the support of $\varphi$ by (3.8e). For the drift term, we have $\Omega_{n}\nabla\varphi\to\Omega_{\infty}\nabla\varphi$ in $L^{1}$ by Step 1, and $B_{n}\rightharpoonup B$ weakly- $*$ in $L^{\infty}$ by Step 2. Passing $n\to\infty$ we therefore obtain
+(3.15)
+$\displaystyle\int_{\mathcal{O}\cap\{y^{\prime}\neq 0\}}\Omega_{\infty}\big(\partial_{\tau}\varphi+B\cdot\nabla\varphi\big)\,dy\,d\tau=0\,,$
+for every $\varphi\in C^{\infty}_{0}$ compactly supported in the interior of $\mathcal{O}\cap\{y^{\prime}\neq 0\}$ .
+In (3.15) the transported function $\Omega_{\infty}$ is continuous and bounded on its domain, and the velocity is bounded on compact subsets of $\mathcal{O}$ , divergence free, measurable in time, and Lipschitz in space on compact sets.
+Step 4: characteristics and the vanishing of the limit vorticity.
+We fix a point $y_{0}\in\mathbb{R}^{3}$ off the axis. Since $B(\cdot,\tau)$ is Lipschitz on $\mathbb{R}^{3}$ with constant $C_{1}/|\tau|$ and is bounded by $C_{0}\bar{L}(\tau)/|\tau|$ , the equation $\dot{X}(\tau)=B(X(\tau),\tau)$ with $X(-1)=y_{0}$ has a unique solution $X$ on $(-\infty,-1]$ , absolutely continuous on compact subintervals. In order to apply Lemma 2.3 on $\mathcal{U}:=\mathcal{O}\cap\{y^{\prime}\neq 0\}$ , we need the graph of $X$ over $[\tau_{0},-1]$ to be a compact subset of $\mathcal{U}$ for every $\tau_{0}<-1$ . This follows from two a priori bounds. First, the velocity bound in (3.13) gives
+(3.16)
+$\displaystyle|X(\tau)|\leq|y_{0}|+C_{0}\int_{\tau}^{-1}\frac{\bar{L}(\bar{\tau})}{|\bar{\tau}|}\,d\bar{\tau}\,,$
+whose right side is finite on $[\tau_{0},-1]$ , since $\bar{L}$ is bounded on bounded sets. The path’s distance to the axis, denoted by $\varrho(\tau):=|X^{\prime}(\tau)|$ , is absolutely continuous. Since $B$ is swirl free with $|B^{\prime}(y,\tau)|=|B_{r}(y,\tau)|\leq C_{1}|y^{\prime}|/|\tau|$ by Step 2, it follows that $|\dot{\varrho}|\leq|B^{\prime}(X,\tau)|\leq C_{1}\varrho/|\tau|$ almost everywhere. Grönwall’s inequality on $[\tau,-1]$ then yields $\varrho(-1)\leq\varrho(\tau)\,|\tau|^{C_{1}}$ , that is,
+$\displaystyle\varrho(\tau)\geq|y_{0}^{\prime}|\,|\tau|^{-C_{1}}\,,\qquad\mbox{for}\qquad\tau\leq-1\,.$
+Hence, the graph of $X$ over $[\tau_{0},-1]$ lies in $\{(y,\tau)\colon\tau_{0}\leq\tau\leq-1,\ |y|\leq M(\tau_{0}),\ |y^{\prime}|\geq|y_{0}^{\prime}|\,|\tau_{0}|^{-C_{1}}\}$ , where $M(\tau_{0})$ is the right side of (3.16) evaluated at $\tau=\tau_{0}$ ; this is a compact subset of $\mathcal{U}$ .
+By (3.15) and Step 2, the pair $(\Omega_{\infty},B)$ on $\mathcal{U}=\mathcal{O}\cap\{y^{\prime}\neq 0\}$ satisfies the hypotheses of Lemma 2.3, with $\lambda(\tau)=C_{1}/|\tau|$ . From the last estimate in Step 1, we therefore have
+$|\Omega_{\infty}(y_{0},-1)|=\lim_{\tau\to-\infty}|\Omega_{\infty}(X(\tau),\tau)|\leq\lim_{\tau\to-\infty}\frac{\sqrt{2}C_{2}}{|\tau|}=0\,,$
+which implies $\Omega_{\infty}(\cdot,-1)=0$ on $\{y\in\mathbb{R}^{3}\colon|y^{\prime}|>0\}$ . This proves (3.11), since $\Theta(\cdot,-1)=|y^{\prime}|\Omega_{\infty}(\cdot,-1)$ off the axis and $\Theta$ is continuous.
+Step 5: extracting the limit at the terminal time.
+Being a weak- $*$ limit in $L^{\infty}$ of the sequence $B_{n}$ (see Step 2), the field $B$ is determined only up to null sets of $\mathcal{O}$ , and the slice $\{\tau=-1\}$ is one. In order to obtain a limit for the fields $B_{n}(\cdot,-1)$ , we appeal to a compactness argument rooted in the convergence of the curl of these fields to $\Theta e_{\theta}$ (see Step 1). By (3.8a), (3.8b), and (3.8c) at $\tau=-1$ , where $L_{n}(-1)=1$ , the fields $B_{n}(\cdot,-1)$ are bounded in $C^{1,1}$ on every compact subset of $\mathbb{R}^{3}$ and satisfy $|B_{n}(\cdot,-1)|\leq C_{0}$ there. Passing to a further subsequence, we obtain $B_{n}(\cdot,-1)\to B^{*}$ in $C^{1}$ on compact subsets of $\mathbb{R}^{3}$ . It automatically holds that $\mathrm{div\,}B^{*}=0$ and $|B^{*}|\leq C_{0}$ . This subsequence refines the one of Step 1, and $|\mathrm{curl\,}B_{n}|=|\Theta_{n}|$ pointwise, so that $|\mathrm{curl\,}B^{*}|=|\Theta(\cdot,-1)|$ . Due to (3.11) we thus obtain also $\mathrm{curl\,}B^{*}=0$ . By elliptic regularity $B^{*}$ is smooth and each of its components is harmonic.
+∎
+Proof of Lemma 3.3.
+We follow the five steps of the proof of Lemma 3.2, and we only record the necessary changes.
+Step 1: compactness of the azimuthal vorticity.
+Since $\mathrm{curl\,}b=\omega_{\theta}e_{\theta}$ , by (3.5) we now have
+$\mathrm{curl\,}B_{n}(y,\tau)=\Theta_{n}(y,\tau)\,e_{\theta}(a_{n}+\ell_{n}y)$
+wherever $R_{n}(y)=|a_{n}^{\prime}+\ell_{n}y^{\prime}|/\ell_{n}>0$ . Since $a_{n}$ does not lie on the symmetry axis we cannot equate $e_{\theta}(a_{n}+\ell_{n}y)$ with $e_{\theta}(y)$ ; however, because $d_{n}\to\infty$ and $a_{n}^{\prime}=(r_{n},0)$ we have $e_{\theta}(a_{n}+\ell_{n}y)\to e_{2}$ uniformly on compact subsets of $\mathbb{R}^{3}$ . Since $R_{n}(y)\geq r_{n}/\ell_{n}-|y^{\prime}|\geq d_{n}-|y|$ , we deduce that $|\mathrm{curl\,}B_{n}|=|\Theta_{n}|$ on every compact subset of $\mathbb{R}^{3}$ , for all $n$ large depending on the set. The bounds on $\mathrm{curl\,}B_{n}$ and on $\Theta_{n}$ , the negative-norm estimate for $\partial_{\tau}\mathrm{curl\,}B_{n}$ , and the compactness argument of Step 1 of the proof of Lemma 3.2 apply verbatim, and give (3.12), where $\Theta$ is continuous on $\mathcal{O}$ with $|\Theta(y,\tau)|\leq\sqrt{2}\,C_{1}/|\tau|$ . Here we do not consider the limit of the potential vorticities $\Omega_{n}$ .
+Step 2: the limiting meridional velocity.
+Exactly as in Step 2 of the proof of Lemma 3.2, after a further diagonal extraction we have $B_{n}\rightharpoonup B$ and $\nabla B_{n}\rightharpoonup\nabla B$ weakly- $*$ in $L^{\infty}$ on every compact subset of $\mathcal{O}$ , the limit satisfies $\mathrm{div\,}B=0$ , $\mathrm{curl\,}B=\Theta\,e_{2}$ , and the bounds in (3.13). We fix a representative in the same way.
+Step 3: the transport equation for the azimuthal vorticity.
+In this proof we transport $\Theta_{n}$ itself. From (2.4) and the change of variables (3.5) we obtain
+(3.17)
+$\displaystyle\partial_{\tau}\Theta_{n}+B_{n}\cdot\nabla\Theta_{n}=\frac{(B_{n})_{r}}{R_{n}}\Theta_{n}+\frac{1}{R_{n}}\partial_{z}\big(|Z_{n}|^{2}\big)+\varepsilon_{n}\Big(\Delta-\frac{1}{R_{n}^{2}}\Big)\Theta_{n}\qquad\mbox{on }\{y\in\mathcal{D}_{n}\colon R_{n}(y)>0\}\,,$
+where $(B_{n})_{r}$ is the radial component with respect to the original axis. We fix $\varphi\in C^{\infty}_{0}$ compactly supported in the interior of $\mathcal{O}$ and test (3.17) against $\varphi$ . On $\mathrm{supp\,}\varphi$ we have $R_{n}(y)\geq d_{n}-|y|\to\infty$ and $|\partial_{z}(\varphi/R_{n})|\leq C/(d_{n}-|y|)$ , so that every term on the right side tends to zero as $n\to\infty$ , by the vanishing $\varepsilon_{n}\to 0$ and the bounds (3.8a) and (3.8c) on $B_{n}$ , $Z_{n}$ , and $\Theta_{n}$ . Here the receding axis, namely the fact that $R_{n}(y)\to\infty$ , plays the same role as the circulation bound in Step 3 of the proof of Lemma 3.2: it removes the stretching term and the swirl source, while the viscous terms vanish because $\varepsilon_{n}\to 0$ . Passing $n\to\infty$ in the drift term as in that step, we obtain
+(3.18)
+$\displaystyle\int_{\mathcal{O}}\Theta\big(\partial_{\tau}\varphi+B\cdot\nabla\varphi\big)\,dy\,d\tau=0\,,$
+for every $\varphi\in C^{\infty}_{0}$ compactly supported in the interior of $\mathcal{O}$ . Here too the transported function is continuous and bounded on its domain, and the velocity is bounded on compact subsets of $\mathcal{O}$ , divergence free, measurable in time, and Lipschitz in space on compact sets.
+Step 4: characteristics and the vanishing of the limit vorticity.
+We fix a point $y_{0}\in\mathbb{R}^{3}$ . As in Step 4 of the proof of Lemma 3.2, the equation $\dot{X}(\tau)=B(X(\tau),\tau)$ with $X(-1)=y_{0}$ has a unique solution $X$ on $(-\infty,-1]$ , absolutely continuous on compact subintervals, and the displacement bound (3.16) holds. Since here $\mathcal{U}=\mathcal{O}$ , that bound alone confines the graph of $X$ over $[\tau_{0},-1]$ to a compact subset of $\mathcal{U}$ , and we need no lower bound on the distance to the axis. By (3.18) and Step 2, the pair $(\Theta,B)$ satisfies the hypotheses of Lemma 2.3, with $\lambda(\tau)=C_{1}/|\tau|$ , so that
+$|\Theta(y_{0},-1)|=\lim_{\tau\to-\infty}|\Theta(X(\tau),\tau)|\leq\lim_{\tau\to-\infty}\frac{\sqrt{2}C_{1}}{|\tau|}=0\,,$
+which proves (3.11).
+Step 5: extracting the limit at the terminal time.
+As in Step 5 of the proof of Lemma 3.2, the weak- $*$ convergence to the field $B$ gives no limit for the fields $B_{n}(\cdot,-1)$ . By (3.8a), (3.8b), and (3.8c) at $\tau=-1$ , where $L_{n}(-1)=1$ , the fields $B_{n}(\cdot,-1)$ are bounded in $C^{1,1}$ on every compact subset of $\mathbb{R}^{3}$ and satisfy $|B_{n}(\cdot,-1)|\leq C_{0}$ there. Passing to a further subsequence, we obtain $B_{n}(\cdot,-1)\to B^{*}$ in $C^{1}$ on compact subsets of $\mathbb{R}^{3}$ , with $\mathrm{div\,}B^{*}=0$ and $|B^{*}|\leq C_{0}$ . This subsequence refines the one of Step 1. Since $|\mathrm{curl\,}B_{n}|=|\Theta_{n}|$ on compact sets for $n$ large, we obtain $|\mathrm{curl\,}B^{*}|=|\Theta(\cdot,-1)|$ , which vanishes by (3.11). By elliptic regularity $B^{*}$ is smooth and each of its components is harmonic.
+∎
+3.3. Proof of Proposition 3.1
+Since $\ell(t)\to 0$ , we may fix $T_{1}\in(0,1]$ for which (3.2) holds, so that the fields and the bounds of Section 3.1 are available. In particular, (3.3) shows that $\sup_{t\in(-T_{1},0)}(-t)\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}(B(1/2))}\leq C_{1}$ .
+Suppose by contradiction that (3.1) fails. Then there exist $c_{0}>0$ , times $t_{n}\uparrow 0$ with $t_{n}\in(-T_{1},0)$ , and points $x_{n}\in B(1/2)$ with
+(3.19)
+$\displaystyle(-t_{n})|\nabla b(x_{n},t_{n})|\geq c_{0}\,.$
+By rotational invariance we may without loss of generality take $x_{n}^{\prime}=(r_{n},0)$ . Recall that $\ell_{n}=\ell(t_{n})$ . After passing to a subsequence, either $r_{n}/\ell_{n}$ is bounded (finite-axis), or $r_{n}/\ell_{n}\to\infty$ (receding-axis). These are the two configurations discussed in Section 3.1, and we choose the points $a_{n}$ from (3.5) accordingly: in the finite-axis configuration we define $a_{n}:=(0,0,x_{n}\cdot e_{z})$ , while in the receding-axis configuration we define $a_{n}:=x_{n}$ . In both cases $|a_{n}|\leq|x_{n}|<\frac{1}{2}$ , and the image $y_{n}^{*}:=(x_{n}-a_{n})/\ell_{n}$ of $x_{n}$ under the zoom-in from (3.5) is $(r_{n}/\ell_{n},0,0)$ and $(0,0,0)$ respectively, hence bounded.
+In terms of the doubling constant $D\geq 1$ from (1.2a), we define $\bar{L}\colon(-\infty,-1]\to[1,\infty)$ by
+$\displaystyle\bar{L}(\tau):=D^{\lceil\log_{2}|\tau|\rceil}\,.$
+This function is non-decreasing in $|\tau|$ and satisfies $\bar{L}(\tau)\leq C_{T}$ for $-T\leq\tau\leq-1$ , with $C_{T}$ as in (3.7). By monotonicity and doubling, $L_{n}(\tau)\leq D^{k}$ for all $\tau\in[-2^{k},-2^{k-1})\cap[-T,-1]$ and $0\leq k\leq\lceil\log_{2}T\rceil$ , for all large $n$ (depending on $T$ ). Therefore, $L_{n}\leq\bar{L}$ on $[-T,-1]$ for every $T>1$ , and all $n$ large enough depending on $T$ . Thus, we have verified assumption (3.10).
+We apply Lemma 3.2 in the finite-axis configuration and Lemma 3.3 in the receding-axis configuration. In both cases, along a subsequence $B_{n}(\cdot,-1)\to B^{*}$ in $C^{1}$ on compact subsets of $\mathbb{R}^{3}$ , with each component of $B^{*}$ being harmonic. Moreover, $|B^{*}|\leq C_{0}$ . A bounded harmonic function on $\mathbb{R}^{3}$ is constant, and thus $\nabla B^{*}\equiv 0$ .
+Since $y_{n}^{*}$ is bounded, after passing to a further subsequence we have $y_{n}^{*}\to y^{*}$ . Differentiating (3.5), we obtain $\nabla B_{n}(y_{n}^{*},-1)=(-t_{n})\nabla b(x_{n},t_{n})$ , and since $\nabla B_{n}(\cdot,-1)\to\nabla B^{*}$ uniformly on compact sets, passing to the limit in (3.19) yields $|\nabla B^{*}(y^{*})|\geq c_{0}$ . This contradicts $\nabla B^{*}\equiv 0$ , and Proposition 3.1 is proved.
+∎
+4. The local regularity conclusion
+In this section we use the asymptotic vanishing statement (1.5) (which for $\rho_{0}=1/2$ is (3.1)) to prove regularity of the flow on a smaller fixed ball, which completes the proof of Theorem 1.2.
+Proposition 4.1 (Smallness of $(-t)\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}}$ implies regularity).
+Suppose that (1.5) holds for some $\rho_{0}\in(0,1)$ . Then $(0,0)$ is a regular point.
+Proof of Proposition 4.1.
+We fix a regular annulus for $u$ inside $B(\rho_{0})$ , as in
+Lemma 2.2; we also fix the time $t_{0}$ and the radii $R_{-}<R_{+}$ this lemma supplies, together with an $R_{*}\in(R_{-},R_{+})$ . Let $\chi$ be a smooth radial cutoff
+supported in $B(R_{*})$ , equal to one on $B(\rho)$ for some $\rho\in(R_{-},R_{*})$ , so that the
+derivatives of $\chi$ are supported in the regular annulus $\{R_{-}<|x|<R_{+}\}$ of $u$ .
+We write $G(t)=\left\|\nabla b(\cdot,t)\right\|_{L^{\infty}(B(\rho_{0}))}$ , and for each
+$\eta>0$ we fix $t_{\eta}\in(t_{0},0)$ so close to zero that
+(4.1)
+$G(t)\leq\frac{\eta}{(-t)}\,\qquad\mbox{on}\qquad(t_{\eta},0)\,.$
+Note that since the radial component $b_{r}=u_{r}$ of $b$ vanishes on the axis we have
+$|b_{r}/r|\leq G$ . Moreover, the azimuthal velocity $u_{\theta}$ vanishes on the axis of symmetry, is bounded on $\partial B(R_{*})\times(t_{0},0)$ and on the initial time-slice $B(R_{*})\times\{t_{\eta}\}$ . From the swirl equation (2.3) we have that the function $\psi=(-t)^{\eta}u_{\theta}$
+satisfies
+$\partial_{t}\psi+b\cdot\nabla\psi-\Delta\psi+\Bigl(r^{-2}+\frac{b_{r}}{r}+\frac{\eta}{(-t)}\Bigr)\psi=0\,.$
+Since $|b_{r}/r|\leq G(t)\leq\eta/(-t)$ , the zeroth order coefficient satisfies
+$r^{-2}+\frac{b_{r}}{r}+\frac{\eta}{(-t)}\geq r^{-2}\geq 0$
+on $B(R_{*})\times(t_{\eta},0)$ . Although the coefficient $r^{-2}$ is singular on the axis, $\psi$ vanishes there, since $u_{\theta}$ does, so that a positive maximum or a negative minimum of $\psi$ which is not attained on the parabolic boundary is attained off the axis, where the classical argument applies. Applying the maximum principle, we obtain a constant $C_{\eta}>0$ such that $|\psi|\leq C_{\eta}$ on $B(R_{*})\times(t_{\eta},0)$ , and therefore
+(4.2)
+$\displaystyle W(t):=\left\|u_{\theta}(\cdot,t)\right\|_{L^{\infty}(B(R_{*}))}=\left\|w(\cdot,t)\right\|_{L^{\infty}(B(R_{*}))}\leq C_{\eta}(-t)^{-\eta}\,.$
+We let
+$Y(t)=\|\chi\,\omega(\cdot,t)\|_{L^{2}}^{2}\,,\qquad M(t)=\|\chi\,\nabla\omega(\cdot,t)\|_{L^{2}}^{2}\,,$
+where as usual, $\omega=\mathrm{curl\,}u$ . Taking the curl of (1.1), and splitting the advecting velocity as $u=b+w$ (cf. (2.1)), we obtain
+$\partial_{t}\omega-\Delta\omega+\mathrm{curl\,}\bigl((b\cdot\nabla)u\bigr)+\mathrm{curl\,}\bigl((w\cdot\nabla)u\bigr)=0\,.$
+We test this equation against $\chi^{2}\omega$ . Because $u$ and all its spatial derivatives are bounded on the regular annulus, and thus on $\mathrm{supp\,}(\nabla\chi)$ , every term in which a derivative falls on $\chi$ is bounded by a constant depending only on $\chi$ and the $u$ -bounds. The diffusion term therefore yields $M$ up to such an a priori bounded term. For the nonlinear contribution from the meridional term, since $\mathrm{div\,}b=0$ we have the identity
+$\bigl(\mathrm{curl\,}\bigl((b\cdot\nabla)u\bigr)\bigr)_{i}=\partial_{j}(b_{j}\omega_{i})+\varepsilon_{ik\ell}(\partial_{k}b_{j})(\partial_{j}u_{\ell})\,,$
+where $\varepsilon_{ik\ell}$ is the Levi-Civita symbol.
+By the definitions of $G$ and $Y$ , the second term is bounded by $G\left\|\chi\nabla u\right\|_{L^{2}}Y^{1/2}$ . The first term contributes only a priori bounded terms which contain $\nabla\chi$ because $\mathrm{div\,}b=0$ implies
+$\int\partial_{j}(b_{j}\omega_{i})\omega_{i}\chi^{2}=-\frac{1}{2}\int b\cdot\nabla|\omega|^{2}\chi^{2}-2\int b\cdot\nabla\chi|\omega|^{2}\chi=-\int b\cdot\nabla\chi|\omega|^{2}\chi$ .
+For the contribution from the nonlinear swirl term, we move the $\mathrm{curl\,}$ onto $\chi^{2}\omega$ , and by the definition of $W$ this contributes an a priori bounded term and a term bounded by $2W\left\|\chi\nabla u\right\|_{L^{2}}M^{1/2}$ . We have thus shown that there exists $C\geq 1$ , which depends on the bounds of $u$ and its derivatives on the regular annulus, such that
+$\frac{1}{2}\frac{d}{dt}Y+M\leq G\left\|\chi\nabla u\right\|_{L^{2}}Y^{1/2}+2W\left\|\chi\nabla u\right\|_{L^{2}}M^{1/2}+C\,.$
+It remains to bound $\left\|\chi\nabla u\right\|_{L^{2}}$ . The whole-space div-curl identity, applied to the compactly supported field $\chi u$ , together with $\mathrm{div\,}u=0$ , gives
+$\left\|\nabla(\chi u)\right\|_{L^{2}}^{2}\leq C(Y+1)\,,$
+upon possibly enlarging the constant $C$ ; since $\nabla\chi$ is supported in the regular annulus, the same bound holds for $\left\|\chi\nabla u\right\|_{L^{2}}^{2}$ .
+Absorbing $M^{1/2}$ into the dissipation by Young’s inequality, we arrive at
+(4.3)
+$\displaystyle\frac{d}{dt}Y+M\leq C_{*}\bigl(G+W^{2}+1\bigr)(Y+1)\,,$
+for a constant $C_{*}\geq 1$ .
+At this point we fix $\eta=1/(16C_{*})\leq 1/16$ ; this choice is permissible because $C_{*}$ depends only on the cutoff $\chi$ and on the bounds on $u$ on the regular annulus, and these were fixed before $\eta$ was chosen.
+Combining (4.3) with the bounds in (4.1) and (4.2), with the above choice of $\eta$ we obtain from Grönwall’s inequality that
+$Y(t)\leq(Y(t_{\eta})+1)\exp\left(\int_{t_{\eta}}^{t}\Bigl(\frac{C_{*}\eta}{(-s)}+\frac{C_{*}C_{\eta}^{2}}{(-s)^{2\eta}}+C_{*}\Bigr)ds\right)\leq C_{\eta}^{\prime}(-t)^{-C_{*}\eta}$
+for all $t\in(t_{\eta},0)$ , for a suitable constant $C_{\eta}^{\prime}>0$ .
+The div-curl estimate above and the homogeneous Sobolev inequality
+therefore give
+$\left\|u(\cdot,t)\right\|_{L^{6}(B(\rho))}\leq\left\|\chi u(\cdot,t)\right\|_{L^{6}(\mathbb{R}^{3})}\leq C_{\eta}^{\prime\prime}(-t)^{-C_{*}\eta/2}\,,$
+for all $t\in(t_{\eta},0)$ . Here $B(\rho)$ is the fixed ball on which $\chi\equiv 1$ . Since
+$2C_{*}\eta=1/8<1$ , the above bound implies a local Ladyzhenskaya-Prodi-Serrin regularity condition (cf. Serrin [22] for $u\in L^{q}_{t}L^{p}_{x}$ with $3/p+2/q<1$ , and Struwe [23, Theorem 3.1] for $3/p+2/q=1$ )
+$u\in L^{4}(t_{\eta},0;L^{6}(B(\rho)))\,.$
+The specific form of local regularity we need here may be found for instance in Gustafson, Kang, and Tsai [8, Corollary 1.2(i)]: if $u\in L^{4}((-r^{2},0);L^{6}(B(r)))$ for some $r>0$ , then the top of the cylinder $(0,0)$ is a regular point in the sense of (1.3). Here we apply this result with $r=\min\{\rho,|t_{\eta}|^{1/2}\}$ .
+∎
+Proof of Theorem 1.2.
+By Proposition 3.1, the bounds (1.4) give (3.1), which is (1.5) with $\rho_{0}=1/2$ , and Proposition 4.1 makes $(0,0)$ a regular point.
+∎
+Note that Theorem 1.2 gives regularity not just for $\ell(t)=(-t)^{\gamma}$ with $\gamma\in(0,1/2)$ , but also for power laws with a logarithmic correction.
+Corollary 4.2 (Local power laws and logarithmic corrections).
+Let $(u,\pi)$ be as in Theorem 1.2, with (1.4) being replaced by
+the two local bounds
+(4.4)
+$\displaystyle\left\|u(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq C(-t)^{\gamma-1}\Big(\log\frac{e}{(-t)}\Big)^{a}\,,\qquad\left\|\nabla^{2}u(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq C(-t)^{-1-\gamma}\Big(\log\frac{e}{(-t)}\Big)^{-a}\,,$
+for all $t<0$ sufficiently close to zero, with
+•
+either $0<\gamma<1/2$ and $a\in\mathbb{R}$ ,
+•
+or $\gamma=1/2$ and $a>0$ .
+Then $(0,0)$ is a regular point of the Navier-Stokes solution $(u,\pi)$ .
+Proof of Corollary 4.2.
+We take $\ell(t)=(-t)^{\gamma}(\log(e/(-t)))^{a}$ . Its logarithmic derivative is
+$\frac{t\ell^{\prime}(t)}{\ell(t)}=\gamma-\frac{a}{\log(e/(-t))}\,.$
+Since $t<0$ , in each stated range $\ell$ is non-increasing near zero, is
+doubling, and tends to zero. We also have
+$\frac{(-t)}{\ell(t)^{2}}=(-t)^{1-2\gamma}\left(\log\frac{e}{(-t)}\right)^{-2a}\longrightarrow 0\,.$
+Thus, for some $0<T_{1}\ll 1$ , the function $\ell$ satisfies the requirements of Definition 1.1 with $(-T_{1},0)$ and $(-T_{1}/2,0)$ in place of $(-1,0)$ and $(-1/2,0)$ , and on $(-T_{1},0)$ the bounds (4.4) hold and are nothing but (1.4). Applying Theorem 1.2 to $u_{\lambda}(x,t)=\lambda u(\lambda x,\lambda^{2}t)$ , $\pi_{\lambda}(x,t)=\lambda^{2}\pi(\lambda x,\lambda^{2}t)$ , with $\lambda=T_{1}^{1/2}$ and the Euler length $\lambda^{-1}\ell(\lambda^{2}t)$ , for which (1.4) holds with the same constants, we conclude.
+∎
+5. Weaker vorticity assumptions
+The second derivative bound in Theorem 1.2 is more than the proof uses. In this section we state the form of the theorem which the proof actually gives, with a Hölder seminorm of the azimuthal vorticity and a bound on the potential vorticity in place of $\nabla^{2}u$ . The only additional ingredient we need is an interior div-curl estimate.
+Theorem 5.1 (Local regularity under matched vorticity bounds).
+Let $0<\alpha\leq 1$ . Let $(u,\pi)$ and $\ell$ be as in Theorem 1.2, with (1.4) being replaced by the assumptions
+(5.1)
+$\displaystyle\left\|u(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq C_{0}\frac{\ell(t)}{(-t)}\,,\quad[\omega_{\theta}(\cdot,t)]_{C^{\alpha}(B(1))}\leq\frac{C_{\alpha}}{(-t)\ell(t)^{\alpha}}\,,\quad\left\|\Omega(\cdot,t)\right\|_{L^{\infty}(B(1))}\leq\frac{C_{H}}{(-t)\ell(t)}\,,$
+for all $t\in(-1,0)$ .33
+3
+Here $\omega_{\theta}$ is viewed as a rotation-invariant scalar function on $B(1)$ , equal to zero on the axis, and the Hölder seminorm is taken with respect to the Euclidean distance.
+Then $(0,0)$ is a regular point. When $\alpha=1$ the third bound follows from the second, and may be omitted.
+For the power law $\ell(t)=(-t)^{\gamma}$ , the three upper bounds in (5.1) are $(-t)^{\gamma-1}$ , $(-t)^{-1-\alpha\gamma}$ , and $(-t)^{-1-\gamma}$ . That is, the rescaled field $U(y,t)=(-t)^{1-\gamma}u((-t)^{\gamma}y,t)$ is bounded, has $C^{\alpha}$ azimuthal vorticity, and has bounded potential vorticity on the expanding ball $B(1/(-t)^{\gamma})$ . Lemma 2.1(b) turns the Hessian bound in (1.4) into the second bound in (5.1) at $\alpha=1$ , and Lemma 2.1(a) turns it into the third. Theorem 1.2 is therefore the case $\alpha=1$ of Theorem 5.1.
+5.1. Interior div-curl estimates
+The bounds in (5.1) control the velocity and the Hölder seminorm of the azimuthal vorticity. The following lemma converts them into a gradient bound, and after the zoom-in into a uniform $C^{1,\beta}$ bound. Part (a) passes from the scalar $\omega_{\theta}$ to the vector $\omega_{\theta}e_{\theta}$ , and part (b) records the interior Schauder estimates for the div-curl system, as used here.
+Lemma 5.2 (Interior div-curl estimates).
+Let $0<\alpha\leq 1$ .
+(a)
+Let $\varpi\in C^{\alpha}(B(R))$ be invariant under rotations about the $z$ -axis and equal to zero on it. Then, with $\varpi\,e_{\theta}$ extended by zero to the axis, we have
+(5.2)
+$\displaystyle[\varpi\,e_{\theta}]_{C^{\alpha}(B(R))}\leq 3\,[\varpi]_{C^{\alpha}(B(R))}\,.$
+(b)
+Let $F$ be a smooth divergence-free field on a ball $B(x_{0},R)$ , and let $S=\left\|F\right\|_{L^{\infty}(B(x_{0},R))}$ and $K=[\mathrm{curl\,}F]_{C^{\alpha}(B(x_{0},R))}$ . Then
+(5.3)
+$\displaystyle\left\|\nabla F\right\|_{L^{\infty}(B(x_{0},R/2))}\leq C(\alpha)\Big(SR^{-1}+S^{\frac{\alpha}{1+\alpha}}K^{\frac{1}{1+\alpha}}\Big)\,,$
+and, for every $0<\beta<\alpha$ ,
+(5.4)
+$\displaystyle\left\|F\right\|_{C^{1,\beta}(B(x_{0},R/2))}\leq C(R,\alpha,\beta)\,(S+K)\,.$
+Proof of Lemma 5.2.
+For part (a), set $M=[\varpi]_{C^{\alpha}(B(R))}$ . If one of the points $x,y\in B(R)$ lies on the axis, then the vanishing of $\varpi$ on the axis gives
+$|\varpi(x)e_{\theta}(x)-\varpi(y)e_{\theta}(y)|\leq M|x-y|^{\alpha}.$
+Suppose now that both points are off the axis. After interchanging them if necessary, assume that $0<r_{y}\leq r_{x}$ , and let $d=|x-y|$ . The projections onto the axis belong to $B(R)$ , so $|\varpi(y)|\leq Mr_{y}^{\alpha}$ . Moreover,
+$|e_{\theta}(x)-e_{\theta}(y)|\leq\min\Bigl\{2,\frac{2d}{r_{y}}\Bigr\}.$
+It follows that
+$\displaystyle|\varpi(x)e_{\theta}(x)-\varpi(y)e_{\theta}(y)|$
+$\displaystyle\leq|\varpi(x)-\varpi(y)|+|\varpi(y)|\,|e_{\theta}(x)-e_{\theta}(y)|$
+$\displaystyle\leq Md^{\alpha}+2Mr_{y}^{\alpha}\min\{1,d/r_{y}\}\leq 3Md^{\alpha},$
+where the last inequality follows separately from $d\geq r_{y}$ and $d<r_{y}$ . This proves (5.2).
+For part (b), we write $G=\mathrm{curl\,}F$ . Since $\mathrm{div\,}F=0$ , we have $-\Delta F=\mathrm{curl\,}G$ , so that for every $x_{1}\in B(x_{0},R)$ each component of $F$ solves the Poisson equation $-\Delta F_{j}=\partial_{k}\big(\varepsilon_{jk\ell}(G_{\ell}-G_{\ell}(x_{1}))\big)$ . On a ball $B(x_{1},2h)\subset B(x_{0},R)$ the interior Schauder estimate [7, Theorem 8.32], applied after rescaling to the unit ball, gives for every $0<\beta<\alpha$
+(5.5)
+$\displaystyle\left\|\nabla F\right\|_{L^{\infty}(B(x_{1},h))}+h^{\beta}[\nabla F]_{C^{\beta}(B(x_{1},h))}\leq C(\alpha,\beta)\Big(h^{-1}\left\|F\right\|_{L^{\infty}(B(x_{1},2h))}+h^{\alpha}K\Big)\,.$
+Here we used that $|G-G(x_{1})|\leq(2h)^{\alpha}K$ and that $[G]_{C^{\beta}(B(x_{1},2h))}\leq(4h)^{\alpha-\beta}K$ on $B(x_{1},2h)$ . For (5.3) we take $\beta=\alpha/2$ , $x_{1}\in B(x_{0},R/2)$ , and $h=\min\{R/4,(S/K)^{1/(1+\alpha)}\}$ , with $h=R/4$ when $K=0$ . The right side of (5.5) is then at most $C(\alpha,\beta)(S/h+h^{\alpha}K)$ , which is bounded by the right side of (5.3) after enlarging $C(\alpha)$ . For (5.4) we take $h=R/4$ in (5.5) at every $x_{1}\in B(x_{0},R/2)$ ; pairs of points at distance at least $R/4$ are handled by the bound on $\left\|\nabla F\right\|_{L^{\infty}(B(x_{0},R/2))}$ .
+∎
+5.2. Proof of Theorem 5.1
+Proof of Theorem 5.1.
+The last assertion of the theorem is immediate: when $\alpha=1$ , since $\omega_{\theta}$ vanishes on the axis, the second bound in (5.1) gives $|\omega_{\theta}(x,t)|\leq C_{\alpha}\,r/((-t)\ell(t))$ , which is the third bound with $C_{H}=C_{\alpha}$ .
+By Proposition 4.1, it suffices to prove that (3.1) holds under the assumption (5.1). The proof of Proposition 3.1 uses the hypotheses (1.4) only through the bounds (3.3) and (3.4), through the rescaled bounds (3.8), and through Lemmas 3.2 and 3.3. We first show that (3.3) and (3.4) hold under the assumption (5.1). Then, we record what replaces the Hessian bound (3.8b) after the zoom, and we verify that the two lemmas survive the replacement.
+The gradient and potential vorticity bounds.
+We fix $t\in(-T_{1},0)$ , with $T_{1}$ as in (3.2), and we apply Lemma 5.2(a) on $B(1)$ : the second bound in (5.1) gives
+(5.6)
+$\displaystyle[\mathrm{curl\,}b(\cdot,t)]_{C^{\alpha}(B(1))}=[\omega_{\theta}(\cdot,t)\,e_{\theta}]_{C^{\alpha}(B(1))}\leq\frac{3C_{\alpha}}{(-t)\ell(t)^{\alpha}}\,.$
+For $x\in B(3/4)$ we apply (5.3) to $b(\cdot,t)$ on $B(x,1/4)\subset B(1)$ , with $S\leq C_{0}\ell(t)/(-t)$ by the first bound in (5.1), and with $K\leq 3C_{\alpha}/((-t)\ell(t)^{\alpha})$ by (5.6). The length $\ell(t)$ cancels in the product $S^{\alpha/(1+\alpha)}K^{1/(1+\alpha)}$ , while $4\ell(t)\leq 1$ by (3.2). Taking the supremum over $x\in B(3/4)$ therefore gives (3.3) with constant
+$C_{1}:=C(\alpha)\Big(C_{0}+C_{0}^{\frac{\alpha}{1+\alpha}}(3C_{\alpha})^{\frac{1}{1+\alpha}}\Big)\,.$
+The bound (3.4) is the third bound in (5.1), with $C_{H}$ in place of $\sqrt{2}C_{2}$ .
+The rescaled bounds.
+The fields and the domains of Section 3.1 are defined as before. The bounds (3.8a), (3.8c), and (3.8e) hold as stated, and (3.8d) holds with $C_{H}$ in place of $\sqrt{2}C_{2}$ . In place of the Hessian bound (3.8b), the change of variables (3.5) applied to the second bound in (5.1) and to (5.6) gives, for every $\tau\leq-1$ and all $n$ large depending on $\tau$ ,
+(5.7)
+$\displaystyle[\Theta_{n}(\cdot,\tau)]_{C^{\alpha}(\mathcal{D}_{n})}\leq\frac{C_{\alpha}}{|\tau|L_{n}(\tau)^{\alpha}}\leq\frac{C_{\alpha}}{|\tau|}\,,\qquad[\mathrm{curl\,}B_{n}(\cdot,\tau)]_{C^{\alpha}(\mathcal{D}_{n})}\leq\frac{3C_{\alpha}}{|\tau|L_{n}(\tau)^{\alpha}}\leq\frac{3C_{\alpha}}{|\tau|}\,.$
+Here we used that $L_{n}\geq 1$ for $\tau\leq-1$ .
+The two lemmas.
+We claim that the conclusions of Lemmas 3.2 and 3.3 remain valid when the Hessian bound (3.8b) is replaced by (5.7), with the other rescaled bounds retained as described above. Indeed, the Hessian bound enters the proofs of the two lemmas in Step 1 and Step 5 only: Steps 2, 3, and 4 use, besides the hypotheses of the two lemmas, only the bounds (3.8a), (3.8c), (3.8d), and (3.8e), the vanishing of $\varepsilon_{n}$ , and the conclusions of Step 1.
+In Step 1 it makes $\mathrm{curl\,}B_{n}$ and $\Theta_{n}$ Lipschitz in $y$ , uniformly in $n$ on compact sets. This information is used twice: in the compactness inequality, through the compact embedding $C^{0,1}(\overline{B(\bar{y},\rho)})\hookrightarrow C^{0}(\overline{B(\bar{y},\rho)})$ , and for the equicontinuity in $y$ of the scalars $\Theta_{n}$ . Under (5.7) the two fields are instead Hölder continuous in $y$ with exponent $\alpha$ , uniformly in $n$ on compact sets. Since the embedding $C^{0,\alpha}(\overline{B(\bar{y},\rho)})\hookrightarrow C^{0}(\overline{B(\bar{y},\rho)})$ is compact as well, the compactness inequality holds with the $C^{0,\alpha}$ norm in place of the $C^{0,1}$ norm, and the equicontinuity in $y$ follows from the Hölder bound. The rest of Step 1 is unchanged. In particular, $|\Theta|\leq\sqrt{2}C_{1}/|\tau|$ , and in Lemma 3.2 the limit $\Omega_{\infty}$ inherits the bound $C_{H}/|\tau|$ from (3.8d), so that the bound $\sqrt{2}C_{2}/|\tau|$ used in Step 4 becomes $C_{H}/|\tau|$ .
+In Step 5, the bounds (3.8a) and (5.7) at $\tau=-1$ , where $L_{n}(-1)=1$ , together with (5.4) on unit balls, which lie in $\mathcal{D}_{n}$ for $n$ large, bound $B_{n}(\cdot,-1)$ in $C^{1,\beta}$ on every compact subset of $\mathbb{R}^{3}$ , for every $\beta<\alpha$ . This replaces the $C^{1,1}$ bound. A further subsequence again converges in $C^{1}$ on compact sets, and the rest of Step 5 is unchanged. This proves the claim.
+Conclusion.
+The proof in Section 3.3 then gives (3.1) under the weaker assumption (5.1), and thus Proposition 4.1 proves Theorem 5.1.
+∎
+6. Sublinear Euler profiles under weaker regularity
+In this section we carry out, for the self-similar Euler profiles of [4, Section 4], the weakening of regularity hypotheses announced in Remark 1.3(d). In Section 4 of our previous paper [4], we considered axisymmetric, globally self-similar solutions of the 3D Euler equations, with self-similar profile $U$ and similarity exponent $\gamma>0$ . Constantin, Ignatova, and Vicol [4, Theorem 4.5] proved that $\gamma\geq\frac{1}{2}$ for every nonzero $C^{2}$ profile satisfying $U(0)=0$ , sublinearity at infinity, and the far-field bounds
+$|U(y)|\leq C|y|\langle y\rangle^{-1/\gamma},\qquad|\nabla U(y)|+|\mathrm{curl\,}U(y)|\leq C\langle y\rangle^{-1/\gamma}.$
+That paper also fixes the spatial units by the normalization $\|\nabla^{2}U\|_{L^{\infty}}=1$ . The normalization does not enter the argument below. Here we retain $U(0)=0$ , continuity, sublinearity, local Hölder regularity of the azimuthal vorticity, and local boundedness of the potential vorticity, but impose no far-field decay beyond sublinearity. We use the pressure-free weak form of the self-similar Euler equation $(1-\gamma)U+\gamma y\cdot\nabla U+U\cdot\nabla U+\nabla P=0$ . The identity $y\cdot\nabla U=\mathrm{div\,}(y\otimes U)-3U$ gives (6.1) below.
+Proposition 6.1 (Sublinear self-similar Euler profiles).
+Let $\gamma>0$ and let $U\in C(\mathbb{R}^{3};\mathbb{R}^{3})$ be axisymmetric, with $\mathrm{div\,}U=0$ in $\mathcal{D}^{\prime}(\mathbb{R}^{3})$ , $U(0)=0$ , $|U(y)|/|y|\to 0$ as $|y|\to\infty$ , and
+(6.1)
+$\displaystyle\int_{\mathbb{R}^{3}}\Big((1-4\gamma)\,U\cdot\Xi-\gamma\,(y\otimes U):\nabla\Xi-(U\otimes U):\nabla\Xi\Big)\,dy=0\,,$
+for all $\Xi\in C^{\infty}_{0}(\mathbb{R}^{3};\mathbb{R}^{3})$ with $\mathrm{div\,}\Xi=0$ .
+Let $U=b_{U}+U_{\theta}e_{\theta}$ , with $b_{U}=U_{r}e_{r}+U_{z}e_{z}$ , be the decomposition of $U$ in the cylindrical frame of the variable $y$ , where $r=|y^{\prime}|$ . Assume that $\mathrm{curl\,}b_{U}=\omega_{\theta}e_{\theta}$ in $\mathcal{D}^{\prime}(\mathbb{R}^{3})$ , where $\omega_{\theta}$ is an axisymmetric scalar which vanishes on the axis and belongs to $C^{0,\alpha}_{\mathrm{loc}}(\mathbb{R}^{3})$ for some $\alpha\in(0,1]$ . Also assume that the potential vorticity $\omega_{\theta}/r$ is bounded on $B(\rho)\cap\{r>0\}$ for every $\rho>0$ ; this is automatic when $\alpha=1$ . If $U\not\equiv 0$ , then $\gamma\geq\frac{1}{2}$ . If $U_{\theta}\equiv 0$ , then $U\equiv 0$ for every $\gamma>0$ .
+Proof of Proposition 6.1.
+The proof is carried out in six steps.
+Step 1: regularity of the meridional part. Since a continuous axisymmetric field is parallel to $e_{z}$ on the axis, $U_{r}$ and $U_{\theta}$ vanish there, and $b_{U}$ is continuous on $\mathbb{R}^{3}$ . The identity $\mathrm{div\,}(U_{\theta}e_{\theta})=0$ holds in $\mathcal{D}^{\prime}(\mathbb{R}^{3})$ : away from the axis it follows from the cylindrical divergence formula, while integration over the angular variable and the identity $(U_{\theta}e_{\theta})\cdot e_{r}=0$ exclude an axis contribution. Hence $\mathrm{div\,}b_{U}=0$ in $\mathcal{D}^{\prime}(\mathbb{R}^{3})$ .
+We fix $\rho>0$ , and for $0<\varepsilon\leq\rho/2$ set $b_{\varepsilon}=b_{U}*\eta_{\varepsilon}$ , where $\eta$ is a radial mollifier supported in $B(1)$ . Radial convolution preserves rotation equivariance and reflection symmetry across planes containing the axis. Thus $b_{\varepsilon}$ is smooth, axisymmetric, and meridional, with $\mathrm{div\,}b_{\varepsilon}=0$ and $\mathrm{curl\,}b_{\varepsilon}=(\omega_{\theta}e_{\theta})*\eta_{\varepsilon}$ . By (5.2),
+$[\mathrm{curl\,}b_{\varepsilon}]_{C^{\alpha}(B(\rho/2))}\leq 3[\omega_{\theta}]_{C^{\alpha}(B(\rho))},\qquad\left\|b_{\varepsilon}\right\|_{L^{\infty}(B(\rho/2))}\leq\left\|b_{U}\right\|_{L^{\infty}(B(\rho))}.$
+The bound (5.4) on $B(\rho/2)$ therefore bounds $b_{\varepsilon}$ in $C^{1,\beta}(B(\rho/4))$ uniformly in $\varepsilon$ , for every $\beta<\alpha$ . For a fixed $\beta<\alpha$ , we apply this statement with an exponent strictly between $\beta$ and $\alpha$ . Since $b_{\varepsilon}\to b_{U}$ uniformly on compact sets, compactness gives $b_{U}\in C^{1,\beta}_{\mathrm{loc}}(\mathbb{R}^{3})$ and $b_{\varepsilon}\to b_{U}$ in $C^{1}$ on compact sets. In particular, $V:=\gamma y+b_{U}$ is locally Lipschitz, with $\mathrm{div\,}V=3\gamma$ .
+Step 2: characteristics. Since $V$ is locally Lipschitz, the equation $\dot{Y}=V(Y)$ has unique solutions. By Step 1, $U_{r}=0$ on the axis, so that $V$ is parallel to $e_{z}$ there, the axis is invariant, and, by uniqueness, a solution which starts off the axis stays off it. By sublinearity we may fix $R_{\flat}$ with $|U(y)|\leq\frac{\gamma}{2}|y|$ for $|y|\geq R_{\flat}$ ; since $|b_{U}|\leq|U|$ , we then have $\frac{d}{d\tau}|Y|^{2}=2\gamma|Y|^{2}+2Y\cdot b_{U}(Y)\geq\gamma|Y|^{2}$ whenever $|Y|\geq R_{\flat}$ , so that $|Y(\tau)|\leq\max\{|Y(0)|,R_{\flat}\}$ for $\tau\leq 0$ . The standard continuation criterion for locally Lipschitz ordinary differential equations now shows that the backward characteristic starting at a point $y_{0}$ off the axis exists on $(-\infty,0]$ , stays in the compact set $K_{0}:=\overline{B(\max\{|y_{0}|,R_{\flat}\})}$ , and stays off the axis.
+Step 3: a stationary form of Lemma 2.3. Let $\mathcal{E}\subset\mathbb{R}^{3}$ be open, $V\colon\mathcal{E}\to\mathbb{R}^{3}$ locally Lipschitz with $\mathrm{div\,}V=c$ , $f\in C(\mathcal{E})$ , $\kappa\in\mathbb{R}$ , and
+(6.2)
+$\displaystyle\int_{\mathcal{E}}f\,\big(\kappa\psi-V\cdot\nabla\psi\big)\,dy=0\qquad\mbox{for all }\psi\in C^{\infty}_{0}(\mathcal{E})\,.$
+Equation (6.2) is the weak form of $V\cdot\nabla f+\mu f=0$ , for $\mu:=\kappa+c$ . If $Y\colon[\tau_{0},\tau_{1}]\to\mathcal{E}$ solves $\dot{Y}=V(Y)$ , then $e^{\mu\tau}f(Y(\tau))$ is constant. In order to prove this fact, we let $N\subset\mathcal{E}$ be a compact neighborhood of $Y([\tau_{0},\tau_{1}])$ , we take $\delta<\mathrm{dist}(N,\mathcal{E}^{\complement})$ , and we set $f^{\delta}=f*\eta_{\delta}$ on $N$ . Testing (6.2) with $\psi=\eta_{\delta}(y-\cdot)$ and using $\int(V(y)-V(\zeta))\cdot(\nabla\eta_{\delta})(y-\zeta)\,d\zeta=-c$ , due to $\mathrm{div\,}V=c$ , we obtain that on $N$ :
+$V\cdot\nabla f^{\delta}+\mu f^{\delta}=\int\big(f(\zeta)-f(y)\big)\big(V(y)-V(\zeta)\big)\cdot(\nabla\eta_{\delta})(y-\zeta)\,d\zeta+c\,(f^{\delta}-f)=:\mathsf{e}_{\delta}\,.$
+The error term $\mathsf{e}_{\delta}$ may be directly bounded as $|\mathsf{e}_{\delta}|\leq C\,\nu(\delta)\,(L_{N}+|c|)$ , where $\nu$ is the modulus of continuity of $f$ , and $L_{N}$ is the Lipschitz constant of $V$ , both on the closed $\delta$ -neighborhood of $N$ , which is a compact subset of $\mathcal{E}$ . Up to sign, $\mathsf{e}_{\delta}$ is the commutator $(V\cdot\nabla f)*\eta_{\delta}-V\cdot\nabla f^{\delta}$ of DiPerna and Lions [5, Lemma II.1]. Since $\frac{d}{d\tau}\big(e^{\mu\tau}f^{\delta}(Y(\tau))\big)=e^{\mu\tau}\mathsf{e}_{\delta}(Y(\tau))$ , letting $\delta\to 0$ proves the claim.
+We shall also use this statement when the scalar identity is initially known only for axisymmetric test functions. Suppose that $\mathcal{E}$ is invariant under rotations $R_{\vartheta}$ about the $z$ -axis, $f$ is axisymmetric, and $V(R_{\vartheta}y)=R_{\vartheta}V(y)$ . For an arbitrary $\psi\in C^{\infty}_{0}(\mathcal{E})$ , define
+$\overline{\psi}(y)=\frac{1}{2\pi}\int_{0}^{2\pi}\psi(R_{\vartheta}y)\,d\vartheta.$
+A change of variables shows that the left side of (6.2) has the same value at $\psi$ and at $\overline{\psi}$ . Therefore, validity for all axisymmetric test functions implies validity for all test functions.
+Step 4: the swirl. We set $\Gamma:=rU_{\theta}=y_{1}U_{2}-y_{2}U_{1}$ , which is continuous on $\mathbb{R}^{3}$ . For an axisymmetric $\psi\in C^{\infty}_{0}(\mathbb{R}^{3})$ , the test function $\Xi=\psi\,(e_{z}\times y)=\psi\,re_{\theta}$ is divergence free, and satisfies $\partial_{i}\Xi_{j}=\partial_{i}\psi\,(e_{z}\times y)_{j}+\psi\,\varepsilon_{j3i}$ . Moreover, $U\cdot\nabla\psi=b_{U}\cdot\nabla\psi$ because $\psi$ is axisymmetric. With this test function $\Xi$ , equation (6.1) gives
+$(1-5\gamma)\int\Gamma\psi-\int\Gamma\,V\cdot\nabla\psi=0.$
+By the rotational averaging observation in Step 3, this identity holds for every $\psi\in C^{\infty}_{0}(\mathbb{R}^{3})$ . Step 3 with $\mathcal{E}=\mathbb{R}^{3}$ , $\kappa=1-5\gamma$ , $c=3\gamma$ , and $\mu=1-2\gamma$ gives $e^{(1-2\gamma)\tau}\Gamma(Y(\tau))=\Gamma(y_{0})$ for $\tau\leq 0$ . Since $\Gamma$ is bounded on $K_{0}$ , if $\gamma<\frac{1}{2}$ , then letting $\tau\to-\infty$ gives $\Gamma(y_{0})=0$ for every $y_{0}$ off the axis, so that $U_{\theta}\equiv 0$ and $U=b_{U}$ .
+Step 5: the potential vorticity. Assume $U=b_{U}$ , and let $\chi\in C^{\infty}_{0}(\{r>0\})$ be axisymmetric. Set $\Xi=\mathrm{curl\,}(\chi e_{\theta})$ , $\psi:=r\chi$ , and $q:=\omega_{\theta}/r$ , which is continuous on $\{r>0\}$ . We identify the three terms of (6.1). First,
+$\int b_{U}\cdot\Xi=\int\omega_{\theta}\chi=\int q\psi.$
+To justify the next two identities at the stated regularity, we write $\mathrm{curl\,}b_{\varepsilon}=\omega_{\theta,\varepsilon}e_{\theta}$ . By Step 1, $b_{\varepsilon}\to b_{U}$ in $C^{1}$ on the compact support of $\chi$ , and hence $\omega_{\theta,\varepsilon}\to\omega_{\theta}$ uniformly there. Using $\mathrm{curl\,}(y\cdot\nabla b_{\varepsilon})=\mathrm{curl\,}b_{\varepsilon}+y\cdot\nabla\mathrm{curl\,}b_{\varepsilon}$ and $y\cdot\nabla e_{\theta}=0$ , we obtain
+$\displaystyle-\int(y\otimes b_{U}):\nabla\Xi$
+$\displaystyle=\lim_{\varepsilon\to 0}\int(3b_{\varepsilon}+y\cdot\nabla b_{\varepsilon})\cdot\Xi$
+$\displaystyle=\lim_{\varepsilon\to 0}\int(4\omega_{\theta,\varepsilon}+y\cdot\nabla\omega_{\theta,\varepsilon})\chi$
+$\displaystyle=\int\omega_{\theta}(\chi-y\cdot\nabla\chi)=\int q\,(2\psi-y\cdot\nabla\psi).$
+Similarly, since $\mathrm{div\,}b_{\varepsilon}=0$ , $b_{\varepsilon}\cdot\nabla b_{\varepsilon}=\mathrm{curl\,}b_{\varepsilon}\times b_{\varepsilon}+\nabla(|b_{\varepsilon}|^{2}/2)$ , and $\mathrm{div\,}\Xi=0$ , we have
+$\displaystyle-\int(b_{U}\otimes b_{U}):\nabla\Xi$
+$\displaystyle=\lim_{\varepsilon\to 0}\int(b_{\varepsilon}\cdot\nabla b_{\varepsilon})\cdot\Xi$
+$\displaystyle=\lim_{\varepsilon\to 0}\int(\omega_{\theta,\varepsilon}e_{\theta}\times b_{\varepsilon})\cdot\mathrm{curl\,}(\chi e_{\theta})$
+$\displaystyle=\int(\omega_{\theta}e_{\theta}\times b_{U})\cdot\mathrm{curl\,}(\chi e_{\theta})=-\int q\,b_{U}\cdot\nabla\psi,$
+where the last equality uses the pointwise identity
+$(e_{\theta}\times b_{U})\cdot\mathrm{curl\,}(\chi e_{\theta})=-r^{-1}b_{U}\cdot\nabla(r\chi).$
+Summing the three terms gives
+$(1-2\gamma)\int q\psi-\int q\,V\cdot\nabla\psi=0$
+for every axisymmetric $\psi\in C^{\infty}_{0}(\{r>0\})$ , since any such $\psi$ has the form $\psi=r\chi$ with $\chi=\psi/r\in C^{\infty}_{0}(\{r>0\})$ . By the rotational averaging observation in Step 3, the identity holds for every test function in $C^{\infty}_{0}(\{r>0\})$ . Step 3 with $\mathcal{E}=\{r>0\}$ , $\kappa=1-2\gamma$ , $c=3\gamma$ , and $\mu=1+\gamma$ gives $e^{(1+\gamma)\tau}q(Y(\tau))=q(y_{0})$ for $\tau\leq 0$ . Since $q$ is bounded on $K_{0}\cap\{r>0\}$ by hypothesis, letting $\tau\to-\infty$ gives $q(y_{0})=0$ . Thus $\omega_{\theta}\equiv 0$ on $\{r>0\}$ , hence on $\mathbb{R}^{3}$ by continuity.
+Step 6: conclusion. We have shown that $\mathrm{curl\,}U=\mathrm{curl\,}b_{U}=0$ and $\mathrm{div\,}U=0$ in $\mathcal{D}^{\prime}(\mathbb{R}^{3})$ , so $\Delta U=0$ in distributions. Thus, each component of $U$ is smooth and harmonic. A harmonic function with sublinear growth is constant, and $U(0)=0$ gives $U\equiv 0$ . The assumption $\gamma<\frac{1}{2}$ was used in Step 4 only; therefore, this proof also shows that a swirl-free profile vanishes for every $\gamma>0$ .
+∎
+Acknowledgments
+The work of P.C. was partially supported by NSF grant DMS-2606072. The work of M.I. was partially supported by NSF grant DMS-2204614. The work of V.V. was partially supported by the Collaborative NSF grant DMS-2307681 and by a Simons Investigator Award.
+Disclaimer on the use of AI systems
+Publicly available versions of Claude (Opus 5 and Fable 5.1, within Claude Code) and ChatGPT (Sol and Astra, within Codex) were used in the preparation of this manuscript. These systems were given access to our paper [4] (which was written without the use of AI systems), from which the core idea of the proof is taken, and to an early draft of this manuscript, written entirely by the authors, which contained the whole proof at the level of an eight-page sketch. Claude and ChatGPT were used to fill in the proofs of routine lemmas and arguments in that draft, to perform an extended bibliographic search, and to produce the TikZ figure. Over the course of two extended sessions of Claude Code and Codex, the manuscript was then polished, in its exposition and in the verification of its mathematical computations, under the close guidance and supervision of the authors. Every suggestion, computation, and reference produced by these systems was independently verified and, where necessary, corrected or reformulated by the authors, who take full responsibility for the manuscript as it is presently written.
+References
+[1]
+L. Caffarelli, R. Kohn, and L. Nirenberg,
+Partial regularity of suitable weak solutions of the Navier-Stokes equations,
+Comm. Pure Appl. Math. 35 (1982), no. 6, 771–831.
+doi:10.1002/cpa.3160350604.
+[2]
+C.-C. Chen, R. M. Strain, H.-T. Yau, and T.-P. Tsai,
+Lower bound on the blow-up rate of the axisymmetric Navier-Stokes equations,
+Int. Math. Res. Not. IMRN (2008), no. 9, Art. ID rnn016, 31 pp.
+doi:10.1093/imrn/rnn016.
+[3]
+C.-C. Chen, R. M. Strain, T.-P. Tsai, and H.-T. Yau,
+Lower bounds on the blow-up rate of the axisymmetric Navier-Stokes equations II,
+Comm. Partial Differential Equations 34 (2009), no. 3, 203–232.
+doi:10.1080/03605300902793956.
+[4]
+P. Constantin, M. Ignatova, and V. Vicol,
+On putative self-similarity for incompressible 3D Euler,
+Courant Journal of Pure and Applied Mathematics, to appear.
+arXiv:2602.17570v3.
+[5]
+R. J. DiPerna and P.-L. Lions,
+Ordinary differential equations, transport theory and Sobolev spaces,
+Invent. Math. 98 (1989), no. 3, 511–547.
+doi:10.1007/BF01393835.
+[6]
+L. Escauriaza, G. A. Seregin, and V. Šverák,
+$L_{3,\infty}$ -solutions of the Navier-Stokes equations and backward uniqueness,
+Uspekhi Mat. Nauk 58 (2003), no. 2, 3–44;
+English transl. in Russian Math. Surveys 58 (2003), no. 2, 211–250.
+doi:10.1070/RM2003v058n02ABEH000609.
+[7]
+D. Gilbarg and N. S. Trudinger,
+Elliptic partial differential equations of second order,
+Classics in Mathematics, Springer-Verlag, Berlin, 2001. Reprint of the 1998 edition.
+doi:10.1007/978-3-642-61798-0.
+[8]
+S. Gustafson, K. Kang, and T.-P. Tsai,
+Interior regularity criteria for suitable weak solutions of the Navier-Stokes equations,
+Comm. Math. Phys. 273 (2007), no. 1, 161–176.
+doi:10.1007/s00220-007-0214-6.
+[9]
+G. Koch, N. Nadirashvili, G. A. Seregin, and V. Šverák,
+Liouville theorems for the Navier-Stokes equations and applications,
+Acta Math. 203 (2009), no. 1, 83–105.
+doi:10.1007/s11511-009-0039-6.
+[10]
+O. A. Ladyzhenskaya,
+On unique solvability “in the large” of three-dimensional Cauchy problem
+for Navier-Stokes equations with axial symmetry,
+Zap. Nauchn. Sem. LOMI 7 (1968), 155–177 (Russian).
+Math-Net.Ru: znsl2240.
+[11]
+O. A. Ladyzhenskaya and G. A. Seregin,
+On partial regularity of suitable weak solutions to the three-dimensional
+Navier-Stokes equations,
+J. Math. Fluid Mech. 1 (1999), no. 4, 356–387.
+doi:10.1007/s000210050015.
+[12]
+F.-H. Lin,
+A new proof of the Caffarelli-Kohn-Nirenberg theorem,
+Comm. Pure Appl. Math. 51 (1998), no. 3, 241–257.
+doi:10.1002/(SICI)1097-0312(199803)51:3<241::AID-CPA2>3.0.CO;2-A.
+[13]
+W. S. Ożański and S. Palasek,
+Quantitative control of solutions to the axisymmetric Navier-Stokes equations
+in terms of the weak $L^{3}$ norm,
+Ann. PDE 9 (2023), no. 2, Paper No. 15.
+doi:10.1007/s40818-023-00156-7.
+[14]
+S. Palasek,
+Improved quantitative regularity for the Navier-Stokes equations in a scale
+of critical spaces,
+Arch. Ration. Mech. Anal. 242 (2021), no. 3, 1479–1531.
+doi:10.1007/s00205-021-01709-5.
+[15]
+G. Seregin,
+Local regularity of axisymmetric solutions to the Navier-Stokes equations,
+Anal. Math. Phys. 10 (2020), no. 4, Paper No. 46.
+doi:10.1007/s13324-020-00392-1.
+[16]
+G. Seregin,
+Remarks on Type II blowups of solutions to the Navier-Stokes equations,
+Commun. Pure Appl. Anal. 23 (2024), no. 10, 1389–1406.
+doi:10.3934/cpaa.2023108.
+[17]
+G. Seregin,
+A note on potential Type II blowups of axisymmetric solutions to the
+Navier-Stokes equations,
+arXiv:2402.13229v3 (2026).
+[18]
+G. Seregin,
+A note on certain scenarios of Type II blowups of suitable weak solutions
+to the Navier-Stokes equations,
+arXiv:2507.08733v2 (2026).
+[19]
+G. Seregin,
+On potential Type II blowups for the Navier-Stokes equations,
+arXiv:2606.29468 (2026).
+[20]
+G. Seregin and V. Šverák,
+On smoothness of suitable weak solutions to the Navier-Stokes equations,
+Zap. Nauchn. Sem. S.-Peterburg. Otdel. Mat. Inst. Steklov. (POMI) 306 (2003), 186–198;
+also in J. Math. Sci. (N.Y.) 130 (2005), no. 4, 4884–4892.
+doi:10.1007/s10958-005-0383-9.
+[21]
+G. Seregin and V. Šverák,
+On Type I singularities of the local axi-symmetric solutions of the
+Navier-Stokes equations,
+Comm. Partial Differential Equations 34 (2009), no. 2, 171–201.
+doi:10.1080/03605300802683687.
+[22]
+J. Serrin,
+On the interior regularity of weak solutions of the Navier-Stokes equations,
+Arch. Ration. Mech. Anal. 9 (1962), 187–195.
+doi:10.1007/BF00253344.
+[23]
+M. Struwe,
+On partial regularity results for the Navier-Stokes equations,
+Comm. Pure Appl. Math. 41 (1988), no. 4, 437–458.
+doi:10.1002/cpa.3160410404.
+[24]
+T. Tao,
+Quantitative bounds for critically bounded solutions to the Navier-Stokes equations, in Nine mathematical challenges, Proc. Sympos. Pure Math., vol. 104,
+Amer. Math. Soc., Providence, RI, 2021, pp. 149–193.
+doi:10.1090/pspum/104/01874.
+[25]
+T.-P. Tsai, Lectures on Navier-Stokes equations,
+Graduate Studies in Mathematics, vol. 192, American Mathematical Society, Providence, RI, 2018, xii+224 pp.
+doi:10.1090/gsm/192.
+[26]
+M. R. Ukhovskii and V. I. Yudovich,
+Axially symmetric flows of ideal and viscous fluids filling the whole space,
+J. Appl. Math. Mech. 32 (1968), no. 1, 52–62.
+doi:10.1016/0021-8928(68)90147-0.

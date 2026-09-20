@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_CIV_APPLICABILITY_SCREEN",
+  "status": "RESEARCH_ACTIVE_FIXED_HEAT_SIGNED_PAIRING",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Finish both CIV v1 primary-source/proof audits and independently review exact fixed-heat core/Hessian witnesses; build four-object eligibility table. Only after that select the single complete signed-residual test or close the entry for a precise missing input.",
+  "next_action": "Single fixed phi contract: finish actual weighted primary-wave/Haar/phase bridge, first-profile and mean-error audit, then determine complete signed pairing coefficient and strict remainder; if an exact input cannot be paid, close this entry without changing phi, rho, datum or grid.",
   "resume_action": "Read latest own checkpoint and civ-applicability-20260920/CONTRACT.md. Do not reopen growth proofs, old numerical workers or publication state.",
   "forward_pause_applies": false,
   "resume_authority": "Explicit September20 user start and management dispatch supersede September9 pause; later user pauses prevail",
@@ -1372,8 +1372,8 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/civ-applicability-20260920/CONTRACT.md",
-    "research/reverse/heat-residual-transfer-preflight/acceptance.json"
+    "research/reverse/civ-applicability-20260920/acceptance.json",
+    "research/reverse/heat-signed-pairing-preflight/CONTRACT.md"
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -1615,8 +1615,8 @@
   },
   "resume_first_read": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/civ-applicability-20260920/CONTRACT.md",
-    "research/reverse/heat-residual-transfer-preflight/acceptance.json"
+    "research/reverse/civ-applicability-20260920/acceptance.json",
+    "research/reverse/heat-signed-pairing-preflight/CONTRACT.md"
   ],
   "axial_return_evidence": {
     "source_commit": "64792d83f8f5fab395e55c2ba4a1014accdc7ebb",
@@ -2752,7 +2752,7 @@
     "formal_release": false,
     "private_handoff": false
   },
-  "current_turn_progress": "PROGRESS: explicit resume verified; missing34 freeze/handoff completed; interrupted residual review closed; primary source acquisition and actual candidate applicability work underway.",
+  "current_turn_progress": "CIV final review PASS read and accepted. Same fixed signed pairing contract now running: full operator/periodic-tail/group interface, primary-profile first order, and actual wave/Haar bridge; no blanket source-failure verdict.",
   "pressure_jet_local_evidence": {
     "status": "ACCEPTED_CONDITIONAL_LOCAL_WORKING_RECORD_NOT_RELEASE33",
     "source_commit": "c2e4b657157fde8c26bfd537e0245f61b45da64f",
@@ -2846,12 +2846,13 @@
     "source_scope": "Same external U only, never substitutes for original2pi/a_star",
     "excluded_from_release33": true,
     "source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
-    "acceptance": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
-    "acceptance_sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+    "acceptance": "research/reverse/heat-vorticity-tail-preflight/growth-acceptance.json",
+    "acceptance_sha256": "ab03ddfa4ecbad010efff537eaece31917d6af85b70ff915383de8e167bec8a7",
     "accepted_contract_items": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "growth_item4": "CONDITIONAL_GAUSSIAN_GROWTH_PROVEN",
     "growth_failure_proven": false,
@@ -2860,32 +2861,61 @@
     "root_independent_full_read_lines": 140,
     "root_source_full_read_lines": 51,
     "root_joint_review_full_read_lines": 32,
-    "source_Git_blobs_actually_verified": 8,
+    "source_Git_blobs_actually_verified": 29,
     "formal_release": true,
     "private_handoff": true,
-    "next_contract": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
-    "next_contract_sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+    "next_contract": "research/reverse/civ-applicability-20260920/CONTRACT.md",
+    "next_contract_sha256": "6687e6a64e749ab85f89ca12b6fdc2f30f83f9bde4f4833ecfe7631a62f11b2b",
     "next_contract_proven_or_reviewed": false,
-    "authors_and_reviewers": "All stopped; no live scientific process",
+    "authors_and_reviewers": "Growth package closed; CIV source authors stopped; final four-object reviewer running",
     "formation": "Root precontract informal ideas disclosed; root saw independent status formulas before formal drafting; nonblind AI non-author audit and separate source reading.",
     "freeze_commit": "6b306d085b7e0d8b3cb0ad49b663535df01629f1",
     "freeze_manifest_sha256": "fc451e484718bb2c35ab5af12d05d73cb68bf8571e02b8e8061538b14b884c7e",
     "source_and_dependency_Git_blobs_actually_verified": 29,
-    "old_acceptance_preserved_as_history": true
+    "old_acceptance_preserved_as_history": true,
+    "historical_pre_growth_interface_record": {
+      "status": "FROZEN_SENT_ONCE_CONDITIONAL_GROWTH_COMPLETION",
+      "contract": "research/reverse/heat-vorticity-tail-preflight/CONTRACT.md",
+      "contract_sha256": "bfc58223bd5d9cbefb3e0d6b4c815019187d52ad14df4ea844a79b4efe8e863b",
+      "fixed_heat_time": "rho(t)=1-t, original unit torus, viscosity1",
+      "actual_growth_accepted": true,
+      "unforced_candidate_accepted": false,
+      "scientific_executions": 0,
+      "source_scope": "Same external U only, never substitutes for original2pi/a_star",
+      "excluded_from_release33": true,
+      "source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
+      "acceptance": "research/reverse/heat-vorticity-tail-preflight/acceptance.json",
+      "acceptance_sha256": "e6c9531b103bca5acf47e02d1253b8c373a0a29587ee36e588e90a5944c5f228",
+      "accepted_contract_items": [
+        1,
+        2,
+        3
+      ],
+      "growth_item4": "CONDITIONAL_GAUSSIAN_GROWTH_PROVEN",
+      "growth_failure_proven": false,
+      "integrable_full_weak_residual_proven_conditionally": true,
+      "strong_stability_smallness_paid": false,
+      "root_independent_full_read_lines": 140,
+      "root_source_full_read_lines": 51,
+      "root_joint_review_full_read_lines": 32,
+      "source_Git_blobs_actually_verified": 8,
+      "formal_release": true,
+      "private_handoff": true,
+      "next_contract": "research/reverse/heat-vorticity-tail-preflight/GAUSSIAN_GROWTH_CONTRACT.md",
+      "next_contract_sha256": "475770a0b7bfc8927bf282aaf9aebfa567a49575b53287e2a217ff4ed699737d",
+      "next_contract_proven_or_reviewed": false,
+      "authors_and_reviewers": "All stopped; no live scientific process",
+      "formation": "Root precontract informal ideas disclosed; root saw independent status formulas before formal drafting; nonblind AI non-author audit and separate source reading.",
+      "freeze_commit": "6b306d085b7e0d8b3cb0ad49b663535df01629f1",
+      "freeze_manifest_sha256": "fc451e484718bb2c35ab5af12d05d73cb68bf8571e02b8e8061538b14b884c7e",
+      "source_and_dependency_Git_blobs_actually_verified": 29,
+      "old_acceptance_preserved_as_history": true
+    },
+    "gaussian_growth_contract_proven_and_reviewed": true,
+    "next_contract_accepted": false,
+    "historical_gaussian_contract_proven_and_reviewed": true
   },
   "pause_at_utc": "2026-09-09T05:32:12.681097+00:00",
-  "pause_checkpoint": {
-    "record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
-    "last_source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
-    "source_core_files": 22,
-    "source_Git_blob_verification_done": false,
-    "release34_frozen": false,
-    "release34_handoff": false,
-    "new_residual_transfer_review": "INTERRUPTED_NOT_ACCEPTED",
-    "running_child_agents": 0,
-    "scientific_workers_running": 0,
-    "pause_checkpoint_committed": false
-  },
   "pause_history_latest": {
     "record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
     "last_source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
@@ -2909,8 +2939,72 @@
     "actual_residual_nonzero_or_small_proven": false
   },
   "current_resume_protocol_sources": {
-    "/Users/kasifa/Documents/Math/AGENTS.md": "978736972c29f8d824d07201cb334f9b924c66972032dea14a57d50e7d11a3f9",
+    "/Users/kasifa/Documents/Math/AGENTS.md": "f63da37ce5580b871b99718ab99d69f6d90392164693b15518cabfd096ae5342",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_RESEARCH_PUBLISHING_WORKFLOW.md": "963c6c2890ac4c8752098950f88ecf720a2092477944ce76d065fd1b2dd3f67e",
     "/Users/kasifa/Documents/Math/NAVIER_STOKES_AB_STRATEGY_2026-09-19.md": "28771c94243257a957bcb4a126c57f0a8c57d7e9925d7f337f5be78fe7417965"
+  },
+  "resume_history": [
+    {
+      "at_utc": "2026-09-20T01:16:40.292208+00:00",
+      "authority": "Management019fbdba relays new explicit user instruction 继续任务 after current September20 pause; root AGENTS independently read",
+      "prior_pause": "User 暂停; all running children stopped immediately; existing drafts preserved; no pause-time commit or handoff",
+      "head_at_resume": "0ed568506805b560123471410502ab5daeb9527b",
+      "status": "RESEARCH_ACTIVE_CIV_FINAL_REVIEW",
+      "source_audits_stopped": [
+        "PAPER_20762_AUDIT.md",
+        "PAPER_20803_AUDIT.md"
+      ],
+      "unaccepted_draft": "research/reverse/civ-applicability-20260920/FOUR_OBJECT_SCREEN.md",
+      "scientific_executions": 0,
+      "raw_array_reads": 0,
+      "old_handoffs_repeated": 0
+    }
+  ],
+  "last_updated_utc": "2026-09-20T01:33:13.810055+00:00",
+  "pause_checkpoint_history_september9": {
+    "record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
+    "last_source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
+    "source_core_files": 22,
+    "source_Git_blob_verification_done": false,
+    "release34_frozen": false,
+    "release34_handoff": false,
+    "new_residual_transfer_review": "INTERRUPTED_NOT_ACCEPTED",
+    "running_child_agents": 0,
+    "scientific_workers_running": 0,
+    "pause_checkpoint_committed": false
+  },
+  "current_pause_state": "NOT_PAUSED_NEW_EXPLICIT_CONTINUATION",
+  "last_pause_superseded_by": {
+    "at_utc": "2026-09-20T01:16:40.292208+00:00",
+    "authority": "Management019fbdba relays new explicit user instruction 继续任务 after current September20 pause; root AGENTS independently read",
+    "prior_pause": "User 暂停; all running children stopped immediately; existing drafts preserved; no pause-time commit or handoff",
+    "head_at_resume": "0ed568506805b560123471410502ab5daeb9527b",
+    "status": "RESEARCH_ACTIVE_CIV_FINAL_REVIEW",
+    "source_audits_stopped": [
+      "PAPER_20762_AUDIT.md",
+      "PAPER_20803_AUDIT.md"
+    ],
+    "unaccepted_draft": "research/reverse/civ-applicability-20260920/FOUR_OBJECT_SCREEN.md",
+    "scientific_executions": 0,
+    "raw_array_reads": 0,
+    "old_handoffs_repeated": 0
+  },
+  "civ_applicability_evidence": {
+    "status": "ACCEPTED_CONDITIONAL_SCREEN_NOT_NS_CANDIDATE",
+    "acceptance": "research/reverse/civ-applicability-20260920/acceptance.json",
+    "final_review": "research/reverse/civ-applicability-20260920/FINAL_REVIEW.md",
+    "final_review_sha256": "80daa21c3edcba7f6348accebf41f1deeb8a85584af341a56c91d8f711b7b05c",
+    "root_final_review_full_read_lines": 41,
+    "scientific_executions": 0,
+    "full_external_166page_or_Lean_verification": false
+  },
+  "heat_signed_pairing_evidence": {
+    "status": "IN_PROGRESS_NOT_ACCEPTED",
+    "contract": "research/reverse/heat-signed-pairing-preflight/CONTRACT.md",
+    "contract_sha256": "1f1f00d70e878cd1eeeebc9064b5882f516a43258014084062a8cf6a4b975145",
+    "fixed_phi": "exp(-1/(1-|Y|^2))*(-Y2,Y1,0) on unit ball; zero outside",
+    "nonlinear_leading_coefficient_proven": false,
+    "residual_nonzero_proven": false,
+    "scientific_executions": 0
   }
 }

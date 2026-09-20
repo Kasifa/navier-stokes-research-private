@@ -1,0 +1,408 @@
+Regularity of asymptotically axisymmetric solutions to the 3D Navier-Stokes equations with analytic forcing
+Peter Constantin
+Address: Department of Mathematics, Princeton University, Princeton, NJ 08540
+Email address: const@math.princeton.edu
+URL: https://web.math.princeton.edu/˜const/
+,
+Mihaela Ignatova
+Address: Department of Mathematics, Temple University, Philadelphia, PA 19122
+Email address: ignatova@temple.edu
+URL: https://sites.temple.edu/ignatova/
+and
+Vlad Vicol
+Address: Department of Mathematics, Courant Institute, New York University, New York, NY, 10012
+Email address: vicol@cims.nyu.edu
+URL: https://cims.nyu.edu/˜vicol/
+Abstract.
+OpenAI [43] has recently announced a proof of finite time singularity formation for the 3D Navier-Stokes equations, in the presence of a $C^{\infty}$ -smooth body force. The construction in [43] has a few key features, among which we single out: (i) the angular mean of the solution satisfies specific Type II bounds which are anisotropic; (ii) the solution is exactly axisymmetric in a collapsing core region. In this paper we consider solutions of the 3D Navier-Stokes equations in the presence of a real-analytic body force, and assume that these solutions satisfy properties (i) and (ii) above. We prove that such solutions are in fact regular at the putative singular point. As a consequence, in the construction of [43], and in any construction with properties (i) and (ii) whose force remains bounded in $C^{2}$ up to the singular time, the force can neither vanish identically near the singular point, nor be real analytic in the space variables, locally uniformly in time. The main idea of the proof is inspired by our earlier work [13] and the companion paper [14]: zooming-in at the putative singularity using the anisotropic length scales provided by the a priori bounds, we arrive at ancient limits whose PDE evolution imposes additional rigidity.
+Key words and phrases: Navier-Stokes equations, local regularity, axial symmetry, analytic forcing.
+2020 Mathematics Subject ClassificationPrimary 35Q30; Secondary 35B44, 35Q31
+1. Introduction
+In a recent manuscript [43], OpenAI has announced a proof of finite time singularity formation for the 3D Navier-Stokes equations in the presence of a $C^{\infty}$ -smooth forcing. The main theorem of the manuscript [43, Theorem 1.1] asserts that for every viscosity $\nu>0$ there exists a force $f\in C^{\infty}_{c}(\mathbb{R}^{3}\times(0,\infty))$ and a smooth solution $(u,\pi)$ of the 3D Navier-Stokes equations on $\mathbb{R}^{3}\times[0,1)$
+$\displaystyle\partial_{t}u+(u\cdot\nabla)u-\nu\Delta u+\nabla\pi$
+$\displaystyle=f\,,$
+$\displaystyle\operatorname{div}u$
+$\displaystyle=0\,,$
+$\displaystyle u(\cdot,0)$
+$\displaystyle=0\,,$
+which has a fixed compact spatial support, finite kinetic energy $\sup_{0\leq t<1}\|u(\cdot,t)\|_{L^{2}}<\infty$ , and the solution blows up as $t\uparrow 1$ :
+$\limsup_{t\uparrow 1}\left\|u(\cdot,t)\right\|_{L^{\infty}}=\infty\,.$
+We refer to the solution built in [43] as the OpenAI construction. The singular point is $(x,t)=(0,1)$ , and it is isolated: the velocity diverges along points converging to the origin [43, equations (10.20)–(10.21)], while every space-time derivative of the velocity has a one-sided limit at the blowup time, on compact sets avoiding the origin; see [43, Theorem 3.1(ii), equation (3.5), and the proof of Lemma 10.2]. The force $f$ , in turn, is defined as the residual of the momentum equation, left over after the construction’s ansatz, and it is $C^{\infty}$ smooth but not real analytic: neither on $\mathbb{R}^{3}$ , because it is compactly supported, nor in the vicinity of the singular point (see Section A.6). In Appendix A we record those properties of the OpenAI construction which are relevant to this paper; they are deduced from statements of [43], which we cite with their locations.
+Of the many features of the solution constructed in [43], we single out the two which enter the hypotheses of our main theorem:
+(i)
+Near the singular point the angular mean $v=\mathcal{P}u$ of the velocity, defined in (1.4) below, satisfies Type II bounds which are anisotropic: its radial component $v_{r}$ is bounded by $(1-t)^{-1/2}$ , while its axial and azimuthal components $v_{z}$ and $v_{\theta}$ are bounded by $(1-t)^{-1/2-h}$ for some $0<h<1/100$ . Moreover, each $r$ -derivative costs a factor of $(1-t)^{-1/2}$ , while each $z$ -derivative costs only a factor of $(1-t)^{-1/2+h}$ .
+(ii)
+The full velocity field $u$ is exactly axisymmetric on a collapsing core region $B(c\sqrt{1-t})$ , for some $c>0$ fixed.
+We do not claim to have verified the correctness of the construction in [43]: Appendix A records the statements of that manuscript on which we rely, with their locations, and deduces from them the properties used in this paper.
+1.1. Problem setup
+The solution constructed in [43] is defined for $t\in[0,1)$ and becomes singular as $t\uparrow 1$ . Since the equations are invariant under translations in time, we place the singular time at $t=0$ , which is more convenient: we replace the triple $(u,\pi,f)$ of the manuscript [43] by the shifted functions
+(1.1)
+$\displaystyle(u,\pi,f)(x,t)\longmapsto(u,\pi,f)(x,t+1)\,,\qquad-1\leq t<0\,.$
+We denote the shifted triple again by $(u,\pi,f)$ . The singular point is then $(x,t)=(0,0)$ , and the time to the singularity is $-t$ , replacing the $1-t$ in the time variable of [43]. In particular, the factor $(1-t)$ of item (i) becomes $(-t)$ , and the core of item (ii) becomes $B(c\sqrt{-t})$ . From here on, every statement of this paper is in the shifted time coordinate of (1.1).
+The goal of this paper is to analyze solutions of the 3D Navier-Stokes equations which are a priori assumed to obey properties (i) and (ii) above. We prove that if such solutions were to arise from the forced problem with a body force which is real analytic in the space variables, in the sense made precise in Theorem 1.1 below, then $(x,t)=(0,0)$ is a regular point.11
+1
+Recall that a point $(x_{0},t_{0})$ with $x_{0}\in B(1)$ and $-1<t_{0}\leq 0$ is called regular if $\operatorname*{ess\,sup}_{B(x_{0},\rho)\times(t_{0}-\rho^{2},t_{0})}|u|<\infty$ for some $\rho>0$ with $B(x_{0},\rho)\times(t_{0}-\rho^{2},t_{0})\subset B(0,1)\times(-1,0)$ , and singular otherwise. Here and throughout this paper, we use the notation $B(x,\rho)=\{y\in\mathbb{R}^{3}:|y-x|<\rho\}$ and $B(\rho)=B(0,\rho)$ .
+Throughout the paper we consider suitable weak solutions, in the sense of Caffarelli, Kohn, and Nirenberg [6], of the forced 3D Navier-Stokes equations
+(1.2a)
+$\displaystyle\partial_{t}u+(u\cdot\nabla)u-\Delta u+\nabla\pi=f\,,$
+(1.2b)
+$\displaystyle\operatorname{div}u=0\,,$
+where $u\colon\mathcal{Q}\to\mathbb{R}^{3}$ is the velocity, $\pi\colon\mathcal{Q}\to\mathbb{R}$ is the pressure, and $f\colon\mathcal{Q}\to\mathbb{R}^{3}$ is the force.22
+2
+The partial regularity results of [6] are stated for a divergence-free force. We apply them to $(u,\pi-\pi_{f})$ with the force $f-\nabla\pi_{f}$ , where $\Delta\pi_{f}=\operatorname{div}f$ on $B(1)$ with zero Dirichlet data. The function $\nabla\pi_{f}$ is bounded on $B(1)$ uniformly in time, so that $f-\nabla\pi_{f}$ is bounded and divergence free, and the local energy inequality is unchanged, since $\int u\cdot\nabla(\pi_{f}\varphi)\,dx=0$ for $\varphi\in C^{\infty}_{0}(B(1))$ . Since $\operatorname{curl}(f-\nabla\pi_{f})=\operatorname{curl}f$ , and since $\pi_{f}$ is axisymmetric whenever $f$ is, so that $(f-\nabla\pi_{f})_{\theta}=f_{\theta}$ , the derivative estimates, the circulation equation, and the vorticity equations of Sections 3–5, which are where the $C^{2}$ bound (1.5) on the force enters, are written with $f$ itself. Here $\mathcal{Q}:=B(1)\times(-1,0)$ is the unit parabolic cylinder,33
+3
+The properties of the construction in [43] are supplied on a cylinder $B(R)\times(-\delta,0)$ for some $R,\delta>0$ ; see Appendix A. Upon decreasing $R$ or $\delta$ we may take $\delta=R^{2}\leq 1$ , and the scaling $u\mapsto Ru(R\,\cdot,R^{2}\,\cdot)$ , $\pi\mapsto R^{2}\pi(R\,\cdot,R^{2}\,\cdot)$ , $f\mapsto R^{3}f(R\,\cdot,R^{2}\,\cdot)$ carries the hypotheses of Theorem 1.1 from $B(R)\times(-R^{2},0)$ to the unit parabolic cylinder $\mathcal{Q}$ , with constants changed by fixed powers of $R$ . whose upper time endpoint $t=0$ is the blowup time of the construction.
+Unless stated otherwise, we take $(u,\pi)$ to be a suitable weak solution of (1.2) which is smooth on compact subsets of $\mathcal{Q}$ , and hence $f$ is smooth there as well. Note that the definition of a suitable weak solution on $\mathcal{Q}$ in the sense of [6], as written in [40, 37], includes the integrability requirement
+(1.3)
+$\displaystyle u\in L^{\infty}_{t}L^{2}_{x}(\mathcal{Q})\cap L^{2}_{t}H^{1}_{x}(\mathcal{Q})\,,\qquad\pi\in L^{3/2}_{x,t}(\mathcal{Q})\,.$
+We assume no regularity of the solution $(u,\pi)$ at time $t=0$ .
+1.2. Notation
+The solutions of (1.2) need not be axisymmetric, but it is convenient to introduce the notation attached to the cylindrical coordinate system on $\mathbb{R}^{3}$ . For $\varphi\in[0,2\pi)$ , denote by $Q_{\varphi}$ the rotation through angle $\varphi$ about the $z$ -axis. For a solution $u\colon\mathcal{Q}\to\mathbb{R}^{3}$ of (1.2) we define the rotation and the projection operators44
+4
+Since rotations about the $z$ -axis preserve $B(1)$ , the angular mean projection operator $\mathcal{P}$ is well defined on $\mathcal{Q}$ .
+(1.4a)
+$\displaystyle(\mathscr{R}_{\varphi}u)(x,t)$
+$\displaystyle=Q_{\varphi}u(Q_{\varphi}^{-1}x,t)\,,\qquad\mathcal{P}u=\frac{1}{2\pi}\int_{0}^{2\pi}\mathscr{R}_{\varphi}u\,d\varphi\,,$
+and denote
+(1.4b)
+$\displaystyle v=\mathcal{P}u\,,\qquad w=u-v\,,\qquad\mathcal{P}w=0\,.$
+We call $v$ the angular mean, or the axisymmetric part, of $u$ , and we refer to $w$ as the non-axisymmetric part. The field $u$ is axisymmetric if $w=0$ . With $x=(x^{\prime},z)$ , $r=|x^{\prime}|$ , and the usual cylindrical frame $(e_{r},e_{\theta},e_{z})$ , an axisymmetric field has the form $u=u_{r}e_{r}+u_{\theta}e_{\theta}+u_{z}e_{z}$ , where $u_{r},u_{\theta},u_{z}$ depend only on $(r,z,t)$ . For a general field $u$ , the cylindrical coefficients $u_{r},u_{\theta},u_{z}$ depend on $\theta$ as well, and the cylindrical coefficients of its angular mean $v=\mathcal{P}u$ are their averages in $\theta$ , that is, $v_{\circ}=\frac{1}{2\pi}\int_{0}^{2\pi}u_{\circ}\,d\theta$ for $\circ\in\{r,\theta,z\}$ .
+1.3. Main result
+Our main result is the following.
+Theorem 1.1 (Regularity under anisotropic Type II bounds and analytic forcing).
+Let $(u,\pi)$ be a suitable weak solution of (1.2) on $\mathcal{Q}$ , smooth on compact subsets of $\mathcal{Q}$ , and let $0<h<1/2$ . Assume that the force is bounded in $C^{2}$ up to the blowup time,
+(1.5)
+$\displaystyle M_{f}:=\sup_{-1<t<0}\left\|f(\cdot,t)\right\|_{C_{x}^{2}(B(1))}<\infty\,.$
+Assume that the force is real analytic in the space variables, locally uniformly on cylinders compactly contained in $\mathcal{Q}$ : for every $R<1$ and every compact interval $J\subset(-1,0)$ there are $M_{R,J}<\infty$ and $a_{R,J}>0$ such that
+(1.6)
+$\displaystyle\sup_{t\in J}\left\|\partial_{x}^{\alpha}f(\cdot,t)\right\|_{L^{\infty}(B(R))}\leq M_{R,J}a_{R,J}^{-|\alpha|}|\alpha|!\qquad\mbox{for all }\alpha\in\mathbb{N}_{0}^{3}\,.$
+Assume that the velocity has the following two properties.
+(i)
+Its angular mean $v:=\mathcal{P}u$ satisfies, on the fixed Euclidean ball $B(1)$ , for $-1<t<0$ , and all nonnegative integers $a,b$ with $a+b\leq 2$ ,
+(1.7a)
+$\displaystyle\|\partial_{r}^{a}\partial_{z}^{b}v_{r}(\cdot,t)\|_{L^{\infty}(B(1))}$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}(-t)^{-1/2-a/2-(1/2-h)b}\,,$
+(1.7b)
+$\displaystyle\|\partial_{r}^{a}\partial_{z}^{b}v_{z}(\cdot,t)\|_{L^{\infty}(B(1))}+\|\partial_{r}^{a}\partial_{z}^{b}v_{\theta}(\cdot,t)\|_{L^{\infty}(B(1))}$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}(-t)^{-1/2-h-a/2-(1/2-h)b}\,,$
+for a constant $\mathsf{C}_{\mathrm{axi}}>0$ which is independent of $t$ .
+(ii)
+For each $t\in(-1,0)$ there is a radius $\rho(t)\in(0,1)$ such that the solution $u(\cdot,t)$ is exactly axisymmetric on the ball of radius $\rho(t)$ ; equivalently,
+(1.8)
+$\displaystyle w(\cdot,t)=0\qquad\mbox{on }B(\rho(t))\,.$
+No regularity or quantitative lower bound is assumed on $\rho$ ; we only need that $\rho(t)>0$ at all $t\in(-1,0)$ .
+Then $u=v$ on $\mathcal{Q}$ , and $(0,0)$ is a regular point: there exist $r_{*},\delta_{*}>0$ such that
+(1.9)
+$\displaystyle\sup_{B(r_{*})\times(-\delta_{*},0)}|u|<\infty\,.$
+Remark 1.2.
+A few comments on the hypotheses of Theorem 1.1 are in order:
+(a)
+The force assumptions (1.5) and (1.6) have distinct roles. Spatial analyticity (1.6) is used at each fixed time before the blowup time, so the analyticity radius $a_{R,J}$ is allowed to tend to zero as $J$ approaches time $0$ .55
+5
+Condition (1.6) holds if and only if, for every $R<1$ and every compact $J\subset(-1,0)$ , each $f(\cdot,t)$ with $t\in J$ is the restriction of a holomorphic function on a fixed complex neighborhood of $\overline{B(R)}$ , bounded uniformly in $t\in J$ . The regularity argument of Sections 3–5, which proves Theorem 1.3, uses instead the uniform spatial $C^{2}$ bound (1.5). A force which is real analytic in $(x,t)$ on a neighborhood of $\overline{B(1)}\times[-1,0]$ satisfies both conditions, and so does $f=0$ . No symmetry of $f$ is assumed, although, together with (1.8), the hypothesis (1.6) does make $\operatorname{curl}f$ rotation invariant on all of $\mathcal{Q}$ ; see Remark 2.5.
+(b)
+The bounds (1.7) concern only the angular mean of the solution. Apart from the $L^{\infty}_{t}L^{2}_{x}\cap L^{2}_{t}H^{1}_{x}(\mathcal{Q})$ regularity implicit in the definition of a suitable weak solution, no bound on $w$ or its derivatives is assumed outside the core. The OpenAI construction does satisfy the bounds in (1.7); see Section A.3.
+(c)
+The OpenAI construction satisfies (1.8) with $\rho(t)=c\sqrt{-t}$ , for $c>0$ a constant such that $c<\sqrt{2X_{a}}$ ; see Section A.2.
+(d)
+The force used in [43] does not satisfy (1.6). This is consistent with the construction, whose force is built from compactly supported cutoffs.
+(e)
+Exact axisymmetry on the core (1.8) and analyticity of the force (1.6) may be traded for an upper bound on the non-axisymmetric part of the velocity field. If $\|w(\cdot,t)\|_{C^{3}(B(1))}$ is bounded uniformly in $t\in(-1,0)$ , then $(0,0)$ is regular. This statement requires no analyticity assumption at all; see Remark 2.4. The OpenAI construction does not satisfy such a bound on $w$ ; see Section A.6.
+1.4. From analytic forcing and axisymmetric core to an axisymmetric problem
+Our first observation is that the analyticity assumption (1.6) on the force makes $u(\cdot,t)$ real analytic on $B(1)$ , for every fixed $t\in(-1,0)$ . This follows from the classical interior analyticity theorem for the Navier-Stokes system, due to Kahane [32, Theorem 1.2 and p. 387]; we recall this result as Theorem 2.1, and Corollary 2.2 is the form in which we apply it. Combined with the axisymmetric core assumption (1.8), this makes $u$ axisymmetric on all of $\mathcal{Q}$ : for every rotation $Q_{\varphi}$ about the $z$ -axis, the analytic field $u-\mathscr{R}_{\varphi}u$ vanishes on the core, hence on all of $B(1)$ by the identity theorem; these details are given in Section 2.2. Thus $u=v$ , and the bounds on the angular mean in (1.7) become bounds on the full velocity field. Once $u$ is known to be axisymmetric, we average (1.2) over the rotations $\mathscr{R}_{\varphi}$ , which leaves the velocity terms unchanged and replaces only the pressure and the force by their angular means. By (1.5), the angle-averaged force $\mathcal{P}f$ remains bounded in $C^{2}$ .
+This reduces Theorem 1.1 to the regularity of axisymmetric solutions of the 3D Navier-Stokes equations with $C^{2}$ forcing, under the anisotropic bounds inherited from (1.7). That result is Theorem 1.3 below, which is of independent interest. In order to state it, we fix the standing assumptions of Sections 3–5: $(u,\pi)$ is an axisymmetric suitable weak solution of the forced equations (1.2) on $\mathcal{Q}$ , which is smooth on compact subsets of $\mathcal{Q}$ ,66
+6
+Smoothness in Cartesian coordinates gives $u_{r}=u_{\theta}=\partial_{r}u_{z}=0$ at $r=0$ , for all $t<0$ . in the class described in Section 1.1, and whose force satisfies (1.5). For $0<h<1/2$ we define the radial and axial lengths as in [43]:
+(1.10)
+$\displaystyle\ell_{r}(t)=(-t)^{1/2}\,,\qquad\ell_{z}(t)=(-t)^{1/2-h}\,.$
+The range $0<h<1/2$ ensures that both lengths tend to zero as $t\uparrow 0$ . The bounds in (1.11) below are imposed on the scalar cylindrical coefficients of $u$ and on their derivatives through total order two, with each radial derivative costing a factor of $\ell_{r}^{-1}$ , and each axial derivative costing a factor of $\ell_{z}^{-1}$ . The following theorem is the anisotropic counterpart of the main result of [14]:
+Theorem 1.3 (Regularity of axisymmetric solutions under anisotropic bounds).
+Let $(u,\pi)$ be an axisymmetric suitable weak solution of (1.2) in $\mathcal{Q}$ , which is smooth on compact subsets of $\mathcal{Q}$ , with a force satisfying (1.5). Let $0<h<1/2$ . Suppose that there exists a constant $\mathsf{C}_{\mathrm{axi}}>0$ such that
+(1.11a)
+$\displaystyle|\partial_{r}^{a}\partial_{z}^{b}u_{r}(r,z,t)|$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}\,(-t)^{-1/2-a/2-(1/2-h)b}\,,$
+(1.11b)
+$\displaystyle|\partial_{r}^{a}\partial_{z}^{b}u_{z}(r,z,t)|+|\partial_{r}^{a}\partial_{z}^{b}u_{\theta}(r,z,t)|$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}\,(-t)^{-1/2-h-a/2-(1/2-h)b}\,,$
+on $\mathcal{Q}$ , for all nonnegative integers $a,b$ with $a+b\leq 2$ . Then, $(0,0)$ is a regular point.
+Remark 1.4.
+We make a few comments on the hypotheses of Theorem 1.3.
+(a)
+The bounds in (1.11) say that the rescaled fields $(-t)^{1/2}u_{r}$ , $(-t)^{1/2+h}u_{z}$ , and $(-t)^{1/2+h}u_{\theta}$ , regarded as functions of $(r/\ell_{r}(t),z/\ell_{z}(t))$ , are bounded in $C^{2}$ uniformly in $t$ ; see (4.6) below.
+(b)
+Neither (1.11) nor the Type I bound $|u|\leq C(-t)^{-1/2}$ implies the other: at $a=b=0$ the bounds on $u_{z}$ and $u_{\theta}$ in (1.11) are weaker by the factor $(-t)^{-h}$ , while at every $b\geq 1$ the bound imposed on $u_{r}$ is smaller by the factor $(-t)^{hb}$ than the bound $(-t)^{-1/2-(a+b)/2}$ which the parabolic scaling attaches to a Type I velocity bound. Theorem 1.3 is therefore not contained in the Type I results of Chen, Strain, Yau, and Tsai [7], Chen, Strain, Tsai, and Yau [8], Koch, Nadirashvili, Seregin, and Šverák [33], or Seregin and Šverák [54], nor are those results contained in it.
+(c)
+The proof of Theorem 1.3 may be completed using only the bounds on $u_{r}$ and $u_{z}$ from (1.11), with the assumptions on $u_{\theta}$ dropped altogether; see Remark 5.2. For cosmetic reasons, we nevertheless state (1.11) for the three components alike, and do not pursue the minimal hypothesis.
+Next, we outline the proof of Theorem 1.3; the estimates and the full proof are postponed to Sections 3–5. The strategy is that of the companion paper [14], whose steps are as follows. In [14] we consider unforced axisymmetric solutions which are bounded in $C^{2}$ after rescaling isotropically at a single vanishing length scale $\ell(t)$ , for which $(-t)/\ell(t)^{2}$ tends to zero. Using this length scale we zoom in, along times and points at which the gradient of the meridional velocity is not small compared with $(-t)^{-1}$ . Since the pressure is not controlled after such a zoom, the limit is taken in the vorticity equations rather than in the momentum equation. Partial regularity and the maximum principle bound the circulation $ru_{\theta}$ on a ball of fixed radius, and the rescaling multiplies it by a factor which vanishes, so that the swirl source of the potential vorticity equation disappears in the limit. The scalar carried into the limit is then either the potential vorticity or the azimuthal vorticity, depending on whether the rescaled axis stays at finite distance or recedes to infinity, and in both cases we prove that the limiting scalar vanishes at the upper endpoint of the rescaled time interval. The limiting rescaled meridional field is therefore bounded, with vanishing azimuthal vorticity and vanishing divergence; hence its gradient vanishes, which contradicts the selection of the points at which we zoomed in. The elimination of the circulation first, and of the potential vorticity second, is also the mechanism of the Euler rigidity theorem in [13, Theorem 4.5]; what [14] adds is that this argument survives the passage to an ancient limit, in which the transporting field is only a weak- $*$ limit.
+The anisotropy inherent in the lengths (1.10) forces the proof in this paper to depart from [14]. To see this, note that after the zoom-in, the radial diffusion coefficient is $(-t)/\ell_{r}(t)^{2}=1$ , the axial one is $(-t)/\ell_{z}(t)^{2}=(-t)^{2h}$ , and the rescaling multiplies the circulation by $(-t)/(\ell_{r}(t)\ell_{z}(t))=(-t)^{h}$ . In the isotropic case all three of these quantities are of size $(-t)/\ell(t)^{2}\to 0$ as $t\uparrow 0$ , and thus all three terms vanish in the zoom-in limit. Here the last two vanish, but the first one does not. The first difficulty is therefore that radial diffusion survives in the limit, which is no longer governed by a transport equation: the step which eliminates the potential vorticity in [13, 14], its conservation along backward meridional trajectories, is unavailable. In place of an argument based on backward characteristics, we use Lemma 3.3, which is a comparison principle for bounded distributional solutions of a drift-diffusion equation whose diffusion acts in a (strict) subset of the variables.
+As in [14], the zoom-in limit need not be a solution of (1.2), so we take the curl of (1.2) first, which removes the pressure, and carry only the vorticity equations (3.3) and (3.4) into the limit. Whether the rescaled axis stays at finite distance or recedes, the limiting scalar is bounded, solves a homogeneous equation on the whole space, and tends uniformly to zero in the remote past; the comparison principle then implies that it vanishes. Incompressibility and the boundedness of the limiting velocity then give smallness of $(-t)\partial_{r}u_{r}$ and $(-t)\partial_{z}u_{z}$ , and, when the rescaled axis stays at finite distance, of $(-t)u_{r}/r$ ; when it recedes, that quotient is small by (1.11) alone. Lastly, the bound $(-t)|\partial_{z}u_{r}|\leq C(-t)^{h}$ is immediate from (1.11), and it gives the relative smallness of this term as well.
+The second difficulty is that $\partial_{r}u_{z}$ may be as large as $C(-t)^{-1-h}$ , so that an $o((-t)^{-1})$ bound on the full gradient of the meridional velocity $b=u_{r}e_{r}+u_{z}e_{z}$ is unavailable at any stage of the argument. We therefore track only the four quantities in
+(1.12)
+$\displaystyle G_{\rho}(t):=\bigl\||\partial_{r}u_{r}(\cdot,t)|+|u_{r}(\cdot,t)/r|+|\partial_{z}u_{z}(\cdot,t)|+|\partial_{z}u_{r}(\cdot,t)|\bigr\|_{L^{\infty}(B(\rho))}\,,$
+where $u_{r}/r$ is extended continuously across the axis. The second quantity is dominated by the first in the supremum over $B(\rho)$ , since $u_{r}$ vanishes on the axis and the radial segment to the axis stays in $B(\rho)$ ; we keep it because Section 5 uses $u_{r}/r$ as the coefficient of $u_{\theta}$ in (3.1c) and of $\omega_{\theta}^{2}$ in (5.7). The relative smallness result, which replaces [14, Proposition 3.1], is as follows:
+Proposition 1.5 (Smallness of the meridional quantities).
+Under the hypotheses of Theorem 1.3, for every fixed $0<\rho<1$ we have
+(1.13)
+$\displaystyle\lim_{t\uparrow 0}(-t)G_{\rho}(t)=0\,.$
+To deduce regularity at $(0,0)$ from (1.13), we first show that for every $\eta>0$ the bound $\|u_{\theta}(\cdot,t)\|_{L^{\infty}}\leq C_{\eta}(-t)^{-\eta}$ holds on an interior ball, at all sufficiently late times; we obtain this bound by applying the maximum principle in the swirl equation to the function $(-t)^{\eta}u_{\theta}$ . We then consider the local enstrophy balance, which contains the nonlinear term $(\partial_{r}u_{z})\omega_{r}\omega_{z}$ , whose coefficient $\partial_{r}u_{z}$ may be of size $(-t)^{-1-h}$ , too large to be placed in $L^{\infty}$ and fed to Grönwall’s inequality. Appealing instead to the identity $\omega_{r}=-\partial_{z}u_{\theta}$ , we integrate by parts in $z$ , which moves the derivative from the swirl onto the product $(\partial_{r}u_{z})\omega_{z}$ . As a consequence, the swirl enters only through its supremum, and the two factors of the product are controlled by the enstrophy and the enstrophy dissipation through local div-curl estimates. The resulting enstrophy estimate then closes and gives a Ladyzhenskaya-Prodi-Serrin bound up to time zero, as we show in Section 5.
+1.5. Prior results on axisymmetric Navier-Stokes
+Without swirl, axisymmetric solutions of 3D Navier-Stokes are globally regular; see Ladyzhenskaya [36] and also Ukhovskii and Yudovich [62]. With swirl, the global regularity question is open and only conditional results are available. Singularities which obey a scale-invariant (so-called Type I) pointwise bound are excluded: $|u|\leq C(r^{2}-t)^{-1/2}$ by Chen, Strain, Yau, and Tsai [7]; $r|u|\leq C$ by Koch, Nadirashvili, Seregin, and Šverák [33], and $|u|\leq C(-t)^{-1/2}$ by Chen, Strain, Tsai, and Yau [8]. Seregin and Šverák [54] proved a local Type I regularity criterion which imposes the bound $\leq C(-t)^{-1/2}$ only on the meridional part of the velocity. For a detailed account of the many other conditional results available for axisymmetric Navier-Stokes, we refer to the book of Tsai [61, Chapter 10].
+Past the Type I threshold, singularities are constrained by the growth of critical norms: the $L^{\infty}_{t}L^{3}_{x}$ theorem of Escauriaza, Seregin, and Šverák [24] was made quantitative by Tao [59], and was adapted to the axisymmetric class, with quantitative improvements, by Palasek [46] and by Ożański and Palasek [45].
+Closer to the hypotheses of this paper, Seregin [49] showed that an axisymmetric singularity must be of Type II, in the sense of local scale-invariant integral quantities. Moreover, in [50, 51, 52, 53] he reduced the Type II blowup scenario to a Liouville problem for ancient Euler solutions, which may be ruled out in special cases.
+1.6. Research context for the OpenAI construction
+The problem of spontaneous generation of singularities in incompressible fluids has a long history and a strong scientific motivation. Research in this area has produced a vast literature which forms the fertile environment surrounding the OpenAI construction. We do not have space here to do justice to the numerous ideas and results in this area, but it would not be amiss to mention some of the important developments which are
+relevant to [43].
+For the incompressible 3D Euler equations, Elgindi [22] proved finite time singularity formation for axisymmetric solutions without swirl, with a velocity of class $C^{1,\alpha}$ for $\alpha>0$ sufficiently small; see also the finite energy version in Elgindi, Ghoul, and Masmoudi [23]. Earlier this year, blowup constructions in the swirl-free axisymmetric setting were obtained for the entire permissible range $\alpha\in(0,1/3)$ , independently, by Shkoller [57], Chen [10, 11], and Shao, Wei, Zhang, and Zhang [56]. For smooth initial data in the presence of a solid boundary, Chen and Hou [9] proved finite time blowup for 3D Euler using modulated self-similar analysis and a computer-assisted argument. Closer to the Navier-Stokes equations, Tao [58] constructed finite time blowup for an “averaged” Navier-Stokes equation, whose modified nonlinearity retains the scaling and energy structure of the original PDE. Numerical and machine-guided searches for a self-similar blowup profile for 3D Euler and other incompressible fluid models were performed in [29, 30, 63, 64, 26, 21]. These computations have shaped the expectations for a rigorous construction: which scenarios are worth pursuing, and at which regularity a singularity should be looked for.
+All results mentioned in this paragraph consider the classical, unforced, problem.77
+7
+We note that recently OpenAI has also claimed to prove finite time blowup for the 3D Euler equations, from smooth compactly supported initial data [44].
+A different route to blowup for the 3D Euler equations (and related models), in the presence of a body force, was opened by Córdoba and Martínez-Zoroa. The force injects, at a sequence of times accumulating at the blowup time, small perturbations at ever higher frequencies, which the nonlinearity amplifies. The question is then how smooth and how small the force can be made. We refer to [15] for the 3D Euler result, with a force which lies in $C^{1,1/2-\varepsilon}\cap L^{2}$ uniformly in time, and to [16] for the 2D incompressible porous media result, with a source which is $C^{\infty}$ smooth in space, uniformly in time. In this direction, Alpöge and Buckmaster have reached a force which is $C^{\infty}$ in both space and time. Very recently they announced finite time blowup for the 3D Euler equations [2], for the inviscid 2D Boussinesq system [1], and, with Coiculescu, for the 2D incompressible porous media equation [3]. Each of these three papers considers a $C^{\infty}_{x,t}$ smooth force.
+At the technical level, the OpenAI manuscript names two additional research programs whose ideas have influenced its construction. For the evolution of the wavevectors and of the velocity polarizations of the oscillatory pulses along the background flow, [43] records the methods of Lifschitz and Hameiri [39] and of Friedlander and Vishik [25], which detect the instability of an inviscid flow under short wavelength perturbations. For the realization of a prescribed stress by the addition of high frequency oscillations, [43]
+records the use of ideas from the convex integration program for incompressible fluid equations, introduced by De Lellis and Székelyhidi [18, 19], and then further developed in [17, 31, 5] and many others.
+We emphasize that several decades of conditional regularity results restrict the form that a putative 3D Navier-Stokes singularity may take; this helps tremendously if one tries to narrow the search space for a blowing up solution. For a suitable weak solution whose force is bounded, the partial regularity theory of Caffarelli, Kohn, and Nirenberg [6] forces the singular set to have vanishing one-dimensional parabolic Hausdorff measure. The singularity, moreover, cannot be of the backward self-similar form proposed by Leray, cf. Nečas, Růžička, and Šverák [42] for $L^{3}$ profiles, Tsai [60] for $L^{p}$ profiles with $3<p<\infty$ under local energy assumptions, and Pineau and Vicol [48] for rotated self-similar profiles which obey a Type I bound, at small or large rotation speeds. Nor can the direction of the vorticity stay coherent, by the alignment criterion of Constantin and Fefferman [12]. In the axisymmetric class, the Type I bounds recalled in Section 1.5 likewise exclude singularities. Self-similar Euler profiles with similarity exponent below $1/2$ , which is the range that a Navier-Stokes zoom at an Euler length would require, are also excluded when the profile is smooth and satisfies an outgoing property [13]. Note that apart from the partial regularity theory, these results consider the unforced Navier-Stokes problem. The above list is far from being complete; we refer to the book of Lemarié-Rieusset [38] for an excellent recent survey.
+Remark 1.6 (Forced singularity constructions for shell models).
+Returning to the forced constructions, we draw an analogy with the finite time singularities constructed for model equations motivated by Navier-Stokes. Palasek [47, Theorem 1.3 and Remark 1.5] recently proved finite time blowup in the energy supercritical range for a viscous shell model of Obukhov type, with super-exponentially separated frequencies. His initial data is smooth, and the smooth force he considers is such that its norms all tend to zero at the blowup time [47, Remark 1.4]. The force is nonzero at every time before the blowup, so it vanishes identically on no time interval ending at the singularity. The force is a residual, as in [43]: here it is the dissipation of each mode, switched off until that mode is activated [47, Section 3.3]. Interestingly, Palasek notes that the force cannot be dropped in the parameter range he associates to three dimensions [47, Remark 1.4 and Section 1.3.2]; this statement is offered without proof, and is attributed to forthcoming work of Looi.
+1.7. Organization of the paper
+Section 2 proves the analytic symmetry reduction, deduces Theorem 1.1 from Theorem 1.3, and records the consequences for the force. Sections 3–5 prove Theorem 1.3. Appendix A records the properties claimed for the OpenAI construction which enter the hypotheses of our results, and what those results give for it.
+2. Reduction to the axisymmetric problem
+In this section we deduce Theorem 1.1 from Theorem 1.3. Throughout this section $v=\mathcal{P}u$ and $w=u-v$ are as in (1.4), $\mathcal{Q}=B(1)\times(-1,0)$ , and $(u,\pi)$ is smooth on compact subsets of the cylinder on which it is given, so that $f$ is smooth there as well.
+2.1. Spatial analyticity at a fixed time before blowup
+That $u(\cdot,t)$ is real analytic in space at each fixed $t<0$ is classical. We recall the statement in the form in which it is used here and in Remark 2.6. No analyticity in time is assumed.
+Theorem 2.1 (Interior spatial analyticity [32, Theorem 1.2]).
+Let $R>0$ , $t_{1}<t_{2}$ , and let $(u,\pi)$ be a solution of (1.2) on the cylinder $B(R)\times(t_{1},t_{2})$ , smooth on compact subsets of that cylinder. Assume that the force is real analytic in the space variables, locally uniformly on cylinders compactly contained in $B(R)\times(t_{1},t_{2})$ : for every $R^{\prime}<R$ and every compact interval $J\subset(t_{1},t_{2})$ there are $M<\infty$ and $a>0$ such that88
+8
+Since $k!\leq k^{k}\leq e^{k}k!$ for $k\geq 1$ , the hypothesis (2.1) is unchanged if $|\alpha|!$ is replaced by $|\alpha|^{|\alpha|}$ , which is the form in which Kahane states it on p. 387 of [32].
+(2.1)
+$\displaystyle\sup_{t\in J}\left\|\partial_{x}^{\alpha}f(\cdot,t)\right\|_{L^{\infty}(B(R^{\prime}))}\leq Ma^{-|\alpha|}|\alpha|!\qquad\mbox{for all }\alpha\in\mathbb{N}_{0}^{3}\,.$
+Then, the velocity obeys a bound of the same form: for every $R^{\prime}<R$ and every compact interval $J\subset(t_{1},t_{2})$ there are $M^{\prime}<\infty$ and $a^{\prime}>0$ such that
+(2.2)
+$\displaystyle\sup_{t\in J}\left\|\partial_{x}^{\alpha}u(\cdot,t)\right\|_{L^{\infty}(B(R^{\prime}))}\leq M^{\prime}(a^{\prime})^{-|\alpha|}|\alpha|!\qquad\mbox{for all }\alpha\in\mathbb{N}_{0}^{3}\,.$
+In particular, $u(\cdot,t)$ is real analytic on $B(R)$ for every $t\in(t_{1},t_{2})$ . The constants $M^{\prime}$ and $a^{\prime}$ depend on $R^{\prime}$ and $J$ , and they need not be uniform up to the parabolic boundary: $a^{\prime}$ may tend to zero as $J$ approaches an endpoint of $(t_{1},t_{2})$ .
+For a conservative force this is Kahane’s theorem [32, Theorem 1.2], proved there for weak solutions, under the hypotheses of Serrin’s interior regularity theorem [55, Section 3]. For a nonconservative force, Kahane states on p. 387 of [32] that the conclusion of [32, Theorem 1.2] persists once $f$ obeys (2.1) in its $|\alpha|^{|\alpha|}$ form, with analyticity understood as the bound [32, equation (1.5)], which is (2.2) above. The point is not taken up again in that paper, so we indicate why the proof goes through. First, the spatial derivatives are estimated in [32] through the representation formulas of Serrin [55, equations (18) and (20)]. With a force, the heat potential for the vorticity carries $f$ at order zero, in the slot of the bilinear term [55, Section 4, equation (23) and the display which follows it]. Second, adjoining $f$ to the unknown $(u,\omega)$ of the abstract integral system of [32, Theorem 1.3] makes the force one more component of the inhomogeneity, in rows whose two kernel blocks vanish. Third, the two hypotheses of that theorem hold: the unknown, now the triple $(u,\omega,f)$ , is bounded on every compact cylinder, by smoothness here and by [32, Theorem 1.1] in [32]; and the inhomogeneity obeys [32, equation (1.5)], which for $f$ is the bound (2.1). The inductive estimates of [32, Section 4] then apply without change.
+The hypothesis (1.6) of Theorem 1.1 is (2.1) on the unit parabolic cylinder. In this paper we apply Theorem 2.1 in the following form.
+Corollary 2.2 (Spatial analyticity at a fixed time before blowup).
+Let $R,\delta>0$ , and let $(u,\pi)$ be a solution of (1.2) on $B(R)\times(-\delta,0)$ , smooth on compact subsets of that cylinder. Suppose that for some $0<R^{\prime}\leq R$ , some $-\delta<t_{1}<t_{2}<0$ , and some $M<\infty$ and $a>0$ ,
+(2.3)
+$\displaystyle\sup_{t\in[t_{1},t_{2}]}\left\|\partial_{x}^{\alpha}f(\cdot,t)\right\|_{L^{\infty}(B(R^{\prime}))}\leq Ma^{-|\alpha|}|\alpha|!\qquad\mbox{for all }\alpha\in\mathbb{N}_{0}^{3}\,.$
+Then, for every $t\in(t_{1},t_{2})$ , the velocity $u(\cdot,t)$ is real analytic on $B(R^{\prime})$ .
+This is Theorem 2.1 on the cylinder $B(R^{\prime})\times(t_{1},t_{2})$ , on which (2.3) gives (2.1) with the same $M$ and $a$ . Since the zero force satisfies (2.3) on every cylinder, for the unforced equations $u(\cdot,t)$ is real analytic on $B(R)$ at every $t\in(-\delta,0)$ .
+We note that analyticity in space and time for the Navier-Stokes equations was proved by Masuda [41]; this result was extended to uniform analyticity up to an analytic boundary by Komatsu [34]. Quantitative lower bounds on the radius of spatial analyticity are due to Grujić and Kukavica [27], in terms of $L^{p}$ norms of the initial datum. At interior points, and for a divergence-free force analytic on a ball, this result is due to Bradshaw, Grujić, and Kukavica [4].
+2.2. Axisymmetry on a fixed ball, and the proof of Theorem 1.1
+Proof of Theorem 1.1.
+By Corollary 2.2 on $\mathcal{Q}$ , applied to each cylinder $B(R)\times J$ in (1.6), the velocity $u(\cdot,t)$ is real analytic on $B(1)$ for every $t\in(-1,0)$ . We fix such a $t$ and an angle $\varphi\in[0,2\pi)$ . With the notation in (1.4), we define
+(2.4)
+$\displaystyle F_{\varphi}(x)=u(x,t)-(\mathscr{R}_{\varphi}u)(x,t)=u(x,t)-Q_{\varphi}u(Q_{\varphi}^{-1}x,t)\,.$
+Since $Q_{\varphi}$ preserves $B(1)$ , the field $F_{\varphi}$ is real analytic on $B(1)$ . Since $Q_{\varphi}$ also preserves the core ball $B(\rho(t))$ , on which $u=v$ by (1.8), and since $v=\mathcal{P}u$ is invariant under $\mathscr{R}_{\varphi}$ , we have $F_{\varphi}=v-\mathscr{R}_{\varphi}v=0$ on $B(\rho(t))$ . The identity theorem on the connected set $B(1)$ then gives $F_{\varphi}\equiv 0$ on $B(1)$ . This holds for every $\varphi\in[0,2\pi)$ and every $t\in(-1,0)$ . Averaging the identity $u=\mathscr{R}_{\varphi}u$ over $\varphi$ , and recalling the definition (1.4) of $\mathcal{P}$ , we obtain $u=\mathcal{P}u$ , that is,
+(2.5)
+$\displaystyle u=v\,,\qquad w=0\quad\mbox{on }\mathcal{Q}\,.$
+Note that this argument is made at each fixed time, so that the core radius $\rho(t)$ and the analyticity radii may tend to zero as $t\uparrow 0$ , at unrelated rates.
+Next, we average the Navier-Stokes momentum equation (1.2) with respect to the azimuthal angle. Since, by (2.5), $u$ is fixed by every $\mathscr{R}_{\varphi}$ , and since $\mathscr{R}_{\varphi}$ commutes with $\partial_{t}$ , with $\Delta$ , and with $u\mapsto(u\cdot\nabla)u$ , applying $\mathcal{P}$ to (1.2) leaves the three velocity terms unchanged and replaces only the pressure and the force by their angular means
+$\displaystyle\bar{\pi}(x,t)=\frac{1}{2\pi}\int_{0}^{2\pi}\pi(Q_{\varphi}^{-1}x,t)\,d\varphi\,,\qquad\bar{f}=\mathcal{P}f\,.$
+The averaged pressure remains in $L^{3/2}_{x,t}$ (see (1.3)), and (1.5) gives $\|\bar{f}\|_{L^{\infty}_{t}C_{x}^{2}}\leq CM_{f}$ . The pair $(u,\bar{\pi})$ is suitable with the force $\bar{f}$ : it is smooth on compact subsets of $\mathcal{Q}$ and solves the averaged equation classically, so the local energy inequality is an identity, with $\bar{\pi}\in L^{3/2}_{x,t}(\mathcal{Q})$ and $\bar{f}$ bounded.
+Thus $(u,\bar{\pi},\bar{f})$ is an axisymmetric suitable weak solution of (1.2) on $\mathcal{Q}$ , in the class of Section 1.4, whose force obeys (1.5) with $CM_{f}$ in place of $M_{f}$ . Moreover, by (2.5) the bounds (1.7) on the angular mean are the bounds (1.11) on $u$ itself, with the same exponent $h$ and the same constant $\mathsf{C}_{\mathrm{axi}}$ . Theorem 1.3 makes $(0,0)$ a regular point, which is (1.9).
+∎
+2.3. Consequences for the force
+The analyticity of the force enters the proof of Theorem 1.1 at exactly one point, the passage from symmetry on the shrinking core (1.8), to the symmetry (2.5) on the fixed ball; for a merely smooth force we do not know how to make that passage. At a singular point, we may restate Theorem 1.1 as a statement about the force alone.
+Corollary 2.3 (The force under an axisymmetric core).
+Let $(u,\pi)$ be a suitable weak solution of (1.2) on $\mathcal{Q}$ , smooth on compact subsets of $\mathcal{Q}$ , with a force $f$ satisfying (1.5), assume (1.7) for some $0<h<1/2$ and $\mathsf{C}_{\mathrm{axi}}<\infty$ , and assume (1.8). If $(0,0)$ is a singular point, then $f$ violates (1.6), and in particular $f\not\equiv 0$ there. Moreover, $f$ then does not vanish identically on any cylinder $B(R^{\prime})\times(-\delta^{\prime},0)$ with $0<R^{\prime}\leq 1$ and $0<\delta^{\prime}\leq 1$ .
+Proof of Corollary 2.3.
+The first assertion is the contrapositive of Theorem 1.1, and $f=0$ satisfies (1.6). For the second, were $f$ to vanish identically on such a cylinder, the hypotheses of Theorem 1.1 would hold there with $\rho(t)$ replaced by $\min\{\rho(t),R^{\prime}/2\}$ , and the Navier-Stokes scaling would make $(0,0)$ regular.
+∎
+Remark 2.4 (Upper bounds in place of exact vanishing).
+We note that exact axisymmetry on the core may be replaced by a bound on the non-axisymmetric part $w$ of the velocity, on a fixed ball. That is, if in Theorem 1.1 we drop (1.8) and (1.6) and assume instead that
+(2.6)
+$\displaystyle M_{w}:=\sup_{-1<t<0}\left\|w(\cdot,t)\right\|_{C_{x}^{3}(B(1))}<\infty\,,$
+then $(0,0)$ is still regular. No smallness of $M_{w}$ is required, and analyticity plays no role. Indeed, averaging (1.2) over rotations kills the mixed terms $(v\cdot\nabla)w$ and $(w\cdot\nabla)v$ , since $v$ is invariant and $\mathcal{P}w=0$ , and gives
+(2.7a)
+$\displaystyle\partial_{t}v+(v\cdot\nabla)v-\Delta v+\nabla\bar{\pi}$
+$\displaystyle=F+\bar{f}\,,$
+(2.7b)
+$\displaystyle\operatorname{div}v$
+$\displaystyle=0\,,$
+(2.7c)
+$\displaystyle F$
+$\displaystyle=-\mathcal{P}\bigl((w\cdot\nabla)w\bigr)\,,$
+(2.7d)
+$\displaystyle\sup_{-1<t<0}\left\|F(\cdot,t)\right\|_{C_{x}^{2}(B(1))}$
+$\displaystyle\leq CM_{w}^{2}\,,$
+where $C$ is a universal constant, and $\bar{f}=\mathcal{P}f$ . Averaging does not increase the norms in (1.3), and $(v,\bar{\pi})$ is smooth on compact subsets of $\mathcal{Q}$ , so it is a suitable weak solution of (2.7) with the force $F+\bar{f}$ , whose $C^{2}$ norm is at most $CM_{w}^{2}+CM_{f}$ . Theorem 1.3 makes $v$ bounded near $(0,0)$ , and (2.6) makes $u=v+w$ bounded there as well. We emphasize that the identity theorem uses the exact vanishing in (1.8), and that we do not know how to replace it by an algebraic rate of smallness. Section A.6 shows that (2.6) fails for the OpenAI construction.
+Remark 2.5 (The symmetry of the curl of the force).
+No symmetry of $f$ is assumed in Theorem 1.1, but the hypotheses (1.8) and (1.6) together imply one: for every $\varphi\in[0,2\pi)$ ,
+(2.8)
+$\displaystyle\mathscr{R}_{\varphi}(\operatorname{curl}f)=\operatorname{curl}f\,,\qquad\mbox{on }\mathcal{Q}\,.$
+Indeed, once $\mathscr{R}_{\varphi}u=u$ is known from the proof of Theorem 1.1, applying $\mathscr{R}_{\varphi}$ to the momentum equation gives $f-\mathscr{R}_{\varphi}f=\nabla(\pi-\pi\circ Q_{\varphi}^{-1})$ , and (2.8) follows upon taking the curl. It would be interesting to decide whether in Theorem 1.1 assumption (1.6) may be replaced by the rotation invariance (2.8) of $\operatorname{curl}f$ .
+Remark 2.6 (Exterior vanishing and analyticity).
+A second obstruction to the analyticity of the force uses neither (1.7) nor (1.8), only an open set off the axis on which the meridional velocity vanishes. Let $(u,\pi)$ be a solution of (1.2) on $B(R)\times(-\delta,0)$ , smooth on compact subsets of that cylinder, and let $E\subset B(R)\cap\{r>0\}$ be a nonempty open set such that
+(2.9)
+$\displaystyle u_{r}=u_{z}=0\qquad\mbox{on }E\times(-\delta,0)\,.$
+Suppose that $u_{z}(0,t_{0})\neq 0$ for some $t_{0}\in(-\delta,0)$ .99
+9
+For the OpenAI construction this holds at every time sufficiently close to the blowup time, where $u_{z}(0,t)=j_{0}(-t)^{-1/2-h}\neq 0$ by (A.12). The remark thus says that a flow which is pure swirl on an open set off the axis, and has nonzero axial velocity at a point of the axis, cannot arise from a spatially analytic force: analyticity would carry the exterior vanishing of $u_{z}$ to the axis. Then, on every ball $B(R^{\prime})$ with $0<R^{\prime}\leq R$ which meets $E$ , and for every $t_{1}\in(-\delta,t_{0})$ , there are no constants $M<\infty$ and $a>0$ such that
+(2.10)
+$\displaystyle\sup_{t\in[t_{1},t_{0}]}\left\|\partial_{x}^{\alpha}f(\cdot,t)\right\|_{L^{\infty}(B(R^{\prime}))}\leq Ma^{-|\alpha|}|\alpha|!\qquad\mbox{for all }\alpha\in\mathbb{N}_{0}^{3}\,.$
+In particular, $f$ does not vanish identically on $B(R^{\prime})\times(t_{1},t_{0})$ , since the zero force satisfies (2.10).
+The proof is short. Suppose that (2.10) holds for some $M$ and $a$ . By Corollary 2.2, $u(\cdot,t)$ is then real analytic on $B(R^{\prime})$ for every $t\in(t_{1},t_{0})$ . At each such $t$ , the scalar $u_{z}(\cdot,t)$ vanishes on the nonempty open set $E\cap B(R^{\prime})$ by (2.9), hence on all of $B(R^{\prime})$ by the identity theorem, and in particular $u_{z}(0,t)=0$ . Letting $t\uparrow t_{0}$ and using the continuity of $u_{z}(0,\cdot)$ , we obtain $u_{z}(0,t_{0})=0$ , a contradiction.
+3. Axisymmetric identities and auxiliary results
+We now turn to the proof of Theorem 1.3. Throughout Sections 3–5, $(u,\pi)$ is an axisymmetric suitable weak solution of (1.2) on $\mathcal{Q}$ , in the class of Section 1.4, with a force satisfying (1.5); averaging over rotations as in Section 2.2, we may (and do) take $\pi$ and $f$ axisymmetric as well. This section records a few of the auxiliary results that the proof needs: the equations in cylindrical variables, a maximum principle for functions vanishing on the axis (Lemma 3.1), a regular annulus with a bounded circulation (Lemma 3.2), and a comparison principle for the bounded scalars produced by the ancient limits of Section 4 (Lemma 3.3). Apart from the force, the identities and Lemma 3.2 are the same as those of the companion paper [14]; the force enters as $(\operatorname{curl}f)_{\theta}$ in (3.3), as $g=(\operatorname{curl}f)_{\theta}/r$ in (3.4), and as $rf_{\theta}$ in (3.5), and (1.5) bounds all three. We denote by $C$ a constant which may depend on $h$ , $M_{f}$ , the constant $\mathsf{C}_{\mathrm{axi}}$ of (1.11), and fixed interior radii, but never on a sequence of rescaling times.
+3.1. Axisymmetric identities
+In the cylindrical frame $(e_{r},e_{\theta},e_{z})$ , and with $\pi$ and $f$ axisymmetric, the system (1.2) reads as
+(3.1a)
+$\displaystyle\partial_{t}u_{r}+u_{r}\partial_{r}u_{r}+u_{z}\partial_{z}u_{r}-\frac{u_{\theta}^{2}}{r}$
+$\displaystyle=\left(\partial_{r}^{2}+\frac{1}{r}\partial_{r}+\partial_{z}^{2}-\frac{1}{r^{2}}\right)u_{r}-\partial_{r}\pi+f_{r}\,,$
+(3.1b)
+$\displaystyle\partial_{t}u_{z}+u_{r}\partial_{r}u_{z}+u_{z}\partial_{z}u_{z}$
+$\displaystyle=\left(\partial_{r}^{2}+\frac{1}{r}\partial_{r}+\partial_{z}^{2}\right)u_{z}-\partial_{z}\pi+f_{z}\,,$
+(3.1c)
+$\displaystyle\partial_{t}u_{\theta}+u_{r}\partial_{r}u_{\theta}+u_{z}\partial_{z}u_{\theta}+\frac{u_{r}}{r}u_{\theta}$
+$\displaystyle=\left(\partial_{r}^{2}+\frac{1}{r}\partial_{r}+\partial_{z}^{2}-\frac{1}{r^{2}}\right)u_{\theta}+f_{\theta}\,,$
+(3.1d)
+$\displaystyle\partial_{r}u_{r}+\frac{u_{r}}{r}+\partial_{z}u_{z}$
+$\displaystyle=0\,.$
+We call $b=u_{r}e_{r}+u_{z}e_{z}$ the meridional velocity and $u_{\theta}e_{\theta}$ the swirl, and we write the vorticity components, the circulation, and the potential vorticity as
+(3.2)
+$\displaystyle\omega_{r}=-\partial_{z}u_{\theta}\,,\qquad\omega_{\theta}=\partial_{z}u_{r}-\partial_{r}u_{z}\,,\qquad\omega_{z}=\partial_{r}u_{\theta}+\frac{u_{\theta}}{r}\,,\qquad\Gamma=ru_{\theta}\,,\qquad\Omega=\frac{\omega_{\theta}}{r}\,.$
+Applying $\partial_{z}$ to (3.1a) and $\partial_{r}$ to (3.1b) and subtracting, we eliminate the pressure and obtain
+(3.3)
+$\displaystyle\partial_{t}\omega_{\theta}+u_{r}\partial_{r}\omega_{\theta}+u_{z}\partial_{z}\omega_{\theta}$
+$\displaystyle=\frac{u_{r}}{r}\omega_{\theta}+\frac{1}{r}\partial_{z}(u_{\theta}^{2})+\left(\partial_{r}^{2}+\frac{1}{r}\partial_{r}+\partial_{z}^{2}-\frac{1}{r^{2}}\right)\omega_{\theta}+(\operatorname{curl}f)_{\theta}\,,$
+where $(\operatorname{curl}f)_{\theta}=\partial_{z}f_{r}-\partial_{r}f_{z}$ . Dividing (3.3) by $r$ , and using the identity $r^{-1}(\partial_{r}^{2}+r^{-1}\partial_{r}-r^{-2})(r\Omega)=(\partial_{r}^{2}+3r^{-1}\partial_{r})\Omega$ , we also obtain
+(3.4)
+$\displaystyle\partial_{t}\Omega+u_{r}\partial_{r}\Omega+u_{z}\partial_{z}\Omega$
+$\displaystyle=\left(\partial_{r}^{2}+\frac{3}{r}\partial_{r}+\partial_{z}^{2}\right)\Omega+\partial_{z}\left(\frac{u_{\theta}^{2}}{r^{2}}\right)+g\,,\qquad g:=\frac{(\operatorname{curl}f)_{\theta}}{r}\,.$
+Lastly, upon multiplying the swirl equation (3.1c) by $r$ , we obtain
+(3.5)
+$\displaystyle\partial_{t}\Gamma+u_{r}\partial_{r}\Gamma+u_{z}\partial_{z}\Gamma=\left(\partial_{r}^{2}-\frac{1}{r}\partial_{r}+\partial_{z}^{2}\right)\Gamma+rf_{\theta}\,.$
+Near the axis, a smooth axisymmetric field has components $u_{r}=r\,a(r^{2},z,t)$ , $u_{\theta}=r\,c(r^{2},z,t)$ , and $u_{z}=d(r^{2},z,t)$ , with $a$ , $c$ , and $d$ smooth; thus $\Omega$ , $u_{\theta}/r$ , and $g$ are smooth functions of $(r^{2},z,t)$ , and (3.4) holds across the axis once its radial operator $\partial_{r}^{2}+3r^{-1}\partial_{r}$ is read as the radial Laplacian of $\mathbb{R}^{4}$ , as in [33]. Since $u_{r}$ , $\partial_{z}u_{r}$ , $\partial_{r}u_{z}$ , $\partial_{z}f_{r}$ , and $\partial_{r}f_{z}$ vanish on the axis, the quotients $u_{r}/r$ , $\partial_{z}u_{r}/r$ , $\partial_{r}u_{z}/r$ , and $g$ are bounded, along the radial segment to the axis, by the suprema of $\partial_{r}u_{r}$ , $\partial_{r}\partial_{z}u_{r}$ , $\partial_{r}^{2}u_{z}$ , $\partial_{r}\partial_{z}f_{r}$ , and $\partial_{r}^{2}f_{z}$ on $B(1)$ ; in particular
+(3.6)
+$\displaystyle|g|\leq CM_{f}\qquad\mbox{on }\mathcal{Q}\,.$
+3.2. A maximum principle for functions vanishing on the axis
+The swirl equation (3.1c) and the circulation equation (3.5) have coefficients which are singular on the axis, and, unlike (3.4), they are not lifted to a higher dimension. The proofs of Lemmas 3.2 and 5.1, and Remark 5.2, apply the maximum principle to them in the following form.
+Lemma 3.1 (Maximum principle for functions vanishing on the axis).
+Let $R>0$ , $t_{1}<s$ , $k\in\mathbb{R}$ , and $M\geq 0$ , and define the set $D=\{(x,t)\colon x\in B(R),\ r=|x^{\prime}|>0,\ t_{1}<t\leq s\}$ . Let $\phi=\phi(r,z,t)$ be continuous on $\overline{B(R)}\times[t_{1},s]$ , with $\phi(0,z,t)=0$ for $|z|\leq R$ and $t_{1}\leq t\leq s$ . Assume that $\phi$ is of class $C^{2}$ in $x$ and $C^{1}$ in $t$ on $D$ , and satisfies
+(3.7)
+$\displaystyle\partial_{t}\phi+b_{r}\partial_{r}\phi+b_{z}\partial_{z}\phi+\gamma\phi=\Bigl(\partial_{r}^{2}+\frac{k}{r}\partial_{r}+\partial_{z}^{2}\Bigr)\phi+F\,,$
+there. Here $b_{r}$ , $b_{z}$ , $\gamma$ , and $F$ are real-valued functions on $D$ , with $\gamma\geq 0$ and $|F|\leq M$ ; no bound is assumed on $b_{r}$ , $b_{z}$ , or $\gamma$ , which may be unbounded as $r\to 0$ . Then
+(3.8)
+$\displaystyle|\phi(x,t)|\leq\max_{\Sigma}|\phi|+M(t-t_{1})\qquad\mbox{on }\overline{B(R)}\times[t_{1},s]\,,$
+where $\Sigma=\bigl(\overline{B(R)}\times\{t_{1}\}\bigr)\cup\bigl(\partial B(R)\times[t_{1},s]\bigr)$ is the parabolic boundary of $B(R)\times(t_{1},s]$ .
+The proof of this lemma is elementary; we present it for the convenience of the reader.
+Proof of Lemma 3.1.
+Since $-\phi$ satisfies the same assumptions, with $-F$ in place of $F$ , it suffices to bound $\phi$ from above. Let $m=\max_{\Sigma}|\phi|\geq 0$ and $\varepsilon>0$ . Define $\phi_{\varepsilon}=\phi-(M+\varepsilon)(t-t_{1})$ , and let $(\bar{x},\bar{t})$ be a maximum point of the continuous function $\phi_{\varepsilon}$ on the compact set $K=\overline{B(R)}\times[t_{1},s]$ . Suppose that $\phi_{\varepsilon}(\bar{x},\bar{t})>m$ . On $\Sigma$ we have $\phi_{\varepsilon}\leq\phi\leq m$ , and on the axis we have $\phi_{\varepsilon}\leq\phi=0\leq m$ . The maximum point $(\bar{x},\bar{t})$ therefore lies neither on $\Sigma$ nor on the axis, that is, $(\bar{x},\bar{t})\in D$ . At time $\bar{t}$ the functions $\phi$ and $\phi_{\varepsilon}$ differ by a constant, so that $(r,z)\mapsto\phi(r,z,\bar{t})$ achieves its maximum on the open half-disc $\{r>0,\ r^{2}+z^{2}<R^{2}\}$ at $\bar{x}$ . Therefore, $\partial_{r}\phi=\partial_{z}\phi=0$ , $\partial_{r}^{2}\phi\leq 0$ , and $\partial_{z}^{2}\phi\leq 0$ there. Moreover, $\gamma\phi\geq 0$ at $(\bar{x},\bar{t})$ because $\phi(\bar{x},\bar{t})\geq\phi_{\varepsilon}(\bar{x},\bar{t})>m\geq 0$ , and $\partial_{t}\phi_{\varepsilon}\geq 0$ there because $\phi_{\varepsilon}(\bar{x},t)\leq\phi_{\varepsilon}(\bar{x},\bar{t})$ for $t_{1}\leq t<\bar{t}$ bounds the left derivative from below. At $(\bar{x},\bar{t})$ the coefficients $b_{r}$ , $b_{z}$ , and $k/r$ are finite, and they multiply first derivatives which vanish. Thus (3.7) gives $\partial_{t}\phi_{\varepsilon}=\partial_{t}\phi-M-\varepsilon\leq F-M-\varepsilon\leq-\varepsilon$ there, a contradiction. Therefore $\phi\leq m+(M+\varepsilon)(t-t_{1})$ on $K$ , and (3.8) follows by letting $\varepsilon\to 0$ .
+∎
+3.3. The regular annulus
+Lemma 3.2 below is used twice in the proof of Theorem 1.3: its circulation bound (3.9) removes the swirl source in the zoom of Section 4, and its derivative bounds on the annulus, which hold up to the blowup time, control the cutoff errors of the enstrophy estimate of Section 5, which are supported in that annulus.
+Lemma 3.2 (A regular annulus and bounded circulation).
+Let $0\leq R_{1}<R_{0}<1$ . There are radii $R_{1}<R_{-}<R_{+}<R_{0}$ and a time $t_{0}\in(-1,0)$ with the following property. The velocity $u$ , together with $\nabla u$ and $\nabla^{2}u$ , is bounded on the cylindrical annulus $\{R_{-}<|x|<R_{+}\}\times(t_{0},0)$ , and, for each $R_{*}\in(R_{-},R_{+})$ , there is a finite constant $C_{\Gamma}$ such that
+(3.9)
+$\displaystyle\left\|\Gamma\right\|_{L^{\infty}(B(R_{*})\times(t_{0},0))}\leq C_{\Gamma}\,.$
+Proof of Lemma 3.2.
+Let $S_{0}\subset\overline{B(R_{0})}$ be the set of $x$ for which $(x,0)$ is a singular point. Applied to the pair with the divergence-free force of footnote 2, partial regularity gives $\mathcal{H}^{1}(S_{0})=0$ . Indeed, the $\varepsilon$ -regularity criterion of Gustafson, Kang, and Tsai [28, Theorem 1.1(ii)], with $(p,q)=(2,2)$ and the force in the parabolic Morrey space $M^{2,2}$ of [28, Equation (6)], applies at the points $(x,0)$ of the top boundary of $\mathcal{Q}$ .1010
+10
+In [28] the criterion is stated for points in the interior of the space-time domain, whereas here it is applied at points of the top boundary, at the blowup time. This is legitimate for two reasons. First, the proof in [28] uses the solution only on the backward cylinders $B(x,\varrho)\times(-\varrho^{2},0)$ , which lie inside $\mathcal{Q}$ , and only through the equations and the local energy inequality on them. Second, the local energy inequality at a time $s<0$ involves the test function only on $(-1,s]$ , so it holds for test functions which do not vanish at $t=0$ ; for a pair smooth on compact subsets of $\mathcal{Q}$ it is in fact an identity at every $s<0$ . The covering argument of [6] (see also [40, 37, 35]) is unchanged, since $\int_{B(1)\times(-\delta,0)}|\nabla u|^{2}\to 0$ as $\delta\to 0$ by (1.3). We may therefore choose $R\in(R_{1},R_{0})$ such that $\partial B(R)$ carries no point of $S_{0}$ , and by compactness there are $\delta>0$ , with $R_{1}<R-\delta<R+\delta<R_{0}$ , and $t_{0}\in(-1,0)$ such that $u$ is bounded on $\{R-\delta<|x|<R+\delta\}\times(t_{0},0)$ . We fix any $R_{-}$ and $R_{+}$ such that $R-\delta<R_{-}<R_{+}<R+\delta$ .
+Since $u$ is bounded on this cylindrical annulus and $f$ is bounded in $C^{2}_{x}$ , the interior estimates of Serrin [55, Section 4, with $m=1$ ] bound $\nabla u$ and $\nabla^{2}u$ on compact subsets of $\{R-\delta<|x|<R+\delta\}\times(t_{0},0)$ , by constants which depend only on the subset, on $M_{f}$ , on $\sup|u|$ over the cylindrical annulus, and on $\|\nabla u\|_{L^{2}(\mathcal{Q})}$ . These bounds are uniform up to $t=0$ , because Serrin’s representation formulas [55, Equation (18), Equation (20), and the display after Equation (23)] are one-sided in time: the vorticity at a point $(x,s)$ is the sum of a heat potential of $\omega\wedge u$ and of the force, and of a solution of the heat equation, each bounded at $(x,s)$ in terms of the solution on the backward cylinder $B(x,\varrho)\times(s-\varrho^{2},s)$ , so that the estimate at $(x,s)$ depends on $s$ only through the norms above. Fixing a small $\varrho$ , with $\varrho^{2}<-t_{0}$ , and replacing $t_{0}$ by $t_{0}+\varrho^{2}$ gives the first assertion.
+We fix $R_{*}\in(R_{-},R_{+})$ . For $s\in(t_{0},0)$ , the set $\overline{B(R_{*})}\times[t_{0},s]$ is a compact subset of $\mathcal{Q}$ , so that $u$ is smooth there; the circulation $\Gamma=ru_{\theta}$ is therefore continuous on this set, smooth off the axis, and, since $|\Gamma|\leq r|u|$ , it vanishes on the axis. The circulation equation (3.5) is of the form (3.7), with $k=-1$ , with no zeroth order term, and with a source which obeys $|rf_{\theta}|\leq M_{f}$ . Lemma 3.1 therefore bounds $|\Gamma|$ on $\overline{B(R_{*})}\times[t_{0},s]$ by its values at time $t_{0}$ and on $\partial B(R_{*})\times[t_{0},s]$ , plus $M_{f}|t_{0}|$ . The former are bounded since $u$ is smooth at time $t_{0}$ , the latter by $R_{*}$ times the bound on $u$ on the cylindrical annulus; neither depends on $s$ and letting $s\uparrow 0$ gives (3.9).
+∎
+3.4. A comparison principle with diffusion in fewer variables
+In the ancient limits of Section 4 the radial diffusion survives the zoom-in procedure, so that the potential vorticity is no longer conserved along backward meridional trajectories, as it is in [13] and [14]. A comparison principle is instead used to make the limiting scalar vanish. That scalar, however, is merely bounded, it solves its equation only in the sense of distributions, and it comes with no bound on its derivatives and no initial trace. Moreover, the diffusion acts in a subset of the variables only (it does not act in the axial variable), so Lemma 3.3 is stated in the generality in which it is used.
+Lemma 3.3 (Comparison for a bounded distributional solution).
+Let $1\leq d\leq m$ , let $I\subset\mathbb{R}$ be an open interval, and denote $x=(X,Z)\in\mathbb{R}^{d}\times\mathbb{R}^{m-d}$ . Suppose that $B\colon\mathbb{R}^{m}\times I\to\mathbb{R}^{m}$ is measurable, that $B(\cdot,\tau)\in W^{1,\infty}(\mathbb{R}^{m};\mathbb{R}^{m})$ for almost every $\tau\in I$ , and that
+(3.10)
+$\displaystyle\Lambda_{J}:=\operatorname*{ess\,sup}_{\tau\in J}\big(\left\|B(\cdot,\tau)\right\|_{L^{\infty}(\mathbb{R}^{m})}+\left\|\nabla B(\cdot,\tau)\right\|_{L^{\infty}(\mathbb{R}^{m})}\big)<\infty\,,$
+for every compact interval $J\subset I$ .
+Let $q\in L^{\infty}_{\rm loc}(I;L^{\infty}(\mathbb{R}^{m}))$ satisfy
+(3.11)
+$\displaystyle\partial_{\tau}q+B\cdot\nabla q=\Delta_{X}q\qquad\mbox{on }\mathbb{R}^{m}\times I\,,$
+in the sense of distributions.1111
+11
+Here $B\cdot\nabla q$ really means $\operatorname{div}(Bq)-(\operatorname{div}B)q$ . Then, for almost every $\tau_{0}\in I$ and almost every $\tau\in I$ with $\tau>\tau_{0}$ ,
+(3.12)
+$\displaystyle\left\|q(\cdot,\tau)\right\|_{L^{\infty}(\mathbb{R}^{m})}\leq\left\|q(\cdot,\tau_{0})\right\|_{L^{\infty}(\mathbb{R}^{m})}\,.$
+If in addition $I=(-\infty,T)$ and, for some $C<\infty$ and $\kappa>0$ ,
+(3.13)
+$\displaystyle\left\|q(\cdot,\tau)\right\|_{L^{\infty}(\mathbb{R}^{m})}\leq C|\tau|^{-\kappa}\,,$
+for almost every $\tau<\min\{-1,T\}$ ,
+then $q=0$ almost everywhere on $\mathbb{R}^{m}\times I$ . A continuous representative of $q$ on an open subset vanishes there, and so does any continuous trace at the upper endpoint obtained from that representative.
+Proof of Lemma 3.3.
+The argument is standard: we mollify in space, control the commutator as in [20], and compare with a barrier which grows linearly at infinity.
+We fix a compact interval $J=[\tau_{-},\tau_{+}]\subset I$ , set $M_{\infty}=\|q\|_{L^{\infty}(\mathbb{R}^{m}\times J)}$ , and mollify in space, $q_{\varepsilon}=\eta_{\varepsilon}*q$ with a standard mollifier $\eta_{\varepsilon}=\varepsilon^{-m}\eta(\cdot/\varepsilon)$ with $\eta$ supported in $B(1)$ . Convolving (3.11) with $\eta_{\varepsilon}$ , we obtain
+(3.14)
+$\displaystyle\partial_{\tau}q_{\varepsilon}+B\cdot\nabla q_{\varepsilon}=\Delta_{X}q_{\varepsilon}+\mathcal{R}_{\varepsilon}\,,\qquad\mathcal{R}_{\varepsilon}=B\cdot\nabla(\eta_{\varepsilon}*q)-\eta_{\varepsilon}*(B\cdot\nabla q)\,.$
+Here $\mathcal{R}_{\varepsilon}$ is the commutator of DiPerna and Lions, bounded in the usual way: $|\mathcal{R}_{\varepsilon}|\leq C(m,\eta)\Lambda_{J}M_{\infty}$ by (3.10). Moreover, $\mathcal{R}_{\varepsilon}(\cdot,\tau)\to 0$ in $L^{2}_{\rm loc}(\mathbb{R}^{m})$ for almost every $\tau\in J$ by [20, Lemma II.1], hence $\mathcal{R}_{\varepsilon}\to 0$ in $L^{2}(B(R)\times J)$ for every $R>0$ by dominated convergence. For a fixed $\varepsilon>0$ , every term of (3.14) other than $\partial_{\tau}q_{\varepsilon}$ is bounded, so $q_{\varepsilon}$ has a representative which is Lipschitz in time with values in $L^{\infty}(\mathbb{R}^{m})$ ; from now on $q_{\varepsilon}$ denotes this representative. If $\tau_{0}$ is a Lebesgue point of $\tau\mapsto q(\cdot,\tau)\in L^{1}_{\rm loc}(\mathbb{R}^{m})$ , which is the case for almost every $\tau_{0}$ , then $q_{\varepsilon}(\cdot,\tau_{0})=\eta_{\varepsilon}*q(\cdot,\tau_{0})$ for every $\varepsilon$ . We fix such a $\tau_{0}\in(\tau_{-},\tau_{+})$ and set $M=\|q(\cdot,\tau_{0})\|_{L^{\infty}(\mathbb{R}^{m})}$ , so that $q_{\varepsilon}(\cdot,\tau_{0})\leq M$ .
+With $\langle x\rangle=(1+|x|^{2})^{1/2}$ we have $|\nabla\langle x\rangle|\leq 1$ and $\Delta_{X}\langle x\rangle\leq d$ . Upon defining $K=\Lambda_{J}+d$ , the function
+(3.15)
+$\displaystyle\Psi_{\sigma}(x,\tau)=M+\sigma\big(\langle x\rangle+K(\tau-\tau_{0})\big)\,,\qquad\sigma>0\,,$
+satisfies $\partial_{\tau}\Psi_{\sigma}+B\cdot\nabla\Psi_{\sigma}-\Delta_{X}\Psi_{\sigma}\geq\sigma(K-\Lambda_{J}-d)=0$ almost everywhere on $\mathbb{R}^{m}\times J$ , and $\Psi_{\sigma}\geq M+\sigma|x|$ for $\tau\geq\tau_{0}$ . Hence $v_{\varepsilon}=(q_{\varepsilon}-\Psi_{\sigma})_{+}$ vanishes at $\tau=\tau_{0}$ ; for $\tau\in[\tau_{0},\tau_{+}]$ it also vanishes on the complement of $B(R_{\sigma})$ for $R_{\sigma}=1+M_{\infty}/\sigma$ . Subtracting the supersolution inequality from (3.14), multiplying by $v_{\varepsilon}$ , and integrating over $\mathbb{R}^{m}$ , we obtain
+(3.16)
+$\displaystyle\frac{1}{2}\frac{d}{d\tau}\int v_{\varepsilon}^{2}+\int|\nabla_{X}v_{\varepsilon}|^{2}\leq\frac{1}{2}\int(\operatorname{div}B)v_{\varepsilon}^{2}+\int\mathcal{R}_{\varepsilon}v_{\varepsilon}\,.$
+Appealing to Grönwall’s inequality we obtain $\sup_{\tau\in[\tau_{0},\tau_{+}]}\|v_{\varepsilon}(\cdot,\tau)\|_{L^{2}}^{2}\leq C_{J}\|\mathcal{R}_{\varepsilon}\|_{L^{2}(B(R_{\sigma})\times J)}^{2}\to 0$ as $\varepsilon\downarrow 0$ . Since $q_{\varepsilon}\to q$ in $L^{2}_{\rm loc}$ , letting $\varepsilon\downarrow 0$ and then $\sigma\downarrow 0$ gives $q\leq M$ almost everywhere on $\mathbb{R}^{m}\times(\tau_{0},\tau_{+})$ . The same argument for $-q$ , and an exhaustion of $I$ by compact intervals, give (3.12).
+For the last assertion, we apply (3.12) at times $\tau_{j}\to-\infty$ at which (3.13) holds, and obtain $\|q(\cdot,\tau)\|_{L^{\infty}(\mathbb{R}^{m})}\leq C|\tau_{j}|^{-\kappa}$ for almost every $\tau>\tau_{j}$ ; thus $q=0$ almost everywhere, and a continuous representative, together with its trace at the upper endpoint, vanishes identically.
+∎
+4. Ancient limits and smallness of the meridional quantities
+The goal of this section is to prove Proposition 1.5. We argue by contradiction, zooming in where (1.13) fails, at the radial length $\ell_{r}$ and the axial length $\ell_{z}$ . Two cases then arise, according to whether the rescaled axis stays at finite distance, or recedes to infinity. Since the pressure is not controlled after the zoom, we pass to the limit in the vorticity equations (3.3) and (3.4), not in the momentum equation. In both cases the rescaling makes the bounded circulation subcritical, and this removes the swirl source. The radial diffusion, however, survives the rescaling, so that the limiting vorticity vanishes by the comparison principle of Lemma 3.3, not by transport along characteristics. Incompressibility and the boundedness of the limiting meridional velocity then make the selected quantities vanish in the limit, and this contradicts the choice of the points at which we zoom in.
+Proof of Proposition 1.5.
+Fix an arbitrary $0<\rho<1$ . By (1.11) the fourth term in (1.12) is bounded as $(-t)|\partial_{z}u_{r}|\leq\mathsf{C}_{\mathrm{axi}}(-t)^{h}$ , and thus tends to zero in the limit.
+Suppose by contradiction that (1.13) fails. Then there exist $c_{0}>0$ , times $t_{n}\uparrow 0$ , and points $x_{n}\in B(\rho)$ at which the other three terms satisfy
+(4.1)
+$\displaystyle(-t_{n})\Bigl(|\partial_{r}u_{r}|+\Bigl|\frac{u_{r}}{r}\Bigr|+|\partial_{z}u_{z}|\Bigr)(x_{n},t_{n})\geq c_{0}\,.$
+By rotation invariance we may without loss of generality take $x_{n}=(r_{n},0,z_{n})$ , where $r_{n}=|x_{n}^{\prime}|\geq 0$ . By Lemma 3.2, applied with $R_{1}=\rho$ and some $R_{0}\in(\rho,1)$ , there are $\rho<R_{*}<1$ , $t_{*}\in(-1,0)$ , and $C_{\Gamma}<\infty$ such that
+(4.2)
+$\displaystyle|ru_{\theta}(x,t)|\leq C_{\Gamma}\qquad\mbox{on}\qquad B(R_{*})\times(t_{*},0)\,.$
+Throughout the proof, $C$ denotes a constant which may depend on $h$ , $M_{f}$ , $\mathsf{C}_{\mathrm{axi}}$ , $\rho$ , $R_{*}$ , $C_{\Gamma}$ , and on the compact time interval under consideration, but never on $n$ .
+Step 1: the rescaling.
+We define
+(4.3)
+$\displaystyle\lambda_{n}=(-t_{n})^{1/2}\,,\qquad\delta_{n}=(-t_{n})^{h}=\lambda_{n}^{2h}\,,\qquad\mu_{n}=\frac{\lambda_{n}}{\delta_{n}}=(-t_{n})^{1/2-h}=\lambda_{n}^{1-2h}\,.$
+That is, $\lambda_{n}=\ell_{r}(t_{n})$ and $\mu_{n}=\ell_{z}(t_{n})$ are the lengths (1.10), and both vanish as $n\to\infty$ since $0<h<1/2$ . Their ratio is $\delta_{n}=\lambda_{n}/\mu_{n}\to 0$ . Upon passing to a subsequence, we have that $r_{n}/\lambda_{n}$ either stays bounded or tends to infinity. Every subsequence extracted in this proof refines the previous ones, and we do not relabel it; since (4.1) holds for every $n$ , it holds along every subsequence. We first zoom in about the point $(0,z_{n})$ on the axis, in the variables
+(4.4)
+$\displaystyle R=\frac{r}{\lambda_{n}}\,,\qquad Z=\frac{z-z_{n}}{\mu_{n}}\,,\qquad\tau=\frac{t}{(-t_{n})}\,,$
+so that $\tau=-1$ is the selected time $t_{n}$ and $\tau\leq-1$ is its past. We then define
+(4.5a)
+$\displaystyle V_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}\,u_{r}\bigl(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,,$
+(4.5b)
+$\displaystyle W_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}\delta_{n}\,u_{z}\bigl(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,,$
+(4.5c)
+$\displaystyle S_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}\delta_{n}\,u_{\theta}\bigl(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,,$
+(4.5d)
+$\displaystyle\Omega_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}^{3}\delta_{n}\,\Omega\bigl(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,,$
+where the cylindrical components on the right are written as functions of $(r,z,t)$ . In these variables the bounds (1.11) read as
+(4.6a)
+$\displaystyle|\partial_{R}^{a}\partial_{Z}^{b}V_{n}|$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}|\tau|^{-(1+a)/2-(1/2-h)b}\,,$
+(4.6b)
+$\displaystyle|\partial_{R}^{a}\partial_{Z}^{b}W_{n}|+|\partial_{R}^{a}\partial_{Z}^{b}S_{n}|$
+$\displaystyle\leq\mathsf{C}_{\mathrm{axi}}|\tau|^{-1/2-h-a/2-(1/2-h)b}\,,$
+for all $a+b\leq 2$ .
+These bounds hold at every $(R,Z,\tau)$ for which the point $(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau)$ lies in $\mathcal{Q}$ , and we call the set of such $(R,Z,\tau)$ the preimage of $\mathcal{Q}$ under the zoom-in (4.4). The circulation bound (4.2) holds on the preimage of the smaller set $B(R_{*})\times(t_{*},0)$ . Since the lengths (4.3) vanish and $|z_{n}|<\rho<R_{*}$ , both preimages contain any given compact subset of $[0,\infty)\times\mathbb{R}\times(-\infty,0)$ for all $n$ large depending on that subset.
+Changing variables in the divergence equation (3.1d), in the definitions (3.2), and in the potential vorticity equation (3.4), we obtain the identities
+(4.7a)
+$\displaystyle\partial_{R}V_{n}+\frac{V_{n}}{R}+\partial_{Z}W_{n}$
+$\displaystyle=0\,,\qquad\Omega_{n}=\frac{\delta_{n}^{2}\partial_{Z}V_{n}-\partial_{R}W_{n}}{R}\,,$
+(4.7b)
+$\displaystyle\partial_{\tau}\Omega_{n}+V_{n}\partial_{R}\Omega_{n}+W_{n}\partial_{Z}\Omega_{n}$
+$\displaystyle=\left(\partial_{RR}+\frac{3}{R}\partial_{R}+\delta_{n}^{2}\partial_{ZZ}\right)\Omega_{n}+\partial_{Z}F_{n}+G_{n}\,,\qquad F_{n}=\frac{S_{n}^{2}}{R^{2}}\,,$
+at every point of the preimage of $\mathcal{Q}$ , with $R>0$ .
+Note that the radial diffusion has coefficient one, while the axial diffusion carries the factor $\delta_{n}^{2}\to 0$ .
+We record both force terms at once: the force enters (4.7b) through $G_{n}$ , and the azimuthal vorticity equation (4.19b) of Step 3 through $H_{n}$ , where
+(4.8a)
+$\displaystyle G_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}^{5}\delta_{n}\;g\bigl(\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,,$
+(4.8b)
+$\displaystyle H_{n}(R,Z,\tau)$
+$\displaystyle=\lambda_{n}^{4}\delta_{n}\;(\operatorname{curl}f)_{\theta}\bigl(r_{n}+\lambda_{n}R,\,z_{n}+\mu_{n}Z,\,(-t_{n})\tau\bigr)\,.$
+The prefactors are the normalizations $\lambda_{n}^{3}\delta_{n}$ of $\Omega$ in (4.5) and $\lambda_{n}^{2}\delta_{n}$ of $\omega_{\theta}$ in (4.18), multiplied by the time factor $(-t_{n})=\lambda_{n}^{2}$ . Since $|g|\leq CM_{f}$ on $\mathcal{Q}$ by (3.6) and $|(\operatorname{curl}f)_{\theta}|\leq CM_{f}$ by (1.5), both terms tend to zero uniformly: $G_{n}$ on the preimage of $\mathcal{Q}$ under (4.4), up to the axis, and $H_{n}$ on the preimage of $\mathcal{Q}$ under (4.17).
+Since $\partial_{Z}V_{n}$ and $\partial_{R}W_{n}$ vanish at $R=0$ , as $\partial_{z}u_{r}$ and $\partial_{r}u_{z}$ do on the axis (Section 3.1), the quotients $\partial_{Z}V_{n}/R$ and $\partial_{R}W_{n}/R$ are bounded by the suprema of $\partial_{RZ}V_{n}$ and $\partial_{RR}W_{n}$ on the radial segment which joins $(0,Z,\tau)$ to $(R,Z,\tau)$ ; this segment again lies in the preimage of $\mathcal{Q}$ , since $B(1)$ is convex. Thus (4.7a) and (4.6) give, on the preimage of $\mathcal{Q}$ with $R>0$ ,
+(4.9)
+$\displaystyle|\Omega_{n}|\leq\mathsf{C}_{\mathrm{axi}}\left(\delta_{n}^{2}|\tau|^{-3/2+h}+|\tau|^{-3/2-h}\right)\,.$
+The bound holds at $R=0$ as well, since $\Omega_{n}$ is continuous across the axis. Note that the constant $\mathsf{C}_{\mathrm{axi}}$ in (4.9) is the one of (4.6), which depends neither on $n$ nor on a time interval; this is what the decay hypothesis (3.13) of Lemma 3.3 requires in Step 2.
+Next, we turn to the swirl, which enters (4.7b) through the source $F_{n}=S_{n}^{2}/R^{2}$ . Since $RS_{n}=\delta_{n}\,ru_{\theta}$ , the circulation bound (4.2) gives
+(4.10a)
+$\displaystyle|RS_{n}|\leq C_{\Gamma}\delta_{n}\,,$
+wherever the point (4.4) lies in $B(R_{*})\times(t_{*},0)$ . Since $S_{n}$ vanishes at $R=0$ , as $u_{\theta}$ does, $|S_{n}|/R$ is bounded by the supremum of $|\partial_{R}S_{n}|$ along the radial segment to the axis, and in turn (4.6) bounds $|\partial_{R}S_{n}|$ by $\mathsf{C}_{\mathrm{axi}}|\tau|^{-1-h}\leq\mathsf{C}_{\mathrm{axi}}$ for $\tau\leq-1$ . We thus arrive at
+(4.10b)
+$\displaystyle|S_{n}/R|\leq C\,,$
+at every point of the preimage of $\mathcal{Q}$ with $\tau\leq-1$ .
+Since the passage to the limit in Step 2 is carried out in the sense of distributions, what is needed of the swirl source $\partial_{Z}F_{n}$ in (4.7b) is that $F_{n}\to 0$ in $L^{1}_{\rm loc}$ on $\{\tau\leq-1\}$ , up to the axis. Away from the axis we write $F_{n}=(RS_{n})^{2}/R^{4}$ , and (4.10a) gives $F_{n}\leq C_{\Gamma}^{2}\delta_{n}^{2}\varepsilon^{-4}\to 0$ as $n\to\infty$ , uniformly on compact subsets of $\{R\geq\varepsilon\}$ , for every $\varepsilon>0$ . Near the axis we write $F_{n}=(S_{n}/R)^{2}$ , and (4.10b) gives $F_{n}\leq C^{2}$ for $\tau\leq-1$ , up to $R=0$ . Since $\{R<\varepsilon\}$ has small measure within any compact set, and $\varepsilon$ is arbitrary, the two bounds together give this convergence, and the swirl source $\partial_{Z}F_{n}$ disappears in the distributional limit.

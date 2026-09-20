@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-09-20T01:16:40.292208+00:00",
+  "authority": "Management019fbdba relays new explicit user instruction 继续任务 after current September20 pause; root AGENTS independently read",
+  "prior_pause": "User 暂停; all running children stopped immediately; existing drafts preserved; no pause-time commit or handoff",
+  "head_at_resume": "0ed568506805b560123471410502ab5daeb9527b",
+  "status": "RESEARCH_ACTIVE_CIV_FINAL_REVIEW",
+  "source_audits_stopped": [
+    "PAPER_20762_AUDIT.md",
+    "PAPER_20803_AUDIT.md"
+  ],
+  "unaccepted_draft": "research/reverse/civ-applicability-20260920/FOUR_OBJECT_SCREEN.md",
+  "scientific_executions": 0,
+  "raw_array_reads": 0,
+  "old_handoffs_repeated": 0
+}

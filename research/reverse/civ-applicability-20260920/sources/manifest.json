@@ -1,0 +1,74 @@
+{
+  "scope": "Acquisition only. First20803 HTML was truncated; initial manifest preserved, no full-reading claim from acquisition. Official PDFs are authoritative versioned sources.",
+  "extraction": "Standard HTMLParser, full article.ltx_document; every math element replaced by exact alttext; article prose, proofs, appendices, references retained",
+  "sources": [
+    {
+      "arxiv": "2609.20803v1",
+      "url": "https://arxiv.org/html/2609.20803v1",
+      "acquired_utc": "2026-09-19T16:44:55.813304+00:00",
+      "html": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.html",
+        "sha256": "50da874fe830af97a1e310f0a43545a550f207f4f21c4775fcd8f77e24ab0ff6",
+        "bytes": 614222
+      },
+      "text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.txt",
+        "sha256": "c5ea64f6f8453c91c0f5f1020814de67715eaf0f974be076a6bd9f3f48c32538",
+        "bytes": 73676,
+        "lines": 408
+      },
+      "math_elements_preserved_as_TeX": 933,
+      "html_completeness": "INCOMPLETE_SOURCE_RESPONSE_ENDS_AT_4_10b_NO_CLOSING_ARTICLE",
+      "pdf": {
+        "url": "https://arxiv.org/pdf/2609.20803v1",
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.pdf",
+        "sha256": "292c343b4779ecf933966ced892410df6120e21b495374c5217236bb657e7fef",
+        "bytes": 588724,
+        "pages": 34,
+        "acquired_utc": "2026-09-19T16:53:26.828161+00:00"
+      },
+      "pdf_text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1-pdf.txt",
+        "sha256": "3595c9400b8ee6e97f754aa2952b770b0ffad355ecda7237adf8335898e80bcb",
+        "bytes": 158343,
+        "lines": 1767,
+        "method": "pypdf 6.10.0 extract_text(layout), page markers; ambiguous math requires source visual check"
+      }
+    },
+    {
+      "arxiv": "2609.20762v1",
+      "url": "https://arxiv.org/html/2609.20762v1",
+      "acquired_utc": "2026-09-19T16:44:58.021613+00:00",
+      "html": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.html",
+        "sha256": "1a6575e17786dfb08f7b398f142e430a31b04e16fe5963dbf9d4566da89b6f2a",
+        "bytes": 887667
+      },
+      "text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.txt",
+        "sha256": "610fc8e0dfb236834f2f65bcad2634a63e3567bcb87bf87cd135514111592846",
+        "bytes": 98524,
+        "lines": 682
+      },
+      "math_elements_preserved_as_TeX": 1313,
+      "html_completeness": "ARTICLE_AND_BODY_CLOSURE_AND_REFERENCE_END_CHECKED_NOT_YET_FULL_PDF_COMPARISON",
+      "pdf": {
+        "url": "https://arxiv.org/pdf/2609.20762v1",
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.pdf",
+        "sha256": "6ed01f71250d0b7f867df13cff0af5ba1c08d303ec0ecad36fafb4a9e9026290",
+        "bytes": 483887,
+        "pages": 24,
+        "acquired_utc": "2026-09-19T16:53:29.048502+00:00"
+      },
+      "pdf_text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1-pdf.txt",
+        "sha256": "f1159c563f684cee18cd8c906b246078be0a52d6efe0812a9b4627535db32925",
+        "bytes": 106068,
+        "lines": 1217,
+        "method": "pypdf 6.10.0 extract_text(layout), page markers; ambiguous math requires source visual check"
+      }
+    }
+  ],
+  "initial_manifest_preserved": "research/reverse/civ-applicability-20260920/sources/manifest-initial-html.json",
+  "initial_extractor_limitation": "Did not assert article/document closure; HTML source remains unchanged as obtained."
+}

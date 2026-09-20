@@ -1,0 +1,40 @@
+{
+  "scope": "Primary source acquisition only, not mathematical verification",
+  "extraction": "Standard HTMLParser, full article.ltx_document; every math element replaced by exact alttext; article prose, proofs, appendices, references retained",
+  "sources": [
+    {
+      "arxiv": "2609.20803v1",
+      "url": "https://arxiv.org/html/2609.20803v1",
+      "acquired_utc": "2026-09-19T16:44:55.813304+00:00",
+      "html": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.html",
+        "sha256": "50da874fe830af97a1e310f0a43545a550f207f4f21c4775fcd8f77e24ab0ff6",
+        "bytes": 614222
+      },
+      "text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.txt",
+        "sha256": "c5ea64f6f8453c91c0f5f1020814de67715eaf0f974be076a6bd9f3f48c32538",
+        "bytes": 73676,
+        "lines": 408
+      },
+      "math_elements_preserved_as_TeX": 933
+    },
+    {
+      "arxiv": "2609.20762v1",
+      "url": "https://arxiv.org/html/2609.20762v1",
+      "acquired_utc": "2026-09-19T16:44:58.021613+00:00",
+      "html": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.html",
+        "sha256": "1a6575e17786dfb08f7b398f142e430a31b04e16fe5963dbf9d4566da89b6f2a",
+        "bytes": 887667
+      },
+      "text": {
+        "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.txt",
+        "sha256": "610fc8e0dfb236834f2f65bcad2634a63e3567bcb87bf87cd135514111592846",
+        "bytes": 98524,
+        "lines": 682
+      },
+      "math_elements_preserved_as_TeX": 1313
+    }
+  ]
+}
