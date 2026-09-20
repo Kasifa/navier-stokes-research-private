@@ -2996,7 +2996,9 @@
     "final_review_sha256": "80daa21c3edcba7f6348accebf41f1deeb8a85584af341a56c91d8f711b7b05c",
     "root_final_review_full_read_lines": 41,
     "scientific_executions": 0,
-    "full_external_166page_or_Lean_verification": false
+    "full_external_166page_or_Lean_verification": false,
+    "source_commit": "5d54d45d81088b453f01d83f00c7161a94ef0fa8",
+    "actual_Git_blobs_verified": 32
   },
   "heat_signed_pairing_evidence": {
     "status": "IN_PROGRESS_NOT_ACCEPTED",
