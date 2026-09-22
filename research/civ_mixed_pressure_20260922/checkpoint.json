@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_RESEARCH_CHECKPOINT_NOT_A_RELEASE",
+  "input_source_commit": "1a05fae7eb9a9ba271c1f2f863a05bbc5fe752a8",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "4c21b643c23578f5afed4669d1d30829497b4279a942c12beeee093da69d4166",
+    "lines": 201,
+    "bytes": 9650
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "5a46e3b95a8e1ff99cf077ce4575c1b21e169a165d9f815c6487254cb0c88eeb",
+    "lines": 16,
+    "bytes": 2069
+  },
+  "inputs": [
+    {
+      "path": "research/civ_feedback_20260920/research-note.md",
+      "read_scope": "Accepted CF.1-2 and full swirl gradient structure; root reread lines1-95 this stage."
+    },
+    {
+      "path": "research/civ_strain_absorption_20260920/research-note.md",
+      "sha256": "b78f97562a576a84fafb1aaf4d22003465304f4d180d51ef9b539395a074053b",
+      "read_scope": "Root reread lines1-175, in addition to previous full reading this continuation. SA.3, full SA.5-7 and conditional threshold retained."
+    },
+    {
+      "path": "research/civ_harmonic_pressure_20260922/research-note.md",
+      "sha256": "b8b4f8fed263611e3f7cb0a56eb77ba20680574dc90e1969def411ae6c514043",
+      "read_scope": "Root read complete accepted source; reuse direct HP.6-8 estimates with new scale-dependent norms, not fixed-ball conclusion blindly."
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2305.05272v1",
+      "accessed": "2026-09-22",
+      "read_scope": "Root read Proposition3.1 hypotheses and statements(3.7)-(3.9), complete pressure decomposition(4.30)-(4.32) and cancellation text. Dedup agent additionally read Lemma4.2 statement,(4.31)-(4.33),(4.37),partial(4.30). No full proof audit.",
+      "use": "Known angular inverse-pressure and zero/high-mode interaction methods; not used as the ball Dirichlet theorem."
+    }
+  ],
+  "local_dedup_scope": "Agent: BV1-115,YT1-45 and167-218,BB1-285. Root: BV1-55,YT174-216. Bounded overlap checks only.",
+  "independent_full_main_reviews": [
+    "civ_angular_absorption",
+    "civ_exact_stress_test"
+  ],
+  "revision": "Both reviewers caught omitted dependence on gradient structure constant; final draft explicitly requires K^2>=C0 C_grad/nu; both read final full main and confirmed hash.",
+  "conclusions": [
+    "Full actual pressure equals remainder quadratic source, mean-high Dirichlet pressure and harmonic difference; mean-mean pressure is retained before high projection.",
+    "Mean-high one-divergence source gives 1/N pressure gain and O(1/N) relative exterior-dissipation cutoff work under the whole-window full-gradient threshold.",
+    "Moving-ball harmonic flux decays under the conditional CIV envelope, with all polynomial scale costs retained."
+  ],
+  "unresolved": [
+    "Exterior dissipation is not the same as interior cutoff dissipation.",
+    "Full w-tensor-w pressure, transport, cross-mode exchange, expanding low modes and general PF good scale remain."
+  ],
+  "continuous_execution": "Continue with fixed-N nested cutoff localization, including a finite-layer alternative; no publication wait.",
+  "novelty_established": false,
+  "new_general_regularity_result": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
