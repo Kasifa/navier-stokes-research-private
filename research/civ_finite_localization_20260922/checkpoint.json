@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_RESEARCH_CHECKPOINT_NOT_A_RELEASE",
+  "input_source_commit": "2ab608cf4098ce21c5d21293d09e67b2732d5aad",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "c16a305d0b05fada09c4c41beb3ebd8509c4396480de860c45a33c2c19f753b0",
+    "lines": 210,
+    "bytes": 8556
+  },
+  "synthesis": {
+    "path": "synthesis.md",
+    "sha256": "ff14b709121d612305a37f6368375adad3b2a0daa3eb6ee9af09e81f02e016da",
+    "lines": 133,
+    "bytes": 7780
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "3acac4bbb5a02979aa16513013d23b78e65dc6796852f66e62157c57a5ae4343",
+    "lines": 16,
+    "bytes": 2113
+  },
+  "adopted_strategy": {
+    "path": "/Users/kasifa/Documents/Math/NAVIER_STOKES_AB_PROOF_PRIORITY_2026-09-22.md",
+    "sha256": "e896392713e5cbbeb136deac08bcbf463e8903923356bd3e2116bfd9fce079f0",
+    "read_scope": "Root read full strategy and new workflow instruction; target full A/B, not count of local estimates."
+  },
+  "inputs": [
+    "research/civ_mixed_pressure_20260922/research-note.md",
+    "research/civ_harmonic_pressure_20260922/research-note.md",
+    "research/civ_cross_mode_20260922/research-note.md",
+    "research/civ_strain_absorption_20260920/research-note.md",
+    "research/clay_b_pressure_free_shape_criterion_20260908.md"
+  ],
+  "read_scope": "Root read complete FL and synthesis; original PF full 173 lines. Accepted earlier complete readings of SA,CM,HP,MP used without reopening external dependencies.",
+  "independent_full_reviews": [
+    "civ_angular_absorption",
+    "civ_exact_stress_test"
+  ],
+  "revisions": [
+    "Fixed positive K retained even if structure constant is zero.",
+    "Original PF suitable-neighborhood qualifications, contraction threshold and explicit tensor rotation average added.",
+    "Both reviewers reread final full main and synthesis, not just hashes."
+  ],
+  "conclusions": [
+    "Finite floor(sqrt(N)) layers control mean-high pressure exterior fees under extra mean-gradient structure while retaining all full nonlinear sources.",
+    "Equal-weight mean/low/high synthesis recovers original local energy and supplies no new general PF good scale.",
+    "Growing angular thresholds reclassify energy rather than producing new dissipation."
+  ],
+  "unresolved": [
+    "General mean structure, complete low modes, axis region and full terminal time cylinder.",
+    "Signed cross-mode and full quadratic pressure/transport source.",
+    "Same finite PF M and small nonlinear gradient-shape K from original arbitrary datum."
+  ],
+  "continuous_execution": "Stop isolated harmonic-tail strengthening; test full viscous stretching and pressure-Hessian signed time coupling after bounded dedup. No publication wait.",
+  "novelty_established": false,
+  "new_general_regularity_result": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
