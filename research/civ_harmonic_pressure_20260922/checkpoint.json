@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_RESEARCH_CHECKPOINT_NOT_A_RELEASE",
+  "input_source_commit": "5e68ffd8af4638413ce6c2b7e8c65bf805b6028b",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "b8b4f8fed263611e3f7cb0a56eb77ba20680574dc90e1969def411ae6c514043",
+    "lines": 125,
+    "bytes": 6650
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "b76727af764b6c765f841caf40e66cfe1fc4169b986413753ea2ed96f5ade771",
+    "lines": 15,
+    "bytes": 1967
+  },
+  "inputs": [
+    {
+      "path": "research/civ_strain_absorption_20260920/research-note.md",
+      "sha256": "b78f97562a576a84fafb1aaf4d22003465304f4d180d51ef9b539395a074053b",
+      "read_scope": "Previously read full 210-line input in this continuation; pressure cutoff SA.7 and same angular projections remain."
+    },
+    {
+      "path": "research/civ_cross_mode_20260922/research-note.md",
+      "sha256": "e2f63db715b57ab6a78a1dc5c9a90a88a06a487b2d7a91f9a36f5c9af135d08e",
+      "read_scope": "Root authored and reviewed complete source; no cross-mode or cutoff term removed."
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/polynomial-expansions-of-positive-harmonic-functions-in-the-unit-ball/4C31201A97EECE83A5F9C29E3B3BDBC0",
+      "accessed": "2026-09-22",
+      "read_scope": "Publisher public Extract only, root and bounded-source agent; not full paper. General homogeneous harmonic expansion statement only, no positive-function sharp estimates."
+    }
+  ],
+  "local_dedup_scope": "Bounded portions of harmonic_pressure_quadrupole_note.md, clay_b_gradient_record_pressure_history_20260908.md, and PF harmonic-pressure primitive; no exhaustive novelty claim.",
+  "independent_full_main_reviews": [
+    "civ_angular_absorption",
+    "civ_exact_stress_test"
+  ],
+  "conclusions": [
+    "Actual local quadratic-source Riesz pressure leaves a harmonic difference on a fixed whole mother ball.",
+    "Uniform high-angular harmonic tail yields normalized cutoff flux bounded by b^-2 M0 R^(1/6) (4R/b)^N times the L^(3/2) pressure-difference norm.",
+    "Fixed-mother-ball harmonic contribution vanishes; local quadratic-source pressure, low modes and transport remain unresolved."
+  ],
+  "continuous_execution": "Proceed to moving-mother-ball bounds and one-divergence mean-high Dirichlet-pressure estimate, retaining outer-ball dissipation and the complete remainder quadratic pressure.",
+  "novelty_established": false,
+  "new_general_regularity_result": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
