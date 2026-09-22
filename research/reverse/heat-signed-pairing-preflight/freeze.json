@@ -1,0 +1,457 @@
+{
+  "schema": "ReverseNS-private-freeze-v1",
+  "release_id": "ReverseNS-20260922-FixedHeatSignedPairing",
+  "classification": "PRIVATE_CORE",
+  "status": "RESEARCH_COMPLETE_CONDITIONAL_PAIRING_SIGN_OPEN",
+  "created_utc": "2026-09-22T07:16:55.834669+00:00",
+  "source_commit": "3b2524ece331aa59b9c8b6bc9eb882c5a095c2fd",
+  "scientific_commits": [
+    "5e62aa79a9afff3af5a54ad2ec37af1b5a123c35",
+    "5d54d45d81088b453f01d83f00c7161a94ef0fa8",
+    "cc5a85a25f2ee8dfbfa7920e8b1c20e8d48dcfeb",
+    "3b2524ece331aa59b9c8b6bc9eb882c5a095c2fd"
+  ],
+  "predecessor_release": "ReverseNS-20260909-FixedHeatVorticityCompletion",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "branch": "codex/ns-reverse",
+  "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
+  "files": [
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/CONTRACT.md",
+      "bytes": 2580,
+      "sha256": "17e94e397c9832de1c3e9fe5c49038403cffef564da01dd92e88365dd98c427f"
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/INDEPENDENT.md",
+      "bytes": 8209,
+      "sha256": "d0da8a4c48ff1881121b310244b04f2470dabeadcc00e90f6cb1f7072db4ff4b"
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/REVIEW.md",
+      "bytes": 5716,
+      "sha256": "2684b5d9a951b98545f02aa2e4eaeb43bb11867179b7a7a2470de645cbfe8398"
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/ROOT_INPUT_CHECK.md",
+      "bytes": 4559,
+      "sha256": "bc0d50ba62c9a3c6f7c45259a7f8b9e33967b758249c3eb4d19c3259d0d352a0"
+    },
+    {
+      "path": "research/reverse/heat-residual-transfer-preflight/acceptance.json",
+      "bytes": 2256,
+      "sha256": "3d1b1b7091b1bbfd415c570ee00417bf636af0e0a7779e668b4531a492ab979f"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/CONTRACT.md",
+      "bytes": 2797,
+      "sha256": "6687e6a64e749ab85f89ca12b6fdc2f30f83f9bde4f4833ecfe7631a62f11b2b"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FINAL_REVIEW.md",
+      "bytes": 7307,
+      "sha256": "80daa21c3edcba7f6348accebf41f1deeb8a85584af341a56c91d8f711b7b05c"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FIXED_HEAT_STRUCTURAL_TEST.md",
+      "bytes": 6328,
+      "sha256": "85b46bba996909be83074fb7b75f0c3f516c57838504d2d9b7078d42390ee591"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/FOUR_OBJECT_SCREEN.md",
+      "bytes": 7906,
+      "sha256": "62260ea715da0092a928597f670cf09299bf7760bf81c998bb5d17c2326323bf"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/PAPER_20762_AUDIT.md",
+      "bytes": 19310,
+      "sha256": "0d611a64df31c4dcb30e299d69622a88c1323a217b9f775abc64a2891dedc0b3"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/PAPER_20803_AUDIT.md",
+      "bytes": 16083,
+      "sha256": "502e5555fbc9ce8a9fb02df1dc2e70fbce88aa12062c29369aa1044a1346743e"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/RESUME_RECORD.json",
+      "bytes": 712,
+      "sha256": "64e9c594b864b9354e267f6d7e7b561d0b8900929b09e86b0db08482a43594c7"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/SOURCE_ACQUISITION_CORRECTION.md",
+      "bytes": 2112,
+      "sha256": "d1efe6a7e35a52263e7875beb10cefc82d587b259529bf8c55c78adafec0a3b2"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/STRUCTURAL_REVIEW.md",
+      "bytes": 6340,
+      "sha256": "3927698ec2cd0db3935a2de823885f2d6b52ec2278ccbc3e5f621691e7b79116"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/acceptance.json",
+      "bytes": 2482,
+      "sha256": "31b32d328e2d2edd5c29d82968b2d5a48f07c3fde717c99db4def8ac994b3a61"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/extract_sources.py",
+      "bytes": 3417,
+      "sha256": "4f4daf49a0df48f9715dc4d29628143d2cf0cff1ad308a1843e16b0cc9f15f82"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page02.png",
+      "bytes": 300966,
+      "sha256": "638701e70586c7a2e62125c697f44cb98679801a6d568acb70c79843345be09e"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page12.png",
+      "bytes": 347832,
+      "sha256": "efd56ec33168a0397afefe7ec790a50baab2acc6b94d55e869530d88bfaa27d5"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page16.png",
+      "bytes": 284139,
+      "sha256": "ad2edc3a69037cf42f42860b79c323e194c7df662033c8a5d07295ee1fa9d385"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-23.png",
+      "bytes": 305868,
+      "sha256": "8fd4deab001235e7e80e2a77a67dcd4578487f4c66a7af2d5103a266e1ad218c"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-24.png",
+      "bytes": 370539,
+      "sha256": "8043f16c34fb3ea435f23414f0c08e0e3dbbab121f19d1aca63fb93593907e90"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-29.png",
+      "bytes": 463718,
+      "sha256": "276c170162e8e6879787d9630eabf2d280642607407971aa36cd29cebe9cf04a"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/openai-069.png",
+      "bytes": 356371,
+      "sha256": "011bccf3e1f62542c6742b07655b10fa63a120f71b3ef115f4b3ce44bac6f78f"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/source-object-verification.json",
+      "bytes": 6618,
+      "sha256": "c47fc7bf2c00c6994a74f072e708092b80e09c423b19f176f7803cd78f2ec9b6"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1-pdf.txt",
+      "bytes": 106068,
+      "sha256": "f1159c563f684cee18cd8c906b246078be0a52d6efe0812a9b4627535db32925"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.html",
+      "bytes": 887667,
+      "sha256": "1a6575e17786dfb08f7b398f142e430a31b04e16fe5963dbf9d4566da89b6f2a"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.pdf",
+      "bytes": 483887,
+      "sha256": "6ed01f71250d0b7f867df13cff0af5ba1c08d303ec0ecad36fafb4a9e9026290"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20762v1.txt",
+      "bytes": 98524,
+      "sha256": "610fc8e0dfb236834f2f65bcad2634a63e3567bcb87bf87cd135514111592846"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1-pdf.txt",
+      "bytes": 158343,
+      "sha256": "3595c9400b8ee6e97f754aa2952b770b0ffad355ecda7237adf8335898e80bcb"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.html",
+      "bytes": 614222,
+      "sha256": "50da874fe830af97a1e310f0a43545a550f207f4f21c4775fcd8f77e24ab0ff6"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.pdf",
+      "bytes": 588724,
+      "sha256": "292c343b4779ecf933966ced892410df6120e21b495374c5217236bb657e7fef"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/2609.20803v1.txt",
+      "bytes": 73676,
+      "sha256": "c5ea64f6f8453c91c0f5f1020814de67715eaf0f974be076a6bd9f3f48c32538"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/manifest-initial-html.json",
+      "bytes": 1600,
+      "sha256": "e8834f3fff703c592dbbe7d3738968bc62e142be3e962f2b91baf5be658cd4ab"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/sources/manifest.json",
+      "bytes": 3587,
+      "sha256": "20271c5d92cabf12d591aba639a71bc2c6b5e903f9e36f4c99f373362983e498"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/COEFFICIENT_SIGN_SCREEN.md",
+      "bytes": 5241,
+      "sha256": "371c3d08602aa06c9af967c8b78b88e361d591f03cc0517daa771ae58bc9ab18"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/CONTRACT.md",
+      "bytes": 3459,
+      "sha256": "1f1f00d70e878cd1eeeebc9064b5882f516a43258014084062a8cf6a4b975145"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/FINAL_PAIRING_REVIEW.md",
+      "bytes": 10624,
+      "sha256": "a98f5910e4909b7b6e8259d07494c2f235098a63125081d6880d21f6649275ad"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/FULL_PAIRING_SYNTHESIS.md",
+      "bytes": 6036,
+      "sha256": "63e34111b7b5e1fd3ac847b45aeb9bd6a71e59ac49891d00b7bb49a190008371"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/INDEPENDENT_PAIRING.md",
+      "bytes": 13519,
+      "sha256": "79b533a9c95b938cfae4388176fc403c3c88a029777fa337a6e8667a1d70562e"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_FIRST_ORDER.md",
+      "bytes": 5544,
+      "sha256": "a3b0747644e1e8de8329b4bd5530f853d16c2ee6b99521ce5a12aed05deed4d7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_REVIEW.md",
+      "bytes": 7592,
+      "sha256": "07b81ac9c8c7e3760de07f5d0b2b4d4b7f9f91b8939d38e965dcee4651d9b799"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MEAN_INDEPENDENT_REVIEW.md",
+      "bytes": 7031,
+      "sha256": "d32bef341125b59b8973372692ecb821107e67fdb1a66248fd371460a4578475"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MEAN_REMAINDER.md",
+      "bytes": 12778,
+      "sha256": "f50ee41c5d8fe2598628b713d2f08287c5cbc85b90ddfac342df06f5dfee52c7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/RESUME_20260922.json",
+      "bytes": 1215,
+      "sha256": "7e65d259c4d70e94e4fbfaa87c6b6bb82c27495e71d37ee0bb7676cbd18cc4fa"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/ROOT_PAIRING.md",
+      "bytes": 6114,
+      "sha256": "cd4efab711e44b4567a50004eddf585ba8b5f6da4afb973970195a48df5f1d86"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/SIGN_INDEPENDENT_REVIEW.md",
+      "bytes": 8827,
+      "sha256": "a5c474c6b9e15190b9f409515e09e95a3fb25351a01c2b6d7d0e6e064a02f918"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/SOURCE_INPUT_AUDIT.md",
+      "bytes": 7542,
+      "sha256": "2d610bab9beac798f905e140565a2d65b2fa0a8937e986d4dcc5f0d1249532a4"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/WAVE_INDEPENDENT_REVIEW.md",
+      "bytes": 9228,
+      "sha256": "5308e55ef86c8734094bf8c3e79d7f0975bab96f9620d6a5e6f628420c3b7a7e"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/WEIGHTED_WAVE_BRIDGE.md",
+      "bytes": 11741,
+      "sha256": "9f18bb68ec5d0e8e98298c8496e6892c916a7216237923f1b7071ab492c5416b"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/full-acceptance.json",
+      "bytes": 4043,
+      "sha256": "f7a75c29ff386bbfbb9316366e34f06ed8c842ccda54e26c49db0d36c6c2beaf"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/interface-acceptance.json",
+      "bytes": 1902,
+      "sha256": "2023f777ed7081cde7322c7676a870787f936a4b90f29be1cb393d002a6ac922"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/interface-object-verification.json",
+      "bytes": 1712,
+      "sha256": "a049a52cb449299ef57d1299f04dfff560681a40def45b0dc2165449a93589c8"
+    }
+  ],
+  "direct_dependencies": [
+    {
+      "path": "research/reverse/forced-tail-audit/sources/navier-stokes.pdf",
+      "bytes": 2959204,
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f"
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/paper-text.txt",
+      "bytes": 613667,
+      "sha256": "7c8d1e236e6285de297f4d88d05056f3de5a8bdcc6454ddc81b665cf98ae0c26"
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/sources/manifest.json",
+      "bytes": 571,
+      "sha256": "81aa42d2d3a0127056491cfcde4367bbadf9cd02659d3db07e18daaebecc0d8e"
+    },
+    {
+      "path": "research/reverse/forced-tail-audit/FINAL_SCOPE.md",
+      "bytes": 3914,
+      "sha256": "ca0a9d4d8b8a8e07f5e2e95f73d29de3a83ae46e3e383bca08346ee8c8c97416"
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/PROOF.md",
+      "bytes": 6673,
+      "sha256": "afd6b0009d7b357dd9ed6c9feaeb8dbb15535a5499dbd8be7911883e3c4f2725"
+    },
+    {
+      "path": "research/reverse/cyclic-six-carrier/OUTCOME.md",
+      "bytes": 2304,
+      "sha256": "420ac34545e684767cc0a974b8d08450490a8bad4090746744c088827451d630"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/freeze.json",
+      "bytes": 11724,
+      "sha256": "fc451e484718bb2c35ab5af12d05d73cb68bf8571e02b8e8061538b14b884c7e"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/growth-acceptance.json",
+      "bytes": 7928,
+      "sha256": "ab03ddfa4ecbad010efff537eaece31917d6af85b70ff915383de8e167bec8a7"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/GROWTH_SYNTHESIS.md",
+      "bytes": 5180,
+      "sha256": "7c58beaccd8bbca46844c2d0972aafc66039fd195b7b7c21db3976102e8bcb21"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/MAIN_TERM_AND_IMAGES.md",
+      "bytes": 6582,
+      "sha256": "bb25839f76bfab719b3bca7afed9a724c624a4a172a1fc55bff684975cc3fc7a"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/WEIGHTED_ERROR_INDEPENDENT.md",
+      "bytes": 12126,
+      "sha256": "fb7a2f8284f2f1a838306e3a68f9a2ae7cb6cf76a9a63b574d05832eb8f38018"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/AXIS_LABEL_SOURCE.md",
+      "bytes": 8215,
+      "sha256": "b9a48de47b0def307f5c76822bac28cb788d454f968ec39561708a126b18276d"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/ROOT_INTERFACE.md",
+      "bytes": 5855,
+      "sha256": "909ccebe0c56d9cb0845a9eca6be78fb42c082e7671f5a6030529fc1b505d491"
+    },
+    {
+      "path": "research/reverse/heat-vorticity-tail-preflight/INDEPENDENT_INTERFACE.md",
+      "bytes": 9814,
+      "sha256": "bf3a8c2a2fe330cdf930877222f349f52b85ceab6f0c410aabecff5bf43fbcff"
+    }
+  ],
+  "accepted": [
+    "Prior conditional residual-operator audit and CIV four-object applicability/structural screen, preserved without redoing source audits",
+    "Same fixed full periodic M(tau)=lambda_p^3 C_chi+r(tau), explicit strict R(tau)->0, including actual wave/Haar/phase and all mean/image terms",
+    "Exact coefficient; local ga sign, smoothed diffusion sign and finite-shear comparison only"
+  ],
+  "claim_boundaries": {
+    "external_full_proof_verified": false,
+    "Lean_run": false,
+    "formal_machine_proof": false,
+    "human_peer_review": false,
+    "novelty_priority_claim": false,
+    "coefficient_sign": "OPEN",
+    "residual_zero_proven": false,
+    "residual_nonzero_proven": false,
+    "entire_unforced_terminal_tail_excluded": false,
+    "unforced_candidate_accepted": false,
+    "same_original_a_star_unchanged": true,
+    "same_phi_rho_U_parameters": true,
+    "strong_reconstruction": false,
+    "uniform_iteration": false,
+    "single_datum_infinite_scales": false,
+    "infinite_dimensional_error_paid_for_singularity": false,
+    "finite_total_time_singularity": false,
+    "general_A_or_B_solved": false
+  },
+  "unpaid": [
+    "Actual C_chi strict sign or exact zero",
+    "Actual same-datum unforced correction with whole-tail stability",
+    "Uniform iteration and a fixed datum infinite-scale finite-time singularity",
+    "External whole-paper/formal verification"
+  ],
+  "fixed_sign_entry": "CLOSED_INPUT_NOT_QUALIFIED_FOR_COEFFICIENT_SIGN",
+  "review": {
+    "final_pairing": {
+      "path": "research/reverse/heat-signed-pairing-preflight/FINAL_PAIRING_REVIEW.md",
+      "bytes": 10624,
+      "sha256": "a98f5910e4909b7b6e8259d07494c2f235098a63125081d6880d21f6649275ad"
+    },
+    "acceptance": {
+      "path": "research/reverse/heat-signed-pairing-preflight/full-acceptance.json",
+      "bytes": 4043,
+      "sha256": "f7a75c29ff386bbfbb9316366e34f06ed8c842ccda54e26c49db0d36c6c2beaf"
+    },
+    "formation": "Nonblind AI derivation and non-author mathematical reviews; source-reading scope recorded separately."
+  },
+  "certificate": {
+    "actual_git_blobs_verified": 66,
+    "core_count": 52,
+    "dependency_count": 14,
+    "scientific_executions": 0,
+    "arrays_decoded": 0,
+    "verification_path": "research/reverse/heat-signed-pairing-preflight/source-object-verification-20260922.json"
+  },
+  "figures": [],
+  "source_page_evidence": [
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page02.png",
+      "bytes": 300966,
+      "sha256": "638701e70586c7a2e62125c697f44cb98679801a6d568acb70c79843345be09e"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page12.png",
+      "bytes": 347832,
+      "sha256": "efd56ec33168a0397afefe7ec790a50baab2acc6b94d55e869530d88bfaa27d5"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/gauss-20762-page16.png",
+      "bytes": 284139,
+      "sha256": "ad2edc3a69037cf42f42860b79c323e194c7df662033c8a5d07295ee1fa9d385"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-23.png",
+      "bytes": 305868,
+      "sha256": "8fd4deab001235e7e80e2a77a67dcd4578487f4c66a7af2d5103a266e1ad218c"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-24.png",
+      "bytes": 370539,
+      "sha256": "8043f16c34fb3ea435f23414f0c08e0e3dbbab121f19d1aca63fb93593907e90"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/20803-29.png",
+      "bytes": 463718,
+      "sha256": "276c170162e8e6879787d9630eabf2d280642607407971aa36cd29cebe9cf04a"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/reading-evidence/hume/openai-069.png",
+      "bytes": 356371,
+      "sha256": "011bccf3e1f62542c6742b07655b10fa63a120f71b3ef115f4b3ce44bac6f78f"
+    }
+  ],
+  "figure_qa": "Seven previously read CIV/source page images only; no new scientific figures, data graphics or reader PDF. Initial truncated HTML and PDF correction preserved explicitly.",
+  "new_reader_pdf": false,
+  "milestone_condition": "Bounded conditional operator/coefficient analysis; not an A/B or singularity milestone. No new manuscript rewrite.",
+  "requested_channels": [
+    "PRIVATE_ARCHIVE"
+  ],
+  "publisher_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+  "public_export_authorization": false,
+  "excluded_later_work": [
+    "research/reverse/heat-circulation-budget",
+    "research/reverse/heat-signed-pairing-preflight/NEXT_QUESTION_SELECTION.md"
+  ],
+  "continuation": "Research continues independently after this one-time handoff; no publication monitoring.",
+  "freeze_commit_binding": "Manifest and verification committed separately; actual freeze commit recorded in owner handoff log."
+}
