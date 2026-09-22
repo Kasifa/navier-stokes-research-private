@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_RESEARCH_CHECKPOINT_NOT_A_RELEASE",
+  "input_source_commit": "45f845182115c047e061c98ede3cc673298a1c38",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "e2f63db715b57ab6a78a1dc5c9a90a88a06a487b2d7a91f9a36f5c9af135d08e",
+    "lines": 156,
+    "bytes": 8754
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "bde88a8586c8db8db5a5c5558573593efe6e38db1af412b86befdd290064e7a5",
+    "lines": 15,
+    "bytes": 2071
+  },
+  "inputs": [
+    {
+      "path": "research/civ_strain_absorption_20260920/research-note.md",
+      "sha256": "b78f97562a576a84fafb1aaf4d22003465304f4d180d51ef9b539395a074053b",
+      "read_scope": "Root read the complete 210-line source on continuation; use full SA.6-7 and existing conditional threshold only, do not rerun prior spectra or CIV audit."
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2406.05329v1",
+      "version": "v1",
+      "accessed": "2026-09-22",
+      "read_scope": "Root checked section 3 domain, Lemma 3.1 and Corollary 3.1 statements and proofs, Lemma 3.2 statement. Bounded dedup agent also checked neighboring interpolation statements. Not a full-paper audit.",
+      "use": "Classical angular-variable separation precedent; not a direct theorem for the present meridional annulus."
+    }
+  ],
+  "local_dedup_scope": "Agent checked bounded sections of R0.75E/F passive common-shear flux and phase identity plus the heat-normal-form record; root read HN section 1 and current SA. No comprehensive novelty certification.",
+  "independent_full_main_reviews": [
+    "civ_angular_absorption",
+    "civ_exact_stress_test"
+  ],
+  "conclusions": [
+    "Exact low-high exchange retains a non-axisymmetric cutoff flux; equal scalar weights only recover original remainder energy.",
+    "Fixed cylindrical annuli permit N/(nu R) times K_l squared, retaining all cutoff gradients and low-mode injection.",
+    "The moving scale still lacks weighted integrability and axis control; local pressure and transport remain."
+  ],
+  "continuous_execution": "Proceed to the distinct fixed-mother-ball harmonic-pressure-tail check after saving; do not stop for checkpoint or publication.",
+  "novelty_established": false,
+  "new_general_regularity_result": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
