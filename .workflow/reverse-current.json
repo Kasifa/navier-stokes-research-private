@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_FIXED_DATA_BRIDGE_SELECTION",
+  "status": "RESEARCH_ACTIVE_NONAUTONOMOUS_LINEAR_INPUT_QUALIFICATION",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Compare actual complete-interval fixed-data correction inputs with autonomous-return inputs; select one supported bridge, not another V_h diagnostic or finite Gronwall restatement.",
+  "next_action": "Qualify one actual nonautonomous L_V bridge: complete axial-flow columnar core and exact primary instability criteria. Do not infer propagator instability from free-heat operator obstruction or a local Rayleigh sign.",
   "resume_action": "Read latest own checkpoint and civ-applicability-20260920/CONTRACT.md. Do not reopen growth proofs, old numerical workers or publication state.",
   "forward_pause_applies": false,
   "resume_authority": "Explicit September20 user start and management dispatch supersede September9 pause; later user pauses prevail",
@@ -1062,7 +1062,7 @@
   },
   "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
-  "source_commit": "2288725a6f7e60d2a5f6ed38a4b6e1026073ab35",
+  "source_commit": "32a482dd8d11c3ade26e5d6747cf09591678a2c7",
   "freeze_manifest": "research/reverse/canonical-periodic-tail-preflight/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED",
   "protocol_hashes": {
@@ -1086,7 +1086,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-22T09:18:14.590691+00:00",
+  "updated_at": "2026-09-22T09:39:43.213504+00:00",
   "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
   "previous_goal_turn_classification": "PROGRESS: release33 proof/freeze/once-only handoff complete; fixed heat interface and explicit integrable weak budget accepted locally, actual growth source gap narrowed, source and checkpoint saved.",
   "completed_unreleased_audits": [
@@ -1372,8 +1372,8 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/heat-circulation-budget/acceptance.json",
-    "research/reverse/heat-circulation-budget/SYNTHESIS.md"
+    "research/reverse/fixed-data-reconstruction/operator-acceptance.json",
+    "research/reverse/fixed-data-reconstruction/INPUT_COMPARISON.md"
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -3047,10 +3047,18 @@
     "strategy": "/Users/kasifa/Documents/Math/NAVIER_STOKES_AB_PROOF_PRIORITY_2026-09-22.md"
   },
   "latest_private_handoff": {
-    "release_id": "ReverseNS-20260922-FixedHeatSignedPairing",
-    "source_commit": "3b2524ece331aa59b9c8b6bc9eb882c5a095c2fd",
-    "freeze_commit": "2288725a6f7e60d2a5f6ed38a4b6e1026073ab35",
+    "release_id": "ReverseNS-20260922-FixedHeatCirculationObstruction",
+    "source_commit": "3851b8be74b4b10d56dde949d4dc3a947634db85",
+    "freeze_commit": "32a482dd8d11c3ade26e5d6747cf09591678a2c7",
     "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
     "archive_status": "NOT_OBSERVED_BY_RESEARCH"
+  },
+  "fixed_data_reconstruction_evidence": {
+    "status": "ACCEPTED_CONDITIONAL_FREE_HEAT_OPERATOR_OBSTRUCTION",
+    "acceptance": "research/reverse/fixed-data-reconstruction/operator-acceptance.json",
+    "candidate_closed": "Free-heat Neumann small-perturbation reconstruction in the contracted X_beta only",
+    "actual_L_V_response": "OPEN",
+    "autonomous_return": "INPUT_NOT_QUALIFIED_NO_NEW_ENGINEERING_STARTED",
+    "scientific_executions": 0
   }
 }

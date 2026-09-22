@@ -1,0 +1,77 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_CONDITIONAL_FREE_HEAT_OPERATOR_OBSTRUCTION",
+  "accepted_utc": "2026-09-22T09:39:43.208232+00:00",
+  "files": [
+    {
+      "path": "research/reverse/fixed-data-reconstruction/CONTRACT.md",
+      "lines": 40,
+      "bytes": 3747,
+      "sha256": "b64cce15bfed0e79fe16e2090d9fbdf765e1e3c5abe19a8da361bb8f0ec0da74",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/INPUT_COMPARISON.md",
+      "lines": 75,
+      "bytes": 10572,
+      "sha256": "c1213f2f4475cef3131cff71663fc4406465aa6b5da87fd2368b82a83916a8b7",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/HEAT_OPERATOR_PROOF.md",
+      "lines": 105,
+      "bytes": 8453,
+      "sha256": "52bf3dd13c90846e01c6243596392860c383ff6f8e9474fa4b9894ccc7333186",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/HEAT_OPERATOR_REVIEW.md",
+      "lines": 51,
+      "bytes": 6987,
+      "sha256": "d9a939c665132830b2fd255282e8488ad53fc026c147b9e6c07035d31ba42da9",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/INDEPENDENT_OPERATOR_TEST.md",
+      "lines": 97,
+      "bytes": 7211,
+      "sha256": "6dd13bb48c1c9ddf830bc081d8a7853adaae76d16efa7b0ddb1a3fa177460614",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/INDEPENDENT_OPERATOR_REVIEW.md",
+      "lines": 30,
+      "bytes": 5931,
+      "sha256": "f39471c26e718521f35478703d542d36f4d4b8270ef2541f5a132ccc325e49c9",
+      "root_read": "full stopped text actually read"
+    },
+    {
+      "path": "research/reverse/fixed-data-reconstruction/FINAL_OPERATOR_SCOPE.md",
+      "lines": 27,
+      "bytes": 4862,
+      "sha256": "6d332396ed1146058e961337567faf679cdc3a5916eea06b56ebf28cfc2918ea",
+      "root_read": "full stopped text actually read"
+    }
+  ],
+  "accepted": [
+    "For each fixed restart t_star and 0<=beta<1/2, actual complete K_V has no bounded extension on X_beta; smooth real solenoidal zero-mean compact-time directions have bounded inputs and outputs >= c tau^-h",
+    "Complete free-heat nonlinear integral map cannot be locally Lipschitz near any E in this X_beta, even if separately defined there; exact directional quotient preserves the nonzero core witness"
+  ],
+  "candidate_closed": "Free-heat Neumann small-perturbation reconstruction in the contracted X_beta only",
+  "not_proved": [
+    "Actual full nonautonomous L_V propagation stability or instability",
+    "Response to actual -G_h",
+    "Nonlinear full-tail reconstruction",
+    "Fixed datum unforced solution or singularity",
+    "Any conclusion for beta outside the contract or arbitrary error spaces",
+    "General A or B"
+  ],
+  "external_inputs": "Existing fixed heat core and growth used conditionally; no new whole external proof or Lean verification",
+  "review": "Two nonblind derivations with distinct nonzero witnesses; separate non-author component and final scope AI reviews, no human or blind-review claim",
+  "scientific_executions": 0,
+  "arrays_decoded": 0,
+  "figures": [],
+  "public_export_authorization": false,
+  "formal_freeze_status": "Local bounded bridge preflight accepted; no release37 yet",
+  "next_gate": "Qualify actual full L_V input. Bounded preliminary comparison of fast-time columnar Euler linearization and primary instability criteria with axial shear; no spectrum or NS propagator inference accepted."
+}

@@ -1,0 +1,24 @@
+{
+  "classification": "PRIVATE_CORE",
+  "freeze_commit": "32a482dd8d11c3ade26e5d6747cf09591678a2c7",
+  "status": "PASS",
+  "actual_git_blobs_read": 3,
+  "files": [
+    {
+      "path": "research/reverse/heat-circulation-budget/freeze.json",
+      "bytes": 7121,
+      "sha256": "e0d1d96122919cf5712c4d0d3351d3dab8665aea4217aef14b1afc16488699e9"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/source-object-verification-20260922.json",
+      "bytes": 5103,
+      "sha256": "2040a59d87de385fab6be9b60bb753b028bde5f5190df6286579cb54004b5e96"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/FREEZE_SCOPE_REVIEW.md",
+      "bytes": 4035,
+      "sha256": "d2786e6515ed9c2773bd1d29bdba9066035241cf68ca94840dd0b7a332d97b97"
+    }
+  ],
+  "scientific_execution": false
+}
