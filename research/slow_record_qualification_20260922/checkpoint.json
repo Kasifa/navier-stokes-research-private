@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_QUALIFICATION_CHECK_NOT_A_RELEASE",
+  "input_source_commit": "c633d097b720cd8449f1b171951347af5fab8305",
+  "status": "NO_NEW_UNCONDITIONAL_DYNAMIC_INPUT",
+  "main": {
+    "path": "main.md",
+    "sha256": "a7b4f3658d523a8c8a8dd3d1bd88a5f19fd2d007c80b86be7883715389e60a86",
+    "lines": 145,
+    "bytes": 9723
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "a968fc70cc0f92810c473dfa055783e183aa2cf50f6ef3abf9d314f9cb7b5413",
+    "lines": 17,
+    "bytes": 3021
+  },
+  "same_solution_scope": "Fixed periodic domain, fixed positive viscosity, no force, one admissible datum per evolution; hypothetical first singular time only.",
+  "actual_checks": [
+    "True Galilean transformation retains the complete initial constant and cross transport; the signed intermediate history still supplies the same constant.",
+    "Zero-mean Sobolev and projected heat-kernel convolution yield a scaled dissipation bound with an unpaid L_j/S factor, not new signed smallness.",
+    "Global-center local-oscillation first crossing gives infinite past, unit terminal oscillation and past oscillation caps, but no uniform global velocity cap or alternative pressure compactness.",
+    "General translation-averaged increment event-cost proposal was rejected at bounded deduplication against FCB/DBS; no duplicate KHM derivation was started."
+  ],
+  "conditional_interface": "If sup_n r_n sup_{a<=t<=t_n} ||u(t)-mean(u)||_infinity is finite, existing positive-viscosity bounded-mild compactness preserves the terminal oscillation. That hypothesis is not established, and a nonconstant limit is not itself a contradiction.",
+  "review_scope": "Two participating AI full reads of the 143-line main; one of them reviewed the KHM tail delta. A third AI, uninvolved in SQ derivation but involved in deduplication, read the 145-line main and verified the seven final wording replacements by exact inverse restoration. Exact versions and ranges are in review.md.",
+  "limits": [
+    "No exclusion of the slow-doubling branch, no unconditional nonconstant ancient limit, no new PF common-M scale or small K.",
+    "No proof that broader Galilean, signed-history, oscillation-selection or KHM mechanisms are impossible.",
+    "No newly admitted next dynamical input after the three bounded alternatives; continuation must not relabel the same unknown estimates."
+  ],
+  "coordination": "Actual-start report sent to management; exact scientific boundary sent once to the existing reverse task. No new task, publisher contact or wait dependency.",
+  "continuous_authorization": "Remains valid; no user pause, scheduler change or new continuation-approval requirement is introduced. Mathematical lack of a new supported input is reported honestly, not hidden as running proof work.",
+  "new_general_regularity_result": false,
+  "novelty_established": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
