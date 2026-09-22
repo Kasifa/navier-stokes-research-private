@@ -1,0 +1,46 @@
+{
+  "source_commit": "cc5a85a25f2ee8dfbfa7920e8b1c20e8d48dcfeb",
+  "actual_Git_blobs_read_and_compared": 8,
+  "files": [
+    {
+      "path": ".workflow/reverse-current.json",
+      "bytes": 237497,
+      "sha256": "74cb29e562b7a4df11b933eaa07a8d4c34f9acf89379133e7ee71189ea921f47"
+    },
+    {
+      "path": "research/reverse/civ-applicability-20260920/source-object-verification.json",
+      "bytes": 6618,
+      "sha256": "c47fc7bf2c00c6994a74f072e708092b80e09c423b19f176f7803cd78f2ec9b6"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/INDEPENDENT_PAIRING.md",
+      "bytes": 13519,
+      "sha256": "79b533a9c95b938cfae4388176fc403c3c88a029777fa337a6e8667a1d70562e"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_FIRST_ORDER.md",
+      "bytes": 5544,
+      "sha256": "a3b0747644e1e8de8329b4bd5530f853d16c2ee6b99521ce5a12aed05deed4d7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_REVIEW.md",
+      "bytes": 7592,
+      "sha256": "07b81ac9c8c7e3760de07f5d0b2b4d4b7f9f91b8939d38e965dcee4651d9b799"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/ROOT_PAIRING.md",
+      "bytes": 6114,
+      "sha256": "cd4efab711e44b4567a50004eddf585ba8b5f6da4afb973970195a48df5f1d86"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/SOURCE_INPUT_AUDIT.md",
+      "bytes": 7542,
+      "sha256": "2d610bab9beac798f905e140565a2d65b2fa0a8937e986d4dcc5f0d1249532a4"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/interface-acceptance.json",
+      "bytes": 1902,
+      "sha256": "2023f777ed7081cde7322c7676a870787f936a4b90f29be1cb393d002a6ac922"
+    }
+  ]
+}

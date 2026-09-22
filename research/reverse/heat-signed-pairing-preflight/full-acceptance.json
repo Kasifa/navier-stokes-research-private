@@ -1,0 +1,102 @@
+{
+  "status": "ACCEPTED_CONDITIONAL_FULL_PAIRING_SIGN_OPEN",
+  "accepted_utc": "2026-09-22T07:14:14.659749+00:00",
+  "files": [
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/CONTRACT.md",
+      "bytes": 3459,
+      "sha256": "1f1f00d70e878cd1eeeebc9064b5882f516a43258014084062a8cf6a4b975145"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/ROOT_PAIRING.md",
+      "bytes": 6114,
+      "sha256": "cd4efab711e44b4567a50004eddf585ba8b5f6da4afb973970195a48df5f1d86"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/INDEPENDENT_PAIRING.md",
+      "bytes": 13519,
+      "sha256": "79b533a9c95b938cfae4388176fc403c3c88a029777fa337a6e8667a1d70562e"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/SOURCE_INPUT_AUDIT.md",
+      "bytes": 7542,
+      "sha256": "2d610bab9beac798f905e140565a2d65b2fa0a8937e986d4dcc5f0d1249532a4"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_FIRST_ORDER.md",
+      "bytes": 5544,
+      "sha256": "a3b0747644e1e8de8329b4bd5530f853d16c2ee6b99521ce5a12aed05deed4d7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MAIN_REVIEW.md",
+      "bytes": 7592,
+      "sha256": "07b81ac9c8c7e3760de07f5d0b2b4d4b7f9f91b8939d38e965dcee4651d9b799"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/WEIGHTED_WAVE_BRIDGE.md",
+      "bytes": 11741,
+      "sha256": "9f18bb68ec5d0e8e98298c8496e6892c916a7216237923f1b7071ab492c5416b"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MEAN_REMAINDER.md",
+      "bytes": 12778,
+      "sha256": "f50ee41c5d8fe2598628b713d2f08287c5cbc85b90ddfac342df06f5dfee52c7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/COEFFICIENT_SIGN_SCREEN.md",
+      "bytes": 5241,
+      "sha256": "371c3d08602aa06c9af967c8b78b88e361d591f03cc0517daa771ae58bc9ab18"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/WAVE_INDEPENDENT_REVIEW.md",
+      "bytes": 9228,
+      "sha256": "5308e55ef86c8734094bf8c3e79d7f0975bab96f9620d6a5e6f628420c3b7a7e"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MEAN_INDEPENDENT_REVIEW.md",
+      "bytes": 7031,
+      "sha256": "d32bef341125b59b8973372692ecb821107e67fdb1a66248fd371460a4578475"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/SIGN_INDEPENDENT_REVIEW.md",
+      "bytes": 8827,
+      "sha256": "a5c474c6b9e15190b9f409515e09e95a3fb25351a01c2b6d7d0e6e064a02f918"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/FULL_PAIRING_SYNTHESIS.md",
+      "bytes": 6036,
+      "sha256": "63e34111b7b5e1fd3ac847b45aeb9bd6a71e59ac49891d00b7bb49a190008371"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/FINAL_PAIRING_REVIEW.md",
+      "bytes": 10624,
+      "sha256": "a98f5910e4909b7b6e8259d07494c2f235098a63125081d6880d21f6649275ad"
+    }
+  ],
+  "accepted": [
+    "Same fixed full periodic M(tau)=lambda_p^3 C_chi+r(tau), |r|<=R(tau)->0",
+    "Actual wave/Haar/phase bridge and complete mean remainder",
+    "Exact original-profile coefficient; local signed terms and finite-shear D_chi/N interface only"
+  ],
+  "unpaid": [
+    "C_chi nonzero or zero",
+    "Entire unforced tail or unforced reconstruction",
+    "External full proof/Lean verification"
+  ],
+  "fixed_sign_entry": "CLOSED_INPUT_NOT_QUALIFIED_FOR_COEFFICIENT_SIGN",
+  "same_phi_rho_U_parameters": true,
+  "unforced_candidate_accepted": false,
+  "root_full_read_lines": {
+    "WEIGHTED_WAVE_BRIDGE.md": 137,
+    "MEAN_REMAINDER.md": 122,
+    "COEFFICIENT_SIGN_SCREEN.md": 41,
+    "WAVE_INDEPENDENT_REVIEW.md": 38,
+    "MEAN_INDEPENDENT_REVIEW.md": 31,
+    "SIGN_INDEPENDENT_REVIEW.md": 66,
+    "FULL_PAIRING_SYNTHESIS.md": 85,
+    "FINAL_PAIRING_REVIEW.md": 43
+  },
+  "scientific_executions": 0,
+  "new_scientific_figures": 0,
+  "formation": "Nonblind AI independent derivation and non-author review; not human review or formal machine proof."
+}

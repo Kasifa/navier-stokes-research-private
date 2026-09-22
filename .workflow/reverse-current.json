@@ -1,12 +1,12 @@
 {
   "role": "reverse",
-  "status": "RESEARCH_ACTIVE_FIXED_HEAT_SIGNED_PAIRING",
+  "status": "RESEARCH_ACTIVE_HEAT_CIRCULATION_BUDGET",
   "owner_thread_id": "01a07996-7beb-7793-ab71-d71abacbfb86",
   "pause_record": "research/reverse/PAUSE_20260909_FIXED_HEAT_13ae8c0b.md",
   "baseline_commit": "d58abdd9390ef8ced52f1807a956a663853f7680",
   "branch": "codex/ns-reverse",
   "checkpoint": "research/reverse/CHECKPOINT.md",
-  "next_action": "Single fixed phi contract: finish actual weighted primary-wave/Haar/phase bridge, first-profile and mean-error audit, then determine complete signed pairing coefficient and strict remainder; if an exact input cannot be paid, close this entry without changing phi, rho, datum or grid.",
+  "next_action": "Audit one full-time circulation-budget test for the same fixed V_h: local mean equation, actual side boundary and angular growth, full-domain heat-filtered wave bounds including transition q larger than tau. No second phi, parameter change or numerical scan.",
   "resume_action": "Read latest own checkpoint and civ-applicability-20260920/CONTRACT.md. Do not reopen growth proofs, old numerical workers or publication state.",
   "forward_pause_applies": false,
   "resume_authority": "Explicit September20 user start and management dispatch supersede September9 pause; later user pauses prevail",
@@ -1062,7 +1062,7 @@
   },
   "classification": "PRIVATE_CORE_CONDITIONAL_CLASSICAL_ANALYTICITY_APPLICATION",
   "last_completed_release": "ReverseNS-20260909-CanonicalVorticityTailObstruction",
-  "source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
+  "source_commit": "cc5a85a25f2ee8dfbfa7920e8b1c20e8d48dcfeb",
   "freeze_manifest": "research/reverse/canonical-periodic-tail-preflight/freeze.json",
   "handoff_state": "SENT_ONCE_TOOL_CONFIRMED",
   "protocol_hashes": {
@@ -1086,7 +1086,7 @@
   "management_continuation_note": "2026-09-07 management 019fbdba-295b-7c30-a74a-b843f7558d54 confirmed user authorization to continue research independently of website work; no publishing dependency.",
   "platform_goal_state_last_observed": "active; get_goal observed during 2026-09-09 direct restore; no mutation or budget/reset change",
   "platform_goal_history": "Prior active statement superseded by latest actual usageLimited observation. Direct user continuation remains authorized. No goal state/budget manipulation or credit consumption performed. | 2026-09-08 next continuation actual get_goal returned active; earlier usageLimited observation retained as historical, not a user pause.",
-  "updated_at": "2026-09-09T04:52:13.129293+00:00",
+  "updated_at": "2026-09-22T07:14:14.659749+00:00",
   "protocol_read_scope_latest": "Current central strategy full read; central AGENTS latest research-strategy paragraph read; workflow applicable research/freeze lines164-199 and compute/resume225-244 full read; latest opening publication history is not an inspected publisher state.",
   "previous_goal_turn_classification": "PROGRESS: release33 proof/freeze/once-only handoff complete; fixed heat interface and explicit integrable weak budget accepted locally, actual growth source gap narrowed, source and checkpoint saved.",
   "completed_unreleased_audits": [
@@ -1372,8 +1372,8 @@
   },
   "resume_read_set": [
     "research/reverse/CHECKPOINT.md",
-    "research/reverse/civ-applicability-20260920/acceptance.json",
-    "research/reverse/heat-signed-pairing-preflight/CONTRACT.md"
+    "research/reverse/heat-signed-pairing-preflight/full-acceptance.json",
+    "research/reverse/heat-circulation-budget/CONTRACT.md"
   ],
   "resume_read_note": "Current checkpoint and this reverse-only index supersede historical concrete next actions in AGENTS and preserved checkpoint history. Completed reading screens are not pending independent tasks; source Git objects retain all earlier provenance.",
   "checkpoint_history_archive": "research/reverse/checkpoint-history/20260908-before-joint-helical-return.md",
@@ -2973,7 +2973,7 @@
     "scientific_workers_running": 0,
     "pause_checkpoint_committed": false
   },
-  "current_pause_state": "NOT_PAUSED_NEW_EXPLICIT_CONTINUATION",
+  "current_pause_state": "NOT_PAUSED_EXPLICIT_USER_AND_MANAGEMENT_CONTINUATION_20260922",
   "last_pause_superseded_by": {
     "at_utc": "2026-09-20T01:16:40.292208+00:00",
     "authority": "Management019fbdba relays new explicit user instruction 继续任务 after current September20 pause; root AGENTS independently read",
@@ -3001,12 +3001,36 @@
     "actual_Git_blobs_verified": 32
   },
   "heat_signed_pairing_evidence": {
-    "status": "IN_PROGRESS_NOT_ACCEPTED",
+    "status": "ACCEPTED_CONDITIONAL_FULL_PAIRING_SIGN_OPEN",
     "contract": "research/reverse/heat-signed-pairing-preflight/CONTRACT.md",
     "contract_sha256": "1f1f00d70e878cd1eeeebc9064b5882f516a43258014084062a8cf6a4b975145",
     "fixed_phi": "exp(-1/(1-|Y|^2))*(-Y2,Y1,0) on unit ball; zero outside",
-    "nonlinear_leading_coefficient_proven": false,
+    "nonlinear_leading_coefficient_proven": true,
     "residual_nonzero_proven": false,
-    "scientific_executions": 0
+    "scientific_executions": 0,
+    "full_acceptance": "research/reverse/heat-signed-pairing-preflight/full-acceptance.json",
+    "full_strict_remainder_proven": true,
+    "coefficient_sign": "OPEN",
+    "fixed_sign_entry": "CLOSED_INPUT_NOT_QUALIFIED_FOR_COEFFICIENT_SIGN",
+    "final_review_sha256": "a98f5910e4909b7b6e8259d07494c2f235098a63125081d6880d21f6649275ad"
+  },
+  "metadata_history_20260922": {
+    "source_commit": "13ae8c0b92b2e6749cf9e4c9ab26d73a411b60ba",
+    "updated_at": "2026-09-09T04:52:13.129293+00:00",
+    "note": "Stale top-level metadata preserved, not evidence of active execution."
+  },
+  "resume_20260922": {
+    "start_head": "cc5a85a25f2ee8dfbfa7920e8b1c20e8d48dcfeb",
+    "authorization": "User: 继续任务 不需要停止; management 019fbdba dispatch",
+    "drafts_preserved": true,
+    "scientific_executions": 0,
+    "next": "Non-author review of actual wave, mean and coefficient sign; full synthesis only after review; then continue distinct justified in-scope question."
+  },
+  "heat_circulation_budget_evidence": {
+    "status": "IN_PROGRESS_NOT_ACCEPTED",
+    "contract": "research/reverse/heat-circulation-budget/CONTRACT.md",
+    "scientific_executions": 0,
+    "same_V_h": true,
+    "entire_unforced_tail_excluded": false
   }
 }

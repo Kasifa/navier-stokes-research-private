@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-22T06:59:24.015841+00:00",
+  "head": "cc5a85a25f2ee8dfbfa7920e8b1c20e8d48dcfeb",
+  "worktree": "/Users/kasifa/Documents/Math/navier-stokes-reverse",
+  "read_full": {
+    "WEIGHTED_WAVE_BRIDGE.md": 137,
+    "MEAN_REMAINDER.md": 122,
+    "COEFFICIENT_SIGN_SCREEN.md": 41
+  },
+  "files": [
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/WEIGHTED_WAVE_BRIDGE.md",
+      "bytes": 11741,
+      "sha256": "9f18bb68ec5d0e8e98298c8496e6892c916a7216237923f1b7071ab492c5416b"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/MEAN_REMAINDER.md",
+      "bytes": 12778,
+      "sha256": "f50ee41c5d8fe2598628b713d2f08287c5cbc85b90ddfac342df06f5dfee52c7"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/COEFFICIENT_SIGN_SCREEN.md",
+      "bytes": 5241,
+      "sha256": "371c3d08602aa06c9af967c8b78b88e361d591f03cc0517daa771ae58bc9ab18"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/interface-object-verification.json",
+      "bytes": 1712,
+      "sha256": "a049a52cb449299ef57d1299f04dfff560681a40def45b0dc2165449a93589c8"
+    }
+  ],
+  "status": "REVIEW_STARTED_NOT_ACCEPTED",
+  "scientific_executions": 0
+}
