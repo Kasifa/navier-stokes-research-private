@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "classification": "INTERNAL_CANDIDATE_SCREEN_NOT_A_RELEASE",
+  "input_source_commit": "a390ca440c05206770b1411074eb1946d9f9f9f9",
+  "main": {
+    "path": "research-note.md",
+    "sha256": "d520c5100c51a5a02fc301f894cfa6ffbbe51bff6d6c4aab1d9690d4419f82bc",
+    "lines": 100,
+    "bytes": 5953
+  },
+  "rotation_screen": {
+    "path": "rotation-screen.md",
+    "sha256": "5d45f861805de8cf0d7f6454664307d3d52a7cdd7977471720e643f552ef019c",
+    "lines": 58,
+    "bytes": 3370
+  },
+  "review": {
+    "path": "review.md",
+    "sha256": "da57f31a5395fe1f5b3673c40f7a20af1cdaf2e8b39558047b1cd6689e8c329a",
+    "lines": 19,
+    "bytes": 2814
+  },
+  "main_review_scope": "Two participating AI reviewers actually read final full 100-line main and confirmed hash. One derived global and one directional formulas; not noncontributor review.",
+  "rotation_review_scope": "One participating and one non-deriving AI reviewer actually read final full 58-line screen and confirmed hash.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/chao-dyn/9709003v1",
+      "read_scope": "Root read complete Section3 (34)-(52), relevant Section2 (24)-(33), Section5 opening additional assumptions. No full-paper validation."
+    },
+    {
+      "url": "https://arxiv.org/html/nlin/0512034v4",
+      "read_scope": "Root read Section2 Theorem1 and direct proof and surrounding Euler statements. Not imported as positive-viscosity regularity."
+    }
+  ],
+  "dedup": "GP/PGR full; TP1-195; HS full126lines; route guide full. Agent bounded full GRE/GRC/GPH screen found no new input; exact ranges in review. Search hits not universal novelty proof.",
+  "conclusions": [
+    "Complete b=Sω and directional alpha/beta dynamics retain unpaid signed pressure and viscous mixtures; fixed coefficients cannot cancel transverse pressure while controlling stretch.",
+    "Global production derivative is covered by the existing unfiltered-operator specialization of TP.14, not a new bound.",
+    "SO3 invariant solenoidal smooth mean vanishes, but complete center strain stays in angular j<=2 and full nonlinear transfers survive."
+  ],
+  "limits": [
+    "No new general regularity estimate, no new PF common scale, no singularity or probability inference.",
+    "No impossibility claim for broader signed dynamical estimates.",
+    "No newly accepted distinct dynamical candidate after these bounded alternatives; require specific new original-equation input, not renamed missing norms."
+  ],
+  "continuous_authorization": "Unchanged; this is not a user pause or a publication wait. Do not automatically reopen completed equivalent screens.",
+  "execution_scope": "Analytic bounded checks only; preserve original fixed viscosity/domain/datum and all existing checkpoints.",
+  "new_general_regularity_result": false,
+  "novelty_established": false,
+  "release_created": false,
+  "publisher_handoff_sent": false,
+  "scientific_computation": false
+}
