@@ -1,0 +1,86 @@
+{
+  "classification": "PRIVATE_CORE",
+  "status": "ACCEPTED_CONDITIONAL_FIXED_HEAT_CIRCULATION_OBSTRUCTION",
+  "accepted_utc": "2026-09-22T09:18:14.588710+00:00",
+  "files": [
+    {
+      "path": "research/reverse/heat-circulation-budget/CONTRACT.md",
+      "lines": 45,
+      "bytes": 4144,
+      "sha256": "31403cf3404ce513f2e1dda9e7c6198cfcba3357ac596a13c508f462245677eb",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/CONTRACT_HISTORY_REVIEW.md",
+      "lines": 31,
+      "bytes": 5177,
+      "sha256": "4ac92d413bc795a3f385bebfc7006b45a3299278f131f8b3d3c155906f635fbe",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/MEAN_CIRCULATION_PROOF.md",
+      "lines": 102,
+      "bytes": 7499,
+      "sha256": "9be911614cbdea67aea7297a26286f58755a7497eaf846f5b526dd489788636f",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/CIRCULATION_INDEPENDENT_REVIEW.md",
+      "lines": 31,
+      "bytes": 6112,
+      "sha256": "95f6553c6913cf5d398170d55c366dd5db3358f5d4bfc44a4954ea7c2716e277",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/GLOBAL_WAVE_BOUND.md",
+      "lines": 135,
+      "bytes": 12954,
+      "sha256": "73cc38c956ff020add33c53e93b3a50d4001521f6fb6b285290f2cb180ea5341",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/GLOBAL_WAVE_REVIEW.md",
+      "lines": 35,
+      "bytes": 7663,
+      "sha256": "1e4af9d4fa57f66ebb90af9bb5b2b3db587046ad40d6ad1e4121c8c0a63cd34d",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/SYNTHESIS.md",
+      "lines": 60,
+      "bytes": 4537,
+      "sha256": "661a860ddd52f7fe6c2bc85e2dbfac84045f900be40413af7f9c806e54404a53",
+      "root_read": "full actual text read in resumed turn"
+    },
+    {
+      "path": "research/reverse/heat-circulation-budget/FINAL_SCOPE_REVIEW.md",
+      "lines": 42,
+      "bytes": 7134,
+      "sha256": "79e76475afb5201b5c0ae8efe5402a7c462e26f9ce2c39f0e654b4b06981495b",
+      "root_read": "full actual text read in resumed turn"
+    }
+  ],
+  "scientific_scope": {
+    "local_mean_identity": "CP.1-4 on each already existing finite smooth window; actual pressure, axis and all side boundary retained",
+    "actual_fixed_heat_inputs": "CP.5-6 and GW.1-16 under stated source construction and implementation estimates",
+    "whole_tail": "For every t_star<1, same fixed G_h is not identically zero on the whole [t_star,1)",
+    "actual_residual_budget": "Integral from t_star to t of ||(r(Pi G_h)_theta)_+||_infty,D >= c0 tau^-h - B0 - 4 Cw/(3 h lambda_p^2) tau^(-3h/4); eventually >= c0/2 tau^-h",
+    "scope": "CONDITIONAL NO-CANDIDATE for this fixed V_h as an entire unforced terminal tail only"
+  },
+  "not_proved": {
+    "each_time_residual_nonzero": true,
+    "C_chi_zero_or_nonzero": true,
+    "unforced_reconstruction_V_h_plus_e": true,
+    "fixed_datum_infinite_scales": true,
+    "uniform_autonomous_return": true,
+    "general_A_or_B": true,
+    "external_whole_paper_or_Lean_verification": true
+  },
+  "fixed_objects": "Same U, lambda_p, h, unit torus, nu=1, rho=1-t and fixed D; old 2pi a_star is separate and unchanged",
+  "review": "Nonblind non-author AI component and composition reviews; not human peer review, formal machine certificate or novelty claim",
+  "scientific_executions": 0,
+  "arrays_decoded": 0,
+  "new_scientific_figures": [],
+  "public_export_authorization": false,
+  "continuation": "Close further fixed-field diagnostics. Compare actual fixed-data whole-tail correction inputs with scale-uniform autonomous return; select only one supported bridge."
+}

@@ -1,0 +1,24 @@
+{
+  "classification": "PRIVATE_CORE",
+  "freeze_commit": "2288725a6f7e60d2a5f6ed38a4b6e1026073ab35",
+  "actual_git_blobs_read": 3,
+  "status": "PASS",
+  "files": [
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/freeze.json",
+      "bytes": 19057,
+      "sha256": "bd6e0877d1d89857ace51244ed70fbbfcf1a901e1b1f363f08b96dbb4a5ca19b"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/source-object-verification-20260922.json",
+      "bytes": 13840,
+      "sha256": "6a05e7c9142469898e2e82f4d1b67687d64766e69518f75ddbbaffffe04b07db"
+    },
+    {
+      "path": "research/reverse/heat-signed-pairing-preflight/FREEZE_SCOPE_REVIEW.md",
+      "bytes": 4670,
+      "sha256": "8b9d0e0b0d335166efbbfd8bde26b18dbabf7d6cb760319a31fa4b3c8f370316"
+    }
+  ],
+  "scientific_execution": false
+}

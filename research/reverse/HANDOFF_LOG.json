@@ -470,6 +470,24 @@
       "tool_receipt": {
         "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
       }
+    },
+    {
+      "release_id": "ReverseNS-20260922-FixedHeatSignedPairing",
+      "source_commit": "3b2524ece331aa59b9c8b6bc9eb882c5a095c2fd",
+      "freeze_commit": "2288725a6f7e60d2a5f6ed38a4b6e1026073ab35",
+      "freeze_manifest_sha256": "bd6e0877d1d89857ace51244ed70fbbfcf1a901e1b1f363f08b96dbb4a5ca19b",
+      "target_thread_id": "01a06480-0532-7fd0-bdf0-57571465a2d4",
+      "channel": "PRIVATE_ARCHIVE",
+      "dispatch_status": "SENT_ONCE_TOOL_CONFIRMED",
+      "intent_at_utc": "2026-09-22T09:16:22.183731+00:00",
+      "archive_status": "NOT_OBSERVED_BY_RESEARCH",
+      "do_not_resend": true,
+      "recorded_at_utc": "2026-09-22T09:16:22.990154+00:00",
+      "sent_at_utc": null,
+      "sent_time_note": "Tool returned matching threadId; exact dispatch timestamp not supplied",
+      "tool_receipt": {
+        "threadId": "01a06480-0532-7fd0-bdf0-57571465a2d4"
+      }
     }
   ],
   "forward_exchange": "Concrete fixed-seed scope and obstacle sent once to 019fb8c8-96a8-7320-bb59-3ab9e8b7e29e; no response dependency",
